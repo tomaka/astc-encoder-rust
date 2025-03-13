@@ -1026,7 +1026,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     as *mut uint8_t);
                 _15 = _106 as uint32_t;
                 _107 = _13;
-                _108 = _ZNK10block_mode21get_weight_quant_modeEv(_107);
+                _108 = super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_107);
                 _16 = _108;
                 _109 = _16;
                 _110 = _ZL15get_quant_level12quant_method(_109);
@@ -1661,19 +1661,6 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
         .as_mut_ptr()
         .offset(_367 as uint64_t as int64_t as isize)
         as *mut l_struct_struct_OC_decimation_info as *mut libc::c_void;
-}
-#[no_mangle]
-#[inline(never)]
-pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
-    mut _368: *mut libc::c_void,
-) -> uint32_t {
-    let mut _369: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _370: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _371: uint8_t = 0;
-    _369 = _368;
-    _370 = _369;
-    _371 = *(&mut (*(_370 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
-    return _371 as uint32_t;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _372: uint32_t) -> uint32_t {

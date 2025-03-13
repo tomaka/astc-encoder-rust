@@ -24,3 +24,4 @@ Unfortunately, the generated Rust project doesn't compile immediately, and needs
 - Two calls to `abs(a)` where `a` is a `u32` have been replaced with just `a`.
 - Some unaligned fields pointer grabbing have been fixed using the `&raw mut` syntax.
 - One [call to `LLVMMul_uov`](https://github.com/JuliaHubOSS/llvm-cbe/blob/732f15aa9a7f7f63e2acdcb9b9836de70ee74135/lib/Target/CBackend/CBackend.cpp#L4640-L4643), which is equivalent to [`std::instrinsics::mul_with_overflow`](https://doc.rust-lang.org/std/intrinsics/fn.mul_with_overflow.html), was replaced with [`u32::overflowing_mul`](https://doc.rust-lang.org/std/primitive.u32.html#method.overflowing_mul).
+- `_ZN4astc5clampIfEET_S1_S1_S1_`, `_ZN4astc5clampIiEET_S1_S1_S1_`, `_ZNK10block_mode21get_weight_quant_modeEv` were each defined multiple times. Extra definitions have been removed.
