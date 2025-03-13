@@ -1925,7 +1925,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                                                             {
                                                                 _413 = _320;
                                                                 _414 = _319;
-                                                                _415 = super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_414);
+                                                                _415 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_414);
                                                                 _ZN15decimation_mode14set_ref_2planeE12quant_method(
                                                                     _413,
                                                                     _415,
@@ -1933,7 +1933,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                                                             } else {
                                                                 _416 = _320;
                                                                 _417 = _319;
-                                                                _418 = super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_417);
+                                                                _418 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_417);
                                                                 _ZN15decimation_mode14set_ref_1planeE12quant_method(
                                                                     _416,
                                                                     _418,

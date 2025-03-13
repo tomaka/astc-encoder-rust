@@ -1026,7 +1026,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     as *mut uint8_t);
                 _15 = _106 as uint32_t;
                 _107 = _13;
-                _108 = super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_107);
+                _108 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_107);
                 _16 = _108;
                 _109 = _16;
                 _110 = _ZL15get_quant_level12quant_method(_109);

@@ -3742,7 +3742,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
             _522 = _ZNK21block_size_descriptor14get_block_modeEj(_520, _521 as uint32_t);
             _215 = _522;
             _523 = _215;
-            _524 = super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_523);
+            _524 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_523);
             _212 = _524;
             _525 = *(&mut *(_207.array)
                 .as_mut_ptr()
@@ -6934,7 +6934,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     _1374 = _1009;
                                     _1375 = _1041;
                                     _1376 = _1042;
-                                    _1377 = super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_1376);
+                                    _1377 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_1376);
                                     _Z40compute_quantized_weights_for_decimationRK15decimation_infoffPKfPfPh12quant_method(
                                         _1365,
                                         _1368,
@@ -12844,8 +12844,9 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                         _2982 = _2334;
                         _2983 = _2399;
                         _2984 = _2400;
-                        _2985 =
-                            super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_2984);
+                        _2985 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(
+                            _2984,
+                        );
                         _Z40compute_quantized_weights_for_decimationRK15decimation_infoffPKfPfPh12quant_method(
                             _2973,
                             _2976,
@@ -12890,8 +12891,9 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                         _2995 = _2334;
                         _2996 = _2399;
                         _2997 = _2400;
-                        _2998 =
-                            super::astc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_2997);
+                        _2998 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(
+                            _2997,
+                        );
                         _Z40compute_quantized_weights_for_decimationRK15decimation_infoffPKfPfPh12quant_method(
                             _2986,
                             _2989,
