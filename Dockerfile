@@ -46,6 +46,7 @@ RUN for f in /root/astc-encoder/Source/astcenc_*.cpp; do clang -fno-builtin -D A
 # Call `llvm-cbe` to turn all the LLVM IR files into C
 RUN for f in *.ll; do llvm-cbe $f; done
 # Unfortunately, including `math.h` seems to break c2rust due to some weird stuff in `math-vector.h`. Thankfully, this is easily bypassed.
+# See also <https://github.com/immunant/c2rust/issues/1204>.
 RUN sed -i 's/define __ADVSIMD_VEC_MATH_SUPPORTED//' /usr/include/aarch64-linux-gnu/bits/math-vector.h
 # Create a dummy CMake project for the C code just to be able to intercept the build configuration and later pass it to c2rust
 RUN echo "cmake_minimum_required(VERSION 3.15)" >> CMakeLists.txt
