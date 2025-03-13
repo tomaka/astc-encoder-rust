@@ -8030,10 +8030,18 @@ unsafe extern "C" fn _ZL28luminance_alpha_delta_unpackPKhR5vint4S2_(
     _2382 = _2354;
     _2354 = llvm_add_u32(_2382, _2381);
     _2383 = _2352;
-    _2384 = _ZN4astc5clampIiEET_S1_S1_S1_(_2383, 0, 255 as libc::c_int as uint32_t);
+    _2384 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+        _2383,
+        0,
+        255 as libc::c_int as uint32_t,
+    );
     _2352 = _2384;
     _2385 = _2354;
-    _2386 = _ZN4astc5clampIiEET_S1_S1_S1_(_2385, 0, 255 as libc::c_int as uint32_t);
+    _2386 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+        _2385,
+        0,
+        255 as libc::c_int as uint32_t,
+    );
     _2354 = _2386;
     _2387 = _2351;
     _2388 = _2351;
@@ -9850,22 +9858,46 @@ unsafe extern "C" fn _ZL14hdr_rgb_unpackPKhR5vint4S2_(
         _3079 = _2915;
         _2933 = llvm_sub_u32(llvm_sub_u32(llvm_sub_u32(_3076, _3077), _3078), _3079);
         _3080 = _2931;
-        _3081 = _ZN4astc5clampIiEET_S1_S1_S1_(_3080, 0, 4095 as libc::c_int as uint32_t);
+        _3081 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+            _3080,
+            0,
+            4095 as libc::c_int as uint32_t,
+        );
         _2931 = _3081;
         _3082 = _2932;
-        _3083 = _ZN4astc5clampIiEET_S1_S1_S1_(_3082, 0, 4095 as libc::c_int as uint32_t);
+        _3083 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+            _3082,
+            0,
+            4095 as libc::c_int as uint32_t,
+        );
         _2932 = _3083;
         _3084 = _2933;
-        _3085 = _ZN4astc5clampIiEET_S1_S1_S1_(_3084, 0, 4095 as libc::c_int as uint32_t);
+        _3085 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+            _3084,
+            0,
+            4095 as libc::c_int as uint32_t,
+        );
         _2933 = _3085;
         _3086 = _2928;
-        _3087 = _ZN4astc5clampIiEET_S1_S1_S1_(_3086, 0, 4095 as libc::c_int as uint32_t);
+        _3087 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+            _3086,
+            0,
+            4095 as libc::c_int as uint32_t,
+        );
         _2928 = _3087;
         _3088 = _2929;
-        _3089 = _ZN4astc5clampIiEET_S1_S1_S1_(_3088, 0, 4095 as libc::c_int as uint32_t);
+        _3089 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+            _3088,
+            0,
+            4095 as libc::c_int as uint32_t,
+        );
         _2929 = _3089;
         _3090 = _2930;
-        _3091 = _ZN4astc5clampIiEET_S1_S1_S1_(_3090, 0, 4095 as libc::c_int as uint32_t);
+        _3091 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
+            _3090,
+            0,
+            4095 as libc::c_int as uint32_t,
+        );
         _2930 = _3091;
         _3092 = _2907;
         match _3092 {
@@ -10109,47 +10141,6 @@ unsafe extern "C" fn _ZN4astcL3minIiEET_S1_S1_(
     }
     _3217 = _3217__PHI_TEMPORARY;
     return _3217;
-}
-#[no_mangle]
-#[inline(never)]
-pub unsafe extern "C" fn _ZN4astc5clampIiEET_S1_S1_S1_(
-    mut _3221: uint32_t,
-    mut _3222: uint32_t,
-    mut _3223: uint32_t,
-) -> uint32_t {
-    let mut _3224: uint32_t = 0;
-    let mut _3225: uint32_t = 0;
-    let mut _3226: uint32_t = 0;
-    let mut _3227: uint32_t = 0;
-    let mut _3228: uint32_t = 0;
-    let mut _3229: uint32_t = 0;
-    let mut _3230: uint32_t = 0;
-    let mut _3231: uint32_t = 0;
-    let mut _3232: uint32_t = 0;
-    let mut _3233: uint32_t = 0;
-    let mut _3234: uint32_t = 0;
-    let mut _3235: uint32_t = 0;
-    _3225 = _3221;
-    _3226 = _3222;
-    _3227 = _3223;
-    _3228 = _3225;
-    _3229 = _3227;
-    if _3228 as int32_t > _3229 as int32_t {
-        _3230 = _3227;
-        _3224 = _3230;
-    } else {
-        _3231 = _3225;
-        _3232 = _3226;
-        if _3231 as int32_t > _3232 as int32_t {
-            _3233 = _3225;
-            _3224 = _3233;
-        } else {
-            _3234 = _3226;
-            _3224 = _3234;
-        }
-    }
-    _3235 = _3224;
-    return _3235;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL16hdr_alpha_unpackPKhRiS1_(

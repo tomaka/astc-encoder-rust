@@ -6757,7 +6757,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 as *mut l_struct_struct_OC_encoding_choice_errors))
                 .field4 as *mut uint8_t) = (_1631 as libc::c_uint & 1 as libc::c_uint) as bool_0;
             _1634 = _1112;
-            _1635 = _ZNK11image_block12is_luminanceEv(_1634);
+            _1635 = super::astcenc_compress_symbolic_cbe::_ZNK11image_block12is_luminanceEv(_1634);
             _1636 = _1115;
             _1637 = _1118;
             *(&mut (*(&mut *(_1636 as *mut l_struct_struct_OC_encoding_choice_errors)
@@ -26952,66 +26952,6 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *const l_array_243_uint8_t as *mut libc::c_void,
         );
     };
-}
-#[no_mangle]
-#[inline(never)]
-pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(mut _7300: *mut libc::c_void) -> bool_0 {
-    let mut _7301: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7302: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7303: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7304: libc::c_float = 0.;
-    let mut _7305: uint8_t = 0;
-    let mut _7306: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7307: libc::c_float = 0.;
-    let mut _7308: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7309: libc::c_float = 0.;
-    let mut _7310: libc::c_float = 0.;
-    let mut _7311: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7312: libc::c_float = 0.;
-    let mut _7313: libc::c_float = 0.;
-    let mut _7314: bool_0 = 0;
-    let mut _7314__PHI_TEMPORARY: bool_0 = 0;
-    let mut _7315: uint8_t = 0;
-    let mut _7316: uint8_t = 0;
-    let mut _7317: bool_0 = 0;
-    let mut _7318: bool_0 = 0;
-    let mut _7318__PHI_TEMPORARY: bool_0 = 0;
-    _7303 = _7300;
-    _7306 = _7303;
-    _7307 = _ZNK11image_block17get_default_alphaEv(_7306);
-    _7304 = _7307;
-    _7301 = &mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field6
-        as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
-    _7308 = _7301;
-    _7309 = *(&mut *((*(_7308 as *mut l_array_4_float)).array)
-        .as_mut_ptr()
-        .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _7310 = _7304;
-    if llvm_fcmp_oeq(_7309 as libc::c_double, _7310 as libc::c_double) != 0 {
-        _7302 = &mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field8
-            as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
-        _7311 = _7302;
-        _7312 = *(&mut *((*(_7311 as *mut l_array_4_float)).array)
-            .as_mut_ptr()
-            .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7313 = _7304;
-        _7314__PHI_TEMPORARY =
-            llvm_fcmp_oeq(_7312 as libc::c_double, _7313 as libc::c_double) as bool_0;
-    } else {
-        _7314__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
-    }
-    _7314 = _7314__PHI_TEMPORARY;
-    _7305 = _7314;
-    _7315 = *(&mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
-    if _7315 as libc::c_uint & 1 as libc::c_uint != 0 {
-        _7316 = _7305;
-        _7317 = (_7316 as libc::c_uint & 1 as libc::c_uint) as bool_0;
-        _7318__PHI_TEMPORARY = _7317;
-    } else {
-        _7318__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
-    }
-    _7318 = _7318__PHI_TEMPORARY;
-    return _7318;
 }
 #[no_mangle]
 #[inline(never)]

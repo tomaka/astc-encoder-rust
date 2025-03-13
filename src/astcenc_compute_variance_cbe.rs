@@ -1369,7 +1369,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _252 = _70;
             _253 =
                 *(&mut (*(_252 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
-            _254 = _ZN4astc5clampIiEET_S1_S1_S1_(
+            _254 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                 _251,
                 0,
                 llvm_sub_u32(_253, 1 as libc::c_int as uint32_t),
@@ -1401,7 +1401,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _265 = _70;
                 _266 = *(&mut (*(_265 as *mut l_struct_struct_OC_astcenc_image)).field1
                     as *mut uint32_t);
-                _267 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                _267 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                     _264,
                     0,
                     llvm_sub_u32(_266, 1 as libc::c_int as uint32_t),
@@ -1425,7 +1425,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _274 = _70;
                     _275 = *(&mut (*(_274 as *mut l_struct_struct_OC_astcenc_image)).field0
                         as *mut uint32_t);
-                    _276 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                    _276 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                         _273,
                         0,
                         llvm_sub_u32(_275, 1 as libc::c_int as uint32_t),
@@ -1778,7 +1778,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _363 = _70;
                 _364 = *(&mut (*(_363 as *mut l_struct_struct_OC_astcenc_image)).field2
                     as *mut uint32_t);
-                _365 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                _365 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                     _362,
                     0,
                     llvm_sub_u32(_364, 1 as libc::c_int as uint32_t),
@@ -1810,7 +1810,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _376 = _70;
                     _377 = *(&mut (*(_376 as *mut l_struct_struct_OC_astcenc_image)).field1
                         as *mut uint32_t);
-                    _378 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                    _378 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                         _375,
                         0,
                         llvm_sub_u32(_377, 1 as libc::c_int as uint32_t),
@@ -1834,7 +1834,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         _385 = _70;
                         _386 = *(&mut (*(_385 as *mut l_struct_struct_OC_astcenc_image)).field0
                             as *mut uint32_t);
-                        _387 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                        _387 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                             _384,
                             0,
                             llvm_sub_u32(_386, 1 as libc::c_int as uint32_t),
@@ -2245,7 +2245,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _490 = _70;
                     _491 = *(&mut (*(_490 as *mut l_struct_struct_OC_astcenc_image)).field2
                         as *mut uint32_t);
-                    _492 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                    _492 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                         _489,
                         0,
                         llvm_sub_u32(_491, 1 as libc::c_int as uint32_t),
@@ -2277,7 +2277,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         _503 = _70;
                         _504 = *(&mut (*(_503 as *mut l_struct_struct_OC_astcenc_image)).field1
                             as *mut uint32_t);
-                        _505 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                        _505 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                             _502,
                             0,
                             llvm_sub_u32(_504, 1 as libc::c_int as uint32_t),
@@ -2304,7 +2304,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _512 = _70;
                             _513 = *(&mut (*(_512 as *mut l_struct_struct_OC_astcenc_image)).field0
                                 as *mut uint32_t);
-                            _514 = _ZN4astc5clampIiEET_S1_S1_S1_(
+                            _514 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIiEET_S1_S1_S1_(
                                 _511,
                                 0,
                                 llvm_sub_u32(_513, 1 as libc::c_int as uint32_t),
@@ -3608,47 +3608,6 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _174 = llvm_add_u32(_880, 1 as libc::c_int as uint32_t);
         }
     };
-}
-#[no_mangle]
-#[inline(never)]
-pub unsafe extern "C" fn _ZN4astc5clampIiEET_S1_S1_S1_(
-    mut _1006: uint32_t,
-    mut _1007: uint32_t,
-    mut _1008: uint32_t,
-) -> uint32_t {
-    let mut _1009: uint32_t = 0;
-    let mut _1010: uint32_t = 0;
-    let mut _1011: uint32_t = 0;
-    let mut _1012: uint32_t = 0;
-    let mut _1013: uint32_t = 0;
-    let mut _1014: uint32_t = 0;
-    let mut _1015: uint32_t = 0;
-    let mut _1016: uint32_t = 0;
-    let mut _1017: uint32_t = 0;
-    let mut _1018: uint32_t = 0;
-    let mut _1019: uint32_t = 0;
-    let mut _1020: uint32_t = 0;
-    _1010 = _1006;
-    _1011 = _1007;
-    _1012 = _1008;
-    _1013 = _1010;
-    _1014 = _1012;
-    if _1013 as int32_t > _1014 as int32_t {
-        _1015 = _1012;
-        _1009 = _1015;
-    } else {
-        _1016 = _1010;
-        _1017 = _1011;
-        if _1016 as int32_t > _1017 as int32_t {
-            _1018 = _1010;
-            _1009 = _1018;
-        } else {
-            _1019 = _1011;
-            _1009 = _1019;
-        }
-    }
-    _1020 = _1009;
-    return _1020;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
