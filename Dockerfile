@@ -33,31 +33,33 @@ RUN echo "#define VERSION_STRING \"0.0.0\"" >> astcenccli_version.h
 RUN echo "#define YEAR_STRING \"2021\"" >> astcenccli_version.h
 # The `astcenc_vecmathlib_none_4.h` file contains calls to `nearbyint`, which is unfortunately unimplemented in `llvm-cbe`. Replacing it with `round` fixes the issue.
 # See <https://github.com/ARM-software/astc-encoder/blob/b5b87efbf679a36abbf03cbb1177982d60ac8d5b/Source/astcenc_vecmathlib_none_4.h#L869-L873>.
-# Because the code does `assert(std::fegetround() == FE_TONEAREST);`, replacing with `round` doesn't even change the behaviour.
+# Because the code does `assert(std::fegetround() == FE_TONEAREST);` right before, replacing with `round` doesn't even change the behaviour.
 RUN sed -i 's/std::nearbyint/std::round/' astcenc_vecmathlib_none_4.h
 
 # Now do the transpiling
 WORKDIR /root
 RUN mkdir output
 WORKDIR output
+# Compile all the C++ files with `-emit-llvm`
 # We don't compile the `astcenccli_` files, as we don't need the CLI
 RUN for f in /root/astc-encoder/Source/astcenc_*.cpp; do clang -fno-builtin -D ASTCENC_NEON=0 -D ASTCENC_SVE=0 -D ASTCENC_SSE=0 -D ASTCENC_AVX=0 -D ASTCENC_POPCNT=0 -D ASTCENC_F16C=0 -mcpu=generic -fno-slp-vectorize -S -emit-llvm $f; done
+# Call `llvm-cbe` to turn all the LLVM IR files into C
 RUN for f in *.ll; do llvm-cbe $f; done
-# Unfortunately, including `math.h` seems to break c2rust due to some weird
-# stuff in `math-vector.h`. Thankfully, this is easily bypassed.
+# Unfortunately, including `math.h` seems to break c2rust due to some weird stuff in `math-vector.h`. Thankfully, this is easily bypassed.
 RUN sed -i 's/define __ADVSIMD_VEC_MATH_SUPPORTED//' /usr/include/aarch64-linux-gnu/bits/math-vector.h
-# Create a dummy CMake project just to be able to intercept the build configuration
+# Create a dummy CMake project for the C code just to be able to intercept the build configuration and later pass it to c2rust
 RUN echo "cmake_minimum_required(VERSION 3.15)" >> CMakeLists.txt
 RUN echo "project(astcencoder)" >> CMakeLists.txt
 RUN echo "add_library(AstcEncoder `ls -1a *.cbe.c`)" >> CMakeLists.txt
 RUN mkdir build && cd build && cmake -DCMAKE_C_COMPILER=clang -DCMAKE_EXPORT_COMPILE_COMMANDS=1 ..
-# TODO: doesn't work RUN cd build && make
+
 # Create a directory for the final output
 RUN mkdir final_output
 # Turn the C code into Rust
 # We need to increase the stack size to avoid stack overflow issues
 RUN prlimit --stack=67108864 c2rust transpile --output-dir final_output --emit-build-files build/compile_commands.json
 WORKDIR final_output
+# For some reason, c2rust emits a rust-toolchain file to pin the Rust version to a specific nightly, but this seems completely unnecessary
 RUN rm rust-toolchain.toml
 
 # Run bindgen
