@@ -92,6 +92,9 @@ fn sqrtf(v: f32) -> f32 {
 fn logf(v: f32) -> f32 {
     v.ln()
 }
+fn fegetround() -> core::ffi::c_int {
+    0
+}
 fn __assert_fail(
     _assertion: *mut core::ffi::c_void,
     _file: *mut core::ffi::c_void,
