@@ -73,13 +73,13 @@ pub unsafe extern "C" fn _ZN4astc4randEPm(mut _5: *mut core::ffi::c_void) -> uin
     _17 = _8;
     _8 = _17 ^ _16;
     _18 = _7;
-    _19 = _ZL4rotlmi(_18, 24 as core::ffi::c_int as uint32_t);
+    _19 = _ZL4rotlmi(_18, 24);
     _20 = _8;
     _21 = _8;
     _22 = _6;
     *(_22 as *mut uint64_t) = _19 ^ _20 ^ _21 << 16 as core::ffi::c_int;
     _23 = _8;
-    _24 = _ZL4rotlmi(_23, 37 as core::ffi::c_int as uint32_t);
+    _24 = _ZL4rotlmi(_23, 37);
     _25 = _6;
     *(&mut *(_25 as *mut uint64_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint64_t) = _24;
@@ -100,9 +100,5 @@ unsafe extern "C" fn _ZL4rotlmi(mut _27: uint64_t, mut _28: uint32_t) -> uint64_
     _32 = _30;
     _33 = _29;
     _34 = _30;
-    return _31 << _32 as uint64_t
-        | llvm_lshr_u64(
-            _33,
-            llvm_sub_u32(64 as core::ffi::c_int as uint32_t, _34) as uint64_t,
-        );
+    return _31 << _32 as uint64_t | llvm_lshr_u64(_33, llvm_sub_u32(64, _34) as uint64_t);
 }

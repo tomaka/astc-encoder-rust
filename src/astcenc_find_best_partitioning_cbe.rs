@@ -3232,10 +3232,9 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
             _575 = _ZN4astcL3minIjEET_S1_S1_(_573, _574);
             _453 = _575;
             _576 = _449;
-            _577 =
-                _ZNK11image_block19is_constant_channelEi(_576, 3 as core::ffi::c_int as uint32_t);
+            _577 = _ZNK11image_block19is_constant_channelEi(_576, 3);
             _458 = (_577 as core::ffi::c_int ^ 1 as core::ffi::c_int) as bool_0;
-            _463 = 0 as core::ffi::c_int as uint32_t;
+            _463 = 0;
             loop {
                 _578 = _463;
                 _579 = _453;
@@ -3253,11 +3252,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                     .offset(_581 as uint64_t as int64_t as isize)
                     as *mut core::ffi::c_float) = 1.00000002E+30f64 as core::ffi::c_float;
                 _582 = _463;
-                _463 = llvm_add_u32(_582, 1 as core::ffi::c_int as uint32_t);
+                _463 = llvm_add_u32(_582, 1);
             }
             _583 = _458;
             if _583 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-                _464 = 0 as core::ffi::c_int as uint32_t;
+                _464 = 0;
                 loop {
                     _584 = _464;
                     _585 = _451;
@@ -3286,7 +3285,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             as *mut l_struct_struct_OC_partition_metrics
                             as *mut core::ffi::c_void,
                     );
-                    _473 = 0 as core::ffi::c_int as uint32_t;
+                    _473 = 0;
                     loop {
                         _594 = _473;
                         _595 = _450;
@@ -3312,7 +3311,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             &mut (*(_597 as *mut l_struct_struct_OC_partition_metrics)).field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _600 = _474;
                         _601 = memcpy(
@@ -3320,7 +3319,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             &mut (*(_600 as *mut l_struct_struct_OC_partition_metrics)).field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _312 =
                             &mut _410 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -3354,12 +3353,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _610 = memcpy(
                             &mut _416 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _413 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _611 = memcpy(
                             &mut _417 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _413 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _612 =
                             *(&mut _416 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3372,12 +3371,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _614 = memcpy(
                             &mut _383 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _380 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _615 = memcpy(
                             &mut _384 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _616 =
                             *(&mut _383 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3457,7 +3456,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _632 = memcpy(
                             &mut _385 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _382 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _633 =
                             *(&mut _385 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3521,14 +3520,14 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _413 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _647 = memcpy(
                                 &mut _420 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _415 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _648 = *(&mut _420 as *mut l_struct_struct_OC_vfloat4
                                 as *mut l_array_4_float);
@@ -3666,7 +3665,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _414 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                         }
                         _680 = _412;
@@ -3681,7 +3680,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _475 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _683 = _473;
                         _684 = memcpy(
@@ -3693,7 +3692,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _685 = _473;
                         _686 = memcpy(
@@ -3705,7 +3704,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _687 = _473;
                         _688 = memcpy(
@@ -3717,7 +3716,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _689 = _473;
                         _690 = memcpy(
@@ -3729,7 +3728,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _691 = *(&mut _483.field0 as *mut l_array_4_float);
                         _692 = *(&mut _484.field0 as *mut l_array_4_float);
@@ -3740,12 +3739,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _693 = memcpy(
                             &mut _343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _340 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _694 = memcpy(
                             &mut _344 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _341 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _695 =
                             *(&mut _343 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3825,7 +3824,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _711 = memcpy(
                             &mut _345 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _342 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _712 =
                             *(&mut _345 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -4028,7 +4027,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _478 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _757 = _473;
                         _758 = _473;
@@ -4047,7 +4046,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _330 =
                             &mut _332 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -4082,7 +4081,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _485 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _768 = _474;
                         _769 = memcpy(
@@ -4090,7 +4089,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             &mut (*(_768 as *mut l_struct_struct_OC_partition_metrics)).field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _310 =
                             &mut _411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -4124,12 +4123,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _778 = memcpy(
                             &mut _425 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _422 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _779 = memcpy(
                             &mut _426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _422 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _780 =
                             *(&mut _425 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -4142,12 +4141,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _782 = memcpy(
                             &mut _373 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _370 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _783 = memcpy(
                             &mut _374 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _371 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _784 =
                             *(&mut _373 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -4227,7 +4226,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _800 = memcpy(
                             &mut _375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _372 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _801 =
                             *(&mut _375 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -4291,14 +4290,14 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _422 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _815 = memcpy(
                                 &mut _429 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _424 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _816 = *(&mut _429 as *mut l_struct_struct_OC_vfloat4
                                 as *mut l_array_4_float);
@@ -4436,7 +4435,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _423 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                         }
                         _848 = _421;
@@ -4451,7 +4450,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _486 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _328 =
                             &mut _333 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -4486,7 +4485,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _489 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _859 = _473;
                         _860 = _473;
@@ -4505,10 +4504,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _862 = _473;
-                        _473 = llvm_add_u32(_862, 1 as core::ffi::c_int as uint32_t);
+                        _473 = llvm_add_u32(_862, 1);
                     }
                     _490 = 0 as core::ffi::c_int as core::ffi::c_float;
                     _491 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -4534,7 +4533,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut _490 as *mut core::ffi::c_float as *mut core::ffi::c_void,
                         &mut _491 as *mut core::ffi::c_float as *mut core::ffi::c_void,
                     );
-                    _492 = 0 as core::ffi::c_int as uint32_t;
+                    _492 = 0;
                     loop {
                         _865 = _492;
                         _866 = _450;
@@ -4584,7 +4583,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _879 = _492;
                         _880 = *(&mut *(_472.array)
@@ -4598,7 +4597,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _882 = memcpy(
                             &mut _274 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _272 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _883 = _273;
                         _266 =
@@ -4709,7 +4708,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _908 = _492;
                         _909 = *(&mut *(_472.array)
@@ -4723,7 +4722,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _911 = memcpy(
                             &mut _284 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _282 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _912 = _283;
                         _276 =
@@ -4827,12 +4826,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _935 = memcpy(
                             &mut _500 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _495 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _936 = memcpy(
                             &mut _501 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _495 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _937 = *(&mut _500.field0 as *mut l_array_4_float);
                         _938 = *(&mut _501.field0 as *mut l_array_4_float);
@@ -4909,7 +4908,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _953 = memcpy(
                             &mut _502 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _494 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _954 = *(&mut _499.field0 as *mut l_array_4_float);
                         _955 = *(&mut _502.field0 as *mut l_array_4_float);
@@ -4920,12 +4919,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _956 = memcpy(
                             &mut _254 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _251 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _957 = memcpy(
                             &mut _255 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _252 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _958 =
                             *(&mut _254 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5005,7 +5004,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _974 = memcpy(
                             &mut _256 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _253 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _975 =
                             *(&mut _256 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5039,12 +5038,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _981 = memcpy(
                             &mut _504 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _497 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _982 = memcpy(
                             &mut _505 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _497 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _983 = *(&mut _504.field0 as *mut l_array_4_float);
                         _984 = *(&mut _505.field0 as *mut l_array_4_float);
@@ -5121,7 +5120,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _999 = memcpy(
                             &mut _506 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _494 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1000 = *(&mut _503.field0 as *mut l_array_4_float);
                         _1001 = *(&mut _506.field0 as *mut l_array_4_float);
@@ -5132,12 +5131,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1002 = memcpy(
                             &mut _263 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _260 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1003 = memcpy(
                             &mut _264 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1004 =
                             *(&mut _263 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5217,7 +5216,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1020 = memcpy(
                             &mut _265 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _262 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1021 =
                             *(&mut _265 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5249,7 +5248,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             llvm_fadd_f32(llvm_fadd_f32(_1022, _1023), llvm_fadd_f32(_1024, _1025)),
                         );
                         _1027 = _492;
-                        _492 = llvm_add_u32(_1027, 1 as core::ffi::c_int as uint32_t);
+                        _492 = llvm_add_u32(_1027, 1);
                     }
                     _1028 = _453;
                     _1029 = _490;
@@ -5286,10 +5285,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             as *mut uint32_t as *mut core::ffi::c_void,
                     );
                     _1034 = _464;
-                    _464 = llvm_add_u32(_1034, 1 as core::ffi::c_int as uint32_t);
+                    _464 = llvm_add_u32(_1034, 1);
                 }
             } else {
-                _507 = 0 as core::ffi::c_int as uint32_t;
+                _507 = 0;
                 loop {
                     _1035 = _507;
                     _1036 = _451;
@@ -5319,7 +5318,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             as *mut l_struct_struct_OC_partition_metrics
                             as *mut core::ffi::c_void,
                     );
-                    _512 = 0 as core::ffi::c_int as uint32_t;
+                    _512 = 0;
                     loop {
                         _1045 = _512;
                         _1046 = _450;
@@ -5350,7 +5349,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             &mut (*(_1049 as *mut l_struct_struct_OC_partition_metrics)).field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1052 = _513;
                         _1053 = memcpy(
@@ -5358,7 +5357,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             &mut (*(_1052 as *mut l_struct_struct_OC_partition_metrics)).field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _245 = 0.577350259f64 as core::ffi::c_float;
                         _1054 = _245;
@@ -5399,12 +5398,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1065 = memcpy(
                             &mut _434 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _431 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1066 = memcpy(
                             &mut _435 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _431 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1067 =
                             *(&mut _434 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5417,12 +5416,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1069 = memcpy(
                             &mut _363 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _360 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1070 = memcpy(
                             &mut _364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _361 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1071 =
                             *(&mut _363 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5502,7 +5501,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1087 = memcpy(
                             &mut _365 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _362 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1088 =
                             *(&mut _365 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5567,14 +5566,14 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _431 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _1102 = memcpy(
                                 &mut _438 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _433 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _1103 = *(&mut _438 as *mut l_struct_struct_OC_vfloat4
                                 as *mut l_array_4_float);
@@ -5712,7 +5711,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _432 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                         }
                         _1135 = _430;
@@ -5726,7 +5725,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _515 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _326 =
                             &mut _334 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -5760,7 +5759,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _518 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1146 = _513;
                         _1147 = memcpy(
@@ -5768,7 +5767,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             &mut (*(_1146 as *mut l_struct_struct_OC_partition_metrics)).field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _247 = 0.577350259f64 as core::ffi::c_float;
                         _1148 = _247;
@@ -5809,12 +5808,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1159 = memcpy(
                             &mut _443 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _440 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1160 = memcpy(
                             &mut _444 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _440 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1161 =
                             *(&mut _443 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5827,12 +5826,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1163 = memcpy(
                             &mut _353 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1164 = memcpy(
                             &mut _354 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1165 =
                             *(&mut _353 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5912,7 +5911,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1181 = memcpy(
                             &mut _355 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _352 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1182 =
                             *(&mut _355 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5977,14 +5976,14 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _440 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _1196 = memcpy(
                                 &mut _447 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _442 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _1197 = *(&mut _447 as *mut l_struct_struct_OC_vfloat4
                                 as *mut l_array_4_float);
@@ -6122,7 +6121,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                     as *mut core::ffi::c_void,
                                 &mut _441 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                         }
                         _1229 = _439;
@@ -6136,7 +6135,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _519 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1232 = _514;
                         _1233 = memcpy(
@@ -6147,7 +6146,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1234 = _514;
                         _1235 = memcpy(
@@ -6158,7 +6157,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1236 = _514;
                         _1237 = memcpy(
@@ -6169,7 +6168,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field0
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1238 = _514;
                         _1239 = memcpy(
@@ -6180,7 +6179,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1240 = *(&mut _527.field0 as *mut l_array_4_float);
                         _1241 = *(&mut _528.field0 as *mut l_array_4_float);
@@ -6191,12 +6190,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1242 = memcpy(
                             &mut _240 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _237 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1243 = memcpy(
                             &mut _241 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _238 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1244 =
                             *(&mut _240 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -6276,7 +6275,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1260 = memcpy(
                             &mut _243 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _239 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1261 =
                             *(&mut _243 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -6480,7 +6479,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _522 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1311 = _514;
                         _1312 = _514;
@@ -6497,7 +6496,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _324 =
                             &mut _335 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -6531,7 +6530,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _529 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1322 = _514;
                         _1323 = _514;
@@ -6548,10 +6547,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1325 = _512;
-                        _512 = llvm_add_u32(_1325, 1 as core::ffi::c_int as uint32_t);
+                        _512 = llvm_add_u32(_1325, 1);
                     }
                     _530 = 0 as core::ffi::c_int as core::ffi::c_float;
                     _531 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -6568,7 +6567,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut _530 as *mut core::ffi::c_float as *mut core::ffi::c_void,
                         &mut _531 as *mut core::ffi::c_float as *mut core::ffi::c_void,
                     );
-                    _532 = 0 as core::ffi::c_int as uint32_t;
+                    _532 = 0;
                     loop {
                         _1328 = _532;
                         _1329 = _450;
@@ -6624,7 +6623,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1343 = _533;
                         _1344 = *(&mut (*(_1343 as *mut l_struct_struct_OC_partition_lines3)).field4
@@ -6636,7 +6635,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1346 = memcpy(
                             &mut _294 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _292 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1347 = _293;
                         _286 =
@@ -6746,7 +6745,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                                 .field1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1372 = _533;
                         _1373 = *(&mut (*(_1372 as *mut l_struct_struct_OC_partition_lines3)).field4
@@ -6758,7 +6757,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1375 = memcpy(
                             &mut _304 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _302 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1376 = _303;
                         _296 =
@@ -6862,12 +6861,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1399 = memcpy(
                             &mut _541 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _536 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1400 = memcpy(
                             &mut _542 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _536 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1401 = *(&mut _541.field0 as *mut l_array_4_float);
                         _1402 = *(&mut _542.field0 as *mut l_array_4_float);
@@ -6944,7 +6943,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1417 = memcpy(
                             &mut _543 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _535 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1418 = *(&mut _540.field0 as *mut l_array_4_float);
                         _1419 = *(&mut _543.field0 as *mut l_array_4_float);
@@ -6955,12 +6954,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1420 = memcpy(
                             &mut _221 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _218 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1421 = memcpy(
                             &mut _222 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _219 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1422 =
                             *(&mut _221 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -7040,7 +7039,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1438 = memcpy(
                             &mut _223 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _220 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1439 =
                             *(&mut _223 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -7067,12 +7066,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1447 = memcpy(
                             &mut _545 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _538 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1448 = memcpy(
                             &mut _546 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _538 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1449 = *(&mut _545.field0 as *mut l_array_4_float);
                         _1450 = *(&mut _546.field0 as *mut l_array_4_float);
@@ -7149,7 +7148,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1465 = memcpy(
                             &mut _547 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _535 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1466 = *(&mut _544.field0 as *mut l_array_4_float);
                         _1467 = *(&mut _547.field0 as *mut l_array_4_float);
@@ -7160,12 +7159,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1468 = memcpy(
                             &mut _230 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _227 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1469 = memcpy(
                             &mut _231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _228 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1470 =
                             *(&mut _230 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -7245,7 +7244,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1486 = memcpy(
                             &mut _232 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _229 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _1487 =
                             *(&mut _232 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -7270,7 +7269,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _531 =
                             llvm_fadd_f32(_1494, llvm_fadd_f32(llvm_fadd_f32(_1489, _1491), _1493));
                         _1495 = _532;
-                        _532 = llvm_add_u32(_1495, 1 as core::ffi::c_int as uint32_t);
+                        _532 = llvm_add_u32(_1495, 1);
                     }
                     _1496 = _453;
                     _1497 = _530;
@@ -7307,10 +7306,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             as *mut uint32_t as *mut core::ffi::c_void,
                     );
                     _1502 = _507;
-                    _507 = llvm_add_u32(_1502, 1 as core::ffi::c_int as uint32_t);
+                    _507 = llvm_add_u32(_1502, 1);
                 }
             }
-            _549 = 0 as core::ffi::c_int as uint32_t;
+            _549 = 0;
             loop {
                 _1503 = _549;
                 _1504 = _453;
@@ -7330,8 +7329,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                 _1511 = _549;
                 *(&mut *(_548.array).as_mut_ptr().offset((llvm_mul_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    2 as core::ffi::c_int as uint32_t,
-                    _1511,
+                    2, _1511
                 ) as uint64_t as int64_t
                     as isize) as *mut uint32_t) = _1510 as uint32_t;
                 _1512 = _448;
@@ -7348,26 +7346,25 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                 *(&mut *(_548.array).as_mut_ptr().offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        2 as core::ffi::c_int as uint32_t,
-                        _1518,
+                        2, _1518,
                     ),
-                    1 as core::ffi::c_int as uint32_t,
+                    1,
                 ) as uint64_t as int64_t
                     as isize) as *mut uint32_t) = _1517 as uint32_t;
                 _1519 = _549;
-                _549 = llvm_add_u32(_1519, 1 as core::ffi::c_int as uint32_t);
+                _549 = llvm_add_u32(_1519, 1);
             }
             _1520 = memset(
                 &mut _550 as *mut l_array_16_uint64_t as *mut core::ffi::c_void,
-                0 as core::ffi::c_int as uint32_t,
-                128 as core::ffi::c_int as uint64_t,
+                0,
+                128,
             );
-            _551 = 0 as core::ffi::c_int as uint32_t;
-            _552 = 0 as core::ffi::c_int as uint32_t;
+            _551 = 0;
+            _552 = 0;
             loop {
                 _1521 = _552;
                 _1522 = _453;
-                if !(_1521 < llvm_mul_u32(_1522, 2 as core::ffi::c_int as uint32_t)) {
+                if !(_1521 < llvm_mul_u32(_1522, 2)) {
                     break;
                 }
                 _1523 = _552;
@@ -7377,9 +7374,9 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                     as *mut uint32_t);
                 _553 = _1524;
                 _1525 = _553;
-                _554 = llvm_udiv_u32(_1525, 64 as core::ffi::c_int as uint32_t);
+                _554 = llvm_udiv_u32(_1525, 64);
                 _1526 = _553;
-                _555 = llvm_urem_u32(_1526, 64 as core::ffi::c_int as uint32_t);
+                _555 = llvm_urem_u32(_1526, 64);
                 _1527 = _554;
                 _1528 = *(&mut *(_550.array)
                     .as_mut_ptr()
@@ -7406,7 +7403,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                     *(_1536 as *mut uint64_t) =
                         _1537 | ((1 as core::ffi::c_int) << _1534 as uint64_t) as uint64_t;
                     _1538 = _551;
-                    _551 = llvm_add_u32(_1538, 1 as core::ffi::c_int as uint32_t);
+                    _551 = llvm_add_u32(_1538, 1);
                     _1539 = _551;
                     _1540 = _453;
                     if _1539 == _1540 {
@@ -7414,7 +7411,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                     }
                 }
                 _1541 = _552;
-                _552 = llvm_add_u32(_1541, 1 as core::ffi::c_int as uint32_t);
+                _552 = llvm_add_u32(_1541, 1);
             }
             _1542 = _551;
             return _1542;
@@ -7422,7 +7419,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
             __assert_fail(
                 &_OC_str_OC_2 as *const l_array_27_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-                577 as core::ffi::c_int as uint32_t,
+                577,
                 &__PRETTY_FUNCTION___OC__Z30find_best_partition_candidatesRK21block_size_descriptorRK11image_blockjjPjj
                     as *const l_array_154_uint8_t as *mut core::ffi::c_void,
             );
@@ -7431,7 +7428,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            576 as core::ffi::c_int as uint32_t,
+            576,
             &__PRETTY_FUNCTION___OC__Z30find_best_partition_candidatesRK21block_size_descriptorRK11image_blockjjPjj
                 as *const l_array_154_uint8_t as *mut core::ffi::c_void,
         );
@@ -7504,7 +7501,7 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
     _1617 = _1613;
     _1618 = _1614;
     _1619 = _1615;
-    _1622 = 0 as core::ffi::c_int as uint32_t;
+    _1622 = 0;
     loop {
         _1628 = _1622;
         if !(_1628 < 3 as core::ffi::c_uint) {
@@ -7565,12 +7562,12 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
                 as *mut core::ffi::c_void,
         );
         _1642 = _1622;
-        _1622 = llvm_add_u32(_1642, 1 as core::ffi::c_int as uint32_t);
+        _1622 = llvm_add_u32(_1642, 1);
     }
     _1643 = memset(
         &mut _1623 as *mut l_array_4_uint64_t as *mut core::ffi::c_void,
-        0 as core::ffi::c_int as uint32_t,
-        32 as core::ffi::c_int as uint64_t,
+        0,
+        32,
     );
     _1644 = _1616;
     _1645 =
@@ -7579,7 +7576,7 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
     _1624 = _1646 as uint32_t;
     _1647 = _1624;
     if _1647 > 0 as core::ffi::c_uint {
-        _1625 = 0 as core::ffi::c_int as uint32_t;
+        _1625 = 0;
         loop {
             _1648 = _1625;
             _1649 = _1624;
@@ -7609,7 +7606,7 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
             *(_1656 as *mut uint64_t) =
                 _1657 | ((1 as core::ffi::c_int) << _1653 as uint64_t) as uint64_t;
             _1658 = _1625;
-            _1625 = llvm_add_u32(_1658, 1 as core::ffi::c_int as uint32_t);
+            _1625 = llvm_add_u32(_1658, 1);
         }
         _1659 = _1616;
         _1660 = _1618;
@@ -7634,10 +7631,8 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        _1663,
-                        1 as core::ffi::c_int as uint32_t,
-                    ) as uint64_t as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_1663, 1)
+                        as uint64_t as int64_t as isize,
                 ) as *mut uint32_t);
         _1665 = _1619;
         _1666 = _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
@@ -7654,7 +7649,7 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
         __assert_fail(
             &_OC_str_OC_3 as *const l_array_22_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            485 as core::ffi::c_int as uint32_t,
+            485,
             &__PRETTY_FUNCTION___OC__ZL33compute_kmeans_partition_orderingRK21block_size_descriptorRK11image_blockjPt
                 as *const l_array_125_uint8_t as *mut core::ffi::c_void,
         );
@@ -7871,10 +7866,10 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _1731 = _1694;
     _1741 = _1730;
     _1696 = &mut _1726 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-    _1697 = 0 as core::ffi::c_int as uint32_t;
-    _1698 = 1 as core::ffi::c_int as uint32_t;
-    _1699 = 2 as core::ffi::c_int as uint32_t;
-    _1700 = 3 as core::ffi::c_int as uint32_t;
+    _1697 = 0;
+    _1698 = 1;
+    _1699 = 2;
+    _1700 = 3;
     _1742 = _1696;
     _1743 = _1697;
     *(_1742 as *mut uint32_t) = _1743;
@@ -7952,7 +7947,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_1764 as *mut uint32_t) = llvm_select_u32(
         ((_1765 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1767 = _1703;
@@ -7963,7 +7958,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1767 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1769 = _1704;
@@ -7974,7 +7969,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1769 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1771 = _1705;
@@ -7985,7 +7980,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1771 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1773 = *(&mut _1727 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -7994,13 +7989,13 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         &mut _1736 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut (*(_1741 as *mut l_struct_struct_OC_image_block)).field6
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _1775 = memcpy(
         &mut _1737 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut (*(_1741 as *mut l_struct_struct_OC_image_block)).field8
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _1776 = *(&mut _1736.field0 as *mut l_array_4_float);
     _1777 = *(&mut _1737.field0 as *mut l_array_4_float);
@@ -8050,7 +8045,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_1786 as *mut uint32_t) = llvm_select_u32(
         ((_1787 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1789 = _1708;
@@ -8061,7 +8056,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1789 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1791 = _1709;
@@ -8072,7 +8067,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1791 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1793 = _1710;
@@ -8083,7 +8078,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1793 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1795 = *(&mut _1721 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8091,12 +8086,12 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _1796 = memcpy(
         &mut _1739 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
         &mut _1732 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _1797 = memcpy(
         &mut _1740 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
         &mut _1735 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _1798 = (*(&mut _1739.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_2)).data;
     _1799 = (*(&mut _1740.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_1)).data;
@@ -8140,7 +8135,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_1808 as *mut uint32_t) = llvm_select_u32(
         ((_1809 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1811 = _1713;
@@ -8151,7 +8146,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1811 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1813 = _1714;
@@ -8162,7 +8157,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1813 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1815 = _1715;
@@ -8173,7 +8168,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1815 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1817 = *(&mut _1716 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8183,7 +8178,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _1819 = memcpy(
         &mut _1720 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
         &mut _1719 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _1820 = *(&mut _1720 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
     *(&mut _1695 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _1820;
@@ -8200,11 +8195,8 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    return (_1821 & 1 as core::ffi::c_int as uint32_t
-        | _1822 & 2 as core::ffi::c_int as uint32_t
-        | _1823 & 4 as core::ffi::c_int as uint32_t
-        | _1824 & 8 as core::ffi::c_int as uint32_t
-        != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    return (_1821 & 1 | _1822 & 2 | _1823 & 4 | _1824 & 8 != 0 as core::ffi::c_uint)
+        as core::ffi::c_int as bool_0;
 }
 #[no_mangle]
 #[inline(never)]
@@ -8242,10 +8234,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor22get_raw_partition_infoEjj(
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        _1835,
-                        1 as core::ffi::c_int as uint32_t,
-                    ) as uint64_t as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_1835, 1)
+                        as uint64_t as int64_t as isize,
                 ) as *mut uint32_t);
         _1837__PHI_TEMPORARY = (_1834 < _1836) as core::ffi::c_int as bool_0;
     } else {
@@ -8265,7 +8255,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor22get_raw_partition_infoEjj(
         __assert_fail(
             &_OC_str_OC_9 as *const l_array_107_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_10 as *const l_array_45_uint8_t as *mut core::ffi::c_void,
-            724 as core::ffi::c_int as uint32_t,
+            724,
             &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor22get_raw_partition_infoEjj
                 as *const l_array_102_uint8_t as *mut core::ffi::c_void,
         );
@@ -8331,12 +8321,11 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
         _1862 = _1852;
         _1863 = *(&mut *(_1861 as *mut core::ffi::c_float).offset((llvm_sub_u32
             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-            _1862,
-            1 as core::ffi::c_int as uint32_t,
+            _1862, 1
         ) as uint64_t as int64_t
             as isize) as *mut core::ffi::c_float);
         if !(llvm_fcmp_oge(_1860 as core::ffi::c_double, _1863 as core::ffi::c_double) != 0) {
-            _1857 = 0 as core::ffi::c_int as uint32_t;
+            _1857 = 0;
             loop {
                 _1864 = _1857;
                 _1865 = _1852;
@@ -8356,13 +8345,13 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
                     break;
                 }
                 _1890 = _1857;
-                _1857 = llvm_add_u32(_1890, 1 as core::ffi::c_int as uint32_t);
+                _1857 = llvm_add_u32(_1890, 1);
             }
             match current_block {
                 8080193727413914482 => {}
                 _ => {
                     _1870 = _1852;
-                    _1858 = llvm_sub_u32(_1870, 1 as core::ffi::c_int as uint32_t);
+                    _1858 = llvm_sub_u32(_1870, 1);
                     loop {
                         _1871 = _1858;
                         _1872 = _1857;
@@ -8373,8 +8362,7 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
                         _1874 = _1858;
                         _1875 = *(&mut *(_1873 as *mut core::ffi::c_float).offset((llvm_sub_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            _1874,
-                            1 as core::ffi::c_int as uint32_t,
+                            _1874, 1
                         )
                             as uint64_t
                             as int64_t
@@ -8388,8 +8376,7 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
                         _1879 = _1858;
                         _1880 = *(&mut *(_1878 as *mut uint32_t).offset((llvm_sub_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            _1879,
-                            1 as core::ffi::c_int as uint32_t,
+                            _1879, 1
                         )
                             as uint64_t
                             as int64_t
@@ -8421,7 +8408,7 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
         __assert_fail(
             &_OC_str_OC_11 as *const l_array_15_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            519 as core::ffi::c_int as uint32_t,
+            519,
             &__PRETTY_FUNCTION___OC__ZL13insert_resultjfjPfPj as *const l_array_79_uint8_t
                 as *mut core::ffi::c_void,
         );
@@ -8846,9 +8833,9 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     if _2006 > 0 as core::ffi::c_uint {
         _2007 = _1974;
         if _2007 > 0 as core::ffi::c_uint {
-            _1976 = 0 as core::ffi::c_int as uint32_t;
+            _1976 = 0;
             _2008 = _1973;
-            _1978 = llvm_urem_u32(145897 as core::ffi::c_int as uint32_t, _2008);
+            _1978 = llvm_urem_u32(145897, _2008);
             _2009 = _1972;
             _2010 = _1978;
             _2011 = _ZNK11image_block5texelEj(_2009, _2010);
@@ -8860,12 +8847,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     .offset(_2013 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _1979 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _2015 = _1976;
-            _1976 = llvm_add_u32(_2015, 1 as core::ffi::c_int as uint32_t);
+            _1976 = llvm_add_u32(_2015, 1);
             _1980 = 0 as core::ffi::c_int as core::ffi::c_float;
-            _1981 = 0 as core::ffi::c_int as uint32_t;
+            _1981 = 0;
             loop {
                 _2016 = _1981;
                 _2017 = _1973;
@@ -8879,12 +8866,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                 _2021 = memcpy(
                     &mut _1984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1982 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2022 = memcpy(
                     &mut _1985 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1979 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2023 = *(&mut _1984.field0 as *mut l_array_4_float);
                 _2024 = *(&mut _1985.field0 as *mut l_array_4_float);
@@ -8956,12 +8943,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                 _2039 = memcpy(
                     &mut _1988 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1983 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2040 = memcpy(
                     &mut _1989 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1983 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2041 = *(&mut _1988.field0 as *mut l_array_4_float);
                 _2042 = *(&mut _1989.field0 as *mut l_array_4_float);
@@ -9036,7 +9023,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     &mut (*(_2057 as *mut l_struct_struct_OC_image_block)).field9
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2059 = *(&mut _1987.field0 as *mut l_array_4_float);
                 _2060 = *(&mut _1990.field0 as *mut l_array_4_float);
@@ -9045,12 +9032,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                 _2061 = memcpy(
                     &mut _1948 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1945 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2062 = memcpy(
                     &mut _1949 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1946 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2063 = *(&mut _1948 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _2064 = *(&mut _1949 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -9123,7 +9110,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                 _2079 = memcpy(
                     &mut _1950 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1947 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2080 = *(&mut _1950 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _1911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2080;
@@ -9157,34 +9144,31 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     .offset(_2088 as uint64_t as int64_t as isize)
                     as *mut core::ffi::c_float) = _2087;
                 _2089 = _1981;
-                _1981 = llvm_add_u32(_2089, 1 as core::ffi::c_int as uint32_t);
+                _1981 = llvm_add_u32(_2089, 1);
             }
             _2090 = memcpy(
                 &mut _1991 as *mut l_array_9_float as *mut core::ffi::c_void,
                 &__const_OC__ZL11kmeans_initRK11image_blockjjP7vfloat4_OC_cluster_cutoffs
                     as *const l_array_9_float as *mut core::ffi::c_void,
-                36 as core::ffi::c_int as uint64_t,
+                36,
             );
             _2091 = _1976;
             _2092 = _1974;
             _1992 = llvm_add_u32(
-                llvm_sub_u32(_2091, 1 as core::ffi::c_int as uint32_t),
-                llvm_mul_u32(
-                    3 as core::ffi::c_int as uint32_t,
-                    llvm_sub_u32(_2092, 2 as core::ffi::c_int as uint32_t),
-                ),
+                llvm_sub_u32(_2091, 1),
+                llvm_mul_u32(3, llvm_sub_u32(_2092, 2)),
             );
             loop {
                 _1993 = 0 as core::ffi::c_int as core::ffi::c_float;
                 _2093 = _1980;
                 _2094 = _1992;
-                _1992 = llvm_add_u32(_2094, 1 as core::ffi::c_int as uint32_t);
+                _1992 = llvm_add_u32(_2094, 1);
                 _2095 = *(&mut *(_1991.array)
                     .as_mut_ptr()
                     .offset(_2094 as uint64_t as int64_t as isize)
                     as *mut core::ffi::c_float);
                 _1994 = llvm_fmul_f32(_2093, _2095);
-                _1978 = 0 as core::ffi::c_int as uint32_t;
+                _1978 = 0;
                 loop {
                     _2096 = _1978;
                     _2097 = _1973;
@@ -9206,14 +9190,11 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                         break;
                     }
                     _2103 = _1978;
-                    _1978 = llvm_add_u32(_2103, 1 as core::ffi::c_int as uint32_t);
+                    _1978 = llvm_add_u32(_2103, 1);
                 }
                 _2104 = _1978;
                 _2105 = _1973;
-                _2106 = _ZN4astcL3minIjEET_S1_S1_(
-                    _2104,
-                    llvm_sub_u32(_2105, 1 as core::ffi::c_int as uint32_t),
-                );
+                _2106 = _ZN4astcL3minIjEET_S1_S1_(_2104, llvm_sub_u32(_2105, 1));
                 _1978 = _2106;
                 _2107 = _1972;
                 _2108 = _1978;
@@ -9222,18 +9203,18 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                 _2110 = memcpy(
                     &mut _1979 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1995 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2111 = _1975;
                 _2112 = _1976;
-                _1976 = llvm_add_u32(_2112, 1 as core::ffi::c_int as uint32_t);
+                _1976 = llvm_add_u32(_2112, 1);
                 _2113 = memcpy(
                     &mut *(_2111 as *mut l_struct_struct_OC_vfloat4)
                         .offset(_2112 as uint64_t as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _1979 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2114 = _1976;
                 _2115 = _1974;
@@ -9241,7 +9222,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     break;
                 }
                 _1980 = 0 as core::ffi::c_int as core::ffi::c_float;
-                _1996 = 0 as core::ffi::c_int as uint32_t;
+                _1996 = 0;
                 loop {
                     _2116 = _1996;
                     _2117 = _1973;
@@ -9255,12 +9236,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     _2121 = memcpy(
                         &mut _1999 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1997 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2122 = memcpy(
                         &mut _2000 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1979 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2123 = *(&mut _1999.field0 as *mut l_array_4_float);
                     _2124 = *(&mut _2000.field0 as *mut l_array_4_float);
@@ -9336,12 +9317,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     _2139 = memcpy(
                         &mut _2003 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1998 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2140 = memcpy(
                         &mut _2004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1998 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2141 = *(&mut _2003.field0 as *mut l_array_4_float);
                     _2142 = *(&mut _2004.field0 as *mut l_array_4_float);
@@ -9420,7 +9401,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                         &mut (*(_2157 as *mut l_struct_struct_OC_image_block)).field9
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2159 = *(&mut _2002.field0 as *mut l_array_4_float);
                     _2160 = *(&mut _2005.field0 as *mut l_array_4_float);
@@ -9431,12 +9412,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     _2161 = memcpy(
                         &mut _1957 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1954 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2162 = memcpy(
                         &mut _1958 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1955 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2163 =
                         *(&mut _1957 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -9515,7 +9496,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     _2179 = memcpy(
                         &mut _1959 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1956 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2180 =
                         *(&mut _1959 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -9560,7 +9541,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                         .offset(_2192 as uint64_t as int64_t as isize)
                         as *mut core::ffi::c_float) = _2191;
                     _2193 = _1996;
-                    _1996 = llvm_add_u32(_2193, 1 as core::ffi::c_int as uint32_t);
+                    _1996 = llvm_add_u32(_2193, 1);
                 }
             }
             return;
@@ -9568,7 +9549,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
             __assert_fail(
                 &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-                67 as core::ffi::c_int as uint32_t,
+                67,
                 &__PRETTY_FUNCTION___OC__ZL11kmeans_initRK11image_blockjjP7vfloat4
                     as *const l_array_77_uint8_t as *mut core::ffi::c_void,
             );
@@ -9577,7 +9558,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
         __assert_fail(
             &_OC_str_OC_4 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            66 as core::ffi::c_int as uint32_t,
+            66,
             &__PRETTY_FUNCTION___OC__ZL11kmeans_initRK11image_blockjjP7vfloat4
                 as *const l_array_77_uint8_t as *mut core::ffi::c_void,
         );
@@ -9918,10 +9899,10 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 .field0 as *mut l_array_4_float) = _2302.field0;
             _2303 = memset(
                 &mut _2269 as *mut l_array_4_uint8_t as *mut core::ffi::c_void,
-                0 as core::ffi::c_int as uint32_t,
-                4 as core::ffi::c_int as uint64_t,
+                0,
+                4,
             );
-            _2270 = 0 as core::ffi::c_int as uint32_t;
+            _2270 = 0;
             loop {
                 _2304 = _2270;
                 _2305 = _2264;
@@ -9949,13 +9930,13 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 _2314 = memcpy(
                     &mut _2234 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _2313,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2315 = _2232;
                 _2316 = memcpy(
                     &mut _2235 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _2315,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2317 = *(&mut _2234 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _2318 = *(&mut _2235 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10029,7 +10010,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 _2334 = memcpy(
                     _2333,
                     &mut _2233 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2335 = _2231;
                 _2336 = _2271;
@@ -10040,9 +10021,9 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 _2338 = *(_2337 as *mut uint8_t);
                 *(_2337 as *mut uint8_t) = llvm_add_u8(_2338, 1 as core::ffi::c_int as uint8_t);
                 _2339 = _2270;
-                _2270 = llvm_add_u32(_2339, 1 as core::ffi::c_int as uint32_t);
+                _2270 = llvm_add_u32(_2339, 1);
             }
-            _2273 = 0 as core::ffi::c_int as uint32_t;
+            _2273 = 0;
             loop {
                 _2340 = _2273;
                 _2341 = _2265;
@@ -10066,7 +10047,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                         .offset(_2344 as uint64_t as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2346 = _2274;
                 _2347 = *(&mut _2276.field0 as *mut l_array_4_float);
@@ -10075,7 +10056,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 _2348 = memcpy(
                     &mut _2249 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2247 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2349 = _2248;
                 _2241 = &mut _2250 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -10176,17 +10157,17 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _2275 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2375 = _2273;
-                _2273 = llvm_add_u32(_2375, 1 as core::ffi::c_int as uint32_t);
+                _2273 = llvm_add_u32(_2375, 1);
             }
             return;
         } else {
             __assert_fail(
                 &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-                218 as core::ffi::c_int as uint32_t,
+                218,
                 &__PRETTY_FUNCTION___OC__ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh
                     as *const l_array_96_uint8_t as *mut core::ffi::c_void,
             );
@@ -10195,7 +10176,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
         __assert_fail(
             &_OC_str_OC_4 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            217 as core::ffi::c_int as uint32_t,
+            217,
             &__PRETTY_FUNCTION___OC__ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh
                 as *const l_array_96_uint8_t as *mut core::ffi::c_void,
         );
@@ -10434,10 +10415,10 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
         if _2448 > 0 as core::ffi::c_uint {
             _2449 = memset(
                 &mut _2431 as *mut l_array_4_uint8_t as *mut core::ffi::c_void,
-                0 as core::ffi::c_int as uint32_t,
-                4 as core::ffi::c_int as uint64_t,
+                0,
+                4,
             );
-            _2432 = 0 as core::ffi::c_int as uint32_t;
+            _2432 = 0;
             loop {
                 _2450 = _2432;
                 _2451 = _2427;
@@ -10446,12 +10427,12 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                 }
                 _2452 = _ZNSt14numeric_limitsIfE3maxEv();
                 _2433 = _2452;
-                _2434 = 0 as core::ffi::c_int as uint32_t;
+                _2434 = 0;
                 _2453 = _2426;
                 _2454 = _2432;
                 _2455 = _ZNK11image_block5texelEj(_2453, _2454);
                 *(&mut _2435.field0 as *mut l_array_4_float) = _2455.field0;
-                _2436 = 0 as core::ffi::c_int as uint32_t;
+                _2436 = 0;
                 loop {
                     _2456 = _2436;
                     _2457 = _2428;
@@ -10461,7 +10442,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                     _2458 = memcpy(
                         &mut _2438 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2435 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2459 = _2429;
                     _2460 = _2436;
@@ -10471,7 +10452,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                             .offset(_2460 as uint64_t as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2462 = *(&mut _2438.field0 as *mut l_array_4_float);
                     _2463 = *(&mut _2439.field0 as *mut l_array_4_float);
@@ -10547,12 +10528,12 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                     _2478 = memcpy(
                         &mut _2442 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2437 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2479 = memcpy(
                         &mut _2443 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2437 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2480 = *(&mut _2442.field0 as *mut l_array_4_float);
                     _2481 = *(&mut _2443.field0 as *mut l_array_4_float);
@@ -10631,7 +10612,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                         &mut (*(_2496 as *mut l_struct_struct_OC_image_block)).field9
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2498 = *(&mut _2441.field0 as *mut l_array_4_float);
                     _2499 = *(&mut _2444.field0 as *mut l_array_4_float);
@@ -10642,12 +10623,12 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                     _2500 = memcpy(
                         &mut _2417 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2414 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2501 = memcpy(
                         &mut _2418 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2415 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2502 =
                         *(&mut _2417 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10726,7 +10707,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                     _2518 = memcpy(
                         &mut _2419 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2416 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2519 =
                         *(&mut _2419 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10764,7 +10745,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                         _2434 = _2527;
                     }
                     _2528 = _2436;
-                    _2436 = llvm_add_u32(_2528, 1 as core::ffi::c_int as uint32_t);
+                    _2436 = llvm_add_u32(_2528, 1);
                 }
                 _2529 = _2434;
                 _2530 = _2430;
@@ -10779,11 +10760,11 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                 _2534 = *(_2533 as *mut uint8_t);
                 *(_2533 as *mut uint8_t) = llvm_add_u8(_2534, 1 as core::ffi::c_int as uint8_t);
                 _2535 = _2432;
-                _2432 = llvm_add_u32(_2535, 1 as core::ffi::c_int as uint32_t);
+                _2432 = llvm_add_u32(_2535, 1);
             }
             loop {
                 _2445 = 0 as core::ffi::c_int as uint8_t;
-                _2446 = 0 as core::ffi::c_int as uint32_t;
+                _2446 = 0;
                 loop {
                     _2536 = _2446;
                     _2537 = _2428;
@@ -10827,7 +10808,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                         _2445 = 1 as core::ffi::c_int as uint8_t;
                     }
                     _2551 = _2446;
-                    _2446 = llvm_add_u32(_2551, 1 as core::ffi::c_int as uint32_t);
+                    _2446 = llvm_add_u32(_2551, 1);
                 }
                 _2552 = _2445;
                 if !(_2552 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0) {
@@ -10839,7 +10820,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
             __assert_fail(
                 &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-                154 as core::ffi::c_int as uint32_t,
+                154,
                 &__PRETTY_FUNCTION___OC__ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph
                     as *const l_array_96_uint8_t as *mut core::ffi::c_void,
             );
@@ -10848,7 +10829,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
         __assert_fail(
             &_OC_str_OC_4 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            153 as core::ffi::c_int as uint32_t,
+            153,
             &__PRETTY_FUNCTION___OC__ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph
                 as *const l_array_96_uint8_t as *mut core::ffi::c_void,
         );
@@ -10962,17 +10943,15 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
         .array)
         .as_mut_ptr()
         .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                _2603,
-                1 as core::ffi::c_int as uint32_t,
-            ) as uint64_t as int64_t as isize,
+            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_2603, 1)
+                as uint64_t as int64_t as isize,
         ) as *mut uint32_t);
     _2598 = _2604;
     _2605 = _2598;
     if _2605 > 0 as core::ffi::c_uint {
         _2606 = _2595;
         if _2606 == 2 as core::ffi::c_uint {
-            _2599 = 0 as core::ffi::c_int as uint32_t;
+            _2599 = 0;
             loop {
                 _2607 = _2599;
                 _2608 = _2598;
@@ -11024,7 +11003,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                     break;
                 }
                 _2623 = _2599;
-                _2599 = llvm_add_u32(_2623, 1 as core::ffi::c_int as uint32_t);
+                _2599 = llvm_add_u32(_2623, 1);
             }
             match current_block {
                 15636031872310603809 => {}
@@ -11035,7 +11014,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                                     as *mut core::ffi::c_void,
                                 &_OC_str_OC_1 as *const l_array_61_uint8_t
                                     as *mut core::ffi::c_void,
-                                379 as core::ffi::c_int as uint32_t,
+                                379,
                                 &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                                     as *const l_array_109_uint8_t as *mut core::ffi::c_void,
                             );
@@ -11046,7 +11025,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                                     as *mut core::ffi::c_void,
                                 &_OC_str_OC_1 as *const l_array_61_uint8_t
                                     as *mut core::ffi::c_void,
-                                380 as core::ffi::c_int as uint32_t,
+                                380,
                                 &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                                     as *const l_array_109_uint8_t as *mut core::ffi::c_void,
                             );
@@ -11056,7 +11035,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
         } else {
             _2624 = _2595;
             if _2624 == 3 as core::ffi::c_uint {
-                _2600 = 0 as core::ffi::c_int as uint32_t;
+                _2600 = 0;
                 loop {
                     _2625 = _2600;
                     _2626 = _2598;
@@ -11108,7 +11087,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                         break;
                     }
                     _2641 = _2600;
-                    _2600 = llvm_add_u32(_2641, 1 as core::ffi::c_int as uint32_t);
+                    _2600 = llvm_add_u32(_2641, 1);
                 }
                 match current_block {
                     15636031872310603809 => {}
@@ -11119,7 +11098,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                                         as *mut core::ffi::c_void,
                                     &_OC_str_OC_1 as *const l_array_61_uint8_t
                                         as *mut core::ffi::c_void,
-                                    388 as core::ffi::c_int as uint32_t,
+                                    388,
                                     &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                                         as *const l_array_109_uint8_t as *mut core::ffi::c_void,
                                 );
@@ -11130,7 +11109,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                                         as *mut core::ffi::c_void,
                                     &_OC_str_OC_1 as *const l_array_61_uint8_t
                                         as *mut core::ffi::c_void,
-                                    389 as core::ffi::c_int as uint32_t,
+                                    389,
                                     &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                                         as *const l_array_109_uint8_t as *mut core::ffi::c_void,
                                 );
@@ -11138,7 +11117,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                     },
                 }
             } else {
-                _2601 = 0 as core::ffi::c_int as uint32_t;
+                _2601 = 0;
                 loop {
                     _2642 = _2601;
                     _2643 = _2598;
@@ -11190,7 +11169,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                         break;
                     }
                     _2658 = _2601;
-                    _2601 = llvm_add_u32(_2658, 1 as core::ffi::c_int as uint32_t);
+                    _2601 = llvm_add_u32(_2658, 1);
                 }
                 match current_block {
                     15636031872310603809 => {}
@@ -11201,7 +11180,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                                         as *mut core::ffi::c_void,
                                     &_OC_str_OC_1 as *const l_array_61_uint8_t
                                         as *mut core::ffi::c_void,
-                                    397 as core::ffi::c_int as uint32_t,
+                                    397,
                                     &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                                         as *const l_array_109_uint8_t as *mut core::ffi::c_void,
                                 );
@@ -11212,7 +11191,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                                         as *mut core::ffi::c_void,
                                     &_OC_str_OC_1 as *const l_array_61_uint8_t
                                         as *mut core::ffi::c_void,
-                                    398 as core::ffi::c_int as uint32_t,
+                                    398,
                                     &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                                         as *const l_array_109_uint8_t as *mut core::ffi::c_void,
                                 );
@@ -11226,7 +11205,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
         __assert_fail(
             &_OC_str_OC_5 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            372 as core::ffi::c_int as uint32_t,
+            372,
             &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                 as *const l_array_109_uint8_t as *mut core::ffi::c_void,
         );
@@ -11289,10 +11268,10 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
     if _2713 > 0 as core::ffi::c_uint {
         _2714 = memset(
             &mut _2706 as *mut l_array_64_uint16_t as *mut core::ffi::c_void,
-            0 as core::ffi::c_int as uint32_t,
-            128 as core::ffi::c_int as uint64_t,
+            0,
+            128,
         );
-        _2707 = 0 as core::ffi::c_int as uint32_t;
+        _2707 = 0;
         loop {
             _2715 = _2707;
             _2716 = _2703;
@@ -11310,10 +11289,10 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
             _2721 = *(_2720 as *mut uint16_t);
             *(_2720 as *mut uint16_t) = llvm_add_u16(_2721, 1 as core::ffi::c_int as uint16_t);
             _2722 = _2707;
-            _2707 = llvm_add_u32(_2722, 1 as core::ffi::c_int as uint32_t);
+            _2707 = llvm_add_u32(_2722, 1);
         }
         _2708 = 0 as core::ffi::c_int as uint16_t;
-        _2709 = 0 as core::ffi::c_int as uint32_t;
+        _2709 = 0;
         loop {
             _2723 = _2709;
             _2724 = _2702;
@@ -11335,9 +11314,9 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
             _2730 = _2708;
             _2708 = llvm_add_u32(_2730 as uint32_t, _2729 as uint32_t) as uint16_t;
             _2731 = _2709;
-            _2709 = llvm_add_u32(_2731, 1 as core::ffi::c_int as uint32_t);
+            _2709 = llvm_add_u32(_2731, 1);
         }
-        _2711 = 0 as core::ffi::c_int as uint32_t;
+        _2711 = 0;
         loop {
             _2732 = _2711;
             _2733 = _2703;
@@ -11361,7 +11340,7 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
             *(&mut *(_2740 as *mut uint16_t).offset(_2741 as uint64_t as int64_t as isize)
                 as *mut uint16_t) = _2739 as uint16_t;
             _2742 = _2711;
-            _2711 = llvm_add_u32(_2742, 1 as core::ffi::c_int as uint32_t);
+            _2711 = llvm_add_u32(_2742, 1);
         }
         _2743 = _2703;
         return _2743;
@@ -11369,7 +11348,7 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
         __assert_fail(
             &_OC_str_OC_8 as *const l_array_23_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_61_uint8_t as *mut core::ffi::c_void,
-            418 as core::ffi::c_int as uint32_t,
+            418,
             &__PRETTY_FUNCTION___OC__ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt
                 as *const l_array_110_uint8_t as *mut core::ffi::c_void,
         );
@@ -12184,31 +12163,22 @@ unsafe extern "C" fn _ZL8popcountm(mut _3097: uint64_t) -> uint32_t {
     _3102 = _3098;
     _3103 = _3099;
     _3104 = _3098;
-    _3098 = llvm_sub_u64(
-        _3104,
-        llvm_lshr_u64(_3102, 1 as core::ffi::c_int as uint64_t) & _3103,
-    );
+    _3098 = llvm_sub_u64(_3104, llvm_lshr_u64(_3102, 1) & _3103);
     _3105 = _3098;
     _3106 = _3100;
     _3107 = _3098;
     _3108 = _3100;
-    _3098 = llvm_add_u64(
-        _3105 & _3106,
-        llvm_lshr_u64(_3107, 2 as core::ffi::c_int as uint64_t) & _3108,
-    );
+    _3098 = llvm_add_u64(_3105 & _3106, llvm_lshr_u64(_3107, 2) & _3108);
     _3109 = _3098;
     _3110 = _3098;
-    _3098 = llvm_add_u64(
-        _3110,
-        llvm_lshr_u64(_3109, 4 as core::ffi::c_int as uint64_t),
-    );
+    _3098 = llvm_add_u64(_3110, llvm_lshr_u64(_3109, 4));
     _3111 = _3101;
     _3112 = _3098;
     _3098 = _3112 & _3111;
     _3113 = _3098;
     _3098 = llvm_mul_u64(_3113, 72340172838076673 as core::ffi::c_long as uint64_t);
     _3114 = _3098;
-    _3098 = llvm_lshr_u64(_3114, 56 as core::ffi::c_int as uint64_t);
+    _3098 = llvm_lshr_u64(_3114, 56);
     _3115 = _3098;
     return _3115 as uint32_t;
 }
@@ -12312,13 +12282,10 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     _3159 = _3156;
     _3160 = _3157;
     if _3160 == 1 as core::ffi::c_uint {
-        _3157 = 5 as core::ffi::c_int as uint32_t;
+        _3157 = 5;
     }
     _3161 = _3157;
-    _3158 = llvm_mul_u32(
-        llvm_sub_u32(_3161, 2 as core::ffi::c_int as uint32_t),
-        1024 as core::ffi::c_int as uint32_t,
-    );
+    _3158 = llvm_mul_u32(llvm_sub_u32(_3161, 2), 1024);
     _3162 = _3158;
     return &mut *(&mut *((*(&mut (*(_3159
         as *mut l_struct_struct_OC_block_size_descriptor))

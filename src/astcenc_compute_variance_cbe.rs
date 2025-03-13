@@ -1248,7 +1248,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         &mut _71 as *mut l_struct_struct_OC_astcenc_swizzle as *mut core::ffi::c_void,
         &mut (*(_188 as *mut l_struct_struct_OC_pixel_region_args)).field1
             as *mut l_struct_struct_OC_astcenc_swizzle as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _190 = _69;
     _191 = *(&mut (*(_190 as *mut l_struct_struct_OC_pixel_region_args)).field2 as *mut uint8_t);
@@ -1285,10 +1285,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _210 = _79;
     _82 = _210;
     _211 = _82;
-    _83 = llvm_add_u32(
-        llvm_mul_u32(2 as core::ffi::c_int as uint32_t, _211),
-        1 as core::ffi::c_int as uint32_t,
-    );
+    _83 = llvm_add_u32(llvm_mul_u32(2, _211), 1);
     _212 = _82;
     _84 = _212;
     _213 = _72;
@@ -1296,7 +1293,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         _214 = _82;
         _215__PHI_TEMPORARY = _214;
     } else {
-        _215__PHI_TEMPORARY = 0 as core::ffi::c_int as uint32_t;
+        _215__PHI_TEMPORARY = 0;
     }
     _215 = _215__PHI_TEMPORARY;
     _85 = _215;
@@ -1312,7 +1309,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         _222 = _83;
         _223__PHI_TEMPORARY = _222;
     } else {
-        _223__PHI_TEMPORARY = 0 as core::ffi::c_int as uint32_t;
+        _223__PHI_TEMPORARY = 0;
     }
     _223 = _223__PHI_TEMPORARY;
     _88 = llvm_add_u32(_220, _223);
@@ -1323,11 +1320,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _227 = _72;
     _228 = (_227 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
     _229 = _228 as uint64_t;
-    _90 = llvm_select_u32(
-        _228,
-        1 as core::ffi::c_int as uint32_t,
-        0 as core::ffi::c_int as uint32_t,
-    );
+    _90 = llvm_select_u32(_228, 1, 0);
     _230 = _81;
     _91 = _230;
     _231 = _81;
@@ -1376,11 +1369,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _252 = _70;
             _253 =
                 *(&mut (*(_252 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
-            _254 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                _251,
-                0 as core::ffi::c_int as uint32_t,
-                llvm_sub_u32(_253, 1 as core::ffi::c_int as uint32_t),
-            );
+            _254 = _ZN4astc5clampIiEET_S1_S1_S1_(_251, 0, llvm_sub_u32(_253, 1));
             _99 = _254;
             _255 = _70;
             _256 = *(&mut (*(_255 as *mut l_struct_struct_OC_astcenc_image)).field4
@@ -1390,7 +1379,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 .offset(_257 as int32_t as int64_t as isize)
                 as *mut *mut core::ffi::c_void);
             _100 = _258;
-            _101 = 1 as core::ffi::c_int as uint32_t;
+            _101 = 1;
             loop {
                 _259 = _101;
                 _260 = _87;
@@ -1400,21 +1389,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _261 = _101;
                 _262 = _77;
                 _263 = _84;
-                _102 = llvm_sub_u32(
-                    llvm_add_u32(llvm_sub_u32(_261, 1 as core::ffi::c_int as uint32_t), _262),
-                    _263,
-                );
+                _102 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_261, 1), _262), _263);
                 _264 = _102;
                 _265 = _70;
                 _266 = *(&mut (*(_265 as *mut l_struct_struct_OC_astcenc_image)).field1
                     as *mut uint32_t);
-                _267 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                    _264,
-                    0 as core::ffi::c_int as uint32_t,
-                    llvm_sub_u32(_266, 1 as core::ffi::c_int as uint32_t),
-                );
+                _267 = _ZN4astc5clampIiEET_S1_S1_S1_(_264, 0, llvm_sub_u32(_266, 1));
                 _102 = _267;
-                _103 = 1 as core::ffi::c_int as uint32_t;
+                _103 = 1;
                 loop {
                     _268 = _103;
                     _269 = _86;
@@ -1424,19 +1406,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _270 = _103;
                     _271 = _76;
                     _272 = _84;
-                    _104 = llvm_sub_u32(
-                        llvm_add_u32(llvm_sub_u32(_270, 1 as core::ffi::c_int as uint32_t), _271),
-                        _272,
-                    );
+                    _104 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_270, 1), _271), _272);
                     _273 = _104;
                     _274 = _70;
                     _275 = *(&mut (*(_274 as *mut l_struct_struct_OC_astcenc_image)).field0
                         as *mut uint32_t);
-                    _276 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                        _273,
-                        0 as core::ffi::c_int as uint32_t,
-                        llvm_sub_u32(_275, 1 as core::ffi::c_int as uint32_t),
-                    );
+                    _276 = _ZN4astc5clampIiEET_S1_S1_S1_(_273, 0, llvm_sub_u32(_275, 1));
                     _104 = _276;
                     _277 = _100;
                     _278 = _70;
@@ -1448,14 +1423,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _279,
+                                4, _279,
                             ),
                             _280,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            4 as core::ffi::c_int as uint32_t,
-                            _281,
+                            4, _281,
                         ),
                     ) as uint64_t
                         as int64_t
@@ -1474,17 +1447,15 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _285,
+                                4, _285,
                             ),
                             _286,
                         ),
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _287,
+                                4, _287,
                             ),
-                            1 as core::ffi::c_int as uint32_t,
+                            1,
                         ),
                     ) as uint64_t
                         as int64_t
@@ -1503,17 +1474,15 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _291,
+                                4, _291,
                             ),
                             _292,
                         ),
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _293,
+                                4, _293,
                             ),
-                            2 as core::ffi::c_int as uint32_t,
+                            2,
                         ),
                     ) as uint64_t
                         as int64_t
@@ -1532,17 +1501,15 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _297,
+                                4, _297,
                             ),
                             _298,
                         ),
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _299,
+                                4, _299,
                             ),
-                            3 as core::ffi::c_int as uint32_t,
+                            3,
                         ),
                     ) as uint64_t
                         as int64_t
@@ -1640,17 +1607,17 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as isize) as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _109 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _325 = memcpy(
                         &mut _111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _109 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _326 = memcpy(
                         &mut _112 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _109 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _327 = *(&mut _111.field0 as *mut l_array_4_float);
                     _328 = *(&mut _112.field0 as *mut l_array_4_float);
@@ -1747,16 +1714,16 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as isize) as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _110 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _350 = _103;
-                    _103 = llvm_add_u32(_350, 1 as core::ffi::c_int as uint32_t);
+                    _103 = llvm_add_u32(_350, 1);
                 }
                 _351 = _101;
-                _101 = llvm_add_u32(_351, 1 as core::ffi::c_int as uint32_t);
+                _101 = llvm_add_u32(_351, 1);
             }
             _352 = _98;
-            _98 = llvm_add_u32(_352, 1 as core::ffi::c_int as uint32_t);
+            _98 = llvm_add_u32(_352, 1);
         }
     } else {
         _353 = _70;
@@ -1787,11 +1754,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _363 = _70;
                 _364 = *(&mut (*(_363 as *mut l_struct_struct_OC_astcenc_image)).field2
                     as *mut uint32_t);
-                _365 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                    _362,
-                    0 as core::ffi::c_int as uint32_t,
-                    llvm_sub_u32(_364, 1 as core::ffi::c_int as uint32_t),
-                );
+                _365 = _ZN4astc5clampIiEET_S1_S1_S1_(_362, 0, llvm_sub_u32(_364, 1));
                 _115 = _365;
                 _366 = _70;
                 _367 = *(&mut (*(_366 as *mut l_struct_struct_OC_astcenc_image)).field4
@@ -1801,7 +1764,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     .offset(_368 as int32_t as int64_t as isize)
                     as *mut *mut core::ffi::c_void);
                 _116 = _369;
-                _117 = 1 as core::ffi::c_int as uint32_t;
+                _117 = 1;
                 loop {
                     _370 = _117;
                     _371 = _87;
@@ -1811,21 +1774,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _372 = _117;
                     _373 = _77;
                     _374 = _84;
-                    _118 = llvm_sub_u32(
-                        llvm_add_u32(llvm_sub_u32(_372, 1 as core::ffi::c_int as uint32_t), _373),
-                        _374,
-                    );
+                    _118 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_372, 1), _373), _374);
                     _375 = _118;
                     _376 = _70;
                     _377 = *(&mut (*(_376 as *mut l_struct_struct_OC_astcenc_image)).field1
                         as *mut uint32_t);
-                    _378 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                        _375,
-                        0 as core::ffi::c_int as uint32_t,
-                        llvm_sub_u32(_377, 1 as core::ffi::c_int as uint32_t),
-                    );
+                    _378 = _ZN4astc5clampIiEET_S1_S1_S1_(_375, 0, llvm_sub_u32(_377, 1));
                     _118 = _378;
-                    _119 = 1 as core::ffi::c_int as uint32_t;
+                    _119 = 1;
                     loop {
                         _379 = _119;
                         _380 = _86;
@@ -1835,22 +1791,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         _381 = _119;
                         _382 = _76;
                         _383 = _84;
-                        _120 = llvm_sub_u32(
-                            llvm_add_u32(
-                                llvm_sub_u32(_381, 1 as core::ffi::c_int as uint32_t),
-                                _382,
-                            ),
-                            _383,
-                        );
+                        _120 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_381, 1), _382), _383);
                         _384 = _120;
                         _385 = _70;
                         _386 = *(&mut (*(_385 as *mut l_struct_struct_OC_astcenc_image)).field0
                             as *mut uint32_t);
-                        _387 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                            _384,
-                            0 as core::ffi::c_int as uint32_t,
-                            llvm_sub_u32(_386, 1 as core::ffi::c_int as uint32_t),
-                        );
+                        _387 = _ZN4astc5clampIiEET_S1_S1_S1_(_384, 0, llvm_sub_u32(_386, 1));
                         _120 = _387;
                         _388 = _116;
                         _389 = _70;
@@ -1863,14 +1809,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _390,
+                                    4, _390,
                                 ),
                                 _391,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                4 as core::ffi::c_int as uint32_t,
-                                _392,
+                                4, _392,
                             ),
                         )
                             as uint64_t
@@ -1891,18 +1835,16 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _396,
+                                    4, _396,
                                 ),
                                 _397,
                             ),
                             (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _398,
+                                    4, _398,
                                 ),
-                                1 as core::ffi::c_int as uint32_t,
+                                1,
                             ),
                         )
                             as uint64_t
@@ -1923,18 +1865,16 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _402,
+                                    4, _402,
                                 ),
                                 _403,
                             ),
                             (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _404,
+                                    4, _404,
                                 ),
-                                2 as core::ffi::c_int as uint32_t,
+                                2,
                             ),
                         )
                             as uint64_t
@@ -1955,18 +1895,16 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _408,
+                                    4, _408,
                                 ),
                                 _409,
                             ),
                             (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _410,
+                                    4, _410,
                                 ),
-                                3 as core::ffi::c_int as uint32_t,
+                                3,
                             ),
                         )
                             as uint64_t
@@ -2022,7 +1960,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         _425 = memcpy(
                             &mut _123 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _121 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _426 = (*(&mut _123.field0 as *mut l_array_4_uint32_t
                             as *mut C2RustUnnamed))
@@ -2107,17 +2045,17 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _122 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _452 = memcpy(
                             &mut _125 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _122 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _453 = memcpy(
                             &mut _126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _122 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _454 = *(&mut _125.field0 as *mut l_array_4_float);
                         _455 = *(&mut _126.field0 as *mut l_array_4_float);
@@ -2218,16 +2156,16 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _124 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _477 = _119;
-                        _119 = llvm_add_u32(_477, 1 as core::ffi::c_int as uint32_t);
+                        _119 = llvm_add_u32(_477, 1);
                     }
                     _478 = _117;
-                    _117 = llvm_add_u32(_478, 1 as core::ffi::c_int as uint32_t);
+                    _117 = llvm_add_u32(_478, 1);
                 }
                 _479 = _114;
-                _114 = llvm_add_u32(_479, 1 as core::ffi::c_int as uint32_t);
+                _114 = llvm_add_u32(_479, 1);
             }
         } else {
             _480 = _70;
@@ -2259,11 +2197,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _490 = _70;
                     _491 = *(&mut (*(_490 as *mut l_struct_struct_OC_astcenc_image)).field2
                         as *mut uint32_t);
-                    _492 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                        _489,
-                        0 as core::ffi::c_int as uint32_t,
-                        llvm_sub_u32(_491, 1 as core::ffi::c_int as uint32_t),
-                    );
+                    _492 = _ZN4astc5clampIiEET_S1_S1_S1_(_489, 0, llvm_sub_u32(_491, 1));
                     _129 = _492;
                     _493 = _70;
                     _494 = *(&mut (*(_493 as *mut l_struct_struct_OC_astcenc_image)).field4
@@ -2273,7 +2207,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         .offset(_495 as int32_t as int64_t as isize)
                         as *mut *mut core::ffi::c_void);
                     _130 = _496;
-                    _131 = 1 as core::ffi::c_int as uint32_t;
+                    _131 = 1;
                     loop {
                         _497 = _131;
                         _498 = _87;
@@ -2283,24 +2217,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         _499 = _131;
                         _500 = _77;
                         _501 = _84;
-                        _132 = llvm_sub_u32(
-                            llvm_add_u32(
-                                llvm_sub_u32(_499, 1 as core::ffi::c_int as uint32_t),
-                                _500,
-                            ),
-                            _501,
-                        );
+                        _132 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_499, 1), _500), _501);
                         _502 = _132;
                         _503 = _70;
                         _504 = *(&mut (*(_503 as *mut l_struct_struct_OC_astcenc_image)).field1
                             as *mut uint32_t);
-                        _505 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                            _502,
-                            0 as core::ffi::c_int as uint32_t,
-                            llvm_sub_u32(_504, 1 as core::ffi::c_int as uint32_t),
-                        );
+                        _505 = _ZN4astc5clampIiEET_S1_S1_S1_(_502, 0, llvm_sub_u32(_504, 1));
                         _132 = _505;
-                        _133 = 1 as core::ffi::c_int as uint32_t;
+                        _133 = 1;
                         loop {
                             _506 = _133;
                             _507 = _86;
@@ -2310,22 +2234,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _508 = _133;
                             _509 = _76;
                             _510 = _84;
-                            _134 = llvm_sub_u32(
-                                llvm_add_u32(
-                                    llvm_sub_u32(_508, 1 as core::ffi::c_int as uint32_t),
-                                    _509,
-                                ),
-                                _510,
-                            );
+                            _134 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_508, 1), _509), _510);
                             _511 = _134;
                             _512 = _70;
                             _513 = *(&mut (*(_512 as *mut l_struct_struct_OC_astcenc_image)).field0
                                 as *mut uint32_t);
-                            _514 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                                _511,
-                                0 as core::ffi::c_int as uint32_t,
-                                llvm_sub_u32(_513, 1 as core::ffi::c_int as uint32_t),
-                            );
+                            _514 = _ZN4astc5clampIiEET_S1_S1_S1_(_511, 0, llvm_sub_u32(_513, 1));
                             _134 = _514;
                             _515 = _130;
                             _516 = _70;
@@ -2339,15 +2253,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                     (llvm_mul_u32
                                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                        4 as core::ffi::c_int as uint32_t,
-                                        _517,
+                                        4, _517,
                                     ),
                                     _518,
                                 ),
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    _519,
+                                    4, _519,
                                 ),
                             )
                                 as uint64_t
@@ -2370,8 +2282,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                     (llvm_mul_u32
                                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                        4 as core::ffi::c_int as uint32_t,
-                                        _523,
+                                        4, _523,
                                     ),
                                     _524,
                                 ),
@@ -2379,10 +2290,9 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                     (llvm_mul_u32
                                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                        4 as core::ffi::c_int as uint32_t,
-                                        _525,
+                                        4, _525,
                                     ),
-                                    1 as core::ffi::c_int as uint32_t,
+                                    1,
                                 ),
                             )
                                 as uint64_t
@@ -2405,8 +2315,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                     (llvm_mul_u32
                                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                        4 as core::ffi::c_int as uint32_t,
-                                        _529,
+                                        4, _529,
                                     ),
                                     _530,
                                 ),
@@ -2414,10 +2323,9 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                     (llvm_mul_u32
                                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                        4 as core::ffi::c_int as uint32_t,
-                                        _531,
+                                        4, _531,
                                     ),
-                                    2 as core::ffi::c_int as uint32_t,
+                                    2,
                                 ),
                             )
                                 as uint64_t
@@ -2440,8 +2348,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                     (llvm_mul_u32
                                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                        4 as core::ffi::c_int as uint32_t,
-                                        _535,
+                                        4, _535,
                                     ),
                                     _536,
                                 ),
@@ -2449,10 +2356,9 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                     (llvm_mul_u32
                                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                        4 as core::ffi::c_int as uint32_t,
-                                        _537,
+                                        4, _537,
                                     ),
-                                    3 as core::ffi::c_int as uint32_t,
+                                    3,
                                 ),
                             )
                                 as uint64_t
@@ -2555,21 +2461,21 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as *mut core::ffi::c_void,
                                 &mut _139 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _563 = memcpy(
                                 &mut _141 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _139 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _564 = memcpy(
                                 &mut _142 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _139 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _565 = *(&mut _141.field0 as *mut l_array_4_float);
                             _566 = *(&mut _142.field0 as *mut l_array_4_float);
@@ -2683,22 +2589,22 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                     as *mut core::ffi::c_void,
                                 &mut _140 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _588 = _133;
-                            _133 = llvm_add_u32(_588, 1 as core::ffi::c_int as uint32_t);
+                            _133 = llvm_add_u32(_588, 1);
                         }
                         _589 = _131;
-                        _131 = llvm_add_u32(_589, 1 as core::ffi::c_int as uint32_t);
+                        _131 = llvm_add_u32(_589, 1);
                     }
                     _590 = _128;
-                    _128 = llvm_add_u32(_590, 1 as core::ffi::c_int as uint32_t);
+                    _128 = llvm_add_u32(_590, 1);
                 }
             } else {
                 __assert_fail(
                     &_OC_str as *const l_array_35_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
-                    237 as core::ffi::c_int as uint32_t,
+                    237,
                     &__PRETTY_FUNCTION___OC__Z29compute_pixel_region_varianceR16astcenc_contextiRK17pixel_region_args
                         as *const l_array_82_uint8_t as *mut core::ffi::c_void,
                 );
@@ -2724,14 +2630,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _595;
     _596 = _21;
     *(&mut _143.field0 as *mut l_array_4_float) = _596.field0;
-    _144 = 0 as core::ffi::c_int as uint32_t;
+    _144 = 0;
     loop {
         _597 = _144;
         _598 = _88;
         if !((_597 as int32_t) < _598 as int32_t) {
             break;
         }
-        _145 = 0 as core::ffi::c_int as uint32_t;
+        _145 = 0;
         loop {
             _599 = _145;
             _600 = _87;
@@ -2754,13 +2660,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _604, _605,
                         ),
                     ),
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _143 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _607 = _92;
             _608 = _144;
@@ -2778,18 +2684,18 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _610, _611,
                         ),
                     ),
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _143 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _613 = _145;
-            _145 = llvm_add_u32(_613, 1 as core::ffi::c_int as uint32_t);
+            _145 = llvm_add_u32(_613, 1);
         }
-        _146 = 0 as core::ffi::c_int as uint32_t;
+        _146 = 0;
         loop {
             _614 = _146;
             _615 = _86;
@@ -2809,8 +2715,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _617, _618,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as core::ffi::c_int as uint32_t,
-                            _619,
+                            0, _619,
                         ),
                     ),
                     _620,
@@ -2819,7 +2724,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _143 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _622 = _92;
             _623 = _144;
@@ -2834,8 +2739,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _623, _624,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as core::ffi::c_int as uint32_t,
-                            _625,
+                            0, _625,
                         ),
                     ),
                     _626,
@@ -2844,24 +2748,24 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _143 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _628 = _146;
-            _146 = llvm_add_u32(_628, 1 as core::ffi::c_int as uint32_t);
+            _146 = llvm_add_u32(_628, 1);
         }
         _629 = _144;
-        _144 = llvm_add_u32(_629, 1 as core::ffi::c_int as uint32_t);
+        _144 = llvm_add_u32(_629, 1);
     }
     _630 = _72;
     if _630 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-        _147 = 0 as core::ffi::c_int as uint32_t;
+        _147 = 0;
         loop {
             _631 = _147;
             _632 = _87;
             if !((_631 as int32_t) < _632 as int32_t) {
                 break;
             }
-            _148 = 0 as core::ffi::c_int as uint32_t;
+            _148 = 0;
             loop {
                 _633 = _148;
                 _634 = _86;
@@ -2878,8 +2782,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                0 as core::ffi::c_int as uint32_t,
-                                _636,
+                                0, _636,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _637, _638,
@@ -2892,7 +2795,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as isize) as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _143 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _641 = _92;
                 _642 = _94;
@@ -2904,8 +2807,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                0 as core::ffi::c_int as uint32_t,
-                                _642,
+                                0, _642,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _643, _644,
@@ -2918,13 +2820,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as isize) as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _143 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _647 = _148;
-                _148 = llvm_add_u32(_647, 1 as core::ffi::c_int as uint32_t);
+                _148 = llvm_add_u32(_647, 1);
             }
             _648 = _147;
-            _147 = llvm_add_u32(_648, 1 as core::ffi::c_int as uint32_t);
+            _147 = llvm_add_u32(_648, 1);
         }
     }
     _649 = _90;
@@ -2935,7 +2837,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         if !((_650 as int32_t) < _651 as int32_t) {
             break;
         }
-        _150 = 1 as core::ffi::c_int as uint32_t;
+        _150 = 1;
         loop {
             _652 = _150;
             _653 = _87;
@@ -2959,14 +2861,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _657, _658,
                         ),
                     ),
-                    1 as core::ffi::c_int as uint32_t,
+                    1,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
-                llvm_sub_u32(_659, 1 as core::ffi::c_int as uint32_t) as int32_t as int64_t
-                    as uint64_t,
-                1 as core::ffi::c_int as uint32_t,
+                llvm_sub_u32(_659, 1) as int32_t as int64_t as uint64_t,
+                1,
             );
             _660 = _92;
             _661 = _149;
@@ -2985,20 +2886,19 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _663, _664,
                         ),
                     ),
-                    1 as core::ffi::c_int as uint32_t,
+                    1,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
-                llvm_sub_u32(_665, 1 as core::ffi::c_int as uint32_t) as int32_t as int64_t
-                    as uint64_t,
-                1 as core::ffi::c_int as uint32_t,
+                llvm_sub_u32(_665, 1) as int32_t as int64_t as uint64_t,
+                1,
             );
             _666 = _150;
-            _150 = llvm_add_u32(_666, 1 as core::ffi::c_int as uint32_t);
+            _150 = llvm_add_u32(_666, 1);
         }
         _667 = _149;
-        _149 = llvm_add_u32(_667, 1 as core::ffi::c_int as uint32_t);
+        _149 = llvm_add_u32(_667, 1);
     }
     _668 = _90;
     _151 = _668;
@@ -3008,7 +2908,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         if !((_669 as int32_t) < _670 as int32_t) {
             break;
         }
-        _152 = 1 as core::ffi::c_int as uint32_t;
+        _152 = 1;
         loop {
             _671 = _152;
             _672 = _86;
@@ -3030,8 +2930,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _674, _675,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            1 as core::ffi::c_int as uint32_t,
-                            _676,
+                            1, _676,
                         ),
                     ),
                     _677,
@@ -3039,8 +2938,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
-                llvm_sub_u32(_678, 1 as core::ffi::c_int as uint32_t) as int32_t as int64_t
-                    as uint64_t,
+                llvm_sub_u32(_678, 1) as int32_t as int64_t as uint64_t,
                 _679,
             );
             _680 = _92;
@@ -3058,8 +2956,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _681, _682,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            1 as core::ffi::c_int as uint32_t,
-                            _683,
+                            1, _683,
                         ),
                     ),
                     _684,
@@ -3067,26 +2964,25 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
-                llvm_sub_u32(_685, 1 as core::ffi::c_int as uint32_t) as int32_t as int64_t
-                    as uint64_t,
+                llvm_sub_u32(_685, 1) as int32_t as int64_t as uint64_t,
                 _686,
             );
             _687 = _152;
-            _152 = llvm_add_u32(_687, 1 as core::ffi::c_int as uint32_t);
+            _152 = llvm_add_u32(_687, 1);
         }
         _688 = _151;
-        _151 = llvm_add_u32(_688, 1 as core::ffi::c_int as uint32_t);
+        _151 = llvm_add_u32(_688, 1);
     }
     _689 = _72;
     if _689 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-        _153 = 1 as core::ffi::c_int as uint32_t;
+        _153 = 1;
         loop {
             _690 = _153;
             _691 = _87;
             if !((_690 as int32_t) < _691 as int32_t) {
                 break;
             }
-            _154 = 1 as core::ffi::c_int as uint32_t;
+            _154 = 1;
             loop {
                 _692 = _154;
                 _693 = _86;
@@ -3105,8 +3001,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                1 as core::ffi::c_int as uint32_t,
-                                _695,
+                                1, _695,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _696, _697,
@@ -3118,8 +3013,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as int64_t
                         as isize) as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    llvm_sub_u32(_699, 1 as core::ffi::c_int as uint32_t) as int32_t as int64_t
-                        as uint64_t,
+                    llvm_sub_u32(_699, 1) as int32_t as int64_t as uint64_t,
                     _700,
                 );
                 _701 = _92;
@@ -3134,8 +3028,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                1 as core::ffi::c_int as uint32_t,
-                                _702,
+                                1, _702,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _703, _704,
@@ -3147,22 +3040,18 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as int64_t
                         as isize) as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    llvm_sub_u32(_706, 1 as core::ffi::c_int as uint32_t) as int32_t as int64_t
-                        as uint64_t,
+                    llvm_sub_u32(_706, 1) as int32_t as int64_t as uint64_t,
                     _707,
                 );
                 _708 = _154;
-                _154 = llvm_add_u32(_708, 1 as core::ffi::c_int as uint32_t);
+                _154 = llvm_add_u32(_708, 1);
             }
             _709 = _153;
-            _153 = llvm_add_u32(_709, 1 as core::ffi::c_int as uint32_t);
+            _153 = llvm_add_u32(_709, 1);
         }
     }
     _710 = _79;
-    _155 = llvm_add_u32(
-        llvm_mul_u32(2 as core::ffi::c_int as uint32_t, _710),
-        1 as core::ffi::c_int as uint32_t,
-    ) as int32_t as core::ffi::c_float;
+    _155 = llvm_add_u32(llvm_mul_u32(2, _710), 1) as int32_t as core::ffi::c_float;
     _711 = _72;
     if _711 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _712 = _155;
@@ -3182,7 +3071,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     }
     _717 = _72;
     if _717 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-        _157 = 0 as core::ffi::c_int as uint32_t;
+        _157 = 0;
         loop {
             _718 = _157;
             _719 = _75;
@@ -3200,8 +3089,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _160 = llvm_sub_u32(_724, _725);
             _726 = _158;
             _727 = _79;
-            _161 = llvm_add_u32(llvm_add_u32(_726, _727), 1 as core::ffi::c_int as uint32_t);
-            _162 = 0 as core::ffi::c_int as uint32_t;
+            _161 = llvm_add_u32(llvm_add_u32(_726, _727), 1);
+            _162 = 0;
             loop {
                 _728 = _162;
                 _729 = _74;
@@ -3219,8 +3108,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _165 = llvm_sub_u32(_734, _735);
                 _736 = _163;
                 _737 = _79;
-                _166 = llvm_add_u32(llvm_add_u32(_736, _737), 1 as core::ffi::c_int as uint32_t);
-                _167 = 0 as core::ffi::c_int as uint32_t;
+                _166 = llvm_add_u32(llvm_add_u32(_736, _737), 1);
+                _167 = 0;
                 loop {
                     _738 = _167;
                     _739 = _73;
@@ -3238,8 +3127,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _170 = llvm_sub_u32(_744, _745);
                     _746 = _168;
                     _747 = _79;
-                    _171 =
-                        llvm_add_u32(llvm_add_u32(_746, _747), 1 as core::ffi::c_int as uint32_t);
+                    _171 = llvm_add_u32(llvm_add_u32(_746, _747), 1);
                     _748 = _91;
                     _749 = _161;
                     _750 = _94;
@@ -3477,16 +3365,16 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         .offset(_820 as int32_t as int64_t as isize)
                         as *mut core::ffi::c_float) = llvm_fmul_f32(_817, _818);
                     _821 = _167;
-                    _167 = llvm_add_u32(_821, 1 as core::ffi::c_int as uint32_t);
+                    _167 = llvm_add_u32(_821, 1);
                 }
                 _822 = _162;
-                _162 = llvm_add_u32(_822, 1 as core::ffi::c_int as uint32_t);
+                _162 = llvm_add_u32(_822, 1);
             }
             _823 = _157;
-            _157 = llvm_add_u32(_823, 1 as core::ffi::c_int as uint32_t);
+            _157 = llvm_add_u32(_823, 1);
         }
     } else {
-        _174 = 0 as core::ffi::c_int as uint32_t;
+        _174 = 0;
         loop {
             _824 = _174;
             _825 = _74;
@@ -3504,8 +3392,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _177 = llvm_sub_u32(_830, _831);
             _832 = _175;
             _833 = _79;
-            _178 = llvm_add_u32(llvm_add_u32(_832, _833), 1 as core::ffi::c_int as uint32_t);
-            _179 = 0 as core::ffi::c_int as uint32_t;
+            _178 = llvm_add_u32(llvm_add_u32(_832, _833), 1);
+            _179 = 0;
             loop {
                 _834 = _179;
                 _835 = _73;
@@ -3523,7 +3411,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _182 = llvm_sub_u32(_840, _841);
                 _842 = _180;
                 _843 = _79;
-                _183 = llvm_add_u32(llvm_add_u32(_842, _843), 1 as core::ffi::c_int as uint32_t);
+                _183 = llvm_add_u32(llvm_add_u32(_842, _843), 1);
                 _844 = _91;
                 _845 = _94;
                 _846 = _177;
@@ -3533,8 +3421,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as core::ffi::c_int as uint32_t,
-                            _845,
+                            0, _845,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _846, _847,
@@ -3560,8 +3447,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as core::ffi::c_int as uint32_t,
-                            _852,
+                            0, _852,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _853, _854,
@@ -3587,8 +3473,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as core::ffi::c_int as uint32_t,
-                            _859,
+                            0, _859,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _860, _861,
@@ -3614,8 +3499,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as core::ffi::c_int as uint32_t,
-                            _866,
+                            0, _866,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _867, _868,
@@ -3645,10 +3529,10 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     .offset(_878 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float) = llvm_fmul_f32(_875, _876);
                 _879 = _179;
-                _179 = llvm_add_u32(_879, 1 as core::ffi::c_int as uint32_t);
+                _179 = llvm_add_u32(_879, 1);
             }
             _880 = _174;
-            _174 = llvm_add_u32(_880, 1 as core::ffi::c_int as uint32_t);
+            _174 = llvm_add_u32(_880, 1);
         }
     };
 }
@@ -3857,13 +3741,13 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     _1047 = _1028;
     _1068 = _1046;
     if !(_1068 < 2 as core::ffi::c_ulong) {
-        _1048 = 2 as core::ffi::c_int as uint64_t;
-        _1049 = 1 as core::ffi::c_int as uint64_t;
+        _1048 = 2;
+        _1049 = 1;
         loop {
             _1069 = _1048;
-            _1050 = llvm_lshr_u64(_1069, 1 as core::ffi::c_int as uint64_t);
+            _1050 = llvm_lshr_u64(_1069, 1);
             _1070 = _1048;
-            _1051 = llvm_sub_u64(_1070, 1 as core::ffi::c_int as uint64_t);
+            _1051 = llvm_sub_u64(_1070, 1);
             _1071 = _1046;
             _1072 = _1049;
             _1052 = llvm_lshr_u64(_1071, _1072);
@@ -3894,7 +3778,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                 _1082 = memcpy(
                     &mut _1057 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _1081,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1083 = _1053;
                 _1084 = _1054;
@@ -3904,7 +3788,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                         .offset(_1084 as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1086 = *(&mut _1057.field0 as *mut l_array_4_float);
                 _1087 = *(&mut _1058.field0 as *mut l_array_4_float);
@@ -3977,7 +3861,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                 _1103 = memcpy(
                     _1102,
                     &mut _1056 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1104 = _1055;
                 _1105 = _1053;
@@ -3989,7 +3873,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                 _1052 = llvm_add_u64(_1106, -(1 as core::ffi::c_int) as uint64_t);
             }
             _1107 = _1049;
-            _1049 = llvm_add_u64(_1107, 1 as core::ffi::c_int as uint64_t);
+            _1049 = llvm_add_u64(_1107, 1);
             _1108 = _1048;
             _1048 = _1108 << 1 as core::ffi::c_int;
             _1109 = _1048;
@@ -4000,17 +3884,14 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
         }
         loop {
             _1111 = _1049;
-            _1049 = llvm_sub_u64(_1111, 1 as core::ffi::c_int as uint64_t);
+            _1049 = llvm_sub_u64(_1111, 1);
             _1112 = _1048;
-            _1048 = llvm_lshr_u64(_1112, 1 as core::ffi::c_int as uint64_t);
+            _1048 = llvm_lshr_u64(_1112, 1);
             _1113 = _1048;
-            _1059 = llvm_lshr_u64(_1113, 1 as core::ffi::c_int as uint64_t);
+            _1059 = llvm_lshr_u64(_1113, 1);
             _1114 = _1059;
             _1115 = _1048;
-            _1060 = llvm_sub_u64(
-                llvm_add_u64(_1114, _1115),
-                1 as core::ffi::c_int as uint64_t,
-            );
+            _1060 = llvm_sub_u64(llvm_add_u64(_1114, _1115), 1);
             _1116 = _1046;
             _1117 = _1059;
             _1118 = _1049;
@@ -4042,7 +3923,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                 _1128 = memcpy(
                     &mut _1066 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _1127,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1129 = _1062;
                 _1130 = _1063;
@@ -4052,7 +3933,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                         .offset(_1130 as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1132 = *(&mut _1066.field0 as *mut l_array_4_float);
                 _1133 = *(&mut _1067.field0 as *mut l_array_4_float);
@@ -4125,7 +4006,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                 _1149 = memcpy(
                     _1148,
                     &mut _1065 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1150 = _1064;
                 _1151 = _1062;
@@ -4245,32 +4126,18 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     _1194 = _1173;
     _1179 = _1194;
     _1195 = _1179;
-    _1180 = llvm_add_u32(
-        llvm_mul_u32(2 as core::ffi::c_int as uint32_t, _1195),
-        1 as core::ffi::c_int as uint32_t,
-    );
+    _1180 = llvm_add_u32(llvm_mul_u32(2, _1195), 1);
     _1196 = _1178;
     _1181 = (_1196 > 1 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _1197 = _1181;
     _1198 = (_1197 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
     _1199 = _1198 as uint64_t;
-    _1182 = llvm_select_u32(
-        _1198,
-        16 as core::ffi::c_int as uint32_t,
-        32 as core::ffi::c_int as uint32_t,
-    );
+    _1182 = llvm_select_u32(_1198, 16, 32);
     _1200 = _1178;
     _1201 = _1181;
     _1202 = (_1201 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
     _1203 = _1202 as uint64_t;
-    _1204 = _ZN4astcL3minIjEET_S1_S1_(
-        _1200,
-        llvm_select_u32(
-            _1202,
-            16 as core::ffi::c_int as uint32_t,
-            1 as core::ffi::c_int as uint32_t,
-        ),
-    );
+    _1204 = _ZN4astcL3minIjEET_S1_S1_(_1200, llvm_select_u32(_1202, 16, 1));
     _1183 = _1204;
     _1205 = _1182;
     _1206 = _1180;
@@ -4281,34 +4148,34 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
         _1209 = _1180;
         _1210__PHI_TEMPORARY = _1209;
     } else {
-        _1210__PHI_TEMPORARY = 0 as core::ffi::c_int as uint32_t;
+        _1210__PHI_TEMPORARY = 0;
     }
     _1210 = _1210__PHI_TEMPORARY;
     _1185 = llvm_add_u32(_1207, _1210);
     _1211 = _1175;
     *(&mut (*(&mut (*(_1211 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field4 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
+        .field4 as *mut uint32_t) = 0;
     _1212 = _1175;
     *(&mut (*(&mut (*(_1212 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field5 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
+        .field5 as *mut uint32_t) = 0;
     _1213 = _1175;
     *(&mut (*(&mut (*(_1213 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field6 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
+        .field6 as *mut uint32_t) = 0;
     _1214 = _1175;
     *(&mut (*(&mut (*(_1214 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field7 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
+        .field7 as *mut uint32_t) = 0;
     _1215 = _1175;
     *(&mut (*(&mut (*(_1215 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field8 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
+        .field8 as *mut uint32_t) = 0;
     _1216 = _1175;
     *(&mut (*(&mut (*(_1216 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field9 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
+        .field9 as *mut uint32_t) = 0;
     _1217 = _1175;
     let ref mut fresh0 = *(&mut (*(&mut (*(_1217 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
@@ -4327,7 +4194,7 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
             as *mut l_struct_struct_OC_pixel_region_args))
             .field1 as *mut l_struct_struct_OC_astcenc_swizzle as *mut core::ffi::c_void,
         _1220,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _1223 = _1181;
     _1224 = _1175;
@@ -4358,33 +4225,16 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     _1238 = _1184;
     _1239 = _1185;
     _1240 = _1175;
-    *(&mut (*(_1240 as *mut l_struct_struct_OC_avg_args)).field6 as *mut uint32_t) = llvm_mul_u32(
-        llvm_mul_u32(
-            llvm_mul_u32(2 as core::ffi::c_int as uint32_t, _1237),
-            _1238,
-        ),
-        _1239,
-    );
+    *(&mut (*(_1240 as *mut l_struct_struct_OC_avg_args)).field6 as *mut uint32_t) =
+        llvm_mul_u32(llvm_mul_u32(llvm_mul_u32(2, _1237), _1238), _1239);
     _1241 = _1178;
     _1242 = _1183;
     _1243 = _1183;
-    _1186 = llvm_udiv_u32(
-        llvm_sub_u32(
-            llvm_add_u32(_1241, _1242),
-            1 as core::ffi::c_int as uint32_t,
-        ),
-        _1243,
-    );
+    _1186 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_1241, _1242), 1), _1243);
     _1244 = _1177;
     _1245 = _1182;
     _1246 = _1182;
-    _1187 = llvm_udiv_u32(
-        llvm_sub_u32(
-            llvm_add_u32(_1244, _1245),
-            1 as core::ffi::c_int as uint32_t,
-        ),
-        _1246,
-    );
+    _1187 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_1244, _1245), 1), _1246);
     _1247 = _1186;
     _1248 = _1187;
     return llvm_mul_u32(_1247, _1248);

@@ -1661,7 +1661,7 @@ pub unsafe extern "C" fn _Z39compute_ideal_colors_and_weights_1planeRK11image_bl
     _5 = _2;
     _6 = _3;
     _8 = _4;
-    _9 = _ZNK11image_block19is_constant_channelEi(_8, 3 as core::ffi::c_int as uint32_t);
+    _9 = _ZNK11image_block19is_constant_channelEi(_8, 3);
     _7 = (_9 as core::ffi::c_int ^ 1 as core::ffi::c_int) as bool_0;
     _10 = _7;
     if _10 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
@@ -1681,7 +1681,7 @@ pub unsafe extern "C" fn _Z39compute_ideal_colors_and_weights_1planeRK11image_bl
             _14,
             _15,
             _16,
-            3 as core::ffi::c_int as uint32_t,
+            3,
         );
     };
 }
@@ -1869,10 +1869,10 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _58 = _21;
     _68 = _57;
     _37 = &mut _45 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-    _38 = 0 as core::ffi::c_int as uint32_t;
-    _39 = 1 as core::ffi::c_int as uint32_t;
-    _40 = 2 as core::ffi::c_int as uint32_t;
-    _41 = 3 as core::ffi::c_int as uint32_t;
+    _38 = 0;
+    _39 = 1;
+    _40 = 2;
+    _41 = 3;
     _69 = _37;
     _70 = _38;
     *(_69 as *mut uint32_t) = _70;
@@ -1944,7 +1944,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_91 as *mut uint32_t) = llvm_select_u32(
         ((_92 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _94 = _34;
@@ -1955,7 +1955,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_94 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _96 = _35;
@@ -1966,7 +1966,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_96 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _98 = _36;
@@ -1977,7 +1977,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_98 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _100 = *(&mut _46 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -1986,13 +1986,13 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         &mut _63 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut (*(_68 as *mut l_struct_struct_OC_image_block)).field6
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _102 = memcpy(
         &mut _64 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut (*(_68 as *mut l_struct_struct_OC_image_block)).field8
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _103 = *(&mut _63.field0 as *mut l_array_4_float);
     _104 = *(&mut _64.field0 as *mut l_array_4_float);
@@ -2030,7 +2030,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_113 as *mut uint32_t) = llvm_select_u32(
         ((_114 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _116 = _24;
@@ -2041,7 +2041,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_116 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _118 = _25;
@@ -2052,7 +2052,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_118 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _120 = _26;
@@ -2063,7 +2063,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_120 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _122 = *(&mut _52 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2071,12 +2071,12 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _123 = memcpy(
         &mut _66 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
         &mut _59 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _124 = memcpy(
         &mut _67 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
         &mut _62 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _125 = (*(&mut _66.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_2)).data;
     _126 = (*(&mut _67.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_1)).data;
@@ -2120,7 +2120,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_135 as *mut uint32_t) = llvm_select_u32(
         ((_136 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _138 = _29;
@@ -2131,7 +2131,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_138 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _140 = _30;
@@ -2142,7 +2142,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_140 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _142 = _31;
@@ -2153,7 +2153,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_142 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-        0 as core::ffi::c_int as uint32_t,
+        0,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _144 = *(&mut _49 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2163,7 +2163,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _146 = memcpy(
         &mut _44 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
         &mut _43 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _147 = *(&mut _44 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
     *(&mut _42 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _147;
@@ -2180,11 +2180,8 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    return (_148 & 1 as core::ffi::c_int as uint32_t
-        | _149 & 2 as core::ffi::c_int as uint32_t
-        | _150 & 4 as core::ffi::c_int as uint32_t
-        | _151 & 8 as core::ffi::c_int as uint32_t
-        != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    return (_148 & 1 | _149 & 2 | _150 & 4 | _151 & 8 != 0 as core::ffi::c_uint) as core::ffi::c_int
+        as bool_0;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_blockRK14partition_infoR21endpoints_and_weights(
@@ -2951,7 +2948,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
         &mut _292 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut (*(_334 as *mut l_struct_struct_OC_image_block)).field9
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _336 = *(&mut _292.field0 as *mut l_array_4_float);
     *(&mut _280 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _336;
@@ -2992,7 +2989,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
             );
             _296 = 1 as core::ffi::c_int as uint8_t;
             _297 = 0 as core::ffi::c_int as core::ffi::c_float;
-            _298 = 0 as core::ffi::c_int as uint32_t;
+            _298 = 0;
             '__687: loop {
                 _349 = _298;
                 _350 = _293;
@@ -3009,12 +3006,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                         as *mut l_struct_struct_OC_partition_metrics))
                         .field1 as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _353 = memcpy(
                     &mut _300 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _299 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _354 = *(&mut _300.field0 as *mut l_array_4_float);
                 *(&mut _251 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _354;
@@ -3063,7 +3060,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _367 = memcpy(
                         &mut _303 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _299 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _368 = *(&mut _302.field0 as *mut l_array_4_float);
                     _369 = *(&mut _303.field0 as *mut l_array_4_float);
@@ -3137,7 +3134,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _384 = memcpy(
                         &mut _299 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _301 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
                 _385 = _298;
@@ -3149,14 +3146,14 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                         as *mut l_struct_struct_OC_partition_metrics))
                         .field0 as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _387 =
                     &mut _304.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _388 = memcpy(
                     &mut _305 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _299 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _182 = &mut _184 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _183 = 0.5f64 as core::ffi::c_float;
@@ -3187,12 +3184,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                 _397 = memcpy(
                     &mut _198 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _195 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _398 = memcpy(
                     &mut _199 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _195 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _399 = *(&mut _198 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _400 = *(&mut _199 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3201,12 +3198,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                 _401 = memcpy(
                     &mut _177 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _174 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _402 = memcpy(
                     &mut _178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _175 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _403 = *(&mut _177 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _404 = *(&mut _178 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3279,7 +3276,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                 _419 = memcpy(
                     &mut _179 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _176 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _420 = *(&mut _179 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _169 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _420;
@@ -3336,12 +3333,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _433 = memcpy(
                         &mut _200 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _195 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _434 = memcpy(
                         &mut _202 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _197 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _435 = *(&mut _202 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                     *(&mut _161 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _435;
@@ -3469,7 +3466,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _466 = memcpy(
                         &mut _194 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _196 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
                 _467 = _194;
@@ -3486,7 +3483,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     .offset(_469 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _309 = _470 as uint32_t;
-                _310 = 0 as core::ffi::c_int as uint32_t;
+                _310 = 0;
                 loop {
                     _471 = _310;
                     _472 = _309;
@@ -3516,13 +3513,13 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _480 = memcpy(
                         &mut _315 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _312 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _481 = memcpy(
                         &mut _316 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _304.field0 as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _482 = *(&mut _315.field0 as *mut l_array_4_float);
                     _483 = *(&mut _316.field0 as *mut l_array_4_float);
@@ -3597,7 +3594,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                         &mut _317 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _304.field1 as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _499 = *(&mut _314.field0 as *mut l_array_4_float);
                     _500 = *(&mut _317.field0 as *mut l_array_4_float);
@@ -3606,12 +3603,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _501 = memcpy(
                         &mut _215 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _212 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _502 = memcpy(
                         &mut _216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _213 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _503 = *(&mut _215 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                     _504 = *(&mut _216 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3686,7 +3683,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _519 = memcpy(
                         &mut _217 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _214 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _520 = *(&mut _217 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                     *(&mut _208 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _520;
@@ -3729,7 +3726,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _533 = _ZN4astcL3maxIfEET_S1_S1_(_531, _532);
                     _308 = _533;
                     _534 = _310;
-                    _310 = llvm_add_u32(_534, 1 as core::ffi::c_int as uint32_t);
+                    _310 = llvm_add_u32(_534, 1);
                 }
                 _535 = _308;
                 _536 = _307;
@@ -3766,12 +3763,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                 _548 = memcpy(
                     &mut _322 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _304.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _549 = memcpy(
                     &mut _324 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _304.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _550 = _307;
                 _551 = *(&mut _324.field0 as *mut l_array_4_float);
@@ -3780,7 +3777,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                 _552 = memcpy(
                     &mut _260 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _258 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _553 = _259;
                 _252 = &mut _261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -3955,17 +3952,17 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _595 = memcpy(
                     &mut _326 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _304.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _596 = memcpy(
                     &mut _328 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _304.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _597 = _308;
                 _598 = *(&mut _328.field0 as *mut l_array_4_float);
@@ -3974,7 +3971,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                 _599 = memcpy(
                     &mut _270 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _268 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _600 = _269;
                 _262 = &mut _271 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -4149,9 +4146,9 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _325 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
-                _329 = 0 as core::ffi::c_int as uint32_t;
+                _329 = 0;
                 loop {
                     _642 = _329;
                     _643 = _309;
@@ -4223,17 +4220,17 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                         break '__687;
                     }
                     _666 = _329;
-                    _329 = llvm_add_u32(_666, 1 as core::ffi::c_int as uint32_t);
+                    _329 = llvm_add_u32(_666, 1);
                 }
                 _667 = _298;
-                _298 = llvm_add_u32(_667, 1 as core::ffi::c_int as uint32_t);
+                _298 = llvm_add_u32(_667, 1);
             }
             match current_block {
                 17088561774021868655 => {
                     __assert_fail(
                         &_OC_str_OC_9 as *const l_array_41_uint8_t as *mut core::ffi::c_void,
                         &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                        596 as core::ffi::c_int as uint32_t,
+                        596,
                         &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_4_compRK11image_blockRK14partition_infoR21endpoints_and_weights
                             as *const l_array_115_uint8_t as *mut core::ffi::c_void,
                     );
@@ -4242,15 +4239,9 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     _668 = _294;
                     _180 = _668;
                     _669 = _180;
-                    _181 = llvm_udiv_u32(
-                        llvm_sub_u32(
-                            llvm_add_u32(_669, 4 as core::ffi::c_int as uint32_t),
-                            1 as core::ffi::c_int as uint32_t,
-                        ),
-                        4 as core::ffi::c_int as uint32_t,
-                    );
+                    _181 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_669, 4), 1), 4);
                     _670 = _181;
-                    _332 = llvm_mul_u32(_670, 4 as core::ffi::c_int as uint32_t);
+                    _332 = llvm_mul_u32(_670, 4);
                     _671 = _294;
                     _333 = _671;
                     loop {
@@ -4278,7 +4269,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                             as *mut core::ffi::c_float) =
                             0 as core::ffi::c_int as core::ffi::c_float;
                         _678 = _333;
-                        _333 = llvm_add_u32(_678, 1 as core::ffi::c_int as uint32_t);
+                        _333 = llvm_add_u32(_678, 1);
                     }
                     _679 = _296;
                     _680 = _290;
@@ -4292,7 +4283,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
             __assert_fail(
                 &_OC_str_OC_7 as *const l_array_20_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                531 as core::ffi::c_int as uint32_t,
+                531,
                 &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_4_compRK11image_blockRK14partition_infoR21endpoints_and_weights
                     as *const l_array_115_uint8_t as *mut core::ffi::c_void,
             );
@@ -4301,7 +4292,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
         __assert_fail(
             &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            530 as core::ffi::c_int as uint32_t,
+            530,
             &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_4_compRK11image_blockRK14partition_infoR21endpoints_and_weights
                 as *const l_array_115_uint8_t as *mut core::ffi::c_void,
         );
@@ -5920,7 +5911,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                     as *mut core::ffi::c_void,
                                 &_OC_str_OC_1 as *const l_array_66_uint8_t
                                     as *mut core::ffi::c_void,
-                                396 as core::ffi::c_int as uint32_t,
+                                396,
                                 &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_3_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                                     as *const l_array_129_uint8_t as *mut core::ffi::c_void,
                             );
@@ -5958,7 +5949,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
             }
             _1001 = 1 as core::ffi::c_int as uint8_t;
             _1002 = 0 as core::ffi::c_int as core::ffi::c_float;
-            _1003 = 0 as core::ffi::c_int as uint32_t;
+            _1003 = 0;
             '__1657: loop {
                 _1156 = _1003;
                 _1157 = _990;
@@ -5975,12 +5966,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                         as *mut l_struct_struct_OC_partition_metrics))
                         .field1 as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1160 = memcpy(
                     &mut _1005 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1161 = *(&mut _1005.field0 as *mut l_array_4_float);
                 *(&mut _942 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1161;
@@ -6029,7 +6020,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1174 = memcpy(
                         &mut _1008 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1175 = *(&mut _1007.field0 as *mut l_array_4_float);
                     _1176 = *(&mut _1008.field0 as *mut l_array_4_float);
@@ -6103,7 +6094,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1191 = memcpy(
                         &mut _1004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1006 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
                 _1192 = _1003;
@@ -6115,14 +6106,14 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                         as *mut l_struct_struct_OC_partition_metrics))
                         .field0 as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1194 =
                     &mut _1009.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _1195 = memcpy(
                     &mut _1010 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _732 = 0.577350259f64 as core::ffi::c_float;
                 _1196 = _732;
@@ -6160,12 +6151,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                 _1207 = memcpy(
                     &mut _791 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _788 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1208 = memcpy(
                     &mut _792 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _788 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1209 = *(&mut _791 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _1210 = *(&mut _792 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -6174,12 +6165,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                 _1211 = memcpy(
                     &mut _773 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _770 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1212 = memcpy(
                     &mut _774 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _771 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1213 = *(&mut _773 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _1214 = *(&mut _774 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -6252,7 +6243,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                 _1229 = memcpy(
                     &mut _775 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _772 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1230 = *(&mut _775 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _765 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1230;
@@ -6309,12 +6300,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1243 = memcpy(
                         &mut _793 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _788 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1244 = memcpy(
                         &mut _795 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _790 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1245 = *(&mut _795 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                     *(&mut _757 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1245;
@@ -6442,7 +6433,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1276 = memcpy(
                         &mut _787 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _789 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
                 _1277 = _787;
@@ -6460,7 +6451,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                         .offset(_1279 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                 _1014 = _1280 as uint32_t;
-                _1015 = 0 as core::ffi::c_int as uint32_t;
+                _1015 = 0;
                 loop {
                     _1281 = _1015;
                     _1282 = _1014;
@@ -6532,13 +6523,13 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1305 = memcpy(
                         &mut _1020 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1017 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1306 = memcpy(
                         &mut _1021 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1009.field0 as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1307 = *(&mut _1020.field0 as *mut l_array_4_float);
                     _1308 = *(&mut _1021.field0 as *mut l_array_4_float);
@@ -6613,7 +6604,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                         &mut _1022 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1009.field1 as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1324 = *(&mut _1019.field0 as *mut l_array_4_float);
                     _1325 = *(&mut _1022.field0 as *mut l_array_4_float);
@@ -6622,12 +6613,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1326 = memcpy(
                         &mut _939 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _936 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1327 = memcpy(
                         &mut _940 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _937 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1328 = *(&mut _939 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                     _1329 = *(&mut _940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -6702,7 +6693,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1344 = memcpy(
                         &mut _941 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _938 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _1345 = *(&mut _941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                     *(&mut _932 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1345;
@@ -6740,7 +6731,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1360 = _ZN4astcL3maxIfEET_S1_S1_(_1358, _1359);
                     _1013 = _1360;
                     _1361 = _1015;
-                    _1015 = llvm_add_u32(_1361, 1 as core::ffi::c_int as uint32_t);
+                    _1015 = llvm_add_u32(_1361, 1);
                 }
                 _1362 = _1013;
                 _1363 = _1012;
@@ -6775,7 +6766,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1374 = _1374__PHI_TEMPORARY;
                     _1001 = _1374;
                 }
-                _1026 = 0 as core::ffi::c_int as uint32_t;
+                _1026 = 0;
                 loop {
                     _1375 = _1026;
                     _1376 = _1014;
@@ -6847,17 +6838,17 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                         break '__1657;
                     }
                     _1399 = _1026;
-                    _1026 = llvm_add_u32(_1399, 1 as core::ffi::c_int as uint32_t);
+                    _1026 = llvm_add_u32(_1399, 1);
                 }
                 _1400 = memcpy(
                     &mut _1030 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1009.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1401 = memcpy(
                     &mut _1032 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1009.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1402 = _1012;
                 _1403 = *(&mut _1032.field0 as *mut l_array_4_float);
@@ -6866,7 +6857,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                 _1404 = memcpy(
                     &mut _955 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _953 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1405 = _954;
                 _947 = &mut _956 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7029,12 +7020,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                 _1444 = memcpy(
                     &mut _1034 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1009.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1445 = memcpy(
                     &mut _1036 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1009.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1446 = _1013;
                 _1447 = *(&mut _1036.field0 as *mut l_array_4_float);
@@ -7043,7 +7034,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                 _1448 = memcpy(
                     &mut _965 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _963 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1449 = _964;
                 _957 = &mut _966 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7209,7 +7200,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     &mut (*(_1488 as *mut l_struct_struct_OC_image_block)).field6
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1490 = _986;
                 _1491 = memcpy(
@@ -7217,7 +7208,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     &mut (*(_1490 as *mut l_struct_struct_OC_image_block)).field8
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1492 = _989;
                 if !(_1492 < 4 as core::ffi::c_uint) {
@@ -7288,7 +7279,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _916 =
                             &mut _1038 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7351,7 +7342,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1040 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                     }
                     1 => {
@@ -7419,7 +7410,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1041 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _919 =
                             &mut _1033 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7485,7 +7476,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1042 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                     }
                     2 => {
@@ -7553,7 +7544,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1043 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _921 =
                             &mut _1033 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7619,7 +7610,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1044 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                     }
                     _ => {
@@ -7687,7 +7678,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1045 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _923 =
                             &mut _1033 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7753,19 +7744,19 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _1046 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                     }
                 }
                 _1622 = _1003;
-                _1003 = llvm_add_u32(_1622, 1 as core::ffi::c_int as uint32_t);
+                _1003 = llvm_add_u32(_1622, 1);
             }
             match current_block {
                 7201776463031858668 => {
                     __assert_fail(
                         &_OC_str_OC_9 as *const l_array_41_uint8_t as *mut core::ffi::c_void,
                         &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                        471 as core::ffi::c_int as uint32_t,
+                        471,
                         &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_3_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                             as *const l_array_129_uint8_t as *mut core::ffi::c_void,
                     );
@@ -7774,7 +7765,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     __assert_fail(
                         &_OC_str_OC_11 as *const l_array_41_uint8_t as *mut core::ffi::c_void,
                         &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                        480 as core::ffi::c_int as uint32_t,
+                        480,
                         &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_3_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                             as *const l_array_129_uint8_t as *mut core::ffi::c_void,
                     );
@@ -7783,15 +7774,9 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1623 = _991;
                     _776 = _1623;
                     _1624 = _776;
-                    _777 = llvm_udiv_u32(
-                        llvm_sub_u32(
-                            llvm_add_u32(_1624, 4 as core::ffi::c_int as uint32_t),
-                            1 as core::ffi::c_int as uint32_t,
-                        ),
-                        4 as core::ffi::c_int as uint32_t,
-                    );
+                    _777 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_1624, 4), 1), 4);
                     _1625 = _777;
-                    _1047 = llvm_mul_u32(_1625, 4 as core::ffi::c_int as uint32_t);
+                    _1047 = llvm_mul_u32(_1625, 4);
                     _1626 = _991;
                     _1048 = _1626;
                     loop {
@@ -7819,7 +7804,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                             .offset(_1632 as uint64_t as int64_t as isize)
                             as *mut core::ffi::c_float) = 0 as core::ffi::c_int as core::ffi::c_float;
                         _1633 = _1048;
-                        _1048 = llvm_add_u32(_1633, 1 as core::ffi::c_int as uint32_t);
+                        _1048 = llvm_add_u32(_1633, 1);
                     }
                     _1634 = _1001;
                     _1635 = _988;
@@ -7833,7 +7818,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
             __assert_fail(
                 &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                365 as core::ffi::c_int as uint32_t,
+                365,
                 &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_3_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                     as *const l_array_129_uint8_t as *mut core::ffi::c_void,
             );
@@ -7842,7 +7827,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
         __assert_fail(
             &_OC_str_OC_7 as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            362 as core::ffi::c_int as uint32_t,
+            362,
             &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_3_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                 as *const l_array_129_uint8_t as *mut core::ffi::c_void,
         );
@@ -7913,14 +7898,10 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
     _1704 = _1699;
     _1705 = _1700;
     _1708 = _1701;
-    _1709 = _ZNK21block_size_descriptor18get_partition_infoEjj(
-        _1708,
-        1 as core::ffi::c_int as uint32_t,
-        0 as core::ffi::c_int as uint32_t,
-    );
+    _1709 = _ZNK21block_size_descriptor18get_partition_infoEjj(_1708, 1, 0);
     _1706 = _1709;
     _1710 = _1702;
-    _1711 = _ZNK11image_block19is_constant_channelEi(_1710, 3 as core::ffi::c_int as uint32_t);
+    _1711 = _ZNK11image_block19is_constant_channelEi(_1710, 3);
     _1707 = (_1711 as core::ffi::c_int ^ 1 as core::ffi::c_int) as bool_0;
     _1712 = _1703;
     if _1712 < 4 as core::ffi::c_uint {
@@ -7936,7 +7917,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1715,
                         _1716,
                         _1717,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                     );
                 } else {
                     _1718 = _1702;
@@ -7946,8 +7927,8 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1718,
                         _1719,
                         _1720,
-                        1 as core::ffi::c_int as uint32_t,
-                        2 as core::ffi::c_int as uint32_t,
+                        1,
+                        2,
                     );
                 }
                 _1721 = _1702;
@@ -7957,7 +7938,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                     _1721,
                     _1722,
                     _1723,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                 );
             }
             1 => {
@@ -7970,7 +7951,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1725,
                         _1726,
                         _1727,
-                        1 as core::ffi::c_int as uint32_t,
+                        1,
                     );
                 } else {
                     _1728 = _1702;
@@ -7980,8 +7961,8 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1728,
                         _1729,
                         _1730,
-                        0 as core::ffi::c_int as uint32_t,
-                        2 as core::ffi::c_int as uint32_t,
+                        0,
+                        2,
                     );
                 }
                 _1731 = _1702;
@@ -7991,7 +7972,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                     _1731,
                     _1732,
                     _1733,
-                    1 as core::ffi::c_int as uint32_t,
+                    1,
                 );
             }
             2 => {
@@ -8004,7 +7985,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1735,
                         _1736,
                         _1737,
-                        2 as core::ffi::c_int as uint32_t,
+                        2,
                     );
                 } else {
                     _1738 = _1702;
@@ -8014,8 +7995,8 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1738,
                         _1739,
                         _1740,
-                        0 as core::ffi::c_int as uint32_t,
-                        1 as core::ffi::c_int as uint32_t,
+                        0,
+                        1,
                     );
                 }
                 _1741 = _1702;
@@ -8025,7 +8006,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                     _1741,
                     _1742,
                     _1743,
-                    2 as core::ffi::c_int as uint32_t,
+                    2,
                 );
             }
             _ => {
@@ -8038,7 +8019,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1745,
                         _1746,
                         _1747,
-                        3 as core::ffi::c_int as uint32_t,
+                        3,
                     );
                     _1748 = _1702;
                     _1749 = _1706;
@@ -8047,13 +8028,13 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1748,
                         _1749,
                         _1750,
-                        3 as core::ffi::c_int as uint32_t,
+                        3,
                     );
                 } else {
                     __assert_fail(
                         &_OC_str_OC_2 as *const l_array_11_uint8_t as *mut core::ffi::c_void,
                         &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                        680 as core::ffi::c_int as uint32_t,
+                        680,
                         &__PRETTY_FUNCTION___OC__Z40compute_ideal_colors_and_weights_2planesRK21block_size_descriptorRK11image_blockjR21endpoints_and_weightsS6_
                             as *const l_array_162_uint8_t as *mut core::ffi::c_void,
                     );
@@ -8065,7 +8046,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
         __assert_fail(
             &_OC_str as *const l_array_40_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            640 as core::ffi::c_int as uint32_t,
+            640,
             &__PRETTY_FUNCTION___OC__Z40compute_ideal_colors_and_weights_2planesRK21block_size_descriptorRK11image_blockjR21endpoints_and_weightsS6_
                 as *const l_array_162_uint8_t as *mut core::ffi::c_void,
         );
@@ -8105,7 +8086,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     _1775 = _1772;
     _1776 = _1773;
     _1779 = _1774;
-    _1777 = 0 as core::ffi::c_int as uint32_t;
+    _1777 = 0;
     _1780 = _1775;
     if _1780 >= 2 as core::ffi::c_uint {
         _1781 = _1775;
@@ -8117,10 +8098,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             .array)
             .as_mut_ptr()
             .offset(
-                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    _1781,
-                    2 as core::ffi::c_int as uint32_t,
-                ) as uint64_t as int64_t as isize,
+                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_1781, 2)
+                    as uint64_t as int64_t as isize,
             ) as *mut l_array_1024_uint16_t))
             .array)
             .as_mut_ptr()
@@ -8137,10 +8116,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        _1786,
-                        1 as core::ffi::c_int as uint32_t,
-                    ) as uint64_t as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_1786, 1)
+                        as uint64_t as int64_t as isize,
                 ) as *mut uint32_t);
         _1788__PHI_TEMPORARY = (_1785 < _1787) as core::ffi::c_int as bool_0;
     } else {
@@ -8165,7 +8142,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             __assert_fail(
                 &_OC_str_OC_14 as *const l_array_32_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_13 as *const l_array_45_uint8_t as *mut core::ffi::c_void,
-                710 as core::ffi::c_int as uint32_t,
+                710,
                 &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor18get_partition_infoEjj
                     as *const l_array_98_uint8_t as *mut core::ffi::c_void,
             );
@@ -8174,7 +8151,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
         __assert_fail(
             &_OC_str_OC_12 as *const l_array_107_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_13 as *const l_array_45_uint8_t as *mut core::ffi::c_void,
-            708 as core::ffi::c_int as uint32_t,
+            708,
             &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor18get_partition_infoEjj
                 as *const l_array_98_uint8_t as *mut core::ffi::c_void,
         );
@@ -9829,7 +9806,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                                         as *mut core::ffi::c_void,
                                     &_OC_str_OC_1 as *const l_array_66_uint8_t
                                         as *mut core::ffi::c_void,
-                                    253 as core::ffi::c_int as uint32_t,
+                                    253,
                                     &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_2_compRK11image_blockRK14partition_infoR21endpoints_and_weightsii
                                         as *const l_array_125_uint8_t as *mut core::ffi::c_void,
                                 );
@@ -9857,10 +9834,10 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
             _2076 = 1 as core::ffi::c_int as uint8_t;
             _2077 = 0 as core::ffi::c_int as core::ffi::c_float;
             _1826 = &mut _1910 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-            _1827 = 0 as core::ffi::c_int as uint32_t;
-            _1828 = 1 as core::ffi::c_int as uint32_t;
-            _1829 = 2 as core::ffi::c_int as uint32_t;
-            _1830 = 3 as core::ffi::c_int as uint32_t;
+            _1827 = 0;
+            _1828 = 1;
+            _1829 = 2;
+            _1830 = 3;
             _2212 = _1826;
             _2213 = _1827;
             *(_2212 as *mut uint32_t) = _2213;
@@ -9957,7 +9934,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
             *(_2234 as *mut uint32_t) = llvm_select_u32(
                 ((_2235 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2237 = _1818;
@@ -9970,7 +9947,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 as *mut uint32_t) = llvm_select_u32(
                 ((_2237 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2239 = _1819;
@@ -9983,7 +9960,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 as *mut uint32_t) = llvm_select_u32(
                 ((_2239 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2241 = _1820;
@@ -9996,16 +9973,16 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 as *mut uint32_t) = llvm_select_u32(
                 ((_2241 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2243 = *(&mut _1912 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
             (*(&mut _2078.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_22)).data = _2243;
             _1821 = &mut _1911 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-            _1822 = 0 as core::ffi::c_int as uint32_t;
-            _1823 = 1 as core::ffi::c_int as uint32_t;
-            _1824 = 2 as core::ffi::c_int as uint32_t;
-            _1825 = 3 as core::ffi::c_int as uint32_t;
+            _1822 = 0;
+            _1823 = 1;
+            _1824 = 2;
+            _1825 = 3;
             _2244 = _1821;
             _2245 = _1822;
             *(_2244 as *mut uint32_t) = _2245;
@@ -10102,7 +10079,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
             *(_2266 as *mut uint32_t) = llvm_select_u32(
                 ((_2267 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2269 = _1813;
@@ -10115,7 +10092,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 as *mut uint32_t) = llvm_select_u32(
                 ((_2269 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2271 = _1814;
@@ -10128,7 +10105,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 as *mut uint32_t) = llvm_select_u32(
                 ((_2271 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2273 = _1815;
@@ -10141,12 +10118,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 as *mut uint32_t) = llvm_select_u32(
                 ((_2273 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2275 = *(&mut _1915 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
             (*(&mut _2081.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_18)).data = _2275;
-            _2084 = 0 as core::ffi::c_int as uint32_t;
+            _2084 = 0;
             '__2776: loop {
                 _2276 = _2084;
                 _2277 = _2067;
@@ -10163,12 +10140,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         as *mut l_struct_struct_OC_partition_metrics))
                         .field1 as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2280 = memcpy(
                     &mut _2086 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2281 = *(&mut _2086.field0 as *mut l_array_4_float);
                 *(&mut _2054 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2281;
@@ -10222,7 +10199,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2292 = memcpy(
                         &mut _2089 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2293 = *(&mut _2088.field0 as *mut l_array_4_float);
                     _2294 = *(&mut _2089.field0 as *mut l_array_4_float);
@@ -10298,7 +10275,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2309 = memcpy(
                         &mut _2085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2087 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
                 _2310 = _2084;
@@ -10310,14 +10287,14 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         as *mut l_struct_struct_OC_partition_metrics))
                         .field0 as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2312 =
                     &mut _2090.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2313 = memcpy(
                     &mut _2091 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1837 = 0.707106769f64 as core::ffi::c_float;
                 _2314 = _1837;
@@ -10354,12 +10331,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2324 = memcpy(
                     &mut _1905 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2325 = memcpy(
                     &mut _1906 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2326 = *(&mut _1905 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _2327 = *(&mut _1906 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10368,12 +10345,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2328 = memcpy(
                     &mut _1887 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1884 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2329 = memcpy(
                     &mut _1888 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1885 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2330 = *(&mut _1887 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _2331 = *(&mut _1888 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10446,7 +10423,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2346 = memcpy(
                     &mut _1889 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _1886 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2347 = *(&mut _1889 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _1879 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2347;
@@ -10503,12 +10480,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2360 = memcpy(
                         &mut _1907 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2361 = memcpy(
                         &mut _1909 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1904 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2362 =
                         *(&mut _1909 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10642,7 +10619,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2393 = memcpy(
                         &mut _1901 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1903 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
                 _2394 = _1901;
@@ -10660,7 +10637,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         .offset(_2396 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                 _2095 = _2397 as uint32_t;
-                _2096 = 0 as core::ffi::c_int as uint32_t;
+                _2096 = 0;
                 loop {
                     _2398 = _2096;
                     _2399 = _2095;
@@ -10725,13 +10702,13 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2418 = memcpy(
                         &mut _2101 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2098 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2419 = memcpy(
                         &mut _2102 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2090.field0 as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2420 = *(&mut _2101.field0 as *mut l_array_4_float);
                     _2421 = *(&mut _2102.field0 as *mut l_array_4_float);
@@ -10808,7 +10785,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         &mut _2103 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2090.field1 as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2437 = *(&mut _2100.field0 as *mut l_array_4_float);
                     _2438 = *(&mut _2103.field0 as *mut l_array_4_float);
@@ -10819,12 +10796,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2439 = memcpy(
                         &mut _1930 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1927 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2440 = memcpy(
                         &mut _1931 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2441 =
                         *(&mut _1930 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10903,7 +10880,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2457 = memcpy(
                         &mut _1932 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1929 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2458 =
                         *(&mut _1932 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -10948,7 +10925,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2471 = _ZN4astcL3maxIfEET_S1_S1_(_2469, _2470);
                     _2094 = _2471;
                     _2472 = _2096;
-                    _2096 = llvm_add_u32(_2472, 1 as core::ffi::c_int as uint32_t);
+                    _2096 = llvm_add_u32(_2472, 1);
                 }
                 _2473 = _2094;
                 _2474 = _2093;
@@ -10983,7 +10960,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2485 = _2485__PHI_TEMPORARY;
                     _2076 = _2485;
                 }
-                _2107 = 0 as core::ffi::c_int as uint32_t;
+                _2107 = 0;
                 loop {
                     _2486 = _2107;
                     _2487 = _2095;
@@ -11055,17 +11032,17 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         break '__2776;
                     }
                     _2510 = _2107;
-                    _2107 = llvm_add_u32(_2510, 1 as core::ffi::c_int as uint32_t);
+                    _2107 = llvm_add_u32(_2510, 1);
                 }
                 _2511 = memcpy(
                     &mut _2111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2090.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2512 = memcpy(
                     &mut _2113 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2090.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2513 = _2093;
                 _2514 = *(&mut _2113.field0 as *mut l_array_4_float);
@@ -11074,7 +11051,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2515 = memcpy(
                     &mut _2023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2021 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2516 = _2022;
                 _2015 = &mut _2024 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -11237,12 +11214,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2555 = memcpy(
                     &mut _2115 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2090.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2556 = memcpy(
                     &mut _2117 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2090.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2557 = _2094;
                 _2558 = *(&mut _2117.field0 as *mut l_array_4_float);
@@ -11251,7 +11228,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2559 = memcpy(
                     &mut _2033 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2031 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2560 = _2032;
                 _2025 = &mut _2034 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -11417,7 +11394,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     &mut (*(_2599 as *mut l_struct_struct_OC_image_block)).field6
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1990 = &mut _2110 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2601 = _1990;
@@ -11445,7 +11422,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2608 = memcpy(
                     &mut _2121 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _2078 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2609 = *(&mut _2119.field0 as *mut l_array_4_float);
                 _2610 = *(&mut _2120.field0 as *mut l_array_4_float);
@@ -11568,7 +11545,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     &mut (*(_2634 as *mut l_struct_struct_OC_image_block)).field8
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1991 = &mut _2114 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2636 = _1991;
@@ -11596,7 +11573,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2643 = memcpy(
                     &mut _2125 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _2078 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2644 = *(&mut _2123.field0 as *mut l_array_4_float);
                 _2645 = *(&mut _2124.field0 as *mut l_array_4_float);
@@ -11716,7 +11693,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2669 = memcpy(
                     &mut _2127 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2118 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1988 = &mut _2110 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2670 = _1988;
@@ -11747,7 +11724,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2677 = memcpy(
                     &mut _2129 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _2081 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2678 = *(&mut _2127.field0 as *mut l_array_4_float);
                 _2679 = *(&mut _2128.field0 as *mut l_array_4_float);
@@ -11879,12 +11856,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _2126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2706 = memcpy(
                     &mut _2131 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2122 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _1989 = &mut _2114 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2707 = _1989;
@@ -11915,7 +11892,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 _2714 = memcpy(
                     &mut _2133 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _2081 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2715 = *(&mut _2131.field0 as *mut l_array_4_float);
                 _2716 = *(&mut _2132.field0 as *mut l_array_4_float);
@@ -12047,17 +12024,17 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _2130 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2743 = _2084;
-                _2084 = llvm_add_u32(_2743, 1 as core::ffi::c_int as uint32_t);
+                _2084 = llvm_add_u32(_2743, 1);
             }
             match current_block {
                 7257287759762417940 => {
                     __assert_fail(
                         &_OC_str_OC_9 as *const l_array_41_uint8_t as *mut core::ffi::c_void,
                         &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                        322 as core::ffi::c_int as uint32_t,
+                        322,
                         &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_2_compRK11image_blockRK14partition_infoR21endpoints_and_weightsii
                             as *const l_array_125_uint8_t as *mut core::ffi::c_void,
                     );
@@ -12066,15 +12043,9 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2744 = _2068;
                     _1890 = _2744;
                     _2745 = _1890;
-                    _1891 = llvm_udiv_u32(
-                        llvm_sub_u32(
-                            llvm_add_u32(_2745, 4 as core::ffi::c_int as uint32_t),
-                            1 as core::ffi::c_int as uint32_t,
-                        ),
-                        4 as core::ffi::c_int as uint32_t,
-                    );
+                    _1891 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_2745, 4), 1), 4);
                     _2746 = _1891;
-                    _2134 = llvm_mul_u32(_2746, 4 as core::ffi::c_int as uint32_t);
+                    _2134 = llvm_mul_u32(_2746, 4);
                     _2747 = _2068;
                     _2135 = _2747;
                     loop {
@@ -12102,7 +12073,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                             .offset(_2753 as uint64_t as int64_t as isize)
                             as *mut core::ffi::c_float) = 0 as core::ffi::c_int as core::ffi::c_float;
                         _2754 = _2135;
-                        _2135 = llvm_add_u32(_2754, 1 as core::ffi::c_int as uint32_t);
+                        _2135 = llvm_add_u32(_2754, 1);
                     }
                     _2755 = _2076;
                     _2756 = _2064;
@@ -12116,7 +12087,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
             __assert_fail(
                 &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                229 as core::ffi::c_int as uint32_t,
+                229,
                 &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_2_compRK11image_blockRK14partition_infoR21endpoints_and_weightsii
                     as *const l_array_125_uint8_t as *mut core::ffi::c_void,
             );
@@ -12125,7 +12096,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
         __assert_fail(
             &_OC_str_OC_7 as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            226 as core::ffi::c_int as uint32_t,
+            226,
             &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_2_compRK11image_blockRK14partition_infoR21endpoints_and_weightsii
                 as *const l_array_125_uint8_t as *mut core::ffi::c_void,
         );
@@ -12597,7 +12568,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                                     as *mut core::ffi::c_void,
                                 &_OC_str_OC_1 as *const l_array_66_uint8_t
                                     as *mut core::ffi::c_void,
-                                139 as core::ffi::c_int as uint32_t,
+                                139,
                                 &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_1_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                                     as *const l_array_129_uint8_t as *mut core::ffi::c_void,
                             );
@@ -12605,10 +12576,10 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     }
                 }
                 _2864 = &mut _2872 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _2865 = 0 as core::ffi::c_int as uint32_t;
-                _2866 = 1 as core::ffi::c_int as uint32_t;
-                _2867 = 2 as core::ffi::c_int as uint32_t;
-                _2868 = 3 as core::ffi::c_int as uint32_t;
+                _2865 = 0;
+                _2866 = 1;
+                _2867 = 2;
+                _2868 = 3;
                 _2966 = _2864;
                 _2967 = _2865;
                 *(_2966 as *mut uint32_t) = _2967;
@@ -12710,7 +12681,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     ((_2989 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _2991 = _2861;
@@ -12725,7 +12696,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     ((_2991 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _2993 = _2862;
@@ -12740,7 +12711,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     ((_2993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _2995 = _2863;
@@ -12755,7 +12726,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     ((_2995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _2997 = *(&mut _2873 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -12763,7 +12734,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     _2997;
                 _2914 = 1 as core::ffi::c_int as uint8_t;
                 _2915 = 0 as core::ffi::c_int as core::ffi::c_float;
-                _2916 = 0 as core::ffi::c_int as uint32_t;
+                _2916 = 0;
                 '__3162: loop {
                     _2998 = _2916;
                     _2999 = _2907;
@@ -12782,7 +12753,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         .offset(_3001 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _2919 = _3002 as uint32_t;
-                    _2920 = 0 as core::ffi::c_int as uint32_t;
+                    _2920 = 0;
                     loop {
                         _3003 = _2920;
                         _3004 = _2919;
@@ -12820,7 +12791,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         _3017 = _ZN4astcL3maxIfEET_S1_S1_(_3015, _3016);
                         _2918 = _3017;
                         _3018 = _2920;
-                        _2920 = llvm_add_u32(_3018, 1 as core::ffi::c_int as uint32_t);
+                        _2920 = llvm_add_u32(_3018, 1);
                     }
                     _3019 = _2918;
                     _3020 = _2917;
@@ -12857,7 +12828,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         _3031 = _3031__PHI_TEMPORARY;
                         _2914 = _3031;
                     }
-                    _2926 = 0 as core::ffi::c_int as uint32_t;
+                    _2926 = 0;
                     loop {
                         _3032 = _2926;
                         _3033 = _2919;
@@ -12928,7 +12899,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                             break '__3162;
                         }
                         _3056 = _2926;
-                        _2926 = llvm_add_u32(_3056, 1 as core::ffi::c_int as uint32_t);
+                        _2926 = llvm_add_u32(_3056, 1);
                     }
                     _3057 = _2903;
                     _3058 = memcpy(
@@ -12936,7 +12907,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         &mut (*(_3057 as *mut l_struct_struct_OC_image_block)).field6
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3059 = _2917;
                     _2901 = &mut _2931 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -12962,7 +12933,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     _3065 = memcpy(
                         &mut _2932 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2911 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3066 = *(&mut _2930.field0 as *mut l_array_4_float);
                     _3067 = *(&mut _2931.field0 as *mut l_array_4_float);
@@ -13098,7 +13069,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2929 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3094 = _2903;
                     _3095 = memcpy(
@@ -13106,7 +13077,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         &mut (*(_3094 as *mut l_struct_struct_OC_image_block)).field8
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3096 = _2918;
                     _2899 = &mut _2935 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -13132,7 +13103,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     _3102 = memcpy(
                         &mut _2936 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2911 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3103 = *(&mut _2934.field0 as *mut l_array_4_float);
                     _3104 = *(&mut _2935.field0 as *mut l_array_4_float);
@@ -13268,10 +13239,10 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2933 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3131 = _2916;
-                    _2916 = llvm_add_u32(_3131, 1 as core::ffi::c_int as uint32_t);
+                    _2916 = llvm_add_u32(_3131, 1);
                 }
                 match current_block {
                     13037182916363965049 => {
@@ -13280,7 +13251,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                                 as *mut core::ffi::c_void,
                             &_OC_str_OC_1 as *const l_array_66_uint8_t
                                 as *mut core::ffi::c_void,
-                            190 as core::ffi::c_int as uint32_t,
+                            190,
                             &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_1_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                                 as *const l_array_129_uint8_t as *mut core::ffi::c_void,
                         );
@@ -13289,15 +13260,9 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         _3132 = _2908;
                         _2870 = _3132;
                         _3133 = _2870;
-                        _2871 = llvm_udiv_u32(
-                            llvm_sub_u32(
-                                llvm_add_u32(_3133, 4 as core::ffi::c_int as uint32_t),
-                                1 as core::ffi::c_int as uint32_t,
-                            ),
-                            4 as core::ffi::c_int as uint32_t,
-                        );
+                        _2871 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_3133, 4), 1), 4);
                         _3134 = _2871;
-                        _2937 = llvm_mul_u32(_3134, 4 as core::ffi::c_int as uint32_t);
+                        _2937 = llvm_mul_u32(_3134, 4);
                         _3135 = _2908;
                         _2938 = _3135;
                         loop {
@@ -13329,7 +13294,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                                 as *mut core::ffi::c_float) =
                                 0 as core::ffi::c_int as core::ffi::c_float;
                             _3142 = _2938;
-                            _2938 = llvm_add_u32(_3142, 1 as core::ffi::c_int as uint32_t);
+                            _2938 = llvm_add_u32(_3142, 1);
                         }
                         _3143 = _2914;
                         _3144 = _2905;
@@ -13343,7 +13308,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                 __assert_fail(
                     &_OC_str_OC_16 as *const l_array_33_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                    123 as core::ffi::c_int as uint32_t,
+                    123,
                     &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_1_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                         as *const l_array_129_uint8_t as *mut core::ffi::c_void,
                 );
@@ -13352,7 +13317,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
             __assert_fail(
                 &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                118 as core::ffi::c_int as uint32_t,
+                118,
                 &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_1_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                     as *const l_array_129_uint8_t as *mut core::ffi::c_void,
             );
@@ -13361,7 +13326,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
         __assert_fail(
             &_OC_str_OC_7 as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            115 as core::ffi::c_int as uint32_t,
+            115,
             &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_1_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                 as *const l_array_129_uint8_t as *mut core::ffi::c_void,
         );
@@ -14182,7 +14147,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
         _3413 =
             *(&mut (*(_3412 as *mut l_struct_struct_OC_decimation_info)).field1 as *mut uint8_t);
         if _3413 as uint32_t as int32_t > 2 as core::ffi::c_uint as int32_t {
-            _3363 = 0 as core::ffi::c_int as uint32_t;
+            _3363 = 0;
             loop {
                 _3414 = _3363;
                 _3415 = _3362;
@@ -14241,12 +14206,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                 _3433 = memcpy(
                     &mut _3367 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _3364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3434 = memcpy(
                     &mut _3368 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _3365 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3435 = *(&mut _3367.field0 as *mut l_array_4_float);
                 _3436 = *(&mut _3368.field0 as *mut l_array_4_float);
@@ -14362,12 +14327,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                 _3464 = memcpy(
                     &mut _3372 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _3366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3465 = memcpy(
                     &mut _3373 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _3366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3466 = *(&mut _3372.field0 as *mut l_array_4_float);
                 _3467 = *(&mut _3373.field0 as *mut l_array_4_float);
@@ -14439,7 +14404,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                 _3482 = memcpy(
                     &mut _3374 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _3369 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3483 = *(&mut _3371.field0 as *mut l_array_4_float);
                 _3484 = *(&mut _3374.field0 as *mut l_array_4_float);
@@ -14511,7 +14476,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                 _3499 = memcpy(
                     &mut _3375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _3370 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3500 = *(&mut _3375.field0 as *mut l_array_4_float);
                 *(&mut _3301 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3500;
@@ -14520,12 +14485,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                 _3502 = memcpy(
                     &mut _3304 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _3501,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3503 = memcpy(
                     &mut _3305 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _3301 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3504 = *(&mut _3304 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _3505 = *(&mut _3305 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14599,17 +14564,17 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                 _3521 = memcpy(
                     _3520,
                     &mut _3303 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3522 = _3363;
-                _3363 = llvm_add_u32(_3522, 4 as core::ffi::c_int as uint32_t);
+                _3363 = llvm_add_u32(_3522, 4);
             }
         } else {
             _3523 = _3359;
             _3524 = *(&mut (*(_3523 as *mut l_struct_struct_OC_decimation_info)).field1
                 as *mut uint8_t);
             if _3524 as uint32_t as int32_t > 1 as core::ffi::c_uint as int32_t {
-                _3376 = 0 as core::ffi::c_int as uint32_t;
+                _3376 = 0;
                 loop {
                     _3525 = _3376;
                     _3526 = _3362;
@@ -14670,12 +14635,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3544 = memcpy(
                         &mut _3380 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3377 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3545 = memcpy(
                         &mut _3381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3378 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3546 = *(&mut _3380.field0 as *mut l_array_4_float);
                     _3547 = *(&mut _3381.field0 as *mut l_array_4_float);
@@ -14797,12 +14762,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3575 = memcpy(
                         &mut _3385 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3379 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3576 = memcpy(
                         &mut _3386 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3379 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3577 = *(&mut _3385.field0 as *mut l_array_4_float);
                     _3578 = *(&mut _3386.field0 as *mut l_array_4_float);
@@ -14878,7 +14843,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3593 = memcpy(
                         &mut _3387 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3382 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3594 = *(&mut _3384.field0 as *mut l_array_4_float);
                     _3595 = *(&mut _3387.field0 as *mut l_array_4_float);
@@ -14954,7 +14919,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3610 = memcpy(
                         &mut _3388 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3383 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3611 = *(&mut _3388.field0 as *mut l_array_4_float);
                     *(&mut _3306 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -14964,12 +14929,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3613 = memcpy(
                         &mut _3309 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _3612,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3614 = memcpy(
                         &mut _3310 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3306 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3615 =
                         *(&mut _3309 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -15049,13 +15014,13 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3632 = memcpy(
                         _3631,
                         &mut _3308 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3633 = _3376;
-                    _3376 = llvm_add_u32(_3633, 4 as core::ffi::c_int as uint32_t);
+                    _3376 = llvm_add_u32(_3633, 4);
                 }
             } else {
-                _3389 = 0 as core::ffi::c_int as uint32_t;
+                _3389 = 0;
                 loop {
                     _3634 = _3389;
                     _3635 = _3362;
@@ -15150,12 +15115,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3662 = memcpy(
                         &mut _3393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3390 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3663 = memcpy(
                         &mut _3394 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3391 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3664 = *(&mut _3393.field0 as *mut l_array_4_float);
                     _3665 = *(&mut _3394.field0 as *mut l_array_4_float);
@@ -15277,12 +15242,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3693 = memcpy(
                         &mut _3398 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3694 = memcpy(
                         &mut _3399 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3695 = *(&mut _3398.field0 as *mut l_array_4_float);
                     _3696 = *(&mut _3399.field0 as *mut l_array_4_float);
@@ -15358,7 +15323,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3711 = memcpy(
                         &mut _3400 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3395 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3712 = *(&mut _3397.field0 as *mut l_array_4_float);
                     _3713 = *(&mut _3400.field0 as *mut l_array_4_float);
@@ -15434,7 +15399,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3728 = memcpy(
                         &mut _3401 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3396 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3729 = *(&mut _3401.field0 as *mut l_array_4_float);
                     *(&mut _3311 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -15444,12 +15409,12 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3731 = memcpy(
                         &mut _3314 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _3730,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3732 = memcpy(
                         &mut _3315 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3311 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3733 =
                         *(&mut _3314 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -15529,17 +15494,17 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3750 = memcpy(
                         _3749,
                         &mut _3313 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3751 = _3389;
-                    _3389 = llvm_add_u32(_3751, 4 as core::ffi::c_int as uint32_t);
+                    _3389 = llvm_add_u32(_3751, 4);
                 }
             }
         }
         _3752 = memcpy(
             &mut _3402 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _3361 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint64_t,
+            16,
         );
         _3753 = *(&mut _3402.field0 as *mut l_array_4_float);
         *(&mut _3300 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3753;
@@ -15564,7 +15529,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
         __assert_fail(
             &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            695 as core::ffi::c_int as uint32_t,
+            695,
             &__PRETTY_FUNCTION___OC__Z34compute_error_of_weight_set_1planeRK21endpoints_and_weightsRK15decimation_infoPKf
                 as *const l_array_112_uint8_t as *mut core::ffi::c_void,
         );
@@ -16561,12 +16526,12 @@ unsafe extern "C" fn _ZL19bilinear_infill_vlaRK15decimation_infoPKfj(
     _4072 = memcpy(
         &mut _3904 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3894 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4073 = memcpy(
         &mut _3905 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3898 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4074 = *(&mut _3904.field0 as *mut l_array_4_float);
     _4075 = *(&mut _3905.field0 as *mut l_array_4_float);
@@ -16629,12 +16594,12 @@ unsafe extern "C" fn _ZL19bilinear_infill_vlaRK15decimation_infoPKfj(
     _4090 = memcpy(
         &mut _3907 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3895 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4091 = memcpy(
         &mut _3908 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3899 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4092 = *(&mut _3907.field0 as *mut l_array_4_float);
     _4093 = *(&mut _3908.field0 as *mut l_array_4_float);
@@ -16755,12 +16720,12 @@ unsafe extern "C" fn _ZL19bilinear_infill_vlaRK15decimation_infoPKfj(
     _4124 = memcpy(
         &mut _3911 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3896 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4125 = memcpy(
         &mut _3912 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3900 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4126 = *(&mut _3911.field0 as *mut l_array_4_float);
     _4127 = *(&mut _3912.field0 as *mut l_array_4_float);
@@ -16823,12 +16788,12 @@ unsafe extern "C" fn _ZL19bilinear_infill_vlaRK15decimation_infoPKfj(
     _4142 = memcpy(
         &mut _3914 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3897 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4143 = memcpy(
         &mut _3915 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _3901 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4144 = *(&mut _3914.field0 as *mut l_array_4_float);
     _4145 = *(&mut _3915.field0 as *mut l_array_4_float);
@@ -17494,12 +17459,12 @@ unsafe extern "C" fn _ZL21bilinear_infill_vla_2RK15decimation_infoPKfj(
     _4338 = memcpy(
         &mut _4255 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _4250 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4339 = memcpy(
         &mut _4256 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _4252 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4340 = *(&mut _4255.field0 as *mut l_array_4_float);
     _4341 = *(&mut _4256.field0 as *mut l_array_4_float);
@@ -17562,12 +17527,12 @@ unsafe extern "C" fn _ZL21bilinear_infill_vla_2RK15decimation_infoPKfj(
     _4356 = memcpy(
         &mut _4258 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _4251 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4357 = memcpy(
         &mut _4259 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _4253 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _4358 = *(&mut _4258.field0 as *mut l_array_4_float);
     _4359 = *(&mut _4259.field0 as *mut l_array_4_float);
@@ -19166,7 +19131,7 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
         _4753 =
             *(&mut (*(_4752 as *mut l_struct_struct_OC_decimation_info)).field1 as *mut uint8_t);
         if _4753 as uint32_t as int32_t > 2 as core::ffi::c_uint as int32_t {
-            _4670 = 0 as core::ffi::c_int as uint32_t;
+            _4670 = 0;
             loop {
                 _4754 = _4670;
                 _4755 = _4669;
@@ -19225,12 +19190,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                 _4773 = memcpy(
                     &mut _4674 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4671 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4774 = memcpy(
                     &mut _4675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4775 = *(&mut _4674.field0 as *mut l_array_4_float);
                 _4776 = *(&mut _4675.field0 as *mut l_array_4_float);
@@ -19302,12 +19267,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                 _4791 = memcpy(
                     &mut _4678 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4673 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4792 = memcpy(
                     &mut _4679 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4673 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4793 = *(&mut _4678.field0 as *mut l_array_4_float);
                 _4794 = *(&mut _4679.field0 as *mut l_array_4_float);
@@ -19539,12 +19504,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                 _4855 = memcpy(
                     &mut _4684 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4681 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4856 = memcpy(
                     &mut _4685 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4682 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4857 = *(&mut _4684.field0 as *mut l_array_4_float);
                 _4858 = *(&mut _4685.field0 as *mut l_array_4_float);
@@ -19616,17 +19581,17 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                 _4873 = memcpy(
                     &mut _4673 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4683 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4874 = memcpy(
                     &mut _4688 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4673 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4875 = memcpy(
                     &mut _4689 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4673 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4876 = *(&mut _4688.field0 as *mut l_array_4_float);
                 _4877 = *(&mut _4689.field0 as *mut l_array_4_float);
@@ -19809,12 +19774,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                 _4921 = memcpy(
                     &mut _4692 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4922 = memcpy(
                     &mut _4693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4686 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4923 = *(&mut _4692.field0 as *mut l_array_4_float);
                 _4924 = *(&mut _4693.field0 as *mut l_array_4_float);
@@ -19890,12 +19855,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                 _4941 = memcpy(
                     &mut _4568 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _4940,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4942 = memcpy(
                     &mut _4569 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _4565 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4943 = *(&mut _4568 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _4944 = *(&mut _4569 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -19969,17 +19934,17 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                 _4960 = memcpy(
                     _4959,
                     &mut _4567 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _4961 = _4670;
-                _4670 = llvm_add_u32(_4961, 4 as core::ffi::c_int as uint32_t);
+                _4670 = llvm_add_u32(_4961, 4);
             }
         } else {
             _4962 = _4665;
             _4963 = *(&mut (*(_4962 as *mut l_struct_struct_OC_decimation_info)).field1
                 as *mut uint8_t);
             if _4963 as uint32_t as int32_t > 1 as core::ffi::c_uint as int32_t {
-                _4694 = 0 as core::ffi::c_int as uint32_t;
+                _4694 = 0;
                 loop {
                     _4964 = _4694;
                     _4965 = _4669;
@@ -20040,12 +20005,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _4983 = memcpy(
                         &mut _4698 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4695 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4984 = memcpy(
                         &mut _4699 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4696 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4985 = *(&mut _4698.field0 as *mut l_array_4_float);
                     _4986 = *(&mut _4699.field0 as *mut l_array_4_float);
@@ -20121,12 +20086,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5001 = memcpy(
                         &mut _4702 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5002 = memcpy(
                         &mut _4703 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5003 = *(&mut _4702.field0 as *mut l_array_4_float);
                     _5004 = *(&mut _4703.field0 as *mut l_array_4_float);
@@ -20370,12 +20335,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5065 = memcpy(
                         &mut _4708 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4705 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5066 = memcpy(
                         &mut _4709 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4706 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5067 = *(&mut _4708.field0 as *mut l_array_4_float);
                     _5068 = *(&mut _4709.field0 as *mut l_array_4_float);
@@ -20451,17 +20416,17 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5083 = memcpy(
                         &mut _4697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4707 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5084 = memcpy(
                         &mut _4712 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5085 = memcpy(
                         &mut _4713 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5086 = *(&mut _4712.field0 as *mut l_array_4_float);
                     _5087 = *(&mut _4713.field0 as *mut l_array_4_float);
@@ -20654,12 +20619,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5131 = memcpy(
                         &mut _4716 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4700 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5132 = memcpy(
                         &mut _4717 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4710 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5133 = *(&mut _4716.field0 as *mut l_array_4_float);
                     _5134 = *(&mut _4717.field0 as *mut l_array_4_float);
@@ -20740,12 +20705,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5151 = memcpy(
                         &mut _4573 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _5150,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5152 = memcpy(
                         &mut _4574 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4570 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5153 =
                         *(&mut _4573 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -20825,13 +20790,13 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5170 = memcpy(
                         _5169,
                         &mut _4572 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5171 = _4694;
-                    _4694 = llvm_add_u32(_5171, 4 as core::ffi::c_int as uint32_t);
+                    _4694 = llvm_add_u32(_5171, 4);
                 }
             } else {
-                _4718 = 0 as core::ffi::c_int as uint32_t;
+                _4718 = 0;
                 loop {
                     _5172 = _4718;
                     _5173 = _4669;
@@ -20926,12 +20891,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5200 = memcpy(
                         &mut _4722 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4719 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5201 = memcpy(
                         &mut _4723 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4720 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5202 = *(&mut _4722.field0 as *mut l_array_4_float);
                     _5203 = *(&mut _4723.field0 as *mut l_array_4_float);
@@ -21007,12 +20972,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5218 = memcpy(
                         &mut _4726 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4721 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5219 = memcpy(
                         &mut _4727 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4721 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5220 = *(&mut _4726.field0 as *mut l_array_4_float);
                     _5221 = *(&mut _4727.field0 as *mut l_array_4_float);
@@ -21290,12 +21255,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5291 = memcpy(
                         &mut _4732 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4729 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5292 = memcpy(
                         &mut _4733 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4730 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5293 = *(&mut _4732.field0 as *mut l_array_4_float);
                     _5294 = *(&mut _4733.field0 as *mut l_array_4_float);
@@ -21371,17 +21336,17 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5309 = memcpy(
                         &mut _4721 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4731 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5310 = memcpy(
                         &mut _4736 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4721 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5311 = memcpy(
                         &mut _4737 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4721 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5312 = *(&mut _4736.field0 as *mut l_array_4_float);
                     _5313 = *(&mut _4737.field0 as *mut l_array_4_float);
@@ -21574,12 +21539,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5357 = memcpy(
                         &mut _4740 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4724 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5358 = memcpy(
                         &mut _4741 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4734 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5359 = *(&mut _4740.field0 as *mut l_array_4_float);
                     _5360 = *(&mut _4741.field0 as *mut l_array_4_float);
@@ -21660,12 +21625,12 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5377 = memcpy(
                         &mut _4578 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _5376,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5378 = memcpy(
                         &mut _4579 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _4575 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5379 =
                         *(&mut _4578 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -21745,17 +21710,17 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _5396 = memcpy(
                         _5395,
                         &mut _4577 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5397 = _4718;
-                    _4718 = llvm_add_u32(_5397, 4 as core::ffi::c_int as uint32_t);
+                    _4718 = llvm_add_u32(_5397, 4);
                 }
             }
         }
         _5398 = memcpy(
             &mut _4742 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _4668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint64_t,
+            16,
         );
         _5399 = *(&mut _4742.field0 as *mut l_array_4_float);
         *(&mut _4564 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5399;
@@ -21780,7 +21745,7 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
         __assert_fail(
             &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            761 as core::ffi::c_int as uint32_t,
+            761,
             &__PRETTY_FUNCTION___OC__Z35compute_error_of_weight_set_2planesRK21endpoints_and_weightsS1_RK15decimation_infoPKfS6_
                 as *const l_array_159_uint8_t as *mut core::ffi::c_void,
         );
@@ -23255,7 +23220,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
         if _5781 > 0 as core::ffi::c_uint {
             _5782 = _5707;
             if _5782 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-                _5708 = 0 as core::ffi::c_int as uint32_t;
+                _5708 = 0;
                 loop {
                     _5783 = _5708;
                     _5784 = _5705;
@@ -23307,7 +23272,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                     _5796 = memcpy(
                         &mut _5710 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _5709 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5797 = _5704;
                     _5798 = _5708;
@@ -23353,7 +23318,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float) = _5806;
                     _5808 = _5708;
-                    _5708 = llvm_add_u32(_5808, 4 as core::ffi::c_int as uint32_t);
+                    _5708 = llvm_add_u32(_5808, 4);
                 }
             } else {
                 _5809 = _5702;
@@ -23388,7 +23353,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float) = _5817;
-                _5714 = 0 as core::ffi::c_int as uint32_t;
+                _5714 = 0;
                 loop {
                     _5818 = _5714;
                     _5819 = _5706;
@@ -23482,7 +23447,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                     _5842 = memcpy(
                         &mut _5719 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _5717 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5843 = (*(&mut _5719.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_27))
@@ -23492,7 +23457,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                     _5844 = memcpy(
                         &mut _5638 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _5636 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5845 =
                         *(&mut _5638 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -23563,7 +23528,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         current_block = 4494142597197276454;
                         break;
                     }
-                    _5720 = 0 as core::ffi::c_int as uint32_t;
+                    _5720 = 0;
                     loop {
                         _5861 = _5720;
                         _5862 = _5718;
@@ -23715,18 +23680,18 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5723 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                         }
                         _5906 = memcpy(
                             &mut _5725 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _5722 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5907 = memcpy(
                             &mut _5726 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _5713 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5908 = *(&mut _5725.field0 as *mut l_array_4_float);
                         _5909 = *(&mut _5726.field0 as *mut l_array_4_float);
@@ -23808,13 +23773,13 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         _5925 = memcpy(
                             &mut _5595 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5924,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5926 = _5593;
                         _5927 = memcpy(
                             &mut _5596 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5926,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5928 = *(&mut _5595 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23895,7 +23860,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         _5945 = memcpy(
                             _5944,
                             &mut _5594 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5946 = _5592;
                         _5947 = _5702;
@@ -23969,7 +23934,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         _5971 = memcpy(
                             &mut _5729 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _5724 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5972 = *(&mut _5728.field0 as *mut l_array_4_float);
                         _5973 = *(&mut _5729.field0 as *mut l_array_4_float);
@@ -24051,13 +24016,13 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         _5989 = memcpy(
                             &mut _5603 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5988,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5990 = _5601;
                         _5991 = memcpy(
                             &mut _5604 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5990,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5992 = *(&mut _5603 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24138,21 +24103,21 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         _6009 = memcpy(
                             _6008,
                             &mut _5602 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _6010 = _5600;
                         _6011 = _5720;
-                        _5720 = llvm_add_u32(_6011, 1 as core::ffi::c_int as uint32_t);
+                        _5720 = llvm_add_u32(_6011, 1);
                     }
                     _6012 = memcpy(
                         &mut _5731 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _5716 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _6013 = memcpy(
                         &mut _5732 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _5715 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _6014 = *(&mut _5731.field0 as *mut l_array_4_float);
                     _6015 = *(&mut _5732.field0 as *mut l_array_4_float);
@@ -24269,7 +24234,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float) = _6039;
                     _6041 = _5714;
-                    _5714 = llvm_add_u32(_6041, 4 as core::ffi::c_int as uint32_t);
+                    _5714 = llvm_add_u32(_6041, 4);
                 }
                 match current_block {
                     4494142597197276454 => {
@@ -24278,7 +24243,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                 as *mut core::ffi::c_void,
                             &_OC_str_OC_1 as *const l_array_66_uint8_t
                                 as *mut core::ffi::c_void,
-                            887 as core::ffi::c_int as uint32_t,
+                            887,
                             &__PRETTY_FUNCTION___OC__Z36compute_ideal_weights_for_decimationRK21endpoints_and_weightsRK15decimation_infoPf
                                 as *const l_array_107_uint8_t as *mut core::ffi::c_void,
                         );
@@ -24288,7 +24253,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         _6043 = *(&mut (*(_6042 as *mut l_struct_struct_OC_decimation_info)).field1
                             as *mut uint8_t);
                         if _6043 as uint32_t as int32_t <= 2 as core::ffi::c_uint as int32_t {
-                            _5733 = 0 as core::ffi::c_int as uint32_t;
+                            _5733 = 0;
                             loop {
                                 _6044 = _5733;
                                 _6045 = _5705;
@@ -24307,7 +24272,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                         as *mut core::ffi::c_void,
                                     &mut _5734 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6051 = _5733;
                                 _6052 = *(&mut _5735.field0 as *mut l_array_4_float);
@@ -24355,10 +24320,10 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     .offset(3 as core::ffi::c_int as int64_t as isize)
                                     as *mut core::ffi::c_float) = _6059;
                                 _6061 = _5733;
-                                _5733 = llvm_add_u32(_6061, 4 as core::ffi::c_int as uint32_t);
+                                _5733 = llvm_add_u32(_6061, 4);
                             }
                         } else {
-                            _5736 = 0 as core::ffi::c_int as uint32_t;
+                            _5736 = 0;
                             loop {
                                 _6062 = _5736;
                                 _6063 = _5705;
@@ -24377,7 +24342,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                         as *mut core::ffi::c_void,
                                     &mut _5737 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6069 = _5736;
                                 _6070 = *(&mut _5738.field0 as *mut l_array_4_float);
@@ -24425,12 +24390,12 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     .offset(3 as core::ffi::c_int as int64_t as isize)
                                     as *mut core::ffi::c_float) = _6077;
                                 _6079 = _5736;
-                                _5736 = llvm_add_u32(_6079, 4 as core::ffi::c_int as uint32_t);
+                                _5736 = llvm_add_u32(_6079, 4);
                             }
                         }
                         _5739 = 0.25f64 as core::ffi::c_float;
                         _5740 = -(16 as core::ffi::c_int) as core::ffi::c_float;
-                        _5741 = 0 as core::ffi::c_int as uint32_t;
+                        _5741 = 0;
                         loop {
                             _6080 = _5741;
                             _6081 = _5706;
@@ -24568,7 +24533,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5745 as *mut l_struct_struct_OC_vint4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6117 = (*(&mut _5747.field0 as *mut l_array_4_uint32_t
                                 as *mut C2RustUnnamed_26))
@@ -24580,7 +24545,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5639 as *mut l_struct_struct_OC_vint4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6119 = *(&mut _5641 as *mut l_struct_struct_OC_vint4
                                 as *mut l_array_2_uint64_t);
@@ -24657,7 +24622,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                 current_block = 3954566916103236036;
                                 break;
                             }
-                            _5748 = 0 as core::ffi::c_int as uint32_t;
+                            _5748 = 0;
                             loop {
                                 _6135 = _5748;
                                 _6136 = _5746;
@@ -24809,7 +24774,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                             as *mut core::ffi::c_void,
                                         &mut _5751 as *mut l_struct_struct_OC_vfloat4
                                             as *mut core::ffi::c_void,
-                                        16 as core::ffi::c_int as uint64_t,
+                                        16,
                                     );
                                 }
                                 _6180 = memcpy(
@@ -24817,14 +24782,14 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                         as *mut core::ffi::c_void,
                                     &mut _5713 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6181 = memcpy(
                                     &mut _5754 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _5750 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6182 = *(&mut _5753.field0 as *mut l_array_4_float);
                                 _6183 = *(&mut _5754.field0 as *mut l_array_4_float);
@@ -25034,14 +24999,14 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                         as *mut core::ffi::c_void,
                                     &mut _5750 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6246 = memcpy(
                                     &mut _5759 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _5752 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6247 = *(&mut _5758.field0 as *mut l_array_4_float);
                                 _6248 = *(&mut _5759.field0 as *mut l_array_4_float);
@@ -25124,14 +25089,14 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     &mut _5611 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     _6263,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6265 = _5609;
                                 _6266 = memcpy(
                                     &mut _5612 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     _6265,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6267 = *(&mut _5611 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -25213,7 +25178,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     _6283,
                                     &mut _5610 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6285 = _5608;
                                 _6286 = memcpy(
@@ -25221,14 +25186,14 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                         as *mut core::ffi::c_void,
                                     &mut _5755 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6287 = memcpy(
                                     &mut _5763 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _5756 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6288 = *(&mut _5762.field0 as *mut l_array_4_float);
                                 _6289 = *(&mut _5763.field0 as *mut l_array_4_float);
@@ -25307,7 +25272,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                         as *mut core::ffi::c_void,
                                     &mut _5752 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6305 = *(&mut _5761.field0 as *mut l_array_4_float);
                                 _6306 = *(&mut _5764.field0 as *mut l_array_4_float);
@@ -25390,14 +25355,14 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     &mut _5619 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     _6321,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6323 = _5617;
                                 _6324 = memcpy(
                                     &mut _5620 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     _6323,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6325 = *(&mut _5619 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -25479,18 +25444,18 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     _6341,
                                     &mut _5618 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _6343 = _5616;
                                 _6344 = _5748;
-                                _5748 = llvm_add_u32(_6344, 1 as core::ffi::c_int as uint32_t);
+                                _5748 = llvm_add_u32(_6344, 1);
                             }
                             _6345 = memcpy(
                                 &mut _5767 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _5744 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6346 = *(&mut _5767.field0 as *mut l_array_4_float);
                             *(&mut _5579 as *mut l_struct_struct_OC_vfloat4
@@ -25501,7 +25466,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5579 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6348 = _5580;
                             _5573 = &mut _5582 as *mut l_struct_struct_OC_vfloat4
@@ -25607,7 +25572,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5743 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6372 = *(&mut _5766.field0 as *mut l_array_4_float);
                             _6373 = *(&mut _5768.field0 as *mut l_array_4_float);
@@ -25686,7 +25651,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5765 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6389 = *(&mut _5770.field0 as *mut l_array_4_float);
                             *(&mut _5568 as *mut l_struct_struct_OC_vfloat4
@@ -25698,7 +25663,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5568 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6391 = _5569;
                             _6392 = *(&mut _5572 as *mut l_struct_struct_OC_vfloat4
@@ -25711,7 +25676,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5563 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6394 = _5564;
                             _5560 = &mut _5566 as *mut l_struct_struct_OC_vfloat4
@@ -25904,7 +25869,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5447 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6432 = _5448;
                             _5444 = &mut _5450 as *mut l_struct_struct_OC_vfloat4
@@ -26093,21 +26058,21 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                     as *mut core::ffi::c_void,
                                 &mut _5769 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6469 = memcpy(
                                 &mut _5772 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _5742 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6470 = memcpy(
                                 &mut _5773 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _5765 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _6471 = *(&mut _5772.field0 as *mut l_array_4_float);
                             _6472 = *(&mut _5773.field0 as *mut l_array_4_float);
@@ -26225,7 +26190,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                 .offset(3 as core::ffi::c_int as int64_t as isize)
                                 as *mut core::ffi::c_float) = _6496;
                             _6498 = _5741;
-                            _5741 = llvm_add_u32(_6498, 4 as core::ffi::c_int as uint32_t);
+                            _5741 = llvm_add_u32(_6498, 4);
                         }
                         match current_block {
                             3127418154291199522 => {}
@@ -26235,7 +26200,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                         as *mut core::ffi::c_void,
                                     &_OC_str_OC_1 as *const l_array_66_uint8_t
                                         as *mut core::ffi::c_void,
-                                    945 as core::ffi::c_int as uint32_t,
+                                    945,
                                     &__PRETTY_FUNCTION___OC__Z36compute_ideal_weights_for_decimationRK21endpoints_and_weightsRK15decimation_infoPf
                                         as *const l_array_107_uint8_t as *mut core::ffi::c_void,
                                 );
@@ -26249,7 +26214,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
             __assert_fail(
                 &_OC_str_OC_4 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                854 as core::ffi::c_int as uint32_t,
+                854,
                 &__PRETTY_FUNCTION___OC__Z36compute_ideal_weights_for_decimationRK21endpoints_and_weightsRK15decimation_infoPf
                     as *const l_array_107_uint8_t as *mut core::ffi::c_void,
             );
@@ -26258,7 +26223,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
         __assert_fail(
             &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            853 as core::ffi::c_int as uint32_t,
+            853,
             &__PRETTY_FUNCTION___OC__Z36compute_ideal_weights_for_decimationRK21endpoints_and_weightsRK15decimation_infoPf
                 as *const l_array_107_uint8_t as *mut core::ffi::c_void,
         );
@@ -28418,7 +28383,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
         _7114 = _7001;
         _7115 = _ZL15get_quant_level12quant_method(_7114);
         _6925 = &mut _7004 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-        _6926 = llvm_sub_u32(_7115, 1 as core::ffi::c_int as uint32_t);
+        _6926 = llvm_sub_u32(_7115, 1);
         _7116 = _6925;
         _7117 = _6926;
         *(_7116 as *mut uint32_t) = _7117;
@@ -28577,7 +28542,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
             _7165 = _6919;
             let ref mut fresh0 = *(_7165 as *mut *mut core::ffi::c_void);
             *fresh0 = _7164;
-            _7015 = 0 as core::ffi::c_int as uint32_t;
+            _7015 = 0;
             loop {
                 _7166 = _7015;
                 _7167 = _7002;
@@ -28625,7 +28590,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7181 = memcpy(
                     &mut _7019 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7009 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7182 = *(&mut _7018.field0 as *mut l_array_4_float);
                 _7183 = *(&mut _7019.field0 as *mut l_array_4_float);
@@ -28697,7 +28662,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7198 = memcpy(
                     &mut _7020 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7010 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7199 = *(&mut _7017.field0 as *mut l_array_4_float);
                 _7200 = *(&mut _7020.field0 as *mut l_array_4_float);
@@ -28769,14 +28734,14 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7215 = memcpy(
                     &mut _7022 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7016 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7216 = *(&mut _7022.field0 as *mut l_array_4_float);
                 *(&mut _6907 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7216;
                 _7217 = memcpy(
                     &mut _6909 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6907 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6903 = &mut _6905 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _6904 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -28939,7 +28904,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7253 = memcpy(
                     &mut _6719 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6717 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7254 = _6718;
                 _6714 = &mut _6720 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -29102,17 +29067,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7290 = memcpy(
                     &mut _7016 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7021 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7291 = memcpy(
                     &mut _7024 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7016 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7292 = memcpy(
                     &mut _7025 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7011 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7293 = *(&mut _7024.field0 as *mut l_array_4_float);
                 _7294 = *(&mut _7025.field0 as *mut l_array_4_float);
@@ -29184,7 +29149,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7309 = memcpy(
                     &mut _7027 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7310 = *(&mut _7027.field0 as *mut l_array_4_float);
                 *(&mut _6900 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7310;
@@ -29236,10 +29201,10 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7321 = memcpy(
                     &mut _7030 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7026 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6923 = &mut _7031 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _6924 = 1 as core::ffi::c_int as uint32_t;
+                _6924 = 1;
                 _7322 = _6923;
                 _7323 = _6924;
                 *(_7322 as *mut uint32_t) = _7323;
@@ -29331,7 +29296,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7343 = memcpy(
                     &mut _7032 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7004 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7344 =
                     (*(&mut _7029.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_63)).data;
@@ -29468,7 +29433,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7372 = memcpy(
                     &mut _7034 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7026 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7373 =
                     (*(&mut _7034.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_60)).data;
@@ -29541,7 +29506,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7400 = memcpy(
                     &mut _7036 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7028 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7401 =
                     (*(&mut _7036.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_58)).data;
@@ -29614,7 +29579,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7428 = memcpy(
                     &mut _7038 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7033 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7429 =
                     (*(&mut _7038.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_56)).data;
@@ -29666,7 +29631,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7440 = memcpy(
                     &mut _7040 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7035 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7441 =
                     (*(&mut _7040.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_55)).data;
@@ -29718,12 +29683,12 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7452 = memcpy(
                     &mut _7043 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7037 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7453 = memcpy(
                     &mut _7044 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7454 = *(&mut _7043.field0 as *mut l_array_4_float);
                 _7455 = *(&mut _7044.field0 as *mut l_array_4_float);
@@ -29815,7 +29780,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7475 = memcpy(
                     &mut _7047 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7016 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7476 = *(&mut _7046.field0 as *mut l_array_4_float);
                 _7477 = *(&mut _7047.field0 as *mut l_array_4_float);
@@ -29945,7 +29910,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7503 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7505 = _6590;
@@ -29960,7 +29925,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7505 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7507 = _6591;
@@ -29975,7 +29940,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7507 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7509 = _6592;
@@ -29990,7 +29955,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7509 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7511 = *(&mut _6867 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -29999,17 +29964,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7512 = memcpy(
                     &mut _7049 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7033 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7513 = memcpy(
                     &mut _7050 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7035 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7514 = memcpy(
                     &mut _7051 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _7041 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7515 =
                     (*(&mut _7049.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_53)).data;
@@ -30130,17 +30095,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7540 = memcpy(
                     &mut _7053 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7037 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7541 = memcpy(
                     &mut _7054 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7542 = memcpy(
                     &mut _7055 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _7041 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7543 = *(&mut _7053.field0 as *mut l_array_4_float);
                 _7544 = *(&mut _7054.field0 as *mut l_array_4_float);
@@ -30260,17 +30225,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7568 = memcpy(
                     &mut _7037 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7052 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7569 = memcpy(
                     &mut _7058 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7037 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7570 = memcpy(
                     &mut _7059 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7571 = *(&mut _7058.field0 as *mut l_array_4_float);
                 _7572 = *(&mut _7059.field0 as *mut l_array_4_float);
@@ -30342,7 +30307,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7587 = memcpy(
                     &mut _7060 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7013 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7588 = *(&mut _7057.field0 as *mut l_array_4_float);
                 _7589 = *(&mut _7060.field0 as *mut l_array_4_float);
@@ -30454,7 +30419,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7615 = memcpy(
                     &mut _7061 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7048 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7616 = _7000;
                 _7617 = _7015;
@@ -30464,28 +30429,28 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _6834 = &mut *(_7616 as *mut uint8_t).offset(_7617 as int32_t as int64_t as isize)
                     as *mut uint8_t as *mut core::ffi::c_void;
                 _7619 = *(&mut _6833 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _6835 = _7619 & 255 as core::ffi::c_int as uint32_t;
+                _6835 = _7619 & 255;
                 _7620 = *(&mut *((*(&mut _6833 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _6836 = _7620 & 255 as core::ffi::c_int as uint32_t;
+                _6836 = _7620 & 255;
                 _7621 = *(&mut *((*(&mut _6833 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _6837 = _7621 & 255 as core::ffi::c_int as uint32_t;
+                _6837 = _7621 & 255;
                 _7622 = *(&mut *((*(&mut _6833 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _6838 = _7622 & 255 as core::ffi::c_int as uint32_t;
+                _6838 = _7622 & 255;
                 _7623 = _6835;
                 _7624 = _6836;
                 _7625 = _6837;
@@ -30497,9 +30462,9 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7627 = _6839;
                 _6660 = &mut _6840 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _6661 = _7627;
-                _6662 = 0 as core::ffi::c_int as uint32_t;
-                _6663 = 0 as core::ffi::c_int as uint32_t;
-                _6664 = 0 as core::ffi::c_int as uint32_t;
+                _6662 = 0;
+                _6663 = 0;
+                _6664 = 0;
                 _7628 = _6660;
                 _7629 = _6661;
                 *(_7628 as *mut uint32_t) = _7629;
@@ -30521,12 +30486,12 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7633 = memcpy(
                     &mut _6833 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _6840 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7634 = memcpy(
                     &mut _6841 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _6833 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7635 = _6834;
                 _7636 = *(&mut _6841 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -30536,10 +30501,10 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7638 = memcpy(
                     _7637,
                     &mut _6581 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    4 as core::ffi::c_int as uint64_t,
+                    4,
                 );
                 _7639 = _7015;
-                _7015 = llvm_add_u32(_7639, 4 as core::ffi::c_int as uint32_t);
+                _7015 = llvm_add_u32(_7639, 4);
             }
         } else {
             _7640 = _7003;
@@ -30554,7 +30519,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
             _7642 = _6831;
             let ref mut fresh1 = *(_7642 as *mut *mut core::ffi::c_void);
             *fresh1 = _7641;
-            _7063 = 0 as core::ffi::c_int as uint32_t;
+            _7063 = 0;
             loop {
                 _7643 = _7063;
                 _7644 = _7002;
@@ -30602,7 +30567,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7658 = memcpy(
                     &mut _7067 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7009 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7659 = *(&mut _7066.field0 as *mut l_array_4_float);
                 _7660 = *(&mut _7067.field0 as *mut l_array_4_float);
@@ -30674,7 +30639,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7675 = memcpy(
                     &mut _7068 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7010 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7676 = *(&mut _7065.field0 as *mut l_array_4_float);
                 _7677 = *(&mut _7068.field0 as *mut l_array_4_float);
@@ -30746,14 +30711,14 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7692 = memcpy(
                     &mut _7070 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7064 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7693 = *(&mut _7070.field0 as *mut l_array_4_float);
                 *(&mut _6915 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7693;
                 _7694 = memcpy(
                     &mut _6917 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6915 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6911 = &mut _6913 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _6912 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -30916,7 +30881,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7730 = memcpy(
                     &mut _6712 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6710 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7731 = _6711;
                 _6707 = &mut _6713 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -31079,17 +31044,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7767 = memcpy(
                     &mut _7064 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7069 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7768 = memcpy(
                     &mut _7072 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7064 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7769 = memcpy(
                     &mut _7073 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7011 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7770 = *(&mut _7072.field0 as *mut l_array_4_float);
                 _7771 = *(&mut _7073.field0 as *mut l_array_4_float);
@@ -31161,7 +31126,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7786 = memcpy(
                     &mut _7075 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7071 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7787 = *(&mut _7075.field0 as *mut l_array_4_float);
                 *(&mut _6902 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7787;
@@ -31213,10 +31178,10 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7798 = memcpy(
                     &mut _7078 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7074 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6921 = &mut _7079 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _6922 = 1 as core::ffi::c_int as uint32_t;
+                _6922 = 1;
                 _7799 = _6921;
                 _7800 = _6922;
                 *(_7799 as *mut uint32_t) = _7800;
@@ -31308,7 +31273,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7820 = memcpy(
                     &mut _7080 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7004 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7821 =
                     (*(&mut _7077.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_43)).data;
@@ -31445,7 +31410,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7849 = memcpy(
                     &mut _7082 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7074 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7850 =
                     (*(&mut _7082.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_40)).data;
@@ -31518,7 +31483,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7877 = memcpy(
                     &mut _7084 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7076 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7878 =
                     (*(&mut _7084.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_38)).data;
@@ -31591,7 +31556,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7905 = memcpy(
                     &mut _7086 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7081 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7906 =
                     (*(&mut _7086.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_36)).data;
@@ -31643,7 +31608,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7917 = memcpy(
                     &mut _7088 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7083 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7918 =
                     (*(&mut _7088.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_35)).data;
@@ -31695,12 +31660,12 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7929 = memcpy(
                     &mut _7091 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7930 = memcpy(
                     &mut _7092 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7087 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7931 = *(&mut _7091.field0 as *mut l_array_4_float);
                 _7932 = *(&mut _7092.field0 as *mut l_array_4_float);
@@ -31792,7 +31757,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7952 = memcpy(
                     &mut _7095 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7064 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7953 = *(&mut _7094.field0 as *mut l_array_4_float);
                 _7954 = *(&mut _7095.field0 as *mut l_array_4_float);
@@ -31922,7 +31887,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7980 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7982 = _6585;
@@ -31937,7 +31902,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7982 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7984 = _6586;
@@ -31952,7 +31917,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7984 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7986 = _6587;
@@ -31967,7 +31932,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     ((_7986 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7988 = *(&mut _6870 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -31976,17 +31941,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7989 = memcpy(
                     &mut _7097 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7081 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7990 = memcpy(
                     &mut _7098 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7083 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7991 = memcpy(
                     &mut _7099 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _7089 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7992 =
                     (*(&mut _7097.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_33)).data;
@@ -32107,17 +32072,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8017 = memcpy(
                     &mut _7101 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8018 = memcpy(
                     &mut _7102 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7087 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8019 = memcpy(
                     &mut _7103 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _7089 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8020 = *(&mut _7101.field0 as *mut l_array_4_float);
                 _8021 = *(&mut _7102.field0 as *mut l_array_4_float);
@@ -32237,17 +32202,17 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8045 = memcpy(
                     &mut _7085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7100 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8046 = memcpy(
                     &mut _7106 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8047 = memcpy(
                     &mut _7107 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8048 = *(&mut _7106.field0 as *mut l_array_4_float);
                 _8049 = *(&mut _7107.field0 as *mut l_array_4_float);
@@ -32319,7 +32284,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8064 = memcpy(
                     &mut _7108 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7013 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8065 = *(&mut _7105.field0 as *mut l_array_4_float);
                 _8066 = *(&mut _7108.field0 as *mut l_array_4_float);
@@ -32431,7 +32396,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8092 = memcpy(
                     &mut _7109 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _7096 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8093 = _7000;
                 _8094 = _7063;
@@ -32441,28 +32406,28 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _6843 = &mut *(_8093 as *mut uint8_t).offset(_8094 as int32_t as int64_t as isize)
                     as *mut uint8_t as *mut core::ffi::c_void;
                 _8096 = *(&mut _6842 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _6844 = _8096 & 255 as core::ffi::c_int as uint32_t;
+                _6844 = _8096 & 255;
                 _8097 = *(&mut *((*(&mut _6842 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _6845 = _8097 & 255 as core::ffi::c_int as uint32_t;
+                _6845 = _8097 & 255;
                 _8098 = *(&mut *((*(&mut _6842 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _6846 = _8098 & 255 as core::ffi::c_int as uint32_t;
+                _6846 = _8098 & 255;
                 _8099 = *(&mut *((*(&mut _6842 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _6847 = _8099 & 255 as core::ffi::c_int as uint32_t;
+                _6847 = _8099 & 255;
                 _8100 = _6844;
                 _8101 = _6845;
                 _8102 = _6846;
@@ -32474,9 +32439,9 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8104 = _6848;
                 _6655 = &mut _6849 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _6656 = _8104;
-                _6657 = 0 as core::ffi::c_int as uint32_t;
-                _6658 = 0 as core::ffi::c_int as uint32_t;
-                _6659 = 0 as core::ffi::c_int as uint32_t;
+                _6657 = 0;
+                _6658 = 0;
+                _6659 = 0;
                 _8105 = _6655;
                 _8106 = _6656;
                 *(_8105 as *mut uint32_t) = _8106;
@@ -32498,12 +32463,12 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8110 = memcpy(
                     &mut _6842 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _6849 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8111 = memcpy(
                     &mut _6850 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _6842 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8112 = _6843;
                 _8113 = *(&mut _6850 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -32513,10 +32478,10 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8115 = memcpy(
                     _8114,
                     &mut _6579 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    4 as core::ffi::c_int as uint64_t,
+                    4,
                 );
                 _8116 = _7063;
-                _7063 = llvm_add_u32(_8116, 4 as core::ffi::c_int as uint32_t);
+                _7063 = llvm_add_u32(_8116, 4);
             }
         }
         return;
@@ -32524,7 +32489,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
         __assert_fail(
             &_OC_str_OC_4 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            984 as core::ffi::c_int as uint32_t,
+            984,
             &__PRETTY_FUNCTION___OC__Z40compute_quantized_weights_for_decimationRK15decimation_infoffPKfPfPh12quant_method
                 as *const l_array_134_uint8_t as *mut core::ffi::c_void,
         );
@@ -32540,70 +32505,70 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
     _8256 = _8255;
     match _8256 {
         0 => {
-            _8254 = 2 as core::ffi::c_int as uint32_t;
+            _8254 = 2;
         }
         1 => {
-            _8254 = 3 as core::ffi::c_int as uint32_t;
+            _8254 = 3;
         }
         2 => {
-            _8254 = 4 as core::ffi::c_int as uint32_t;
+            _8254 = 4;
         }
         3 => {
-            _8254 = 5 as core::ffi::c_int as uint32_t;
+            _8254 = 5;
         }
         4 => {
-            _8254 = 6 as core::ffi::c_int as uint32_t;
+            _8254 = 6;
         }
         5 => {
-            _8254 = 8 as core::ffi::c_int as uint32_t;
+            _8254 = 8;
         }
         6 => {
-            _8254 = 10 as core::ffi::c_int as uint32_t;
+            _8254 = 10;
         }
         7 => {
-            _8254 = 12 as core::ffi::c_int as uint32_t;
+            _8254 = 12;
         }
         8 => {
-            _8254 = 16 as core::ffi::c_int as uint32_t;
+            _8254 = 16;
         }
         9 => {
-            _8254 = 20 as core::ffi::c_int as uint32_t;
+            _8254 = 20;
         }
         10 => {
-            _8254 = 24 as core::ffi::c_int as uint32_t;
+            _8254 = 24;
         }
         11 => {
-            _8254 = 32 as core::ffi::c_int as uint32_t;
+            _8254 = 32;
         }
         12 => {
-            _8254 = 40 as core::ffi::c_int as uint32_t;
+            _8254 = 40;
         }
         13 => {
-            _8254 = 48 as core::ffi::c_int as uint32_t;
+            _8254 = 48;
         }
         14 => {
-            _8254 = 64 as core::ffi::c_int as uint32_t;
+            _8254 = 64;
         }
         15 => {
-            _8254 = 80 as core::ffi::c_int as uint32_t;
+            _8254 = 80;
         }
         16 => {
-            _8254 = 96 as core::ffi::c_int as uint32_t;
+            _8254 = 96;
         }
         17 => {
-            _8254 = 128 as core::ffi::c_int as uint32_t;
+            _8254 = 128;
         }
         18 => {
-            _8254 = 160 as core::ffi::c_int as uint32_t;
+            _8254 = 160;
         }
         19 => {
-            _8254 = 192 as core::ffi::c_int as uint32_t;
+            _8254 = 192;
         }
         20 => {
-            _8254 = 256 as core::ffi::c_int as uint32_t;
+            _8254 = 256;
         }
         _ => {
-            _8254 = 0 as core::ffi::c_int as uint32_t;
+            _8254 = 0;
         }
     }
     _8257 = _8254;
@@ -36627,7 +36592,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
         if _9309 > 0 as core::ffi::c_uint {
             _9310 = _9094;
             if _9310 > 0 as core::ffi::c_uint {
-                _9096 = 0 as core::ffi::c_int as uint32_t;
+                _9096 = 0;
                 loop {
                     _9311 = _9096;
                     _9312 = _9092;
@@ -36671,7 +36636,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9324 = memcpy(
                         &mut _9100 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _9097 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9325 = (*(&mut _9100.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_82))
@@ -36816,7 +36781,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9357 = memcpy(
                         &mut _9102 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9098 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9358 = _9096;
                     _9359 = *(&mut _9102.field0 as *mut l_array_4_float);
@@ -36864,7 +36829,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float) = _9366;
                     _9368 = _9096;
-                    _9096 = llvm_add_u32(_9368, 4 as core::ffi::c_int as uint32_t);
+                    _9096 = llvm_add_u32(_9368, 4);
                 }
                 _9369 = _9087;
                 _9370 = *(&mut (*(_9369 as *mut l_struct_struct_OC_decimation_info)).field1
@@ -36880,7 +36845,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9372 = *(&mut (*(_9371 as *mut l_struct_struct_OC_decimation_info)).field1
                         as *mut uint8_t);
                     if _9372 as uint32_t as int32_t <= 2 as core::ffi::c_uint as int32_t {
-                        _9105 = 0 as core::ffi::c_int as uint32_t;
+                        _9105 = 0;
                         loop {
                             _9373 = _9105;
                             _9374 = _9093;
@@ -36904,7 +36869,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9106 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _9379 = _9105;
                             _9380 = *(&mut _9107.field0 as *mut l_array_4_float);
@@ -36952,7 +36917,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 .offset(3 as core::ffi::c_int as int64_t as isize)
                                 as *mut core::ffi::c_float) = _9387;
                             _9389 = _9105;
-                            _9105 = llvm_add_u32(_9389, 4 as core::ffi::c_int as uint32_t);
+                            _9105 = llvm_add_u32(_9389, 4);
                         }
                         _9104 = &mut *(_9103.array)
                             .as_mut_ptr()
@@ -36960,7 +36925,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             as *mut core::ffi::c_float
                             as *mut core::ffi::c_void;
                     } else {
-                        _9108 = 0 as core::ffi::c_int as uint32_t;
+                        _9108 = 0;
                         loop {
                             _9390 = _9108;
                             _9391 = _9093;
@@ -36984,7 +36949,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9109 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _9396 = _9108;
                             _9397 = *(&mut _9110.field0 as *mut l_array_4_float);
@@ -37032,7 +36997,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 .offset(3 as core::ffi::c_int as int64_t as isize)
                                 as *mut core::ffi::c_float) = _9404;
                             _9406 = _9108;
-                            _9108 = llvm_add_u32(_9406, 4 as core::ffi::c_int as uint32_t);
+                            _9108 = llvm_add_u32(_9406, 4);
                         }
                         _9104 = &mut *(_9103.array)
                             .as_mut_ptr()
@@ -37047,7 +37012,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     &mut (*(_9407 as *mut l_struct_struct_OC_image_block)).field7
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _9409 = _9085;
                 _9410 = *(&mut (*(_9409 as *mut l_struct_struct_OC_image_block)).field4
@@ -37058,7 +37023,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                 _9412 = memcpy(
                     &mut _8838 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _8836 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _9413 = _8837;
                 _8830 = &mut _8839 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -37151,7 +37116,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9434.field0;
                 _9435 = _8835;
                 *(&mut _9111.field0 as *mut l_array_4_float) = _9435.field0;
-                _9113 = 0 as core::ffi::c_int as uint32_t;
+                _9113 = 0;
                 loop {
                     _9436 = _9113;
                     _9437 = _9094;
@@ -37210,14 +37175,14 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9450 = memcpy(
                             &mut _9111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9116 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9451 = _9114;
                         if !(_9451 > 0 as core::ffi::c_uint) {
                             current_block = 4462881731932957124;
                             break;
                         }
-                        _9117 = 0 as core::ffi::c_int as uint32_t;
+                        _9117 = 0;
                         loop {
                             _9452 = _9117;
                             _9453 = _9114;
@@ -37243,14 +37208,14 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 &mut _8932 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 _9460,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _9462 = _8930;
                             _9463 = memcpy(
                                 &mut _8933 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 _9462,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _9464 = *(&mut _8932 as *mut l_struct_struct_OC_vfloat4
                                 as *mut l_array_4_float);
@@ -37332,17 +37297,17 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 _9480,
                                 &mut _8931 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _9482 = _8929;
                             _9483 = _9117;
-                            _9117 = llvm_add_u32(_9483, 1 as core::ffi::c_int as uint32_t);
+                            _9117 = llvm_add_u32(_9483, 1);
                         }
                     }
                     _9484 = memcpy(
                         &mut _9121 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9485 = _9085;
                     _9486 = memcpy(
@@ -37350,7 +37315,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         &mut (*(_9485 as *mut l_struct_struct_OC_image_block)).field9
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9487 = *(&mut _9121.field0 as *mut l_array_4_float);
                     _9488 = *(&mut _9122.field0 as *mut l_array_4_float);
@@ -37426,7 +37391,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9503 = memcpy(
                         &mut _9111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9120 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9504 = _9085;
                     _9505 = memcpy(
@@ -37434,7 +37399,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         &mut (*(_9504 as *mut l_struct_struct_OC_image_block)).field9
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9506 = _9114;
                     _9507 = *(&mut _9125.field0 as *mut l_array_4_float);
@@ -37444,7 +37409,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9508 = memcpy(
                         &mut _8848 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8846 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9509 = _8847;
                     _8840 = &mut _8849 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -37550,7 +37515,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9533 = memcpy(
                         &mut _8810 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8808 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9534 = _8809;
                     _8805 = &mut _8811 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -37724,12 +37689,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9569 = memcpy(
                         &mut _9129 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9570 = memcpy(
                         &mut _9130 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9123 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9571 = *(&mut _9129.field0 as *mut l_array_4_float);
                     _9572 = *(&mut _9130.field0 as *mut l_array_4_float);
@@ -37850,12 +37815,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9601 = memcpy(
                         &mut _8800 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8798 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9602 = memcpy(
                         &mut _8801 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8798 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9603 =
                         *(&mut _8800 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -37868,12 +37833,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9605 = memcpy(
                         &mut _8348 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8345 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9606 = memcpy(
                         &mut _8349 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8346 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9607 =
                         *(&mut _8348 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -37952,7 +37917,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9623 = memcpy(
                         &mut _8350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9624 =
                         *(&mut _8350 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -38004,12 +37969,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9635 = memcpy(
                         &mut _8802 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8798 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9636 = memcpy(
                         &mut _8804 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8799 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9637 =
                         *(&mut _8804 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -38221,12 +38186,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         &mut (*(_9687 as *mut l_struct_struct_OC_image_block)).field9
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9689 = memcpy(
                         &mut _9144 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9690 = *(&mut _9144.field0 as *mut l_array_4_float);
                     *(&mut _8788 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -38247,7 +38212,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float);
                     _9143 = llvm_fadd_f32(llvm_fadd_f32(_9692, _9694), _9696);
-                    _9145 = 0 as core::ffi::c_int as uint32_t;
+                    _9145 = 0;
                     loop {
                         _9697 = _9145;
                         _9698 = _9114;
@@ -38283,12 +38248,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9715 = memcpy(
                             &mut _9151 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9716 = memcpy(
                             &mut _9152 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9147 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9717 = *(&mut _9151.field0 as *mut l_array_4_float);
                         _9718 = *(&mut _9152.field0 as *mut l_array_4_float);
@@ -38299,12 +38264,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9719 = memcpy(
                             &mut _8785 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8782 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9720 = memcpy(
                             &mut _8786 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8783 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9721 = *(&mut _8785 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -38384,7 +38349,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9737 = memcpy(
                             &mut _8787 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8784 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9738 = *(&mut _8787 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -38460,17 +38425,17 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9771 = memcpy(
                             &mut _9154 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9147 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9772 = memcpy(
                             &mut _9156 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9154 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9773 = memcpy(
                             &mut _9157 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9153 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9774 = *(&mut _9156.field0 as *mut l_array_4_float);
                         _9775 = *(&mut _9157.field0 as *mut l_array_4_float);
@@ -38552,13 +38517,13 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9791 = memcpy(
                             &mut _8940 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _9790,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9792 = _8938;
                         _9793 = memcpy(
                             &mut _8941 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _9792,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9794 = *(&mut _8940 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -38639,18 +38604,18 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9811 = memcpy(
                             _9810,
                             &mut _8939 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9812 = _8937;
                         _9813 = memcpy(
                             &mut _9159 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9154 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9814 = memcpy(
                             &mut _9160 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9155 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9815 = *(&mut _9159.field0 as *mut l_array_4_float);
                         _9816 = *(&mut _9160.field0 as *mut l_array_4_float);
@@ -38732,13 +38697,13 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9832 = memcpy(
                             &mut _8948 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _9831,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9833 = _8946;
                         _9834 = memcpy(
                             &mut _8949 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _9833,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9835 = *(&mut _8948 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -38819,7 +38784,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9852 = memcpy(
                             _9851,
                             &mut _8947 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9853 = _8945;
                         _9854 = _9149;
@@ -38863,7 +38828,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9867 = memcpy(
                             &mut _8858 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8856 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9868 = _8857;
                         _8850 =
@@ -38972,13 +38937,13 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9892 = memcpy(
                             &mut _8956 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _9891,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9893 = _8954;
                         _9894 = memcpy(
                             &mut _8957 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _9893,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9895 = *(&mut _8956 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -39059,11 +39024,11 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _9912 = memcpy(
                             _9911,
                             &mut _8955 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9913 = _8953;
                         _9914 = _9145;
-                        _9145 = llvm_add_u32(_9914, 1 as core::ffi::c_int as uint32_t);
+                        _9145 = llvm_add_u32(_9914, 1);
                     }
                     _9915 = _9135;
                     _8968 = &mut _9164 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -39089,7 +39054,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9921 = memcpy(
                         &mut _9165 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9922 = *(&mut _9164.field0 as *mut l_array_4_float);
                     _9923 = *(&mut _9165.field0 as *mut l_array_4_float);
@@ -39186,7 +39151,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9944 = memcpy(
                         &mut _9168 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9945 = *(&mut _9167.field0 as *mut l_array_4_float);
                     _9946 = *(&mut _9168.field0 as *mut l_array_4_float);
@@ -39283,7 +39248,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9967 = memcpy(
                         &mut _9171 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9968 = *(&mut _9170.field0 as *mut l_array_4_float);
                     _9969 = *(&mut _9171.field0 as *mut l_array_4_float);
@@ -39398,7 +39363,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9998 = memcpy(
                         &mut _8868 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8866 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9999 = _8867;
                     _8860 = &mut _8869 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -39500,12 +39465,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _10022 = memcpy(
                         &mut _9175 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10023 = memcpy(
                         &mut _9176 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10024 = *(&mut _9175.field0 as *mut l_array_4_float);
                     _10025 = *(&mut _9176.field0 as *mut l_array_4_float);
@@ -39581,17 +39546,17 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _10040 = memcpy(
                         &mut _9138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9174 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10041 = memcpy(
                         &mut _9178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9139 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10042 = memcpy(
                         &mut _9179 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10043 = *(&mut _9178.field0 as *mut l_array_4_float);
                     _10044 = *(&mut _9179.field0 as *mut l_array_4_float);
@@ -39667,7 +39632,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _10059 = memcpy(
                         &mut _9139 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9177 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10060 = _9132;
                     _10061 = _9131;
@@ -39680,7 +39645,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _10065 = memcpy(
                         &mut _9182 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10066 = _9131;
                     _10067 = *(&mut _9182.field0 as *mut l_array_4_float);
@@ -39690,7 +39655,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _10068 = memcpy(
                         &mut _8878 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8876 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10069 = _8877;
                     _8870 = &mut _8879 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -39836,7 +39801,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _9183 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10107 = _9133;
                     _10108 = _9134;
@@ -39849,12 +39814,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10109 = memcpy(
                             &mut _9186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10110 = memcpy(
                             &mut _9187 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9139 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10111 = *(&mut _9186.field0 as *mut l_array_4_float);
                         _10112 = *(&mut _9187.field0 as *mut l_array_4_float);
@@ -39931,7 +39896,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10127 = memcpy(
                             &mut _9188 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9123 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10128 = *(&mut _9185.field0 as *mut l_array_4_float);
                         _10129 = *(&mut _9188.field0 as *mut l_array_4_float);
@@ -40008,12 +39973,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10144 = memcpy(
                             &mut _9190 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9184 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10145 = memcpy(
                             &mut _9191 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9184 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10146 = *(&mut _9190.field0 as *mut l_array_4_float);
                         _10147 = *(&mut _9191.field0 as *mut l_array_4_float);
@@ -40091,7 +40056,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10159 = _8300;
@@ -40108,7 +40073,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10161 = _8301;
@@ -40125,7 +40090,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10163 = _8302;
@@ -40142,7 +40107,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10165 = *(&mut _8414 as *mut l_struct_struct_OC_vmask4
@@ -40161,17 +40126,17 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 .offset(_10167 as uint64_t as int64_t as isize)
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10169 = memcpy(
                             &mut _9194 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9184 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10170 = memcpy(
                             &mut _9195 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9189 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10171 = *(&mut _9193.field0 as *mut l_array_4_float);
                         _10172 = *(&mut _9194.field0 as *mut l_array_4_float);
@@ -40304,7 +40269,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _9192 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10199 = _9089;
                         _10200 = _9113;
@@ -40317,17 +40282,17 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 .offset(_10200 as uint64_t as int64_t as isize)
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10202 = memcpy(
                             &mut _9198 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9184 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10203 = memcpy(
                             &mut _9199 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9189 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10204 = *(&mut _9197.field0 as *mut l_array_4_float);
                         _10205 = *(&mut _9198.field0 as *mut l_array_4_float);
@@ -40460,7 +40425,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _9196 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _8756 =
                             &mut _9181 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -40512,18 +40477,18 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _9200 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                     } else {
                         _10246 = memcpy(
                             &mut _9203 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9163 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10247 = memcpy(
                             &mut _9204 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9169 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10248 = *(&mut _9203.field0 as *mut l_array_4_float);
                         _10249 = *(&mut _9204.field0 as *mut l_array_4_float);
@@ -40600,12 +40565,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10264 = memcpy(
                             &mut _9206 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9166 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10265 = memcpy(
                             &mut _9207 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9166 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10266 = *(&mut _9206.field0 as *mut l_array_4_float);
                         _10267 = *(&mut _9207.field0 as *mut l_array_4_float);
@@ -40754,7 +40719,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10298 = memcpy(
                             &mut _9209 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10299 = *(&mut _9209.field0 as *mut l_array_4_float);
                         *(&mut _8410 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -40785,7 +40750,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10306 = memcpy(
                             &mut _8413 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8410 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10307 = *(&mut _8412 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -40900,12 +40865,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10334 = memcpy(
                             &mut _9215 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9163 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10335 = memcpy(
                             &mut _9216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9163 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10336 = *(&mut _9215.field0 as *mut l_array_4_float);
                         _10337 = *(&mut _9216.field0 as *mut l_array_4_float);
@@ -40982,7 +40947,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10352 = memcpy(
                             &mut _9219 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9166 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10353 = *(&mut _9219.field0 as *mut l_array_4_float);
                         *(&mut _8395 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -41013,7 +40978,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10360 = memcpy(
                             &mut _8398 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8395 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10361 = *(&mut _8397 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -41095,7 +41060,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10378 = memcpy(
                             &mut _9220 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9166 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10379 = *(&mut _9218.field0 as *mut l_array_4_float);
                         _10380 = *(&mut _9220.field0 as *mut l_array_4_float);
@@ -41244,12 +41209,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10411 = memcpy(
                             &mut _9222 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9169 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10412 = memcpy(
                             &mut _9223 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9169 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10413 = *(&mut _9222.field0 as *mut l_array_4_float);
                         _10414 = *(&mut _9223.field0 as *mut l_array_4_float);
@@ -41444,12 +41409,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10459 = memcpy(
                             &mut _9228 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9169 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10460 = memcpy(
                             &mut _9229 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10461 = *(&mut _9228.field0 as *mut l_array_4_float);
                         _10462 = *(&mut _9229.field0 as *mut l_array_4_float);
@@ -41526,12 +41491,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10477 = memcpy(
                             &mut _9231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9166 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10478 = memcpy(
                             &mut _9232 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9139 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10479 = *(&mut _9231.field0 as *mut l_array_4_float);
                         _10480 = *(&mut _9232.field0 as *mut l_array_4_float);
@@ -41680,7 +41645,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10511 = memcpy(
                             &mut _9233 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9208 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10512 = *(&mut _9226.field0 as *mut l_array_4_float);
                         _10513 = *(&mut _9233.field0 as *mut l_array_4_float);
@@ -41757,12 +41722,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10528 = memcpy(
                             &mut _9237 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9163 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10529 = memcpy(
                             &mut _9238 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9139 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10530 = *(&mut _9237.field0 as *mut l_array_4_float);
                         _10531 = *(&mut _9238.field0 as *mut l_array_4_float);
@@ -41839,12 +41804,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10546 = memcpy(
                             &mut _9240 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9166 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10547 = memcpy(
                             &mut _9241 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10548 = *(&mut _9240.field0 as *mut l_array_4_float);
                         _10549 = *(&mut _9241.field0 as *mut l_array_4_float);
@@ -41993,7 +41958,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10580 = memcpy(
                             &mut _9242 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9208 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10581 = *(&mut _9235.field0 as *mut l_array_4_float);
                         _10582 = *(&mut _9242.field0 as *mut l_array_4_float);
@@ -42070,7 +42035,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10597 = memcpy(
                             &mut _9245 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10598 = *(&mut _9245.field0 as *mut l_array_4_float);
                         *(&mut _8380 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -42128,7 +42093,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10613 = memcpy(
                             &mut _9247 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9212 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10614 = *(&mut _9247.field0 as *mut l_array_4_float);
                         *(&mut _8886 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -42137,7 +42102,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10615 = memcpy(
                             &mut _8888 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8886 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10616 = _8887;
                         _8880 =
@@ -42314,7 +42279,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10652 = _8305;
@@ -42331,7 +42296,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10654 = _8306;
@@ -42348,7 +42313,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10656 = _8307;
@@ -42365,7 +42330,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10658 = *(&mut _8381 as *mut l_struct_struct_OC_vmask4
@@ -42376,12 +42341,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10659 = memcpy(
                             &mut _9250 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9225 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10660 = memcpy(
                             &mut _9251 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9225 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10661 = *(&mut _9250.field0 as *mut l_array_4_float);
                         _10662 = *(&mut _9251.field0 as *mut l_array_4_float);
@@ -42459,7 +42424,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10674 = _8295;
@@ -42476,7 +42441,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10676 = _8296;
@@ -42493,7 +42458,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10678 = _8297;
@@ -42510,7 +42475,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10680 = *(&mut _8417 as *mut l_struct_struct_OC_vmask4
@@ -42521,12 +42486,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10681 = memcpy(
                             &mut _9253 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9234 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10682 = memcpy(
                             &mut _9254 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9234 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10683 = *(&mut _9253.field0 as *mut l_array_4_float);
                         _10684 = *(&mut _9254.field0 as *mut l_array_4_float);
@@ -42604,7 +42569,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10696 = _8290;
@@ -42621,7 +42586,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10698 = _8291;
@@ -42638,7 +42603,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10700 = _8292;
@@ -42655,7 +42620,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10702 = *(&mut _8420 as *mut l_struct_struct_OC_vmask4
@@ -42733,7 +42698,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10716 = _8315;
@@ -42750,7 +42715,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10718 = _8316;
@@ -42767,7 +42732,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10720 = _8317;
@@ -42784,7 +42749,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10722 = *(&mut _8368 as *mut l_struct_struct_OC_vmask4
@@ -42795,12 +42760,12 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         _10723 = memcpy(
                             &mut _9256 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9243 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10724 = memcpy(
                             &mut _9257 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9248 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10725 = (*(&mut _9256.field0 as *mut l_array_4_uint32_t
                             as *mut C2RustUnnamed_75))
@@ -42872,7 +42837,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10738 = _8310;
@@ -42889,7 +42854,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10740 = _8311;
@@ -42906,7 +42871,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10742 = _8312;
@@ -42923,7 +42888,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10744 = *(&mut _8371 as *mut l_struct_struct_OC_vmask4
@@ -42942,17 +42907,17 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 .offset(_10746 as uint64_t as int64_t as isize)
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10748 = memcpy(
                             &mut _9260 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9225 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10749 = memcpy(
                             &mut _9261 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9255 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10750 = *(&mut _9259.field0 as *mut l_array_4_float);
                         _10751 = *(&mut _9260.field0 as *mut l_array_4_float);
@@ -43085,7 +43050,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _9258 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10778 = _9089;
                         _10779 = _9113;
@@ -43098,17 +43063,17 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 .offset(_10779 as uint64_t as int64_t as isize)
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10781 = memcpy(
                             &mut _9264 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9234 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10782 = memcpy(
                             &mut _9265 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9255 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10783 = *(&mut _9263.field0 as *mut l_array_4_float);
                         _10784 = *(&mut _9264.field0 as *mut l_array_4_float);
@@ -43241,7 +43206,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _9262 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _8728 =
                             &mut _9172 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -43342,7 +43307,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                                 as *mut core::ffi::c_void,
                                             &mut _9126 as *mut l_struct_struct_OC_vfloat4
                                                 as *mut core::ffi::c_void,
-                                            16 as core::ffi::c_int as uint64_t,
+                                            16,
                                         );
                                         _10843 = _9267;
                                         _10844 = *(&mut _9270.field0 as *mut l_array_4_float);
@@ -43354,7 +43319,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                                 as *mut core::ffi::c_void,
                                             &mut _8896 as *mut l_struct_struct_OC_vfloat4
                                                 as *mut core::ffi::c_void,
-                                            16 as core::ffi::c_int as uint64_t,
+                                            16,
                                         );
                                         _10846 = _8897;
                                         _8890 = &mut _8899 as *mut l_struct_struct_OC_vfloat4
@@ -43514,7 +43479,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                                 as *mut core::ffi::c_void,
                                             &mut _9271 as *mut l_struct_struct_OC_vfloat4
                                                 as *mut core::ffi::c_void,
-                                            16 as core::ffi::c_int as uint64_t,
+                                            16,
                                         );
                                     }
                                 }
@@ -43580,7 +43545,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9142 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10895 = *(&mut _9273.field0 as *mut l_array_4_float);
                             _10896 = *(&mut _9274.field0 as *mut l_array_4_float);
@@ -43660,7 +43625,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9142 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10913 = *(&mut _9276.field0 as *mut l_array_4_float);
                             *(&mut _8789 as *mut l_struct_struct_OC_vfloat4
@@ -43692,14 +43657,14 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9138 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10921 = memcpy(
                                 &mut _9279 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _9139 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10922 = *(&mut _9278.field0 as *mut l_array_4_float);
                             _10923 = *(&mut _9279.field0 as *mut l_array_4_float);
@@ -43778,7 +43743,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9139 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10939 = *(&mut _9280.field0 as *mut l_array_4_float);
                             *(&mut _8790 as *mut l_struct_struct_OC_vfloat4
@@ -43815,21 +43780,21 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9123 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10949 = memcpy(
                                 &mut _9283 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _9272 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10950 = memcpy(
                                 &mut _9284 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _9277 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10951 = _9275;
                             _10952 = *(&mut _9282.field0 as *mut l_array_4_float);
@@ -43848,21 +43813,21 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _9281 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10959 = memcpy(
                                 &mut _9285 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _9281 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10960 = memcpy(
                                 &mut _9286 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _9281 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10961 = *(&mut _9285.field0 as *mut l_array_4_float);
                             _10962 = *(&mut _9286.field0 as *mut l_array_4_float);
@@ -43875,14 +43840,14 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _8360 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10964 = memcpy(
                                 &mut _8364 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _8361 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10965 = *(&mut _8363 as *mut l_struct_struct_OC_vfloat4
                                 as *mut l_array_4_float);
@@ -43964,7 +43929,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                     as *mut core::ffi::c_void,
                                 &mut _8362 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _10982 = *(&mut _8365 as *mut l_struct_struct_OC_vfloat4
                                 as *mut l_array_4_float);
@@ -44008,7 +43973,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                         .offset(_10989 as uint64_t as int64_t as isize)
                                         as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _10991 = _9089;
                                 _10992 = _9113;
@@ -44023,21 +43988,21 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                         .offset(_10992 as uint64_t as int64_t as isize)
                                         as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _10994 = memcpy(
                                     &mut _9291 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _9288 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _10995 = memcpy(
                                     &mut _9292 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _9287 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _10996 = *(&mut _9291.field0 as *mut l_array_4_float);
                                 _10997 = *(&mut _9292.field0 as *mut l_array_4_float);
@@ -44147,14 +44112,14 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                         as *mut core::ffi::c_void,
                                     &mut _9287 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _11022 = memcpy(
                                     &mut _9296 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _9288 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _11023 = *(&mut _9295.field0 as *mut l_array_4_float);
                                 _11024 = *(&mut _9296.field0 as *mut l_array_4_float);
@@ -44237,7 +44202,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                         as *mut core::ffi::c_void,
                                     &mut _8906 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _11041 = _8907;
                                 _8900 = &mut _8909 as *mut l_struct_struct_OC_vfloat4
@@ -44343,7 +44308,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                         as *mut core::ffi::c_void,
                                     &mut _9293 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _11065 = _9289;
                                 _8960 = &mut _9300 as *mut l_struct_struct_OC_vfloat4
@@ -44376,7 +44341,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                         as *mut core::ffi::c_void,
                                     &mut _8916 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _11073 = _8917;
                                 _8910 = &mut _8919 as *mut l_struct_struct_OC_vfloat4
@@ -44601,14 +44566,14 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                         as *mut core::ffi::c_void,
                                     &mut _9301 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                             }
                         }
                         _ => {}
                     }
                     _11127 = _9113;
-                    _9113 = llvm_add_u32(_11127, 1 as core::ffi::c_int as uint32_t);
+                    _9113 = llvm_add_u32(_11127, 1);
                 }
                 match current_block {
                     1004180836663815023 => return,
@@ -44618,7 +44583,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                                 as *mut core::ffi::c_void,
                             &_OC_str_OC_1 as *const l_array_66_uint8_t
                                 as *mut core::ffi::c_void,
-                            1209 as core::ffi::c_int as uint32_t,
+                            1209,
                             &__PRETTY_FUNCTION___OC__Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_
                                 as *const l_array_157_uint8_t as *mut core::ffi::c_void,
                         );
@@ -44628,7 +44593,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                 __assert_fail(
                     &_OC_str_OC_7 as *const l_array_20_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                    1161 as core::ffi::c_int as uint32_t,
+                    1161,
                     &__PRETTY_FUNCTION___OC__Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_
                         as *const l_array_157_uint8_t as *mut core::ffi::c_void,
                 );
@@ -44637,7 +44602,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
             __assert_fail(
                 &_OC_str_OC_6 as *const l_array_22_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                1160 as core::ffi::c_int as uint32_t,
+                1160,
                 &__PRETTY_FUNCTION___OC__Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_
                     as *const l_array_157_uint8_t as *mut core::ffi::c_void,
             );
@@ -44646,7 +44611,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
         __assert_fail(
             &_OC_str_OC_4 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            1159 as core::ffi::c_int as uint32_t,
+            1159,
             &__PRETTY_FUNCTION___OC__Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_
                 as *const l_array_157_uint8_t as *mut core::ffi::c_void,
         );
@@ -45553,7 +45518,7 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11549 = memcpy(
         &mut _11440 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11550 = _11434;
     _11551 = *(&mut _11440.field0 as *mut l_array_4_float);
@@ -45562,7 +45527,7 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11552 = memcpy(
         &mut _11406 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11404 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11553 = _11405;
     _11398 = &mut _11407 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -45645,12 +45610,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11576 = memcpy(
         &mut _11441 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11435 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11577 = memcpy(
         &mut _11442 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11439 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11578 = *(&mut _11441.field0 as *mut l_array_4_float);
     _11579 = *(&mut _11442.field0 as *mut l_array_4_float);
@@ -45659,12 +45624,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11580 = memcpy(
         &mut _11314 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11311 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11581 = memcpy(
         &mut _11315 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11312 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11582 = *(&mut _11314 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _11583 = *(&mut _11315 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -45727,7 +45692,7 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11598 = memcpy(
         &mut _11316 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11313 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11599 = *(&mut _11316 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _11307 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _11599;
@@ -45750,12 +45715,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11604 = memcpy(
         &mut _11443 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11436 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11605 = memcpy(
         &mut _11444 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11439 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11606 = *(&mut _11443.field0 as *mut l_array_4_float);
     _11607 = *(&mut _11444.field0 as *mut l_array_4_float);
@@ -45764,12 +45729,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11608 = memcpy(
         &mut _11329 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11326 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11609 = memcpy(
         &mut _11330 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11327 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11610 = *(&mut _11329 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _11611 = *(&mut _11330 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -45832,7 +45797,7 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11626 = memcpy(
         &mut _11331 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11328 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11627 = *(&mut _11331 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _11322 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _11627;
@@ -45855,12 +45820,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11632 = memcpy(
         &mut _11445 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11437 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11633 = memcpy(
         &mut _11446 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11439 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11634 = *(&mut _11445.field0 as *mut l_array_4_float);
     _11635 = *(&mut _11446.field0 as *mut l_array_4_float);
@@ -45869,12 +45834,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11636 = memcpy(
         &mut _11344 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11341 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11637 = memcpy(
         &mut _11345 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11342 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11638 = *(&mut _11344 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _11639 = *(&mut _11345 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -45937,7 +45902,7 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11654 = memcpy(
         &mut _11346 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11655 = *(&mut _11346 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _11337 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _11655;
@@ -45960,12 +45925,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11660 = memcpy(
         &mut _11447 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11438 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11661 = memcpy(
         &mut _11448 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11439 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11662 = *(&mut _11447.field0 as *mut l_array_4_float);
     _11663 = *(&mut _11448.field0 as *mut l_array_4_float);
@@ -45974,12 +45939,12 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11664 = memcpy(
         &mut _11359 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11356 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11665 = memcpy(
         &mut _11360 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11357 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11666 = *(&mut _11359 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _11667 = *(&mut _11360 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -46042,7 +46007,7 @@ unsafe extern "C" fn _ZL19compute_rgbo_vector7vfloat4S_S_f(
     _11682 = memcpy(
         &mut _11361 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _11358 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _11683 = *(&mut _11361 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _11352 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _11683;
@@ -52263,7 +52228,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
         if _13260 > 0 as core::ffi::c_uint {
             _13261 = _12928;
             if _13261 <= 32 as core::ffi::c_uint {
-                _12932 = 0 as core::ffi::c_int as uint32_t;
+                _12932 = 0;
                 loop {
                     _13262 = _12932;
                     _13263 = _12928;
@@ -52307,7 +52272,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13275 = memcpy(
                         &mut _12936 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _12933 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13276 = (*(&mut _12936.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_138))
@@ -52455,7 +52420,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13308 = memcpy(
                         &mut _12938 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12934 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13309 = _12932;
                     _13310 = *(&mut _12938.field0 as *mut l_array_4_float);
@@ -52539,7 +52504,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13330 = memcpy(
                         &mut _12942 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _12939 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13331 = (*(&mut _12942.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_137))
@@ -52687,7 +52652,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13363 = memcpy(
                         &mut _12944 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12940 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13364 = _12932;
                     _13365 = *(&mut _12944.field0 as *mut l_array_4_float);
@@ -52735,7 +52700,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float) = _13372;
                     _13374 = _12932;
-                    _12932 = llvm_add_u32(_13374, 4 as core::ffi::c_int as uint32_t);
+                    _12932 = llvm_add_u32(_13374, 4);
                 }
                 _13375 = _12921;
                 _13376 = *(&mut (*(_13375 as *mut l_struct_struct_OC_decimation_info)).field1
@@ -52756,7 +52721,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13378 = *(&mut (*(_13377 as *mut l_struct_struct_OC_decimation_info)).field1
                         as *mut uint8_t);
                     if _13378 as uint32_t as int32_t <= 2 as core::ffi::c_uint as int32_t {
-                        _12949 = 0 as core::ffi::c_int as uint32_t;
+                        _12949 = 0;
                         loop {
                             _13379 = _12949;
                             _13380 = _12929;
@@ -52780,7 +52745,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _12950 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _13385 = _12949;
                             _13386 = *(&mut _12951.field0 as *mut l_array_4_float);
@@ -52844,14 +52809,14 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _12952 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _13399 = memcpy(
                                 &mut _12953 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _12950 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _13400 = _12949;
                             _13401 = *(&mut _12953.field0 as *mut l_array_4_float);
@@ -52899,7 +52864,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 .offset(3 as core::ffi::c_int as int64_t as isize)
                                 as *mut core::ffi::c_float) = _13408;
                             _13410 = _12949;
-                            _12949 = llvm_add_u32(_13410, 4 as core::ffi::c_int as uint32_t);
+                            _12949 = llvm_add_u32(_13410, 4);
                         }
                         _12947 = &mut *(_12945.array)
                             .as_mut_ptr()
@@ -52912,7 +52877,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut core::ffi::c_float
                             as *mut core::ffi::c_void;
                     } else {
-                        _12954 = 0 as core::ffi::c_int as uint32_t;
+                        _12954 = 0;
                         loop {
                             _13411 = _12954;
                             _13412 = _12929;
@@ -52936,7 +52901,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _12955 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _13417 = _12954;
                             _13418 = *(&mut _12956.field0 as *mut l_array_4_float);
@@ -53000,14 +52965,14 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _12957 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _13431 = memcpy(
                                 &mut _12958 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _12955 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _13432 = _12954;
                             _13433 = *(&mut _12958.field0 as *mut l_array_4_float);
@@ -53055,7 +53020,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 .offset(3 as core::ffi::c_int as int64_t as isize)
                                 as *mut core::ffi::c_float) = _13440;
                             _13442 = _12954;
-                            _12954 = llvm_add_u32(_13442, 4 as core::ffi::c_int as uint32_t);
+                            _12954 = llvm_add_u32(_13442, 4);
                         }
                         _12947 = &mut *(_12945.array)
                             .as_mut_ptr()
@@ -53079,7 +53044,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     &mut (*(_13445 as *mut l_struct_struct_OC_image_block)).field9
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13447 = _12959;
                 _13448 = *(&mut _12962.field0 as *mut l_array_4_float);
@@ -53088,7 +53053,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13449 = memcpy(
                     &mut _12597 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12595 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13450 = _12596;
                 _12589 = &mut _12598 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -53189,7 +53154,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13474 = memcpy(
                     &mut _12537 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12535 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13475 = _12536;
                 _12532 = &mut _12538 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -53402,12 +53367,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13525 = memcpy(
                     &mut _12527 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12525 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13526 = memcpy(
                     &mut _12528 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12525 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13527 = *(&mut _12527 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _13528 = *(&mut _12528 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -53416,12 +53381,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13529 = memcpy(
                     &mut _11847 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _11844 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13530 = memcpy(
                     &mut _11848 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _11845 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13531 = *(&mut _11847 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _13532 = *(&mut _11848 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -53496,7 +53461,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13547 = memcpy(
                     &mut _11849 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _11846 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13548 = *(&mut _11849 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _11839 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _13548;
@@ -53547,12 +53512,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13559 = memcpy(
                     &mut _12529 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12525 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13560 = memcpy(
                     &mut _12531 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12526 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13561 = *(&mut _12531 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _11831 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _13561;
@@ -53777,10 +53742,10 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float) = _13615;
                 _11812 = &mut _11856 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _11813 = 0 as core::ffi::c_int as uint32_t;
-                _11814 = 1 as core::ffi::c_int as uint32_t;
-                _11815 = 2 as core::ffi::c_int as uint32_t;
-                _11816 = 3 as core::ffi::c_int as uint32_t;
+                _11813 = 0;
+                _11814 = 1;
+                _11815 = 2;
+                _11816 = 3;
                 _13616 = _11812;
                 _13617 = _11813;
                 *(_13616 as *mut uint32_t) = _13617;
@@ -53884,7 +53849,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     ((_13639 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13641 = _11789;
@@ -53899,7 +53864,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     ((_13641 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13643 = _11790;
@@ -53914,7 +53879,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     ((_13643 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13645 = _11791;
@@ -53929,7 +53894,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     ((_13645 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13647 =
@@ -53942,12 +53907,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     &mut (*(_13648 as *mut l_struct_struct_OC_image_block)).field9
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13650 = memcpy(
                     &mut _12986 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13651 = *(&mut _12986.field0 as *mut l_array_4_float);
                 *(&mut _12516 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _13651;
@@ -53967,7 +53932,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float);
                 _12985 = llvm_fadd_f32(llvm_fadd_f32(_13653, _13655), _13657);
-                _12987 = 0 as core::ffi::c_int as uint32_t;
+                _12987 = 0;
                 loop {
                     _13658 = _12987;
                     _13659 = _12959;
@@ -53997,12 +53962,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13673 = memcpy(
                         &mut _12992 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12963 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13674 = memcpy(
                         &mut _12993 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12988 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13675 = *(&mut _12992.field0 as *mut l_array_4_float);
                     _13676 = *(&mut _12993.field0 as *mut l_array_4_float);
@@ -54013,12 +53978,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13677 = memcpy(
                         &mut _12503 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12500 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13678 = memcpy(
                         &mut _12504 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12501 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13679 =
                         *(&mut _12503 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -54098,7 +54063,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13695 = memcpy(
                         &mut _12505 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12502 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13696 =
                         *(&mut _12505 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -54224,7 +54189,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13755 = memcpy(
                         &mut _12999 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _12981 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13756 = *(&mut _12997.field0 as *mut l_array_4_float);
                     _13757 = *(&mut _12998.field0 as *mut l_array_4_float);
@@ -54349,17 +54314,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13781 = memcpy(
                         &mut _13000 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12988 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13782 = memcpy(
                         &mut _13002 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13000 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13783 = memcpy(
                         &mut _13003 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12996 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13784 = *(&mut _13002.field0 as *mut l_array_4_float);
                     _13785 = *(&mut _13003.field0 as *mut l_array_4_float);
@@ -54441,13 +54406,13 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13801 = memcpy(
                         &mut _12691 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13800,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13802 = _12689;
                     _13803 = memcpy(
                         &mut _12692 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13802,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13804 =
                         *(&mut _12691 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -54528,18 +54493,18 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13821 = memcpy(
                         _13820,
                         &mut _12690 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13822 = _12688;
                     _13823 = memcpy(
                         &mut _13005 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13000 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13824 = memcpy(
                         &mut _13006 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13001 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13825 = *(&mut _13005.field0 as *mut l_array_4_float);
                     _13826 = *(&mut _13006.field0 as *mut l_array_4_float);
@@ -54621,13 +54586,13 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13842 = memcpy(
                         &mut _12699 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13841,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13843 = _12697;
                     _13844 = memcpy(
                         &mut _12700 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13843,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13845 =
                         *(&mut _12699 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -54708,7 +54673,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13862 = memcpy(
                         _13861,
                         &mut _12698 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13863 = _12696;
                     _13864 = _12990;
@@ -54752,7 +54717,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13877 = memcpy(
                         &mut _12607 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12605 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13878 = _12606;
                     _12599 =
@@ -54861,13 +54826,13 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13902 = memcpy(
                         &mut _12707 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13901,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13903 = _12705;
                     _13904 = memcpy(
                         &mut _12708 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13903,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13905 =
                         *(&mut _12707 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -54948,7 +54913,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13922 = memcpy(
                         _13921,
                         &mut _12706 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13923 = _12704;
                     _12712 =
@@ -54959,13 +54924,13 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13925 = memcpy(
                         &mut _12715 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13924,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13926 = _12713;
                     _13927 = memcpy(
                         &mut _12716 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _13926,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13928 =
                         *(&mut _12715 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -55046,11 +55011,11 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13945 = memcpy(
                         _13944,
                         &mut _12714 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _13946 = _12712;
                     _13947 = _12987;
-                    _12987 = llvm_add_u32(_13947, 1 as core::ffi::c_int as uint32_t);
+                    _12987 = llvm_add_u32(_13947, 1);
                 }
                 _13948 = _12971;
                 _12733 = &mut _13010 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -55076,7 +55041,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13954 = memcpy(
                     &mut _13011 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13955 = *(&mut _13010.field0 as *mut l_array_4_float);
                 _13956 = *(&mut _13011.field0 as *mut l_array_4_float);
@@ -55171,7 +55136,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _13977 = memcpy(
                     &mut _13014 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13978 = *(&mut _13013.field0 as *mut l_array_4_float);
                 _13979 = *(&mut _13014.field0 as *mut l_array_4_float);
@@ -55266,7 +55231,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14000 = memcpy(
                     &mut _13017 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14001 = *(&mut _13016.field0 as *mut l_array_4_float);
                 _14002 = *(&mut _13017.field0 as *mut l_array_4_float);
@@ -55378,7 +55343,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14031 = memcpy(
                     &mut _12617 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12615 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14032 = _12616;
                 _12609 = &mut _12618 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -55497,7 +55462,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14061 = memcpy(
                     &mut _13022 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14062 = *(&mut _13021.field0 as *mut l_array_4_float);
                 _14063 = *(&mut _13022.field0 as *mut l_array_4_float);
@@ -55592,7 +55557,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14084 = memcpy(
                     &mut _13025 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14085 = *(&mut _13024.field0 as *mut l_array_4_float);
                 _14086 = *(&mut _13025.field0 as *mut l_array_4_float);
@@ -55687,7 +55652,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14107 = memcpy(
                     &mut _13028 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14108 = *(&mut _13027.field0 as *mut l_array_4_float);
                 _14109 = *(&mut _13028.field0 as *mut l_array_4_float);
@@ -55761,12 +55726,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14124 = memcpy(
                     &mut _13030 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14125 = memcpy(
                     &mut _13031 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14126 = *(&mut _13030.field0 as *mut l_array_4_float);
                 _14127 = *(&mut _13031.field0 as *mut l_array_4_float);
@@ -55840,17 +55805,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14142 = memcpy(
                     &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13029 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14143 = memcpy(
                     &mut _13033 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14144 = memcpy(
                     &mut _13034 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14145 = *(&mut _13033.field0 as *mut l_array_4_float);
                 _14146 = *(&mut _13034.field0 as *mut l_array_4_float);
@@ -55924,7 +55889,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14161 = memcpy(
                     &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13032 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14162 = _12966;
                 _14163 = _12965;
@@ -55936,7 +55901,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14167 = memcpy(
                     &mut _13037 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12963 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14168 = _12965;
                 _14169 = *(&mut _13037.field0 as *mut l_array_4_float);
@@ -55945,7 +55910,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14170 = memcpy(
                     &mut _12627 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12625 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14171 = _12626;
                 _12619 = &mut _12628 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -56083,7 +56048,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 _14207 = memcpy(
                     _14206,
                     &mut _13038 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14208 = _12967;
                 _14209 = _12968;
@@ -56096,12 +56061,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14210 = memcpy(
                         &mut _13041 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14211 = memcpy(
                         &mut _13042 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14212 = *(&mut _13041.field0 as *mut l_array_4_float);
                     _14213 = *(&mut _13042.field0 as *mut l_array_4_float);
@@ -56178,7 +56143,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14228 = memcpy(
                         &mut _13043 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12960 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14229 = *(&mut _13040.field0 as *mut l_array_4_float);
                     _14230 = *(&mut _13043.field0 as *mut l_array_4_float);
@@ -56253,10 +56218,10 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14244 = _12679;
                     *(&mut _13039.field0 as *mut l_array_4_float) = _14244.field0;
                     _11807 = &mut _11857 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _11808 = 0 as core::ffi::c_int as uint32_t;
-                    _11809 = 1 as core::ffi::c_int as uint32_t;
-                    _11810 = 2 as core::ffi::c_int as uint32_t;
-                    _11811 = 3 as core::ffi::c_int as uint32_t;
+                    _11808 = 0;
+                    _11809 = 1;
+                    _11810 = 2;
+                    _11811 = 3;
                     _14245 = _11807;
                     _14246 = _11808;
                     *(_14245 as *mut uint32_t) = _14246;
@@ -56365,7 +56330,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14270 = _11799;
@@ -56381,7 +56346,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14272 = _11800;
@@ -56397,7 +56362,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14274 = _11801;
@@ -56413,7 +56378,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14276 =
@@ -56423,12 +56388,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14277 = memcpy(
                         &mut _13048 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14278 = memcpy(
                         &mut _13049 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14279 = *(&mut _13048.field0 as *mut l_array_4_float);
                     _14280 = *(&mut _13049.field0 as *mut l_array_4_float);
@@ -56501,7 +56466,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14292 = _11734;
@@ -56517,7 +56482,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14294 = _11735;
@@ -56533,7 +56498,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14296 = _11736;
@@ -56549,7 +56514,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14298 =
@@ -56559,12 +56524,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14299 = memcpy(
                         &mut _13051 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13044 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14300 = memcpy(
                         &mut _13052 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13047 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14301 = (*(&mut _13051.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_126))
@@ -56635,7 +56600,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14314 = _11784;
@@ -56651,7 +56616,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14316 = _11785;
@@ -56667,7 +56632,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14318 = _11786;
@@ -56683,7 +56648,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14320 =
@@ -56700,17 +56665,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14323 = memcpy(
                         &mut _13055 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14324 = memcpy(
                         &mut _13056 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13050 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14325 = *(&mut _13054.field0 as *mut l_array_4_float);
                     _14326 = *(&mut _13055.field0 as *mut l_array_4_float);
@@ -56842,7 +56807,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13053 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14352 = _12924;
                     _14353 = memcpy(
@@ -56854,17 +56819,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14354 = memcpy(
                         &mut _13059 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14355 = memcpy(
                         &mut _13060 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13050 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14356 = *(&mut _13058.field0 as *mut l_array_4_float);
                     _14357 = *(&mut _13059.field0 as *mut l_array_4_float);
@@ -56996,7 +56961,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13057 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12474 =
                         &mut _13036 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -57044,18 +57009,18 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14395 = memcpy(
                         _14394,
                         &mut _13061 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 } else {
                     _14396 = memcpy(
                         &mut _13064 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13009 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14397 = memcpy(
                         &mut _13065 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14398 = *(&mut _13064.field0 as *mut l_array_4_float);
                     _14399 = *(&mut _13065.field0 as *mut l_array_4_float);
@@ -57132,12 +57097,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14414 = memcpy(
                         &mut _13067 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14415 = memcpy(
                         &mut _13068 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14416 = *(&mut _13067.field0 as *mut l_array_4_float);
                     _14417 = *(&mut _13068.field0 as *mut l_array_4_float);
@@ -57286,7 +57251,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14448 = memcpy(
                         &mut _13070 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13062 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14449 = *(&mut _13070.field0 as *mut l_array_4_float);
                     *(&mut _11964 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -57317,7 +57282,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14456 = memcpy(
                         &mut _11967 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _11964 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14457 =
                         *(&mut _11966 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -57432,12 +57397,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14484 = memcpy(
                         &mut _13076 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13009 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14485 = memcpy(
                         &mut _13077 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13009 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14486 = *(&mut _13076.field0 as *mut l_array_4_float);
                     _14487 = *(&mut _13077.field0 as *mut l_array_4_float);
@@ -57514,7 +57479,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14502 = memcpy(
                         &mut _13080 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14503 = *(&mut _13080.field0 as *mut l_array_4_float);
                     *(&mut _11934 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -57545,7 +57510,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14510 = memcpy(
                         &mut _11937 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _11934 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14511 =
                         *(&mut _11936 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -57627,7 +57592,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14528 = memcpy(
                         &mut _13081 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14529 = *(&mut _13079.field0 as *mut l_array_4_float);
                     _14530 = *(&mut _13081.field0 as *mut l_array_4_float);
@@ -57776,12 +57741,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14561 = memcpy(
                         &mut _13083 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14562 = memcpy(
                         &mut _13084 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14563 = *(&mut _13083.field0 as *mut l_array_4_float);
                     _14564 = *(&mut _13084.field0 as *mut l_array_4_float);
@@ -57976,12 +57941,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14609 = memcpy(
                         &mut _13089 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14610 = memcpy(
                         &mut _13090 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14611 = *(&mut _13089.field0 as *mut l_array_4_float);
                     _14612 = *(&mut _13090.field0 as *mut l_array_4_float);
@@ -58058,12 +58023,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14627 = memcpy(
                         &mut _13092 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14628 = memcpy(
                         &mut _13093 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14629 = *(&mut _13092.field0 as *mut l_array_4_float);
                     _14630 = *(&mut _13093.field0 as *mut l_array_4_float);
@@ -58212,7 +58177,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14661 = memcpy(
                         &mut _13094 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13069 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14662 = *(&mut _13087.field0 as *mut l_array_4_float);
                     _14663 = *(&mut _13094.field0 as *mut l_array_4_float);
@@ -58289,12 +58254,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14678 = memcpy(
                         &mut _13098 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13009 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14679 = memcpy(
                         &mut _13099 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14680 = *(&mut _13098.field0 as *mut l_array_4_float);
                     _14681 = *(&mut _13099.field0 as *mut l_array_4_float);
@@ -58371,12 +58336,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14696 = memcpy(
                         &mut _13101 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14697 = memcpy(
                         &mut _13102 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14698 = *(&mut _13101.field0 as *mut l_array_4_float);
                     _14699 = *(&mut _13102.field0 as *mut l_array_4_float);
@@ -58525,7 +58490,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14730 = memcpy(
                         &mut _13103 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13069 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14731 = *(&mut _13096.field0 as *mut l_array_4_float);
                     _14732 = *(&mut _13103.field0 as *mut l_array_4_float);
@@ -58661,10 +58626,10 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14766 = _13072;
                     _13105 = llvm_fmul_f32(_14765, _14766);
                     _11802 = &mut _11858 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _11803 = 0 as core::ffi::c_int as uint32_t;
-                    _11804 = 1 as core::ffi::c_int as uint32_t;
-                    _11805 = 2 as core::ffi::c_int as uint32_t;
-                    _11806 = 3 as core::ffi::c_int as uint32_t;
+                    _11803 = 0;
+                    _11804 = 1;
+                    _11805 = 2;
+                    _11806 = 3;
                     _14767 = _11802;
                     _14768 = _11803;
                     *(_14767 as *mut uint32_t) = _14768;
@@ -58773,7 +58738,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14792 = _11794;
@@ -58789,7 +58754,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14794 = _11795;
@@ -58805,7 +58770,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14796 = _11796;
@@ -58821,7 +58786,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14798 =
@@ -58831,7 +58796,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14799 = memcpy(
                         &mut _13111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13062 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14800 = *(&mut _13111.field0 as *mut l_array_4_float);
                     *(&mut _11909 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -58889,7 +58854,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14815 = memcpy(
                         &mut _13113 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13073 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14816 = *(&mut _13113.field0 as *mut l_array_4_float);
                     *(&mut _12635 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -58898,7 +58863,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14817 = memcpy(
                         &mut _12637 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12635 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14818 = _12636;
                     _12629 =
@@ -59070,7 +59035,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14854 = _11744;
@@ -59086,7 +59051,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14856 = _11745;
@@ -59102,7 +59067,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14858 = _11746;
@@ -59118,7 +59083,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14860 =
@@ -59128,12 +59093,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14861 = memcpy(
                         &mut _13116 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13086 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14862 = memcpy(
                         &mut _13117 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13086 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14863 = *(&mut _13116.field0 as *mut l_array_4_float);
                     _14864 = *(&mut _13117.field0 as *mut l_array_4_float);
@@ -59206,7 +59171,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14876 = _11729;
@@ -59222,7 +59187,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14878 = _11730;
@@ -59238,7 +59203,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14880 = _11731;
@@ -59254,7 +59219,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14882 =
@@ -59264,12 +59229,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14883 = memcpy(
                         &mut _13119 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13095 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14884 = memcpy(
                         &mut _13120 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13095 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14885 = *(&mut _13119.field0 as *mut l_array_4_float);
                     _14886 = *(&mut _13120.field0 as *mut l_array_4_float);
@@ -59342,7 +59307,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14898 = _11724;
@@ -59358,7 +59323,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14900 = _11725;
@@ -59374,7 +59339,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14902 = _11726;
@@ -59390,7 +59355,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14904 =
@@ -59466,7 +59431,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14918 = _11779;
@@ -59482,7 +59447,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14920 = _11780;
@@ -59498,7 +59463,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14922 = _11781;
@@ -59514,7 +59479,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14924 =
@@ -59524,12 +59489,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14925 = memcpy(
                         &mut _13123 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13106 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14926 = memcpy(
                         &mut _13124 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13109 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14927 = (*(&mut _13123.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_111))
@@ -59600,7 +59565,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14940 = _11774;
@@ -59616,7 +59581,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14942 = _11775;
@@ -59632,7 +59597,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14944 = _11776;
@@ -59648,7 +59613,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14946 =
@@ -59658,7 +59623,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14947 = memcpy(
                         &mut _13125 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13114 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14948 = (*(&mut _13122.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_108))
@@ -59729,7 +59694,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14961 = _11769;
@@ -59745,7 +59710,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14963 = _11770;
@@ -59761,7 +59726,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14965 = _11771;
@@ -59777,7 +59742,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _14967 =
@@ -59794,17 +59759,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14970 = memcpy(
                         &mut _13128 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13086 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14971 = memcpy(
                         &mut _13129 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13121 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14972 = *(&mut _13127.field0 as *mut l_array_4_float);
                     _14973 = *(&mut _13128.field0 as *mut l_array_4_float);
@@ -59936,7 +59901,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _14999 = _12924;
                     _15000 = memcpy(
@@ -59948,17 +59913,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15001 = memcpy(
                         &mut _13132 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13095 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15002 = memcpy(
                         &mut _13133 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13121 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15003 = *(&mut _13131.field0 as *mut l_array_4_float);
                     _15004 = *(&mut _13132.field0 as *mut l_array_4_float);
@@ -60090,7 +60055,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13130 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15030 = _13071;
                     _15031 = fabsf(_15030);
@@ -60130,7 +60095,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                             as *mut core::ffi::c_void,
                                         &mut _12963 as *mut l_struct_struct_OC_vfloat4
                                             as *mut core::ffi::c_void,
-                                        16 as core::ffi::c_int as uint64_t,
+                                        16,
                                     );
                                     _15042 = _13105;
                                     _15043 = *(&mut _13136.field0 as *mut l_array_4_float);
@@ -60142,7 +60107,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                             as *mut core::ffi::c_void,
                                         &mut _12645 as *mut l_struct_struct_OC_vfloat4
                                             as *mut core::ffi::c_void,
-                                        16 as core::ffi::c_int as uint64_t,
+                                        16,
                                     );
                                     _15045 = _12646;
                                     _12639 = &mut _12648 as *mut l_struct_struct_OC_vfloat4
@@ -60297,7 +60262,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                         _15080,
                                         &mut _13137 as *mut l_struct_struct_OC_vfloat4
                                             as *mut core::ffi::c_void,
-                                        16 as core::ffi::c_int as uint64_t,
+                                        16,
                                     );
                                 }
                             }
@@ -60315,12 +60280,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15084 = memcpy(
                         &mut _13140 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15085 = memcpy(
                         &mut _13141 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15086 = *(&mut _13140.field0 as *mut l_array_4_float);
                     _15087 = *(&mut _13141.field0 as *mut l_array_4_float);
@@ -60397,7 +60362,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15102 = memcpy(
                         &mut _13142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12960 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15103 = *(&mut _13139.field0 as *mut l_array_4_float);
                     _15104 = *(&mut _13142.field0 as *mut l_array_4_float);
@@ -60474,12 +60439,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15119 = memcpy(
                         &mut _13144 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15120 = memcpy(
                         &mut _13145 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15121 = *(&mut _13144.field0 as *mut l_array_4_float);
                     _15122 = *(&mut _13145.field0 as *mut l_array_4_float);
@@ -60552,7 +60517,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15134 = _11719;
@@ -60568,7 +60533,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15136 = _11720;
@@ -60584,7 +60549,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15138 = _11721;
@@ -60600,7 +60565,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15140 =
@@ -60610,12 +60575,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15141 = memcpy(
                         &mut _13147 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _12981 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15142 = memcpy(
                         &mut _13148 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13143 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15143 = (*(&mut _13147.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_102))
@@ -60686,7 +60651,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15156 = _11764;
@@ -60702,7 +60667,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15158 = _11765;
@@ -60718,7 +60683,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15160 = _11766;
@@ -60734,7 +60699,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15162 =
@@ -60751,17 +60716,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15165 = memcpy(
                         &mut _13151 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15166 = memcpy(
                         &mut _13152 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13146 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15167 = *(&mut _13150.field0 as *mut l_array_4_float);
                     _15168 = *(&mut _13151.field0 as *mut l_array_4_float);
@@ -60893,7 +60858,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13149 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15194 = _12924;
                     _15195 = memcpy(
@@ -60905,17 +60870,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15196 = memcpy(
                         &mut _13155 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15197 = memcpy(
                         &mut _13156 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13146 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15198 = *(&mut _13154.field0 as *mut l_array_4_float);
                     _15199 = *(&mut _13155.field0 as *mut l_array_4_float);
@@ -61047,18 +61012,18 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13153 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 } else {
                     _15225 = memcpy(
                         &mut _13159 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13020 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15226 = memcpy(
                         &mut _13160 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13026 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15227 = *(&mut _13159.field0 as *mut l_array_4_float);
                     _15228 = *(&mut _13160.field0 as *mut l_array_4_float);
@@ -61135,12 +61100,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15243 = memcpy(
                         &mut _13162 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15244 = memcpy(
                         &mut _13163 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15245 = *(&mut _13162.field0 as *mut l_array_4_float);
                     _15246 = *(&mut _13163.field0 as *mut l_array_4_float);
@@ -61289,7 +61254,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15277 = memcpy(
                         &mut _13165 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13157 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15278 = *(&mut _13165.field0 as *mut l_array_4_float);
                     *(&mut _11979 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -61320,7 +61285,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15285 = memcpy(
                         &mut _11982 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _11979 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15286 =
                         *(&mut _11981 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -61402,12 +61367,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15303 = memcpy(
                         &mut _13169 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13020 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15304 = memcpy(
                         &mut _13170 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13020 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15305 = *(&mut _13169.field0 as *mut l_array_4_float);
                     _15306 = *(&mut _13170.field0 as *mut l_array_4_float);
@@ -61484,7 +61449,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15321 = memcpy(
                         &mut _13173 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15322 = *(&mut _13173.field0 as *mut l_array_4_float);
                     *(&mut _11949 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -61515,7 +61480,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15329 = memcpy(
                         &mut _11952 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _11949 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15330 =
                         *(&mut _11951 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -61597,7 +61562,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15347 = memcpy(
                         &mut _13174 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15348 = *(&mut _13172.field0 as *mut l_array_4_float);
                     _15349 = *(&mut _13174.field0 as *mut l_array_4_float);
@@ -61746,12 +61711,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15380 = memcpy(
                         &mut _13176 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13026 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15381 = memcpy(
                         &mut _13177 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13026 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15382 = *(&mut _13176.field0 as *mut l_array_4_float);
                     _15383 = *(&mut _13177.field0 as *mut l_array_4_float);
@@ -61900,12 +61865,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15414 = memcpy(
                         &mut _13181 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13026 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15415 = memcpy(
                         &mut _13182 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15416 = *(&mut _13181.field0 as *mut l_array_4_float);
                     _15417 = *(&mut _13182.field0 as *mut l_array_4_float);
@@ -61982,12 +61947,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15432 = memcpy(
                         &mut _13184 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15433 = memcpy(
                         &mut _13185 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15434 = *(&mut _13184.field0 as *mut l_array_4_float);
                     _15435 = *(&mut _13185.field0 as *mut l_array_4_float);
@@ -62136,7 +62101,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15466 = memcpy(
                         &mut _13186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13164 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15467 = *(&mut _13179.field0 as *mut l_array_4_float);
                     _15468 = *(&mut _13186.field0 as *mut l_array_4_float);
@@ -62213,12 +62178,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15483 = memcpy(
                         &mut _13190 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13020 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15484 = memcpy(
                         &mut _13191 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15485 = *(&mut _13190.field0 as *mut l_array_4_float);
                     _15486 = *(&mut _13191.field0 as *mut l_array_4_float);
@@ -62295,12 +62260,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15501 = memcpy(
                         &mut _13193 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15502 = memcpy(
                         &mut _13194 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15503 = *(&mut _13193.field0 as *mut l_array_4_float);
                     _15504 = *(&mut _13194.field0 as *mut l_array_4_float);
@@ -62449,7 +62414,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15535 = memcpy(
                         &mut _13195 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13164 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15536 = *(&mut _13188.field0 as *mut l_array_4_float);
                     _15537 = *(&mut _13195.field0 as *mut l_array_4_float);
@@ -62526,7 +62491,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15552 = memcpy(
                         &mut _13198 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13157 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15553 = *(&mut _13198.field0 as *mut l_array_4_float);
                     *(&mut _11916 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -62584,7 +62549,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15568 = memcpy(
                         &mut _13200 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13166 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15569 = *(&mut _13200.field0 as *mut l_array_4_float);
                     *(&mut _12655 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -62593,7 +62558,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15570 = memcpy(
                         &mut _12657 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12655 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15571 = _12656;
                     _12649 =
@@ -62765,7 +62730,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15607 = _11739;
@@ -62781,7 +62746,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15609 = _11740;
@@ -62797,7 +62762,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15611 = _11741;
@@ -62813,7 +62778,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15613 =
@@ -62823,12 +62788,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15614 = memcpy(
                         &mut _13203 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15615 = memcpy(
                         &mut _13204 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15616 = *(&mut _13203.field0 as *mut l_array_4_float);
                     _15617 = *(&mut _13204.field0 as *mut l_array_4_float);
@@ -62901,7 +62866,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15629 = _11714;
@@ -62917,7 +62882,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15631 = _11715;
@@ -62933,7 +62898,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15633 = _11716;
@@ -62949,7 +62914,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15635 =
@@ -62959,12 +62924,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15636 = memcpy(
                         &mut _13206 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13187 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15637 = memcpy(
                         &mut _13207 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13187 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15638 = *(&mut _13206.field0 as *mut l_array_4_float);
                     _15639 = *(&mut _13207.field0 as *mut l_array_4_float);
@@ -63037,7 +63002,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15651 = _11709;
@@ -63053,7 +63018,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15653 = _11710;
@@ -63069,7 +63034,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15655 = _11711;
@@ -63085,7 +63050,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15657 =
@@ -63161,7 +63126,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15671 = _11759;
@@ -63177,7 +63142,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15673 = _11760;
@@ -63193,7 +63158,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15675 = _11761;
@@ -63209,7 +63174,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15677 =
@@ -63219,12 +63184,12 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15678 = memcpy(
                         &mut _13210 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _12981 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15679 = memcpy(
                         &mut _13211 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13196 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15680 = (*(&mut _13210.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_91))
@@ -63295,7 +63260,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15693 = _11754;
@@ -63311,7 +63276,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15695 = _11755;
@@ -63327,7 +63292,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15697 = _11756;
@@ -63343,7 +63308,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15699 =
@@ -63353,7 +63318,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _15700 = memcpy(
                         &mut _13212 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13201 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15701 = (*(&mut _13209.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_88))
@@ -63424,7 +63389,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15714 = _11749;
@@ -63440,7 +63405,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15716 = _11750;
@@ -63456,7 +63421,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15718 = _11751;
@@ -63472,7 +63437,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _15720 =
@@ -63489,17 +63454,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15723 = memcpy(
                         &mut _13215 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15724 = memcpy(
                         &mut _13216 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13208 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15725 = *(&mut _13214.field0 as *mut l_array_4_float);
                     _15726 = *(&mut _13215.field0 as *mut l_array_4_float);
@@ -63631,7 +63596,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13213 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15752 = _12924;
                     _15753 = memcpy(
@@ -63643,17 +63608,17 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15754 = memcpy(
                         &mut _13219 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _13187 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15755 = memcpy(
                         &mut _13220 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _13208 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _15756 = *(&mut _13218.field0 as *mut l_array_4_float);
                     _15757 = *(&mut _13219.field0 as *mut l_array_4_float);
@@ -63785,7 +63750,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _13217 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
                 _15783 = _12919;
@@ -63824,14 +63789,14 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _12980 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15788 = memcpy(
                             &mut _13223 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _12984 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15789 = *(&mut _13222.field0 as *mut l_array_4_float);
                         _15790 = *(&mut _13223.field0 as *mut l_array_4_float);
@@ -63910,26 +63875,26 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _13221 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15806 = memcpy(
                             &mut _13226 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _13015 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15807 = memcpy(
                             &mut _13227 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _13026 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15808 = memcpy(
                             &mut _13228 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _12981 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15809 = *(&mut _13226.field0 as *mut l_array_4_float);
                         _15810 = *(&mut _13227.field0 as *mut l_array_4_float);
@@ -64056,7 +64021,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _12984 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15835 = *(&mut _13225.field0 as *mut l_array_4_float);
                         _15836 = *(&mut _13229.field0 as *mut l_array_4_float);
@@ -64069,14 +64034,14 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _12510 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15838 = memcpy(
                             &mut _12514 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _12511 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15839 = *(&mut _12513 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -64158,7 +64123,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _12512 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15856 = *(&mut _12515 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -64188,14 +64153,14 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _12977 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15864 = memcpy(
                             &mut _13232 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _12978 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15865 = *(&mut _13231.field0 as *mut l_array_4_float);
                         _15866 = *(&mut _13232.field0 as *mut l_array_4_float);
@@ -64274,7 +64239,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _12978 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15882 = *(&mut _13233.field0 as *mut l_array_4_float);
                         *(&mut _12517 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -64311,21 +64276,21 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _12960 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15892 = memcpy(
                             &mut _13236 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _12980 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15893 = memcpy(
                             &mut _13237 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _13230 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15894 = _13224;
                         _15895 = *(&mut _13235.field0 as *mut l_array_4_float);
@@ -64339,21 +64304,21 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             _15899,
                             &mut _13234 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15901 = _12926;
                         _15902 = memcpy(
                             &mut _13238 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             _15901,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15903 = _12926;
                         _15904 = memcpy(
                             &mut _13239 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             _15903,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15905 = *(&mut _13238.field0 as *mut l_array_4_float);
                         _15906 = *(&mut _13239.field0 as *mut l_array_4_float);
@@ -64366,14 +64331,14 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _11871 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15908 = memcpy(
                             &mut _11875 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             &mut _11872 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15909 = *(&mut _11874 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -64455,7 +64420,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 as *mut core::ffi::c_void,
                             &mut _11873 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _15926 = *(&mut _11876 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -64498,7 +64463,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     .offset(0 as core::ffi::c_int as int64_t as isize)
                                     as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _15934 = _12924;
                             _15935 = memcpy(
@@ -64512,21 +64477,21 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     .offset(0 as core::ffi::c_int as int64_t as isize)
                                     as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _15936 = memcpy(
                                 &mut _13244 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _13241 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _15937 = memcpy(
                                 &mut _13245 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _13240 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _15938 = *(&mut _13244.field0 as *mut l_array_4_float);
                             _15939 = *(&mut _13245.field0 as *mut l_array_4_float);
@@ -64636,14 +64601,14 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _13240 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _15964 = memcpy(
                                 &mut _13249 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
                                 &mut _13241 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _15965 = *(&mut _13248.field0 as *mut l_array_4_float);
                             _15966 = *(&mut _13249.field0 as *mut l_array_4_float);
@@ -64726,7 +64691,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _12665 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _15983 = _12666;
                             _12659 = &mut _12668 as *mut l_struct_struct_OC_vfloat4
@@ -64832,7 +64797,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _13246 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _16007 = _13242;
                             _12721 = &mut _13253 as *mut l_struct_struct_OC_vfloat4
@@ -64865,7 +64830,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                     as *mut core::ffi::c_void,
                                 &mut _12675 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                             _16015 = _12676;
                             _12669 = &mut _12678 as *mut l_struct_struct_OC_vfloat4
@@ -65086,7 +65051,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                                 _16066,
                                 &mut _13254 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void,
-                                16 as core::ffi::c_int as uint64_t,
+                                16,
                             );
                         }
                     }
@@ -65097,7 +65062,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 __assert_fail(
                     &_OC_str_OC_8 as *const l_array_41_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                    1389 as core::ffi::c_int as uint32_t,
+                    1389,
                     &__PRETTY_FUNCTION___OC__Z30recompute_ideal_colors_2planesRK11image_blockRK21block_size_descriptorRK15decimation_infoPKhS9_R9endpointsR7vfloat4SD_i
                         as *const l_array_187_uint8_t as *mut core::ffi::c_void,
                 );
@@ -65106,7 +65071,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
             __assert_fail(
                 &_OC_str_OC_4 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-                1384 as core::ffi::c_int as uint32_t,
+                1384,
                 &__PRETTY_FUNCTION___OC__Z30recompute_ideal_colors_2planesRK11image_blockRK21block_size_descriptorRK15decimation_infoPKhS9_R9endpointsR7vfloat4SD_i
                     as *const l_array_187_uint8_t as *mut core::ffi::c_void,
             );
@@ -65115,7 +65080,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
         __assert_fail(
             &_OC_str_OC_6 as *const l_array_22_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut core::ffi::c_void,
-            1383 as core::ffi::c_int as uint32_t,
+            1383,
             &__PRETTY_FUNCTION___OC__Z30recompute_ideal_colors_2planesRK11image_blockRK21block_size_descriptorRK15decimation_infoPKhS9_R9endpointsR7vfloat4SD_i
                 as *const l_array_187_uint8_t as *mut core::ffi::c_void,
         );
@@ -65150,13 +65115,10 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     _16256 = _16253;
     _16257 = _16254;
     if _16257 == 1 as core::ffi::c_uint {
-        _16254 = 5 as core::ffi::c_int as uint32_t;
+        _16254 = 5;
     }
     _16258 = _16254;
-    _16255 = llvm_mul_u32(
-        llvm_sub_u32(_16258, 2 as core::ffi::c_int as uint32_t),
-        1024 as core::ffi::c_int as uint32_t,
-    );
+    _16255 = llvm_mul_u32(llvm_sub_u32(_16258, 2), 1024);
     _16259 = _16255;
     return &mut *(&mut *((*(&mut (*(_16256 as *mut l_struct_struct_OC_block_size_descriptor))
         .field17

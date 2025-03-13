@@ -72,9 +72,9 @@ RUN echo "pub use bindings::*;" >> lib.rs
 # Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
 RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
 # Remove casting of numeric constants which causes signed/unsigned types issues
-RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint32_t/$1/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint64_t/$1/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as libc::c_ulong/$1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/\([0-9]\) as libc::c_int as uint32_t/\1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/\([0-9]\) as libc::c_int as uint64_t/\1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/\([0-9]\) as libc::c_int as libc::c_ulong/\1/g' $f; done
 # Replace `libc::` with `core::ffi::` and remove `libc` altogether
 RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/g' $f; done
 RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done

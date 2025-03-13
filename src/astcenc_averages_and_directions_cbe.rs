@@ -3190,7 +3190,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         );
-        _337 = 0 as core::ffi::c_int as uint32_t;
+        _337 = 0;
         loop {
             _428 = _337;
             _429 = _335;
@@ -3231,7 +3231,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     .as_mut_ptr()
                     .offset(_436 as int32_t as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _438 = _334;
             _439 = _337;
@@ -3242,7 +3242,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     .field0 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _340 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _197 = &mut _327 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _198 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -3332,7 +3332,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut core::ffi::c_float) = _463;
             _464 = _330;
             *(&mut _344.field0 as *mut l_array_4_float) = _464.field0;
-            _345 = 0 as core::ffi::c_int as uint32_t;
+            _345 = 0;
             loop {
                 _465 = _345;
                 _466 = _339;
@@ -3351,12 +3351,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _473 = memcpy(
                     &mut _349 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _474 = memcpy(
                     &mut _350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _340 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _475 = *(&mut _349.field0 as *mut l_array_4_float);
                 _476 = *(&mut _350.field0 as *mut l_array_4_float);
@@ -3428,7 +3428,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _491 = memcpy(
                     &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _348 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _189 = &mut _331 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _190 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -3494,7 +3494,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _513 = memcpy(
                     &mut _354 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _514 = *(&mut _353.field0 as *mut l_array_4_float);
                 _515 = *(&mut _354.field0 as *mut l_array_4_float);
@@ -3556,7 +3556,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_525 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _527 = _36;
@@ -3570,7 +3570,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_527 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _529 = _37;
@@ -3584,7 +3584,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_529 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _531 = _38;
@@ -3598,7 +3598,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_531 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _533 = *(&mut _303 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -3607,17 +3607,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _534 = memcpy(
                     &mut _356 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _535 = memcpy(
                     &mut _357 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _536 = memcpy(
                     &mut _358 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _352 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _537 = *(&mut _356.field0 as *mut l_array_4_float);
                 _538 = *(&mut _357.field0 as *mut l_array_4_float);
@@ -3740,13 +3740,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _563 = memcpy(
                     &mut _284 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _562,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _564 = _282;
                 _565 = memcpy(
                     &mut _285 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _564,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _566 = *(&mut _284 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _567 = *(&mut _285 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -3820,7 +3820,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _583 = memcpy(
                     _582,
                     &mut _283 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _584 = _281;
                 _244 = &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -3877,7 +3877,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _600 = memcpy(
                     &mut _361 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _601 = *(&mut _360.field0 as *mut l_array_4_float);
                 _602 = *(&mut _361.field0 as *mut l_array_4_float);
@@ -3939,7 +3939,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_612 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _614 = _31;
@@ -3953,7 +3953,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_614 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _616 = _32;
@@ -3967,7 +3967,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_616 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _618 = _33;
@@ -3981,7 +3981,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_618 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _620 = *(&mut _306 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -3990,17 +3990,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _621 = memcpy(
                     &mut _363 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _622 = memcpy(
                     &mut _364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _623 = memcpy(
                     &mut _365 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _359 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _624 = *(&mut _363.field0 as *mut l_array_4_float);
                 _625 = *(&mut _364.field0 as *mut l_array_4_float);
@@ -4123,13 +4123,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _650 = memcpy(
                     &mut _289 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _649,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _651 = _287;
                 _652 = memcpy(
                     &mut _290 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _651,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _653 = *(&mut _289 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _654 = *(&mut _290 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -4203,7 +4203,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _670 = memcpy(
                     _669,
                     &mut _288 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _671 = _286;
                 _242 = &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -4260,7 +4260,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _687 = memcpy(
                     &mut _368 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _688 = *(&mut _367.field0 as *mut l_array_4_float);
                 _689 = *(&mut _368.field0 as *mut l_array_4_float);
@@ -4322,7 +4322,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_699 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _701 = _26;
@@ -4336,7 +4336,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_701 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _703 = _27;
@@ -4350,7 +4350,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_703 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _705 = _28;
@@ -4364,7 +4364,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_705 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _707 = *(&mut _309 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -4373,17 +4373,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _708 = memcpy(
                     &mut _370 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _709 = memcpy(
                     &mut _371 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _710 = memcpy(
                     &mut _372 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _366 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _711 = *(&mut _370.field0 as *mut l_array_4_float);
                 _712 = *(&mut _371.field0 as *mut l_array_4_float);
@@ -4506,13 +4506,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _737 = memcpy(
                     &mut _294 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _736,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _738 = _292;
                 _739 = memcpy(
                     &mut _295 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _738,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _740 = *(&mut _294 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _741 = *(&mut _295 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -4586,7 +4586,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _757 = memcpy(
                     _756,
                     &mut _293 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _758 = _291;
                 _240 = &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -4643,7 +4643,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _774 = memcpy(
                     &mut _375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _775 = *(&mut _374.field0 as *mut l_array_4_float);
                 _776 = *(&mut _375.field0 as *mut l_array_4_float);
@@ -4705,7 +4705,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_786 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _788 = _21;
@@ -4719,7 +4719,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_788 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _790 = _22;
@@ -4733,7 +4733,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_790 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _792 = _23;
@@ -4747,7 +4747,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     ((_792 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _794 = *(&mut _312 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -4756,17 +4756,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _795 = memcpy(
                     &mut _377 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _796 = memcpy(
                     &mut _378 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _347 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _797 = memcpy(
                     &mut _379 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _373 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _798 = *(&mut _377.field0 as *mut l_array_4_float);
                 _799 = *(&mut _378.field0 as *mut l_array_4_float);
@@ -4889,13 +4889,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _824 = memcpy(
                     &mut _299 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _823,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _825 = _297;
                 _826 = memcpy(
                     &mut _300 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _825,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _827 = *(&mut _299 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _828 = *(&mut _300 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -4969,21 +4969,21 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 _844 = memcpy(
                     _843,
                     &mut _298 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _845 = _296;
                 _846 = _345;
-                _345 = llvm_add_u32(_846, 1 as core::ffi::c_int as uint32_t);
+                _345 = llvm_add_u32(_846, 1);
             }
             _847 = memcpy(
                 &mut _381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _341 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _848 = memcpy(
                 &mut _382 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _341 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _849 = *(&mut _381.field0 as *mut l_array_4_float);
             _850 = *(&mut _382.field0 as *mut l_array_4_float);
@@ -4992,12 +4992,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _851 = memcpy(
                 &mut _215 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _212 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _852 = memcpy(
                 &mut _216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _213 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _853 = *(&mut _215 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _854 = *(&mut _216 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5069,7 +5069,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _869 = memcpy(
                 &mut _217 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _214 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _870 = *(&mut _217 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _152 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _870;
@@ -5117,12 +5117,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _881 = memcpy(
                 &mut _384 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _342 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _882 = memcpy(
                 &mut _385 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _342 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _883 = *(&mut _384.field0 as *mut l_array_4_float);
             _884 = *(&mut _385.field0 as *mut l_array_4_float);
@@ -5131,12 +5131,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _885 = memcpy(
                 &mut _222 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _219 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _886 = memcpy(
                 &mut _223 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _220 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _887 = *(&mut _222 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _888 = *(&mut _223 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5208,7 +5208,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _903 = memcpy(
                 &mut _224 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _221 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _904 = *(&mut _224 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _151 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _904;
@@ -5256,12 +5256,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _915 = memcpy(
                 &mut _387 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _916 = memcpy(
                 &mut _388 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _917 = *(&mut _387.field0 as *mut l_array_4_float);
             _918 = *(&mut _388.field0 as *mut l_array_4_float);
@@ -5270,12 +5270,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _919 = memcpy(
                 &mut _229 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _226 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _920 = memcpy(
                 &mut _230 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _227 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _921 = *(&mut _229 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _922 = *(&mut _230 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5347,7 +5347,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _937 = memcpy(
                 &mut _231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _228 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _938 = *(&mut _231 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _938;
@@ -5395,12 +5395,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _949 = memcpy(
                 &mut _390 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _344 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _950 = memcpy(
                 &mut _391 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _344 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _951 = *(&mut _390.field0 as *mut l_array_4_float);
             _952 = *(&mut _391.field0 as *mut l_array_4_float);
@@ -5409,12 +5409,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _953 = memcpy(
                 &mut _236 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _233 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _954 = memcpy(
                 &mut _237 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _234 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _955 = *(&mut _236 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _956 = *(&mut _237 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -5486,7 +5486,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _971 = memcpy(
                 &mut _238 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _235 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _972 = *(&mut _238 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _972;
@@ -5534,22 +5534,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _983 = memcpy(
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _341 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _984 = memcpy(
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _380 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _985 = memcpy(
                 &mut _395 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _383 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _986 = memcpy(
                 &mut _396 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _987 = *(&mut _395.field0 as *mut l_array_4_float);
             _988 = *(&mut _396.field0 as *mut l_array_4_float);
@@ -5606,7 +5606,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             *(_997 as *mut uint32_t) = llvm_select_u32(
                 ((_998 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1000 = _16;
@@ -5619,7 +5619,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1000 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1002 = _17;
@@ -5632,7 +5632,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1002 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1004 = _18;
@@ -5645,7 +5645,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1004 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1006 = *(&mut _315 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -5653,17 +5653,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1007 = memcpy(
                 &mut _398 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1008 = memcpy(
                 &mut _399 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _342 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1009 = memcpy(
                 &mut _400 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _394 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1010 = *(&mut _398.field0 as *mut l_array_4_float);
             _1011 = *(&mut _399.field0 as *mut l_array_4_float);
@@ -5780,22 +5780,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1035 = memcpy(
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _397 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1036 = memcpy(
                 &mut _402 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1037 = memcpy(
                 &mut _403 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _383 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1038 = memcpy(
                 &mut _404 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _394 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1039 = *(&mut _402.field0 as *mut l_array_4_float);
             _1040 = *(&mut _403.field0 as *mut l_array_4_float);
@@ -5912,17 +5912,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1064 = memcpy(
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _401 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1065 = memcpy(
                 &mut _406 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _386 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1066 = memcpy(
                 &mut _407 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1067 = *(&mut _406.field0 as *mut l_array_4_float);
             _1068 = *(&mut _407.field0 as *mut l_array_4_float);
@@ -5983,7 +5983,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             *(_1077 as *mut uint32_t) = llvm_select_u32(
                 ((_1078 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1080 = _11;
@@ -5996,7 +5996,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1080 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1082 = _12;
@@ -6009,7 +6009,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1082 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1084 = _13;
@@ -6022,7 +6022,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1084 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1086 = *(&mut _318 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -6030,22 +6030,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1087 = memcpy(
                 &mut _394 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _405 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1088 = memcpy(
                 &mut _409 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1089 = memcpy(
                 &mut _410 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1090 = memcpy(
                 &mut _411 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _394 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1091 = *(&mut _409.field0 as *mut l_array_4_float);
             _1092 = *(&mut _410.field0 as *mut l_array_4_float);
@@ -6162,22 +6162,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1116 = memcpy(
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _408 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1117 = memcpy(
                 &mut _413 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1118 = memcpy(
                 &mut _414 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _386 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1119 = memcpy(
                 &mut _415 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _394 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1120 = *(&mut _413.field0 as *mut l_array_4_float);
             _1121 = *(&mut _414.field0 as *mut l_array_4_float);
@@ -6294,17 +6294,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1145 = memcpy(
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _412 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1146 = memcpy(
                 &mut _417 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _389 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1147 = memcpy(
                 &mut _418 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1148 = *(&mut _417.field0 as *mut l_array_4_float);
             _1149 = *(&mut _418.field0 as *mut l_array_4_float);
@@ -6365,7 +6365,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             *(_1158 as *mut uint32_t) = llvm_select_u32(
                 ((_1159 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1161 = _6;
@@ -6378,7 +6378,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1161 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1163 = _7;
@@ -6391,7 +6391,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1163 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1165 = _8;
@@ -6404,7 +6404,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_1165 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _1167 = *(&mut _321 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -6412,22 +6412,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1168 = memcpy(
                 &mut _394 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _416 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1169 = memcpy(
                 &mut _420 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1170 = memcpy(
                 &mut _421 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _344 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1171 = memcpy(
                 &mut _422 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _394 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1172 = *(&mut _420.field0 as *mut l_array_4_float);
             _1173 = *(&mut _421.field0 as *mut l_array_4_float);
@@ -6544,7 +6544,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1197 = memcpy(
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _419 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1198 = _334;
             _1199 = _337;
@@ -6555,17 +6555,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     .field1 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _1201 = _337;
-            _337 = llvm_add_u32(_1201, 1 as core::ffi::c_int as uint32_t);
+            _337 = llvm_add_u32(_1201, 1);
         }
         match current_block {
             9452402479035613870 => {
                 __assert_fail(
                     &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    404 as core::ffi::c_int as uint32_t,
+                    404,
                     &__PRETTY_FUNCTION___OC__Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11image_blockP17partition_metrics
                         as *const l_array_100_uint8_t as *mut core::ffi::c_void,
                 );
@@ -6576,7 +6576,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            394 as core::ffi::c_int as uint32_t,
+            394,
             &__PRETTY_FUNCTION___OC__Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11image_blockP17partition_metrics
                 as *const l_array_100_uint8_t as *mut core::ffi::c_void,
         );
@@ -12942,7 +12942,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _2851 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut (*(_2850 as *mut l_struct_struct_OC_image_block)).field7
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
         } else {
             _2853 = _2659;
@@ -12950,14 +12950,14 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _2854 = memset(
                     &mut _2661 as *mut l_array_4_struct_AC_l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    0 as core::ffi::c_int as uint32_t,
-                    64 as core::ffi::c_int as uint64_t,
+                    0,
+                    64,
                 );
                 _1673 = &mut _2572 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _1674 = 0 as core::ffi::c_int as uint32_t;
-                _1675 = 1 as core::ffi::c_int as uint32_t;
-                _1676 = 2 as core::ffi::c_int as uint32_t;
-                _1677 = 3 as core::ffi::c_int as uint32_t;
+                _1674 = 0;
+                _1675 = 1;
+                _1676 = 2;
+                _1677 = 3;
                 _2855 = _1673;
                 _2856 = _1674;
                 *(_2855 as *mut uint32_t) = _2856;
@@ -12979,7 +12979,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _2860 = *(&mut _2572 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                 (*(&mut _2662.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_86)).data =
                     _2860;
-                _2663 = 0 as core::ffi::c_int as uint32_t;
+                _2663 = 0;
                 loop {
                     _2861 = _2663;
                     _2862 = _2660;
@@ -13030,7 +13030,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _2874 = memcpy(
                         &mut _2666 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _2662 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2875 = _2660;
                     _2561 = &mut _2667 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -13117,7 +13117,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2894 = _1786;
@@ -13133,7 +13133,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2896 = _1787;
@@ -13149,7 +13149,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2898 = _1788;
@@ -13165,7 +13165,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2900 =
@@ -13173,7 +13173,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     (*(&mut _2665.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_83))
                         .data = _2900;
                     _2559 = &mut _2668 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _2560 = 4 as core::ffi::c_int as uint32_t;
+                    _2560 = 4;
                     _2901 = _2559;
                     _2902 = _2560;
                     *(_2901 as *mut uint32_t) = _2902;
@@ -13198,13 +13198,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _2907 = memcpy(
                         &mut _2167 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         _2906,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2908 = _2165;
                     _2909 = memcpy(
                         &mut _2168 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         _2908,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2910 =
                         *(&mut _2167 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -13283,21 +13283,21 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _2927 = memcpy(
                         _2926,
                         &mut _2166 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2928 = _2164;
                     _2929 = memcpy(
                         &mut _2670 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2665 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2930 = memcpy(
                         &mut _2672 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _2664 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2557 = &mut _2673 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _2558 = 0 as core::ffi::c_int as uint32_t;
+                    _2558 = 0;
                     _2931 = _2557;
                     _2932 = _2558;
                     *(_2931 as *mut uint32_t) = _2932;
@@ -13380,7 +13380,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2949 = _1846;
@@ -13396,7 +13396,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2951 = _1847;
@@ -13412,7 +13412,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2953 = _1848;
@@ -13428,7 +13428,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2955 =
@@ -13499,7 +13499,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2969 = _1816;
@@ -13515,7 +13515,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2971 = _1817;
@@ -13531,7 +13531,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2973 = _1818;
@@ -13547,7 +13547,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2975 =
@@ -13602,12 +13602,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _2989 = memcpy(
                         &mut _2675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2674 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2990 = memcpy(
                         &mut _2676 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2669 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _2991 = *(&mut _2675.field0 as *mut l_array_4_float);
                     _2992 = (*(&mut _2676.field0 as *mut l_array_4_uint32_t
@@ -13648,12 +13648,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _2999 = memcpy(
                         &mut _2191 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3000 = memcpy(
                         &mut _2192 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2187 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3001 =
                         *(&mut _2190 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -13779,13 +13779,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3026 = memcpy(
                         &mut _2186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2189 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3027 = _2188;
                     _3028 = memcpy(
                         &mut _2193 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3029 =
                         *(&mut _2193 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -13796,12 +13796,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3031 = memcpy(
                         &mut _1661 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _3030,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3032 = memcpy(
                         &mut _1662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3033 =
                         *(&mut _1661 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -13881,7 +13881,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3050 = memcpy(
                         _3049,
                         &mut _1660 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3051 = _2657;
                     _3052 = _2663;
@@ -13931,12 +13931,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3064 = memcpy(
                         &mut _2678 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2677 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3065 = memcpy(
                         &mut _2679 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2669 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3066 = *(&mut _2678.field0 as *mut l_array_4_float);
                     _3067 = (*(&mut _2679.field0 as *mut l_array_4_uint32_t
@@ -13977,12 +13977,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3074 = memcpy(
                         &mut _2206 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3075 = memcpy(
                         &mut _2207 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2202 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3076 =
                         *(&mut _2205 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14108,13 +14108,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3101 = memcpy(
                         &mut _2201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2204 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3102 = _2203;
                     _3103 = memcpy(
                         &mut _2208 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3104 =
                         *(&mut _2208 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14125,12 +14125,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3106 = memcpy(
                         &mut _1648 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _3105,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3107 = memcpy(
                         &mut _1649 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1645 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3108 =
                         *(&mut _1648 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14210,7 +14210,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3125 = memcpy(
                         _3124,
                         &mut _1647 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3126 = _2657;
                     _3127 = _2663;
@@ -14260,12 +14260,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3139 = memcpy(
                         &mut _2681 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2680 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3140 = memcpy(
                         &mut _2682 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2669 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3141 = *(&mut _2681.field0 as *mut l_array_4_float);
                     _3142 = (*(&mut _2682.field0 as *mut l_array_4_uint32_t
@@ -14306,12 +14306,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3149 = memcpy(
                         &mut _2221 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3150 = memcpy(
                         &mut _2222 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2217 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3151 =
                         *(&mut _2220 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14437,13 +14437,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3176 = memcpy(
                         &mut _2216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2219 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3177 = _2218;
                     _3178 = memcpy(
                         &mut _2223 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3179 =
                         *(&mut _2223 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14454,12 +14454,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3181 = memcpy(
                         &mut _1635 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _3180,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3182 = memcpy(
                         &mut _1636 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1632 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3183 =
                         *(&mut _1635 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14539,7 +14539,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3200 = memcpy(
                         _3199,
                         &mut _1634 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3201 = _2657;
                     _3202 = _2663;
@@ -14589,12 +14589,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3214 = memcpy(
                         &mut _2684 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2683 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3215 = memcpy(
                         &mut _2685 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2669 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3216 = *(&mut _2684.field0 as *mut l_array_4_float);
                     _3217 = (*(&mut _2685.field0 as *mut l_array_4_uint32_t
@@ -14635,12 +14635,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3224 = memcpy(
                         &mut _2236 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3225 = memcpy(
                         &mut _2237 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _2232 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3226 =
                         *(&mut _2235 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14766,13 +14766,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3251 = memcpy(
                         &mut _2231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2234 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3252 = _2233;
                     _3253 = memcpy(
                         &mut _2238 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3254 =
                         *(&mut _2238 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14783,12 +14783,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3256 = memcpy(
                         &mut _1622 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _3255,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3257 = memcpy(
                         &mut _1623 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _1619 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3258 =
                         *(&mut _1622 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -14868,10 +14868,10 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _3275 = memcpy(
                         _3274,
                         &mut _1621 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3276 = _2663;
-                    _2663 = llvm_add_u32(_3276, 4 as core::ffi::c_int as uint32_t);
+                    _2663 = llvm_add_u32(_3276, 4);
                 }
                 _3277 = _2657;
                 _3278 = memcpy(
@@ -14879,7 +14879,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     &mut (*(_3277 as *mut l_struct_struct_OC_image_block)).field7
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3279 = _2657;
                 _3280 = *(&mut (*(_3279 as *mut l_struct_struct_OC_image_block)).field4
@@ -14890,7 +14890,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _3282 = memcpy(
                     &mut _2052 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2050 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3283 = _2051;
                 _2047 = &mut _2053 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -14990,7 +14990,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         .offset(0 as core::ffi::c_int as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3307 = *(&mut _2689.field0 as *mut l_array_4_float);
                 *(&mut _2140 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3307;
@@ -15020,7 +15020,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3313 = *(&mut _2690.field0 as *mut l_array_4_float);
                 *(&mut _2141 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3313;
@@ -15050,7 +15050,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3319 = *(&mut _2691.field0 as *mut l_array_4_float);
                 *(&mut _2142 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3319;
@@ -15080,7 +15080,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3325 = *(&mut _2692.field0 as *mut l_array_4_float);
                 *(&mut _2143 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3325;
@@ -15129,12 +15129,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _3335 = memcpy(
                     &mut _2694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2686 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3336 = memcpy(
                     &mut _2695 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2688 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3337 = *(&mut _2694.field0 as *mut l_array_4_float);
                 _3338 = *(&mut _2695.field0 as *mut l_array_4_float);
@@ -15206,7 +15206,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _3353 = memcpy(
                     &mut _2697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2688 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3354 = _2656;
                 _3355 =
@@ -15222,7 +15222,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _3357 = memcpy(
                     &mut _2596 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2594 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3358 = _2595;
                 _2591 = &mut _2597 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -15319,12 +15319,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _3382 = memcpy(
                     _3381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2696 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3383 = memcpy(
                     &mut _2699 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3384 = _2656;
                 _3385 =
@@ -15340,7 +15340,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _3387 = memcpy(
                     &mut _2601 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2599 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _3388 = _2600;
                 _2589 = &mut _2602 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -15440,7 +15440,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _2698 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
             } else {
                 _3413 = _2659;
@@ -15449,14 +15449,14 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         &mut _2700
                             as *mut l_array_2_struct_AC_l_array_4_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        0 as core::ffi::c_int as uint32_t,
-                        128 as core::ffi::c_int as uint64_t,
+                        0,
+                        128,
                     );
                     _1668 = &mut _2573 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _1669 = 0 as core::ffi::c_int as uint32_t;
-                    _1670 = 1 as core::ffi::c_int as uint32_t;
-                    _1671 = 2 as core::ffi::c_int as uint32_t;
-                    _1672 = 3 as core::ffi::c_int as uint32_t;
+                    _1669 = 0;
+                    _1670 = 1;
+                    _1671 = 2;
+                    _1672 = 3;
                     _3415 = _1668;
                     _3416 = _1669;
                     *(_3415 as *mut uint32_t) = _3416;
@@ -15479,7 +15479,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         *(&mut _2573 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _2701.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_72))
                         .data = _3420;
-                    _2702 = 0 as core::ffi::c_int as uint32_t;
+                    _2702 = 0;
                     loop {
                         _3421 = _2702;
                         _3422 = _2660;
@@ -15532,7 +15532,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3434 = memcpy(
                             &mut _2705 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _2701 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3435 = _2660;
                         _2555 =
@@ -15626,7 +15626,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3454 = _1781;
@@ -15643,7 +15643,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3456 = _1782;
@@ -15660,7 +15660,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3458 = _1783;
@@ -15677,7 +15677,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3460 = *(&mut _2566 as *mut l_struct_struct_OC_vmask4
@@ -15687,7 +15687,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .data = _3460;
                         _2553 =
                             &mut _2707 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2554 = 4 as core::ffi::c_int as uint32_t;
+                        _2554 = 4;
                         _3461 = _2553;
                         _3462 = _2554;
                         *(_3461 as *mut uint32_t) = _3462;
@@ -15714,13 +15714,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3467 = memcpy(
                             &mut _2172 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _3466,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3468 = _2170;
                         _3469 = memcpy(
                             &mut _2173 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _3468,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3470 = *(&mut _2172 as *mut l_struct_struct_OC_vint4
                             as *mut l_array_2_uint64_t);
@@ -15800,22 +15800,22 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3487 = memcpy(
                             _3486,
                             &mut _2171 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3488 = _2169;
                         _3489 = memcpy(
                             &mut _2709 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2704 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3490 = memcpy(
                             &mut _2711 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _2703 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _2551 =
                             &mut _2712 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2552 = 0 as core::ffi::c_int as uint32_t;
+                        _2552 = 0;
                         _3491 = _2551;
                         _3492 = _2552;
                         *(_3491 as *mut uint32_t) = _3492;
@@ -15900,7 +15900,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3509 = _1841;
@@ -15917,7 +15917,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3511 = _1842;
@@ -15934,7 +15934,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3513 = _1843;
@@ -15951,7 +15951,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3515 = *(&mut _2101 as *mut l_struct_struct_OC_vmask4
@@ -16029,7 +16029,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3529 = _1811;
@@ -16046,7 +16046,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3531 = _1812;
@@ -16063,7 +16063,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3533 = _1813;
@@ -16080,7 +16080,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3535 = *(&mut _2119 as *mut l_struct_struct_OC_vmask4
@@ -16091,16 +16091,16 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3536 = memcpy(
                             &mut _2714 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2704 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3537 = memcpy(
                             &mut _2716 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _2703 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _2549 =
                             &mut _2717 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2550 = 1 as core::ffi::c_int as uint32_t;
+                        _2550 = 1;
                         _3538 = _2549;
                         _3539 = _2550;
                         *(_3538 as *mut uint32_t) = _3539;
@@ -16185,7 +16185,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3556 = _1836;
@@ -16202,7 +16202,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3558 = _1837;
@@ -16219,7 +16219,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3560 = _1838;
@@ -16236,7 +16236,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3562 = *(&mut _2104 as *mut l_struct_struct_OC_vmask4
@@ -16314,7 +16314,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3576 = _1806;
@@ -16331,7 +16331,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3578 = _1807;
@@ -16348,7 +16348,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3580 = _1808;
@@ -16365,7 +16365,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _3582 = *(&mut _2122 as *mut l_struct_struct_OC_vmask4
@@ -16423,12 +16423,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3596 = memcpy(
                             &mut _2719 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2718 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3597 = memcpy(
                             &mut _2720 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2708 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3598 = *(&mut _2719.field0 as *mut l_array_4_float);
                         _3599 = (*(&mut _2720.field0 as *mut l_array_4_uint32_t
@@ -16474,12 +16474,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3606 = memcpy(
                             &mut _2251 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2246 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3607 = memcpy(
                             &mut _2252 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2247 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3608 = *(&mut _2250 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -16606,13 +16606,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3633 = memcpy(
                             &mut _2246 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2249 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3634 = _2248;
                         _3635 = memcpy(
                             &mut _2253 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2246 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3636 = *(&mut _2253 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -16623,12 +16623,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3638 = memcpy(
                             &mut _1609 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _3637,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3639 = memcpy(
                             &mut _1610 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1606 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3640 = *(&mut _1609 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -16709,17 +16709,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3657 = memcpy(
                             _3656,
                             &mut _1608 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3658 = memcpy(
                             &mut _2721 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2718 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3659 = memcpy(
                             &mut _2722 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2713 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3660 = *(&mut _2721.field0 as *mut l_array_4_float);
                         _3661 = (*(&mut _2722.field0 as *mut l_array_4_uint32_t
@@ -16765,12 +16765,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3668 = memcpy(
                             &mut _2266 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3669 = memcpy(
                             &mut _2267 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2262 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3670 = *(&mut _2265 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -16897,13 +16897,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3695 = memcpy(
                             &mut _2261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2264 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3696 = _2263;
                         _3697 = memcpy(
                             &mut _2268 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3698 = *(&mut _2268 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -16914,12 +16914,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3700 = memcpy(
                             &mut _1596 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _3699,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3701 = memcpy(
                             &mut _1597 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1593 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3702 = *(&mut _1596 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17000,7 +17000,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3719 = memcpy(
                             _3718,
                             &mut _1595 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3720 = _2657;
                         _3721 = _2702;
@@ -17052,12 +17052,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3733 = memcpy(
                             &mut _2724 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2723 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3734 = memcpy(
                             &mut _2725 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2708 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3735 = *(&mut _2724.field0 as *mut l_array_4_float);
                         _3736 = (*(&mut _2725.field0 as *mut l_array_4_uint32_t
@@ -17103,12 +17103,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3743 = memcpy(
                             &mut _2281 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2276 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3744 = memcpy(
                             &mut _2282 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2277 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3745 = *(&mut _2280 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17235,13 +17235,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3770 = memcpy(
                             &mut _2276 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2279 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3771 = _2278;
                         _3772 = memcpy(
                             &mut _2283 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2276 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3773 = *(&mut _2283 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17252,12 +17252,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3775 = memcpy(
                             &mut _1583 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _3774,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3776 = memcpy(
                             &mut _1584 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1580 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3777 = *(&mut _1583 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17338,17 +17338,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3794 = memcpy(
                             _3793,
                             &mut _1582 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3795 = memcpy(
                             &mut _2726 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2723 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3796 = memcpy(
                             &mut _2727 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2713 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3797 = *(&mut _2726.field0 as *mut l_array_4_float);
                         _3798 = (*(&mut _2727.field0 as *mut l_array_4_uint32_t
@@ -17394,12 +17394,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3805 = memcpy(
                             &mut _2296 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2291 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3806 = memcpy(
                             &mut _2297 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2292 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3807 = *(&mut _2295 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17526,13 +17526,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3832 = memcpy(
                             &mut _2291 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2294 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3833 = _2293;
                         _3834 = memcpy(
                             &mut _2298 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2291 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3835 = *(&mut _2298 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17543,12 +17543,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3837 = memcpy(
                             &mut _1570 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _3836,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3838 = memcpy(
                             &mut _1571 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1567 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3839 = *(&mut _1570 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17629,7 +17629,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3856 = memcpy(
                             _3855,
                             &mut _1569 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3857 = _2657;
                         _3858 = _2702;
@@ -17681,12 +17681,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3870 = memcpy(
                             &mut _2729 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2728 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3871 = memcpy(
                             &mut _2730 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2708 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3872 = *(&mut _2729.field0 as *mut l_array_4_float);
                         _3873 = (*(&mut _2730.field0 as *mut l_array_4_uint32_t
@@ -17732,12 +17732,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3880 = memcpy(
                             &mut _2311 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2306 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3881 = memcpy(
                             &mut _2312 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2307 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3882 = *(&mut _2310 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17864,13 +17864,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3907 = memcpy(
                             &mut _2306 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2309 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3908 = _2308;
                         _3909 = memcpy(
                             &mut _2313 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2306 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3910 = *(&mut _2313 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17881,12 +17881,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3912 = memcpy(
                             &mut _1557 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _3911,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3913 = memcpy(
                             &mut _1558 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1554 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3914 = *(&mut _1557 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -17967,17 +17967,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3931 = memcpy(
                             _3930,
                             &mut _1556 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3932 = memcpy(
                             &mut _2731 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2728 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3933 = memcpy(
                             &mut _2732 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2713 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3934 = *(&mut _2731.field0 as *mut l_array_4_float);
                         _3935 = (*(&mut _2732.field0 as *mut l_array_4_uint32_t
@@ -18023,12 +18023,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3942 = memcpy(
                             &mut _2326 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3943 = memcpy(
                             &mut _2327 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2322 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3944 = *(&mut _2325 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18155,13 +18155,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3969 = memcpy(
                             &mut _2321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2324 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3970 = _2323;
                         _3971 = memcpy(
                             &mut _2328 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3972 = *(&mut _2328 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18172,12 +18172,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3974 = memcpy(
                             &mut _1544 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _3973,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3975 = memcpy(
                             &mut _1545 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1541 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3976 = *(&mut _1544 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18258,7 +18258,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3993 = memcpy(
                             _3992,
                             &mut _1543 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _3994 = _2657;
                         _3995 = _2702;
@@ -18310,12 +18310,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4007 = memcpy(
                             &mut _2734 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2733 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4008 = memcpy(
                             &mut _2735 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2708 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4009 = *(&mut _2734.field0 as *mut l_array_4_float);
                         _4010 = (*(&mut _2735.field0 as *mut l_array_4_uint32_t
@@ -18361,12 +18361,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4017 = memcpy(
                             &mut _2341 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2336 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4018 = memcpy(
                             &mut _2342 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2337 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4019 = *(&mut _2340 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18493,13 +18493,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4044 = memcpy(
                             &mut _2336 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2339 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4045 = _2338;
                         _4046 = memcpy(
                             &mut _2343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2336 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4047 = *(&mut _2343 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18510,12 +18510,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4049 = memcpy(
                             &mut _1531 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4048,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4050 = memcpy(
                             &mut _1532 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1528 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4051 = *(&mut _1531 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18596,17 +18596,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4068 = memcpy(
                             _4067,
                             &mut _1530 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4069 = memcpy(
                             &mut _2736 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2733 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4070 = memcpy(
                             &mut _2737 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2713 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4071 = *(&mut _2736.field0 as *mut l_array_4_float);
                         _4072 = (*(&mut _2737.field0 as *mut l_array_4_uint32_t
@@ -18652,12 +18652,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4079 = memcpy(
                             &mut _2356 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4080 = memcpy(
                             &mut _2357 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2352 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4081 = *(&mut _2355 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18784,13 +18784,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4106 = memcpy(
                             &mut _2351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2354 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4107 = _2353;
                         _4108 = memcpy(
                             &mut _2358 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4109 = *(&mut _2358 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18801,12 +18801,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4111 = memcpy(
                             &mut _1518 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4110,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4112 = memcpy(
                             &mut _1519 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1515 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4113 = *(&mut _1518 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -18887,10 +18887,10 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4130 = memcpy(
                             _4129,
                             &mut _1517 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4131 = _2702;
-                        _2702 = llvm_add_u32(_4131, 4 as core::ffi::c_int as uint32_t);
+                        _2702 = llvm_add_u32(_4131, 4);
                     }
                     _4132 = _2657;
                     _4133 = memcpy(
@@ -18898,7 +18898,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         &mut (*(_4132 as *mut l_struct_struct_OC_image_block)).field7
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4134 = _2657;
                     _4135 = *(&mut (*(_4134 as *mut l_struct_struct_OC_image_block)).field4
@@ -18910,7 +18910,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4137 = memcpy(
                         &mut _2062 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2060 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4138 = _2061;
                     _2057 = &mut _2063 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -19020,7 +19020,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4162 = *(&mut _2741.field0 as *mut l_array_4_float);
                     *(&mut _2144 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19056,7 +19056,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4168 = *(&mut _2742.field0 as *mut l_array_4_float);
                     *(&mut _2145 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19092,7 +19092,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4174 = *(&mut _2743.field0 as *mut l_array_4_float);
                     *(&mut _2146 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19128,7 +19128,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(3 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4180 = *(&mut _2744.field0 as *mut l_array_4_float);
                     *(&mut _2147 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19187,7 +19187,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4191 = *(&mut _2746.field0 as *mut l_array_4_float);
                     *(&mut _2148 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19223,7 +19223,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4197 = *(&mut _2747.field0 as *mut l_array_4_float);
                     *(&mut _2149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19259,7 +19259,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4203 = *(&mut _2748.field0 as *mut l_array_4_float);
                     *(&mut _2150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19295,7 +19295,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(3 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4209 = *(&mut _2749.field0 as *mut l_array_4_float);
                     *(&mut _2151 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19346,12 +19346,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4219 = memcpy(
                         &mut _2752 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2738 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4220 = memcpy(
                         &mut _2753 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2740 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4221 = *(&mut _2752.field0 as *mut l_array_4_float);
                     _4222 = *(&mut _2753.field0 as *mut l_array_4_float);
@@ -19427,7 +19427,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4237 = memcpy(
                         &mut _2754 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2745 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4238 = *(&mut _2751.field0 as *mut l_array_4_float);
                     _4239 = *(&mut _2754.field0 as *mut l_array_4_float);
@@ -19503,7 +19503,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4254 = memcpy(
                         &mut _2756 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2740 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4255 = _2656;
                     _4256 = *(&mut *((*(&mut (*(_4255 as *mut l_struct_struct_OC_partition_info))
@@ -19519,7 +19519,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4258 = memcpy(
                         &mut _2606 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2604 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4259 = _2605;
                     _2587 = &mut _2607 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -19622,12 +19622,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4283 = memcpy(
                         _4282 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2755 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4284 = memcpy(
                         &mut _2758 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2745 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4285 = _2656;
                     _4286 = *(&mut *((*(&mut (*(_4285 as *mut l_struct_struct_OC_partition_info))
@@ -19643,7 +19643,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4288 = memcpy(
                         &mut _2611 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2609 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4289 = _2610;
                     _2585 = &mut _2612 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -19749,12 +19749,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2757 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4314 = memcpy(
                         &mut _2760 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2750 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4315 = _2656;
                     _4316 = *(&mut *((*(&mut (*(_4315 as *mut l_struct_struct_OC_partition_info))
@@ -19770,7 +19770,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4318 = memcpy(
                         &mut _2616 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2614 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4319 = _2615;
                     _2583 = &mut _2617 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -19876,21 +19876,21 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2759 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 } else {
                     _4344 = memset(
                         &mut _2761
                             as *mut l_array_3_struct_AC_l_array_4_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        0 as core::ffi::c_int as uint32_t,
-                        192 as core::ffi::c_int as uint64_t,
+                        0,
+                        192,
                     );
                     _1663 = &mut _2574 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _1664 = 0 as core::ffi::c_int as uint32_t;
-                    _1665 = 1 as core::ffi::c_int as uint32_t;
-                    _1666 = 2 as core::ffi::c_int as uint32_t;
-                    _1667 = 3 as core::ffi::c_int as uint32_t;
+                    _1664 = 0;
+                    _1665 = 1;
+                    _1666 = 2;
+                    _1667 = 3;
                     _4345 = _1663;
                     _4346 = _1664;
                     *(_4345 as *mut uint32_t) = _4346;
@@ -19913,7 +19913,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         *(&mut _2574 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _2762.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_48))
                         .data = _4350;
-                    _2763 = 0 as core::ffi::c_int as uint32_t;
+                    _2763 = 0;
                     loop {
                         _4351 = _2763;
                         _4352 = _2660;
@@ -19966,7 +19966,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4364 = memcpy(
                             &mut _2766 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _2762 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4365 = _2660;
                         _2547 =
@@ -20060,7 +20060,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4384 = _1776;
@@ -20077,7 +20077,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4386 = _1777;
@@ -20094,7 +20094,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4388 = _1778;
@@ -20111,7 +20111,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4390 = *(&mut _2569 as *mut l_struct_struct_OC_vmask4
@@ -20121,7 +20121,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .data = _4390;
                         _2545 =
                             &mut _2768 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2546 = 4 as core::ffi::c_int as uint32_t;
+                        _2546 = 4;
                         _4391 = _2545;
                         _4392 = _2546;
                         *(_4391 as *mut uint32_t) = _4392;
@@ -20148,13 +20148,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4397 = memcpy(
                             &mut _2177 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _4396,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4398 = _2175;
                         _4399 = memcpy(
                             &mut _2178 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _4398,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4400 = *(&mut _2177 as *mut l_struct_struct_OC_vint4
                             as *mut l_array_2_uint64_t);
@@ -20234,22 +20234,22 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4417 = memcpy(
                             _4416,
                             &mut _2176 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4418 = _2174;
                         _4419 = memcpy(
                             &mut _2770 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2765 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4420 = memcpy(
                             &mut _2772 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _2764 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _2543 =
                             &mut _2773 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2544 = 0 as core::ffi::c_int as uint32_t;
+                        _2544 = 0;
                         _4421 = _2543;
                         _4422 = _2544;
                         *(_4421 as *mut uint32_t) = _4422;
@@ -20334,7 +20334,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4439 = _1831;
@@ -20351,7 +20351,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4441 = _1832;
@@ -20368,7 +20368,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4443 = _1833;
@@ -20385,7 +20385,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4445 = *(&mut _2107 as *mut l_struct_struct_OC_vmask4
@@ -20463,7 +20463,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4459 = _1801;
@@ -20480,7 +20480,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4461 = _1802;
@@ -20497,7 +20497,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4463 = _1803;
@@ -20514,7 +20514,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4465 = *(&mut _2125 as *mut l_struct_struct_OC_vmask4
@@ -20525,16 +20525,16 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4466 = memcpy(
                             &mut _2775 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2765 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4467 = memcpy(
                             &mut _2777 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _2764 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _2541 =
                             &mut _2778 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2542 = 1 as core::ffi::c_int as uint32_t;
+                        _2542 = 1;
                         _4468 = _2541;
                         _4469 = _2542;
                         *(_4468 as *mut uint32_t) = _4469;
@@ -20619,7 +20619,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4486 = _1826;
@@ -20636,7 +20636,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4488 = _1827;
@@ -20653,7 +20653,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4490 = _1828;
@@ -20670,7 +20670,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4492 = *(&mut _2110 as *mut l_struct_struct_OC_vmask4
@@ -20748,7 +20748,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4506 = _1796;
@@ -20765,7 +20765,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4508 = _1797;
@@ -20782,7 +20782,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4510 = _1798;
@@ -20799,7 +20799,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4512 = *(&mut _2128 as *mut l_struct_struct_OC_vmask4
@@ -20810,16 +20810,16 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4513 = memcpy(
                             &mut _2780 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2765 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4514 = memcpy(
                             &mut _2782 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _2764 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _2539 =
                             &mut _2783 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2540 = 2 as core::ffi::c_int as uint32_t;
+                        _2540 = 2;
                         _4515 = _2539;
                         _4516 = _2540;
                         *(_4515 as *mut uint32_t) = _4516;
@@ -20904,7 +20904,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4533 = _1821;
@@ -20921,7 +20921,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4535 = _1822;
@@ -20938,7 +20938,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4537 = _1823;
@@ -20955,7 +20955,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4539 = *(&mut _2113 as *mut l_struct_struct_OC_vmask4
@@ -21033,7 +21033,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4553 = _1791;
@@ -21050,7 +21050,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4555 = _1792;
@@ -21067,7 +21067,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4557 = _1793;
@@ -21084,7 +21084,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _4559 = *(&mut _2131 as *mut l_struct_struct_OC_vmask4
@@ -21142,12 +21142,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4573 = memcpy(
                             &mut _2785 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2784 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4574 = memcpy(
                             &mut _2786 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2769 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4575 = *(&mut _2785.field0 as *mut l_array_4_float);
                         _4576 = (*(&mut _2786.field0 as *mut l_array_4_uint32_t
@@ -21193,12 +21193,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4583 = memcpy(
                             &mut _2371 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4584 = memcpy(
                             &mut _2372 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2367 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4585 = *(&mut _2370 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21325,13 +21325,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4610 = memcpy(
                             &mut _2366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2369 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4611 = _2368;
                         _4612 = memcpy(
                             &mut _2373 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4613 = *(&mut _2373 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21342,12 +21342,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4615 = memcpy(
                             &mut _1505 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4614,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4616 = memcpy(
                             &mut _1506 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1502 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4617 = *(&mut _1505 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21428,17 +21428,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4634 = memcpy(
                             _4633,
                             &mut _1504 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4635 = memcpy(
                             &mut _2787 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2784 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4636 = memcpy(
                             &mut _2788 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2774 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4637 = *(&mut _2787.field0 as *mut l_array_4_float);
                         _4638 = (*(&mut _2788.field0 as *mut l_array_4_uint32_t
@@ -21484,12 +21484,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4645 = memcpy(
                             &mut _2386 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4646 = memcpy(
                             &mut _2387 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2382 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4647 = *(&mut _2385 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21616,13 +21616,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4672 = memcpy(
                             &mut _2381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2384 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4673 = _2383;
                         _4674 = memcpy(
                             &mut _2388 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4675 = *(&mut _2388 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21633,12 +21633,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4677 = memcpy(
                             &mut _1492 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4676,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4678 = memcpy(
                             &mut _1493 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1489 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4679 = *(&mut _1492 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21719,17 +21719,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4696 = memcpy(
                             _4695,
                             &mut _1491 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4697 = memcpy(
                             &mut _2789 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2784 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4698 = memcpy(
                             &mut _2790 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2779 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4699 = *(&mut _2789.field0 as *mut l_array_4_float);
                         _4700 = (*(&mut _2790.field0 as *mut l_array_4_uint32_t
@@ -21775,12 +21775,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4707 = memcpy(
                             &mut _2401 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2396 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4708 = memcpy(
                             &mut _2402 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2397 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4709 = *(&mut _2400 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21907,13 +21907,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4734 = memcpy(
                             &mut _2396 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2399 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4735 = _2398;
                         _4736 = memcpy(
                             &mut _2403 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2396 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4737 = *(&mut _2403 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -21924,12 +21924,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4739 = memcpy(
                             &mut _1479 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4738,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4740 = memcpy(
                             &mut _1480 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1476 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4741 = *(&mut _1479 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22010,7 +22010,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4758 = memcpy(
                             _4757,
                             &mut _1478 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4759 = _2657;
                         _4760 = _2763;
@@ -22062,12 +22062,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4772 = memcpy(
                             &mut _2792 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2791 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4773 = memcpy(
                             &mut _2793 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2769 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4774 = *(&mut _2792.field0 as *mut l_array_4_float);
                         _4775 = (*(&mut _2793.field0 as *mut l_array_4_uint32_t
@@ -22113,12 +22113,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4782 = memcpy(
                             &mut _2416 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4783 = memcpy(
                             &mut _2417 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2412 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4784 = *(&mut _2415 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22245,13 +22245,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4809 = memcpy(
                             &mut _2411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2414 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4810 = _2413;
                         _4811 = memcpy(
                             &mut _2418 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4812 = *(&mut _2418 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22262,12 +22262,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4814 = memcpy(
                             &mut _1466 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4813,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4815 = memcpy(
                             &mut _1467 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1463 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4816 = *(&mut _1466 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22348,17 +22348,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4833 = memcpy(
                             _4832,
                             &mut _1465 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4834 = memcpy(
                             &mut _2794 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2791 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4835 = memcpy(
                             &mut _2795 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2774 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4836 = *(&mut _2794.field0 as *mut l_array_4_float);
                         _4837 = (*(&mut _2795.field0 as *mut l_array_4_uint32_t
@@ -22404,12 +22404,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4844 = memcpy(
                             &mut _2431 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4845 = memcpy(
                             &mut _2432 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2427 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4846 = *(&mut _2430 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22536,13 +22536,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4871 = memcpy(
                             &mut _2426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4872 = _2428;
                         _4873 = memcpy(
                             &mut _2433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4874 = *(&mut _2433 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22553,12 +22553,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4876 = memcpy(
                             &mut _1453 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4875,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4877 = memcpy(
                             &mut _1454 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1450 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4878 = *(&mut _1453 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22639,17 +22639,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4895 = memcpy(
                             _4894,
                             &mut _1452 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4896 = memcpy(
                             &mut _2796 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2791 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4897 = memcpy(
                             &mut _2797 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2779 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4898 = *(&mut _2796.field0 as *mut l_array_4_float);
                         _4899 = (*(&mut _2797.field0 as *mut l_array_4_uint32_t
@@ -22695,12 +22695,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4906 = memcpy(
                             &mut _2446 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2441 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4907 = memcpy(
                             &mut _2447 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2442 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4908 = *(&mut _2445 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22827,13 +22827,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4933 = memcpy(
                             &mut _2441 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2444 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4934 = _2443;
                         _4935 = memcpy(
                             &mut _2448 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2441 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4936 = *(&mut _2448 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22844,12 +22844,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4938 = memcpy(
                             &mut _1440 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _4937,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4939 = memcpy(
                             &mut _1441 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1437 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4940 = *(&mut _1440 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -22930,7 +22930,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4957 = memcpy(
                             _4956,
                             &mut _1439 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4958 = _2657;
                         _4959 = _2763;
@@ -22982,12 +22982,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4971 = memcpy(
                             &mut _2799 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2798 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4972 = memcpy(
                             &mut _2800 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2769 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4973 = *(&mut _2799.field0 as *mut l_array_4_float);
                         _4974 = (*(&mut _2800.field0 as *mut l_array_4_uint32_t
@@ -23033,12 +23033,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4981 = memcpy(
                             &mut _2461 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2456 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4982 = memcpy(
                             &mut _2462 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2457 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _4983 = *(&mut _2460 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23165,13 +23165,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5008 = memcpy(
                             &mut _2456 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2459 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5009 = _2458;
                         _5010 = memcpy(
                             &mut _2463 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2456 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5011 = *(&mut _2463 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23182,12 +23182,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5013 = memcpy(
                             &mut _1427 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5012,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5014 = memcpy(
                             &mut _1428 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1424 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5015 = *(&mut _1427 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23268,17 +23268,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5032 = memcpy(
                             _5031,
                             &mut _1426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5033 = memcpy(
                             &mut _2801 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2798 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5034 = memcpy(
                             &mut _2802 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2774 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5035 = *(&mut _2801.field0 as *mut l_array_4_float);
                         _5036 = (*(&mut _2802.field0 as *mut l_array_4_uint32_t
@@ -23324,12 +23324,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5043 = memcpy(
                             &mut _2476 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2471 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5044 = memcpy(
                             &mut _2477 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2472 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5045 = *(&mut _2475 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23456,13 +23456,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5070 = memcpy(
                             &mut _2471 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2474 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5071 = _2473;
                         _5072 = memcpy(
                             &mut _2478 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2471 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5073 = *(&mut _2478 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23473,12 +23473,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5075 = memcpy(
                             &mut _1414 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5074,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5076 = memcpy(
                             &mut _1415 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5077 = *(&mut _1414 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23559,17 +23559,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5094 = memcpy(
                             _5093,
                             &mut _1413 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5095 = memcpy(
                             &mut _2803 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2798 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5096 = memcpy(
                             &mut _2804 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2779 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5097 = *(&mut _2803.field0 as *mut l_array_4_float);
                         _5098 = (*(&mut _2804.field0 as *mut l_array_4_uint32_t
@@ -23615,12 +23615,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5105 = memcpy(
                             &mut _2491 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2486 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5106 = memcpy(
                             &mut _2492 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2487 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5107 = *(&mut _2490 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23747,13 +23747,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5132 = memcpy(
                             &mut _2486 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2489 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5133 = _2488;
                         _5134 = memcpy(
                             &mut _2493 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2486 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5135 = *(&mut _2493 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23764,12 +23764,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5137 = memcpy(
                             &mut _1401 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5136,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5138 = memcpy(
                             &mut _1402 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1398 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5139 = *(&mut _1401 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -23850,7 +23850,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5156 = memcpy(
                             _5155,
                             &mut _1400 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5157 = _2657;
                         _5158 = _2763;
@@ -23902,12 +23902,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5170 = memcpy(
                             &mut _2806 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2805 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5171 = memcpy(
                             &mut _2807 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2769 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5172 = *(&mut _2806.field0 as *mut l_array_4_float);
                         _5173 = (*(&mut _2807.field0 as *mut l_array_4_uint32_t
@@ -23953,12 +23953,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5180 = memcpy(
                             &mut _2506 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2501 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5181 = memcpy(
                             &mut _2507 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2502 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5182 = *(&mut _2505 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24085,13 +24085,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5207 = memcpy(
                             &mut _2501 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2504 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5208 = _2503;
                         _5209 = memcpy(
                             &mut _2508 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2501 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5210 = *(&mut _2508 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24102,12 +24102,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5212 = memcpy(
                             &mut _1388 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5211,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5213 = memcpy(
                             &mut _1389 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1385 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5214 = *(&mut _1388 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24188,17 +24188,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5231 = memcpy(
                             _5230,
                             &mut _1387 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5232 = memcpy(
                             &mut _2808 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2805 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5233 = memcpy(
                             &mut _2809 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2774 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5234 = *(&mut _2808.field0 as *mut l_array_4_float);
                         _5235 = (*(&mut _2809.field0 as *mut l_array_4_uint32_t
@@ -24244,12 +24244,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5242 = memcpy(
                             &mut _2521 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2516 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5243 = memcpy(
                             &mut _2522 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2517 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5244 = *(&mut _2520 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24376,13 +24376,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5269 = memcpy(
                             &mut _2516 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2519 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5270 = _2518;
                         _5271 = memcpy(
                             &mut _2523 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2516 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5272 = *(&mut _2523 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24393,12 +24393,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5274 = memcpy(
                             &mut _1375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5273,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5275 = memcpy(
                             &mut _1376 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1372 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5276 = *(&mut _1375 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24479,17 +24479,17 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5293 = memcpy(
                             _5292,
                             &mut _1374 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5294 = memcpy(
                             &mut _2810 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2805 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5295 = memcpy(
                             &mut _2811 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2779 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5296 = *(&mut _2810.field0 as *mut l_array_4_float);
                         _5297 = (*(&mut _2811.field0 as *mut l_array_4_uint32_t
@@ -24535,12 +24535,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5304 = memcpy(
                             &mut _2536 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2531 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5305 = memcpy(
                             &mut _2537 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _2532 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5306 = *(&mut _2535 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24667,13 +24667,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5331 = memcpy(
                             &mut _2531 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2534 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5332 = _2533;
                         _5333 = memcpy(
                             &mut _2538 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _2531 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5334 = *(&mut _2538 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24684,12 +24684,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5336 = memcpy(
                             &mut _1362 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _5335,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5337 = memcpy(
                             &mut _1363 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _1359 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5338 = *(&mut _1362 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -24770,10 +24770,10 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _5355 = memcpy(
                             _5354,
                             &mut _1361 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _5356 = _2763;
-                        _2763 = llvm_add_u32(_5356, 4 as core::ffi::c_int as uint32_t);
+                        _2763 = llvm_add_u32(_5356, 4);
                     }
                     _5357 = _2657;
                     _5358 = memcpy(
@@ -24781,7 +24781,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         &mut (*(_5357 as *mut l_struct_struct_OC_image_block)).field7
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5359 = _2657;
                     _5360 = *(&mut (*(_5359 as *mut l_struct_struct_OC_image_block)).field4
@@ -24793,7 +24793,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5362 = memcpy(
                         &mut _2072 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2070 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5363 = _2071;
                     _2067 = &mut _2073 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -24903,7 +24903,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5387 = *(&mut _2815.field0 as *mut l_array_4_float);
                     *(&mut _2152 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -24939,7 +24939,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5393 = *(&mut _2816.field0 as *mut l_array_4_float);
                     *(&mut _2153 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -24975,7 +24975,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5399 = *(&mut _2817.field0 as *mut l_array_4_float);
                     *(&mut _2154 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25011,7 +25011,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(3 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5405 = *(&mut _2818.field0 as *mut l_array_4_float);
                     *(&mut _2155 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25070,7 +25070,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5416 = *(&mut _2820.field0 as *mut l_array_4_float);
                     *(&mut _2156 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25106,7 +25106,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5422 = *(&mut _2821.field0 as *mut l_array_4_float);
                     *(&mut _2157 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25142,7 +25142,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5428 = *(&mut _2822.field0 as *mut l_array_4_float);
                     *(&mut _2158 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25178,7 +25178,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(3 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5434 = *(&mut _2823.field0 as *mut l_array_4_float);
                     *(&mut _2159 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25237,7 +25237,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5445 = *(&mut _2825.field0 as *mut l_array_4_float);
                     *(&mut _2160 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25273,7 +25273,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5451 = *(&mut _2826.field0 as *mut l_array_4_float);
                     *(&mut _2161 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25309,7 +25309,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5457 = *(&mut _2827.field0 as *mut l_array_4_float);
                     *(&mut _2162 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25345,7 +25345,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .offset(3 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5463 = *(&mut _2828.field0 as *mut l_array_4_float);
                     *(&mut _2163 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -25396,12 +25396,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5473 = memcpy(
                         &mut _2832 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2812 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5474 = memcpy(
                         &mut _2833 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2814 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5475 = *(&mut _2832.field0 as *mut l_array_4_float);
                     _5476 = *(&mut _2833.field0 as *mut l_array_4_float);
@@ -25477,7 +25477,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5491 = memcpy(
                         &mut _2834 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2819 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5492 = *(&mut _2831.field0 as *mut l_array_4_float);
                     _5493 = *(&mut _2834.field0 as *mut l_array_4_float);
@@ -25553,7 +25553,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5508 = memcpy(
                         &mut _2835 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2824 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5509 = *(&mut _2830.field0 as *mut l_array_4_float);
                     _5510 = *(&mut _2835.field0 as *mut l_array_4_float);
@@ -25629,7 +25629,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5525 = memcpy(
                         &mut _2837 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2814 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5526 = _2656;
                     _5527 = *(&mut *((*(&mut (*(_5526 as *mut l_struct_struct_OC_partition_info))
@@ -25645,7 +25645,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5529 = memcpy(
                         &mut _2621 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2619 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5530 = _2620;
                     _2581 = &mut _2622 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -25748,12 +25748,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5554 = memcpy(
                         _5553 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2836 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5555 = memcpy(
                         &mut _2839 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2819 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5556 = _2656;
                     _5557 = *(&mut *((*(&mut (*(_5556 as *mut l_struct_struct_OC_partition_info))
@@ -25769,7 +25769,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5559 = memcpy(
                         &mut _2626 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2624 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5560 = _2625;
                     _2579 = &mut _2627 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -25875,12 +25875,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2838 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5585 = memcpy(
                         &mut _2841 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2824 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5586 = _2656;
                     _5587 = *(&mut *((*(&mut (*(_5586 as *mut l_struct_struct_OC_partition_info))
@@ -25896,7 +25896,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5589 = memcpy(
                         &mut _2631 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2629 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5590 = _2630;
                     _2577 = &mut _2632 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -26002,12 +26002,12 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2840 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5615 = memcpy(
                         &mut _2843 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2829 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5616 = _2656;
                     _5617 = *(&mut *((*(&mut (*(_5616 as *mut l_struct_struct_OC_partition_info))
@@ -26023,7 +26023,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5619 = memcpy(
                         &mut _2636 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _2634 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _5620 = _2635;
                     _2575 = &mut _2637 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -26129,7 +26129,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2842 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
             }
@@ -26139,7 +26139,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
         __assert_fail(
             &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            225 as core::ffi::c_int as uint32_t,
+            225,
             &__PRETTY_FUNCTION___OC__ZL31compute_partition_averages_rgbaRK14partition_infoRK11image_blockP7vfloat4
                 as *const l_array_93_uint8_t as *mut core::ffi::c_void,
         );
@@ -28141,7 +28141,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _6403 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint64_t,
+            16,
         );
         _6302 = &mut *(_6399.array)
             .as_mut_ptr()
@@ -28197,7 +28197,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _6404 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint64_t,
+            16,
         );
         _6304 = &mut *(_6399.array)
             .as_mut_ptr()
@@ -28253,7 +28253,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _6405 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint64_t,
+            16,
         );
         _6306 = &mut *(_6399.array)
             .as_mut_ptr()
@@ -28309,7 +28309,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _6406 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint64_t,
+            16,
         );
         _6546 = _6396;
         _6400 = &mut *((*(&mut (*(_6546 as *mut l_struct_struct_OC_image_block)).field1
@@ -28386,7 +28386,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6407 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _6294 = &mut *(_6399.array)
                 .as_mut_ptr()
@@ -28439,7 +28439,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6408 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _6296 = &mut *(_6399.array)
                 .as_mut_ptr()
@@ -28492,7 +28492,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6409 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _6298 = &mut *(_6399.array)
                 .as_mut_ptr()
@@ -28545,7 +28545,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6410 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _6606 = _6396;
             _6401 = &mut *((*(&mut (*(_6606 as *mut l_struct_struct_OC_image_block)).field2
@@ -28617,7 +28617,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6286 = &mut *(_6399.array)
                     .as_mut_ptr()
@@ -28672,7 +28672,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6412 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6288 = &mut *(_6399.array)
                     .as_mut_ptr()
@@ -28727,7 +28727,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6413 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6290 = &mut *(_6399.array)
                     .as_mut_ptr()
@@ -28782,7 +28782,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6414 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6665 = _6396;
                 _6402 = &mut *((*(&mut (*(_6665 as *mut l_struct_struct_OC_image_block)).field3
@@ -28845,7 +28845,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6415 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6278 = &mut *(_6399.array)
                     .as_mut_ptr()
@@ -28900,7 +28900,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6416 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6280 = &mut *(_6399.array)
                     .as_mut_ptr()
@@ -28955,7 +28955,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6417 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6282 = &mut *(_6399.array)
                     .as_mut_ptr()
@@ -29010,7 +29010,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _6418 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
             }
         }
@@ -29020,7 +29020,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
     _6419 = _6723 as uint32_t;
     _6724 = _6419;
     if _6724 > 0 as core::ffi::c_uint {
-        _6420 = 0 as core::ffi::c_int as uint32_t;
+        _6420 = 0;
         loop {
             _6725 = _6420;
             _6726 = _6419;
@@ -29062,7 +29062,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     .as_mut_ptr()
                     .offset(_6733 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _6735 = _6398;
             _6736 = _6420;
@@ -29073,7 +29073,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     .field0 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _6423 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _6247 = &mut _6391 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6248 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -29141,7 +29141,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut core::ffi::c_float) = _6754;
             _6755 = _6393;
             *(&mut _6426.field0 as *mut l_array_4_float) = _6755.field0;
-            _6427 = 0 as core::ffi::c_int as uint32_t;
+            _6427 = 0;
             loop {
                 _6756 = _6427;
                 _6757 = _6422;
@@ -29203,12 +29203,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6779 = memcpy(
                     &mut _6431 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6780 = memcpy(
                     &mut _6432 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6423 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6781 = *(&mut _6431.field0 as *mut l_array_4_float);
                 _6782 = *(&mut _6432.field0 as *mut l_array_4_float);
@@ -29280,7 +29280,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6797 = memcpy(
                     &mut _6429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6430 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6241 = &mut _6394 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _6242 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -29346,7 +29346,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6819 = memcpy(
                     &mut _6436 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6820 = *(&mut _6435.field0 as *mut l_array_4_float);
                 _6821 = *(&mut _6436.field0 as *mut l_array_4_float);
@@ -29409,7 +29409,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6831 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6833 = _6008;
@@ -29424,7 +29424,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6833 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6835 = _6009;
@@ -29439,7 +29439,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6835 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6837 = _6010;
@@ -29454,7 +29454,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6837 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6839 = *(&mut _6373 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -29463,17 +29463,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6840 = memcpy(
                     &mut _6438 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6841 = memcpy(
                     &mut _6439 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6842 = memcpy(
                     &mut _6440 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _6434 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6843 = *(&mut _6438.field0 as *mut l_array_4_float);
                 _6844 = *(&mut _6439.field0 as *mut l_array_4_float);
@@ -29596,13 +29596,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6869 = memcpy(
                     &mut _6359 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _6868,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6870 = _6357;
                 _6871 = memcpy(
                     &mut _6360 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _6870,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6872 = *(&mut _6359 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _6873 = *(&mut _6360 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -29676,7 +29676,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6889 = memcpy(
                     _6888,
                     &mut _6358 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6890 = _6356;
                 _6331 = &mut _6429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -29733,7 +29733,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6906 = memcpy(
                     &mut _6443 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6907 = *(&mut _6442.field0 as *mut l_array_4_float);
                 _6908 = *(&mut _6443.field0 as *mut l_array_4_float);
@@ -29796,7 +29796,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6918 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6920 = _6003;
@@ -29811,7 +29811,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6920 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6922 = _6004;
@@ -29826,7 +29826,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6922 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6924 = _6005;
@@ -29841,7 +29841,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_6924 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _6926 = *(&mut _6376 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -29850,17 +29850,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6927 = memcpy(
                     &mut _6445 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6928 = memcpy(
                     &mut _6446 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6929 = memcpy(
                     &mut _6447 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _6441 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6930 = *(&mut _6445.field0 as *mut l_array_4_float);
                 _6931 = *(&mut _6446.field0 as *mut l_array_4_float);
@@ -29983,13 +29983,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6956 = memcpy(
                     &mut _6364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _6955,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6957 = _6362;
                 _6958 = memcpy(
                     &mut _6365 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _6957,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6959 = *(&mut _6364 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _6960 = *(&mut _6365 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -30063,7 +30063,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6976 = memcpy(
                     _6975,
                     &mut _6363 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6977 = _6361;
                 _6329 = &mut _6429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -30120,7 +30120,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _6993 = memcpy(
                     &mut _6450 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _6994 = *(&mut _6449.field0 as *mut l_array_4_float);
                 _6995 = *(&mut _6450.field0 as *mut l_array_4_float);
@@ -30183,7 +30183,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_7005 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7007 = _5998;
@@ -30198,7 +30198,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_7007 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7009 = _5999;
@@ -30213,7 +30213,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_7009 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7011 = _6000;
@@ -30228,7 +30228,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     ((_7011 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7013 = *(&mut _6379 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -30237,17 +30237,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _7014 = memcpy(
                     &mut _6452 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7015 = memcpy(
                     &mut _6453 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _6429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7016 = memcpy(
                     &mut _6454 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _6448 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7017 = *(&mut _6452.field0 as *mut l_array_4_float);
                 _7018 = *(&mut _6453.field0 as *mut l_array_4_float);
@@ -30370,13 +30370,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _7043 = memcpy(
                     &mut _6369 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _7042,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7044 = _6367;
                 _7045 = memcpy(
                     &mut _6370 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _7044,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7046 = *(&mut _6369 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _7047 = *(&mut _6370 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -30450,21 +30450,21 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 _7063 = memcpy(
                     _7062,
                     &mut _6368 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7064 = _6366;
                 _7065 = _6427;
-                _6427 = llvm_add_u32(_7065, 1 as core::ffi::c_int as uint32_t);
+                _6427 = llvm_add_u32(_7065, 1);
             }
             _7066 = memcpy(
                 &mut _6456 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6424 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7067 = memcpy(
                 &mut _6457 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6424 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7068 = *(&mut _6456.field0 as *mut l_array_4_float);
             _7069 = *(&mut _6457.field0 as *mut l_array_4_float);
@@ -30473,12 +30473,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7070 = memcpy(
                 &mut _6311 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6308 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7071 = memcpy(
                 &mut _6312 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6309 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7072 = *(&mut _6311 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _7073 = *(&mut _6312 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -30550,7 +30550,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7088 = memcpy(
                 &mut _6313 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6310 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7089 = *(&mut _6313 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _6178 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7089;
@@ -30598,12 +30598,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7100 = memcpy(
                 &mut _6459 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6425 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7101 = memcpy(
                 &mut _6460 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6425 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7102 = *(&mut _6459.field0 as *mut l_array_4_float);
             _7103 = *(&mut _6460.field0 as *mut l_array_4_float);
@@ -30612,12 +30612,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7104 = memcpy(
                 &mut _6318 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6315 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7105 = memcpy(
                 &mut _6319 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6316 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7106 = *(&mut _6318 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _7107 = *(&mut _6319 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -30689,7 +30689,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7122 = memcpy(
                 &mut _6320 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6317 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7123 = *(&mut _6320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _6177 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7123;
@@ -30737,12 +30737,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7134 = memcpy(
                 &mut _6462 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7135 = memcpy(
                 &mut _6463 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7136 = *(&mut _6462.field0 as *mut l_array_4_float);
             _7137 = *(&mut _6463.field0 as *mut l_array_4_float);
@@ -30751,12 +30751,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7138 = memcpy(
                 &mut _6325 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6322 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7139 = memcpy(
                 &mut _6326 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6323 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7140 = *(&mut _6325 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _7141 = *(&mut _6326 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -30828,7 +30828,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7156 = memcpy(
                 &mut _6327 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6324 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7157 = *(&mut _6327 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _6176 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7157;
@@ -30876,22 +30876,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7168 = memcpy(
                 &mut _6464 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6424 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7169 = memcpy(
                 &mut _6465 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6455 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7170 = memcpy(
                 &mut _6467 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6458 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7171 = memcpy(
                 &mut _6468 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6465 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7172 = *(&mut _6467.field0 as *mut l_array_4_float);
             _7173 = *(&mut _6468.field0 as *mut l_array_4_float);
@@ -30952,7 +30952,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             *(_7182 as *mut uint32_t) = llvm_select_u32(
                 ((_7183 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7185 = _5993;
@@ -30965,7 +30965,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_7185 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7187 = _5994;
@@ -30978,7 +30978,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_7187 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7189 = _5995;
@@ -30991,7 +30991,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_7189 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7191 = *(&mut _6382 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -30999,17 +30999,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7192 = memcpy(
                 &mut _6470 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6464 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7193 = memcpy(
                 &mut _6471 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6425 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7194 = memcpy(
                 &mut _6472 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _6466 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7195 = *(&mut _6470.field0 as *mut l_array_4_float);
             _7196 = *(&mut _6471.field0 as *mut l_array_4_float);
@@ -31126,22 +31126,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7220 = memcpy(
                 &mut _6464 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6469 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7221 = memcpy(
                 &mut _6474 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6465 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7222 = memcpy(
                 &mut _6475 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6458 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7223 = memcpy(
                 &mut _6476 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _6466 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7224 = *(&mut _6474.field0 as *mut l_array_4_float);
             _7225 = *(&mut _6475.field0 as *mut l_array_4_float);
@@ -31258,17 +31258,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7249 = memcpy(
                 &mut _6465 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6473 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7250 = memcpy(
                 &mut _6478 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6461 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7251 = memcpy(
                 &mut _6479 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6465 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7252 = *(&mut _6478.field0 as *mut l_array_4_float);
             _7253 = *(&mut _6479.field0 as *mut l_array_4_float);
@@ -31329,7 +31329,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             *(_7262 as *mut uint32_t) = llvm_select_u32(
                 ((_7263 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7265 = _5988;
@@ -31342,7 +31342,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_7265 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7267 = _5989;
@@ -31355,7 +31355,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_7267 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7269 = _5990;
@@ -31368,7 +31368,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_7269 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _7271 = *(&mut _6385 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -31376,22 +31376,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7272 = memcpy(
                 &mut _6466 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _6477 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7273 = memcpy(
                 &mut _6481 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6464 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7274 = memcpy(
                 &mut _6482 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7275 = memcpy(
                 &mut _6483 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _6466 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7276 = *(&mut _6481.field0 as *mut l_array_4_float);
             _7277 = *(&mut _6482.field0 as *mut l_array_4_float);
@@ -31508,7 +31508,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7301 = memcpy(
                 &mut _6464 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _6480 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7302 = _6398;
             _7303 = _6420;
@@ -31519,10 +31519,10 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     .field1 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _6464 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7305 = _6420;
-            _6420 = llvm_add_u32(_7305, 1 as core::ffi::c_int as uint32_t);
+            _6420 = llvm_add_u32(_7305, 1);
         }
         match current_block {
             18157224073147167468 => return,
@@ -31530,7 +31530,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 __assert_fail(
                     &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    519 as core::ffi::c_int as uint32_t,
+                    519,
                     &__PRETTY_FUNCTION___OC__Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11image_blockjP17partition_metrics
                         as *const l_array_114_uint8_t as *mut core::ffi::c_void,
                 );
@@ -31540,7 +31540,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            513 as core::ffi::c_int as uint32_t,
+            513,
             &__PRETTY_FUNCTION___OC__Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11image_blockjP17partition_metrics
                 as *const l_array_114_uint8_t as *mut core::ffi::c_void,
         );
@@ -32847,7 +32847,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         );
-        _7649 = 0 as core::ffi::c_int as uint32_t;
+        _7649 = 0;
         loop {
             _7718 = _7649;
             _7719 = _7647;
@@ -32889,7 +32889,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     .as_mut_ptr()
                     .offset(_7726 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7728 = _7646;
             _7729 = _7649;
@@ -32900,7 +32900,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     .field0 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _7652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _7544 = &mut _7640 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _7545 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -32968,7 +32968,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut core::ffi::c_float) = _7747;
             _7748 = _7642;
             *(&mut _7655.field0 as *mut l_array_4_float) = _7748.field0;
-            _7656 = 0 as core::ffi::c_int as uint32_t;
+            _7656 = 0;
             loop {
                 _7749 = _7656;
                 _7750 = _7651;
@@ -32988,12 +32988,12 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7757 = memcpy(
                     &mut _7660 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7758 = memcpy(
                     &mut _7661 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7759 = *(&mut _7660.field0 as *mut l_array_4_float);
                 _7760 = *(&mut _7661.field0 as *mut l_array_4_float);
@@ -33065,7 +33065,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7775 = memcpy(
                     &mut _7658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7659 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7538 = &mut _7643 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _7539 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -33131,7 +33131,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7797 = memcpy(
                     &mut _7665 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7798 = *(&mut _7664.field0 as *mut l_array_4_float);
                 _7799 = *(&mut _7665.field0 as *mut l_array_4_float);
@@ -33194,7 +33194,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7809 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7811 = _7426;
@@ -33209,7 +33209,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7811 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7813 = _7427;
@@ -33224,7 +33224,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7813 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7815 = _7428;
@@ -33239,7 +33239,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7815 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7817 = *(&mut _7622 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -33248,17 +33248,17 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7818 = memcpy(
                     &mut _7667 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7819 = memcpy(
                     &mut _7668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7820 = memcpy(
                     &mut _7669 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _7663 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7821 = *(&mut _7667.field0 as *mut l_array_4_float);
                 _7822 = *(&mut _7668.field0 as *mut l_array_4_float);
@@ -33381,13 +33381,13 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7847 = memcpy(
                     &mut _7608 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _7846,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7848 = _7606;
                 _7849 = memcpy(
                     &mut _7609 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _7848,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7850 = *(&mut _7608 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _7851 = *(&mut _7609 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -33461,7 +33461,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7867 = memcpy(
                     _7866,
                     &mut _7607 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7868 = _7605;
                 _7580 = &mut _7658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -33518,7 +33518,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7884 = memcpy(
                     &mut _7672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7885 = *(&mut _7671.field0 as *mut l_array_4_float);
                 _7886 = *(&mut _7672.field0 as *mut l_array_4_float);
@@ -33581,7 +33581,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7896 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7898 = _7421;
@@ -33596,7 +33596,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7898 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7900 = _7422;
@@ -33611,7 +33611,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7900 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7902 = _7423;
@@ -33626,7 +33626,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7902 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7904 = *(&mut _7625 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -33635,17 +33635,17 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7905 = memcpy(
                     &mut _7674 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7906 = memcpy(
                     &mut _7675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7907 = memcpy(
                     &mut _7676 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _7670 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7908 = *(&mut _7674.field0 as *mut l_array_4_float);
                 _7909 = *(&mut _7675.field0 as *mut l_array_4_float);
@@ -33768,13 +33768,13 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7934 = memcpy(
                     &mut _7613 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _7933,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7935 = _7611;
                 _7936 = memcpy(
                     &mut _7614 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _7935,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7937 = *(&mut _7613 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _7938 = *(&mut _7614 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -33848,7 +33848,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7954 = memcpy(
                     _7953,
                     &mut _7612 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7955 = _7610;
                 _7578 = &mut _7658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -33905,7 +33905,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7971 = memcpy(
                     &mut _7679 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7972 = *(&mut _7678.field0 as *mut l_array_4_float);
                 _7973 = *(&mut _7679.field0 as *mut l_array_4_float);
@@ -33968,7 +33968,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7983 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7985 = _7416;
@@ -33983,7 +33983,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7985 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7987 = _7417;
@@ -33998,7 +33998,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7987 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7989 = _7418;
@@ -34013,7 +34013,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     ((_7989 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _7991 = *(&mut _7628 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -34022,17 +34022,17 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _7992 = memcpy(
                     &mut _7681 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7993 = memcpy(
                     &mut _7682 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _7658 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7994 = memcpy(
                     &mut _7683 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _7677 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _7995 = *(&mut _7681.field0 as *mut l_array_4_float);
                 _7996 = *(&mut _7682.field0 as *mut l_array_4_float);
@@ -34155,13 +34155,13 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _8021 = memcpy(
                     &mut _7618 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _8020,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8022 = _7616;
                 _8023 = memcpy(
                     &mut _7619 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _8022,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8024 = *(&mut _7618 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _8025 = *(&mut _7619 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -34235,21 +34235,21 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 _8041 = memcpy(
                     _8040,
                     &mut _7617 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _8042 = _7615;
                 _8043 = _7656;
-                _7656 = llvm_add_u32(_8043, 1 as core::ffi::c_int as uint32_t);
+                _7656 = llvm_add_u32(_8043, 1);
             }
             _8044 = memcpy(
                 &mut _7685 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7653 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8045 = memcpy(
                 &mut _7686 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7653 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8046 = *(&mut _7685.field0 as *mut l_array_4_float);
             _8047 = *(&mut _7686.field0 as *mut l_array_4_float);
@@ -34258,12 +34258,12 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8048 = memcpy(
                 &mut _7560 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7557 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8049 = memcpy(
                 &mut _7561 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7558 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8050 = *(&mut _7560 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _8051 = *(&mut _7561 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -34335,7 +34335,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8066 = memcpy(
                 &mut _7562 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7559 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8067 = *(&mut _7562 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _7511 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _8067;
@@ -34383,12 +34383,12 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8078 = memcpy(
                 &mut _7688 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7654 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8079 = memcpy(
                 &mut _7689 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7654 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8080 = *(&mut _7688.field0 as *mut l_array_4_float);
             _8081 = *(&mut _7689.field0 as *mut l_array_4_float);
@@ -34397,12 +34397,12 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8082 = memcpy(
                 &mut _7567 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7564 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8083 = memcpy(
                 &mut _7568 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7565 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8084 = *(&mut _7567 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _8085 = *(&mut _7568 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -34474,7 +34474,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8100 = memcpy(
                 &mut _7569 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7566 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8101 = *(&mut _7569 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _7510 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _8101;
@@ -34522,12 +34522,12 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8112 = memcpy(
                 &mut _7691 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7655 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8113 = memcpy(
                 &mut _7692 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7655 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8114 = *(&mut _7691.field0 as *mut l_array_4_float);
             _8115 = *(&mut _7692.field0 as *mut l_array_4_float);
@@ -34536,12 +34536,12 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8116 = memcpy(
                 &mut _7574 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7571 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8117 = memcpy(
                 &mut _7575 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7572 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8118 = *(&mut _7574 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _8119 = *(&mut _7575 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -34613,7 +34613,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8134 = memcpy(
                 &mut _7576 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7573 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8135 = *(&mut _7576 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _7509 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _8135;
@@ -34661,22 +34661,22 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8146 = memcpy(
                 &mut _7693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7653 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8147 = memcpy(
                 &mut _7694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7684 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8148 = memcpy(
                 &mut _7696 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7687 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8149 = memcpy(
                 &mut _7697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8150 = *(&mut _7696.field0 as *mut l_array_4_float);
             _8151 = *(&mut _7697.field0 as *mut l_array_4_float);
@@ -34737,7 +34737,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             *(_8160 as *mut uint32_t) = llvm_select_u32(
                 ((_8161 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8163 = _7411;
@@ -34750,7 +34750,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut uint32_t) = llvm_select_u32(
                 ((_8163 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8165 = _7412;
@@ -34763,7 +34763,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut uint32_t) = llvm_select_u32(
                 ((_8165 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8167 = _7413;
@@ -34776,7 +34776,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut uint32_t) = llvm_select_u32(
                 ((_8167 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8169 = *(&mut _7631 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -34785,17 +34785,17 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8170 = memcpy(
                 &mut _7699 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8171 = memcpy(
                 &mut _7700 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7654 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8172 = memcpy(
                 &mut _7701 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _7695 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8173 = *(&mut _7699.field0 as *mut l_array_4_float);
             _8174 = *(&mut _7700.field0 as *mut l_array_4_float);
@@ -34913,22 +34913,22 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8198 = memcpy(
                 &mut _7693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7698 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8199 = memcpy(
                 &mut _7703 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8200 = memcpy(
                 &mut _7704 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7687 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8201 = memcpy(
                 &mut _7705 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _7695 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8202 = *(&mut _7703.field0 as *mut l_array_4_float);
             _8203 = *(&mut _7704.field0 as *mut l_array_4_float);
@@ -35046,17 +35046,17 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8227 = memcpy(
                 &mut _7694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7702 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8228 = memcpy(
                 &mut _7707 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7690 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8229 = memcpy(
                 &mut _7708 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8230 = *(&mut _7707.field0 as *mut l_array_4_float);
             _8231 = *(&mut _7708.field0 as *mut l_array_4_float);
@@ -35117,7 +35117,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             *(_8240 as *mut uint32_t) = llvm_select_u32(
                 ((_8241 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8243 = _7406;
@@ -35130,7 +35130,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut uint32_t) = llvm_select_u32(
                 ((_8243 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8245 = _7407;
@@ -35143,7 +35143,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut uint32_t) = llvm_select_u32(
                 ((_8245 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8247 = _7408;
@@ -35156,7 +35156,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut uint32_t) = llvm_select_u32(
                 ((_8247 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _8249 = *(&mut _7634 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -35164,22 +35164,22 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8250 = memcpy(
                 &mut _7695 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _7706 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8251 = memcpy(
                 &mut _7710 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8252 = memcpy(
                 &mut _7711 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7655 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8253 = memcpy(
                 &mut _7712 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _7695 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8254 = *(&mut _7710.field0 as *mut l_array_4_float);
             _8255 = *(&mut _7711.field0 as *mut l_array_4_float);
@@ -35296,7 +35296,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8279 = memcpy(
                 &mut _7693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _7709 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8280 = _7646;
             _8281 = _7649;
@@ -35307,17 +35307,17 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     .field1 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _7693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _8283 = _7649;
-            _7649 = llvm_add_u32(_8283, 1 as core::ffi::c_int as uint32_t);
+            _7649 = llvm_add_u32(_8283, 1);
         }
         match current_block {
             10723439400549129645 => {
                 __assert_fail(
                     &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    584 as core::ffi::c_int as uint32_t,
+                    584,
                     &__PRETTY_FUNCTION___OC__Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoRK11image_blockP17partition_metrics
                         as *const l_array_104_uint8_t as *mut core::ffi::c_void,
                 );
@@ -35328,7 +35328,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            574 as core::ffi::c_int as uint32_t,
+            574,
             &__PRETTY_FUNCTION___OC__Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoRK11image_blockP17partition_metrics
                 as *const l_array_104_uint8_t as *mut core::ffi::c_void,
         );
@@ -40878,7 +40878,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
             _9739 = memcpy(
                 _9738 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _9555 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
         } else {
             _9740 = _9553;
@@ -40886,14 +40886,14 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _9741 = memset(
                     &mut _9556 as *mut l_array_3_struct_AC_l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    0 as core::ffi::c_int as uint32_t,
-                    48 as core::ffi::c_int as uint64_t,
+                    0,
+                    48,
                 );
                 _8641 = &mut _9422 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _8642 = 0 as core::ffi::c_int as uint32_t;
-                _8643 = 1 as core::ffi::c_int as uint32_t;
-                _8644 = 2 as core::ffi::c_int as uint32_t;
-                _8645 = 3 as core::ffi::c_int as uint32_t;
+                _8642 = 0;
+                _8643 = 1;
+                _8644 = 2;
+                _8645 = 3;
                 _9742 = _8641;
                 _9743 = _8642;
                 *(_9742 as *mut uint32_t) = _9743;
@@ -40915,7 +40915,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _9747 = *(&mut _9422 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                 (*(&mut _9557.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_174)).data =
                     _9747;
-                _9558 = 0 as core::ffi::c_int as uint32_t;
+                _9558 = 0;
                 loop {
                     _9748 = _9558;
                     _9749 = _9554;
@@ -40966,7 +40966,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9761 = memcpy(
                         &mut _9561 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _9557 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9762 = _9554;
                     _9411 = &mut _9562 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -41053,7 +41053,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9781 = _8748;
@@ -41069,7 +41069,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9783 = _8749;
@@ -41085,7 +41085,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9785 = _8750;
@@ -41101,7 +41101,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9787 =
@@ -41109,7 +41109,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     (*(&mut _9560.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_171))
                         .data = _9787;
                     _9409 = &mut _9563 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _9410 = 4 as core::ffi::c_int as uint32_t;
+                    _9410 = 4;
                     _9788 = _9409;
                     _9789 = _9410;
                     *(_9788 as *mut uint32_t) = _9789;
@@ -41134,13 +41134,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9794 = memcpy(
                         &mut _9107 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         _9793,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9795 = _9105;
                     _9796 = memcpy(
                         &mut _9108 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         _9795,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9797 =
                         *(&mut _9107 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -41219,21 +41219,21 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9814 = memcpy(
                         _9813,
                         &mut _9106 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9815 = _9104;
                     _9816 = memcpy(
                         &mut _9565 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _9560 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9817 = memcpy(
                         &mut _9567 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _9559 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9407 = &mut _9568 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _9408 = 0 as core::ffi::c_int as uint32_t;
+                    _9408 = 0;
                     _9818 = _9407;
                     _9819 = _9408;
                     *(_9818 as *mut uint32_t) = _9819;
@@ -41316,7 +41316,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9836 = _8808;
@@ -41332,7 +41332,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9838 = _8809;
@@ -41348,7 +41348,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9840 = _8810;
@@ -41364,7 +41364,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9842 =
@@ -41435,7 +41435,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9856 = _8778;
@@ -41451,7 +41451,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9858 = _8779;
@@ -41467,7 +41467,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9860 = _8780;
@@ -41483,7 +41483,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _9862 =
@@ -41538,12 +41538,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9876 = memcpy(
                         &mut _9570 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9569 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9877 = memcpy(
                         &mut _9571 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _9564 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9878 = *(&mut _9570.field0 as *mut l_array_4_float);
                     _9879 = (*(&mut _9571.field0 as *mut l_array_4_uint32_t
@@ -41584,12 +41584,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9886 = memcpy(
                         &mut _9131 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9887 = memcpy(
                         &mut _9132 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _9127 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9888 =
                         *(&mut _9130 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -41715,13 +41715,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9913 = memcpy(
                         &mut _9126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9129 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9914 = _9128;
                     _9915 = memcpy(
                         &mut _9133 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9126 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9916 =
                         *(&mut _9133 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -41732,12 +41732,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9918 = memcpy(
                         &mut _8629 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _9917,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9919 = memcpy(
                         &mut _8630 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8626 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9920 =
                         *(&mut _8629 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -41817,7 +41817,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9937 = memcpy(
                         _9936,
                         &mut _8628 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9938 = _9551;
                     _9939 = _9558;
@@ -41867,12 +41867,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9951 = memcpy(
                         &mut _9573 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9572 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9952 = memcpy(
                         &mut _9574 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _9564 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9953 = *(&mut _9573.field0 as *mut l_array_4_float);
                     _9954 = (*(&mut _9574.field0 as *mut l_array_4_uint32_t
@@ -41913,12 +41913,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9961 = memcpy(
                         &mut _9146 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9141 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9962 = memcpy(
                         &mut _9147 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _9142 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9963 =
                         *(&mut _9145 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -42044,13 +42044,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9988 = memcpy(
                         &mut _9141 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9144 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9989 = _9143;
                     _9990 = memcpy(
                         &mut _9148 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9141 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9991 =
                         *(&mut _9148 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -42061,12 +42061,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9993 = memcpy(
                         &mut _8616 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _9992,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9994 = memcpy(
                         &mut _8617 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8613 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _9995 =
                         *(&mut _8616 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -42146,7 +42146,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10012 = memcpy(
                         _10011,
                         &mut _8615 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10013 = _9551;
                     _10014 = _9558;
@@ -42197,12 +42197,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10026 = memcpy(
                         &mut _9576 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9575 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10027 = memcpy(
                         &mut _9577 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _9564 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10028 = *(&mut _9576.field0 as *mut l_array_4_float);
                     _10029 = (*(&mut _9577.field0 as *mut l_array_4_uint32_t
@@ -42243,12 +42243,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10036 = memcpy(
                         &mut _9161 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9156 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10037 = memcpy(
                         &mut _9162 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _9157 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10038 =
                         *(&mut _9160 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -42374,13 +42374,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10063 = memcpy(
                         &mut _9156 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9159 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10064 = _9158;
                     _10065 = memcpy(
                         &mut _9163 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9156 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10066 =
                         *(&mut _9163 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -42391,12 +42391,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10068 = memcpy(
                         &mut _8603 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _10067,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10069 = memcpy(
                         &mut _8604 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _8600 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10070 =
                         *(&mut _8603 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -42476,10 +42476,10 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10087 = memcpy(
                         _10086,
                         &mut _8602 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10088 = _9558;
-                    _9558 = llvm_add_u32(_10088, 4 as core::ffi::c_int as uint32_t);
+                    _9558 = llvm_add_u32(_10088, 4);
                 }
                 _10089 = _9551;
                 _9527 = &mut (*(_10089 as *mut l_struct_struct_OC_image_block)).field7
@@ -42535,7 +42535,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _10106 = memcpy(
                     &mut _9004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9002 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10107 = _9003;
                 _8999 = &mut _9005 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -42637,7 +42637,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         .offset(0 as core::ffi::c_int as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10131 = *(&mut _9581.field0 as *mut l_array_4_float);
                 *(&mut _9086 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _10131;
@@ -42668,7 +42668,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10137 = *(&mut _9582.field0 as *mut l_array_4_float);
                 *(&mut _9087 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _10137;
@@ -42699,7 +42699,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10143 = *(&mut _9583.field0 as *mut l_array_4_float);
                 *(&mut _9088 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _10143;
@@ -42757,12 +42757,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _10157 = memcpy(
                     &mut _9585 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9578 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10158 = memcpy(
                     &mut _9586 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9580 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10159 = *(&mut _9585.field0 as *mut l_array_4_float);
                 _10160 = *(&mut _9586.field0 as *mut l_array_4_float);
@@ -42836,7 +42836,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _10175 = memcpy(
                     &mut _9588 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9580 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10176 = _9550;
                 _10177 = *(&mut *((*(&mut (*(_10176 as *mut l_struct_struct_OC_partition_info))
@@ -42851,7 +42851,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _10179 = memcpy(
                     &mut _9458 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9456 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10180 = _9457;
                 _9449 = &mut _9459 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -42950,12 +42950,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _10204 = memcpy(
                     _10203 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9587 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10205 = memcpy(
                     &mut _9590 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9584 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10206 = _9550;
                 _10207 = *(&mut *((*(&mut (*(_10206 as *mut l_struct_struct_OC_partition_info))
@@ -42970,7 +42970,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _10209 = memcpy(
                     &mut _9463 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _9461 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _10210 = _9462;
                 _9447 = &mut _9464 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -43072,7 +43072,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     &mut _9589 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
             } else {
                 _10235 = _9553;
@@ -43081,14 +43081,14 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         &mut _9591
                             as *mut l_array_2_struct_AC_l_array_3_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        0 as core::ffi::c_int as uint32_t,
-                        96 as core::ffi::c_int as uint64_t,
+                        0,
+                        96,
                     );
                     _8636 = &mut _9423 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _8637 = 0 as core::ffi::c_int as uint32_t;
-                    _8638 = 1 as core::ffi::c_int as uint32_t;
-                    _8639 = 2 as core::ffi::c_int as uint32_t;
-                    _8640 = 3 as core::ffi::c_int as uint32_t;
+                    _8637 = 0;
+                    _8638 = 1;
+                    _8639 = 2;
+                    _8640 = 3;
                     _10237 = _8636;
                     _10238 = _8637;
                     *(_10237 as *mut uint32_t) = _10238;
@@ -43111,7 +43111,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         *(&mut _9423 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _9592.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_161))
                         .data = _10242;
-                    _9593 = 0 as core::ffi::c_int as uint32_t;
+                    _9593 = 0;
                     loop {
                         _10243 = _9593;
                         _10244 = _9554;
@@ -43164,7 +43164,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10256 = memcpy(
                             &mut _9596 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _9592 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10257 = _9554;
                         _9405 =
@@ -43258,7 +43258,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10276 = _8743;
@@ -43275,7 +43275,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10278 = _8744;
@@ -43292,7 +43292,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10280 = _8745;
@@ -43309,7 +43309,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10282 = *(&mut _9416 as *mut l_struct_struct_OC_vmask4
@@ -43319,7 +43319,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .data = _10282;
                         _9403 =
                             &mut _9598 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9404 = 4 as core::ffi::c_int as uint32_t;
+                        _9404 = 4;
                         _10283 = _9403;
                         _10284 = _9404;
                         *(_10283 as *mut uint32_t) = _10284;
@@ -43346,13 +43346,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10289 = memcpy(
                             &mut _9112 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _10288,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10290 = _9110;
                         _10291 = memcpy(
                             &mut _9113 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _10290,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10292 = *(&mut _9112 as *mut l_struct_struct_OC_vint4
                             as *mut l_array_2_uint64_t);
@@ -43432,22 +43432,22 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10309 = memcpy(
                             _10308,
                             &mut _9111 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10310 = _9109;
                         _10311 = memcpy(
                             &mut _9600 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9595 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10312 = memcpy(
                             &mut _9602 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _9594 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9401 =
                             &mut _9603 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9402 = 0 as core::ffi::c_int as uint32_t;
+                        _9402 = 0;
                         _10313 = _9401;
                         _10314 = _9402;
                         *(_10313 as *mut uint32_t) = _10314;
@@ -43532,7 +43532,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10331 = _8803;
@@ -43549,7 +43549,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10333 = _8804;
@@ -43566,7 +43566,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10335 = _8805;
@@ -43583,7 +43583,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10337 = *(&mut _9047 as *mut l_struct_struct_OC_vmask4
@@ -43661,7 +43661,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10351 = _8773;
@@ -43678,7 +43678,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10353 = _8774;
@@ -43695,7 +43695,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10355 = _8775;
@@ -43712,7 +43712,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10357 = *(&mut _9065 as *mut l_struct_struct_OC_vmask4
@@ -43723,16 +43723,16 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10358 = memcpy(
                             &mut _9605 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9595 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10359 = memcpy(
                             &mut _9607 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _9594 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9399 =
                             &mut _9608 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9400 = 1 as core::ffi::c_int as uint32_t;
+                        _9400 = 1;
                         _10360 = _9399;
                         _10361 = _9400;
                         *(_10360 as *mut uint32_t) = _10361;
@@ -43817,7 +43817,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10378 = _8798;
@@ -43834,7 +43834,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10380 = _8799;
@@ -43851,7 +43851,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10382 = _8800;
@@ -43868,7 +43868,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10384 = *(&mut _9050 as *mut l_struct_struct_OC_vmask4
@@ -43946,7 +43946,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10398 = _8768;
@@ -43963,7 +43963,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10400 = _8769;
@@ -43980,7 +43980,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10402 = _8770;
@@ -43997,7 +43997,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _10404 = *(&mut _9068 as *mut l_struct_struct_OC_vmask4
@@ -44055,12 +44055,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10418 = memcpy(
                             &mut _9610 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9609 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10419 = memcpy(
                             &mut _9611 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9599 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10420 = *(&mut _9610.field0 as *mut l_array_4_float);
                         _10421 = (*(&mut _9611.field0 as *mut l_array_4_uint32_t
@@ -44106,12 +44106,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10428 = memcpy(
                             &mut _9176 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9171 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10429 = memcpy(
                             &mut _9177 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9172 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10430 = *(&mut _9175 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44238,13 +44238,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10455 = memcpy(
                             &mut _9171 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9174 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10456 = _9173;
                         _10457 = memcpy(
                             &mut _9178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9171 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10458 = *(&mut _9178 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44255,12 +44255,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10460 = memcpy(
                             &mut _8590 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _10459,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10461 = memcpy(
                             &mut _8591 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8587 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10462 = *(&mut _8590 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44341,17 +44341,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10479 = memcpy(
                             _10478,
                             &mut _8589 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10480 = memcpy(
                             &mut _9612 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9609 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10481 = memcpy(
                             &mut _9613 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9604 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10482 = *(&mut _9612.field0 as *mut l_array_4_float);
                         _10483 = (*(&mut _9613.field0 as *mut l_array_4_uint32_t
@@ -44397,12 +44397,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10490 = memcpy(
                             &mut _9191 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10491 = memcpy(
                             &mut _9192 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9187 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10492 = *(&mut _9190 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44529,13 +44529,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10517 = memcpy(
                             &mut _9186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9189 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10518 = _9188;
                         _10519 = memcpy(
                             &mut _9193 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9186 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10520 = *(&mut _9193 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44546,12 +44546,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10522 = memcpy(
                             &mut _8577 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _10521,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10523 = memcpy(
                             &mut _8578 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8574 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10524 = *(&mut _8577 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44632,7 +44632,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10541 = memcpy(
                             _10540,
                             &mut _8576 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10542 = _9551;
                         _10543 = _9593;
@@ -44684,12 +44684,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10555 = memcpy(
                             &mut _9615 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9614 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10556 = memcpy(
                             &mut _9616 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9599 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10557 = *(&mut _9615.field0 as *mut l_array_4_float);
                         _10558 = (*(&mut _9616.field0 as *mut l_array_4_uint32_t
@@ -44735,12 +44735,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10565 = memcpy(
                             &mut _9206 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10566 = memcpy(
                             &mut _9207 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9202 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10567 = *(&mut _9205 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44867,13 +44867,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10592 = memcpy(
                             &mut _9201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9204 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10593 = _9203;
                         _10594 = memcpy(
                             &mut _9208 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9201 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10595 = *(&mut _9208 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44884,12 +44884,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10597 = memcpy(
                             &mut _8564 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _10596,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10598 = memcpy(
                             &mut _8565 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8561 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10599 = *(&mut _8564 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -44970,17 +44970,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10616 = memcpy(
                             _10615,
                             &mut _8563 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10617 = memcpy(
                             &mut _9617 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9614 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10618 = memcpy(
                             &mut _9618 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9604 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10619 = *(&mut _9617.field0 as *mut l_array_4_float);
                         _10620 = (*(&mut _9618.field0 as *mut l_array_4_uint32_t
@@ -45026,12 +45026,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10627 = memcpy(
                             &mut _9221 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10628 = memcpy(
                             &mut _9222 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9217 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10629 = *(&mut _9220 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45158,13 +45158,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10654 = memcpy(
                             &mut _9216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9219 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10655 = _9218;
                         _10656 = memcpy(
                             &mut _9223 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9216 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10657 = *(&mut _9223 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45175,12 +45175,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10659 = memcpy(
                             &mut _8551 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _10658,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10660 = memcpy(
                             &mut _8552 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8548 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10661 = *(&mut _8551 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45261,7 +45261,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10678 = memcpy(
                             _10677,
                             &mut _8550 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10679 = _9551;
                         _10680 = _9593;
@@ -45313,12 +45313,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10692 = memcpy(
                             &mut _9620 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9619 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10693 = memcpy(
                             &mut _9621 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9599 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10694 = *(&mut _9620.field0 as *mut l_array_4_float);
                         _10695 = (*(&mut _9621.field0 as *mut l_array_4_uint32_t
@@ -45364,12 +45364,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10702 = memcpy(
                             &mut _9236 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10703 = memcpy(
                             &mut _9237 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9232 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10704 = *(&mut _9235 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45496,13 +45496,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10729 = memcpy(
                             &mut _9231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9234 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10730 = _9233;
                         _10731 = memcpy(
                             &mut _9238 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9231 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10732 = *(&mut _9238 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45513,12 +45513,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10734 = memcpy(
                             &mut _8538 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _10733,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10735 = memcpy(
                             &mut _8539 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8535 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10736 = *(&mut _8538 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45599,17 +45599,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10753 = memcpy(
                             _10752,
                             &mut _8537 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10754 = memcpy(
                             &mut _9622 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9619 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10755 = memcpy(
                             &mut _9623 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9604 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10756 = *(&mut _9622.field0 as *mut l_array_4_float);
                         _10757 = (*(&mut _9623.field0 as *mut l_array_4_uint32_t
@@ -45655,12 +45655,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10764 = memcpy(
                             &mut _9251 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9246 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10765 = memcpy(
                             &mut _9252 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9247 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10766 = *(&mut _9250 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45787,13 +45787,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10791 = memcpy(
                             &mut _9246 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9249 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10792 = _9248;
                         _10793 = memcpy(
                             &mut _9253 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9246 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10794 = *(&mut _9253 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45804,12 +45804,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10796 = memcpy(
                             &mut _8525 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _10795,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10797 = memcpy(
                             &mut _8526 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8522 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10798 = *(&mut _8525 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -45890,10 +45890,10 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10815 = memcpy(
                             _10814,
                             &mut _8524 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _10816 = _9593;
-                        _9593 = llvm_add_u32(_10816, 4 as core::ffi::c_int as uint32_t);
+                        _9593 = llvm_add_u32(_10816, 4);
                     }
                     _10817 = _9551;
                     _9529 = &mut (*(_10817 as *mut l_struct_struct_OC_image_block)).field7
@@ -45950,7 +45950,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10834 = memcpy(
                         &mut _9014 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10835 = _9013;
                     _9009 = &mut _9015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -46060,7 +46060,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10859 = *(&mut _9627.field0 as *mut l_array_4_float);
                     *(&mut _9089 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -46096,7 +46096,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10865 = *(&mut _9628.field0 as *mut l_array_4_float);
                     *(&mut _9090 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -46132,7 +46132,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10871 = *(&mut _9629.field0 as *mut l_array_4_float);
                     *(&mut _9091 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -46202,7 +46202,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10886 = *(&mut _9631.field0 as *mut l_array_4_float);
                     *(&mut _9092 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -46238,7 +46238,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10892 = *(&mut _9632.field0 as *mut l_array_4_float);
                     *(&mut _9093 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -46274,7 +46274,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10898 = *(&mut _9633.field0 as *mut l_array_4_float);
                     *(&mut _9094 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -46336,12 +46336,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10912 = memcpy(
                         &mut _9636 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9624 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10913 = memcpy(
                         &mut _9637 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9626 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10914 = *(&mut _9636.field0 as *mut l_array_4_float);
                     _10915 = *(&mut _9637.field0 as *mut l_array_4_float);
@@ -46417,7 +46417,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10930 = memcpy(
                         &mut _9638 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9630 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10931 = *(&mut _9635.field0 as *mut l_array_4_float);
                     _10932 = *(&mut _9638.field0 as *mut l_array_4_float);
@@ -46493,7 +46493,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10947 = memcpy(
                         &mut _9640 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9626 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10948 = _9550;
                     _10949 = *(&mut *((*(&mut (*(_10948 as *mut l_struct_struct_OC_partition_info))
@@ -46510,7 +46510,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10951 = memcpy(
                         &mut _9468 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9466 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10952 = _9467;
                     _9445 = &mut _9469 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -46613,12 +46613,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10976 = memcpy(
                         _10975 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9639 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10977 = memcpy(
                         &mut _9642 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9630 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10978 = _9550;
                     _10979 = *(&mut *((*(&mut (*(_10978 as *mut l_struct_struct_OC_partition_info))
@@ -46635,7 +46635,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10981 = memcpy(
                         &mut _9473 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9471 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _10982 = _9472;
                     _9443 = &mut _9474 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -46741,12 +46741,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _9641 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11007 = memcpy(
                         &mut _9644 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9634 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11008 = _9550;
                     _11009 = *(&mut *((*(&mut (*(_11008 as *mut l_struct_struct_OC_partition_info))
@@ -46763,7 +46763,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _11011 = memcpy(
                         &mut _9478 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9476 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11012 = _9477;
                     _9441 = &mut _9479 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -46869,21 +46869,21 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _9643 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 } else {
                     _11037 = memset(
                         &mut _9645
                             as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        0 as core::ffi::c_int as uint32_t,
-                        144 as core::ffi::c_int as uint64_t,
+                        0,
+                        144,
                     );
                     _8631 = &mut _9424 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _8632 = 0 as core::ffi::c_int as uint32_t;
-                    _8633 = 1 as core::ffi::c_int as uint32_t;
-                    _8634 = 2 as core::ffi::c_int as uint32_t;
-                    _8635 = 3 as core::ffi::c_int as uint32_t;
+                    _8632 = 0;
+                    _8633 = 1;
+                    _8634 = 2;
+                    _8635 = 3;
                     _11038 = _8631;
                     _11039 = _8632;
                     *(_11038 as *mut uint32_t) = _11039;
@@ -46906,7 +46906,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         *(&mut _9424 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _9646.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_139))
                         .data = _11043;
-                    _9647 = 0 as core::ffi::c_int as uint32_t;
+                    _9647 = 0;
                     loop {
                         _11044 = _9647;
                         _11045 = _9554;
@@ -46959,7 +46959,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11057 = memcpy(
                             &mut _9650 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _9646 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11058 = _9554;
                         _9397 =
@@ -47053,7 +47053,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11077 = _8738;
@@ -47070,7 +47070,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11079 = _8739;
@@ -47087,7 +47087,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11081 = _8740;
@@ -47104,7 +47104,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11083 = *(&mut _9419 as *mut l_struct_struct_OC_vmask4
@@ -47114,7 +47114,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .data = _11083;
                         _9395 =
                             &mut _9652 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9396 = 4 as core::ffi::c_int as uint32_t;
+                        _9396 = 4;
                         _11084 = _9395;
                         _11085 = _9396;
                         *(_11084 as *mut uint32_t) = _11085;
@@ -47141,13 +47141,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11090 = memcpy(
                             &mut _9117 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _11089,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11091 = _9115;
                         _11092 = memcpy(
                             &mut _9118 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             _11091,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11093 = *(&mut _9117 as *mut l_struct_struct_OC_vint4
                             as *mut l_array_2_uint64_t);
@@ -47227,22 +47227,22 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11110 = memcpy(
                             _11109,
                             &mut _9116 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11111 = _9114;
                         _11112 = memcpy(
                             &mut _9654 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9649 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11113 = memcpy(
                             &mut _9656 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _9648 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9393 =
                             &mut _9657 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9394 = 0 as core::ffi::c_int as uint32_t;
+                        _9394 = 0;
                         _11114 = _9393;
                         _11115 = _9394;
                         *(_11114 as *mut uint32_t) = _11115;
@@ -47327,7 +47327,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11132 = _8793;
@@ -47344,7 +47344,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11134 = _8794;
@@ -47361,7 +47361,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11136 = _8795;
@@ -47378,7 +47378,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11138 = *(&mut _9053 as *mut l_struct_struct_OC_vmask4
@@ -47456,7 +47456,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11152 = _8763;
@@ -47473,7 +47473,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11154 = _8764;
@@ -47490,7 +47490,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11156 = _8765;
@@ -47507,7 +47507,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11158 = *(&mut _9071 as *mut l_struct_struct_OC_vmask4
@@ -47518,16 +47518,16 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11159 = memcpy(
                             &mut _9659 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9649 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11160 = memcpy(
                             &mut _9661 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _9648 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9391 =
                             &mut _9662 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9392 = 1 as core::ffi::c_int as uint32_t;
+                        _9392 = 1;
                         _11161 = _9391;
                         _11162 = _9392;
                         *(_11161 as *mut uint32_t) = _11162;
@@ -47612,7 +47612,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11179 = _8788;
@@ -47629,7 +47629,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11181 = _8789;
@@ -47646,7 +47646,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11183 = _8790;
@@ -47663,7 +47663,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11185 = *(&mut _9056 as *mut l_struct_struct_OC_vmask4
@@ -47741,7 +47741,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11199 = _8758;
@@ -47758,7 +47758,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11201 = _8759;
@@ -47775,7 +47775,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11203 = _8760;
@@ -47792,7 +47792,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11205 = *(&mut _9074 as *mut l_struct_struct_OC_vmask4
@@ -47803,16 +47803,16 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11206 = memcpy(
                             &mut _9664 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9649 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11207 = memcpy(
                             &mut _9666 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                             &mut _9648 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _9389 =
                             &mut _9667 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9390 = 2 as core::ffi::c_int as uint32_t;
+                        _9390 = 2;
                         _11208 = _9389;
                         _11209 = _9390;
                         *(_11208 as *mut uint32_t) = _11209;
@@ -47897,7 +47897,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11226 = _8783;
@@ -47914,7 +47914,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11228 = _8784;
@@ -47931,7 +47931,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11230 = _8785;
@@ -47948,7 +47948,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11232 = *(&mut _9059 as *mut l_struct_struct_OC_vmask4
@@ -48026,7 +48026,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11246 = _8753;
@@ -48043,7 +48043,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11248 = _8754;
@@ -48060,7 +48060,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11250 = _8755;
@@ -48077,7 +48077,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                                 as uint32_t
                                 == 0 as core::ffi::c_uint)
                                 as core::ffi::c_int as bool_0,
-                            0 as core::ffi::c_int as uint32_t,
+                            0,
                             -(1 as core::ffi::c_int) as uint32_t,
                         );
                         _11252 = *(&mut _9077 as *mut l_struct_struct_OC_vmask4
@@ -48135,12 +48135,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11266 = memcpy(
                             &mut _9669 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11267 = memcpy(
                             &mut _9670 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9653 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11268 = *(&mut _9669.field0 as *mut l_array_4_float);
                         _11269 = (*(&mut _9670.field0 as *mut l_array_4_uint32_t
@@ -48186,12 +48186,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11276 = memcpy(
                             &mut _9266 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11277 = memcpy(
                             &mut _9267 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9262 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11278 = *(&mut _9265 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48318,13 +48318,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11303 = memcpy(
                             &mut _9261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9264 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11304 = _9263;
                         _11305 = memcpy(
                             &mut _9268 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11306 = *(&mut _9268 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48335,12 +48335,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11308 = memcpy(
                             &mut _8512 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11307,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11309 = memcpy(
                             &mut _8513 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8509 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11310 = *(&mut _8512 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48421,17 +48421,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11327 = memcpy(
                             _11326,
                             &mut _8511 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11328 = memcpy(
                             &mut _9671 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11329 = memcpy(
                             &mut _9672 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9658 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11330 = *(&mut _9671.field0 as *mut l_array_4_float);
                         _11331 = (*(&mut _9672.field0 as *mut l_array_4_uint32_t
@@ -48477,12 +48477,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11338 = memcpy(
                             &mut _9281 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9276 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11339 = memcpy(
                             &mut _9282 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9277 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11340 = *(&mut _9280 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48609,13 +48609,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11365 = memcpy(
                             &mut _9276 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9279 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11366 = _9278;
                         _11367 = memcpy(
                             &mut _9283 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9276 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11368 = *(&mut _9283 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48626,12 +48626,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11370 = memcpy(
                             &mut _8499 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11369,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11371 = memcpy(
                             &mut _8500 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8496 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11372 = *(&mut _8499 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48712,17 +48712,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11389 = memcpy(
                             _11388,
                             &mut _8498 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11390 = memcpy(
                             &mut _9673 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11391 = memcpy(
                             &mut _9674 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9663 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11392 = *(&mut _9673.field0 as *mut l_array_4_float);
                         _11393 = (*(&mut _9674.field0 as *mut l_array_4_uint32_t
@@ -48768,12 +48768,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11400 = memcpy(
                             &mut _9296 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9291 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11401 = memcpy(
                             &mut _9297 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9292 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11402 = *(&mut _9295 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48900,13 +48900,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11427 = memcpy(
                             &mut _9291 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9294 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11428 = _9293;
                         _11429 = memcpy(
                             &mut _9298 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9291 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11430 = *(&mut _9298 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -48917,12 +48917,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11432 = memcpy(
                             &mut _8486 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11431,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11433 = memcpy(
                             &mut _8487 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8483 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11434 = *(&mut _8486 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49003,7 +49003,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11451 = memcpy(
                             _11450,
                             &mut _8485 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11452 = _9551;
                         _11453 = _9647;
@@ -49055,12 +49055,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11465 = memcpy(
                             &mut _9676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11466 = memcpy(
                             &mut _9677 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9653 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11467 = *(&mut _9676.field0 as *mut l_array_4_float);
                         _11468 = (*(&mut _9677.field0 as *mut l_array_4_uint32_t
@@ -49106,12 +49106,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11475 = memcpy(
                             &mut _9311 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9306 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11476 = memcpy(
                             &mut _9312 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9307 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11477 = *(&mut _9310 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49238,13 +49238,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11502 = memcpy(
                             &mut _9306 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9309 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11503 = _9308;
                         _11504 = memcpy(
                             &mut _9313 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9306 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11505 = *(&mut _9313 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49255,12 +49255,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11507 = memcpy(
                             &mut _8473 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11506,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11508 = memcpy(
                             &mut _8474 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8470 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11509 = *(&mut _8473 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49341,17 +49341,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11526 = memcpy(
                             _11525,
                             &mut _8472 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11527 = memcpy(
                             &mut _9678 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11528 = memcpy(
                             &mut _9679 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9658 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11529 = *(&mut _9678.field0 as *mut l_array_4_float);
                         _11530 = (*(&mut _9679.field0 as *mut l_array_4_uint32_t
@@ -49397,12 +49397,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11537 = memcpy(
                             &mut _9326 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11538 = memcpy(
                             &mut _9327 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9322 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11539 = *(&mut _9325 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49529,13 +49529,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11564 = memcpy(
                             &mut _9321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9324 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11565 = _9323;
                         _11566 = memcpy(
                             &mut _9328 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11567 = *(&mut _9328 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49546,12 +49546,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11569 = memcpy(
                             &mut _8460 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11568,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11570 = memcpy(
                             &mut _8461 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8457 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11571 = *(&mut _8460 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49632,17 +49632,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11588 = memcpy(
                             _11587,
                             &mut _8459 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11589 = memcpy(
                             &mut _9680 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11590 = memcpy(
                             &mut _9681 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9663 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11591 = *(&mut _9680.field0 as *mut l_array_4_float);
                         _11592 = (*(&mut _9681.field0 as *mut l_array_4_uint32_t
@@ -49688,12 +49688,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11599 = memcpy(
                             &mut _9341 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9336 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11600 = memcpy(
                             &mut _9342 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9337 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11601 = *(&mut _9340 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49820,13 +49820,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11626 = memcpy(
                             &mut _9336 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9339 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11627 = _9338;
                         _11628 = memcpy(
                             &mut _9343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9336 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11629 = *(&mut _9343 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49837,12 +49837,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11631 = memcpy(
                             &mut _8447 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11630,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11632 = memcpy(
                             &mut _8448 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8444 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11633 = *(&mut _8447 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -49923,7 +49923,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11650 = memcpy(
                             _11649,
                             &mut _8446 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11651 = _9551;
                         _11652 = _9647;
@@ -49975,12 +49975,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11664 = memcpy(
                             &mut _9683 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9682 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11665 = memcpy(
                             &mut _9684 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9653 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11666 = *(&mut _9683.field0 as *mut l_array_4_float);
                         _11667 = (*(&mut _9684.field0 as *mut l_array_4_uint32_t
@@ -50026,12 +50026,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11674 = memcpy(
                             &mut _9356 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11675 = memcpy(
                             &mut _9357 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9352 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11676 = *(&mut _9355 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50158,13 +50158,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11701 = memcpy(
                             &mut _9351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9354 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11702 = _9353;
                         _11703 = memcpy(
                             &mut _9358 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9351 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11704 = *(&mut _9358 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50175,12 +50175,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11706 = memcpy(
                             &mut _8434 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11705,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11707 = memcpy(
                             &mut _8435 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8431 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11708 = *(&mut _8434 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50261,17 +50261,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11725 = memcpy(
                             _11724,
                             &mut _8433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11726 = memcpy(
                             &mut _9685 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9682 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11727 = memcpy(
                             &mut _9686 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9658 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11728 = *(&mut _9685.field0 as *mut l_array_4_float);
                         _11729 = (*(&mut _9686.field0 as *mut l_array_4_uint32_t
@@ -50317,12 +50317,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11736 = memcpy(
                             &mut _9371 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11737 = memcpy(
                             &mut _9372 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9367 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11738 = *(&mut _9370 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50449,13 +50449,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11763 = memcpy(
                             &mut _9366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9369 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11764 = _9368;
                         _11765 = memcpy(
                             &mut _9373 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11766 = *(&mut _9373 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50466,12 +50466,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11768 = memcpy(
                             &mut _8421 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11767,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11769 = memcpy(
                             &mut _8422 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8418 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11770 = *(&mut _8421 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50552,17 +50552,17 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11787 = memcpy(
                             _11786,
                             &mut _8420 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11788 = memcpy(
                             &mut _9687 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9682 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11789 = memcpy(
                             &mut _9688 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9663 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11790 = *(&mut _9687.field0 as *mut l_array_4_float);
                         _11791 = (*(&mut _9688.field0 as *mut l_array_4_uint32_t
@@ -50608,12 +50608,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11798 = memcpy(
                             &mut _9386 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11799 = memcpy(
                             &mut _9387 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                             &mut _9382 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11800 = *(&mut _9385 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50740,13 +50740,13 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11825 = memcpy(
                             &mut _9381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9384 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11826 = _9383;
                         _11827 = memcpy(
                             &mut _9388 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _9381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11828 = *(&mut _9388 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50757,12 +50757,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11830 = memcpy(
                             &mut _8408 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             _11829,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11831 = memcpy(
                             &mut _8409 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                             &mut _8405 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11832 = *(&mut _8408 as *mut l_struct_struct_OC_vfloat4
                             as *mut l_array_4_float);
@@ -50843,10 +50843,10 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11849 = memcpy(
                             _11848,
                             &mut _8407 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _11850 = _9647;
-                        _9647 = llvm_add_u32(_11850, 4 as core::ffi::c_int as uint32_t);
+                        _9647 = llvm_add_u32(_11850, 4);
                     }
                     _11851 = _9551;
                     _9531 = &mut (*(_11851 as *mut l_struct_struct_OC_image_block)).field7
@@ -50903,7 +50903,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _11868 = memcpy(
                         &mut _9024 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9022 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11869 = _9023;
                     _9019 = &mut _9025 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -51013,7 +51013,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11893 = *(&mut _9692.field0 as *mut l_array_4_float);
                     *(&mut _9095 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51049,7 +51049,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11899 = *(&mut _9693.field0 as *mut l_array_4_float);
                     *(&mut _9096 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51085,7 +51085,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11905 = *(&mut _9694.field0 as *mut l_array_4_float);
                     *(&mut _9097 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51155,7 +51155,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11920 = *(&mut _9696.field0 as *mut l_array_4_float);
                     *(&mut _9098 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51191,7 +51191,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11926 = *(&mut _9697.field0 as *mut l_array_4_float);
                     *(&mut _9099 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51227,7 +51227,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11932 = *(&mut _9698.field0 as *mut l_array_4_float);
                     *(&mut _9100 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51297,7 +51297,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11947 = *(&mut _9700.field0 as *mut l_array_4_float);
                     *(&mut _9101 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51333,7 +51333,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11953 = *(&mut _9701.field0 as *mut l_array_4_float);
                     *(&mut _9102 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51369,7 +51369,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .offset(2 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11959 = *(&mut _9702.field0 as *mut l_array_4_float);
                     *(&mut _9103 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -51431,12 +51431,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _11973 = memcpy(
                         &mut _9706 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9689 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11974 = memcpy(
                         &mut _9707 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9691 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11975 = *(&mut _9706.field0 as *mut l_array_4_float);
                     _11976 = *(&mut _9707.field0 as *mut l_array_4_float);
@@ -51512,7 +51512,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _11991 = memcpy(
                         &mut _9708 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9695 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _11992 = *(&mut _9705.field0 as *mut l_array_4_float);
                     _11993 = *(&mut _9708.field0 as *mut l_array_4_float);
@@ -51588,7 +51588,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _12008 = memcpy(
                         &mut _9709 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9699 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12009 = *(&mut _9704.field0 as *mut l_array_4_float);
                     _12010 = *(&mut _9709.field0 as *mut l_array_4_float);
@@ -51664,7 +51664,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _12025 = memcpy(
                         &mut _9711 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9691 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12026 = _9550;
                     _12027 = *(&mut *((*(&mut (*(_12026 as *mut l_struct_struct_OC_partition_info))
@@ -51681,7 +51681,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _12029 = memcpy(
                         &mut _9483 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9481 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12030 = _9482;
                     _9439 = &mut _9484 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -51784,12 +51784,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _12054 = memcpy(
                         _12053 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9710 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12055 = memcpy(
                         &mut _9713 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9695 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12056 = _9550;
                     _12057 = *(&mut *((*(&mut (*(_12056 as *mut l_struct_struct_OC_partition_info))
@@ -51806,7 +51806,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _12059 = memcpy(
                         &mut _9488 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9486 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12060 = _9487;
                     _9437 = &mut _9489 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -51912,12 +51912,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _9712 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12085 = memcpy(
                         &mut _9715 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9699 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12086 = _9550;
                     _12087 = *(&mut *((*(&mut (*(_12086 as *mut l_struct_struct_OC_partition_info))
@@ -51934,7 +51934,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _12089 = memcpy(
                         &mut _9493 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9491 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12090 = _9492;
                     _9435 = &mut _9494 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -52040,12 +52040,12 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _9714 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12115 = memcpy(
                         &mut _9717 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9703 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12116 = _9550;
                     _12117 = *(&mut *((*(&mut (*(_12116 as *mut l_struct_struct_OC_partition_info))
@@ -52062,7 +52062,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _12119 = memcpy(
                         &mut _9498 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _9496 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12120 = _9497;
                     _9433 = &mut _9499 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -52168,7 +52168,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _9716 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
             }
@@ -52178,7 +52178,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
         __assert_fail(
             &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            54 as core::ffi::c_int as uint32_t,
+            54,
             &__PRETTY_FUNCTION___OC__ZL30compute_partition_averages_rgbRK14partition_infoRK11image_blockP7vfloat4
                 as *const l_array_92_uint8_t as *mut core::ffi::c_void,
         );
@@ -53440,7 +53440,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _12720 = memcpy(
                 &mut _12652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12655 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _12721 = _12648;
             _12653 = &mut *((*(&mut (*(_12721 as *mut l_struct_struct_OC_image_block)).field0
@@ -53512,7 +53512,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     _12737 = memcpy(
                         &mut _12652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _12656 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12738 = _12648;
                     _12653 = &mut *((*(&mut (*(_12738 as *mut l_struct_struct_OC_image_block))
@@ -53598,7 +53598,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                                 as *mut core::ffi::c_void,
                             &mut _12657 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
-                            16 as core::ffi::c_int as uint64_t,
+                            16,
                         );
                         _12756 = _12648;
                         _12653 = &mut *((*(&mut (*(_12756 as *mut l_struct_struct_OC_image_block))
@@ -53624,7 +53624,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                                 as *mut core::ffi::c_void,
                             &_OC_str_OC_1 as *const l_array_62_uint8_t
                                 as *mut core::ffi::c_void,
-                            659 as core::ffi::c_int as uint32_t,
+                            659,
                             &__PRETTY_FUNCTION___OC__Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11image_blockjjP17partition_metrics
                                 as *const l_array_128_uint8_t as *mut core::ffi::c_void,
                         );
@@ -53639,7 +53639,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
     _12658 = _12759 as uint32_t;
     _12760 = _12658;
     if _12760 > 0 as core::ffi::c_uint {
-        _12659 = 0 as core::ffi::c_int as uint32_t;
+        _12659 = 0;
         loop {
             _12761 = _12659;
             _12762 = _12658;
@@ -53701,9 +53701,9 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12776 = memcpy(
                     &mut _12652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12662 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
-                _12663 = 0 as core::ffi::c_int as uint32_t;
+                _12663 = 0;
                 loop {
                     _12777 = _12663;
                     _12778 = _12661;
@@ -53764,13 +53764,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     _12797 = memcpy(
                         &mut _12617 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _12796,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12798 = _12615;
                     _12799 = memcpy(
                         &mut _12618 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         _12798,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12800 =
                         *(&mut _12617 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -53851,16 +53851,16 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     _12817 = memcpy(
                         _12816,
                         &mut _12616 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _12818 = _12614;
                     _12819 = _12663;
-                    _12663 = llvm_add_u32(_12819, 1 as core::ffi::c_int as uint32_t);
+                    _12663 = llvm_add_u32(_12819, 1);
                 }
                 _12820 = memcpy(
                     &mut _12667 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12821 = _12661;
                 _12822 = *(&mut _12667.field0 as *mut l_array_4_float);
@@ -53869,7 +53869,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12823 = memcpy(
                     &mut _12572 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12570 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12824 = _12571;
                 _12561 = &mut _12573 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -53967,7 +53967,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12847 = memcpy(
                     &mut _12652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12666 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
             }
             _12848 = _12651;
@@ -53979,7 +53979,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     .field0 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _12652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _12553 = &mut _12644 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _12554 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -54025,7 +54025,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 as *mut core::ffi::c_float) = _12861;
             _12862 = _12645;
             *(&mut _12669.field0 as *mut l_array_4_float) = _12862.field0;
-            _12670 = 0 as core::ffi::c_int as uint32_t;
+            _12670 = 0;
             loop {
                 _12863 = _12670;
                 _12864 = _12661;
@@ -54080,12 +54080,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12882 = memcpy(
                     &mut _12674 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12883 = memcpy(
                     &mut _12675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12884 = *(&mut _12674.field0 as *mut l_array_4_float);
                 _12885 = *(&mut _12675.field0 as *mut l_array_4_float);
@@ -54159,7 +54159,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12900 = memcpy(
                     &mut _12672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12673 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12549 = &mut _12646 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _12550 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -54225,7 +54225,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12922 = memcpy(
                     &mut _12679 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12923 = *(&mut _12678.field0 as *mut l_array_4_float);
                 _12924 = *(&mut _12679.field0 as *mut l_array_4_float);
@@ -54290,7 +54290,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_12934 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _12936 = _12441;
@@ -54305,7 +54305,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_12936 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _12938 = _12442;
@@ -54320,7 +54320,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_12938 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _12940 = _12443;
@@ -54335,7 +54335,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_12940 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _12942 =
@@ -54345,17 +54345,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12943 = memcpy(
                     &mut _12681 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12944 = memcpy(
                     &mut _12682 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12945 = memcpy(
                     &mut _12683 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _12677 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12946 = *(&mut _12681.field0 as *mut l_array_4_float);
                 _12947 = *(&mut _12682.field0 as *mut l_array_4_float);
@@ -54480,13 +54480,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12972 = memcpy(
                     &mut _12622 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _12971,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12973 = _12620;
                 _12974 = memcpy(
                     &mut _12623 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _12973,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12975 = *(&mut _12622 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _12976 = *(&mut _12623 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -54562,7 +54562,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12992 = memcpy(
                     _12991,
                     &mut _12621 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _12993 = _12619;
                 _12601 = &mut _12672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -54619,7 +54619,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _13009 = memcpy(
                     &mut _12686 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13010 = *(&mut _12685.field0 as *mut l_array_4_float);
                 _13011 = *(&mut _12686.field0 as *mut l_array_4_float);
@@ -54684,7 +54684,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_13021 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13023 = _12436;
@@ -54699,7 +54699,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_13023 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13025 = _12437;
@@ -54714,7 +54714,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_13025 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13027 = _12438;
@@ -54729,7 +54729,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     ((_13027 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _13029 =
@@ -54739,17 +54739,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _13030 = memcpy(
                     &mut _12688 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13031 = memcpy(
                     &mut _12689 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _12672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13032 = memcpy(
                     &mut _12690 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _12684 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13033 = *(&mut _12688.field0 as *mut l_array_4_float);
                 _13034 = *(&mut _12689.field0 as *mut l_array_4_float);
@@ -54874,13 +54874,13 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _13059 = memcpy(
                     &mut _12627 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _13058,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13060 = _12625;
                 _13061 = memcpy(
                     &mut _12628 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _13060,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13062 = *(&mut _12627 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _13063 = *(&mut _12628 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -54956,21 +54956,21 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _13079 = memcpy(
                     _13078,
                     &mut _12626 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13080 = _12624;
                 _13081 = _12670;
-                _12670 = llvm_add_u32(_13081, 1 as core::ffi::c_int as uint32_t);
+                _12670 = llvm_add_u32(_13081, 1);
             }
             _13082 = memcpy(
                 &mut _12692 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13083 = memcpy(
                 &mut _12693 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13084 = *(&mut _12692.field0 as *mut l_array_4_float);
             _13085 = *(&mut _12693.field0 as *mut l_array_4_float);
@@ -54979,12 +54979,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13086 = memcpy(
                 &mut _12590 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12587 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13087 = memcpy(
                 &mut _12591 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12588 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13088 = *(&mut _12590 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _13089 = *(&mut _12591 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -55057,7 +55057,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13104 = memcpy(
                 &mut _12592 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12589 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13105 = *(&mut _12592 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _12525 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _13105;
@@ -55105,12 +55105,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13116 = memcpy(
                 &mut _12695 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12669 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13117 = memcpy(
                 &mut _12696 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12669 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13118 = *(&mut _12695.field0 as *mut l_array_4_float);
             _13119 = *(&mut _12696.field0 as *mut l_array_4_float);
@@ -55119,12 +55119,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13120 = memcpy(
                 &mut _12597 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12594 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13121 = memcpy(
                 &mut _12598 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12595 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13122 = *(&mut _12597 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             _13123 = *(&mut _12598 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -55197,7 +55197,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13138 = memcpy(
                 &mut _12599 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12596 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13139 = *(&mut _12599 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _12524 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _13139;
@@ -55245,22 +55245,22 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13150 = memcpy(
                 &mut _12697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13151 = memcpy(
                 &mut _12698 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12691 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13152 = memcpy(
                 &mut _12700 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13153 = memcpy(
                 &mut _12701 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12698 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13154 = *(&mut _12700.field0 as *mut l_array_4_float);
             _13155 = *(&mut _12701.field0 as *mut l_array_4_float);
@@ -55321,7 +55321,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             *(_13164 as *mut uint32_t) = llvm_select_u32(
                 ((_13165 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _13167 = _12431;
@@ -55334,7 +55334,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_13167 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _13169 = _12432;
@@ -55347,7 +55347,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_13169 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _13171 = _12433;
@@ -55360,7 +55360,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 as *mut uint32_t) = llvm_select_u32(
                 ((_13171 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _13173 = *(&mut _12637 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -55369,17 +55369,17 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13174 = memcpy(
                 &mut _12703 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13175 = memcpy(
                 &mut _12704 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12669 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13176 = memcpy(
                 &mut _12705 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _12699 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13177 = *(&mut _12703.field0 as *mut l_array_4_float);
             _13178 = *(&mut _12704.field0 as *mut l_array_4_float);
@@ -55499,7 +55499,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13202 = memcpy(
                 &mut _12697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _12702 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13203 = _12651;
             _13204 = _12659;
@@ -55510,10 +55510,10 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     .field1 as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void,
                 &mut _12697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13206 = _12659;
-            _12659 = llvm_add_u32(_13206, 1 as core::ffi::c_int as uint32_t);
+            _12659 = llvm_add_u32(_13206, 1);
         }
         match current_block {
             9854949458008704978 => return,
@@ -55521,7 +55521,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 __assert_fail(
                     &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    674 as core::ffi::c_int as uint32_t,
+                    674,
                     &__PRETTY_FUNCTION___OC__Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11image_blockjjP17partition_metrics
                         as *const l_array_128_uint8_t as *mut core::ffi::c_void,
                 );
@@ -55531,7 +55531,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            668 as core::ffi::c_int as uint32_t,
+            668,
             &__PRETTY_FUNCTION___OC__Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11image_blockjjP17partition_metrics
                 as *const l_array_128_uint8_t as *mut core::ffi::c_void,
         );
@@ -59038,7 +59038,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             as *mut core::ffi::c_float) = _14168;
         _14169 = _13968;
         *(&mut _13978.field0 as *mut l_array_4_float) = _14169.field0;
-        _13979 = 0 as core::ffi::c_int as uint32_t;
+        _13979 = 0;
         loop {
             _14170 = _13979;
             _14171 = _13976;
@@ -59067,7 +59067,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     .offset(_14175 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_processed_line4
                     as *mut core::ffi::c_void,
-                32 as core::ffi::c_int as uint64_t,
+                32,
             );
             _14177 = _13972;
             _14178 = _13979;
@@ -59077,7 +59077,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     .offset(_14178 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_processed_line4
                     as *mut core::ffi::c_void,
-                32 as core::ffi::c_int as uint64_t,
+                32,
             );
             _14180 = _13969;
             _14181 = _13979;
@@ -59411,7 +59411,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             _14268 = memcpy(
                 &mut _13997 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _13982.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _13909 = &mut _13998 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _13910 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -59492,7 +59492,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             *(_14284 as *mut uint32_t) = llvm_select_u32(
                 ((_14285 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _14287 = _13337;
@@ -59505,7 +59505,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 as *mut uint32_t) = llvm_select_u32(
                 ((_14287 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _14289 = _13338;
@@ -59518,7 +59518,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 as *mut uint32_t) = llvm_select_u32(
                 ((_14289 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _14291 = _13339;
@@ -59531,7 +59531,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 as *mut uint32_t) = llvm_select_u32(
                 ((_14291 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _14293 = *(&mut _13880 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -59543,7 +59543,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             _14295 = memcpy(
                 &mut _13884 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _13883 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _14296 = *(&mut _13884 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
             *(&mut _13334 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _14296;
@@ -59566,12 +59566,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            if !(_14297 & 1 as core::ffi::c_int as uint32_t
-                | _14298 & 2 as core::ffi::c_int as uint32_t
-                | _14299 & 4 as core::ffi::c_int as uint32_t
-                | _14300 & 8 as core::ffi::c_int as uint32_t
-                == 15 as core::ffi::c_uint)
-            {
+            if !(_14297 & 1 | _14298 & 2 | _14299 & 4 | _14300 & 8 == 15 as core::ffi::c_uint) {
                 current_block = 9473594514544106171;
                 break;
             }
@@ -59725,10 +59720,10 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _14342;
             _13329 = &mut _13879 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-            _13330 = 0 as core::ffi::c_int as uint32_t;
-            _13331 = 1 as core::ffi::c_int as uint32_t;
-            _13332 = 2 as core::ffi::c_int as uint32_t;
-            _13333 = 3 as core::ffi::c_int as uint32_t;
+            _13330 = 0;
+            _13331 = 1;
+            _13332 = 2;
+            _13333 = 3;
             _14343 = _13329;
             _14344 = _13330;
             *(_14343 as *mut uint32_t) = _14344;
@@ -59750,7 +59745,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             _14348 = *(&mut _13879 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
             (*(&mut _14005.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_186)).data =
                 _14348;
-            _14006 = 0 as core::ffi::c_int as uint32_t;
+            _14006 = 0;
             loop {
                 _14349 = _14006;
                 _14350 = _13983;
@@ -59760,7 +59755,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14351 = memcpy(
                     &mut _14008 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _14005 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14352 = _13983;
                 _13874 = &mut _14009 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -59844,7 +59839,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     ((_14369 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _14371 = _13342;
@@ -59859,7 +59854,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     ((_14371 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _14373 = _13343;
@@ -59874,7 +59869,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     ((_14373 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _14375 = _13344;
@@ -59889,7 +59884,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     ((_14375 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _14377 =
@@ -60160,12 +60155,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14476 = memcpy(
                     &mut _14019 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14011 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14477 = memcpy(
                     &mut _14020 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14478 = *(&mut _14019.field0 as *mut l_array_4_float);
                 _14479 = *(&mut _14020.field0 as *mut l_array_4_float);
@@ -60239,12 +60234,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14494 = memcpy(
                     &mut _14022 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14495 = memcpy(
                     &mut _14023 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13985 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14496 = *(&mut _14022.field0 as *mut l_array_4_float);
                 _14497 = *(&mut _14023.field0 as *mut l_array_4_float);
@@ -60387,12 +60382,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14528 = memcpy(
                     &mut _14025 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14013 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14529 = memcpy(
                     &mut _14026 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13986 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14530 = *(&mut _14025.field0 as *mut l_array_4_float);
                 _14531 = *(&mut _14026.field0 as *mut l_array_4_float);
@@ -60535,12 +60530,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14562 = memcpy(
                     &mut _14028 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14014 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14563 = memcpy(
                     &mut _14029 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13987 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14564 = *(&mut _14028.field0 as *mut l_array_4_float);
                 _14565 = *(&mut _14029.field0 as *mut l_array_4_float);
@@ -60683,12 +60678,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14596 = memcpy(
                     &mut _14031 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14597 = memcpy(
                     &mut _14032 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13999 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14598 = *(&mut _14031.field0 as *mut l_array_4_float);
                 _14599 = *(&mut _14032.field0 as *mut l_array_4_float);
@@ -60830,17 +60825,17 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14626 = memcpy(
                     &mut _13999 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14030 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14627 = memcpy(
                     &mut _14034 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14628 = memcpy(
                     &mut _14035 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14000 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14629 = *(&mut _14034.field0 as *mut l_array_4_float);
                 _14630 = *(&mut _14035.field0 as *mut l_array_4_float);
@@ -60982,17 +60977,17 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14657 = memcpy(
                     &mut _14000 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14033 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14658 = memcpy(
                     &mut _14038 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13988 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14659 = memcpy(
                     &mut _14039 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14011 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14660 = *(&mut _14038.field0 as *mut l_array_4_float);
                 _14661 = *(&mut _14039.field0 as *mut l_array_4_float);
@@ -61066,12 +61061,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14676 = memcpy(
                     &mut _14041 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14677 = memcpy(
                     &mut _14042 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13984 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14678 = *(&mut _14041.field0 as *mut l_array_4_float);
                 _14679 = *(&mut _14042.field0 as *mut l_array_4_float);
@@ -61214,12 +61209,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14710 = memcpy(
                     &mut _14045 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13989 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14711 = memcpy(
                     &mut _14046 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14712 = *(&mut _14045.field0 as *mut l_array_4_float);
                 _14713 = *(&mut _14046.field0 as *mut l_array_4_float);
@@ -61293,12 +61288,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14728 = memcpy(
                     &mut _14048 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14729 = memcpy(
                     &mut _14049 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13985 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14730 = *(&mut _14048.field0 as *mut l_array_4_float);
                 _14731 = *(&mut _14049.field0 as *mut l_array_4_float);
@@ -61441,12 +61436,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14762 = memcpy(
                     &mut _14052 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13990 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14763 = memcpy(
                     &mut _14053 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14013 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14764 = *(&mut _14052.field0 as *mut l_array_4_float);
                 _14765 = *(&mut _14053.field0 as *mut l_array_4_float);
@@ -61520,12 +61515,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14780 = memcpy(
                     &mut _14055 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14781 = memcpy(
                     &mut _14056 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13986 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14782 = *(&mut _14055.field0 as *mut l_array_4_float);
                 _14783 = *(&mut _14056.field0 as *mut l_array_4_float);
@@ -61668,12 +61663,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14814 = memcpy(
                     &mut _14059 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13991 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14815 = memcpy(
                     &mut _14060 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14014 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14816 = *(&mut _14059.field0 as *mut l_array_4_float);
                 _14817 = *(&mut _14060.field0 as *mut l_array_4_float);
@@ -61747,12 +61742,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14832 = memcpy(
                     &mut _14062 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14015 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14833 = memcpy(
                     &mut _14063 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13987 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14834 = *(&mut _14062.field0 as *mut l_array_4_float);
                 _14835 = *(&mut _14063.field0 as *mut l_array_4_float);
@@ -61895,12 +61890,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14866 = memcpy(
                     &mut _14069 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14001 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14867 = memcpy(
                     &mut _14070 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14036 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14868 = *(&mut _14069.field0 as *mut l_array_4_float);
                 _14869 = *(&mut _14070.field0 as *mut l_array_4_float);
@@ -61974,7 +61969,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14884 = memcpy(
                     &mut _14071 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14036 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14885 = *(&mut _14068.field0 as *mut l_array_4_float);
                 _14886 = *(&mut _14071.field0 as *mut l_array_4_float);
@@ -62048,12 +62043,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14901 = memcpy(
                     &mut _14074 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14002 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14902 = memcpy(
                     &mut _14075 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14043 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14903 = *(&mut _14074.field0 as *mut l_array_4_float);
                 _14904 = *(&mut _14075.field0 as *mut l_array_4_float);
@@ -62127,7 +62122,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14919 = memcpy(
                     &mut _14076 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14043 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14920 = *(&mut _14073.field0 as *mut l_array_4_float);
                 _14921 = *(&mut _14076.field0 as *mut l_array_4_float);
@@ -62270,12 +62265,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14952 = memcpy(
                     &mut _14079 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14003 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14953 = memcpy(
                     &mut _14080 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14050 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14954 = *(&mut _14079.field0 as *mut l_array_4_float);
                 _14955 = *(&mut _14080.field0 as *mut l_array_4_float);
@@ -62349,7 +62344,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _14970 = memcpy(
                     &mut _14081 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14050 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _14971 = *(&mut _14078.field0 as *mut l_array_4_float);
                 _14972 = *(&mut _14081.field0 as *mut l_array_4_float);
@@ -62492,12 +62487,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15003 = memcpy(
                     &mut _14084 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15004 = memcpy(
                     &mut _14085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14057 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15005 = *(&mut _14084.field0 as *mut l_array_4_float);
                 _15006 = *(&mut _14085.field0 as *mut l_array_4_float);
@@ -62571,7 +62566,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15021 = memcpy(
                     &mut _14086 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14057 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15022 = *(&mut _14083.field0 as *mut l_array_4_float);
                 _15023 = *(&mut _14086.field0 as *mut l_array_4_float);
@@ -62714,12 +62709,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15054 = memcpy(
                     &mut _14087 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14064 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15055 = memcpy(
                     &mut _14088 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _14007 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15056 = *(&mut _14087.field0 as *mut l_array_4_float);
                 _15057 = (*(&mut _14088.field0 as *mut l_array_4_uint32_t
@@ -62755,12 +62750,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15064 = memcpy(
                     &mut _13692 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13687 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15065 = memcpy(
                     &mut _13693 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _13688 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15066 = *(&mut _13691 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _15067 = *(&mut _13692 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -62882,13 +62877,13 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15091 = memcpy(
                     &mut _13687 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13690 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15092 = _13689;
                 _15093 = memcpy(
                     &mut _13694 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13687 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15094 = *(&mut _13694 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _13324 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15094;
@@ -62897,12 +62892,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15096 = memcpy(
                     &mut _13327 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _15095,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15097 = memcpy(
                     &mut _13328 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13324 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15098 = *(&mut _13327 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _15099 = *(&mut _13328 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -62978,17 +62973,17 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15115 = memcpy(
                     _15114,
                     &mut _13326 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15116 = memcpy(
                     &mut _14093 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14011 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15117 = memcpy(
                     &mut _14094 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13992 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15118 = *(&mut _14093.field0 as *mut l_array_4_float);
                 _15119 = *(&mut _14094.field0 as *mut l_array_4_float);
@@ -63062,12 +63057,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15134 = memcpy(
                     &mut _14096 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15135 = memcpy(
                     &mut _14097 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13993 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15136 = *(&mut _14096.field0 as *mut l_array_4_float);
                 _15137 = *(&mut _14097.field0 as *mut l_array_4_float);
@@ -63210,12 +63205,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15168 = memcpy(
                     &mut _14099 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14013 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15169 = memcpy(
                     &mut _14100 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13994 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15170 = *(&mut _14099.field0 as *mut l_array_4_float);
                 _15171 = *(&mut _14100.field0 as *mut l_array_4_float);
@@ -63358,12 +63353,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15202 = memcpy(
                     &mut _14102 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14014 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15203 = memcpy(
                     &mut _14103 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13995 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15204 = *(&mut _14102.field0 as *mut l_array_4_float);
                 _15205 = *(&mut _14103.field0 as *mut l_array_4_float);
@@ -63506,12 +63501,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15236 = memcpy(
                     &mut _14106 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14089 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15237 = memcpy(
                     &mut _14107 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13992 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15238 = *(&mut _14106.field0 as *mut l_array_4_float);
                 _15239 = *(&mut _14107.field0 as *mut l_array_4_float);
@@ -63585,7 +63580,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15254 = memcpy(
                     &mut _14108 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14011 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15255 = *(&mut _14105.field0 as *mut l_array_4_float);
                 _15256 = *(&mut _14108.field0 as *mut l_array_4_float);
@@ -63659,12 +63654,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15271 = memcpy(
                     &mut _14111 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14089 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15272 = memcpy(
                     &mut _14112 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13993 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15273 = *(&mut _14111.field0 as *mut l_array_4_float);
                 _15274 = *(&mut _14112.field0 as *mut l_array_4_float);
@@ -63738,7 +63733,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15289 = memcpy(
                     &mut _14113 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14012 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15290 = *(&mut _14110.field0 as *mut l_array_4_float);
                 _15291 = *(&mut _14113.field0 as *mut l_array_4_float);
@@ -63812,12 +63807,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15306 = memcpy(
                     &mut _14116 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14089 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15307 = memcpy(
                     &mut _14117 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13994 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15308 = *(&mut _14116.field0 as *mut l_array_4_float);
                 _15309 = *(&mut _14117.field0 as *mut l_array_4_float);
@@ -63891,7 +63886,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15324 = memcpy(
                     &mut _14118 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14013 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15325 = *(&mut _14115.field0 as *mut l_array_4_float);
                 _15326 = *(&mut _14118.field0 as *mut l_array_4_float);
@@ -63965,12 +63960,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15341 = memcpy(
                     &mut _14121 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14089 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15342 = memcpy(
                     &mut _14122 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13995 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15343 = *(&mut _14121.field0 as *mut l_array_4_float);
                 _15344 = *(&mut _14122.field0 as *mut l_array_4_float);
@@ -64044,7 +64039,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15359 = memcpy(
                     &mut _14123 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14014 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15360 = *(&mut _14120.field0 as *mut l_array_4_float);
                 _15361 = *(&mut _14123.field0 as *mut l_array_4_float);
@@ -64118,12 +64113,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15376 = memcpy(
                     &mut _14129 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14001 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15377 = memcpy(
                     &mut _14130 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14104 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15378 = *(&mut _14129.field0 as *mut l_array_4_float);
                 _15379 = *(&mut _14130.field0 as *mut l_array_4_float);
@@ -64197,7 +64192,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15394 = memcpy(
                     &mut _14131 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14104 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15395 = *(&mut _14128.field0 as *mut l_array_4_float);
                 _15396 = *(&mut _14131.field0 as *mut l_array_4_float);
@@ -64271,12 +64266,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15411 = memcpy(
                     &mut _14134 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14002 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15412 = memcpy(
                     &mut _14135 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14109 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15413 = *(&mut _14134.field0 as *mut l_array_4_float);
                 _15414 = *(&mut _14135.field0 as *mut l_array_4_float);
@@ -64350,7 +64345,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15429 = memcpy(
                     &mut _14136 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14109 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15430 = *(&mut _14133.field0 as *mut l_array_4_float);
                 _15431 = *(&mut _14136.field0 as *mut l_array_4_float);
@@ -64493,12 +64488,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15462 = memcpy(
                     &mut _14139 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14003 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15463 = memcpy(
                     &mut _14140 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14114 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15464 = *(&mut _14139.field0 as *mut l_array_4_float);
                 _15465 = *(&mut _14140.field0 as *mut l_array_4_float);
@@ -64572,7 +64567,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15480 = memcpy(
                     &mut _14141 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14114 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15481 = *(&mut _14138.field0 as *mut l_array_4_float);
                 _15482 = *(&mut _14141.field0 as *mut l_array_4_float);
@@ -64715,12 +64710,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15513 = memcpy(
                     &mut _14144 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14004 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15514 = memcpy(
                     &mut _14145 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14119 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15515 = *(&mut _14144.field0 as *mut l_array_4_float);
                 _15516 = *(&mut _14145.field0 as *mut l_array_4_float);
@@ -64794,7 +64789,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15531 = memcpy(
                     &mut _14146 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14119 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15532 = *(&mut _14143.field0 as *mut l_array_4_float);
                 _15533 = *(&mut _14146.field0 as *mut l_array_4_float);
@@ -64937,12 +64932,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15564 = memcpy(
                     &mut _14147 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _14124 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15565 = memcpy(
                     &mut _14148 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _14007 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15566 = *(&mut _14147.field0 as *mut l_array_4_float);
                 _15567 = (*(&mut _14148.field0 as *mut l_array_4_uint32_t
@@ -64978,12 +64973,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15574 = memcpy(
                     &mut _13707 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13702 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15575 = memcpy(
                     &mut _13708 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _13703 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15576 = *(&mut _13706 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _15577 = *(&mut _13707 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -65105,13 +65100,13 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15601 = memcpy(
                     &mut _13702 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13705 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15602 = _13704;
                 _15603 = memcpy(
                     &mut _13709 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13702 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15604 = *(&mut _13709 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _13311 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15604;
@@ -65120,12 +65115,12 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15606 = memcpy(
                     &mut _13314 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _15605,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15607 = memcpy(
                     &mut _13315 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13311 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15608 = *(&mut _13314 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _15609 = *(&mut _13315 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -65201,10 +65196,10 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15625 = memcpy(
                     _15624,
                     &mut _13313 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _13872 = &mut _14149 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _13873 = 4 as core::ffi::c_int as uint32_t;
+                _13873 = 4;
                 _15626 = _13872;
                 _15627 = _13873;
                 *(_15626 as *mut uint32_t) = _15627;
@@ -65229,13 +65224,13 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15632 = memcpy(
                     &mut _13678 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     _15631,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15633 = _13676;
                 _15634 = memcpy(
                     &mut _13679 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     _15633,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15635 = *(&mut _13678 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                 _15636 = *(&mut _13679 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -65308,23 +65303,23 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15652 = memcpy(
                     _15651,
                     &mut _13677 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15653 = _13675;
                 _15654 = _14006;
-                _14006 = llvm_add_u32(_15654, 4 as core::ffi::c_int as uint32_t);
+                _14006 = llvm_add_u32(_15654, 4);
             }
             _15655 = memcpy(
                 &mut _14151 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _14000 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _15656 = *(&mut _14151.field0 as *mut l_array_4_float);
             *(&mut _13672 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15656;
             _15657 = memcpy(
                 &mut _13674 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _13672 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _15658 = *(&mut _13674 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _13292 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15658;
@@ -65386,14 +65381,14 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             _15673 = memcpy(
                 &mut _14152 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _13999 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _15674 = *(&mut _14152.field0 as *mut l_array_4_float);
             *(&mut _13668 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15674;
             _15675 = memcpy(
                 &mut _13670 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _13668 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _15676 = *(&mut _13670 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _13286 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15676;
@@ -65461,14 +65456,14 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(_15694 as uint64_t as int64_t as isize)
                 as *mut core::ffi::c_float) = _15692;
             _15695 = _13979;
-            _13979 = llvm_add_u32(_15695, 1 as core::ffi::c_int as uint32_t);
+            _13979 = llvm_add_u32(_15695, 1);
         }
         match current_block {
             8027792182953182429 => {
                 __assert_fail(
                     &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    746 as core::ffi::c_int as uint32_t,
+                    746,
                     &__PRETTY_FUNCTION___OC__Z26compute_error_squared_rgbaRK14partition_infoRK11image_blockPK15processed_line4S7_PfRfS9_
                         as *const l_array_154_uint8_t as *mut core::ffi::c_void,
                 );
@@ -65477,7 +65472,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 __assert_fail(
                     &_OC_str_OC_4 as *const l_array_35_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    764 as core::ffi::c_int as uint32_t,
+                    764,
                     &__PRETTY_FUNCTION___OC__Z26compute_error_squared_rgbaRK14partition_infoRK11image_blockPK15processed_line4S7_PfRfS9_
                         as *const l_array_154_uint8_t as *mut core::ffi::c_void,
                 );
@@ -65486,7 +65481,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15696 = memcpy(
                     &mut _14153 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15697 = *(&mut _14153.field0 as *mut l_array_4_float);
                 *(&mut _13665 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15697;
@@ -65516,7 +65511,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 _15703 = memcpy(
                     &mut _14154 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _13978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _15704 = *(&mut _14154.field0 as *mut l_array_4_float);
                 *(&mut _13666 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _15704;
@@ -65550,7 +65545,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            733 as core::ffi::c_int as uint32_t,
+            733,
             &__PRETTY_FUNCTION___OC__Z26compute_error_squared_rgbaRK14partition_infoRK11image_blockPK15processed_line4S7_PfRfS9_
                 as *const l_array_154_uint8_t as *mut core::ffi::c_void,
         );
@@ -68393,7 +68388,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             as *mut core::ffi::c_float) = _16499;
         _16500 = _16337;
         *(&mut _16345.field0 as *mut l_array_4_float) = _16500.field0;
-        _16346 = 0 as core::ffi::c_int as uint32_t;
+        _16346 = 0;
         loop {
             _16501 = _16346;
             _16502 = _16343;
@@ -68440,7 +68435,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 &mut (*(_16511 as *mut l_struct_struct_OC_partition_lines3)).field2
                     as *mut l_struct_struct_OC_processed_line3
                     as *mut core::ffi::c_void,
-                32 as core::ffi::c_int as uint64_t,
+                32,
             );
             _16513 = _16347;
             _16514 = memcpy(
@@ -68448,7 +68443,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 &mut (*(_16513 as *mut l_struct_struct_OC_partition_lines3)).field3
                     as *mut l_struct_struct_OC_processed_line3
                     as *mut core::ffi::c_void,
-                32 as core::ffi::c_int as uint64_t,
+                32,
             );
             _16314 =
                 &mut _16350.field1 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -68687,7 +68682,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _16578 = memcpy(
                 &mut _16362 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _16351.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _16290 = &mut _16363 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _16291 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -68768,7 +68763,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             *(_16594 as *mut uint32_t) = llvm_select_u32(
                 ((_16595 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _16597 = _15846;
@@ -68781,7 +68776,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 as *mut uint32_t) = llvm_select_u32(
                 ((_16597 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _16599 = _15847;
@@ -68794,7 +68789,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 as *mut uint32_t) = llvm_select_u32(
                 ((_16599 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _16601 = _15848;
@@ -68807,7 +68802,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 as *mut uint32_t) = llvm_select_u32(
                 ((_16601 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
-                0 as core::ffi::c_int as uint32_t,
+                0,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _16603 = *(&mut _16267 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -68819,7 +68814,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _16605 = memcpy(
                 &mut _16271 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                 &mut _16270 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _16606 = *(&mut _16271 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
             *(&mut _15843 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _16606;
@@ -68842,12 +68837,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            if !(_16607 & 1 as core::ffi::c_int as uint32_t
-                | _16608 & 2 as core::ffi::c_int as uint32_t
-                | _16609 & 4 as core::ffi::c_int as uint32_t
-                | _16610 & 8 as core::ffi::c_int as uint32_t
-                == 15 as core::ffi::c_uint)
-            {
+            if !(_16607 & 1 | _16608 & 2 | _16609 & 4 | _16610 & 8 == 15 as core::ffi::c_uint) {
                 current_block = 5085439991500132226;
                 break;
             }
@@ -68973,10 +68963,10 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _16644;
             _15838 = &mut _16266 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-            _15839 = 0 as core::ffi::c_int as uint32_t;
-            _15840 = 1 as core::ffi::c_int as uint32_t;
-            _15841 = 2 as core::ffi::c_int as uint32_t;
-            _15842 = 3 as core::ffi::c_int as uint32_t;
+            _15839 = 0;
+            _15840 = 1;
+            _15841 = 2;
+            _15842 = 3;
             _16645 = _15838;
             _16646 = _15839;
             *(_16645 as *mut uint32_t) = _16646;
@@ -68998,7 +68988,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _16650 = *(&mut _16266 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
             (*(&mut _16369.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_194)).data =
                 _16650;
-            _16370 = 0 as core::ffi::c_int as uint32_t;
+            _16370 = 0;
             loop {
                 _16651 = _16370;
                 _16652 = _16349;
@@ -69008,7 +68998,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16653 = memcpy(
                     &mut _16372 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     &mut _16369 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16654 = _16349;
                 _16261 = &mut _16373 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -69092,7 +69082,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     ((_16671 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _16673 = _15851;
@@ -69107,7 +69097,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     ((_16673 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _16675 = _15852;
@@ -69122,7 +69112,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     ((_16675 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _16677 = _15853;
@@ -69137,7 +69127,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     ((_16677 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _16679 =
@@ -69344,12 +69334,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16754 = memcpy(
                     &mut _16381 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16755 = memcpy(
                     &mut _16382 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16352 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16756 = *(&mut _16381.field0 as *mut l_array_4_float);
                 _16757 = *(&mut _16382.field0 as *mut l_array_4_float);
@@ -69423,12 +69413,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16772 = memcpy(
                     &mut _16384 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16376 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16773 = memcpy(
                     &mut _16385 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16353 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16774 = *(&mut _16384.field0 as *mut l_array_4_float);
                 _16775 = *(&mut _16385.field0 as *mut l_array_4_float);
@@ -69571,12 +69561,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16806 = memcpy(
                     &mut _16387 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16377 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16807 = memcpy(
                     &mut _16388 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16354 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16808 = *(&mut _16387.field0 as *mut l_array_4_float);
                 _16809 = *(&mut _16388.field0 as *mut l_array_4_float);
@@ -69719,12 +69709,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16840 = memcpy(
                     &mut _16390 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16378 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16841 = memcpy(
                     &mut _16391 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16842 = *(&mut _16390.field0 as *mut l_array_4_float);
                 _16843 = *(&mut _16391.field0 as *mut l_array_4_float);
@@ -69866,17 +69856,17 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16870 = memcpy(
                     &mut _16364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16389 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16871 = memcpy(
                     &mut _16393 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16378 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16872 = memcpy(
                     &mut _16394 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16365 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16873 = *(&mut _16393.field0 as *mut l_array_4_float);
                 _16874 = *(&mut _16394.field0 as *mut l_array_4_float);
@@ -70018,17 +70008,17 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16901 = memcpy(
                     &mut _16365 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16392 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16902 = memcpy(
                     &mut _16397 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16355 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16903 = memcpy(
                     &mut _16398 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16904 = *(&mut _16397.field0 as *mut l_array_4_float);
                 _16905 = *(&mut _16398.field0 as *mut l_array_4_float);
@@ -70102,12 +70092,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16920 = memcpy(
                     &mut _16400 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16378 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16921 = memcpy(
                     &mut _16401 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16352 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16922 = *(&mut _16400.field0 as *mut l_array_4_float);
                 _16923 = *(&mut _16401.field0 as *mut l_array_4_float);
@@ -70250,12 +70240,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16954 = memcpy(
                     &mut _16404 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16356 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16955 = memcpy(
                     &mut _16405 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16376 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16956 = *(&mut _16404.field0 as *mut l_array_4_float);
                 _16957 = *(&mut _16405.field0 as *mut l_array_4_float);
@@ -70329,12 +70319,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _16972 = memcpy(
                     &mut _16407 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16378 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16973 = memcpy(
                     &mut _16408 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16353 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16974 = *(&mut _16407.field0 as *mut l_array_4_float);
                 _16975 = *(&mut _16408.field0 as *mut l_array_4_float);
@@ -70477,12 +70467,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17006 = memcpy(
                     &mut _16411 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16357 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17007 = memcpy(
                     &mut _16412 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16377 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17008 = *(&mut _16411.field0 as *mut l_array_4_float);
                 _17009 = *(&mut _16412.field0 as *mut l_array_4_float);
@@ -70556,12 +70546,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17024 = memcpy(
                     &mut _16414 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16378 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17025 = memcpy(
                     &mut _16415 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16354 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17026 = *(&mut _16414.field0 as *mut l_array_4_float);
                 _17027 = *(&mut _16415.field0 as *mut l_array_4_float);
@@ -70704,12 +70694,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17058 = memcpy(
                     &mut _16420 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17059 = memcpy(
                     &mut _16421 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16395 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17060 = *(&mut _16420.field0 as *mut l_array_4_float);
                 _17061 = *(&mut _16421.field0 as *mut l_array_4_float);
@@ -70783,7 +70773,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17076 = memcpy(
                     &mut _16422 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16395 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17077 = *(&mut _16419.field0 as *mut l_array_4_float);
                 _17078 = *(&mut _16422.field0 as *mut l_array_4_float);
@@ -70857,12 +70847,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17093 = memcpy(
                     &mut _16425 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16367 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17094 = memcpy(
                     &mut _16426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16402 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17095 = *(&mut _16425.field0 as *mut l_array_4_float);
                 _17096 = *(&mut _16426.field0 as *mut l_array_4_float);
@@ -70936,7 +70926,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17111 = memcpy(
                     &mut _16427 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16402 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17112 = *(&mut _16424.field0 as *mut l_array_4_float);
                 _17113 = *(&mut _16427.field0 as *mut l_array_4_float);
@@ -71079,12 +71069,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17144 = memcpy(
                     &mut _16430 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16368 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17145 = memcpy(
                     &mut _16431 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16409 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17146 = *(&mut _16430.field0 as *mut l_array_4_float);
                 _17147 = *(&mut _16431.field0 as *mut l_array_4_float);
@@ -71158,7 +71148,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17162 = memcpy(
                     &mut _16432 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16409 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17163 = *(&mut _16429.field0 as *mut l_array_4_float);
                 _17164 = *(&mut _16432.field0 as *mut l_array_4_float);
@@ -71301,12 +71291,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17195 = memcpy(
                     &mut _16433 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16416 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17196 = memcpy(
                     &mut _16434 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _16371 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17197 = *(&mut _16433.field0 as *mut l_array_4_float);
                 _17198 = (*(&mut _16434.field0 as *mut l_array_4_uint32_t
@@ -71342,12 +71332,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17205 = memcpy(
                     &mut _16121 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16116 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17206 = memcpy(
                     &mut _16122 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _16117 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17207 = *(&mut _16120 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _17208 = *(&mut _16121 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -71469,13 +71459,13 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17232 = memcpy(
                     &mut _16116 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16119 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17233 = _16118;
                 _17234 = memcpy(
                     &mut _16123 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16116 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17235 = *(&mut _16123 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _15833 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17235;
@@ -71484,12 +71474,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17237 = memcpy(
                     &mut _15836 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _17236,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17238 = memcpy(
                     &mut _15837 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _15833 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17239 = *(&mut _15836 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _17240 = *(&mut _15837 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -71565,17 +71555,17 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17256 = memcpy(
                     _17255,
                     &mut _15835 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17257 = memcpy(
                     &mut _16438 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17258 = memcpy(
                     &mut _16439 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16358 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17259 = *(&mut _16438.field0 as *mut l_array_4_float);
                 _17260 = *(&mut _16439.field0 as *mut l_array_4_float);
@@ -71649,12 +71639,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17275 = memcpy(
                     &mut _16441 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16376 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17276 = memcpy(
                     &mut _16442 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16359 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17277 = *(&mut _16441.field0 as *mut l_array_4_float);
                 _17278 = *(&mut _16442.field0 as *mut l_array_4_float);
@@ -71797,12 +71787,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17309 = memcpy(
                     &mut _16444 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16377 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17310 = memcpy(
                     &mut _16445 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16360 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17311 = *(&mut _16444.field0 as *mut l_array_4_float);
                 _17312 = *(&mut _16445.field0 as *mut l_array_4_float);
@@ -71945,12 +71935,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17343 = memcpy(
                     &mut _16448 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16435 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17344 = memcpy(
                     &mut _16449 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16358 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17345 = *(&mut _16448.field0 as *mut l_array_4_float);
                 _17346 = *(&mut _16449.field0 as *mut l_array_4_float);
@@ -72024,7 +72014,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17361 = memcpy(
                     &mut _16450 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17362 = *(&mut _16447.field0 as *mut l_array_4_float);
                 _17363 = *(&mut _16450.field0 as *mut l_array_4_float);
@@ -72098,12 +72088,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17378 = memcpy(
                     &mut _16453 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16435 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17379 = memcpy(
                     &mut _16454 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16359 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17380 = *(&mut _16453.field0 as *mut l_array_4_float);
                 _17381 = *(&mut _16454.field0 as *mut l_array_4_float);
@@ -72177,7 +72167,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17396 = memcpy(
                     &mut _16455 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16376 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17397 = *(&mut _16452.field0 as *mut l_array_4_float);
                 _17398 = *(&mut _16455.field0 as *mut l_array_4_float);
@@ -72251,12 +72241,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17413 = memcpy(
                     &mut _16458 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16435 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17414 = memcpy(
                     &mut _16459 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16360 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17415 = *(&mut _16458.field0 as *mut l_array_4_float);
                 _17416 = *(&mut _16459.field0 as *mut l_array_4_float);
@@ -72330,7 +72320,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17431 = memcpy(
                     &mut _16460 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16377 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17432 = *(&mut _16457.field0 as *mut l_array_4_float);
                 _17433 = *(&mut _16460.field0 as *mut l_array_4_float);
@@ -72404,12 +72394,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17448 = memcpy(
                     &mut _16465 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16366 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17449 = memcpy(
                     &mut _16466 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16446 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17450 = *(&mut _16465.field0 as *mut l_array_4_float);
                 _17451 = *(&mut _16466.field0 as *mut l_array_4_float);
@@ -72483,7 +72473,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17466 = memcpy(
                     &mut _16467 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16446 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17467 = *(&mut _16464.field0 as *mut l_array_4_float);
                 _17468 = *(&mut _16467.field0 as *mut l_array_4_float);
@@ -72557,12 +72547,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17483 = memcpy(
                     &mut _16470 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16367 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17484 = memcpy(
                     &mut _16471 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16451 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17485 = *(&mut _16470.field0 as *mut l_array_4_float);
                 _17486 = *(&mut _16471.field0 as *mut l_array_4_float);
@@ -72636,7 +72626,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17501 = memcpy(
                     &mut _16472 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16451 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17502 = *(&mut _16469.field0 as *mut l_array_4_float);
                 _17503 = *(&mut _16472.field0 as *mut l_array_4_float);
@@ -72779,12 +72769,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17534 = memcpy(
                     &mut _16475 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16368 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17535 = memcpy(
                     &mut _16476 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16456 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17536 = *(&mut _16475.field0 as *mut l_array_4_float);
                 _17537 = *(&mut _16476.field0 as *mut l_array_4_float);
@@ -72858,7 +72848,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17552 = memcpy(
                     &mut _16477 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16456 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17553 = *(&mut _16474.field0 as *mut l_array_4_float);
                 _17554 = *(&mut _16477.field0 as *mut l_array_4_float);
@@ -73001,12 +72991,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17585 = memcpy(
                     &mut _16478 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16461 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17586 = memcpy(
                     &mut _16479 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _16371 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17587 = *(&mut _16478.field0 as *mut l_array_4_float);
                 _17588 = (*(&mut _16479.field0 as *mut l_array_4_uint32_t
@@ -73042,12 +73032,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17595 = memcpy(
                     &mut _16136 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16131 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17596 = memcpy(
                     &mut _16137 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                     &mut _16132 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17597 = *(&mut _16135 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _17598 = *(&mut _16136 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -73169,13 +73159,13 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17622 = memcpy(
                     &mut _16131 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16134 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17623 = _16133;
                 _17624 = memcpy(
                     &mut _16138 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16131 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17625 = *(&mut _16138 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 *(&mut _15820 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17625;
@@ -73184,12 +73174,12 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17627 = memcpy(
                     &mut _15823 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     _17626,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17628 = memcpy(
                     &mut _15824 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _15820 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17629 = *(&mut _15823 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
                 _17630 = *(&mut _15824 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -73265,10 +73255,10 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17646 = memcpy(
                     _17645,
                     &mut _15822 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _16259 = &mut _16480 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                _16260 = 4 as core::ffi::c_int as uint32_t;
+                _16260 = 4;
                 _17647 = _16259;
                 _17648 = _16260;
                 *(_17647 as *mut uint32_t) = _17648;
@@ -73293,13 +73283,13 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17653 = memcpy(
                     &mut _16107 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     _17652,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17654 = _16105;
                 _17655 = memcpy(
                     &mut _16108 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                     _17654,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17656 = *(&mut _16107 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                 _17657 = *(&mut _16108 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -73372,23 +73362,23 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17673 = memcpy(
                     _17672,
                     &mut _16106 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17674 = _16104;
                 _17675 = _16370;
-                _16370 = llvm_add_u32(_17675, 4 as core::ffi::c_int as uint32_t);
+                _16370 = llvm_add_u32(_17675, 4);
             }
             _17676 = memcpy(
                 &mut _16482 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _16365 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _17677 = *(&mut _16482.field0 as *mut l_array_4_float);
             *(&mut _16101 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17677;
             _17678 = memcpy(
                 &mut _16103 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _16101 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _17679 = *(&mut _16103 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _15801 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17679;
@@ -73450,14 +73440,14 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _17694 = memcpy(
                 &mut _16483 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _16364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _17695 = *(&mut _16483.field0 as *mut l_array_4_float);
             *(&mut _16097 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17695;
             _17696 = memcpy(
                 &mut _16099 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 &mut _16097 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                16 as core::ffi::c_int as uint64_t,
+                16,
             );
             _17697 = *(&mut _16099 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
             *(&mut _15795 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17697;
@@ -73523,14 +73513,14 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             *(&mut (*(_17714 as *mut l_struct_struct_OC_partition_lines3)).field4
                 as *mut core::ffi::c_float) = _17713;
             _17715 = _16346;
-            _16346 = llvm_add_u32(_17715, 1 as core::ffi::c_int as uint32_t);
+            _16346 = llvm_add_u32(_17715, 1);
         }
         match current_block {
             5994529102460348844 => {
                 __assert_fail(
                     &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    861 as core::ffi::c_int as uint32_t,
+                    861,
                     &__PRETTY_FUNCTION___OC__Z25compute_error_squared_rgbRK14partition_infoRK11image_blockP16partition_lines3RfS7_
                         as *const l_array_114_uint8_t as *mut core::ffi::c_void,
                 );
@@ -73539,7 +73529,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 __assert_fail(
                     &_OC_str_OC_4 as *const l_array_35_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-                    879 as core::ffi::c_int as uint32_t,
+                    879,
                     &__PRETTY_FUNCTION___OC__Z25compute_error_squared_rgbRK14partition_infoRK11image_blockP16partition_lines3RfS7_
                         as *const l_array_114_uint8_t as *mut core::ffi::c_void,
                 );
@@ -73548,7 +73538,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17716 = memcpy(
                     &mut _16484 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16344 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17717 = *(&mut _16484.field0 as *mut l_array_4_float);
                 *(&mut _16094 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17717;
@@ -73578,7 +73568,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 _17723 = memcpy(
                     &mut _16485 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _16345 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _17724 = *(&mut _16485.field0 as *mut l_array_4_float);
                 *(&mut _16095 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _17724;
@@ -73612,7 +73602,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_62_uint8_t as *mut core::ffi::c_void,
-            851 as core::ffi::c_int as uint32_t,
+            851,
             &__PRETTY_FUNCTION___OC__Z25compute_error_squared_rgbRK14partition_infoRK11image_blockP16partition_lines3RfS7_
                 as *const l_array_114_uint8_t as *mut core::ffi::c_void,
         );

@@ -933,16 +933,16 @@ static mut _ZL19preset_configs_high: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 0 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 2 as core::ffi::c_int as uint32_t,
-                            field2: 10 as core::ffi::c_int as uint32_t,
-                            field3: 6 as core::ffi::c_int as uint32_t,
-                            field4: 4 as core::ffi::c_int as uint32_t,
-                            field5: 43 as core::ffi::c_int as uint32_t,
-                            field6: 2 as core::ffi::c_int as uint32_t,
-                            field7: 2 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 2,
+                            field2: 10,
+                            field3: 6,
+                            field4: 4,
+                            field5: 43,
+                            field6: 2,
+                            field7: 2,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 85.1999969f64 as core::ffi::c_float,
                             field12: 63.2000008f64 as core::ffi::c_float,
                             field13: 3.5f64 as core::ffi::c_float,
@@ -956,16 +956,16 @@ static mut _ZL19preset_configs_high: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 10 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 3 as core::ffi::c_int as uint32_t,
-                            field2: 18 as core::ffi::c_int as uint32_t,
-                            field3: 10 as core::ffi::c_int as uint32_t,
-                            field4: 8 as core::ffi::c_int as uint32_t,
-                            field5: 55 as core::ffi::c_int as uint32_t,
-                            field6: 3 as core::ffi::c_int as uint32_t,
-                            field7: 3 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 3,
+                            field2: 18,
+                            field3: 10,
+                            field4: 8,
+                            field5: 55,
+                            field6: 3,
+                            field7: 3,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 85.1999969f64 as core::ffi::c_float,
                             field12: 63.2000008f64 as core::ffi::c_float,
                             field13: 3.5f64 as core::ffi::c_float,
@@ -979,16 +979,16 @@ static mut _ZL19preset_configs_high: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 60 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 34 as core::ffi::c_int as uint32_t,
-                            field3: 28 as core::ffi::c_int as uint32_t,
-                            field4: 16 as core::ffi::c_int as uint32_t,
-                            field5: 77 as core::ffi::c_int as uint32_t,
-                            field6: 3 as core::ffi::c_int as uint32_t,
-                            field7: 3 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 34,
+                            field3: 28,
+                            field4: 16,
+                            field5: 77,
+                            field6: 3,
+                            field7: 3,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 95 as core::ffi::c_int as core::ffi::c_float,
                             field12: 70 as core::ffi::c_int as core::ffi::c_float,
                             field13: 2.5f64 as core::ffi::c_float,
@@ -1002,16 +1002,16 @@ static mut _ZL19preset_configs_high: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 98 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 82 as core::ffi::c_int as uint32_t,
-                            field3: 60 as core::ffi::c_int as uint32_t,
-                            field4: 30 as core::ffi::c_int as uint32_t,
-                            field5: 94 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 4 as core::ffi::c_int as uint32_t,
-                            field8: 3 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 82,
+                            field3: 60,
+                            field4: 30,
+                            field5: 94,
+                            field6: 4,
+                            field7: 4,
+                            field8: 3,
+                            field9: 2,
+                            field10: 2,
                             field11: 105 as core::ffi::c_int as core::ffi::c_float,
                             field12: 77 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1025,16 +1025,16 @@ static mut _ZL19preset_configs_high: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 99 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 256 as core::ffi::c_int as uint32_t,
-                            field3: 128 as core::ffi::c_int as uint32_t,
-                            field4: 64 as core::ffi::c_int as uint32_t,
-                            field5: 98 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 6 as core::ffi::c_int as uint32_t,
-                            field8: 8 as core::ffi::c_int as uint32_t,
-                            field9: 6 as core::ffi::c_int as uint32_t,
-                            field10: 4 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 256,
+                            field3: 128,
+                            field4: 64,
+                            field5: 98,
+                            field6: 4,
+                            field7: 6,
+                            field8: 8,
+                            field9: 6,
+                            field10: 4,
                             field11: 200 as core::ffi::c_int as core::ffi::c_float,
                             field12: 200 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1048,16 +1048,16 @@ static mut _ZL19preset_configs_high: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 100 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 512 as core::ffi::c_int as uint32_t,
-                            field3: 512 as core::ffi::c_int as uint32_t,
-                            field4: 512 as core::ffi::c_int as uint32_t,
-                            field5: 100 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 8 as core::ffi::c_int as uint32_t,
-                            field8: 8 as core::ffi::c_int as uint32_t,
-                            field9: 8 as core::ffi::c_int as uint32_t,
-                            field10: 8 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 512,
+                            field3: 512,
+                            field4: 512,
+                            field5: 100,
+                            field6: 4,
+                            field7: 8,
+                            field8: 8,
+                            field9: 8,
+                            field10: 8,
                             field11: 200 as core::ffi::c_int as core::ffi::c_float,
                             field12: 200 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1083,16 +1083,16 @@ static mut _ZL18preset_configs_mid: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 0 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 2 as core::ffi::c_int as uint32_t,
-                            field2: 10 as core::ffi::c_int as uint32_t,
-                            field3: 6 as core::ffi::c_int as uint32_t,
-                            field4: 4 as core::ffi::c_int as uint32_t,
-                            field5: 43 as core::ffi::c_int as uint32_t,
-                            field6: 2 as core::ffi::c_int as uint32_t,
-                            field7: 2 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 2,
+                            field2: 10,
+                            field3: 6,
+                            field4: 4,
+                            field5: 43,
+                            field6: 2,
+                            field7: 2,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 85.1999969f64 as core::ffi::c_float,
                             field12: 63.2000008f64 as core::ffi::c_float,
                             field13: 3.5f64 as core::ffi::c_float,
@@ -1106,16 +1106,16 @@ static mut _ZL18preset_configs_mid: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 10 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 3 as core::ffi::c_int as uint32_t,
-                            field2: 18 as core::ffi::c_int as uint32_t,
-                            field3: 12 as core::ffi::c_int as uint32_t,
-                            field4: 10 as core::ffi::c_int as uint32_t,
-                            field5: 55 as core::ffi::c_int as uint32_t,
-                            field6: 3 as core::ffi::c_int as uint32_t,
-                            field7: 3 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 3,
+                            field2: 18,
+                            field3: 12,
+                            field4: 10,
+                            field5: 55,
+                            field6: 3,
+                            field7: 3,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 85.1999969f64 as core::ffi::c_float,
                             field12: 63.2000008f64 as core::ffi::c_float,
                             field13: 3.5f64 as core::ffi::c_float,
@@ -1129,16 +1129,16 @@ static mut _ZL18preset_configs_mid: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 60 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 3 as core::ffi::c_int as uint32_t,
-                            field2: 34 as core::ffi::c_int as uint32_t,
-                            field3: 28 as core::ffi::c_int as uint32_t,
-                            field4: 16 as core::ffi::c_int as uint32_t,
-                            field5: 77 as core::ffi::c_int as uint32_t,
-                            field6: 3 as core::ffi::c_int as uint32_t,
-                            field7: 3 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 3,
+                            field2: 34,
+                            field3: 28,
+                            field4: 16,
+                            field5: 77,
+                            field6: 3,
+                            field7: 3,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 95 as core::ffi::c_int as core::ffi::c_float,
                             field12: 70 as core::ffi::c_int as core::ffi::c_float,
                             field13: 3 as core::ffi::c_int as core::ffi::c_float,
@@ -1152,16 +1152,16 @@ static mut _ZL18preset_configs_mid: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 98 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 82 as core::ffi::c_int as uint32_t,
-                            field3: 60 as core::ffi::c_int as uint32_t,
-                            field4: 30 as core::ffi::c_int as uint32_t,
-                            field5: 94 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 4 as core::ffi::c_int as uint32_t,
-                            field8: 3 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 82,
+                            field3: 60,
+                            field4: 30,
+                            field5: 94,
+                            field6: 4,
+                            field7: 4,
+                            field8: 3,
+                            field9: 2,
+                            field10: 2,
                             field11: 105 as core::ffi::c_int as core::ffi::c_float,
                             field12: 77 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1175,16 +1175,16 @@ static mut _ZL18preset_configs_mid: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 99 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 256 as core::ffi::c_int as uint32_t,
-                            field3: 128 as core::ffi::c_int as uint32_t,
-                            field4: 64 as core::ffi::c_int as uint32_t,
-                            field5: 98 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 6 as core::ffi::c_int as uint32_t,
-                            field8: 8 as core::ffi::c_int as uint32_t,
-                            field9: 6 as core::ffi::c_int as uint32_t,
-                            field10: 3 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 256,
+                            field3: 128,
+                            field4: 64,
+                            field5: 98,
+                            field6: 4,
+                            field7: 6,
+                            field8: 8,
+                            field9: 6,
+                            field10: 3,
                             field11: 200 as core::ffi::c_int as core::ffi::c_float,
                             field12: 200 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1198,16 +1198,16 @@ static mut _ZL18preset_configs_mid: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 100 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 256 as core::ffi::c_int as uint32_t,
-                            field3: 256 as core::ffi::c_int as uint32_t,
-                            field4: 256 as core::ffi::c_int as uint32_t,
-                            field5: 100 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 8 as core::ffi::c_int as uint32_t,
-                            field8: 8 as core::ffi::c_int as uint32_t,
-                            field9: 8 as core::ffi::c_int as uint32_t,
-                            field10: 8 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 256,
+                            field3: 256,
+                            field4: 256,
+                            field5: 100,
+                            field6: 4,
+                            field7: 8,
+                            field8: 8,
+                            field9: 8,
+                            field10: 8,
                             field11: 200 as core::ffi::c_int as core::ffi::c_float,
                             field12: 200 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1233,16 +1233,16 @@ static mut _ZL18preset_configs_low: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 0 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 2 as core::ffi::c_int as uint32_t,
-                            field2: 10 as core::ffi::c_int as uint32_t,
-                            field3: 6 as core::ffi::c_int as uint32_t,
-                            field4: 4 as core::ffi::c_int as uint32_t,
-                            field5: 40 as core::ffi::c_int as uint32_t,
-                            field6: 2 as core::ffi::c_int as uint32_t,
-                            field7: 2 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 2,
+                            field2: 10,
+                            field3: 6,
+                            field4: 4,
+                            field5: 40,
+                            field6: 2,
+                            field7: 2,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 85 as core::ffi::c_int as core::ffi::c_float,
                             field12: 63 as core::ffi::c_int as core::ffi::c_float,
                             field13: 3.5f64 as core::ffi::c_float,
@@ -1256,16 +1256,16 @@ static mut _ZL18preset_configs_low: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 10 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 2 as core::ffi::c_int as uint32_t,
-                            field2: 18 as core::ffi::c_int as uint32_t,
-                            field3: 12 as core::ffi::c_int as uint32_t,
-                            field4: 10 as core::ffi::c_int as uint32_t,
-                            field5: 55 as core::ffi::c_int as uint32_t,
-                            field6: 3 as core::ffi::c_int as uint32_t,
-                            field7: 3 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 2,
+                            field2: 18,
+                            field3: 12,
+                            field4: 10,
+                            field5: 55,
+                            field6: 3,
+                            field7: 3,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 85 as core::ffi::c_int as core::ffi::c_float,
                             field12: 63 as core::ffi::c_int as core::ffi::c_float,
                             field13: 3.5f64 as core::ffi::c_float,
@@ -1279,16 +1279,16 @@ static mut _ZL18preset_configs_low: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 60 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 3 as core::ffi::c_int as uint32_t,
-                            field2: 34 as core::ffi::c_int as uint32_t,
-                            field3: 28 as core::ffi::c_int as uint32_t,
-                            field4: 16 as core::ffi::c_int as uint32_t,
-                            field5: 77 as core::ffi::c_int as uint32_t,
-                            field6: 3 as core::ffi::c_int as uint32_t,
-                            field7: 3 as core::ffi::c_int as uint32_t,
-                            field8: 2 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 3,
+                            field2: 34,
+                            field3: 28,
+                            field4: 16,
+                            field5: 77,
+                            field6: 3,
+                            field7: 3,
+                            field8: 2,
+                            field9: 2,
+                            field10: 2,
                             field11: 95 as core::ffi::c_int as core::ffi::c_float,
                             field12: 70 as core::ffi::c_int as core::ffi::c_float,
                             field13: 3.5f64 as core::ffi::c_float,
@@ -1302,16 +1302,16 @@ static mut _ZL18preset_configs_low: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 98 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 82 as core::ffi::c_int as uint32_t,
-                            field3: 60 as core::ffi::c_int as uint32_t,
-                            field4: 30 as core::ffi::c_int as uint32_t,
-                            field5: 93 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 4 as core::ffi::c_int as uint32_t,
-                            field8: 3 as core::ffi::c_int as uint32_t,
-                            field9: 2 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 82,
+                            field3: 60,
+                            field4: 30,
+                            field5: 93,
+                            field6: 4,
+                            field7: 4,
+                            field8: 3,
+                            field9: 2,
+                            field10: 2,
                             field11: 105 as core::ffi::c_int as core::ffi::c_float,
                             field12: 77 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1325,16 +1325,16 @@ static mut _ZL18preset_configs_low: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 99 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 256 as core::ffi::c_int as uint32_t,
-                            field3: 128 as core::ffi::c_int as uint32_t,
-                            field4: 64 as core::ffi::c_int as uint32_t,
-                            field5: 98 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 6 as core::ffi::c_int as uint32_t,
-                            field8: 8 as core::ffi::c_int as uint32_t,
-                            field9: 5 as core::ffi::c_int as uint32_t,
-                            field10: 2 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 256,
+                            field3: 128,
+                            field4: 64,
+                            field5: 98,
+                            field6: 4,
+                            field7: 6,
+                            field8: 8,
+                            field9: 5,
+                            field10: 2,
                             field11: 200 as core::ffi::c_int as core::ffi::c_float,
                             field12: 200 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1348,16 +1348,16 @@ static mut _ZL18preset_configs_low: l_struct_struct_OC_std_KD__KD_array = {
                     {
                         let mut init = l_struct_struct_OC_astcenc_preset_config {
                             field0: 100 as core::ffi::c_int as core::ffi::c_float,
-                            field1: 4 as core::ffi::c_int as uint32_t,
-                            field2: 256 as core::ffi::c_int as uint32_t,
-                            field3: 256 as core::ffi::c_int as uint32_t,
-                            field4: 256 as core::ffi::c_int as uint32_t,
-                            field5: 100 as core::ffi::c_int as uint32_t,
-                            field6: 4 as core::ffi::c_int as uint32_t,
-                            field7: 8 as core::ffi::c_int as uint32_t,
-                            field8: 8 as core::ffi::c_int as uint32_t,
-                            field9: 8 as core::ffi::c_int as uint32_t,
-                            field10: 8 as core::ffi::c_int as uint32_t,
+                            field1: 4,
+                            field2: 256,
+                            field3: 256,
+                            field4: 256,
+                            field5: 100,
+                            field6: 4,
+                            field7: 8,
+                            field8: 8,
+                            field9: 8,
+                            field10: 8,
                             field11: 200 as core::ffi::c_int as core::ffi::c_float,
                             field12: 200 as core::ffi::c_int as core::ffi::c_float,
                             field13: 10 as core::ffi::c_int as core::ffi::c_float,
@@ -1795,8 +1795,7 @@ unsafe extern "C" fn llvm_OC_umul_OC_with_OC_overflow_OC_i64(
         field1: 0,
     };
     r.field1 = LLVMMul_uov(
-        (8 as core::ffi::c_int as core::ffi::c_ulong)
-            .wrapping_mul(::core::mem::size_of::<uint64_t>() as core::ffi::c_ulong),
+        (8).wrapping_mul(::core::mem::size_of::<uint64_t>() as core::ffi::c_ulong),
         &mut a,
         &mut b,
         &mut r.field0,
@@ -2205,13 +2204,9 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
         _32 = _16;
         _18 = _32;
         _33 = _18;
-        _34 = memset(
-            _33,
-            0 as core::ffi::c_int as uint32_t,
-            120 as core::ffi::c_int as uint64_t,
-        );
+        _34 = memset(_33, 0, 120);
         _35 = _13;
-        _36 = _ZN4astcL3maxIjEET_S1_S1_(_35, 1 as core::ffi::c_int as uint32_t);
+        _36 = _ZN4astcL3maxIjEET_S1_S1_(_35, 1);
         _13 = _36;
         _37 = _11;
         _38 = _12;
@@ -2280,7 +2275,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                 as *mut core::ffi::c_void;
                         }
                     }
-                    _23 = 0 as core::ffi::c_int as uint64_t;
+                    _23 = 0;
                     loop {
                         _62 = _23;
                         _63 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
@@ -2301,14 +2296,14 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             break;
                         }
                         _70 = _23;
-                        _23 = llvm_add_u64(_70, 1 as core::ffi::c_int as uint64_t);
+                        _23 = llvm_add_u64(_70, 1);
                     }
                     _71 = _23;
                     if _71 == 0 as core::ffi::c_ulong {
-                        _74__PHI_TEMPORARY = 0 as core::ffi::c_int as uint64_t;
+                        _74__PHI_TEMPORARY = 0;
                     } else {
                         _72 = _23;
-                        _73 = llvm_sub_u64(_72, 1 as core::ffi::c_int as uint64_t);
+                        _73 = llvm_sub_u64(_72, 1);
                         _74__PHI_TEMPORARY = _73;
                     }
                     _74 = _74__PHI_TEMPORARY;
@@ -2781,7 +2776,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                 &_OC_str as *const l_array_13_uint8_t as *mut core::ffi::c_void,
                                 &_OC_str_OC_1 as *const l_array_44_uint8_t
                                     as *mut core::ffi::c_void,
-                                539 as core::ffi::c_int as uint32_t,
+                                539,
                                 &__PRETTY_FUNCTION___OC__Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc_config
                                     as *const l_array_132_uint8_t as *mut core::ffi::c_void,
                             );
@@ -2801,7 +2796,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
                     _339 = _18;
                     *(&mut (*(_339 as *mut l_struct_struct_OC_astcenc_config)).field9
-                        as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
+                        as *mut uint32_t) = 0;
                     _340 = _18;
                     *(&mut (*(_340 as *mut l_struct_struct_OC_astcenc_config)).field10
                         as *mut core::ffi::c_float) = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -2826,7 +2821,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             current_block = 15231701066840170158;
                         }
                         _ => {
-                            _9 = 5 as core::ffi::c_int as uint32_t;
+                            _9 = 5;
                             current_block = 15292210871018111271;
                         }
                     }
@@ -2843,18 +2838,13 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                 _9 = _350;
                             } else {
                                 _351 = _15;
-                                if _351 & 1 as core::ffi::c_int as uint32_t
-                                    != 0 as core::ffi::c_uint
-                                {
+                                if _351 & 1 != 0 as core::ffi::c_uint {
                                     _352 = _18;
                                     _353 = *(&mut (*(_352
                                         as *mut l_struct_struct_OC_astcenc_config))
                                         .field11
                                         as *mut uint32_t);
-                                    _354 = _ZN4astcL3minIjEET_S1_S1_(
-                                        llvm_add_u32(_353, 1 as core::ffi::c_int as uint32_t),
-                                        4 as core::ffi::c_int as uint32_t,
-                                    );
+                                    _354 = _ZN4astcL3minIjEET_S1_S1_(llvm_add_u32(_353, 1), 4);
                                     _355 = _18;
                                     *(&mut (*(_355 as *mut l_struct_struct_OC_astcenc_config))
                                         .field11
@@ -2900,9 +2890,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                         llvm_fmul_f32(_367, 1.02999997f64 as core::ffi::c_float);
                                 } else {
                                     _368 = _15;
-                                    if _368 & 64 as core::ffi::c_int as uint32_t
-                                        != 0 as core::ffi::c_uint
-                                    {
+                                    if _368 & 64 != 0 as core::ffi::c_uint {
                                         _369 = _18;
                                         *(&mut (*(_369 as *mut l_struct_struct_OC_astcenc_config))
                                             .field10
@@ -2922,9 +2910,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                         );
                                     } else {
                                         _373 = _15;
-                                        if _373 & 8 as core::ffi::c_int as uint32_t
-                                            != 0 as core::ffi::c_uint
-                                        {
+                                        if _373 & 8 != 0 as core::ffi::c_uint {
                                             _374 = _18;
                                             *(&mut (*(_374
                                                 as *mut l_struct_struct_OC_astcenc_config))
@@ -2950,7 +2936,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                 _378 = _18;
                                 *(&mut (*(_378 as *mut l_struct_struct_OC_astcenc_config)).field1
                                     as *mut uint32_t) = _377;
-                                _9 = 0 as core::ffi::c_int as uint32_t;
+                                _9 = 0;
                             }
                             current_block = 15292210871018111271;
                         }
@@ -2960,7 +2946,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
             match current_block {
                 15292210871018111271 => {}
                 _ => {
-                    _9 = 6 as core::ffi::c_int as uint32_t;
+                    _9 = 6;
                 }
             }
         }
@@ -2993,9 +2979,9 @@ unsafe extern "C" fn _ZL18validate_cpu_floatv() -> uint32_t {
         3 as core::ffi::c_int as core::ffi::c_double,
     ) != 0
     {
-        _423 = 2 as core::ffi::c_int as uint32_t;
+        _423 = 2;
     } else {
-        _423 = 0 as core::ffi::c_int as uint32_t;
+        _423 = 0;
     }
     _430 = _423;
     return _430;
@@ -3101,12 +3087,12 @@ unsafe extern "C" fn _ZL19validate_block_sizejjj(
             as core::ffi::c_int as bool_0;
         _470 = _454;
         if _470 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-            _449 = 0 as core::ffi::c_int as uint32_t;
+            _449 = 0;
         } else {
-            _449 = 10 as core::ffi::c_int as uint32_t;
+            _449 = 10;
         }
     } else {
-        _449 = 4 as core::ffi::c_int as uint32_t;
+        _449 = 4;
     }
     _471 = _449;
     return _471;
@@ -3200,18 +3186,17 @@ unsafe extern "C" fn _ZL14validate_flags15astcenc_profilej(
     _512 = _508;
     _513 = _ZL8popcountm((_511 & _512) as uint64_t);
     if _513 != 0 as core::ffi::c_uint {
-        _505 = 8 as core::ffi::c_int as uint32_t;
+        _505 = 8;
     } else {
-        _508 = 65 as core::ffi::c_int as uint32_t;
+        _508 = 65;
         _514 = _507;
         _515 = _508;
         _516 = _ZL8popcountm((_514 & _515) as uint64_t);
         if _516 as int32_t > 1 as core::ffi::c_uint as int32_t {
-            _505 = 8 as core::ffi::c_int as uint32_t;
+            _505 = 8;
         } else {
             _517 = _507;
-            _509 = (_517 & 2 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint)
-                as core::ffi::c_int as bool_0;
+            _509 = (_517 & 2 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
             _518 = _506;
             if _518 == 3 as core::ffi::c_uint {
                 _520__PHI_TEMPORARY = 1 as core::ffi::c_int as bool_0;
@@ -3226,7 +3211,7 @@ unsafe extern "C" fn _ZL14validate_flags15astcenc_profilej(
             if _521 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                 _522 = _510;
                 if _522 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-                    _505 = 11 as core::ffi::c_int as uint32_t;
+                    _505 = 11;
                     current_block = 15457588564941582994;
                 } else {
                     current_block = 6426155405442113127;
@@ -3237,7 +3222,7 @@ unsafe extern "C" fn _ZL14validate_flags15astcenc_profilej(
             match current_block {
                 15457588564941582994 => {}
                 _ => {
-                    _505 = 0 as core::ffi::c_int as uint32_t;
+                    _505 = 0;
                 }
             }
         }
@@ -5473,9 +5458,9 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
     } else {
         _1115 = _1101;
         if _1115 == 0 as core::ffi::c_uint {
-            _1099 = 3 as core::ffi::c_int as uint32_t;
+            _1099 = 3;
         } else {
-            _1116 = _Znwm(792 as core::ffi::c_int as uint64_t);
+            _1116 = _Znwm(792);
             _ZN15astcenc_contextC2Ev(_1116);
             _1105 = _1116;
             _1117 = _1105;
@@ -5493,7 +5478,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                     as *mut l_struct_struct_OC_astcenc_config
                     as *mut core::ffi::c_void,
                 _1120,
-                120 as core::ffi::c_int as uint64_t,
+                120,
             );
             _1123 = _1108;
             let ref mut fresh0 = *(&mut (*(_1123 as *mut l_struct_struct_OC_astcenc_contexti))
@@ -5515,15 +5500,12 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                 _1128 = _1105;
                 if !_1128.is_null() {
                     _ZN15astcenc_contextD2Ev(_1128);
-                    _ZdlPvm(_1128, 792 as core::ffi::c_int as uint64_t);
+                    _ZdlPvm(_1128, 792);
                 }
                 _1129 = _1103;
                 _1099 = _1129;
             } else {
-                _1130 = _Z14aligned_mallocI21block_size_descriptorEPT_mm(
-                    14740592 as core::ffi::c_int as uint64_t,
-                    0 as core::ffi::c_int as uint64_t,
-                );
+                _1130 = _Z14aligned_mallocI21block_size_descriptorEPT_mm(14740592, 0);
                 _1131 = _1108;
                 let ref mut fresh2 = *(&mut (*(_1131 as *mut l_struct_struct_OC_astcenc_contexti))
                     .field2 as *mut *mut core::ffi::c_void);
@@ -5535,8 +5517,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                     _1135 = _1104;
                     _1136 = *(&mut (*(_1135 as *mut l_struct_struct_OC_astcenc_config)).field1
                         as *mut uint32_t);
-                    _1109 = (_1136 & 32 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint)
-                        as core::ffi::c_int as bool_0;
+                    _1109 = (_1136 & 32 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
                     _1137 = _1104;
                     _1138 = *(&mut (*(_1137 as *mut l_struct_struct_OC_astcenc_config)).field2
                         as *mut uint32_t);
@@ -5573,7 +5554,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field1 as *mut uint32_t);
-                    if _1151 & 16 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
+                    if _1151 & 16 != 0 as core::ffi::c_uint {
                         current_block = 17381674388336565657;
                     } else {
                         _1152 = _1108;
@@ -5673,7 +5654,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1082 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1076 = &mut _1085 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void;
@@ -5775,7 +5756,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         == 0 as core::ffi::c_uint)
                                         as core::ffi::c_int
                                         as bool_0,
-                                    0 as core::ffi::c_int as uint32_t,
+                                    0,
                                     -(1 as core::ffi::c_int) as uint32_t,
                                 );
                                 _1191 = _1065;
@@ -5793,7 +5774,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         == 0 as core::ffi::c_uint)
                                         as core::ffi::c_int
                                         as bool_0,
-                                    0 as core::ffi::c_int as uint32_t,
+                                    0,
                                     -(1 as core::ffi::c_int) as uint32_t,
                                 );
                                 _1193 = _1066;
@@ -5811,7 +5792,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         == 0 as core::ffi::c_uint)
                                         as core::ffi::c_int
                                         as bool_0,
-                                    0 as core::ffi::c_int as uint32_t,
+                                    0,
                                     -(1 as core::ffi::c_int) as uint32_t,
                                 );
                                 _1195 = _1067;
@@ -5829,7 +5810,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         == 0 as core::ffi::c_uint)
                                         as core::ffi::c_int
                                         as bool_0,
-                                    0 as core::ffi::c_int as uint32_t,
+                                    0,
                                     -(1 as core::ffi::c_int) as uint32_t,
                                 );
                                 _1197 = *(&mut _1068 as *mut l_struct_struct_OC_vmask4
@@ -5841,7 +5822,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1081 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1199 = *(&mut _1089 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -5870,7 +5851,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                     as *mut uint32_t) = _1204;
                                 _683 = &mut _979 as *mut l_struct_struct_OC_vint4
                                     as *mut core::ffi::c_void;
-                                _684 = 8388607 as core::ffi::c_int as uint32_t;
+                                _684 = 8388607;
                                 _1205 = _683;
                                 _1206 = _684;
                                 *(_1205 as *mut uint32_t) = _1206;
@@ -5891,7 +5872,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                     as *mut uint32_t) = _1209;
                                 _685 = &mut _980 as *mut l_struct_struct_OC_vint4
                                     as *mut core::ffi::c_void;
-                                _686 = 1065353216 as core::ffi::c_int as uint32_t;
+                                _686 = 1065353216;
                                 _1210 = _685;
                                 _1211 = _686;
                                 *(_1210 as *mut uint32_t) = _1211;
@@ -5915,7 +5896,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _977 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1216 = *(&mut _982 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -5926,7 +5907,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _600 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1218 = *(&mut _599 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t);
@@ -5937,14 +5918,14 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _981 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1220 = memcpy(
                                     &mut _988 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
                                     &mut _978 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1221 = *(&mut _987 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t);
@@ -6028,28 +6009,28 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                     as *mut l_array_2_uint64_t) = _1237;
                                 _1238 =
                                     *(&mut _587 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                                _588 = llvm_lshr_u32(_1238, 23 as core::ffi::c_int as uint32_t);
+                                _588 = llvm_lshr_u32(_1238, 23);
                                 _1239 = *(&mut *((*(&mut _587 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_4_uint32_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(1 as core::ffi::c_int as int64_t as isize)
                                     as *mut uint32_t);
-                                _589 = llvm_lshr_u32(_1239, 23 as core::ffi::c_int as uint32_t);
+                                _589 = llvm_lshr_u32(_1239, 23);
                                 _1240 = *(&mut *((*(&mut _587 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_4_uint32_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(2 as core::ffi::c_int as int64_t as isize)
                                     as *mut uint32_t);
-                                _590 = llvm_lshr_u32(_1240, 23 as core::ffi::c_int as uint32_t);
+                                _590 = llvm_lshr_u32(_1240, 23);
                                 _1241 = *(&mut *((*(&mut _587 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_4_uint32_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(3 as core::ffi::c_int as int64_t as isize)
                                     as *mut uint32_t);
-                                _591 = llvm_lshr_u32(_1241, 23 as core::ffi::c_int as uint32_t);
+                                _591 = llvm_lshr_u32(_1241, 23);
                                 _1242 = _588;
                                 _1243 = _589;
                                 _1244 = _590;
@@ -6086,13 +6067,13 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                     as *mut l_array_2_uint64_t);
                                 *(&mut _595 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t) = _1252;
-                                _596 = 127 as core::ffi::c_int as uint32_t;
+                                _596 = 127;
                                 _1253 = memcpy(
                                     &mut _597 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
                                     &mut _595 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1254 = _596;
                                 _592 = &mut _598 as *mut l_struct_struct_OC_vint4
@@ -6252,14 +6233,14 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _981 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1289 = memcpy(
                                     &mut _993 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
                                     &mut _979 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1290 = *(&mut _992 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t);
@@ -6342,7 +6323,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _980 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1307 = *(&mut _991 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t);
@@ -6429,7 +6410,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _924 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1325 = _923;
                                 *(&mut _989 as *mut l_struct_struct_OC_vfloat4
@@ -6439,7 +6420,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _989 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1327 = *(&mut _1003 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -6473,7 +6454,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _843 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1335 = *(&mut _845 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -6563,7 +6544,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _885 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1354 = _886;
                                 _882 = &mut _888 as *mut l_struct_struct_OC_vfloat4
@@ -6670,7 +6651,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _989 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1378 = *(&mut _1001 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -6757,7 +6738,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _892 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1396 = _893;
                                 _889 = &mut _895 as *mut l_struct_struct_OC_vfloat4
@@ -6864,7 +6845,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _989 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1420 = *(&mut _999 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -6951,7 +6932,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _899 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1438 = _900;
                                 _896 = &mut _902 as *mut l_struct_struct_OC_vfloat4
@@ -7058,7 +7039,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _989 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1462 = *(&mut _997 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -7145,7 +7126,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _906 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1480 = _907;
                                 _903 = &mut _909 as *mut l_struct_struct_OC_vfloat4
@@ -7252,14 +7233,14 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _995 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1504 = memcpy(
                                     &mut _1010 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _989 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1505 = *(&mut _1010 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -7271,7 +7252,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _948 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1507 = _949;
                                 _945 = &mut _951 as *mut l_struct_struct_OC_vfloat4
@@ -7453,21 +7434,21 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1007 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1547 = memcpy(
                                     &mut _1011 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _995 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1548 = memcpy(
                                     &mut _1012 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _983 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1549 = *(&mut _1011 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -7552,7 +7533,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1082 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1567 = *(&mut _1088 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -7638,7 +7619,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1032 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1585 = *(&mut _1034 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -7651,7 +7632,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _955 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1587 = _956;
                                 _1588 = *(&mut _959 as *mut l_struct_struct_OC_vfloat4
@@ -7664,7 +7645,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _816 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1590 = _817;
                                 _813 = &mut _819 as *mut l_struct_struct_OC_vfloat4
@@ -7863,7 +7844,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _823 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1628 = _824;
                                 _820 = &mut _826 as *mut l_struct_struct_OC_vfloat4
@@ -8059,14 +8040,14 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1033 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1665 = memcpy(
                                     &mut _1037 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _1032 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1666 = *(&mut _1037 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -8078,7 +8059,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _941 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1668 = _942;
                                 _938 = &mut _944 as *mut l_struct_struct_OC_vfloat4
@@ -8237,14 +8218,14 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1032 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1703 = memcpy(
                                     &mut _1041 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
                                     &mut _1035 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1704 = *(&mut _1041 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t);
@@ -8377,19 +8358,19 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1035 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1732 = *(&mut _1045 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t);
                                 *(&mut _911 as *mut l_struct_struct_OC_vint4
                                     as *mut l_array_2_uint64_t) = _1732;
-                                _912 = 127 as core::ffi::c_int as uint32_t;
+                                _912 = 127;
                                 _1733 = memcpy(
                                     &mut _913 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
                                     &mut _911 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1734 = _912;
                                 _687 = &mut _914 as *mut l_struct_struct_OC_vint4
@@ -8562,7 +8543,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _922 as *mut l_struct_struct_OC_vint4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1774 = _921;
                                 *(&mut _1042 as *mut l_struct_struct_OC_vfloat4
@@ -8572,7 +8553,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1038 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1776 = *(&mut _1056 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -8606,7 +8587,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _833 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1784 = *(&mut _835 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -8696,7 +8677,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _850 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1803 = _851;
                                 _847 = &mut _853 as *mut l_struct_struct_OC_vfloat4
@@ -8803,7 +8784,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1038 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1827 = *(&mut _1054 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -8890,7 +8871,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _857 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1845 = _858;
                                 _854 = &mut _860 as *mut l_struct_struct_OC_vfloat4
@@ -8997,7 +8978,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1038 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1869 = *(&mut _1052 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -9084,7 +9065,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _864 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1887 = _865;
                                 _861 = &mut _867 as *mut l_struct_struct_OC_vfloat4
@@ -9191,7 +9172,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1038 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1911 = *(&mut _1050 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -9278,7 +9259,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _871 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1929 = _872;
                                 _868 = &mut _874 as *mut l_struct_struct_OC_vfloat4
@@ -9385,7 +9366,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1038 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1953 = *(&mut _1048 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -9472,7 +9453,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _878 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1971 = _879;
                                 _875 = &mut _881 as *mut l_struct_struct_OC_vfloat4
@@ -9579,14 +9560,14 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1042 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1995 = memcpy(
                                     &mut _1062 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
                                     &mut _1046 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1996 = *(&mut _1061 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -9671,7 +9652,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1086 as *mut l_struct_struct_OC_vfloat4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _1078 = &mut _1092 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void;
@@ -9699,7 +9680,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                         as *mut core::ffi::c_void,
                                     &mut _1083 as *mut l_struct_struct_OC_vmask4
                                         as *mut core::ffi::c_void,
-                                    16 as core::ffi::c_int as uint64_t,
+                                    16,
                                 );
                                 _2020 = *(&mut _1091 as *mut l_struct_struct_OC_vfloat4
                                     as *mut l_array_4_float);
@@ -9858,13 +9839,9 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                             _ => {}
                         }
                         _2050 = _1101;
-                        _1110 =
-                            llvm_mul_u64(231696 as core::ffi::c_int as uint64_t, _2050 as uint64_t);
+                        _1110 = llvm_mul_u64(231696, _2050 as uint64_t);
                         _2051 = _1110;
-                        _2052 = _Z14aligned_mallocI27compression_working_buffersEPT_mm(
-                            _2051,
-                            0 as core::ffi::c_int as uint64_t,
-                        );
+                        _2052 = _Z14aligned_mallocI27compression_working_buffersEPT_mm(_2051, 0);
                         _2053 = _1108;
                         let ref mut fresh3 =
                             *(&mut (*(_2053 as *mut l_struct_struct_OC_astcenc_contexti)).field4
@@ -9884,12 +9861,12 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                             _2058 = _1105;
                             if !_2058.is_null() {
                                 _ZN15astcenc_contextD2Ev(_2058);
-                                _ZdlPvm(_2058, 792 as core::ffi::c_int as uint64_t);
+                                _ZdlPvm(_2058, 792);
                             }
                             _2059 = _1102;
                             let ref mut fresh4 = *(_2059 as *mut *mut core::ffi::c_void);
                             *fresh4 = 0 as *mut core::ffi::c_void;
-                            _1099 = 1 as core::ffi::c_int as uint32_t;
+                            _1099 = 1;
                             current_block = 12975127021784716061;
                         }
                     }
@@ -9901,16 +9878,16 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                             let ref mut fresh5 = *(_2061 as *mut *mut core::ffi::c_void);
                             *fresh5 = _2060;
                             _Z22prepare_angular_tablesv();
-                            _1099 = 0 as core::ffi::c_int as uint32_t;
+                            _1099 = 0;
                         }
                     }
                 } else {
                     _1134 = _1105;
                     if !_1134.is_null() {
                         _ZN15astcenc_contextD2Ev(_1134);
-                        _ZdlPvm(_1134, 792 as core::ffi::c_int as uint64_t);
+                        _ZdlPvm(_1134, 792);
                     }
-                    _1099 = 1 as core::ffi::c_int as uint32_t;
+                    _1099 = 1;
                 }
             }
         }
@@ -10120,106 +10097,70 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
                 _2161 = _2133;
                 _2162 = *(&mut (*(_2161 as *mut l_struct_struct_OC_astcenc_config)).field11
                     as *mut uint32_t);
-                _2163 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2162,
-                    1 as core::ffi::c_int as uint32_t,
-                    4 as core::ffi::c_int as uint32_t,
-                );
+                _2163 = _ZN4astc5clampIjEET_S1_S1_S1_(_2162, 1, 4);
                 _2164 = _2133;
                 *(&mut (*(_2164 as *mut l_struct_struct_OC_astcenc_config)).field11
                     as *mut uint32_t) = _2163;
                 _2165 = _2133;
                 _2166 = *(&mut (*(_2165 as *mut l_struct_struct_OC_astcenc_config)).field12
                     as *mut uint32_t);
-                _2167 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2166,
-                    1 as core::ffi::c_int as uint32_t,
-                    1024 as core::ffi::c_int as uint32_t,
-                );
+                _2167 = _ZN4astc5clampIjEET_S1_S1_S1_(_2166, 1, 1024);
                 _2168 = _2133;
                 *(&mut (*(_2168 as *mut l_struct_struct_OC_astcenc_config)).field12
                     as *mut uint32_t) = _2167;
                 _2169 = _2133;
                 _2170 = *(&mut (*(_2169 as *mut l_struct_struct_OC_astcenc_config)).field13
                     as *mut uint32_t);
-                _2171 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2170,
-                    1 as core::ffi::c_int as uint32_t,
-                    1024 as core::ffi::c_int as uint32_t,
-                );
+                _2171 = _ZN4astc5clampIjEET_S1_S1_S1_(_2170, 1, 1024);
                 _2172 = _2133;
                 *(&mut (*(_2172 as *mut l_struct_struct_OC_astcenc_config)).field13
                     as *mut uint32_t) = _2171;
                 _2173 = _2133;
                 _2174 = *(&mut (*(_2173 as *mut l_struct_struct_OC_astcenc_config)).field14
                     as *mut uint32_t);
-                _2175 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2174,
-                    1 as core::ffi::c_int as uint32_t,
-                    1024 as core::ffi::c_int as uint32_t,
-                );
+                _2175 = _ZN4astc5clampIjEET_S1_S1_S1_(_2174, 1, 1024);
                 _2176 = _2133;
                 *(&mut (*(_2176 as *mut l_struct_struct_OC_astcenc_config)).field14
                     as *mut uint32_t) = _2175;
                 _2177 = _2133;
                 _2178 = *(&mut (*(_2177 as *mut l_struct_struct_OC_astcenc_config)).field15
                     as *mut uint32_t);
-                _2179 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2178,
-                    1 as core::ffi::c_int as uint32_t,
-                    100 as core::ffi::c_int as uint32_t,
-                );
+                _2179 = _ZN4astc5clampIjEET_S1_S1_S1_(_2178, 1, 100);
                 _2180 = _2133;
                 *(&mut (*(_2180 as *mut l_struct_struct_OC_astcenc_config)).field15
                     as *mut uint32_t) = _2179;
                 _2181 = _2133;
                 _2182 = *(&mut (*(_2181 as *mut l_struct_struct_OC_astcenc_config)).field16
                     as *mut uint32_t);
-                _2183 = _ZN4astcL3maxIjEET_S1_S1_(_2182, 1 as core::ffi::c_int as uint32_t);
+                _2183 = _ZN4astcL3maxIjEET_S1_S1_(_2182, 1);
                 _2184 = _2133;
                 *(&mut (*(_2184 as *mut l_struct_struct_OC_astcenc_config)).field16
                     as *mut uint32_t) = _2183;
                 _2185 = _2133;
                 _2186 = *(&mut (*(_2185 as *mut l_struct_struct_OC_astcenc_config)).field17
                     as *mut uint32_t);
-                _2187 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2186,
-                    1 as core::ffi::c_int as uint32_t,
-                    8 as core::ffi::c_int as uint32_t,
-                );
+                _2187 = _ZN4astc5clampIjEET_S1_S1_S1_(_2186, 1, 8);
                 _2188 = _2133;
                 *(&mut (*(_2188 as *mut l_struct_struct_OC_astcenc_config)).field17
                     as *mut uint32_t) = _2187;
                 _2189 = _2133;
                 _2190 = *(&mut (*(_2189 as *mut l_struct_struct_OC_astcenc_config)).field18
                     as *mut uint32_t);
-                _2191 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2190,
-                    1 as core::ffi::c_int as uint32_t,
-                    8 as core::ffi::c_int as uint32_t,
-                );
+                _2191 = _ZN4astc5clampIjEET_S1_S1_S1_(_2190, 1, 8);
                 _2192 = _2133;
                 *(&mut (*(_2192 as *mut l_struct_struct_OC_astcenc_config)).field18
                     as *mut uint32_t) = _2191;
                 _2193 = _2133;
                 _2194 = *(&mut (*(_2193 as *mut l_struct_struct_OC_astcenc_config)).field19
                     as *mut uint32_t);
-                _2195 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2194,
-                    1 as core::ffi::c_int as uint32_t,
-                    8 as core::ffi::c_int as uint32_t,
-                );
+                _2195 = _ZN4astc5clampIjEET_S1_S1_S1_(_2194, 1, 8);
                 _2196 = _2133;
                 *(&mut (*(_2196 as *mut l_struct_struct_OC_astcenc_config)).field19
                     as *mut uint32_t) = _2195;
                 _2197 = _2133;
                 _2198 = *(&mut (*(_2197 as *mut l_struct_struct_OC_astcenc_config)).field20
                     as *mut uint32_t);
-                _2199 = _ZN4astc5clampIjEET_S1_S1_S1_(
-                    _2198,
-                    1 as core::ffi::c_int as uint32_t,
-                    8 as core::ffi::c_int as uint32_t,
-                );
+                _2199 = _ZN4astc5clampIjEET_S1_S1_S1_(_2198, 1, 8);
                 _2200 = _2133;
                 *(&mut (*(_2200 as *mut l_struct_struct_OC_astcenc_config)).field20
                     as *mut uint32_t) = _2199;
@@ -10319,9 +10260,9 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
                     _2253 = _2133;
                     *(&mut (*(_2253 as *mut l_struct_struct_OC_astcenc_config)).field8
                         as *mut core::ffi::c_float) = _2252;
-                    _2132 = 0 as core::ffi::c_int as uint32_t;
+                    _2132 = 0;
                 } else {
-                    _2132 = 3 as core::ffi::c_int as uint32_t;
+                    _2132 = 3;
                 }
             }
         }
@@ -10376,11 +10317,8 @@ pub unsafe extern "C" fn _Z14aligned_mallocI21block_size_descriptorEPT_mm(
     let mut _2287: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _2271 = _2268;
     _2272 = _2269;
-    _2274 = 0 as core::ffi::c_int as uint32_t;
-    _2277 = _ZN4astcL3maxImEET_S1_S1_(
-        8 as core::ffi::c_int as uint64_t,
-        8 as core::ffi::c_int as uint64_t,
-    );
+    _2274 = 0;
+    _2277 = _ZN4astcL3maxImEET_S1_S1_(8, 8);
     _2275 = _2277;
     _2278 = _2275;
     _2279 = _2272;
@@ -10443,11 +10381,8 @@ pub unsafe extern "C" fn _Z14aligned_mallocI27compression_working_buffersEPT_mm(
     let mut _2311: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _2295 = _2292;
     _2296 = _2293;
-    _2298 = 0 as core::ffi::c_int as uint32_t;
-    _2301 = _ZN4astcL3maxImEET_S1_S1_(
-        4 as core::ffi::c_int as uint64_t,
-        8 as core::ffi::c_int as uint64_t,
-    );
+    _2298 = 0;
+    _2301 = _ZN4astcL3maxImEET_S1_S1_(4, 8);
     _2299 = _2301;
     _2302 = _2299;
     _2303 = _2296;
@@ -10525,7 +10460,7 @@ pub unsafe extern "C" fn _Z20astcenc_context_freeP15astcenc_context(
         _2328 = _2320;
         if !_2328.is_null() {
             _ZN15astcenc_contextD2Ev(_2328);
-            _ZdlPvm(_2328, 792 as core::ffi::c_int as uint64_t);
+            _ZdlPvm(_2328, 792);
         }
     }
 }
@@ -10677,8 +10612,8 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
     _2368 = *(&mut (*(&mut (*(_2367 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
-    if _2368 & 16 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
-        _2342 = 9 as core::ffi::c_int as uint32_t;
+    if _2368 & 16 != 0 as core::ffi::c_uint {
+        _2342 = 9;
     } else {
         _2369 = _2345;
         _2370 = _ZL28validate_compression_swizzleRK15astcenc_swizzle(_2369);
@@ -10693,7 +10628,7 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
             _2375 = *(&mut (*(_2374 as *mut l_struct_struct_OC_astcenc_contexti)).field1
                 as *mut uint32_t);
             if _2373 >= _2375 {
-                _2342 = 3 as core::ffi::c_int as uint32_t;
+                _2342 = 3;
             } else {
                 _2376 = _2349;
                 _2377 = *(&mut (*(&mut (*(_2376 as *mut l_struct_struct_OC_astcenc_contexti)).field0
@@ -10715,48 +10650,28 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
                     as *mut uint32_t);
                 _2384 = _2352;
                 _2385 = _2352;
-                _2355 = llvm_udiv_u32(
-                    llvm_sub_u32(
-                        llvm_add_u32(_2383, _2384),
-                        1 as core::ffi::c_int as uint32_t,
-                    ),
-                    _2385,
-                );
+                _2355 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_2383, _2384), 1), _2385);
                 _2386 = _2351;
                 _2387 = *(&mut (*(_2386 as *mut l_struct_struct_OC_astcenc_image)).field1
                     as *mut uint32_t);
                 _2388 = _2353;
                 _2389 = _2353;
-                _2356 = llvm_udiv_u32(
-                    llvm_sub_u32(
-                        llvm_add_u32(_2387, _2388),
-                        1 as core::ffi::c_int as uint32_t,
-                    ),
-                    _2389,
-                );
+                _2356 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_2387, _2388), 1), _2389);
                 _2390 = _2351;
                 _2391 = *(&mut (*(_2390 as *mut l_struct_struct_OC_astcenc_image)).field2
                     as *mut uint32_t);
                 _2392 = _2354;
                 _2393 = _2354;
-                _2357 = llvm_udiv_u32(
-                    llvm_sub_u32(
-                        llvm_add_u32(_2391, _2392),
-                        1 as core::ffi::c_int as uint32_t,
-                    ),
-                    _2393,
-                );
+                _2357 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_2391, _2392), 1), _2393);
                 _2394 = _2355;
                 _2395 = _2356;
                 _2396 = _2357;
-                _2358 = llvm_mul_u32(
-                    llvm_mul_u32(llvm_mul_u32(_2394, _2395), _2396),
-                    16 as core::ffi::c_int as uint32_t,
-                ) as uint64_t;
+                _2358 =
+                    llvm_mul_u32(llvm_mul_u32(llvm_mul_u32(_2394, _2395), _2396), 16) as uint64_t;
                 _2397 = _2347;
                 _2398 = _2358;
                 if _2397 < _2398 {
-                    _2342 = 1 as core::ffi::c_int as uint32_t;
+                    _2342 = 1;
                 } else {
                     _2399 = _2349;
                     _2400 = *(&mut (*(_2399 as *mut l_struct_struct_OC_astcenc_contexti)).field1
@@ -10848,7 +10763,7 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
                         &mut _2364 as *mut l_struct_class_OC_std_KD__KD_function_OC_3
                             as *mut core::ffi::c_void,
                     );
-                    _2342 = 0 as core::ffi::c_int as uint32_t;
+                    _2342 = 0;
                 }
             }
         }
@@ -10904,7 +10819,7 @@ unsafe extern "C" fn _ZL28validate_compression_swizzleRK15astcenc_swizzle(
                 if _2450 != 0 as core::ffi::c_uint {
                     current_block = 15876810190971417653;
                 } else {
-                    _2437 = 0 as core::ffi::c_int as uint32_t;
+                    _2437 = 0;
                     current_block = 1680487543054120556;
                 }
             }
@@ -10912,7 +10827,7 @@ unsafe extern "C" fn _ZL28validate_compression_swizzleRK15astcenc_swizzle(
     }
     match current_block {
         15876810190971417653 => {
-            _2437 = 7 as core::ffi::c_int as uint32_t;
+            _2437 = 7;
         }
         _ => {}
     }
@@ -10941,8 +10856,8 @@ pub unsafe extern "C" fn _Z22astcenc_compress_resetP15astcenc_context(
     _2464 = *(&mut (*(&mut (*(_2463 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
-    if _2464 & 16 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
-        _2459 = 9 as core::ffi::c_int as uint32_t;
+    if _2464 & 16 != 0 as core::ffi::c_uint {
+        _2459 = 9;
     } else {
         _2465 = _2460;
         _ZN15ParallelManager5resetEv(
@@ -10954,7 +10869,7 @@ pub unsafe extern "C" fn _Z22astcenc_compress_resetP15astcenc_context(
             &mut (*(_2466 as *mut l_struct_struct_OC_astcenc_context)).field2
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
         );
-        _2459 = 0 as core::ffi::c_int as uint32_t;
+        _2459 = 0;
     }
     _2467 = _2459;
     return _2467;
@@ -11014,11 +10929,7 @@ unsafe extern "C" fn _ZNSt8functionIFjvEEC2IRZ22astcenc_compress_imageP15astcenc
     _2486 = _2484;
     _2487 = _2485;
     _2490 = _2486;
-    _2491 = memset(
-        _2490 as *mut uint8_t as *mut core::ffi::c_void,
-        0 as core::ffi::c_int as uint32_t,
-        24 as core::ffi::c_int as uint64_t,
-    );
+    _2491 = memset(_2490 as *mut uint8_t as *mut core::ffi::c_void, 0, 24);
     _ZNSt14_Function_baseC2Ev(_2490);
     let ref mut fresh10 = *(&mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD_function)).field1
         as *mut *mut core::ffi::c_void);
@@ -11184,14 +11095,11 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
         &mut _2506 as *mut l_struct_struct_OC_pixel_region_args as *mut core::ffi::c_void,
         &mut (*(_2519 as *mut l_struct_struct_OC_avg_args)).field0
             as *mut l_struct_struct_OC_pixel_region_args as *mut core::ffi::c_void,
-        64 as core::ffi::c_int as uint64_t,
+        64,
     );
     _2521 = _2505;
     _2522 = *(&mut (*(_2521 as *mut l_struct_struct_OC_avg_args)).field6 as *mut uint32_t);
-    _2523 = llvm_OC_umul_OC_with_OC_overflow_OC_i64(
-        _2522 as uint64_t,
-        16 as core::ffi::c_int as uint64_t,
-    );
+    _2523 = llvm_OC_umul_OC_with_OC_overflow_OC_i64(_2522 as uint64_t, 16);
     _2524 = _Znam(llvm_select_u64(
         _2523.field1,
         -(1 as core::ffi::c_int) as uint64_t,
@@ -11218,10 +11126,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
     _2536 = _2510;
     _2537 = _2510;
     _2512 = llvm_sdiv_u32(
-        llvm_sub_u32(
-            llvm_add_u32(_2535, _2536),
-            1 as core::ffi::c_int as uint32_t,
-        ) as int32_t,
+        llvm_sub_u32(llvm_add_u32(_2535, _2536), 1) as int32_t,
         _2537 as int32_t,
     );
     loop {
@@ -11229,7 +11134,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
         _2539 = _ZN15ParallelManager19get_task_assignmentEjRj(
             &mut (*(_2538 as *mut l_struct_struct_OC_astcenc_context)).field1
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint32_t,
+            16,
             &mut _2513 as *mut uint32_t as *mut core::ffi::c_void,
         );
         _2514 = _2539;
@@ -11269,7 +11174,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
             *(&mut _2506.field5 as *mut uint32_t) = _2560;
             _2561 = _2517;
             *(&mut _2506.field8 as *mut uint32_t) = _2561;
-            _2518 = 0 as core::ffi::c_int as uint32_t;
+            _2518 = 0;
             loop {
                 _2562 = _2518;
                 _2563 = _2507;
@@ -11296,7 +11201,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
                 _2518 = llvm_add_u32(_2571, _2570);
             }
             _2572 = _2515;
-            _2515 = llvm_add_u32(_2572, 1 as core::ffi::c_int as uint32_t);
+            _2515 = llvm_add_u32(_2572, 1);
         }
         _2573 = _2504;
         _2574 = _2513;
@@ -11750,30 +11655,21 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
     _2702 = _2636;
     _2703 = _2636;
     _2642 = llvm_sdiv_u32(
-        llvm_sub_u32(
-            llvm_add_u32(_2701, _2702),
-            1 as core::ffi::c_int as uint32_t,
-        ) as int32_t,
+        llvm_sub_u32(llvm_add_u32(_2701, _2702), 1) as int32_t,
         _2703 as int32_t,
     );
     _2704 = _2640;
     _2705 = _2637;
     _2706 = _2637;
     _2643 = llvm_sdiv_u32(
-        llvm_sub_u32(
-            llvm_add_u32(_2704, _2705),
-            1 as core::ffi::c_int as uint32_t,
-        ) as int32_t,
+        llvm_sub_u32(llvm_add_u32(_2704, _2705), 1) as int32_t,
         _2706 as int32_t,
     );
     _2707 = _2641;
     _2708 = _2638;
     _2709 = _2638;
     _2644 = llvm_sdiv_u32(
-        llvm_sub_u32(
-            llvm_add_u32(_2707, _2708),
-            1 as core::ffi::c_int as uint32_t,
-        ) as int32_t,
+        llvm_sub_u32(llvm_add_u32(_2707, _2708), 1) as int32_t,
         _2709 as int32_t,
     );
     _2710 = _2644;
@@ -11790,9 +11686,8 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
         as *mut l_struct_struct_OC_astcenc_contexti))
         .field0 as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
-    *(&mut _2635.field11 as *mut uint8_t) = (_2717 & 2 as core::ffi::c_int as uint32_t
-        != 0 as core::ffi::c_uint) as core::ffi::c_int
-        as bool_0;
+    *(&mut _2635.field11 as *mut uint8_t) =
+        (_2717 & 2 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _2718 = _2632;
     _2719 = *(&mut (*(&mut (*(_2718 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
@@ -11832,7 +11727,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
     _2731 = memcpy(
         &mut _2635.field9 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _2648 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        16 as core::ffi::c_int as uint64_t,
+        16,
     );
     _2732 = _2632;
     _2733 = *(&mut (*(_2732 as *mut l_struct_struct_OC_astcenc_contexti)).field4
@@ -11978,7 +11873,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
         _2759 = _ZN15ParallelManager19get_task_assignmentEjRj(
             &mut (*(_2758 as *mut l_struct_struct_OC_astcenc_context)).field2
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
-            16 as core::ffi::c_int as uint32_t,
+            16,
             &mut _2654 as *mut uint32_t as *mut core::ffi::c_void,
         );
         _2655 = _2759;
@@ -12039,26 +11934,14 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field9 as *mut uint32_t);
-                    _2666 = llvm_add_u32(
-                        _2790,
-                        llvm_mul_u32(
-                            2 as core::ffi::c_int as uint32_t,
-                            llvm_sub_u32(_2792, 1 as core::ffi::c_int as uint32_t),
-                        ),
-                    );
+                    _2666 = llvm_add_u32(_2790, llvm_mul_u32(2, llvm_sub_u32(_2792, 1)));
                     _2793 = _2637;
                     _2794 = _2632;
                     _2795 = *(&mut (*(&mut (*(_2794 as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field9 as *mut uint32_t);
-                    _2667 = llvm_add_u32(
-                        _2793,
-                        llvm_mul_u32(
-                            2 as core::ffi::c_int as uint32_t,
-                            llvm_sub_u32(_2795, 1 as core::ffi::c_int as uint32_t),
-                        ),
-                    );
+                    _2667 = llvm_add_u32(_2793, llvm_mul_u32(2, llvm_sub_u32(_2795, 1)));
                     _2796 = _2666;
                     _2797 = _2667;
                     _2668 = llvm_mul_u32(_2796, _2797) as int32_t as core::ffi::c_float;
@@ -12118,10 +12001,10 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                                 _2670 = _2814;
                             }
                             _2815 = _2671;
-                            _2671 = llvm_add_u32(_2815, 1 as core::ffi::c_int as uint32_t);
+                            _2671 = llvm_add_u32(_2815, 1);
                         }
                         _2816 = _2670;
-                        _2670 = llvm_add_u32(_2816, 1 as core::ffi::c_int as uint32_t);
+                        _2670 = llvm_add_u32(_2816, 1);
                     }
                 }
             }
@@ -12153,7 +12036,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                 _2830 = *(&mut (*(&mut (*(_2829 as *mut l_struct_struct_OC_astcenc_contexti)).field0
                     as *mut l_struct_struct_OC_astcenc_config))
                     .field1 as *mut uint32_t);
-                if _2830 & 4 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
+                if _2830 & 4 != 0 as core::ffi::c_uint {
                     _2616 = &mut _2635.field8 as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void;
                     _2831 = _2616;
@@ -12212,7 +12095,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                         &mut _2635.field9 as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         &mut _2674 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                 }
             } else {
@@ -12241,7 +12124,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                 _2856 = memcpy(
                     &mut _2635.field5 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2675 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2607 = &mut _2609 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2608 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -12268,7 +12151,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                 _2863 = memcpy(
                     &mut _2635.field6 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2610 = &mut _2612 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2611 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -12295,7 +12178,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                 _2870 = memcpy(
                     &mut _2635.field7 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2677 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 _2613 = &mut _2615 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2614 = 0 as core::ffi::c_int as core::ffi::c_float;
@@ -12322,7 +12205,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                 _2877 = memcpy(
                     &mut _2635.field8 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                     &mut _2678 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    16 as core::ffi::c_int as uint64_t,
+                    16,
                 );
                 *(&mut _2635.field10 as *mut uint8_t) = 1 as core::ffi::c_int as uint8_t;
             }
@@ -12336,7 +12219,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                     llvm_mul_u32(llvm_add_u32(llvm_mul_u32(_2878, _2879), _2880), _2881),
                     _2882,
                 ),
-                16 as core::ffi::c_int as uint32_t,
+                16,
             );
             _2883 = _2631;
             _2884 = _2679;
@@ -12352,7 +12235,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                 _2887,
             );
             _2888 = _2656;
-            _2656 = llvm_add_u32(_2888, 1 as core::ffi::c_int as uint32_t);
+            _2656 = llvm_add_u32(_2888, 1);
         }
         _2889 = _2627;
         _2890 = _2654;
@@ -12413,11 +12296,7 @@ unsafe extern "C" fn _ZNSt8functionIFvvEEC2IRZ22astcenc_compress_imageP15astcenc
     _2943 = _2941;
     _2944 = _2942;
     _2945 = _2943;
-    _2946 = memset(
-        _2945 as *mut uint8_t as *mut core::ffi::c_void,
-        0 as core::ffi::c_int as uint32_t,
-        24 as core::ffi::c_int as uint64_t,
-    );
+    _2946 = memset(_2945 as *mut uint8_t as *mut core::ffi::c_void, 0, 24);
     _ZNSt14_Function_baseC2Ev(_2945);
     let ref mut fresh15 = *(&mut (*(_2945 as *mut l_struct_class_OC_std_KD__KD_function_OC_3))
         .field1 as *mut *mut core::ffi::c_void);
@@ -12500,12 +12379,10 @@ pub unsafe extern "C" fn _ZN15ParallelManager5resetEv(mut _2956: *mut core::ffi:
     _2960 = _ZNSt13__atomic_baseIjEaSEj(
         &mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field5
             as *mut l_struct_struct_OC_std_KD__KD_atomic_OC_0 as *mut core::ffi::c_void,
-        0 as core::ffi::c_int as uint32_t,
+        0,
     );
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t) =
-        0 as core::ffi::c_int as uint32_t;
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) =
-        0 as core::ffi::c_int as uint32_t;
+    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t) = 0;
+    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) = 0;
     let ref mut fresh18 = *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field8
         as *mut *mut core::ffi::c_void);
     *fresh18 = 0 as *mut core::ffi::c_void;
@@ -12536,8 +12413,8 @@ pub unsafe extern "C" fn _Z23astcenc_compress_cancelP15astcenc_context(
     _2967 = *(&mut (*(&mut (*(_2966 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
-    if _2967 & 16 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
-        _2962 = 9 as core::ffi::c_int as uint32_t;
+    if _2967 & 16 != 0 as core::ffi::c_uint {
+        _2962 = 9;
     } else {
         _2968 = _2963;
         _ZN15ParallelManager6cancelEv(
@@ -12549,7 +12426,7 @@ pub unsafe extern "C" fn _Z23astcenc_compress_cancelP15astcenc_context(
             &mut (*(_2969 as *mut l_struct_struct_OC_astcenc_context)).field1
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
         );
-        _2962 = 0 as core::ffi::c_int as uint32_t;
+        _2962 = 0;
     }
     _2970 = _2962;
     return _2970;
@@ -12769,7 +12646,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
     _3018 = _2993;
     _3019 = *(&mut (*(_3018 as *mut l_struct_struct_OC_astcenc_contexti)).field1 as *mut uint32_t);
     if _3017 >= _3019 {
-        _2984 = 3 as core::ffi::c_int as uint32_t;
+        _2984 = 3;
     } else {
         _3020 = _2989;
         _3021 = _ZL30validate_decompression_swizzleRK15astcenc_swizzle(_3020);
@@ -12799,37 +12676,19 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                 *(&mut (*(_3030 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
             _3032 = _2994;
             _3033 = _2994;
-            _2997 = llvm_udiv_u32(
-                llvm_sub_u32(
-                    llvm_add_u32(_3031, _3032),
-                    1 as core::ffi::c_int as uint32_t,
-                ),
-                _3033,
-            );
+            _2997 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_3031, _3032), 1), _3033);
             _3034 = _2992;
             _3035 =
                 *(&mut (*(_3034 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
             _3036 = _2995;
             _3037 = _2995;
-            _2998 = llvm_udiv_u32(
-                llvm_sub_u32(
-                    llvm_add_u32(_3035, _3036),
-                    1 as core::ffi::c_int as uint32_t,
-                ),
-                _3037,
-            );
+            _2998 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_3035, _3036), 1), _3037);
             _3038 = _2992;
             _3039 =
                 *(&mut (*(_3038 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
             _3040 = _2996;
             _3041 = _2996;
-            _2999 = llvm_udiv_u32(
-                llvm_sub_u32(
-                    llvm_add_u32(_3039, _3040),
-                    1 as core::ffi::c_int as uint32_t,
-                ),
-                _3041,
-            );
+            _2999 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_3039, _3040), 1), _3041);
             _3042 = _2999;
             _3043 = _2998;
             _3044 = _2997;
@@ -12842,19 +12701,16 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
             _3048 = _2997;
             _3049 = _2998;
             _3050 = _2999;
-            _3003 = llvm_mul_u32(
-                llvm_mul_u32(llvm_mul_u32(_3048, _3049), _3050),
-                16 as core::ffi::c_int as uint32_t,
-            ) as uint64_t;
+            _3003 = llvm_mul_u32(llvm_mul_u32(llvm_mul_u32(_3048, _3049), _3050), 16) as uint64_t;
             _3051 = _2987;
             _3052 = _3003;
             if _3051 < _3052 {
-                _2984 = 1 as core::ffi::c_int as uint32_t;
+                _2984 = 1;
             } else {
                 _3053 = memset(
                     &mut _3004 as *mut l_struct_struct_OC_image_block as *mut core::ffi::c_void,
-                    0 as core::ffi::c_int as uint32_t,
-                    4036 as core::ffi::c_int as uint64_t,
+                    0,
+                    4036,
                 );
                 _3054 = _2994;
                 _3055 = _2995;
@@ -12888,7 +12744,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                         &mut (*(_3065 as *mut l_struct_struct_OC_astcenc_context)).field3
                             as *mut l_struct_class_OC_ParallelManager
                             as *mut core::ffi::c_void,
-                        128 as core::ffi::c_int as uint32_t,
+                        128,
                         &mut _3005 as *mut uint32_t as *mut core::ffi::c_void,
                     );
                     _3006 = _3066;
@@ -12932,7 +12788,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                                 ),
                                 _3086,
                             ),
-                            16 as core::ffi::c_int as uint32_t,
+                            16,
                         );
                         _3087 = _2986;
                         _3088 = _3012;
@@ -13000,7 +12856,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                             _3111,
                         );
                         _3112 = _3007;
-                        _3007 = llvm_add_u32(_3112, 1 as core::ffi::c_int as uint32_t);
+                        _3007 = llvm_add_u32(_3112, 1);
                     }
                     _3113 = _2985;
                     _3114 = _3005;
@@ -13011,7 +12867,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                         _3114,
                     );
                 }
-                _2984 = 0 as core::ffi::c_int as uint32_t;
+                _2984 = 0;
             }
         }
     }
@@ -13066,7 +12922,7 @@ unsafe extern "C" fn _ZL30validate_decompression_swizzleRK15astcenc_swizzle(
                 if _3147 != 0 as core::ffi::c_uint {
                     current_block = 2576984672301191410;
                 } else {
-                    _3134 = 0 as core::ffi::c_int as uint32_t;
+                    _3134 = 0;
                     current_block = 4336366441949112944;
                 }
             }
@@ -13074,7 +12930,7 @@ unsafe extern "C" fn _ZL30validate_decompression_swizzleRK15astcenc_swizzle(
     }
     match current_block {
         2576984672301191410 => {
-            _3134 = 7 as core::ffi::c_int as uint32_t;
+            _3134 = 7;
         }
         _ => {}
     }
@@ -13094,7 +12950,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_resetP15astcenc_context(
         &mut (*(_3157 as *mut l_struct_struct_OC_astcenc_context)).field3
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
-    return 0 as core::ffi::c_int as uint32_t;
+    return 0;
 }
 #[no_mangle]
 #[inline(never)]
@@ -13210,7 +13066,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager19get_task_assignmentEjRj(
     _3181 = &mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field5
         as *mut l_struct_struct_OC_std_KD__KD_atomic_OC_0 as *mut core::ffi::c_void;
     _3182 = _3192;
-    _3183 = 0 as core::ffi::c_int as uint32_t;
+    _3183 = 0;
     _3193 = _3181;
     _3194 = _3183;
     _3195 = _3182;
@@ -13218,27 +13074,27 @@ pub unsafe extern "C" fn _ZN15ParallelManager19get_task_assignmentEjRj(
     match _3194 {
         1 | 2 => {
             _3198 = _3184;
-            _3199 = __atomic_fetch_add_4(_3193, _3198, 2 as core::ffi::c_int as uint32_t);
+            _3199 = __atomic_fetch_add_4(_3193, _3198, 2);
             _3185 = _3199;
         }
         3 => {
             _3200 = _3184;
-            _3201 = __atomic_fetch_add_4(_3193, _3200, 3 as core::ffi::c_int as uint32_t);
+            _3201 = __atomic_fetch_add_4(_3193, _3200, 3);
             _3185 = _3201;
         }
         4 => {
             _3202 = _3184;
-            _3203 = __atomic_fetch_add_4(_3193, _3202, 4 as core::ffi::c_int as uint32_t);
+            _3203 = __atomic_fetch_add_4(_3193, _3202, 4);
             _3185 = _3203;
         }
         5 => {
             _3204 = _3184;
-            _3205 = __atomic_fetch_add_4(_3193, _3204, 5 as core::ffi::c_int as uint32_t);
+            _3205 = __atomic_fetch_add_4(_3193, _3204, 5);
             _3185 = _3205;
         }
         _ => {
             _3196 = _3184;
-            _3197 = __atomic_fetch_add_4(_3193, _3196, 0 as core::ffi::c_int as uint32_t);
+            _3197 = __atomic_fetch_add_4(_3193, _3196, 0);
             _3185 = _3197;
         }
     }
@@ -13272,8 +13128,8 @@ pub unsafe extern "C" fn _ZN15ParallelManager19get_task_assignmentEjRj(
     match current_block {
         13622707591226943365 => {
             _3210 = _3189;
-            *(_3210 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
-            _3186 = 0 as core::ffi::c_int as uint32_t;
+            *(_3210 as *mut uint32_t) = 0;
+            _3186 = 0;
         }
         _ => {}
     }
@@ -15864,11 +15720,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
         as *mut *mut core::ffi::c_void);
     _3875 = _3905;
     _3906 = _3872;
-    _3907 = memset(
-        _3906,
-        0 as core::ffi::c_int as uint32_t,
-        2144 as core::ffi::c_int as uint64_t,
-    );
+    _3907 = memset(_3906, 0, 2144);
     _3908 = _3873;
     _3909 = *(&mut (*(&mut (*(_3908 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
@@ -15910,7 +15762,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
     _3925 = _3872;
     _3926 = *(&mut (*(_3925 as *mut l_struct_struct_OC_astcenc_block_info)).field5 as *mut uint8_t);
     if _3926 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-        _3869 = 0 as core::ffi::c_int as uint32_t;
+        _3869 = 0;
     } else {
         _3927 = *(&mut _3874.field0 as *mut uint8_t);
         if _3927 as uint32_t == 1 as core::ffi::c_uint {
@@ -15928,7 +15780,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
         _3932 =
             *(&mut (*(_3931 as *mut l_struct_struct_OC_astcenc_block_info)).field6 as *mut uint8_t);
         if _3932 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-            _3869 = 0 as core::ffi::c_int as uint32_t;
+            _3869 = 0;
         } else {
             _3933 = *(&mut _3874.field1 as *mut uint8_t);
             _3876 = _3933 as uint32_t;
@@ -15998,7 +15850,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
             _3969 = _3872;
             *(&mut (*(_3969 as *mut l_struct_struct_OC_astcenc_block_info)).field14
                 as *mut uint32_t) = _3968;
-            _3880 = 0 as core::ffi::c_int as uint32_t;
+            _3880 = 0;
             '__5032: loop {
                 _3970 = _3880;
                 _3971 = *(&mut _3874.field1 as *mut uint8_t);
@@ -16093,7 +15945,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     ((_3993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3995 = _3866;
@@ -16108,7 +15960,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     ((_3995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3997 = _3867;
@@ -16123,7 +15975,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     ((_3997 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3999 = _3868;
@@ -16138,10 +15990,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     ((_3999 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
-                _3885 = 0 as core::ffi::c_int as uint32_t;
+                _3885 = 0;
                 loop {
                     _4001 = _3885;
                     if !((_4001 as int32_t) < 2 as core::ffi::c_uint as int32_t) {
@@ -16155,7 +16007,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             .offset(_4002 as int32_t as int64_t as isize)
                             as *mut l_struct_struct_OC_vint4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4004 = (*(&mut _3887.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_7))
@@ -16165,17 +16017,17 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4005 = memcpy(
                         &mut _3831 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3829 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4006 =
                         *(&mut _3831 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3625 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4006;
-                    _3626 = 2047 as core::ffi::c_int as uint32_t;
+                    _3626 = 2047;
                     _4007 = memcpy(
                         &mut _3627 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3625 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4008 = _3626;
                     _3622 = &mut _3628 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -16278,35 +16130,35 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4031 = memcpy(
                         &mut _3833 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3829 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4032 =
                         *(&mut _3833 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3609 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4032;
                     _4033 = *(&mut _3609 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _3610 = llvm_lshr_u32(_4033, 11 as core::ffi::c_int as uint32_t);
+                    _3610 = llvm_lshr_u32(_4033, 11);
                     _4034 = *(&mut *((*(&mut _3609 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3611 = llvm_lshr_u32(_4034, 11 as core::ffi::c_int as uint32_t);
+                    _3611 = llvm_lshr_u32(_4034, 11);
                     _4035 = *(&mut *((*(&mut _3609 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3612 = llvm_lshr_u32(_4035, 11 as core::ffi::c_int as uint32_t);
+                    _3612 = llvm_lshr_u32(_4035, 11);
                     _4036 = *(&mut *((*(&mut _3609 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3613 = llvm_lshr_u32(_4036, 11 as core::ffi::c_int as uint32_t);
+                    _3613 = llvm_lshr_u32(_4036, 11);
                     _4037 = _3610;
                     _4038 = _3611;
                     _4039 = _3612;
@@ -16341,17 +16193,17 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4047 = memcpy(
                         &mut _3835 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3830 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4048 =
                         *(&mut _3835 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3585 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4048;
-                    _3586 = 3 as core::ffi::c_int as uint32_t;
+                    _3586 = 3;
                     _4049 = memcpy(
                         &mut _3587 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3585 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4050 = _3586;
                     _3582 = &mut _3588 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -16454,10 +16306,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4073 = memcpy(
                         &mut _3837 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3830 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3706 = &mut _3838 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3707 = 512 as core::ffi::c_int as uint32_t;
+                    _3707 = 512;
                     _4074 = _3706;
                     _4075 = _3707;
                     *(_4074 as *mut uint32_t) = _4075;
@@ -16538,7 +16390,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4092 = _3560;
@@ -16554,7 +16406,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4094 = _3561;
@@ -16570,7 +16422,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4096 = _3562;
@@ -16586,7 +16438,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4098 =
@@ -16596,17 +16448,17 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4099 = memcpy(
                         &mut _3841 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3830 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4100 =
                         *(&mut _3841 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3592 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4100;
-                    _3593 = 4 as core::ffi::c_int as uint32_t;
+                    _3593 = 4;
                     _4101 = memcpy(
                         &mut _3594 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3592 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4102 = _3593;
                     _3589 = &mut _3595 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -16710,11 +16562,11 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                         *(&mut _3840 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3688 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4125;
-                    _3689 = 512 as core::ffi::c_int as uint32_t;
+                    _3689 = 512;
                     _4126 = memcpy(
                         &mut _3690 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3688 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4127 = _3689;
                     _3685 = &mut _3691 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -16817,10 +16669,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4150 = memcpy(
                         &mut _3843 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3830 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3708 = &mut _3844 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3709 = 1536 as core::ffi::c_int as uint32_t;
+                    _3709 = 1536;
                     _4151 = _3708;
                     _4152 = _3709;
                     *(_4151 as *mut uint32_t) = _4152;
@@ -16901,7 +16753,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4169 = _3568;
@@ -16917,7 +16769,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4171 = _3569;
@@ -16933,7 +16785,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4173 = _3570;
@@ -16949,7 +16801,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4175 =
@@ -16959,17 +16811,17 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4176 = memcpy(
                         &mut _3847 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3830 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4177 =
                         *(&mut _3847 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3599 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4177;
-                    _3600 = 5 as core::ffi::c_int as uint32_t;
+                    _3600 = 5;
                     _4178 = memcpy(
                         &mut _3601 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3599 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4179 = _3600;
                     _3596 = &mut _3602 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -17073,11 +16925,11 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                         *(&mut _3846 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3695 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4202;
-                    _3696 = 2048 as core::ffi::c_int as uint32_t;
+                    _3696 = 2048;
                     _4203 = memcpy(
                         &mut _3697 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3695 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4204 = _3696;
                     _3692 = &mut _3698 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -17180,22 +17032,22 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4227 = memcpy(
                         &mut _3848 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3845 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4228 = memcpy(
                         &mut _3850 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3848 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4229 = memcpy(
                         &mut _3851 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3839 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4230 = memcpy(
                         &mut _3852 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _3842 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4231 =
                         *(&mut _3850 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -17320,22 +17172,22 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4256 = memcpy(
                         &mut _3848 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3849 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4257 = memcpy(
                         &mut _3854 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3848 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4258 = memcpy(
                         &mut _3855 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3834 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4259 = memcpy(
                         &mut _3856 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _3836 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4260 =
                         *(&mut _3854 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -17460,12 +17312,12 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4285 = memcpy(
                         &mut _3848 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3853 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4286 = memcpy(
                         &mut _3859 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3832 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4287 =
                         *(&mut _3859 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -17528,35 +17380,35 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4302 = memcpy(
                         &mut _3861 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3848 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4303 =
                         *(&mut _3861 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3531 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4303;
                     _4304 = *(&mut _3531 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _3532 = llvm_lshr_u32(_4304, 3 as core::ffi::c_int as uint32_t);
+                    _3532 = llvm_lshr_u32(_4304, 3);
                     _4305 = *(&mut *((*(&mut _3531 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3533 = llvm_lshr_u32(_4305, 3 as core::ffi::c_int as uint32_t);
+                    _3533 = llvm_lshr_u32(_4305, 3);
                     _4306 = *(&mut *((*(&mut _3531 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3534 = llvm_lshr_u32(_4306, 3 as core::ffi::c_int as uint32_t);
+                    _3534 = llvm_lshr_u32(_4306, 3);
                     _4307 = *(&mut *((*(&mut _3531 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3535 = llvm_lshr_u32(_4307, 3 as core::ffi::c_int as uint32_t);
+                    _3535 = llvm_lshr_u32(_4307, 3);
                     _4308 = _3532;
                     _4309 = _3533;
                     _4310 = _3534;
@@ -17664,10 +17516,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4334 = memcpy(
                         &mut _3862 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3857 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3710 = &mut _3863 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3711 = 31743 as core::ffi::c_int as uint32_t;
+                    _3711 = 31743;
                     _4335 = _3710;
                     _4336 = _3711;
                     *(_4335 as *mut uint32_t) = _4336;
@@ -17833,7 +17685,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             .offset(_4369 as int32_t as int64_t as isize)
                             as *mut l_struct_struct_OC_vint4
                             as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4371 = (*(&mut _3889.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_5))
@@ -17841,7 +17693,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     *(&mut _3792 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4371;
                     _3712 = &mut _3793 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3713 = 15360 as core::ffi::c_int as uint32_t;
+                    _3713 = 15360;
                     _4372 = _3712;
                     _4373 = _3713;
                     *(_4372 as *mut uint32_t) = _4373;
@@ -17863,7 +17715,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4377 = memcpy(
                         &mut _3795 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4378 =
                         *(&mut _3795 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -17926,10 +17778,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4393 = memcpy(
                         &mut _3797 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3714 = &mut _3798 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3715 = 65535 as core::ffi::c_int as uint32_t;
+                    _3715 = 65535;
                     _4394 = _3714;
                     _4395 = _3715;
                     *(_4394 as *mut uint32_t) = _4395;
@@ -18010,7 +17862,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4412 = _3468;
@@ -18026,7 +17878,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4414 = _3469;
@@ -18042,7 +17894,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4416 = _3470;
@@ -18058,7 +17910,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4418 =
@@ -18068,10 +17920,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4419 = memcpy(
                         &mut _3800 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3716 = &mut _3801 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3717 = 4 as core::ffi::c_int as uint32_t;
+                    _3717 = 4;
                     _4420 = _3716;
                     _4421 = _3717;
                     *(_4420 as *mut uint32_t) = _4421;
@@ -18152,7 +18004,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4438 = _3576;
@@ -18168,7 +18020,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4440 = _3577;
@@ -18184,7 +18036,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4442 = _3578;
@@ -18200,7 +18052,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4444 =
@@ -18210,7 +18062,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4445 = memcpy(
                         &mut _3804 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4446 =
                         *(&mut _3804 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -18219,35 +18071,35 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4447 = memcpy(
                         &mut _3456 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4448 =
                         *(&mut _3456 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3333 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4448;
                     _4449 = *(&mut _3333 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _3334 = llvm_lshr_u32(_4449, 8 as core::ffi::c_int as uint32_t);
+                    _3334 = llvm_lshr_u32(_4449, 8);
                     _4450 = *(&mut *((*(&mut _3333 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3335 = llvm_lshr_u32(_4450, 8 as core::ffi::c_int as uint32_t);
+                    _3335 = llvm_lshr_u32(_4450, 8);
                     _4451 = *(&mut *((*(&mut _3333 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3336 = llvm_lshr_u32(_4451, 8 as core::ffi::c_int as uint32_t);
+                    _3336 = llvm_lshr_u32(_4451, 8);
                     _4452 = *(&mut *((*(&mut _3333 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3337 = llvm_lshr_u32(_4452, 8 as core::ffi::c_int as uint32_t);
+                    _3337 = llvm_lshr_u32(_4452, 8);
                     _4453 = _3334;
                     _4454 = _3335;
                     _4455 = _3336;
@@ -18332,7 +18184,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4474 = memcpy(
                         &mut _3457 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4475 =
                         *(&mut _3454 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -18410,12 +18262,12 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4491 = memcpy(
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3453 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4492 = memcpy(
                         &mut _3460 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4493 =
                         *(&mut _3460 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -18473,7 +18325,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4505 = memcpy(
                         &mut _3440 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3441 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4506 =
                         *(&mut _3440 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -18482,10 +18334,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4507 = memcpy(
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3458 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3442 = &mut _3462 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3443 = 158 as core::ffi::c_int as uint32_t;
+                    _3443 = 158;
                     _4508 = _3442;
                     _4509 = _3443;
                     *(_4508 as *mut uint32_t) = _4509;
@@ -18507,35 +18359,35 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4513 = memcpy(
                         &mut _3464 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4514 =
                         *(&mut _3464 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3435 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4514;
                     _4515 = *(&mut _3435 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _3436 = llvm_lshr_u32(_4515, 23 as core::ffi::c_int as uint32_t);
+                    _3436 = llvm_lshr_u32(_4515, 23);
                     _4516 = *(&mut *((*(&mut _3435 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3437 = llvm_lshr_u32(_4516, 23 as core::ffi::c_int as uint32_t);
+                    _3437 = llvm_lshr_u32(_4516, 23);
                     _4517 = *(&mut *((*(&mut _3435 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3438 = llvm_lshr_u32(_4517, 23 as core::ffi::c_int as uint32_t);
+                    _3438 = llvm_lshr_u32(_4517, 23);
                     _4518 = *(&mut *((*(&mut _3435 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3439 = llvm_lshr_u32(_4518, 23 as core::ffi::c_int as uint32_t);
+                    _3439 = llvm_lshr_u32(_4518, 23);
                     _4519 = _3436;
                     _4520 = _3437;
                     _4521 = _3438;
@@ -18643,23 +18495,23 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4545 = memcpy(
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3461 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4546 = memcpy(
                         &mut _3465 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3452 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4547 =
                         *(&mut _3465 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3320 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4547;
-                    _3321 = 0 as core::ffi::c_int as uint32_t;
-                    _3322 = 32 as core::ffi::c_int as uint32_t;
+                    _3321 = 0;
+                    _3322 = 32;
                     _4548 = memcpy(
                         &mut _3324 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3320 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4549 = _3321;
                     _3317 = &mut _3325 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -18985,11 +18837,11 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                         *(&mut _3803 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3702 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4619;
-                    _3703 = 16 as core::ffi::c_int as uint32_t;
+                    _3703 = 16;
                     _4620 = memcpy(
                         &mut _3704 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3702 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4621 = _3703;
                     _3699 = &mut _3705 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -19092,22 +18944,22 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4644 = memcpy(
                         &mut _3806 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4645 = memcpy(
                         &mut _3809 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3802 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4646 =
                         *(&mut _3809 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3763 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4646;
-                    _3764 = 1 as core::ffi::c_int as uint32_t;
+                    _3764 = 1;
                     _4647 = memcpy(
                         &mut _3765 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3763 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4648 = _3764;
                     _3722 = &mut _3766 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -19214,10 +19066,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4672 = memcpy(
                         &mut _3404 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3402 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3364 = &mut _3405 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3365 = 31 as core::ffi::c_int as uint32_t;
+                    _3365 = 31;
                     _4673 = _3364;
                     _4674 = _3365;
                     *(_4673 as *mut uint32_t) = _4674;
@@ -19298,7 +19150,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4691 = _3358;
@@ -19314,7 +19166,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4693 = _3359;
@@ -19330,7 +19182,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4695 = _3360;
@@ -19346,7 +19198,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as uint32_t
                             == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _4697 =
@@ -19360,7 +19212,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4699 = memcpy(
                         &mut _3298 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _3297 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4700 =
                         *(&mut _3298 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -19385,29 +19237,24 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    if !(_4701 & 1 as core::ffi::c_int as uint32_t
-                        | _4702 & 2 as core::ffi::c_int as uint32_t
-                        | _4703 & 4 as core::ffi::c_int as uint32_t
-                        | _4704 & 8 as core::ffi::c_int as uint32_t
-                        == 15 as core::ffi::c_uint)
-                    {
+                    if !(_4701 & 1 | _4702 & 2 | _4703 & 4 | _4704 & 8 == 15 as core::ffi::c_uint) {
                         current_block = 15041150356525762174;
                         break '__5032;
                     }
                     _4705 = memcpy(
                         &mut _3407 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3402 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4706 =
                         *(&mut _3407 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3387 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4706;
-                    _3388 = 127 as core::ffi::c_int as uint32_t;
+                    _3388 = 127;
                     _4707 = memcpy(
                         &mut _3389 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3387 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4708 = _3388;
                     _3366 = &mut _3390 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -19510,7 +19357,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4731 = memcpy(
                         &mut _3409 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3406 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4732 =
                         *(&mut _3409 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -19573,12 +19420,12 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4747 = memcpy(
                         &mut _3406 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3408 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4748 = memcpy(
                         &mut _3411 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3406 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4749 =
                         *(&mut _3411 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -19587,7 +19434,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4750 = memcpy(
                         &mut _3397 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3398 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4751 = _3397;
                     *(&mut _3410 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
@@ -19595,7 +19442,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4752 = memcpy(
                         &mut _3412 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                         &mut _3410 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4753 =
                         *(&mut _3412 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
@@ -19728,15 +19575,15 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4781 = memcpy(
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3805 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4782 = memcpy(
                         &mut _3811 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3718 = &mut _3812 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3719 = 65535 as core::ffi::c_int as uint32_t;
+                    _3719 = 65535;
                     _4783 = _3718;
                     _4784 = _3719;
                     *(_4783 as *mut uint32_t) = _4784;
@@ -19831,40 +19678,40 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4804 = memcpy(
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3810 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4805 = memcpy(
                         &mut _3814 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4806 =
                         *(&mut _3814 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _3351 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _4806;
                     _4807 = *(&mut _3351 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _3352 = llvm_lshr_u32(_4807, 6 as core::ffi::c_int as uint32_t);
+                    _3352 = llvm_lshr_u32(_4807, 6);
                     _4808 = *(&mut *((*(&mut _3351 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3353 = llvm_lshr_u32(_4808, 6 as core::ffi::c_int as uint32_t);
+                    _3353 = llvm_lshr_u32(_4808, 6);
                     _4809 = *(&mut *((*(&mut _3351 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3354 = llvm_lshr_u32(_4809, 6 as core::ffi::c_int as uint32_t);
+                    _3354 = llvm_lshr_u32(_4809, 6);
                     _4810 = *(&mut *((*(&mut _3351 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _3355 = llvm_lshr_u32(_4810, 6 as core::ffi::c_int as uint32_t);
+                    _3355 = llvm_lshr_u32(_4810, 6);
                     _4811 = _3352;
                     _4812 = _3353;
                     _4813 = _3354;
@@ -19899,15 +19746,15 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4821 = memcpy(
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3813 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4822 = memcpy(
                         &mut _3816 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _3720 = &mut _3819 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _3721 = 14 as core::ffi::c_int as uint32_t;
+                    _3721 = 14;
                     _4823 = _3720;
                     _4824 = _3721;
                     *(_4823 as *mut uint32_t) = _4824;
@@ -19929,7 +19776,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4828 = memcpy(
                         &mut _3820 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3802 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4829 =
                         *(&mut _3819 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -20138,22 +19985,22 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4876 = memcpy(
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3815 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4877 = memcpy(
                         &mut _3821 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3792 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4878 = memcpy(
                         &mut _3822 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3793 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4879 = memcpy(
                         &mut _3823 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _3796 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4880 =
                         *(&mut _3821 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -20278,17 +20125,17 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4905 = memcpy(
                         &mut _3825 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3791 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4906 = memcpy(
                         &mut _3826 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3794 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4907 = memcpy(
                         &mut _3827 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _3799 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4908 =
                         *(&mut _3825 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -20413,7 +20260,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4933 = memcpy(
                         &mut _3791 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3824 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4934 =
                         *(&mut _3791 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
@@ -20422,17 +20269,17 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4935 = memcpy(
                         &mut _3891 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3888 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4936 = memcpy(
                         &mut _3892 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3886 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4937 = memcpy(
                         &mut _3893 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
                         &mut _3884 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4938 = (*(&mut _3891.field0 as *mut l_array_4_uint32_t
                         as *mut C2RustUnnamed_3))
@@ -20560,7 +20407,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4963 = memcpy(
                         &mut _3895 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
                         &mut _3890 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
-                        16 as core::ffi::c_int as uint64_t,
+                        16,
                     );
                     _4964 = (*(&mut _3895.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed))
                         .data;
@@ -20674,17 +20521,17 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float) = _4993;
                     _4995 = _3885;
-                    _3885 = llvm_add_u32(_4995, 1 as core::ffi::c_int as uint32_t);
+                    _3885 = llvm_add_u32(_4995, 1);
                 }
                 _4996 = _3880;
-                _3880 = llvm_add_u32(_4996, 1 as core::ffi::c_int as uint32_t);
+                _3880 = llvm_add_u32(_4996, 1);
             }
             match current_block {
                 15041150356525762174 => {
                     __assert_fail(
                         &_OC_str_OC_18 as *const l_array_19_uint8_t as *mut core::ffi::c_void,
                         &_OC_str_OC_19 as *const l_array_47_uint8_t as *mut core::ffi::c_void,
-                        481 as core::ffi::c_int as uint32_t,
+                        481,
                         &__PRETTY_FUNCTION___OC__ZL12two_to_the_n5vint4 as *const l_array_26_uint8_t
                             as *mut core::ffi::c_void,
                     );
@@ -20712,7 +20559,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut uint32_t as *mut core::ffi::c_void,
                     );
-                    _3898 = 0 as core::ffi::c_int as uint32_t;
+                    _3898 = 0;
                     loop {
                         _5001 = _3898;
                         _5002 = _3875;
@@ -20762,9 +20609,9 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             );
                         }
                         _5014 = _3898;
-                        _3898 = llvm_add_u32(_5014, 1 as core::ffi::c_int as uint32_t);
+                        _3898 = llvm_add_u32(_5014, 1);
                     }
-                    _3899 = 0 as core::ffi::c_int as uint32_t;
+                    _3899 = 0;
                     loop {
                         _5015 = _3899;
                         _5016 = _3875;
@@ -20793,9 +20640,9 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             .offset(_5022 as uint64_t as int64_t as isize)
                             as *mut uint8_t) = _5020;
                         _5023 = _3899;
-                        _3899 = llvm_add_u32(_5023, 1 as core::ffi::c_int as uint32_t);
+                        _3899 = llvm_add_u32(_5023, 1);
                     }
-                    _3869 = 0 as core::ffi::c_int as uint32_t;
+                    _3869 = 0;
                 }
             }
         }
@@ -20837,7 +20684,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     _5155 = _5152;
     _5156 = _5153;
     _5159 = _5154;
-    _5157 = 0 as core::ffi::c_int as uint32_t;
+    _5157 = 0;
     _5160 = _5155;
     if _5160 >= 2 as core::ffi::c_uint {
         _5161 = _5155;
@@ -20849,10 +20696,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             .array)
             .as_mut_ptr()
             .offset(
-                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    _5161,
-                    2 as core::ffi::c_int as uint32_t,
-                ) as uint64_t as int64_t as isize,
+                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_5161, 2)
+                    as uint64_t as int64_t as isize,
             ) as *mut l_array_1024_uint16_t))
             .array)
             .as_mut_ptr()
@@ -20869,10 +20714,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        _5166,
-                        1 as core::ffi::c_int as uint32_t,
-                    ) as uint64_t as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_5166, 1)
+                        as uint64_t as int64_t as isize,
                 ) as *mut uint32_t);
         _5168__PHI_TEMPORARY = (_5165 < _5167) as core::ffi::c_int as bool_0;
     } else {
@@ -20897,7 +20740,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             __assert_fail(
                 &_OC_str_OC_16 as *const l_array_32_uint8_t as *mut core::ffi::c_void,
                 &_OC_str_OC_15 as *const l_array_45_uint8_t as *mut core::ffi::c_void,
-                710 as core::ffi::c_int as uint32_t,
+                710,
                 &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor18get_partition_infoEjj
                     as *const l_array_98_uint8_t as *mut core::ffi::c_void,
             );
@@ -20906,7 +20749,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
         __assert_fail(
             &_OC_str_OC_14 as *const l_array_107_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_15 as *const l_array_45_uint8_t as *mut core::ffi::c_void,
-            708 as core::ffi::c_int as uint32_t,
+            708,
             &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor18get_partition_infoEjj
                 as *const l_array_98_uint8_t as *mut core::ffi::c_void,
         );
@@ -20962,7 +20805,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
         __assert_fail(
             &_OC_str_OC_17 as *const l_array_82_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_15 as *const l_array_45_uint8_t as *mut core::ffi::c_void,
-            639 as core::ffi::c_int as uint32_t,
+            639,
             &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor14get_block_modeEj
                 as *const l_array_76_uint8_t as *mut core::ffi::c_void,
         );
@@ -20999,70 +20842,70 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _5210: uint32_t) -> 
     _5213 = _5212;
     match _5213 {
         0 => {
-            _5211 = 2 as core::ffi::c_int as uint32_t;
+            _5211 = 2;
         }
         1 => {
-            _5211 = 3 as core::ffi::c_int as uint32_t;
+            _5211 = 3;
         }
         2 => {
-            _5211 = 4 as core::ffi::c_int as uint32_t;
+            _5211 = 4;
         }
         3 => {
-            _5211 = 5 as core::ffi::c_int as uint32_t;
+            _5211 = 5;
         }
         4 => {
-            _5211 = 6 as core::ffi::c_int as uint32_t;
+            _5211 = 6;
         }
         5 => {
-            _5211 = 8 as core::ffi::c_int as uint32_t;
+            _5211 = 8;
         }
         6 => {
-            _5211 = 10 as core::ffi::c_int as uint32_t;
+            _5211 = 10;
         }
         7 => {
-            _5211 = 12 as core::ffi::c_int as uint32_t;
+            _5211 = 12;
         }
         8 => {
-            _5211 = 16 as core::ffi::c_int as uint32_t;
+            _5211 = 16;
         }
         9 => {
-            _5211 = 20 as core::ffi::c_int as uint32_t;
+            _5211 = 20;
         }
         10 => {
-            _5211 = 24 as core::ffi::c_int as uint32_t;
+            _5211 = 24;
         }
         11 => {
-            _5211 = 32 as core::ffi::c_int as uint32_t;
+            _5211 = 32;
         }
         12 => {
-            _5211 = 40 as core::ffi::c_int as uint32_t;
+            _5211 = 40;
         }
         13 => {
-            _5211 = 48 as core::ffi::c_int as uint32_t;
+            _5211 = 48;
         }
         14 => {
-            _5211 = 64 as core::ffi::c_int as uint32_t;
+            _5211 = 64;
         }
         15 => {
-            _5211 = 80 as core::ffi::c_int as uint32_t;
+            _5211 = 80;
         }
         16 => {
-            _5211 = 96 as core::ffi::c_int as uint32_t;
+            _5211 = 96;
         }
         17 => {
-            _5211 = 128 as core::ffi::c_int as uint32_t;
+            _5211 = 128;
         }
         18 => {
-            _5211 = 160 as core::ffi::c_int as uint32_t;
+            _5211 = 160;
         }
         19 => {
-            _5211 = 192 as core::ffi::c_int as uint32_t;
+            _5211 = 192;
         }
         20 => {
-            _5211 = 256 as core::ffi::c_int as uint32_t;
+            _5211 = 256;
         }
         _ => {
-            _5211 = 0 as core::ffi::c_int as uint32_t;
+            _5211 = 0;
         }
     }
     _5214 = _5211;
@@ -21177,31 +21020,22 @@ unsafe extern "C" fn _ZL8popcountm(mut _5265: uint64_t) -> uint32_t {
     _5270 = _5266;
     _5271 = _5267;
     _5272 = _5266;
-    _5266 = llvm_sub_u64(
-        _5272,
-        llvm_lshr_u64(_5270, 1 as core::ffi::c_int as uint64_t) & _5271,
-    );
+    _5266 = llvm_sub_u64(_5272, llvm_lshr_u64(_5270, 1) & _5271);
     _5273 = _5266;
     _5274 = _5268;
     _5275 = _5266;
     _5276 = _5268;
-    _5266 = llvm_add_u64(
-        _5273 & _5274,
-        llvm_lshr_u64(_5275, 2 as core::ffi::c_int as uint64_t) & _5276,
-    );
+    _5266 = llvm_add_u64(_5273 & _5274, llvm_lshr_u64(_5275, 2) & _5276);
     _5277 = _5266;
     _5278 = _5266;
-    _5266 = llvm_add_u64(
-        _5278,
-        llvm_lshr_u64(_5277, 4 as core::ffi::c_int as uint64_t),
-    );
+    _5266 = llvm_add_u64(_5278, llvm_lshr_u64(_5277, 4));
     _5279 = _5269;
     _5280 = _5266;
     _5266 = _5280 & _5279;
     _5281 = _5266;
     _5266 = llvm_mul_u64(_5281, 72340172838076673 as core::ffi::c_long as uint64_t);
     _5282 = _5266;
-    _5266 = llvm_lshr_u64(_5282, 56 as core::ffi::c_int as uint64_t);
+    _5266 = llvm_lshr_u64(_5282, 56);
     _5283 = _5266;
     return _5283 as uint32_t;
 }
@@ -21276,11 +21110,7 @@ pub unsafe extern "C" fn _ZNSt12__mutex_baseC2Ev(mut _5298: *mut core::ffi::c_vo
     _5300 = _5299;
     _5301 = &mut (*(_5300 as *mut l_struct_class_OC_std_KD__KD___mutex_base)).field0
         as *mut l_struct_union_OC_pthread_mutex_t as *mut core::ffi::c_void;
-    _5302 = memset(
-        _5301,
-        0 as core::ffi::c_int as uint32_t,
-        40 as core::ffi::c_int as uint64_t,
-    );
+    _5302 = memset(_5301, 0, 40);
     _5303 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field0 as *mut uint32_t
         as *mut core::ffi::c_void;
     _5304 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field1 as *mut uint32_t
@@ -21289,8 +21119,7 @@ pub unsafe extern "C" fn _ZNSt12__mutex_baseC2Ev(mut _5298: *mut core::ffi::c_vo
         as *mut core::ffi::c_void;
     _5306 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field3 as *mut uint32_t
         as *mut core::ffi::c_void;
-    *(&mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field4 as *mut uint32_t) =
-        0 as core::ffi::c_int as uint32_t;
+    *(&mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field4 as *mut uint32_t) = 0;
     _5307 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field5 as *mut uint32_t
         as *mut core::ffi::c_void;
     _5308 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field6
@@ -21310,10 +21139,10 @@ unsafe extern "C" fn _ZL16validate_profile15astcenc_profile(mut _5311: uint32_t)
     _5314 = _5313;
     match _5314 {
         0 | 1 | 2 | 3 => {
-            _5312 = 0 as core::ffi::c_int as uint32_t;
+            _5312 = 0;
         }
         _ => {
-            _5312 = 5 as core::ffi::c_int as uint32_t;
+            _5312 = 5;
         }
     }
     _5315 = _5312;
@@ -21370,10 +21199,10 @@ unsafe extern "C" fn _ZL24validate_compression_swz11astcenc_swz(mut _5339: uint3
     _5342 = _5341;
     match _5342 {
         0 | 1 | 2 | 3 | 4 | 5 => {
-            _5340 = 0 as core::ffi::c_int as uint32_t;
+            _5340 = 0;
         }
         _ => {
-            _5340 = 7 as core::ffi::c_int as uint32_t;
+            _5340 = 7;
         }
     }
     _5343 = _5340;
@@ -21479,14 +21308,14 @@ unsafe extern "C" fn _ZL20__gthread_mutex_lockP15pthread_mutex_t(
         _5381 = pthread_mutex_lock(_5380);
         _5377 = _5381;
     } else {
-        _5377 = 0 as core::ffi::c_int as uint32_t;
+        _5377 = 0;
     }
     _5382 = _5377;
     return _5382;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL18__gthread_active_pv() -> uint32_t {
-    return 1 as core::ffi::c_int as uint32_t;
+    return 1;
 }
 #[no_mangle]
 #[inline(never)]
@@ -21541,7 +21370,7 @@ unsafe extern "C" fn _ZL22__gthread_mutex_unlockP15pthread_mutex_t(
         _5401 = pthread_mutex_unlock(_5400);
         _5397 = _5401;
     } else {
-        _5397 = 0 as core::ffi::c_int as uint32_t;
+        _5397 = 0;
     }
     _5402 = _5397;
     return _5402;
@@ -21569,7 +21398,7 @@ pub unsafe extern "C" fn _ZNSt14_Function_baseD2Ev(mut _5406: *mut core::ffi::c_
             &mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
                 as *mut l_struct_union_OC_std_KD__KD__Any_data
                 as *mut core::ffi::c_void,
-            3 as core::ffi::c_int as uint32_t,
+            3,
         );
     }
 }
@@ -21697,7 +21526,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE4lockEv(mut _5456: *mut cor
         _5460 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
             as *mut uint8_t);
         if _5460 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-            _ZSt20__throw_system_errori(35 as core::ffi::c_int as uint32_t);
+            _ZSt20__throw_system_errori(35);
         } else {
             _5461 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
                 as *mut *mut core::ffi::c_void);
@@ -21707,7 +21536,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE4lockEv(mut _5456: *mut cor
             return;
         }
     } else {
-        _ZSt20__throw_system_errori(1 as core::ffi::c_int as uint32_t);
+        _ZSt20__throw_system_errori(1);
     };
 }
 #[no_mangle]
@@ -21764,26 +21593,23 @@ pub unsafe extern "C" fn _ZNKSt6atomicIbEcvbEv(mut _5478: *mut core::ffi::c_void
     _5484 = _5483;
     _5479 = &mut (*(_5484 as *mut l_struct_struct_OC_std_KD__KD_atomic)).field0
         as *mut l_struct_struct_OC_std_KD__KD___atomic_base as *mut core::ffi::c_void;
-    _5480 = 5 as core::ffi::c_int as uint32_t;
+    _5480 = 5;
     _5485 = _5479;
     _5486 = _5480;
-    _5487 = _ZStanSt12memory_orderSt23__memory_order_modifier(
-        _5486,
-        65535 as core::ffi::c_int as uint32_t,
-    );
+    _5487 = _ZStanSt12memory_orderSt23__memory_order_modifier(_5486, 65535);
     _5481 = _5487;
     _5488 = _5480;
     match _5488 {
         1 | 2 => {
-            _5490 = __atomic_load_1(_5485, 2 as core::ffi::c_int as uint32_t);
+            _5490 = __atomic_load_1(_5485, 2);
             _5482 = _5490;
         }
         5 => {
-            _5491 = __atomic_load_1(_5485, 5 as core::ffi::c_int as uint32_t);
+            _5491 = __atomic_load_1(_5485, 5);
             _5482 = _5491;
         }
         _ => {
-            _5489 = __atomic_load_1(_5485, 0 as core::ffi::c_int as uint32_t);
+            _5489 = __atomic_load_1(_5485, 0);
             _5482 = _5489;
         }
     }
@@ -21830,7 +21656,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE6unlockEv(mut _5503: *mut c
         }
         return;
     } else {
-        _ZSt20__throw_system_errori(1 as core::ffi::c_int as uint32_t);
+        _ZSt20__throw_system_errori(1);
     };
 }
 #[no_mangle]
@@ -21909,13 +21735,10 @@ pub unsafe extern "C" fn _ZNSt13__atomic_baseIjEaSEj(
     _5538 = _5536;
     _5530 = _5537;
     _5531 = _5538;
-    _5532 = 5 as core::ffi::c_int as uint32_t;
+    _5532 = 5;
     _5539 = _5530;
     _5540 = _5532;
-    _5541 = _ZStanSt12memory_orderSt23__memory_order_modifier(
-        _5540,
-        65535 as core::ffi::c_int as uint32_t,
-    );
+    _5541 = _ZStanSt12memory_orderSt23__memory_order_modifier(_5540, 65535);
     _5533 = _5541;
     _5542 = _5532;
     _5543 = _5531;
@@ -21923,15 +21746,15 @@ pub unsafe extern "C" fn _ZNSt13__atomic_baseIjEaSEj(
     match _5542 {
         3 => {
             _5545 = _5534;
-            __atomic_store_4(_5539, _5545, 3 as core::ffi::c_int as uint32_t);
+            __atomic_store_4(_5539, _5545, 3);
         }
         5 => {
             _5546 = _5534;
-            __atomic_store_4(_5539, _5546, 5 as core::ffi::c_int as uint32_t);
+            __atomic_store_4(_5539, _5546, 5);
         }
         _ => {
             _5544 = _5534;
-            __atomic_store_4(_5539, _5544, 0 as core::ffi::c_int as uint32_t);
+            __atomic_store_4(_5539, _5544, 0);
         }
     }
     _5547 = _5536;
@@ -21967,13 +21790,10 @@ pub unsafe extern "C" fn _ZNSt13__atomic_baseIbEaSEb(
     _5562 = _5560;
     _5554 = _5561;
     _5555 = (_5562 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
-    _5556 = 5 as core::ffi::c_int as uint32_t;
+    _5556 = 5;
     _5563 = _5554;
     _5564 = _5556;
-    _5565 = _ZStanSt12memory_orderSt23__memory_order_modifier(
-        _5564,
-        65535 as core::ffi::c_int as uint32_t,
-    );
+    _5565 = _ZStanSt12memory_orderSt23__memory_order_modifier(_5564, 65535);
     _5557 = _5565;
     _5566 = _5556;
     _5567 = _5555;
@@ -21981,15 +21801,15 @@ pub unsafe extern "C" fn _ZNSt13__atomic_baseIbEaSEb(
     match _5566 {
         3 => {
             _5569 = _5558;
-            __atomic_store_1(_5563, _5569, 3 as core::ffi::c_int as uint32_t);
+            __atomic_store_1(_5563, _5569, 3);
         }
         5 => {
             _5570 = _5558;
-            __atomic_store_1(_5563, _5570, 5 as core::ffi::c_int as uint32_t);
+            __atomic_store_1(_5563, _5570, 5);
         }
         _ => {
             _5568 = _5558;
-            __atomic_store_1(_5563, _5568, 0 as core::ffi::c_int as uint32_t);
+            __atomic_store_1(_5563, _5568, 0);
         }
     }
     _5571 = _5560;
@@ -22005,10 +21825,10 @@ unsafe extern "C" fn _ZL26validate_decompression_swz11astcenc_swz(mut _5576: uin
     _5579 = _5578;
     match _5579 {
         0 | 1 | 2 | 3 | 4 | 5 | 6 => {
-            _5577 = 0 as core::ffi::c_int as uint32_t;
+            _5577 = 0;
         }
         _ => {
-            _5577 = 7 as core::ffi::c_int as uint32_t;
+            _5577 = 7;
         }
     }
     _5580 = _5577;
@@ -22032,13 +21852,10 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     _5589 = _5586;
     _5590 = _5587;
     if _5590 == 1 as core::ffi::c_uint {
-        _5587 = 5 as core::ffi::c_int as uint32_t;
+        _5587 = 5;
     }
     _5591 = _5587;
-    _5588 = llvm_mul_u32(
-        llvm_sub_u32(_5591, 2 as core::ffi::c_int as uint32_t),
-        1024 as core::ffi::c_int as uint32_t,
-    );
+    _5588 = llvm_mul_u32(llvm_sub_u32(_5591, 2), 1024);
     _5592 = _5588;
     return &mut *(&mut *((*(&mut (*(_5589
         as *mut l_struct_struct_OC_block_size_descriptor))
@@ -22231,12 +22048,12 @@ unsafe extern "C" fn _ZNSt14_Function_base13_Base_managerIZ22astcenc_compress_im
     *(&mut _5653.field0 as *mut uint8_t) = _5652;
     _5654 = _5650;
     _5655 = _5651;
-    _5656 = _Znwm(24 as core::ffi::c_int as uint64_t);
+    _5656 = _Znwm(24);
     _5657 = _5655;
     _5658 = _ZSt7forwardIRZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__0EOT_RNSt16remove_referenceISA_E4typeE(
         _5657,
     );
-    _5659 = memcpy(_5656, _5658, 24 as core::ffi::c_int as uint64_t);
+    _5659 = memcpy(_5656, _5658, 24);
     _5660 = _5654;
     _5661 = _ZNSt9_Any_data9_M_accessIPZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__0EERT_v(
         _5660,
@@ -22367,7 +22184,7 @@ unsafe extern "C" fn _ZZ22astcenc_compress_imageP15astcenc_contextP13astcenc_ima
     _5697 = *(&mut (*(_5696 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
     _5690 = llvm_mul_u32(llvm_mul_u32(_5693, _5695), _5697) as uint64_t;
     _5698 = _5690;
-    _5699 = llvm_OC_umul_OC_with_OC_overflow_OC_i64(_5698, 4 as core::ffi::c_int as uint64_t);
+    _5699 = llvm_OC_umul_OC_with_OC_overflow_OC_i64(_5698, 4);
     _5700 = _Znam(llvm_select_u64(
         _5699.field1,
         -(1 as core::ffi::c_int) as uint64_t,
@@ -22548,7 +22365,7 @@ unsafe extern "C" fn _ZNSt14_Function_base13_Base_managerIZ22astcenc_compress_im
     );
     _5758 = *(_5757 as *mut *mut core::ffi::c_void);
     if !_5758.is_null() {
-        _ZdlPvm(_5758, 24 as core::ffi::c_int as uint64_t);
+        _ZdlPvm(_5758, 24);
     }
 }
 #[inline(never)]
@@ -22570,12 +22387,12 @@ unsafe extern "C" fn _ZNSt14_Function_base13_Base_managerIZ22astcenc_compress_im
     *(&mut _5764.field0 as *mut uint8_t) = _5763;
     _5765 = _5761;
     _5766 = _5762;
-    _5767 = _Znwm(24 as core::ffi::c_int as uint64_t);
+    _5767 = _Znwm(24);
     _5768 = _5766;
     _5769 = _ZSt7forwardIRKZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__0EOT_RNSt16remove_referenceISB_E4typeE(
         _5768,
     );
-    _5770 = memcpy(_5767, _5769, 24 as core::ffi::c_int as uint64_t);
+    _5770 = memcpy(_5767, _5769, 24);
     _5771 = _5765;
     _5772 = _ZNSt9_Any_data9_M_accessIPZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__0EERT_v(
         _5771,
@@ -22735,7 +22552,7 @@ unsafe extern "C" fn _ZNSt14_Function_base13_Base_managerIZ22astcenc_compress_im
     _5825 = _ZSt7forwardIRZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__1EOT_RNSt16remove_referenceISA_E4typeE(
         _5824,
     );
-    _5826 = memcpy(_5823, _5825, 8 as core::ffi::c_int as uint64_t);
+    _5826 = memcpy(_5823, _5825, 8);
 }
 #[inline(never)]
 unsafe extern "C" fn _ZSt10__invoke_rIvRZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__1JEENSt9enable_ifIX16is_invocable_r_vIT_T0_DpT1_EESB_E4typeEOSC_DpOSD_(
@@ -22996,7 +22813,7 @@ unsafe extern "C" fn _ZNSt14_Function_base13_Base_managerIZ22astcenc_compress_im
     _5914 = _ZSt7forwardIRKZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__1EOT_RNSt16remove_referenceISB_E4typeE(
         _5913,
     );
-    _5915 = memcpy(_5912, _5914, 8 as core::ffi::c_int as uint64_t);
+    _5915 = memcpy(_5912, _5914, 8);
 }
 #[inline(never)]
 unsafe extern "C" fn _ZSt7forwardIRKZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__1EOT_RNSt16remove_referenceISB_E4typeE(

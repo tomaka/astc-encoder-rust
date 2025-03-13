@@ -433,10 +433,10 @@ static mut _ZZ20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_comp
     let mut init = l_array_5_uint32_t {
         array: [
             -(1 as core::ffi::c_int) as uint32_t,
-            111 as core::ffi::c_int as uint32_t,
-            99 as core::ffi::c_int as uint32_t,
-            99 as core::ffi::c_int as uint32_t,
-            99 as core::ffi::c_int as uint32_t,
+            111,
+            99,
+            99,
+            99,
         ],
     };
     init
@@ -831,7 +831,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
         _55 = *(&mut (*(_54 as *mut l_struct_struct_OC_symbolic_compressed_block)).field0
             as *mut uint8_t);
         if _55 as uint32_t == 2 as core::ffi::c_uint {
-            _7 = 0 as core::ffi::c_int as uint32_t;
+            _7 = 0;
             loop {
                 _56 = _7;
                 if !(_56 < 8 as core::ffi::c_uint) {
@@ -848,9 +848,9 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 *(&mut *(_59 as *mut uint8_t).offset(_60 as uint64_t as int64_t as isize)
                     as *mut uint8_t) = _58;
                 _61 = _7;
-                _7 = llvm_add_u32(_61, 1 as core::ffi::c_int as uint32_t);
+                _7 = llvm_add_u32(_61, 1);
             }
-            _8 = 0 as core::ffi::c_int as uint32_t;
+            _8 = 0;
             loop {
                 _62 = _8;
                 if !(_62 < 4 as core::ffi::c_uint) {
@@ -870,14 +870,10 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 _67 = _8;
                 *(&mut *(_66 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        2 as core::ffi::c_int as uint32_t,
-                        _67,
-                    ),
-                    8 as core::ffi::c_int as uint32_t,
+                    (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _67),
+                    8,
                 ) as uint64_t as int64_t
-                    as isize) as *mut uint8_t) =
-                    (_65 & 255 as core::ffi::c_int as uint32_t) as uint8_t;
+                    as isize) as *mut uint8_t) = (_65 & 255) as uint8_t;
                 _68 = _5;
                 _69 = _8;
                 _70 =
@@ -892,24 +888,20 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 _72 = _8;
                 *(&mut *(_71 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        2 as core::ffi::c_int as uint32_t,
-                        _72,
-                    ),
-                    9 as core::ffi::c_int as uint32_t,
+                    (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _72),
+                    9,
                 ) as uint64_t as int64_t
                     as isize) as *mut uint8_t) =
-                    (llvm_ashr_u32(_70 as int32_t, 8 as core::ffi::c_int)
-                        & 255 as core::ffi::c_int as uint32_t) as uint8_t;
+                    (llvm_ashr_u32(_70 as int32_t, 8 as core::ffi::c_int) & 255) as uint8_t;
                 _73 = _8;
-                _8 = llvm_add_u32(_73, 1 as core::ffi::c_int as uint32_t);
+                _8 = llvm_add_u32(_73, 1);
             }
         } else {
             _74 = _5;
             _75 = *(&mut (*(_74 as *mut l_struct_struct_OC_symbolic_compressed_block)).field0
                 as *mut uint8_t);
             if _75 as uint32_t == 1 as core::ffi::c_uint {
-                _9 = 0 as core::ffi::c_int as uint32_t;
+                _9 = 0;
                 loop {
                     _76 = _9;
                     if !(_76 < 8 as core::ffi::c_uint) {
@@ -926,9 +918,9 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     *(&mut *(_79 as *mut uint8_t).offset(_80 as uint64_t as int64_t as isize)
                         as *mut uint8_t) = _78;
                     _81 = _9;
-                    _9 = llvm_add_u32(_81, 1 as core::ffi::c_int as uint32_t);
+                    _9 = llvm_add_u32(_81, 1);
                 }
-                _10 = 0 as core::ffi::c_int as uint32_t;
+                _10 = 0;
                 loop {
                     _82 = _10;
                     if !(_82 < 4 as core::ffi::c_uint) {
@@ -949,14 +941,12 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     *(&mut *(_86 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            2 as core::ffi::c_int as uint32_t,
-                            _87,
+                            2, _87,
                         ),
-                        8 as core::ffi::c_int as uint32_t,
+                        8,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t) =
-                        (_85 & 255 as core::ffi::c_int as uint32_t) as uint8_t;
+                        as isize) as *mut uint8_t) = (_85 & 255) as uint8_t;
                     _88 = _5;
                     _89 = _10;
                     _90 = *(&mut *((*(&mut (*(_88
@@ -972,18 +962,15 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     *(&mut *(_91 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            2 as core::ffi::c_int as uint32_t,
-                            _92,
+                            2, _92,
                         ),
-                        9 as core::ffi::c_int as uint32_t,
+                        9,
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t) =
-                        (llvm_ashr_u32(_90 as int32_t, 8 as core::ffi::c_int)
-                            & 255 as core::ffi::c_int as uint32_t)
-                            as uint8_t;
+                        (llvm_ashr_u32(_90 as int32_t, 8 as core::ffi::c_int) & 255) as uint8_t;
                     _93 = _10;
-                    _10 = llvm_add_u32(_93, 1 as core::ffi::c_int as uint32_t);
+                    _10 = llvm_add_u32(_93, 1);
                 }
             } else {
                 _94 = _5;
@@ -992,8 +979,8 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 _11 = _95 as uint32_t;
                 _96 = memset(
                     &mut _12 as *mut l_array_16_uint8_t as *mut core::ffi::c_void,
-                    0 as core::ffi::c_int as uint32_t,
-                    16 as core::ffi::c_int as uint64_t,
+                    0,
+                    16,
                 );
                 _97 = _4;
                 _98 = _5;
@@ -1030,7 +1017,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 _114 = _18;
                 if _114 != 0 as core::ffi::c_uint {
                     _115 = _15;
-                    _116 = llvm_mul_u32(2 as core::ffi::c_int as uint32_t, _115);
+                    _116 = llvm_mul_u32(2, _115);
                     _118__PHI_TEMPORARY = _116;
                 } else {
                     _117 = _15;
@@ -1044,7 +1031,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 _21 = _121;
                 _122 = _18;
                 if _122 != 0 as core::ffi::c_uint {
-                    _23 = 0 as core::ffi::c_int as uint32_t;
+                    _23 = 0;
                     loop {
                         _123 = _23;
                         _124 = _15;
@@ -1084,8 +1071,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         _134 = _23;
                         *(&mut *(_22.array).as_mut_ptr().offset((llvm_mul_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            2 as core::ffi::c_int as uint32_t,
-                            _134,
+                            2, _134
                         ) as int32_t
                             as int64_t
                             as isize) as *mut uint8_t) = _133;
@@ -1099,8 +1085,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             .as_mut_ptr()
                             .offset((llvm_add_u32
                                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                _136,
-                                32 as core::ffi::c_int as uint32_t,
+                                _136, 32
                             ) as uint64_t as int64_t
                                 as isize) as *mut uint8_t);
                         _24 = _137 as core::ffi::c_float;
@@ -1127,18 +1112,17 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         *(&mut *(_22.array).as_mut_ptr().offset((llvm_add_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                2 as core::ffi::c_int as uint32_t,
-                                _144,
+                                2, _144,
                             ),
-                            1 as core::ffi::c_int as uint32_t,
+                            1,
                         ) as int32_t
                             as int64_t
                             as isize) as *mut uint8_t) = _143;
                         _145 = _23;
-                        _23 = llvm_add_u32(_145, 1 as core::ffi::c_int as uint32_t);
+                        _23 = llvm_add_u32(_145, 1);
                     }
                 } else {
-                    _27 = 0 as core::ffi::c_int as uint32_t;
+                    _27 = 0;
                     loop {
                         _146 = _27;
                         _147 = _15;
@@ -1181,7 +1165,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             .offset(_157 as int32_t as int64_t as isize)
                             as *mut uint8_t) = _156;
                         _158 = _27;
-                        _27 = llvm_add_u32(_158, 1 as core::ffi::c_int as uint32_t);
+                        _27 = llvm_add_u32(_158, 1);
                     }
                 }
                 _159 = _16;
@@ -1197,9 +1181,9 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         .as_mut_ptr()
                         .offset(0 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t as *mut core::ffi::c_void,
-                    0 as core::ffi::c_int as uint32_t,
+                    0,
                 );
-                _31 = 0 as core::ffi::c_int as uint32_t;
+                _31 = 0;
                 loop {
                     _161 = _31;
                     if !((_161 as int32_t) < 16 as core::ffi::c_uint as int32_t) {
@@ -1208,8 +1192,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     _162 = _31;
                     _163 = *(&mut *(_12.array).as_mut_ptr().offset((llvm_sub_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        15 as core::ffi::c_int as uint32_t,
-                        _162,
+                        15, _162
                     ) as int32_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -1219,48 +1202,33 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     *(&mut *(_165 as *mut uint8_t).offset(_166 as int32_t as int64_t as isize)
                         as *mut uint8_t) = _164 as uint8_t;
                     _167 = _31;
-                    _31 = llvm_add_u32(_167, 1 as core::ffi::c_int as uint32_t);
+                    _31 = llvm_add_u32(_167, 1);
                 }
                 _168 = _5;
                 _169 = *(&mut (*(_168 as *mut l_struct_struct_OC_symbolic_compressed_block)).field4
                     as *mut uint16_t);
                 _170 = _6;
-                _ZL10write_bitsiiiPh(
-                    _169 as uint32_t,
-                    11 as core::ffi::c_int as uint32_t,
-                    0 as core::ffi::c_int as uint32_t,
-                    _170,
-                );
+                _ZL10write_bitsiiiPh(_169 as uint32_t, 11, 0, _170);
                 _171 = _11;
                 _172 = _6;
-                _ZL10write_bitsiiiPh(
-                    llvm_sub_u32(_171, 1 as core::ffi::c_int as uint32_t),
-                    2 as core::ffi::c_int as uint32_t,
-                    11 as core::ffi::c_int as uint32_t,
-                    _172,
-                );
+                _ZL10write_bitsiiiPh(llvm_sub_u32(_171, 1), 2, 11, _172);
                 _173 = _21;
-                _32 = llvm_sub_u32(128 as core::ffi::c_int as uint32_t, _173);
+                _32 = llvm_sub_u32(128, _173);
                 _174 = _11;
                 if _174 > 1 as core::ffi::c_uint {
                     _175 = _5;
                     _176 = *(&mut (*(_175 as *mut l_struct_struct_OC_symbolic_compressed_block))
                         .field5 as *mut uint16_t);
                     _177 = _6;
-                    _ZL10write_bitsiiiPh(
-                        _176 as uint32_t,
-                        6 as core::ffi::c_int as uint32_t,
-                        13 as core::ffi::c_int as uint32_t,
-                        _177,
-                    );
+                    _ZL10write_bitsiiiPh(_176 as uint32_t, 6, 13, _177);
                     _178 = _5;
                     _179 = *(&mut (*(_178 as *mut l_struct_struct_OC_symbolic_compressed_block))
                         .field5 as *mut uint16_t);
                     _180 = _6;
                     _ZL10write_bitsiiiPh(
                         llvm_ashr_u32(_179 as uint32_t as int32_t, 6 as core::ffi::c_int),
-                        4 as core::ffi::c_int as uint32_t,
-                        19 as core::ffi::c_int as uint32_t,
+                        4,
+                        19,
                         _180,
                     );
                     _181 = _5;
@@ -1281,13 +1249,13 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         _185 = _6;
                         _ZL10write_bitsiiiPh(
                             (_184 as uint32_t) << 2 as core::ffi::c_int,
-                            6 as core::ffi::c_int as uint32_t,
-                            23 as core::ffi::c_int as uint32_t,
+                            6,
+                            23,
                             _185,
                         );
                     } else {
-                        _33 = 4 as core::ffi::c_int as uint32_t;
-                        _34 = 0 as core::ffi::c_int as uint32_t;
+                        _33 = 4;
+                        _34 = 0;
                         loop {
                             _186 = _34;
                             _187 = _11;
@@ -1310,16 +1278,16 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             _193 = _ZN4astcL3minIiEET_S1_S1_(_191, _192);
                             _33 = _193;
                             _194 = _34;
-                            _34 = llvm_add_u32(_194, 1 as core::ffi::c_int as uint32_t);
+                            _34 = llvm_add_u32(_194, 1);
                         }
                         _195 = _33;
                         if _195 == 3 as core::ffi::c_uint {
-                            _33 = 2 as core::ffi::c_int as uint32_t;
+                            _33 = 2;
                         }
                         _196 = _33;
-                        _36 = llvm_add_u32(_196, 1 as core::ffi::c_int as uint32_t);
-                        _37 = 2 as core::ffi::c_int as uint32_t;
-                        _38 = 0 as core::ffi::c_int as uint32_t;
+                        _36 = llvm_add_u32(_196, 1);
+                        _37 = 2;
+                        _38 = 0;
                         loop {
                             _197 = _38;
                             _198 = _11;
@@ -1346,11 +1314,11 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             _205 = _36;
                             _36 = _205 | _203 << _204;
                             _206 = _37;
-                            _37 = llvm_add_u32(_206, 1 as core::ffi::c_int as uint32_t);
+                            _37 = llvm_add_u32(_206, 1);
                             _207 = _38;
-                            _38 = llvm_add_u32(_207, 1 as core::ffi::c_int as uint32_t);
+                            _38 = llvm_add_u32(_207, 1);
                         }
-                        _40 = 0 as core::ffi::c_int as uint32_t;
+                        _40 = 0;
                         loop {
                             _208 = _40;
                             _209 = _11;
@@ -1367,39 +1335,28 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                                 .as_mut_ptr()
                                 .offset(_211 as uint64_t as int64_t as isize)
                                 as *mut uint8_t);
-                            _41 = _212 as uint32_t & 3 as core::ffi::c_int as uint32_t;
+                            _41 = _212 as uint32_t & 3;
                             _213 = _41;
                             _214 = _37;
                             _215 = _36;
                             _36 = _215 | _213 << _214;
                             _216 = _37;
-                            _37 = llvm_add_u32(_216, 2 as core::ffi::c_int as uint32_t);
+                            _37 = llvm_add_u32(_216, 2);
                             _217 = _40;
-                            _40 = llvm_add_u32(_217, 1 as core::ffi::c_int as uint32_t);
+                            _40 = llvm_add_u32(_217, 1);
                         }
                         _218 = _36;
-                        _42 = _218 & 63 as core::ffi::c_int as uint32_t;
+                        _42 = _218 & 63;
                         _219 = _36;
                         _43 = llvm_ashr_u32(_219 as int32_t, 6 as core::ffi::c_int);
                         _220 = _11;
-                        _44 = llvm_sub_u32(
-                            llvm_mul_u32(3 as core::ffi::c_int as uint32_t, _220),
-                            4 as core::ffi::c_int as uint32_t,
-                        );
+                        _44 = llvm_sub_u32(llvm_mul_u32(3, _220), 4);
                         _221 = _21;
                         _222 = _44;
-                        _45 = llvm_sub_u32(
-                            llvm_sub_u32(128 as core::ffi::c_int as uint32_t, _221),
-                            _222,
-                        );
+                        _45 = llvm_sub_u32(llvm_sub_u32(128, _221), _222);
                         _223 = _42;
                         _224 = _6;
-                        _ZL10write_bitsiiiPh(
-                            _223,
-                            6 as core::ffi::c_int as uint32_t,
-                            23 as core::ffi::c_int as uint32_t,
-                            _224,
-                        );
+                        _ZL10write_bitsiiiPh(_223, 6, 23, _224);
                         _225 = _43;
                         _226 = _44;
                         _227 = _45;
@@ -1419,12 +1376,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         .offset(0 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _233 = _6;
-                    _ZL10write_bitsiiiPh(
-                        _232 as uint32_t,
-                        4 as core::ffi::c_int as uint32_t,
-                        13 as core::ffi::c_int as uint32_t,
-                        _233,
-                    );
+                    _ZL10write_bitsiiiPh(_232 as uint32_t, 4, 13, _233);
                 }
                 _234 = _18;
                 if _234 != 0 as core::ffi::c_uint {
@@ -1435,12 +1387,12 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     _238 = _6;
                     _ZL10write_bitsiiiPh(
                         _236 as int8_t as int32_t as uint32_t,
-                        2 as core::ffi::c_int as uint32_t,
-                        llvm_sub_u32(_237, 2 as core::ffi::c_int as uint32_t),
+                        2,
+                        llvm_sub_u32(_237, 2),
                         _238,
                     );
                 }
-                _47 = 0 as core::ffi::c_int as uint32_t;
+                _47 = 0;
                 _239 = _5;
                 _240 = *(&mut (*(_239 as *mut l_struct_struct_OC_symbolic_compressed_block)).field7
                     as *mut uint32_t);
@@ -1448,8 +1400,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     .as_ptr()
                     .offset(
                         (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            _240,
-                            4 as core::ffi::c_int as uint32_t,
+                            _240, 4,
                         ) as int32_t as int64_t as isize,
                     ) as *const l_array_256_uint8_t
                     as *mut l_array_256_uint8_t))
@@ -1457,7 +1408,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     .as_mut_ptr()
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t as *mut core::ffi::c_void;
-                _49 = 0 as core::ffi::c_int as uint32_t;
+                _49 = 0;
                 loop {
                     _241 = _49;
                     _242 = _5;
@@ -1478,17 +1429,17 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         as *mut uint8_t);
                     _50 = llvm_add_u32(
                         llvm_mul_u32(
-                            2 as core::ffi::c_int as uint32_t,
+                            2,
                             llvm_ashr_u32(_246 as uint32_t as int32_t, 2 as core::ffi::c_int),
                         ),
-                        2 as core::ffi::c_int as uint32_t,
+                        2,
                     );
                     _247 = _50;
                     if !(_247 as int32_t <= 8 as core::ffi::c_uint as int32_t) {
                         current_block = 11333923632367046402;
                         break;
                     }
-                    _51 = 0 as core::ffi::c_int as uint32_t;
+                    _51 = 0;
                     loop {
                         _248 = _51;
                         _249 = _50;
@@ -1524,13 +1475,13 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             as int64_t
                             as isize) as *mut uint8_t) = _255;
                         _258 = _51;
-                        _51 = llvm_add_u32(_258, 1 as core::ffi::c_int as uint32_t);
+                        _51 = llvm_add_u32(_258, 1);
                     }
                     _259 = _50;
                     _260 = _47;
                     _47 = llvm_add_u32(_260, _259);
                     _261 = _49;
-                    _49 = llvm_add_u32(_261, 1 as core::ffi::c_int as uint32_t);
+                    _49 = llvm_add_u32(_261, 1);
                 }
                 match current_block {
                     11333923632367046402 => {
@@ -1539,7 +1490,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                                 as *mut core::ffi::c_void,
                             &_OC_str_OC_1 as *const l_array_56_uint8_t
                                 as *mut core::ffi::c_void,
-                            276 as core::ffi::c_int as uint32_t,
+                            276,
                             &__PRETTY_FUNCTION___OC__Z20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPh
                                 as *const l_array_103_uint8_t as *mut core::ffi::c_void,
                         );
@@ -1566,8 +1517,8 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             llvm_select_u32(
                                 (_267 as uint32_t == 1 as core::ffi::c_uint) as core::ffi::c_int
                                     as bool_0,
-                                17 as core::ffi::c_int as uint32_t,
-                                29 as core::ffi::c_int as uint32_t,
+                                17,
+                                29,
                             ),
                         );
                     }
@@ -1579,7 +1530,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
         __assert_fail(
             &_OC_str as *const l_array_34_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_1 as *const l_array_56_uint8_t as *mut core::ffi::c_void,
-            107 as core::ffi::c_int as uint32_t,
+            107,
             &__PRETTY_FUNCTION___OC__Z20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPh
                 as *const l_array_103_uint8_t as *mut core::ffi::c_void,
         );
@@ -1635,7 +1586,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
         __assert_fail(
             &_OC_str_OC_5 as *const l_array_82_uint8_t as *mut core::ffi::c_void,
             &_OC_str_OC_6 as *const l_array_45_uint8_t as *mut core::ffi::c_void,
-            639 as core::ffi::c_int as uint32_t,
+            639,
             &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor14get_block_modeEj
                 as *const l_array_76_uint8_t as *mut core::ffi::c_void,
         );
@@ -1685,70 +1636,70 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _372: uint32_t) -> u
     _375 = _374;
     match _375 {
         0 => {
-            _373 = 2 as core::ffi::c_int as uint32_t;
+            _373 = 2;
         }
         1 => {
-            _373 = 3 as core::ffi::c_int as uint32_t;
+            _373 = 3;
         }
         2 => {
-            _373 = 4 as core::ffi::c_int as uint32_t;
+            _373 = 4;
         }
         3 => {
-            _373 = 5 as core::ffi::c_int as uint32_t;
+            _373 = 5;
         }
         4 => {
-            _373 = 6 as core::ffi::c_int as uint32_t;
+            _373 = 6;
         }
         5 => {
-            _373 = 8 as core::ffi::c_int as uint32_t;
+            _373 = 8;
         }
         6 => {
-            _373 = 10 as core::ffi::c_int as uint32_t;
+            _373 = 10;
         }
         7 => {
-            _373 = 12 as core::ffi::c_int as uint32_t;
+            _373 = 12;
         }
         8 => {
-            _373 = 16 as core::ffi::c_int as uint32_t;
+            _373 = 16;
         }
         9 => {
-            _373 = 20 as core::ffi::c_int as uint32_t;
+            _373 = 20;
         }
         10 => {
-            _373 = 24 as core::ffi::c_int as uint32_t;
+            _373 = 24;
         }
         11 => {
-            _373 = 32 as core::ffi::c_int as uint32_t;
+            _373 = 32;
         }
         12 => {
-            _373 = 40 as core::ffi::c_int as uint32_t;
+            _373 = 40;
         }
         13 => {
-            _373 = 48 as core::ffi::c_int as uint32_t;
+            _373 = 48;
         }
         14 => {
-            _373 = 64 as core::ffi::c_int as uint32_t;
+            _373 = 64;
         }
         15 => {
-            _373 = 80 as core::ffi::c_int as uint32_t;
+            _373 = 80;
         }
         16 => {
-            _373 = 96 as core::ffi::c_int as uint32_t;
+            _373 = 96;
         }
         17 => {
-            _373 = 128 as core::ffi::c_int as uint32_t;
+            _373 = 128;
         }
         18 => {
-            _373 = 160 as core::ffi::c_int as uint32_t;
+            _373 = 160;
         }
         19 => {
-            _373 = 192 as core::ffi::c_int as uint32_t;
+            _373 = 192;
         }
         20 => {
-            _373 = 256 as core::ffi::c_int as uint32_t;
+            _373 = 256;
         }
         _ => {
-            _373 = 0 as core::ffi::c_int as uint32_t;
+            _373 = 0;
         }
     }
     _376 = _373;
@@ -1767,19 +1718,16 @@ unsafe extern "C" fn _ZL7bitrev8i(mut _400: uint32_t) -> uint32_t {
     _401 = _400;
     _402 = _401;
     _403 = _401;
-    _401 = (_402 & 15 as core::ffi::c_int as uint32_t) << 4 as core::ffi::c_int
-        | llvm_ashr_u32(_403 as int32_t, 4 as core::ffi::c_int)
-            & 15 as core::ffi::c_int as uint32_t;
+    _401 = (_402 & 15) << 4 as core::ffi::c_int
+        | llvm_ashr_u32(_403 as int32_t, 4 as core::ffi::c_int) & 15;
     _404 = _401;
     _405 = _401;
-    _401 = (_404 & 51 as core::ffi::c_int as uint32_t) << 2 as core::ffi::c_int
-        | llvm_ashr_u32(_405 as int32_t, 2 as core::ffi::c_int)
-            & 51 as core::ffi::c_int as uint32_t;
+    _401 = (_404 & 51) << 2 as core::ffi::c_int
+        | llvm_ashr_u32(_405 as int32_t, 2 as core::ffi::c_int) & 51;
     _406 = _401;
     _407 = _401;
-    _401 = (_406 & 85 as core::ffi::c_int as uint32_t) << 1 as core::ffi::c_int
-        | llvm_ashr_u32(_407 as int32_t, 1 as core::ffi::c_int)
-            & 85 as core::ffi::c_int as uint32_t;
+    _401 = (_406 & 85) << 1 as core::ffi::c_int
+        | llvm_ashr_u32(_407 as int32_t, 1 as core::ffi::c_int) & 85;
     _408 = _401;
     return _408;
 }
@@ -1827,10 +1775,7 @@ unsafe extern "C" fn _ZL10write_bitsiiiPh(
     _415 = _411;
     _416 = _412;
     _418 = _414;
-    _417 = llvm_sub_u32(
-        ((1 as core::ffi::c_int) << _418) as uint32_t,
-        1 as core::ffi::c_int as uint32_t,
-    );
+    _417 = llvm_sub_u32(((1 as core::ffi::c_int) << _418) as uint32_t, 1);
     _419 = _417;
     _420 = _413;
     _413 = _420 & _419;
@@ -1842,7 +1787,7 @@ unsafe extern "C" fn _ZL10write_bitsiiiPh(
         3 as core::ffi::c_int,
     ) as int32_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
     _423 = _415;
-    _415 = _423 & 7 as core::ffi::c_int as uint32_t;
+    _415 = _423 & 7;
     _424 = _415;
     _425 = _413;
     _413 = _425 << _424;
@@ -2240,16 +2185,12 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
     *(&mut (*(_518 as *mut l_struct_struct_OC_symbolic_compressed_block)).field0 as *mut uint8_t) =
         3 as core::ffi::c_int as uint8_t;
     _519 = _465;
-    _520 = _ZL9read_bitsiiPKh(
-        11 as core::ffi::c_int as uint32_t,
-        0 as core::ffi::c_int as uint32_t,
-        _519,
-    );
+    _520 = _ZL9read_bitsiiPKh(11, 0, _519);
     _468 = _520;
     _521 = _468;
-    if _521 & 511 as core::ffi::c_int as uint32_t == 508 as core::ffi::c_uint {
+    if _521 & 511 == 508 as core::ffi::c_uint {
         _522 = _468;
-        if _522 & 512 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
+        if _522 & 512 != 0 as core::ffi::c_uint {
             _523 = _466;
             *(&mut (*(_523 as *mut l_struct_struct_OC_symbolic_compressed_block)).field0
                 as *mut uint8_t) = 1 as core::ffi::c_int as uint8_t;
@@ -2261,7 +2202,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
         _525 = _466;
         *(&mut (*(_525 as *mut l_struct_struct_OC_symbolic_compressed_block)).field1
             as *mut uint8_t) = 0 as core::ffi::c_int as uint8_t;
-        _469 = 0 as core::ffi::c_int as uint32_t;
+        _469 = 0;
         loop {
             _526 = _469;
             if !((_526 as int32_t) < 4 as core::ffi::c_uint as int32_t) {
@@ -2271,22 +2212,16 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
             _528 = _469;
             _529 = *(&mut *(_527 as *mut uint8_t).offset((llvm_add_u32
                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    2 as core::ffi::c_int as uint32_t,
-                    _528,
-                ),
-                8 as core::ffi::c_int as uint32_t,
+                (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _528),
+                8,
             ) as int32_t as int64_t
                 as isize) as *mut uint8_t);
             _530 = _465;
             _531 = _469;
             _532 = *(&mut *(_530 as *mut uint8_t).offset((llvm_add_u32
                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    2 as core::ffi::c_int as uint32_t,
-                    _531,
-                ),
-                9 as core::ffi::c_int as uint32_t,
+                (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _531),
+                9,
             ) as int32_t as int64_t
                 as isize) as *mut uint8_t);
             _533 = _466;
@@ -2298,18 +2233,14 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                 .offset(_534 as int32_t as int64_t as isize) as *mut uint32_t) =
                 _529 as uint32_t | (_532 as uint32_t) << 8 as core::ffi::c_int;
             _535 = _469;
-            _469 = llvm_add_u32(_535, 1 as core::ffi::c_int as uint32_t);
+            _469 = llvm_add_u32(_535, 1);
         }
         _536 = _464;
         _537 = *(&mut (*(_536 as *mut l_struct_struct_OC_block_size_descriptor)).field2
             as *mut uint8_t);
         if _537 as uint32_t == 1 as core::ffi::c_uint {
             _538 = _465;
-            _539 = _ZL9read_bitsiiPKh(
-                2 as core::ffi::c_int as uint32_t,
-                10 as core::ffi::c_int as uint32_t,
-                _538,
-            );
+            _539 = _ZL9read_bitsiiPKh(2, 10, _538);
             _470 = _539;
             _540 = _470;
             if _540 != 3 as core::ffi::c_uint {
@@ -2318,44 +2249,20 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                     as *mut uint8_t) = 0 as core::ffi::c_int as uint8_t;
             } else {
                 _542 = _465;
-                _543 = _ZL9read_bitsiiPKh(
-                    8 as core::ffi::c_int as uint32_t,
-                    12 as core::ffi::c_int as uint32_t,
-                    _542,
-                );
+                _543 = _ZL9read_bitsiiPKh(8, 12, _542);
                 _544 = _465;
-                _545 = _ZL9read_bitsiiPKh(
-                    5 as core::ffi::c_int as uint32_t,
-                    20 as core::ffi::c_int as uint32_t,
-                    _544,
-                );
+                _545 = _ZL9read_bitsiiPKh(5, 20, _544);
                 _471 = _543 | _545 << 8 as core::ffi::c_int;
                 _546 = _465;
-                _547 = _ZL9read_bitsiiPKh(
-                    13 as core::ffi::c_int as uint32_t,
-                    25 as core::ffi::c_int as uint32_t,
-                    _546,
-                );
+                _547 = _ZL9read_bitsiiPKh(13, 25, _546);
                 _472 = _547;
                 _548 = _465;
-                _549 = _ZL9read_bitsiiPKh(
-                    8 as core::ffi::c_int as uint32_t,
-                    38 as core::ffi::c_int as uint32_t,
-                    _548,
-                );
+                _549 = _ZL9read_bitsiiPKh(8, 38, _548);
                 _550 = _465;
-                _551 = _ZL9read_bitsiiPKh(
-                    5 as core::ffi::c_int as uint32_t,
-                    46 as core::ffi::c_int as uint32_t,
-                    _550,
-                );
+                _551 = _ZL9read_bitsiiPKh(5, 46, _550);
                 _473 = _549 | _551 << 8 as core::ffi::c_int;
                 _552 = _465;
-                _553 = _ZL9read_bitsiiPKh(
-                    13 as core::ffi::c_int as uint32_t,
-                    51 as core::ffi::c_int as uint32_t,
-                    _552,
-                );
+                _553 = _ZL9read_bitsiiPKh(13, 51, _552);
                 _474 = _553;
                 _554 = _471;
                 if _554 == 8191 as core::ffi::c_uint {
@@ -2404,46 +2311,22 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
             }
         } else {
             _565 = _465;
-            _566 = _ZL9read_bitsiiPKh(
-                9 as core::ffi::c_int as uint32_t,
-                10 as core::ffi::c_int as uint32_t,
-                _565,
-            );
+            _566 = _ZL9read_bitsiiPKh(9, 10, _565);
             _476 = _566;
             _567 = _465;
-            _568 = _ZL9read_bitsiiPKh(
-                9 as core::ffi::c_int as uint32_t,
-                19 as core::ffi::c_int as uint32_t,
-                _567,
-            );
+            _568 = _ZL9read_bitsiiPKh(9, 19, _567);
             _477 = _568;
             _569 = _465;
-            _570 = _ZL9read_bitsiiPKh(
-                9 as core::ffi::c_int as uint32_t,
-                28 as core::ffi::c_int as uint32_t,
-                _569,
-            );
+            _570 = _ZL9read_bitsiiPKh(9, 28, _569);
             _478 = _570;
             _571 = _465;
-            _572 = _ZL9read_bitsiiPKh(
-                9 as core::ffi::c_int as uint32_t,
-                37 as core::ffi::c_int as uint32_t,
-                _571,
-            );
+            _572 = _ZL9read_bitsiiPKh(9, 37, _571);
             _479 = _572;
             _573 = _465;
-            _574 = _ZL9read_bitsiiPKh(
-                9 as core::ffi::c_int as uint32_t,
-                46 as core::ffi::c_int as uint32_t,
-                _573,
-            );
+            _574 = _ZL9read_bitsiiPKh(9, 46, _573);
             _480 = _574;
             _575 = _465;
-            _576 = _ZL9read_bitsiiPKh(
-                9 as core::ffi::c_int as uint32_t,
-                55 as core::ffi::c_int as uint32_t,
-                _575,
-            );
+            _576 = _ZL9read_bitsiiPKh(9, 55, _575);
             _481 = _576;
             _577 = _476;
             if _577 == 511 as core::ffi::c_uint {
@@ -2548,7 +2431,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                 _611 = _488;
                 if _611 != 0 as core::ffi::c_uint {
                     _612 = _486;
-                    _613 = llvm_mul_u32(2 as core::ffi::c_int as uint32_t, _612);
+                    _613 = llvm_mul_u32(2, _612);
                     _615__PHI_TEMPORARY = _613;
                 } else {
                     _614 = _486;
@@ -2557,12 +2440,8 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                 _615 = _615__PHI_TEMPORARY;
                 _489 = _615;
                 _616 = _465;
-                _617 = _ZL9read_bitsiiPKh(
-                    2 as core::ffi::c_int as uint32_t,
-                    11 as core::ffi::c_int as uint32_t,
-                    _616,
-                );
-                _490 = llvm_add_u32(_617, 1 as core::ffi::c_int as uint32_t);
+                _617 = _ZL9read_bitsiiPKh(2, 11, _616);
+                _490 = llvm_add_u32(_617, 1);
                 _618 = _490;
                 if _618 as int32_t > 0 as core::ffi::c_uint as int32_t {
                     _619 = _468;
@@ -2573,7 +2452,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                     _622 = _466;
                     *(&mut (*(_622 as *mut l_struct_struct_OC_symbolic_compressed_block)).field1
                         as *mut uint8_t) = _621 as uint8_t;
-                    _491 = 0 as core::ffi::c_int as uint32_t;
+                    _491 = 0;
                     loop {
                         _623 = _491;
                         if !((_623 as int32_t) < 16 as core::ffi::c_uint as int32_t) {
@@ -2583,8 +2462,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                         _625 = _491;
                         _626 = *(&mut *(_624 as *mut uint8_t).offset((llvm_sub_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            15 as core::ffi::c_int as uint32_t,
-                            _625,
+                            15, _625
                         )
                             as int32_t
                             as int64_t
@@ -2596,14 +2474,14 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             .offset(_628 as int32_t as int64_t as isize)
                             as *mut uint8_t) = _627 as uint8_t;
                         _629 = _491;
-                        _491 = llvm_add_u32(_629, 1 as core::ffi::c_int as uint32_t);
+                        _491 = llvm_add_u32(_629, 1);
                     }
                     _630 = _489;
                     _631 = _487;
                     _632 = _Z25get_ise_sequence_bitcountj12quant_method(_630, _631);
                     _492 = _632;
                     _633 = _492;
-                    _493 = llvm_sub_u32(128 as core::ffi::c_int as uint32_t, _633);
+                    _493 = llvm_sub_u32(128, _633);
                     _634 = _487;
                     _495 = &mut *(quant_and_xfer_tables.array)
                         .as_mut_ptr()
@@ -2623,11 +2501,11 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut uint8_t as *mut core::ffi::c_void,
-                        0 as core::ffi::c_int as uint32_t,
+                        0,
                     );
                     _637 = _488;
                     if _637 != 0 as core::ffi::c_uint {
-                        _496 = 0 as core::ffi::c_int as uint32_t;
+                        _496 = 0;
                         loop {
                             _638 = _496;
                             _639 = _486;
@@ -2638,8 +2516,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             _641 = _496;
                             _642 = *(&mut *(_494.array).as_mut_ptr().offset((llvm_mul_u32
                                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                2 as core::ffi::c_int as uint32_t,
-                                _641,
+                                2, _641
                             )
                                 as int32_t
                                 as int64_t
@@ -2668,10 +2545,9 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    2 as core::ffi::c_int as uint32_t,
-                                    _647,
+                                    2, _647,
                                 ),
-                                1 as core::ffi::c_int as uint32_t,
+                                1,
                             )
                                 as int32_t
                                 as int64_t
@@ -2694,15 +2570,14 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 .as_mut_ptr()
                                 .offset((llvm_add_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                    _651,
-                                    32 as core::ffi::c_int as uint32_t,
+                                    _651, 32,
                                 ) as uint64_t as int64_t
                                     as isize) as *mut uint8_t) = _649;
                             _652 = _496;
-                            _496 = llvm_add_u32(_652, 1 as core::ffi::c_int as uint32_t);
+                            _496 = llvm_add_u32(_652, 1);
                         }
                     } else {
-                        _497 = 0 as core::ffi::c_int as uint32_t;
+                        _497 = 0;
                         loop {
                             _653 = _497;
                             _654 = _486;
@@ -2734,7 +2609,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 .offset(_660 as int32_t as int64_t as isize)
                                 as *mut uint8_t) = _658;
                             _661 = _497;
-                            _497 = llvm_add_u32(_661, 1 as core::ffi::c_int as uint32_t);
+                            _497 = llvm_add_u32(_661, 1);
                         }
                     }
                     _662 = _488;
@@ -2757,15 +2632,11 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             _665 = _466;
                             *(&mut (*(_665 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                 .field2 as *mut uint8_t) = 0 as core::ffi::c_int as uint8_t;
-                            _499 = 0 as core::ffi::c_int as uint32_t;
+                            _499 = 0;
                             _666 = _490;
                             if _666 == 1 as core::ffi::c_uint {
                                 _667 = _465;
-                                _668 = _ZL9read_bitsiiPKh(
-                                    4 as core::ffi::c_int as uint32_t,
-                                    13 as core::ffi::c_int as uint32_t,
-                                    _667,
-                                );
+                                _668 = _ZL9read_bitsiiPKh(4, 13, _667);
                                 *(&mut *(_498.array)
                                     .as_mut_ptr()
                                     .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -2776,29 +2647,22 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                     .field5 as *mut uint16_t) = 0 as core::ffi::c_int as uint16_t;
                             } else {
                                 _670 = _490;
-                                _499 = llvm_sub_u32(
-                                    llvm_mul_u32(3 as core::ffi::c_int as uint32_t, _670),
-                                    4 as core::ffi::c_int as uint32_t,
-                                );
+                                _499 = llvm_sub_u32(llvm_mul_u32(3, _670), 4);
                                 _671 = _499;
                                 _672 = _493;
                                 _493 = llvm_sub_u32(_672, _671);
                                 _673 = _465;
-                                _674 = _ZL9read_bitsiiPKh(
-                                    6 as core::ffi::c_int as uint32_t,
-                                    23 as core::ffi::c_int as uint32_t,
-                                    _673,
-                                );
+                                _674 = _ZL9read_bitsiiPKh(6, 23, _673);
                                 _675 = _499;
                                 _676 = _493;
                                 _677 = _465;
                                 _678 = _ZL9read_bitsiiPKh(_675, _676, _677);
                                 _500 = _674 | _678 << 6 as core::ffi::c_int;
                                 _679 = _500;
-                                _501 = _679 & 3 as core::ffi::c_int as uint32_t;
+                                _501 = _679 & 3;
                                 _680 = _501;
                                 if _680 == 0 as core::ffi::c_uint {
-                                    _502 = 0 as core::ffi::c_int as uint32_t;
+                                    _502 = 0;
                                     loop {
                                         _681 = _502;
                                         _682 = _490;
@@ -2812,10 +2676,9 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                             .offset(_684 as int32_t as int64_t as isize)
                                             as *mut uint32_t) =
                                             llvm_ashr_u32(_683 as int32_t, 2 as core::ffi::c_int)
-                                                & 15 as core::ffi::c_int as uint32_t;
+                                                & 15;
                                         _685 = _502;
-                                        _502 =
-                                            llvm_add_u32(_685, 1 as core::ffi::c_int as uint32_t);
+                                        _502 = llvm_add_u32(_685, 1);
                                     }
                                     _686 = _499;
                                     _687 = _493;
@@ -2825,12 +2688,12 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                         as *mut l_struct_struct_OC_symbolic_compressed_block))
                                         .field2
                                         as *mut uint8_t) = 1 as core::ffi::c_int as uint8_t;
-                                    _499 = 0 as core::ffi::c_int as uint32_t;
+                                    _499 = 0;
                                 } else {
-                                    _503 = 2 as core::ffi::c_int as uint32_t;
+                                    _503 = 2;
                                     _689 = _501;
                                     _501 = llvm_add_u32(_689, -(1 as core::ffi::c_int) as uint32_t);
-                                    _504 = 0 as core::ffi::c_int as uint32_t;
+                                    _504 = 0;
                                     loop {
                                         _690 = _504;
                                         _691 = _490;
@@ -2845,18 +2708,15 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                             .as_mut_ptr()
                                             .offset(_695 as int32_t as int64_t as isize)
                                             as *mut uint32_t) = llvm_add_u32(
-                                            llvm_ashr_u32(_692 as int32_t, _693 as int32_t)
-                                                & 1 as core::ffi::c_int as uint32_t,
+                                            llvm_ashr_u32(_692 as int32_t, _693 as int32_t) & 1,
                                             _694,
                                         ) << 2 as core::ffi::c_int;
                                         _696 = _503;
-                                        _503 =
-                                            llvm_add_u32(_696, 1 as core::ffi::c_int as uint32_t);
+                                        _503 = llvm_add_u32(_696, 1);
                                         _697 = _504;
-                                        _504 =
-                                            llvm_add_u32(_697, 1 as core::ffi::c_int as uint32_t);
+                                        _504 = llvm_add_u32(_697, 1);
                                     }
-                                    _505 = 0 as core::ffi::c_int as uint32_t;
+                                    _505 = 0;
                                     loop {
                                         _698 = _505;
                                         _699 = _490;
@@ -2873,28 +2733,21 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                             as *mut core::ffi::c_void;
                                         _704 = *(_703 as *mut uint32_t);
                                         *(_703 as *mut uint32_t) = _704
-                                            | llvm_ashr_u32(_700 as int32_t, _701 as int32_t)
-                                                & 3 as core::ffi::c_int as uint32_t;
+                                            | llvm_ashr_u32(_700 as int32_t, _701 as int32_t) & 3;
                                         _705 = _503;
-                                        _503 =
-                                            llvm_add_u32(_705, 2 as core::ffi::c_int as uint32_t);
+                                        _503 = llvm_add_u32(_705, 2);
                                         _706 = _505;
-                                        _505 =
-                                            llvm_add_u32(_706, 1 as core::ffi::c_int as uint32_t);
+                                        _505 = llvm_add_u32(_706, 1);
                                     }
                                 }
                                 _707 = _465;
-                                _708 = _ZL9read_bitsiiPKh(
-                                    10 as core::ffi::c_int as uint32_t,
-                                    13 as core::ffi::c_int as uint32_t,
-                                    _707,
-                                );
+                                _708 = _ZL9read_bitsiiPKh(10, 13, _707);
                                 _709 = _466;
                                 *(&mut (*(_709
                                     as *mut l_struct_struct_OC_symbolic_compressed_block))
                                     .field5 as *mut uint16_t) = _708 as uint16_t;
                             }
-                            _506 = 0 as core::ffi::c_int as uint32_t;
+                            _506 = 0;
                             loop {
                                 _710 = _506;
                                 _711 = _490;
@@ -2917,10 +2770,10 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                     .offset(_715 as int32_t as int64_t as isize)
                                     as *mut uint8_t) = _713 as uint8_t;
                                 _716 = _506;
-                                _506 = llvm_add_u32(_716, 1 as core::ffi::c_int as uint32_t);
+                                _506 = llvm_add_u32(_716, 1);
                             }
-                            _507 = 0 as core::ffi::c_int as uint32_t;
-                            _508 = 0 as core::ffi::c_int as uint32_t;
+                            _507 = 0;
+                            _508 = 0;
                             loop {
                                 _717 = _508;
                                 _718 = _490;
@@ -2935,15 +2788,9 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 _509 = llvm_ashr_u32(_720 as int32_t, 2 as core::ffi::c_int);
                                 _721 = _509;
                                 _722 = _507;
-                                _507 = llvm_add_u32(
-                                    _722,
-                                    llvm_mul_u32(
-                                        llvm_add_u32(_721, 1 as core::ffi::c_int as uint32_t),
-                                        2 as core::ffi::c_int as uint32_t,
-                                    ),
-                                );
+                                _507 = llvm_add_u32(_722, llvm_mul_u32(llvm_add_u32(_721, 1), 2));
                                 _723 = _508;
-                                _508 = llvm_add_u32(_723, 1 as core::ffi::c_int as uint32_t);
+                                _508 = llvm_add_u32(_723, 1);
                             }
                             _724 = _507;
                             if _724 as int32_t > 18 as core::ffi::c_uint as int32_t {
@@ -2964,11 +2811,11 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 _730 = _488;
                                 if _730 != 0 as core::ffi::c_uint {
                                     _731 = _510;
-                                    _510 = llvm_sub_u32(_731, 2 as core::ffi::c_int as uint32_t);
+                                    _510 = llvm_sub_u32(_731, 2);
                                 }
                                 _732 = _510;
                                 if (_732 as int32_t) < 0 as core::ffi::c_uint as int32_t {
-                                    _510 = 0 as core::ffi::c_int as uint32_t;
+                                    _510 = 0;
                                 }
                                 _733 = _507;
                                 _734 = _510;
@@ -3020,11 +2867,11 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                         llvm_select_u32(
                                             (_743 == 1 as core::ffi::c_uint) as core::ffi::c_int
                                                 as bool_0,
-                                            17 as core::ffi::c_int as uint32_t,
-                                            29 as core::ffi::c_int as uint32_t,
+                                            17,
+                                            29,
                                         ),
                                     );
-                                    _513 = 0 as core::ffi::c_int as uint32_t;
+                                    _513 = 0;
                                     _745 = _466;
                                     _746 = *(&mut (*(_745
                                         as *mut l_struct_struct_OC_symbolic_compressed_block))
@@ -3039,15 +2886,14 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                                     uint32_t,
                                                 )
                                                     -> uint32_t)(
-                                                _746,
-                                                4 as core::ffi::c_int as uint32_t,
+                                                _746, 4
                                             )
                                                 as int32_t
                                                 as int64_t
                                                 as isize)
                                             as *mut *mut core::ffi::c_void);
                                     _514 = _747;
-                                    _515 = 0 as core::ffi::c_int as uint32_t;
+                                    _515 = 0;
                                     loop {
                                         _748 = _515;
                                         _749 = _490;
@@ -3061,15 +2907,15 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                             as *mut uint32_t);
                                         _516 = llvm_add_u32(
                                             llvm_mul_u32(
-                                                2 as core::ffi::c_int as uint32_t,
+                                                2,
                                                 llvm_ashr_u32(
                                                     _751 as int32_t,
                                                     2 as core::ffi::c_int,
                                                 ),
                                             ),
-                                            2 as core::ffi::c_int as uint32_t,
+                                            2,
                                         );
-                                        _517 = 0 as core::ffi::c_int as uint32_t;
+                                        _517 = 0;
                                         loop {
                                             _752 = _517;
                                             _753 = _516;
@@ -3112,17 +2958,13 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                                 .offset(_761 as int32_t as int64_t as isize)
                                                 as *mut uint8_t) = _758;
                                             _762 = _517;
-                                            _517 = llvm_add_u32(
-                                                _762,
-                                                1 as core::ffi::c_int as uint32_t,
-                                            );
+                                            _517 = llvm_add_u32(_762, 1);
                                         }
                                         _763 = _516;
                                         _764 = _513;
                                         _513 = llvm_add_u32(_764, _763);
                                         _765 = _515;
-                                        _515 =
-                                            llvm_add_u32(_765, 1 as core::ffi::c_int as uint32_t);
+                                        _515 = llvm_add_u32(_765, 1);
                                     }
                                     _766 = _466;
                                     *(&mut (*(_766
@@ -3133,11 +2975,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                     if _767 != 0 as core::ffi::c_uint {
                                         _768 = _493;
                                         _769 = _465;
-                                        _770 = _ZL9read_bitsiiPKh(
-                                            2 as core::ffi::c_int as uint32_t,
-                                            llvm_sub_u32(_768, 2 as core::ffi::c_int as uint32_t),
-                                            _769,
-                                        );
+                                        _770 = _ZL9read_bitsiiPKh(2, llvm_sub_u32(_768, 2), _769);
                                         _771 = _466;
                                         *(&mut (*(_771
                                             as *mut l_struct_struct_OC_symbolic_compressed_block))
@@ -3152,7 +2990,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                     __assert_fail(
                         &_OC_str_OC_4 as *const l_array_20_uint8_t as *mut core::ffi::c_void,
                         &_OC_str_OC_1 as *const l_array_56_uint8_t as *mut core::ffi::c_void,
-                        391 as core::ffi::c_int as uint32_t,
+                        391,
                         &__PRETTY_FUNCTION___OC__Z20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_block
                             as *const l_array_103_uint8_t as *mut core::ffi::c_void,
                     );
@@ -3161,7 +2999,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                 __assert_fail(
                     &_OC_str_OC_3 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
                     &_OC_str_OC_1 as *const l_array_56_uint8_t as *mut core::ffi::c_void,
-                    383 as core::ffi::c_int as uint32_t,
+                    383,
                     &__PRETTY_FUNCTION___OC__Z20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_block
                         as *const l_array_103_uint8_t as *mut core::ffi::c_void,
                 );
@@ -3197,10 +3035,7 @@ unsafe extern "C" fn _ZL9read_bitsiiPKh(
     _882 = _879;
     _883 = _880;
     _886 = _881;
-    _884 = llvm_sub_u32(
-        ((1 as core::ffi::c_int) << _886) as uint32_t,
-        1 as core::ffi::c_int as uint32_t,
-    );
+    _884 = llvm_sub_u32(((1 as core::ffi::c_int) << _886) as uint32_t, 1);
     _887 = _882;
     _888 = _883;
     _883 = &mut *(_888 as *mut uint8_t).offset((llvm_ashr_u32
@@ -3209,7 +3044,7 @@ unsafe extern "C" fn _ZL9read_bitsiiPKh(
         3 as core::ffi::c_int,
     ) as int32_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
     _889 = _882;
-    _882 = _889 & 7 as core::ffi::c_int as uint32_t;
+    _882 = _889 & 7;
     _890 = _883;
     _891 = *(_890 as *mut uint8_t);
     _892 = _883;

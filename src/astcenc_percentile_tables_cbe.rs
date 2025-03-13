@@ -7578,13 +7578,13 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
     let mut _53: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _3 = _1;
     _4 = _2;
-    _17 = _Znam(8192 as core::ffi::c_int as uint64_t);
+    _17 = _Znam(8192);
     _5 = _17;
     _18 = _3;
     _19 = _4;
     _20 = _ZL16get_packed_tableii(_18, _19);
     _6 = _20;
-    _7 = 0 as core::ffi::c_int as uint32_t;
+    _7 = 0;
     loop {
         _21 = _7;
         if !(_21 < 2048 as core::ffi::c_uint) {
@@ -7595,9 +7595,9 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         *(&mut *(_22 as *mut core::ffi::c_float).offset(_23 as uint64_t as int64_t as isize)
             as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
         _24 = _7;
-        _7 = llvm_add_u32(_24, 1 as core::ffi::c_int as uint32_t);
+        _7 = llvm_add_u32(_24, 1);
     }
-    _8 = 0 as core::ffi::c_int as uint32_t;
+    _8 = 0;
     loop {
         _25 = _8;
         if !((_25 as int32_t) < 2 as core::ffi::c_uint as int32_t) {
@@ -7636,7 +7636,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             .offset(_36 as int32_t as int64_t as isize)
             as *mut *mut core::ffi::c_void);
         _12 = _37;
-        _13 = 0 as core::ffi::c_int as uint32_t;
+        _13 = 0;
         loop {
             _38 = _13;
             _39 = _9;
@@ -7649,10 +7649,9 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
                 as *mut uint16_t);
             _14 = _42;
             _43 = _14;
-            _15 = _43 as uint32_t & 2047 as core::ffi::c_int as uint32_t;
+            _15 = _43 as uint32_t & 2047;
             _44 = _14;
-            _16 = llvm_ashr_u32(_44 as uint32_t as int32_t, 11 as core::ffi::c_int)
-                & 31 as core::ffi::c_int as uint32_t;
+            _16 = llvm_ashr_u32(_44 as uint32_t as int32_t, 11 as core::ffi::c_int) & 31;
             _45 = _16;
             _46 = _11;
             _11 = llvm_add_u32(_46, _45);
@@ -7664,10 +7663,10 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
                 as *mut core::ffi::c_float) =
                 llvm_fdiv_f32(_47 as core::ffi::c_float, _48 as core::ffi::c_float);
             _51 = _13;
-            _13 = llvm_add_u32(_51, 1 as core::ffi::c_int as uint32_t);
+            _13 = llvm_add_u32(_51, 1);
         }
         _52 = _8;
-        _8 = llvm_add_u32(_52, 1 as core::ffi::c_int as uint32_t);
+        _8 = llvm_add_u32(_52, 1);
     }
     _53 = _5;
     return _53;
