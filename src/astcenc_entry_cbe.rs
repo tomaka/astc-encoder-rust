@@ -20654,7 +20654,6 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
     _5024 = _3869;
     return _5024;
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     mut _5151: *mut libc::c_void,
@@ -20763,7 +20762,6 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
         );
     };
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     mut _5186: *mut libc::c_void,

@@ -7489,7 +7489,6 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
         );
     };
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     mut _1771: *mut libc::c_void,

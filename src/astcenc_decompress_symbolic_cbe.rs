@@ -10563,7 +10563,6 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
     _2286 = (*(&mut _2262.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_83)).data;
     return _2286;
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     mut _2291: *mut libc::c_void,
@@ -10672,7 +10671,6 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
         );
     };
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     mut _2326: *mut libc::c_void,

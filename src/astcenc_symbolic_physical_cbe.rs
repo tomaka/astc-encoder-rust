@@ -1585,7 +1585,6 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
         );
     };
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     mut _344: *mut libc::c_void,

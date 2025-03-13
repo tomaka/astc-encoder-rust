@@ -7916,7 +7916,6 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
         );
     };
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     mut _1719: *mut libc::c_void,
@@ -13674,7 +13673,6 @@ unsafe extern "C" fn _ZN4astcL3minIiEET_S1_S1_(
     _3302 = _3302__PHI_TEMPORARY;
     return _3302;
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     mut _3306: *mut libc::c_void,
