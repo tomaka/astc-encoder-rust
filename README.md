@@ -7,6 +7,14 @@ This repository contains a version of https://github.com/ARM-software/astc-encod
 Performances haven't been measured. The objective of this repository is to have something that can easily be compiled for any platform, which is something that Rust does well.
 
 Caveat: building with debug symbols enabled makes Rust overflow its stack due to the large number of local variables being used. Building without debug symbols works fine.
+You might want to add this to your Cargo.toml:
+
+```
+[profile.dev.package."astc-encoder-rust"]
+debug = 0
+[profile.test.package."astc-encoder-rust"]
+debug = 0
+```
 
 ## Build
 
