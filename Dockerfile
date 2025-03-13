@@ -72,9 +72,9 @@ RUN echo "pub use bindings::*;" >> lib.rs
 # Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
 RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
 # Remove casting of numeric constants which causes signed/unsigned types issues
-RUN cd src && for f in *.rs; do sed -i 's/\([0-9]\) as libc::c_int as uint32_t/\1/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/\([0-9]\) as libc::c_int as uint64_t/\1/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/\([0-9]\) as libc::c_int as libc::c_ulong/\1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint32_t/\1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint64_t/\1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
 # Replace `libc::` with `core::ffi::` and remove `libc` altogether
 RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/g' $f; done
 RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done
@@ -85,6 +85,11 @@ RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
 # This is done by adding `use crate::*;` at the head of each file, and `use src::foo::*;` in lib.rs for each module
 RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
 RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
+
+# Replace all structs named `l_array_*_uint*_t` with their array equivalent
+# TODO: line below doesn't work
+#RUN cd src && for f in *.rs; do sed -i '/#[derive(Copy, Clone)]\n#[repr(C)]\npub struct l_array_\([0-9]*\)_uint\([0-9]*\)_t {/,/}/d' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/l_array_\([0-9]*\)_uint\([0-9]*\)_t/[\2; \1]/g' $f; done
 
 # Add some substitutes to C/C++ functions in `lib.rs`
 RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs
