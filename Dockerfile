@@ -86,7 +86,7 @@ RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
 RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
 RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
 
-# Add some substitutes to C functions in `lib.rs`
+# Add some substitutes to C/C++ functions in `lib.rs`
 RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs
 RUN echo "unsafe fn memset(d: *mut core::ffi::c_void, ch: core::ffi::c_int, c: u64) -> *mut core::ffi::c_void { assert!(ch <= 255); core::ptr::write_bytes::<u8>(d.cast(), ch as u8, c as usize); d }" >> lib.rs
 RUN echo "fn abs(v: u32) -> u32 { v }" >> lib.rs
@@ -105,6 +105,7 @@ RUN echo "unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void { libc::malloc(si
 RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
 RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> lib.rs
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
+RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
 
 # Rustfmt
 RUN cargo fmt

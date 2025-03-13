@@ -122,3 +122,6 @@ unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) {
 unsafe fn _ZSt25__throw_bad_function_callv() -> ! {
     panic!()
 }
+unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! {
+    panic!()
+}
