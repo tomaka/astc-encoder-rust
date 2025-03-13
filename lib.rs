@@ -125,3 +125,5 @@ unsafe fn _ZSt25__throw_bad_function_callv() -> ! {
 unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! {
     panic!()
 }
+use libc::pthread_mutex_lock;
+use libc::pthread_mutex_unlock;

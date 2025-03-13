@@ -96,7 +96,7 @@ RUN echo "fn fabsf(v: f32) -> f32 { v.abs() }" >> lib.rs
 RUN echo "fn roundf(v: f32) -> f32 { v.round() }" >> lib.rs
 RUN echo "fn sqrtf(v: f32) -> f32 { v.sqrt() }" >> lib.rs
 RUN echo "fn logf(v: f32) -> f32 { v.ln() }" >> lib.rs
-RUN echo "fn fegetround() -> core::ffi::c_int { 0 }" >> lib.rs
+RUN echo "fn fegetround() -> core::ffi::c_uint { 0 }" >> lib.rs
 RUN echo "fn __assert_fail(_assertion: *mut core::ffi::c_void, _file: *mut core::ffi::c_void, _line: core::ffi::c_uint, _function: *mut core::ffi::c_void) -> ! { panic!() }" >> lib.rs
 RUN echo "fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -> u8 { let (res, carry) = (*a).overflowing_mul(*b); *out = res; carry as u8 }" >> lib.rs
 RUN echo "use libc::posix_memalign;" >> lib.rs
@@ -106,6 +106,8 @@ RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { libc::malloc(si
 RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> lib.rs
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
+RUN echo "use libc::pthread_mutex_lock;" >> lib.rs
+RUN echo "use libc::pthread_mutex_unlock;" >> lib.rs
 
 # Rustfmt
 RUN cargo fmt
