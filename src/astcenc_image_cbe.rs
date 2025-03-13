@@ -2530,7 +2530,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
     }
     _468 = _468__PHI_TEMPORARY;
     _391 = _468;
-    _392 = 0 as libc::c_int as uint32_t;
+    _392 = 0;
     _378 = &mut _393 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
     _379 = 9.99999968E+37f64 as libc::c_float;
     _469 = _378;
@@ -2611,7 +2611,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
     *(_491 as *mut uint32_t) = llvm_select_u32(
         ((_492 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _494 = _371;
@@ -2622,7 +2622,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_494 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _496 = _371;
@@ -2633,7 +2633,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_496 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _498 = _371;
@@ -2644,7 +2644,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_498 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _500 = _380;
@@ -2656,17 +2656,13 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
     }
     _502 = _502__PHI_TEMPORARY;
     _503 = _502 as uint64_t;
-    _398 = llvm_select_u32(
-        _502,
-        1 as libc::c_int as uint32_t,
-        0 as libc::c_int as uint32_t,
-    ) as uint8_t;
+    _398 = llvm_select_u32(_502, 1 as libc::c_int as uint32_t, 0) as uint8_t;
     _504 = _380;
     _505 = (_504 == 3 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
     _399 = llvm_select_u32(
         (_504 == 3 as libc::c_uint) as libc::c_int as bool_0,
         1 as libc::c_int as uint32_t,
-        0 as libc::c_int as uint32_t,
+        0,
     ) as uint8_t;
     _506 = _398;
     _507 = _398;
@@ -2698,7 +2694,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         16 as libc::c_int as uint64_t,
     );
     _254 = &mut _361 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _255 = 0 as libc::c_int as uint32_t;
+    _255 = 0;
     _516 = _254;
     _517 = _255;
     *(_516 as *mut uint32_t) = _517;
@@ -2758,7 +2754,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
     *(_532 as *mut uint32_t) = llvm_select_u32(
         ((_533 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _535 = _160;
@@ -2769,7 +2765,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_535 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _537 = _161;
@@ -2780,7 +2776,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_537 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _539 = _162;
@@ -2791,7 +2787,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_539 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _541 = *(&mut _362 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2922,7 +2918,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 ) -> l_struct_struct_OC_vfloat4,
         ));
     }
-    _408 = 0 as libc::c_int as uint32_t;
+    _408 = 0;
     loop {
         _555 = _408;
         _556 = _383;
@@ -2946,7 +2942,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         _565 = *(&mut *(_563 as *mut *mut libc::c_void).offset(_564 as uint64_t as int64_t as isize)
             as *mut *mut libc::c_void);
         _410 = _565;
-        _411 = 0 as libc::c_int as uint32_t;
+        _411 = 0;
         loop {
             _566 = _411;
             _567 = _383;
@@ -2963,7 +2959,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 llvm_sub_u32(_571, 1 as libc::c_int as uint32_t),
             );
             _412 = _572;
-            _413 = 0 as libc::c_int as uint32_t;
+            _413 = 0;
             loop {
                 _573 = _413;
                 _574 = _383;
@@ -3636,7 +3632,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 *(_743 as *mut uint32_t) = llvm_select_u32(
                     ((_744 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _746 = _170;
@@ -3649,7 +3645,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_746 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _748 = _171;
@@ -3662,7 +3658,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_748 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _750 = _172;
@@ -3675,7 +3671,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_750 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _752 = *(&mut _339 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -3738,7 +3734,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 *(_763 as *mut uint32_t) = llvm_select_u32(
                     ((_764 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _766 = _165;
@@ -3751,7 +3747,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_766 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _768 = _166;
@@ -3764,7 +3760,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_768 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _770 = _167;
@@ -3777,7 +3773,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_770 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _772 = *(&mut _342 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -3871,7 +3867,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
         _408 = llvm_add_u32(_799, 1 as libc::c_int as uint32_t);
     }
     _800 = _382;
-    _801 = _ZNK11image_block5texelEj(_800, 0 as libc::c_int as uint32_t);
+    _801 = _ZNK11image_block5texelEj(_800, 0);
     *(&mut _435.field0 as *mut l_array_4_float) = _801.field0;
     _802 = memcpy(
         &mut _437 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -4360,7 +4356,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
             *(_933 as *mut uint32_t) = llvm_select_u32(
                 ((_934 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _936 = _180;
@@ -4371,7 +4367,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_936 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _938 = _181;
@@ -4382,7 +4378,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_938 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _940 = _182;
@@ -4393,7 +4389,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_940 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _942 = *(&mut _227 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -4663,7 +4659,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
             *(_1010 as *mut uint32_t) = llvm_select_u32(
                 ((_1011 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1013 = _175;
@@ -4674,7 +4670,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1013 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1015 = _176;
@@ -4685,7 +4681,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1015 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1017 = _177;
@@ -4696,7 +4692,7 @@ pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1017 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1019 = *(&mut _230 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -9027,7 +9023,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
     *(_2297 as *mut uint32_t) = llvm_select_u32(
         ((_2298 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2300 = _1827;
@@ -9038,7 +9034,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2300 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2302 = _1828;
@@ -9049,7 +9045,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2302 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2304 = _1829;
@@ -9060,7 +9056,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2304 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2306 = *(&mut _1830 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -9092,7 +9088,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
     *(_2312 as *mut uint32_t) = llvm_select_u32(
         ((_2313 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2315 = _1835;
@@ -9103,7 +9099,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2315 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2317 = _1836;
@@ -9114,7 +9110,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2317 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2319 = _1837;
@@ -9125,7 +9121,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2319 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2321 = *(&mut _1838 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -9194,7 +9190,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
     *(_2338 as *mut uint32_t) = llvm_select_u32(
         ((_2339 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2341 = _1819;
@@ -9205,7 +9201,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2341 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2343 = _1820;
@@ -9216,7 +9212,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2343 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2345 = _1821;
@@ -9227,7 +9223,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2345 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2347 = *(&mut _1822 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -9296,7 +9292,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
     *(_2364 as *mut uint32_t) = llvm_select_u32(
         ((_2365 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2367 = _1855;
@@ -9307,7 +9303,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2367 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2369 = _1856;
@@ -9318,7 +9314,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2369 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2371 = _1857;
@@ -9329,7 +9325,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2371 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2373 = *(&mut _1918 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -9420,7 +9416,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
     _2399 = _1944;
     *(&mut _2038 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2399.field0;
     _1935 = &mut _2012 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _1936 = 0 as libc::c_int as uint32_t;
+    _1936 = 0;
     _2400 = _1935;
     _2401 = _1936;
     *(_2400 as *mut uint32_t) = _2401;
@@ -9980,7 +9976,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
     *(_2557 as *mut uint32_t) = llvm_select_u32(
         ((_2558 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2560 = _1789;
@@ -9991,7 +9987,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2560 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2562 = _1790;
@@ -10002,7 +9998,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2562 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2564 = _1791;
@@ -10013,7 +10009,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2564 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2566 = *(&mut _1792 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -10082,7 +10078,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
     *(_2583 as *mut uint32_t) = llvm_select_u32(
         ((_2584 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2586 = _1781;
@@ -10093,7 +10089,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2586 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2588 = _1782;
@@ -10104,7 +10100,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2588 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2590 = _1783;
@@ -10115,7 +10111,7 @@ unsafe extern "C" fn _ZL16encode_texel_lns7vfloat46vmask4(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_2590 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _2592 = *(&mut _1784 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -12228,7 +12224,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
     *(_3266 as *mut uint32_t) = llvm_select_u32(
         ((_3267 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3269 = _3194;
@@ -12239,7 +12235,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3269 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3271 = _3194;
@@ -12250,7 +12246,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3271 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3273 = _3194;
@@ -12261,10 +12257,10 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3273 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
-    _3213 = 0 as libc::c_int as uint32_t;
+    _3213 = 0;
     _3275 = _3200;
     _3276 = *(&mut (*(_3275 as *mut l_struct_struct_OC_astcenc_image)).field4
         as *mut *mut libc::c_void);
@@ -13017,7 +13013,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
             *(_3470 as *mut uint32_t) = llvm_select_u32(
                 ((_3471 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3473 = _3086;
@@ -13028,7 +13024,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3473 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3475 = _3087;
@@ -13039,7 +13035,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3475 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3477 = _3088;
@@ -13050,7 +13046,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3477 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3479 = *(&mut _3176 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -13109,7 +13105,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
             *(_3490 as *mut uint32_t) = llvm_select_u32(
                 ((_3491 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3493 = _3081;
@@ -13120,7 +13116,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3493 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3495 = _3082;
@@ -13131,7 +13127,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3495 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3497 = _3083;
@@ -13142,7 +13138,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3497 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3499 = *(&mut _3179 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -13214,7 +13210,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
         _3215 = llvm_add_u32(_3519, 1 as libc::c_int as uint32_t);
     }
     _3520 = _3201;
-    _3521 = _ZNK11image_block5texelEj(_3520, 0 as libc::c_int as uint32_t);
+    _3521 = _ZNK11image_block5texelEj(_3520, 0);
     *(&mut _3235.field0 as *mut l_array_4_float) = _3521.field0;
     _3522 = *(&mut _3235.field0 as *mut l_array_4_float);
     *(&mut _3149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3522;
@@ -16512,7 +16508,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
     }
     _4414 = _4414__PHI_TEMPORARY;
     _4240 = _4414;
-    _4241 = 0 as libc::c_int as uint32_t;
+    _4241 = 0;
     _4415 = _4219;
     _4416 = *(&mut (*(_4415 as *mut l_struct_struct_OC_astcenc_image)).field3 as *mut uint32_t);
     if _4416 == 0 as libc::c_uint {
@@ -16560,7 +16556,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                             _4430,
                         ) as uint64_t as int64_t as isize,
                     ) as *mut uint8_t as *mut libc::c_void;
-                _4246 = 0 as libc::c_int as uint32_t;
+                _4246 = 0;
                 loop {
                     _4431 = _4246;
                     _4432 = _4229;
@@ -18448,7 +18444,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                     _4869 = _4239;
                     if _4869 as libc::c_uint & 1 as libc::c_uint != 0 {
                         _4014 = &mut _4270 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                        _4015 = 0 as libc::c_int as uint32_t;
+                        _4015 = 0;
                         _4870 = _4014;
                         _4871 = _4015;
                         *(_4870 as *mut uint32_t) = _4871;
@@ -20266,7 +20262,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                     *(_5266 as *mut uint32_t) = llvm_select_u32(
                         ((_5267 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5269 = _3707;
@@ -20279,7 +20275,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                         as *mut uint32_t) = llvm_select_u32(
                         ((_5269 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5271 = _3708;
@@ -20292,7 +20288,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                         as *mut uint32_t) = llvm_select_u32(
                         ((_5271 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5273 = _3709;
@@ -20305,7 +20301,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                         as *mut uint32_t) = llvm_select_u32(
                         ((_5273 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5275 =
@@ -20521,7 +20517,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                             16 as libc::c_int as uint64_t,
                         );
                         _4008 = &mut _4313 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                        _4009 = 0 as libc::c_int as uint32_t;
+                        _4009 = 0;
                         _5318 = _4008;
                         _5319 = _4009;
                         *(_5318 as *mut uint32_t) = _5319;
@@ -21451,7 +21447,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                     (*(&mut _4323.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_34))
                         .data = _5521;
                     _3898 = &mut _3903 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _3899 = 0 as libc::c_int as uint32_t;
+                    _3899 = 0;
                     _3900 = 1 as libc::c_int as uint32_t;
                     _3901 = 2 as libc::c_int as uint32_t;
                     _3902 = 3 as libc::c_int as uint32_t;
@@ -21559,7 +21555,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                     *(_5544 as *mut uint32_t) = llvm_select_u32(
                         ((_5545 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5547 = _3712;
@@ -21572,7 +21568,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                         as *mut uint32_t) = llvm_select_u32(
                         ((_5547 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5549 = _3713;
@@ -21585,7 +21581,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                         as *mut uint32_t) = llvm_select_u32(
                         ((_5549 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5551 = _3714;
@@ -21598,7 +21594,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                         as *mut uint32_t) = llvm_select_u32(
                         ((_5551 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _5553 =
@@ -21842,7 +21838,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                             _5623,
                         ) as uint64_t as int64_t as isize)
                         as *mut uint16_t as *mut libc::c_void;
-                    _4337 = 0 as libc::c_int as uint32_t;
+                    _4337 = 0;
                     loop {
                         _5624 = _4337;
                         _5625 = _4229;
@@ -22275,7 +22271,7 @@ pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK2
                             ) as uint64_t as int64_t
                                 as isize) as *mut libc::c_float
                             as *mut libc::c_void;
-                        _4353 = 0 as libc::c_int as uint32_t;
+                        _4353 = 0;
                         loop {
                             _5753 = _4353;
                             _5754 = _4229;

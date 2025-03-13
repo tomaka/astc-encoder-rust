@@ -19,4 +19,6 @@ docker rmi test
 All version numbers and commits are pinned in the Dockerfile. Updating any version
 needs to be done manually by updating the Dockerfile.
 
-Unfortunately, the generated Rust project doesn't compile immediately, and needs some tweaks.
+Unfortunately, the generated Rust project doesn't compile immediately, and needs some tweaks:
+
+- Replaced `0 as libc::c_int as uint32_t` with just `0`, to fix mismatches between `i32` and `u32`.

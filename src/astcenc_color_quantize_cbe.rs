@@ -1362,7 +1362,7 @@ static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE9mode_bits:
             {
                 let mut init = l_array_3_uint32_t {
                     array: [
-                        10 as libc::c_int as uint32_t,
+                        10,
                         5 as libc::c_int as uint32_t,
                         8 as libc::c_int as uint32_t,
                     ],
@@ -1499,7 +1499,7 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits:
             {
                 let mut init = l_array_4_uint32_t {
                     array: [
-                        10 as libc::c_int as uint32_t,
+                        10,
                         6 as libc::c_int as uint32_t,
                         7 as libc::c_int as uint32_t,
                         7 as libc::c_int as uint32_t,
@@ -1510,7 +1510,7 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits:
             {
                 let mut init = l_array_4_uint32_t {
                     array: [
-                        10 as libc::c_int as uint32_t,
+                        10,
                         7 as libc::c_int as uint32_t,
                         7 as libc::c_int as uint32_t,
                         6 as libc::c_int as uint32_t,
@@ -1696,7 +1696,7 @@ static mut _ZZL18quantize_hdr_alphaffPh12quant_methodE8testbits: l_array_3_uint3
     let mut init = l_array_3_uint32_t {
         array: [
             224 as libc::c_int as uint32_t,
-            240 as libc::c_int as uint32_t,
+            240,
             248 as libc::c_int as uint32_t,
         ],
     };
@@ -7478,7 +7478,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(_1614 as *mut uint32_t) = llvm_select_u32(
         ((_1615 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1617 = _1059;
@@ -7489,7 +7489,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1617 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1619 = _1060;
@@ -7500,7 +7500,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1619 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1621 = _1061;
@@ -7511,7 +7511,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1621 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1623 = *(&mut _1335 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -7580,7 +7580,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(_1640 as *mut uint32_t) = llvm_select_u32(
         ((_1641 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1643 = _1069;
@@ -7591,7 +7591,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1643 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1645 = _1070;
@@ -7602,7 +7602,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1645 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1647 = _1071;
@@ -7613,7 +7613,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1647 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1649 = *(&mut _1329 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -7660,7 +7660,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(_1660 as *mut uint32_t) = llvm_select_u32(
         ((_1661 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1663 = _1049;
@@ -7671,7 +7671,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1663 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1665 = _1050;
@@ -7682,7 +7682,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1665 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1667 = _1051;
@@ -7693,7 +7693,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1667 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1669 = *(&mut _1341 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -7762,7 +7762,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(_1686 as *mut uint32_t) = llvm_select_u32(
         ((_1687 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1689 = _1054;
@@ -7773,7 +7773,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1689 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1691 = _1055;
@@ -7784,7 +7784,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1691 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1693 = _1056;
@@ -7795,7 +7795,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1693 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1695 = *(&mut _1338 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -7864,7 +7864,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(_1712 as *mut uint32_t) = llvm_select_u32(
         ((_1713 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1715 = _1064;
@@ -7875,7 +7875,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1715 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1717 = _1065;
@@ -7886,7 +7886,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1717 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1719 = _1066;
@@ -7897,7 +7897,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1719 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1721 = *(&mut _1332 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -7944,7 +7944,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(_1732 as *mut uint32_t) = llvm_select_u32(
         ((_1733 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1735 = _1044;
@@ -7955,7 +7955,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1735 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1737 = _1045;
@@ -7966,7 +7966,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1737 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1739 = _1046;
@@ -7977,7 +7977,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1739 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1741 = *(&mut _1344 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8034,7 +8034,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(_1754 as *mut uint32_t) = llvm_select_u32(
         ((_1755 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1757 = _1039;
@@ -8045,7 +8045,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1757 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1759 = _1040;
@@ -8056,7 +8056,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1759 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1761 = _1041;
@@ -8067,7 +8067,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1761 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1763 = *(&mut _1347 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8788,7 +8788,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             16 as libc::c_int as uint64_t,
         );
         _1255 = &mut _1445 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-        _1256 = 0 as libc::c_int as uint32_t;
+        _1256 = 0;
         _1970 = _1255;
         _1971 = _1256;
         *(&mut *((*(_1970 as *mut l_array_4_uint32_t)).array)
@@ -8864,7 +8864,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(_1988 as *mut uint32_t) = llvm_select_u32(
             ((_1989 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1991 = _1079;
@@ -8875,7 +8875,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1991 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1993 = _1080;
@@ -8886,7 +8886,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1993 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1995 = _1081;
@@ -8897,7 +8897,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1995 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1997 = *(&mut _1249 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8972,7 +8972,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(_2014 as *mut uint32_t) = llvm_select_u32(
             ((_2015 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2017 = _1089;
@@ -8983,7 +8983,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2017 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2019 = _1090;
@@ -8994,7 +8994,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2019 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2021 = _1091;
@@ -9005,7 +9005,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2021 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2023 = *(&mut _1225 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -9058,7 +9058,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(_2034 as *mut uint32_t) = llvm_select_u32(
             ((_2035 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2037 = _1034;
@@ -9069,7 +9069,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2037 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2039 = _1035;
@@ -9080,7 +9080,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2039 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2041 = _1036;
@@ -9091,7 +9091,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2041 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _2043 = *(&mut _1350 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -9645,7 +9645,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             (*(&mut _1468.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_155)).data =
                 _2183;
             _1257 = &mut _1468 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _1258 = 0 as libc::c_int as uint32_t;
+            _1258 = 0;
             _2184 = _1257;
             _2185 = _1258;
             *(&mut *((*(_2184 as *mut l_array_4_uint32_t)).array)
@@ -9657,7 +9657,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 16 as libc::c_int as uint64_t,
             );
             _1210 = &mut _1212 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _1211 = 0 as libc::c_int as uint32_t;
+            _1211 = 0;
             _2187 = _1210;
             _2188 = _1211;
             *(_2187 as *mut uint32_t) = _2188;
@@ -9732,7 +9732,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             *(_2203 as *mut uint32_t) = llvm_select_u32(
                 ((_2204 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2206 = _1094;
@@ -9743,7 +9743,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2206 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2208 = _1095;
@@ -9754,7 +9754,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2208 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2210 = _1096;
@@ -9765,7 +9765,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2210 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2212 = *(&mut _1213 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -10326,7 +10326,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2354 = *(&mut _1186 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                 *(&mut _1202 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _2354;
                 _1149 = &mut _1151 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _1150 = 0 as libc::c_int as uint32_t;
+                _1150 = 0;
                 _2355 = _1149;
                 _2356 = _1150;
                 *(_2355 as *mut uint32_t) = _2356;
@@ -10402,7 +10402,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 *(_2371 as *mut uint32_t) = llvm_select_u32(
                     ((_2372 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2374 = _1099;
@@ -10415,7 +10415,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2374 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2376 = _1100;
@@ -10428,7 +10428,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2376 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2378 = _1101;
@@ -10441,7 +10441,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2378 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2380 = *(&mut _1152 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -10803,7 +10803,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         16 as libc::c_int as uint64_t,
                     );
                     _1233 = &mut _1484 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _1234 = 0 as libc::c_int as uint32_t;
+                    _1234 = 0;
                     _2466 = _1233;
                     _2467 = _1234;
                     *(_2466 as *mut uint32_t) = _2467;
@@ -10883,7 +10883,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     *(_2481 as *mut uint32_t) = llvm_select_u32(
                         ((_2482 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2484 = _1084;
@@ -10896,7 +10896,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2484 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2486 = _1085;
@@ -10909,7 +10909,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2486 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2488 = _1086;
@@ -10922,7 +10922,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2488 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2490 =
@@ -11015,7 +11015,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     *(_2507 as *mut uint32_t) = llvm_select_u32(
                         ((_2508 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2510 = _1074;
@@ -11028,7 +11028,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2510 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2512 = _1075;
@@ -11041,7 +11041,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2512 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2514 = _1076;
@@ -11054,7 +11054,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2514 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2516 =
@@ -11122,7 +11122,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     *(_2527 as *mut uint32_t) = llvm_select_u32(
                         ((_2528 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2530 = _1029;
@@ -11135,7 +11135,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2530 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2532 = _1030;
@@ -11148,7 +11148,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2532 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2534 = _1031;
@@ -11161,7 +11161,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2534 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2536 =
@@ -14286,7 +14286,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         16 as libc::c_int as uint64_t,
     );
     _3095 = &mut _3191 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _3096 = 0 as libc::c_int as uint32_t;
+    _3096 = 0;
     _3433 = _3095;
     _3434 = _3096;
     *(&mut *((*(_3433 as *mut l_array_4_uint32_t)).array)
@@ -14356,7 +14356,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(_3451 as *mut uint32_t) = llvm_select_u32(
         ((_3452 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3454 = _2943;
@@ -14367,7 +14367,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3454 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3456 = _2944;
@@ -14378,7 +14378,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3456 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3458 = _2945;
@@ -14389,7 +14389,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3458 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3460 = *(&mut _3089 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -14458,7 +14458,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(_3477 as *mut uint32_t) = llvm_select_u32(
         ((_3478 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3480 = _2953;
@@ -14469,7 +14469,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3480 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3482 = _2954;
@@ -14480,7 +14480,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3482 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3484 = _2955;
@@ -14491,7 +14491,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3484 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3486 = *(&mut _3065 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -14538,7 +14538,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(_3497 as *mut uint32_t) = llvm_select_u32(
         ((_3498 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3500 = _2933;
@@ -14549,7 +14549,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3500 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3502 = _2934;
@@ -14560,7 +14560,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3502 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3504 = _2935;
@@ -14571,7 +14571,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3504 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _3506 = *(&mut _3167 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -15073,7 +15073,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3646 = *(&mut _3128 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
         (*(&mut _3214.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_82)).data = _3646;
         _3097 = &mut _3214 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-        _3098 = 0 as libc::c_int as uint32_t;
+        _3098 = 0;
         _3647 = _3097;
         _3648 = _3098;
         *(&mut *((*(_3647 as *mut l_array_4_uint32_t)).array)
@@ -15085,7 +15085,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             16 as libc::c_int as uint64_t,
         );
         _3050 = &mut _3052 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-        _3051 = 0 as libc::c_int as uint32_t;
+        _3051 = 0;
         _3650 = _3050;
         _3651 = _3051;
         *(_3650 as *mut uint32_t) = _3651;
@@ -15151,7 +15151,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(_3666 as *mut uint32_t) = llvm_select_u32(
             ((_3667 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3669 = _2958;
@@ -15162,7 +15162,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3669 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3671 = _2959;
@@ -15173,7 +15173,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3671 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3673 = _2960;
@@ -15184,7 +15184,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3673 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3675 = *(&mut _3053 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -15713,7 +15713,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3817 = *(&mut _3026 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
             *(&mut _3042 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _3817;
             _2989 = &mut _2991 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _2990 = 0 as libc::c_int as uint32_t;
+            _2990 = 0;
             _3818 = _2989;
             _3819 = _2990;
             *(_3818 as *mut uint32_t) = _3819;
@@ -15785,7 +15785,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             *(_3834 as *mut uint32_t) = llvm_select_u32(
                 ((_3835 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3837 = _2963;
@@ -15796,7 +15796,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3837 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3839 = _2964;
@@ -15807,7 +15807,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3839 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3841 = _2965;
@@ -15818,7 +15818,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_3841 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _3843 = *(&mut _2992 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -16165,7 +16165,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     16 as libc::c_int as uint64_t,
                 );
                 _3073 = &mut _3230 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _3074 = 0 as libc::c_int as uint32_t;
+                _3074 = 0;
                 _3929 = _3073;
                 _3930 = _3074;
                 *(_3929 as *mut uint32_t) = _3930;
@@ -16241,7 +16241,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 *(_3944 as *mut uint32_t) = llvm_select_u32(
                     ((_3945 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3947 = _2948;
@@ -16254,7 +16254,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3947 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3949 = _2949;
@@ -16267,7 +16267,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3949 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3951 = _2950;
@@ -16280,7 +16280,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3951 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3953 = *(&mut _3068 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -16368,7 +16368,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 *(_3970 as *mut uint32_t) = llvm_select_u32(
                     ((_3971 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3973 = _2938;
@@ -16381,7 +16381,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3973 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3975 = _2939;
@@ -16394,7 +16394,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3975 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3977 = _2940;
@@ -16407,7 +16407,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3977 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3979 = *(&mut _3092 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -16470,7 +16470,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 *(_3990 as *mut uint32_t) = llvm_select_u32(
                     ((_3991 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3993 = _2928;
@@ -16483,7 +16483,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3993 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3995 = _2929;
@@ -16496,7 +16496,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3995 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3997 = _2930;
@@ -16509,7 +16509,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t) = llvm_select_u32(
                     ((_3997 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _3999 = *(&mut _3170 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -17809,7 +17809,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(_4382 as *mut uint32_t) = llvm_select_u32(
         ((_4383 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4385 = _4071;
@@ -17820,7 +17820,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4385 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4387 = _4072;
@@ -17831,7 +17831,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4387 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4389 = _4073;
@@ -17842,7 +17842,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4389 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4391 = *(&mut _4154 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -17911,7 +17911,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(_4408 as *mut uint32_t) = llvm_select_u32(
         ((_4409 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4411 = _4081;
@@ -17922,7 +17922,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4411 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4413 = _4082;
@@ -17933,7 +17933,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4413 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4415 = _4083;
@@ -17944,7 +17944,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4415 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4417 = *(&mut _4148 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -17991,7 +17991,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(_4428 as *mut uint32_t) = llvm_select_u32(
         ((_4429 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4431 = _4061;
@@ -18002,7 +18002,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4431 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4433 = _4062;
@@ -18013,7 +18013,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4433 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4435 = _4063;
@@ -18024,7 +18024,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4435 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4437 = *(&mut _4160 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -18093,7 +18093,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(_4454 as *mut uint32_t) = llvm_select_u32(
         ((_4455 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4457 = _4066;
@@ -18104,7 +18104,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4457 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4459 = _4067;
@@ -18115,7 +18115,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4459 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4461 = _4068;
@@ -18126,7 +18126,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4461 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4463 = *(&mut _4157 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -18195,7 +18195,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(_4480 as *mut uint32_t) = llvm_select_u32(
         ((_4481 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4483 = _4076;
@@ -18206,7 +18206,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4483 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4485 = _4077;
@@ -18217,7 +18217,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4485 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4487 = _4078;
@@ -18228,7 +18228,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4487 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4489 = *(&mut _4151 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -18275,7 +18275,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(_4500 as *mut uint32_t) = llvm_select_u32(
         ((_4501 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4503 = _4056;
@@ -18286,7 +18286,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4503 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4505 = _4057;
@@ -18297,7 +18297,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4505 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4507 = _4058;
@@ -18308,7 +18308,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4507 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4509 = *(&mut _4163 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -18365,7 +18365,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(_4522 as *mut uint32_t) = llvm_select_u32(
         ((_4523 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4525 = _4051;
@@ -18376,7 +18376,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4525 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4527 = _4052;
@@ -18387,7 +18387,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4527 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4529 = _4053;
@@ -18398,7 +18398,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4529 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _4531 = *(&mut _4166 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -19370,7 +19370,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4805 = *(&mut _4714 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
         (*(&mut _4745.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_32)).data = _4805;
         _4710 = &mut _4747 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-        _4711 = 0 as libc::c_int as uint32_t;
+        _4711 = 0;
         _4806 = _4710;
         _4807 = _4711;
         *(_4806 as *mut uint32_t) = _4807;
@@ -20619,11 +20619,7 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5243 = _ZN4astcL11flt2int_rtnEf(llvm_fmul_f32(_5242, 256 as libc::c_int as libc::c_float));
     _5197 = _5243;
     _5244 = _5197;
-    _5245 = _ZN4astc5clampIiEET_S1_S1_S1_(
-        _5244,
-        0 as libc::c_int as uint32_t,
-        255 as libc::c_int as uint32_t,
-    );
+    _5245 = _ZN4astc5clampIiEET_S1_S1_S1_(_5244, 0, 255 as libc::c_int as uint32_t);
     _5197 = _5245;
     _5246 = _5190;
     _5247 = _5184;
@@ -21572,7 +21568,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         if llvm_fcmp_ogt(_5505 as libc::c_double, _5507 as libc::c_double) != 0 {
-            _5356 = 0 as libc::c_int as uint32_t;
+            _5356 = 0;
             current_block = 1492197662100137625;
         } else {
             current_block = 15805987831613874143;
@@ -21744,7 +21740,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     _5362 = _5556;
-    _5363 = 0 as libc::c_int as uint32_t;
+    _5363 = 0;
     loop {
         _5557 = _5363;
         if !((_5557 as int32_t) < 5 as libc::c_uint as int32_t) {
@@ -21914,10 +21910,10 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                             _5377 = _5614 & 31 as libc::c_int as uint32_t;
                             _5615 = _5376;
                             _5378 = _5615 & 31 as libc::c_int as uint32_t;
-                            _5379 = 0 as libc::c_int as uint32_t;
-                            _5380 = 0 as libc::c_int as uint32_t;
-                            _5381 = 0 as libc::c_int as uint32_t;
-                            _5382 = 0 as libc::c_int as uint32_t;
+                            _5379 = 0;
+                            _5380 = 0;
+                            _5381 = 0;
+                            _5382 = 0;
                             _5616 = _5363;
                             match _5616 {
                                 0 | 2 => {
@@ -22134,7 +22130,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5710;
-            _5396 = 0 as libc::c_int as uint32_t;
+            _5396 = 0;
             loop {
                 _5711 = _5396;
                 if !((_5711 as int32_t) < 3 as libc::c_uint as int32_t) {
@@ -23826,7 +23822,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         if llvm_fcmp_ogt(_6213 as libc::c_double, _6215 as libc::c_double) != 0 {
-            _5987 = 0 as libc::c_int as uint32_t;
+            _5987 = 0;
             current_block = 3139441629087481104;
         } else {
             current_block = 18419650866751587828;
@@ -24344,8 +24340,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                         _6020 = _6390 & 63 as libc::c_int as uint32_t;
                                         _6391 = _6019;
                                         _6021 = _6391 & 63 as libc::c_int as uint32_t;
-                                        _6022 = 0 as libc::c_int as uint32_t;
-                                        _6023 = 0 as libc::c_int as uint32_t;
+                                        _6022 = 0;
+                                        _6023 = 0;
                                         _6392 = _5998;
                                         match _6392 {
                                             0 | 1 | 3 | 4 | 6 => {
@@ -24568,7 +24564,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                 .as_mut_ptr()
                 .offset(5 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6502;
-            _6039 = 0 as libc::c_int as uint32_t;
+            _6039 = 0;
             loop {
                 _6503 = _6039;
                 if !((_6503 as int32_t) < 6 as libc::c_uint as int32_t) {
@@ -24592,7 +24588,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                 _6508 = _6039;
                 _6039 = llvm_add_u32(_6508, 1 as libc::c_int as uint32_t);
             }
-            _6040 = 0 as libc::c_int as uint32_t;
+            _6040 = 0;
             loop {
                 _6509 = _6040;
                 if !((_6509 as int32_t) < 4 as libc::c_uint as int32_t) {
@@ -24653,8 +24649,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6030 = _6445 & 31 as libc::c_int as uint32_t;
             _6446 = _6029;
             _6031 = _6446 & 31 as libc::c_int as uint32_t;
-            _6032 = 0 as libc::c_int as uint32_t;
-            _6033 = 0 as libc::c_int as uint32_t;
+            _6032 = 0;
+            _6033 = 0;
             _6447 = _5998;
             match _6447 {
                 0 | 2 => {
@@ -25095,18 +25091,10 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
             5 as libc::c_int,
         );
         _6736 = _6697;
-        _6737 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _6736,
-            0 as libc::c_int as uint32_t,
-            2047 as libc::c_int as uint32_t,
-        );
+        _6737 = _ZN4astc5clampIiEET_S1_S1_S1_(_6736, 0, 2047 as libc::c_int as uint32_t);
         _6697 = _6737;
         _6738 = _6698;
-        _6739 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _6738,
-            0 as libc::c_int as uint32_t,
-            2047 as libc::c_int as uint32_t,
-        );
+        _6739 = _ZN4astc5clampIiEET_S1_S1_S1_(_6738, 0, 2047 as libc::c_int as uint32_t);
         _6698 = _6739;
         _6740 = _6697;
         _6700 = _6740 & 127 as libc::c_int as uint32_t;
@@ -25130,9 +25118,7 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
                 if _6751 as int32_t <= 15 as libc::c_uint as int32_t {
                     _6752 = _6697;
                     _6753 = _6699;
-                    _6701 = llvm_ashr_u32(_6752 as int32_t, 3 as libc::c_int)
-                        & 240 as libc::c_int as uint32_t
-                        | _6753;
+                    _6701 = llvm_ashr_u32(_6752 as int32_t, 3 as libc::c_int) & 240 | _6753;
                     _6754 = _6689;
                     _6755 = _6701;
                     _6756 = _ZL11quant_color12quant_methodi(_6754, _6755);
@@ -25141,9 +25127,7 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
                     _6705 = _6757;
                     _6758 = _6705;
                     _6759 = _6701;
-                    if _6758 & 240 as libc::c_int as uint32_t
-                        == _6759 & 240 as libc::c_int as uint32_t
-                    {
+                    if _6758 & 240 == _6759 & 240 {
                         _6760 = _6702;
                         _6761 = _6688;
                         *(_6761 as *mut uint8_t) = _6760 as uint8_t;
@@ -25179,18 +25163,10 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
                     6 as libc::c_int,
                 );
                 _6766 = _6697;
-                _6767 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                    _6766,
-                    0 as libc::c_int as uint32_t,
-                    1023 as libc::c_int as uint32_t,
-                );
+                _6767 = _ZN4astc5clampIiEET_S1_S1_S1_(_6766, 0, 1023 as libc::c_int as uint32_t);
                 _6697 = _6767;
                 _6768 = _6698;
-                _6769 = _ZN4astc5clampIiEET_S1_S1_S1_(
-                    _6768,
-                    0 as libc::c_int as uint32_t,
-                    1023 as libc::c_int as uint32_t,
-                );
+                _6769 = _ZN4astc5clampIiEET_S1_S1_S1_(_6768, 0, 1023 as libc::c_int as uint32_t);
                 _6698 = _6769;
                 _6770 = _6697;
                 _6700 = _6770 & 127 as libc::c_int as uint32_t | 128 as libc::c_int as uint32_t;
@@ -25469,18 +25445,10 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
         8 as libc::c_int,
     );
     _6881 = _6837;
-    _6882 = _ZN4astc5clampIiEET_S1_S1_S1_(
-        _6881,
-        0 as libc::c_int as uint32_t,
-        255 as libc::c_int as uint32_t,
-    );
+    _6882 = _ZN4astc5clampIiEET_S1_S1_S1_(_6881, 0, 255 as libc::c_int as uint32_t);
     _6837 = _6882;
     _6883 = _6838;
-    _6884 = _ZN4astc5clampIiEET_S1_S1_S1_(
-        _6883,
-        0 as libc::c_int as uint32_t,
-        255 as libc::c_int as uint32_t,
-    );
+    _6884 = _ZN4astc5clampIiEET_S1_S1_S1_(_6883, 0, 255 as libc::c_int as uint32_t);
     _6838 = _6884;
     _6885 = _6835;
     _6839 = llvm_ashr_u32(
@@ -25490,18 +25458,10 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     _6886 = _6836;
     _6840 = llvm_ashr_u32(_6886 as int32_t, 8 as libc::c_int);
     _6887 = _6839;
-    _6888 = _ZN4astc5clampIiEET_S1_S1_S1_(
-        _6887,
-        0 as libc::c_int as uint32_t,
-        255 as libc::c_int as uint32_t,
-    );
+    _6888 = _ZN4astc5clampIiEET_S1_S1_S1_(_6887, 0, 255 as libc::c_int as uint32_t);
     _6839 = _6888;
     _6889 = _6840;
-    _6890 = _ZN4astc5clampIiEET_S1_S1_S1_(
-        _6889,
-        0 as libc::c_int as uint32_t,
-        255 as libc::c_int as uint32_t,
-    );
+    _6890 = _ZN4astc5clampIiEET_S1_S1_S1_(_6889, 0, 255 as libc::c_int as uint32_t);
     _6840 = _6890;
     _6891 = _6837;
     _6841 = _6891 << 8 as libc::c_int;
@@ -26893,7 +26853,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7321 = _7388 as uint32_t;
     _7322 = _7392 as uint32_t;
     _7323 = _7396 as uint32_t;
-    _7324 = 0 as libc::c_int as uint32_t;
+    _7324 = 0;
     _7397 = _7320;
     _7398 = _7321;
     *(_7397 as *mut uint32_t) = _7398;
@@ -27517,7 +27477,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     *(_7570 as *mut uint32_t) = llvm_select_u32(
         ((_7571 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _7573 = _7411;
@@ -27528,7 +27488,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_7573 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _7575 = _7412;
@@ -27539,7 +27499,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_7575 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _7577 = _7413;
@@ -27550,7 +27510,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_7577 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _7579 = *(&mut _7414 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -27805,7 +27765,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7464 = _7637 as uint32_t;
     _7465 = _7641 as uint32_t;
     _7466 = _7645 as uint32_t;
-    _7467 = 0 as libc::c_int as uint32_t;
+    _7467 = 0;
     _7646 = _7463;
     _7647 = _7464;
     *(_7646 as *mut uint32_t) = _7647;
@@ -28331,22 +28291,16 @@ unsafe extern "C" fn _ZL44quantize_and_unquantize_retain_top_four_bits12quant_me
         _7861 = _7864;
         _7865 = _7858;
         _7866 = _7861;
-        _7860 = (_7865 as uint32_t & 240 as libc::c_int as uint32_t
-            != _7866 as uint32_t & 240 as libc::c_int as uint32_t) as libc::c_int
-            as bool_0;
+        _7860 = (_7865 as uint32_t & 240 != _7866 as uint32_t & 240) as libc::c_int as bool_0;
         _7867 = _7861;
         _7868 = _7858;
-        if (_7867 as uint32_t & 240 as libc::c_int as uint32_t) as int32_t
-            > (_7868 as uint32_t & 240 as libc::c_int as uint32_t) as int32_t
-        {
+        if (_7867 as uint32_t & 240) as int32_t > (_7868 as uint32_t & 240) as int32_t {
             _7869 = _7858;
             _7858 = llvm_add_u8(_7869, -(1 as libc::c_int) as uint8_t);
         } else {
             _7870 = _7861;
             _7871 = _7858;
-            if ((_7870 as uint32_t & 240 as libc::c_int as uint32_t) as int32_t)
-                < (_7871 as uint32_t & 240 as libc::c_int as uint32_t) as int32_t
-            {
+            if ((_7870 as uint32_t & 240) as int32_t) < (_7871 as uint32_t & 240) as int32_t {
                 _7872 = _7858;
                 _7858 = llvm_add_u8(_7872, -(1 as libc::c_int) as uint8_t);
             }

@@ -5400,10 +5400,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
         );
         _88 = _41;
         if _88 != 0 as libc::c_uint {
-            _44 = 0 as libc::c_int as uint32_t;
+            _44 = 0;
             _89 = _36;
             _45 = llvm_udiv_u32(_89, 5 as libc::c_int as uint32_t);
-            _46 = 0 as libc::c_int as uint32_t;
+            _46 = 0;
             loop {
                 _90 = _46;
                 _91 = _45;
@@ -5456,8 +5456,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _109 = _44;
                 _110 = *(&mut *(_108 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    _109,
-                    0 as libc::c_int as uint32_t,
+                    _109, 0
                 ) as uint64_t
                     as int64_t
                     as isize) as *mut uint8_t);
@@ -5621,11 +5620,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
             _179 = _44;
             _180 = _36;
             if _179 != _180 {
-                _54 = 0 as libc::c_int as uint32_t;
+                _54 = 0;
                 _181 = _44;
                 _182 = _36;
                 if llvm_add_u32(_181, 3 as libc::c_int as uint32_t) >= _182 {
-                    _188__PHI_TEMPORARY = 0 as libc::c_int as uint32_t;
+                    _188__PHI_TEMPORARY = 0;
                 } else {
                     _183 = _37;
                     _184 = _44;
@@ -5645,7 +5644,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _189 = _44;
                 _190 = _36;
                 if llvm_add_u32(_189, 2 as libc::c_int as uint32_t) >= _190 {
-                    _196__PHI_TEMPORARY = 0 as libc::c_int as uint32_t;
+                    _196__PHI_TEMPORARY = 0;
                 } else {
                     _191 = _37;
                     _192 = _44;
@@ -5665,7 +5664,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _197 = _44;
                 _198 = _36;
                 if llvm_add_u32(_197, 1 as libc::c_int as uint32_t) >= _198 {
-                    _204__PHI_TEMPORARY = 0 as libc::c_int as uint32_t;
+                    _204__PHI_TEMPORARY = 0;
                 } else {
                     _199 = _37;
                     _200 = _44;
@@ -5686,8 +5685,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _206 = _44;
                 _207 = *(&mut *(_205 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                    _206,
-                    0 as libc::c_int as uint32_t,
+                    _206, 0
                 ) as uint64_t
                     as int64_t
                     as isize) as *mut uint8_t);
@@ -5720,7 +5718,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     .as_mut_ptr()
                     .offset(_213 as uint64_t as int64_t as isize) as *mut uint8_t);
                 _59 = _214;
-                _60 = 0 as libc::c_int as uint32_t;
+                _60 = 0;
                 loop {
                     _215 = _44;
                     _216 = _36;
@@ -5784,10 +5782,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
         } else {
             _239 = _42;
             if _239 != 0 as libc::c_uint {
-                _62 = 0 as libc::c_int as uint32_t;
+                _62 = 0;
                 _240 = _36;
                 _63 = llvm_udiv_u32(_240, 3 as libc::c_int as uint32_t);
-                _64 = 0 as libc::c_int as uint32_t;
+                _64 = 0;
                 loop {
                     _241 = _64;
                     _242 = _63;
@@ -5820,8 +5818,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _252 = _62;
                     _253 = *(&mut *(_251 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        _252,
-                        0 as libc::c_int as uint32_t,
+                        _252, 0
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -5928,11 +5925,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _296 = _62;
                 _297 = _36;
                 if _296 != _297 {
-                    _70 = 0 as libc::c_int as uint32_t;
+                    _70 = 0;
                     _298 = _62;
                     _299 = _36;
                     if llvm_add_u32(_298, 1 as libc::c_int as uint32_t) >= _299 {
-                        _305__PHI_TEMPORARY = 0 as libc::c_int as uint32_t;
+                        _305__PHI_TEMPORARY = 0;
                     } else {
                         _300 = _37;
                         _301 = _62;
@@ -5954,8 +5951,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _307 = _62;
                     _308 = *(&mut *(_306 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        _307,
-                        0 as libc::c_int as uint32_t,
+                        _307, 0
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -5978,7 +5974,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                         .offset(_312 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _73 = _313;
-                    _74 = 0 as libc::c_int as uint32_t;
+                    _74 = 0;
                     loop {
                         _314 = _62;
                         _315 = _36;
@@ -6041,7 +6037,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     }
                 }
             } else {
-                _76 = 0 as libc::c_int as uint32_t;
+                _76 = 0;
                 loop {
                     _338 = _76;
                     _339 = _36;
@@ -6070,7 +6066,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
         __assert_fail(
             &_OC_str as *const l_array_20_uint8_t as *mut libc::c_void,
             &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut libc::c_void,
-            500 as libc::c_int as uint32_t,
+            500,
             &__PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj as *const l_array_86_uint8_t
                 as *mut libc::c_void,
         );
@@ -6361,7 +6357,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     if _463 > 0 as libc::c_uint {
         _464 = memset(
             &mut _447 as *mut l_array_22_uint8_t as *mut libc::c_void,
-            0 as libc::c_int as uint32_t,
+            0,
             22 as libc::c_int as uint64_t,
         );
         _465 = _441;
@@ -6391,9 +6387,9 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
         );
         _473 = *(_472 as *mut uint8_t);
         _450 = llvm_lshr_u8(_473, 7 as libc::c_int as uint8_t) as uint32_t;
-        _451 = 0 as libc::c_int as uint32_t;
-        _452 = 0 as libc::c_int as uint32_t;
-        _453 = 0 as libc::c_int as uint32_t;
+        _451 = 0;
+        _452 = 0;
+        _453 = 0;
         loop {
             _474 = _453;
             _475 = _442;
@@ -6513,7 +6509,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             );
             _526 = _456;
             if _526 > 0 as libc::c_uint {
-                _457 = 0 as libc::c_int as uint32_t;
+                _457 = 0;
                 loop {
                     _527 = _457;
                     _528 = _456;
@@ -6631,7 +6627,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 __assert_fail(
                     &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut libc::c_void,
                     &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut libc::c_void,
-                    710 as libc::c_int as uint32_t,
+                    710,
                     &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
                         as *const l_array_86_uint8_t as *mut libc::c_void,
                 );
@@ -6646,7 +6642,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             );
             _564 = _459;
             if _564 > 0 as libc::c_uint {
-                _460 = 0 as libc::c_int as uint32_t;
+                _460 = 0;
                 loop {
                     _565 = _460;
                     _566 = _459;
@@ -6732,7 +6728,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 );
             }
         }
-        _462 = 0 as libc::c_int as uint32_t;
+        _462 = 0;
         loop {
             _588 = _462;
             _589 = _442;

@@ -2091,7 +2091,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
     _443 = *(&mut _152 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
     *(&mut _286 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _443;
     _125 = &mut _127 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _126 = 0 as libc::c_int as uint32_t;
+    _126 = 0;
     _444 = _125;
     _445 = _126;
     *(_444 as *mut uint32_t) = _445;
@@ -2151,7 +2151,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
     *(_460 as *mut uint32_t) = llvm_select_u32(
         ((_461 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _463 = _130;
@@ -2162,7 +2162,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_463 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _465 = _131;
@@ -2173,7 +2173,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_465 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _467 = _132;
@@ -2184,7 +2184,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_467 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _469 = *(&mut _133 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2486,7 +2486,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
         *(_557 as *mut uint32_t) = llvm_select_u32(
             ((_558 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _560 = _213;
@@ -2497,7 +2497,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_560 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _562 = _214;
@@ -2508,7 +2508,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_562 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _564 = _215;
@@ -2519,7 +2519,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_564 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _566 = memcpy(
@@ -2793,7 +2793,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
         *(_637 as *mut uint32_t) = llvm_select_u32(
             ((_638 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _640 = _208;
@@ -2804,7 +2804,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_640 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _642 = _209;
@@ -2815,7 +2815,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_642 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _644 = _210;
@@ -2826,7 +2826,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_644 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _646 = memcpy(
@@ -3093,7 +3093,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
     );
     _716 = (*(&mut _308.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_2)).data;
     *(&mut _238 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _716;
-    _239 = 0 as libc::c_int as uint32_t;
+    _239 = 0;
     _240 = 255 as libc::c_int as uint32_t;
     _717 = memcpy(
         &mut _242 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
@@ -3343,7 +3343,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
     );
     _790 = (*(&mut _310.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_0)).data;
     *(&mut _246 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _790;
-    _247 = 0 as libc::c_int as uint32_t;
+    _247 = 0;
     _248 = 255 as libc::c_int as uint32_t;
     _791 = memcpy(
         &mut _250 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
@@ -4107,7 +4107,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
         *(_1096 as *mut uint32_t) = llvm_select_u32(
             ((_1097 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1099 = _1045;
@@ -4118,7 +4118,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1099 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1101 = _1046;
@@ -4129,7 +4129,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1101 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1103 = _1047;
@@ -4140,7 +4140,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1103 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1105 = memcpy(
@@ -4420,7 +4420,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
         *(_1176 as *mut uint32_t) = llvm_select_u32(
             ((_1177 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1179 = _1040;
@@ -4431,7 +4431,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1179 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1181 = _1041;
@@ -4442,7 +4442,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1181 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1183 = _1042;
@@ -4453,7 +4453,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1183 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _1185 = memcpy(
@@ -5713,7 +5713,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
             _1471 = _1557 as uint32_t;
             _1472 = _1559 as uint32_t;
             _1473 = _1561 as uint32_t;
-            _1474 = 0 as libc::c_int as uint32_t;
+            _1474 = 0;
             _1562 = _1470;
             _1563 = _1471;
             *(_1562 as *mut uint32_t) = _1563;
@@ -5818,7 +5818,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
             _1461 = _1602 as uint32_t;
             _1462 = _1604 as uint32_t;
             _1463 = _1606 as uint32_t;
-            _1464 = 0 as libc::c_int as uint32_t;
+            _1464 = 0;
             _1607 = _1460;
             _1608 = _1461;
             *(_1607 as *mut uint32_t) = _1608;
@@ -5847,7 +5847,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
             _1456 = _1613 as uint32_t;
             _1457 = _1615 as uint32_t;
             _1458 = _1617 as uint32_t;
-            _1459 = 0 as libc::c_int as uint32_t;
+            _1459 = 0;
             _1618 = _1455;
             _1619 = _1456;
             *(_1618 as *mut uint32_t) = _1619;
@@ -5892,7 +5892,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
             _1451 = _1630 as uint32_t;
             _1452 = _1632 as uint32_t;
             _1453 = _1634 as uint32_t;
-            _1454 = 0 as libc::c_int as uint32_t;
+            _1454 = 0;
             _1635 = _1450;
             _1636 = _1451;
             *(_1635 as *mut uint32_t) = _1636;
@@ -5921,7 +5921,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
             _1446 = _1641 as uint32_t;
             _1447 = _1643 as uint32_t;
             _1448 = _1645 as uint32_t;
-            _1449 = 0 as libc::c_int as uint32_t;
+            _1449 = 0;
             _1646 = _1445;
             _1647 = _1446;
             *(_1646 as *mut uint32_t) = _1647;
@@ -6148,7 +6148,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
         if _1735 == 3 as libc::c_uint {
             _1736 = _1480;
             _1397 = _1736;
-            _1398 = 30720 as libc::c_int as uint32_t;
+            _1398 = 30720;
             _1737 = _1397;
             _1738 = _1398;
             *(&mut *((*(_1737 as *mut l_array_4_uint32_t)).array)
@@ -6156,7 +6156,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _1738;
             _1739 = _1481;
             _1399 = _1739;
-            _1400 = 30720 as libc::c_int as uint32_t;
+            _1400 = 30720;
             _1740 = _1399;
             _1741 = _1400;
             *(&mut *((*(_1740 as *mut l_array_4_uint32_t)).array)
@@ -6204,7 +6204,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
             6805117265089715327 => {
                 _1420 = &mut _1506 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
                 _1421 = 255 as libc::c_int as uint32_t;
-                _1422 = 0 as libc::c_int as uint32_t;
+                _1422 = 0;
                 _1423 = 255 as libc::c_int as uint32_t;
                 _1424 = 255 as libc::c_int as uint32_t;
                 _1755 = _1420;
@@ -6233,7 +6233,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
                 );
                 _1415 = &mut _1507 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
                 _1416 = 255 as libc::c_int as uint32_t;
-                _1417 = 0 as libc::c_int as uint32_t;
+                _1417 = 0;
                 _1418 = 255 as libc::c_int as uint32_t;
                 _1419 = 255 as libc::c_int as uint32_t;
                 _1762 = _1415;
@@ -6483,7 +6483,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
                 1267687517309343414 => {
                     _1410 = &mut _1512 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
                     _1411 = 255 as libc::c_int as uint32_t;
-                    _1412 = 0 as libc::c_int as uint32_t;
+                    _1412 = 0;
                     _1413 = 255 as libc::c_int as uint32_t;
                     _1414 = 255 as libc::c_int as uint32_t;
                     _1834 = _1410;
@@ -6512,7 +6512,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
                     );
                     _1405 = &mut _1513 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
                     _1406 = 255 as libc::c_int as uint32_t;
-                    _1407 = 0 as libc::c_int as uint32_t;
+                    _1407 = 0;
                     _1408 = 255 as libc::c_int as uint32_t;
                     _1409 = 255 as libc::c_int as uint32_t;
                     _1841 = _1405;
@@ -6855,7 +6855,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
             *(_1938 as *mut uint32_t) = llvm_select_u32(
                 ((_1939 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1941 = _1334;
@@ -6866,7 +6866,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1941 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1943 = _1335;
@@ -6877,7 +6877,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1943 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1945 = _1336;
@@ -6888,7 +6888,7 @@ pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5v
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1945 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1339 = &mut _1524 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
@@ -7546,7 +7546,7 @@ unsafe extern "C" fn _ZL32hdr_luminance_small_range_unpackPKhR5vint4S2_(
     } else {
         _2197 = _2184;
         _2198 = _2183;
-        _2185 = (_2197 & 240 as libc::c_int as uint32_t) << 4 as libc::c_int
+        _2185 = (_2197 & 240) << 4 as libc::c_int
             | (_2198 & 127 as libc::c_int as uint32_t) << 1 as libc::c_int;
         _2199 = _2184;
         _2186 = (_2199 & 15 as libc::c_int as uint32_t) << 1 as libc::c_int;
@@ -7565,7 +7565,7 @@ unsafe extern "C" fn _ZL32hdr_luminance_small_range_unpackPKhR5vint4S2_(
     _2176 = _2203 << 4 as libc::c_int;
     _2177 = _2204 << 4 as libc::c_int;
     _2178 = _2205 << 4 as libc::c_int;
-    _2179 = 30720 as libc::c_int as uint32_t;
+    _2179 = 30720;
     _2206 = _2175;
     _2207 = _2176;
     *(_2206 as *mut uint32_t) = _2207;
@@ -7594,7 +7594,7 @@ unsafe extern "C" fn _ZL32hdr_luminance_small_range_unpackPKhR5vint4S2_(
     _2171 = _2213 << 4 as libc::c_int;
     _2172 = _2214 << 4 as libc::c_int;
     _2173 = _2215 << 4 as libc::c_int;
-    _2174 = 30720 as libc::c_int as uint32_t;
+    _2174 = 30720;
     _2216 = _2170;
     _2217 = _2171;
     *(_2216 as *mut uint32_t) = _2217;
@@ -7706,7 +7706,7 @@ unsafe extern "C" fn _ZL32hdr_luminance_large_range_unpackPKhR5vint4S2_(
     _2237 = _2260 << 4 as libc::c_int;
     _2238 = _2261 << 4 as libc::c_int;
     _2239 = _2262 << 4 as libc::c_int;
-    _2240 = 30720 as libc::c_int as uint32_t;
+    _2240 = 30720;
     _2263 = _2236;
     _2264 = _2237;
     *(_2263 as *mut uint32_t) = _2264;
@@ -7735,7 +7735,7 @@ unsafe extern "C" fn _ZL32hdr_luminance_large_range_unpackPKhR5vint4S2_(
     _2232 = _2270 << 4 as libc::c_int;
     _2233 = _2271 << 4 as libc::c_int;
     _2234 = _2272 << 4 as libc::c_int;
-    _2235 = 30720 as libc::c_int as uint32_t;
+    _2235 = 30720;
     _2273 = _2231;
     _2274 = _2232;
     *(_2273 as *mut uint32_t) = _2274;
@@ -8030,18 +8030,10 @@ unsafe extern "C" fn _ZL28luminance_alpha_delta_unpackPKhR5vint4S2_(
     _2382 = _2354;
     _2354 = llvm_add_u32(_2382, _2381);
     _2383 = _2352;
-    _2384 = _ZN4astc5clampIiEET_S1_S1_S1_(
-        _2383,
-        0 as libc::c_int as uint32_t,
-        255 as libc::c_int as uint32_t,
-    );
+    _2384 = _ZN4astc5clampIiEET_S1_S1_S1_(_2383, 0, 255 as libc::c_int as uint32_t);
     _2352 = _2384;
     _2385 = _2354;
-    _2386 = _ZN4astc5clampIiEET_S1_S1_S1_(
-        _2385,
-        0 as libc::c_int as uint32_t,
-        255 as libc::c_int as uint32_t,
-    );
+    _2386 = _ZN4astc5clampIiEET_S1_S1_S1_(_2385, 0, 255 as libc::c_int as uint32_t);
     _2354 = _2386;
     _2387 = _2351;
     _2388 = _2351;
@@ -8884,7 +8876,7 @@ unsafe extern "C" fn _ZL15hdr_rgbo_unpackPKhR5vint4S2_(
             _2610 = _2646 & 3 as libc::c_int as uint32_t;
             _2611 = 4 as libc::c_int as uint32_t;
         } else {
-            _2610 = 0 as libc::c_int as uint32_t;
+            _2610 = 0;
             _2611 = 5 as libc::c_int as uint32_t;
         }
     }
@@ -8985,7 +8977,7 @@ unsafe extern "C" fn _ZL15hdr_rgbo_unpackPKhR5vint4S2_(
         _2612 = _2694 | _2693 << 8 as libc::c_int;
     }
     _2695 = _2623;
-    if _2695 & 10 as libc::c_int as uint32_t != 0 as libc::c_uint {
+    if _2695 & 10 != 0 as libc::c_uint {
         _2696 = _2616;
         _2697 = _2612;
         _2612 = _2697 | _2696 << 8 as libc::c_int;
@@ -9072,27 +9064,27 @@ unsafe extern "C" fn _ZL15hdr_rgbo_unpackPKhR5vint4S2_(
     _2628 = llvm_sub_u32(_2736, _2737);
     _2738 = _2612;
     if (_2738 as int32_t) < 0 as libc::c_uint as int32_t {
-        _2612 = 0 as libc::c_int as uint32_t;
+        _2612 = 0;
     }
     _2739 = _2613;
     if (_2739 as int32_t) < 0 as libc::c_uint as int32_t {
-        _2613 = 0 as libc::c_int as uint32_t;
+        _2613 = 0;
     }
     _2740 = _2614;
     if (_2740 as int32_t) < 0 as libc::c_uint as int32_t {
-        _2614 = 0 as libc::c_int as uint32_t;
+        _2614 = 0;
     }
     _2741 = _2626;
     if (_2741 as int32_t) < 0 as libc::c_uint as int32_t {
-        _2626 = 0 as libc::c_int as uint32_t;
+        _2626 = 0;
     }
     _2742 = _2627;
     if (_2742 as int32_t) < 0 as libc::c_uint as int32_t {
-        _2627 = 0 as libc::c_int as uint32_t;
+        _2627 = 0;
     }
     _2743 = _2628;
     if (_2743 as int32_t) < 0 as libc::c_uint as int32_t {
-        _2628 = 0 as libc::c_int as uint32_t;
+        _2628 = 0;
     }
     _2744 = _2626;
     _2745 = _2627;
@@ -9101,7 +9093,7 @@ unsafe extern "C" fn _ZL15hdr_rgbo_unpackPKhR5vint4S2_(
     _2598 = _2744 << 4 as libc::c_int;
     _2599 = _2745 << 4 as libc::c_int;
     _2600 = _2746 << 4 as libc::c_int;
-    _2601 = 30720 as libc::c_int as uint32_t;
+    _2601 = 30720;
     _2747 = _2597;
     _2748 = _2598;
     *(_2747 as *mut uint32_t) = _2748;
@@ -9130,7 +9122,7 @@ unsafe extern "C" fn _ZL15hdr_rgbo_unpackPKhR5vint4S2_(
     _2593 = _2754 << 4 as libc::c_int;
     _2594 = _2755 << 4 as libc::c_int;
     _2595 = _2756 << 4 as libc::c_int;
-    _2596 = 30720 as libc::c_int as uint32_t;
+    _2596 = 30720;
     _2757 = _2592;
     _2758 = _2593;
     *(_2757 as *mut uint32_t) = _2758;
@@ -9619,7 +9611,7 @@ unsafe extern "C" fn _ZL14hdr_rgb_unpackPKhR5vint4S2_(
         _2893 = _2956 << 8 as libc::c_int;
         _2894 = _2957 << 8 as libc::c_int;
         _2895 = (_2958 & 127 as libc::c_int as uint32_t) << 9 as libc::c_int;
-        _2896 = 30720 as libc::c_int as uint32_t;
+        _2896 = 30720;
         _2959 = _2892;
         _2960 = _2893;
         *(_2959 as *mut uint32_t) = _2960;
@@ -9648,7 +9640,7 @@ unsafe extern "C" fn _ZL14hdr_rgb_unpackPKhR5vint4S2_(
         _2888 = _2966 << 8 as libc::c_int;
         _2889 = _2967 << 8 as libc::c_int;
         _2890 = (_2968 & 127 as libc::c_int as uint32_t) << 9 as libc::c_int;
-        _2891 = 30720 as libc::c_int as uint32_t;
+        _2891 = 30720;
         _2969 = _2887;
         _2970 = _2888;
         *(_2969 as *mut uint32_t) = _2970;
@@ -9717,19 +9709,19 @@ unsafe extern "C" fn _ZL14hdr_rgb_unpackPKhR5vint4S2_(
             _2910 = _2997 | _2996 << 9 as libc::c_int;
         }
         _2998 = _2923;
-        if _2998 & 80 as libc::c_int as uint32_t != 0 as libc::c_uint {
+        if _2998 & 80 != 0 as libc::c_uint {
             _2999 = _2921;
             _3000 = _2910;
             _2910 = _3000 | _2999 << 9 as libc::c_int;
         }
         _3001 = _2923;
-        if _3001 & 80 as libc::c_int as uint32_t != 0 as libc::c_uint {
+        if _3001 & 80 != 0 as libc::c_uint {
             _3002 = _2922;
             _3003 = _2910;
             _2910 = _3003 | _3002 << 10 as libc::c_int;
         }
         _3004 = _2923;
-        if _3004 & 160 as libc::c_int as uint32_t != 0 as libc::c_uint {
+        if _3004 & 160 != 0 as libc::c_uint {
             _3005 = _2918;
             _3006 = _2910;
             _2910 = _3006 | _3005 << 10 as libc::c_int;
@@ -9858,46 +9850,22 @@ unsafe extern "C" fn _ZL14hdr_rgb_unpackPKhR5vint4S2_(
         _3079 = _2915;
         _2933 = llvm_sub_u32(llvm_sub_u32(llvm_sub_u32(_3076, _3077), _3078), _3079);
         _3080 = _2931;
-        _3081 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _3080,
-            0 as libc::c_int as uint32_t,
-            4095 as libc::c_int as uint32_t,
-        );
+        _3081 = _ZN4astc5clampIiEET_S1_S1_S1_(_3080, 0, 4095 as libc::c_int as uint32_t);
         _2931 = _3081;
         _3082 = _2932;
-        _3083 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _3082,
-            0 as libc::c_int as uint32_t,
-            4095 as libc::c_int as uint32_t,
-        );
+        _3083 = _ZN4astc5clampIiEET_S1_S1_S1_(_3082, 0, 4095 as libc::c_int as uint32_t);
         _2932 = _3083;
         _3084 = _2933;
-        _3085 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _3084,
-            0 as libc::c_int as uint32_t,
-            4095 as libc::c_int as uint32_t,
-        );
+        _3085 = _ZN4astc5clampIiEET_S1_S1_S1_(_3084, 0, 4095 as libc::c_int as uint32_t);
         _2933 = _3085;
         _3086 = _2928;
-        _3087 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _3086,
-            0 as libc::c_int as uint32_t,
-            4095 as libc::c_int as uint32_t,
-        );
+        _3087 = _ZN4astc5clampIiEET_S1_S1_S1_(_3086, 0, 4095 as libc::c_int as uint32_t);
         _2928 = _3087;
         _3088 = _2929;
-        _3089 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _3088,
-            0 as libc::c_int as uint32_t,
-            4095 as libc::c_int as uint32_t,
-        );
+        _3089 = _ZN4astc5clampIiEET_S1_S1_S1_(_3088, 0, 4095 as libc::c_int as uint32_t);
         _2929 = _3089;
         _3090 = _2930;
-        _3091 = _ZN4astc5clampIiEET_S1_S1_S1_(
-            _3090,
-            0 as libc::c_int as uint32_t,
-            4095 as libc::c_int as uint32_t,
-        );
+        _3091 = _ZN4astc5clampIiEET_S1_S1_S1_(_3090, 0, 4095 as libc::c_int as uint32_t);
         _2930 = _3091;
         _3092 = _2907;
         match _3092 {
@@ -9938,7 +9906,7 @@ unsafe extern "C" fn _ZL14hdr_rgb_unpackPKhR5vint4S2_(
         _2883 = _3105 << 4 as libc::c_int;
         _2884 = _3106 << 4 as libc::c_int;
         _2885 = _3107 << 4 as libc::c_int;
-        _2886 = 30720 as libc::c_int as uint32_t;
+        _2886 = 30720;
         _3108 = _2882;
         _3109 = _2883;
         *(_3108 as *mut uint32_t) = _3109;
@@ -9967,7 +9935,7 @@ unsafe extern "C" fn _ZL14hdr_rgb_unpackPKhR5vint4S2_(
         _2878 = _3115 << 4 as libc::c_int;
         _2879 = _3116 << 4 as libc::c_int;
         _2880 = _3117 << 4 as libc::c_int;
-        _2881 = 30720 as libc::c_int as uint32_t;
+        _2881 = 30720;
         _3118 = _2877;
         _3119 = _2878;
         *(_3118 as *mut uint32_t) = _3119;
@@ -10263,9 +10231,7 @@ unsafe extern "C" fn _ZL16hdr_alpha_unpackPKhRiS1_(
         _3263 = _3248;
         _3264 = _3249;
         _3265 = _3247;
-        _3247 = _3265
-            | _3263 << llvm_add_u32(_3264, 1 as libc::c_int as uint32_t)
-                & 1920 as libc::c_int as uint32_t;
+        _3247 = _3265 | _3263 << llvm_add_u32(_3264, 1 as libc::c_int as uint32_t) & 1920;
         _3266 = _3249;
         _3267 = _3248;
         _3248 = _3267 & llvm_ashr_u32(63 as libc::c_int, _3266 as int32_t);
@@ -10286,7 +10252,7 @@ unsafe extern "C" fn _ZL16hdr_alpha_unpackPKhRiS1_(
         _3248 = llvm_add_u32(_3277, _3276);
         _3278 = _3248;
         if (_3278 as int32_t) < 0 as libc::c_uint as int32_t {
-            _3248 = 0 as libc::c_int as uint32_t;
+            _3248 = 0;
         } else {
             _3279 = _3248;
             if _3279 as int32_t > 4095 as libc::c_uint as int32_t {

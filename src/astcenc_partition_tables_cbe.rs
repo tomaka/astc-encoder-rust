@@ -320,8 +320,8 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
     _18 = _ZL33generate_one_partition_info_entryR21block_size_descriptorjjjR14partition_info(
         _16,
         1 as libc::c_int as uint32_t,
-        0 as libc::c_int as uint32_t,
-        0 as libc::c_int as uint32_t,
+        0,
+        0,
         _17,
     );
     _19 = _4;
@@ -539,13 +539,13 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         .as_mut_ptr()
         .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t
         as *mut libc::c_void;
-    _55 = 0 as libc::c_int as uint32_t;
+    _55 = 0;
     _76 = memset(
         &mut _56 as *mut l_array_4_uint32_t as *mut libc::c_void,
-        0 as libc::c_int as uint32_t,
+        0,
         16 as libc::c_int as uint64_t,
     );
-    _57 = 0 as libc::c_int as uint32_t;
+    _57 = 0;
     loop {
         _77 = _57;
         _78 = _47;
@@ -554,7 +554,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         if !(_77 < _79 as uint32_t) {
             break;
         }
-        _58 = 0 as libc::c_int as uint32_t;
+        _58 = 0;
         loop {
             _80 = _58;
             _81 = _47;
@@ -563,7 +563,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             if !(_80 < _82 as uint32_t) {
                 break;
             }
-            _59 = 0 as libc::c_int as uint32_t;
+            _59 = 0;
             loop {
                 _83 = _59;
                 _84 = _47;
@@ -623,7 +623,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         _103 = _57;
         _57 = llvm_add_u32(_103, 1 as libc::c_int as uint32_t);
     }
-    _61 = 0 as libc::c_int as uint32_t;
+    _61 = 0;
     loop {
         _104 = _61;
         _105 = _48;
@@ -789,7 +789,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             }
         }
     }
-    _66 = 0 as libc::c_int as uint32_t;
+    _66 = 0;
     loop {
         _143 = _66;
         if !(_143 < 4 as libc::c_uint) {
@@ -815,7 +815,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     _67 = (_150 as uint32_t == _151) as libc::c_int as bool_0;
     _152 = _65;
     if !_152.is_null() {
-        _68 = 0 as libc::c_int as uint32_t;
+        _68 = 0;
         loop {
             _153 = _68;
             _154 = _48;
@@ -834,7 +834,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             as *mut uint8_t);
         _160 = _ZN4astcL3minIhEET_S1_S1_(_159, 64 as libc::c_uint as uint8_t);
         _69 = _160 as uint32_t;
-        _70 = 0 as libc::c_int as uint32_t;
+        _70 = 0;
         loop {
             _161 = _70;
             _162 = _69;
@@ -970,7 +970,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
     _238 = _232;
     _239 = _233;
     _240 = _234;
-    _241 = 0 as libc::c_int as uint32_t;
+    _241 = 0;
     _250 = _235;
     _251 = _238;
     *(&mut *((*(&mut (*(_250 as *mut l_struct_struct_OC_block_size_descriptor)).field11
@@ -982,7 +982,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                 _251,
                 1 as libc::c_int as uint32_t,
             ) as uint64_t as int64_t as isize,
-        ) as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        ) as *mut uint32_t) = 0;
     _252 = _235;
     _253 = _238;
     *(&mut *((*(&mut (*(_252 as *mut l_struct_struct_OC_block_size_descriptor)).field12
@@ -994,7 +994,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                 _253,
                 1 as libc::c_int as uint32_t,
             ) as uint64_t as int64_t as isize,
-        ) as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        ) as *mut uint32_t) = 0;
     _254 = _236;
     if _254 as libc::c_uint & 1 as libc::c_uint != 0 {
         _255 = _238;
@@ -1019,17 +1019,17 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
             );
             _260 = memset(
                 &mut _243 as *mut l_array_1024_uint8_t as *mut libc::c_void,
-                0 as libc::c_int as uint32_t,
+                0,
                 1024 as libc::c_int as uint64_t,
             );
-            _244 = 0 as libc::c_int as uint32_t;
+            _244 = 0;
             loop {
                 _261 = _244;
                 _262 = _242;
                 if !(_261 < _262) {
                     break;
                 }
-                _245 = 0 as libc::c_int as uint32_t;
+                _245 = 0;
                 loop {
                     _263 = _245;
                     if !(_263 < 1024 as libc::c_uint) {
@@ -1114,7 +1114,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                             ) as *mut uint64_t as *mut libc::c_void,
                                     );
                                     _247 = 1 as libc::c_int as uint8_t;
-                                    _248 = 0 as libc::c_int as uint32_t;
+                                    _248 = 0;
                                     loop {
                                         _282 = _248;
                                         _283 = _241;
@@ -1537,8 +1537,7 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
     _368 = (llvm_lshr_u32(_396, 16 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
         as uint8_t;
     _397 = _363;
-    _369 = (llvm_lshr_u32(_397, 20 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _369 = (llvm_lshr_u32(_397, 20) & 15 as libc::c_int as uint32_t) as uint8_t;
     _398 = _363;
     _370 = (llvm_lshr_u32(_398, 24 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
         as uint8_t;
@@ -1556,8 +1555,8 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
         as uint8_t;
     _403 = _363;
     _404 = _363;
-    _375 = ((llvm_lshr_u32(_403, 30 as libc::c_int as uint32_t) | _404 << 2 as libc::c_int)
-        & 15 as libc::c_int as uint32_t) as uint8_t;
+    _375 = ((llvm_lshr_u32(_403, 30) | _404 << 2 as libc::c_int) & 15 as libc::c_int as uint32_t)
+        as uint8_t;
     _405 = _364;
     _406 = _364;
     _364 = llvm_mul_u32(_406 as uint32_t, _405 as uint32_t) as uint8_t;
@@ -1706,7 +1705,7 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
             ),
             llvm_mul_u32(_477 as uint32_t, _478),
         ),
-        llvm_lshr_u32(_479, 10 as libc::c_int as uint32_t),
+        llvm_lshr_u32(_479, 10),
     );
     _480 = _368;
     _481 = _358;
@@ -1752,15 +1751,15 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
     _382 = _497 & 63 as libc::c_int as uint32_t;
     _498 = _361;
     if _498 as int32_t <= 3 as libc::c_uint as int32_t {
-        _382 = 0 as libc::c_int as uint32_t;
+        _382 = 0;
     }
     _499 = _361;
     if _499 as int32_t <= 2 as libc::c_uint as int32_t {
-        _381 = 0 as libc::c_int as uint32_t;
+        _381 = 0;
     }
     _500 = _361;
     if _500 as int32_t <= 1 as libc::c_uint as int32_t {
-        _380 = 0 as libc::c_int as uint32_t;
+        _380 = 0;
     }
     _501 = _379;
     _502 = _380;
@@ -1930,7 +1929,7 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
     _573 = _570;
     _574 = _571;
     _575 = _572;
-    _576 = 0 as libc::c_int as uint32_t;
+    _576 = 0;
     loop {
         _583 = _576;
         if !(_583 < 7 as libc::c_uint) {
@@ -1943,8 +1942,8 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
         _586 = _576;
         _576 = llvm_add_u32(_586, 1 as libc::c_int as uint32_t);
     }
-    _578 = 0 as libc::c_int as uint32_t;
-    _579 = 0 as libc::c_int as uint32_t;
+    _578 = 0;
+    _579 = 0;
     loop {
         _587 = _579;
         if !(_587 < 4 as libc::c_uint) {
@@ -1958,7 +1957,7 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
         _589 = _579;
         _579 = llvm_add_u32(_589, 1 as libc::c_int as uint32_t);
     }
-    _580 = 0 as libc::c_int as uint32_t;
+    _580 = 0;
     loop {
         _590 = _580;
         _591 = _573;

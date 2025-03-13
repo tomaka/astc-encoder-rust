@@ -7538,7 +7538,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
     _19 = _4;
     _20 = _ZL16get_packed_tableii(_18, _19);
     _6 = _20;
-    _7 = 0 as libc::c_int as uint32_t;
+    _7 = 0;
     loop {
         _21 = _7;
         if !(_21 < 2048 as libc::c_uint) {
@@ -7551,7 +7551,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         _24 = _7;
         _7 = llvm_add_u32(_24, 1 as libc::c_int as uint32_t);
     }
-    _8 = 0 as libc::c_int as uint32_t;
+    _8 = 0;
     loop {
         _25 = _8;
         if !((_25 as int32_t) < 2 as libc::c_uint as int32_t) {
@@ -7589,7 +7589,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             .as_mut_ptr()
             .offset(_36 as int32_t as int64_t as isize) as *mut *mut libc::c_void);
         _12 = _37;
-        _13 = 0 as libc::c_int as uint32_t;
+        _13 = 0;
         loop {
             _38 = _13;
             _39 = _9;

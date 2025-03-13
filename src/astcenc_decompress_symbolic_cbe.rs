@@ -2764,7 +2764,7 @@ pub unsafe extern "C" fn _Z14unpack_weightsRK21block_size_descriptorRK25symbolic
         _403 = _110;
         let ref mut fresh2 = *(_403 as *mut *mut libc::c_void);
         *fresh2 = _402;
-        _212 = 0 as libc::c_int as uint32_t;
+        _212 = 0;
         loop {
             _404 = _212;
             _405 = _189;
@@ -2913,7 +2913,7 @@ pub unsafe extern "C" fn _Z14unpack_weightsRK21block_size_descriptorRK25symbolic
                 current_block = 2281156127752216570;
                 break;
             }
-            _218 = 0 as libc::c_int as uint32_t;
+            _218 = 0;
             loop {
                 _447 = _218;
                 _448 = _216;
@@ -3692,7 +3692,7 @@ pub unsafe extern "C" fn _Z14unpack_weightsRK21block_size_descriptorRK25symbolic
         _236 = _187;
         let ref mut fresh0 = *(_236 as *mut *mut libc::c_void);
         *fresh0 = _235;
-        _196 = 0 as libc::c_int as uint32_t;
+        _196 = 0;
         loop {
             _237 = _196;
             _238 = _189;
@@ -3824,7 +3824,7 @@ pub unsafe extern "C" fn _Z14unpack_weightsRK21block_size_descriptorRK25symbolic
                 current_block = 8108122721673598394;
                 break;
             }
-            _201 = 0 as libc::c_int as uint32_t;
+            _201 = 0;
             loop {
                 _275 = _201;
                 _276 = _199;
@@ -4256,7 +4256,7 @@ pub unsafe extern "C" fn _Z14unpack_weightsRK21block_size_descriptorRK25symbolic
                 __assert_fail(
                     &_OC_str as *const l_array_21_uint8_t as *mut libc::c_void,
                     &_OC_str_OC_1 as *const l_array_58_uint8_t as *mut libc::c_void,
-                    110 as libc::c_int as uint32_t,
+                    110,
                     &__PRETTY_FUNCTION___OC__Z14unpack_weightsRK21block_size_descriptorRK25symbolic_compressed_blockRK15decimation_infobPiS8_
                         as *const l_array_131_uint8_t as *mut libc::c_void,
                 );
@@ -6321,7 +6321,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
     _1237 = *(&mut (*(_1236 as *mut l_struct_struct_OC_symbolic_compressed_block)).field0
         as *mut uint8_t);
     if _1237 as uint32_t == 0 as libc::c_uint {
-        _1152 = 0 as libc::c_int as uint32_t;
+        _1152 = 0;
         loop {
             _1238 = _1152;
             _1239 = _1143;
@@ -6455,7 +6455,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     .field3 as *mut uint8_t);
                 _1179 = _2015 as int8_t as int32_t as uint32_t;
                 _970 = &mut _1024 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _971 = 0 as libc::c_int as uint32_t;
+                _971 = 0;
                 _972 = 1 as libc::c_int as uint32_t;
                 _973 = 2 as libc::c_int as uint32_t;
                 _974 = 3 as libc::c_int as uint32_t;
@@ -6558,7 +6558,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                 *(_2038 as *mut uint32_t) = llvm_select_u32(
                     ((_2039 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2041 = _1021;
@@ -6571,7 +6571,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2041 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2043 = _1022;
@@ -6584,7 +6584,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2043 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2045 = _1023;
@@ -6597,7 +6597,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2045 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2047 = *(&mut _1025 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -6608,7 +6608,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                 _2050 = _ZL21get_u8_component_mask15astcenc_profileRK11image_block(_2048, _2049);
                 (*(&mut _1183.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_82)).data =
                     _2050;
-                _1184 = 0 as libc::c_int as uint32_t;
+                _1184 = 0;
                 loop {
                     _2051 = _1184;
                     _2052 = _1172;
@@ -6665,7 +6665,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     *(_2063 as *mut uint32_t) = llvm_select_u32(
                         ((_2064 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2066 = _1011;
@@ -6678,7 +6678,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2066 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2068 = _1012;
@@ -6691,7 +6691,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2068 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2070 = _1013;
@@ -6704,7 +6704,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2070 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2072 = _1173;
@@ -6716,7 +6716,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         .offset(_2073 as int32_t as int64_t as isize)
                         as *mut uint8_t);
                     _1190 = _2074 as uint32_t;
-                    _1191 = 0 as libc::c_int as uint32_t;
+                    _1191 = 0;
                     loop {
                         _2075 = _1191;
                         _2076 = _1190;
@@ -7405,7 +7405,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     *(&mut _1073 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _1344;
                     _1070 = &mut _1074 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _1071 = 15360 as libc::c_int as uint32_t;
+                    _1071 = 15360;
                     _1345 = _1070;
                     _1346 = _1071;
                     *(_1345 as *mut uint32_t) = _1346;
@@ -7571,7 +7571,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     *(_1382 as *mut uint32_t) = llvm_select_u32(
                         ((_1383 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1385 = _1016;
@@ -7584,7 +7584,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1385 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1387 = _1017;
@@ -7597,7 +7597,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1387 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1389 = _1018;
@@ -7610,7 +7610,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1389 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1391 =
@@ -7701,7 +7701,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     *(_1408 as *mut uint32_t) = llvm_select_u32(
                         ((_1409 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1411 = _982;
@@ -7714,7 +7714,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1411 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1413 = _983;
@@ -7727,7 +7727,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1413 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1415 = _984;
@@ -7740,7 +7740,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1415 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1417 =
@@ -8192,7 +8192,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         *(&mut _908 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     *(&mut _741 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) =
                         _1520;
-                    _742 = 0 as libc::c_int as uint32_t;
+                    _742 = 0;
                     _743 = 32 as libc::c_int as uint32_t;
                     _1521 = memcpy(
                         &mut _745 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
@@ -8833,7 +8833,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                     *(_1661 as *mut uint32_t) = llvm_select_u32(
                         ((_1662 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1664 = _857;
@@ -8846,7 +8846,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1664 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1666 = _858;
@@ -8859,7 +8859,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1666 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1668 = _859;
@@ -8872,7 +8872,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         as *mut uint32_t) = llvm_select_u32(
                         ((_1668 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _1670 =
@@ -10318,7 +10318,7 @@ pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block
                         _ => {}
                     }
                 }
-                _1171 = 0 as libc::c_int as uint32_t;
+                _1171 = 0;
                 loop {
                     _1967 = _1171;
                     _1968 = _1143;
@@ -10471,7 +10471,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
             *(_2277 as *mut uint32_t) = llvm_select_u32(
                 ((_2278 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2280 = _2259;
@@ -10482,7 +10482,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2280 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2282 = _2259;
@@ -10493,7 +10493,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2282 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2284 = _2259;
@@ -10504,7 +10504,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2284 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             current_block = 15244523761119983789;
@@ -10521,7 +10521,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
             *(_2268 as *mut uint32_t) = llvm_select_u32(
                 ((_2269 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2271 = _2261;
@@ -10532,7 +10532,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2271 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2273 = _2261;
@@ -10543,7 +10543,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2273 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2275 = _2261;
@@ -10554,7 +10554,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2275 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
         }
@@ -10597,7 +10597,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     _2295 = _2292;
     _2296 = _2293;
     _2299 = _2294;
-    _2297 = 0 as libc::c_int as uint32_t;
+    _2297 = 0;
     _2300 = _2295;
     if _2300 >= 2 as libc::c_uint {
         _2301 = _2295;
@@ -10657,7 +10657,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             __assert_fail(
                 &_OC_str_OC_11 as *const l_array_32_uint8_t as *mut libc::c_void,
                 &_OC_str_OC_10 as *const l_array_45_uint8_t as *mut libc::c_void,
-                710 as libc::c_int as uint32_t,
+                710,
                 &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor18get_partition_infoEjj
                     as *const l_array_98_uint8_t as *mut libc::c_void,
             );
@@ -13986,7 +13986,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
     (*(&mut _3227.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_39)).data = _2642;
     (*(&mut _3228.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_38)).data = _2643;
     _2862 = &mut _2864 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _2863 = 0 as libc::c_int as uint32_t;
+    _2863 = 0;
     _3242 = _2862;
     _3243 = _2863;
     *(_3242 as *mut uint32_t) = _3243;
@@ -14005,7 +14005,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
     _3247 = *(&mut _2864 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
     (*(&mut _3229.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_37)).data = _3247;
     _2865 = &mut _2867 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _2866 = 0 as libc::c_int as uint32_t;
+    _2866 = 0;
     _3248 = _2865;
     _3249 = _2866;
     *(_3248 as *mut uint32_t) = _3249;
@@ -14368,7 +14368,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
         *(_3348 as *mut uint32_t) = llvm_select_u32(
             ((_3349 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3351 = _2765;
@@ -14379,7 +14379,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3351 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3353 = _2766;
@@ -14390,7 +14390,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3353 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3355 = _2767;
@@ -14401,7 +14401,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3355 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3357 = *(&mut _2768 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -14653,7 +14653,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
         *(_3425 as *mut uint32_t) = llvm_select_u32(
             ((_3426 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3428 = _2773;
@@ -14664,7 +14664,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3428 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3430 = _2774;
@@ -14675,7 +14675,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3430 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3432 = _2775;
@@ -14686,7 +14686,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3432 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3434 = *(&mut _2776 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -15480,7 +15480,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
         _3638 = (*(&mut _3236.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_31)).data;
         *(&mut _3186 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _3638;
         _3183 = &mut _3187 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-        _3184 = 15360 as libc::c_int as uint32_t;
+        _3184 = 15360;
         _3639 = _3183;
         _3640 = _3184;
         *(_3639 as *mut uint32_t) = _3640;
@@ -15619,7 +15619,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
         *(_3676 as *mut uint32_t) = llvm_select_u32(
             ((_3677 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3679 = _3156;
@@ -15630,7 +15630,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3679 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3681 = _3157;
@@ -15641,7 +15641,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3681 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3683 = _3158;
@@ -15652,7 +15652,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3683 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3685 = *(&mut _3159 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -15727,7 +15727,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
         *(_3702 as *mut uint32_t) = llvm_select_u32(
             ((_3703 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3705 = _3136;
@@ -15738,7 +15738,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3705 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3707 = _3137;
@@ -15749,7 +15749,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3707 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3709 = _3138;
@@ -15760,7 +15760,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3709 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3711 = *(&mut _3139 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -16132,7 +16132,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
         );
         _3814 = *(&mut _3082 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
         *(&mut _2915 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _3814;
-        _2916 = 0 as libc::c_int as uint32_t;
+        _2916 = 0;
         _2917 = 32 as libc::c_int as uint32_t;
         _3815 = memcpy(
             &mut _2919 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
@@ -16673,7 +16673,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
         *(_3955 as *mut uint32_t) = llvm_select_u32(
             ((_3956 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3958 = _3031;
@@ -16684,7 +16684,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3958 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3960 = _3032;
@@ -16695,7 +16695,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3960 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3962 = _3033;
@@ -16706,7 +16706,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3962 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
                 as libc::c_int as bool_0,
-            0 as libc::c_int as uint32_t,
+            0,
             -(1 as libc::c_int) as uint32_t,
         );
         _3964 = *(&mut _3034 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -18681,7 +18681,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
                             as *mut uint32_t as *mut libc::c_void,
                     );
                     _4363 = &mut _4474 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _4364 = 0 as libc::c_int as uint32_t;
+                    _4364 = 0;
                     _4365 = 1 as libc::c_int as uint32_t;
                     _4366 = 2 as libc::c_int as uint32_t;
                     _4367 = 3 as libc::c_int as uint32_t;
@@ -18791,7 +18791,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
                     *(_4597 as *mut uint32_t) = llvm_select_u32(
                         ((_4598 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _4600 = _4471;
@@ -18804,7 +18804,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
                         as *mut uint32_t) = llvm_select_u32(
                         ((_4600 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _4602 = _4472;
@@ -18817,7 +18817,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
                         as *mut uint32_t) = llvm_select_u32(
                         ((_4602 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _4604 = _4473;
@@ -18830,7 +18830,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
                         as *mut uint32_t) = llvm_select_u32(
                         ((_4604 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _4606 =
@@ -18904,7 +18904,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
                     _4623 = *(&mut (*(_4622 as *mut l_struct_struct_OC_block_size_descriptor))
                         .field3 as *mut uint8_t);
                     _4523 = _4623 as uint32_t;
-                    _4524 = 0 as libc::c_int as uint32_t;
+                    _4524 = 0;
                     loop {
                         _4624 = _4524;
                         _4625 = _4523;
@@ -21077,7 +21077,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_1planeRK14astcenc
                     as *mut libc::c_float) = _5215;
                 _5216 = _5134;
                 *(&mut _5148.field0 as *mut l_array_4_float) = _5216.field0;
-                _5149 = 0 as libc::c_int as uint32_t;
+                _5149 = 0;
                 '__5517: loop {
                     _5217 = _5149;
                     _5218 = _5142;
@@ -21129,7 +21129,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_1planeRK14astcenc
                         .offset(_5227 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _5154 = _5228 as uint32_t;
-                    _5155 = 0 as libc::c_int as uint32_t;
+                    _5155 = 0;
                     loop {
                         _5229 = _5155;
                         _5230 = _5154;
@@ -25602,7 +25602,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                 _6410 = _6127;
                 *(&mut _6220.field0 as *mut l_array_4_float) = _6410.field0;
                 _5687 = &mut _6088 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _5688 = 0 as libc::c_int as uint32_t;
+                _5688 = 0;
                 _5689 = 1 as libc::c_int as uint32_t;
                 _5690 = 2 as libc::c_int as uint32_t;
                 _5691 = 3 as libc::c_int as uint32_t;
@@ -25631,7 +25631,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                 _6418 = *(&mut (*(_6417 as *mut l_struct_struct_OC_block_size_descriptor)).field3
                     as *mut uint8_t);
                 _6222 = _6418 as uint32_t;
-                _6223 = 0 as libc::c_int as uint32_t;
+                _6223 = 0;
                 loop {
                     _6419 = _6223;
                     _6420 = _6222;
@@ -27720,7 +27720,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                     *(_6884 as *mut uint32_t) = llvm_select_u32(
                         ((_6885 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6887 = _5916;
@@ -27733,7 +27733,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_6887 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6889 = _5916;
@@ -27746,7 +27746,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_6889 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6891 = _5916;
@@ -27759,7 +27759,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_6891 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6893 = (*(&mut _6281.field0 as *mut l_array_4_uint32_t
@@ -28067,7 +28067,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                     *(_6956 as *mut uint32_t) = llvm_select_u32(
                         ((_6957 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6959 = _5914;
@@ -28080,7 +28080,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_6959 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6961 = _5914;
@@ -28093,7 +28093,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_6961 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6963 = _5914;
@@ -28106,7 +28106,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_6963 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _6965 = (*(&mut _6289.field0 as *mut l_array_4_uint32_t
@@ -28414,7 +28414,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                     *(_7028 as *mut uint32_t) = llvm_select_u32(
                         ((_7029 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7031 = _5912;
@@ -28427,7 +28427,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7031 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7033 = _5912;
@@ -28440,7 +28440,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7033 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7035 = _5912;
@@ -28453,7 +28453,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7035 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7037 = (*(&mut _6297.field0 as *mut l_array_4_uint32_t
@@ -28761,7 +28761,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                     *(_7100 as *mut uint32_t) = llvm_select_u32(
                         ((_7101 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7103 = _5910;
@@ -28774,7 +28774,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7103 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7105 = _5910;
@@ -28787,7 +28787,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7105 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7107 = _5910;
@@ -28800,7 +28800,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7107 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7109 = (*(&mut _6305.field0 as *mut l_array_4_uint32_t
@@ -31554,7 +31554,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                     *(_7756 as *mut uint32_t) = llvm_select_u32(
                         ((_7757 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7759 = _5776;
@@ -31567,7 +31567,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7759 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7761 = _5777;
@@ -31580,7 +31580,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7761 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7763 = _5778;
@@ -31593,7 +31593,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                         as *mut uint32_t) = llvm_select_u32(
                         ((_7763 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _7765 =
@@ -32026,7 +32026,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
                 __assert_fail(
                     &_OC_str_OC_6 as *const l_array_86_uint8_t as *mut libc::c_void,
                     &_OC_str_OC_1 as *const l_array_58_uint8_t as *mut libc::c_void,
-                    520 as libc::c_int as uint32_t,
+                    520,
                     &__PRETTY_FUNCTION___OC__Z51compute_symbolic_block_difference_1plane_1partitionRK14astcenc_configRK21block_size_descriptorRK25symbolic_compressed_blockRK11image_block
                         as *const l_array_169_uint8_t as *mut libc::c_void,
                 );

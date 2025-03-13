@@ -287,31 +287,31 @@ static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: l_array_512_uint8_t = unsafe {
 static mut _ZZL12sf32_to_sf16j9roundmodeE4tabx: l_array_60_uint32_t = {
     let mut init = l_array_60_uint32_t {
         array: [
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
+            0,
+            0,
+            0,
+            0,
+            0,
             32768 as libc::c_int as uint32_t,
             2147483648 as libc::c_uint,
             32768 as libc::c_int as uint32_t,
             32768 as libc::c_int as uint32_t,
             32768 as libc::c_int as uint32_t,
             1 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
+            0,
+            0,
+            0,
+            0,
             32768 as libc::c_int as uint32_t,
             32769 as libc::c_int as uint32_t,
             32768 as libc::c_int as uint32_t,
             32768 as libc::c_int as uint32_t,
             32768 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
-            0 as libc::c_int as uint32_t,
+            0,
+            0,
+            0,
+            0,
+            0,
             32768 as libc::c_int as uint32_t,
             32768 as libc::c_int as uint32_t,
             32768 as libc::c_int as uint32_t,
@@ -423,10 +423,8 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _17 = *(&*(_ZZL12sf16_to_sf32tE3tbl.array)
         .as_ptr()
         .offset(
-            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                _16,
-                10 as libc::c_int as uint32_t,
-            ) as uint64_t as int64_t as isize,
+            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_16, 10)
+                as uint64_t as int64_t as isize,
         ) as *const uint32_t as *mut uint32_t);
     _11 = _17;
     _18 = _10;

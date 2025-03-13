@@ -3178,7 +3178,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(0 as libc::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
         );
-        _337 = 0 as libc::c_int as uint32_t;
+        _337 = 0;
         loop {
             _428 = _337;
             _429 = _335;
@@ -3319,7 +3319,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut libc::c_float) = _463;
             _464 = _330;
             *(&mut _344.field0 as *mut l_array_4_float) = _464.field0;
-            _345 = 0 as libc::c_int as uint32_t;
+            _345 = 0;
             loop {
                 _465 = _345;
                 _466 = _339;
@@ -3538,7 +3538,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 *(_524 as *mut uint32_t) = llvm_select_u32(
                     ((_525 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _527 = _36;
@@ -3551,7 +3551,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_527 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _529 = _37;
@@ -3564,7 +3564,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_529 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _531 = _38;
@@ -3577,7 +3577,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_531 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _533 = *(&mut _303 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -3911,7 +3911,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 *(_611 as *mut uint32_t) = llvm_select_u32(
                     ((_612 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _614 = _31;
@@ -3924,7 +3924,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_614 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _616 = _32;
@@ -3937,7 +3937,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_616 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _618 = _33;
@@ -3950,7 +3950,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_618 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _620 = *(&mut _306 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -4284,7 +4284,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 *(_698 as *mut uint32_t) = llvm_select_u32(
                     ((_699 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _701 = _26;
@@ -4297,7 +4297,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_701 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _703 = _27;
@@ -4310,7 +4310,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_703 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _705 = _28;
@@ -4323,7 +4323,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_705 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _707 = *(&mut _309 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -4657,7 +4657,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 *(_785 as *mut uint32_t) = llvm_select_u32(
                     ((_786 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _788 = _21;
@@ -4670,7 +4670,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_788 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _790 = _22;
@@ -4683,7 +4683,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_790 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _792 = _23;
@@ -4696,7 +4696,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_792 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _794 = *(&mut _312 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -5552,7 +5552,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             *(_997 as *mut uint32_t) = llvm_select_u32(
                 ((_998 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1000 = _16;
@@ -5563,7 +5563,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1000 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1002 = _17;
@@ -5574,7 +5574,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1002 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1004 = _18;
@@ -5585,7 +5585,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1004 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1006 = *(&mut _315 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -5918,7 +5918,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             *(_1077 as *mut uint32_t) = llvm_select_u32(
                 ((_1078 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1080 = _11;
@@ -5929,7 +5929,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1080 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1082 = _12;
@@ -5940,7 +5940,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1082 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1084 = _13;
@@ -5951,7 +5951,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1084 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1086 = *(&mut _318 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -6289,7 +6289,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             *(_1158 as *mut uint32_t) = llvm_select_u32(
                 ((_1159 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1161 = _6;
@@ -6300,7 +6300,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1161 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1163 = _7;
@@ -6311,7 +6311,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1163 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1165 = _8;
@@ -6322,7 +6322,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1165 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _1167 = *(&mut _321 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -12867,11 +12867,11 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _2854 = memset(
                     &mut _2661 as *mut l_array_4_struct_AC_l_struct_struct_OC_vfloat4
                         as *mut libc::c_void,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     64 as libc::c_int as uint64_t,
                 );
                 _1673 = &mut _2572 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _1674 = 0 as libc::c_int as uint32_t;
+                _1674 = 0;
                 _1675 = 1 as libc::c_int as uint32_t;
                 _1676 = 2 as libc::c_int as uint32_t;
                 _1677 = 3 as libc::c_int as uint32_t;
@@ -12896,7 +12896,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _2860 = *(&mut _2572 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                 (*(&mut _2662.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_86)).data =
                     _2860;
-                _2663 = 0 as libc::c_int as uint32_t;
+                _2663 = 0;
                 loop {
                     _2861 = _2663;
                     _2862 = _2660;
@@ -13031,7 +13031,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     *(_2891 as *mut uint32_t) = llvm_select_u32(
                         ((_2892 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2894 = _1786;
@@ -13044,7 +13044,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2894 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2896 = _1787;
@@ -13057,7 +13057,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2896 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2898 = _1788;
@@ -13070,7 +13070,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2898 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2900 =
@@ -13202,7 +13202,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16 as libc::c_int as uint64_t,
                     );
                     _2557 = &mut _2673 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _2558 = 0 as libc::c_int as uint32_t;
+                    _2558 = 0;
                     _2931 = _2557;
                     _2932 = _2558;
                     *(_2931 as *mut uint32_t) = _2932;
@@ -13282,7 +13282,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     *(_2946 as *mut uint32_t) = llvm_select_u32(
                         ((_2947 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2949 = _1846;
@@ -13295,7 +13295,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2949 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2951 = _1847;
@@ -13308,7 +13308,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2951 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2953 = _1848;
@@ -13321,7 +13321,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2953 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2955 =
@@ -13389,7 +13389,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     *(_2966 as *mut uint32_t) = llvm_select_u32(
                         ((_2967 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2969 = _1816;
@@ -13402,7 +13402,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2969 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2971 = _1817;
@@ -13415,7 +13415,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2971 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2973 = _1818;
@@ -13428,7 +13428,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         as *mut uint32_t) = llvm_select_u32(
                         ((_2973 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _2975 =
@@ -15312,11 +15312,11 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         &mut _2700
                             as *mut l_array_2_struct_AC_l_array_4_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut libc::c_void,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         128 as libc::c_int as uint64_t,
                     );
                     _1668 = &mut _2573 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _1669 = 0 as libc::c_int as uint32_t;
+                    _1669 = 0;
                     _1670 = 1 as libc::c_int as uint32_t;
                     _1671 = 2 as libc::c_int as uint32_t;
                     _1672 = 3 as libc::c_int as uint32_t;
@@ -15342,7 +15342,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         *(&mut _2573 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _2701.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_72))
                         .data = _3420;
-                    _2702 = 0 as libc::c_int as uint32_t;
+                    _2702 = 0;
                     loop {
                         _3421 = _2702;
                         _3422 = _2660;
@@ -15478,7 +15478,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3452 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3454 = _1781;
@@ -15492,7 +15492,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3454 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3456 = _1782;
@@ -15506,7 +15506,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3456 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3458 = _1783;
@@ -15520,7 +15520,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3458 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3460 = *(&mut _2566 as *mut l_struct_struct_OC_vmask4
@@ -15653,7 +15653,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             16 as libc::c_int as uint64_t,
                         );
                         _2551 = &mut _2712 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                        _2552 = 0 as libc::c_int as uint32_t;
+                        _2552 = 0;
                         _3491 = _2551;
                         _3492 = _2552;
                         *(_3491 as *mut uint32_t) = _3492;
@@ -15734,7 +15734,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3507 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3509 = _1841;
@@ -15748,7 +15748,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3509 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3511 = _1842;
@@ -15762,7 +15762,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3511 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3513 = _1843;
@@ -15776,7 +15776,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3513 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3515 = *(&mut _2101 as *mut l_struct_struct_OC_vmask4
@@ -15846,7 +15846,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3527 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3529 = _1811;
@@ -15860,7 +15860,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3529 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3531 = _1812;
@@ -15874,7 +15874,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3531 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3533 = _1813;
@@ -15888,7 +15888,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3533 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3535 = *(&mut _2119 as *mut l_struct_struct_OC_vmask4
@@ -15988,7 +15988,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3554 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3556 = _1836;
@@ -16002,7 +16002,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3556 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3558 = _1837;
@@ -16016,7 +16016,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3558 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3560 = _1838;
@@ -16030,7 +16030,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3560 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3562 = *(&mut _2104 as *mut l_struct_struct_OC_vmask4
@@ -16100,7 +16100,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3574 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3576 = _1806;
@@ -16114,7 +16114,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3576 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3578 = _1807;
@@ -16128,7 +16128,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3578 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3580 = _1808;
@@ -16142,7 +16142,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_3580 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _3582 = *(&mut _2122 as *mut l_struct_struct_OC_vmask4
@@ -19612,11 +19612,11 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         &mut _2761
                             as *mut l_array_3_struct_AC_l_array_4_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut libc::c_void,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         192 as libc::c_int as uint64_t,
                     );
                     _1663 = &mut _2574 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _1664 = 0 as libc::c_int as uint32_t;
+                    _1664 = 0;
                     _1665 = 1 as libc::c_int as uint32_t;
                     _1666 = 2 as libc::c_int as uint32_t;
                     _1667 = 3 as libc::c_int as uint32_t;
@@ -19642,7 +19642,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         *(&mut _2574 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _2762.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_48))
                         .data = _4350;
-                    _2763 = 0 as libc::c_int as uint32_t;
+                    _2763 = 0;
                     loop {
                         _4351 = _2763;
                         _4352 = _2660;
@@ -19778,7 +19778,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4382 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4384 = _1776;
@@ -19792,7 +19792,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4384 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4386 = _1777;
@@ -19806,7 +19806,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4386 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4388 = _1778;
@@ -19820,7 +19820,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4388 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4390 = *(&mut _2569 as *mut l_struct_struct_OC_vmask4
@@ -19953,7 +19953,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             16 as libc::c_int as uint64_t,
                         );
                         _2543 = &mut _2773 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                        _2544 = 0 as libc::c_int as uint32_t;
+                        _2544 = 0;
                         _4421 = _2543;
                         _4422 = _2544;
                         *(_4421 as *mut uint32_t) = _4422;
@@ -20034,7 +20034,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4437 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4439 = _1831;
@@ -20048,7 +20048,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4439 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4441 = _1832;
@@ -20062,7 +20062,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4441 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4443 = _1833;
@@ -20076,7 +20076,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4443 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4445 = *(&mut _2107 as *mut l_struct_struct_OC_vmask4
@@ -20146,7 +20146,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4457 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4459 = _1801;
@@ -20160,7 +20160,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4459 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4461 = _1802;
@@ -20174,7 +20174,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4461 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4463 = _1803;
@@ -20188,7 +20188,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4463 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4465 = *(&mut _2125 as *mut l_struct_struct_OC_vmask4
@@ -20288,7 +20288,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4484 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4486 = _1826;
@@ -20302,7 +20302,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4486 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4488 = _1827;
@@ -20316,7 +20316,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4488 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4490 = _1828;
@@ -20330,7 +20330,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4490 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4492 = *(&mut _2110 as *mut l_struct_struct_OC_vmask4
@@ -20400,7 +20400,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4504 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4506 = _1796;
@@ -20414,7 +20414,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4506 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4508 = _1797;
@@ -20428,7 +20428,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4508 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4510 = _1798;
@@ -20442,7 +20442,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4510 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4512 = *(&mut _2128 as *mut l_struct_struct_OC_vmask4
@@ -20542,7 +20542,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4531 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4533 = _1821;
@@ -20556,7 +20556,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4533 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4535 = _1822;
@@ -20570,7 +20570,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4535 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4537 = _1823;
@@ -20584,7 +20584,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4537 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4539 = *(&mut _2113 as *mut l_struct_struct_OC_vmask4
@@ -20654,7 +20654,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4551 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4553 = _1791;
@@ -20668,7 +20668,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4553 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4555 = _1792;
@@ -20682,7 +20682,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4555 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4557 = _1793;
@@ -20696,7 +20696,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             ((_4557 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _4559 = *(&mut _2131 as *mut l_struct_struct_OC_vmask4
@@ -28524,7 +28524,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
     _6419 = _6723 as uint32_t;
     _6724 = _6419;
     if _6724 > 0 as libc::c_uint {
-        _6420 = 0 as libc::c_int as uint32_t;
+        _6420 = 0;
         loop {
             _6725 = _6420;
             _6726 = _6419;
@@ -28644,7 +28644,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut libc::c_float) = _6754;
             _6755 = _6393;
             *(&mut _6426.field0 as *mut l_array_4_float) = _6755.field0;
-            _6427 = 0 as libc::c_int as uint32_t;
+            _6427 = 0;
             loop {
                 _6756 = _6427;
                 _6757 = _6422;
@@ -28906,7 +28906,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 *(_6830 as *mut uint32_t) = llvm_select_u32(
                     ((_6831 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6833 = _6008;
@@ -28919,7 +28919,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_6833 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6835 = _6009;
@@ -28932,7 +28932,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_6835 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6837 = _6010;
@@ -28945,7 +28945,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_6837 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6839 = *(&mut _6373 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -29279,7 +29279,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 *(_6917 as *mut uint32_t) = llvm_select_u32(
                     ((_6918 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6920 = _6003;
@@ -29292,7 +29292,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_6920 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6922 = _6004;
@@ -29305,7 +29305,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_6922 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6924 = _6005;
@@ -29318,7 +29318,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_6924 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _6926 = *(&mut _6376 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -29652,7 +29652,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 *(_7004 as *mut uint32_t) = llvm_select_u32(
                     ((_7005 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7007 = _5998;
@@ -29665,7 +29665,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7007 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7009 = _5999;
@@ -29678,7 +29678,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7009 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7011 = _6000;
@@ -29691,7 +29691,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7011 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7013 = *(&mut _6379 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -30408,7 +30408,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             *(_7182 as *mut uint32_t) = llvm_select_u32(
                 ((_7183 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7185 = _5993;
@@ -30419,7 +30419,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_7185 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7187 = _5994;
@@ -30430,7 +30430,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_7187 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7189 = _5995;
@@ -30441,7 +30441,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_7189 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7191 = *(&mut _6382 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -30774,7 +30774,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             *(_7262 as *mut uint32_t) = llvm_select_u32(
                 ((_7263 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7265 = _5988;
@@ -30785,7 +30785,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_7265 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7267 = _5989;
@@ -30796,7 +30796,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_7267 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7269 = _5990;
@@ -30807,7 +30807,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_7269 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _7271 = *(&mut _6385 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -32285,7 +32285,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(0 as libc::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
         );
-        _7649 = 0 as libc::c_int as uint32_t;
+        _7649 = 0;
         loop {
             _7718 = _7649;
             _7719 = _7647;
@@ -32405,7 +32405,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut libc::c_float) = _7747;
             _7748 = _7642;
             *(&mut _7655.field0 as *mut l_array_4_float) = _7748.field0;
-            _7656 = 0 as libc::c_int as uint32_t;
+            _7656 = 0;
             loop {
                 _7749 = _7656;
                 _7750 = _7651;
@@ -32625,7 +32625,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 *(_7808 as *mut uint32_t) = llvm_select_u32(
                     ((_7809 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7811 = _7426;
@@ -32638,7 +32638,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7811 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7813 = _7427;
@@ -32651,7 +32651,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7813 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7815 = _7428;
@@ -32664,7 +32664,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7815 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7817 = *(&mut _7622 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -32998,7 +32998,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 *(_7895 as *mut uint32_t) = llvm_select_u32(
                     ((_7896 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7898 = _7421;
@@ -33011,7 +33011,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7898 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7900 = _7422;
@@ -33024,7 +33024,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7900 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7902 = _7423;
@@ -33037,7 +33037,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7902 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7904 = *(&mut _7625 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -33371,7 +33371,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 *(_7982 as *mut uint32_t) = llvm_select_u32(
                     ((_7983 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7985 = _7416;
@@ -33384,7 +33384,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7985 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7987 = _7417;
@@ -33397,7 +33397,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7987 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7989 = _7418;
@@ -33410,7 +33410,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7989 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7991 = *(&mut _7628 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -34127,7 +34127,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             *(_8160 as *mut uint32_t) = llvm_select_u32(
                 ((_8161 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8163 = _7411;
@@ -34138,7 +34138,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_8163 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8165 = _7412;
@@ -34149,7 +34149,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_8165 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8167 = _7413;
@@ -34160,7 +34160,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_8167 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8169 = *(&mut _7631 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -34496,7 +34496,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             *(_8240 as *mut uint32_t) = llvm_select_u32(
                 ((_8241 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8243 = _7406;
@@ -34507,7 +34507,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_8243 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8245 = _7407;
@@ -34518,7 +34518,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_8245 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8247 = _7408;
@@ -34529,7 +34529,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_8247 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _8249 = *(&mut _7634 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -40258,11 +40258,11 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _9741 = memset(
                     &mut _9556 as *mut l_array_3_struct_AC_l_struct_struct_OC_vfloat4
                         as *mut libc::c_void,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     48 as libc::c_int as uint64_t,
                 );
                 _8641 = &mut _9422 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _8642 = 0 as libc::c_int as uint32_t;
+                _8642 = 0;
                 _8643 = 1 as libc::c_int as uint32_t;
                 _8644 = 2 as libc::c_int as uint32_t;
                 _8645 = 3 as libc::c_int as uint32_t;
@@ -40287,7 +40287,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _9747 = *(&mut _9422 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                 (*(&mut _9557.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_174)).data =
                     _9747;
-                _9558 = 0 as libc::c_int as uint32_t;
+                _9558 = 0;
                 loop {
                     _9748 = _9558;
                     _9749 = _9554;
@@ -40422,7 +40422,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     *(_9778 as *mut uint32_t) = llvm_select_u32(
                         ((_9779 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9781 = _8748;
@@ -40435,7 +40435,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9781 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9783 = _8749;
@@ -40448,7 +40448,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9783 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9785 = _8750;
@@ -40461,7 +40461,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9785 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9787 =
@@ -40593,7 +40593,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16 as libc::c_int as uint64_t,
                     );
                     _9407 = &mut _9568 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _9408 = 0 as libc::c_int as uint32_t;
+                    _9408 = 0;
                     _9818 = _9407;
                     _9819 = _9408;
                     *(_9818 as *mut uint32_t) = _9819;
@@ -40673,7 +40673,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     *(_9833 as *mut uint32_t) = llvm_select_u32(
                         ((_9834 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9836 = _8808;
@@ -40686,7 +40686,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9836 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9838 = _8809;
@@ -40699,7 +40699,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9838 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9840 = _8810;
@@ -40712,7 +40712,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9840 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9842 =
@@ -40780,7 +40780,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     *(_9853 as *mut uint32_t) = llvm_select_u32(
                         ((_9854 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9856 = _8778;
@@ -40793,7 +40793,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9856 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9858 = _8779;
@@ -40806,7 +40806,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9858 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9860 = _8780;
@@ -40819,7 +40819,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         as *mut uint32_t) = llvm_select_u32(
                         ((_9860 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _9862 =
@@ -42392,11 +42392,11 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         &mut _9591
                             as *mut l_array_2_struct_AC_l_array_3_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut libc::c_void,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         96 as libc::c_int as uint64_t,
                     );
                     _8636 = &mut _9423 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _8637 = 0 as libc::c_int as uint32_t;
+                    _8637 = 0;
                     _8638 = 1 as libc::c_int as uint32_t;
                     _8639 = 2 as libc::c_int as uint32_t;
                     _8640 = 3 as libc::c_int as uint32_t;
@@ -42422,7 +42422,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         *(&mut _9423 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _9592.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_161))
                         .data = _10242;
-                    _9593 = 0 as libc::c_int as uint32_t;
+                    _9593 = 0;
                     loop {
                         _10243 = _9593;
                         _10244 = _9554;
@@ -42559,7 +42559,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10274 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10276 = _8743;
@@ -42574,7 +42574,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10276 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10278 = _8744;
@@ -42589,7 +42589,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10278 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10280 = _8745;
@@ -42604,7 +42604,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10280 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10282 = *(&mut _9416 as *mut l_struct_struct_OC_vmask4
@@ -42737,7 +42737,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             16 as libc::c_int as uint64_t,
                         );
                         _9401 = &mut _9603 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                        _9402 = 0 as libc::c_int as uint32_t;
+                        _9402 = 0;
                         _10313 = _9401;
                         _10314 = _9402;
                         *(_10313 as *mut uint32_t) = _10314;
@@ -42819,7 +42819,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10329 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10331 = _8803;
@@ -42834,7 +42834,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10331 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10333 = _8804;
@@ -42849,7 +42849,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10333 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10335 = _8805;
@@ -42864,7 +42864,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10335 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10337 = *(&mut _9047 as *mut l_struct_struct_OC_vmask4
@@ -42935,7 +42935,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10349 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10351 = _8773;
@@ -42950,7 +42950,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10351 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10353 = _8774;
@@ -42965,7 +42965,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10353 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10355 = _8775;
@@ -42980,7 +42980,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10355 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10357 = *(&mut _9065 as *mut l_struct_struct_OC_vmask4
@@ -43081,7 +43081,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10376 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10378 = _8798;
@@ -43096,7 +43096,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10378 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10380 = _8799;
@@ -43111,7 +43111,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10380 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10382 = _8800;
@@ -43126,7 +43126,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10382 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10384 = *(&mut _9050 as *mut l_struct_struct_OC_vmask4
@@ -43197,7 +43197,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10396 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10398 = _8768;
@@ -43212,7 +43212,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10398 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10400 = _8769;
@@ -43227,7 +43227,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10400 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10402 = _8770;
@@ -43242,7 +43242,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_10402 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10404 = *(&mut _9068 as *mut l_struct_struct_OC_vmask4
@@ -46082,11 +46082,11 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         &mut _9645
                             as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_struct_struct_OC_vfloat4
                             as *mut libc::c_void,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         144 as libc::c_int as uint64_t,
                     );
                     _8631 = &mut _9424 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _8632 = 0 as libc::c_int as uint32_t;
+                    _8632 = 0;
                     _8633 = 1 as libc::c_int as uint32_t;
                     _8634 = 2 as libc::c_int as uint32_t;
                     _8635 = 3 as libc::c_int as uint32_t;
@@ -46112,7 +46112,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         *(&mut _9424 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
                     (*(&mut _9646.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_139))
                         .data = _11043;
-                    _9647 = 0 as libc::c_int as uint32_t;
+                    _9647 = 0;
                     loop {
                         _11044 = _9647;
                         _11045 = _9554;
@@ -46249,7 +46249,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11075 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11077 = _8738;
@@ -46264,7 +46264,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11077 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11079 = _8739;
@@ -46279,7 +46279,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11079 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11081 = _8740;
@@ -46294,7 +46294,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11081 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11083 = *(&mut _9419 as *mut l_struct_struct_OC_vmask4
@@ -46427,7 +46427,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             16 as libc::c_int as uint64_t,
                         );
                         _9393 = &mut _9657 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                        _9394 = 0 as libc::c_int as uint32_t;
+                        _9394 = 0;
                         _11114 = _9393;
                         _11115 = _9394;
                         *(_11114 as *mut uint32_t) = _11115;
@@ -46509,7 +46509,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11130 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11132 = _8793;
@@ -46524,7 +46524,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11132 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11134 = _8794;
@@ -46539,7 +46539,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11134 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11136 = _8795;
@@ -46554,7 +46554,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11136 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11138 = *(&mut _9053 as *mut l_struct_struct_OC_vmask4
@@ -46625,7 +46625,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11150 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11152 = _8763;
@@ -46640,7 +46640,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11152 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11154 = _8764;
@@ -46655,7 +46655,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11154 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11156 = _8765;
@@ -46670,7 +46670,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11156 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11158 = *(&mut _9071 as *mut l_struct_struct_OC_vmask4
@@ -46771,7 +46771,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11177 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11179 = _8788;
@@ -46786,7 +46786,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11179 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11181 = _8789;
@@ -46801,7 +46801,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11181 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11183 = _8790;
@@ -46816,7 +46816,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11183 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11185 = *(&mut _9056 as *mut l_struct_struct_OC_vmask4
@@ -46887,7 +46887,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11197 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11199 = _8758;
@@ -46902,7 +46902,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11199 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11201 = _8759;
@@ -46917,7 +46917,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11201 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11203 = _8760;
@@ -46932,7 +46932,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11203 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11205 = *(&mut _9074 as *mut l_struct_struct_OC_vmask4
@@ -47033,7 +47033,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11224 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11226 = _8783;
@@ -47048,7 +47048,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11226 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11228 = _8784;
@@ -47063,7 +47063,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11228 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11230 = _8785;
@@ -47078,7 +47078,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11230 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11232 = *(&mut _9059 as *mut l_struct_struct_OC_vmask4
@@ -47149,7 +47149,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11244 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11246 = _8753;
@@ -47164,7 +47164,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11246 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11248 = _8754;
@@ -47179,7 +47179,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11248 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11250 = _8755;
@@ -47194,7 +47194,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             ((_11250 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _11252 = *(&mut _9077 as *mut l_struct_struct_OC_vmask4
@@ -52696,7 +52696,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
     _12658 = _12759 as uint32_t;
     _12760 = _12658;
     if _12760 > 0 as libc::c_uint {
-        _12659 = 0 as libc::c_int as uint32_t;
+        _12659 = 0;
         loop {
             _12761 = _12659;
             _12762 = _12658;
@@ -52760,7 +52760,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     &mut _12662 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                     16 as libc::c_int as uint64_t,
                 );
-                _12663 = 0 as libc::c_int as uint32_t;
+                _12663 = 0;
                 loop {
                     _12777 = _12663;
                     _12778 = _12661;
@@ -53075,7 +53075,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 as *mut libc::c_float) = _12861;
             _12862 = _12645;
             *(&mut _12669.field0 as *mut l_array_4_float) = _12862.field0;
-            _12670 = 0 as libc::c_int as uint32_t;
+            _12670 = 0;
             loop {
                 _12863 = _12670;
                 _12864 = _12661;
@@ -53334,7 +53334,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 *(_12933 as *mut uint32_t) = llvm_select_u32(
                     ((_12934 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _12936 = _12441;
@@ -53347,7 +53347,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_12936 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _12938 = _12442;
@@ -53360,7 +53360,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_12938 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _12940 = _12443;
@@ -53373,7 +53373,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_12940 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _12942 =
@@ -53716,7 +53716,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 *(_13020 as *mut uint32_t) = llvm_select_u32(
                     ((_13021 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13023 = _12436;
@@ -53729,7 +53729,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_13023 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13025 = _12437;
@@ -53742,7 +53742,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_13025 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13027 = _12438;
@@ -53755,7 +53755,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     as *mut uint32_t) = llvm_select_u32(
                     ((_13027 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13029 =
@@ -54340,7 +54340,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             *(_13164 as *mut uint32_t) = llvm_select_u32(
                 ((_13165 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _13167 = _12431;
@@ -54351,7 +54351,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_13167 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _13169 = _12432;
@@ -54362,7 +54362,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_13169 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _13171 = _12433;
@@ -54373,7 +54373,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_13171 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _13173 = *(&mut _12637 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -58042,7 +58042,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _14168;
         _14169 = _13968;
         *(&mut _13978.field0 as *mut l_array_4_float) = _14169.field0;
-        _13979 = 0 as libc::c_int as uint32_t;
+        _13979 = 0;
         loop {
             _14170 = _13979;
             _14171 = _13976;
@@ -58477,7 +58477,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             *(_14284 as *mut uint32_t) = llvm_select_u32(
                 ((_14285 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _14287 = _13337;
@@ -58488,7 +58488,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_14287 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _14289 = _13338;
@@ -58499,7 +58499,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_14289 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _14291 = _13339;
@@ -58510,7 +58510,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_14291 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _14293 = *(&mut _13880 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -58704,7 +58704,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _14342;
             _13329 = &mut _13879 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _13330 = 0 as libc::c_int as uint32_t;
+            _13330 = 0;
             _13331 = 1 as libc::c_int as uint32_t;
             _13332 = 2 as libc::c_int as uint32_t;
             _13333 = 3 as libc::c_int as uint32_t;
@@ -58726,7 +58726,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             _14348 = *(&mut _13879 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
             (*(&mut _14005.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_186)).data =
                 _14348;
-            _14006 = 0 as libc::c_int as uint32_t;
+            _14006 = 0;
             loop {
                 _14349 = _14006;
                 _14350 = _13983;
@@ -58818,7 +58818,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 *(_14368 as *mut uint32_t) = llvm_select_u32(
                     ((_14369 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _14371 = _13342;
@@ -58831,7 +58831,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     as *mut uint32_t) = llvm_select_u32(
                     ((_14371 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _14373 = _13343;
@@ -58844,7 +58844,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     as *mut uint32_t) = llvm_select_u32(
                     ((_14373 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _14375 = _13344;
@@ -58857,7 +58857,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     as *mut uint32_t) = llvm_select_u32(
                     ((_14375 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _14377 =
@@ -67224,7 +67224,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _16499;
         _16500 = _16337;
         *(&mut _16345.field0 as *mut l_array_4_float) = _16500.field0;
-        _16346 = 0 as libc::c_int as uint32_t;
+        _16346 = 0;
         loop {
             _16501 = _16346;
             _16502 = _16343;
@@ -67583,7 +67583,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             *(_16594 as *mut uint32_t) = llvm_select_u32(
                 ((_16595 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _16597 = _15846;
@@ -67594,7 +67594,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_16597 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _16599 = _15847;
@@ -67605,7 +67605,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_16599 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _16601 = _15848;
@@ -67616,7 +67616,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_16601 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _16603 = *(&mut _16267 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -67782,7 +67782,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _16644;
             _15838 = &mut _16266 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _15839 = 0 as libc::c_int as uint32_t;
+            _15839 = 0;
             _15840 = 1 as libc::c_int as uint32_t;
             _15841 = 2 as libc::c_int as uint32_t;
             _15842 = 3 as libc::c_int as uint32_t;
@@ -67804,7 +67804,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _16650 = *(&mut _16266 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
             (*(&mut _16369.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_194)).data =
                 _16650;
-            _16370 = 0 as libc::c_int as uint32_t;
+            _16370 = 0;
             loop {
                 _16651 = _16370;
                 _16652 = _16349;
@@ -67896,7 +67896,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 *(_16670 as *mut uint32_t) = llvm_select_u32(
                     ((_16671 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _16673 = _15851;
@@ -67909,7 +67909,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     as *mut uint32_t) = llvm_select_u32(
                     ((_16673 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _16675 = _15852;
@@ -67922,7 +67922,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     as *mut uint32_t) = llvm_select_u32(
                     ((_16675 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _16677 = _15853;
@@ -67935,7 +67935,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     as *mut uint32_t) = llvm_select_u32(
                     ((_16677 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _16679 =

@@ -850,7 +850,7 @@ pub unsafe extern "C" fn _Z22prepare_angular_tablesv() {
     let mut _16: uint32_t = 0;
     let mut _17: uint32_t = 0;
     let mut _18: uint32_t = 0;
-    _1 = 0 as libc::c_int as uint32_t;
+    _1 = 0;
     loop {
         _4 = _1;
         if !(_4 < 32 as libc::c_uint) {
@@ -858,7 +858,7 @@ pub unsafe extern "C" fn _Z22prepare_angular_tablesv() {
         }
         _5 = _1;
         _2 = llvm_add_u32(_5, 1 as libc::c_int as uint32_t) as libc::c_float;
-        _3 = 0 as libc::c_int as uint32_t;
+        _3 = 0;
         loop {
             _6 = _3;
             if !(_6 < 64 as libc::c_uint) {
@@ -1037,7 +1037,7 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
     _41 = _60;
     _61 = _41;
     if _61 > 0 as libc::c_uint {
-        _42 = 0 as libc::c_int as uint32_t;
+        _42 = 0;
         loop {
             _62 = _42;
             _63 = _41;
@@ -1131,7 +1131,7 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
         _46 = _93;
         _94 = _46;
         if _94 > 0 as libc::c_uint {
-            _47 = 0 as libc::c_int as uint32_t;
+            _47 = 0;
             loop {
                 _95 = _47;
                 _96 = _46;
@@ -2071,7 +2071,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
     );
     _362 = _295;
     if _362 > 0 as libc::c_uint {
-        _304 = 0 as libc::c_int as uint32_t;
+        _304 = 0;
         loop {
             _363 = _304;
             _364 = _295;
@@ -2115,7 +2115,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
         }
         _373 = _296;
         if _373 > 0 as libc::c_uint {
-            _306 = 0 as libc::c_int as uint32_t;
+            _306 = 0;
             loop {
                 _374 = _306;
                 _375 = _296;
@@ -2309,7 +2309,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                 *(_427 as *mut uint32_t) = llvm_select_u32(
                     ((_428 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _430 = _192;
@@ -2322,7 +2322,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_430 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _432 = _193;
@@ -2335,7 +2335,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_432 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _434 = _194;
@@ -2348,7 +2348,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_434 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _436 = *(&mut _253 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2633,7 +2633,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                 *(_500 as *mut uint32_t) = llvm_select_u32(
                     ((_501 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _503 = _187;
@@ -2646,7 +2646,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_503 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _505 = _188;
@@ -2659,7 +2659,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_505 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _507 = _189;
@@ -2672,7 +2672,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_507 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _509 = *(&mut _256 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2945,7 +2945,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                 *(_571 as *mut uint32_t) = llvm_select_u32(
                     ((_572 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _574 = _182;
@@ -2958,7 +2958,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_574 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _576 = _183;
@@ -2971,7 +2971,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_576 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _578 = _184;
@@ -2984,7 +2984,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_578 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _580 = *(&mut _259 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -3278,7 +3278,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                 *(_645 as *mut uint32_t) = llvm_select_u32(
                     ((_646 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _648 = _177;
@@ -3291,7 +3291,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_648 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _650 = _178;
@@ -3304,7 +3304,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_650 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _652 = _179;
@@ -3317,7 +3317,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_652 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _654 = *(&mut _262 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -3471,7 +3471,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                 _686 = _306;
                 _306 = llvm_add_u32(_686, 1 as libc::c_int as uint32_t);
             }
-            _345 = 0 as libc::c_int as uint32_t;
+            _345 = 0;
             loop {
                 _687 = _345;
                 _688 = _292;
@@ -3496,7 +3496,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
                     as *mut libc::c_float);
                 _347 = _693 as int32_t as uint32_t;
                 _694 = _347;
-                _695 = _ZN4astcL3maxIiEET_S1_S1_(0 as libc::c_int as uint32_t, _694);
+                _695 = _ZN4astcL3maxIiEET_S1_S1_(0, _694);
                 _347 = _695;
                 _696 = _347;
                 _697 = *(&mut *(_298.array)
@@ -3727,7 +3727,7 @@ pub unsafe extern "C" fn _Z33compute_angular_endpoints_2planesRK21block_size_des
     _818 =
         *(&mut (*(_817 as *mut l_struct_struct_OC_block_size_descriptor)).field5 as *mut uint32_t);
     if _818 > 0 as libc::c_uint {
-        _799 = 0 as libc::c_int as uint32_t;
+        _799 = 0;
         loop {
             _819 = _799;
             _820 = _787;
@@ -5707,7 +5707,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
     if _1345 > 0 as libc::c_uint {
         _1346 = _1319;
         if _1346 > 0 as libc::c_uint {
-            _1322 = 0 as libc::c_int as uint32_t;
+            _1322 = 0;
             loop {
                 _1347 = _1322;
                 _1348 = _1317;
@@ -6398,7 +6398,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _1513;
-            _1331 = 0 as libc::c_int as uint32_t;
+            _1331 = 0;
             loop {
                 _1514 = _1331;
                 _1515 = _1319;
@@ -6449,7 +6449,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                     as *mut libc::c_float) = _1526;
                 _1527 = _1284;
                 *(&mut _1333.field0 as *mut l_array_4_float) = _1527.field0;
-                _1334 = 0 as libc::c_int as uint32_t;
+                _1334 = 0;
                 loop {
                     _1528 = _1334;
                     _1529 = _1317;
@@ -7017,7 +7017,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                 *(_1674 as *mut uint32_t) = llvm_select_u32(
                     ((_1675 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1677 = _984;
@@ -7030,7 +7030,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_1677 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1679 = _985;
@@ -7043,7 +7043,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_1679 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1681 = _986;
@@ -7056,7 +7056,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_1681 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1683 = *(&mut _1129 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8140,7 +8140,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                 *(_1935 as *mut uint32_t) = llvm_select_u32(
                     ((_1936 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1938 = _989;
@@ -8153,7 +8153,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_1938 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1940 = _990;
@@ -8166,7 +8166,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_1940 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1942 = _991;
@@ -8179,7 +8179,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
                     as *mut uint32_t) = llvm_select_u32(
                     ((_1942 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _1944 = *(&mut _1036 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8762,7 +8762,7 @@ unsafe extern "C" fn _ZL23compute_angular_offsetsjPKfjPf(
         __assert_fail(
             &_OC_str_OC_7 as *const l_array_17_uint8_t as *mut libc::c_void,
             &_OC_str_OC_1 as *const l_array_51_uint8_t as *mut libc::c_void,
-            100 as libc::c_int as uint32_t,
+            100,
             &__PRETTY_FUNCTION___OC__ZL23compute_angular_offsetsjPKfjPf as *const l_array_81_uint8_t
                 as *mut libc::c_void,
         );
@@ -11054,7 +11054,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
         _2725 = _2597;
         if _2725 > 0 as libc::c_uint {
             _2282 = &mut _2287 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _2283 = 0 as libc::c_int as uint32_t;
+            _2283 = 0;
             _2284 = 1 as libc::c_int as uint32_t;
             _2285 = 2 as libc::c_int as uint32_t;
             _2286 = 3 as libc::c_int as uint32_t;
@@ -11249,7 +11249,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _2773;
             _2288 = &mut _2293 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _2289 = 0 as libc::c_int as uint32_t;
+            _2289 = 0;
             _2290 = 1 as libc::c_int as uint32_t;
             _2291 = 2 as libc::c_int as uint32_t;
             _2292 = 3 as libc::c_int as uint32_t;
@@ -11270,7 +11270,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _2778;
             _2779 = *(&mut _2293 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
             (*(&mut _2611.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_24)).data = _2779;
-            _2612 = 0 as libc::c_int as uint32_t;
+            _2612 = 0;
             loop {
                 _2780 = _2612;
                 _2781 = _2595;
@@ -11360,7 +11360,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                 *(_2799 as *mut uint32_t) = llvm_select_u32(
                     ((_2800 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2802 = _2276;
@@ -11373,7 +11373,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2802 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2804 = _2277;
@@ -11386,7 +11386,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2804 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2806 = _2278;
@@ -11399,7 +11399,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2806 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2808 = *(&mut _2279 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -12214,7 +12214,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                 &mut _2632 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _2634 = 0 as libc::c_int as uint32_t;
+            _2634 = 0;
             '__3837: loop {
                 _2997 = _2634;
                 _2998 = _2597;
@@ -12734,7 +12734,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                     as *mut libc::c_float) = _3130;
                 _3131 = _2248;
                 *(&mut _2645.field0 as *mut l_array_4_float) = _3131.field0;
-                _2651 = 0 as libc::c_int as uint32_t;
+                _2651 = 0;
                 loop {
                     _3132 = _2651;
                     _3133 = _2595;
@@ -13301,7 +13301,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                     *(_3266 as *mut uint32_t) = llvm_select_u32(
                         ((_3267 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3269 = _2218;
@@ -13314,7 +13314,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                         as *mut uint32_t) = llvm_select_u32(
                         ((_3269 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3271 = _2219;
@@ -13327,7 +13327,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                         as *mut uint32_t) = llvm_select_u32(
                         ((_3271 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3273 = _2220;
@@ -13340,7 +13340,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                         as *mut uint32_t) = llvm_select_u32(
                         ((_3273 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3275 =
@@ -13814,7 +13814,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                     *(_3377 as *mut uint32_t) = llvm_select_u32(
                         ((_3378 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3380 = _2226;
@@ -13827,7 +13827,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                         as *mut uint32_t) = llvm_select_u32(
                         ((_3380 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3382 = _2227;
@@ -13840,7 +13840,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                         as *mut uint32_t) = llvm_select_u32(
                         ((_3382 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3384 = _2228;
@@ -13853,7 +13853,7 @@ unsafe extern "C" fn _ZL33compute_lowest_and_highest_weightjPKfjjS0_PfPiS1_S1_S1
                         as *mut uint32_t) = llvm_select_u32(
                         ((_3384 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _3386 =

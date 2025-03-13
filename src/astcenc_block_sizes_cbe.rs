@@ -795,7 +795,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
     _36 = _32;
     _37 = _33;
     _38 = _34;
-    _40 = 0 as libc::c_int as uint32_t;
+    _40 = 0;
     _67 = _Znwm(29656 as libc::c_int as uint64_t);
     _41 = _67;
     _68 = _35;
@@ -816,7 +816,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
     _77 = _38;
     *(&mut (*(_77 as *mut l_struct_struct_OC_block_size_descriptor)).field3 as *mut uint8_t) =
         llvm_mul_u32(llvm_mul_u32(_74, _75), _76) as uint8_t;
-    _42 = 0 as libc::c_int as uint32_t;
+    _42 = 0;
     loop {
         _78 = _42;
         if !(_78 < 438 as libc::c_uint) {
@@ -900,7 +900,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                     );
                     _48 = -(1 as libc::c_int) as uint32_t;
                     _49 = -(1 as libc::c_int) as uint32_t;
-                    _50 = 0 as libc::c_int as uint32_t;
+                    _50 = 0;
                     loop {
                         _105 = _50;
                         if !(_105 < 12 as libc::c_uint) {
@@ -979,7 +979,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                         as *mut l_struct_struct_OC_decimation_mode))
                         .field2 as *mut uint16_t) = llvm_select_u32(
                         (_126 == 4294967295 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         65535 as libc::c_int as uint32_t,
                     ) as uint16_t;
                     _130 = _49;
@@ -997,7 +997,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                         as *mut l_struct_struct_OC_decimation_mode))
                         .field3 as *mut uint16_t) = llvm_select_u32(
                         (_130 == 4294967295 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         65535 as libc::c_int as uint32_t,
                     ) as uint16_t;
                     _134 = _40;
@@ -1059,8 +1059,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _53 = llvm_add_u32(_148, 1 as libc::c_int as uint32_t);
     }
     _149 = _38;
-    *(&mut (*(_149 as *mut l_struct_struct_OC_block_size_descriptor)).field4 as *mut uint32_t) =
-        0 as libc::c_int as uint32_t;
+    *(&mut (*(_149 as *mut l_struct_struct_OC_block_size_descriptor)).field4 as *mut uint32_t) = 0;
     _150 = _40;
     _151 = _38;
     *(&mut (*(_151 as *mut l_struct_struct_OC_block_size_descriptor)).field5 as *mut uint32_t) =
@@ -1069,7 +1068,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
     _153 = _38;
     *(&mut (*(_153 as *mut l_struct_struct_OC_block_size_descriptor)).field6 as *mut uint32_t) =
         _152;
-    _54 = 0 as libc::c_int as uint32_t;
+    _54 = 0;
     loop {
         _154 = _54;
         if !(_154 < 2048 as libc::c_uint) {
@@ -1086,19 +1085,19 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _157 = _54;
         _54 = llvm_add_u32(_157, 1 as libc::c_int as uint32_t);
     }
-    _55 = 0 as libc::c_int as uint32_t;
+    _55 = 0;
     _158 = memset(
         &mut _56 as *mut l_array_2_uint32_t as *mut libc::c_void,
-        0 as libc::c_int as uint32_t,
+        0,
         8 as libc::c_int as uint64_t,
     );
-    _57 = 0 as libc::c_int as uint32_t;
+    _57 = 0;
     loop {
         _159 = _57;
         if !(_159 < 2 as libc::c_uint) {
             break;
         }
-        _58 = 0 as libc::c_int as uint32_t;
+        _58 = 0;
         loop {
             _160 = _58;
             if !(_160 < 2048 as libc::c_uint) {
@@ -1340,8 +1339,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _57 = llvm_add_u32(_209, 1 as libc::c_int as uint32_t);
     }
     _210 = _38;
-    *(&mut (*(_210 as *mut l_struct_struct_OC_block_size_descriptor)).field7 as *mut uint32_t) =
-        0 as libc::c_int as uint32_t;
+    *(&mut (*(_210 as *mut l_struct_struct_OC_block_size_descriptor)).field7 as *mut uint32_t) = 0;
     _211 = *(&mut *(_56.array)
         .as_mut_ptr()
         .offset(0 as libc::c_int as int64_t as isize) as *mut uint32_t);
@@ -1584,7 +1582,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
     _330 = _297;
     *(&mut (*(_330 as *mut l_struct_struct_OC_block_size_descriptor)).field3 as *mut uint8_t) =
         llvm_mul_u32(_328, _329) as uint8_t;
-    _300 = 0 as libc::c_int as uint32_t;
+    _300 = 0;
     loop {
         _331 = _300;
         if !(_331 < 204 as libc::c_uint) {
@@ -1603,19 +1601,19 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
     _336 = _Z23get_2d_percentile_tablejj(_334, _335);
     _301 = _336;
     _302 = 0 as libc::c_int as libc::c_float;
-    _303 = 0 as libc::c_int as uint32_t;
-    _304 = 0 as libc::c_int as uint32_t;
+    _303 = 0;
+    _304 = 0;
     _337 = memset(
         &mut _305 as *mut l_array_4_uint32_t as *mut libc::c_void,
-        0 as libc::c_int as uint32_t,
+        0,
         16 as libc::c_int as uint64_t,
     );
     _338 = memset(
         &mut _306 as *mut l_array_4_uint32_t as *mut libc::c_void,
-        0 as libc::c_int as uint32_t,
+        0,
         16 as libc::c_int as uint64_t,
     );
-    _307 = 0 as libc::c_int as uint32_t;
+    _307 = 0;
     loop {
         _339 = _307;
         if !(_339 < 2048 as libc::c_uint) {
@@ -1640,14 +1638,14 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
         3 as libc::c_int as uint32_t,
         4 as libc::c_int as uint32_t,
     );
-    _309 = 0 as libc::c_int as uint32_t;
+    _309 = 0;
     loop {
         _346 = _309;
         _347 = _308;
         if !(_346 < _347) {
             break;
         }
-        _310 = 0 as libc::c_int as uint32_t;
+        _310 = 0;
         loop {
             _348 = _310;
             if !(_348 < 2048 as libc::c_uint) {
@@ -2608,7 +2606,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
     if _611 > 0 as libc::c_uint {
         _612 = _551;
         if _612 > 0 as libc::c_uint {
-            _554 = 0 as libc::c_int as uint32_t;
+            _554 = 0;
             loop {
                 _613 = _554;
                 _614 = _552;
@@ -2627,7 +2625,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _617 = _554;
                 _554 = llvm_add_u32(_617, 1 as libc::c_int as uint32_t);
             }
-            _555 = 0 as libc::c_int as uint32_t;
+            _555 = 0;
             loop {
                 _618 = _555;
                 _619 = _551;
@@ -2646,21 +2644,21 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _622 = _555;
                 _555 = llvm_add_u32(_622, 1 as libc::c_int as uint32_t);
             }
-            _556 = 0 as libc::c_int as uint32_t;
+            _556 = 0;
             loop {
                 _623 = _556;
                 _624 = _545;
                 if !(_623 < _624) {
                     break;
                 }
-                _557 = 0 as libc::c_int as uint32_t;
+                _557 = 0;
                 loop {
                     _625 = _557;
                     _626 = _544;
                     if !(_625 < _626) {
                         break;
                     }
-                    _558 = 0 as libc::c_int as uint32_t;
+                    _558 = 0;
                     loop {
                         _627 = _558;
                         _628 = _543;
@@ -2968,7 +2966,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                             .as_mut_ptr()
                             .offset(3 as libc::c_int as int64_t as isize)
                             as *mut uint32_t) = _734;
-                        _583 = 0 as libc::c_int as uint32_t;
+                        _583 = 0;
                         loop {
                             _735 = _583;
                             if !(_735 < 4 as libc::c_uint) {
@@ -3171,7 +3169,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _556 = llvm_add_u32(_787, 1 as libc::c_int as uint32_t);
             }
             _584 = 0 as libc::c_int as uint8_t;
-            _585 = 0 as libc::c_int as uint32_t;
+            _585 = 0;
             loop {
                 _788 = _585;
                 _789 = _551;
@@ -3206,7 +3204,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     as *mut uint8_t);
                 _799 = _ZN4astcL3maxIhEET_S1_S1_(_795, _798);
                 _584 = _799;
-                _586 = 0 as libc::c_int as uint32_t;
+                _586 = 0;
                 loop {
                     _800 = _586;
                     if !(_800 < 4 as libc::c_uint) {
@@ -3257,7 +3255,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _810 = _586;
                     _586 = llvm_add_u32(_810, 1 as libc::c_int as uint32_t);
                 }
-                _587 = 0 as libc::c_int as uint32_t;
+                _587 = 0;
                 loop {
                     _811 = _587;
                     _812 = _550;
@@ -3371,7 +3369,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
             _839 = _549;
             *(&mut (*(_839 as *mut l_struct_struct_OC_decimation_info)).field1 as *mut uint8_t) =
                 _838;
-            _588 = 0 as libc::c_int as uint32_t;
+            _588 = 0;
             loop {
                 _840 = _588;
                 _841 = _552;
@@ -3397,7 +3395,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     .as_mut_ptr()
                     .offset(_847 as uint64_t as int64_t as isize)
                     as *mut uint8_t) = _845 as uint8_t;
-                _590 = 0 as libc::c_int as uint32_t;
+                _590 = 0;
                 loop {
                     _848 = _590;
                     _849 = _589;
@@ -3478,7 +3476,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                         .as_mut_ptr()
                         .offset(_867 as uint64_t as int64_t as isize)
                         as *mut libc::c_float) = 0 as libc::c_int as libc::c_float;
-                    _592 = 0 as libc::c_int as uint32_t;
+                    _592 = 0;
                     loop {
                         _868 = _592;
                         if !(_868 < 4 as libc::c_uint) {
@@ -3662,7 +3660,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     .as_mut_ptr()
                     .offset(_912 as uint64_t as int64_t as isize)
                     as *mut uint8_t) = 0 as libc::c_int as uint8_t;
-                _599 = 0 as libc::c_int as uint32_t;
+                _599 = 0;
                 loop {
                     _913 = _599;
                     if !(_913 < 4 as libc::c_uint) {
@@ -3780,7 +3778,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     .as_mut_ptr()
                     .offset(_939 as uint64_t as int64_t as isize)
                     as *mut uint8_t) = 0 as libc::c_int as uint8_t;
-                _604 = 0 as libc::c_int as uint32_t;
+                _604 = 0;
                 loop {
                     _940 = _604;
                     _941 = _553;
@@ -3972,15 +3970,15 @@ unsafe extern "C" fn _ZL20decode_block_mode_3djRjS_S_RbS_S_(
     _1072 = _1056;
     _1064 = llvm_lshr_u32(_1072, 9 as libc::c_int as uint32_t) & 1 as libc::c_int as uint32_t;
     _1073 = _1056;
-    _1065 = llvm_lshr_u32(_1073, 10 as libc::c_int as uint32_t) & 1 as libc::c_int as uint32_t;
+    _1065 = llvm_lshr_u32(_1073, 10) & 1 as libc::c_int as uint32_t;
     _1074 = _1056;
     _1066 = llvm_lshr_u32(_1074, 5 as libc::c_int as uint32_t) & 3 as libc::c_int as uint32_t;
     _1075 = _1057;
-    *(_1075 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+    *(_1075 as *mut uint32_t) = 0;
     _1076 = _1058;
-    *(_1076 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+    *(_1076 as *mut uint32_t) = 0;
     _1077 = _1059;
-    *(_1077 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+    *(_1077 as *mut uint32_t) = 0;
     _1078 = _1056;
     if _1078 & 3 as libc::c_int as uint32_t != 0 as libc::c_uint {
         _1079 = _1056;
@@ -4020,8 +4018,8 @@ unsafe extern "C" fn _ZL20decode_block_mode_3djRjS_S_RbS_S_(
             if llvm_lshr_u32(_1093, 7 as libc::c_int as uint32_t) & 3 as libc::c_int as uint32_t
                 != 3 as libc::c_uint
             {
-                _1065 = 0 as libc::c_int as uint32_t;
-                _1064 = 0 as libc::c_int as uint32_t;
+                _1065 = 0;
+                _1064 = 0;
             }
             _1094 = _1056;
             match llvm_lshr_u32(_1094, 7 as libc::c_int as uint32_t) & 3 as libc::c_int as uint32_t
@@ -4840,7 +4838,7 @@ unsafe extern "C" fn _ZL20assign_kmeans_texelsR21block_size_descriptor(
             _1183 = _1167;
             _1167 = llvm_add_u8(_1183, 1 as libc::c_int as uint8_t);
         }
-        _1168 = 0 as libc::c_int as uint32_t;
+        _1168 = 0;
         loop {
             _1184 = _1168;
             if !(_1184 < 64 as libc::c_uint) {
@@ -5019,13 +5017,13 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
     _1243 = _1229;
     _1236 = llvm_lshr_u32(_1243, 9 as libc::c_int as uint32_t) & 1 as libc::c_int as uint32_t;
     _1244 = _1229;
-    _1237 = llvm_lshr_u32(_1244, 10 as libc::c_int as uint32_t) & 1 as libc::c_int as uint32_t;
+    _1237 = llvm_lshr_u32(_1244, 10) & 1 as libc::c_int as uint32_t;
     _1245 = _1229;
     _1238 = llvm_lshr_u32(_1245, 5 as libc::c_int as uint32_t) & 3 as libc::c_int as uint32_t;
     _1246 = _1230;
-    *(_1246 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+    *(_1246 as *mut uint32_t) = 0;
     _1247 = _1231;
-    *(_1247 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+    *(_1247 as *mut uint32_t) = 0;
     _1248 = _1229;
     if _1248 & 3 as libc::c_int as uint32_t != 0 as libc::c_uint {
         _1249 = _1229;
@@ -5315,8 +5313,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5327,8 +5324,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5342,8 +5338,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5354,8 +5349,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5369,8 +5363,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5381,8 +5374,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5410,8 +5402,8 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                             _1289 = _1231;
                             *(_1289 as *mut uint32_t) =
                                 llvm_add_u32(_1288, 6 as libc::c_int as uint32_t);
-                            _1237 = 0 as libc::c_int as uint32_t;
-                            _1236 = 0 as libc::c_int as uint32_t;
+                            _1237 = 0;
+                            _1236 = 0;
                             current_block = 6557385158750052051;
                         }
                         _ => {
@@ -5442,8 +5434,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5454,8 +5445,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5469,8 +5459,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5481,8 +5470,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5496,8 +5484,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5508,8 +5495,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5537,8 +5523,8 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                             _1289 = _1231;
                             *(_1289 as *mut uint32_t) =
                                 llvm_add_u32(_1288, 6 as libc::c_int as uint32_t);
-                            _1237 = 0 as libc::c_int as uint32_t;
-                            _1236 = 0 as libc::c_int as uint32_t;
+                            _1237 = 0;
+                            _1236 = 0;
                             current_block = 6557385158750052051;
                         }
                         _ => {
@@ -5569,8 +5555,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5581,8 +5566,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5596,8 +5580,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5608,8 +5591,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5623,8 +5605,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5635,8 +5616,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5664,8 +5644,8 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                             _1289 = _1231;
                             *(_1289 as *mut uint32_t) =
                                 llvm_add_u32(_1288, 6 as libc::c_int as uint32_t);
-                            _1237 = 0 as libc::c_int as uint32_t;
-                            _1236 = 0 as libc::c_int as uint32_t;
+                            _1237 = 0;
+                            _1236 = 0;
                             current_block = 6557385158750052051;
                         }
                         _ => {
@@ -5696,8 +5676,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5708,8 +5687,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5723,8 +5701,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5735,8 +5712,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5750,8 +5726,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                         }
                                         12138441713811679466 => {
                                             _1293 = _1230;
-                                            *(_1293 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1293 as *mut uint32_t) = 10;
                                             _1294 = _1231;
                                             *(_1294 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
@@ -5762,8 +5737,7 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                                             *(_1291 as *mut uint32_t) =
                                                 6 as libc::c_int as uint32_t;
                                             _1292 = _1231;
-                                            *(_1292 as *mut uint32_t) =
-                                                10 as libc::c_int as uint32_t;
+                                            *(_1292 as *mut uint32_t) = 10;
                                             current_block = 6557385158750052051;
                                         }
                                     }
@@ -5791,8 +5765,8 @@ unsafe extern "C" fn _ZL20decode_block_mode_2djRjS_RbS_S_(
                             _1289 = _1231;
                             *(_1289 as *mut uint32_t) =
                                 llvm_add_u32(_1288, 6 as libc::c_int as uint32_t);
-                            _1237 = 0 as libc::c_int as uint32_t;
-                            _1236 = 0 as libc::c_int as uint32_t;
+                            _1237 = 0;
+                            _1236 = 0;
                             current_block = 6557385158750052051;
                         }
                         _ => {
@@ -5961,7 +5935,7 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
         );
         _1360 = -(1 as libc::c_int) as uint32_t;
         _1361 = -(1 as libc::c_int) as uint32_t;
-        _1362 = 0 as libc::c_int as uint32_t;
+        _1362 = 0;
         loop {
             _1377 = _1362;
             if !((_1377 as int32_t) < 12 as libc::c_uint as int32_t) {
@@ -6490,7 +6464,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
             if _1506 > 0 as libc::c_uint {
                 _1507 = _1456;
                 if _1507 > 0 as libc::c_uint {
-                    _1464 = 0 as libc::c_int as uint32_t;
+                    _1464 = 0;
                     loop {
                         _1508 = _1464;
                         _1509 = _1462;
@@ -6510,7 +6484,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1512 = _1464;
                         _1464 = llvm_add_u32(_1512, 1 as libc::c_int as uint32_t);
                     }
-                    _1465 = 0 as libc::c_int as uint32_t;
+                    _1465 = 0;
                     loop {
                         _1513 = _1465;
                         _1514 = _1461;
@@ -6530,14 +6504,14 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1517 = _1465;
                         _1465 = llvm_add_u32(_1517, 1 as libc::c_int as uint32_t);
                     }
-                    _1466 = 0 as libc::c_int as uint32_t;
+                    _1466 = 0;
                     loop {
                         _1518 = _1466;
                         _1519 = _1456;
                         if !(_1518 < _1519) {
                             break;
                         }
-                        _1467 = 0 as libc::c_int as uint32_t;
+                        _1467 = 0;
                         loop {
                             _1520 = _1467;
                             _1521 = _1455;
@@ -6687,7 +6661,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                 ),
                                 _1553,
                             );
-                            _1478 = 0 as libc::c_int as uint32_t;
+                            _1478 = 0;
                             loop {
                                 _1554 = _1478;
                                 if !(_1554 < 4 as libc::c_uint) {
@@ -6887,7 +6861,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1466 = llvm_add_u32(_1605, 1 as libc::c_int as uint32_t);
                     }
                     _1479 = 0 as libc::c_int as uint8_t;
-                    _1480 = 0 as libc::c_int as uint32_t;
+                    _1480 = 0;
                     loop {
                         _1606 = _1480;
                         _1607 = _1461;
@@ -6926,7 +6900,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             as *mut uint8_t);
                         _1617 = _ZN4astcL3maxIhEET_S1_S1_(_1613, _1616);
                         _1479 = _1617;
-                        _1481 = 0 as libc::c_int as uint32_t;
+                        _1481 = 0;
                         loop {
                             _1618 = _1481;
                             _1619 = _1460;
@@ -7107,7 +7081,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                     _1660 = _1459;
                     *(&mut (*(_1660 as *mut l_struct_struct_OC_decimation_info)).field1
                         as *mut uint8_t) = _1659;
-                    _1483 = 0 as libc::c_int as uint32_t;
+                    _1483 = 0;
                     loop {
                         _1661 = _1483;
                         _1662 = _1462;
@@ -7135,7 +7109,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             .as_mut_ptr()
                             .offset(_1668 as uint64_t as int64_t as isize)
                             as *mut uint8_t) = _1666 as uint8_t;
-                        _1485 = 0 as libc::c_int as uint32_t;
+                        _1485 = 0;
                         loop {
                             _1669 = _1485;
                             _1670 = _1484;
@@ -7219,7 +7193,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                 .as_mut_ptr()
                                 .offset(_1688 as uint64_t as int64_t as isize)
                                 as *mut libc::c_float) = 0 as libc::c_int as libc::c_float;
-                            _1487 = 0 as libc::c_int as uint32_t;
+                            _1487 = 0;
                             loop {
                                 _1689 = _1487;
                                 if !(_1689 < 4 as libc::c_uint) {
@@ -7407,7 +7381,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             .as_mut_ptr()
                             .offset(_1733 as uint64_t as int64_t as isize)
                             as *mut uint8_t) = 0 as libc::c_int as uint8_t;
-                        _1494 = 0 as libc::c_int as uint32_t;
+                        _1494 = 0;
                         loop {
                             _1734 = _1494;
                             if !(_1734 < 4 as libc::c_uint) {
@@ -7532,7 +7506,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             .as_mut_ptr()
                             .offset(_1760 as uint64_t as int64_t as isize)
                             as *mut uint8_t) = 0 as libc::c_int as uint8_t;
-                        _1499 = 0 as libc::c_int as uint32_t;
+                        _1499 = 0;
                         loop {
                             _1761 = _1499;
                             _1762 = _1463;

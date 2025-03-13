@@ -1293,7 +1293,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         _214 = _82;
         _215__PHI_TEMPORARY = _214;
     } else {
-        _215__PHI_TEMPORARY = 0 as libc::c_int as uint32_t;
+        _215__PHI_TEMPORARY = 0;
     }
     _215 = _215__PHI_TEMPORARY;
     _85 = _215;
@@ -1309,7 +1309,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         _222 = _83;
         _223__PHI_TEMPORARY = _222;
     } else {
-        _223__PHI_TEMPORARY = 0 as libc::c_int as uint32_t;
+        _223__PHI_TEMPORARY = 0;
     }
     _223 = _223__PHI_TEMPORARY;
     _88 = llvm_add_u32(_220, _223);
@@ -1320,11 +1320,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _227 = _72;
     _228 = (_227 as libc::c_uint & 1 as libc::c_uint) as bool_0;
     _229 = _228 as uint64_t;
-    _90 = llvm_select_u32(
-        _228,
-        1 as libc::c_int as uint32_t,
-        0 as libc::c_int as uint32_t,
-    );
+    _90 = llvm_select_u32(_228, 1 as libc::c_int as uint32_t, 0);
     _230 = _81;
     _91 = _230;
     _231 = _81;
@@ -1375,7 +1371,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 *(&mut (*(_252 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
             _254 = _ZN4astc5clampIiEET_S1_S1_S1_(
                 _251,
-                0 as libc::c_int as uint32_t,
+                0,
                 llvm_sub_u32(_253, 1 as libc::c_int as uint32_t),
             );
             _99 = _254;
@@ -1407,7 +1403,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as *mut uint32_t);
                 _267 = _ZN4astc5clampIiEET_S1_S1_S1_(
                     _264,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     llvm_sub_u32(_266, 1 as libc::c_int as uint32_t),
                 );
                 _102 = _267;
@@ -1431,7 +1427,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint32_t);
                     _276 = _ZN4astc5clampIiEET_S1_S1_S1_(
                         _273,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         llvm_sub_u32(_275, 1 as libc::c_int as uint32_t),
                     );
                     _104 = _276;
@@ -1784,7 +1780,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as *mut uint32_t);
                 _365 = _ZN4astc5clampIiEET_S1_S1_S1_(
                     _362,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     llvm_sub_u32(_364, 1 as libc::c_int as uint32_t),
                 );
                 _115 = _365;
@@ -1816,7 +1812,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint32_t);
                     _378 = _ZN4astc5clampIiEET_S1_S1_S1_(
                         _375,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         llvm_sub_u32(_377, 1 as libc::c_int as uint32_t),
                     );
                     _118 = _378;
@@ -1840,7 +1836,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as *mut uint32_t);
                         _387 = _ZN4astc5clampIiEET_S1_S1_S1_(
                             _384,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             llvm_sub_u32(_386, 1 as libc::c_int as uint32_t),
                         );
                         _120 = _387;
@@ -2251,7 +2247,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint32_t);
                     _492 = _ZN4astc5clampIiEET_S1_S1_S1_(
                         _489,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         llvm_sub_u32(_491, 1 as libc::c_int as uint32_t),
                     );
                     _129 = _492;
@@ -2283,7 +2279,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as *mut uint32_t);
                         _505 = _ZN4astc5clampIiEET_S1_S1_S1_(
                             _502,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             llvm_sub_u32(_504, 1 as libc::c_int as uint32_t),
                         );
                         _132 = _505;
@@ -2310,7 +2306,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                 as *mut uint32_t);
                             _514 = _ZN4astc5clampIiEET_S1_S1_S1_(
                                 _511,
-                                0 as libc::c_int as uint32_t,
+                                0,
                                 llvm_sub_u32(_513, 1 as libc::c_int as uint32_t),
                             );
                             _134 = _514;
@@ -2703,14 +2699,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _595;
     _596 = _21;
     *(&mut _143.field0 as *mut l_array_4_float) = _596.field0;
-    _144 = 0 as libc::c_int as uint32_t;
+    _144 = 0;
     loop {
         _597 = _144;
         _598 = _88;
         if !((_597 as int32_t) < _598 as int32_t) {
             break;
         }
-        _145 = 0 as libc::c_int as uint32_t;
+        _145 = 0;
         loop {
             _599 = _145;
             _600 = _87;
@@ -2733,7 +2729,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _604, _605,
                         ),
                     ),
-                    0 as libc::c_int as uint32_t,
+                    0,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
@@ -2757,7 +2753,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _610, _611,
                         ),
                     ),
-                    0 as libc::c_int as uint32_t,
+                    0,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
@@ -2768,7 +2764,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _613 = _145;
             _145 = llvm_add_u32(_613, 1 as libc::c_int as uint32_t);
         }
-        _146 = 0 as libc::c_int as uint32_t;
+        _146 = 0;
         loop {
             _614 = _146;
             _615 = _86;
@@ -2788,8 +2784,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _617, _618,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as libc::c_int as uint32_t,
-                            _619,
+                            0, _619,
                         ),
                     ),
                     _620,
@@ -2813,8 +2808,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _623, _624,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as libc::c_int as uint32_t,
-                            _625,
+                            0, _625,
                         ),
                     ),
                     _626,
@@ -2833,14 +2827,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     }
     _630 = _72;
     if _630 as libc::c_uint & 1 as libc::c_uint != 0 {
-        _147 = 0 as libc::c_int as uint32_t;
+        _147 = 0;
         loop {
             _631 = _147;
             _632 = _87;
             if !((_631 as int32_t) < _632 as int32_t) {
                 break;
             }
-            _148 = 0 as libc::c_int as uint32_t;
+            _148 = 0;
             loop {
                 _633 = _148;
                 _634 = _86;
@@ -2857,8 +2851,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                0 as libc::c_int as uint32_t,
-                                _636,
+                                0, _636,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _637, _638,
@@ -2883,8 +2876,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                0 as libc::c_int as uint32_t,
-                                _642,
+                                0, _642,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _643, _644,
@@ -3154,7 +3146,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     }
     _717 = _72;
     if _717 as libc::c_uint & 1 as libc::c_uint != 0 {
-        _157 = 0 as libc::c_int as uint32_t;
+        _157 = 0;
         loop {
             _718 = _157;
             _719 = _75;
@@ -3173,7 +3165,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _726 = _158;
             _727 = _79;
             _161 = llvm_add_u32(llvm_add_u32(_726, _727), 1 as libc::c_int as uint32_t);
-            _162 = 0 as libc::c_int as uint32_t;
+            _162 = 0;
             loop {
                 _728 = _162;
                 _729 = _74;
@@ -3192,7 +3184,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _736 = _163;
                 _737 = _79;
                 _166 = llvm_add_u32(llvm_add_u32(_736, _737), 1 as libc::c_int as uint32_t);
-                _167 = 0 as libc::c_int as uint32_t;
+                _167 = 0;
                 loop {
                     _738 = _167;
                     _739 = _73;
@@ -3456,7 +3448,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _157 = llvm_add_u32(_823, 1 as libc::c_int as uint32_t);
         }
     } else {
-        _174 = 0 as libc::c_int as uint32_t;
+        _174 = 0;
         loop {
             _824 = _174;
             _825 = _74;
@@ -3475,7 +3467,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _832 = _175;
             _833 = _79;
             _178 = llvm_add_u32(llvm_add_u32(_832, _833), 1 as libc::c_int as uint32_t);
-            _179 = 0 as libc::c_int as uint32_t;
+            _179 = 0;
             loop {
                 _834 = _179;
                 _835 = _73;
@@ -3503,8 +3495,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as libc::c_int as uint32_t,
-                            _845,
+                            0, _845,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _846, _847,
@@ -3530,8 +3521,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as libc::c_int as uint32_t,
-                            _852,
+                            0, _852,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _853, _854,
@@ -3557,8 +3547,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as libc::c_int as uint32_t,
-                            _859,
+                            0, _859,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _860, _861,
@@ -3584,8 +3573,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0 as libc::c_int as uint32_t,
-                            _866,
+                            0, _866,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _867, _868,
@@ -4243,34 +4231,34 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
         _1209 = _1180;
         _1210__PHI_TEMPORARY = _1209;
     } else {
-        _1210__PHI_TEMPORARY = 0 as libc::c_int as uint32_t;
+        _1210__PHI_TEMPORARY = 0;
     }
     _1210 = _1210__PHI_TEMPORARY;
     _1185 = llvm_add_u32(_1207, _1210);
     _1211 = _1175;
     *(&mut (*(&mut (*(_1211 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field4 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        .field4 as *mut uint32_t) = 0;
     _1212 = _1175;
     *(&mut (*(&mut (*(_1212 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field5 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        .field5 as *mut uint32_t) = 0;
     _1213 = _1175;
     *(&mut (*(&mut (*(_1213 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field6 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        .field6 as *mut uint32_t) = 0;
     _1214 = _1175;
     *(&mut (*(&mut (*(_1214 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field7 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        .field7 as *mut uint32_t) = 0;
     _1215 = _1175;
     *(&mut (*(&mut (*(_1215 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field8 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        .field8 as *mut uint32_t) = 0;
     _1216 = _1175;
     *(&mut (*(&mut (*(_1216 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field9 as *mut uint32_t) = 0 as libc::c_int as uint32_t;
+        .field9 as *mut uint32_t) = 0;
     _1217 = _1175;
     let ref mut fresh0 = *(&mut (*(&mut (*(_1217 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))

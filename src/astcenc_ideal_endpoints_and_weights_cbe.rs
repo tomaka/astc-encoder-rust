@@ -1874,7 +1874,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _58 = _21;
     _68 = _57;
     _37 = &mut _45 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _38 = 0 as libc::c_int as uint32_t;
+    _38 = 0;
     _39 = 1 as libc::c_int as uint32_t;
     _40 = 2 as libc::c_int as uint32_t;
     _41 = 3 as libc::c_int as uint32_t;
@@ -1949,7 +1949,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_91 as *mut uint32_t) = llvm_select_u32(
         ((_92 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _94 = _34;
@@ -1960,7 +1960,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_94 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _96 = _35;
@@ -1971,7 +1971,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_96 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _98 = _36;
@@ -1982,7 +1982,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_98 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _100 = *(&mut _46 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2035,7 +2035,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_113 as *mut uint32_t) = llvm_select_u32(
         ((_114 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _116 = _24;
@@ -2046,7 +2046,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_116 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _118 = _25;
@@ -2057,7 +2057,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_118 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _120 = _26;
@@ -2068,7 +2068,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_120 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _122 = *(&mut _52 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2125,7 +2125,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_135 as *mut uint32_t) = llvm_select_u32(
         ((_136 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _138 = _29;
@@ -2136,7 +2136,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_138 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _140 = _30;
@@ -2147,7 +2147,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_140 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _142 = _31;
@@ -2158,7 +2158,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_142 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _144 = *(&mut _49 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -2997,7 +2997,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
             );
             _296 = 1 as libc::c_int as uint8_t;
             _297 = 0 as libc::c_int as libc::c_float;
-            _298 = 0 as libc::c_int as uint32_t;
+            _298 = 0;
             '__687: loop {
                 _349 = _298;
                 _350 = _293;
@@ -3481,7 +3481,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     .offset(_469 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _309 = _470 as uint32_t;
-                _310 = 0 as libc::c_int as uint32_t;
+                _310 = 0;
                 loop {
                     _471 = _310;
                     _472 = _309;
@@ -4136,7 +4136,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
                     &mut _325 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                     16 as libc::c_int as uint64_t,
                 );
-                _329 = 0 as libc::c_int as uint32_t;
+                _329 = 0;
                 loop {
                     _642 = _329;
                     _643 = _309;
@@ -4283,7 +4283,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_4_compRK11image_block
         __assert_fail(
             &_OC_str_OC_3 as *const l_array_16_uint8_t as *mut libc::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut libc::c_void,
-            530 as libc::c_int as uint32_t,
+            530,
             &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_4_compRK11image_blockRK14partition_infoR21endpoints_and_weights
                 as *const l_array_115_uint8_t as *mut libc::c_void,
         );
@@ -5934,7 +5934,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
             }
             _1001 = 1 as libc::c_int as uint8_t;
             _1002 = 0 as libc::c_int as libc::c_float;
-            _1003 = 0 as libc::c_int as uint32_t;
+            _1003 = 0;
             '__1657: loop {
                 _1156 = _1003;
                 _1157 = _990;
@@ -6426,7 +6426,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                         .offset(_1279 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                 _1014 = _1280 as uint32_t;
-                _1015 = 0 as libc::c_int as uint32_t;
+                _1015 = 0;
                 loop {
                     _1281 = _1015;
                     _1282 = _1014;
@@ -6734,7 +6734,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     _1374 = _1374__PHI_TEMPORARY;
                     _1001 = _1374;
                 }
-                _1026 = 0 as libc::c_int as uint32_t;
+                _1026 = 0;
                 loop {
                     _1375 = _1026;
                     _1376 = _1014;
@@ -7691,7 +7691,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
                     __assert_fail(
                         &_OC_str_OC_11 as *const l_array_41_uint8_t as *mut libc::c_void,
                         &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut libc::c_void,
-                        480 as libc::c_int as uint32_t,
+                        480,
                         &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_3_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                             as *const l_array_129_uint8_t as *mut libc::c_void,
                     );
@@ -7829,11 +7829,8 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
     _1704 = _1699;
     _1705 = _1700;
     _1708 = _1701;
-    _1709 = _ZNK21block_size_descriptor18get_partition_infoEjj(
-        _1708,
-        1 as libc::c_int as uint32_t,
-        0 as libc::c_int as uint32_t,
-    );
+    _1709 =
+        _ZNK21block_size_descriptor18get_partition_infoEjj(_1708, 1 as libc::c_int as uint32_t, 0);
     _1706 = _1709;
     _1710 = _1702;
     _1711 = _ZNK11image_block19is_constant_channelEi(_1710, 3 as libc::c_int as uint32_t);
@@ -7852,7 +7849,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1715,
                         _1716,
                         _1717,
-                        0 as libc::c_int as uint32_t,
+                        0,
                     );
                 } else {
                     _1718 = _1702;
@@ -7873,7 +7870,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                     _1721,
                     _1722,
                     _1723,
-                    0 as libc::c_int as uint32_t,
+                    0,
                 );
             }
             1 => {
@@ -7896,7 +7893,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1728,
                         _1729,
                         _1730,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         2 as libc::c_int as uint32_t,
                     );
                 }
@@ -7930,7 +7927,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                         _1738,
                         _1739,
                         _1740,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         1 as libc::c_int as uint32_t,
                     );
                 }
@@ -7969,7 +7966,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
                     __assert_fail(
                         &_OC_str_OC_2 as *const l_array_11_uint8_t as *mut libc::c_void,
                         &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut libc::c_void,
-                        680 as libc::c_int as uint32_t,
+                        680,
                         &__PRETTY_FUNCTION___OC__Z40compute_ideal_colors_and_weights_2planesRK21block_size_descriptorRK11image_blockjR21endpoints_and_weightsS6_
                             as *const l_array_162_uint8_t as *mut libc::c_void,
                     );
@@ -7981,7 +7978,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
         __assert_fail(
             &_OC_str as *const l_array_40_uint8_t as *mut libc::c_void,
             &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut libc::c_void,
-            640 as libc::c_int as uint32_t,
+            640,
             &__PRETTY_FUNCTION___OC__Z40compute_ideal_colors_and_weights_2planesRK21block_size_descriptorRK11image_blockjR21endpoints_and_weightsS6_
                 as *const l_array_162_uint8_t as *mut libc::c_void,
         );
@@ -8021,7 +8018,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     _1775 = _1772;
     _1776 = _1773;
     _1779 = _1774;
-    _1777 = 0 as libc::c_int as uint32_t;
+    _1777 = 0;
     _1780 = _1775;
     if _1780 >= 2 as libc::c_uint {
         _1781 = _1775;
@@ -8081,7 +8078,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             __assert_fail(
                 &_OC_str_OC_14 as *const l_array_32_uint8_t as *mut libc::c_void,
                 &_OC_str_OC_13 as *const l_array_45_uint8_t as *mut libc::c_void,
-                710 as libc::c_int as uint32_t,
+                710,
                 &__PRETTY_FUNCTION___OC__ZNK21block_size_descriptor18get_partition_infoEjj
                     as *const l_array_98_uint8_t as *mut libc::c_void,
             );
@@ -9770,7 +9767,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
             _2076 = 1 as libc::c_int as uint8_t;
             _2077 = 0 as libc::c_int as libc::c_float;
             _1826 = &mut _1910 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _1827 = 0 as libc::c_int as uint32_t;
+            _1827 = 0;
             _1828 = 1 as libc::c_int as uint32_t;
             _1829 = 2 as libc::c_int as uint32_t;
             _1830 = 3 as libc::c_int as uint32_t;
@@ -9863,7 +9860,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
             *(_2234 as *mut uint32_t) = llvm_select_u32(
                 ((_2235 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2237 = _1818;
@@ -9874,7 +9871,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2237 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2239 = _1819;
@@ -9885,7 +9882,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2239 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2241 = _1820;
@@ -9896,13 +9893,13 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2241 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2243 = *(&mut _1912 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
             (*(&mut _2078.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_22)).data = _2243;
             _1821 = &mut _1911 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-            _1822 = 0 as libc::c_int as uint32_t;
+            _1822 = 0;
             _1823 = 1 as libc::c_int as uint32_t;
             _1824 = 2 as libc::c_int as uint32_t;
             _1825 = 3 as libc::c_int as uint32_t;
@@ -9995,7 +9992,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
             *(_2266 as *mut uint32_t) = llvm_select_u32(
                 ((_2267 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2269 = _1813;
@@ -10006,7 +10003,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2269 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2271 = _1814;
@@ -10017,7 +10014,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2271 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2273 = _1815;
@@ -10028,12 +10025,12 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_2273 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
-                0 as libc::c_int as uint32_t,
+                0,
                 -(1 as libc::c_int) as uint32_t,
             );
             _2275 = *(&mut _1915 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
             (*(&mut _2081.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_18)).data = _2275;
-            _2084 = 0 as libc::c_int as uint32_t;
+            _2084 = 0;
             '__2776: loop {
                 _2276 = _2084;
                 _2277 = _2067;
@@ -10537,7 +10534,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                         .offset(_2396 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                 _2095 = _2397 as uint32_t;
-                _2096 = 0 as libc::c_int as uint32_t;
+                _2096 = 0;
                 loop {
                     _2398 = _2096;
                     _2399 = _2095;
@@ -10852,7 +10849,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_2_compRK11image_block
                     _2485 = _2485__PHI_TEMPORARY;
                     _2076 = _2485;
                 }
-                _2107 = 0 as libc::c_int as uint32_t;
+                _2107 = 0;
                 loop {
                     _2486 = _2107;
                     _2487 = _2095;
@@ -12461,7 +12458,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     }
                 }
                 _2864 = &mut _2872 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _2865 = 0 as libc::c_int as uint32_t;
+                _2865 = 0;
                 _2866 = 1 as libc::c_int as uint32_t;
                 _2867 = 2 as libc::c_int as uint32_t;
                 _2868 = 3 as libc::c_int as uint32_t;
@@ -12564,7 +12561,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                 *(_2988 as *mut uint32_t) = llvm_select_u32(
                     ((_2989 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2991 = _2861;
@@ -12577,7 +12574,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2991 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2993 = _2862;
@@ -12590,7 +12587,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2993 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2995 = _2863;
@@ -12603,7 +12600,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     as *mut uint32_t) = llvm_select_u32(
                     ((_2995 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _2997 = *(&mut _2873 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -12611,7 +12608,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                     _2997;
                 _2914 = 1 as libc::c_int as uint8_t;
                 _2915 = 0 as libc::c_int as libc::c_float;
-                _2916 = 0 as libc::c_int as uint32_t;
+                _2916 = 0;
                 '__3162: loop {
                     _2998 = _2916;
                     _2999 = _2907;
@@ -12630,7 +12627,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         .offset(_3001 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _2919 = _3002 as uint32_t;
-                    _2920 = 0 as libc::c_int as uint32_t;
+                    _2920 = 0;
                     loop {
                         _3003 = _2920;
                         _3004 = _2919;
@@ -12702,7 +12699,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                         _3031 = _3031__PHI_TEMPORARY;
                         _2914 = _3031;
                     }
-                    _2926 = 0 as libc::c_int as uint32_t;
+                    _2926 = 0;
                     loop {
                         _3032 = _2926;
                         _3033 = _2919;
@@ -13125,7 +13122,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
                                 as *mut libc::c_void,
                             &_OC_str_OC_1 as *const l_array_66_uint8_t
                                 as *mut libc::c_void,
-                            190 as libc::c_int as uint32_t,
+                            190,
                             &__PRETTY_FUNCTION___OC__ZL39compute_ideal_colors_and_weights_1_compRK11image_blockRK14partition_infoR21endpoints_and_weightsj
                                 as *const l_array_129_uint8_t as *mut libc::c_void,
                         );
@@ -14025,7 +14022,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
         _3413 =
             *(&mut (*(_3412 as *mut l_struct_struct_OC_decimation_info)).field1 as *mut uint8_t);
         if _3413 as uint32_t as int32_t > 2 as libc::c_uint as int32_t {
-            _3363 = 0 as libc::c_int as uint32_t;
+            _3363 = 0;
             loop {
                 _3414 = _3363;
                 _3415 = _3362;
@@ -14452,7 +14449,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
             _3524 = *(&mut (*(_3523 as *mut l_struct_struct_OC_decimation_info)).field1
                 as *mut uint8_t);
             if _3524 as uint32_t as int32_t > 1 as libc::c_uint as int32_t {
-                _3376 = 0 as libc::c_int as uint32_t;
+                _3376 = 0;
                 loop {
                     _3525 = _3376;
                     _3526 = _3362;
@@ -14888,7 +14885,7 @@ pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and
                     _3376 = llvm_add_u32(_3633, 4 as libc::c_int as uint32_t);
                 }
             } else {
-                _3389 = 0 as libc::c_int as uint32_t;
+                _3389 = 0;
                 loop {
                     _3634 = _3389;
                     _3635 = _3362;
@@ -18901,7 +18898,7 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
         _4753 =
             *(&mut (*(_4752 as *mut l_struct_struct_OC_decimation_info)).field1 as *mut uint8_t);
         if _4753 as uint32_t as int32_t > 2 as libc::c_uint as int32_t {
-            _4670 = 0 as libc::c_int as uint32_t;
+            _4670 = 0;
             loop {
                 _4754 = _4670;
                 _4755 = _4669;
@@ -19714,7 +19711,7 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
             _4963 = *(&mut (*(_4962 as *mut l_struct_struct_OC_decimation_info)).field1
                 as *mut uint8_t);
             if _4963 as uint32_t as int32_t > 1 as libc::c_uint as int32_t {
-                _4694 = 0 as libc::c_int as uint32_t;
+                _4694 = 0;
                 loop {
                     _4964 = _4694;
                     _4965 = _4669;
@@ -20546,7 +20543,7 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
                     _4694 = llvm_add_u32(_5171, 4 as libc::c_int as uint32_t);
                 }
             } else {
-                _4718 = 0 as libc::c_int as uint32_t;
+                _4718 = 0;
                 loop {
                     _5172 = _4718;
                     _5173 = _4669;
@@ -22945,7 +22942,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
         if _5781 > 0 as libc::c_uint {
             _5782 = _5707;
             if _5782 as libc::c_uint & 1 as libc::c_uint != 0 {
-                _5708 = 0 as libc::c_int as uint32_t;
+                _5708 = 0;
                 loop {
                     _5783 = _5708;
                     _5784 = _5705;
@@ -23075,7 +23072,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                     .as_mut_ptr()
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _5817;
-                _5714 = 0 as libc::c_int as uint32_t;
+                _5714 = 0;
                 loop {
                     _5818 = _5714;
                     _5819 = _5706;
@@ -23250,7 +23247,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         current_block = 4494142597197276454;
                         break;
                     }
-                    _5720 = 0 as libc::c_int as uint32_t;
+                    _5720 = 0;
                     loop {
                         _5861 = _5720;
                         _5862 = _5718;
@@ -23958,7 +23955,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         _6043 = *(&mut (*(_6042 as *mut l_struct_struct_OC_decimation_info)).field1
                             as *mut uint8_t);
                         if _6043 as uint32_t as int32_t <= 2 as libc::c_uint as int32_t {
-                            _5733 = 0 as libc::c_int as uint32_t;
+                            _5733 = 0;
                             loop {
                                 _6044 = _5733;
                                 _6045 = _5705;
@@ -24028,7 +24025,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                 _5733 = llvm_add_u32(_6061, 4 as libc::c_int as uint32_t);
                             }
                         } else {
-                            _5736 = 0 as libc::c_int as uint32_t;
+                            _5736 = 0;
                             loop {
                                 _6062 = _5736;
                                 _6063 = _5705;
@@ -24100,7 +24097,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                         }
                         _5739 = 0.25f64 as libc::c_float;
                         _5740 = -(16 as libc::c_int) as libc::c_float;
-                        _5741 = 0 as libc::c_int as uint32_t;
+                        _5741 = 0;
                         loop {
                             _6080 = _5741;
                             _6081 = _5706;
@@ -24322,7 +24319,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
                                 current_block = 3954566916103236036;
                                 break;
                             }
-                            _5748 = 0 as libc::c_int as uint32_t;
+                            _5748 = 0;
                             loop {
                                 _6135 = _5748;
                                 _6136 = _5746;
@@ -28183,7 +28180,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
             _7165 = _6919;
             let ref mut fresh0 = *(_7165 as *mut *mut libc::c_void);
             *fresh0 = _7164;
-            _7015 = 0 as libc::c_int as uint32_t;
+            _7015 = 0;
             loop {
                 _7166 = _7015;
                 _7167 = _7002;
@@ -29539,7 +29536,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 *(_7502 as *mut uint32_t) = llvm_select_u32(
                     ((_7503 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7505 = _6590;
@@ -29552,7 +29549,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7505 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7507 = _6591;
@@ -29565,7 +29562,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7507 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7509 = _6592;
@@ -29578,7 +29575,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7509 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7511 = *(&mut _6867 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -30080,9 +30077,9 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _7627 = _6839;
                 _6660 = &mut _6840 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
                 _6661 = _7627;
-                _6662 = 0 as libc::c_int as uint32_t;
-                _6663 = 0 as libc::c_int as uint32_t;
-                _6664 = 0 as libc::c_int as uint32_t;
+                _6662 = 0;
+                _6663 = 0;
+                _6664 = 0;
                 _7628 = _6660;
                 _7629 = _6661;
                 *(_7628 as *mut uint32_t) = _7629;
@@ -30137,7 +30134,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
             _7642 = _6831;
             let ref mut fresh1 = *(_7642 as *mut *mut libc::c_void);
             *fresh1 = _7641;
-            _7063 = 0 as libc::c_int as uint32_t;
+            _7063 = 0;
             loop {
                 _7643 = _7063;
                 _7644 = _7002;
@@ -31493,7 +31490,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 *(_7979 as *mut uint32_t) = llvm_select_u32(
                     ((_7980 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7982 = _6585;
@@ -31506,7 +31503,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7982 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7984 = _6586;
@@ -31519,7 +31516,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7984 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7986 = _6587;
@@ -31532,7 +31529,7 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                     as *mut uint32_t) = llvm_select_u32(
                     ((_7986 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _7988 = *(&mut _6870 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -32034,9 +32031,9 @@ pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimat
                 _8104 = _6848;
                 _6655 = &mut _6849 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
                 _6656 = _8104;
-                _6657 = 0 as libc::c_int as uint32_t;
-                _6658 = 0 as libc::c_int as uint32_t;
-                _6659 = 0 as libc::c_int as uint32_t;
+                _6657 = 0;
+                _6658 = 0;
+                _6659 = 0;
                 _8105 = _6655;
                 _8106 = _6656;
                 *(_8105 as *mut uint32_t) = _8106;
@@ -32118,7 +32115,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
             _8254 = 8 as libc::c_int as uint32_t;
         }
         6 => {
-            _8254 = 10 as libc::c_int as uint32_t;
+            _8254 = 10;
         }
         7 => {
             _8254 = 12 as libc::c_int as uint32_t;
@@ -32127,7 +32124,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
             _8254 = 16 as libc::c_int as uint32_t;
         }
         9 => {
-            _8254 = 20 as libc::c_int as uint32_t;
+            _8254 = 20;
         }
         10 => {
             _8254 = 24 as libc::c_int as uint32_t;
@@ -32136,7 +32133,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
             _8254 = 32 as libc::c_int as uint32_t;
         }
         12 => {
-            _8254 = 40 as libc::c_int as uint32_t;
+            _8254 = 40;
         }
         13 => {
             _8254 = 48 as libc::c_int as uint32_t;
@@ -32145,7 +32142,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
             _8254 = 64 as libc::c_int as uint32_t;
         }
         15 => {
-            _8254 = 80 as libc::c_int as uint32_t;
+            _8254 = 80;
         }
         16 => {
             _8254 = 96 as libc::c_int as uint32_t;
@@ -32154,7 +32151,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
             _8254 = 128 as libc::c_int as uint32_t;
         }
         18 => {
-            _8254 = 160 as libc::c_int as uint32_t;
+            _8254 = 160;
         }
         19 => {
             _8254 = 192 as libc::c_int as uint32_t;
@@ -32163,7 +32160,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
             _8254 = 256 as libc::c_int as uint32_t;
         }
         _ => {
-            _8254 = 0 as libc::c_int as uint32_t;
+            _8254 = 0;
         }
     }
     _8257 = _8254;
@@ -36187,7 +36184,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
         if _9309 > 0 as libc::c_uint {
             _9310 = _9094;
             if _9310 > 0 as libc::c_uint {
-                _9096 = 0 as libc::c_int as uint32_t;
+                _9096 = 0;
                 loop {
                     _9311 = _9096;
                     _9312 = _9092;
@@ -36435,7 +36432,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9372 = *(&mut (*(_9371 as *mut l_struct_struct_OC_decimation_info)).field1
                         as *mut uint8_t);
                     if _9372 as uint32_t as int32_t <= 2 as libc::c_uint as int32_t {
-                        _9105 = 0 as libc::c_int as uint32_t;
+                        _9105 = 0;
                         loop {
                             _9373 = _9105;
                             _9374 = _9093;
@@ -36513,7 +36510,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             as *mut libc::c_float
                             as *mut libc::c_void;
                     } else {
-                        _9108 = 0 as libc::c_int as uint32_t;
+                        _9108 = 0;
                         loop {
                             _9390 = _9108;
                             _9391 = _9093;
@@ -36701,7 +36698,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                     _9434.field0;
                 _9435 = _8835;
                 *(&mut _9111.field0 as *mut l_array_4_float) = _9435.field0;
-                _9113 = 0 as libc::c_int as uint32_t;
+                _9113 = 0;
                 loop {
                     _9436 = _9113;
                     _9437 = _9094;
@@ -36766,7 +36763,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             current_block = 4462881731932957124;
                             break;
                         }
-                        _9117 = 0 as libc::c_int as uint32_t;
+                        _9117 = 0;
                         loop {
                             _9452 = _9117;
                             _9453 = _9114;
@@ -37771,7 +37768,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                         .offset(2 as libc::c_int as int64_t as isize)
                         as *mut libc::c_float);
                     _9143 = llvm_fadd_f32(llvm_fadd_f32(_9692, _9694), _9696);
-                    _9145 = 0 as libc::c_int as uint32_t;
+                    _9145 = 0;
                     loop {
                         _9697 = _9145;
                         _9698 = _9114;
@@ -39567,7 +39564,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10157 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10159 = _8300;
@@ -39582,7 +39579,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10159 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10161 = _8301;
@@ -39597,7 +39594,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10161 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10163 = _8302;
@@ -39612,7 +39609,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10163 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10165 = *(&mut _8414 as *mut l_struct_struct_OC_vmask4
@@ -41734,7 +41731,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10650 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10652 = _8305;
@@ -41749,7 +41746,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10652 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10654 = _8306;
@@ -41764,7 +41761,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10654 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10656 = _8307;
@@ -41779,7 +41776,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10656 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10658 = *(&mut _8381 as *mut l_struct_struct_OC_vmask4
@@ -41862,7 +41859,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10672 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10674 = _8295;
@@ -41877,7 +41874,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10674 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10676 = _8296;
@@ -41892,7 +41889,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10676 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10678 = _8297;
@@ -41907,7 +41904,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10678 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10680 = *(&mut _8417 as *mut l_struct_struct_OC_vmask4
@@ -41990,7 +41987,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10694 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10696 = _8290;
@@ -42005,7 +42002,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10696 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10698 = _8291;
@@ -42020,7 +42017,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10698 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10700 = _8292;
@@ -42035,7 +42032,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10700 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10702 = *(&mut _8420 as *mut l_struct_struct_OC_vmask4
@@ -42106,7 +42103,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10714 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10716 = _8315;
@@ -42121,7 +42118,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10716 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10718 = _8316;
@@ -42136,7 +42133,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10718 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10720 = _8317;
@@ -42151,7 +42148,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10720 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10722 = *(&mut _8368 as *mut l_struct_struct_OC_vmask4
@@ -42232,7 +42229,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10736 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10738 = _8310;
@@ -42247,7 +42244,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10738 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10740 = _8311;
@@ -42262,7 +42259,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10740 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10742 = _8312;
@@ -42277,7 +42274,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
                             ((_10742 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                                 == 0 as libc::c_uint) as libc::c_int
                                 as bool_0,
-                            0 as libc::c_int as uint32_t,
+                            0,
                             -(1 as libc::c_int) as uint32_t,
                         );
                         _10744 = *(&mut _8371 as *mut l_struct_struct_OC_vmask4
@@ -43946,7 +43943,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
             __assert_fail(
                 &_OC_str_OC_6 as *const l_array_22_uint8_t as *mut libc::c_void,
                 &_OC_str_OC_1 as *const l_array_66_uint8_t as *mut libc::c_void,
-                1160 as libc::c_int as uint32_t,
+                1160,
                 &__PRETTY_FUNCTION___OC__Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_
                     as *const l_array_157_uint8_t as *mut libc::c_void,
             );
@@ -51526,7 +51523,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
         if _13260 > 0 as libc::c_uint {
             _13261 = _12928;
             if _13261 <= 32 as libc::c_uint {
-                _12932 = 0 as libc::c_int as uint32_t;
+                _12932 = 0;
                 loop {
                     _13262 = _12932;
                     _13263 = _12928;
@@ -52009,7 +52006,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _13378 = *(&mut (*(_13377 as *mut l_struct_struct_OC_decimation_info)).field1
                         as *mut uint8_t);
                     if _13378 as uint32_t as int32_t <= 2 as libc::c_uint as int32_t {
-                        _12949 = 0 as libc::c_int as uint32_t;
+                        _12949 = 0;
                         loop {
                             _13379 = _12949;
                             _13380 = _12929;
@@ -52159,7 +52156,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                             as *mut libc::c_float
                             as *mut libc::c_void;
                     } else {
-                        _12954 = 0 as libc::c_int as uint32_t;
+                        _12954 = 0;
                         loop {
                             _13411 = _12954;
                             _13412 = _12929;
@@ -53003,7 +53000,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _13615;
                 _11812 = &mut _11856 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                _11813 = 0 as libc::c_int as uint32_t;
+                _11813 = 0;
                 _11814 = 1 as libc::c_int as uint32_t;
                 _11815 = 2 as libc::c_int as uint32_t;
                 _11816 = 3 as libc::c_int as uint32_t;
@@ -53108,7 +53105,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                 *(_13638 as *mut uint32_t) = llvm_select_u32(
                     ((_13639 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13641 = _11789;
@@ -53121,7 +53118,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     as *mut uint32_t) = llvm_select_u32(
                     ((_13641 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13643 = _11790;
@@ -53134,7 +53131,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     as *mut uint32_t) = llvm_select_u32(
                     ((_13643 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13645 = _11791;
@@ -53147,7 +53144,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     as *mut uint32_t) = llvm_select_u32(
                     ((_13645 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
-                    0 as libc::c_int as uint32_t,
+                    0,
                     -(1 as libc::c_int) as uint32_t,
                 );
                 _13647 =
@@ -53184,7 +53181,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     .offset(2 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float);
                 _12985 = llvm_fadd_f32(llvm_fadd_f32(_13653, _13655), _13657);
-                _12987 = 0 as libc::c_int as uint32_t;
+                _12987 = 0;
                 loop {
                     _13658 = _12987;
                     _13659 = _12959;
@@ -55423,7 +55420,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14244 = _12679;
                     *(&mut _13039.field0 as *mut l_array_4_float) = _14244.field0;
                     _11807 = &mut _11857 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _11808 = 0 as libc::c_int as uint32_t;
+                    _11808 = 0;
                     _11809 = 1 as libc::c_int as uint32_t;
                     _11810 = 2 as libc::c_int as uint32_t;
                     _11811 = 3 as libc::c_int as uint32_t;
@@ -55531,7 +55528,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14267 as *mut uint32_t) = llvm_select_u32(
                         ((_14268 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14270 = _11799;
@@ -55544,7 +55541,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14270 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14272 = _11800;
@@ -55557,7 +55554,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14272 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14274 = _11801;
@@ -55570,7 +55567,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14274 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14276 =
@@ -55650,7 +55647,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14289 as *mut uint32_t) = llvm_select_u32(
                         ((_14290 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14292 = _11734;
@@ -55663,7 +55660,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14292 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14294 = _11735;
@@ -55676,7 +55673,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14294 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14296 = _11736;
@@ -55689,7 +55686,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14296 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14298 =
@@ -55767,7 +55764,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14311 as *mut uint32_t) = llvm_select_u32(
                         ((_14312 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14314 = _11784;
@@ -55780,7 +55777,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14314 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14316 = _11785;
@@ -55793,7 +55790,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14316 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14318 = _11786;
@@ -55806,7 +55803,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14318 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14320 =
@@ -57740,7 +57737,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     _14766 = _13072;
                     _13105 = llvm_fmul_f32(_14765, _14766);
                     _11802 = &mut _11858 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-                    _11803 = 0 as libc::c_int as uint32_t;
+                    _11803 = 0;
                     _11804 = 1 as libc::c_int as uint32_t;
                     _11805 = 2 as libc::c_int as uint32_t;
                     _11806 = 3 as libc::c_int as uint32_t;
@@ -57848,7 +57845,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14789 as *mut uint32_t) = llvm_select_u32(
                         ((_14790 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14792 = _11794;
@@ -57861,7 +57858,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14792 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14794 = _11795;
@@ -57874,7 +57871,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14794 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14796 = _11796;
@@ -57887,7 +57884,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14796 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14798 =
@@ -58125,7 +58122,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14851 as *mut uint32_t) = llvm_select_u32(
                         ((_14852 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14854 = _11744;
@@ -58138,7 +58135,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14854 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14856 = _11745;
@@ -58151,7 +58148,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14856 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14858 = _11746;
@@ -58164,7 +58161,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14858 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14860 =
@@ -58244,7 +58241,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14873 as *mut uint32_t) = llvm_select_u32(
                         ((_14874 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14876 = _11729;
@@ -58257,7 +58254,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14876 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14878 = _11730;
@@ -58270,7 +58267,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14878 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14880 = _11731;
@@ -58283,7 +58280,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14880 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14882 =
@@ -58363,7 +58360,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14895 as *mut uint32_t) = llvm_select_u32(
                         ((_14896 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14898 = _11724;
@@ -58376,7 +58373,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14898 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14900 = _11725;
@@ -58389,7 +58386,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14900 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14902 = _11726;
@@ -58402,7 +58399,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14902 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14904 =
@@ -58470,7 +58467,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14915 as *mut uint32_t) = llvm_select_u32(
                         ((_14916 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14918 = _11779;
@@ -58483,7 +58480,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14918 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14920 = _11780;
@@ -58496,7 +58493,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14920 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14922 = _11781;
@@ -58509,7 +58506,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14922 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14924 =
@@ -58587,7 +58584,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14937 as *mut uint32_t) = llvm_select_u32(
                         ((_14938 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14940 = _11774;
@@ -58600,7 +58597,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14940 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14942 = _11775;
@@ -58613,7 +58610,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14942 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14944 = _11776;
@@ -58626,7 +58623,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14944 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14946 =
@@ -58699,7 +58696,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_14958 as *mut uint32_t) = llvm_select_u32(
                         ((_14959 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14961 = _11769;
@@ -58712,7 +58709,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14961 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14963 = _11770;
@@ -58725,7 +58722,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14963 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14965 = _11771;
@@ -58738,7 +58735,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_14965 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _14967 =
@@ -59491,7 +59488,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15131 as *mut uint32_t) = llvm_select_u32(
                         ((_15132 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15134 = _11719;
@@ -59504,7 +59501,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15134 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15136 = _11720;
@@ -59517,7 +59514,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15136 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15138 = _11721;
@@ -59530,7 +59527,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15138 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15140 =
@@ -59608,7 +59605,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15153 as *mut uint32_t) = llvm_select_u32(
                         ((_15154 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15156 = _11764;
@@ -59621,7 +59618,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15156 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15158 = _11765;
@@ -59634,7 +59631,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15158 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15160 = _11766;
@@ -59647,7 +59644,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15160 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15162 =
@@ -61645,7 +61642,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15604 as *mut uint32_t) = llvm_select_u32(
                         ((_15605 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15607 = _11739;
@@ -61658,7 +61655,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15607 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15609 = _11740;
@@ -61671,7 +61668,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15609 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15611 = _11741;
@@ -61684,7 +61681,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15611 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15613 =
@@ -61764,7 +61761,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15626 as *mut uint32_t) = llvm_select_u32(
                         ((_15627 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15629 = _11714;
@@ -61777,7 +61774,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15629 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15631 = _11715;
@@ -61790,7 +61787,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15631 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15633 = _11716;
@@ -61803,7 +61800,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15633 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15635 =
@@ -61883,7 +61880,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15648 as *mut uint32_t) = llvm_select_u32(
                         ((_15649 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15651 = _11709;
@@ -61896,7 +61893,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15651 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15653 = _11710;
@@ -61909,7 +61906,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15653 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15655 = _11711;
@@ -61922,7 +61919,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15655 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15657 =
@@ -61990,7 +61987,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15668 as *mut uint32_t) = llvm_select_u32(
                         ((_15669 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15671 = _11759;
@@ -62003,7 +62000,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15671 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15673 = _11760;
@@ -62016,7 +62013,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15673 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15675 = _11761;
@@ -62029,7 +62026,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15675 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15677 =
@@ -62107,7 +62104,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15690 as *mut uint32_t) = llvm_select_u32(
                         ((_15691 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15693 = _11754;
@@ -62120,7 +62117,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15693 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15695 = _11755;
@@ -62133,7 +62130,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15695 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15697 = _11756;
@@ -62146,7 +62143,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15697 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15699 =
@@ -62219,7 +62216,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                     *(_15711 as *mut uint32_t) = llvm_select_u32(
                         ((_15712 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15714 = _11749;
@@ -62232,7 +62229,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15714 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15716 = _11750;
@@ -62245,7 +62242,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15716 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15718 = _11751;
@@ -62258,7 +62255,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
                         as *mut uint32_t) = llvm_select_u32(
                         ((_15718 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                             == 0 as libc::c_uint) as libc::c_int as bool_0,
-                        0 as libc::c_int as uint32_t,
+                        0,
                         -(1 as libc::c_int) as uint32_t,
                     );
                     _15720 =

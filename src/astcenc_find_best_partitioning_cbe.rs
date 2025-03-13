@@ -3243,7 +3243,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
             _576 = _449;
             _577 = _ZNK11image_block19is_constant_channelEi(_576, 3 as libc::c_int as uint32_t);
             _458 = (_577 as libc::c_int ^ 1 as libc::c_int) as bool_0;
-            _463 = 0 as libc::c_int as uint32_t;
+            _463 = 0;
             loop {
                 _578 = _463;
                 _579 = _453;
@@ -3265,7 +3265,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
             }
             _583 = _458;
             if _583 as libc::c_uint & 1 as libc::c_uint != 0 {
-                _464 = 0 as libc::c_int as uint32_t;
+                _464 = 0;
                 loop {
                     _584 = _464;
                     _585 = _451;
@@ -3294,7 +3294,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             as *mut l_struct_struct_OC_partition_metrics
                             as *mut libc::c_void,
                     );
-                    _473 = 0 as libc::c_int as uint32_t;
+                    _473 = 0;
                     loop {
                         _594 = _473;
                         _595 = _450;
@@ -4505,7 +4505,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut _490 as *mut libc::c_float as *mut libc::c_void,
                         &mut _491 as *mut libc::c_float as *mut libc::c_void,
                     );
-                    _492 = 0 as libc::c_int as uint32_t;
+                    _492 = 0;
                     loop {
                         _865 = _492;
                         _866 = _450;
@@ -5248,7 +5248,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                     _464 = llvm_add_u32(_1034, 1 as libc::c_int as uint32_t);
                 }
             } else {
-                _507 = 0 as libc::c_int as uint32_t;
+                _507 = 0;
                 loop {
                     _1035 = _507;
                     _1036 = _451;
@@ -5278,7 +5278,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             as *mut l_struct_struct_OC_partition_metrics
                             as *mut libc::c_void,
                     );
-                    _512 = 0 as libc::c_int as uint32_t;
+                    _512 = 0;
                     loop {
                         _1045 = _512;
                         _1046 = _450;
@@ -6497,7 +6497,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut _530 as *mut libc::c_float as *mut libc::c_void,
                         &mut _531 as *mut libc::c_float as *mut libc::c_void,
                     );
-                    _532 = 0 as libc::c_int as uint32_t;
+                    _532 = 0;
                     loop {
                         _1328 = _532;
                         _1329 = _450;
@@ -7228,7 +7228,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                     _507 = llvm_add_u32(_1502, 1 as libc::c_int as uint32_t);
                 }
             }
-            _549 = 0 as libc::c_int as uint32_t;
+            _549 = 0;
             loop {
                 _1503 = _549;
                 _1504 = _453;
@@ -7277,11 +7277,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
             }
             _1520 = memset(
                 &mut _550 as *mut l_array_16_uint64_t as *mut libc::c_void,
-                0 as libc::c_int as uint32_t,
+                0,
                 128 as libc::c_int as uint64_t,
             );
-            _551 = 0 as libc::c_int as uint32_t;
-            _552 = 0 as libc::c_int as uint32_t;
+            _551 = 0;
+            _552 = 0;
             loop {
                 _1521 = _552;
                 _1522 = _453;
@@ -7421,7 +7421,7 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
     _1617 = _1613;
     _1618 = _1614;
     _1619 = _1615;
-    _1622 = 0 as libc::c_int as uint32_t;
+    _1622 = 0;
     loop {
         _1628 = _1622;
         if !(_1628 < 3 as libc::c_uint) {
@@ -7486,7 +7486,7 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
     }
     _1643 = memset(
         &mut _1623 as *mut l_array_4_uint64_t as *mut libc::c_void,
-        0 as libc::c_int as uint32_t,
+        0,
         32 as libc::c_int as uint64_t,
     );
     _1644 = _1616;
@@ -7496,7 +7496,7 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
     _1624 = _1646 as uint32_t;
     _1647 = _1624;
     if _1647 > 0 as libc::c_uint {
-        _1625 = 0 as libc::c_int as uint32_t;
+        _1625 = 0;
         loop {
             _1648 = _1625;
             _1649 = _1624;
@@ -7788,7 +7788,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _1731 = _1694;
     _1741 = _1730;
     _1696 = &mut _1726 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
-    _1697 = 0 as libc::c_int as uint32_t;
+    _1697 = 0;
     _1698 = 1 as libc::c_int as uint32_t;
     _1699 = 2 as libc::c_int as uint32_t;
     _1700 = 3 as libc::c_int as uint32_t;
@@ -7869,7 +7869,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_1764 as *mut uint32_t) = llvm_select_u32(
         ((_1765 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1767 = _1703;
@@ -7880,7 +7880,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1767 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1769 = _1704;
@@ -7891,7 +7891,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1769 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1771 = _1705;
@@ -7902,7 +7902,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1771 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1773 = *(&mut _1727 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -7961,7 +7961,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_1786 as *mut uint32_t) = llvm_select_u32(
         ((_1787 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1789 = _1708;
@@ -7972,7 +7972,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1789 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1791 = _1709;
@@ -7983,7 +7983,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1791 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1793 = _1710;
@@ -7994,7 +7994,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1793 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1795 = *(&mut _1721 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8051,7 +8051,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     *(_1808 as *mut uint32_t) = llvm_select_u32(
         ((_1809 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1811 = _1713;
@@ -8062,7 +8062,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1811 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1813 = _1714;
@@ -8073,7 +8073,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1813 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1815 = _1715;
@@ -8084,7 +8084,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1815 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t == 0 as libc::c_uint)
             as libc::c_int as bool_0,
-        0 as libc::c_int as uint32_t,
+        0,
         -(1 as libc::c_int) as uint32_t,
     );
     _1817 = *(&mut _1716 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
@@ -8247,7 +8247,7 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
         ) as uint64_t as int64_t
             as isize) as *mut libc::c_float);
         if !(llvm_fcmp_oge(_1860 as libc::c_double, _1863 as libc::c_double) != 0) {
-            _1857 = 0 as libc::c_int as uint32_t;
+            _1857 = 0;
             loop {
                 _1864 = _1857;
                 _1865 = _1852;
@@ -8756,7 +8756,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     if _2006 > 0 as libc::c_uint {
         _2007 = _1974;
         if _2007 > 0 as libc::c_uint {
-            _1976 = 0 as libc::c_int as uint32_t;
+            _1976 = 0;
             _2008 = _1973;
             _1978 = llvm_urem_u32(145897 as libc::c_int as uint32_t, _2008);
             _2009 = _1972;
@@ -8775,7 +8775,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
             _2015 = _1976;
             _1976 = llvm_add_u32(_2015, 1 as libc::c_int as uint32_t);
             _1980 = 0 as libc::c_int as libc::c_float;
-            _1981 = 0 as libc::c_int as uint32_t;
+            _1981 = 0;
             loop {
                 _2016 = _1981;
                 _2017 = _1973;
@@ -9093,7 +9093,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     .offset(_2094 as uint64_t as int64_t as isize)
                     as *mut libc::c_float);
                 _1994 = llvm_fmul_f32(_2093, _2095);
-                _1978 = 0 as libc::c_int as uint32_t;
+                _1978 = 0;
                 loop {
                     _2096 = _1978;
                     _2097 = _1973;
@@ -9147,7 +9147,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     break;
                 }
                 _1980 = 0 as libc::c_int as libc::c_float;
-                _1996 = 0 as libc::c_int as uint32_t;
+                _1996 = 0;
                 loop {
                     _2116 = _1996;
                     _2117 = _1973;
@@ -9817,10 +9817,10 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 .field0 as *mut l_array_4_float) = _2302.field0;
             _2303 = memset(
                 &mut _2269 as *mut l_array_4_uint8_t as *mut libc::c_void,
-                0 as libc::c_int as uint32_t,
+                0,
                 4 as libc::c_int as uint64_t,
             );
-            _2270 = 0 as libc::c_int as uint32_t;
+            _2270 = 0;
             loop {
                 _2304 = _2270;
                 _2305 = _2264;
@@ -9940,7 +9940,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 _2339 = _2270;
                 _2270 = llvm_add_u32(_2339, 1 as libc::c_int as uint32_t);
             }
-            _2273 = 0 as libc::c_int as uint32_t;
+            _2273 = 0;
             loop {
                 _2340 = _2273;
                 _2341 = _2265;
@@ -10327,10 +10327,10 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
         if _2448 > 0 as libc::c_uint {
             _2449 = memset(
                 &mut _2431 as *mut l_array_4_uint8_t as *mut libc::c_void,
-                0 as libc::c_int as uint32_t,
+                0,
                 4 as libc::c_int as uint64_t,
             );
-            _2432 = 0 as libc::c_int as uint32_t;
+            _2432 = 0;
             loop {
                 _2450 = _2432;
                 _2451 = _2427;
@@ -10339,12 +10339,12 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                 }
                 _2452 = _ZNSt14numeric_limitsIfE3maxEv();
                 _2433 = _2452;
-                _2434 = 0 as libc::c_int as uint32_t;
+                _2434 = 0;
                 _2453 = _2426;
                 _2454 = _2432;
                 _2455 = _ZNK11image_block5texelEj(_2453, _2454);
                 *(&mut _2435.field0 as *mut l_array_4_float) = _2455.field0;
-                _2436 = 0 as libc::c_int as uint32_t;
+                _2436 = 0;
                 loop {
                     _2456 = _2436;
                     _2457 = _2428;
@@ -10667,7 +10667,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
             }
             loop {
                 _2445 = 0 as libc::c_int as uint8_t;
-                _2446 = 0 as libc::c_int as uint32_t;
+                _2446 = 0;
                 loop {
                     _2536 = _2446;
                     _2537 = _2428;
@@ -10853,7 +10853,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
     if _2605 > 0 as libc::c_uint {
         _2606 = _2595;
         if _2606 == 2 as libc::c_uint {
-            _2599 = 0 as libc::c_int as uint32_t;
+            _2599 = 0;
             loop {
                 _2607 = _2599;
                 _2608 = _2598;
@@ -10927,7 +10927,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                                     as *mut libc::c_void,
                                 &_OC_str_OC_1 as *const l_array_61_uint8_t
                                     as *mut libc::c_void,
-                                380 as libc::c_int as uint32_t,
+                                380,
                                 &__PRETTY_FUNCTION___OC__ZL29count_partition_mismatch_bitsRK21block_size_descriptorjPKmPh
                                     as *const l_array_109_uint8_t as *mut libc::c_void,
                             );
@@ -10937,7 +10937,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
         } else {
             _2624 = _2595;
             if _2624 == 3 as libc::c_uint {
-                _2600 = 0 as libc::c_int as uint32_t;
+                _2600 = 0;
                 loop {
                     _2625 = _2600;
                     _2626 = _2598;
@@ -11019,7 +11019,7 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
                     },
                 }
             } else {
-                _2601 = 0 as libc::c_int as uint32_t;
+                _2601 = 0;
                 loop {
                     _2642 = _2601;
                     _2643 = _2598;
@@ -11170,10 +11170,10 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
     if _2713 > 0 as libc::c_uint {
         _2714 = memset(
             &mut _2706 as *mut l_array_64_uint16_t as *mut libc::c_void,
-            0 as libc::c_int as uint32_t,
+            0,
             128 as libc::c_int as uint64_t,
         );
-        _2707 = 0 as libc::c_int as uint32_t;
+        _2707 = 0;
         loop {
             _2715 = _2707;
             _2716 = _2703;
@@ -11194,7 +11194,7 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
             _2707 = llvm_add_u32(_2722, 1 as libc::c_int as uint32_t);
         }
         _2708 = 0 as libc::c_int as uint16_t;
-        _2709 = 0 as libc::c_int as uint32_t;
+        _2709 = 0;
         loop {
             _2723 = _2709;
             _2724 = _2702;
@@ -11218,7 +11218,7 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
             _2731 = _2709;
             _2709 = llvm_add_u32(_2731, 1 as libc::c_int as uint32_t);
         }
-        _2711 = 0 as libc::c_int as uint32_t;
+        _2711 = 0;
         loop {
             _2732 = _2711;
             _2733 = _2703;
