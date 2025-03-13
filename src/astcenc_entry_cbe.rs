@@ -1890,13 +1890,9 @@ unsafe extern "C" fn llvm_OC_umul_OC_with_OC_overflow_OC_i64(
         field0: 0,
         field1: 0,
     };
-    r.field1 = LLVMMul_uov(
-        (8 as libc::c_int as libc::c_ulong)
-            .wrapping_mul(::core::mem::size_of::<uint64_t>() as libc::c_ulong),
-        &mut a,
-        &mut b,
-        &mut r.field0,
-    ) as bool_0;
+    let (out, carry) = a.overflowing_mul(b);
+    r.field0 = out;
+    r.field1 = carry as bool_0;
     return r;
 }
 #[no_mangle]
