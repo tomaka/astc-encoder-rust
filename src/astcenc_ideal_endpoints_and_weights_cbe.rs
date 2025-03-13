@@ -44102,7 +44102,7 @@ unsafe extern "C" fn _ZN4astcL7clamp1fEf(mut _11294: libc::c_float) -> libc::c_f
     let mut _11297: libc::c_float = 0.;
     _11295 = _11294;
     _11296 = _11295;
-    _11297 = _ZN4astc5clampIfEET_S1_S1_S1_(
+    _11297 = super::astcenc_color_quantize_cbe::_ZN4astc5clampIfEET_S1_S1_S1_(
         _11296,
         0 as libc::c_int as libc::c_float,
         1 as libc::c_int as libc::c_float,
@@ -63920,47 +63920,6 @@ pub unsafe extern "C" fn _ZSt3maxIiERKT_S2_S2_(
     }
     _16273 = _16264;
     return _16273;
-}
-#[no_mangle]
-#[inline(never)]
-pub unsafe extern "C" fn _ZN4astc5clampIfEET_S1_S1_S1_(
-    mut _16277: libc::c_float,
-    mut _16278: libc::c_float,
-    mut _16279: libc::c_float,
-) -> libc::c_float {
-    let mut _16280: libc::c_float = 0.;
-    let mut _16281: libc::c_float = 0.;
-    let mut _16282: libc::c_float = 0.;
-    let mut _16283: libc::c_float = 0.;
-    let mut _16284: libc::c_float = 0.;
-    let mut _16285: libc::c_float = 0.;
-    let mut _16286: libc::c_float = 0.;
-    let mut _16287: libc::c_float = 0.;
-    let mut _16288: libc::c_float = 0.;
-    let mut _16289: libc::c_float = 0.;
-    let mut _16290: libc::c_float = 0.;
-    let mut _16291: libc::c_float = 0.;
-    _16281 = _16277;
-    _16282 = _16278;
-    _16283 = _16279;
-    _16284 = _16281;
-    _16285 = _16283;
-    if llvm_fcmp_ogt(_16284 as libc::c_double, _16285 as libc::c_double) != 0 {
-        _16286 = _16283;
-        _16280 = _16286;
-    } else {
-        _16287 = _16281;
-        _16288 = _16282;
-        if llvm_fcmp_ogt(_16287 as libc::c_double, _16288 as libc::c_double) != 0 {
-            _16289 = _16281;
-            _16280 = _16289;
-        } else {
-            _16290 = _16282;
-            _16280 = _16290;
-        }
-    }
-    _16291 = _16280;
-    return _16291;
 }
 #[no_mangle]
 #[inline(never)]
