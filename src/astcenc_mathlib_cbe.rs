@@ -30,8 +30,8 @@ pub unsafe extern "C" fn _ZN4astc9rand_initEPm(mut _1: *mut libc::c_void) {
     _3 = _2;
     *(_3 as *mut uint64_t) = -(362010416112341909 as libc::c_long) as uint64_t;
     _4 = _2;
-    *(&mut *(_4 as *mut uint64_t).offset(1 as libc::c_int as int64_t as isize)
-        as *mut uint64_t) = -(1030452625173160591 as libc::c_long) as uint64_t;
+    *(&mut *(_4 as *mut uint64_t).offset(1 as libc::c_int as int64_t as isize) as *mut uint64_t) =
+        -(1030452625173160591 as libc::c_long) as uint64_t;
 }
 #[no_mangle]
 #[inline(never)]
@@ -80,8 +80,8 @@ pub unsafe extern "C" fn _ZN4astc4randEPm(mut _5: *mut libc::c_void) -> uint64_t
     _23 = _8;
     _24 = _ZL4rotlmi(_23, 37 as libc::c_int as uint32_t);
     _25 = _6;
-    *(&mut *(_25 as *mut uint64_t).offset(1 as libc::c_int as int64_t as isize)
-        as *mut uint64_t) = _24;
+    *(&mut *(_25 as *mut uint64_t).offset(1 as libc::c_int as int64_t as isize) as *mut uint64_t) =
+        _24;
     _26 = _9;
     return _26;
 }

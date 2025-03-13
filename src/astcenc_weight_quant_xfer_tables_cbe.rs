@@ -1321,10 +1321,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_12 {
                             field0: {
                                 let mut init = l_array_8_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 8],
-                                        &mut [uint8_t; 8],
-                                    >(b"\0\t\x12\x1B%.7@"),
+                                    array: *::core::mem::transmute::<&[u8; 8], &mut [uint8_t; 8]>(
+                                        b"\0\t\x12\x1B%.7@",
+                                    ),
                                 };
                                 init
                             },
@@ -1366,10 +1365,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_12 {
                             field0: {
                                 let mut init = l_array_8_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 8],
-                                        &mut [uint8_t; 8],
-                                    >(b"\0\x01\x02\x03\x04\x05\x06\x07"),
+                                    array: *::core::mem::transmute::<&[u8; 8], &mut [uint8_t; 8]>(
+                                        b"\0\x01\x02\x03\x04\x05\x06\x07",
+                                    ),
                                 };
                                 init
                             },
@@ -1411,10 +1409,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_12 {
                             field0: {
                                 let mut init = l_array_8_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 8],
-                                        &mut [uint8_t; 8],
-                                    >(b"\0\t\x12\x1B%.7@"),
+                                    array: *::core::mem::transmute::<&[u8; 8], &mut [uint8_t; 8]>(
+                                        b"\0\t\x12\x1B%.7@",
+                                    ),
                                 };
                                 init
                             },
@@ -1533,10 +1530,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_14 {
                             field0: {
                                 let mut init = l_array_10_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 10],
-                                        &mut [uint8_t; 10],
-                                    >(b"\0\x07\x0E\x15\x1C$+29@"),
+                                    array: *::core::mem::transmute::<&[u8; 10], &mut [uint8_t; 10]>(
+                                        b"\0\x07\x0E\x15\x1C$+29@",
+                                    ),
                                 };
                                 init
                             },
@@ -1576,10 +1572,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_14 {
                             field0: {
                                 let mut init = l_array_10_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 10],
-                                        &mut [uint8_t; 10],
-                                    >(b"\0\x02\x04\x06\x08\t\x07\x05\x03\x01"),
+                                    array: *::core::mem::transmute::<&[u8; 10], &mut [uint8_t; 10]>(
+                                        b"\0\x02\x04\x06\x08\t\x07\x05\x03\x01",
+                                    ),
                                 };
                                 init
                             },
@@ -1619,10 +1614,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_14 {
                             field0: {
                                 let mut init = l_array_10_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 10],
-                                        &mut [uint8_t; 10],
-                                    >(b"\0@\x079\x0E2\x15+\x1C$"),
+                                    array: *::core::mem::transmute::<&[u8; 10], &mut [uint8_t; 10]>(
+                                        b"\0@\x079\x0E2\x15+\x1C$",
+                                    ),
                                 };
                                 init
                             },
@@ -1739,10 +1733,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_16 {
                             field0: {
                                 let mut init = l_array_12_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 12],
-                                        &mut [uint8_t; 12],
-                                    >(b"\0\x05\x0B\x11\x17\x1C$)/5;@"),
+                                    array: *::core::mem::transmute::<&[u8; 12], &mut [uint8_t; 12]>(
+                                        b"\0\x05\x0B\x11\x17\x1C$)/5;@",
+                                    ),
                                 };
                                 init
                             },
@@ -1780,10 +1773,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_16 {
                             field0: {
                                 let mut init = l_array_12_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 12],
-                                        &mut [uint8_t; 12],
-                                    >(b"\0\x04\x08\x02\x06\n\x0B\x07\x03\t\x05\x01"),
+                                    array: *::core::mem::transmute::<&[u8; 12], &mut [uint8_t; 12]>(
+                                        b"\0\x04\x08\x02\x06\n\x0B\x07\x03\t\x05\x01",
+                                    ),
                                 };
                                 init
                             },
@@ -1821,10 +1813,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_16 {
                             field0: {
                                 let mut init = l_array_12_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 12],
-                                        &mut [uint8_t; 12],
-                                    >(b"\0@\x11/\x05;\x17)\x0B5\x1C$"),
+                                    array: *::core::mem::transmute::<&[u8; 12], &mut [uint8_t; 12]>(
+                                        b"\0@\x11/\x05;\x17)\x0B5\x1C$",
+                                    ),
                                 };
                                 init
                             },
@@ -1939,10 +1930,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_18 {
                             field0: {
                                 let mut init = l_array_16_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 16],
-                                        &mut [uint8_t; 16],
-                                    >(b"\0\x04\x08\x0C\x11\x15\x19\x1D#'+/48<@"),
+                                    array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(
+                                        b"\0\x04\x08\x0C\x11\x15\x19\x1D#'+/48<@",
+                                    ),
                                 };
                                 init
                             },
@@ -1976,10 +1966,7 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_18 {
                             field0: {
                                 let mut init = l_array_16_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 16],
-                                        &mut [uint8_t; 16],
-                                    >(
+                                    array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(
                                         b"\0\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0B\x0C\r\x0E\x0F",
                                     ),
                                 };
@@ -2015,10 +2002,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_18 {
                             field0: {
                                 let mut init = l_array_16_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 16],
-                                        &mut [uint8_t; 16],
-                                    >(b"\0\x04\x08\x0C\x11\x15\x19\x1D#'+/48<@"),
+                                    array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(
+                                        b"\0\x04\x08\x0C\x11\x15\x19\x1D#'+/48<@",
+                                    ),
                                 };
                                 init
                             },
@@ -2129,10 +2115,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_20 {
                             field0: {
                                 let mut init = l_array_20_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 20],
-                                        &mut [uint8_t; 20],
-                                    >(b"\0\x03\x06\t\r\x10\x13\x17\x1A\x1D#&)-037:=@"),
+                                    array: *::core::mem::transmute::<&[u8; 20], &mut [uint8_t; 20]>(
+                                        b"\0\x03\x06\t\r\x10\x13\x17\x1A\x1D#&)-037:=@",
+                                    ),
                                 };
                                 init
                             },
@@ -2197,10 +2182,9 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                         let mut init = l_unnamed_20 {
                             field0: {
                                 let mut init = l_array_20_uint8_t {
-                                    array: *::core::mem::transmute::<
-                                        &[u8; 20],
-                                        &mut [uint8_t; 20],
-                                    >(b"\0@\x100\x03=\x13-\x06:\x17)\t7\x1A&\r3\x1D#"),
+                                    array: *::core::mem::transmute::<&[u8; 20], &mut [uint8_t; 20]>(
+                                        b"\0@\x100\x03=\x13-\x06:\x17)\t7\x1A&\r3\x1D#",
+                                    ),
                                 };
                                 init
                             },

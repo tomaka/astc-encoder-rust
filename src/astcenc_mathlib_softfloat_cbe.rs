@@ -375,9 +375,7 @@ unsafe extern "C" fn llvm_neg_u32(mut a: int32_t) -> uint32_t {
 #[inline(never)]
 pub unsafe extern "C" fn _Z13sf16_to_floatt(mut _1: uint16_t) -> libc::c_float {
     let mut _2: uint16_t = 0;
-    let mut _3: l_struct_union_OC_if32 = l_struct_union_OC_if32 {
-        field0: 0,
-    };
+    let mut _3: l_struct_union_OC_if32 = l_struct_union_OC_if32 { field0: 0 };
     let mut _4: uint16_t = 0;
     let mut _5: uint32_t = 0;
     let mut _6: libc::c_float = 0.;
@@ -425,12 +423,10 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _17 = *(&*(_ZZL12sf16_to_sf32tE3tbl.array)
         .as_ptr()
         .offset(
-            (llvm_lshr_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_16, 10 as libc::c_int as uint32_t) as uint64_t as int64_t
-                as isize,
+            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                _16,
+                10 as libc::c_int as uint32_t,
+            ) as uint64_t as int64_t as isize,
         ) as *const uint32_t as *mut uint32_t);
     _11 = _17;
     _18 = _10;
@@ -467,8 +463,7 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
                 _8 = llvm_add_u32(
                     llvm_add_u32(
                         llvm_lshr_u32(_32, 8 as libc::c_int as uint32_t),
-                        llvm_sub_u32(133 as libc::c_int as uint32_t, _33)
-                            << 23 as libc::c_int,
+                        llvm_sub_u32(133 as libc::c_int as uint32_t, _33) << 23 as libc::c_int,
                     ),
                     _34,
                 );
@@ -482,9 +477,7 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
 #[inline(never)]
 pub unsafe extern "C" fn _Z13float_to_sf16f(mut _43: libc::c_float) -> uint16_t {
     let mut _44: libc::c_float = 0.;
-    let mut _45: l_struct_union_OC_if32 = l_struct_union_OC_if32 {
-        field0: 0,
-    };
+    let mut _45: l_struct_union_OC_if32 = l_struct_union_OC_if32 { field0: 0 };
     let mut _46: libc::c_float = 0.;
     let mut _47: uint32_t = 0;
     let mut _48: uint16_t = 0;
@@ -554,12 +547,10 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
     _59 = *(&*(_ZZL12sf32_to_sf16j9roundmodeE3tab.array)
         .as_ptr()
         .offset(
-            (llvm_lshr_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_58, 23 as libc::c_int as uint32_t) as uint64_t as int64_t
-                as isize,
+            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                _58,
+                23 as libc::c_int as uint32_t,
+            ) as uint64_t as int64_t as isize,
         ) as *const uint8_t as *mut uint8_t);
     _55 = llvm_add_u32(_57, _59 as uint32_t);
     _60 = _55;
@@ -582,10 +573,8 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
         }
         0 => {
             _67 = _52;
-            _51 = llvm_lshr_u32(
-                llvm_neg_u32(_67 as int32_t),
-                31 as libc::c_int as uint32_t,
-            ) as uint16_t;
+            _51 = llvm_lshr_u32(llvm_neg_u32(_67 as int32_t), 31 as libc::c_int as uint32_t)
+                as uint16_t;
         }
         6 => {
             _68 = _56;
@@ -595,16 +584,15 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
                 32768 as libc::c_int as uint32_t,
             ) as uint16_t;
         }
-        1 | 2 | 3 | 4 | 5 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19
-        | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 => {
+        1 | 2 | 3 | 4 | 5 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 40
+        | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 => {
             _70 = _56;
             _51 = _70 as uint16_t;
         }
         30 | 31 | 32 | 34 | 35 | 36 | 37 | 39 => {
             _71 = _52;
             _72 = _56;
-            _51 = llvm_lshr_u32(llvm_add_u32(_71, _72), 13 as libc::c_int as uint32_t)
-                as uint16_t;
+            _51 = llvm_lshr_u32(llvm_add_u32(_71, _72), 13 as libc::c_int as uint32_t) as uint16_t;
         }
         33 | 38 => {
             _73 = _52;
@@ -614,8 +602,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _76 = _54;
             _54 = llvm_add_u32(
                 _76,
-                llvm_lshr_u32(_75, 13 as libc::c_int as uint32_t)
-                    & 1 as libc::c_int as uint32_t,
+                llvm_lshr_u32(_75, 13 as libc::c_int as uint32_t) & 1 as libc::c_int as uint32_t,
             );
             _77 = _54;
             _51 = llvm_lshr_u32(_77, 13 as libc::c_int as uint32_t) as uint16_t;
@@ -624,8 +611,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _78 = _52;
             _54 = llvm_sub_u32(
                 126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_78, 23 as libc::c_int as uint32_t)
-                    & 255 as libc::c_int as uint32_t,
+                llvm_lshr_u32(_78, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
             );
             _79 = _52;
             _80 = _54;
@@ -642,8 +628,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _82 = _52;
             _54 = llvm_sub_u32(
                 126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_82, 23 as libc::c_int as uint32_t)
-                    & 255 as libc::c_int as uint32_t,
+                llvm_lshr_u32(_82, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
             );
             _83 = _52;
             _84 = _54;
@@ -661,8 +646,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _87 = _52;
             _54 = llvm_sub_u32(
                 126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_87, 23 as libc::c_int as uint32_t)
-                    & 255 as libc::c_int as uint32_t,
+                llvm_lshr_u32(_87, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
             );
             _88 = _52;
             _89 = _54;
@@ -680,8 +664,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _92 = _52;
             _54 = llvm_sub_u32(
                 126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_92, 23 as libc::c_int as uint32_t)
-                    & 255 as libc::c_int as uint32_t,
+                llvm_lshr_u32(_92, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
             );
             _93 = _52;
             _94 = _54;
@@ -733,17 +716,13 @@ unsafe extern "C" fn _ZL5clz32j(mut _110: uint32_t) -> uint32_t {
     }
     _119 = _112;
     _120 = _111;
-    _121 = *(&mut *((*(&_ZL9clz_table as *const l_unnamed_1 as *mut l_array_256_uint8_t))
-        .array)
+    _121 = *(&mut *((*(&_ZL9clz_table as *const l_unnamed_1 as *mut l_array_256_uint8_t)).array)
         .as_mut_ptr()
         .offset(_120 as uint64_t as int64_t as isize) as *mut uint8_t);
     return llvm_add_u32(_119, _121 as uint32_t);
 }
 #[inline(never)]
-unsafe extern "C" fn _ZL12rtup_shift32jj(
-    mut _126: uint32_t,
-    mut _127: uint32_t,
-) -> uint32_t {
+unsafe extern "C" fn _ZL12rtup_shift32jj(mut _126: uint32_t, mut _127: uint32_t) -> uint32_t {
     let mut _128: uint32_t = 0;
     let mut _129: uint32_t = 0;
     let mut _130: uint32_t = 0;
@@ -770,10 +749,7 @@ unsafe extern "C" fn _ZL12rtup_shift32jj(
     return _137;
 }
 #[inline(never)]
-unsafe extern "C" fn _ZL12rtna_shift32jj(
-    mut _138: uint32_t,
-    mut _139: uint32_t,
-) -> uint32_t {
+unsafe extern "C" fn _ZL12rtna_shift32jj(mut _138: uint32_t, mut _139: uint32_t) -> uint32_t {
     let mut _140: uint32_t = 0;
     let mut _141: uint32_t = 0;
     let mut _142: uint32_t = 0;
@@ -800,10 +776,7 @@ unsafe extern "C" fn _ZL12rtna_shift32jj(
     return _148;
 }
 #[inline(never)]
-unsafe extern "C" fn _ZL12rtne_shift32jj(
-    mut _149: uint32_t,
-    mut _150: uint32_t,
-) -> uint32_t {
+unsafe extern "C" fn _ZL12rtne_shift32jj(mut _149: uint32_t, mut _150: uint32_t) -> uint32_t {
     let mut _151: uint32_t = 0;
     let mut _152: uint32_t = 0;
     let mut _153: uint32_t = 0;

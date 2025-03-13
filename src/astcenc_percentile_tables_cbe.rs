@@ -7464,10 +7464,7 @@ unsafe extern "C" fn llvm_add_u32(mut a: uint32_t, mut b: uint32_t) -> uint32_t 
     return r;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fdiv_f32(
-    mut a: libc::c_float,
-    mut b: libc::c_float,
-) -> libc::c_float {
+unsafe extern "C" fn llvm_fdiv_f32(mut a: libc::c_float, mut b: libc::c_float) -> libc::c_float {
     let mut r: libc::c_float = a / b;
     return r;
 }
@@ -7562,36 +7559,32 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         }
         _26 = _6;
         _27 = _8;
-        _28 = *(&mut *((*(&mut (*(_26
-            as *mut l_struct_struct_OC_packed_percentile_table))
-            .field2 as *mut l_array_2_uint16_t))
+        _28 = *(&mut *((*(&mut (*(_26 as *mut l_struct_struct_OC_packed_percentile_table)).field2
+            as *mut l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_27 as int32_t as int64_t as isize) as *mut uint16_t);
         _9 = _28 as uint32_t;
         _29 = _6;
         _30 = _8;
-        _31 = *(&mut *((*(&mut (*(_29
-            as *mut l_struct_struct_OC_packed_percentile_table))
-            .field3 as *mut l_array_2_uint16_t))
+        _31 = *(&mut *((*(&mut (*(_29 as *mut l_struct_struct_OC_packed_percentile_table)).field3
+            as *mut l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_30 as int32_t as int64_t as isize) as *mut uint16_t);
         _10 = _31 as uint32_t;
         _32 = _6;
         _33 = _8;
-        _34 = *(&mut *((*(&mut (*(_32
-            as *mut l_struct_struct_OC_packed_percentile_table))
-            .field4 as *mut l_array_2_uint16_t))
+        _34 = *(&mut *((*(&mut (*(_32 as *mut l_struct_struct_OC_packed_percentile_table)).field4
+            as *mut l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_33 as int32_t as int64_t as isize) as *mut uint16_t);
         _11 = _34 as uint32_t;
         _35 = _6;
         _36 = _8;
-        _37 = *(&mut *((*(&mut (*(_35
-            as *mut l_struct_struct_OC_packed_percentile_table))
-            .field5 as *mut l_array_2_void_KC_))
+        _37 = *(&mut *((*(&mut (*(_35 as *mut l_struct_struct_OC_packed_percentile_table)).field5
+            as *mut l_array_2_void_KC_))
             .array)
             .as_mut_ptr()
             .offset(_36 as int32_t as int64_t as isize) as *mut *mut libc::c_void);
@@ -7605,8 +7598,8 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             }
             _40 = _12;
             _41 = _13;
-            _42 = *(&mut *(_40 as *mut uint16_t)
-                .offset(_41 as uint64_t as int64_t as isize) as *mut uint16_t);
+            _42 = *(&mut *(_40 as *mut uint16_t).offset(_41 as uint64_t as int64_t as isize)
+                as *mut uint16_t);
             _14 = _42;
             _43 = _14;
             _15 = _43 as uint32_t & 2047 as libc::c_int as uint32_t;
@@ -7620,12 +7613,8 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             _48 = _10;
             _49 = _5;
             _50 = _15;
-            *(&mut *(_49 as *mut libc::c_float)
-                .offset(_50 as uint64_t as int64_t as isize)
-                as *mut libc::c_float) = llvm_fdiv_f32(
-                _47 as libc::c_float,
-                _48 as libc::c_float,
-            );
+            *(&mut *(_49 as *mut libc::c_float).offset(_50 as uint64_t as int64_t as isize)
+                as *mut libc::c_float) = llvm_fdiv_f32(_47 as libc::c_float, _48 as libc::c_float);
             _51 = _13;
             _13 = llvm_add_u32(_51, 1 as libc::c_int as uint32_t);
         }
@@ -7656,73 +7645,59 @@ unsafe extern "C" fn _ZL16get_packed_tableii(
     _74 = _71;
     match _74 {
         1028 => {
-            _68 = &_ZL13block_pcd_4x4
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_4x4 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1029 => {
-            _68 = &_ZL13block_pcd_5x4
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_5x4 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1285 => {
-            _68 = &_ZL13block_pcd_5x5
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_5x5 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1286 => {
-            _68 = &_ZL13block_pcd_6x5
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_6x5 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1542 => {
-            _68 = &_ZL13block_pcd_6x6
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_6x6 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1288 => {
-            _68 = &_ZL13block_pcd_8x5
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_8x5 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1544 => {
-            _68 = &_ZL13block_pcd_8x6
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_8x6 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         2056 => {
-            _68 = &_ZL13block_pcd_8x8
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_8x8 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1290 => {
-            _68 = &_ZL14block_pcd_10x5
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL14block_pcd_10x5 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         1546 => {
-            _68 = &_ZL14block_pcd_10x6
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL14block_pcd_10x6 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         2058 => {
-            _68 = &_ZL14block_pcd_10x8
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL14block_pcd_10x8 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         2570 => {
-            _68 = &_ZL15block_pcd_10x10
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL15block_pcd_10x10 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         2572 => {
-            _68 = &_ZL15block_pcd_12x10
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL15block_pcd_12x10 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         3084 => {
-            _68 = &_ZL15block_pcd_12x12
-                as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL15block_pcd_12x12 as *const l_struct_struct_OC_packed_percentile_table
                 as *mut libc::c_void;
         }
         _ => {
@@ -7790,8 +7765,7 @@ pub unsafe extern "C" fn _Z22is_legal_3d_block_sizejjj(
     _112 = _113 << 16 as libc::c_int | _114 << 8 as libc::c_int | _115;
     _116 = _112;
     match _116 {
-        197379 | 262915 | 263171 | 263172 | 328708 | 328964 | 328965 | 394501 | 394757
-        | 394758 => {
+        197379 | 262915 | 263171 | 263172 | 328708 | 328964 | 328965 | 394501 | 394757 | 394758 => {
             _108 = 1 as libc::c_int as bool_0;
         }
         _ => {

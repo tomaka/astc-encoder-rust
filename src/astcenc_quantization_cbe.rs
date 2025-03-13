@@ -508,10 +508,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
 static mut _ZL35color_scrambled_pquant_to_uquant_q6: l_array_6_uint8_t = unsafe {
     {
         let mut init = l_array_6_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 6],
-                &mut [uint8_t; 6],
-            >(b"\0\xFF3\xCCf\x99"),
+            array: *::core::mem::transmute::<&[u8; 6], &mut [uint8_t; 6]>(b"\0\xFF3\xCCf\x99"),
         };
         init
     }
@@ -519,10 +516,7 @@ static mut _ZL35color_scrambled_pquant_to_uquant_q6: l_array_6_uint8_t = unsafe 
 static mut _ZL35color_scrambled_pquant_to_uquant_q8: l_array_8_uint8_t = unsafe {
     {
         let mut init = l_array_8_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 8],
-                &mut [uint8_t; 8],
-            >(b"\0$Im\x92\xB6\xDB\xFF"),
+            array: *::core::mem::transmute::<&[u8; 8], &mut [uint8_t; 8]>(b"\0$Im\x92\xB6\xDB\xFF"),
         };
         init
     }
@@ -530,10 +524,9 @@ static mut _ZL35color_scrambled_pquant_to_uquant_q8: l_array_8_uint8_t = unsafe 
 static mut _ZL36color_scrambled_pquant_to_uquant_q10: l_array_10_uint8_t = unsafe {
     {
         let mut init = l_array_10_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 10],
-                &mut [uint8_t; 10],
-            >(b"\0\xFF\x1C\xE38\xC7T\xABq\x8E"),
+            array: *::core::mem::transmute::<&[u8; 10], &mut [uint8_t; 10]>(
+                b"\0\xFF\x1C\xE38\xC7T\xABq\x8E",
+            ),
         };
         init
     }
@@ -541,10 +534,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q10: l_array_10_uint8_t = unsaf
 static mut _ZL36color_scrambled_pquant_to_uquant_q12: l_array_12_uint8_t = unsafe {
     {
         let mut init = l_array_12_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 12],
-                &mut [uint8_t; 12],
-            >(b"\0\xFFE\xBA\x17\xE8\\\xA3.\xD1t\x8B"),
+            array: *::core::mem::transmute::<&[u8; 12], &mut [uint8_t; 12]>(
+                b"\0\xFFE\xBA\x17\xE8\\\xA3.\xD1t\x8B",
+            ),
         };
         init
     }
@@ -552,10 +544,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q12: l_array_12_uint8_t = unsaf
 static mut _ZL36color_scrambled_pquant_to_uquant_q16: l_array_16_uint8_t = unsafe {
     {
         let mut init = l_array_16_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 16],
-                &mut [uint8_t; 16],
-            >(b"\0\x11\"3DUfw\x88\x99\xAA\xBB\xCC\xDD\xEE\xFF"),
+            array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(
+                b"\0\x11\"3DUfw\x88\x99\xAA\xBB\xCC\xDD\xEE\xFF",
+            ),
         };
         init
     }
@@ -563,10 +554,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q16: l_array_16_uint8_t = unsaf
 static mut _ZL36color_scrambled_pquant_to_uquant_q20: l_array_20_uint8_t = unsafe {
     {
         let mut init = l_array_20_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 20],
-                &mut [uint8_t; 20],
-            >(b"\0\xFFC\xBC\r\xF2P\xAF\x1B\xE4^\xA1(\xD7k\x946\xC9y\x86"),
+            array: *::core::mem::transmute::<&[u8; 20], &mut [uint8_t; 20]>(
+                b"\0\xFFC\xBC\r\xF2P\xAF\x1B\xE4^\xA1(\xD7k\x946\xC9y\x86",
+            ),
         };
         init
     }
@@ -574,10 +564,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q20: l_array_20_uint8_t = unsaf
 static mut _ZL36color_scrambled_pquant_to_uquant_q24: l_array_24_uint8_t = unsafe {
     {
         let mut init = l_array_24_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 24],
-                &mut [uint8_t; 24],
-            >(b"\0\xFF!\xDEB\xBDc\x9C\x0B\xF4,\xD3M\xB2n\x91\x16\xE97\xC8X\xA7y\x86"),
+            array: *::core::mem::transmute::<&[u8; 24], &mut [uint8_t; 24]>(
+                b"\0\xFF!\xDEB\xBDc\x9C\x0B\xF4,\xD3M\xB2n\x91\x16\xE97\xC8X\xA7y\x86",
+            ),
         };
         init
     }

@@ -14,11 +14,7 @@ extern "C" {
         _7434: *mut libc::c_void,
         _7435: *mut libc::c_void,
     );
-    fn memcpy(
-        _: *mut libc::c_void,
-        _: *const libc::c_void,
-        _: libc::c_ulong,
-    ) -> *mut libc::c_void;
+    fn memcpy(_: *mut libc::c_void, _: *const libc::c_void, _: libc::c_ulong) -> *mut libc::c_void;
 }
 pub type __int8_t = libc::c_schar;
 pub type __uint8_t = libc::c_uchar;
@@ -561,54 +557,35 @@ pub struct C2RustUnnamed_29 {
     pub data: l_array_2_uint64_t,
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fcmp_oge(
-    mut X: libc::c_double,
-    mut Y: libc::c_double,
-) -> libc::c_int {
+unsafe extern "C" fn llvm_fcmp_oge(mut X: libc::c_double, mut Y: libc::c_double) -> libc::c_int {
     return (X >= Y) as libc::c_int;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fcmp_olt(
-    mut X: libc::c_double,
-    mut Y: libc::c_double,
-) -> libc::c_int {
+unsafe extern "C" fn llvm_fcmp_olt(mut X: libc::c_double, mut Y: libc::c_double) -> libc::c_int {
     return (X < Y) as libc::c_int;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fcmp_oeq(
-    mut X: libc::c_double,
-    mut Y: libc::c_double,
-) -> libc::c_int {
+unsafe extern "C" fn llvm_fcmp_oeq(mut X: libc::c_double, mut Y: libc::c_double) -> libc::c_int {
     return (X == Y) as libc::c_int;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fcmp_une(
-    mut X: libc::c_double,
-    mut Y: libc::c_double,
-) -> libc::c_int {
+unsafe extern "C" fn llvm_fcmp_une(mut X: libc::c_double, mut Y: libc::c_double) -> libc::c_int {
     return (X != Y) as libc::c_int;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fcmp_ogt(
-    mut X: libc::c_double,
-    mut Y: libc::c_double,
-) -> libc::c_int {
+unsafe extern "C" fn llvm_fcmp_ogt(mut X: libc::c_double, mut Y: libc::c_double) -> libc::c_int {
     return (X > Y) as libc::c_int;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fcmp_ole(
-    mut X: libc::c_double,
-    mut Y: libc::c_double,
-) -> libc::c_int {
+unsafe extern "C" fn llvm_fcmp_ole(mut X: libc::c_double, mut Y: libc::c_double) -> libc::c_int {
     return (X <= Y) as libc::c_int;
 }
 static mut _OC_str: l_array_20_uint8_t = unsafe {
     {
         let mut init = l_array_20_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 20],
-                &mut [uint8_t; 20],
-            >(b"partition_count > 0\0"),
+            array: *::core::mem::transmute::<&[u8; 20], &mut [uint8_t; 20]>(
+                b"partition_count > 0\0",
+            ),
         };
         init
     }
@@ -616,10 +593,9 @@ static mut _OC_str: l_array_20_uint8_t = unsafe {
 static mut _OC_str_OC_1: l_array_64_uint8_t = unsafe {
     {
         let mut init = l_array_64_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 64],
-                &mut [uint8_t; 64],
-            >(b"/root/astc-encoder/Source/astcenc_pick_best_endpoint_format.cpp\0"),
+            array: *::core::mem::transmute::<&[u8; 64], &mut [uint8_t; 64]>(
+                b"/root/astc-encoder/Source/astcenc_pick_best_endpoint_format.cpp\0",
+            ),
         };
         init
     }
@@ -640,10 +616,9 @@ static mut __PRETTY_FUNCTION___OC__Z30compute_ideal_endpoint_formatsRK14partitio
 static mut _OC_str_OC_2: l_array_22_uint8_t = unsafe {
     {
         let mut init = l_array_22_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 22],
-                &mut [uint8_t; 22],
-            >(b"start_block_mode == 0\0"),
+            array: *::core::mem::transmute::<&[u8; 22], &mut [uint8_t; 22]>(
+                b"start_block_mode == 0\0",
+            ),
         };
         init
     }
@@ -651,10 +626,9 @@ static mut _OC_str_OC_2: l_array_22_uint8_t = unsafe {
 static mut _OC_str_OC_3: l_array_21_uint8_t = unsafe {
     {
         let mut init = l_array_21_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 21],
-                &mut [uint8_t; 21],
-            >(b"partition_count == 4\0"),
+            array: *::core::mem::transmute::<&[u8; 21], &mut [uint8_t; 21]>(
+                b"partition_count == 4\0",
+            ),
         };
         init
     }
@@ -662,10 +636,9 @@ static mut _OC_str_OC_3: l_array_21_uint8_t = unsafe {
 static mut _OC_str_OC_4: l_array_57_uint8_t = unsafe {
     {
         let mut init = l_array_57_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 57],
-                &mut [uint8_t; 57],
-            >(b"quant_level[i] >= QUANT_6 && quant_level[i] <= QUANT_256\0"),
+            array: *::core::mem::transmute::<&[u8; 57], &mut [uint8_t; 57]>(
+                b"quant_level[i] >= QUANT_6 && quant_level[i] <= QUANT_256\0",
+            ),
         };
         init
     }
@@ -673,10 +646,9 @@ static mut _OC_str_OC_4: l_array_57_uint8_t = unsafe {
 static mut _OC_str_OC_5: l_array_65_uint8_t = unsafe {
     {
         let mut init = l_array_65_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 65],
-                &mut [uint8_t; 65],
-            >(b"quant_level_mod[i] >= QUANT_6 && quant_level_mod[i] <= QUANT_256\0"),
+            array: *::core::mem::transmute::<&[u8; 65], &mut [uint8_t; 65]>(
+                b"quant_level_mod[i] >= QUANT_6 && quant_level_mod[i] <= QUANT_256\0",
+            ),
         };
         init
     }
@@ -697,10 +669,7 @@ static mut __PRETTY_FUNCTION___OC__ZL30compute_encoding_choice_errorsRK11image_b
 static mut _OC_str_OC_6: l_array_16_uint8_t = unsafe {
     {
         let mut init = l_array_16_uint8_t {
-            array: *::core::mem::transmute::<
-                &[u8; 16],
-                &mut [uint8_t; 16],
-            >(b"texel_count > 0\0"),
+            array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(b"texel_count > 0\0"),
         };
         init
     }
@@ -778,7 +747,11 @@ unsafe extern "C" fn llvm_select_f32(
     mut ifnot: libc::c_float,
 ) -> libc::c_float {
     let mut r: libc::c_float = 0.;
-    r = if condition as libc::c_int != 0 { iftrue } else { ifnot };
+    r = if condition as libc::c_int != 0 {
+        iftrue
+    } else {
+        ifnot
+    };
     return r;
 }
 #[inline(always)]
@@ -788,7 +761,11 @@ unsafe extern "C" fn llvm_select_u32(
     mut ifnot: uint32_t,
 ) -> uint32_t {
     let mut r: uint32_t = 0;
-    r = if condition as libc::c_int != 0 { iftrue } else { ifnot };
+    r = if condition as libc::c_int != 0 {
+        iftrue
+    } else {
+        ifnot
+    };
     return r;
 }
 #[inline(always)]
@@ -797,10 +774,7 @@ unsafe extern "C" fn llvm_add_u32(mut a: uint32_t, mut b: uint32_t) -> uint32_t 
     return r;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fadd_f32(
-    mut a: libc::c_float,
-    mut b: libc::c_float,
-) -> libc::c_float {
+unsafe extern "C" fn llvm_fadd_f32(mut a: libc::c_float, mut b: libc::c_float) -> libc::c_float {
     let mut r: libc::c_float = a + b;
     return r;
 }
@@ -810,26 +784,17 @@ unsafe extern "C" fn llvm_sub_u32(mut a: uint32_t, mut b: uint32_t) -> uint32_t 
     return r;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fsub_f32(
-    mut a: libc::c_float,
-    mut b: libc::c_float,
-) -> libc::c_float {
+unsafe extern "C" fn llvm_fsub_f32(mut a: libc::c_float, mut b: libc::c_float) -> libc::c_float {
     let mut r: libc::c_float = a - b;
     return r;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fmul_f32(
-    mut a: libc::c_float,
-    mut b: libc::c_float,
-) -> libc::c_float {
+unsafe extern "C" fn llvm_fmul_f32(mut a: libc::c_float, mut b: libc::c_float) -> libc::c_float {
     let mut r: libc::c_float = a * b;
     return r;
 }
 #[inline(always)]
-unsafe extern "C" fn llvm_fdiv_f32(
-    mut a: libc::c_float,
-    mut b: libc::c_float,
-) -> libc::c_float {
+unsafe extern "C" fn llvm_fdiv_f32(mut a: libc::c_float, mut b: libc::c_float) -> libc::c_float {
     let mut r: libc::c_float = a / b;
     return r;
 }
@@ -871,14 +836,10 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _15: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _16: uint32_t = 0;
     let mut _17: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _18: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _19: uint32_t = 0;
     let mut _20: uint32_t = 0;
@@ -923,19 +884,13 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _59: libc::c_float = 0.;
     let mut _60: libc::c_float = 0.;
     let mut _61: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _62: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _63: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _64: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _65: libc::c_float = 0.;
@@ -948,9 +903,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _68: libc::c_float = 0.;
     let mut _69: libc::c_float = 0.;
     let mut _70: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _71: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -959,76 +912,48 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _73: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _74: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _75: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _76: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _77: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _78: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _79: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _80: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _81: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _82: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _83: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _84: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _85: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _86: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _87: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _88: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _89: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1040,14 +965,10 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _92: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _93: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _94: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1058,47 +979,31 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _96: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _97: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _98: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _99: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _100: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _101: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _102: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _103: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _104: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _105: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _106: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _107: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _108: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _109: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _110: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -1143,26 +1048,29 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _145: uint32_t = 0;
     let mut _146: uint8_t = 0;
     let mut _147: uint8_t = 0;
-    let mut _148: l_array_4_struct_AC_l_struct_struct_OC_encoding_choice_errors = l_array_4_struct_AC_l_struct_struct_OC_encoding_choice_errors {
-        array: [l_struct_struct_OC_encoding_choice_errors {
-            field0: 0.,
-            field1: 0.,
-            field2: 0.,
-            field3: 0.,
-            field4: 0,
-            field5: 0,
-        }; 4],
-    };
-    let mut _149: l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_float = l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_float {
-        array: [l_array_21_struct_AC_l_array_4_float {
-            array: [l_array_4_float { array: [0.; 4] }; 21],
-        }; 4],
-    };
-    let mut _150: l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_uint8_t = l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_uint8_t {
-        array: [l_array_21_struct_AC_l_array_4_uint8_t {
-            array: [l_array_4_uint8_t { array: [0; 4] }; 21],
-        }; 4],
-    };
+    let mut _148: l_array_4_struct_AC_l_struct_struct_OC_encoding_choice_errors =
+        l_array_4_struct_AC_l_struct_struct_OC_encoding_choice_errors {
+            array: [l_struct_struct_OC_encoding_choice_errors {
+                field0: 0.,
+                field1: 0.,
+                field2: 0.,
+                field3: 0.,
+                field4: 0,
+                field5: 0,
+            }; 4],
+        };
+    let mut _149: l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_float =
+        l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_float {
+            array: [l_array_21_struct_AC_l_array_4_float {
+                array: [l_array_4_float { array: [0.; 4] }; 21],
+            }; 4],
+        };
+    let mut _150: l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_uint8_t =
+        l_array_4_struct_AC_l_array_21_struct_AC_l_array_4_uint8_t {
+            array: [l_array_21_struct_AC_l_array_4_uint8_t {
+                array: [l_array_4_uint8_t { array: [0; 4] }; 21],
+            }; 4],
+        };
     let mut _151: uint32_t = 0;
     let mut _152: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1175,37 +1083,27 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _158: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _159: uint32_t = 0;
     let mut _160: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _161: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _162: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _163: uint32_t = 0;
     let mut _164: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _165: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _166: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _167: libc::c_float = 0.;
     let mut _168: uint32_t = 0;
@@ -1215,75 +1113,62 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _172: l_array_21_struct_AC_l_array_7_float = l_array_21_struct_AC_l_array_7_float {
         array: [l_array_7_float { array: [0.; 7] }; 21],
     };
-    let mut _173: l_array_21_struct_AC_l_array_7_struct_AC_l_array_2_uint8_t = l_array_21_struct_AC_l_array_7_struct_AC_l_array_2_uint8_t {
-        array: [l_array_7_struct_AC_l_array_2_uint8_t {
-            array: [l_array_2_uint8_t { array: [0; 2] }; 7],
-        }; 21],
-    };
+    let mut _173: l_array_21_struct_AC_l_array_7_struct_AC_l_array_2_uint8_t =
+        l_array_21_struct_AC_l_array_7_struct_AC_l_array_2_uint8_t {
+            array: [l_array_7_struct_AC_l_array_2_uint8_t {
+                array: [l_array_2_uint8_t { array: [0; 2] }; 7],
+            }; 21],
+        };
     let mut _174: uint32_t = 0;
     let mut _175: libc::c_float = 0.;
     let mut _176: libc::c_float = 0.;
     let mut _177: l_array_21_struct_AC_l_array_10_float = l_array_21_struct_AC_l_array_10_float {
-        array: [l_array_10_float {
-            array: [0.; 10],
-        }; 21],
+        array: [l_array_10_float { array: [0.; 10] }; 21],
     };
-    let mut _178: l_array_21_struct_AC_l_array_10_struct_AC_l_array_3_uint8_t = l_array_21_struct_AC_l_array_10_struct_AC_l_array_3_uint8_t {
-        array: [l_array_10_struct_AC_l_array_3_uint8_t {
-            array: [l_array_3_uint8_t { array: [0; 3] }; 10],
-        }; 21],
-    };
+    let mut _178: l_array_21_struct_AC_l_array_10_struct_AC_l_array_3_uint8_t =
+        l_array_21_struct_AC_l_array_10_struct_AC_l_array_3_uint8_t {
+            array: [l_array_10_struct_AC_l_array_3_uint8_t {
+                array: [l_array_3_uint8_t { array: [0; 3] }; 10],
+            }; 21],
+        };
     let mut _179: uint32_t = 0;
     let mut _180: libc::c_float = 0.;
     let mut _181: libc::c_float = 0.;
     let mut _182: l_array_21_struct_AC_l_array_13_float = l_array_21_struct_AC_l_array_13_float {
-        array: [l_array_13_float {
-            array: [0.; 13],
-        }; 21],
+        array: [l_array_13_float { array: [0.; 13] }; 21],
     };
-    let mut _183: l_array_21_struct_AC_l_array_13_struct_AC_l_array_4_uint8_t = l_array_21_struct_AC_l_array_13_struct_AC_l_array_4_uint8_t {
-        array: [l_array_13_struct_AC_l_array_4_uint8_t {
-            array: [l_array_4_uint8_t { array: [0; 4] }; 13],
-        }; 21],
-    };
+    let mut _183: l_array_21_struct_AC_l_array_13_struct_AC_l_array_4_uint8_t =
+        l_array_21_struct_AC_l_array_13_struct_AC_l_array_4_uint8_t {
+            array: [l_array_13_struct_AC_l_array_4_uint8_t {
+                array: [l_array_4_uint8_t { array: [0; 4] }; 13],
+            }; 21],
+        };
     let mut _184: uint32_t = 0;
     let mut _185: libc::c_float = 0.;
     let mut _186: libc::c_float = 0.;
-    let mut _187: l_array_8_uint32_t = l_array_8_uint32_t {
-        array: [0; 8],
-    };
+    let mut _187: l_array_8_uint32_t = l_array_8_uint32_t { array: [0; 8] };
     let mut _188: uint32_t = 0;
     let mut _189: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _190: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _191: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _192: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _193: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _194: uint32_t = 0;
     let mut _195: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _196: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _197: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1301,39 +1186,25 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _202: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _203: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _204: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _205: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _206: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _207: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _208: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _209: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1345,30 +1216,20 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _212: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _213: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _214: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _215: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _216: uint32_t = 0;
     let mut _217: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _218: uint32_t = 0;
     let mut _219: uint32_t = 0;
@@ -1427,17 +1288,13 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _272: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _273: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _274: uint32_t = 0;
-    let mut _275: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _275: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _276: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _277: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _278: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _279: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _280: uint32_t = 0;
-    let mut _281: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _281: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _282: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _283: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _284: uint32_t = 0;
@@ -1457,17 +1314,13 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _298: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _299: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _300: uint32_t = 0;
-    let mut _301: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _301: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _302: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _303: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _304: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _305: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _306: uint32_t = 0;
-    let mut _307: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _307: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _308: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _309: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _310: uint32_t = 0;
@@ -1620,21 +1473,15 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _457: uint32_t = 0;
     let mut _458: uint32_t = 0;
     let mut _459: uint32_t = 0;
-    let mut _460: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _460: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _461: uint32_t = 0;
     let mut _462: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _463: uint32_t = 0;
     let mut _464: uint32_t = 0;
     let mut _465: uint32_t = 0;
     let mut _466: uint32_t = 0;
-    let mut _467: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _468: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _467: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _468: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _469: uint32_t = 0;
     let mut _470: uint32_t = 0;
     let mut _471: uint32_t = 0;
@@ -1648,9 +1495,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _479: uint32_t = 0;
     let mut _480: uint32_t = 0;
     let mut _481: uint32_t = 0;
-    let mut _482: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _482: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _483: uint32_t = 0;
     let mut _484: uint32_t = 0;
     let mut _485: uint32_t = 0;
@@ -1686,17 +1531,13 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _515: uint64_t = 0;
     let mut _516: uint8_t = 0;
     let mut _517: uint64_t = 0;
-    let mut _518: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _518: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _519: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _520: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _521: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _522: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _523: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _524: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _524: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _525: uint32_t = 0;
     let mut _526: libc::c_float = 0.;
     let mut _527: libc::c_float = 0.;
@@ -1729,15 +1570,9 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _548: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _549: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _550: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _551: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _552: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _553: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _551: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _552: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _553: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _554: uint32_t = 0;
     let mut _555: uint32_t = 0;
     let mut _556: uint32_t = 0;
@@ -1763,9 +1598,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _572: uint32_t = 0;
     let mut _573: uint32_t = 0;
     let mut _574: uint32_t = 0;
-    let mut _575: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _575: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _576: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _577: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _578: uint32_t = 0;
@@ -1776,12 +1609,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _583: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _584: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _585: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _586: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _587: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _586: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _587: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _588: uint32_t = 0;
     let mut _589: uint32_t = 0;
     let mut _590: uint32_t = 0;
@@ -1795,9 +1624,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _598: uint32_t = 0;
     let mut _599: uint32_t = 0;
     let mut _600: uint32_t = 0;
-    let mut _601: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _601: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _602: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _603: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _604: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -1838,9 +1665,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _637: uint64_t = 0;
     let mut _638: uint8_t = 0;
     let mut _639: uint64_t = 0;
-    let mut _640: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _640: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _641: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _642: uint32_t = 0;
     let mut _643: uint32_t = 0;
@@ -1848,15 +1673,9 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _645: uint32_t = 0;
     let mut _646: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _647: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _648: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _649: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _650: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _648: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _649: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _650: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _651: uint32_t = 0;
     let mut _652: uint32_t = 0;
     let mut _653: uint32_t = 0;
@@ -1882,18 +1701,12 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _669: uint32_t = 0;
     let mut _670: uint32_t = 0;
     let mut _671: uint32_t = 0;
-    let mut _672: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _672: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _673: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _674: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _675: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _675: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _676: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _677: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _677: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _678: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _679: uint32_t = 0;
     let mut _680: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -1905,9 +1718,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     let mut _686: uint32_t = 0;
     let mut _687: uint32_t = 0;
     let mut _688: uint32_t = 0;
-    let mut _689: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _689: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _690: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _691: uint32_t = 0;
     let mut _692: uint32_t = 0;
@@ -1981,8 +1792,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     _143 = _12;
     _144 = _13;
     _220 = _132;
-    _221 = *(&mut (*(_220 as *mut l_struct_struct_OC_partition_info)).field0
-        as *mut uint16_t);
+    _221 = *(&mut (*(_220 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _145 = _221 as uint32_t;
     _222 = _145;
     if _222 as int32_t > 0 as libc::c_uint as int32_t {
@@ -1992,16 +1802,16 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             .array)
             .as_mut_ptr()
             .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t);
-        _146 = (_224 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int)
-            as libc::c_int as bool_0;
+        _146 = (_224 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int) as libc::c_int
+            as bool_0;
         _225 = _133;
         _226 = *(&mut *((*(&mut (*(_225 as *mut l_struct_struct_OC_image_block)).field13
             as *mut l_array_216_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t);
-        _147 = (_226 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int)
-            as libc::c_int as bool_0;
+        _147 = (_226 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int) as libc::c_int
+            as bool_0;
         _227 = _133;
         _228 = _132;
         _229 = _134;
@@ -2068,33 +1878,29 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _151 = llvm_add_u32(_243, 1 as libc::c_int as uint32_t);
         }
         _244 = _144;
-        _153 = &mut *((*(&mut (*(_244
-            as *mut l_struct_struct_OC_compression_working_buffers))
+        _153 = &mut *((*(&mut (*(_244 as *mut l_struct_struct_OC_compression_working_buffers))
             .field4 as *mut l_array_2048_float))
             .array)
             .as_mut_ptr()
             .offset(0 as libc::c_int as int64_t as isize) as *mut libc::c_float
             as *mut libc::c_void;
         _245 = _144;
-        _154 = &mut *((*(&mut (*(_245
-            as *mut l_struct_struct_OC_compression_working_buffers))
+        _154 = &mut *((*(&mut (*(_245 as *mut l_struct_struct_OC_compression_working_buffers))
             .field5 as *mut l_array_2048_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t
             as *mut libc::c_void;
         _246 = _144;
-        _155 = &mut *((*(&mut (*(_246
-            as *mut l_struct_struct_OC_compression_working_buffers))
+        _155 = &mut *((*(&mut (*(_246 as *mut l_struct_struct_OC_compression_working_buffers))
             .field6 as *mut l_array_2048_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t
             as *mut libc::c_void;
         _247 = _144;
-        _156 = &mut (*(_247 as *mut l_struct_struct_OC_compression_working_buffers))
-            .field7 as *mut l_array_2048_struct_AC_l_array_4_uint8_t
-            as *mut libc::c_void;
+        _156 = &mut (*(_247 as *mut l_struct_struct_OC_compression_working_buffers)).field7
+            as *mut l_array_2048_struct_AC_l_array_4_uint8_t as *mut libc::c_void;
         _129 = &mut _157 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
         _130 = 1.00000002E+30f64 as libc::c_float;
         _248 = _129;
@@ -2142,30 +1948,26 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         _262 = _159;
         _263 = *(&mut _160.field0 as *mut l_array_4_float);
         *(&mut _110 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _263;
-        _111 = &mut *(_261 as *mut libc::c_float)
-            .offset(_262 as uint64_t as int64_t as isize) as *mut libc::c_float
-            as *mut libc::c_void;
+        _111 = &mut *(_261 as *mut libc::c_float).offset(_262 as uint64_t as int64_t as isize)
+            as *mut libc::c_float as *mut libc::c_void;
         _264 = *(&mut _110 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
         _265 = _111;
         *(_265 as *mut libc::c_float) = _264;
-        _266 = *(&mut *((*(&mut _110 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _266 = *(&mut *((*(&mut _110 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _267 = _111;
         *(&mut *(_267 as *mut libc::c_float).offset(1 as libc::c_int as int64_t as isize)
             as *mut libc::c_float) = _266;
-        _268 = *(&mut *((*(&mut _110 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _268 = *(&mut *((*(&mut _110 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _269 = _111;
         *(&mut *(_269 as *mut libc::c_float).offset(2 as libc::c_int as int64_t as isize)
             as *mut libc::c_float) = _268;
-        _270 = *(&mut *((*(&mut _110 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _270 = *(&mut *((*(&mut _110 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -2179,8 +1981,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         );
         _273 = _154;
         _274 = _159;
-        _275 = (*(&mut _161.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_18))
-            .data;
+        _275 = (*(&mut _161.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_18)).data;
         *(&mut _102 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _275;
         _103 = &mut *(_273 as *mut uint8_t).offset(_274 as uint64_t as int64_t as isize)
             as *mut uint8_t as *mut libc::c_void;
@@ -2197,8 +1998,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         );
         _279 = _155;
         _280 = _159;
-        _281 = (*(&mut _162.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_17))
-            .data;
+        _281 = (*(&mut _162.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_17)).data;
         *(&mut _104 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _281;
         _105 = &mut *(_279 as *mut uint8_t).offset(_280 as uint64_t as int64_t as isize)
             as *mut uint8_t as *mut libc::c_void;
@@ -2221,30 +2021,26 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         _288 = _163;
         _289 = *(&mut _164.field0 as *mut l_array_4_float);
         *(&mut _112 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _289;
-        _113 = &mut *(_287 as *mut libc::c_float)
-            .offset(_288 as uint64_t as int64_t as isize) as *mut libc::c_float
-            as *mut libc::c_void;
+        _113 = &mut *(_287 as *mut libc::c_float).offset(_288 as uint64_t as int64_t as isize)
+            as *mut libc::c_float as *mut libc::c_void;
         _290 = *(&mut _112 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
         _291 = _113;
         *(_291 as *mut libc::c_float) = _290;
-        _292 = *(&mut *((*(&mut _112 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _292 = *(&mut *((*(&mut _112 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _293 = _113;
         *(&mut *(_293 as *mut libc::c_float).offset(1 as libc::c_int as int64_t as isize)
             as *mut libc::c_float) = _292;
-        _294 = *(&mut *((*(&mut _112 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _294 = *(&mut *((*(&mut _112 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _295 = _113;
         *(&mut *(_295 as *mut libc::c_float).offset(2 as libc::c_int as int64_t as isize)
             as *mut libc::c_float) = _294;
-        _296 = *(&mut *((*(&mut _112 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _296 = *(&mut *((*(&mut _112 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -2258,8 +2054,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         );
         _299 = _154;
         _300 = _163;
-        _301 = (*(&mut _165.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_16))
-            .data;
+        _301 = (*(&mut _165.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_16)).data;
         *(&mut _106 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _301;
         _107 = &mut *(_299 as *mut uint8_t).offset(_300 as uint64_t as int64_t as isize)
             as *mut uint8_t as *mut libc::c_void;
@@ -2276,8 +2071,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
         );
         _305 = _155;
         _306 = _163;
-        _307 = (*(&mut _166.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_15))
-            .data;
+        _307 = (*(&mut _166.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_15)).data;
         *(&mut _108 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _307;
         _109 = &mut *(_305 as *mut uint8_t).offset(_306 as uint64_t as int64_t as isize)
             as *mut uint8_t as *mut libc::c_void;
@@ -2302,7 +2096,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 _314 = _136;
                 _315 = _169;
                 _316 = *(&mut *(_314 as *mut libc::c_float)
-                    .offset(_315 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                    .offset(_315 as uint64_t as int64_t as isize)
+                    as *mut libc::c_float);
                 if llvm_fcmp_oge(_316 as libc::c_double, 1.00000002E+30f64) != 0 {
                     _317 = _153;
                     _318 = _169;
@@ -2313,7 +2108,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     _319 = _135;
                     _320 = _169;
                     _321 = *(&mut *(_319 as *mut uint8_t)
-                        .offset(_320 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_320 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _322 = _154;
                     _323 = _169;
                     _324 = _156;
@@ -2336,19 +2132,17 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                             .offset(0 as libc::c_int as int64_t as isize)
                             as *mut l_array_4_uint8_t as *mut libc::c_void,
                         _321 as int8_t as int32_t as uint32_t,
-                        &mut *(_322 as *mut uint8_t)
-                            .offset(_323 as uint64_t as int64_t as isize) as *mut uint8_t
-                            as *mut libc::c_void,
-                        &mut *((*(&mut *((*(_324
-                            as *mut l_array_2048_struct_AC_l_array_4_uint8_t))
+                        &mut *(_322 as *mut uint8_t).offset(_323 as uint64_t as int64_t as isize)
+                            as *mut uint8_t as *mut libc::c_void,
+                        &mut *((*(&mut *((*(_324 as *mut l_array_2048_struct_AC_l_array_4_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_325 as uint64_t as int64_t as isize)
                             as *mut l_array_4_uint8_t))
                             .array)
                             .as_mut_ptr()
-                            .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t
-                            as *mut libc::c_void,
+                            .offset(0 as libc::c_int as int64_t as isize)
+                            as *mut uint8_t as *mut libc::c_void,
                     );
                     _170 = _326;
                     _327 = _170;
@@ -2367,16 +2161,15 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     _334 = _154;
                     _335 = _169;
                     _336 = *(&mut *(_334 as *mut uint8_t)
-                        .offset(_335 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_335 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _337 = _155;
                     _338 = _169;
-                    *(&mut *(_337 as *mut uint8_t)
-                        .offset(_338 as uint64_t as int64_t as isize)
+                    *(&mut *(_337 as *mut uint8_t).offset(_338 as uint64_t as int64_t as isize)
                         as *mut uint8_t) = _336;
                     _339 = _171;
                     _340 = _167;
-                    if llvm_fcmp_olt(_339 as libc::c_double, _340 as libc::c_double) != 0
-                    {
+                    if llvm_fcmp_olt(_339 as libc::c_double, _340 as libc::c_double) != 0 {
                         _341 = _171;
                         _167 = _341;
                         _342 = _169;
@@ -2424,8 +2217,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                         _350 = *(&mut *(_348 as *mut libc::c_float)
                             .offset(_349 as uint64_t as int64_t as isize)
                             as *mut libc::c_float);
-                        if llvm_fcmp_oge(_350 as libc::c_double, 1.00000002E+30f64) != 0
-                        {
+                        if llvm_fcmp_oge(_350 as libc::c_double, 1.00000002E+30f64) != 0 {
                             _351 = _153;
                             _352 = _174;
                             *(&mut *(_351 as *mut libc::c_float)
@@ -2487,11 +2279,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                                 as *mut libc::c_float) = _367;
                             _370 = _176;
                             _371 = _167;
-                            if llvm_fcmp_olt(
-                                _370 as libc::c_double,
-                                _371 as libc::c_double,
-                            ) != 0
-                            {
+                            if llvm_fcmp_olt(_370 as libc::c_double, _371 as libc::c_double) != 0 {
                                 _372 = _176;
                                 _167 = _372;
                                 _373 = _174;
@@ -2548,9 +2336,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                             _381 = *(&mut *(_379 as *mut libc::c_float)
                                 .offset(_380 as uint64_t as int64_t as isize)
                                 as *mut libc::c_float);
-                            if llvm_fcmp_oge(_381 as libc::c_double, 1.00000002E+30f64)
-                                != 0
-                            {
+                            if llvm_fcmp_oge(_381 as libc::c_double, 1.00000002E+30f64) != 0 {
                                 _382 = _153;
                                 _383 = _179;
                                 *(&mut *(_382 as *mut libc::c_float)
@@ -2612,10 +2398,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                                     as *mut libc::c_float) = _398;
                                 _401 = _181;
                                 _402 = _167;
-                                if llvm_fcmp_olt(
-                                    _401 as libc::c_double,
-                                    _402 as libc::c_double,
-                                ) != 0
+                                if llvm_fcmp_olt(_401 as libc::c_double, _402 as libc::c_double)
+                                    != 0
                                 {
                                     _403 = _181;
                                     _167 = _403;
@@ -2675,9 +2459,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                                 _412 = *(&mut *(_410 as *mut libc::c_float)
                                     .offset(_411 as uint64_t as int64_t as isize)
                                     as *mut libc::c_float);
-                                if llvm_fcmp_oge(_412 as libc::c_double, 1.00000002E+30f64)
-                                    != 0
-                                {
+                                if llvm_fcmp_oge(_412 as libc::c_double, 1.00000002E+30f64) != 0 {
                                     _413 = _153;
                                     _414 = _184;
                                     *(&mut *(_413 as *mut libc::c_float)
@@ -2739,10 +2521,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                                         as *mut libc::c_float) = _429;
                                     _432 = _186;
                                     _433 = _167;
-                                    if llvm_fcmp_olt(
-                                        _432 as libc::c_double,
-                                        _433 as libc::c_double,
-                                    ) != 0
+                                    if llvm_fcmp_olt(_432 as libc::c_double, _433 as libc::c_double)
+                                        != 0
                                     {
                                         _434 = _186;
                                         _167 = _434;
@@ -2779,14 +2559,14 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             }
         }
         _437 = _168;
-        *(&mut *(_187.array).as_mut_ptr().offset(0 as libc::c_int as int64_t as isize)
-            as *mut uint32_t) = _437;
+        *(&mut *(_187.array)
+            .as_mut_ptr()
+            .offset(0 as libc::c_int as int64_t as isize) as *mut uint32_t) = _437;
         _438 = _168;
         if _438 as int32_t >= 0 as libc::c_uint as int32_t {
             _439 = _153;
             _440 = _168;
-            *(&mut *(_439 as *mut libc::c_float)
-                .offset(_440 as int32_t as int64_t as isize)
+            *(&mut *(_439 as *mut libc::c_float).offset(_440 as int32_t as int64_t as isize)
                 as *mut libc::c_float) = 1.00000002E+30f64 as libc::c_float;
         }
         _188 = 1 as libc::c_int as uint32_t;
@@ -2857,10 +2637,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             *(&mut *((*(_455 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _459;
-            _460 = *(&mut _98 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            (*(&mut _192.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_14))
-                .data = _460;
+            _460 = *(&mut _98 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            (*(&mut _192.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_14)).data = _460;
             _461 = _138;
             _121 = &mut _193 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
             _122 = _461;
@@ -2879,48 +2657,48 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             *(&mut *((*(_462 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _466;
-            _467 = (*(&mut _192.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_13))
-                .data;
-            _468 = (*(&mut _193.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_12))
-                .data;
-            *(&mut _100 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _467;
-            *(&mut _101 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _468;
+            _467 = (*(&mut _192.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_13)).data;
+            _468 = (*(&mut _193.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_12)).data;
+            *(&mut _100 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _467;
+            *(&mut _101 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _468;
             _469 = *(&mut _100 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _470 = *(&mut _101 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _471 = *(&mut *((*(&mut _100 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _472 = *(&mut *((*(&mut _101 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _473 = *(&mut *((*(&mut _100 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _474 = *(&mut *((*(&mut _101 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _475 = *(&mut *((*(&mut _100 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _476 = *(&mut *((*(&mut _101 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _21 = &mut _99 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
             _22 = llvm_add_u32(_469, _470);
             _23 = llvm_add_u32(_471, _472);
@@ -2941,10 +2719,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             *(&mut *((*(_477 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _481;
-            _482 = *(&mut _99 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            (*(&mut _191.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_11))
-                .data = _482;
+            _482 = *(&mut _99 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            (*(&mut _191.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_11)).data = _482;
             _483 = _138;
             _194 = _483;
             loop {
@@ -2957,29 +2733,32 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 _487 = _194;
                 _96 = &mut _195 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _97 = &mut *(_486 as *mut libc::c_float)
-                    .offset(_487 as uint64_t as int64_t as isize) as *mut libc::c_float
-                    as *mut libc::c_void;
+                    .offset(_487 as uint64_t as int64_t as isize)
+                    as *mut libc::c_float as *mut libc::c_void;
                 _488 = _96;
                 _489 = _97;
                 _490 = *(_489 as *mut libc::c_float);
                 *(_488 as *mut libc::c_float) = _490;
                 _491 = _97;
                 _492 = *(&mut *(_491 as *mut libc::c_float)
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 *(&mut *((*(_488 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
                     .offset(1 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _492;
                 _493 = _97;
                 _494 = *(&mut *(_493 as *mut libc::c_float)
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 *(&mut *((*(_488 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
                     .offset(2 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _494;
                 _495 = _97;
                 _496 = *(&mut *(_495 as *mut libc::c_float)
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 *(&mut *((*(_488 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
                     .offset(3 as libc::c_int as int64_t as isize)
@@ -2996,59 +2775,57 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 );
                 _499 = *(&mut _197.field0 as *mut l_array_4_float);
                 _500 = *(&mut _198.field0 as *mut l_array_4_float);
-                *(&mut _94 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _499;
-                *(&mut _95 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _500;
-                _501 = *(&mut _94 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
-                _502 = *(&mut _95 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                *(&mut _94 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _499;
+                *(&mut _95 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _500;
+                _501 = *(&mut _94 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+                _502 = *(&mut _95 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _503 = *(&mut *((*(&mut _94 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _504 = *(&mut *((*(&mut _95 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _505 = *(&mut *((*(&mut _94 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _506 = *(&mut *((*(&mut _95 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _507 = *(&mut *((*(&mut _94 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _508 = *(&mut *((*(&mut _95 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _46 = &mut _93 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void;
-                _47 = llvm_fcmp_olt(_501 as libc::c_double, _502 as libc::c_double)
-                    as bool_0;
-                _48 = llvm_fcmp_olt(_503 as libc::c_double, _504 as libc::c_double)
-                    as bool_0;
-                _49 = llvm_fcmp_olt(_505 as libc::c_double, _506 as libc::c_double)
-                    as bool_0;
-                _50 = llvm_fcmp_olt(_507 as libc::c_double, _508 as libc::c_double)
-                    as bool_0;
+                _47 = llvm_fcmp_olt(_501 as libc::c_double, _502 as libc::c_double) as bool_0;
+                _48 = llvm_fcmp_olt(_503 as libc::c_double, _504 as libc::c_double) as bool_0;
+                _49 = llvm_fcmp_olt(_505 as libc::c_double, _506 as libc::c_double) as bool_0;
+                _50 = llvm_fcmp_olt(_507 as libc::c_double, _508 as libc::c_double) as bool_0;
                 _509 = _46;
                 _510 = _47;
                 _511 = ((_510 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
-                *(_509
-                    as *mut uint32_t) = llvm_select_u32(
+                    == 0 as libc::c_uint) as libc::c_int as bool_0
+                    as uint64_t;
+                *(_509 as *mut uint32_t) = llvm_select_u32(
                     ((_510 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                         == 0 as libc::c_uint) as libc::c_int as bool_0,
                     0 as libc::c_int as uint32_t,
@@ -3056,7 +2833,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 );
                 _512 = _48;
                 _513 = ((_512 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
+                    == 0 as libc::c_uint) as libc::c_int as bool_0
+                    as uint64_t;
                 *(&mut *((*(_509 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as libc::c_int as int64_t as isize)
@@ -3068,7 +2846,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 );
                 _514 = _49;
                 _515 = ((_514 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
+                    == 0 as libc::c_uint) as libc::c_int as bool_0
+                    as uint64_t;
                 *(&mut *((*(_509 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as libc::c_int as int64_t as isize)
@@ -3080,7 +2859,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 );
                 _516 = _50;
                 _517 = ((_516 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
+                    == 0 as libc::c_uint) as libc::c_int as bool_0
+                    as uint64_t;
                 *(&mut *((*(_509 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as libc::c_int as int64_t as isize)
@@ -3090,10 +2870,9 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     0 as libc::c_int as uint32_t,
                     -(1 as libc::c_int) as uint32_t,
                 );
-                _518 = *(&mut _93 as *mut l_struct_struct_OC_vmask4
-                    as *mut l_array_2_uint64_t);
-                (*(&mut _196.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_10))
-                    .data = _518;
+                _518 = *(&mut _93 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+                (*(&mut _196.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_10)).data =
+                    _518;
                 _519 = memcpy(
                     &mut _200 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                     &mut _190 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -3111,23 +2890,17 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 );
                 _522 = *(&mut _200.field0 as *mut l_array_4_float);
                 _523 = *(&mut _201.field0 as *mut l_array_4_float);
-                _524 = (*(&mut _202.field0 as *mut l_array_4_uint32_t
-                    as *mut C2RustUnnamed_9))
-                    .data;
-                *(&mut _90 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _522;
-                *(&mut _91 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _523;
-                *(&mut _92 as *mut l_struct_struct_OC_vmask4
-                    as *mut l_array_2_uint64_t) = _524;
+                _524 =
+                    (*(&mut _202.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_9)).data;
+                *(&mut _90 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _522;
+                *(&mut _91 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _523;
+                *(&mut _92 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _524;
                 _525 = *(&mut _92 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
                 if _525 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
-                    _526 = *(&mut _91 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_float);
+                    _526 = *(&mut _91 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                     _528__PHI_TEMPORARY = _526;
                 } else {
-                    _527 = *(&mut _90 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_float);
+                    _527 = *(&mut _90 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                     _528__PHI_TEMPORARY = _527;
                 }
                 _528 = _528__PHI_TEMPORARY;
@@ -3135,7 +2908,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 if _529 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                     _530 = *(&mut *((*(&mut _91 as *mut l_struct_struct_OC_vfloat4
                         as *mut l_array_4_float))
@@ -3158,7 +2932,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 if _533 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                     _534 = *(&mut *((*(&mut _91 as *mut l_struct_struct_OC_vfloat4
                         as *mut l_array_4_float))
@@ -3181,7 +2956,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 if _537 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                     _538 = *(&mut *((*(&mut _91 as *mut l_struct_struct_OC_vfloat4
                         as *mut l_array_4_float))
@@ -3245,21 +3021,15 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     &mut _196 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                     16 as libc::c_int as uint64_t,
                 );
-                _551 = (*(&mut _204.field0 as *mut l_array_4_uint32_t
-                    as *mut C2RustUnnamed_8))
-                    .data;
-                _552 = (*(&mut _205.field0 as *mut l_array_4_uint32_t
-                    as *mut C2RustUnnamed_7))
-                    .data;
-                _553 = (*(&mut _206.field0 as *mut l_array_4_uint32_t
-                    as *mut C2RustUnnamed_6))
-                    .data;
-                *(&mut _82 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t) = _551;
-                *(&mut _83 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t) = _552;
-                *(&mut _84 as *mut l_struct_struct_OC_vmask4
-                    as *mut l_array_2_uint64_t) = _553;
+                _551 =
+                    (*(&mut _204.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_8)).data;
+                _552 =
+                    (*(&mut _205.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_7)).data;
+                _553 =
+                    (*(&mut _206.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_6)).data;
+                *(&mut _82 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _551;
+                *(&mut _83 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _552;
+                *(&mut _84 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _553;
                 _554 = *(&mut _84 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
                 if _554 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                     _555 = *(&mut _83 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
@@ -3273,20 +3043,23 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 if _558 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                     _559 = *(&mut *((*(&mut _83 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                        .offset(1 as libc::c_int as int64_t as isize)
+                        as *mut uint32_t);
                     _561__PHI_TEMPORARY = _559;
                 } else {
                     _560 = *(&mut *((*(&mut _82 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                        .offset(1 as libc::c_int as int64_t as isize)
+                        as *mut uint32_t);
                     _561__PHI_TEMPORARY = _560;
                 }
                 _561 = _561__PHI_TEMPORARY;
@@ -3294,20 +3067,23 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 if _562 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                     _563 = *(&mut *((*(&mut _83 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                        .offset(2 as libc::c_int as int64_t as isize)
+                        as *mut uint32_t);
                     _565__PHI_TEMPORARY = _563;
                 } else {
                     _564 = *(&mut *((*(&mut _82 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                        .offset(2 as libc::c_int as int64_t as isize)
+                        as *mut uint32_t);
                     _565__PHI_TEMPORARY = _564;
                 }
                 _565 = _565__PHI_TEMPORARY;
@@ -3315,20 +3091,23 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 if _566 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                     _567 = *(&mut *((*(&mut _83 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                        .offset(3 as libc::c_int as int64_t as isize)
+                        as *mut uint32_t);
                     _569__PHI_TEMPORARY = _567;
                 } else {
                     _568 = *(&mut *((*(&mut _82 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                        .offset(3 as libc::c_int as int64_t as isize)
+                        as *mut uint32_t);
                     _569__PHI_TEMPORARY = _568;
                 }
                 _569 = _569__PHI_TEMPORARY;
@@ -3355,10 +3134,9 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     .as_mut_ptr()
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut uint32_t) = _574;
-                _575 = *(&mut _81 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t);
-                (*(&mut _203.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_5))
-                    .data = _575;
+                _575 = *(&mut _81 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+                (*(&mut _203.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_5)).data =
+                    _575;
                 _576 = memcpy(
                     &mut _189 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
                     &mut _203 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
@@ -3398,46 +3176,48 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     _584,
                     16 as libc::c_int as uint64_t,
                 );
-                _586 = *(&mut _79 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t);
-                _587 = *(&mut _80 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t);
-                *(&mut _74 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t) = _586;
-                *(&mut _75 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t) = _587;
+                _586 = *(&mut _79 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+                _587 = *(&mut _80 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+                *(&mut _74 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _586;
+                *(&mut _75 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _587;
                 _588 = *(&mut _74 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _589 = *(&mut _75 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _590 = *(&mut *((*(&mut _74 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _591 = *(&mut *((*(&mut _75 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _592 = *(&mut *((*(&mut _74 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _593 = *(&mut *((*(&mut _75 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _594 = *(&mut *((*(&mut _74 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _595 = *(&mut *((*(&mut _75 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _41 = &mut _73 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
                 _42 = llvm_add_u32(_588, _589);
                 _43 = llvm_add_u32(_590, _591);
@@ -3461,10 +3241,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     .as_mut_ptr()
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut uint32_t) = _600;
-                _601 = *(&mut _73 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t);
-                *(&mut _78 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_2_uint64_t) = _601;
+                _601 = *(&mut _73 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+                *(&mut _78 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _601;
                 _602 = _76;
                 _603 = memcpy(
                     _602,
@@ -3486,32 +3264,28 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 16 as libc::c_int as uint64_t,
             );
             _608 = *(&mut _211.field0 as *mut l_array_4_float);
-            *(&mut _67 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _608;
+            *(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _608;
             _609 = _ZSt3minIfERKT_S2_S2_(
                 &mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float))
+                &mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float
-                    as *mut libc::c_void,
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float as *mut libc::c_void,
             );
             _610 = *(_609 as *mut libc::c_float);
             _68 = _610;
             _611 = _ZSt3minIfERKT_S2_S2_(
-                &mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float))
+                &mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float
-                    as *mut libc::c_void,
-                &mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float))
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float as *mut libc::c_void,
+                &mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float
-                    as *mut libc::c_void,
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float as *mut libc::c_void,
             );
             _612 = *(_611 as *mut libc::c_float);
             _69 = _612;
@@ -3544,57 +3318,56 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             *(&mut _210.field0 as *mut l_array_4_float) = _620.field0;
             _621 = *(&mut _209.field0 as *mut l_array_4_float);
             _622 = *(&mut _210.field0 as *mut l_array_4_float);
-            *(&mut _71 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _621;
-            *(&mut _72 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _622;
+            *(&mut _71 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _621;
+            *(&mut _72 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _622;
             _623 = *(&mut _71 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _624 = *(&mut _72 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _625 = *(&mut *((*(&mut _71 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _626 = *(&mut *((*(&mut _72 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _627 = *(&mut *((*(&mut _71 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _628 = *(&mut *((*(&mut _72 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _629 = *(&mut *((*(&mut _71 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _630 = *(&mut *((*(&mut _72 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _51 = &mut _70 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void;
-            _52 = llvm_fcmp_oeq(_623 as libc::c_double, _624 as libc::c_double)
-                as bool_0;
-            _53 = llvm_fcmp_oeq(_625 as libc::c_double, _626 as libc::c_double)
-                as bool_0;
-            _54 = llvm_fcmp_oeq(_627 as libc::c_double, _628 as libc::c_double)
-                as bool_0;
-            _55 = llvm_fcmp_oeq(_629 as libc::c_double, _630 as libc::c_double)
-                as bool_0;
+            _52 = llvm_fcmp_oeq(_623 as libc::c_double, _624 as libc::c_double) as bool_0;
+            _53 = llvm_fcmp_oeq(_625 as libc::c_double, _626 as libc::c_double) as bool_0;
+            _54 = llvm_fcmp_oeq(_627 as libc::c_double, _628 as libc::c_double) as bool_0;
+            _55 = llvm_fcmp_oeq(_629 as libc::c_double, _630 as libc::c_double) as bool_0;
             _631 = _51;
             _632 = _52;
             _633 = ((_632 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
-            *(_631
-                as *mut uint32_t) = llvm_select_u32(
+            *(_631 as *mut uint32_t) = llvm_select_u32(
                 ((_632 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -3605,8 +3378,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_631 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_634 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -3617,8 +3389,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_631 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_636 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -3629,17 +3400,14 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_631 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_638 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
                 -(1 as libc::c_int) as uint32_t,
             );
-            _640 = *(&mut _70 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            (*(&mut _208.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_4))
-                .data = _640;
+            _640 = *(&mut _70 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            (*(&mut _208.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_4)).data = _640;
             _117 = &mut _213 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
             _118 = 2147483647 as libc::c_uint;
             _641 = _117;
@@ -3667,21 +3435,12 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 &mut _208 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _648 = (*(&mut _213.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_3))
-                .data;
-            _649 = (*(&mut _214.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_2))
-                .data;
-            _650 = (*(&mut _215.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_1))
-                .data;
-            *(&mut _86 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _648;
-            *(&mut _87 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _649;
-            *(&mut _88 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _650;
+            _648 = (*(&mut _213.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_3)).data;
+            _649 = (*(&mut _214.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_2)).data;
+            _650 = (*(&mut _215.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_1)).data;
+            *(&mut _86 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _648;
+            *(&mut _87 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _649;
+            *(&mut _88 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _650;
             _651 = *(&mut _88 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
             if _651 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _652 = *(&mut _87 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
@@ -3695,20 +3454,23 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _655 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _656 = *(&mut *((*(&mut _87 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _658__PHI_TEMPORARY = _656;
             } else {
                 _657 = *(&mut *((*(&mut _86 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _658__PHI_TEMPORARY = _657;
             }
             _658 = _658__PHI_TEMPORARY;
@@ -3716,20 +3478,23 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _659 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _660 = *(&mut *((*(&mut _87 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _662__PHI_TEMPORARY = _660;
             } else {
                 _661 = *(&mut *((*(&mut _86 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _662__PHI_TEMPORARY = _661;
             }
             _662 = _662__PHI_TEMPORARY;
@@ -3737,20 +3502,23 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _663 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _664 = *(&mut *((*(&mut _87 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _666__PHI_TEMPORARY = _664;
             } else {
                 _665 = *(&mut *((*(&mut _86 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut uint32_t);
                 _666__PHI_TEMPORARY = _665;
             }
             _666 = _666__PHI_TEMPORARY;
@@ -3774,10 +3542,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             *(&mut *((*(_667 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _671;
-            _672 = *(&mut _85 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            (*(&mut _212.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_0))
-                .data = _672;
+            _672 = *(&mut _85 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            (*(&mut _212.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_0)).data = _672;
             _673 = memcpy(
                 &mut _189 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
                 &mut _212 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
@@ -3788,23 +3554,18 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 &mut _189 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _675 = (*(&mut _217.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed))
-                .data;
-            *(&mut _61 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _675;
+            _675 = (*(&mut _217.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed)).data;
+            *(&mut _61 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _675;
             _676 = memcpy(
                 &mut _63 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
                 &mut _61 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _677 = *(&mut _63 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            *(&mut _18 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _677;
+            _677 = *(&mut _63 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            *(&mut _18 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _677;
             _678 = _ZSt3minIiERKT_S2_S2_(
                 &mut _18 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
-                &mut *((*(&mut _18 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_4_uint32_t))
+                &mut *((*(&mut _18 as *mut l_struct_struct_OC_vint4 as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t
@@ -3813,14 +3574,12 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _679 = *(_678 as *mut uint32_t);
             _19 = _679;
             _680 = _ZSt3minIiERKT_S2_S2_(
-                &mut *((*(&mut _18 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_4_uint32_t))
+                &mut *((*(&mut _18 as *mut l_struct_struct_OC_vint4 as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t
                     as *mut libc::c_void,
-                &mut *((*(&mut _18 as *mut l_struct_struct_OC_vint4
-                    as *mut l_array_4_uint32_t))
+                &mut *((*(&mut _18 as *mut l_struct_struct_OC_vint4 as *mut l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t
@@ -3850,10 +3609,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             *(&mut *((*(_684 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _688;
-            _689 = *(&mut _17 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            *(&mut _62 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _689;
+            _689 = *(&mut _17 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            *(&mut _62 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _689;
             _14 = &mut _62 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
             _690 = _14;
             _691 = *(_690 as *mut uint32_t);
@@ -3869,8 +3626,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             }
             _695 = _153;
             _696 = _216;
-            *(&mut *(_695 as *mut libc::c_float)
-                .offset(_696 as int32_t as int64_t as isize)
+            *(&mut *(_695 as *mut libc::c_float).offset(_696 as int32_t as int64_t as isize)
                 as *mut libc::c_float) = 1.00000002E+30f64 as libc::c_float;
             _697 = _188;
             _188 = llvm_add_u32(_697, 1 as libc::c_int as uint32_t);
@@ -3886,7 +3642,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _700 = _218;
             _701 = *(&mut *(_187.array)
                 .as_mut_ptr()
-                .offset(_700 as uint64_t as int64_t as isize) as *mut uint32_t);
+                .offset(_700 as uint64_t as int64_t as isize)
+                as *mut uint32_t);
             if (_701 as int32_t) < 0 as libc::c_uint as int32_t {
                 current_block = 4155431512055656118;
                 break;
@@ -3894,7 +3651,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _703 = _218;
             _704 = *(&mut *(_187.array)
                 .as_mut_ptr()
-                .offset(_703 as uint64_t as int64_t as isize) as *mut uint32_t);
+                .offset(_703 as uint64_t as int64_t as isize)
+                as *mut uint32_t);
             _705 = _141;
             _706 = _218;
             *(&mut *(_705 as *mut uint32_t).offset(_706 as uint64_t as int64_t as isize)
@@ -3903,9 +3661,10 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _708 = _218;
             _709 = *(&mut *(_187.array)
                 .as_mut_ptr()
-                .offset(_708 as uint64_t as int64_t as isize) as *mut uint32_t);
-            _710 = *(&mut *(_707 as *mut uint8_t)
-                .offset(_709 as int32_t as int64_t as isize) as *mut uint8_t);
+                .offset(_708 as uint64_t as int64_t as isize)
+                as *mut uint32_t);
+            _710 = *(&mut *(_707 as *mut uint8_t).offset(_709 as int32_t as int64_t as isize)
+                as *mut uint8_t);
             _711 = _142;
             _712 = _218;
             *(&mut *(_711 as *mut uint32_t).offset(_712 as uint64_t as int64_t as isize)
@@ -3914,24 +3673,25 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _714 = _218;
             _715 = *(&mut *(_187.array)
                 .as_mut_ptr()
-                .offset(_714 as uint64_t as int64_t as isize) as *mut uint32_t);
-            _716 = *(&mut *(_713 as *mut uint8_t)
-                .offset(_715 as int32_t as int64_t as isize) as *mut uint8_t);
+                .offset(_714 as uint64_t as int64_t as isize)
+                as *mut uint32_t);
+            _716 = *(&mut *(_713 as *mut uint8_t).offset(_715 as int32_t as int64_t as isize)
+                as *mut uint8_t);
             _717 = _143;
             _718 = _218;
             *(&mut *(_717 as *mut uint32_t).offset(_718 as uint64_t as int64_t as isize)
                 as *mut uint32_t) = _716 as uint32_t;
             _719 = _142;
             _720 = _218;
-            _721 = *(&mut *(_719 as *mut uint32_t)
-                .offset(_720 as uint64_t as int64_t as isize) as *mut uint32_t);
+            _721 = *(&mut *(_719 as *mut uint32_t).offset(_720 as uint64_t as int64_t as isize)
+                as *mut uint32_t);
             if _721 as int32_t >= 4 as libc::c_uint as int32_t {
                 _722 = _142;
                 _723 = _218;
-                _724 = *(&mut *(_722 as *mut uint32_t)
-                    .offset(_723 as uint64_t as int64_t as isize) as *mut uint32_t);
-                _725__PHI_TEMPORARY = (_724 as int32_t <= 20 as libc::c_uint as int32_t)
-                    as libc::c_int as bool_0;
+                _724 = *(&mut *(_722 as *mut uint32_t).offset(_723 as uint64_t as int64_t as isize)
+                    as *mut uint32_t);
+                _725__PHI_TEMPORARY =
+                    (_724 as int32_t <= 20 as libc::c_uint as int32_t) as libc::c_int as bool_0;
             } else {
                 _725__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
             }
@@ -3942,15 +3702,15 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             }
             _726 = _143;
             _727 = _218;
-            _728 = *(&mut *(_726 as *mut uint32_t)
-                .offset(_727 as uint64_t as int64_t as isize) as *mut uint32_t);
+            _728 = *(&mut *(_726 as *mut uint32_t).offset(_727 as uint64_t as int64_t as isize)
+                as *mut uint32_t);
             if _728 as int32_t >= 4 as libc::c_uint as int32_t {
                 _729 = _143;
                 _730 = _218;
-                _731 = *(&mut *(_729 as *mut uint32_t)
-                    .offset(_730 as uint64_t as int64_t as isize) as *mut uint32_t);
-                _732__PHI_TEMPORARY = (_731 as int32_t <= 20 as libc::c_uint as int32_t)
-                    as libc::c_int as bool_0;
+                _731 = *(&mut *(_729 as *mut uint32_t).offset(_730 as uint64_t as int64_t as isize)
+                    as *mut uint32_t);
+                _732__PHI_TEMPORARY =
+                    (_731 as int32_t <= 20 as libc::c_uint as int32_t) as libc::c_int as bool_0;
             } else {
                 _732__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
             }
@@ -3970,7 +3730,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                 _736 = _218;
                 _737 = *(&mut *(_187.array)
                     .as_mut_ptr()
-                    .offset(_736 as uint64_t as int64_t as isize) as *mut uint32_t);
+                    .offset(_736 as uint64_t as int64_t as isize)
+                    as *mut uint32_t);
                 _738 = _219;
                 _739 = *(&mut *((*(&mut *((*(_735
                     as *mut l_array_2048_struct_AC_l_array_4_uint8_t))
@@ -3980,7 +3741,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint8_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(_738 as int32_t as int64_t as isize) as *mut uint8_t);
+                    .offset(_738 as int32_t as int64_t as isize)
+                    as *mut uint8_t);
                 _740 = _140;
                 _741 = _218;
                 _742 = _219;
@@ -3989,7 +3751,8 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
                     as *mut l_array_4_uint8_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(_742 as int32_t as int64_t as isize) as *mut uint8_t) = _739;
+                    .offset(_742 as int32_t as int64_t as isize)
+                    as *mut uint8_t) = _739;
                 _743 = _219;
                 _219 = llvm_add_u32(_743, 1 as libc::c_int as uint32_t);
             }
@@ -4263,9 +4026,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _1032: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _1033: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -4466,9 +4227,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _1107: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _1108: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -4483,16 +4242,17 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
     let mut _1114: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _1115: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _1116: uint32_t = 0;
-    let mut _1117: l_array_4_struct_AC_l_struct_struct_OC_partition_metrics = l_array_4_struct_AC_l_struct_struct_OC_partition_metrics {
-        array: [l_struct_struct_OC_partition_metrics {
-            field0: l_struct_struct_OC_vfloat4 {
-                field0: l_array_4_float { array: [0.; 4] },
-            },
-            field1: l_struct_struct_OC_vfloat4 {
-                field0: l_array_4_float { array: [0.; 4] },
-            },
-        }; 4],
-    };
+    let mut _1117: l_array_4_struct_AC_l_struct_struct_OC_partition_metrics =
+        l_array_4_struct_AC_l_struct_struct_OC_partition_metrics {
+            array: [l_struct_struct_OC_partition_metrics {
+                field0: l_struct_struct_OC_vfloat4 {
+                    field0: l_array_4_float { array: [0.; 4] },
+                },
+                field1: l_struct_struct_OC_vfloat4 {
+                    field0: l_array_4_float { array: [0.; 4] },
+                },
+            }; 4],
+        };
     let mut _1118: uint32_t = 0;
     let mut _1119: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _1120: l_struct_struct_OC_line3 = l_struct_struct_OC_line3 {
@@ -4650,9 +4410,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _1163: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _1164: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -4662,9 +4420,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
     };
     let mut _1166: uint8_t = 0;
     let mut _1167: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _1168: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _1169: uint16_t = 0;
@@ -5161,13 +4917,9 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
     let mut _1606: uint64_t = 0;
     let mut _1607: uint8_t = 0;
     let mut _1608: uint64_t = 0;
-    let mut _1609: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _1609: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1610: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _1611: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _1611: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1612: uint32_t = 0;
     let mut _1613: uint32_t = 0;
     let mut _1614: uint32_t = 0;
@@ -5200,8 +4952,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
     _1114 = _879;
     _1115 = _880;
     _1168 = _1113;
-    _1169 = *(&mut (*(_1168 as *mut l_struct_struct_OC_partition_info)).field0
-        as *mut uint16_t);
+    _1169 = *(&mut (*(_1168 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _1116 = _1169 as uint32_t;
     _1170 = _1116;
     if _1170 as int32_t > 0 as libc::c_uint as int32_t {
@@ -5210,7 +4961,9 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
         _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoRK11image_blockP17partition_metrics(
             _1171,
             _1172,
-            &mut *(_1117.array).as_mut_ptr().offset(0 as libc::c_int as int64_t as isize)
+            &mut *(_1117.array)
+                .as_mut_ptr()
+                .offset(0 as libc::c_int as int64_t as isize)
                 as *mut l_struct_struct_OC_partition_metrics as *mut libc::c_void,
         );
         _1118 = 0 as libc::c_int as uint32_t;
@@ -5224,11 +4977,11 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1119 = &mut *(_1117.array)
                 .as_mut_ptr()
                 .offset(_1175 as int32_t as int64_t as isize)
-                as *mut l_struct_struct_OC_partition_metrics as *mut libc::c_void;
+                as *mut l_struct_struct_OC_partition_metrics
+                as *mut libc::c_void;
             _1176 = _1119;
             _1177 = memcpy(
-                &mut _1120.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1120.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut (*(_1176 as *mut l_struct_struct_OC_partition_metrics)).field0
                     as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
@@ -5271,10 +5024,8 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut _1134.field0 as *mut l_array_4_float) = _1188.field0;
             _1189 = *(&mut _1133.field0 as *mut l_array_4_float);
             _1190 = *(&mut _1134.field0 as *mut l_array_4_float);
-            *(&mut _1090 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1189;
-            *(&mut _1091 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1190;
+            *(&mut _1090 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1189;
+            *(&mut _1091 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1190;
             _1191 = memcpy(
                 &mut _1093 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1090 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5285,14 +5036,10 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 &mut _1090 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1193 = *(&mut _1093 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _1194 = *(&mut _1094 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _1026 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1193;
-            *(&mut _1027 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1194;
+            _1193 = *(&mut _1093 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _1194 = *(&mut _1094 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _1026 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1193;
+            *(&mut _1027 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1194;
             _1195 = memcpy(
                 &mut _1029 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1026 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5303,48 +5050,48 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 &mut _1027 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1197 = *(&mut _1029 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _1198 = *(&mut _1030 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _1021 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1197;
-            *(&mut _1022 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1198;
-            _1199 = *(&mut _1021 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1200 = *(&mut _1022 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _1197 = *(&mut _1029 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _1198 = *(&mut _1030 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _1021 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1197;
+            *(&mut _1022 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1198;
+            _1199 = *(&mut _1021 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1200 = *(&mut _1022 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1201 = *(&mut *((*(&mut _1021 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1202 = *(&mut *((*(&mut _1022 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1203 = *(&mut *((*(&mut _1021 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1204 = *(&mut *((*(&mut _1022 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1205 = *(&mut *((*(&mut _1021 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1206 = *(&mut *((*(&mut _1022 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _964 = &mut _1020 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _965 = llvm_fmul_f32(_1199, _1200);
             _966 = llvm_fmul_f32(_1201, _1202);
@@ -5369,39 +5116,35 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _1211;
             _1212 = _1020;
-            *(&mut _1028 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1212.field0;
+            *(&mut _1028 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1212.field0;
             _1213 = memcpy(
                 &mut _1031 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1028 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1214 = *(&mut _1031 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _994 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1214;
-            _1215 = *(&mut _994 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _1214 = *(&mut _1031 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _994 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1214;
+            _1215 = *(&mut _994 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1216 = *(&mut *((*(&mut _994 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1217 = *(&mut *((*(&mut _994 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1218 = *(&mut *((*(&mut _994 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1023 = &mut _1025 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
-            _1024 = llvm_fadd_f32(
-                llvm_fadd_f32(_1215, _1216),
-                llvm_fadd_f32(_1217, _1218),
-            );
+            _1024 = llvm_fadd_f32(llvm_fadd_f32(_1215, _1216), llvm_fadd_f32(_1217, _1218));
             _1219 = _1023;
             _1220 = _1024;
             *(_1219 as *mut libc::c_float) = _1220;
@@ -5421,14 +5164,11 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _1223;
             _1224 = _1025;
-            *(&mut _1092 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1224.field0;
+            *(&mut _1092 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1224.field0;
             _1007 = &mut _1092 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _1225 = _1007;
             _1226 = *(_1225 as *mut libc::c_float);
-            if llvm_fcmp_une(_1226 as libc::c_double, 0 as libc::c_int as libc::c_double)
-                != 0
-            {
+            if llvm_fcmp_une(_1226 as libc::c_double, 0 as libc::c_int as libc::c_double) != 0 {
                 _1227 = memcpy(
                     &mut _1095 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                     &mut _1090 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5439,30 +5179,30 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                     &mut _1092 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                     16 as libc::c_int as uint64_t,
                 );
-                _1229 = *(&mut _1097 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float);
-                *(&mut _999 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1229;
-                _1230 = *(&mut _999 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _1229 = *(&mut _1097 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+                *(&mut _999 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1229;
+                _1230 = *(&mut _999 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _1231 = _ZSt4sqrtf(_1230);
                 _1232 = *(&mut *((*(&mut _999 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1233 = _ZSt4sqrtf(_1232);
                 _1234 = *(&mut *((*(&mut _999 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1235 = _ZSt4sqrtf(_1234);
                 _1236 = *(&mut *((*(&mut _999 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1237 = _ZSt4sqrtf(_1236);
                 _984 = &mut _998 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _985 = _1231;
@@ -5488,52 +5228,51 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _1242;
                 _1243 = _998;
-                *(&mut _1096 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1243.field0;
-                _1244 = *(&mut _1095 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float);
-                _1245 = *(&mut _1096 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float);
-                *(&mut _1004 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1244;
-                *(&mut _1005 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1245;
-                _1246 = *(&mut _1004 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
-                _1247 = *(&mut _1005 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                *(&mut _1096 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
+                    _1243.field0;
+                _1244 = *(&mut _1095 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+                _1245 = *(&mut _1096 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+                *(&mut _1004 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1244;
+                *(&mut _1005 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1245;
+                _1246 = *(&mut _1004 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+                _1247 = *(&mut _1005 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _1248 = *(&mut *((*(&mut _1004 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1249 = *(&mut *((*(&mut _1005 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1250 = *(&mut *((*(&mut _1004 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1251 = *(&mut *((*(&mut _1005 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1252 = *(&mut *((*(&mut _1004 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1253 = *(&mut *((*(&mut _1005 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-                _974 = &mut _1003 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void;
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
+                _974 = &mut _1003 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _975 = llvm_fdiv_f32(_1246, _1247);
                 _976 = llvm_fdiv_f32(_1248, _1249);
                 _977 = llvm_fdiv_f32(_1250, _1251);
@@ -5557,8 +5296,8 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _1258;
                 _1259 = _1003;
-                *(&mut _1089 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1259.field0;
+                *(&mut _1089 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
+                    _1259.field0;
             } else {
                 _1260 = memcpy(
                     &mut _1089 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5569,8 +5308,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1261 = _1089;
             *(&mut _1132.field0 as *mut l_array_4_float) = _1261.field0;
             _1262 = memcpy(
-                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1132 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
@@ -5597,8 +5335,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1268 = _1074;
             *(&mut _1135.field0 as *mut l_array_4_float) = _1268.field0;
             _1269 = memcpy(
-                &mut _1121.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1121.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1135 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
@@ -5640,10 +5377,8 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut _1138.field0 as *mut l_array_4_float) = _1280.field0;
             _1281 = *(&mut _1137.field0 as *mut l_array_4_float);
             _1282 = *(&mut _1138.field0 as *mut l_array_4_float);
-            *(&mut _1099 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1281;
-            *(&mut _1100 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1282;
+            *(&mut _1099 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1281;
+            *(&mut _1100 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1282;
             _1283 = memcpy(
                 &mut _1102 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1099 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5654,14 +5389,10 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 &mut _1099 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1285 = *(&mut _1102 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _1286 = *(&mut _1103 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _1014 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1285;
-            *(&mut _1015 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1286;
+            _1285 = *(&mut _1102 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _1286 = *(&mut _1103 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _1014 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1285;
+            *(&mut _1015 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1286;
             _1287 = memcpy(
                 &mut _1017 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1014 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5672,48 +5403,48 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 &mut _1015 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1289 = *(&mut _1017 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _1290 = *(&mut _1018 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _1009 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1289;
-            *(&mut _1010 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1290;
-            _1291 = *(&mut _1009 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1292 = *(&mut _1010 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _1289 = *(&mut _1017 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _1290 = *(&mut _1018 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _1009 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1289;
+            *(&mut _1010 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1290;
+            _1291 = *(&mut _1009 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1292 = *(&mut _1010 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1293 = *(&mut *((*(&mut _1009 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1294 = *(&mut *((*(&mut _1010 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1295 = *(&mut *((*(&mut _1009 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1296 = *(&mut *((*(&mut _1010 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1297 = *(&mut *((*(&mut _1009 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1298 = *(&mut *((*(&mut _1010 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _969 = &mut _1008 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _970 = llvm_fmul_f32(_1291, _1292);
             _971 = llvm_fmul_f32(_1293, _1294);
@@ -5738,39 +5469,35 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _1303;
             _1304 = _1008;
-            *(&mut _1016 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1304.field0;
+            *(&mut _1016 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1304.field0;
             _1305 = memcpy(
                 &mut _1019 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1016 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1306 = *(&mut _1019 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _995 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1306;
-            _1307 = *(&mut _995 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _1306 = *(&mut _1019 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _995 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1306;
+            _1307 = *(&mut _995 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1308 = *(&mut *((*(&mut _995 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1309 = *(&mut *((*(&mut _995 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1310 = *(&mut *((*(&mut _995 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1011 = &mut _1013 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
-            _1012 = llvm_fadd_f32(
-                llvm_fadd_f32(_1307, _1308),
-                llvm_fadd_f32(_1309, _1310),
-            );
+            _1012 = llvm_fadd_f32(llvm_fadd_f32(_1307, _1308), llvm_fadd_f32(_1309, _1310));
             _1311 = _1011;
             _1312 = _1012;
             *(_1311 as *mut libc::c_float) = _1312;
@@ -5790,14 +5517,11 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _1315;
             _1316 = _1013;
-            *(&mut _1101 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1316.field0;
+            *(&mut _1101 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1316.field0;
             _1006 = &mut _1101 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _1317 = _1006;
             _1318 = *(_1317 as *mut libc::c_float);
-            if llvm_fcmp_une(_1318 as libc::c_double, 0 as libc::c_int as libc::c_double)
-                != 0
-            {
+            if llvm_fcmp_une(_1318 as libc::c_double, 0 as libc::c_int as libc::c_double) != 0 {
                 _1319 = memcpy(
                     &mut _1104 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                     &mut _1099 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5808,30 +5532,30 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                     &mut _1101 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                     16 as libc::c_int as uint64_t,
                 );
-                _1321 = *(&mut _1106 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float);
-                *(&mut _997 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1321;
-                _1322 = *(&mut _997 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _1321 = *(&mut _1106 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+                *(&mut _997 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1321;
+                _1322 = *(&mut _997 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _1323 = _ZSt4sqrtf(_1322);
                 _1324 = *(&mut *((*(&mut _997 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1325 = _ZSt4sqrtf(_1324);
                 _1326 = *(&mut *((*(&mut _997 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1327 = _ZSt4sqrtf(_1326);
                 _1328 = *(&mut *((*(&mut _997 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1329 = _ZSt4sqrtf(_1328);
                 _989 = &mut _996 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _990 = _1323;
@@ -5857,52 +5581,51 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _1334;
                 _1335 = _996;
-                *(&mut _1105 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1335.field0;
-                _1336 = *(&mut _1104 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float);
-                _1337 = *(&mut _1105 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float);
-                *(&mut _1001 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1336;
-                *(&mut _1002 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1337;
-                _1338 = *(&mut _1001 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
-                _1339 = *(&mut _1002 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                *(&mut _1105 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
+                    _1335.field0;
+                _1336 = *(&mut _1104 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+                _1337 = *(&mut _1105 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+                *(&mut _1001 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1336;
+                *(&mut _1002 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1337;
+                _1338 = *(&mut _1001 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+                _1339 = *(&mut _1002 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _1340 = *(&mut *((*(&mut _1001 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1341 = *(&mut *((*(&mut _1002 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1342 = *(&mut *((*(&mut _1001 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1343 = *(&mut *((*(&mut _1002 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1344 = *(&mut *((*(&mut _1001 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _1345 = *(&mut *((*(&mut _1002 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-                _979 = &mut _1000 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void;
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
+                _979 = &mut _1000 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _980 = llvm_fdiv_f32(_1338, _1339);
                 _981 = llvm_fdiv_f32(_1340, _1341);
                 _982 = llvm_fdiv_f32(_1342, _1343);
@@ -5926,8 +5649,8 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                     .offset(3 as libc::c_int as int64_t as isize)
                     as *mut libc::c_float) = _1350;
                 _1351 = _1000;
-                *(&mut _1098 as *mut l_struct_struct_OC_vfloat4
-                    as *mut l_array_4_float) = _1351.field0;
+                *(&mut _1098 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) =
+                    _1351.field0;
             } else {
                 _1352 = memcpy(
                     &mut _1098 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -5938,15 +5661,13 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1353 = _1098;
             *(&mut _1136.field0 as *mut l_array_4_float) = _1353.field0;
             _1354 = memcpy(
-                &mut _1121.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1121.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1136 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1355 = _1119;
             _1356 = memcpy(
-                &mut _1122.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1122.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut (*(_1355 as *mut l_struct_struct_OC_partition_metrics)).field0
                     as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
@@ -5981,41 +5702,34 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1365 = _1085;
             *(&mut _1139.field0 as *mut l_array_4_float) = _1365.field0;
             _1366 = memcpy(
-                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1139 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1367 = memcpy(
                 &mut _1141 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1120.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1120.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1368 = memcpy(
                 &mut _1143 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1369 = memcpy(
                 &mut _1145 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1120.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1120.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1370 = memcpy(
                 &mut _1146 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1371 = *(&mut _1145.field0 as *mut l_array_4_float);
             _1372 = *(&mut _1146.field0 as *mut l_array_4_float);
-            *(&mut _1039 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1371;
-            *(&mut _1040 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1372;
+            *(&mut _1039 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1371;
+            *(&mut _1040 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1372;
             _1373 = memcpy(
                 &mut _1042 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1039 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -6026,48 +5740,48 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 &mut _1040 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1375 = *(&mut _1042 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _1376 = *(&mut _1043 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _1036 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1375;
-            *(&mut _1037 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1376;
-            _1377 = *(&mut _1036 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1378 = *(&mut _1037 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _1375 = *(&mut _1042 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _1376 = *(&mut _1043 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _1036 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1375;
+            *(&mut _1037 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1376;
+            _1377 = *(&mut _1036 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1378 = *(&mut _1037 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1379 = *(&mut *((*(&mut _1036 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1380 = *(&mut *((*(&mut _1037 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1381 = *(&mut *((*(&mut _1036 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1382 = *(&mut *((*(&mut _1037 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1383 = *(&mut *((*(&mut _1036 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1384 = *(&mut *((*(&mut _1037 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _949 = &mut _1035 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _950 = llvm_fmul_f32(_1377, _1378);
             _951 = llvm_fmul_f32(_1379, _1380);
@@ -6092,17 +5806,14 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _1389;
             _1390 = _1035;
-            *(&mut _1041 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1390.field0;
+            *(&mut _1041 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1390.field0;
             _1391 = memcpy(
                 &mut _1045 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1041 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1392 = *(&mut _1045 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _893 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1392;
+            _1392 = *(&mut _1045 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _893 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1392;
             _892 = &mut _893 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _1393 = _892;
             _1394 = *(_1393 as *mut libc::c_float);
@@ -6110,12 +5821,14 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1395 = _888;
             _1396 = *(&mut *((*(_1395 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _886 = &mut _893 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _1397 = _886;
             _1398 = *(&mut *((*(_1397 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1044 = llvm_fadd_f32(llvm_fadd_f32(_1394, _1396), _1398);
             _1399 = _1044;
             _1400 = _1044;
@@ -6147,44 +5860,46 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut _1144.field0 as *mut l_array_4_float) = _1407.field0;
             _1408 = *(&mut _1143.field0 as *mut l_array_4_float);
             _1409 = *(&mut _1144.field0 as *mut l_array_4_float);
-            *(&mut _1058 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1408;
-            *(&mut _1059 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1409;
-            _1410 = *(&mut _1058 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1411 = *(&mut _1059 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _1058 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1408;
+            *(&mut _1059 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1409;
+            _1410 = *(&mut _1058 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1411 = *(&mut _1059 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1412 = *(&mut *((*(&mut _1058 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1413 = *(&mut *((*(&mut _1059 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1414 = *(&mut *((*(&mut _1058 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1415 = *(&mut *((*(&mut _1059 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1416 = *(&mut *((*(&mut _1058 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1417 = *(&mut *((*(&mut _1059 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _934 = &mut _1057 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _935 = llvm_fmul_f32(_1410, _1411);
             _936 = llvm_fmul_f32(_1412, _1413);
@@ -6212,44 +5927,46 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut _1142.field0 as *mut l_array_4_float) = _1423.field0;
             _1424 = *(&mut _1141.field0 as *mut l_array_4_float);
             _1425 = *(&mut _1142.field0 as *mut l_array_4_float);
-            *(&mut _1064 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1424;
-            *(&mut _1065 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1425;
-            _1426 = *(&mut _1064 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1427 = *(&mut _1065 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _1064 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1424;
+            *(&mut _1065 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1425;
+            _1426 = *(&mut _1064 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1427 = *(&mut _1065 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1428 = *(&mut *((*(&mut _1064 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1429 = *(&mut *((*(&mut _1065 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1430 = *(&mut *((*(&mut _1064 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1431 = *(&mut *((*(&mut _1065 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1432 = *(&mut *((*(&mut _1064 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1433 = *(&mut *((*(&mut _1065 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _924 = &mut _1063 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _925 = llvm_fsub_f32(_1426, _1427);
             _926 = llvm_fsub_f32(_1428, _1429);
@@ -6276,16 +5993,13 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1439 = _1063;
             *(&mut _1140.field0 as *mut l_array_4_float) = _1439.field0;
             _1440 = memcpy(
-                &mut _1123.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1123.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1140 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1441 = memcpy(
-                &mut _1123.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
-                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1123.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
+                &mut _1120.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1075 = &mut _1077 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
@@ -6311,48 +6025,39 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1447 = _1077;
             *(&mut _1147.field0 as *mut l_array_4_float) = _1447.field0;
             _1448 = memcpy(
-                &mut _1124.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1124.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1147 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1449 = memcpy(
-                &mut _1124.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
-                &mut _1121.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1124.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
+                &mut _1121.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1450 = memcpy(
                 &mut _1149 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1122.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1122.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1451 = memcpy(
                 &mut _1151 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1452 = memcpy(
                 &mut _1153 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1122.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1122.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1453 = memcpy(
                 &mut _1154 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1454 = *(&mut _1153.field0 as *mut l_array_4_float);
             _1455 = *(&mut _1154.field0 as *mut l_array_4_float);
-            *(&mut _1050 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1454;
-            *(&mut _1051 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1455;
+            *(&mut _1050 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1454;
+            *(&mut _1051 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1455;
             _1456 = memcpy(
                 &mut _1053 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1050 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -6363,48 +6068,48 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 &mut _1051 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1458 = *(&mut _1053 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _1459 = *(&mut _1054 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _1047 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1458;
-            *(&mut _1048 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1459;
-            _1460 = *(&mut _1047 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1461 = *(&mut _1048 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _1458 = *(&mut _1053 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _1459 = *(&mut _1054 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _1047 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1458;
+            *(&mut _1048 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1459;
+            _1460 = *(&mut _1047 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1461 = *(&mut _1048 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1462 = *(&mut *((*(&mut _1047 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1463 = *(&mut *((*(&mut _1048 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1464 = *(&mut *((*(&mut _1047 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1465 = *(&mut *((*(&mut _1048 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1466 = *(&mut *((*(&mut _1047 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1467 = *(&mut *((*(&mut _1048 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _939 = &mut _1046 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _940 = llvm_fmul_f32(_1460, _1461);
             _941 = llvm_fmul_f32(_1462, _1463);
@@ -6429,17 +6134,14 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _1472;
             _1473 = _1046;
-            *(&mut _1052 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1473.field0;
+            *(&mut _1052 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1473.field0;
             _1474 = memcpy(
                 &mut _1056 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1052 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1475 = *(&mut _1056 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _891 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1475;
+            _1475 = *(&mut _1056 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _891 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1475;
             _890 = &mut _891 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _1476 = _890;
             _1477 = *(_1476 as *mut libc::c_float);
@@ -6447,12 +6149,14 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1478 = _889;
             _1479 = *(&mut *((*(_1478 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _887 = &mut _891 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _1480 = _887;
             _1481 = *(&mut *((*(_1480 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1055 = llvm_fadd_f32(llvm_fadd_f32(_1477, _1479), _1481);
             _1482 = _1055;
             _1483 = _1055;
@@ -6484,44 +6188,46 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut _1152.field0 as *mut l_array_4_float) = _1490.field0;
             _1491 = *(&mut _1151.field0 as *mut l_array_4_float);
             _1492 = *(&mut _1152.field0 as *mut l_array_4_float);
-            *(&mut _1061 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1491;
-            *(&mut _1062 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1492;
-            _1493 = *(&mut _1061 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1494 = *(&mut _1062 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _1061 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1491;
+            *(&mut _1062 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1492;
+            _1493 = *(&mut _1061 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1494 = *(&mut _1062 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1495 = *(&mut *((*(&mut _1061 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1496 = *(&mut *((*(&mut _1062 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1497 = *(&mut *((*(&mut _1061 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1498 = *(&mut *((*(&mut _1062 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1499 = *(&mut *((*(&mut _1061 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1500 = *(&mut *((*(&mut _1062 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _929 = &mut _1060 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _930 = llvm_fmul_f32(_1493, _1494);
             _931 = llvm_fmul_f32(_1495, _1496);
@@ -6549,44 +6255,46 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut _1150.field0 as *mut l_array_4_float) = _1506.field0;
             _1507 = *(&mut _1149.field0 as *mut l_array_4_float);
             _1508 = *(&mut _1150.field0 as *mut l_array_4_float);
-            *(&mut _1067 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1507;
-            *(&mut _1068 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1508;
-            _1509 = *(&mut _1067 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1510 = *(&mut _1068 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _1067 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1507;
+            *(&mut _1068 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1508;
+            _1509 = *(&mut _1067 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1510 = *(&mut _1068 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1511 = *(&mut *((*(&mut _1067 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1512 = *(&mut *((*(&mut _1068 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1513 = *(&mut *((*(&mut _1067 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1514 = *(&mut *((*(&mut _1068 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1515 = *(&mut *((*(&mut _1067 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1516 = *(&mut *((*(&mut _1068 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _919 = &mut _1066 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _920 = llvm_fsub_f32(_1509, _1510);
             _921 = llvm_fsub_f32(_1511, _1512);
@@ -6613,16 +6321,13 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1522 = _1066;
             *(&mut _1148.field0 as *mut l_array_4_float) = _1522.field0;
             _1523 = memcpy(
-                &mut _1125.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1125.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1148 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1524 = memcpy(
-                &mut _1125.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
-                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1125.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
+                &mut _1122.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
             _1078 = &mut _1080 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
@@ -6648,8 +6353,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1530 = _1080;
             *(&mut _1155.field0 as *mut l_array_4_float) = _1530.field0;
             _1531 = memcpy(
-                &mut _1126.field0 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1126.field0 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1155 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
@@ -6683,8 +6387,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1540 = _1087;
             *(&mut _1156.field0 as *mut l_array_4_float) = _1540.field0;
             _1541 = memcpy(
-                &mut _1126.field1 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void,
+                &mut _1126.field1 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _1156 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
@@ -6745,44 +6448,46 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             );
             _1553 = *(&mut _1161.field0 as *mut l_array_4_float);
             _1554 = *(&mut _1162.field0 as *mut l_array_4_float);
-            *(&mut _1070 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1553;
-            *(&mut _1071 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1554;
-            _1555 = *(&mut _1070 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1556 = *(&mut _1071 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _1070 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1553;
+            *(&mut _1071 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1554;
+            _1555 = *(&mut _1070 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1556 = *(&mut _1071 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1557 = *(&mut *((*(&mut _1070 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1558 = *(&mut *((*(&mut _1071 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1559 = *(&mut *((*(&mut _1070 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1560 = *(&mut *((*(&mut _1071 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1561 = *(&mut *((*(&mut _1070 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1562 = *(&mut *((*(&mut _1071 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _914 = &mut _1069 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _915 = llvm_fsub_f32(_1555, _1556);
             _916 = llvm_fsub_f32(_1557, _1558);
@@ -6809,28 +6514,29 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1568 = _1069;
             *(&mut _1160.field0 as *mut l_array_4_float) = _1568.field0;
             _1569 = *(&mut _1160.field0 as *mut l_array_4_float);
-            *(&mut _1034 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1569;
-            _1570 = *(&mut _1034 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _1034 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1569;
+            _1570 = *(&mut _1034 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1571 = _ZSt3absf(_1570);
             _1572 = *(&mut *((*(&mut _1034 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1573 = _ZSt3absf(_1572);
             _1574 = *(&mut *((*(&mut _1034 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1575 = _ZSt3absf(_1574);
             _1576 = *(&mut *((*(&mut _1034 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1577 = _ZSt3absf(_1576);
             _959 = &mut _1033 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _960 = _1571;
@@ -6884,59 +6590,56 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 as *mut libc::c_float) = _1589;
             _1590 = *(&mut _1164.field0 as *mut l_array_4_float);
             _1591 = *(&mut _1165.field0 as *mut l_array_4_float);
-            *(&mut _1108 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1590;
-            *(&mut _1109 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _1591;
-            _1592 = *(&mut _1108 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _1593 = *(&mut _1109 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _1108 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1590;
+            *(&mut _1109 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1591;
+            _1592 = *(&mut _1108 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _1593 = *(&mut _1109 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _1594 = *(&mut *((*(&mut _1108 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1595 = *(&mut *((*(&mut _1109 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1596 = *(&mut *((*(&mut _1108 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1597 = *(&mut *((*(&mut _1109 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1598 = *(&mut *((*(&mut _1108 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _1599 = *(&mut *((*(&mut _1109 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _881 = &mut _1107 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void;
-            _882 = llvm_fcmp_olt(_1592 as libc::c_double, _1593 as libc::c_double)
-                as bool_0;
-            _883 = llvm_fcmp_olt(_1594 as libc::c_double, _1595 as libc::c_double)
-                as bool_0;
-            _884 = llvm_fcmp_olt(_1596 as libc::c_double, _1597 as libc::c_double)
-                as bool_0;
-            _885 = llvm_fcmp_olt(_1598 as libc::c_double, _1599 as libc::c_double)
-                as bool_0;
+            _882 = llvm_fcmp_olt(_1592 as libc::c_double, _1593 as libc::c_double) as bool_0;
+            _883 = llvm_fcmp_olt(_1594 as libc::c_double, _1595 as libc::c_double) as bool_0;
+            _884 = llvm_fcmp_olt(_1596 as libc::c_double, _1597 as libc::c_double) as bool_0;
+            _885 = llvm_fcmp_olt(_1598 as libc::c_double, _1599 as libc::c_double) as bool_0;
             _1600 = _881;
             _1601 = _882;
             _1602 = ((_1601 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
-            *(_1600
-                as *mut uint32_t) = llvm_select_u32(
+            *(_1600 as *mut uint32_t) = llvm_select_u32(
                 ((_1601 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -6947,8 +6650,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_1600 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1603 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -6959,8 +6661,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_1600 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1605 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -6971,47 +6672,45 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_1600 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_1607 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
                 -(1 as libc::c_int) as uint32_t,
             );
-            _1609 = *(&mut _1107 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            (*(&mut _1163.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_20))
-                .data = _1609;
+            _1609 = *(&mut _1107 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            (*(&mut _1163.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_20)).data = _1609;
             _1610 = memcpy(
                 &mut _1167 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 &mut _1163 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _1611 = (*(&mut _1167.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_19))
-                .data;
-            *(&mut _1032 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _1611;
+            _1611 = (*(&mut _1167.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_19)).data;
+            *(&mut _1032 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _1611;
             _1612 = *(&mut _1032 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
             _1613 = *(&mut *((*(&mut _1032 as *mut l_struct_struct_OC_vmask4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _1614 = *(&mut *((*(&mut _1032 as *mut l_struct_struct_OC_vmask4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _1615 = *(&mut *((*(&mut _1032 as *mut l_struct_struct_OC_vmask4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _1166 = ((_1612 & 1 as libc::c_int as uint32_t
                 | _1613 & 2 as libc::c_int as uint32_t
                 | _1614 & 4 as libc::c_int as uint32_t
-                | _1615 & 8 as libc::c_int as uint32_t) & 7 as libc::c_int as uint32_t
+                | _1615 & 8 as libc::c_int as uint32_t)
+                & 7 as libc::c_int as uint32_t
                 == 7 as libc::c_uint) as libc::c_int as bool_0;
             _1616 = _1128;
             _1617 = _1127;
@@ -7020,11 +6719,8 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut (*(&mut *(_1618 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1619 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field0
-                as *mut libc::c_float) = llvm_fmul_f32(
-                llvm_fsub_f32(_1616, _1617),
-                0.699999988f64 as libc::c_float,
-            );
+                .field0 as *mut libc::c_float) =
+                llvm_fmul_f32(llvm_fsub_f32(_1616, _1617), 0.699999988f64 as libc::c_float);
             _1620 = _1129;
             _1621 = _1127;
             _1622 = _1115;
@@ -7032,11 +6728,8 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut (*(&mut *(_1622 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1623 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field1
-                as *mut libc::c_float) = llvm_fmul_f32(
-                llvm_fsub_f32(_1620, _1621),
-                1.5f64 as libc::c_float,
-            );
+                .field1 as *mut libc::c_float) =
+                llvm_fmul_f32(llvm_fsub_f32(_1620, _1621), 1.5f64 as libc::c_float);
             _1624 = _1130;
             _1625 = _1127;
             _1626 = _1115;
@@ -7044,8 +6737,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut (*(&mut *(_1626 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1627 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field2
-                as *mut libc::c_float) = llvm_fmul_f32(
+                .field2 as *mut libc::c_float) = llvm_fmul_f32(
                 llvm_fsub_f32(_1624, _1625),
                 3 as libc::c_int as libc::c_float,
             );
@@ -7055,19 +6747,15 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut (*(&mut *(_1629 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1630 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field3
-                as *mut libc::c_float) = llvm_fmul_f32(
-                _1628,
-                3 as libc::c_int as libc::c_float,
-            );
+                .field3 as *mut libc::c_float) =
+                llvm_fmul_f32(_1628, 3 as libc::c_int as libc::c_float);
             _1631 = _1166;
             _1632 = _1115;
             _1633 = _1118;
             *(&mut (*(&mut *(_1632 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1633 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field4
-                as *mut uint8_t) = (_1631 as libc::c_uint & 1 as libc::c_uint) as bool_0;
+                .field4 as *mut uint8_t) = (_1631 as libc::c_uint & 1 as libc::c_uint) as bool_0;
             _1634 = _1112;
             _1635 = _ZNK11image_block12is_luminanceEv(_1634);
             _1636 = _1115;
@@ -7075,8 +6763,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             *(&mut (*(&mut *(_1636 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1637 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field5
-                as *mut uint8_t) = (_1635 as libc::c_int ^ 1 as libc::c_int) as bool_0;
+                .field5 as *mut uint8_t) = (_1635 as libc::c_int ^ 1 as libc::c_int) as bool_0;
             _1638 = _1118;
             _1118 = llvm_add_u32(_1638, 1 as libc::c_int as uint32_t);
         }
@@ -8625,8 +8312,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             as *mut l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
             .array)
             .as_mut_ptr()
-            .offset(_2025 as int32_t as int64_t as isize)
-            as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
+            .offset(_2025 as int32_t as int64_t as isize) as *mut l_struct_struct_OC_vfloat4
+            as *mut libc::c_void,
         16 as libc::c_int as uint64_t,
     );
     _2027 = _1923;
@@ -8637,8 +8324,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             as *mut l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
             .array)
             .as_mut_ptr()
-            .offset(_2028 as int32_t as int64_t as isize)
-            as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
+            .offset(_2028 as int32_t as int64_t as isize) as *mut l_struct_struct_OC_vfloat4
+            as *mut libc::c_void,
         16 as libc::c_int as uint64_t,
     );
     _2030 = memcpy(
@@ -8674,8 +8361,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2039;
     _2040 = _ZSt3minIfERKT_S2_S2_(
         &mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-        &mut *((*(&mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
-            .array)
+        &mut *((*(&mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float
             as *mut libc::c_void,
@@ -8683,13 +8369,11 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     _2041 = *(_2040 as *mut libc::c_float);
     _1704 = _2041;
     _2042 = _ZSt3minIfERKT_S2_S2_(
-        &mut *((*(&mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
-            .array)
+        &mut *((*(&mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float
             as *mut libc::c_void,
-        &mut *((*(&mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
-            .array)
+        &mut *((*(&mut _1703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float
             as *mut libc::c_void,
@@ -8719,8 +8403,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _2050;
     _2051 = _1702;
-    *(&mut _1707 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float) = _2051.field0;
+    *(&mut _1707 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2051.field0;
     _1699 = &mut _1707 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
     _2052 = _1699;
     _2053 = *(_2052 as *mut libc::c_float);
@@ -8805,33 +8488,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1905 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2082;
     _2083 = *(&mut _1904 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2084 = *(&mut _1905 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2085 = *(&mut *((*(&mut _1904 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2085 = *(&mut *((*(&mut _1904 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2086 = *(&mut *((*(&mut _1905 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2086 = *(&mut *((*(&mut _1905 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2087 = *(&mut *((*(&mut _1904 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2087 = *(&mut *((*(&mut _1904 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2088 = *(&mut *((*(&mut _1905 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2088 = *(&mut *((*(&mut _1905 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2089 = *(&mut *((*(&mut _1904 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2089 = *(&mut *((*(&mut _1904 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2090 = *(&mut *((*(&mut _1905 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2090 = *(&mut *((*(&mut _1905 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -8897,78 +8574,66 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2111__PHI_TEMPORARY = _2110;
     }
     _2111 = _2111__PHI_TEMPORARY;
-    _2112 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2112 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2113 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2113 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_ogt(_2112 as libc::c_double, _2113 as libc::c_double) != 0 {
-        _2114 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2114 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2116__PHI_TEMPORARY = _2114;
     } else {
-        _2115 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2115 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2116__PHI_TEMPORARY = _2115;
     }
     _2116 = _2116__PHI_TEMPORARY;
-    _2117 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2117 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2118 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2118 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_ogt(_2117 as libc::c_double, _2118 as libc::c_double) != 0 {
-        _2119 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2119 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2121__PHI_TEMPORARY = _2119;
     } else {
-        _2120 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2120 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2121__PHI_TEMPORARY = _2120;
     }
     _2121 = _2121__PHI_TEMPORARY;
-    _2122 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2122 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2123 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2123 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_ogt(_2122 as libc::c_double, _2123 as libc::c_double) != 0 {
-        _2124 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2124 = *(&mut *((*(&mut _1697 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2126__PHI_TEMPORARY = _2124;
     } else {
-        _2125 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2125 = *(&mut *((*(&mut _1698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -8996,8 +8661,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _2131;
     _2132 = _1696;
-    *(&mut _1769 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float) = _2132.field0;
+    *(&mut _1769 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2132.field0;
     _2133 = _1769;
     *(&mut _1936.field0 as *mut l_array_4_float) = _2133.field0;
     _2134 = memcpy(
@@ -9016,33 +8680,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1908 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2137;
     _2138 = *(&mut _1907 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2139 = *(&mut _1908 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2140 = *(&mut *((*(&mut _1907 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2140 = *(&mut *((*(&mut _1907 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2141 = *(&mut *((*(&mut _1908 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2141 = *(&mut *((*(&mut _1908 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2142 = *(&mut *((*(&mut _1907 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2142 = *(&mut *((*(&mut _1907 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2143 = *(&mut *((*(&mut _1908 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2143 = *(&mut *((*(&mut _1908 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2144 = *(&mut *((*(&mut _1907 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2144 = *(&mut *((*(&mut _1907 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2145 = *(&mut *((*(&mut _1908 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2145 = *(&mut *((*(&mut _1908 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9108,78 +8766,66 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2166__PHI_TEMPORARY = _2165;
     }
     _2166 = _2166__PHI_TEMPORARY;
-    _2167 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2167 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2168 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2168 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_ogt(_2167 as libc::c_double, _2168 as libc::c_double) != 0 {
-        _2169 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2169 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2171__PHI_TEMPORARY = _2169;
     } else {
-        _2170 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2170 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2171__PHI_TEMPORARY = _2170;
     }
     _2171 = _2171__PHI_TEMPORARY;
-    _2172 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2172 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2173 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2173 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_ogt(_2172 as libc::c_double, _2173 as libc::c_double) != 0 {
-        _2174 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2174 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2176__PHI_TEMPORARY = _2174;
     } else {
-        _2175 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2175 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2176__PHI_TEMPORARY = _2175;
     }
     _2176 = _2176__PHI_TEMPORARY;
-    _2177 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2177 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2178 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2178 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_ogt(_2177 as libc::c_double, _2178 as libc::c_double) != 0 {
-        _2179 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2179 = *(&mut *((*(&mut _1689 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2181__PHI_TEMPORARY = _2179;
     } else {
-        _2180 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2180 = *(&mut *((*(&mut _1690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9207,8 +8853,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _2186;
     _2187 = _1688;
-    *(&mut _1776 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float) = _2187.field0;
+    *(&mut _1776 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2187.field0;
     _2188 = _1776;
     *(&mut _1940.field0 as *mut l_array_4_float) = _2188.field0;
     _2189 = memcpy(
@@ -9256,78 +8901,66 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2204__PHI_TEMPORARY = _2203;
     }
     _2204 = _2204__PHI_TEMPORARY;
-    _2205 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2205 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2206 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2206 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_olt(_2205 as libc::c_double, _2206 as libc::c_double) != 0 {
-        _2207 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2207 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2209__PHI_TEMPORARY = _2207;
     } else {
-        _2208 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2208 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2209__PHI_TEMPORARY = _2208;
     }
     _2209 = _2209__PHI_TEMPORARY;
-    _2210 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2210 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2211 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2211 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_olt(_2210 as libc::c_double, _2211 as libc::c_double) != 0 {
-        _2212 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2212 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2214__PHI_TEMPORARY = _2212;
     } else {
-        _2213 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2213 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2214__PHI_TEMPORARY = _2213;
     }
     _2214 = _2214__PHI_TEMPORARY;
-    _2215 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2215 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2216 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2216 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_olt(_2215 as libc::c_double, _2216 as libc::c_double) != 0 {
-        _2217 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2217 = *(&mut *((*(&mut _1681 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2219__PHI_TEMPORARY = _2217;
     } else {
-        _2218 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2218 = *(&mut *((*(&mut _1682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9355,8 +8988,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _2224;
     _2225 = _1680;
-    *(&mut _1755 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float) = _2225.field0;
+    *(&mut _1755 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2225.field0;
     _2226 = _1755;
     *(&mut _1944.field0 as *mut l_array_4_float) = _2226.field0;
     _2227 = memcpy(
@@ -9404,78 +9036,66 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2242__PHI_TEMPORARY = _2241;
     }
     _2242 = _2242__PHI_TEMPORARY;
-    _2243 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2243 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2244 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2244 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_olt(_2243 as libc::c_double, _2244 as libc::c_double) != 0 {
-        _2245 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2245 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2247__PHI_TEMPORARY = _2245;
     } else {
-        _2246 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2246 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2247__PHI_TEMPORARY = _2246;
     }
     _2247 = _2247__PHI_TEMPORARY;
-    _2248 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2248 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2249 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2249 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_olt(_2248 as libc::c_double, _2249 as libc::c_double) != 0 {
-        _2250 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2250 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2252__PHI_TEMPORARY = _2250;
     } else {
-        _2251 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2251 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2252__PHI_TEMPORARY = _2251;
     }
     _2252 = _2252__PHI_TEMPORARY;
-    _2253 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2253 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2254 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2254 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
     if llvm_fcmp_olt(_2253 as libc::c_double, _2254 as libc::c_double) != 0 {
-        _2255 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2255 = *(&mut *((*(&mut _1673 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2257__PHI_TEMPORARY = _2255;
     } else {
-        _2256 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2256 = *(&mut *((*(&mut _1674 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9503,8 +9123,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _2262;
     _2263 = _1672;
-    *(&mut _1762 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float) = _2263.field0;
+    *(&mut _1762 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2263.field0;
     _2264 = _1762;
     *(&mut _1946.field0 as *mut l_array_4_float) = _2264.field0;
     _2265 = memcpy(
@@ -9523,33 +9142,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1893 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2268;
     _2269 = *(&mut _1892 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2270 = *(&mut _1893 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2271 = *(&mut *((*(&mut _1892 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2271 = *(&mut *((*(&mut _1892 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2272 = *(&mut *((*(&mut _1893 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2272 = *(&mut *((*(&mut _1893 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2273 = *(&mut *((*(&mut _1892 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2273 = *(&mut *((*(&mut _1892 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2274 = *(&mut *((*(&mut _1893 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2274 = *(&mut *((*(&mut _1893 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2275 = *(&mut *((*(&mut _1892 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2275 = *(&mut *((*(&mut _1892 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2276 = *(&mut *((*(&mut _1893 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2276 = *(&mut *((*(&mut _1893 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9591,33 +9204,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1896 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2286;
     _2287 = *(&mut _1895 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2288 = *(&mut _1896 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2289 = *(&mut *((*(&mut _1895 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2289 = *(&mut *((*(&mut _1895 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2290 = *(&mut *((*(&mut _1896 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2290 = *(&mut *((*(&mut _1896 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2291 = *(&mut *((*(&mut _1895 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2291 = *(&mut *((*(&mut _1895 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2292 = *(&mut *((*(&mut _1896 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2292 = *(&mut *((*(&mut _1896 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2293 = *(&mut *((*(&mut _1895 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2293 = *(&mut *((*(&mut _1895 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2294 = *(&mut *((*(&mut _1896 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2294 = *(&mut *((*(&mut _1896 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9649,33 +9256,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1795 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2302;
     _2303 = *(&mut _1794 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2304 = *(&mut _1795 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2305 = *(&mut *((*(&mut _1794 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2305 = *(&mut *((*(&mut _1794 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2306 = *(&mut *((*(&mut _1795 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2306 = *(&mut *((*(&mut _1795 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2307 = *(&mut *((*(&mut _1794 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2307 = *(&mut *((*(&mut _1794 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2308 = *(&mut *((*(&mut _1795 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2308 = *(&mut *((*(&mut _1795 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2309 = *(&mut *((*(&mut _1794 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2309 = *(&mut *((*(&mut _1794 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2310 = *(&mut *((*(&mut _1795 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2310 = *(&mut *((*(&mut _1795 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9717,33 +9318,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1899 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2320;
     _2321 = *(&mut _1898 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2322 = *(&mut _1899 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2323 = *(&mut *((*(&mut _1898 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2323 = *(&mut *((*(&mut _1898 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2324 = *(&mut *((*(&mut _1899 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2324 = *(&mut *((*(&mut _1899 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2325 = *(&mut *((*(&mut _1898 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2325 = *(&mut *((*(&mut _1898 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2326 = *(&mut *((*(&mut _1899 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2326 = *(&mut *((*(&mut _1899 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2327 = *(&mut *((*(&mut _1898 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2327 = *(&mut *((*(&mut _1898 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2328 = *(&mut *((*(&mut _1899 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2328 = *(&mut *((*(&mut _1899 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9775,33 +9370,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1803 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2336;
     _2337 = *(&mut _1802 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2338 = *(&mut _1803 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2339 = *(&mut *((*(&mut _1802 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2339 = *(&mut *((*(&mut _1802 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2340 = *(&mut *((*(&mut _1803 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2340 = *(&mut *((*(&mut _1803 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2341 = *(&mut *((*(&mut _1802 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2341 = *(&mut *((*(&mut _1802 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2342 = *(&mut *((*(&mut _1803 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2342 = *(&mut *((*(&mut _1803 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2343 = *(&mut *((*(&mut _1802 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2343 = *(&mut *((*(&mut _1802 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2344 = *(&mut *((*(&mut _1803 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2344 = *(&mut *((*(&mut _1803 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9843,33 +9432,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2354;
     _2355 = *(&mut _1901 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2356 = *(&mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2357 = *(&mut *((*(&mut _1901 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2357 = *(&mut *((*(&mut _1901 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2358 = *(&mut *((*(&mut _1902 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2358 = *(&mut *((*(&mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2359 = *(&mut *((*(&mut _1901 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2359 = *(&mut *((*(&mut _1901 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2360 = *(&mut *((*(&mut _1902 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2360 = *(&mut *((*(&mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2361 = *(&mut *((*(&mut _1901 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2361 = *(&mut *((*(&mut _1901 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2362 = *(&mut *((*(&mut _1902 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2362 = *(&mut *((*(&mut _1902 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9901,33 +9484,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1811 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2370;
     _2371 = *(&mut _1810 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2372 = *(&mut _1811 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2373 = *(&mut *((*(&mut _1810 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2373 = *(&mut *((*(&mut _1810 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2374 = *(&mut *((*(&mut _1811 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2374 = *(&mut *((*(&mut _1811 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2375 = *(&mut *((*(&mut _1810 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2375 = *(&mut *((*(&mut _1810 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2376 = *(&mut *((*(&mut _1811 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2376 = *(&mut *((*(&mut _1811 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2377 = *(&mut *((*(&mut _1810 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2377 = *(&mut *((*(&mut _1810 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2378 = *(&mut *((*(&mut _1811 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2378 = *(&mut *((*(&mut _1811 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -9983,33 +9560,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     *(&mut _1746 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2392;
     _2393 = *(&mut _1745 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
     _2394 = *(&mut _1746 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-    _2395 = *(&mut *((*(&mut _1745 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2395 = *(&mut *((*(&mut _1745 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2396 = *(&mut *((*(&mut _1746 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2396 = *(&mut *((*(&mut _1746 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2397 = *(&mut *((*(&mut _1745 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2397 = *(&mut *((*(&mut _1745 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2398 = *(&mut *((*(&mut _1746 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2398 = *(&mut *((*(&mut _1746 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2399 = *(&mut *((*(&mut _1745 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2399 = *(&mut *((*(&mut _1745 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-    _2400 = *(&mut *((*(&mut _1746 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float))
+    _2400 = *(&mut *((*(&mut _1746 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -10034,8 +9605,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         .as_mut_ptr()
         .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _2405;
     _2406 = _1744;
-    *(&mut _1749 as *mut l_struct_struct_OC_vfloat4
-        as *mut l_array_4_float) = _2406.field0;
+    *(&mut _1749 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2406.field0;
     _2407 = memcpy(
         &mut _1752 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
         &mut _1749 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -10097,19 +9667,17 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2428 = _1812;
             _2429 = *(&mut *((*(_2428 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             if llvm_fcmp_ogt(_2427 as libc::c_double, _2429 as libc::c_double) != 0 {
-                _1886 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void;
+                _1886 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _2430 = _1886;
                 _2431 = *(_2430 as *mut libc::c_float);
                 _1967 = _2431;
-                _1887 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void;
+                _1887 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _2432 = _1887;
                 _2433 = *(_2432 as *mut libc::c_float);
-                _1888 = &mut _1927 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void;
+                _1888 = &mut _1927 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _2434 = _1888;
                 _2435 = *(_2434 as *mut libc::c_float);
                 _1968 = llvm_fsub_f32(_2433, _2435);
@@ -10122,36 +9690,33 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         }
         match current_block {
             7470389276263243721 => {
-                _1821 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void;
+                _1821 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _2436 = _1821;
                 _2437 = *(&mut *((*(_2436 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-                _1813 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_void;
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
+                _1813 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                 _2438 = _1813;
                 _2439 = *(&mut *((*(_2438 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 if llvm_fcmp_ogt(_2437 as libc::c_double, _2439 as libc::c_double) != 0 {
-                    _1822 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_void;
+                    _1822 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                     _2440 = _1822;
                     _2441 = *(&mut *((*(_2440 as *mut l_array_4_float)).array)
                         .as_mut_ptr()
                         .offset(1 as libc::c_int as int64_t as isize)
                         as *mut libc::c_float);
                     _1967 = _2441;
-                    _1823 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_void;
+                    _1823 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                     _2442 = _1823;
                     _2443 = *(&mut *((*(_2442 as *mut l_array_4_float)).array)
                         .as_mut_ptr()
                         .offset(1 as libc::c_int as int64_t as isize)
                         as *mut libc::c_float);
-                    _1824 = &mut _1927 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_void;
+                    _1824 = &mut _1927 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                     _2444 = _1824;
                     _2445 = *(&mut *((*(_2444 as *mut l_array_4_float)).array)
                         .as_mut_ptr()
@@ -10159,23 +9724,20 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
                         as *mut libc::c_float);
                     _1968 = llvm_fsub_f32(_2443, _2445);
                 } else {
-                    _1814 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_void;
+                    _1814 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                     _2446 = _1814;
                     _2447 = *(&mut *((*(_2446 as *mut l_array_4_float)).array)
                         .as_mut_ptr()
                         .offset(2 as libc::c_int as int64_t as isize)
                         as *mut libc::c_float);
                     _1967 = _2447;
-                    _1815 = &mut _1928 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_void;
+                    _1815 = &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                     _2448 = _1815;
                     _2449 = *(&mut *((*(_2448 as *mut l_array_4_float)).array)
                         .as_mut_ptr()
                         .offset(2 as libc::c_int as int64_t as isize)
                         as *mut libc::c_float);
-                    _1816 = &mut _1927 as *mut l_struct_struct_OC_vfloat4
-                        as *mut libc::c_void;
+                    _1816 = &mut _1927 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
                     _2450 = _1816;
                     _2451 = *(&mut *((*(_2450 as *mut l_array_4_float)).array)
                         .as_mut_ptr()
@@ -10218,33 +9780,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         *(&mut _1911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2462;
         _2463 = *(&mut _1910 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
         _2464 = *(&mut _1911 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-        _2465 = *(&mut *((*(&mut _1910 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2465 = *(&mut *((*(&mut _1910 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2466 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2466 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2467 = *(&mut *((*(&mut _1910 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2467 = *(&mut *((*(&mut _1910 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2468 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2468 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2469 = *(&mut *((*(&mut _1910 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2469 = *(&mut *((*(&mut _1910 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2470 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2470 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -10355,33 +9911,27 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         *(&mut _1914 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2505;
         _2506 = *(&mut _1913 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
         _2507 = *(&mut _1914 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-        _2508 = *(&mut *((*(&mut _1913 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2508 = *(&mut *((*(&mut _1913 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2509 = *(&mut *((*(&mut _1914 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2509 = *(&mut *((*(&mut _1914 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2510 = *(&mut *((*(&mut _1913 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2510 = *(&mut *((*(&mut _1913 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2511 = *(&mut *((*(&mut _1914 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2511 = *(&mut *((*(&mut _1914 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2512 = *(&mut *((*(&mut _1913 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2512 = *(&mut *((*(&mut _1913 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _2513 = *(&mut *((*(&mut _1914 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2513 = *(&mut *((*(&mut _1914 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -10416,20 +9966,17 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         *(&mut _1890 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2521;
         _2522 = *(&mut _1890 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
         _2523 = _ZSt3absf(_2522);
-        _2524 = *(&mut *((*(&mut _1890 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2524 = *(&mut *((*(&mut _1890 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2525 = _ZSt3absf(_2524);
-        _2526 = *(&mut *((*(&mut _1890 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2526 = *(&mut *((*(&mut _1890 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _2527 = _ZSt3absf(_2526);
-        _2528 = *(&mut *((*(&mut _1890 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _2528 = *(&mut *((*(&mut _1890 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -10467,9 +10014,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         *(&mut _1664 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2538;
         _2539 = _ZSt3maxIfERKT_S2_S2_(
             &mut _1664 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
-            &mut *((*(&mut _1664 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float))
-                .array)
+            &mut *((*(&mut _1664 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float
                 as *mut libc::c_void,
@@ -10477,15 +10022,11 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2540 = *(_2539 as *mut libc::c_float);
         _1665 = _2540;
         _2541 = _ZSt3maxIfERKT_S2_S2_(
-            &mut *((*(&mut _1664 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float))
-                .array)
+            &mut *((*(&mut _1664 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float
                 as *mut libc::c_void,
-            &mut *((*(&mut _1664 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float))
-                .array)
+            &mut *((*(&mut _1664 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float
                 as *mut libc::c_void,
@@ -10515,8 +10056,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float) = _2549;
         _2550 = _1663;
-        *(&mut _1713 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float) = _2550.field0;
+        *(&mut _1713 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _2550.field0;
         _1711 = &mut _1713 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
         _2551 = _1711;
         _2552 = *(_2551 as *mut libc::c_float);
@@ -10710,8 +10250,10 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2611 = _1989;
         _1991 = llvm_fsub_f32(_2610, _2611);
         _2612 = _1991;
-        if llvm_fcmp_olt(_2612 as libc::c_double, 960 as libc::c_int as libc::c_double)
-            != 0
+        if llvm_fcmp_olt(
+            _2612 as libc::c_double,
+            960 as libc::c_int as libc::c_double,
+        ) != 0
         {
             _2616__PHI_TEMPORARY = 4 as libc::c_int as libc::c_float;
         } else {
@@ -10743,7 +10285,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2619 = _1924;
             _2620 = _1993;
             *(&mut *((*(&mut *(_2619 as *mut l_array_4_float)
-                .offset(_2620 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2620 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
@@ -10751,7 +10294,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2621 = _1924;
             _2622 = _1993;
             *(&mut *((*(&mut *(_2621 as *mut l_array_4_float)
-                .offset(_2622 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2622 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as libc::c_int as int64_t as isize)
@@ -10759,7 +10303,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2623 = _1924;
             _2624 = _1993;
             *(&mut *((*(&mut *(_2623 as *mut l_array_4_float)
-                .offset(_2624 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2624 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as libc::c_int as int64_t as isize)
@@ -10767,7 +10312,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2625 = _1924;
             _2626 = _1993;
             *(&mut *((*(&mut *(_2625 as *mut l_array_4_float)
-                .offset(_2626 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2626 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(0 as libc::c_int as int64_t as isize)
@@ -10778,39 +10324,43 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2630 = _1925;
             _2631 = _1993;
             *(&mut *((*(&mut *(_2630 as *mut l_array_4_uint8_t)
-                .offset(_2631 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2631 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = llvm_select_u32(
+                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t) = llvm_select_u32(
                 _2628,
                 15 as libc::c_int as uint32_t,
                 14 as libc::c_int as uint32_t,
-            ) as uint8_t;
+            )
+                as uint8_t;
             _2632 = _1925;
             _2633 = _1993;
             *(&mut *((*(&mut *(_2632 as *mut l_array_4_uint8_t)
-                .offset(_2633 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2633 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 11 as libc::c_int as uint8_t;
+                .offset(2 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                11 as libc::c_int as uint8_t;
             _2634 = _1925;
             _2635 = _1993;
             *(&mut *((*(&mut *(_2634 as *mut l_array_4_uint8_t)
-                .offset(_2635 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2635 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 7 as libc::c_int as uint8_t;
+                .offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                7 as libc::c_int as uint8_t;
             _2636 = _1925;
             _2637 = _1993;
             *(&mut *((*(&mut *(_2636 as *mut l_array_4_uint8_t)
-                .offset(_2637 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2637 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 2 as libc::c_int as uint8_t;
+                .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                2 as libc::c_int as uint8_t;
             _2638 = _1993;
             _1993 = llvm_add_u32(_2638, 1 as libc::c_int as uint32_t);
         }
@@ -10844,7 +10394,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2645 = _1786;
             _2646 = *(&mut *((*(_2645 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _2647 = _1995;
             _1997 = llvm_fmul_f32(
                 llvm_fmul_f32(_2646, _2647),
@@ -10861,7 +10412,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2654 = _1924;
             _2655 = _1994;
             *(&mut *((*(&mut *(_2654 as *mut l_array_4_float)
-                .offset(_2655 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2655 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
@@ -10872,28 +10424,30 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2659 = _1925;
             _2660 = _1994;
             *(&mut *((*(&mut *(_2659 as *mut l_array_4_uint8_t)
-                .offset(_2660 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2660 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = llvm_select_u32(
+                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t) = llvm_select_u32(
                 _2657,
                 15 as libc::c_int as uint32_t,
                 14 as libc::c_int as uint32_t,
-            ) as uint8_t;
+            )
+                as uint8_t;
             _2661 = _1996;
             _2662 = _1986;
             _2663 = _1963;
             _2664 = llvm_OC_fmuladd_OC_f32(_2661, _2662, _2663);
             _2665 = _1922;
-            _2666 = *(&mut (*(_2665 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field3 as *mut libc::c_float);
+            _2666 = *(&mut (*(_2665 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+                as *mut libc::c_float);
             _2000 = llvm_fadd_f32(_2664, _2666);
             _2667 = _2000;
             _2668 = _1924;
             _2669 = _1994;
             *(&mut *((*(&mut *(_2668 as *mut l_array_4_float)
-                .offset(_2669 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2669 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as libc::c_int as int64_t as isize)
@@ -10901,27 +10455,29 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2670 = _1925;
             _2671 = _1994;
             *(&mut *((*(&mut *(_2670 as *mut l_array_4_uint8_t)
-                .offset(_2671 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2671 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 11 as libc::c_int as uint8_t;
+                .offset(2 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                11 as libc::c_int as uint8_t;
             _2672 = _1996;
             _2673 = _1985;
             _2674 = _1963;
             _2675 = llvm_OC_fmuladd_OC_f32(_2672, _2673, _2674);
             _2676 = _1922;
-            _2677 = *(&mut (*(_2676 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field3 as *mut libc::c_float);
+            _2677 = *(&mut (*(_2676 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+                as *mut libc::c_float);
             _2678 = _1922;
-            _2679 = *(&mut (*(_2678 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field1 as *mut libc::c_float);
+            _2679 = *(&mut (*(_2678 as *mut l_struct_struct_OC_encoding_choice_errors)).field1
+                as *mut libc::c_float);
             _2001 = llvm_fadd_f32(llvm_fadd_f32(_2675, _2677), _2679);
             _2680 = _2001;
             _2681 = _1924;
             _2682 = _1994;
             *(&mut *((*(&mut *(_2681 as *mut l_array_4_float)
-                .offset(_2682 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2682 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as libc::c_int as int64_t as isize)
@@ -10929,27 +10485,29 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2683 = _1925;
             _2684 = _1994;
             *(&mut *((*(&mut *(_2683 as *mut l_array_4_uint8_t)
-                .offset(_2684 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2684 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 7 as libc::c_int as uint8_t;
+                .offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                7 as libc::c_int as uint8_t;
             _2685 = _1996;
             _2686 = _1992;
             _2687 = _1963;
             _2688 = llvm_OC_fmuladd_OC_f32(_2685, _2686, _2687);
             _2689 = _1922;
-            _2690 = *(&mut (*(_2689 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field3 as *mut libc::c_float);
+            _2690 = *(&mut (*(_2689 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+                as *mut libc::c_float);
             _2691 = _1922;
-            _2692 = *(&mut (*(_2691 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field2 as *mut libc::c_float);
+            _2692 = *(&mut (*(_2691 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
+                as *mut libc::c_float);
             _2002 = llvm_fadd_f32(llvm_fadd_f32(_2688, _2690), _2692);
             _2693 = _2002;
             _2694 = _1924;
             _2695 = _1994;
             *(&mut *((*(&mut *(_2694 as *mut l_array_4_float)
-                .offset(_2695 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2695 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(0 as libc::c_int as int64_t as isize)
@@ -10957,11 +10515,12 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2696 = _1925;
             _2697 = _1994;
             *(&mut *((*(&mut *(_2696 as *mut l_array_4_uint8_t)
-                .offset(_2697 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2697 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 2 as libc::c_int as uint8_t;
+                .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                2 as libc::c_int as uint8_t;
             _2698 = _1994;
             _1994 = llvm_add_u32(_2698, 1 as libc::c_int as uint32_t);
         }
@@ -10975,7 +10534,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2700 = _1924;
             _2701 = _2003;
             *(&mut *((*(&mut *(_2700 as *mut l_array_4_float)
-                .offset(_2701 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2701 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
@@ -10983,7 +10543,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2702 = _1924;
             _2703 = _2003;
             *(&mut *((*(&mut *(_2702 as *mut l_array_4_float)
-                .offset(_2703 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2703 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as libc::c_int as int64_t as isize)
@@ -10991,7 +10552,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2704 = _1924;
             _2705 = _2003;
             *(&mut *((*(&mut *(_2704 as *mut l_array_4_float)
-                .offset(_2705 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2705 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as libc::c_int as int64_t as isize)
@@ -10999,7 +10561,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2706 = _1924;
             _2707 = _2003;
             *(&mut *((*(&mut *(_2706 as *mut l_array_4_float)
-                .offset(_2707 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2707 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(0 as libc::c_int as int64_t as isize)
@@ -11007,35 +10570,39 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2708 = _1925;
             _2709 = _2003;
             *(&mut *((*(&mut *(_2708 as *mut l_array_4_uint8_t)
-                .offset(_2709 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2709 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 12 as libc::c_int as uint8_t;
+                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                12 as libc::c_int as uint8_t;
             _2710 = _1925;
             _2711 = _2003;
             *(&mut *((*(&mut *(_2710 as *mut l_array_4_uint8_t)
-                .offset(_2711 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2711 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 8 as libc::c_int as uint8_t;
+                .offset(2 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                8 as libc::c_int as uint8_t;
             _2712 = _1925;
             _2713 = _2003;
             *(&mut *((*(&mut *(_2712 as *mut l_array_4_uint8_t)
-                .offset(_2713 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2713 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 6 as libc::c_int as uint8_t;
+                .offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                6 as libc::c_int as uint8_t;
             _2714 = _1925;
             _2715 = _2003;
             *(&mut *((*(&mut *(_2714 as *mut l_array_4_uint8_t)
-                .offset(_2715 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2715 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 0 as libc::c_int as uint8_t;
+                .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                0 as libc::c_int as uint8_t;
             _2716 = _2003;
             _2003 = llvm_add_u32(_2716, 1 as libc::c_int as uint32_t);
         }
@@ -11053,8 +10620,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2723 = _2005;
         _2006 = llvm_fadd_f32(_2722, _2723);
         _2724 = _1922;
-        _2725 = *(&mut (*(_2724 as *mut l_struct_struct_OC_encoding_choice_errors))
-            .field5 as *mut uint8_t);
+        _2725 = *(&mut (*(_2724 as *mut l_struct_struct_OC_encoding_choice_errors)).field5
+            as *mut uint8_t);
         _2726 = (_2725 as libc::c_uint & 1 as libc::c_uint) as bool_0;
         _2727 = _2726 as uint64_t;
         _2007 = llvm_select_f32(
@@ -11063,8 +10630,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             1 as libc::c_int as libc::c_float,
         );
         _2728 = _1922;
-        _2729 = *(&mut (*(_2728 as *mut l_struct_struct_OC_encoding_choice_errors))
-            .field4 as *mut uint8_t);
+        _2729 = *(&mut (*(_2728 as *mut l_struct_struct_OC_encoding_choice_errors)).field4
+            as *mut uint8_t);
         _2730 = (_2729 as libc::c_uint & 1 as libc::c_uint) as bool_0;
         _2731 = _2730 as uint64_t;
         _2008 = llvm_select_f32(
@@ -11073,8 +10640,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             1 as libc::c_int as libc::c_float,
         );
         _2732 = _1922;
-        _2733 = *(&mut (*(_2732 as *mut l_struct_struct_OC_encoding_choice_errors))
-            .field5 as *mut uint8_t);
+        _2733 = *(&mut (*(_2732 as *mut l_struct_struct_OC_encoding_choice_errors)).field5
+            as *mut uint8_t);
         _2734 = (_2733 as libc::c_uint & 1 as libc::c_uint) as bool_0;
         _2735 = _2734 as uint64_t;
         _2009 = llvm_select_f32(
@@ -11083,8 +10650,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             1 as libc::c_int as libc::c_float,
         );
         _2736 = _1922;
-        _2737 = *(&mut (*(_2736 as *mut l_struct_struct_OC_encoding_choice_errors))
-            .field4 as *mut uint8_t);
+        _2737 = *(&mut (*(_2736 as *mut l_struct_struct_OC_encoding_choice_errors)).field4
+            as *mut uint8_t);
         _2738 = (_2737 as libc::c_uint & 1 as libc::c_uint) as bool_0;
         _2739 = _2738 as uint64_t;
         _2010 = llvm_select_f32(
@@ -11133,7 +10700,8 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2755 = _1924;
             _2756 = _2011;
             *(&mut *((*(&mut *(_2755 as *mut l_array_4_float)
-                .offset(_2756 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2756 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
@@ -11141,30 +10709,28 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2757 = _1925;
             _2758 = _2011;
             *(&mut *((*(&mut *(_2757 as *mut l_array_4_uint8_t)
-                .offset(_2758 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2758 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 12 as libc::c_int as uint8_t;
+                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                12 as libc::c_int as uint8_t;
             _2759 = _2013;
             _2760 = _2009;
             _2761 = _2010;
             _2762 = _1963;
             _2763 = llvm_OC_fmuladd_OC_f32(llvm_fmul_f32(_2759, _2760), _2761, _2762);
             _2764 = _1922;
-            _2765 = *(&mut (*(_2764 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field3 as *mut libc::c_float);
+            _2765 = *(&mut (*(_2764 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+                as *mut libc::c_float);
             _2016 = llvm_fadd_f32(_2763, _2765);
             _2766 = _2014;
             _2767 = _1922;
-            _2768 = *(&mut (*(_2767 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field0 as *mut libc::c_float);
+            _2768 = *(&mut (*(_2767 as *mut l_struct_struct_OC_encoding_choice_errors)).field0
+                as *mut libc::c_float);
             _2769 = _1963;
             _2770 = _1966;
-            _2017 = llvm_fadd_f32(
-                llvm_fadd_f32(llvm_fadd_f32(_2766, _2768), _2769),
-                _2770,
-            );
+            _2017 = llvm_fadd_f32(llvm_fadd_f32(llvm_fadd_f32(_2766, _2768), _2769), _2770);
             _2771 = _2017;
             _2772 = _2016;
             if llvm_fcmp_olt(_2771 as libc::c_double, _2772 as libc::c_double) != 0 {
@@ -11211,25 +10777,19 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2783 = _2013;
             _2784 = _1963;
             _2785 = _1922;
-            _2786 = *(&mut (*(_2785 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field3 as *mut libc::c_float);
+            _2786 = *(&mut (*(_2785 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+                as *mut libc::c_float);
             _2787 = _1922;
-            _2788 = *(&mut (*(_2787 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field0 as *mut libc::c_float);
-            _2018 = llvm_fadd_f32(
-                llvm_fadd_f32(llvm_fadd_f32(_2783, _2784), _2786),
-                _2788,
-            );
+            _2788 = *(&mut (*(_2787 as *mut l_struct_struct_OC_encoding_choice_errors)).field0
+                as *mut libc::c_float);
+            _2018 = llvm_fadd_f32(llvm_fadd_f32(llvm_fadd_f32(_2783, _2784), _2786), _2788);
             _2789 = _2014;
             _2790 = _1963;
             _2791 = _1966;
             _2792 = _1922;
-            _2793 = *(&mut (*(_2792 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field2 as *mut libc::c_float);
-            _2019 = llvm_fadd_f32(
-                llvm_fadd_f32(llvm_fadd_f32(_2789, _2790), _2791),
-                _2793,
-            );
+            _2793 = *(&mut (*(_2792 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
+                as *mut libc::c_float);
+            _2019 = llvm_fadd_f32(llvm_fadd_f32(llvm_fadd_f32(_2789, _2790), _2791), _2793);
             _2794 = _2018;
             _2795 = _2019;
             if llvm_fcmp_olt(_2794 as libc::c_double, _2795 as libc::c_double) != 0 {
@@ -11276,20 +10836,18 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2806 = _2013;
             _2807 = _1963;
             _2808 = _1922;
-            _2809 = *(&mut (*(_2808 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field3 as *mut libc::c_float);
+            _2809 = *(&mut (*(_2808 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+                as *mut libc::c_float);
             _2810 = _1922;
-            _2811 = *(&mut (*(_2810 as *mut l_struct_struct_OC_encoding_choice_errors))
-                .field2 as *mut libc::c_float);
-            _2020 = llvm_fadd_f32(
-                llvm_fadd_f32(llvm_fadd_f32(_2806, _2807), _2809),
-                _2811,
-            );
+            _2811 = *(&mut (*(_2810 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
+                as *mut libc::c_float);
+            _2020 = llvm_fadd_f32(llvm_fadd_f32(llvm_fadd_f32(_2806, _2807), _2809), _2811);
             _2812 = _2020;
             _2813 = _1924;
             _2814 = _2011;
             *(&mut *((*(&mut *(_2813 as *mut l_array_4_float)
-                .offset(_2814 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2814 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(0 as libc::c_int as int64_t as isize)
@@ -11297,11 +10855,12 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2815 = _1925;
             _2816 = _2011;
             *(&mut *((*(&mut *(_2815 as *mut l_array_4_uint8_t)
-                .offset(_2816 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+                .offset(_2816 as int32_t as int64_t as isize)
+                as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize)
-                as *mut uint8_t) = 0 as libc::c_int as uint8_t;
+                .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t) =
+                0 as libc::c_int as uint8_t;
             _2817 = _2011;
             _2011 = llvm_add_u32(_2817, 1 as libc::c_int as uint32_t);
         }
@@ -11370,8 +10929,8 @@ unsafe extern "C" fn _ZL48one_partition_find_best_combination_for_bitcountPA4_Kf
         _2968 = _2957;
         _2969 = *(&mut *((*(&*(quant_mode_table.array)
             .as_ptr()
-            .offset(_2967 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-            as *mut l_array_128_uint8_t))
+            .offset(_2967 as int32_t as int64_t as isize)
+            as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(_2968 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -11382,16 +10941,15 @@ unsafe extern "C" fn _ZL48one_partition_find_best_combination_for_bitcountPA4_Kf
             _2972 = _2963;
             _2973 = _2962;
             _2974 = *(&mut *((*(&mut *(_2971 as *mut l_array_4_float)
-                .offset(_2972 as int32_t as int64_t as isize) as *mut l_array_4_float))
+                .offset(_2972 as int32_t as int64_t as isize)
+                as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32
-                        as unsafe extern "C" fn(
-                            uint32_t,
-                            uint32_t,
-                        ) -> uint32_t)(_2973, 1 as libc::c_int as uint32_t) as int32_t
-                        as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _2973,
+                        1 as libc::c_int as uint32_t,
+                    ) as int32_t as int64_t as isize,
                 ) as *mut libc::c_float);
             _2964 = _2974;
             _2975 = _2964;
@@ -11408,16 +10966,13 @@ unsafe extern "C" fn _ZL48one_partition_find_best_combination_for_bitcountPA4_Kf
     }
     _2980 = _2960;
     _2981 = _2957;
-    _2982 = *(&mut *((*(&*(quant_mode_table.array)
-        .as_ptr()
-        .offset(
-            (llvm_add_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_2980, 1 as libc::c_int as uint32_t) as int32_t as int64_t
-                as isize,
-        ) as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
+    _2982 = *(&mut *((*(&*(quant_mode_table.array).as_ptr().offset((llvm_add_u32
+        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+        _2980,
+        1 as libc::c_int as uint32_t,
+    ) as int32_t as int64_t
+        as isize) as *const l_array_128_uint8_t
+        as *mut l_array_128_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(_2981 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -11433,7 +10988,8 @@ unsafe extern "C" fn _ZL48one_partition_find_best_combination_for_bitcountPA4_Kf
         _2988 = _2965;
         _2989 = _2960;
         _2990 = *(&mut *((*(&mut *(_2987 as *mut l_array_4_uint8_t)
-            .offset(_2988 as int32_t as int64_t as isize) as *mut l_array_4_uint8_t))
+            .offset(_2988 as int32_t as int64_t as isize)
+            as *mut l_array_4_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(_2989 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -11538,7 +11094,8 @@ unsafe extern "C" fn _ZL77two_partitions_find_best_combination_for_every_quantiz
             _3023 = _3011;
             _3024 = _3012;
             *(&mut *((*(&mut *(_3022 as *mut l_array_7_float)
-                .offset(_3023 as int32_t as int64_t as isize) as *mut l_array_7_float))
+                .offset(_3023 as int32_t as int64_t as isize)
+                as *mut l_array_7_float))
                 .array)
                 .as_mut_ptr()
                 .offset(_3024 as int32_t as int64_t as isize)
@@ -11577,9 +11134,7 @@ unsafe extern "C" fn _ZL77two_partitions_find_best_combination_for_every_quantiz
                 _3017 = _3035;
                 _3036 = _3017;
                 _3037 = _3016;
-                if !(llvm_sub_u32(_3036, _3037) as int32_t
-                    > 1 as libc::c_uint as int32_t)
-                {
+                if !(llvm_sub_u32(_3036, _3037) as int32_t > 1 as libc::c_uint as int32_t) {
                     _3038 = _3014;
                     _3039 = _3015;
                     _3018 = llvm_add_u32(_3038, _3039);
@@ -11627,9 +11182,7 @@ unsafe extern "C" fn _ZL77two_partitions_find_best_combination_for_every_quantiz
                         .as_mut_ptr()
                         .offset(_3052 as int32_t as int64_t as isize)
                         as *mut libc::c_float);
-                    if llvm_fcmp_ole(_3049 as libc::c_double, _3053 as libc::c_double)
-                        != 0
-                    {
+                    if llvm_fcmp_ole(_3049 as libc::c_double, _3053 as libc::c_double) != 0 {
                         _3054 = _3019;
                         _3055 = _3009;
                         _3056 = _3013;
@@ -11709,7 +11262,7 @@ unsafe extern "C" fn _ZL77two_partitions_find_best_combination_for_every_quantiz
         }
         _3074 = _3013;
         _3013 = llvm_add_u32(_3074, 1 as libc::c_int as uint32_t);
-    };
+    }
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL49two_partitions_find_best_combination_for_bitcountPA7_fPA7_A2_hiRhS4_Ph(
@@ -11792,8 +11345,8 @@ unsafe extern "C" fn _ZL49two_partitions_find_best_combination_for_bitcountPA7_f
         _3122 = _3107;
         _3123 = *(&mut *((*(&*(quant_mode_table.array)
             .as_ptr()
-            .offset(_3121 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-            as *mut l_array_128_uint8_t))
+            .offset(_3121 as int32_t as int64_t as isize)
+            as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(_3122 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -11806,16 +11359,15 @@ unsafe extern "C" fn _ZL49two_partitions_find_best_combination_for_bitcountPA7_f
         _3126 = _3114;
         _3127 = _3113;
         _3128 = *(&mut *((*(&mut *(_3125 as *mut l_array_7_float)
-            .offset(_3126 as int32_t as int64_t as isize) as *mut l_array_7_float))
+            .offset(_3126 as int32_t as int64_t as isize)
+            as *mut l_array_7_float))
             .array)
             .as_mut_ptr()
             .offset(
-                (llvm_sub_u32
-                    as unsafe extern "C" fn(
-                        uint32_t,
-                        uint32_t,
-                    ) -> uint32_t)(_3127, 2 as libc::c_int as uint32_t) as int32_t
-                    as int64_t as isize,
+                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _3127,
+                    2 as libc::c_int as uint32_t,
+                ) as int32_t as int64_t as isize,
             ) as *mut libc::c_float);
         _3115 = _3128;
         _3129 = _3115;
@@ -11833,8 +11385,8 @@ unsafe extern "C" fn _ZL49two_partitions_find_best_combination_for_bitcountPA7_f
     _3135 = _3107;
     _3136 = *(&mut *((*(&*(quant_mode_table.array)
         .as_ptr()
-        .offset(_3134 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-        as *mut l_array_128_uint8_t))
+        .offset(_3134 as int32_t as int64_t as isize)
+        as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(_3135 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -11843,17 +11395,15 @@ unsafe extern "C" fn _ZL49two_partitions_find_best_combination_for_bitcountPA7_f
     _3138 = _3107;
     _3139 = *(&mut *((*(&*(quant_mode_table.array)
         .as_ptr()
-        .offset(_3137 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-        as *mut l_array_128_uint8_t))
+        .offset(_3137 as int32_t as int64_t as isize)
+        as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(
-            (llvm_add_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_3138, 2 as libc::c_int as uint32_t) as int32_t as int64_t
-                as isize,
+            (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                _3138,
+                2 as libc::c_int as uint32_t,
+            ) as int32_t as int64_t as isize,
         ) as *mut uint8_t);
     _3117 = _3139 as int8_t as int32_t as uint32_t;
     _3140 = _3116;
@@ -11881,16 +11431,15 @@ unsafe extern "C" fn _ZL49two_partitions_find_best_combination_for_bitcountPA7_f
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32
-                        as unsafe extern "C" fn(
-                            uint32_t,
-                            uint32_t,
-                        ) -> uint32_t)(_3148, 2 as libc::c_int as uint32_t) as int32_t
-                        as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _3148,
+                        2 as libc::c_int as uint32_t,
+                    ) as int32_t as int64_t as isize,
                 ) as *mut l_array_2_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(_3149 as int32_t as int64_t as isize) as *mut uint8_t);
+                .offset(_3149 as int32_t as int64_t as isize)
+                as *mut uint8_t);
             _3151 = _3110;
             _3152 = _3118;
             *(&mut *(_3151 as *mut uint8_t).offset(_3152 as int32_t as int64_t as isize)
@@ -12036,7 +11585,8 @@ unsafe extern "C" fn _ZL79three_partitions_find_best_combination_for_every_quant
             _3201 = _3186;
             _3202 = _3187;
             *(&mut *((*(&mut *(_3200 as *mut l_array_10_float)
-                .offset(_3201 as int32_t as int64_t as isize) as *mut l_array_10_float))
+                .offset(_3201 as int32_t as int64_t as isize)
+                as *mut l_array_10_float))
                 .array)
                 .as_mut_ptr()
                 .offset(_3202 as int32_t as int64_t as isize)
@@ -12075,9 +11625,7 @@ unsafe extern "C" fn _ZL79three_partitions_find_best_combination_for_every_quant
                 _3192 = _3213;
                 _3214 = _3192;
                 _3215 = _3191;
-                if !(llvm_sub_u32(_3214, _3215) as int32_t
-                    > 1 as libc::c_uint as int32_t)
-                {
+                if !(llvm_sub_u32(_3214, _3215) as int32_t > 1 as libc::c_uint as int32_t) {
                     _3193 = 0 as libc::c_int as uint32_t;
                     loop {
                         _3216 = _3193;
@@ -12094,9 +11642,7 @@ unsafe extern "C" fn _ZL79three_partitions_find_best_combination_for_every_quant
                         _3195 = _3222;
                         _3223 = _3195;
                         _3224 = _3194;
-                        if !(llvm_sub_u32(_3223, _3224) as int32_t
-                            > 1 as libc::c_uint as int32_t)
-                        {
+                        if !(llvm_sub_u32(_3223, _3224) as int32_t > 1 as libc::c_uint as int32_t) {
                             _3225 = _3189;
                             _3226 = _3190;
                             _3227 = _3193;
@@ -12160,10 +11706,7 @@ unsafe extern "C" fn _ZL79three_partitions_find_best_combination_for_every_quant
                                 .as_mut_ptr()
                                 .offset(_3244 as int32_t as int64_t as isize)
                                 as *mut libc::c_float);
-                            if llvm_fcmp_ole(
-                                _3241 as libc::c_double,
-                                _3245 as libc::c_double,
-                            ) != 0
+                            if llvm_fcmp_ole(_3241 as libc::c_double, _3245 as libc::c_double) != 0
                             {
                                 _3246 = _3197;
                                 _3247 = _3184;
@@ -12278,7 +11821,7 @@ unsafe extern "C" fn _ZL79three_partitions_find_best_combination_for_every_quant
         }
         _3274 = _3188;
         _3188 = llvm_add_u32(_3274, 1 as libc::c_int as uint32_t);
-    };
+    }
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL51three_partitions_find_best_combination_for_bitcountPA10_KfPA10_A3_KhiRhS6_Ph(
@@ -12361,8 +11904,8 @@ unsafe extern "C" fn _ZL51three_partitions_find_best_combination_for_bitcountPA1
         _3328 = _3313;
         _3329 = *(&mut *((*(&*(quant_mode_table.array)
             .as_ptr()
-            .offset(_3327 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-            as *mut l_array_128_uint8_t))
+            .offset(_3327 as int32_t as int64_t as isize)
+            as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(_3328 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -12375,16 +11918,15 @@ unsafe extern "C" fn _ZL51three_partitions_find_best_combination_for_bitcountPA1
         _3332 = _3320;
         _3333 = _3319;
         _3334 = *(&mut *((*(&mut *(_3331 as *mut l_array_10_float)
-            .offset(_3332 as int32_t as int64_t as isize) as *mut l_array_10_float))
+            .offset(_3332 as int32_t as int64_t as isize)
+            as *mut l_array_10_float))
             .array)
             .as_mut_ptr()
             .offset(
-                (llvm_sub_u32
-                    as unsafe extern "C" fn(
-                        uint32_t,
-                        uint32_t,
-                    ) -> uint32_t)(_3333, 3 as libc::c_int as uint32_t) as int32_t
-                    as int64_t as isize,
+                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _3333,
+                    3 as libc::c_int as uint32_t,
+                ) as int32_t as int64_t as isize,
             ) as *mut libc::c_float);
         _3321 = _3334;
         _3335 = _3321;
@@ -12402,8 +11944,8 @@ unsafe extern "C" fn _ZL51three_partitions_find_best_combination_for_bitcountPA1
     _3341 = _3313;
     _3342 = *(&mut *((*(&*(quant_mode_table.array)
         .as_ptr()
-        .offset(_3340 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-        as *mut l_array_128_uint8_t))
+        .offset(_3340 as int32_t as int64_t as isize)
+        as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(_3341 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -12412,17 +11954,15 @@ unsafe extern "C" fn _ZL51three_partitions_find_best_combination_for_bitcountPA1
     _3344 = _3313;
     _3345 = *(&mut *((*(&*(quant_mode_table.array)
         .as_ptr()
-        .offset(_3343 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-        as *mut l_array_128_uint8_t))
+        .offset(_3343 as int32_t as int64_t as isize)
+        as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(
-            (llvm_add_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_3344, 5 as libc::c_int as uint32_t) as int32_t as int64_t
-                as isize,
+            (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                _3344,
+                5 as libc::c_int as uint32_t,
+            ) as int32_t as int64_t as isize,
         ) as *mut uint8_t);
     _3323 = _3345 as int8_t as int32_t as uint32_t;
     _3346 = _3322;
@@ -12450,16 +11990,15 @@ unsafe extern "C" fn _ZL51three_partitions_find_best_combination_for_bitcountPA1
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32
-                        as unsafe extern "C" fn(
-                            uint32_t,
-                            uint32_t,
-                        ) -> uint32_t)(_3354, 3 as libc::c_int as uint32_t) as int32_t
-                        as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _3354,
+                        3 as libc::c_int as uint32_t,
+                    ) as int32_t as int64_t as isize,
                 ) as *mut l_array_3_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(_3355 as int32_t as int64_t as isize) as *mut uint8_t);
+                .offset(_3355 as int32_t as int64_t as isize)
+                as *mut uint8_t);
             _3357 = _3316;
             _3358 = _3324;
             *(&mut *(_3357 as *mut uint8_t).offset(_3358 as int32_t as int64_t as isize)
@@ -12630,7 +12169,8 @@ unsafe extern "C" fn _ZL78four_partitions_find_best_combination_for_every_quanti
             _3410 = _3392;
             _3411 = _3393;
             *(&mut *((*(&mut *(_3409 as *mut l_array_13_float)
-                .offset(_3410 as int32_t as int64_t as isize) as *mut l_array_13_float))
+                .offset(_3410 as int32_t as int64_t as isize)
+                as *mut l_array_13_float))
                 .array)
                 .as_mut_ptr()
                 .offset(_3411 as int32_t as int64_t as isize)
@@ -12669,9 +12209,7 @@ unsafe extern "C" fn _ZL78four_partitions_find_best_combination_for_every_quanti
                 _3398 = _3422;
                 _3423 = _3398;
                 _3424 = _3397;
-                if !(llvm_sub_u32(_3423, _3424) as int32_t
-                    > 1 as libc::c_uint as int32_t)
-                {
+                if !(llvm_sub_u32(_3423, _3424) as int32_t > 1 as libc::c_uint as int32_t) {
                     _3399 = 0 as libc::c_int as uint32_t;
                     loop {
                         _3425 = _3399;
@@ -12688,9 +12226,7 @@ unsafe extern "C" fn _ZL78four_partitions_find_best_combination_for_every_quanti
                         _3401 = _3431;
                         _3432 = _3401;
                         _3433 = _3400;
-                        if !(llvm_sub_u32(_3432, _3433) as int32_t
-                            > 1 as libc::c_uint as int32_t)
-                        {
+                        if !(llvm_sub_u32(_3432, _3433) as int32_t > 1 as libc::c_uint as int32_t) {
                             _3402 = 0 as libc::c_int as uint32_t;
                             loop {
                                 _3434 = _3402;
@@ -12947,7 +12483,7 @@ unsafe extern "C" fn _ZL78four_partitions_find_best_combination_for_every_quanti
         }
         _3505 = _3394;
         _3394 = llvm_add_u32(_3505, 1 as libc::c_int as uint32_t);
-    };
+    }
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL50four_partitions_find_best_combination_for_bitcountPA13_KfPA13_A4_KhiRhS6_Ph(
@@ -13030,8 +12566,8 @@ unsafe extern "C" fn _ZL50four_partitions_find_best_combination_for_bitcountPA13
         _3565 = _3550;
         _3566 = *(&mut *((*(&*(quant_mode_table.array)
             .as_ptr()
-            .offset(_3564 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-            as *mut l_array_128_uint8_t))
+            .offset(_3564 as int32_t as int64_t as isize)
+            as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(_3565 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -13044,16 +12580,15 @@ unsafe extern "C" fn _ZL50four_partitions_find_best_combination_for_bitcountPA13
         _3569 = _3557;
         _3570 = _3556;
         _3571 = *(&mut *((*(&mut *(_3568 as *mut l_array_13_float)
-            .offset(_3569 as int32_t as int64_t as isize) as *mut l_array_13_float))
+            .offset(_3569 as int32_t as int64_t as isize)
+            as *mut l_array_13_float))
             .array)
             .as_mut_ptr()
             .offset(
-                (llvm_sub_u32
-                    as unsafe extern "C" fn(
-                        uint32_t,
-                        uint32_t,
-                    ) -> uint32_t)(_3570, 4 as libc::c_int as uint32_t) as int32_t
-                    as int64_t as isize,
+                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _3570,
+                    4 as libc::c_int as uint32_t,
+                ) as int32_t as int64_t as isize,
             ) as *mut libc::c_float);
         _3558 = _3571;
         _3572 = _3558;
@@ -13071,8 +12606,8 @@ unsafe extern "C" fn _ZL50four_partitions_find_best_combination_for_bitcountPA13
     _3578 = _3550;
     _3579 = *(&mut *((*(&*(quant_mode_table.array)
         .as_ptr()
-        .offset(_3577 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-        as *mut l_array_128_uint8_t))
+        .offset(_3577 as int32_t as int64_t as isize)
+        as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(_3578 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -13081,17 +12616,15 @@ unsafe extern "C" fn _ZL50four_partitions_find_best_combination_for_bitcountPA13
     _3581 = _3550;
     _3582 = *(&mut *((*(&*(quant_mode_table.array)
         .as_ptr()
-        .offset(_3580 as int32_t as int64_t as isize) as *const l_array_128_uint8_t
-        as *mut l_array_128_uint8_t))
+        .offset(_3580 as int32_t as int64_t as isize)
+        as *const l_array_128_uint8_t as *mut l_array_128_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(
-            (llvm_add_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_3581, 8 as libc::c_int as uint32_t) as int32_t as int64_t
-                as isize,
+            (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                _3581,
+                8 as libc::c_int as uint32_t,
+            ) as int32_t as int64_t as isize,
         ) as *mut uint8_t);
     _3560 = _3582 as int8_t as int32_t as uint32_t;
     _3583 = _3559;
@@ -13119,16 +12652,15 @@ unsafe extern "C" fn _ZL50four_partitions_find_best_combination_for_bitcountPA13
                 .array)
                 .as_mut_ptr()
                 .offset(
-                    (llvm_sub_u32
-                        as unsafe extern "C" fn(
-                            uint32_t,
-                            uint32_t,
-                        ) -> uint32_t)(_3591, 4 as libc::c_int as uint32_t) as int32_t
-                        as int64_t as isize,
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _3591,
+                        4 as libc::c_int as uint32_t,
+                    ) as int32_t as int64_t as isize,
                 ) as *mut l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
-                .offset(_3592 as int32_t as int64_t as isize) as *mut uint8_t);
+                .offset(_3592 as int32_t as int64_t as isize)
+                as *mut uint8_t);
             _3594 = _3553;
             _3595 = _3561;
             *(&mut *(_3594 as *mut uint8_t).offset(_3595 as int32_t as int64_t as isize)
@@ -13996,17 +13528,13 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4081: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4082: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4083: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4084: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4085: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -14019,9 +13547,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4088: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4089: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -14046,17 +13572,13 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4101: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4102: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4103: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4104: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4105: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -14069,9 +13591,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4108: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4109: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -14096,17 +13616,13 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4121: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4122: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4123: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4124: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4125: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -14119,9 +13635,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4128: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4129: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -14146,17 +13660,13 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4141: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4142: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4143: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4144: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4145: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -14169,9 +13679,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4148: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4149: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -14196,17 +13704,13 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4161: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4162: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4163: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4164: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4165: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -14219,9 +13723,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4168: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4169: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -14267,19 +13769,13 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _4200: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4201: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4202: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4203: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4204: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4205: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4206: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -15052,41 +14548,27 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4655: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4656: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4657: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4658: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4659: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4660: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4661: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4662: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4663: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4664: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4665: uint32_t = 0;
@@ -15220,31 +14702,21 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4745: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4746: uint32_t = 0;
     let mut _4747: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _4748: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4749: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4750: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4751: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4752: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -15271,9 +14743,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4760: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4761: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -15426,9 +14896,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4811: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4812: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -15554,9 +15022,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4853: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4854: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -15700,9 +15166,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4901: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4902: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -15828,9 +15292,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _4943: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
-        field0: l_array_4_uint32_t {
-            array: [0; 4],
-        },
+        field0: l_array_4_uint32_t { array: [0; 4] },
     };
     let mut _4944: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -16051,9 +15513,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5140: uint32_t = 0;
     let mut _5141: uint32_t = 0;
     let mut _5142: uint32_t = 0;
-    let mut _5143: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5143: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5144: uint32_t = 0;
     let mut _5145: uint32_t = 0;
     let mut _5146: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -16065,12 +15525,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5152: uint32_t = 0;
     let mut _5153: uint32_t = 0;
     let mut _5154: uint32_t = 0;
-    let mut _5155: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _5156: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5155: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _5156: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5157: uint32_t = 0;
     let mut _5158: uint32_t = 0;
     let mut _5159: uint32_t = 0;
@@ -16088,9 +15544,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5171: uint64_t = 0;
     let mut _5172: uint8_t = 0;
     let mut _5173: uint64_t = 0;
-    let mut _5174: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5174: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5175: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5176: uint32_t = 0;
     let mut _5177: uint32_t = 0;
@@ -16100,12 +15554,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5181: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5182: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5183: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _5184: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
-    let mut _5185: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5184: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
+    let mut _5185: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5186: uint32_t = 0;
     let mut _5187: uint32_t = 0;
     let mut _5188: uint32_t = 0;
@@ -16119,9 +15569,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5196: uint32_t = 0;
     let mut _5197: uint32_t = 0;
     let mut _5198: uint32_t = 0;
-    let mut _5199: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5199: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5200: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5201: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5202: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -16195,9 +15643,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5264: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5265: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5266: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5267: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5267: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5268: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5269: libc::c_float = 0.;
     let mut _5270: libc::c_float = 0.;
@@ -16210,9 +15656,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5275: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5276: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5277: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5278: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5278: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5279: uint32_t = 0;
     let mut _5280: libc::c_float = 0.;
     let mut _5281: libc::c_float = 0.;
@@ -16808,9 +16252,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5807: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5808: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5809: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5810: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5810: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5811: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5812: libc::c_float = 0.;
     let mut _5813: libc::c_float = 0.;
@@ -16823,9 +16265,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _5818: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _5819: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5820: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5821: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _5821: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _5822: uint32_t = 0;
     let mut _5823: libc::c_float = 0.;
     let mut _5824: libc::c_float = 0.;
@@ -17291,9 +16731,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _6232: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6233: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6234: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6235: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _6235: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _6236: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6237: libc::c_float = 0.;
     let mut _6238: libc::c_float = 0.;
@@ -17306,9 +16744,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _6243: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6244: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _6245: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6246: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _6246: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _6247: uint32_t = 0;
     let mut _6248: libc::c_float = 0.;
     let mut _6249: libc::c_float = 0.;
@@ -17831,9 +17267,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _6708: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6709: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6710: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6711: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _6711: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _6712: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6713: libc::c_float = 0.;
     let mut _6714: libc::c_float = 0.;
@@ -17846,9 +17280,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _6719: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _6720: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _6721: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6722: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _6722: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _6723: uint32_t = 0;
     let mut _6724: libc::c_float = 0.;
     let mut _6725: libc::c_float = 0.;
@@ -18314,9 +17746,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _7133: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _7134: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _7135: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _7136: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _7136: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7137: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _7138: libc::c_float = 0.;
     let mut _7139: libc::c_float = 0.;
@@ -18329,9 +17759,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     let mut _7144: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _7145: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _7146: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _7147: l_array_2_uint64_t = l_array_2_uint64_t {
-        array: [0; 2],
-    };
+    let mut _7147: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7148: uint32_t = 0;
     let mut _7149: libc::c_float = 0.;
     let mut _7150: libc::c_float = 0.;
@@ -18454,11 +17882,12 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     _4719 = _4953 as uint32_t;
     _4954 = _4706;
     _4955 = _4707;
-    _4720 = &mut *((*(&mut *((*(&mut (*(_4954 as *mut l_struct_struct_OC_partition_info))
-        .field4 as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+    _4720 = &mut *((*(&mut *((*(&mut (*(_4954 as *mut l_struct_struct_OC_partition_info)).field4
+        as *mut l_array_4_struct_AC_l_array_216_uint8_t))
         .array)
         .as_mut_ptr()
-        .offset(_4955 as int32_t as int64_t as isize) as *mut l_array_216_uint8_t))
+        .offset(_4955 as int32_t as int64_t as isize)
+        as *mut l_array_216_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t
@@ -19019,10 +18448,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         *(&mut *((*(_5138 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _5142;
-        _5143 = *(&mut _4663 as *mut l_struct_struct_OC_vint4
-            as *mut l_array_2_uint64_t);
-        (*(&mut _4745.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_29))
-            .data = _5143;
+        _5143 = *(&mut _4663 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+        (*(&mut _4745.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_29)).data = _5143;
         _4746 = 0 as libc::c_int as uint32_t;
         loop {
             _5144 = _4746;
@@ -19032,9 +18459,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             }
             _5146 = _4720;
             _5147 = _4746;
-            _4747 = &mut *(_5146 as *mut uint8_t)
-                .offset(_5147 as uint64_t as int64_t as isize) as *mut uint8_t
-                as *mut libc::c_void;
+            _4747 = &mut *(_5146 as *mut uint8_t).offset(_5147 as uint64_t as int64_t as isize)
+                as *mut uint8_t as *mut libc::c_void;
             _5148 = memcpy(
                 &mut _4749 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
                 &mut _4745 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void,
@@ -19058,48 +18484,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut *((*(_5150 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _5154;
-            _5155 = (*(&mut _4749.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_28))
-                .data;
-            _5156 = (*(&mut _4750.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_27))
-                .data;
-            *(&mut _4203 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _5155;
-            *(&mut _4204 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _5156;
+            _5155 = (*(&mut _4749.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_28)).data;
+            _5156 = (*(&mut _4750.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_27)).data;
+            *(&mut _4203 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _5155;
+            *(&mut _4204 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _5156;
             _5157 = *(&mut _4203 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _5158 = *(&mut _4204 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _5159 = *(&mut *((*(&mut _4203 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5160 = *(&mut *((*(&mut _4204 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5161 = *(&mut *((*(&mut _4203 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5162 = *(&mut *((*(&mut _4204 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5163 = *(&mut *((*(&mut _4203 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5164 = *(&mut *((*(&mut _4204 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _3708 = &mut _4202 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void;
             _3709 = ((_5157 as int32_t) < _5158 as int32_t) as libc::c_int as bool_0;
             _3710 = ((_5159 as int32_t) < _5160 as int32_t) as libc::c_int as bool_0;
@@ -19109,8 +18535,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _5166 = _3709;
             _5167 = ((_5166 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
-            *(_5165
-                as *mut uint32_t) = llvm_select_u32(
+            *(_5165 as *mut uint32_t) = llvm_select_u32(
                 ((_5166 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -19121,8 +18546,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_5165 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_5168 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -19133,8 +18557,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_5165 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_5170 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
@@ -19145,17 +18568,14 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 == 0 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
             *(&mut *((*(_5165 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize)
-                as *mut uint32_t) = llvm_select_u32(
+                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
                 ((_5172 as libc::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
                     == 0 as libc::c_uint) as libc::c_int as bool_0,
                 0 as libc::c_int as uint32_t,
                 -(1 as libc::c_int) as uint32_t,
             );
-            _5174 = *(&mut _4202 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            (*(&mut _4748.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_26))
-                .data = _5174;
+            _5174 = *(&mut _4202 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            (*(&mut _4748.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_26)).data = _5174;
             _4664 = &mut _4751 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
             _4665 = 4 as libc::c_int as uint32_t;
             _5175 = _4664;
@@ -19187,46 +18607,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 _5182,
                 16 as libc::c_int as uint64_t,
             );
-            _5184 = *(&mut _4661 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            _5185 = *(&mut _4662 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            *(&mut _4656 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _5184;
-            *(&mut _4657 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _5185;
+            _5184 = *(&mut _4661 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            _5185 = *(&mut _4662 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            *(&mut _4656 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _5184;
+            *(&mut _4657 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _5185;
             _5186 = *(&mut _4656 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _5187 = *(&mut _4657 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _5188 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5189 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5190 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5191 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5192 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _5193 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             _3638 = &mut _4655 as *mut l_struct_struct_OC_vint4 as *mut libc::c_void;
             _3639 = llvm_add_u32(_5186, _5187);
             _3640 = llvm_add_u32(_5188, _5189);
@@ -19247,10 +18669,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut *((*(_5194 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t) = _5198;
-            _5199 = *(&mut _4655 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t);
-            *(&mut _4660 as *mut l_struct_struct_OC_vint4
-                as *mut l_array_2_uint64_t) = _5199;
+            _5199 = *(&mut _4655 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
+            *(&mut _4660 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _5199;
             _5200 = _4658;
             _5201 = memcpy(
                 _5200,
@@ -19260,36 +18680,40 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _5202 = _4658;
             _5203 = _4708;
             _5204 = _4747;
-            _4176 = &mut *((*(&mut (*(_5203 as *mut l_struct_struct_OC_image_block))
-                .field3 as *mut l_array_219_float))
+            _4176 = &mut *((*(&mut (*(_5203 as *mut l_struct_struct_OC_image_block)).field3
+                as *mut l_array_219_float))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize) as *mut libc::c_float
-                as *mut libc::c_void;
+                .offset(0 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float as *mut libc::c_void;
             _4177 = _5204;
             _5205 = _4176;
             _5206 = _4177;
             _5207 = *(_5206 as *mut uint8_t);
             _5208 = *(&mut *(_5205 as *mut libc::c_float)
-                .offset(_5207 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5207 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5209 = _4176;
             _5210 = _4177;
-            _5211 = *(&mut *(_5210 as *mut uint8_t)
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5211 = *(&mut *(_5210 as *mut uint8_t).offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5212 = *(&mut *(_5209 as *mut libc::c_float)
-                .offset(_5211 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5211 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5213 = _4176;
             _5214 = _4177;
-            _5215 = *(&mut *(_5214 as *mut uint8_t)
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5215 = *(&mut *(_5214 as *mut uint8_t).offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5216 = *(&mut *(_5213 as *mut libc::c_float)
-                .offset(_5215 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5215 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5217 = _4176;
             _5218 = _4177;
-            _5219 = *(&mut *(_5218 as *mut uint8_t)
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5219 = *(&mut *(_5218 as *mut uint8_t).offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5220 = *(&mut *(_5217 as *mut libc::c_float)
-                .offset(_5219 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5219 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _4170 = &mut _4175 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4171 = _5208;
             _4172 = _5212;
@@ -19327,44 +18751,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5229 = *(&mut _4754.field0 as *mut l_array_4_float);
             _5230 = *(&mut _4755.field0 as *mut l_array_4_float);
-            *(&mut _4602 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5229;
-            *(&mut _4603 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5230;
-            _5231 = *(&mut _4602 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5232 = *(&mut _4603 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4602 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5229;
+            *(&mut _4603 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5230;
+            _5231 = *(&mut _4602 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5232 = *(&mut _4603 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5233 = *(&mut *((*(&mut _4602 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5234 = *(&mut *((*(&mut _4603 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5235 = *(&mut *((*(&mut _4602 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5236 = *(&mut *((*(&mut _4603 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5237 = *(&mut *((*(&mut _4602 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5238 = *(&mut *((*(&mut _4603 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4285 = &mut _4601 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4286 = llvm_fsub_f32(_5231, _5232);
             _4287 = llvm_fsub_f32(_5233, _5234);
@@ -19402,44 +18828,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5247 = *(&mut _4757.field0 as *mut l_array_4_float);
             _5248 = *(&mut _4758.field0 as *mut l_array_4_float);
-            *(&mut _4491 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5247;
-            *(&mut _4492 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5248;
-            _5249 = *(&mut _4491 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5250 = *(&mut _4492 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4491 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5247;
+            *(&mut _4492 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5248;
+            _5249 = *(&mut _4491 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5250 = *(&mut _4492 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5251 = *(&mut *((*(&mut _4491 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5252 = *(&mut *((*(&mut _4492 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5253 = *(&mut *((*(&mut _4491 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5254 = *(&mut *((*(&mut _4492 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5255 = *(&mut *((*(&mut _4491 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5256 = *(&mut *((*(&mut _4492 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4470 = &mut _4490 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4471 = llvm_fmul_f32(_5249, _5250);
             _4472 = llvm_fmul_f32(_5251, _5252);
@@ -19481,13 +18909,9 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 16 as libc::c_int as uint64_t,
             );
             _5266 = *(&mut _4759.field0 as *mut l_array_4_float);
-            _5267 = (*(&mut _4760.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_25))
-                .data;
-            *(&mut _4082 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5266;
-            *(&mut _4083 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _5267;
+            _5267 = (*(&mut _4760.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_25)).data;
+            *(&mut _4082 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5266;
+            *(&mut _4083 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _5267;
             _4084 = &mut _4721 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4075 = &mut _4077 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4076 = 0 as libc::c_int as libc::c_float;
@@ -19510,8 +18934,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5272;
             _5273 = _4077;
-            *(&mut _4086 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5273.field0;
+            *(&mut _4086 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5273.field0;
             _5274 = memcpy(
                 &mut _4087 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4082 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -19522,26 +18945,18 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4083 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _5276 = *(&mut _4086 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5277 = *(&mut _4087 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5278 = *(&mut _4088 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            *(&mut _4079 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5276;
-            *(&mut _4080 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5277;
-            *(&mut _4081 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _5278;
+            _5276 = *(&mut _4086 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5277 = *(&mut _4087 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5278 = *(&mut _4088 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            *(&mut _4079 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5276;
+            *(&mut _4080 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5277;
+            *(&mut _4081 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _5278;
             _5279 = *(&mut _4081 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
             if _5279 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
-                _5280 = *(&mut _4080 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _5280 = *(&mut _4080 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _5282__PHI_TEMPORARY = _5280;
             } else {
-                _5281 = *(&mut _4079 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _5281 = *(&mut _4079 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _5282__PHI_TEMPORARY = _5281;
             }
             _5282 = _5282__PHI_TEMPORARY;
@@ -19549,20 +18964,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _5283 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _5284 = *(&mut *((*(&mut _4080 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5286__PHI_TEMPORARY = _5284;
             } else {
                 _5285 = *(&mut *((*(&mut _4079 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5286__PHI_TEMPORARY = _5285;
             }
             _5286 = _5286__PHI_TEMPORARY;
@@ -19570,20 +18988,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _5287 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _5288 = *(&mut *((*(&mut _4080 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5290__PHI_TEMPORARY = _5288;
             } else {
                 _5289 = *(&mut *((*(&mut _4079 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5290__PHI_TEMPORARY = _5289;
             }
             _5290 = _5290__PHI_TEMPORARY;
@@ -19591,20 +19012,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _5291 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _5292 = *(&mut *((*(&mut _4080 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5294__PHI_TEMPORARY = _5292;
             } else {
                 _5293 = *(&mut *((*(&mut _4079 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5294__PHI_TEMPORARY = _5293;
             }
             _5294 = _5294__PHI_TEMPORARY;
@@ -19632,8 +19056,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5299;
             _5300 = _4078;
-            *(&mut _4085 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5300.field0;
+            *(&mut _4085 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5300.field0;
             _5301 = memcpy(
                 &mut _4082 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4085 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -19645,10 +19068,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4082 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _5304 = *(&mut _4089 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3703 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5304;
+            _5304 = *(&mut _4089 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3703 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5304;
             _3704 = _5302;
             _5305 = _3704;
             _5306 = memcpy(
@@ -19661,48 +19082,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _3703 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _5308 = *(&mut _3706 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5309 = *(&mut _3707 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3701 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5308;
-            *(&mut _3702 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5309;
-            _5310 = *(&mut _3701 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5311 = *(&mut _3702 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _5308 = *(&mut _3706 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5309 = *(&mut _3707 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3701 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5308;
+            *(&mut _3702 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5309;
+            _5310 = *(&mut _3701 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5311 = *(&mut _3702 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5312 = *(&mut *((*(&mut _3701 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5313 = *(&mut *((*(&mut _3702 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5314 = *(&mut *((*(&mut _3701 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5315 = *(&mut *((*(&mut _3702 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5316 = *(&mut *((*(&mut _3701 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5317 = *(&mut *((*(&mut _3702 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3695 = &mut _3700 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3696 = llvm_fadd_f32(_5310, _5311);
             _3697 = llvm_fadd_f32(_5312, _5313);
@@ -19727,8 +19148,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5322;
             _5323 = _3700;
-            *(&mut _3705 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5323.field0;
+            *(&mut _3705 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5323.field0;
             _5324 = _3704;
             _5325 = memcpy(
                 _5324,
@@ -19737,36 +19157,40 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5326 = _4708;
             _5327 = _4747;
-            _4184 = &mut *((*(&mut (*(_5326 as *mut l_struct_struct_OC_image_block))
-                .field0 as *mut l_array_219_float))
+            _4184 = &mut *((*(&mut (*(_5326 as *mut l_struct_struct_OC_image_block)).field0
+                as *mut l_array_219_float))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize) as *mut libc::c_float
-                as *mut libc::c_void;
+                .offset(0 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float as *mut libc::c_void;
             _4185 = _5327;
             _5328 = _4184;
             _5329 = _4185;
             _5330 = *(_5329 as *mut uint8_t);
             _5331 = *(&mut *(_5328 as *mut libc::c_float)
-                .offset(_5330 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5330 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5332 = _4184;
             _5333 = _4185;
-            _5334 = *(&mut *(_5333 as *mut uint8_t)
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5334 = *(&mut *(_5333 as *mut uint8_t).offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5335 = *(&mut *(_5332 as *mut libc::c_float)
-                .offset(_5334 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5334 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5336 = _4184;
             _5337 = _4185;
-            _5338 = *(&mut *(_5337 as *mut uint8_t)
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5338 = *(&mut *(_5337 as *mut uint8_t).offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5339 = *(&mut *(_5336 as *mut libc::c_float)
-                .offset(_5338 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5338 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5340 = _4184;
             _5341 = _4185;
-            _5342 = *(&mut *(_5341 as *mut uint8_t)
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5342 = *(&mut *(_5341 as *mut uint8_t).offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5343 = *(&mut *(_5340 as *mut libc::c_float)
-                .offset(_5342 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5342 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _4178 = &mut _4183 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4179 = _5331;
             _4180 = _5335;
@@ -19794,36 +19218,40 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4761.field0 as *mut l_array_4_float) = _5349.field0;
             _5350 = _4708;
             _5351 = _4747;
-            _4192 = &mut *((*(&mut (*(_5350 as *mut l_struct_struct_OC_image_block))
-                .field1 as *mut l_array_219_float))
+            _4192 = &mut *((*(&mut (*(_5350 as *mut l_struct_struct_OC_image_block)).field1
+                as *mut l_array_219_float))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize) as *mut libc::c_float
-                as *mut libc::c_void;
+                .offset(0 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float as *mut libc::c_void;
             _4193 = _5351;
             _5352 = _4192;
             _5353 = _4193;
             _5354 = *(_5353 as *mut uint8_t);
             _5355 = *(&mut *(_5352 as *mut libc::c_float)
-                .offset(_5354 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5354 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5356 = _4192;
             _5357 = _4193;
-            _5358 = *(&mut *(_5357 as *mut uint8_t)
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5358 = *(&mut *(_5357 as *mut uint8_t).offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5359 = *(&mut *(_5356 as *mut libc::c_float)
-                .offset(_5358 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5358 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5360 = _4192;
             _5361 = _4193;
-            _5362 = *(&mut *(_5361 as *mut uint8_t)
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5362 = *(&mut *(_5361 as *mut uint8_t).offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5363 = *(&mut *(_5360 as *mut libc::c_float)
-                .offset(_5362 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5362 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5364 = _4192;
             _5365 = _4193;
-            _5366 = *(&mut *(_5365 as *mut uint8_t)
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5366 = *(&mut *(_5365 as *mut uint8_t).offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5367 = *(&mut *(_5364 as *mut libc::c_float)
-                .offset(_5366 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5366 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _4186 = &mut _4191 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4187 = _5355;
             _4188 = _5359;
@@ -19851,36 +19279,40 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4762.field0 as *mut l_array_4_float) = _5373.field0;
             _5374 = _4708;
             _5375 = _4747;
-            _4200 = &mut *((*(&mut (*(_5374 as *mut l_struct_struct_OC_image_block))
-                .field2 as *mut l_array_219_float))
+            _4200 = &mut *((*(&mut (*(_5374 as *mut l_struct_struct_OC_image_block)).field2
+                as *mut l_array_219_float))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize) as *mut libc::c_float
-                as *mut libc::c_void;
+                .offset(0 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float as *mut libc::c_void;
             _4201 = _5375;
             _5376 = _4200;
             _5377 = _4201;
             _5378 = *(_5377 as *mut uint8_t);
             _5379 = *(&mut *(_5376 as *mut libc::c_float)
-                .offset(_5378 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5378 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5380 = _4200;
             _5381 = _4201;
-            _5382 = *(&mut *(_5381 as *mut uint8_t)
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5382 = *(&mut *(_5381 as *mut uint8_t).offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5383 = *(&mut *(_5380 as *mut libc::c_float)
-                .offset(_5382 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5382 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5384 = _4200;
             _5385 = _4201;
-            _5386 = *(&mut *(_5385 as *mut uint8_t)
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5386 = *(&mut *(_5385 as *mut uint8_t).offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5387 = *(&mut *(_5384 as *mut libc::c_float)
-                .offset(_5386 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5386 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _5388 = _4200;
             _5389 = _4201;
-            _5390 = *(&mut *(_5389 as *mut uint8_t)
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint8_t);
+            _5390 = *(&mut *(_5389 as *mut uint8_t).offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint8_t);
             _5391 = *(&mut *(_5388 as *mut libc::c_float)
-                .offset(_5390 as uint64_t as int64_t as isize) as *mut libc::c_float);
+                .offset(_5390 as uint64_t as int64_t as isize)
+                as *mut libc::c_float);
             _4194 = &mut _4199 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4195 = _5379;
             _4196 = _5383;
@@ -19918,44 +19350,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5400 = *(&mut _4767.field0 as *mut l_array_4_float);
             _5401 = *(&mut _4768.field0 as *mut l_array_4_float);
-            *(&mut _4494 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5400;
-            *(&mut _4495 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5401;
-            _5402 = *(&mut _4494 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5403 = *(&mut _4495 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4494 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5400;
+            *(&mut _4495 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5401;
+            _5402 = *(&mut _4494 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5403 = *(&mut _4495 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5404 = *(&mut *((*(&mut _4494 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5405 = *(&mut *((*(&mut _4495 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5406 = *(&mut *((*(&mut _4494 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5407 = *(&mut *((*(&mut _4495 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5408 = *(&mut *((*(&mut _4494 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5409 = *(&mut *((*(&mut _4495 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4465 = &mut _4493 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4466 = llvm_fmul_f32(_5402, _5403);
             _4467 = llvm_fmul_f32(_5404, _5405);
@@ -19993,44 +19427,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5418 = *(&mut _4770.field0 as *mut l_array_4_float);
             _5419 = *(&mut _4771.field0 as *mut l_array_4_float);
-            *(&mut _4497 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5418;
-            *(&mut _4498 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5419;
-            _5420 = *(&mut _4497 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5421 = *(&mut _4498 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4497 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5418;
+            *(&mut _4498 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5419;
+            _5420 = *(&mut _4497 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5421 = *(&mut _4498 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5422 = *(&mut *((*(&mut _4497 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5423 = *(&mut *((*(&mut _4498 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5424 = *(&mut *((*(&mut _4497 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5425 = *(&mut *((*(&mut _4498 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5426 = *(&mut *((*(&mut _4497 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5427 = *(&mut *((*(&mut _4498 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4460 = &mut _4496 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4461 = llvm_fmul_f32(_5420, _5421);
             _4462 = llvm_fmul_f32(_5422, _5423);
@@ -20058,44 +19494,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4769.field0 as *mut l_array_4_float) = _5433.field0;
             _5434 = *(&mut _4766.field0 as *mut l_array_4_float);
             _5435 = *(&mut _4769.field0 as *mut l_array_4_float);
-            *(&mut _3900 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5434;
-            *(&mut _3901 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5435;
-            _5436 = *(&mut _3900 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5437 = *(&mut _3901 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3900 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5434;
+            *(&mut _3901 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5435;
+            _5436 = *(&mut _3900 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5437 = *(&mut _3901 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5438 = *(&mut *((*(&mut _3900 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5439 = *(&mut *((*(&mut _3901 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5440 = *(&mut *((*(&mut _3900 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5441 = *(&mut *((*(&mut _3901 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5442 = *(&mut *((*(&mut _3900 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5443 = *(&mut *((*(&mut _3901 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3894 = &mut _3899 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3895 = llvm_fadd_f32(_5436, _5437);
             _3896 = llvm_fadd_f32(_5438, _5439);
@@ -20133,44 +19571,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5452 = *(&mut _4773.field0 as *mut l_array_4_float);
             _5453 = *(&mut _4774.field0 as *mut l_array_4_float);
-            *(&mut _4500 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5452;
-            *(&mut _4501 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5453;
-            _5454 = *(&mut _4500 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5455 = *(&mut _4501 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4500 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5452;
+            *(&mut _4501 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5453;
+            _5454 = *(&mut _4500 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5455 = *(&mut _4501 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5456 = *(&mut *((*(&mut _4500 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5457 = *(&mut *((*(&mut _4501 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5458 = *(&mut *((*(&mut _4500 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5459 = *(&mut *((*(&mut _4501 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5460 = *(&mut *((*(&mut _4500 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5461 = *(&mut *((*(&mut _4501 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4455 = &mut _4499 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4456 = llvm_fmul_f32(_5454, _5455);
             _4457 = llvm_fmul_f32(_5456, _5457);
@@ -20198,44 +19638,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4772.field0 as *mut l_array_4_float) = _5467.field0;
             _5468 = *(&mut _4765.field0 as *mut l_array_4_float);
             _5469 = *(&mut _4772.field0 as *mut l_array_4_float);
-            *(&mut _3908 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5468;
-            *(&mut _3909 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5469;
-            _5470 = *(&mut _3908 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5471 = *(&mut _3909 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3908 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5468;
+            *(&mut _3909 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5469;
+            _5470 = *(&mut _3908 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5471 = *(&mut _3909 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5472 = *(&mut *((*(&mut _3908 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5473 = *(&mut *((*(&mut _3909 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5474 = *(&mut *((*(&mut _3908 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5475 = *(&mut *((*(&mut _3909 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5476 = *(&mut *((*(&mut _3908 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5477 = *(&mut *((*(&mut _3909 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3902 = &mut _3907 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3903 = llvm_fadd_f32(_5470, _5471);
             _3904 = llvm_fadd_f32(_5472, _5473);
@@ -20278,44 +19720,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5487 = *(&mut _4779.field0 as *mut l_array_4_float);
             _5488 = *(&mut _4780.field0 as *mut l_array_4_float);
-            *(&mut _4503 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5487;
-            *(&mut _4504 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5488;
-            _5489 = *(&mut _4503 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5490 = *(&mut _4504 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4503 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5487;
+            *(&mut _4504 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5488;
+            _5489 = *(&mut _4503 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5490 = *(&mut _4504 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5491 = *(&mut *((*(&mut _4503 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5492 = *(&mut *((*(&mut _4504 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5493 = *(&mut *((*(&mut _4503 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5494 = *(&mut *((*(&mut _4504 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5495 = *(&mut *((*(&mut _4503 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5496 = *(&mut *((*(&mut _4504 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4450 = &mut _4502 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4451 = llvm_fmul_f32(_5489, _5490);
             _4452 = llvm_fmul_f32(_5491, _5492);
@@ -20343,44 +19787,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4778.field0 as *mut l_array_4_float) = _5502.field0;
             _5503 = *(&mut _4777.field0 as *mut l_array_4_float);
             _5504 = *(&mut _4778.field0 as *mut l_array_4_float);
-            *(&mut _3916 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5503;
-            *(&mut _3917 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5504;
-            _5505 = *(&mut _3916 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5506 = *(&mut _3917 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3916 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5503;
+            *(&mut _3917 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5504;
+            _5505 = *(&mut _3916 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5506 = *(&mut _3917 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5507 = *(&mut *((*(&mut _3916 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5508 = *(&mut *((*(&mut _3917 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5509 = *(&mut *((*(&mut _3916 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5510 = *(&mut *((*(&mut _3917 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5511 = *(&mut *((*(&mut _3916 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5512 = *(&mut *((*(&mut _3917 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3910 = &mut _3915 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3911 = llvm_fadd_f32(_5505, _5506);
             _3912 = llvm_fadd_f32(_5507, _5508);
@@ -20413,44 +19859,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5520 = *(&mut _4776.field0 as *mut l_array_4_float);
             _5521 = *(&mut _4781.field0 as *mut l_array_4_float);
-            *(&mut _4605 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5520;
-            *(&mut _4606 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5521;
-            _5522 = *(&mut _4605 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5523 = *(&mut _4606 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4605 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5520;
+            *(&mut _4606 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5521;
+            _5522 = *(&mut _4605 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5523 = *(&mut _4606 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5524 = *(&mut *((*(&mut _4605 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5525 = *(&mut *((*(&mut _4606 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5526 = *(&mut *((*(&mut _4605 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5527 = *(&mut *((*(&mut _4606 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5528 = *(&mut *((*(&mut _4605 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5529 = *(&mut *((*(&mut _4606 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4280 = &mut _4604 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4281 = llvm_fsub_f32(_5522, _5523);
             _4282 = llvm_fsub_f32(_5524, _5525);
@@ -20493,44 +19941,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5539 = *(&mut _4786.field0 as *mut l_array_4_float);
             _5540 = *(&mut _4787.field0 as *mut l_array_4_float);
-            *(&mut _4506 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5539;
-            *(&mut _4507 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5540;
-            _5541 = *(&mut _4506 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5542 = *(&mut _4507 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4506 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5539;
+            *(&mut _4507 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5540;
+            _5541 = *(&mut _4506 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5542 = *(&mut _4507 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5543 = *(&mut *((*(&mut _4506 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5544 = *(&mut *((*(&mut _4507 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5545 = *(&mut *((*(&mut _4506 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5546 = *(&mut *((*(&mut _4507 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5547 = *(&mut *((*(&mut _4506 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5548 = *(&mut *((*(&mut _4507 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4445 = &mut _4505 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4446 = llvm_fmul_f32(_5541, _5542);
             _4447 = llvm_fmul_f32(_5543, _5544);
@@ -20558,44 +20008,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4785.field0 as *mut l_array_4_float) = _5554.field0;
             _5555 = *(&mut _4784.field0 as *mut l_array_4_float);
             _5556 = *(&mut _4785.field0 as *mut l_array_4_float);
-            *(&mut _3924 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5555;
-            *(&mut _3925 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5556;
-            _5557 = *(&mut _3924 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5558 = *(&mut _3925 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3924 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5555;
+            *(&mut _3925 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5556;
+            _5557 = *(&mut _3924 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5558 = *(&mut _3925 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5559 = *(&mut *((*(&mut _3924 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5560 = *(&mut *((*(&mut _3925 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5561 = *(&mut *((*(&mut _3924 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5562 = *(&mut *((*(&mut _3925 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5563 = *(&mut *((*(&mut _3924 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5564 = *(&mut *((*(&mut _3925 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3918 = &mut _3923 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3919 = llvm_fadd_f32(_5557, _5558);
             _3920 = llvm_fadd_f32(_5559, _5560);
@@ -20628,44 +20080,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5572 = *(&mut _4783.field0 as *mut l_array_4_float);
             _5573 = *(&mut _4788.field0 as *mut l_array_4_float);
-            *(&mut _4608 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5572;
-            *(&mut _4609 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5573;
-            _5574 = *(&mut _4608 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5575 = *(&mut _4609 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4608 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5572;
+            *(&mut _4609 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5573;
+            _5574 = *(&mut _4608 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5575 = *(&mut _4609 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5576 = *(&mut *((*(&mut _4608 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5577 = *(&mut *((*(&mut _4609 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5578 = *(&mut *((*(&mut _4608 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5579 = *(&mut *((*(&mut _4609 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5580 = *(&mut *((*(&mut _4608 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5581 = *(&mut *((*(&mut _4609 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4275 = &mut _4607 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4276 = llvm_fsub_f32(_5574, _5575);
             _4277 = llvm_fsub_f32(_5576, _5577);
@@ -20708,44 +20162,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5591 = *(&mut _4793.field0 as *mut l_array_4_float);
             _5592 = *(&mut _4794.field0 as *mut l_array_4_float);
-            *(&mut _4509 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5591;
-            *(&mut _4510 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5592;
-            _5593 = *(&mut _4509 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5594 = *(&mut _4510 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4509 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5591;
+            *(&mut _4510 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5592;
+            _5593 = *(&mut _4509 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5594 = *(&mut _4510 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5595 = *(&mut *((*(&mut _4509 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5596 = *(&mut *((*(&mut _4510 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5597 = *(&mut *((*(&mut _4509 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5598 = *(&mut *((*(&mut _4510 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5599 = *(&mut *((*(&mut _4509 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5600 = *(&mut *((*(&mut _4510 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4440 = &mut _4508 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4441 = llvm_fmul_f32(_5593, _5594);
             _4442 = llvm_fmul_f32(_5595, _5596);
@@ -20773,44 +20229,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4792.field0 as *mut l_array_4_float) = _5606.field0;
             _5607 = *(&mut _4791.field0 as *mut l_array_4_float);
             _5608 = *(&mut _4792.field0 as *mut l_array_4_float);
-            *(&mut _3932 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5607;
-            *(&mut _3933 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5608;
-            _5609 = *(&mut _3932 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5610 = *(&mut _3933 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3932 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5607;
+            *(&mut _3933 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5608;
+            _5609 = *(&mut _3932 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5610 = *(&mut _3933 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5611 = *(&mut *((*(&mut _3932 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5612 = *(&mut *((*(&mut _3933 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5613 = *(&mut *((*(&mut _3932 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5614 = *(&mut *((*(&mut _3933 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5615 = *(&mut *((*(&mut _3932 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5616 = *(&mut *((*(&mut _3933 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3926 = &mut _3931 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3927 = llvm_fadd_f32(_5609, _5610);
             _3928 = llvm_fadd_f32(_5611, _5612);
@@ -20843,44 +20301,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5624 = *(&mut _4790.field0 as *mut l_array_4_float);
             _5625 = *(&mut _4795.field0 as *mut l_array_4_float);
-            *(&mut _4611 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5624;
-            *(&mut _4612 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5625;
-            _5626 = *(&mut _4611 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5627 = *(&mut _4612 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4611 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5624;
+            *(&mut _4612 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5625;
+            _5626 = *(&mut _4611 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5627 = *(&mut _4612 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5628 = *(&mut *((*(&mut _4611 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5629 = *(&mut *((*(&mut _4612 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5630 = *(&mut *((*(&mut _4611 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5631 = *(&mut *((*(&mut _4612 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5632 = *(&mut *((*(&mut _4611 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5633 = *(&mut *((*(&mut _4612 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4270 = &mut _4610 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4271 = llvm_fsub_f32(_5626, _5627);
             _4272 = llvm_fsub_f32(_5628, _5629);
@@ -20918,44 +20378,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5642 = *(&mut _4800.field0 as *mut l_array_4_float);
             _5643 = *(&mut _4801.field0 as *mut l_array_4_float);
-            *(&mut _4512 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5642;
-            *(&mut _4513 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5643;
-            _5644 = *(&mut _4512 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5645 = *(&mut _4513 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4512 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5642;
+            *(&mut _4513 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5643;
+            _5644 = *(&mut _4512 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5645 = *(&mut _4513 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5646 = *(&mut *((*(&mut _4512 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5647 = *(&mut *((*(&mut _4513 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5648 = *(&mut *((*(&mut _4512 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5649 = *(&mut *((*(&mut _4513 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5650 = *(&mut *((*(&mut _4512 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5651 = *(&mut *((*(&mut _4513 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4435 = &mut _4511 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4436 = llvm_fmul_f32(_5644, _5645);
             _4437 = llvm_fmul_f32(_5646, _5647);
@@ -20985,8 +20447,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _5658 = _4486;
             _5659 = *(_5658 as *mut libc::c_float);
             _5660 = *(&mut _4799.field0 as *mut l_array_4_float);
-            *(&mut _3725 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5660;
+            *(&mut _3725 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5660;
             _3726 = _5659;
             _5661 = memcpy(
                 &mut _3727 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -21014,48 +20475,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5667;
-            _5668 = *(&mut _3727 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5669 = *(&mut _3728 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3720 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5668;
-            *(&mut _3721 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5669;
-            _5670 = *(&mut _3720 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5671 = *(&mut _3721 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _5668 = *(&mut _3727 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5669 = *(&mut _3728 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3720 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5668;
+            *(&mut _3721 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5669;
+            _5670 = *(&mut _3720 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5671 = *(&mut _3721 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5672 = *(&mut *((*(&mut _3720 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5673 = *(&mut *((*(&mut _3721 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5674 = *(&mut *((*(&mut _3720 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5675 = *(&mut *((*(&mut _3721 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5676 = *(&mut *((*(&mut _3720 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5677 = *(&mut *((*(&mut _3721 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3714 = &mut _3719 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3715 = llvm_fmul_f32(_5670, _5671);
             _3716 = llvm_fmul_f32(_5672, _5673);
@@ -21080,8 +20541,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5682;
             _5683 = _3719;
-            *(&mut _3724 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5683.field0;
+            *(&mut _3724 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5683.field0;
             _5684 = _3724;
             *(&mut _4798.field0 as *mut l_array_4_float) = _5684.field0;
             _5685 = memcpy(
@@ -21096,44 +20556,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5687 = *(&mut _4804.field0 as *mut l_array_4_float);
             _5688 = *(&mut _4805.field0 as *mut l_array_4_float);
-            *(&mut _4515 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5687;
-            *(&mut _4516 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5688;
-            _5689 = *(&mut _4515 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5690 = *(&mut _4516 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4515 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5687;
+            *(&mut _4516 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5688;
+            _5689 = *(&mut _4515 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5690 = *(&mut _4516 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5691 = *(&mut *((*(&mut _4515 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5692 = *(&mut *((*(&mut _4516 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5693 = *(&mut *((*(&mut _4515 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5694 = *(&mut *((*(&mut _4516 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5695 = *(&mut *((*(&mut _4515 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5696 = *(&mut *((*(&mut _4516 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4430 = &mut _4514 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4431 = llvm_fmul_f32(_5689, _5690);
             _4432 = llvm_fmul_f32(_5691, _5692);
@@ -21163,10 +20625,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _5703 = _4221;
             _5704 = *(&mut *((*(_5703 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5705 = *(&mut _4803.field0 as *mut l_array_4_float);
-            *(&mut _3740 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5705;
+            *(&mut _3740 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5705;
             _3741 = _5704;
             _5706 = memcpy(
                 &mut _3742 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -21194,48 +20656,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5712;
-            _5713 = *(&mut _3742 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5714 = *(&mut _3743 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3735 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5713;
-            *(&mut _3736 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5714;
-            _5715 = *(&mut _3735 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5716 = *(&mut _3736 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _5713 = *(&mut _3742 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5714 = *(&mut _3743 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3735 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5713;
+            *(&mut _3736 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5714;
+            _5715 = *(&mut _3735 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5716 = *(&mut _3736 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5717 = *(&mut *((*(&mut _3735 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5718 = *(&mut *((*(&mut _3736 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5719 = *(&mut *((*(&mut _3735 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5720 = *(&mut *((*(&mut _3736 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5721 = *(&mut *((*(&mut _3735 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5722 = *(&mut *((*(&mut _3736 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3729 = &mut _3734 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3730 = llvm_fmul_f32(_5715, _5716);
             _3731 = llvm_fmul_f32(_5717, _5718);
@@ -21260,50 +20722,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5727;
             _5728 = _3734;
-            *(&mut _3739 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5728.field0;
+            *(&mut _3739 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5728.field0;
             _5729 = _3739;
             *(&mut _4802.field0 as *mut l_array_4_float) = _5729.field0;
             _5730 = *(&mut _4798.field0 as *mut l_array_4_float);
             _5731 = *(&mut _4802.field0 as *mut l_array_4_float);
-            *(&mut _3940 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5730;
-            *(&mut _3941 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5731;
-            _5732 = *(&mut _3940 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5733 = *(&mut _3941 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5730;
+            *(&mut _3941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5731;
+            _5732 = *(&mut _3940 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5733 = *(&mut _3941 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5734 = *(&mut *((*(&mut _3940 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5735 = *(&mut *((*(&mut _3941 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5736 = *(&mut *((*(&mut _3940 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5737 = *(&mut *((*(&mut _3941 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5738 = *(&mut *((*(&mut _3940 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5739 = *(&mut *((*(&mut _3941 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3934 = &mut _3939 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3935 = llvm_fadd_f32(_5732, _5733);
             _3936 = llvm_fadd_f32(_5734, _5735);
@@ -21341,44 +20804,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5748 = *(&mut _4808.field0 as *mut l_array_4_float);
             _5749 = *(&mut _4809.field0 as *mut l_array_4_float);
-            *(&mut _4518 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5748;
-            *(&mut _4519 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5749;
-            _5750 = *(&mut _4518 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5751 = *(&mut _4519 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4518 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5748;
+            *(&mut _4519 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5749;
+            _5750 = *(&mut _4518 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5751 = *(&mut _4519 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5752 = *(&mut *((*(&mut _4518 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5753 = *(&mut *((*(&mut _4519 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5754 = *(&mut *((*(&mut _4518 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5755 = *(&mut *((*(&mut _4519 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5756 = *(&mut *((*(&mut _4518 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5757 = *(&mut *((*(&mut _4519 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4425 = &mut _4517 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4426 = llvm_fmul_f32(_5750, _5751);
             _4427 = llvm_fmul_f32(_5752, _5753);
@@ -21408,10 +20873,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _5764 = _4211;
             _5765 = *(&mut *((*(_5764 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5766 = *(&mut _4807.field0 as *mut l_array_4_float);
-            *(&mut _3755 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5766;
+            *(&mut _3755 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5766;
             _3756 = _5765;
             _5767 = memcpy(
                 &mut _3757 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -21439,48 +20904,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5773;
-            _5774 = *(&mut _3757 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5775 = *(&mut _3758 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3750 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5774;
-            *(&mut _3751 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5775;
-            _5776 = *(&mut _3750 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5777 = *(&mut _3751 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _5774 = *(&mut _3757 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5775 = *(&mut _3758 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3750 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5774;
+            *(&mut _3751 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5775;
+            _5776 = *(&mut _3750 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5777 = *(&mut _3751 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5778 = *(&mut *((*(&mut _3750 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5779 = *(&mut *((*(&mut _3751 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5780 = *(&mut *((*(&mut _3750 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5781 = *(&mut *((*(&mut _3751 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5782 = *(&mut *((*(&mut _3750 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5783 = *(&mut *((*(&mut _3751 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3744 = &mut _3749 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3745 = llvm_fmul_f32(_5776, _5777);
             _3746 = llvm_fmul_f32(_5778, _5779);
@@ -21505,50 +20970,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5788;
             _5789 = _3749;
-            *(&mut _3754 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5789.field0;
+            *(&mut _3754 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5789.field0;
             _5790 = _3754;
             *(&mut _4806.field0 as *mut l_array_4_float) = _5790.field0;
             _5791 = *(&mut _4797.field0 as *mut l_array_4_float);
             _5792 = *(&mut _4806.field0 as *mut l_array_4_float);
-            *(&mut _3948 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5791;
-            *(&mut _3949 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5792;
-            _5793 = *(&mut _3948 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5794 = *(&mut _3949 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3948 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5791;
+            *(&mut _3949 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5792;
+            _5793 = *(&mut _3948 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5794 = *(&mut _3949 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5795 = *(&mut *((*(&mut _3948 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5796 = *(&mut *((*(&mut _3949 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5797 = *(&mut *((*(&mut _3948 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5798 = *(&mut *((*(&mut _3949 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5799 = *(&mut *((*(&mut _3948 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5800 = *(&mut *((*(&mut _3949 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3942 = &mut _3947 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3943 = llvm_fadd_f32(_5793, _5794);
             _3944 = llvm_fadd_f32(_5795, _5796);
@@ -21585,13 +21051,9 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 16 as libc::c_int as uint64_t,
             );
             _5809 = *(&mut _4810.field0 as *mut l_array_4_float);
-            _5810 = (*(&mut _4811.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_24))
-                .data;
-            *(&mut _4102 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5809;
-            *(&mut _4103 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _5810;
+            _5810 = (*(&mut _4811.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_24)).data;
+            *(&mut _4102 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5809;
+            *(&mut _4103 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _5810;
             _4104 = &mut _4723 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4095 = &mut _4097 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4096 = 0 as libc::c_int as libc::c_float;
@@ -21614,8 +21076,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5815;
             _5816 = _4097;
-            *(&mut _4106 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5816.field0;
+            *(&mut _4106 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5816.field0;
             _5817 = memcpy(
                 &mut _4107 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4102 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -21626,26 +21087,18 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4103 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _5819 = *(&mut _4106 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5820 = *(&mut _4107 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5821 = *(&mut _4108 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            *(&mut _4099 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5819;
-            *(&mut _4100 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5820;
-            *(&mut _4101 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _5821;
+            _5819 = *(&mut _4106 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5820 = *(&mut _4107 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5821 = *(&mut _4108 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            *(&mut _4099 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5819;
+            *(&mut _4100 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5820;
+            *(&mut _4101 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _5821;
             _5822 = *(&mut _4101 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
             if _5822 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
-                _5823 = *(&mut _4100 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _5823 = *(&mut _4100 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _5825__PHI_TEMPORARY = _5823;
             } else {
-                _5824 = *(&mut _4099 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _5824 = *(&mut _4099 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _5825__PHI_TEMPORARY = _5824;
             }
             _5825 = _5825__PHI_TEMPORARY;
@@ -21653,20 +21106,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _5826 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _5827 = *(&mut *((*(&mut _4100 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5829__PHI_TEMPORARY = _5827;
             } else {
                 _5828 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5829__PHI_TEMPORARY = _5828;
             }
             _5829 = _5829__PHI_TEMPORARY;
@@ -21674,20 +21130,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _5830 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _5831 = *(&mut *((*(&mut _4100 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5833__PHI_TEMPORARY = _5831;
             } else {
                 _5832 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5833__PHI_TEMPORARY = _5832;
             }
             _5833 = _5833__PHI_TEMPORARY;
@@ -21695,20 +21154,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _5834 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _5835 = *(&mut *((*(&mut _4100 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5837__PHI_TEMPORARY = _5835;
             } else {
                 _5836 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _5837__PHI_TEMPORARY = _5836;
             }
             _5837 = _5837__PHI_TEMPORARY;
@@ -21736,8 +21198,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5842;
             _5843 = _4098;
-            *(&mut _4105 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5843.field0;
+            *(&mut _4105 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5843.field0;
             _5844 = memcpy(
                 &mut _4102 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4105 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -21749,10 +21210,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4102 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _5847 = *(&mut _4109 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3690 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5847;
+            _5847 = *(&mut _4109 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5847;
             _3691 = _5845;
             _5848 = _3691;
             _5849 = memcpy(
@@ -21765,48 +21224,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _3690 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _5851 = *(&mut _3693 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _5852 = *(&mut _3694 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3688 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5851;
-            *(&mut _3689 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5852;
-            _5853 = *(&mut _3688 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5854 = *(&mut _3689 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _5851 = *(&mut _3693 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _5852 = *(&mut _3694 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3688 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5851;
+            *(&mut _3689 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5852;
+            _5853 = *(&mut _3688 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5854 = *(&mut _3689 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5855 = *(&mut *((*(&mut _3688 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5856 = *(&mut *((*(&mut _3689 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5857 = *(&mut *((*(&mut _3688 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5858 = *(&mut *((*(&mut _3689 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5859 = *(&mut *((*(&mut _3688 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5860 = *(&mut *((*(&mut _3689 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3682 = &mut _3687 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3683 = llvm_fadd_f32(_5853, _5854);
             _3684 = llvm_fadd_f32(_5855, _5856);
@@ -21831,8 +21290,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _5865;
             _5866 = _3687;
-            *(&mut _3692 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5866.field0;
+            *(&mut _3692 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5866.field0;
             _5867 = _3691;
             _5868 = memcpy(
                 _5867,
@@ -21851,44 +21309,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5871 = *(&mut _4815.field0 as *mut l_array_4_float);
             _5872 = *(&mut _4816.field0 as *mut l_array_4_float);
-            *(&mut _4521 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5871;
-            *(&mut _4522 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5872;
-            _5873 = *(&mut _4521 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5874 = *(&mut _4522 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4521 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5871;
+            *(&mut _4522 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5872;
+            _5873 = *(&mut _4521 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5874 = *(&mut _4522 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5875 = *(&mut *((*(&mut _4521 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5876 = *(&mut *((*(&mut _4522 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5877 = *(&mut *((*(&mut _4521 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5878 = *(&mut *((*(&mut _4522 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5879 = *(&mut *((*(&mut _4521 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5880 = *(&mut *((*(&mut _4522 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4420 = &mut _4520 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4421 = llvm_fmul_f32(_5873, _5874);
             _4422 = llvm_fmul_f32(_5875, _5876);
@@ -21926,44 +21386,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5889 = *(&mut _4818.field0 as *mut l_array_4_float);
             _5890 = *(&mut _4819.field0 as *mut l_array_4_float);
-            *(&mut _4524 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5889;
-            *(&mut _4525 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5890;
-            _5891 = *(&mut _4524 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5892 = *(&mut _4525 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4524 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5889;
+            *(&mut _4525 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5890;
+            _5891 = *(&mut _4524 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5892 = *(&mut _4525 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5893 = *(&mut *((*(&mut _4524 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5894 = *(&mut *((*(&mut _4525 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5895 = *(&mut *((*(&mut _4524 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5896 = *(&mut *((*(&mut _4525 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5897 = *(&mut *((*(&mut _4524 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5898 = *(&mut *((*(&mut _4525 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4415 = &mut _4523 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4416 = llvm_fmul_f32(_5891, _5892);
             _4417 = llvm_fmul_f32(_5893, _5894);
@@ -21991,44 +21453,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4817.field0 as *mut l_array_4_float) = _5904.field0;
             _5905 = *(&mut _4814.field0 as *mut l_array_4_float);
             _5906 = *(&mut _4817.field0 as *mut l_array_4_float);
-            *(&mut _3956 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5905;
-            *(&mut _3957 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5906;
-            _5907 = *(&mut _3956 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5908 = *(&mut _3957 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3956 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5905;
+            *(&mut _3957 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5906;
+            _5907 = *(&mut _3956 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5908 = *(&mut _3957 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5909 = *(&mut *((*(&mut _3956 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5910 = *(&mut *((*(&mut _3957 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5911 = *(&mut *((*(&mut _3956 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5912 = *(&mut *((*(&mut _3957 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5913 = *(&mut *((*(&mut _3956 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5914 = *(&mut *((*(&mut _3957 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3950 = &mut _3955 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3951 = llvm_fadd_f32(_5907, _5908);
             _3952 = llvm_fadd_f32(_5909, _5910);
@@ -22066,44 +21530,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5923 = *(&mut _4821.field0 as *mut l_array_4_float);
             _5924 = *(&mut _4822.field0 as *mut l_array_4_float);
-            *(&mut _4527 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5923;
-            *(&mut _4528 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5924;
-            _5925 = *(&mut _4527 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5926 = *(&mut _4528 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4527 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5923;
+            *(&mut _4528 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5924;
+            _5925 = *(&mut _4527 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5926 = *(&mut _4528 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5927 = *(&mut *((*(&mut _4527 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5928 = *(&mut *((*(&mut _4528 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5929 = *(&mut *((*(&mut _4527 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5930 = *(&mut *((*(&mut _4528 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5931 = *(&mut *((*(&mut _4527 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5932 = *(&mut *((*(&mut _4528 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4410 = &mut _4526 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4411 = llvm_fmul_f32(_5925, _5926);
             _4412 = llvm_fmul_f32(_5927, _5928);
@@ -22131,44 +21597,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4820.field0 as *mut l_array_4_float) = _5938.field0;
             _5939 = *(&mut _4813.field0 as *mut l_array_4_float);
             _5940 = *(&mut _4820.field0 as *mut l_array_4_float);
-            *(&mut _3964 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5939;
-            *(&mut _3965 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5940;
-            _5941 = *(&mut _3964 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5942 = *(&mut _3965 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3964 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5939;
+            *(&mut _3965 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5940;
+            _5941 = *(&mut _3964 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5942 = *(&mut _3965 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5943 = *(&mut *((*(&mut _3964 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5944 = *(&mut *((*(&mut _3965 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5945 = *(&mut *((*(&mut _3964 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5946 = *(&mut *((*(&mut _3965 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5947 = *(&mut *((*(&mut _3964 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5948 = *(&mut *((*(&mut _3965 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3958 = &mut _3963 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3959 = llvm_fadd_f32(_5941, _5942);
             _3960 = llvm_fadd_f32(_5943, _5944);
@@ -22211,44 +21679,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5958 = *(&mut _4825.field0 as *mut l_array_4_float);
             _5959 = *(&mut _4826.field0 as *mut l_array_4_float);
-            *(&mut _4530 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5958;
-            *(&mut _4531 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5959;
-            _5960 = *(&mut _4530 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5961 = *(&mut _4531 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4530 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5958;
+            *(&mut _4531 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5959;
+            _5960 = *(&mut _4530 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5961 = *(&mut _4531 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5962 = *(&mut *((*(&mut _4530 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5963 = *(&mut *((*(&mut _4531 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5964 = *(&mut *((*(&mut _4530 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5965 = *(&mut *((*(&mut _4531 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5966 = *(&mut *((*(&mut _4530 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5967 = *(&mut *((*(&mut _4531 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4405 = &mut _4529 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4406 = llvm_fmul_f32(_5960, _5961);
             _4407 = llvm_fmul_f32(_5962, _5963);
@@ -22281,44 +21751,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5975 = *(&mut _4824.field0 as *mut l_array_4_float);
             _5976 = *(&mut _4827.field0 as *mut l_array_4_float);
-            *(&mut _4614 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5975;
-            *(&mut _4615 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5976;
-            _5977 = *(&mut _4614 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5978 = *(&mut _4615 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4614 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5975;
+            *(&mut _4615 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5976;
+            _5977 = *(&mut _4614 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5978 = *(&mut _4615 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5979 = *(&mut *((*(&mut _4614 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5980 = *(&mut *((*(&mut _4615 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5981 = *(&mut *((*(&mut _4614 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5982 = *(&mut *((*(&mut _4615 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5983 = *(&mut *((*(&mut _4614 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5984 = *(&mut *((*(&mut _4615 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4265 = &mut _4613 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4266 = llvm_fsub_f32(_5977, _5978);
             _4267 = llvm_fsub_f32(_5979, _5980);
@@ -22361,44 +21833,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5994 = *(&mut _4830.field0 as *mut l_array_4_float);
             _5995 = *(&mut _4831.field0 as *mut l_array_4_float);
-            *(&mut _4533 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5994;
-            *(&mut _4534 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _5995;
-            _5996 = *(&mut _4533 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _5997 = *(&mut _4534 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4533 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5994;
+            *(&mut _4534 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5995;
+            _5996 = *(&mut _4533 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _5997 = *(&mut _4534 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _5998 = *(&mut *((*(&mut _4533 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _5999 = *(&mut *((*(&mut _4534 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6000 = *(&mut *((*(&mut _4533 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6001 = *(&mut *((*(&mut _4534 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6002 = *(&mut *((*(&mut _4533 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6003 = *(&mut *((*(&mut _4534 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4400 = &mut _4532 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4401 = llvm_fmul_f32(_5996, _5997);
             _4402 = llvm_fmul_f32(_5998, _5999);
@@ -22431,44 +21905,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6011 = *(&mut _4829.field0 as *mut l_array_4_float);
             _6012 = *(&mut _4832.field0 as *mut l_array_4_float);
-            *(&mut _4617 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6011;
-            *(&mut _4618 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6012;
-            _6013 = *(&mut _4617 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6014 = *(&mut _4618 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4617 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6011;
+            *(&mut _4618 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6012;
+            _6013 = *(&mut _4617 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6014 = *(&mut _4618 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6015 = *(&mut *((*(&mut _4617 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6016 = *(&mut *((*(&mut _4618 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6017 = *(&mut *((*(&mut _4617 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6018 = *(&mut *((*(&mut _4618 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6019 = *(&mut *((*(&mut _4617 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6020 = *(&mut *((*(&mut _4618 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4260 = &mut _4616 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4261 = llvm_fsub_f32(_6013, _6014);
             _4262 = llvm_fsub_f32(_6015, _6016);
@@ -22511,44 +21987,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6030 = *(&mut _4835.field0 as *mut l_array_4_float);
             _6031 = *(&mut _4836.field0 as *mut l_array_4_float);
-            *(&mut _4536 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6030;
-            *(&mut _4537 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6031;
-            _6032 = *(&mut _4536 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6033 = *(&mut _4537 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4536 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6030;
+            *(&mut _4537 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6031;
+            _6032 = *(&mut _4536 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6033 = *(&mut _4537 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6034 = *(&mut *((*(&mut _4536 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6035 = *(&mut *((*(&mut _4537 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6036 = *(&mut *((*(&mut _4536 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6037 = *(&mut *((*(&mut _4537 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6038 = *(&mut *((*(&mut _4536 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6039 = *(&mut *((*(&mut _4537 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4395 = &mut _4535 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4396 = llvm_fmul_f32(_6032, _6033);
             _4397 = llvm_fmul_f32(_6034, _6035);
@@ -22581,44 +22059,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6047 = *(&mut _4834.field0 as *mut l_array_4_float);
             _6048 = *(&mut _4837.field0 as *mut l_array_4_float);
-            *(&mut _4620 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6047;
-            *(&mut _4621 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6048;
-            _6049 = *(&mut _4620 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6050 = *(&mut _4621 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4620 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6047;
+            *(&mut _4621 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6048;
+            _6049 = *(&mut _4620 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6050 = *(&mut _4621 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6051 = *(&mut *((*(&mut _4620 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6052 = *(&mut *((*(&mut _4621 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6053 = *(&mut *((*(&mut _4620 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6054 = *(&mut *((*(&mut _4621 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6055 = *(&mut *((*(&mut _4620 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6056 = *(&mut *((*(&mut _4621 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4255 = &mut _4619 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4256 = llvm_fsub_f32(_6049, _6050);
             _4257 = llvm_fsub_f32(_6051, _6052);
@@ -22661,44 +22141,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6066 = *(&mut _4842.field0 as *mut l_array_4_float);
             _6067 = *(&mut _4843.field0 as *mut l_array_4_float);
-            *(&mut _4539 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6066;
-            *(&mut _4540 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6067;
-            _6068 = *(&mut _4539 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6069 = *(&mut _4540 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4539 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6066;
+            *(&mut _4540 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6067;
+            _6068 = *(&mut _4539 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6069 = *(&mut _4540 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6070 = *(&mut *((*(&mut _4539 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6071 = *(&mut *((*(&mut _4540 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6072 = *(&mut *((*(&mut _4539 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6073 = *(&mut *((*(&mut _4540 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6074 = *(&mut *((*(&mut _4539 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6075 = *(&mut *((*(&mut _4540 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4390 = &mut _4538 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4391 = llvm_fmul_f32(_6068, _6069);
             _4392 = llvm_fmul_f32(_6070, _6071);
@@ -22728,8 +22210,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _6082 = _4487;
             _6083 = *(_6082 as *mut libc::c_float);
             _6084 = *(&mut _4841.field0 as *mut l_array_4_float);
-            *(&mut _3770 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6084;
+            *(&mut _3770 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6084;
             _3771 = _6083;
             _6085 = memcpy(
                 &mut _3772 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -22757,48 +22238,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6091;
-            _6092 = *(&mut _3772 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6093 = *(&mut _3773 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3765 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6092;
-            *(&mut _3766 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6093;
-            _6094 = *(&mut _3765 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6095 = *(&mut _3766 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6092 = *(&mut _3772 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6093 = *(&mut _3773 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3765 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6092;
+            *(&mut _3766 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6093;
+            _6094 = *(&mut _3765 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6095 = *(&mut _3766 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6096 = *(&mut *((*(&mut _3765 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6097 = *(&mut *((*(&mut _3766 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6098 = *(&mut *((*(&mut _3765 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6099 = *(&mut *((*(&mut _3766 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6100 = *(&mut *((*(&mut _3765 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6101 = *(&mut *((*(&mut _3766 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3759 = &mut _3764 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3760 = llvm_fmul_f32(_6094, _6095);
             _3761 = llvm_fmul_f32(_6096, _6097);
@@ -22823,8 +22304,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6106;
             _6107 = _3764;
-            *(&mut _3769 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6107.field0;
+            *(&mut _3769 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6107.field0;
             _6108 = _3769;
             *(&mut _4840.field0 as *mut l_array_4_float) = _6108.field0;
             _6109 = memcpy(
@@ -22839,44 +22319,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6111 = *(&mut _4846.field0 as *mut l_array_4_float);
             _6112 = *(&mut _4847.field0 as *mut l_array_4_float);
-            *(&mut _4542 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6111;
-            *(&mut _4543 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6112;
-            _6113 = *(&mut _4542 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6114 = *(&mut _4543 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4542 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6111;
+            *(&mut _4543 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6112;
+            _6113 = *(&mut _4542 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6114 = *(&mut _4543 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6115 = *(&mut *((*(&mut _4542 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6116 = *(&mut *((*(&mut _4543 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6117 = *(&mut *((*(&mut _4542 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6118 = *(&mut *((*(&mut _4543 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6119 = *(&mut *((*(&mut _4542 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6120 = *(&mut *((*(&mut _4543 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4385 = &mut _4541 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4386 = llvm_fmul_f32(_6113, _6114);
             _4387 = llvm_fmul_f32(_6115, _6116);
@@ -22906,10 +22388,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _6127 = _4222;
             _6128 = *(&mut *((*(_6127 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6129 = *(&mut _4845.field0 as *mut l_array_4_float);
-            *(&mut _3785 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6129;
+            *(&mut _3785 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6129;
             _3786 = _6128;
             _6130 = memcpy(
                 &mut _3787 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -22937,48 +22419,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6136;
-            _6137 = *(&mut _3787 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6138 = *(&mut _3788 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3780 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6137;
-            *(&mut _3781 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6138;
-            _6139 = *(&mut _3780 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6140 = *(&mut _3781 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6137 = *(&mut _3787 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6138 = *(&mut _3788 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3780 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6137;
+            *(&mut _3781 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6138;
+            _6139 = *(&mut _3780 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6140 = *(&mut _3781 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6141 = *(&mut *((*(&mut _3780 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6142 = *(&mut *((*(&mut _3781 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6143 = *(&mut *((*(&mut _3780 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6144 = *(&mut *((*(&mut _3781 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6145 = *(&mut *((*(&mut _3780 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6146 = *(&mut *((*(&mut _3781 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3774 = &mut _3779 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3775 = llvm_fmul_f32(_6139, _6140);
             _3776 = llvm_fmul_f32(_6141, _6142);
@@ -23003,50 +22485,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6151;
             _6152 = _3779;
-            *(&mut _3784 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6152.field0;
+            *(&mut _3784 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6152.field0;
             _6153 = _3784;
             *(&mut _4844.field0 as *mut l_array_4_float) = _6153.field0;
             _6154 = *(&mut _4840.field0 as *mut l_array_4_float);
             _6155 = *(&mut _4844.field0 as *mut l_array_4_float);
-            *(&mut _3972 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6154;
-            *(&mut _3973 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6155;
-            _6156 = *(&mut _3972 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6157 = *(&mut _3973 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3972 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6154;
+            *(&mut _3973 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6155;
+            _6156 = *(&mut _3972 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6157 = *(&mut _3973 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6158 = *(&mut *((*(&mut _3972 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6159 = *(&mut *((*(&mut _3973 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6160 = *(&mut *((*(&mut _3972 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6161 = *(&mut *((*(&mut _3973 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6162 = *(&mut *((*(&mut _3972 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6163 = *(&mut *((*(&mut _3973 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3966 = &mut _3971 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3967 = llvm_fadd_f32(_6156, _6157);
             _3968 = llvm_fadd_f32(_6158, _6159);
@@ -23084,44 +22567,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6172 = *(&mut _4850.field0 as *mut l_array_4_float);
             _6173 = *(&mut _4851.field0 as *mut l_array_4_float);
-            *(&mut _4545 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6172;
-            *(&mut _4546 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6173;
-            _6174 = *(&mut _4545 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6175 = *(&mut _4546 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4545 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6172;
+            *(&mut _4546 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6173;
+            _6174 = *(&mut _4545 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6175 = *(&mut _4546 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6176 = *(&mut *((*(&mut _4545 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6177 = *(&mut *((*(&mut _4546 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6178 = *(&mut *((*(&mut _4545 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6179 = *(&mut *((*(&mut _4546 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6180 = *(&mut *((*(&mut _4545 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6181 = *(&mut *((*(&mut _4546 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4380 = &mut _4544 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4381 = llvm_fmul_f32(_6174, _6175);
             _4382 = llvm_fmul_f32(_6176, _6177);
@@ -23151,10 +22636,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _6188 = _4212;
             _6189 = *(&mut *((*(_6188 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6190 = *(&mut _4849.field0 as *mut l_array_4_float);
-            *(&mut _3800 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6190;
+            *(&mut _3800 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6190;
             _3801 = _6189;
             _6191 = memcpy(
                 &mut _3802 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -23182,48 +22667,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6197;
-            _6198 = *(&mut _3802 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6199 = *(&mut _3803 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3795 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6198;
-            *(&mut _3796 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6199;
-            _6200 = *(&mut _3795 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6201 = *(&mut _3796 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6198 = *(&mut _3802 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6199 = *(&mut _3803 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3795 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6198;
+            *(&mut _3796 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6199;
+            _6200 = *(&mut _3795 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6201 = *(&mut _3796 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6202 = *(&mut *((*(&mut _3795 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6203 = *(&mut *((*(&mut _3796 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6204 = *(&mut *((*(&mut _3795 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6205 = *(&mut *((*(&mut _3796 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6206 = *(&mut *((*(&mut _3795 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6207 = *(&mut *((*(&mut _3796 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3789 = &mut _3794 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3790 = llvm_fmul_f32(_6200, _6201);
             _3791 = llvm_fmul_f32(_6202, _6203);
@@ -23248,50 +22733,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6212;
             _6213 = _3794;
-            *(&mut _3799 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6213.field0;
+            *(&mut _3799 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6213.field0;
             _6214 = _3799;
             *(&mut _4848.field0 as *mut l_array_4_float) = _6214.field0;
             _6215 = *(&mut _4839.field0 as *mut l_array_4_float);
             _6216 = *(&mut _4848.field0 as *mut l_array_4_float);
-            *(&mut _3980 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6215;
-            *(&mut _3981 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6216;
-            _6217 = *(&mut _3980 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6218 = *(&mut _3981 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3980 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6215;
+            *(&mut _3981 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6216;
+            _6217 = *(&mut _3980 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6218 = *(&mut _3981 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6219 = *(&mut *((*(&mut _3980 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6220 = *(&mut *((*(&mut _3981 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6221 = *(&mut *((*(&mut _3980 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6222 = *(&mut *((*(&mut _3981 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6223 = *(&mut *((*(&mut _3980 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6224 = *(&mut *((*(&mut _3981 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3974 = &mut _3979 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3975 = llvm_fadd_f32(_6217, _6218);
             _3976 = llvm_fadd_f32(_6219, _6220);
@@ -23333,13 +22819,9 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 16 as libc::c_int as uint64_t,
             );
             _6234 = *(&mut _4852.field0 as *mut l_array_4_float);
-            _6235 = (*(&mut _4853.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_23))
-                .data;
-            *(&mut _4122 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6234;
-            *(&mut _4123 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _6235;
+            _6235 = (*(&mut _4853.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_23)).data;
+            *(&mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6234;
+            *(&mut _4123 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _6235;
             _4124 = &mut _4730 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4115 = &mut _4117 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4116 = 0 as libc::c_int as libc::c_float;
@@ -23362,8 +22844,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6240;
             _6241 = _4117;
-            *(&mut _4126 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6241.field0;
+            *(&mut _4126 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6241.field0;
             _6242 = memcpy(
                 &mut _4127 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -23374,26 +22855,18 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4123 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _6244 = *(&mut _4126 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6245 = *(&mut _4127 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6246 = *(&mut _4128 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            *(&mut _4119 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6244;
-            *(&mut _4120 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6245;
-            *(&mut _4121 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _6246;
+            _6244 = *(&mut _4126 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6245 = *(&mut _4127 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6246 = *(&mut _4128 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            *(&mut _4119 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6244;
+            *(&mut _4120 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6245;
+            *(&mut _4121 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _6246;
             _6247 = *(&mut _4121 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
             if _6247 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
-                _6248 = *(&mut _4120 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _6248 = *(&mut _4120 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _6250__PHI_TEMPORARY = _6248;
             } else {
-                _6249 = *(&mut _4119 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _6249 = *(&mut _4119 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _6250__PHI_TEMPORARY = _6249;
             }
             _6250 = _6250__PHI_TEMPORARY;
@@ -23401,20 +22874,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _6251 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _6252 = *(&mut *((*(&mut _4120 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6254__PHI_TEMPORARY = _6252;
             } else {
                 _6253 = *(&mut *((*(&mut _4119 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6254__PHI_TEMPORARY = _6253;
             }
             _6254 = _6254__PHI_TEMPORARY;
@@ -23422,20 +22898,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _6255 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _6256 = *(&mut *((*(&mut _4120 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6258__PHI_TEMPORARY = _6256;
             } else {
                 _6257 = *(&mut *((*(&mut _4119 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6258__PHI_TEMPORARY = _6257;
             }
             _6258 = _6258__PHI_TEMPORARY;
@@ -23443,20 +22922,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _6259 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _6260 = *(&mut *((*(&mut _4120 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6262__PHI_TEMPORARY = _6260;
             } else {
                 _6261 = *(&mut *((*(&mut _4119 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6262__PHI_TEMPORARY = _6261;
             }
             _6262 = _6262__PHI_TEMPORARY;
@@ -23484,8 +22966,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6267;
             _6268 = _4118;
-            *(&mut _4125 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6268.field0;
+            *(&mut _4125 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6268.field0;
             _6269 = memcpy(
                 &mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4125 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -23497,10 +22978,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _6272 = *(&mut _4129 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3677 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6272;
+            _6272 = *(&mut _4129 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3677 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6272;
             _3678 = _6270;
             _6273 = _3678;
             _6274 = memcpy(
@@ -23513,48 +22992,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _3677 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _6276 = *(&mut _3680 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6277 = *(&mut _3681 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3675 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6276;
-            *(&mut _3676 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6277;
-            _6278 = *(&mut _3675 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6279 = *(&mut _3676 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6276 = *(&mut _3680 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6277 = *(&mut _3681 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3675 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6276;
+            *(&mut _3676 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6277;
+            _6278 = *(&mut _3675 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6279 = *(&mut _3676 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6280 = *(&mut *((*(&mut _3675 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6281 = *(&mut *((*(&mut _3676 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6282 = *(&mut *((*(&mut _3675 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6283 = *(&mut *((*(&mut _3676 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6284 = *(&mut *((*(&mut _3675 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6285 = *(&mut *((*(&mut _3676 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3669 = &mut _3674 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3670 = llvm_fadd_f32(_6278, _6279);
             _3671 = llvm_fadd_f32(_6280, _6281);
@@ -23579,8 +23058,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6290;
             _6291 = _3674;
-            *(&mut _3679 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6291.field0;
+            *(&mut _3679 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6291.field0;
             _6292 = _3678;
             _6293 = memcpy(
                 _6292,
@@ -23599,44 +23077,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6296 = *(&mut _4857.field0 as *mut l_array_4_float);
             _6297 = *(&mut _4858.field0 as *mut l_array_4_float);
-            *(&mut _4548 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6296;
-            *(&mut _4549 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6297;
-            _6298 = *(&mut _4548 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6299 = *(&mut _4549 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4548 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6296;
+            *(&mut _4549 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6297;
+            _6298 = *(&mut _4548 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6299 = *(&mut _4549 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6300 = *(&mut *((*(&mut _4548 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6301 = *(&mut *((*(&mut _4549 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6302 = *(&mut *((*(&mut _4548 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6303 = *(&mut *((*(&mut _4549 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6304 = *(&mut *((*(&mut _4548 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6305 = *(&mut *((*(&mut _4549 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4375 = &mut _4547 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4376 = llvm_fmul_f32(_6298, _6299);
             _4377 = llvm_fmul_f32(_6300, _6301);
@@ -23674,44 +23154,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6314 = *(&mut _4860.field0 as *mut l_array_4_float);
             _6315 = *(&mut _4861.field0 as *mut l_array_4_float);
-            *(&mut _4551 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6314;
-            *(&mut _4552 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6315;
-            _6316 = *(&mut _4551 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6317 = *(&mut _4552 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4551 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6314;
+            *(&mut _4552 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6315;
+            _6316 = *(&mut _4551 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6317 = *(&mut _4552 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6318 = *(&mut *((*(&mut _4551 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6319 = *(&mut *((*(&mut _4552 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6320 = *(&mut *((*(&mut _4551 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6321 = *(&mut *((*(&mut _4552 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6322 = *(&mut *((*(&mut _4551 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6323 = *(&mut *((*(&mut _4552 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4370 = &mut _4550 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4371 = llvm_fmul_f32(_6316, _6317);
             _4372 = llvm_fmul_f32(_6318, _6319);
@@ -23739,44 +23221,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4859.field0 as *mut l_array_4_float) = _6329.field0;
             _6330 = *(&mut _4856.field0 as *mut l_array_4_float);
             _6331 = *(&mut _4859.field0 as *mut l_array_4_float);
-            *(&mut _3988 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6330;
-            *(&mut _3989 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6331;
-            _6332 = *(&mut _3988 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6333 = *(&mut _3989 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3988 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6330;
+            *(&mut _3989 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6331;
+            _6332 = *(&mut _3988 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6333 = *(&mut _3989 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6334 = *(&mut *((*(&mut _3988 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6335 = *(&mut *((*(&mut _3989 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6336 = *(&mut *((*(&mut _3988 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6337 = *(&mut *((*(&mut _3989 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6338 = *(&mut *((*(&mut _3988 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6339 = *(&mut *((*(&mut _3989 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3982 = &mut _3987 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3983 = llvm_fadd_f32(_6332, _6333);
             _3984 = llvm_fadd_f32(_6334, _6335);
@@ -23814,44 +23298,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6348 = *(&mut _4863.field0 as *mut l_array_4_float);
             _6349 = *(&mut _4864.field0 as *mut l_array_4_float);
-            *(&mut _4554 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6348;
-            *(&mut _4555 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6349;
-            _6350 = *(&mut _4554 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6351 = *(&mut _4555 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4554 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6348;
+            *(&mut _4555 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6349;
+            _6350 = *(&mut _4554 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6351 = *(&mut _4555 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6352 = *(&mut *((*(&mut _4554 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6353 = *(&mut *((*(&mut _4555 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6354 = *(&mut *((*(&mut _4554 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6355 = *(&mut *((*(&mut _4555 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6356 = *(&mut *((*(&mut _4554 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6357 = *(&mut *((*(&mut _4555 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4365 = &mut _4553 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4366 = llvm_fmul_f32(_6350, _6351);
             _4367 = llvm_fmul_f32(_6352, _6353);
@@ -23879,44 +23365,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4862.field0 as *mut l_array_4_float) = _6363.field0;
             _6364 = *(&mut _4855.field0 as *mut l_array_4_float);
             _6365 = *(&mut _4862.field0 as *mut l_array_4_float);
-            *(&mut _3996 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6364;
-            *(&mut _3997 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6365;
-            _6366 = *(&mut _3996 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6367 = *(&mut _3997 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _3996 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6364;
+            *(&mut _3997 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6365;
+            _6366 = *(&mut _3996 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6367 = *(&mut _3997 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6368 = *(&mut *((*(&mut _3996 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6369 = *(&mut *((*(&mut _3997 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6370 = *(&mut *((*(&mut _3996 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6371 = *(&mut *((*(&mut _3997 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6372 = *(&mut *((*(&mut _3996 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6373 = *(&mut *((*(&mut _3997 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3990 = &mut _3995 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3991 = llvm_fadd_f32(_6366, _6367);
             _3992 = llvm_fadd_f32(_6368, _6369);
@@ -23964,44 +23452,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6384 = *(&mut _4869.field0 as *mut l_array_4_float);
             _6385 = *(&mut _4870.field0 as *mut l_array_4_float);
-            *(&mut _4557 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6384;
-            *(&mut _4558 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6385;
-            _6386 = *(&mut _4557 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6387 = *(&mut _4558 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4557 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6384;
+            *(&mut _4558 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6385;
+            _6386 = *(&mut _4557 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6387 = *(&mut _4558 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6388 = *(&mut *((*(&mut _4557 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6389 = *(&mut *((*(&mut _4558 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6390 = *(&mut *((*(&mut _4557 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6391 = *(&mut *((*(&mut _4558 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6392 = *(&mut *((*(&mut _4557 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6393 = *(&mut *((*(&mut _4558 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4360 = &mut _4556 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4361 = llvm_fmul_f32(_6386, _6387);
             _4362 = llvm_fmul_f32(_6388, _6389);
@@ -24029,44 +23519,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4868.field0 as *mut l_array_4_float) = _6399.field0;
             _6400 = *(&mut _4867.field0 as *mut l_array_4_float);
             _6401 = *(&mut _4868.field0 as *mut l_array_4_float);
-            *(&mut _4004 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6400;
-            *(&mut _4005 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6401;
-            _6402 = *(&mut _4004 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6403 = *(&mut _4005 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4004 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6400;
+            *(&mut _4005 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6401;
+            _6402 = *(&mut _4004 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6403 = *(&mut _4005 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6404 = *(&mut *((*(&mut _4004 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6405 = *(&mut *((*(&mut _4005 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6406 = *(&mut *((*(&mut _4004 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6407 = *(&mut *((*(&mut _4005 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6408 = *(&mut *((*(&mut _4004 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6409 = *(&mut *((*(&mut _4005 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3998 = &mut _4003 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3999 = llvm_fadd_f32(_6402, _6403);
             _4000 = llvm_fadd_f32(_6404, _6405);
@@ -24099,44 +23591,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6417 = *(&mut _4866.field0 as *mut l_array_4_float);
             _6418 = *(&mut _4871.field0 as *mut l_array_4_float);
-            *(&mut _4623 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6417;
-            *(&mut _4624 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6418;
-            _6419 = *(&mut _4623 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6420 = *(&mut _4624 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4623 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6417;
+            *(&mut _4624 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6418;
+            _6419 = *(&mut _4623 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6420 = *(&mut _4624 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6421 = *(&mut *((*(&mut _4623 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6422 = *(&mut *((*(&mut _4624 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6423 = *(&mut *((*(&mut _4623 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6424 = *(&mut *((*(&mut _4624 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6425 = *(&mut *((*(&mut _4623 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6426 = *(&mut *((*(&mut _4624 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4250 = &mut _4622 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4251 = llvm_fsub_f32(_6419, _6420);
             _4252 = llvm_fsub_f32(_6421, _6422);
@@ -24184,44 +23678,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6437 = *(&mut _4876.field0 as *mut l_array_4_float);
             _6438 = *(&mut _4877.field0 as *mut l_array_4_float);
-            *(&mut _4560 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6437;
-            *(&mut _4561 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6438;
-            _6439 = *(&mut _4560 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6440 = *(&mut _4561 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4560 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6437;
+            *(&mut _4561 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6438;
+            _6439 = *(&mut _4560 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6440 = *(&mut _4561 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6441 = *(&mut *((*(&mut _4560 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6442 = *(&mut *((*(&mut _4561 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6443 = *(&mut *((*(&mut _4560 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6444 = *(&mut *((*(&mut _4561 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6445 = *(&mut *((*(&mut _4560 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6446 = *(&mut *((*(&mut _4561 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4355 = &mut _4559 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4356 = llvm_fmul_f32(_6439, _6440);
             _4357 = llvm_fmul_f32(_6441, _6442);
@@ -24249,44 +23745,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4875.field0 as *mut l_array_4_float) = _6452.field0;
             _6453 = *(&mut _4874.field0 as *mut l_array_4_float);
             _6454 = *(&mut _4875.field0 as *mut l_array_4_float);
-            *(&mut _4012 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6453;
-            *(&mut _4013 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6454;
-            _6455 = *(&mut _4012 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6456 = *(&mut _4013 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4012 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6453;
+            *(&mut _4013 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6454;
+            _6455 = *(&mut _4012 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6456 = *(&mut _4013 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6457 = *(&mut *((*(&mut _4012 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6458 = *(&mut *((*(&mut _4013 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6459 = *(&mut *((*(&mut _4012 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6460 = *(&mut *((*(&mut _4013 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6461 = *(&mut *((*(&mut _4012 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6462 = *(&mut *((*(&mut _4013 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4006 = &mut _4011 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4007 = llvm_fadd_f32(_6455, _6456);
             _4008 = llvm_fadd_f32(_6457, _6458);
@@ -24319,44 +23817,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6470 = *(&mut _4873.field0 as *mut l_array_4_float);
             _6471 = *(&mut _4878.field0 as *mut l_array_4_float);
-            *(&mut _4626 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6470;
-            *(&mut _4627 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6471;
-            _6472 = *(&mut _4626 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6473 = *(&mut _4627 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4626 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6470;
+            *(&mut _4627 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6471;
+            _6472 = *(&mut _4626 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6473 = *(&mut _4627 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6474 = *(&mut *((*(&mut _4626 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6475 = *(&mut *((*(&mut _4627 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6476 = *(&mut *((*(&mut _4626 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6477 = *(&mut *((*(&mut _4627 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6478 = *(&mut *((*(&mut _4626 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6479 = *(&mut *((*(&mut _4627 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4245 = &mut _4625 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4246 = llvm_fsub_f32(_6472, _6473);
             _4247 = llvm_fsub_f32(_6474, _6475);
@@ -24404,44 +23904,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6490 = *(&mut _4883.field0 as *mut l_array_4_float);
             _6491 = *(&mut _4884.field0 as *mut l_array_4_float);
-            *(&mut _4563 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6490;
-            *(&mut _4564 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6491;
-            _6492 = *(&mut _4563 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6493 = *(&mut _4564 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4563 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6490;
+            *(&mut _4564 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6491;
+            _6492 = *(&mut _4563 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6493 = *(&mut _4564 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6494 = *(&mut *((*(&mut _4563 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6495 = *(&mut *((*(&mut _4564 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6496 = *(&mut *((*(&mut _4563 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6497 = *(&mut *((*(&mut _4564 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6498 = *(&mut *((*(&mut _4563 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6499 = *(&mut *((*(&mut _4564 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4350 = &mut _4562 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4351 = llvm_fmul_f32(_6492, _6493);
             _4352 = llvm_fmul_f32(_6494, _6495);
@@ -24469,44 +23971,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4882.field0 as *mut l_array_4_float) = _6505.field0;
             _6506 = *(&mut _4881.field0 as *mut l_array_4_float);
             _6507 = *(&mut _4882.field0 as *mut l_array_4_float);
-            *(&mut _4020 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6506;
-            *(&mut _4021 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6507;
-            _6508 = *(&mut _4020 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6509 = *(&mut _4021 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4020 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6506;
+            *(&mut _4021 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6507;
+            _6508 = *(&mut _4020 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6509 = *(&mut _4021 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6510 = *(&mut *((*(&mut _4020 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6511 = *(&mut *((*(&mut _4021 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6512 = *(&mut *((*(&mut _4020 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6513 = *(&mut *((*(&mut _4021 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6514 = *(&mut *((*(&mut _4020 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6515 = *(&mut *((*(&mut _4021 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4014 = &mut _4019 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4015 = llvm_fadd_f32(_6508, _6509);
             _4016 = llvm_fadd_f32(_6510, _6511);
@@ -24539,44 +24043,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6523 = *(&mut _4880.field0 as *mut l_array_4_float);
             _6524 = *(&mut _4885.field0 as *mut l_array_4_float);
-            *(&mut _4629 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6523;
-            *(&mut _4630 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6524;
-            _6525 = *(&mut _4629 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6526 = *(&mut _4630 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4629 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6523;
+            *(&mut _4630 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6524;
+            _6525 = *(&mut _4629 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6526 = *(&mut _4630 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6527 = *(&mut *((*(&mut _4629 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6528 = *(&mut *((*(&mut _4630 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6529 = *(&mut *((*(&mut _4629 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6530 = *(&mut *((*(&mut _4630 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6531 = *(&mut *((*(&mut _4629 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6532 = *(&mut *((*(&mut _4630 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4240 = &mut _4628 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4241 = llvm_fsub_f32(_6525, _6526);
             _4242 = llvm_fsub_f32(_6527, _6528);
@@ -24619,44 +24125,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6542 = *(&mut _4890.field0 as *mut l_array_4_float);
             _6543 = *(&mut _4891.field0 as *mut l_array_4_float);
-            *(&mut _4566 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6542;
-            *(&mut _4567 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6543;
-            _6544 = *(&mut _4566 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6545 = *(&mut _4567 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4566 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6542;
+            *(&mut _4567 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6543;
+            _6544 = *(&mut _4566 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6545 = *(&mut _4567 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6546 = *(&mut *((*(&mut _4566 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6547 = *(&mut *((*(&mut _4567 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6548 = *(&mut *((*(&mut _4566 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6549 = *(&mut *((*(&mut _4567 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6550 = *(&mut *((*(&mut _4566 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6551 = *(&mut *((*(&mut _4567 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4345 = &mut _4565 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4346 = llvm_fmul_f32(_6544, _6545);
             _4347 = llvm_fmul_f32(_6546, _6547);
@@ -24686,8 +24194,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _6558 = _4488;
             _6559 = *(_6558 as *mut libc::c_float);
             _6560 = *(&mut _4889.field0 as *mut l_array_4_float);
-            *(&mut _3815 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6560;
+            *(&mut _3815 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6560;
             _3816 = _6559;
             _6561 = memcpy(
                 &mut _3817 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -24715,48 +24222,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6567;
-            _6568 = *(&mut _3817 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6569 = *(&mut _3818 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3810 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6568;
-            *(&mut _3811 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6569;
-            _6570 = *(&mut _3810 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6571 = *(&mut _3811 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6568 = *(&mut _3817 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6569 = *(&mut _3818 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3810 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6568;
+            *(&mut _3811 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6569;
+            _6570 = *(&mut _3810 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6571 = *(&mut _3811 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6572 = *(&mut *((*(&mut _3810 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6573 = *(&mut *((*(&mut _3811 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6574 = *(&mut *((*(&mut _3810 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6575 = *(&mut *((*(&mut _3811 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6576 = *(&mut *((*(&mut _3810 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6577 = *(&mut *((*(&mut _3811 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3804 = &mut _3809 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3805 = llvm_fmul_f32(_6570, _6571);
             _3806 = llvm_fmul_f32(_6572, _6573);
@@ -24781,8 +24288,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6582;
             _6583 = _3809;
-            *(&mut _3814 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6583.field0;
+            *(&mut _3814 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6583.field0;
             _6584 = _3814;
             *(&mut _4888.field0 as *mut l_array_4_float) = _6584.field0;
             _6585 = memcpy(
@@ -24797,44 +24303,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6587 = *(&mut _4894.field0 as *mut l_array_4_float);
             _6588 = *(&mut _4895.field0 as *mut l_array_4_float);
-            *(&mut _4569 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6587;
-            *(&mut _4570 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6588;
-            _6589 = *(&mut _4569 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6590 = *(&mut _4570 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4569 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6587;
+            *(&mut _4570 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6588;
+            _6589 = *(&mut _4569 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6590 = *(&mut _4570 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6591 = *(&mut *((*(&mut _4569 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6592 = *(&mut *((*(&mut _4570 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6593 = *(&mut *((*(&mut _4569 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6594 = *(&mut *((*(&mut _4570 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6595 = *(&mut *((*(&mut _4569 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6596 = *(&mut *((*(&mut _4570 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4340 = &mut _4568 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4341 = llvm_fmul_f32(_6589, _6590);
             _4342 = llvm_fmul_f32(_6591, _6592);
@@ -24864,10 +24372,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _6603 = _4223;
             _6604 = *(&mut *((*(_6603 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6605 = *(&mut _4893.field0 as *mut l_array_4_float);
-            *(&mut _3830 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6605;
+            *(&mut _3830 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6605;
             _3831 = _6604;
             _6606 = memcpy(
                 &mut _3832 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -24895,48 +24403,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6612;
-            _6613 = *(&mut _3832 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6614 = *(&mut _3833 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3825 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6613;
-            *(&mut _3826 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6614;
-            _6615 = *(&mut _3825 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6616 = *(&mut _3826 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6613 = *(&mut _3832 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6614 = *(&mut _3833 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3825 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6613;
+            *(&mut _3826 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6614;
+            _6615 = *(&mut _3825 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6616 = *(&mut _3826 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6617 = *(&mut *((*(&mut _3825 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6618 = *(&mut *((*(&mut _3826 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6619 = *(&mut *((*(&mut _3825 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6620 = *(&mut *((*(&mut _3826 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6621 = *(&mut *((*(&mut _3825 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6622 = *(&mut *((*(&mut _3826 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3819 = &mut _3824 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3820 = llvm_fmul_f32(_6615, _6616);
             _3821 = llvm_fmul_f32(_6617, _6618);
@@ -24961,50 +24469,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6627;
             _6628 = _3824;
-            *(&mut _3829 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6628.field0;
+            *(&mut _3829 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6628.field0;
             _6629 = _3829;
             *(&mut _4892.field0 as *mut l_array_4_float) = _6629.field0;
             _6630 = *(&mut _4888.field0 as *mut l_array_4_float);
             _6631 = *(&mut _4892.field0 as *mut l_array_4_float);
-            *(&mut _4028 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6630;
-            *(&mut _4029 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6631;
-            _6632 = *(&mut _4028 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6633 = *(&mut _4029 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4028 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6630;
+            *(&mut _4029 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6631;
+            _6632 = *(&mut _4028 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6633 = *(&mut _4029 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6634 = *(&mut *((*(&mut _4028 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6635 = *(&mut *((*(&mut _4029 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6636 = *(&mut *((*(&mut _4028 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6637 = *(&mut *((*(&mut _4029 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6638 = *(&mut *((*(&mut _4028 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6639 = *(&mut *((*(&mut _4029 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4022 = &mut _4027 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4023 = llvm_fadd_f32(_6632, _6633);
             _4024 = llvm_fadd_f32(_6634, _6635);
@@ -25042,44 +24551,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6648 = *(&mut _4898.field0 as *mut l_array_4_float);
             _6649 = *(&mut _4899.field0 as *mut l_array_4_float);
-            *(&mut _4572 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6648;
-            *(&mut _4573 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6649;
-            _6650 = *(&mut _4572 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6651 = *(&mut _4573 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4572 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6648;
+            *(&mut _4573 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6649;
+            _6650 = *(&mut _4572 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6651 = *(&mut _4573 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6652 = *(&mut *((*(&mut _4572 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6653 = *(&mut *((*(&mut _4573 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6654 = *(&mut *((*(&mut _4572 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6655 = *(&mut *((*(&mut _4573 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6656 = *(&mut *((*(&mut _4572 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6657 = *(&mut *((*(&mut _4573 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4335 = &mut _4571 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4336 = llvm_fmul_f32(_6650, _6651);
             _4337 = llvm_fmul_f32(_6652, _6653);
@@ -25109,10 +24620,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _6664 = _4213;
             _6665 = *(&mut *((*(_6664 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6666 = *(&mut _4897.field0 as *mut l_array_4_float);
-            *(&mut _3845 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6666;
+            *(&mut _3845 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6666;
             _3846 = _6665;
             _6667 = memcpy(
                 &mut _3847 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -25140,48 +24651,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6673;
-            _6674 = *(&mut _3847 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6675 = *(&mut _3848 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3840 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6674;
-            *(&mut _3841 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6675;
-            _6676 = *(&mut _3840 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6677 = *(&mut _3841 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6674 = *(&mut _3847 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6675 = *(&mut _3848 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3840 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6674;
+            *(&mut _3841 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6675;
+            _6676 = *(&mut _3840 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6677 = *(&mut _3841 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6678 = *(&mut *((*(&mut _3840 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6679 = *(&mut *((*(&mut _3841 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6680 = *(&mut *((*(&mut _3840 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6681 = *(&mut *((*(&mut _3841 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6682 = *(&mut *((*(&mut _3840 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6683 = *(&mut *((*(&mut _3841 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3834 = &mut _3839 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3835 = llvm_fmul_f32(_6676, _6677);
             _3836 = llvm_fmul_f32(_6678, _6679);
@@ -25206,50 +24717,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6688;
             _6689 = _3839;
-            *(&mut _3844 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6689.field0;
+            *(&mut _3844 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6689.field0;
             _6690 = _3844;
             *(&mut _4896.field0 as *mut l_array_4_float) = _6690.field0;
             _6691 = *(&mut _4887.field0 as *mut l_array_4_float);
             _6692 = *(&mut _4896.field0 as *mut l_array_4_float);
-            *(&mut _4036 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6691;
-            *(&mut _4037 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6692;
-            _6693 = *(&mut _4036 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6694 = *(&mut _4037 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4036 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6691;
+            *(&mut _4037 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6692;
+            _6693 = *(&mut _4036 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6694 = *(&mut _4037 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6695 = *(&mut *((*(&mut _4036 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6696 = *(&mut *((*(&mut _4037 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6697 = *(&mut *((*(&mut _4036 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6698 = *(&mut *((*(&mut _4037 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6699 = *(&mut *((*(&mut _4036 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6700 = *(&mut *((*(&mut _4037 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4030 = &mut _4035 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4031 = llvm_fadd_f32(_6693, _6694);
             _4032 = llvm_fadd_f32(_6695, _6696);
@@ -25291,13 +24803,9 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 16 as libc::c_int as uint64_t,
             );
             _6710 = *(&mut _4900.field0 as *mut l_array_4_float);
-            _6711 = (*(&mut _4901.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_22))
-                .data;
-            *(&mut _4142 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6710;
-            *(&mut _4143 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _6711;
+            _6711 = (*(&mut _4901.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_22)).data;
+            *(&mut _4142 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6710;
+            *(&mut _4143 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _6711;
             _4144 = &mut _4734 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4135 = &mut _4137 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4136 = 0 as libc::c_int as libc::c_float;
@@ -25320,8 +24828,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6716;
             _6717 = _4137;
-            *(&mut _4146 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6717.field0;
+            *(&mut _4146 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6717.field0;
             _6718 = memcpy(
                 &mut _4147 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4142 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -25332,26 +24839,18 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4143 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _6720 = *(&mut _4146 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6721 = *(&mut _4147 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6722 = *(&mut _4148 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            *(&mut _4139 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6720;
-            *(&mut _4140 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6721;
-            *(&mut _4141 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _6722;
+            _6720 = *(&mut _4146 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6721 = *(&mut _4147 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6722 = *(&mut _4148 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            *(&mut _4139 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6720;
+            *(&mut _4140 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6721;
+            *(&mut _4141 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _6722;
             _6723 = *(&mut _4141 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
             if _6723 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
-                _6724 = *(&mut _4140 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _6724 = *(&mut _4140 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _6726__PHI_TEMPORARY = _6724;
             } else {
-                _6725 = *(&mut _4139 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _6725 = *(&mut _4139 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _6726__PHI_TEMPORARY = _6725;
             }
             _6726 = _6726__PHI_TEMPORARY;
@@ -25359,20 +24858,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _6727 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _6728 = *(&mut *((*(&mut _4140 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6730__PHI_TEMPORARY = _6728;
             } else {
                 _6729 = *(&mut *((*(&mut _4139 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6730__PHI_TEMPORARY = _6729;
             }
             _6730 = _6730__PHI_TEMPORARY;
@@ -25380,20 +24882,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _6731 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _6732 = *(&mut *((*(&mut _4140 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6734__PHI_TEMPORARY = _6732;
             } else {
                 _6733 = *(&mut *((*(&mut _4139 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6734__PHI_TEMPORARY = _6733;
             }
             _6734 = _6734__PHI_TEMPORARY;
@@ -25401,20 +24906,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _6735 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _6736 = *(&mut *((*(&mut _4140 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6738__PHI_TEMPORARY = _6736;
             } else {
                 _6737 = *(&mut *((*(&mut _4139 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _6738__PHI_TEMPORARY = _6737;
             }
             _6738 = _6738__PHI_TEMPORARY;
@@ -25442,8 +24950,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6743;
             _6744 = _4138;
-            *(&mut _4145 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6744.field0;
+            *(&mut _4145 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6744.field0;
             _6745 = memcpy(
                 &mut _4142 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4145 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -25455,10 +24962,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4142 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _6748 = *(&mut _4149 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3664 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6748;
+            _6748 = *(&mut _4149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3664 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6748;
             _3665 = _6746;
             _6749 = _3665;
             _6750 = memcpy(
@@ -25471,48 +24976,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _3664 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _6752 = *(&mut _3667 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6753 = *(&mut _3668 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3662 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6752;
-            *(&mut _3663 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6753;
-            _6754 = *(&mut _3662 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6755 = *(&mut _3663 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6752 = *(&mut _3667 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6753 = *(&mut _3668 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3662 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6752;
+            *(&mut _3663 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6753;
+            _6754 = *(&mut _3662 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6755 = *(&mut _3663 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6756 = *(&mut *((*(&mut _3662 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6757 = *(&mut *((*(&mut _3663 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6758 = *(&mut *((*(&mut _3662 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6759 = *(&mut *((*(&mut _3663 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6760 = *(&mut *((*(&mut _3662 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6761 = *(&mut *((*(&mut _3663 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3656 = &mut _3661 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3657 = llvm_fadd_f32(_6754, _6755);
             _3658 = llvm_fadd_f32(_6756, _6757);
@@ -25537,8 +25042,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6766;
             _6767 = _3661;
-            *(&mut _3666 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6767.field0;
+            *(&mut _3666 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6767.field0;
             _6768 = _3665;
             _6769 = memcpy(
                 _6768,
@@ -25557,44 +25061,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6772 = *(&mut _4905.field0 as *mut l_array_4_float);
             _6773 = *(&mut _4906.field0 as *mut l_array_4_float);
-            *(&mut _4575 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6772;
-            *(&mut _4576 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6773;
-            _6774 = *(&mut _4575 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6775 = *(&mut _4576 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4575 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6772;
+            *(&mut _4576 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6773;
+            _6774 = *(&mut _4575 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6775 = *(&mut _4576 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6776 = *(&mut *((*(&mut _4575 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6777 = *(&mut *((*(&mut _4576 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6778 = *(&mut *((*(&mut _4575 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6779 = *(&mut *((*(&mut _4576 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6780 = *(&mut *((*(&mut _4575 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6781 = *(&mut *((*(&mut _4576 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4330 = &mut _4574 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4331 = llvm_fmul_f32(_6774, _6775);
             _4332 = llvm_fmul_f32(_6776, _6777);
@@ -25632,44 +25138,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6790 = *(&mut _4908.field0 as *mut l_array_4_float);
             _6791 = *(&mut _4909.field0 as *mut l_array_4_float);
-            *(&mut _4578 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6790;
-            *(&mut _4579 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6791;
-            _6792 = *(&mut _4578 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6793 = *(&mut _4579 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4578 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6790;
+            *(&mut _4579 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6791;
+            _6792 = *(&mut _4578 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6793 = *(&mut _4579 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6794 = *(&mut *((*(&mut _4578 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6795 = *(&mut *((*(&mut _4579 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6796 = *(&mut *((*(&mut _4578 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6797 = *(&mut *((*(&mut _4579 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6798 = *(&mut *((*(&mut _4578 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6799 = *(&mut *((*(&mut _4579 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4325 = &mut _4577 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4326 = llvm_fmul_f32(_6792, _6793);
             _4327 = llvm_fmul_f32(_6794, _6795);
@@ -25697,44 +25205,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4907.field0 as *mut l_array_4_float) = _6805.field0;
             _6806 = *(&mut _4904.field0 as *mut l_array_4_float);
             _6807 = *(&mut _4907.field0 as *mut l_array_4_float);
-            *(&mut _4044 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6806;
-            *(&mut _4045 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6807;
-            _6808 = *(&mut _4044 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6809 = *(&mut _4045 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4044 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6806;
+            *(&mut _4045 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6807;
+            _6808 = *(&mut _4044 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6809 = *(&mut _4045 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6810 = *(&mut *((*(&mut _4044 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6811 = *(&mut *((*(&mut _4045 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6812 = *(&mut *((*(&mut _4044 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6813 = *(&mut *((*(&mut _4045 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6814 = *(&mut *((*(&mut _4044 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6815 = *(&mut *((*(&mut _4045 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4038 = &mut _4043 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4039 = llvm_fadd_f32(_6808, _6809);
             _4040 = llvm_fadd_f32(_6810, _6811);
@@ -25772,44 +25282,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6824 = *(&mut _4911.field0 as *mut l_array_4_float);
             _6825 = *(&mut _4912.field0 as *mut l_array_4_float);
-            *(&mut _4581 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6824;
-            *(&mut _4582 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6825;
-            _6826 = *(&mut _4581 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6827 = *(&mut _4582 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4581 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6824;
+            *(&mut _4582 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6825;
+            _6826 = *(&mut _4581 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6827 = *(&mut _4582 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6828 = *(&mut *((*(&mut _4581 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6829 = *(&mut *((*(&mut _4582 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6830 = *(&mut *((*(&mut _4581 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6831 = *(&mut *((*(&mut _4582 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6832 = *(&mut *((*(&mut _4581 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6833 = *(&mut *((*(&mut _4582 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4320 = &mut _4580 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4321 = llvm_fmul_f32(_6826, _6827);
             _4322 = llvm_fmul_f32(_6828, _6829);
@@ -25837,44 +25349,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4910.field0 as *mut l_array_4_float) = _6839.field0;
             _6840 = *(&mut _4903.field0 as *mut l_array_4_float);
             _6841 = *(&mut _4910.field0 as *mut l_array_4_float);
-            *(&mut _4052 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6840;
-            *(&mut _4053 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6841;
-            _6842 = *(&mut _4052 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6843 = *(&mut _4053 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4052 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6840;
+            *(&mut _4053 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6841;
+            _6842 = *(&mut _4052 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6843 = *(&mut _4053 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6844 = *(&mut *((*(&mut _4052 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6845 = *(&mut *((*(&mut _4053 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6846 = *(&mut *((*(&mut _4052 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6847 = *(&mut *((*(&mut _4053 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6848 = *(&mut *((*(&mut _4052 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6849 = *(&mut *((*(&mut _4053 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4046 = &mut _4051 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4047 = llvm_fadd_f32(_6842, _6843);
             _4048 = llvm_fadd_f32(_6844, _6845);
@@ -25917,44 +25431,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6859 = *(&mut _4915.field0 as *mut l_array_4_float);
             _6860 = *(&mut _4916.field0 as *mut l_array_4_float);
-            *(&mut _4584 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6859;
-            *(&mut _4585 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6860;
-            _6861 = *(&mut _4584 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6862 = *(&mut _4585 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4584 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6859;
+            *(&mut _4585 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6860;
+            _6861 = *(&mut _4584 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6862 = *(&mut _4585 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6863 = *(&mut *((*(&mut _4584 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6864 = *(&mut *((*(&mut _4585 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6865 = *(&mut *((*(&mut _4584 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6866 = *(&mut *((*(&mut _4585 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6867 = *(&mut *((*(&mut _4584 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6868 = *(&mut *((*(&mut _4585 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4315 = &mut _4583 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4316 = llvm_fmul_f32(_6861, _6862);
             _4317 = llvm_fmul_f32(_6863, _6864);
@@ -25987,44 +25503,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6876 = *(&mut _4914.field0 as *mut l_array_4_float);
             _6877 = *(&mut _4917.field0 as *mut l_array_4_float);
-            *(&mut _4632 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6876;
-            *(&mut _4633 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6877;
-            _6878 = *(&mut _4632 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6879 = *(&mut _4633 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4632 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6876;
+            *(&mut _4633 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6877;
+            _6878 = *(&mut _4632 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6879 = *(&mut _4633 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6880 = *(&mut *((*(&mut _4632 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6881 = *(&mut *((*(&mut _4633 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6882 = *(&mut *((*(&mut _4632 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6883 = *(&mut *((*(&mut _4633 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6884 = *(&mut *((*(&mut _4632 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6885 = *(&mut *((*(&mut _4633 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4235 = &mut _4631 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4236 = llvm_fsub_f32(_6878, _6879);
             _4237 = llvm_fsub_f32(_6880, _6881);
@@ -26067,44 +25585,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6895 = *(&mut _4920.field0 as *mut l_array_4_float);
             _6896 = *(&mut _4921.field0 as *mut l_array_4_float);
-            *(&mut _4587 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6895;
-            *(&mut _4588 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6896;
-            _6897 = *(&mut _4587 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6898 = *(&mut _4588 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4587 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6895;
+            *(&mut _4588 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6896;
+            _6897 = *(&mut _4587 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6898 = *(&mut _4588 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6899 = *(&mut *((*(&mut _4587 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6900 = *(&mut *((*(&mut _4588 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6901 = *(&mut *((*(&mut _4587 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6902 = *(&mut *((*(&mut _4588 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6903 = *(&mut *((*(&mut _4587 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6904 = *(&mut *((*(&mut _4588 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4310 = &mut _4586 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4311 = llvm_fmul_f32(_6897, _6898);
             _4312 = llvm_fmul_f32(_6899, _6900);
@@ -26137,44 +25657,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6912 = *(&mut _4919.field0 as *mut l_array_4_float);
             _6913 = *(&mut _4922.field0 as *mut l_array_4_float);
-            *(&mut _4635 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6912;
-            *(&mut _4636 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6913;
-            _6914 = *(&mut _4635 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6915 = *(&mut _4636 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4635 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6912;
+            *(&mut _4636 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6913;
+            _6914 = *(&mut _4635 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6915 = *(&mut _4636 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6916 = *(&mut *((*(&mut _4635 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6917 = *(&mut *((*(&mut _4636 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6918 = *(&mut *((*(&mut _4635 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6919 = *(&mut *((*(&mut _4636 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6920 = *(&mut *((*(&mut _4635 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6921 = *(&mut *((*(&mut _4636 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4230 = &mut _4634 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4231 = llvm_fsub_f32(_6914, _6915);
             _4232 = llvm_fsub_f32(_6916, _6917);
@@ -26217,44 +25739,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6931 = *(&mut _4925.field0 as *mut l_array_4_float);
             _6932 = *(&mut _4926.field0 as *mut l_array_4_float);
-            *(&mut _4590 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6931;
-            *(&mut _4591 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6932;
-            _6933 = *(&mut _4590 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6934 = *(&mut _4591 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4590 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6931;
+            *(&mut _4591 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6932;
+            _6933 = *(&mut _4590 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6934 = *(&mut _4591 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6935 = *(&mut *((*(&mut _4590 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6936 = *(&mut *((*(&mut _4591 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6937 = *(&mut *((*(&mut _4590 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6938 = *(&mut *((*(&mut _4591 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6939 = *(&mut *((*(&mut _4590 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6940 = *(&mut *((*(&mut _4591 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4305 = &mut _4589 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4306 = llvm_fmul_f32(_6933, _6934);
             _4307 = llvm_fmul_f32(_6935, _6936);
@@ -26287,44 +25811,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6948 = *(&mut _4924.field0 as *mut l_array_4_float);
             _6949 = *(&mut _4927.field0 as *mut l_array_4_float);
-            *(&mut _4638 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6948;
-            *(&mut _4639 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6949;
-            _6950 = *(&mut _4638 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6951 = *(&mut _4639 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4638 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6948;
+            *(&mut _4639 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6949;
+            _6950 = *(&mut _4638 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6951 = *(&mut _4639 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6952 = *(&mut *((*(&mut _4638 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6953 = *(&mut *((*(&mut _4639 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6954 = *(&mut *((*(&mut _4638 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6955 = *(&mut *((*(&mut _4639 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6956 = *(&mut *((*(&mut _4638 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6957 = *(&mut *((*(&mut _4639 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4225 = &mut _4637 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4226 = llvm_fsub_f32(_6950, _6951);
             _4227 = llvm_fsub_f32(_6952, _6953);
@@ -26367,44 +25893,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _6967 = *(&mut _4932.field0 as *mut l_array_4_float);
             _6968 = *(&mut _4933.field0 as *mut l_array_4_float);
-            *(&mut _4593 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6967;
-            *(&mut _4594 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6968;
-            _6969 = *(&mut _4593 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6970 = *(&mut _4594 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4593 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6967;
+            *(&mut _4594 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6968;
+            _6969 = *(&mut _4593 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6970 = *(&mut _4594 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6971 = *(&mut *((*(&mut _4593 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6972 = *(&mut *((*(&mut _4594 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6973 = *(&mut *((*(&mut _4593 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6974 = *(&mut *((*(&mut _4594 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6975 = *(&mut *((*(&mut _4593 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6976 = *(&mut *((*(&mut _4594 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4300 = &mut _4592 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4301 = llvm_fmul_f32(_6969, _6970);
             _4302 = llvm_fmul_f32(_6971, _6972);
@@ -26434,8 +25962,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _6983 = _4489;
             _6984 = *(_6983 as *mut libc::c_float);
             _6985 = *(&mut _4931.field0 as *mut l_array_4_float);
-            *(&mut _3860 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6985;
+            *(&mut _3860 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6985;
             _3861 = _6984;
             _6986 = memcpy(
                 &mut _3862 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -26463,48 +25990,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _6992;
-            _6993 = *(&mut _3862 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _6994 = *(&mut _3863 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3855 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6993;
-            *(&mut _3856 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _6994;
-            _6995 = *(&mut _3855 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _6996 = *(&mut _3856 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _6993 = *(&mut _3862 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _6994 = *(&mut _3863 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3855 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6993;
+            *(&mut _3856 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6994;
+            _6995 = *(&mut _3855 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _6996 = *(&mut _3856 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _6997 = *(&mut *((*(&mut _3855 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6998 = *(&mut *((*(&mut _3856 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _6999 = *(&mut *((*(&mut _3855 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7000 = *(&mut *((*(&mut _3856 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7001 = *(&mut *((*(&mut _3855 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7002 = *(&mut *((*(&mut _3856 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3849 = &mut _3854 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3850 = llvm_fmul_f32(_6995, _6996);
             _3851 = llvm_fmul_f32(_6997, _6998);
@@ -26529,8 +26056,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7007;
             _7008 = _3854;
-            *(&mut _3859 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7008.field0;
+            *(&mut _3859 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7008.field0;
             _7009 = _3859;
             *(&mut _4930.field0 as *mut l_array_4_float) = _7009.field0;
             _7010 = memcpy(
@@ -26545,44 +26071,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _7012 = *(&mut _4936.field0 as *mut l_array_4_float);
             _7013 = *(&mut _4937.field0 as *mut l_array_4_float);
-            *(&mut _4596 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7012;
-            *(&mut _4597 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7013;
-            _7014 = *(&mut _4596 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _7015 = *(&mut _4597 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4596 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7012;
+            *(&mut _4597 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7013;
+            _7014 = *(&mut _4596 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _7015 = *(&mut _4597 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _7016 = *(&mut *((*(&mut _4596 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7017 = *(&mut *((*(&mut _4597 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7018 = *(&mut *((*(&mut _4596 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7019 = *(&mut *((*(&mut _4597 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7020 = *(&mut *((*(&mut _4596 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7021 = *(&mut *((*(&mut _4597 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4295 = &mut _4595 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4296 = llvm_fmul_f32(_7014, _7015);
             _4297 = llvm_fmul_f32(_7016, _7017);
@@ -26612,10 +26140,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _7028 = _4224;
             _7029 = *(&mut *((*(_7028 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7030 = *(&mut _4935.field0 as *mut l_array_4_float);
-            *(&mut _3875 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7030;
+            *(&mut _3875 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7030;
             _3876 = _7029;
             _7031 = memcpy(
                 &mut _3877 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -26643,48 +26171,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7037;
-            _7038 = *(&mut _3877 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _7039 = *(&mut _3878 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3870 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7038;
-            *(&mut _3871 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7039;
-            _7040 = *(&mut _3870 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _7041 = *(&mut _3871 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _7038 = *(&mut _3877 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _7039 = *(&mut _3878 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3870 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7038;
+            *(&mut _3871 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7039;
+            _7040 = *(&mut _3870 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _7041 = *(&mut _3871 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _7042 = *(&mut *((*(&mut _3870 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7043 = *(&mut *((*(&mut _3871 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7044 = *(&mut *((*(&mut _3870 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7045 = *(&mut *((*(&mut _3871 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7046 = *(&mut *((*(&mut _3870 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7047 = *(&mut *((*(&mut _3871 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3864 = &mut _3869 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3865 = llvm_fmul_f32(_7040, _7041);
             _3866 = llvm_fmul_f32(_7042, _7043);
@@ -26709,50 +26237,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7052;
             _7053 = _3869;
-            *(&mut _3874 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7053.field0;
+            *(&mut _3874 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7053.field0;
             _7054 = _3874;
             *(&mut _4934.field0 as *mut l_array_4_float) = _7054.field0;
             _7055 = *(&mut _4930.field0 as *mut l_array_4_float);
             _7056 = *(&mut _4934.field0 as *mut l_array_4_float);
-            *(&mut _4060 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7055;
-            *(&mut _4061 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7056;
-            _7057 = *(&mut _4060 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _7058 = *(&mut _4061 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4060 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7055;
+            *(&mut _4061 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7056;
+            _7057 = *(&mut _4060 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _7058 = *(&mut _4061 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _7059 = *(&mut *((*(&mut _4060 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7060 = *(&mut *((*(&mut _4061 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7061 = *(&mut *((*(&mut _4060 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7062 = *(&mut *((*(&mut _4061 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7063 = *(&mut *((*(&mut _4060 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7064 = *(&mut *((*(&mut _4061 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4054 = &mut _4059 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4055 = llvm_fadd_f32(_7057, _7058);
             _4056 = llvm_fadd_f32(_7059, _7060);
@@ -26790,44 +26319,46 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _7073 = *(&mut _4940.field0 as *mut l_array_4_float);
             _7074 = *(&mut _4941.field0 as *mut l_array_4_float);
-            *(&mut _4599 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7073;
-            *(&mut _4600 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7074;
-            _7075 = *(&mut _4599 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _7076 = *(&mut _4600 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4599 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7073;
+            *(&mut _4600 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7074;
+            _7075 = *(&mut _4599 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _7076 = *(&mut _4600 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _7077 = *(&mut *((*(&mut _4599 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7078 = *(&mut *((*(&mut _4600 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7079 = *(&mut *((*(&mut _4599 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7080 = *(&mut *((*(&mut _4600 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7081 = *(&mut *((*(&mut _4599 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7082 = *(&mut *((*(&mut _4600 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4290 = &mut _4598 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4291 = llvm_fmul_f32(_7075, _7076);
             _4292 = llvm_fmul_f32(_7077, _7078);
@@ -26857,10 +26388,10 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _7089 = _4214;
             _7090 = *(&mut *((*(_7089 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7091 = *(&mut _4939.field0 as *mut l_array_4_float);
-            *(&mut _3890 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7091;
+            *(&mut _3890 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7091;
             _3891 = _7090;
             _7092 = memcpy(
                 &mut _3892 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -26888,48 +26419,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .as_mut_ptr()
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7098;
-            _7099 = *(&mut _3892 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _7100 = *(&mut _3893 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3885 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7099;
-            *(&mut _3886 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7100;
-            _7101 = *(&mut _3885 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _7102 = *(&mut _3886 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _7099 = *(&mut _3892 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _7100 = *(&mut _3893 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3885 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7099;
+            *(&mut _3886 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7100;
+            _7101 = *(&mut _3885 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _7102 = *(&mut _3886 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _7103 = *(&mut *((*(&mut _3885 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7104 = *(&mut *((*(&mut _3886 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7105 = *(&mut *((*(&mut _3885 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7106 = *(&mut *((*(&mut _3886 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7107 = *(&mut *((*(&mut _3885 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7108 = *(&mut *((*(&mut _3886 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3879 = &mut _3884 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3880 = llvm_fmul_f32(_7101, _7102);
             _3881 = llvm_fmul_f32(_7103, _7104);
@@ -26954,50 +26485,51 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7113;
             _7114 = _3884;
-            *(&mut _3889 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7114.field0;
+            *(&mut _3889 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7114.field0;
             _7115 = _3889;
             *(&mut _4938.field0 as *mut l_array_4_float) = _7115.field0;
             _7116 = *(&mut _4929.field0 as *mut l_array_4_float);
             _7117 = *(&mut _4938.field0 as *mut l_array_4_float);
-            *(&mut _4068 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7116;
-            *(&mut _4069 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7117;
-            _7118 = *(&mut _4068 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _7119 = *(&mut _4069 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            *(&mut _4068 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7116;
+            *(&mut _4069 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7117;
+            _7118 = *(&mut _4068 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _7119 = *(&mut _4069 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _7120 = *(&mut *((*(&mut _4068 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7121 = *(&mut *((*(&mut _4069 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7122 = *(&mut *((*(&mut _4068 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7123 = *(&mut *((*(&mut _4069 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7124 = *(&mut *((*(&mut _4068 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7125 = *(&mut *((*(&mut _4069 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _4062 = &mut _4067 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4063 = llvm_fadd_f32(_7118, _7119);
             _4064 = llvm_fadd_f32(_7120, _7121);
@@ -27039,13 +26571,9 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 16 as libc::c_int as uint64_t,
             );
             _7135 = *(&mut _4942.field0 as *mut l_array_4_float);
-            _7136 = (*(&mut _4943.field0 as *mut l_array_4_uint32_t
-                as *mut C2RustUnnamed_21))
-                .data;
-            *(&mut _4162 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7135;
-            *(&mut _4163 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _7136;
+            _7136 = (*(&mut _4943.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_21)).data;
+            *(&mut _4162 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7135;
+            *(&mut _4163 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _7136;
             _4164 = &mut _4741 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4155 = &mut _4157 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _4156 = 0 as libc::c_int as libc::c_float;
@@ -27068,8 +26596,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7141;
             _7142 = _4157;
-            *(&mut _4166 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7142.field0;
+            *(&mut _4166 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7142.field0;
             _7143 = memcpy(
                 &mut _4167 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4162 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -27080,26 +26607,18 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4163 as *mut l_struct_struct_OC_vmask4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _7145 = *(&mut _4166 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _7146 = *(&mut _4167 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _7147 = *(&mut _4168 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t);
-            *(&mut _4159 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7145;
-            *(&mut _4160 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7146;
-            *(&mut _4161 as *mut l_struct_struct_OC_vmask4
-                as *mut l_array_2_uint64_t) = _7147;
+            _7145 = *(&mut _4166 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _7146 = *(&mut _4167 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _7147 = *(&mut _4168 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t);
+            *(&mut _4159 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7145;
+            *(&mut _4160 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7146;
+            *(&mut _4161 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _7147;
             _7148 = *(&mut _4161 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
             if _7148 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
-                _7149 = *(&mut _4160 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _7149 = *(&mut _4160 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _7151__PHI_TEMPORARY = _7149;
             } else {
-                _7150 = *(&mut _4159 as *mut l_struct_struct_OC_vfloat4
-                    as *mut libc::c_float);
+                _7150 = *(&mut _4159 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
                 _7151__PHI_TEMPORARY = _7150;
             }
             _7151 = _7151__PHI_TEMPORARY;
@@ -27107,20 +26626,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _7152 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _7153 = *(&mut *((*(&mut _4160 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _7155__PHI_TEMPORARY = _7153;
             } else {
                 _7154 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(1 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _7155__PHI_TEMPORARY = _7154;
             }
             _7155 = _7155__PHI_TEMPORARY;
@@ -27128,20 +26650,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _7156 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _7157 = *(&mut *((*(&mut _4160 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _7159__PHI_TEMPORARY = _7157;
             } else {
                 _7158 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(2 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _7159__PHI_TEMPORARY = _7158;
             }
             _7159 = _7159__PHI_TEMPORARY;
@@ -27149,20 +26674,23 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 as *mut l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut uint32_t);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut uint32_t);
             if _7160 & 2147483648 as libc::c_uint != 0 as libc::c_uint {
                 _7161 = *(&mut *((*(&mut _4160 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _7163__PHI_TEMPORARY = _7161;
             } else {
                 _7162 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                    .offset(3 as libc::c_int as int64_t as isize)
+                    as *mut libc::c_float);
                 _7163__PHI_TEMPORARY = _7162;
             }
             _7163 = _7163__PHI_TEMPORARY;
@@ -27190,8 +26718,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7168;
             _7169 = _4158;
-            *(&mut _4165 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7169.field0;
+            *(&mut _4165 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7169.field0;
             _7170 = memcpy(
                 &mut _4162 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 &mut _4165 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -27203,10 +26730,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _4162 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _7173 = *(&mut _4169 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3651 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7173;
+            _7173 = *(&mut _4169 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3651 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7173;
             _3652 = _7171;
             _7174 = _3652;
             _7175 = memcpy(
@@ -27219,48 +26744,48 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 &mut _3651 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
                 16 as libc::c_int as uint64_t,
             );
-            _7177 = *(&mut _3654 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            _7178 = *(&mut _3655 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float);
-            *(&mut _3649 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7177;
-            *(&mut _3650 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7178;
-            _7179 = *(&mut _3649 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
-            _7180 = *(&mut _3650 as *mut l_struct_struct_OC_vfloat4
-                as *mut libc::c_float);
+            _7177 = *(&mut _3654 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            _7178 = *(&mut _3655 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
+            *(&mut _3649 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7177;
+            *(&mut _3650 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7178;
+            _7179 = *(&mut _3649 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
+            _7180 = *(&mut _3650 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
             _7181 = *(&mut *((*(&mut _3649 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7182 = *(&mut *((*(&mut _3650 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(1 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7183 = *(&mut *((*(&mut _3649 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7184 = *(&mut *((*(&mut _3650 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(2 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7185 = *(&mut *((*(&mut _3649 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _7186 = *(&mut *((*(&mut _3650 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
-                .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
+                .offset(3 as libc::c_int as int64_t as isize)
+                as *mut libc::c_float);
             _3643 = &mut _3648 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
             _3644 = llvm_fadd_f32(_7179, _7180);
             _3645 = llvm_fadd_f32(_7181, _7182);
@@ -27285,8 +26810,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
                 .offset(3 as libc::c_int as int64_t as isize)
                 as *mut libc::c_float) = _7191;
             _7192 = _3648;
-            *(&mut _3653 as *mut l_struct_struct_OC_vfloat4
-                as *mut l_array_4_float) = _7192.field0;
+            *(&mut _3653 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7192.field0;
             _7193 = _3652;
             _7194 = memcpy(
                 _7193,
@@ -27304,18 +26828,15 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _7197 = *(&mut _4944.field0 as *mut l_array_4_float);
         *(&mut _4475 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7197;
         _7198 = *(&mut _4475 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-        _7199 = *(&mut *((*(&mut _4475 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7199 = *(&mut *((*(&mut _4475 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7200 = *(&mut *((*(&mut _4475 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7200 = *(&mut *((*(&mut _4475 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7201 = *(&mut *((*(&mut _4475 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7201 = *(&mut *((*(&mut _4475 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
@@ -27325,8 +26846,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _7204 = _4717;
-        *(_7204
-            as *mut libc::c_float) = llvm_fmul_f32(
+        *(_7204 as *mut libc::c_float) = llvm_fmul_f32(
             llvm_fadd_f32(llvm_fadd_f32(_7198, _7199), llvm_fadd_f32(_7200, _7201)),
             _7203,
         );
@@ -27338,27 +26858,21 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _7206 = *(&mut _4945.field0 as *mut l_array_4_float);
         *(&mut _4476 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7206;
         _7207 = *(&mut _4476 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-        _7208 = *(&mut *((*(&mut _4476 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7208 = *(&mut *((*(&mut _4476 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7209 = *(&mut *((*(&mut _4476 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7209 = *(&mut *((*(&mut _4476 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7210 = *(&mut *((*(&mut _4476 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7210 = *(&mut *((*(&mut _4476 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _7211 = _4710;
-        *(_7211
-            as *mut libc::c_float) = llvm_fadd_f32(
-            llvm_fadd_f32(_7207, _7208),
-            llvm_fadd_f32(_7209, _7210),
-        );
+        *(_7211 as *mut libc::c_float) =
+            llvm_fadd_f32(llvm_fadd_f32(_7207, _7208), llvm_fadd_f32(_7209, _7210));
         _7212 = memcpy(
             &mut _4946 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
             &mut _4730 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -27367,27 +26881,21 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _7213 = *(&mut _4946.field0 as *mut l_array_4_float);
         *(&mut _4477 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7213;
         _7214 = *(&mut _4477 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-        _7215 = *(&mut *((*(&mut _4477 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7215 = *(&mut *((*(&mut _4477 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7216 = *(&mut *((*(&mut _4477 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7216 = *(&mut *((*(&mut _4477 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7217 = *(&mut *((*(&mut _4477 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7217 = *(&mut *((*(&mut _4477 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _7218 = _4712;
-        *(_7218
-            as *mut libc::c_float) = llvm_fadd_f32(
-            llvm_fadd_f32(_7214, _7215),
-            llvm_fadd_f32(_7216, _7217),
-        );
+        *(_7218 as *mut libc::c_float) =
+            llvm_fadd_f32(llvm_fadd_f32(_7214, _7215), llvm_fadd_f32(_7216, _7217));
         _7219 = memcpy(
             &mut _4947 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
             &mut _4734 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -27396,27 +26904,21 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _7220 = *(&mut _4947.field0 as *mut l_array_4_float);
         *(&mut _4478 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7220;
         _7221 = *(&mut _4478 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-        _7222 = *(&mut *((*(&mut _4478 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7222 = *(&mut *((*(&mut _4478 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7223 = *(&mut *((*(&mut _4478 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7223 = *(&mut *((*(&mut _4478 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7224 = *(&mut *((*(&mut _4478 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7224 = *(&mut *((*(&mut _4478 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _7225 = _4714;
-        *(_7225
-            as *mut libc::c_float) = llvm_fadd_f32(
-            llvm_fadd_f32(_7221, _7222),
-            llvm_fadd_f32(_7223, _7224),
-        );
+        *(_7225 as *mut libc::c_float) =
+            llvm_fadd_f32(llvm_fadd_f32(_7221, _7222), llvm_fadd_f32(_7223, _7224));
         _7226 = memcpy(
             &mut _4948 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
             &mut _4741 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void,
@@ -27425,27 +26927,21 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _7227 = *(&mut _4948.field0 as *mut l_array_4_float);
         *(&mut _4479 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7227;
         _7228 = *(&mut _4479 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_float);
-        _7229 = *(&mut *((*(&mut _4479 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7229 = *(&mut *((*(&mut _4479 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7230 = *(&mut *((*(&mut _4479 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7230 = *(&mut *((*(&mut _4479 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as libc::c_int as int64_t as isize) as *mut libc::c_float);
-        _7231 = *(&mut *((*(&mut _4479 as *mut l_struct_struct_OC_vfloat4
-            as *mut l_array_4_float))
+        _7231 = *(&mut *((*(&mut _4479 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _7232 = _4716;
-        *(_7232
-            as *mut libc::c_float) = llvm_fadd_f32(
-            llvm_fadd_f32(_7228, _7229),
-            llvm_fadd_f32(_7230, _7231),
-        );
+        *(_7232 as *mut libc::c_float) =
+            llvm_fadd_f32(llvm_fadd_f32(_7228, _7229), llvm_fadd_f32(_7230, _7231));
         return;
     } else {
         __assert_fail(
@@ -27459,9 +26955,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
 }
 #[no_mangle]
 #[inline(never)]
-pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
-    mut _7300: *mut libc::c_void,
-) -> bool_0 {
+pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(mut _7300: *mut libc::c_void) -> bool_0 {
     let mut _7301: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _7302: *mut libc::c_void = 0 as *mut libc::c_void;
     let mut _7303: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -27501,17 +26995,14 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
             .as_mut_ptr()
             .offset(3 as libc::c_int as int64_t as isize) as *mut libc::c_float);
         _7313 = _7304;
-        _7314__PHI_TEMPORARY = llvm_fcmp_oeq(
-            _7312 as libc::c_double,
-            _7313 as libc::c_double,
-        ) as bool_0;
+        _7314__PHI_TEMPORARY =
+            llvm_fcmp_oeq(_7312 as libc::c_double, _7313 as libc::c_double) as bool_0;
     } else {
         _7314__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
     }
     _7314 = _7314__PHI_TEMPORARY;
     _7305 = _7314;
-    _7315 = *(&mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field10
-        as *mut uint8_t);
+    _7315 = *(&mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
     if _7315 as libc::c_uint & 1 as libc::c_uint != 0 {
         _7316 = _7305;
         _7317 = (_7316 as libc::c_uint & 1 as libc::c_uint) as bool_0;
@@ -27549,11 +27040,11 @@ pub unsafe extern "C" fn _ZNK11image_block17get_default_alphaEv(
         .array)
         .as_mut_ptr()
         .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t);
-    _7331 = (_7330 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int)
-        as libc::c_int as bool_0 as uint64_t;
+    _7331 = (_7330 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int) as libc::c_int
+        as bool_0 as uint64_t;
     return llvm_select_f32(
-        (_7330 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int)
-            as libc::c_int as bool_0,
+        (_7330 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int) as libc::c_int
+            as bool_0,
         30720 as libc::c_int as libc::c_float,
         65535 as libc::c_int as libc::c_float,
     );
