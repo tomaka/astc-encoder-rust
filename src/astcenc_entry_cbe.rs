@@ -21455,8 +21455,8 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexEC2ERS0_(
     _5431 = _5429;
     _5432 = _5430;
     _5433 = _ZSt11__addressofISt5mutexEPT_RS1_(_5432);
-    let ref mut fresh21 = *(&mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
-        as *mut *mut libc::c_void);
+    let ref mut fresh21 = *(&raw mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock))
+        .field0 as *mut *mut libc::c_void);
     *fresh21 = _5433;
     *(&mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t) =
         0 as libc::c_int as uint8_t;
@@ -21530,7 +21530,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE4lockEv(mut _5456: *mut lib
     let mut _5461: *mut libc::c_void = 0 as *mut libc::c_void;
     _5457 = _5456;
     _5458 = _5457;
-    _5459 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+    _5459 = *(&raw mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
         as *mut *mut libc::c_void);
     if !_5459.is_null() {
         _5460 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
@@ -21538,7 +21538,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE4lockEv(mut _5456: *mut lib
         if _5460 as libc::c_uint & 1 as libc::c_uint != 0 {
             _ZSt20__throw_system_errori(35 as libc::c_int as uint32_t);
         } else {
-            _5461 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+            _5461 = *(&raw mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
                 as *mut *mut libc::c_void);
             _ZNSt5mutex4lockEv(_5461);
             *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
@@ -21655,10 +21655,10 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE6unlockEv(mut _5503: *mut l
     _5506 =
         *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t);
     if _5506 as libc::c_uint & 1 as libc::c_uint != 0 {
-        _5507 = *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+        _5507 = *(&raw mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
             as *mut *mut libc::c_void);
         if !_5507.is_null() {
-            _5508 = *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+            _5508 = *(&raw mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
                 as *mut *mut libc::c_void);
             _ZNSt5mutex6unlockEv(_5508);
             *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
