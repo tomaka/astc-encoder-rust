@@ -69,4 +69,19 @@ RUN echo "pub mod bindings;" >> lib.rs
 RUN echo "pub use bindings::*;" >> lib.rs
 
 # Do some more tweaks to the Rust code
+# Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
+RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
+# Remove some weird casting of 0 which causes some signed/unsigned types issues
 RUN cd src && for f in *.rs; do sed -i 's/0 as libc::c_int as uint32_t/0/' $f; done
+# Replace `libc::` with `core::ffi::` and remove `libc` altogether
+RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done
+# Remove all `#[no_mangle]` attributes
+RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
+# Each Rust module imports every other public symbol of every other module
+# This is done by adding `use crate::*;` at the head of each file, and `use src::foo::*;` in lib.rs for each module
+RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
+RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
+
+# Add some substitutes to C functions in `lib.rs`
+RUN echo "fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c); d }" >> lib.rs

@@ -906,7 +906,7 @@ pub unsafe extern "C" fn _Z22prepare_angular_tablesv() {
                 as *mut core::ffi::c_float) = _9;
             _12 = _2;
             _13 = _3;
-            _14 = cosf(llvm_fmul_f32(
+            _14 = <f32>::cos(llvm_fmul_f32(
                 llvm_fmul_f32(0.0997330993f64 as core::ffi::c_float, _12),
                 _13 as core::ffi::c_float,
             ));

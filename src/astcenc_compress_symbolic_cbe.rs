@@ -1,3 +1,4 @@
+use crate::*;
 extern "C" {
     static mut quant_and_xfer_tables:
         l_array_12_struct_AC_l_struct_struct_OC_quant_and_transfer_table;
@@ -79,15 +80,6 @@ extern "C" {
         _5684: *mut core::ffi::c_void,
         _5685: *mut core::ffi::c_void,
     ) -> uint32_t;
-    fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_(
-        _5686: *mut core::ffi::c_void,
-        _5687: *mut core::ffi::c_void,
-        _5688: *mut core::ffi::c_void,
-        _5689: *mut core::ffi::c_void,
-        _5690: *mut core::ffi::c_void,
-        _5691: *mut core::ffi::c_void,
-        _5692: *mut core::ffi::c_void,
-    );
     fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method(
         _5693: l_array_4_float,
         _5694: l_array_4_float,

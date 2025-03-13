@@ -5,7 +5,6 @@
 #![allow(non_upper_case_globals)]
 #![allow(unused_assignments)]
 #![allow(unused_mut)]
-#![no_std]
 
 pub mod src {
     pub mod astcenc_averages_and_directions_cbe;
@@ -33,3 +32,28 @@ pub mod src {
 } // mod src
 pub mod bindings;
 pub use bindings::*;
+
+
+
+use src::astcenc_averages_and_directions_cbe::*;
+use src::astcenc_block_sizes_cbe::*;
+use src::astcenc_color_quantize_cbe::*;
+use src::astcenc_color_unquantize_cbe::*;
+use src::astcenc_compress_symbolic_cbe::*;
+use src::astcenc_compute_variance_cbe::*;
+use src::astcenc_decompress_symbolic_cbe::*;
+use src::astcenc_diagnostic_trace_cbe::*;
+use src::astcenc_entry_cbe::*;
+use src::astcenc_find_best_partitioning_cbe::*;
+use src::astcenc_ideal_endpoints_and_weights_cbe::*;
+use src::astcenc_image_cbe::*;
+use src::astcenc_integer_sequence_cbe::*;
+use src::astcenc_mathlib_cbe::*;
+use src::astcenc_mathlib_softfloat_cbe::*;
+use src::astcenc_partition_tables_cbe::*;
+use src::astcenc_percentile_tables_cbe::*;
+use src::astcenc_pick_best_endpoint_format_cbe::*;
+use src::astcenc_quantization_cbe::*;
+use src::astcenc_symbolic_physical_cbe::*;
+use src::astcenc_weight_align_cbe::*;
+use src::astcenc_weight_quant_xfer_tables_cbe::*;
