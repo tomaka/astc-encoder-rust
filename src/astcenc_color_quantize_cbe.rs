@@ -24486,11 +24486,11 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                             _ZN4astcL11flt2int_rtnEf(llvm_fmul_f32(_6436, _6437));
                                         _6029 = _6438;
                                         _6439 = _6028;
-                                        _6440 = _6439;
+                                        _6440 = abs(_6439);
                                         _6441 = _6006;
                                         if !(_6440 as int32_t >= _6441 as int32_t) {
                                             _6442 = _6029;
-                                            _6443 = _6442;
+                                            _6443 = abs(_6442);
                                             _6444 = _6006;
                                             if !(_6443 as int32_t >= _6444 as int32_t) {
                                                 current_block = 6221287454088292563;

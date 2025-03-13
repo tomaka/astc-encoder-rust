@@ -303,11 +303,11 @@ pub struct l_array_7_struct_AC_l_struct_struct_OC_vint4 {
 pub struct l_array_7_float {
     pub array: [libc::c_float; 7],
 }
+pub type l_fptr_1 = unsafe extern "C" fn(*mut libc::c_void, uint32_t) -> l_struct_struct_OC_vfloat4;
 pub type l_fptr_3 =
     unsafe extern "C" fn(l_array_4_float, l_array_2_uint64_t) -> l_struct_struct_OC_vfloat4;
 pub type l_fptr_2 =
     unsafe extern "C" fn(l_array_4_float, *mut libc::c_void) -> l_struct_struct_OC_vfloat4;
-pub type l_fptr_1 = unsafe extern "C" fn(*mut libc::c_void, uint32_t) -> l_struct_struct_OC_vfloat4;
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct C2RustUnnamed {
@@ -11333,6 +11333,7 @@ unsafe extern "C" fn _ZN4astcL3minIjEET_S1_S1_(
     _3025 = _3025__PHI_TEMPORARY;
     return _3025;
 }
+#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _3029: *mut libc::c_void,

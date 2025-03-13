@@ -25689,6 +25689,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
         );
     };
 }
+#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _5957: *mut libc::c_void,

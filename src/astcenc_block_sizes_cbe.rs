@@ -1925,7 +1925,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                                                             {
                                                                 _413 = _320;
                                                                 _414 = _319;
-                                                                _415 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_414);
+                                                                _415 = _ZNK10block_mode21get_weight_quant_modeEv(_414);
                                                                 _ZN15decimation_mode14set_ref_2planeE12quant_method(
                                                                     _413,
                                                                     _415,
@@ -1933,7 +1933,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                                                             } else {
                                                                 _416 = _320;
                                                                 _417 = _319;
-                                                                _418 = super::astcenc_entry_cbe::_ZNK10block_mode21get_weight_quant_modeEv(_417);
+                                                                _418 = _ZNK10block_mode21get_weight_quant_modeEv(_417);
                                                                 _ZN15decimation_mode14set_ref_1planeE12quant_method(
                                                                     _416,
                                                                     _418,
@@ -6067,6 +6067,19 @@ pub unsafe extern "C" fn _ZN15decimation_mode14set_ref_2planeE12quant_method(
     _1432 = *(_1431 as *mut uint16_t);
     *(_1431 as *mut uint16_t) =
         (_1432 as uint32_t | ((1 as libc::c_int) << _1430) as uint16_t as uint32_t) as uint16_t;
+}
+#[no_mangle]
+#[inline(never)]
+pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
+    mut _1433: *mut libc::c_void,
+) -> uint32_t {
+    let mut _1434: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _1435: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _1436: uint8_t = 0;
+    _1434 = _1433;
+    _1435 = _1434;
+    _1436 = *(&mut (*(_1435 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
+    return _1436 as uint32_t;
 }
 #[no_mangle]
 #[inline(never)]
