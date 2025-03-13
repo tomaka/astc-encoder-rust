@@ -59,7 +59,7 @@ unsafe fn memcpy(
     s: *mut core::ffi::c_void,
     c: u64,
 ) -> *mut core::ffi::c_void {
-    core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c);
+    core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize);
     d
 }
 unsafe fn memset(
@@ -68,7 +68,7 @@ unsafe fn memset(
     c: u64,
 ) -> *mut core::ffi::c_void {
     assert!(ch <= 255);
-    core::ptr::write_bytes::<u8>(d.cast(), ch as u8, c);
+    core::ptr::write_bytes::<u8>(d.cast(), ch as u8, c as usize);
     d
 }
 fn abs(v: u32) -> u32 {
@@ -93,10 +93,34 @@ fn logf(v: f32) -> f32 {
     v.ln()
 }
 fn __assert_fail(
-    assertion: *mut core::ffi::c_void,
-    file: *mut core::ffi::c_void,
-    line: core::ffi::c_uint,
-    function: *mut core::ffi::c_void,
-) {
+    _assertion: *mut core::ffi::c_void,
+    _file: *mut core::ffi::c_void,
+    _line: core::ffi::c_uint,
+    _function: *mut core::ffi::c_void,
+) -> ! {
     panic!()
+}
+fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -> u8 {
+    let (res, carry) = (*a).overflowing_mul(*b);
+    out.write(res);
+    carry as u8
+}
+unsafe fn posix_memalign(
+    memptr: *mut *mut core::ffi::c_void,
+    alignment: u64,
+    size: u64,
+) -> core::ffi::c_int {
+    if size != 0 {
+        let ptr = std::alloc::alloc(std::alloc::Layout::from_size_align(size, alignment).unwrap());
+        memptr.write(ptr);
+    } else {
+        memptr.write(core::ptr::null_mut());
+    }
+    0
+}
+unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void {
+    std::alloc::alloc(std::alloc::Layout::from_size_align(size as usize, 8).unwrap()).cast()
+}
+unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void {
+    std::alloc::alloc(std::alloc::Layout::from_size_align(size as usize, 8).unwrap()).cast()
 }
