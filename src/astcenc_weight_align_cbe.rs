@@ -1054,7 +1054,7 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
                 as *mut l_struct_struct_OC_decimation_mode as *mut libc::c_void;
             _66 = _43;
             _67 = _35;
-            _68 = _ZNK15decimation_mode13is_ref_1planeE12quant_method(_66, _67);
+            _68 = super::astcenc_compress_symbolic_cbe::_ZNK15decimation_mode13is_ref_1planeE12quant_method(_66, _67);
             if _68 != 0 {
                 _69 = _33;
                 _70 = _42;
@@ -1256,31 +1256,6 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
                 as *const l_array_135_uint8_t as *mut libc::c_void,
         );
     };
-}
-#[no_mangle]
-#[inline(never)]
-pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_1planeE12quant_method(
-    mut _155: *mut libc::c_void,
-    mut _156: uint32_t,
-) -> bool_0 {
-    let mut _157: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _158: uint32_t = 0;
-    let mut _159: uint16_t = 0;
-    let mut _160: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _161: uint32_t = 0;
-    let mut _162: uint16_t = 0;
-    let mut _163: uint16_t = 0;
-    _157 = _155;
-    _158 = _156;
-    _160 = _157;
-    _161 = _158;
-    _159 = llvm_sub_u32(
-        ((1 as libc::c_int) << llvm_add_u32(_161, 1 as libc::c_int as uint32_t)) as uint32_t,
-        1 as libc::c_int as uint32_t,
-    ) as uint16_t;
-    _162 = *(&mut (*(_160 as *mut l_struct_struct_OC_decimation_mode)).field2 as *mut uint16_t);
-    _163 = _159;
-    return (_162 as uint32_t & _163 as uint32_t != 0 as libc::c_uint) as libc::c_int as bool_0;
 }
 #[no_mangle]
 #[inline(never)]

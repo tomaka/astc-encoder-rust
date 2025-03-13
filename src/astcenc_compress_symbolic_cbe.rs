@@ -21706,7 +21706,6 @@ pub unsafe extern "C" fn _ZSt3minIfERKT_S2_S2_(
     _5386 = _5377;
     return _5386;
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _5390: *mut libc::c_void,

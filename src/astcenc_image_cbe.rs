@@ -11333,7 +11333,6 @@ unsafe extern "C" fn _ZN4astcL3minIjEET_S1_S1_(
     _3025 = _3025__PHI_TEMPORARY;
     return _3025;
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _3029: *mut libc::c_void,

@@ -20230,7 +20230,6 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
     _4931 = _4505;
     return _4931;
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _4988: *mut libc::c_void,

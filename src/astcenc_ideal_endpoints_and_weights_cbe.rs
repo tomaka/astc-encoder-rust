@@ -43463,7 +43463,6 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
         );
     };
 }
-#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _11245: *mut libc::c_void,
