@@ -21451,8 +21451,8 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexEC2ERS0_(
     _5431 = _5429;
     _5432 = _5430;
     _5433 = _ZSt11__addressofISt5mutexEPT_RS1_(_5432);
-    let ref mut fresh21 = *(&raw mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
-        as *mut *mut libc::c_void);
+    let ref mut fresh21 = *(&raw mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock))
+        .field0 as *mut *mut libc::c_void);
     *fresh21 = _5433;
     *(&mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t) =
         0 as libc::c_int as uint8_t;
