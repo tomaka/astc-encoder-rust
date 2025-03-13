@@ -17914,7 +17914,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _4962 = _4642;
         *(&mut _4721.field0 as *mut l_array_4_float) = _4962.field0;
         _4963 = _4708;
-        _4964 = _ZNK11image_block17get_default_alphaEv(_4963);
+        _4964 = super::astcenc_compress_symbolic_cbe::_ZNK11image_block17get_default_alphaEv(_4963);
         _4704 = &mut _4722 as *mut l_struct_struct_OC_vfloat4 as *mut libc::c_void;
         _4705 = _4964;
         _4965 = _4704;
@@ -26963,31 +26963,6 @@ pub unsafe extern "C" fn _ZSt4sqrtf(mut _7323: libc::c_float) -> libc::c_float {
     _7325 = _7324;
     _7326 = sqrtf(_7325);
     return _7326;
-}
-#[no_mangle]
-#[inline(never)]
-pub unsafe extern "C" fn _ZNK11image_block17get_default_alphaEv(
-    mut _7327: *mut libc::c_void,
-) -> libc::c_float {
-    let mut _7328: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7329: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _7330: uint8_t = 0;
-    let mut _7331: uint64_t = 0;
-    _7328 = _7327;
-    _7329 = _7328;
-    _7330 = *(&mut *((*(&mut (*(_7329 as *mut l_struct_struct_OC_image_block)).field13
-        as *mut l_array_216_uint8_t))
-        .array)
-        .as_mut_ptr()
-        .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t);
-    _7331 = (_7330 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int) as libc::c_int
-        as bool_0 as uint64_t;
-    return llvm_select_f32(
-        (_7330 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int) as libc::c_int
-            as bool_0,
-        30720 as libc::c_int as libc::c_float,
-        65535 as libc::c_int as libc::c_float,
-    );
 }
 #[no_mangle]
 #[inline(never)]
