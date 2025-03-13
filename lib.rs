@@ -33,8 +33,6 @@ pub mod src {
 pub mod bindings;
 pub use bindings::*;
 
-
-
 use src::astcenc_averages_and_directions_cbe::*;
 use src::astcenc_block_sizes_cbe::*;
 use src::astcenc_color_quantize_cbe::*;

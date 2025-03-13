@@ -1,17 +1,5 @@
-extern "C" {
-    fn __assert_fail(
-        _1264: *mut core::ffi::c_void,
-        _1265: *mut core::ffi::c_void,
-        _1266: uint32_t,
-        _1267: *mut core::ffi::c_void,
-    ) -> !;
-    fn _Z13sf16_to_floatt(_1268: uint16_t) -> core::ffi::c_float;
-    fn memcpy(
-        _: *mut core::ffi::c_void,
-        _: *const core::ffi::c_void,
-        _: core::ffi::c_ulong,
-    ) -> *mut core::ffi::c_void;
-}
+use crate::*;
+
 pub type __uint8_t = core::ffi::c_uchar;
 pub type __uint16_t = core::ffi::c_ushort;
 pub type __int32_t = core::ffi::c_int;
@@ -294,34 +282,34 @@ unsafe extern "C" fn llvm_neg_u64(mut a: int64_t) -> uint64_t {
     let mut r: uint64_t = -a as uint64_t;
     return r;
 }
-
+#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK17pixel_region_args(
     mut _1: *mut core::ffi::c_void,
     mut _2: *mut core::ffi::c_void,
 ) {
-    let mut _3: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _4: core::ffi::c_float = 0.;
-    let mut _5: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _6: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _7: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _8: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _9: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _10: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _11: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _12: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _13: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _14: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _15: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _16: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _17: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _18: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _19: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _20: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _8: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _9: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _10: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _11: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _12: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _13: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _14: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _15: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _16: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _17: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _18: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _19: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _20: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _21: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _22: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _22: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _23: core::ffi::c_float = 0.;
     let mut _24: core::ffi::c_float = 0.;
     let mut _25: core::ffi::c_float = 0.;
@@ -332,12 +320,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _28: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _29: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _29: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _30: uint32_t = 0;
     let mut _31: uint32_t = 0;
     let mut _32: uint32_t = 0;
     let mut _33: uint32_t = 0;
-    let mut _34: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _34: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _35: core::ffi::c_float = 0.;
     let mut _36: core::ffi::c_float = 0.;
     let mut _37: core::ffi::c_float = 0.;
@@ -351,7 +339,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _41: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _42: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _42: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _43: core::ffi::c_float = 0.;
     let mut _44: core::ffi::c_float = 0.;
     let mut _45: core::ffi::c_float = 0.;
@@ -365,7 +353,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _49: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _50: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _50: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _51: core::ffi::c_float = 0.;
     let mut _52: core::ffi::c_float = 0.;
     let mut _53: core::ffi::c_float = 0.;
@@ -379,19 +367,19 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _57: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _58: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _58: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _59: core::ffi::c_float = 0.;
     let mut _60: core::ffi::c_float = 0.;
     let mut _61: core::ffi::c_float = 0.;
     let mut _62: core::ffi::c_float = 0.;
-    let mut _63: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _63: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _64: core::ffi::c_float = 0.;
     let mut _65: core::ffi::c_float = 0.;
     let mut _66: core::ffi::c_float = 0.;
     let mut _67: core::ffi::c_float = 0.;
-    let mut _68: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _69: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _70: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _68: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _69: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _70: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _71: l_struct_struct_OC_astcenc_swizzle = l_struct_struct_OC_astcenc_swizzle {
         field0: 0,
         field1: 0,
@@ -406,8 +394,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _77: uint32_t = 0;
     let mut _78: uint32_t = 0;
     let mut _79: uint32_t = 0;
-    let mut _80: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _81: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _80: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _81: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _82: uint32_t = 0;
     let mut _83: uint32_t = 0;
     let mut _84: uint32_t = 0;
@@ -417,8 +405,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _88: uint32_t = 0;
     let mut _89: uint32_t = 0;
     let mut _90: uint32_t = 0;
-    let mut _91: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _92: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _91: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _92: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _93: uint32_t = 0;
     let mut _94: uint32_t = 0;
     let mut _95: uint32_t = 0;
@@ -426,7 +414,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _97: l_array_6_uint8_t = l_array_6_uint8_t { array: [0; 6] };
     let mut _98: uint32_t = 0;
     let mut _99: uint32_t = 0;
-    let mut _100: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _100: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _101: uint32_t = 0;
     let mut _102: uint32_t = 0;
     let mut _103: uint32_t = 0;
@@ -450,7 +438,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _113: l_array_6_uint16_t = l_array_6_uint16_t { array: [0; 6] };
     let mut _114: uint32_t = 0;
     let mut _115: uint32_t = 0;
-    let mut _116: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _116: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _117: uint32_t = 0;
     let mut _118: uint32_t = 0;
     let mut _119: uint32_t = 0;
@@ -476,7 +464,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _127: l_array_6_float = l_array_6_float { array: [0.; 6] };
     let mut _128: uint32_t = 0;
     let mut _129: uint32_t = 0;
-    let mut _130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _130: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _131: uint32_t = 0;
     let mut _132: uint32_t = 0;
     let mut _133: uint32_t = 0;
@@ -542,30 +530,30 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _183: uint32_t = 0;
     let mut _184: core::ffi::c_float = 0.;
     let mut _185: uint32_t = 0;
-    let mut _186: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _187: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _188: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _189: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _190: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _186: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _187: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _188: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _189: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _190: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _191: uint8_t = 0;
-    let mut _192: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _192: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _193: uint32_t = 0;
-    let mut _194: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _194: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _195: uint32_t = 0;
-    let mut _196: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _196: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _197: uint32_t = 0;
-    let mut _198: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _198: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _199: uint32_t = 0;
-    let mut _200: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _200: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _201: uint32_t = 0;
-    let mut _202: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _202: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _203: uint32_t = 0;
-    let mut _204: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _204: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _205: uint32_t = 0;
-    let mut _206: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _207: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _208: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _209: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _206: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _207: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _208: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _209: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _210: uint32_t = 0;
     let mut _211: uint32_t = 0;
     let mut _212: uint32_t = 0;
@@ -588,19 +576,19 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _227: uint8_t = 0;
     let mut _228: bool_0 = 0;
     let mut _229: uint64_t = 0;
-    let mut _230: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _231: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _230: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _231: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _232: uint32_t = 0;
     let mut _233: uint32_t = 0;
     let mut _234: uint32_t = 0;
     let mut _235: uint32_t = 0;
-    let mut _236: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _236: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _237: uint32_t = 0;
-    let mut _238: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _238: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _239: uint32_t = 0;
-    let mut _240: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _240: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _241: uint32_t = 0;
-    let mut _242: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _242: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _243: uint32_t = 0;
     let mut _244: uint32_t = 0;
     let mut _245: uint32_t = 0;
@@ -610,20 +598,20 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _249: uint32_t = 0;
     let mut _250: uint32_t = 0;
     let mut _251: uint32_t = 0;
-    let mut _252: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _252: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _253: uint32_t = 0;
     let mut _254: uint32_t = 0;
-    let mut _255: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _256: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _255: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _256: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _257: uint32_t = 0;
-    let mut _258: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _258: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _259: uint32_t = 0;
     let mut _260: uint32_t = 0;
     let mut _261: uint32_t = 0;
     let mut _262: uint32_t = 0;
     let mut _263: uint32_t = 0;
     let mut _264: uint32_t = 0;
-    let mut _265: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _265: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _266: uint32_t = 0;
     let mut _267: uint32_t = 0;
     let mut _268: uint32_t = 0;
@@ -632,29 +620,29 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _271: uint32_t = 0;
     let mut _272: uint32_t = 0;
     let mut _273: uint32_t = 0;
-    let mut _274: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _274: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _275: uint32_t = 0;
     let mut _276: uint32_t = 0;
-    let mut _277: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _278: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _277: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _278: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _279: uint32_t = 0;
     let mut _280: uint32_t = 0;
     let mut _281: uint32_t = 0;
     let mut _282: uint8_t = 0;
-    let mut _283: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _284: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _283: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _284: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _285: uint32_t = 0;
     let mut _286: uint32_t = 0;
     let mut _287: uint32_t = 0;
     let mut _288: uint8_t = 0;
-    let mut _289: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _290: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _289: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _290: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _291: uint32_t = 0;
     let mut _292: uint32_t = 0;
     let mut _293: uint32_t = 0;
     let mut _294: uint8_t = 0;
-    let mut _295: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _296: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _295: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _296: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _297: uint32_t = 0;
     let mut _298: uint32_t = 0;
     let mut _299: uint32_t = 0;
@@ -671,20 +659,20 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _310: uint8_t = 0;
     let mut _311: uint8_t = 0;
     let mut _312: uint8_t = 0;
-    let mut _313: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _313: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _314: core::ffi::c_float = 0.;
     let mut _315: core::ffi::c_float = 0.;
     let mut _316: core::ffi::c_float = 0.;
     let mut _317: core::ffi::c_float = 0.;
-    let mut _318: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _318: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _319: uint32_t = 0;
     let mut _320: uint32_t = 0;
     let mut _321: uint32_t = 0;
     let mut _322: uint32_t = 0;
     let mut _323: uint32_t = 0;
-    let mut _324: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _325: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _326: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _324: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _325: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _326: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _327: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _328: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _329: core::ffi::c_float = 0.;
@@ -695,7 +683,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _334: core::ffi::c_float = 0.;
     let mut _335: core::ffi::c_float = 0.;
     let mut _336: core::ffi::c_float = 0.;
-    let mut _337: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _337: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _338: core::ffi::c_float = 0.;
     let mut _339: core::ffi::c_float = 0.;
     let mut _340: core::ffi::c_float = 0.;
@@ -703,17 +691,17 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _342: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _343: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _343: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _344: uint32_t = 0;
     let mut _345: uint32_t = 0;
     let mut _346: uint32_t = 0;
     let mut _347: uint32_t = 0;
     let mut _348: uint32_t = 0;
-    let mut _349: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _349: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _350: uint32_t = 0;
     let mut _351: uint32_t = 0;
     let mut _352: uint32_t = 0;
-    let mut _353: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _353: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _354: uint32_t = 0;
     let mut _355: uint32_t = 0;
     let mut _356: uint32_t = 0;
@@ -723,20 +711,20 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _360: uint32_t = 0;
     let mut _361: uint32_t = 0;
     let mut _362: uint32_t = 0;
-    let mut _363: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _363: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _364: uint32_t = 0;
     let mut _365: uint32_t = 0;
-    let mut _366: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _367: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _366: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _367: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _368: uint32_t = 0;
-    let mut _369: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _369: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _370: uint32_t = 0;
     let mut _371: uint32_t = 0;
     let mut _372: uint32_t = 0;
     let mut _373: uint32_t = 0;
     let mut _374: uint32_t = 0;
     let mut _375: uint32_t = 0;
-    let mut _376: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _376: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _377: uint32_t = 0;
     let mut _378: uint32_t = 0;
     let mut _379: uint32_t = 0;
@@ -745,29 +733,29 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _382: uint32_t = 0;
     let mut _383: uint32_t = 0;
     let mut _384: uint32_t = 0;
-    let mut _385: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _385: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _386: uint32_t = 0;
     let mut _387: uint32_t = 0;
-    let mut _388: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _389: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _388: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _389: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _390: uint32_t = 0;
     let mut _391: uint32_t = 0;
     let mut _392: uint32_t = 0;
     let mut _393: uint16_t = 0;
-    let mut _394: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _395: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _394: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _395: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _396: uint32_t = 0;
     let mut _397: uint32_t = 0;
     let mut _398: uint32_t = 0;
     let mut _399: uint16_t = 0;
-    let mut _400: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _401: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _400: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _401: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _402: uint32_t = 0;
     let mut _403: uint32_t = 0;
     let mut _404: uint32_t = 0;
     let mut _405: uint16_t = 0;
-    let mut _406: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _407: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _406: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _407: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _408: uint32_t = 0;
     let mut _409: uint32_t = 0;
     let mut _410: uint32_t = 0;
@@ -780,26 +768,26 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _417: uint16_t = 0;
     let mut _418: uint32_t = 0;
     let mut _419: uint16_t = 0;
-    let mut _420: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _420: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _421: uint32_t = 0;
     let mut _422: uint32_t = 0;
     let mut _423: uint32_t = 0;
     let mut _424: uint32_t = 0;
-    let mut _425: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _425: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _426: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _427: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _427: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _428: uint32_t = 0;
     let mut _429: core::ffi::c_float = 0.;
-    let mut _430: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _430: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _431: uint32_t = 0;
     let mut _432: core::ffi::c_float = 0.;
-    let mut _433: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _433: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _434: uint32_t = 0;
     let mut _435: core::ffi::c_float = 0.;
-    let mut _436: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _436: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _437: uint32_t = 0;
     let mut _438: core::ffi::c_float = 0.;
-    let mut _439: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _439: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _440: core::ffi::c_float = 0.;
     let mut _441: core::ffi::c_float = 0.;
     let mut _442: core::ffi::c_float = 0.;
@@ -807,15 +795,15 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _444: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _445: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _445: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _446: uint32_t = 0;
     let mut _447: uint32_t = 0;
     let mut _448: uint32_t = 0;
     let mut _449: uint32_t = 0;
     let mut _450: uint32_t = 0;
-    let mut _451: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _452: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _453: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _451: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _452: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _453: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _454: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _455: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _456: core::ffi::c_float = 0.;
@@ -826,7 +814,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _461: core::ffi::c_float = 0.;
     let mut _462: core::ffi::c_float = 0.;
     let mut _463: core::ffi::c_float = 0.;
-    let mut _464: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _464: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _465: core::ffi::c_float = 0.;
     let mut _466: core::ffi::c_float = 0.;
     let mut _467: core::ffi::c_float = 0.;
@@ -834,17 +822,17 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _469: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _470: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _470: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _471: uint32_t = 0;
     let mut _472: uint32_t = 0;
     let mut _473: uint32_t = 0;
     let mut _474: uint32_t = 0;
     let mut _475: uint32_t = 0;
-    let mut _476: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _476: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _477: uint32_t = 0;
     let mut _478: uint32_t = 0;
     let mut _479: uint32_t = 0;
-    let mut _480: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _480: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _481: uint32_t = 0;
     let mut _482: uint32_t = 0;
     let mut _483: uint32_t = 0;
@@ -854,20 +842,20 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _487: uint32_t = 0;
     let mut _488: uint32_t = 0;
     let mut _489: uint32_t = 0;
-    let mut _490: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _490: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _491: uint32_t = 0;
     let mut _492: uint32_t = 0;
-    let mut _493: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _494: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _493: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _494: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _495: uint32_t = 0;
-    let mut _496: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _496: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _497: uint32_t = 0;
     let mut _498: uint32_t = 0;
     let mut _499: uint32_t = 0;
     let mut _500: uint32_t = 0;
     let mut _501: uint32_t = 0;
     let mut _502: uint32_t = 0;
-    let mut _503: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _503: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _504: uint32_t = 0;
     let mut _505: uint32_t = 0;
     let mut _506: uint32_t = 0;
@@ -876,29 +864,29 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _509: uint32_t = 0;
     let mut _510: uint32_t = 0;
     let mut _511: uint32_t = 0;
-    let mut _512: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _512: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _513: uint32_t = 0;
     let mut _514: uint32_t = 0;
-    let mut _515: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _515: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _516: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _517: uint32_t = 0;
     let mut _518: uint32_t = 0;
     let mut _519: uint32_t = 0;
     let mut _520: core::ffi::c_float = 0.;
-    let mut _521: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _522: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _521: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _522: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _523: uint32_t = 0;
     let mut _524: uint32_t = 0;
     let mut _525: uint32_t = 0;
     let mut _526: core::ffi::c_float = 0.;
-    let mut _527: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _528: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _527: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _528: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _529: uint32_t = 0;
     let mut _530: uint32_t = 0;
     let mut _531: uint32_t = 0;
     let mut _532: core::ffi::c_float = 0.;
-    let mut _533: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _534: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _533: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _534: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _535: uint32_t = 0;
     let mut _536: uint32_t = 0;
     let mut _537: uint32_t = 0;
@@ -915,20 +903,20 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _548: core::ffi::c_float = 0.;
     let mut _549: core::ffi::c_float = 0.;
     let mut _550: core::ffi::c_float = 0.;
-    let mut _551: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _551: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _552: core::ffi::c_float = 0.;
     let mut _553: core::ffi::c_float = 0.;
     let mut _554: core::ffi::c_float = 0.;
     let mut _555: core::ffi::c_float = 0.;
-    let mut _556: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _556: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _557: uint32_t = 0;
     let mut _558: uint32_t = 0;
     let mut _559: uint32_t = 0;
     let mut _560: uint32_t = 0;
     let mut _561: uint32_t = 0;
-    let mut _562: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _563: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _564: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _562: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _563: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _564: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _565: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _566: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _567: core::ffi::c_float = 0.;
@@ -939,7 +927,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _572: core::ffi::c_float = 0.;
     let mut _573: core::ffi::c_float = 0.;
     let mut _574: core::ffi::c_float = 0.;
-    let mut _575: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _575: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _576: core::ffi::c_float = 0.;
     let mut _577: core::ffi::c_float = 0.;
     let mut _578: core::ffi::c_float = 0.;
@@ -947,17 +935,17 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _580: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _581: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _581: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _582: uint32_t = 0;
     let mut _583: uint32_t = 0;
     let mut _584: uint32_t = 0;
     let mut _585: uint32_t = 0;
     let mut _586: uint32_t = 0;
-    let mut _587: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _587: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _588: uint32_t = 0;
     let mut _589: uint32_t = 0;
     let mut _590: uint32_t = 0;
-    let mut _591: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _591: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _592: core::ffi::c_float = 0.;
     let mut _593: core::ffi::c_float = 0.;
     let mut _594: core::ffi::c_float = 0.;
@@ -969,33 +957,33 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _598: uint32_t = 0;
     let mut _599: uint32_t = 0;
     let mut _600: uint32_t = 0;
-    let mut _601: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _601: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _602: uint32_t = 0;
     let mut _603: uint32_t = 0;
     let mut _604: uint32_t = 0;
     let mut _605: uint32_t = 0;
-    let mut _606: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _607: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _606: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _607: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _608: uint32_t = 0;
     let mut _609: uint32_t = 0;
     let mut _610: uint32_t = 0;
     let mut _611: uint32_t = 0;
-    let mut _612: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _612: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _613: uint32_t = 0;
     let mut _614: uint32_t = 0;
     let mut _615: uint32_t = 0;
-    let mut _616: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _616: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _617: uint32_t = 0;
     let mut _618: uint32_t = 0;
     let mut _619: uint32_t = 0;
     let mut _620: uint32_t = 0;
-    let mut _621: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _622: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _621: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _622: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _623: uint32_t = 0;
     let mut _624: uint32_t = 0;
     let mut _625: uint32_t = 0;
     let mut _626: uint32_t = 0;
-    let mut _627: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _627: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _628: uint32_t = 0;
     let mut _629: uint32_t = 0;
     let mut _630: uint8_t = 0;
@@ -1003,18 +991,18 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _632: uint32_t = 0;
     let mut _633: uint32_t = 0;
     let mut _634: uint32_t = 0;
-    let mut _635: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _635: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _636: uint32_t = 0;
     let mut _637: uint32_t = 0;
     let mut _638: uint32_t = 0;
     let mut _639: uint32_t = 0;
-    let mut _640: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _641: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _640: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _641: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _642: uint32_t = 0;
     let mut _643: uint32_t = 0;
     let mut _644: uint32_t = 0;
     let mut _645: uint32_t = 0;
-    let mut _646: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _646: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _647: uint32_t = 0;
     let mut _648: uint32_t = 0;
     let mut _649: uint32_t = 0;
@@ -1022,13 +1010,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _651: uint32_t = 0;
     let mut _652: uint32_t = 0;
     let mut _653: uint32_t = 0;
-    let mut _654: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _654: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _655: uint32_t = 0;
     let mut _656: uint32_t = 0;
     let mut _657: uint32_t = 0;
     let mut _658: uint32_t = 0;
     let mut _659: uint32_t = 0;
-    let mut _660: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _660: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _661: uint32_t = 0;
     let mut _662: uint32_t = 0;
     let mut _663: uint32_t = 0;
@@ -1041,14 +1029,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _670: uint32_t = 0;
     let mut _671: uint32_t = 0;
     let mut _672: uint32_t = 0;
-    let mut _673: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _673: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _674: uint32_t = 0;
     let mut _675: uint32_t = 0;
     let mut _676: uint32_t = 0;
     let mut _677: uint32_t = 0;
     let mut _678: uint32_t = 0;
     let mut _679: uint32_t = 0;
-    let mut _680: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _680: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _681: uint32_t = 0;
     let mut _682: uint32_t = 0;
     let mut _683: uint32_t = 0;
@@ -1062,14 +1050,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _691: uint32_t = 0;
     let mut _692: uint32_t = 0;
     let mut _693: uint32_t = 0;
-    let mut _694: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _694: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _695: uint32_t = 0;
     let mut _696: uint32_t = 0;
     let mut _697: uint32_t = 0;
     let mut _698: uint32_t = 0;
     let mut _699: uint32_t = 0;
     let mut _700: uint32_t = 0;
-    let mut _701: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _701: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _702: uint32_t = 0;
     let mut _703: uint32_t = 0;
     let mut _704: uint32_t = 0;
@@ -1116,69 +1104,69 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _745: uint32_t = 0;
     let mut _746: uint32_t = 0;
     let mut _747: uint32_t = 0;
-    let mut _748: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _748: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _749: uint32_t = 0;
     let mut _750: uint32_t = 0;
     let mut _751: uint32_t = 0;
     let mut _752: uint32_t = 0;
     let mut _753: uint32_t = 0;
-    let mut _754: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _754: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _755: core::ffi::c_float = 0.;
-    let mut _756: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _756: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _757: uint32_t = 0;
     let mut _758: uint32_t = 0;
     let mut _759: uint32_t = 0;
     let mut _760: uint32_t = 0;
     let mut _761: uint32_t = 0;
-    let mut _762: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _762: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _763: core::ffi::c_float = 0.;
-    let mut _764: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _764: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _765: uint32_t = 0;
     let mut _766: uint32_t = 0;
     let mut _767: uint32_t = 0;
     let mut _768: uint32_t = 0;
     let mut _769: uint32_t = 0;
-    let mut _770: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _770: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _771: core::ffi::c_float = 0.;
-    let mut _772: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _772: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _773: uint32_t = 0;
     let mut _774: uint32_t = 0;
     let mut _775: uint32_t = 0;
     let mut _776: uint32_t = 0;
     let mut _777: uint32_t = 0;
-    let mut _778: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _778: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _779: core::ffi::c_float = 0.;
-    let mut _780: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _780: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _781: uint32_t = 0;
     let mut _782: uint32_t = 0;
     let mut _783: uint32_t = 0;
     let mut _784: uint32_t = 0;
     let mut _785: uint32_t = 0;
-    let mut _786: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _786: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _787: core::ffi::c_float = 0.;
-    let mut _788: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _788: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _789: uint32_t = 0;
     let mut _790: uint32_t = 0;
     let mut _791: uint32_t = 0;
     let mut _792: uint32_t = 0;
     let mut _793: uint32_t = 0;
-    let mut _794: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _794: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _795: core::ffi::c_float = 0.;
-    let mut _796: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _796: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _797: uint32_t = 0;
     let mut _798: uint32_t = 0;
     let mut _799: uint32_t = 0;
     let mut _800: uint32_t = 0;
     let mut _801: uint32_t = 0;
-    let mut _802: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _802: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _803: core::ffi::c_float = 0.;
-    let mut _804: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _804: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _805: uint32_t = 0;
     let mut _806: uint32_t = 0;
     let mut _807: uint32_t = 0;
     let mut _808: uint32_t = 0;
     let mut _809: uint32_t = 0;
-    let mut _810: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _810: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _811: core::ffi::c_float = 0.;
     let mut _812: uint32_t = 0;
     let mut _813: uint32_t = 0;
@@ -1187,7 +1175,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _816: uint32_t = 0;
     let mut _817: core::ffi::c_float = 0.;
     let mut _818: core::ffi::c_float = 0.;
-    let mut _819: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _819: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _820: uint32_t = 0;
     let mut _821: uint32_t = 0;
     let mut _822: uint32_t = 0;
@@ -1212,40 +1200,40 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     let mut _841: uint32_t = 0;
     let mut _842: uint32_t = 0;
     let mut _843: uint32_t = 0;
-    let mut _844: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _844: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _845: uint32_t = 0;
     let mut _846: uint32_t = 0;
     let mut _847: uint32_t = 0;
     let mut _848: uint32_t = 0;
-    let mut _849: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _849: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _850: core::ffi::c_float = 0.;
-    let mut _851: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _851: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _852: uint32_t = 0;
     let mut _853: uint32_t = 0;
     let mut _854: uint32_t = 0;
     let mut _855: uint32_t = 0;
-    let mut _856: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _856: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _857: core::ffi::c_float = 0.;
-    let mut _858: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _858: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _859: uint32_t = 0;
     let mut _860: uint32_t = 0;
     let mut _861: uint32_t = 0;
     let mut _862: uint32_t = 0;
-    let mut _863: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _863: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _864: core::ffi::c_float = 0.;
-    let mut _865: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _865: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _866: uint32_t = 0;
     let mut _867: uint32_t = 0;
     let mut _868: uint32_t = 0;
     let mut _869: uint32_t = 0;
-    let mut _870: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _870: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _871: core::ffi::c_float = 0.;
     let mut _872: uint32_t = 0;
     let mut _873: uint32_t = 0;
     let mut _874: uint32_t = 0;
     let mut _875: core::ffi::c_float = 0.;
     let mut _876: core::ffi::c_float = 0.;
-    let mut _877: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _877: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _878: uint32_t = 0;
     let mut _879: uint32_t = 0;
     let mut _880: uint32_t = 0;
@@ -1264,7 +1252,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     );
     _190 = _69;
     _191 = *(&mut (*(_190 as *mut l_struct_struct_OC_pixel_region_args)).field2 as *mut uint8_t);
-    _72 = (_191 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
+    _72 = (_191 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0;
     _192 = _69;
     _193 = *(&mut (*(_192 as *mut l_struct_struct_OC_pixel_region_args)).field4 as *mut uint32_t);
     _73 = _193;
@@ -1304,11 +1292,11 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _212 = _82;
     _84 = _212;
     _213 = _72;
-    if _213 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
+    if _213 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
         _214 = _82;
         _215__PHI_TEMPORARY = _214;
     } else {
-        _215__PHI_TEMPORARY = 0;
+        _215__PHI_TEMPORARY = 0 as core::ffi::c_int as uint32_t;
     }
     _215 = _215__PHI_TEMPORARY;
     _85 = _215;
@@ -1320,11 +1308,11 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _87 = llvm_add_u32(_218, _219);
     _220 = _75;
     _221 = _72;
-    if _221 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
+    if _221 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
         _222 = _83;
         _223__PHI_TEMPORARY = _222;
     } else {
-        _223__PHI_TEMPORARY = 0;
+        _223__PHI_TEMPORARY = 0 as core::ffi::c_int as uint32_t;
     }
     _223 = _223__PHI_TEMPORARY;
     _88 = llvm_add_u32(_220, _223);
@@ -1333,9 +1321,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _226 = _88;
     _89 = llvm_mul_u32(llvm_mul_u32(_224, _225), _226);
     _227 = _72;
-    _228 = (_227 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
+    _228 = (_227 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0;
     _229 = _228 as uint64_t;
-    _90 = llvm_select_u32(_228, 1 as core::ffi::c_int as uint32_t, 0);
+    _90 = llvm_select_u32(
+        _228,
+        1 as core::ffi::c_int as uint32_t,
+        0 as core::ffi::c_int as uint32_t,
+    );
     _230 = _81;
     _91 = _230;
     _231 = _81;
@@ -1386,7 +1378,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 *(&mut (*(_252 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
             _254 = _ZN4astc5clampIiEET_S1_S1_S1_(
                 _251,
-                0,
+                0 as core::ffi::c_int as uint32_t,
                 llvm_sub_u32(_253, 1 as core::ffi::c_int as uint32_t),
             );
             _99 = _254;
@@ -1418,7 +1410,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as *mut uint32_t);
                 _267 = _ZN4astc5clampIiEET_S1_S1_S1_(
                     _264,
-                    0,
+                    0 as core::ffi::c_int as uint32_t,
                     llvm_sub_u32(_266, 1 as core::ffi::c_int as uint32_t),
                 );
                 _102 = _267;
@@ -1442,7 +1434,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint32_t);
                     _276 = _ZN4astc5clampIiEET_S1_S1_S1_(
                         _273,
-                        0,
+                        0 as core::ffi::c_int as uint32_t,
                         llvm_sub_u32(_275, 1 as core::ffi::c_int as uint32_t),
                     );
                     _104 = _276;
@@ -1797,7 +1789,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as *mut uint32_t);
                 _365 = _ZN4astc5clampIiEET_S1_S1_S1_(
                     _362,
-                    0,
+                    0 as core::ffi::c_int as uint32_t,
                     llvm_sub_u32(_364, 1 as core::ffi::c_int as uint32_t),
                 );
                 _115 = _365;
@@ -1829,7 +1821,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint32_t);
                     _378 = _ZN4astc5clampIiEET_S1_S1_S1_(
                         _375,
-                        0,
+                        0 as core::ffi::c_int as uint32_t,
                         llvm_sub_u32(_377, 1 as core::ffi::c_int as uint32_t),
                     );
                     _118 = _378;
@@ -1856,7 +1848,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as *mut uint32_t);
                         _387 = _ZN4astc5clampIiEET_S1_S1_S1_(
                             _384,
-                            0,
+                            0 as core::ffi::c_int as uint32_t,
                             llvm_sub_u32(_386, 1 as core::ffi::c_int as uint32_t),
                         );
                         _120 = _387;
@@ -2245,11 +2237,11 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 *(&mut *(_127.array)
                     .as_mut_ptr()
                     .offset(4 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float) = 0 as core::ffi::c_int as core::ffi::c_float;
+                    as *mut core::ffi::c_float) = 0 as libc::c_int as libc::c_float;
                 *(&mut *(_127.array)
                     .as_mut_ptr()
                     .offset(5 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
+                    as *mut core::ffi::c_float) = 1 as libc::c_int as libc::c_float;
                 _482 = _90;
                 _128 = _482;
                 loop {
@@ -2269,7 +2261,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint32_t);
                     _492 = _ZN4astc5clampIiEET_S1_S1_S1_(
                         _489,
-                        0,
+                        0 as core::ffi::c_int as uint32_t,
                         llvm_sub_u32(_491, 1 as core::ffi::c_int as uint32_t),
                     );
                     _129 = _492;
@@ -2304,7 +2296,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as *mut uint32_t);
                         _505 = _ZN4astc5clampIiEET_S1_S1_S1_(
                             _502,
-                            0,
+                            0 as core::ffi::c_int as uint32_t,
                             llvm_sub_u32(_504, 1 as core::ffi::c_int as uint32_t),
                         );
                         _132 = _505;
@@ -2331,7 +2323,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                 as *mut uint32_t);
                             _514 = _ZN4astc5clampIiEET_S1_S1_S1_(
                                 _511,
-                                0,
+                                0 as core::ffi::c_int as uint32_t,
                                 llvm_sub_u32(_513, 1 as core::ffi::c_int as uint32_t),
                             );
                             _134 = _514;
@@ -2714,32 +2706,32 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         }
     }
     _3 = &mut _21 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _4 = 0 as core::ffi::c_int as core::ffi::c_float;
+    _4 = 0 as core::ffi::c_int as libc::c_float;
     _591 = _3;
     _592 = _4;
     *(_591 as *mut core::ffi::c_float) = _592;
     _593 = _4;
     *(&mut *((*(_591 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _593;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _593;
     _594 = _4;
     *(&mut *((*(_591 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _594;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _594;
     _595 = _4;
     *(&mut *((*(_591 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _595;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _595;
     _596 = _21;
     *(&mut _143.field0 as *mut l_array_4_float) = _596.field0;
-    _144 = 0;
+    _144 = 0 as core::ffi::c_int as uint32_t;
     loop {
         _597 = _144;
         _598 = _88;
         if !((_597 as int32_t) < _598 as int32_t) {
             break;
         }
-        _145 = 0;
+        _145 = 0 as core::ffi::c_int as uint32_t;
         loop {
             _599 = _145;
             _600 = _87;
@@ -2762,7 +2754,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _604, _605,
                         ),
                     ),
-                    0,
+                    0 as core::ffi::c_int as uint32_t,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
@@ -2786,7 +2778,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _610, _611,
                         ),
                     ),
-                    0,
+                    0 as core::ffi::c_int as uint32_t,
                 ) as int32_t
                     as int64_t
                     as isize) as *mut l_struct_struct_OC_vfloat4
@@ -2797,7 +2789,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _613 = _145;
             _145 = llvm_add_u32(_613, 1 as core::ffi::c_int as uint32_t);
         }
-        _146 = 0;
+        _146 = 0 as core::ffi::c_int as uint32_t;
         loop {
             _614 = _146;
             _615 = _86;
@@ -2817,7 +2809,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _617, _618,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0, _619,
+                            0 as core::ffi::c_int as uint32_t,
+                            _619,
                         ),
                     ),
                     _620,
@@ -2841,7 +2834,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _623, _624,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0, _625,
+                            0 as core::ffi::c_int as uint32_t,
+                            _625,
                         ),
                     ),
                     _626,
@@ -2859,15 +2853,15 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         _144 = llvm_add_u32(_629, 1 as core::ffi::c_int as uint32_t);
     }
     _630 = _72;
-    if _630 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-        _147 = 0;
+    if _630 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
+        _147 = 0 as core::ffi::c_int as uint32_t;
         loop {
             _631 = _147;
             _632 = _87;
             if !((_631 as int32_t) < _632 as int32_t) {
                 break;
             }
-            _148 = 0;
+            _148 = 0 as core::ffi::c_int as uint32_t;
             loop {
                 _633 = _148;
                 _634 = _86;
@@ -2884,7 +2878,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                0, _636,
+                                0 as core::ffi::c_int as uint32_t,
+                                _636,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _637, _638,
@@ -2909,7 +2904,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                                0, _642,
+                                0 as core::ffi::c_int as uint32_t,
+                                _642,
                             ),
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 _643, _644,
@@ -3082,7 +3078,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         _151 = llvm_add_u32(_688, 1 as core::ffi::c_int as uint32_t);
     }
     _689 = _72;
-    if _689 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
+    if _689 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
         _153 = 1 as core::ffi::c_int as uint32_t;
         loop {
             _690 = _153;
@@ -3168,25 +3164,25 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         1 as core::ffi::c_int as uint32_t,
     ) as int32_t as core::ffi::c_float;
     _711 = _72;
-    if _711 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
+    if _711 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
         _712 = _155;
         _713 = _155;
         _714 = _155;
         _156 = llvm_fdiv_f32(
-            1 as core::ffi::c_int as core::ffi::c_float,
+            1 as core::ffi::c_int as libc::c_float,
             llvm_fmul_f32(llvm_fmul_f32(_712, _713), _714),
         );
     } else {
         _715 = _155;
         _716 = _155;
         _156 = llvm_fdiv_f32(
-            1 as core::ffi::c_int as core::ffi::c_float,
+            1 as core::ffi::c_int as libc::c_float,
             llvm_fmul_f32(_715, _716),
         );
     }
     _717 = _72;
-    if _717 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-        _157 = 0;
+    if _717 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
+        _157 = 0 as core::ffi::c_int as uint32_t;
         loop {
             _718 = _157;
             _719 = _75;
@@ -3205,7 +3201,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _726 = _158;
             _727 = _79;
             _161 = llvm_add_u32(llvm_add_u32(_726, _727), 1 as core::ffi::c_int as uint32_t);
-            _162 = 0;
+            _162 = 0 as core::ffi::c_int as uint32_t;
             loop {
                 _728 = _162;
                 _729 = _74;
@@ -3224,7 +3220,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _736 = _163;
                 _737 = _79;
                 _166 = llvm_add_u32(llvm_add_u32(_736, _737), 1 as core::ffi::c_int as uint32_t);
-                _167 = 0;
+                _167 = 0 as core::ffi::c_int as uint32_t;
                 loop {
                     _738 = _167;
                     _739 = _73;
@@ -3490,7 +3486,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _157 = llvm_add_u32(_823, 1 as core::ffi::c_int as uint32_t);
         }
     } else {
-        _174 = 0;
+        _174 = 0 as core::ffi::c_int as uint32_t;
         loop {
             _824 = _174;
             _825 = _74;
@@ -3509,7 +3505,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _832 = _175;
             _833 = _79;
             _178 = llvm_add_u32(llvm_add_u32(_832, _833), 1 as core::ffi::c_int as uint32_t);
-            _179 = 0;
+            _179 = 0 as core::ffi::c_int as uint32_t;
             loop {
                 _834 = _179;
                 _835 = _73;
@@ -3537,7 +3533,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0, _845,
+                            0 as core::ffi::c_int as uint32_t,
+                            _845,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _846, _847,
@@ -3553,7 +3550,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _850 = *(&mut *((*(_849 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _851 = _91;
                 _852 = _94;
                 _853 = _177;
@@ -3563,7 +3560,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0, _852,
+                            0 as core::ffi::c_int as uint32_t,
+                            _852,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _853, _854,
@@ -3579,7 +3577,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _857 = *(&mut *((*(_856 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _858 = _91;
                 _859 = _94;
                 _860 = _178;
@@ -3589,7 +3587,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0, _859,
+                            0 as core::ffi::c_int as uint32_t,
+                            _859,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _860, _861,
@@ -3605,7 +3604,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _864 = *(&mut *((*(_863 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _865 = _91;
                 _866 = _94;
                 _867 = _178;
@@ -3615,7 +3614,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_add_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            0, _866,
+                            0 as core::ffi::c_int as uint32_t,
+                            _866,
                         ),
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _867, _868,
@@ -3631,7 +3631,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _871 = *(&mut *((*(_870 as *mut l_array_4_float)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _184 = llvm_fadd_f32(llvm_fsub_f32(llvm_fsub_f32(_850, _857), _864), _871);
                 _872 = _176;
                 _873 = _95;
@@ -3652,7 +3652,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         }
     };
 }
-
+#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc5clampIiEET_S1_S1_S1_(
     mut _1006: uint32_t,
@@ -3699,7 +3699,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     mut _1027: uint64_t,
     mut _1028: uint32_t,
 ) {
-    let mut _1029: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1029: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1030: core::ffi::c_float = 0.;
     let mut _1031: core::ffi::c_float = 0.;
     let mut _1032: core::ffi::c_float = 0.;
@@ -3713,7 +3713,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1036: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1037: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1037: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1038: core::ffi::c_float = 0.;
     let mut _1039: core::ffi::c_float = 0.;
     let mut _1040: core::ffi::c_float = 0.;
@@ -3727,7 +3727,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1044: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1045: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1045: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1046: uint64_t = 0;
     let mut _1047: uint32_t = 0;
     let mut _1048: uint64_t = 0;
@@ -3735,7 +3735,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1050: uint64_t = 0;
     let mut _1051: uint64_t = 0;
     let mut _1052: uint64_t = 0;
-    let mut _1053: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1053: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1054: uint64_t = 0;
     let mut _1055: uint64_t = 0;
     let mut _1056: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -3750,7 +3750,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1059: uint64_t = 0;
     let mut _1060: uint64_t = 0;
     let mut _1061: uint64_t = 0;
-    let mut _1062: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1062: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1063: uint64_t = 0;
     let mut _1064: uint64_t = 0;
     let mut _1065: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -3767,7 +3767,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1070: uint64_t = 0;
     let mut _1071: uint64_t = 0;
     let mut _1072: uint64_t = 0;
-    let mut _1073: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1073: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1074: uint64_t = 0;
     let mut _1075: uint32_t = 0;
     let mut _1076: uint64_t = 0;
@@ -3775,11 +3775,11 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1078: uint32_t = 0;
     let mut _1079: uint64_t = 0;
     let mut _1080: uint64_t = 0;
-    let mut _1081: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1082: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1083: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1081: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1082: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1083: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1084: uint64_t = 0;
-    let mut _1085: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1085: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1086: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1087: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1088: core::ffi::c_float = 0.;
@@ -3790,7 +3790,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1093: core::ffi::c_float = 0.;
     let mut _1094: core::ffi::c_float = 0.;
     let mut _1095: core::ffi::c_float = 0.;
-    let mut _1096: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1096: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1097: core::ffi::c_float = 0.;
     let mut _1098: core::ffi::c_float = 0.;
     let mut _1099: core::ffi::c_float = 0.;
@@ -3798,10 +3798,10 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1101: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1102: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1103: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1102: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1103: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1104: uint64_t = 0;
-    let mut _1105: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1105: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1106: uint64_t = 0;
     let mut _1107: uint64_t = 0;
     let mut _1108: uint64_t = 0;
@@ -3815,7 +3815,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1116: uint64_t = 0;
     let mut _1117: uint64_t = 0;
     let mut _1118: uint64_t = 0;
-    let mut _1119: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1119: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1120: uint64_t = 0;
     let mut _1121: uint32_t = 0;
     let mut _1122: uint64_t = 0;
@@ -3823,11 +3823,11 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1124: uint32_t = 0;
     let mut _1125: uint64_t = 0;
     let mut _1126: uint64_t = 0;
-    let mut _1127: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1128: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1129: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1127: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1128: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1129: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1130: uint64_t = 0;
-    let mut _1131: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1131: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1132: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1133: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1134: core::ffi::c_float = 0.;
@@ -3838,7 +3838,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1139: core::ffi::c_float = 0.;
     let mut _1140: core::ffi::c_float = 0.;
     let mut _1141: core::ffi::c_float = 0.;
-    let mut _1142: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1142: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1143: core::ffi::c_float = 0.;
     let mut _1144: core::ffi::c_float = 0.;
     let mut _1145: core::ffi::c_float = 0.;
@@ -3846,10 +3846,10 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
     let mut _1147: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1148: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1149: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1148: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1149: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1150: uint64_t = 0;
-    let mut _1151: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1151: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1152: uint64_t = 0;
     let mut _1153: uint64_t = 0;
     _1045 = _1026;
@@ -3917,37 +3917,37 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1091 = *(&mut *((*(&mut _1036 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1092 = *(&mut *((*(&mut _1035 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1093 = *(&mut *((*(&mut _1036 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1094 = *(&mut *((*(&mut _1035 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1095 = *(&mut *((*(&mut _1036 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1029 = &mut _1034 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _1030 = llvm_fadd_f32(_1088, _1089);
                 _1031 = llvm_fadd_f32(_1090, _1091);
@@ -4065,37 +4065,37 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1137 = *(&mut *((*(&mut _1044 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1138 = *(&mut *((*(&mut _1043 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1139 = *(&mut *((*(&mut _1044 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1140 = *(&mut *((*(&mut _1043 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1141 = *(&mut *((*(&mut _1044 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut core::ffi::c_float);
+                    as *mut libc::c_float);
                 _1037 = &mut _1042 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _1038 = llvm_fadd_f32(_1134, _1135);
                 _1039 = llvm_fadd_f32(_1136, _1137);
@@ -4143,7 +4143,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
         }
     }
 }
-
+#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_swizzleR8avg_args(
     mut _1168: *mut core::ffi::c_void,
@@ -4151,10 +4151,10 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     mut _1170: *mut core::ffi::c_void,
     mut _1171: *mut core::ffi::c_void,
 ) -> uint32_t {
-    let mut _1172: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1172: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1173: uint32_t = 0;
-    let mut _1174: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1175: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1174: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1175: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1176: uint32_t = 0;
     let mut _1177: uint32_t = 0;
     let mut _1178: uint32_t = 0;
@@ -4167,11 +4167,11 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     let mut _1185: uint32_t = 0;
     let mut _1186: uint32_t = 0;
     let mut _1187: uint32_t = 0;
-    let mut _1188: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1188: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1189: uint32_t = 0;
-    let mut _1190: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1190: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1191: uint32_t = 0;
-    let mut _1192: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1192: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1193: uint32_t = 0;
     let mut _1194: uint32_t = 0;
     let mut _1195: uint32_t = 0;
@@ -4191,36 +4191,36 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     let mut _1209: uint32_t = 0;
     let mut _1210: uint32_t = 0;
     let mut _1210__PHI_TEMPORARY: uint32_t = 0;
-    let mut _1211: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1212: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1213: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1214: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1215: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1216: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1217: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1218: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1219: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1220: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1221: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _1222: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1211: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1212: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1213: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1214: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1215: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1216: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1217: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1218: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1219: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1220: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1221: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1222: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1223: uint8_t = 0;
-    let mut _1224: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1224: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1225: uint32_t = 0;
-    let mut _1226: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1226: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1227: uint32_t = 0;
-    let mut _1228: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1228: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1229: uint32_t = 0;
-    let mut _1230: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1230: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1231: uint32_t = 0;
-    let mut _1232: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1232: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1233: uint32_t = 0;
-    let mut _1234: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1234: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1235: uint32_t = 0;
-    let mut _1236: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1236: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1237: uint32_t = 0;
     let mut _1238: uint32_t = 0;
     let mut _1239: uint32_t = 0;
-    let mut _1240: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1240: *mut core::ffi::c_void = 0 as *mut libc::c_void;
     let mut _1241: uint32_t = 0;
     let mut _1242: uint32_t = 0;
     let mut _1243: uint32_t = 0;
@@ -4250,9 +4250,9 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
         1 as core::ffi::c_int as uint32_t,
     );
     _1196 = _1178;
-    _1181 = (_1196 > 1 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1181 = (_1196 > 1 as core::ffi::c_uint) as libc::c_int as bool_0;
     _1197 = _1181;
-    _1198 = (_1197 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
+    _1198 = (_1197 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0;
     _1199 = _1198 as uint64_t;
     _1182 = llvm_select_u32(
         _1198,
@@ -4261,7 +4261,7 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     );
     _1200 = _1178;
     _1201 = _1181;
-    _1202 = (_1201 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
+    _1202 = (_1201 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0;
     _1203 = _1202 as uint64_t;
     _1204 = _ZN4astcL3minIjEET_S1_S1_(
         _1200,
@@ -4277,38 +4277,38 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     _1184 = llvm_add_u32(_1205, _1206);
     _1207 = _1183;
     _1208 = _1181;
-    if _1208 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
+    if _1208 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
         _1209 = _1180;
         _1210__PHI_TEMPORARY = _1209;
     } else {
-        _1210__PHI_TEMPORARY = 0;
+        _1210__PHI_TEMPORARY = 0 as core::ffi::c_int as uint32_t;
     }
     _1210 = _1210__PHI_TEMPORARY;
     _1185 = llvm_add_u32(_1207, _1210);
     _1211 = _1175;
     *(&mut (*(&mut (*(_1211 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field4 as *mut uint32_t) = 0;
+        .field4 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
     _1212 = _1175;
     *(&mut (*(&mut (*(_1212 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field5 as *mut uint32_t) = 0;
+        .field5 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
     _1213 = _1175;
     *(&mut (*(&mut (*(_1213 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field6 as *mut uint32_t) = 0;
+        .field6 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
     _1214 = _1175;
     *(&mut (*(&mut (*(_1214 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field7 as *mut uint32_t) = 0;
+        .field7 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
     _1215 = _1175;
     *(&mut (*(&mut (*(_1215 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field8 as *mut uint32_t) = 0;
+        .field8 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
     _1216 = _1175;
     *(&mut (*(&mut (*(_1216 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field9 as *mut uint32_t) = 0;
+        .field9 as *mut uint32_t) = 0 as core::ffi::c_int as uint32_t;
     _1217 = _1175;
     let ref mut fresh0 = *(&mut (*(&mut (*(_1217 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
@@ -4333,7 +4333,7 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     _1224 = _1175;
     *(&mut (*(&mut (*(_1224 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
-        .field2 as *mut uint8_t) = (_1223 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
+        .field2 as *mut uint8_t) = (_1223 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0;
     _1225 = _1173;
     _1226 = _1175;
     *(&mut (*(&mut (*(_1226 as *mut l_struct_struct_OC_avg_args)).field0

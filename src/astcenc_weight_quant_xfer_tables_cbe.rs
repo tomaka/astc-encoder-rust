@@ -1,3 +1,5 @@
+use crate::*;
+
 pub type __uint8_t = core::ffi::c_uchar;
 pub type __uint16_t = core::ffi::c_ushort;
 pub type uint8_t = __uint8_t;
@@ -265,7 +267,7 @@ pub struct l_unnamed_1 {
     pub field10: l_unnamed_23,
     pub field11: l_struct_struct_OC_quant_and_transfer_table,
 }
-
+#[no_mangle]
 pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
     {
         let mut init = l_unnamed_1 {

@@ -1,3 +1,5 @@
+use crate::*;
+
 pub type __uint8_t = core::ffi::c_uchar;
 pub type __uint16_t = core::ffi::c_ushort;
 pub type __int32_t = core::ffi::c_int;
@@ -286,31 +288,31 @@ static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: l_array_512_uint8_t = unsafe {
 static mut _ZZL12sf32_to_sf16j9roundmodeE4tabx: l_array_60_uint32_t = {
     let mut init = l_array_60_uint32_t {
         array: [
-            0,
-            0,
-            0,
-            0,
-            0,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             2147483648 as core::ffi::c_uint,
             32768 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             1 as core::ffi::c_int as uint32_t,
-            0,
-            0,
-            0,
-            0,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             32769 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
-            0,
-            0,
-            0,
-            0,
-            0,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
+            0 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
             32768 as core::ffi::c_int as uint32_t,
@@ -370,7 +372,7 @@ unsafe extern "C" fn llvm_neg_u32(mut a: int32_t) -> uint32_t {
     let mut r: uint32_t = -a as uint32_t;
     return r;
 }
-
+#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _Z13sf16_to_floatt(mut _1: uint16_t) -> core::ffi::c_float {
     let mut _2: uint16_t = 0;
@@ -422,30 +424,32 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _17 = *(&*(_ZZL12sf16_to_sf32tE3tbl.array)
         .as_ptr()
         .offset(
-            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_16, 10)
-                as uint64_t as int64_t as isize,
+            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                _16,
+                10 as core::ffi::c_int as uint32_t,
+            ) as uint64_t as int64_t as isize,
         ) as *const uint32_t as *mut uint32_t);
     _11 = _17;
     _18 = _10;
     _19 = _11;
     _11 = llvm_add_u32(_19, _18);
     _20 = _11;
-    if _20 & 2147483648 as core::ffi::c_uint == 0 as core::ffi::c_uint {
+    if _20 & 2147483648 as core::ffi::c_uint == 0 as libc::c_uint {
         _21 = _11;
         _8 = _21 << 13 as core::ffi::c_int;
     } else {
         _22 = _11;
-        if _22 & 1023 as core::ffi::c_int as uint32_t == 0 as core::ffi::c_uint {
+        if _22 & 1023 as core::ffi::c_int as uint32_t == 0 as libc::c_uint {
             _23 = _11;
             _8 = _23 << 13 as core::ffi::c_int;
         } else {
             _24 = _10;
-            if _24 & 31744 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
+            if _24 & 31744 as core::ffi::c_int as uint32_t != 0 as libc::c_uint {
                 _25 = _11;
-                _8 = _25 << 13 as core::ffi::c_int | 4194304 as core::ffi::c_int as uint32_t;
+                _8 = _25 << 13 as core::ffi::c_int | 4194304 as libc::c_int as uint32_t;
             } else {
                 _26 = _10;
-                _12 = (_26 & 32768 as core::ffi::c_int as uint32_t) << 16 as core::ffi::c_int;
+                _12 = (_26 & 32768 as core::ffi::c_int as uint32_t) << 16 as libc::c_int;
                 _27 = _10;
                 _13 = _27 & 32767 as core::ffi::c_int as uint32_t;
                 _28 = _13;
@@ -471,7 +475,7 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _35 = _8;
     return _35;
 }
-
+#[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _Z13float_to_sf16f(mut _43: core::ffi::c_float) -> uint16_t {
     let mut _44: core::ffi::c_float = 0.;

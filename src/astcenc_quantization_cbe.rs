@@ -1,3 +1,5 @@
+use crate::*;
+
 pub type __uint8_t = core::ffi::c_uchar;
 pub type uint8_t = __uint8_t;
 #[derive(Copy, Clone)]
@@ -110,7 +112,7 @@ pub struct l_array_17_void_KC_ {
 pub struct l_array_10_struct_AC_l_array_128_uint8_t {
     pub array: [l_array_128_uint8_t; 10],
 }
-
+#[no_mangle]
 pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_uint8_t = unsafe {
     {
         let mut init = l_array_17_struct_AC_l_array_512_uint8_t {
@@ -307,7 +309,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
         init
     }
 };
-
+#[no_mangle]
 pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_array_256_uint8_t = unsafe {
     {
         let mut init = l_array_17_struct_AC_l_array_256_uint8_t {
@@ -700,7 +702,7 @@ static mut _ZL37color_scrambled_pquant_to_uquant_q256: l_array_256_uint8_t = uns
         init
     }
 };
-
+#[no_mangle]
 pub static mut color_scrambled_pquant_to_uquant_tables: l_array_17_void_KC_ = unsafe {
     {
         let mut init = l_array_17_void_KC_ {
@@ -744,7 +746,7 @@ pub static mut color_scrambled_pquant_to_uquant_tables: l_array_17_void_KC_ = un
         init
     }
 };
-
+#[no_mangle]
 pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsafe {
     {
         let mut init = l_array_10_struct_AC_l_array_128_uint8_t {

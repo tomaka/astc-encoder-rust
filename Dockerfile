@@ -71,8 +71,9 @@ RUN echo "pub use bindings::*;" >> lib.rs
 # Do some more tweaks to the Rust code
 # Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
 RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
-# Remove some weird casting of 0 which causes some signed/unsigned types issues
-RUN cd src && for f in *.rs; do sed -i 's/0 as libc::c_int as uint32_t/0/' $f; done
+# Remove casting of numeric constants which causes signed/unsigned types issues
+RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint32_t/$1/' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint64_t/$1/' $f; done
 # Replace `libc::` with `core::ffi::` and remove `libc` altogether
 RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/' $f; done
 RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done
@@ -84,4 +85,17 @@ RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
 RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
 
 # Add some substitutes to C functions in `lib.rs`
-RUN echo "fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c); d }" >> lib.rs
+RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c); d }" >> lib.rs
+RUN echo "unsafe fn memset(d: *mut core::ffi::c_void, ch: core::ffi::c_int, c: u64) -> *mut core::ffi::c_void { assert!(ch <= 255); core::ptr::write_bytes::<u8>(d.cast(), ch as u8, c); d }" >> lib.rs
+RUN echo "fn abs(v: u32) -> u32 { v }" >> lib.rs
+RUN echo "fn cosf(v: f32) -> f32 { v.cos() }" >> lib.rs
+RUN echo "fn sinf(v: f32) -> f32 { v.sin() }" >> lib.rs
+RUN echo "fn fabsf(v: f32) -> f32 { v.abs() }" >> lib.rs
+RUN echo "fn roundf(v: f32) -> f32 { v.round() }" >> lib.rs
+RUN echo "fn sqrtf(v: f32) -> f32 { v.sqrt() }" >> lib.rs
+RUN echo "fn logf(v: f32) -> f32 { v.log() }" >> lib.rs
+RUN echo "fn __assert_fail(assertion: *mut core::ffi::c_void, file: *mut core::ffi::c_void, line: core::ffi::c_uint, function: *mut core::ffi::c_void) { panic!() }" >> lib.rs
+RUN echo "unsafe fn posix_memalign(memptr: *mut *mut core::ffi::c_void, alignment: u64, size: u64) -> core::ffi::c_int { if size != 0 { let ptr = std::alloc::alloc(std::alloc::Layout::from_size_align(size, alignment).unwrap())); memptr.write(ptr); } else { memptr.write(core::ptr::null_mut()); } 0 }"
+
+# Rustfmt
+RUN cargo fmt
