@@ -814,7 +814,7 @@ unsafe extern "C" fn llvm_OC_fmuladd_OC_f32(
     r = a * b + c;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK11image_blockRK9endpointsPKaPKfjjjPA4_hPiP12quant_methodSG_R27compression_working_buffers(
     mut _1: *mut libc::c_void,
@@ -26953,7 +26953,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(mut _7300: *mut libc::c_void) -> bool_0 {
     let mut _7301: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -27013,7 +27013,7 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(mut _7300: *mut libc:
     _7318 = _7318__PHI_TEMPORARY;
     return _7318;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4sqrtf(mut _7323: libc::c_float) -> libc::c_float {
     let mut _7324: libc::c_float = 0.;
@@ -27024,7 +27024,7 @@ pub unsafe extern "C" fn _ZSt4sqrtf(mut _7323: libc::c_float) -> libc::c_float {
     _7326 = sqrtf(_7325);
     return _7326;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block17get_default_alphaEv(
     mut _7327: *mut libc::c_void,
@@ -27049,7 +27049,7 @@ pub unsafe extern "C" fn _ZNK11image_block17get_default_alphaEv(
         65535 as libc::c_int as libc::c_float,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3absf(mut _7332: libc::c_float) -> libc::c_float {
     let mut _7333: libc::c_float = 0.;
@@ -27087,7 +27087,7 @@ unsafe extern "C" fn _ZN4astcL3maxIfEET_S1_S1_(
     _7344 = _7344__PHI_TEMPORARY;
     return _7344;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3maxIfERKT_S2_S2_(
     mut _7348: *mut libc::c_void,
@@ -27200,7 +27200,7 @@ unsafe extern "C" fn _ZN4astcL3minIfEET_S1_S1_(
     _7395 = _7395__PHI_TEMPORARY;
     return _7395;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3minIfERKT_S2_S2_(
     mut _7399: *mut libc::c_void,
@@ -27232,7 +27232,7 @@ pub unsafe extern "C" fn _ZSt3minIfERKT_S2_S2_(
     _7410 = _7401;
     return _7410;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3minIiERKT_S2_S2_(
     mut _7414: *mut libc::c_void,

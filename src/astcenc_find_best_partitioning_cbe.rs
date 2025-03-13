@@ -883,7 +883,7 @@ unsafe extern "C" fn llvm_lshr_u64(mut a: uint64_t, mut b: uint64_t) -> uint64_t
     let mut r: uint64_t = a >> b;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descriptorRK11image_blockjjPjj(
     mut _1: *mut libc::c_void,
@@ -7604,7 +7604,7 @@ unsafe extern "C" fn _ZN4astcL3minIjEET_S1_S1_(
     _1689 = _1689__PHI_TEMPORARY;
     return _1689;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     mut _1693: *mut libc::c_void,
@@ -8117,7 +8117,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         | _1824 & 8 as libc::c_int as uint32_t
         != 0 as libc::c_uint) as libc::c_int as bool_0;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor22get_raw_partition_infoEjj(
     mut _1825: *mut libc::c_void,
@@ -11256,7 +11256,7 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _2759: *mut libc::c_void,
@@ -11366,7 +11366,7 @@ unsafe extern "C" fn _ZN4astcL3minIfEET_S1_S1_(
     _2792 = _2792__PHI_TEMPORARY;
     return _2792;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt14numeric_limitsIfE3maxEv() -> libc::c_float {
     return 3.40282347E+38f64 as libc::c_float;
@@ -12172,7 +12172,7 @@ unsafe extern "C" fn _ZN4astcL3minIiEET_S1_S1_S1_S1_(
     _3153 = _ZN4astcL3minIiEET_S1_S1_(_3149, _3152);
     return _3153;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     mut _3154: *mut libc::c_void,
@@ -12208,7 +12208,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
         .offset(_3162 as uint64_t as int64_t as isize)
         as *mut l_struct_struct_OC_partition_info as *mut libc::c_void;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4sqrtf(mut _3165: libc::c_float) -> libc::c_float {
     let mut _3166: libc::c_float = 0.;

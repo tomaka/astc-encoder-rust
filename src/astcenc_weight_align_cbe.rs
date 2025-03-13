@@ -829,7 +829,7 @@ unsafe extern "C" fn llvm_OC_fabs_OC_f32(mut a: libc::c_float) -> libc::c_float 
     r = fabsf(a);
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z22prepare_angular_tablesv() {
     let mut _1: uint32_t = 0;
@@ -901,7 +901,7 @@ pub unsafe extern "C" fn _Z22prepare_angular_tablesv() {
         _1 = llvm_add_u32(_18, 1 as libc::c_int as uint32_t);
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_descriptorPKfjR27compression_working_buffers(
     mut _27: bool_0,
@@ -1257,7 +1257,7 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_1planeE12quant_method(
     mut _155: *mut libc::c_void,
@@ -1282,7 +1282,7 @@ pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_1planeE12quant_method(
     _163 = _159;
     return (_162 as uint32_t & _163 as uint32_t != 0 as libc::c_uint) as libc::c_int as bool_0;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     mut _164: *mut libc::c_void,
@@ -3573,7 +3573,7 @@ unsafe extern "C" fn _ZL42compute_angular_endpoints_for_quant_levelsjPKfjPfS1_(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z33compute_angular_endpoints_2planesRK21block_size_descriptorPKfjR27compression_working_buffers(
     mut _783: *mut libc::c_void,
@@ -3991,7 +3991,7 @@ pub unsafe extern "C" fn _Z33compute_angular_endpoints_2planesRK21block_size_des
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_2planeE12quant_method(
     mut _921: *mut libc::c_void,
@@ -15588,7 +15588,7 @@ unsafe extern "C" fn _ZN4astcL3maxIiEET_S1_S1_(
     _3907 = _3907__PHI_TEMPORARY;
     return _3907;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3absf(mut _3911: libc::c_float) -> libc::c_float {
     let mut _3912: libc::c_float = 0.;
@@ -15599,7 +15599,7 @@ pub unsafe extern "C" fn _ZSt3absf(mut _3911: libc::c_float) -> libc::c_float {
     _3914 = llvm_OC_fabs_OC_f32(_3913);
     return _3914;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3minIfERKT_S2_S2_(
     mut _3915: *mut libc::c_void,
@@ -15631,7 +15631,7 @@ pub unsafe extern "C" fn _ZSt3minIfERKT_S2_S2_(
     _3926 = _3917;
     return _3926;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3maxIfERKT_S2_S2_(
     mut _3930: *mut libc::c_void,
@@ -15663,7 +15663,7 @@ pub unsafe extern "C" fn _ZSt3maxIfERKT_S2_S2_(
     _3941 = _3932;
     return _3941;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt5roundf(mut _3945: libc::c_float) -> libc::c_float {
     let mut _3946: libc::c_float = 0.;

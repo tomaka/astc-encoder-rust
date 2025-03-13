@@ -20,7 +20,7 @@ unsafe extern "C" fn llvm_lshr_u64(mut a: uint64_t, mut b: uint64_t) -> uint64_t
     let mut r: uint64_t = a >> b;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc9rand_initEPm(mut _1: *mut libc::c_void) {
     let mut _2: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -33,7 +33,7 @@ pub unsafe extern "C" fn _ZN4astc9rand_initEPm(mut _1: *mut libc::c_void) {
     *(&mut *(_4 as *mut uint64_t).offset(1 as libc::c_int as int64_t as isize) as *mut uint64_t) =
         -(1030452625173160591 as libc::c_long) as uint64_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc4randEPm(mut _5: *mut libc::c_void) -> uint64_t {
     let mut _6: *mut libc::c_void = 0 as *mut libc::c_void;

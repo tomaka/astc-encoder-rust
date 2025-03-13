@@ -371,7 +371,7 @@ unsafe extern "C" fn llvm_neg_u32(mut a: int32_t) -> uint32_t {
     let mut r: uint32_t = -a as uint32_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z13sf16_to_floatt(mut _1: uint16_t) -> libc::c_float {
     let mut _2: uint16_t = 0;
@@ -471,7 +471,7 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _35 = _8;
     return _35;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z13float_to_sf16f(mut _43: libc::c_float) -> uint16_t {
     let mut _44: libc::c_float = 0.;

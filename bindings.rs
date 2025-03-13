@@ -1115,10 +1115,8 @@ const _: () = {
     ["Offset of field: astcenc_block_info::partition_assignment"]
         [::core::mem::offset_of!(astcenc_block_info, partition_assignment) - 1928usize];
 };
-unsafe extern "C" {
     #[doc = " Populate a codec config based on default settings.\n\n Power users can edit the returned config struct to fine tune before allocating the context.\n\n @param      profile   Color profile.\n @param      block_x   ASTC block size X dimension.\n @param      block_y   ASTC block size Y dimension.\n @param      block_z   ASTC block size Z dimension.\n @param      quality   Search quality preset / effort level. Either an\n                       @c ASTCENC_PRE_* value, or a effort level between 0\n                       and 100. Performance is not linear between 0 and 100.\n\n @param      flags     A valid set of @c ASTCENC_FLG_* flag bits.\n @param[out] config    Output config struct to populate.\n\n @return @c ASTCENC_SUCCESS on success, or an error if the inputs are invalid\n either individually, or in combination."]
-    #[link_name = "\u{1}_Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc_config"]
-    pub fn astcenc_config_init(
+    pub unsafe fn astcenc_config_init(
         profile: astcenc_profile,
         block_x: ::core::ffi::c_uint,
         block_y: ::core::ffi::c_uint,
@@ -1126,72 +1124,65 @@ unsafe extern "C" {
         quality: f32,
         flags: ::core::ffi::c_uint,
         config: *mut astcenc_config,
-    ) -> astcenc_error;
-}
-unsafe extern "C" {
+    ) -> astcenc_error {
+        crate::src::astcenc_entry_cbe:: _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc_config(profile, block_x, block_y, block_z, quality, flags, config.cast())
+    }
     #[doc = " @brief Allocate a new codec context based on a config.\n\n This function allocates all of the memory resources and threads needed by the codec. This can be\n slow, so it is recommended that contexts are reused to serially compress or decompress multiple\n images to amortize setup cost.\n\n Contexts can be allocated to support only decompression using the @c ASTCENC_FLG_DECOMPRESS_ONLY\n flag when creating the configuration. The compression functions will fail if invoked. For a\n decompress-only library build the @c ASTCENC_FLG_DECOMPRESS_ONLY flag must be set when creating\n any context.\n\n @param[in]  config         Codec config.\n @param      thread_count   Thread count to configure for.\n @param[out] context        Location to store an opaque context pointer.\n\n @return @c ASTCENC_SUCCESS on success, or an error if context creation failed."]
-    #[link_name = "\u{1}_Z21astcenc_context_allocPK14astcenc_configjPP15astcenc_context"]
-    pub fn astcenc_context_alloc(
+    pub unsafe fn astcenc_context_alloc(
         config: *const astcenc_config,
         thread_count: ::core::ffi::c_uint,
         context: *mut *mut astcenc_context,
-    ) -> astcenc_error;
-}
-unsafe extern "C" {
+    ) -> astcenc_error {
+        crate::src::astcenc_entry_cbe::_Z21astcenc_context_allocPK14astcenc_configjPP15astcenc_context(config.cast_mut().cast(), thread_count, context.cast())
+    }
     #[doc = " @brief Compress an image.\n\n A single context can only compress or decompress a single image at a time.\n\n For a context configured for multi-threading, any set of the N threads can call this function.\n Work will be dynamically scheduled across the threads available. Each thread must have a unique\n @c thread_index.\n\n @param         context        Codec context.\n @param[in,out] image          An input image, in 2D slices.\n @param         swizzle        Compression data swizzle, applied before compression.\n @param[out]    data_out       Pointer to output data array.\n @param         data_len       Length of the output data array.\n @param         thread_index   Thread index [0..N-1] of calling thread.\n\n @return @c ASTCENC_SUCCESS on success, or an error if compression failed."]
-    #[link_name = "\u{1}_Z22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmj"]
-    pub fn astcenc_compress_image(
+    pub unsafe fn astcenc_compress_image(
         context: *mut astcenc_context,
         image: *mut astcenc_image,
         swizzle: *const astcenc_swizzle,
         data_out: *mut u8,
         data_len: usize,
         thread_index: ::core::ffi::c_uint,
-    ) -> astcenc_error;
-}
-unsafe extern "C" {
+    ) -> astcenc_error {
+        crate::src::astcenc_entry_cbe::_Z22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmj(context.cast(), image.cast(),swizzle.cast_mut().cast(), data_out.cast(), u64::try_from(data_len).unwrap(), thread_index)
+    }
     #[doc = " @brief Reset the codec state for a new compression.\n\n The caller is responsible for synchronizing threads in the worker thread pool. This function must\n only be called when all threads have exited the @c astcenc_compress_image() function for image N,\n but before any thread enters it for image N + 1.\n\n Calling this is not required (but won't hurt), if the context is created for single threaded use.\n\n @param context   Codec context.\n\n @return @c ASTCENC_SUCCESS on success, or an error if reset failed."]
-    #[link_name = "\u{1}_Z22astcenc_compress_resetP15astcenc_context"]
-    pub fn astcenc_compress_reset(context: *mut astcenc_context) -> astcenc_error;
-}
-unsafe extern "C" {
+    pub unsafe fn astcenc_compress_reset(context: *mut astcenc_context) -> astcenc_error {
+        crate::src::astcenc_entry_cbe::_Z22astcenc_compress_resetP15astcenc_context(context.cast())
+    }
     #[doc = " @brief Cancel any pending compression operation.\n\n The caller must behave as if the compression completed normally, even though the data will be\n undefined. They are still responsible for synchronizing threads in the worker thread pool, and\n must call reset before starting another compression.\n\n @param context   Codec context.\n\n @return @c ASTCENC_SUCCESS on success, or an error if cancellation failed."]
-    #[link_name = "\u{1}_Z23astcenc_compress_cancelP15astcenc_context"]
-    pub fn astcenc_compress_cancel(context: *mut astcenc_context) -> astcenc_error;
-}
-unsafe extern "C" {
+    pub unsafe fn astcenc_compress_cancel(context: *mut astcenc_context) -> astcenc_error {
+        crate::src::astcenc_entry_cbe::_Z23astcenc_compress_cancelP15astcenc_context(context.cast())
+    }
     #[doc = " @brief Decompress an image.\n\n @param         context        Codec context.\n @param[in]     data           Pointer to compressed data.\n @param         data_len       Length of the compressed data, in bytes.\n @param[in,out] image_out      Output image.\n @param         swizzle        Decompression data swizzle, applied after decompression.\n @param         thread_index   Thread index [0..N-1] of calling thread.\n\n @return @c ASTCENC_SUCCESS on success, or an error if decompression failed."]
-    #[link_name = "\u{1}_Z24astcenc_decompress_imageP15astcenc_contextPKhmP13astcenc_imagePK15astcenc_swizzlej"]
-    pub fn astcenc_decompress_image(
+    pub unsafe fn astcenc_decompress_image(
         context: *mut astcenc_context,
         data: *const u8,
         data_len: usize,
         image_out: *mut astcenc_image,
         swizzle: *const astcenc_swizzle,
         thread_index: ::core::ffi::c_uint,
-    ) -> astcenc_error;
-}
-unsafe extern "C" {
+    ) -> astcenc_error {
+        crate::src::astcenc_entry_cbe::_Z24astcenc_decompress_imageP15astcenc_contextPKhmP13astcenc_imagePK15astcenc_swizzlej(context.cast(), data.cast_mut().cast(), u64::try_from(data_len).unwrap(), image_out.cast(), swizzle.cast_mut().cast(), thread_index)
+    }
     #[doc = " @brief Reset the codec state for a new decompression.\n\n The caller is responsible for synchronizing threads in the worker thread pool. This function must\n only be called when all threads have exited the @c astcenc_decompress_image() function for image\n N, but before any thread enters it for image N + 1.\n\n Calling this is not required (but won't hurt), if the context is created for single threaded use.\n\n @param context   Codec context.\n\n @return @c ASTCENC_SUCCESS on success, or an error if reset failed."]
-    #[link_name = "\u{1}_Z24astcenc_decompress_resetP15astcenc_context"]
-    pub fn astcenc_decompress_reset(context: *mut astcenc_context) -> astcenc_error;
-}
-unsafe extern "C" {
+    pub unsafe fn astcenc_decompress_reset(context: *mut astcenc_context) -> astcenc_error {
+        crate::src::astcenc_entry_cbe::_Z24astcenc_decompress_resetP15astcenc_context(context.cast())
+    }
     #[doc = " Free the compressor context.\n\n @param context   The codec context."]
-    #[link_name = "\u{1}_Z20astcenc_context_freeP15astcenc_context"]
-    pub fn astcenc_context_free(context: *mut astcenc_context);
-}
-unsafe extern "C" {
+    pub unsafe fn astcenc_context_free(context: *mut astcenc_context) {
+        crate::src::astcenc_entry_cbe::_Z20astcenc_context_freeP15astcenc_context(context.cast())
+    }
     #[doc = " @brief Provide a high level summary of a block's encoding.\n\n This feature is primarily useful for codec developers but may be useful for developers building\n advanced content packaging pipelines.\n\n @param context   Codec context.\n @param data      One block of compressed ASTC data.\n @param info      The output info structure to populate.\n\n @return @c ASTCENC_SUCCESS if the block was decoded, or an error otherwise. Note that this\n         function will return success even if the block itself was an error block encoding, as the\n         decode was correctly handled."]
-    #[link_name = "\u{1}_Z22astcenc_get_block_infoP15astcenc_contextPKhP18astcenc_block_info"]
-    pub fn astcenc_get_block_info(
+    pub unsafe fn astcenc_get_block_info(
         context: *mut astcenc_context,
         data: *const u8,
         info: *mut astcenc_block_info,
-    ) -> astcenc_error;
-}
-unsafe extern "C" {
+    ) -> astcenc_error {
+        crate::src::astcenc_entry_cbe::_Z22astcenc_get_block_infoP15astcenc_contextPKhP18astcenc_block_info(context.cast(), data.cast_mut().cast(), info.cast())
+    }
     #[doc = " @brief Get a printable string for specific status code.\n\n @param status   The status value.\n\n @return A human readable nul-terminated string."]
-    #[link_name = "\u{1}_Z24astcenc_get_error_string13astcenc_error"]
-    pub fn astcenc_get_error_string(status: astcenc_error) -> *const ::core::ffi::c_char;
-}
+    pub unsafe fn astcenc_get_error_string(status: astcenc_error) -> *const ::core::ffi::c_char {
+        crate::src::astcenc_entry_cbe::_Z24astcenc_get_error_string13astcenc_error(status).cast_const().cast()
+    }
+

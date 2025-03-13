@@ -1781,7 +1781,7 @@ unsafe extern "C" fn llvm_OC_fmuladd_OC_f32(
     r = a * b + c;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method(
     mut _1: l_array_4_float,
@@ -26437,7 +26437,7 @@ unsafe extern "C" fn _ZL22quantize_hdr_rgb_alpha7vfloat4S_Ph12quant_method(
         _7272,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4swapI7vfloat4ENSt9enable_ifIXsr6__and_ISt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS4_ESt18is_move_assignableIS4_EEE5valueEvE4typeERS4_SD_(
     mut _7273: *mut libc::c_void,
@@ -26872,7 +26872,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7402 = (*(&mut _7328.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_88)).data;
     return _7402;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4moveIR7vfloat4EONSt16remove_referenceIT_E4typeEOS3_(
     mut _7403: *mut libc::c_void,
@@ -28110,7 +28110,7 @@ unsafe extern "C" fn _ZN4astcL7clamp1fEf(mut _7780: libc::c_float) -> libc::c_fl
     );
     return _7783;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc5clampIiEET_S1_S1_S1_(
     mut _7784: uint32_t,
@@ -28151,7 +28151,7 @@ pub unsafe extern "C" fn _ZN4astc5clampIiEET_S1_S1_S1_(
     _7798 = _7787;
     return _7798;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc5clampIfEET_S1_S1_S1_(
     mut _7804: libc::c_float,

@@ -1893,7 +1893,7 @@ unsafe extern "C" fn llvm_OC_fabs_OC_f32(mut a: libc::c_float) -> libc::c_float 
     r = fabsf(a);
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z14unpack_weightsRK21block_size_descriptorRK25symbolic_compressed_blockRK15decimation_infobPiS8_(
     mut _1: *mut libc::c_void,
@@ -4264,7 +4264,7 @@ pub unsafe extern "C" fn _Z14unpack_weightsRK21block_size_descriptorRK25symbolic
         }
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z25decompress_symbolic_block15astcenc_profileRK21block_size_descriptoriiiRK25symbolic_compressed_blockR11image_block(
     mut _690: uint32_t,
@@ -10563,7 +10563,7 @@ unsafe extern "C" fn _ZL21get_u8_component_mask15astcenc_profileRK11image_block(
     _2286 = (*(&mut _2262.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_83)).data;
     return _2286;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     mut _2291: *mut libc::c_void,
@@ -10672,7 +10672,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     mut _2326: *mut libc::c_void,
@@ -10728,7 +10728,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     mut _2344: *mut libc::c_void,
@@ -17832,7 +17832,7 @@ unsafe extern "C" fn _ZL12decode_texel5vint46vmask4(
     _4251 = _3226;
     return _4251;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc_configRK21block_size_descriptorRK25symbolic_compressed_blockRK11image_block(
     mut _4354: *mut libc::c_void,
@@ -20230,7 +20230,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_2planeRK14astcenc
     _4931 = _4505;
     return _4931;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _4988: *mut libc::c_void,
@@ -20313,7 +20313,7 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     _5012 = _4995;
     return _5012;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_1planeRK14astcenc_configRK21block_size_descriptorRK25symbolic_compressed_blockRK11image_block(
     mut _5013: *mut libc::c_void,
@@ -22304,7 +22304,7 @@ pub unsafe extern "C" fn _Z40compute_symbolic_block_difference_1planeRK14astcenc
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partitionRK14astcenc_configRK21block_size_descriptorRK25symbolic_compressed_blockRK11image_block(
     mut _5553: *mut libc::c_void,
@@ -32044,7 +32044,7 @@ pub unsafe extern "C" fn _Z51compute_symbolic_block_difference_1plane_1partition
     _7863 = _6207;
     return _7863;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3maxIiERKT_S2_S2_(
     mut _7985: *mut libc::c_void,
@@ -32076,7 +32076,7 @@ pub unsafe extern "C" fn _ZSt3maxIiERKT_S2_S2_(
     _7996 = _7987;
     return _7996;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     mut _8000: *mut libc::c_void,
@@ -32112,7 +32112,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
         .offset(_8008 as uint64_t as int64_t as isize)
         as *mut l_struct_struct_OC_partition_info as *mut libc::c_void;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3absf(mut _8011: libc::c_float) -> libc::c_float {
     let mut _8012: libc::c_float = 0.;

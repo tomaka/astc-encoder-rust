@@ -1642,7 +1642,7 @@ unsafe extern "C" fn llvm_OC_fabs_OC_f32(mut a: libc::c_float) -> libc::c_float 
     r = fabsf(a);
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z39compute_ideal_colors_and_weights_1planeRK11image_blockRK14partition_infoR21endpoints_and_weights(
     mut _1: *mut libc::c_void,
@@ -1690,7 +1690,7 @@ pub unsafe extern "C" fn _Z39compute_ideal_colors_and_weights_1planeRK11image_bl
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     mut _20: *mut libc::c_void,
@@ -7764,7 +7764,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_3_compRK11image_block
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_size_descriptorRK11image_blockjR21endpoints_and_weightsS6_(
     mut _1696: *mut libc::c_void,
@@ -7984,7 +7984,7 @@ pub unsafe extern "C" fn _Z40compute_ideal_colors_and_weights_2planesRK21block_s
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     mut _1771: *mut libc::c_void,
@@ -13207,7 +13207,7 @@ unsafe extern "C" fn _ZL39compute_ideal_colors_and_weights_1_compRK11image_block
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z34compute_error_of_weight_set_1planeRK21endpoints_and_weightsRK15decimation_infoPKf(
     mut _3212: *mut libc::c_void,
@@ -17420,7 +17420,7 @@ unsafe extern "C" fn _ZL21bilinear_infill_vla_2RK15decimation_infoPKfj(
     _4390 = _4244;
     return _4390;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_and_weightsS1_RK15decimation_infoPKfS6_(
     mut _4391: *mut libc::c_void,
@@ -21473,7 +21473,7 @@ pub unsafe extern "C" fn _Z35compute_error_of_weight_set_2planesRK21endpoints_an
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_and_weightsRK15decimation_infoPf(
     mut _5425: *mut libc::c_void,
@@ -25882,7 +25882,7 @@ pub unsafe extern "C" fn _Z36compute_ideal_weights_for_decimationRK21endpoints_a
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z40compute_quantized_weights_for_decimationRK15decimation_infoffPKfPfPh12quant_method(
     mut _6572: *mut libc::c_void,
@@ -32166,7 +32166,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _8253: uint32_t) -> 
     _8257 = _8254;
     return _8257;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14partition_infoRK15decimation_infoPKhR9endpointsP7vfloat4SD_(
     mut _8281: *mut libc::c_void,
@@ -43958,7 +43958,7 @@ pub unsafe extern "C" fn _Z29recompute_ideal_colors_1planeRK11image_blockRK14par
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _11245: *mut libc::c_void,
@@ -45355,7 +45355,7 @@ unsafe extern "C" fn _ZN4astcL5isnanEf(mut _11694: libc::c_float) -> bool_0 {
     _11697 = _11695;
     return llvm_fcmp_une(_11696 as libc::c_double, _11697 as libc::c_double) as bool_0;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21block_size_descriptorRK15decimation_infoPKhS9_R9endpointsR7vfloat4SD_i(
     mut _11698: *mut libc::c_void,
@@ -63842,7 +63842,7 @@ pub unsafe extern "C" fn _Z30recompute_ideal_colors_2planesRK11image_blockRK21bl
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4sqrtf(mut _16247: libc::c_float) -> libc::c_float {
     let mut _16248: libc::c_float = 0.;
@@ -63853,7 +63853,7 @@ pub unsafe extern "C" fn _ZSt4sqrtf(mut _16247: libc::c_float) -> libc::c_float 
     _16250 = sqrtf(_16249);
     return _16250;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     mut _16251: *mut libc::c_void,
@@ -63889,7 +63889,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
         .offset(_16259 as uint64_t as int64_t as isize)
         as *mut l_struct_struct_OC_partition_info as *mut libc::c_void;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3maxIiERKT_S2_S2_(
     mut _16262: *mut libc::c_void,
@@ -63921,7 +63921,7 @@ pub unsafe extern "C" fn _ZSt3maxIiERKT_S2_S2_(
     _16273 = _16264;
     return _16273;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc5clampIfEET_S1_S1_S1_(
     mut _16277: libc::c_float,
@@ -63962,7 +63962,7 @@ pub unsafe extern "C" fn _ZN4astc5clampIfEET_S1_S1_S1_(
     _16291 = _16280;
     return _16291;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3absf(mut _16297: libc::c_float) -> libc::c_float {
     let mut _16298: libc::c_float = 0.;

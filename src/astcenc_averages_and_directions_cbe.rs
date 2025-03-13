@@ -1413,7 +1413,7 @@ unsafe extern "C" fn llvm_fdiv_f32(mut a: libc::c_float, mut b: libc::c_float) -
     let mut r: libc::c_float = a / b;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11image_blockP17partition_metrics(
     mut _1: *mut libc::c_void,
@@ -25689,7 +25689,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _5957: *mut libc::c_void,
@@ -25772,7 +25772,7 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     _5981 = _5964;
     return _5981;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11image_blockjP17partition_metrics(
     mut _5982: *mut libc::c_void,
@@ -30984,7 +30984,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoRK11image_blockP17partition_metrics(
     mut _7401: *mut libc::c_void,
@@ -51246,7 +51246,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block6texel3Ej(
     mut _12385: *mut libc::c_void,
@@ -51341,7 +51341,7 @@ pub unsafe extern "C" fn _ZNK11image_block6texel3Ej(
     _12415 = _12396;
     return _12415;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11image_blockjjP17partition_metrics(
     mut _12416: *mut libc::c_void,
@@ -54547,7 +54547,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11image_blockPK15processed_line4S7_PfRfS9_(
     mut _13276: *mut libc::c_void,
@@ -64420,7 +64420,7 @@ unsafe extern "C" fn _ZN4astcL3maxIfEET_S1_S1_(
     _15783 = _15783__PHI_TEMPORARY;
     return _15783;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11image_blockP16partition_lines3RfS7_(
     mut _15787: *mut libc::c_void,
@@ -72316,7 +72316,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3maxIfERKT_S2_S2_(
     mut _17795: *mut libc::c_void,
@@ -72348,7 +72348,7 @@ pub unsafe extern "C" fn _ZSt3maxIfERKT_S2_S2_(
     _17806 = _17797;
     return _17806;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt3minIfERKT_S2_S2_(
     mut _17810: *mut libc::c_void,

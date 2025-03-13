@@ -7473,7 +7473,7 @@ unsafe extern "C" fn llvm_ashr_u32(mut a: int32_t, mut b: int32_t) -> uint32_t {
     let mut r: uint32_t = (a >> b) as uint32_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
     mut _1: uint32_t,
@@ -7707,7 +7707,7 @@ unsafe extern "C" fn _ZL16get_packed_tableii(
     _75 = _68;
     return _75;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z22is_legal_2d_block_sizejj(
     mut _92: uint32_t,
@@ -7739,7 +7739,7 @@ pub unsafe extern "C" fn _Z22is_legal_2d_block_sizejj(
     _101 = _94;
     return _101;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z22is_legal_3d_block_sizejjj(
     mut _105: uint32_t,

@@ -749,7 +749,7 @@ unsafe extern "C" fn llvm_OC_fmuladd_OC_f32(
     r = a * b + c;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z16load_image_block15astcenc_profileRK13astcenc_imageR11image_blockRK21block_size_descriptorjjjRK15astcenc_swizzle(
     mut _1: uint32_t,
@@ -11333,7 +11333,7 @@ unsafe extern "C" fn _ZN4astcL3minIjEET_S1_S1_(
     _3025 = _3025__PHI_TEMPORARY;
     return _3025;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _3029: *mut libc::c_void,
@@ -11416,7 +11416,7 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     _3053 = _3036;
     return _3053;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astcenc_imageR11image_blockRK21block_size_descriptorjjjRK15astcenc_swizzle(
     mut _3054: uint32_t,
@@ -13457,7 +13457,7 @@ pub unsafe extern "C" fn _Z25load_image_block_fast_ldr15astcenc_profileRK13astce
             | _3592 & 8 as libc::c_int as uint32_t
             == 15 as libc::c_uint) as libc::c_int as bool_0;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z17store_image_blockR13astcenc_imageRK11image_blockRK21block_size_descriptorjjjRK15astcenc_swizzle(
     mut _3626: *mut libc::c_void,
@@ -22539,7 +22539,7 @@ unsafe extern "C" fn _ZN4astcL4sqrtEf(mut _6023: libc::c_float) -> libc::c_float
     _6026 = _ZSt4sqrtf(_6025);
     return _6026;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4sqrtf(mut _6027: libc::c_float) -> libc::c_float {
     let mut _6028: libc::c_float = 0.;

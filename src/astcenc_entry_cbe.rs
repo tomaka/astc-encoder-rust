@@ -1895,7 +1895,7 @@ unsafe extern "C" fn llvm_OC_umul_OC_with_OC_overflow_OC_i64(
     r.field1 = carry as bool_0;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc_config(
     mut _1: uint32_t,
@@ -3169,7 +3169,7 @@ unsafe extern "C" fn _ZL19validate_block_sizejjj(
     _471 = _449;
     return _471;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(
     mut _482: *mut libc::c_void,
@@ -3326,7 +3326,7 @@ unsafe extern "C" fn _ZN4astcL3minIjEET_S1_S1_(mut _534: uint32_t, mut _535: uin
     _542 = _542__PHI_TEMPORARY;
     return _542;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc_context(
     mut _546: *mut libc::c_void,
@@ -9924,7 +9924,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
     _2062 = _1099;
     return _2062;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15astcenc_contextC2Ev(mut _2123: *mut libc::c_void) {
     let mut _2124: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -10321,7 +10321,7 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
     _2254 = _2132;
     return _2254;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15astcenc_contextD2Ev(mut _2265: *mut libc::c_void) {
     let mut _2266: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -10341,7 +10341,7 @@ pub unsafe extern "C" fn _ZN15astcenc_contextD2Ev(mut _2265: *mut libc::c_void) 
             as *mut l_struct_class_OC_ParallelManager as *mut libc::c_void,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z14aligned_mallocI21block_size_descriptorEPT_mm(
     mut _2268: uint64_t,
@@ -10405,7 +10405,7 @@ pub unsafe extern "C" fn _Z14aligned_mallocI21block_size_descriptorEPT_mm(
     _2287 = _2270;
     return _2287;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z14aligned_mallocI27compression_working_buffersEPT_mm(
     mut _2292: uint64_t,
@@ -10469,7 +10469,7 @@ pub unsafe extern "C" fn _Z14aligned_mallocI27compression_working_buffersEPT_mm(
     _2311 = _2294;
     return _2311;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z12aligned_freeI21block_size_descriptorEvPT_(
     mut _2316: *mut libc::c_void,
@@ -10480,7 +10480,7 @@ pub unsafe extern "C" fn _Z12aligned_freeI21block_size_descriptorEvPT_(
     _2318 = _2317;
     free(_2318);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z20astcenc_context_freeP15astcenc_context(mut _2319: *mut libc::c_void) {
     let mut _2320: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -10513,7 +10513,7 @@ pub unsafe extern "C" fn _Z20astcenc_context_freeP15astcenc_context(mut _2319: *
         }
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z12aligned_freeI27compression_working_buffersEvPT_(
     mut _2333: *mut libc::c_void,
@@ -10524,7 +10524,7 @@ pub unsafe extern "C" fn _Z12aligned_freeI27compression_working_buffersEvPT_(
     _2335 = _2334;
     free(_2335);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmj(
     mut _2336: *mut libc::c_void,
@@ -10894,7 +10894,7 @@ unsafe extern "C" fn _ZL28validate_compression_swizzleRK15astcenc_swizzle(
     _2451 = _2437;
     return _2451;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z22astcenc_compress_resetP15astcenc_context(
     mut _2458: *mut libc::c_void,
@@ -10934,7 +10934,7 @@ pub unsafe extern "C" fn _Z22astcenc_compress_resetP15astcenc_context(
     _2467 = _2459;
     return _2467;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager4initESt8functionIFjvEE(
     mut _2471: *mut libc::c_void,
@@ -11046,7 +11046,7 @@ unsafe extern "C" fn _ZNSt8functionIFjvEEC2IRZ22astcenc_compress_imageP15astcenc
         );
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt8functionIFjvEED2Ev(mut _2499: *mut libc::c_void) {
     let mut _2500: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -11280,7 +11280,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
         _ZdaPv(_2575);
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager4waitEv(mut _2590: *mut libc::c_void) {
     let mut _2591: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -12314,7 +12314,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
         );
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager4termESt8functionIFvvEE(
     mut _2929: *mut libc::c_void,
@@ -12421,7 +12421,7 @@ unsafe extern "C" fn _ZNSt8functionIFvvEEC2IRZ22astcenc_compress_imageP15astcenc
         );
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt8functionIFvvEED2Ev(mut _2953: *mut libc::c_void) {
     let mut _2954: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -12430,7 +12430,7 @@ pub unsafe extern "C" fn _ZNSt8functionIFvvEED2Ev(mut _2953: *mut libc::c_void) 
     _2955 = _2954;
     _ZNSt14_Function_baseD2Ev(_2955);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager5resetEv(mut _2956: *mut libc::c_void) {
     let mut _2957: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -12463,7 +12463,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager5resetEv(mut _2956: *mut libc::c_vo
     *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field10 as *mut libc::c_float) =
         1 as libc::c_int as libc::c_float;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z23astcenc_compress_cancelP15astcenc_context(
     mut _2961: *mut libc::c_void,
@@ -12503,7 +12503,7 @@ pub unsafe extern "C" fn _Z23astcenc_compress_cancelP15astcenc_context(
     _2970 = _2962;
     return _2970;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager6cancelEv(mut _2974: *mut libc::c_void) {
     let mut _2975: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -12517,7 +12517,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager6cancelEv(mut _2974: *mut libc::c_v
         1 as libc::c_int as bool_0,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13astcenc_imagePK15astcenc_swizzlej(
     mut _2978: *mut libc::c_void,
@@ -13020,7 +13020,7 @@ unsafe extern "C" fn _ZL30validate_decompression_swizzleRK15astcenc_swizzle(
     _3148 = _3134;
     return _3148;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z24astcenc_decompress_resetP15astcenc_context(
     mut _3155: *mut libc::c_void,
@@ -13035,7 +13035,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_resetP15astcenc_context(
     );
     return 0;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager4initEjPFvfE(
     mut _3158: *mut libc::c_void,
@@ -13093,7 +13093,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager4initEjPFvfE(
         &mut _3164 as *mut l_struct_class_OC_std_KD__KD_lock_guard as *mut libc::c_void,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager19get_task_assignmentEjRj(
     mut _3178: *mut libc::c_void,
@@ -13216,7 +13216,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager19get_task_assignmentEjRj(
     _3217 = _3186;
     return _3217;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
     mut _3228: *mut libc::c_void,
@@ -13413,7 +13413,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
         }
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astcenc_block_info(
     mut _3289: *mut libc::c_void,
@@ -20654,7 +20654,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
     _5024 = _3869;
     return _5024;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     mut _5151: *mut libc::c_void,
@@ -20763,7 +20763,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     mut _5186: *mut libc::c_void,
@@ -20819,7 +20819,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     mut _5204: *mut libc::c_void,
@@ -20919,7 +20919,7 @@ unsafe extern "C" fn _ZL15get_quant_level12quant_method(mut _5210: uint32_t) -> 
     _5214 = _5211;
     return _5214;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK25symbolic_compressed_block20get_color_quant_modeEv(
     mut _5238: *mut libc::c_void,
@@ -20933,7 +20933,7 @@ pub unsafe extern "C" fn _ZNK25symbolic_compressed_block20get_color_quant_modeEv
         as *mut uint32_t);
     return _5241;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
     mut _5242: *mut libc::c_void,
@@ -20946,7 +20946,7 @@ pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
     _5245 = *(&mut (*(_5244 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
     return _5245 as uint32_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z24astcenc_get_error_string13astcenc_error(
     mut _5246: uint32_t,
@@ -21053,7 +21053,7 @@ unsafe extern "C" fn _ZL8popcountm(mut _5265: uint64_t) -> uint32_t {
     _5283 = _5266;
     return _5283 as uint32_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManagerC2Ev(mut _5284: *mut libc::c_void) {
     let mut _5285: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21082,7 +21082,7 @@ pub unsafe extern "C" fn _ZN15ParallelManagerC2Ev(mut _5284: *mut libc::c_void) 
     );
     _ZN15ParallelManager5resetEv(_5288);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15ParallelManagerD2Ev(mut _5292: *mut libc::c_void) {
     let mut _5293: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21094,7 +21094,7 @@ pub unsafe extern "C" fn _ZN15ParallelManagerD2Ev(mut _5292: *mut libc::c_void) 
             as *mut l_struct_class_OC_std_KD__KD_condition_variable as *mut libc::c_void,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt5mutexC2Ev(mut _5295: *mut libc::c_void) {
     let mut _5296: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21103,7 +21103,7 @@ pub unsafe extern "C" fn _ZNSt5mutexC2Ev(mut _5295: *mut libc::c_void) {
     _5297 = _5296;
     _ZNSt12__mutex_baseC2Ev(_5297);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt12__mutex_baseC2Ev(mut _5298: *mut libc::c_void) {
     let mut _5299: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21160,7 +21160,7 @@ unsafe extern "C" fn _ZL16validate_profile15astcenc_profile(mut _5311: uint32_t)
     _5315 = _5312;
     return _5315;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc5clampIjEET_S1_S1_S1_(
     mut _5319: uint32_t,
@@ -21220,7 +21220,7 @@ unsafe extern "C" fn _ZL24validate_compression_swz11astcenc_swz(mut _5339: uint3
     _5343 = _5340;
     return _5343;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt10lock_guardISt5mutexEC2ERS0_(
     mut _5347: *mut libc::c_void,
@@ -21242,7 +21242,7 @@ pub unsafe extern "C" fn _ZNSt10lock_guardISt5mutexEC2ERS0_(
         as *mut *mut libc::c_void);
     _ZNSt5mutex4lockEv(_5353);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt8functionIFjvEEclEv(mut _5354: *mut libc::c_void) -> uint32_t {
     let mut _5355: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21266,7 +21266,7 @@ pub unsafe extern "C" fn _ZNKSt8functionIFjvEEclEv(mut _5354: *mut libc::c_void)
         return _5359;
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt10lock_guardISt5mutexED2Ev(mut _5362: *mut libc::c_void) {
     let mut _5363: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21278,7 +21278,7 @@ pub unsafe extern "C" fn _ZNSt10lock_guardISt5mutexED2Ev(mut _5362: *mut libc::c
         as *mut *mut libc::c_void);
     _ZNSt5mutex6unlockEv(_5365);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt5mutex4lockEv(mut _5367: *mut libc::c_void) {
     let mut _5368: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21328,7 +21328,7 @@ unsafe extern "C" fn _ZL20__gthread_mutex_lockP15pthread_mutex_t(
 unsafe extern "C" fn _ZL18__gthread_active_pv() -> uint32_t {
     return 1 as libc::c_int as uint32_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt14_Function_base8_M_emptyEv(mut _5386: *mut libc::c_void) -> bool_0 {
     let mut _5387: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21340,7 +21340,7 @@ pub unsafe extern "C" fn _ZNKSt14_Function_base8_M_emptyEv(mut _5386: *mut libc:
         as *mut *mut libc::c_void);
     return ((_5389 != 0 as *mut libc::c_void) as libc::c_int ^ 1 as libc::c_int) as bool_0;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt5mutex6unlockEv(mut _5390: *mut libc::c_void) {
     let mut _5391: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21353,7 +21353,7 @@ pub unsafe extern "C" fn _ZNSt5mutex6unlockEv(mut _5390: *mut libc::c_void) {
             as *mut l_struct_union_OC_pthread_mutex_t as *mut libc::c_void,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn __clang_call_terminate(mut _5394: *mut libc::c_void) -> ! {
     let mut _5395: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21383,7 +21383,7 @@ unsafe extern "C" fn _ZL22__gthread_mutex_unlockP15pthread_mutex_t(
     _5402 = _5397;
     return _5402;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt14_Function_baseD2Ev(mut _5406: *mut libc::c_void) {
     let mut _5407: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21435,7 +21435,7 @@ unsafe extern "C" fn _ZN4astcL3minIiEET_S1_S1_(
     _5423 = _5423__PHI_TEMPORARY;
     return _5423;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexEC2ERS0_(
     mut _5427: *mut libc::c_void,
@@ -21460,7 +21460,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexEC2ERS0_(
     *(&mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t) =
         1 as libc::c_int as uint8_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt18condition_variable4waitIZN15ParallelManager4waitEvEUlvE_EEvRSt11unique_lockISt5mutexET_(
     mut _5434: *mut libc::c_void,
@@ -21491,7 +21491,7 @@ pub unsafe extern "C" fn _ZNSt18condition_variable4waitIZN15ParallelManager4wait
         _ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE(_5440, _5442);
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexED2Ev(mut _5446: *mut libc::c_void) {
     let mut _5447: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21505,7 +21505,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexED2Ev(mut _5446: *mut libc::
         _ZNSt11unique_lockISt5mutexE6unlockEv(_5448);
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt11__addressofISt5mutexEPT_RS1_(
     mut _5453: *mut libc::c_void,
@@ -21516,7 +21516,7 @@ pub unsafe extern "C" fn _ZSt11__addressofISt5mutexEPT_RS1_(
     _5455 = _5454;
     return _5455;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE4lockEv(mut _5456: *mut libc::c_void) {
     let mut _5457: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21545,7 +21545,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE4lockEv(mut _5456: *mut lib
         _ZSt20__throw_system_errori(1 as libc::c_int as uint32_t);
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZZN15ParallelManager4waitEvENKUlvE_clEv(
     mut _5468: *mut libc::c_void,
@@ -21577,7 +21577,7 @@ pub unsafe extern "C" fn _ZZN15ParallelManager4waitEvENKUlvE_clEv(
     _5475 = _5475__PHI_TEMPORARY;
     return _5475;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt6atomicIbEcvbEv(mut _5478: *mut libc::c_void) -> bool_0 {
     let mut _5479: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21622,7 +21622,7 @@ pub unsafe extern "C" fn _ZNKSt6atomicIbEcvbEv(mut _5478: *mut libc::c_void) -> 
     _5492 = _5482;
     return (_5492 as libc::c_uint & 1 as libc::c_uint) as bool_0;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZStanSt12memory_orderSt23__memory_order_modifier(
     mut _5497: uint32_t,
@@ -21638,7 +21638,7 @@ pub unsafe extern "C" fn _ZStanSt12memory_orderSt23__memory_order_modifier(
     _5502 = _5500;
     return _5501 & _5502;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE6unlockEv(mut _5503: *mut libc::c_void) {
     let mut _5504: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21665,7 +21665,7 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE6unlockEv(mut _5503: *mut l
         _ZSt20__throw_system_errori(1 as libc::c_int as uint32_t);
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt8functionIFvvEEclEv(mut _5514: *mut libc::c_void) {
     let mut _5515: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -21688,7 +21688,7 @@ pub unsafe extern "C" fn _ZNKSt8functionIFvvEEclEv(mut _5514: *mut libc::c_void)
         return;
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt6atomicIbEaSEb(
     mut _5521: *mut libc::c_void,
@@ -21710,7 +21710,7 @@ pub unsafe extern "C" fn _ZNSt6atomicIbEaSEb(
     );
     return _5527;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt13__atomic_baseIjEaSEj(
     mut _5528: *mut libc::c_void,
@@ -21766,7 +21766,7 @@ pub unsafe extern "C" fn _ZNSt13__atomic_baseIjEaSEj(
     _5547 = _5536;
     return _5547;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt13__atomic_baseIbEaSEb(
     mut _5552: *mut libc::c_void,
@@ -21841,7 +21841,7 @@ unsafe extern "C" fn _ZL26validate_decompression_swz11astcenc_swz(mut _5576: uin
     _5580 = _5577;
     return _5580;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     mut _5584: *mut libc::c_void,
@@ -21904,7 +21904,7 @@ unsafe extern "C" fn _ZN4astcL3maxImEET_S1_S1_(
     _5603 = _5603__PHI_TEMPORARY;
     return _5603;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt14_Function_baseC2Ev(mut _5607: *mut libc::c_void) {
     let mut _5608: *mut libc::c_void = 0 as *mut libc::c_void;
@@ -22083,7 +22083,7 @@ unsafe extern "C" fn _ZNSt9_Any_data9_M_accessIPZ22astcenc_compress_imageP15astc
     _5665 = _ZNSt9_Any_data9_M_accessEv(_5664);
     return _5665;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt9_Any_data9_M_accessEv(
     mut _5666: *mut libc::c_void,
@@ -22232,7 +22232,7 @@ unsafe extern "C" fn _ZNKSt9_Any_data9_M_accessIPZ22astcenc_compress_imageP15ast
     _5711 = _ZNKSt9_Any_data9_M_accessEv(_5710);
     return _5711;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt9_Any_data9_M_accessEv(
     mut _5712: *mut libc::c_void,
@@ -22246,7 +22246,7 @@ pub unsafe extern "C" fn _ZNKSt9_Any_data9_M_accessEv(
         .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t
         as *mut libc::c_void;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNSt9_Any_data9_M_accessIPKSt9type_infoEERT_v(
     mut _5715: *mut libc::c_void,

@@ -279,7 +279,7 @@ unsafe extern "C" fn llvm_neg_u64(mut a: int64_t) -> uint64_t {
     let mut r: uint64_t = -a as uint64_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK17pixel_region_args(
     mut _1: *mut libc::c_void,
@@ -3609,7 +3609,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         }
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc5clampIiEET_S1_S1_S1_(
     mut _1006: uint32_t,
@@ -4093,7 +4093,7 @@ unsafe extern "C" fn _ZL21brent_kung_prefix_sumP7vfloat4mi(
         }
     }
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_swizzleR8avg_args(
     mut _1168: *mut libc::c_void,

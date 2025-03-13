@@ -562,7 +562,7 @@ unsafe extern "C" fn llvm_and_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
     let mut r: uint8_t = (a as libc::c_int & b as libc::c_int) as uint8_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPh(
     mut _1: *mut libc::c_void,
@@ -1585,7 +1585,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     mut _344: *mut libc::c_void,
@@ -1641,7 +1641,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     mut _362: *mut libc::c_void,
@@ -1662,7 +1662,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
         .offset(_367 as uint64_t as int64_t as isize)
         as *mut l_struct_struct_OC_decimation_info as *mut libc::c_void;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
     mut _368: *mut libc::c_void,
@@ -1896,7 +1896,7 @@ unsafe extern "C" fn _ZN4astcL3minIiEET_S1_S1_(mut _445: uint32_t, mut _446: uin
     _453 = _453__PHI_TEMPORARY;
     return _453;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK25symbolic_compressed_block20get_color_quant_modeEv(
     mut _457: *mut libc::c_void,
@@ -1910,7 +1910,7 @@ pub unsafe extern "C" fn _ZNK25symbolic_compressed_block20get_color_quant_modeEv
         as *mut uint32_t);
     return _460;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_block(
     mut _461: *mut libc::c_void,

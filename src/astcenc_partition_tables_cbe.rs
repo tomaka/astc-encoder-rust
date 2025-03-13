@@ -252,7 +252,7 @@ unsafe extern "C" fn llvm_ashr_u32(mut a: int32_t, mut b: int32_t) -> uint32_t {
     let mut r: uint32_t = (a >> b) as uint32_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
     mut _1: *mut libc::c_void,

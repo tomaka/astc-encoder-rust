@@ -4945,7 +4945,7 @@ unsafe extern "C" fn llvm_and_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
     let mut r: uint8_t = (a as libc::c_int & b as libc::c_int) as uint8_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
     mut _1: uint32_t,
@@ -5011,7 +5011,7 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
     _20 = _4;
     return _20;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
     mut _24: *mut libc::c_void,
@@ -5032,7 +5032,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
         .offset(_29 as int64_t as isize) as *mut l_struct_struct_OC_ise_size
         as *mut libc::c_void;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     mut _30: uint32_t,
@@ -6072,7 +6072,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
     mut _394: *mut libc::c_void,
@@ -6185,7 +6185,7 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     *(_434 as *mut uint8_t) =
         (_435 as uint32_t | llvm_lshr_u32(_432, 8 as libc::c_int as uint32_t)) as uint8_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     mut _436: uint32_t,

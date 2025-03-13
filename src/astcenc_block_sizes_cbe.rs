@@ -529,7 +529,7 @@ unsafe extern "C" fn llvm_or_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
     let mut r: uint8_t = (a as libc::c_int | b as libc::c_int) as uint8_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z26init_block_size_descriptorjjjbjfR21block_size_descriptor(
     mut _1: uint32_t,
@@ -6046,7 +6046,7 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
         );
     };
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15decimation_mode14set_ref_2planeE12quant_method(
     mut _1425: *mut libc::c_void,
@@ -6068,7 +6068,7 @@ pub unsafe extern "C" fn _ZN15decimation_mode14set_ref_2planeE12quant_method(
     *(_1431 as *mut uint16_t) =
         (_1432 as uint32_t | ((1 as libc::c_int) << _1430) as uint16_t as uint32_t) as uint16_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
     mut _1433: *mut libc::c_void,
@@ -6081,7 +6081,7 @@ pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
     _1436 = *(&mut (*(_1435 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
     return _1436 as uint32_t;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN15decimation_mode14set_ref_1planeE12quant_method(
     mut _1437: *mut libc::c_void,

@@ -266,7 +266,7 @@ pub struct l_unnamed_1 {
     pub field10: l_unnamed_23,
     pub field11: l_struct_struct_OC_quant_and_transfer_table,
 }
-#[no_mangle]
+
 pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
     {
         let mut init = l_unnamed_1 {

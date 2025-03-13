@@ -480,7 +480,7 @@ unsafe extern "C" fn llvm_ashr_u32(mut a: int32_t, mut b: int32_t) -> uint32_t {
     let mut r: uint32_t = (a >> b) as uint32_t;
     return r;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
     mut _1: l_array_2_uint64_t,
@@ -3587,7 +3587,7 @@ pub unsafe extern "C" fn _Z17rgba_delta_unpack5vint4S_RS_S0_(
         16 as libc::c_int as uint64_t,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4swapI5vint4ENSt9enable_ifIXsr6__and_ISt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS4_ESt18is_move_assignableIS4_EEE5valueEvE4typeERS4_SD_(
     mut _949: *mut libc::c_void,
@@ -3627,7 +3627,7 @@ pub unsafe extern "C" fn _ZSt4swapI5vint4ENSt9enable_ifIXsr6__and_ISt6__not_ISt1
     _962 = _952;
     _963 = memcpy(_962, _961, 16 as libc::c_int as uint64_t);
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
     mut _964: l_array_2_uint64_t,
@@ -4732,7 +4732,7 @@ pub unsafe extern "C" fn _Z11rgba_unpack5vint4S_RS_S0_(
         16 as libc::c_int as uint64_t,
     );
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5vint4S4_(
     mut _1284: uint32_t,
@@ -10110,7 +10110,7 @@ unsafe extern "C" fn _ZN4astcL3minIiEET_S1_S1_(
     _3217 = _3217__PHI_TEMPORARY;
     return _3217;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc5clampIiEET_S1_S1_S1_(
     mut _3221: uint32_t,
@@ -10273,7 +10273,7 @@ unsafe extern "C" fn _ZL16hdr_alpha_unpackPKhRiS1_(
     _3287 = *(_3286 as *mut uint32_t);
     *(_3286 as *mut uint32_t) = _3287 << 4 as libc::c_int;
 }
-#[no_mangle]
+
 #[inline(never)]
 pub unsafe extern "C" fn _ZSt4moveIR5vint4EONSt16remove_referenceIT_E4typeEOS3_(
     mut _3296: *mut libc::c_void,

@@ -24,5 +24,5 @@ Unfortunately, the generated Rust project doesn't compile immediately, and needs
 - Two calls to `abs(a)` where `a` is a `u32` have been replaced with just `a`.
 - Some unaligned fields pointer grabbing have been fixed using the `&raw mut` syntax.
 - One [call to `LLVMMul_uov`](https://github.com/JuliaHubOSS/llvm-cbe/blob/732f15aa9a7f7f63e2acdcb9b9836de70ee74135/lib/Target/CBackend/CBackend.cpp#L4640-L4643), which is equivalent to [`std::instrinsics::mul_with_overflow`](https://doc.rust-lang.org/std/intrinsics/fn.mul_with_overflow.html), was replaced with [`u32::overflowing_mul`](https://doc.rust-lang.org/std/primitive.u32.html#method.overflowing_mul).
-- `_ZN4astc5clampIfEET_S1_S1_S1_`, `_ZN4astc5clampIiEET_S1_S1_S1_`, `_ZNK10block_mode21get_weight_quant_modeEv`, `_ZNK11image_block12is_luminanceEv`, `_ZNK11image_block17get_default_alphaEv`, `_ZNK11image_block19is_constant_channelEi`, `_ZNK15decimation_mode13is_ref_1planeE12quant_method`, `_ZNK15decimation_mode13is_ref_2planeE12quant_method` were each defined multiple times. Extra definitions have been removed.
-- `_ZNK11image_block5texelEj`, `_ZNK21block_size_descriptor14get_block_modeEj`, `_ZNK21block_size_descriptor18get_partition_infoEjj` was defined multiple times, but to avoid too much refactoring the `#[no_mangle]` was removed instead of being deduplicated.
+- Many functions were each defined multiple times. All `#[no_mangle]` were removed.
+- Bindings were adjusted to directly call functions, rather than using `#[link_name]`.
