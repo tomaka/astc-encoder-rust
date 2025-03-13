@@ -97,10 +97,12 @@ RUN echo "fn roundf(v: f32) -> f32 { v.round() }" >> lib.rs
 RUN echo "fn sqrtf(v: f32) -> f32 { v.sqrt() }" >> lib.rs
 RUN echo "fn logf(v: f32) -> f32 { v.ln() }" >> lib.rs
 RUN echo "fn __assert_fail(_assertion: *mut core::ffi::c_void, _file: *mut core::ffi::c_void, _line: core::ffi::c_uint, _function: *mut core::ffi::c_void) -> ! { panic!() }" >> lib.rs
-RUN echo "fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -> u8 { let (res, carry) = (*a).overflowing_mul(*b); out.write(res); carry as u8 }" >> lib.rs
-RUN echo "unsafe fn posix_memalign(memptr: *mut *mut core::ffi::c_void, alignment: u64, size: u64) -> core::ffi::c_int { if size != 0 { let ptr = std::alloc::alloc(std::alloc::Layout::from_size_align(size, alignment).unwrap()); memptr.write(ptr); } else { memptr.write(core::ptr::null_mut()); } 0 }" >> lib.rs
-RUN echo "unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void { std::alloc::alloc(std::alloc::Layout::from_size_align(size as usize, 8).unwrap()).cast() }" >> lib.rs
-RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { std::alloc::alloc(std::alloc::Layout::from_size_align(size as usize, 8).unwrap()).cast() }" >> lib.rs
+RUN echo "fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -> u8 { let (res, carry) = (*a).overflowing_mul(*b); *out = res; carry as u8 }" >> lib.rs
+RUN echo "use libc::posix_memalign;" >> lib.rs
+RUN echo "use libc::free;" >> lib.rs
+RUN echo "unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
+RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
+RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> libc.rs
 
 # Rustfmt
 RUN cargo fmt

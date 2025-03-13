@@ -102,25 +102,14 @@ fn __assert_fail(
 }
 fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -> u8 {
     let (res, carry) = (*a).overflowing_mul(*b);
-    out.write(res);
+    *out = res;
     carry as u8
 }
-unsafe fn posix_memalign(
-    memptr: *mut *mut core::ffi::c_void,
-    alignment: u64,
-    size: u64,
-) -> core::ffi::c_int {
-    if size != 0 {
-        let ptr = std::alloc::alloc(std::alloc::Layout::from_size_align(size, alignment).unwrap());
-        memptr.write(ptr);
-    } else {
-        memptr.write(core::ptr::null_mut());
-    }
-    0
-}
+use libc::free;
+use libc::posix_memalign;
 unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void {
-    std::alloc::alloc(std::alloc::Layout::from_size_align(size as usize, 8).unwrap()).cast()
+    libc::malloc(size as libc::size_t)
 }
 unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void {
-    std::alloc::alloc(std::alloc::Layout::from_size_align(size as usize, 8).unwrap()).cast()
+    libc::malloc(size as libc::size_t)
 }

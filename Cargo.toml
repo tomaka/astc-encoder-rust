@@ -9,6 +9,9 @@ edition = "2021"
 name = "astc_encoder_rust"
 path = "lib.rs"
 
+[dependencies]
+libc = "0.2"
+
 [profile.dev]
 debug = 0
 [profile.test]
