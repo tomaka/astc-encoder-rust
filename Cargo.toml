@@ -11,3 +11,8 @@ path = "lib.rs"
 
 [dependencies]
 libc= "0.2"
+
+[profile.dev]
+debug = 0
+[profile.test]
+debug = 0
