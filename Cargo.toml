@@ -1,17 +1,13 @@
-[workspace]
-members = [
-]
 [package]
-name = "final_output"
+name = "astc-encoder-rust"
 authors = ["C2Rust"]
 version = "0.0.0"
 publish = false
 edition = "2021"
-autobins = false
 
 [lib]
-name = "final_output"
+name = "astc_encoder_rust"
 path = "lib.rs"
-crate-type = ["staticlib", "rlib"]
+
 [dependencies]
 libc= "0.2"

@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "final_output"
+name = "astc-encoder-rust"
 version = "0.0.0"
 dependencies = [
  "libc",
