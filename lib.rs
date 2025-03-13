@@ -6,7 +6,6 @@
 #![allow(unused_assignments)]
 #![allow(unused_mut)]
 
-extern crate libc;
 pub mod src {
     pub mod astcenc_averages_and_directions_cbe;
     pub mod astcenc_block_sizes_cbe;

@@ -1,22 +1,25 @@
-use ::libc;
 extern "C" {
-    fn _Znam(_662: uint64_t) -> *mut libc::c_void;
-    fn _ZdaPv(_663: *mut libc::c_void);
-    fn memset(_: *mut libc::c_void, _: libc::c_int, _: libc::c_ulong) -> *mut libc::c_void;
+    fn _Znam(_662: uint64_t) -> *mut core::ffi::c_void;
+    fn _ZdaPv(_663: *mut core::ffi::c_void);
+    fn memset(
+        _: *mut core::ffi::c_void,
+        _: core::ffi::c_int,
+        _: core::ffi::c_ulong,
+    ) -> *mut core::ffi::c_void;
 }
-pub type __uint8_t = libc::c_uchar;
-pub type __uint16_t = libc::c_ushort;
-pub type __int32_t = libc::c_int;
-pub type __uint32_t = libc::c_uint;
-pub type __int64_t = libc::c_long;
-pub type __uint64_t = libc::c_ulong;
+pub type __uint8_t = core::ffi::c_uchar;
+pub type __uint16_t = core::ffi::c_ushort;
+pub type __int32_t = core::ffi::c_int;
+pub type __uint32_t = core::ffi::c_uint;
+pub type __int64_t = core::ffi::c_long;
+pub type __uint64_t = core::ffi::c_ulong;
 pub type int32_t = __int32_t;
 pub type int64_t = __int64_t;
 pub type uint8_t = __uint8_t;
 pub type uint16_t = __uint16_t;
 pub type uint32_t = __uint32_t;
 pub type uint64_t = __uint64_t;
-pub type bool_0 = libc::c_uchar;
+pub type bool_0 = core::ffi::c_uchar;
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct l_array_4_uint32_t {
@@ -48,7 +51,7 @@ pub struct l_array_4_struct_AC_l_array_216_uint8_t {
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct l_array_216_float {
-    pub array: [libc::c_float; 216],
+    pub array: [core::ffi::c_float; 216],
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -68,7 +71,7 @@ pub struct l_array_216_struct_AC_l_array_64_uint8_t {
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct l_array_64_float {
-    pub array: [libc::c_float; 64],
+    pub array: [core::ffi::c_float; 64],
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -215,7 +218,7 @@ unsafe extern "C" fn llvm_select_u32(
     mut ifnot: uint32_t,
 ) -> uint32_t {
     let mut r: uint32_t = 0;
-    r = if condition as libc::c_int != 0 {
+    r = if condition as core::ffi::c_int != 0 {
         iftrue
     } else {
         ifnot
@@ -255,44 +258,44 @@ unsafe extern "C" fn llvm_ashr_u32(mut a: int32_t, mut b: int32_t) -> uint32_t {
 
 #[inline(never)]
 pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
-    mut _1: *mut libc::c_void,
+    mut _1: *mut core::ffi::c_void,
     mut _2: bool_0,
     mut _3: uint32_t,
 ) {
-    let mut _4: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _4: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5: uint8_t = 0;
     let mut _6: uint32_t = 0;
-    let mut _7: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _8: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _9: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _10: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _11: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _12: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _13: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _14: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _15: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _16: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _17: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _7: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _8: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _9: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _10: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _11: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _12: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _13: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _14: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _15: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _16: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _17: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _18: bool_0 = 0;
-    let mut _19: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _20: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _21: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _22: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _19: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _20: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _21: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _22: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _23: uint8_t = 0;
     let mut _24: uint32_t = 0;
-    let mut _25: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _26: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _27: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _25: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _26: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _27: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _28: uint8_t = 0;
     let mut _29: uint32_t = 0;
-    let mut _30: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _31: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _32: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _30: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _31: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _32: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _33: uint8_t = 0;
     let mut _34: uint32_t = 0;
-    let mut _35: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _36: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _37: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _35: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _36: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _37: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _4 = _1;
     _5 = _2;
     _6 = _3;
@@ -301,25 +304,25 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
         as *mut l_array_3073_struct_AC_l_struct_struct_OC_partition_info))
         .array)
         .as_mut_ptr()
-        .offset(0 as libc::c_int as int64_t as isize)
-        as *mut l_struct_struct_OC_partition_info as *mut libc::c_void;
+        .offset(0 as core::ffi::c_int as int64_t as isize)
+        as *mut l_struct_struct_OC_partition_info as *mut core::ffi::c_void;
     _13 = _7;
     _8 = &mut *(_13 as *mut l_struct_struct_OC_partition_info)
-        .offset(1024 as libc::c_int as int64_t as isize)
-        as *mut l_struct_struct_OC_partition_info as *mut libc::c_void;
+        .offset(1024 as core::ffi::c_int as int64_t as isize)
+        as *mut l_struct_struct_OC_partition_info as *mut core::ffi::c_void;
     _14 = _8;
     _9 = &mut *(_14 as *mut l_struct_struct_OC_partition_info)
-        .offset(1024 as libc::c_int as int64_t as isize)
-        as *mut l_struct_struct_OC_partition_info as *mut libc::c_void;
+        .offset(1024 as core::ffi::c_int as int64_t as isize)
+        as *mut l_struct_struct_OC_partition_info as *mut core::ffi::c_void;
     _15 = _9;
     _10 = &mut *(_15 as *mut l_struct_struct_OC_partition_info)
-        .offset(1024 as libc::c_int as int64_t as isize)
-        as *mut l_struct_struct_OC_partition_info as *mut libc::c_void;
+        .offset(1024 as core::ffi::c_int as int64_t as isize)
+        as *mut l_struct_struct_OC_partition_info as *mut core::ffi::c_void;
     _16 = _4;
     _17 = _10;
     _18 = _ZL33generate_one_partition_info_entryR21block_size_descriptorjjjR14partition_info(
         _16,
-        1 as libc::c_int as uint32_t,
+        1 as core::ffi::c_int as uint32_t,
         0,
         0,
         _17,
@@ -329,16 +332,16 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
         as *mut l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
-        .offset(0 as libc::c_int as int64_t as isize) as *mut uint32_t) =
-        1 as libc::c_int as uint32_t;
+        .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) =
+        1 as core::ffi::c_int as uint32_t;
     _20 = _4;
     *(&mut *((*(&mut (*(_20 as *mut l_struct_struct_OC_block_size_descriptor)).field12
         as *mut l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
-        .offset(0 as libc::c_int as int64_t as isize) as *mut uint32_t) =
-        1 as libc::c_int as uint32_t;
-    _21 = _Znam(57344 as libc::c_int as uint64_t);
+        .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) =
+        1 as core::ffi::c_int as uint32_t;
+    _21 = _Znam(57344 as core::ffi::c_int as uint64_t);
     _11 = _21;
     _22 = _4;
     _23 = _5;
@@ -347,9 +350,9 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
     _26 = _11;
     _ZL45build_partition_table_for_one_partition_countR21block_size_descriptorbjjP14partition_infoPm(
         _22,
-        (_23 as libc::c_uint & 1 as libc::c_uint) as bool_0,
+        (_23 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0,
         _24,
-        2 as libc::c_int as uint32_t,
+        2 as core::ffi::c_int as uint32_t,
         _25,
         _26,
     );
@@ -360,9 +363,9 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
     _31 = _11;
     _ZL45build_partition_table_for_one_partition_countR21block_size_descriptorbjjP14partition_infoPm(
         _27,
-        (_28 as libc::c_uint & 1 as libc::c_uint) as bool_0,
+        (_28 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0,
         _29,
-        3 as libc::c_int as uint32_t,
+        3 as core::ffi::c_int as uint32_t,
         _30,
         _31,
     );
@@ -373,9 +376,9 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
     _36 = _11;
     _ZL45build_partition_table_for_one_partition_countR21block_size_descriptorbjjP14partition_infoPm(
         _32,
-        (_33 as libc::c_uint & 1 as libc::c_uint) as bool_0,
+        (_33 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0,
         _34,
-        4 as libc::c_int as uint32_t,
+        4 as core::ffi::c_int as uint32_t,
         _35,
         _36,
     );
@@ -386,22 +389,22 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descriptorjjjR14partition_info(
-    mut _40: *mut libc::c_void,
+    mut _40: *mut core::ffi::c_void,
     mut _41: uint32_t,
     mut _42: uint32_t,
     mut _43: uint32_t,
-    mut _44: *mut libc::c_void,
+    mut _44: *mut core::ffi::c_void,
 ) -> bool_0 {
     let mut _45: uint32_t = 0;
     let mut _46: uint32_t = 0;
-    let mut _47: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _47: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _48: uint32_t = 0;
     let mut _49: uint32_t = 0;
     let mut _50: uint32_t = 0;
-    let mut _51: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _51: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _52: uint32_t = 0;
     let mut _53: uint8_t = 0;
-    let mut _54: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _54: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _55: uint32_t = 0;
     let mut _56: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
     let mut _57: uint32_t = 0;
@@ -412,26 +415,26 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     let mut _62: uint32_t = 0;
     let mut _63: uint32_t = 0;
     let mut _64: uint32_t = 0;
-    let mut _65: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _65: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _66: uint32_t = 0;
     let mut _67: uint8_t = 0;
     let mut _68: uint32_t = 0;
     let mut _69: uint32_t = 0;
     let mut _70: uint32_t = 0;
     let mut _71: uint32_t = 0;
-    let mut _72: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _72: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _73: uint8_t = 0;
     let mut _74: uint32_t = 0;
-    let mut _75: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _76: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _75: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _76: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _77: uint32_t = 0;
-    let mut _78: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _78: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _79: uint8_t = 0;
     let mut _80: uint32_t = 0;
-    let mut _81: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _81: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _82: uint8_t = 0;
     let mut _83: uint32_t = 0;
-    let mut _84: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _84: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _85: uint8_t = 0;
     let mut _86: uint32_t = 0;
     let mut _87: uint32_t = 0;
@@ -441,13 +444,13 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     let mut _91: uint8_t = 0;
     let mut _92: uint8_t = 0;
     let mut _93: uint32_t = 0;
-    let mut _94: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _94: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _95: uint8_t = 0;
     let mut _96: uint8_t = 0;
-    let mut _97: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _97: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _98: uint32_t = 0;
     let mut _99: uint8_t = 0;
-    let mut _100: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _100: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _101: uint32_t = 0;
     let mut _102: uint32_t = 0;
     let mut _103: uint32_t = 0;
@@ -461,64 +464,64 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     let mut _111: uint32_t = 0;
     let mut _112: uint32_t = 0;
     let mut _113: uint32_t = 0;
-    let mut _114: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _114: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _115: uint32_t = 0;
     let mut _116: uint32_t = 0;
     let mut _117: uint8_t = 0;
-    let mut _118: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _118: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _119: uint32_t = 0;
     let mut _120: uint32_t = 0;
     let mut _121: uint32_t = 0;
     let mut _122: uint32_t = 0;
     let mut _123: uint32_t = 0;
-    let mut _124: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _124: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _125: uint32_t = 0;
-    let mut _126: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _126: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _127: uint32_t = 0;
-    let mut _128: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _128: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _129: uint32_t = 0;
-    let mut _130: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _131: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _131: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _132: uint32_t = 0;
-    let mut _133: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _133: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _134: uint32_t = 0;
-    let mut _135: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _135: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _136: uint32_t = 0;
     let mut _137: uint32_t = 0;
-    let mut _138: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _138: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _139: uint32_t = 0;
     let mut _140: uint32_t = 0;
-    let mut _141: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _141: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _142: uint32_t = 0;
     let mut _143: uint32_t = 0;
     let mut _144: uint32_t = 0;
     let mut _145: uint32_t = 0;
-    let mut _146: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _146: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _147: uint32_t = 0;
     let mut _148: uint32_t = 0;
-    let mut _149: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _149: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _150: uint16_t = 0;
     let mut _151: uint32_t = 0;
-    let mut _152: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _152: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _153: uint32_t = 0;
     let mut _154: uint32_t = 0;
-    let mut _155: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _155: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _156: uint32_t = 0;
     let mut _157: uint32_t = 0;
-    let mut _158: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _158: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _159: uint8_t = 0;
     let mut _160: uint8_t = 0;
     let mut _161: uint32_t = 0;
     let mut _162: uint32_t = 0;
-    let mut _163: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _163: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _164: uint32_t = 0;
     let mut _165: uint8_t = 0;
     let mut _166: uint32_t = 0;
-    let mut _167: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _168: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _167: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _168: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _169: uint32_t = 0;
     let mut _170: uint8_t = 0;
-    let mut _171: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _171: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _172: uint64_t = 0;
     let mut _173: uint32_t = 0;
     let mut _174: uint8_t = 0;
@@ -531,19 +534,19 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     _73 = *(&mut (*(_72 as *mut l_struct_struct_OC_block_size_descriptor)).field3 as *mut uint8_t);
     _52 = _73 as uint32_t;
     _74 = _52;
-    _53 = ((_74 as int32_t) < 32 as libc::c_uint as int32_t) as libc::c_int as bool_0;
+    _53 = ((_74 as int32_t) < 32 as core::ffi::c_uint as int32_t) as core::ffi::c_int as bool_0;
     _75 = _51;
     _54 = &mut *((*(&mut (*(_75 as *mut l_struct_struct_OC_partition_info)).field3
         as *mut l_array_216_uint8_t))
         .array)
         .as_mut_ptr()
-        .offset(0 as libc::c_int as int64_t as isize) as *mut uint8_t
-        as *mut libc::c_void;
+        .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint8_t
+        as *mut core::ffi::c_void;
     _55 = 0;
     _76 = memset(
-        &mut _56 as *mut l_array_4_uint32_t as *mut libc::c_void,
+        &mut _56 as *mut l_array_4_uint32_t as *mut core::ffi::c_void,
         0,
-        16 as libc::c_int as uint64_t,
+        16 as core::ffi::c_int as uint64_t,
     );
     _57 = 0;
     loop {
@@ -584,20 +587,20 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                     _88,
                     _89,
                     _90,
-                    (_91 as libc::c_uint & 1 as libc::c_uint) as bool_0,
+                    (_91 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0,
                 );
                 _60 = _92;
                 _93 = _55;
-                _55 = llvm_add_u32(_93, 1 as libc::c_int as uint32_t);
+                _55 = llvm_add_u32(_93, 1 as core::ffi::c_int as uint32_t);
                 _94 = _51;
                 _95 = _60;
                 _96 = _60;
                 _97 = &mut *(_56.array)
                     .as_mut_ptr()
                     .offset(_96 as uint64_t as int64_t as isize)
-                    as *mut uint32_t as *mut libc::c_void;
+                    as *mut uint32_t as *mut core::ffi::c_void;
                 _98 = *(_97 as *mut uint32_t);
-                *(_97 as *mut uint32_t) = llvm_add_u32(_98, 1 as libc::c_int as uint32_t);
+                *(_97 as *mut uint32_t) = llvm_add_u32(_98, 1 as core::ffi::c_int as uint32_t);
                 *(&mut *((*(&mut *((*(&mut (*(_94
                     as *mut l_struct_struct_OC_partition_info))
                     .field4 as *mut l_array_4_struct_AC_l_array_216_uint8_t))
@@ -611,17 +614,17 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                     as *mut uint8_t) = _93 as uint8_t;
                 _99 = _60;
                 _100 = _54;
-                _54 = &mut *(_100 as *mut uint8_t).offset(1 as libc::c_int as isize) as *mut uint8_t
-                    as *mut libc::c_void;
+                _54 = &mut *(_100 as *mut uint8_t).offset(1 as core::ffi::c_int as isize)
+                    as *mut uint8_t as *mut core::ffi::c_void;
                 *(_100 as *mut uint8_t) = _99;
                 _101 = _59;
-                _59 = llvm_add_u32(_101, 1 as libc::c_int as uint32_t);
+                _59 = llvm_add_u32(_101, 1 as core::ffi::c_int as uint32_t);
             }
             _102 = _58;
-            _58 = llvm_add_u32(_102, 1 as libc::c_int as uint32_t);
+            _58 = llvm_add_u32(_102, 1 as core::ffi::c_int as uint32_t);
         }
         _103 = _57;
-        _57 = llvm_add_u32(_103, 1 as libc::c_int as uint32_t);
+        _57 = llvm_add_u32(_103, 1 as core::ffi::c_int as uint32_t);
     }
     _61 = 0;
     loop {
@@ -640,13 +643,13 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         _109 = _45;
         _46 = llvm_udiv_u32(
             llvm_sub_u32(
-                llvm_add_u32(_109, 4 as libc::c_int as uint32_t),
-                1 as libc::c_int as uint32_t,
+                llvm_add_u32(_109, 4 as core::ffi::c_int as uint32_t),
+                1 as core::ffi::c_int as uint32_t,
             ),
-            4 as libc::c_int as uint32_t,
+            4 as core::ffi::c_int as uint32_t,
         );
         _110 = _46;
-        _63 = llvm_mul_u32(_110, 4 as libc::c_int as uint32_t);
+        _63 = llvm_mul_u32(_110, 4 as core::ffi::c_int as uint32_t);
         _111 = _62;
         _64 = _111;
         loop {
@@ -670,7 +673,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                 .offset(
                     (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _116,
-                        1 as libc::c_int as uint32_t,
+                        1 as core::ffi::c_int as uint32_t,
                     ) as int32_t as int64_t as isize,
                 ) as *mut uint8_t);
             _118 = _51;
@@ -686,48 +689,48 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                 .as_mut_ptr()
                 .offset(_120 as int32_t as int64_t as isize) as *mut uint8_t) = _117;
             _121 = _64;
-            _64 = llvm_add_u32(_121, 1 as libc::c_int as uint32_t);
+            _64 = llvm_add_u32(_121, 1 as core::ffi::c_int as uint32_t);
         }
         _122 = _61;
-        _61 = llvm_add_u32(_122, 1 as libc::c_int as uint32_t);
+        _61 = llvm_add_u32(_122, 1 as core::ffi::c_int as uint32_t);
     }
     _123 = *(&mut *(_56.array)
         .as_mut_ptr()
-        .offset(0 as libc::c_int as int64_t as isize) as *mut uint32_t);
-    if _123 == 0 as libc::c_uint {
+        .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
+    if _123 == 0 as core::ffi::c_uint {
         _124 = _51;
         *(&mut (*(_124 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t) =
-            0 as libc::c_int as uint16_t;
+            0 as core::ffi::c_int as uint16_t;
     } else {
         _125 = *(&mut *(_56.array)
             .as_mut_ptr()
-            .offset(1 as libc::c_int as int64_t as isize) as *mut uint32_t);
-        if _125 == 0 as libc::c_uint {
+            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
+        if _125 == 0 as core::ffi::c_uint {
             _126 = _51;
             *(&mut (*(_126 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t) =
-                1 as libc::c_int as uint16_t;
+                1 as core::ffi::c_int as uint16_t;
         } else {
             _127 = *(&mut *(_56.array)
                 .as_mut_ptr()
-                .offset(2 as libc::c_int as int64_t as isize)
+                .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            if _127 == 0 as libc::c_uint {
+            if _127 == 0 as core::ffi::c_uint {
                 _128 = _51;
                 *(&mut (*(_128 as *mut l_struct_struct_OC_partition_info)).field0
-                    as *mut uint16_t) = 2 as libc::c_int as uint16_t;
+                    as *mut uint16_t) = 2 as core::ffi::c_int as uint16_t;
             } else {
                 _129 = *(&mut *(_56.array)
                     .as_mut_ptr()
-                    .offset(3 as libc::c_int as int64_t as isize)
+                    .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                if _129 == 0 as libc::c_uint {
+                if _129 == 0 as core::ffi::c_uint {
                     _130 = _51;
                     *(&mut (*(_130 as *mut l_struct_struct_OC_partition_info)).field0
-                        as *mut uint16_t) = 3 as libc::c_int as uint16_t;
+                        as *mut uint16_t) = 3 as core::ffi::c_int as uint16_t;
                 } else {
                     _131 = _51;
                     *(&mut (*(_131 as *mut l_struct_struct_OC_partition_info)).field0
-                        as *mut uint16_t) = 4 as libc::c_int as uint16_t;
+                        as *mut uint16_t) = 4 as core::ffi::c_int as uint16_t;
                 }
             }
         }
@@ -736,9 +739,9 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     _133 = _51;
     *(&mut (*(_133 as *mut l_struct_struct_OC_partition_info)).field1 as *mut uint16_t) =
         _132 as uint16_t;
-    _65 = 0 as *mut libc::c_void;
+    _65 = 0 as *mut core::ffi::c_void;
     _134 = _48;
-    if _134 == 2 as libc::c_uint {
+    if _134 == 2 as core::ffi::c_uint {
         _135 = _47;
         _136 = _50;
         _65 = &mut *((*(&mut *((*(&mut (*(_135 as *mut l_struct_struct_OC_block_size_descriptor))
@@ -750,11 +753,11 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             as *mut l_array_2_uint64_t))
             .array)
             .as_mut_ptr()
-            .offset(0 as libc::c_int as int64_t as isize) as *mut uint64_t
-            as *mut libc::c_void;
+            .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint64_t
+            as *mut core::ffi::c_void;
     } else {
         _137 = _48;
-        if _137 == 3 as libc::c_uint {
+        if _137 == 3 as core::ffi::c_uint {
             _138 = _47;
             _139 = _50;
             _65 = &mut *((*(&mut *((*(&mut (*(_138
@@ -767,11 +770,11 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                 as *mut l_array_3_uint64_t))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as libc::c_int as int64_t as isize) as *mut uint64_t
-                as *mut libc::c_void;
+                .offset(0 as core::ffi::c_int as int64_t as isize)
+                as *mut uint64_t as *mut core::ffi::c_void;
         } else {
             _140 = _48;
-            if _140 == 4 as libc::c_uint {
+            if _140 == 4 as core::ffi::c_uint {
                 _141 = _47;
                 _142 = _50;
                 _65 = &mut *((*(&mut *((*(&mut (*(_141
@@ -784,15 +787,15 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                     as *mut l_array_4_uint64_t))
                     .array)
                     .as_mut_ptr()
-                    .offset(0 as libc::c_int as int64_t as isize)
-                    as *mut uint64_t as *mut libc::c_void;
+                    .offset(0 as core::ffi::c_int as int64_t as isize)
+                    as *mut uint64_t as *mut core::ffi::c_void;
             }
         }
     }
     _66 = 0;
     loop {
         _143 = _66;
-        if !(_143 < 4 as libc::c_uint) {
+        if !(_143 < 4 as core::ffi::c_uint) {
             break;
         }
         _144 = _66;
@@ -807,12 +810,12 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             .as_mut_ptr()
             .offset(_147 as uint64_t as int64_t as isize) as *mut uint8_t) = _145 as uint8_t;
         _148 = _66;
-        _66 = llvm_add_u32(_148, 1 as libc::c_int as uint32_t);
+        _66 = llvm_add_u32(_148, 1 as core::ffi::c_int as uint32_t);
     }
     _149 = _51;
     _150 = *(&mut (*(_149 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _151 = _48;
-    _67 = (_150 as uint32_t == _151) as libc::c_int as bool_0;
+    _67 = (_150 as uint32_t == _151) as core::ffi::c_int as bool_0;
     _152 = _65;
     if !_152.is_null() {
         _68 = 0;
@@ -825,14 +828,14 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             _155 = _65;
             _156 = _68;
             *(&mut *(_155 as *mut uint64_t).offset(_156 as uint64_t as int64_t as isize)
-                as *mut uint64_t) = 0 as libc::c_int as uint64_t;
+                as *mut uint64_t) = 0 as core::ffi::c_int as uint64_t;
             _157 = _68;
-            _68 = llvm_add_u32(_157, 1 as libc::c_int as uint32_t);
+            _68 = llvm_add_u32(_157, 1 as core::ffi::c_int as uint32_t);
         }
         _158 = _47;
         _159 = *(&mut (*(_158 as *mut l_struct_struct_OC_block_size_descriptor)).field3
             as *mut uint8_t);
-        _160 = _ZN4astcL3minIhEET_S1_S1_(_159, 64 as libc::c_uint as uint8_t);
+        _160 = _ZN4astcL3minIhEET_S1_S1_(_159, 64 as core::ffi::c_uint as uint8_t);
         _69 = _160 as uint32_t;
         _70 = 0;
         loop {
@@ -859,32 +862,33 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                 .as_mut_ptr()
                 .offset(_169 as uint64_t as int64_t as isize) as *mut uint8_t);
             _171 = &mut *(_167 as *mut uint64_t).offset(_170 as uint64_t as int64_t as isize)
-                as *mut uint64_t as *mut libc::c_void;
+                as *mut uint64_t as *mut core::ffi::c_void;
             _172 = *(_171 as *mut uint64_t);
-            *(_171 as *mut uint64_t) = _172 | ((1 as libc::c_int) << _166 as uint64_t) as uint64_t;
+            *(_171 as *mut uint64_t) =
+                _172 | ((1 as core::ffi::c_int) << _166 as uint64_t) as uint64_t;
             _173 = _70;
-            _70 = llvm_add_u32(_173, 1 as libc::c_int as uint32_t);
+            _70 = llvm_add_u32(_173, 1 as core::ffi::c_int as uint32_t);
         }
     }
     _174 = _67;
-    return (_174 as libc::c_uint & 1 as libc::c_uint) as bool_0;
+    return (_174 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_size_descriptorbjjP14partition_infoPm(
-    mut _229: *mut libc::c_void,
+    mut _229: *mut core::ffi::c_void,
     mut _230: bool_0,
     mut _231: uint32_t,
     mut _232: uint32_t,
-    mut _233: *mut libc::c_void,
-    mut _234: *mut libc::c_void,
+    mut _233: *mut core::ffi::c_void,
+    mut _234: *mut core::ffi::c_void,
 ) {
     let mut current_block: u64;
-    let mut _235: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _235: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _236: uint8_t = 0;
     let mut _237: uint32_t = 0;
     let mut _238: uint32_t = 0;
-    let mut _239: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _240: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _239: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _240: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _241: uint32_t = 0;
     let mut _242: uint32_t = 0;
     let mut _243: l_array_1024_uint8_t = l_array_1024_uint8_t { array: [0; 1024] };
@@ -894,9 +898,9 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
     let mut _247: uint8_t = 0;
     let mut _248: uint32_t = 0;
     let mut _249: uint8_t = 0;
-    let mut _250: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _250: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _251: uint32_t = 0;
-    let mut _252: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _252: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _253: uint32_t = 0;
     let mut _254: uint8_t = 0;
     let mut _255: uint32_t = 0;
@@ -904,33 +908,33 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
     let mut _257: uint8_t = 0;
     let mut _258: bool_0 = 0;
     let mut _259: uint64_t = 0;
-    let mut _260: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _260: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _261: uint32_t = 0;
     let mut _262: uint32_t = 0;
     let mut _263: uint32_t = 0;
     let mut _264: uint32_t = 0;
     let mut _265: uint32_t = 0;
     let mut _266: uint8_t = 0;
-    let mut _267: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _267: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _268: uint32_t = 0;
     let mut _269: uint32_t = 0;
     let mut _270: uint32_t = 0;
-    let mut _271: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _271: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _272: uint32_t = 0;
     let mut _273: bool_0 = 0;
     let mut _274: uint32_t = 0;
     let mut _275: uint8_t = 0;
-    let mut _276: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _276: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _277: uint8_t = 0;
-    let mut _278: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _278: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _279: uint32_t = 0;
-    let mut _280: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _280: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _281: uint32_t = 0;
     let mut _282: uint32_t = 0;
     let mut _283: uint32_t = 0;
-    let mut _284: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _284: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _285: uint32_t = 0;
-    let mut _286: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _286: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _287: uint32_t = 0;
     let mut _288: bool_0 = 0;
     let mut _289: uint8_t = 0;
@@ -939,27 +943,27 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
     let mut _292: uint8_t = 0;
     let mut _293: uint32_t = 0;
     let mut _294: uint32_t = 0;
-    let mut _295: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _295: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _296: uint32_t = 0;
     let mut _297: uint32_t = 0;
-    let mut _298: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _298: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _299: uint32_t = 0;
-    let mut _300: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _300: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _301: uint32_t = 0;
-    let mut _302: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _302: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _303: uint32_t = 0;
-    let mut _304: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _304: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _305: uint32_t = 0;
     let mut _306: uint32_t = 0;
     let mut _307: uint32_t = 0;
     let mut _308: uint32_t = 0;
     let mut _309: uint32_t = 0;
-    let mut _310: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _310: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _311: uint32_t = 0;
     let mut _312: uint32_t = 0;
-    let mut _313: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _313: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _314: uint32_t = 0;
-    let mut _315: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _315: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _316: uint32_t = 0;
     let mut _317: uint32_t = 0;
     let mut _318: uint32_t = 0;
@@ -980,7 +984,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
         .offset(
             (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                 _251,
-                1 as libc::c_int as uint32_t,
+                1 as core::ffi::c_int as uint32_t,
             ) as uint64_t as int64_t as isize,
         ) as *mut uint32_t) = 0;
     _252 = _235;
@@ -992,11 +996,11 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
         .offset(
             (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                 _253,
-                1 as libc::c_int as uint32_t,
+                1 as core::ffi::c_int as uint32_t,
             ) as uint64_t as int64_t as isize,
         ) as *mut uint32_t) = 0;
     _254 = _236;
-    if _254 as libc::c_uint & 1 as libc::c_uint != 0 {
+    if _254 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _255 = _238;
         _256 = _237;
         if _255 > _256 {
@@ -1010,17 +1014,17 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
     match current_block {
         14398550588937055773 => {
             _257 = _236;
-            _258 = (_257 as libc::c_uint & 1 as libc::c_uint) as bool_0;
+            _258 = (_257 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
             _259 = _258 as uint64_t;
             _242 = llvm_select_u32(
                 _258,
-                1 as libc::c_int as uint32_t,
-                2 as libc::c_int as uint32_t,
+                1 as core::ffi::c_int as uint32_t,
+                2 as core::ffi::c_int as uint32_t,
             );
             _260 = memset(
-                &mut _243 as *mut l_array_1024_uint8_t as *mut libc::c_void,
+                &mut _243 as *mut l_array_1024_uint8_t as *mut core::ffi::c_void,
                 0,
-                1024 as libc::c_int as uint64_t,
+                1024 as core::ffi::c_int as uint64_t,
             );
             _244 = 0;
             loop {
@@ -1032,17 +1036,19 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                 _245 = 0;
                 loop {
                     _263 = _245;
-                    if !(_263 < 1024 as libc::c_uint) {
+                    if !(_263 < 1024 as core::ffi::c_uint) {
                         break;
                     }
                     _264 = _244;
-                    if _264 == 1 as libc::c_uint {
+                    if _264 == 1 as core::ffi::c_uint {
                         _265 = _245;
                         _266 = *(&mut *(_243.array)
                             .as_mut_ptr()
                             .offset(_265 as uint64_t as int64_t as isize)
                             as *mut uint8_t);
-                        if _266 as libc::c_int != 0 as libc::c_int as uint8_t as libc::c_int {
+                        if _266 as core::ffi::c_int
+                            != 0 as core::ffi::c_int as uint8_t as core::ffi::c_int
+                        {
                             current_block = 16432741364899003899;
                         } else {
                             current_block = 16512802516614476837;
@@ -1066,13 +1072,13 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                 &mut *(_271 as *mut l_struct_struct_OC_partition_info)
                                     .offset(_272 as uint64_t as int64_t as isize)
                                     as *mut l_struct_struct_OC_partition_info
-                                    as *mut libc::c_void,
+                                    as *mut core::ffi::c_void,
                             );
                             _246 = _273;
                             _274 = _244;
-                            if _274 == 0 as libc::c_uint {
+                            if _274 == 0 as core::ffi::c_uint {
                                 _275 = _246;
-                                if _275 as libc::c_uint & 1 as libc::c_uint != 0 {
+                                if _275 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                                     current_block = 16562591362786563153;
                                 } else {
                                     current_block = 16432741364899003899;
@@ -1101,19 +1107,19 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                             .field3 as *mut l_array_216_uint8_t))
                                             .array)
                                             .as_mut_ptr()
-                                            .offset(0 as libc::c_int as int64_t as isize)
-                                            as *mut uint8_t as *mut libc::c_void,
+                                            .offset(0 as core::ffi::c_int as int64_t as isize)
+                                            as *mut uint8_t as *mut core::ffi::c_void,
                                         &mut *(_280 as *mut uint64_t)
                                             .offset(
                                                 (llvm_mul_u32
                                                     as unsafe extern "C" fn(
                                                         uint32_t,
                                                         uint32_t,
-                                                    ) -> uint32_t)(_281, 7 as libc::c_int as uint32_t)
+                                                    ) -> uint32_t)(_281, 7 as core::ffi::c_int as uint32_t)
                                                     as uint64_t as int64_t as isize,
-                                            ) as *mut uint64_t as *mut libc::c_void,
+                                            ) as *mut uint64_t as *mut core::ffi::c_void,
                                     );
-                                    _247 = 1 as libc::c_int as uint8_t;
+                                    _247 = 1 as core::ffi::c_int as uint8_t;
                                     _248 = 0;
                                     loop {
                                         _282 = _248;
@@ -1134,13 +1140,13 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                 )
                                                     -> uint32_t)(
                                                 _285,
-                                                7 as libc::c_int as uint32_t,
+                                                7 as core::ffi::c_int as uint32_t,
                                             )
                                                 as uint64_t
                                                 as int64_t
                                                 as isize)
                                                 as *mut uint64_t
-                                                as *mut libc::c_void,
+                                                as *mut core::ffi::c_void,
                                             &mut *(_286 as *mut uint64_t).offset((llvm_mul_u32
                                                 as unsafe extern "C" fn(
                                                     uint32_t,
@@ -1148,35 +1154,36 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                 )
                                                     -> uint32_t)(
                                                 _287,
-                                                7 as libc::c_int as uint32_t,
+                                                7 as core::ffi::c_int as uint32_t,
                                             )
                                                 as uint64_t
                                                 as int64_t
                                                 as isize)
                                                 as *mut uint64_t
-                                                as *mut libc::c_void,
+                                                as *mut core::ffi::c_void,
                                         );
                                         _249 = _288;
                                         _289 = _249;
-                                        if _289 as libc::c_uint & 1 as libc::c_uint != 0 {
+                                        if _289 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                                             current_block = 13851758249121041117;
                                             break;
                                         }
                                         _290 = _248;
-                                        _248 = llvm_add_u32(_290, 1 as libc::c_int as uint32_t);
+                                        _248 =
+                                            llvm_add_u32(_290, 1 as core::ffi::c_int as uint32_t);
                                     }
                                     match current_block {
                                         13851758249121041117 => {
-                                            _247 = 0 as libc::c_int as uint8_t;
+                                            _247 = 0 as core::ffi::c_int as uint8_t;
                                         }
                                         _ => {}
                                     }
                                     _291 = _246;
-                                    if _291 as libc::c_uint & 1 as libc::c_uint != 0 {
+                                    if _291 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                                         _292 = _247;
-                                        if _292 as libc::c_uint & 1 as libc::c_uint != 0 {
+                                        if _292 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                                             _293 = _244;
-                                            if _293 == 0 as libc::c_uint {
+                                            if _293 == 0 as core::ffi::c_uint {
                                                 _294 = _241;
                                                 _295 = _235;
                                                 _296 = _238;
@@ -1191,7 +1198,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                             as unsafe extern "C" fn(
                                                                 uint32_t,
                                                                 uint32_t,
-                                                            ) -> uint32_t)(_296, 2 as libc::c_int as uint32_t)
+                                                            ) -> uint32_t)(_296, 2 as core::ffi::c_int as uint32_t)
                                                             as uint64_t as int64_t as isize,
                                                     ) as *mut l_array_1024_uint16_t))
                                                     .array)
@@ -1210,13 +1217,13 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                             as unsafe extern "C" fn(
                                                                 uint32_t,
                                                                 uint32_t,
-                                                            ) -> uint32_t)(_299, 1 as libc::c_int as uint32_t)
+                                                            ) -> uint32_t)(_299, 1 as core::ffi::c_int as uint32_t)
                                                             as uint64_t as int64_t as isize,
-                                                    ) as *mut uint32_t as *mut libc::c_void;
+                                                    ) as *mut uint32_t as *mut core::ffi::c_void;
                                                 _301 = *(_300 as *mut uint32_t);
                                                 *(_300 as *mut uint32_t) = llvm_add_u32(
                                                     _301,
-                                                    1 as libc::c_int as uint32_t,
+                                                    1 as core::ffi::c_int as uint32_t,
                                                 );
                                                 _302 = _235;
                                                 _303 = _238;
@@ -1230,23 +1237,24 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                             as unsafe extern "C" fn(
                                                                 uint32_t,
                                                                 uint32_t,
-                                                            ) -> uint32_t)(_303, 1 as libc::c_int as uint32_t)
+                                                            ) -> uint32_t)(_303, 1 as core::ffi::c_int as uint32_t)
                                                             as uint64_t as int64_t as isize,
-                                                    ) as *mut uint32_t as *mut libc::c_void;
+                                                    ) as *mut uint32_t as *mut core::ffi::c_void;
                                                 _305 = *(_304 as *mut uint32_t);
                                                 *(_304 as *mut uint32_t) = llvm_add_u32(
                                                     _305,
-                                                    1 as libc::c_int as uint32_t,
+                                                    1 as core::ffi::c_int as uint32_t,
                                                 );
                                                 _306 = _245;
                                                 *(&mut *(_243.array)
                                                     .as_mut_ptr()
                                                     .offset(_306 as uint64_t as int64_t as isize)
-                                                    as *mut uint8_t) = 1 as libc::c_int as uint8_t;
+                                                    as *mut uint8_t) =
+                                                    1 as core::ffi::c_int as uint8_t;
                                                 _307 = _241;
                                                 _241 = llvm_add_u32(
                                                     _307,
-                                                    1 as libc::c_int as uint32_t,
+                                                    1 as core::ffi::c_int as uint32_t,
                                                 );
                                                 current_block = 16432741364899003899;
                                             } else {
@@ -1262,7 +1270,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                         16432741364899003899 => {}
                                         _ => {
                                             _308 = _244;
-                                            if _308 == 1 as libc::c_uint {
+                                            if _308 == 1 as core::ffi::c_uint {
                                                 _309 = _241;
                                                 _310 = _235;
                                                 _311 = _238;
@@ -1277,7 +1285,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                             as unsafe extern "C" fn(
                                                                 uint32_t,
                                                                 uint32_t,
-                                                            ) -> uint32_t)(_311, 2 as libc::c_int as uint32_t)
+                                                            ) -> uint32_t)(_311, 2 as core::ffi::c_int as uint32_t)
                                                             as uint64_t as int64_t as isize,
                                                     ) as *mut l_array_1024_uint16_t))
                                                     .array)
@@ -1296,18 +1304,18 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                             as unsafe extern "C" fn(
                                                                 uint32_t,
                                                                 uint32_t,
-                                                            ) -> uint32_t)(_314, 1 as libc::c_int as uint32_t)
+                                                            ) -> uint32_t)(_314, 1 as core::ffi::c_int as uint32_t)
                                                             as uint64_t as int64_t as isize,
-                                                    ) as *mut uint32_t as *mut libc::c_void;
+                                                    ) as *mut uint32_t as *mut core::ffi::c_void;
                                                 _316 = *(_315 as *mut uint32_t);
                                                 *(_315 as *mut uint32_t) = llvm_add_u32(
                                                     _316,
-                                                    1 as libc::c_int as uint32_t,
+                                                    1 as core::ffi::c_int as uint32_t,
                                                 );
                                                 _317 = _241;
                                                 _241 = llvm_add_u32(
                                                     _317,
-                                                    1 as libc::c_int as uint32_t,
+                                                    1 as core::ffi::c_int as uint32_t,
                                                 );
                                             }
                                         }
@@ -1318,10 +1326,10 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                         _ => {}
                     }
                     _318 = _245;
-                    _245 = llvm_add_u32(_318, 1 as libc::c_int as uint32_t);
+                    _245 = llvm_add_u32(_318, 1 as core::ffi::c_int as uint32_t);
                 }
                 _319 = _244;
-                _244 = llvm_add_u32(_319, 1 as libc::c_int as uint32_t);
+                _244 = llvm_add_u32(_319, 1 as core::ffi::c_int as uint32_t);
             }
         }
         _ => {}
@@ -1502,61 +1510,61 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
     _361 = _355;
     _362 = _356;
     _384 = _362;
-    if _384 as libc::c_uint & 1 as libc::c_uint != 0 {
+    if _384 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _385 = _358;
-        _358 = _385 << 1 as libc::c_int;
+        _358 = _385 << 1 as core::ffi::c_int;
         _386 = _359;
-        _359 = _386 << 1 as libc::c_int;
+        _359 = _386 << 1 as core::ffi::c_int;
         _387 = _360;
-        _360 = _387 << 1 as libc::c_int;
+        _360 = _387 << 1 as core::ffi::c_int;
     }
     _388 = _361;
     _389 = _357;
     _357 = llvm_add_u32(
         _389,
         llvm_mul_u32(
-            llvm_sub_u32(_388, 1 as libc::c_int as uint32_t),
-            1024 as libc::c_int as uint32_t,
+            llvm_sub_u32(_388, 1 as core::ffi::c_int as uint32_t),
+            1024 as core::ffi::c_int as uint32_t,
         ),
     );
     _390 = _357;
     _391 = _ZL6hash52j(_390);
     _363 = _391;
     _392 = _363;
-    _364 = (_392 & 15 as libc::c_int as uint32_t) as uint8_t;
+    _364 = (_392 & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _393 = _363;
-    _365 = (llvm_lshr_u32(_393, 4 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _365 = (llvm_lshr_u32(_393, 4 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _394 = _363;
-    _366 = (llvm_lshr_u32(_394, 8 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _366 = (llvm_lshr_u32(_394, 8 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _395 = _363;
-    _367 = (llvm_lshr_u32(_395, 12 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _367 = (llvm_lshr_u32(_395, 12 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _396 = _363;
-    _368 = (llvm_lshr_u32(_396, 16 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _368 = (llvm_lshr_u32(_396, 16 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _397 = _363;
-    _369 = (llvm_lshr_u32(_397, 20) & 15 as libc::c_int as uint32_t) as uint8_t;
+    _369 = (llvm_lshr_u32(_397, 20) & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _398 = _363;
-    _370 = (llvm_lshr_u32(_398, 24 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _370 = (llvm_lshr_u32(_398, 24 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _399 = _363;
-    _371 = (llvm_lshr_u32(_399, 28 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _371 = (llvm_lshr_u32(_399, 28 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _400 = _363;
-    _372 = (llvm_lshr_u32(_400, 18 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _372 = (llvm_lshr_u32(_400, 18 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _401 = _363;
-    _373 = (llvm_lshr_u32(_401, 22 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _373 = (llvm_lshr_u32(_401, 22 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _402 = _363;
-    _374 = (llvm_lshr_u32(_402, 26 as libc::c_int as uint32_t) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _374 = (llvm_lshr_u32(_402, 26 as core::ffi::c_int as uint32_t)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _403 = _363;
     _404 = _363;
-    _375 = ((llvm_lshr_u32(_403, 30) | _404 << 2 as libc::c_int) & 15 as libc::c_int as uint32_t)
-        as uint8_t;
+    _375 = ((llvm_lshr_u32(_403, 30) | _404 << 2 as core::ffi::c_int)
+        & 15 as core::ffi::c_int as uint32_t) as uint8_t;
     _405 = _364;
     _406 = _364;
     _364 = llvm_mul_u32(_406 as uint32_t, _405 as uint32_t) as uint8_t;
@@ -1594,41 +1602,43 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
     _428 = _375;
     _375 = llvm_mul_u32(_428 as uint32_t, _427 as uint32_t) as uint8_t;
     _429 = _357;
-    if _429 & 1 as libc::c_int as uint32_t != 0 as libc::c_uint {
+    if _429 & 1 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
         _430 = _357;
-        _431 = (_430 & 2 as libc::c_int as uint32_t != 0 as libc::c_uint) as libc::c_int as bool_0
-            as uint64_t;
+        _431 = (_430 & 2 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint)
+            as core::ffi::c_int as bool_0 as uint64_t;
         _376 = llvm_select_u32(
-            (_430 & 2 as libc::c_int as uint32_t != 0 as libc::c_uint) as libc::c_int as bool_0,
-            4 as libc::c_int as uint32_t,
-            5 as libc::c_int as uint32_t,
+            (_430 & 2 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint) as core::ffi::c_int
+                as bool_0,
+            4 as core::ffi::c_int as uint32_t,
+            5 as core::ffi::c_int as uint32_t,
         );
         _432 = _361;
-        _433 = (_432 == 3 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _433 = (_432 == 3 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         _377 = llvm_select_u32(
-            (_432 == 3 as libc::c_uint) as libc::c_int as bool_0,
-            6 as libc::c_int as uint32_t,
-            5 as libc::c_int as uint32_t,
+            (_432 == 3 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
+            6 as core::ffi::c_int as uint32_t,
+            5 as core::ffi::c_int as uint32_t,
         );
     } else {
         _434 = _361;
-        _435 = (_434 == 3 as libc::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _435 = (_434 == 3 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         _376 = llvm_select_u32(
-            (_434 == 3 as libc::c_uint) as libc::c_int as bool_0,
-            6 as libc::c_int as uint32_t,
-            5 as libc::c_int as uint32_t,
+            (_434 == 3 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
+            6 as core::ffi::c_int as uint32_t,
+            5 as core::ffi::c_int as uint32_t,
         );
         _436 = _357;
-        _437 = (_436 & 2 as libc::c_int as uint32_t != 0 as libc::c_uint) as libc::c_int as bool_0
-            as uint64_t;
+        _437 = (_436 & 2 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint)
+            as core::ffi::c_int as bool_0 as uint64_t;
         _377 = llvm_select_u32(
-            (_436 & 2 as libc::c_int as uint32_t != 0 as libc::c_uint) as libc::c_int as bool_0,
-            4 as libc::c_int as uint32_t,
-            5 as libc::c_int as uint32_t,
+            (_436 & 2 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint) as core::ffi::c_int
+                as bool_0,
+            4 as core::ffi::c_int as uint32_t,
+            5 as core::ffi::c_int as uint32_t,
         );
     }
     _438 = _357;
-    if _438 & 16 as libc::c_int as uint32_t != 0 as libc::c_uint {
+    if _438 & 16 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
         _439 = _376;
         _441__PHI_TEMPORARY = _439;
     } else {
@@ -1688,7 +1698,7 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
             ),
             llvm_mul_u32(_470 as uint32_t, _471),
         ),
-        llvm_lshr_u32(_472, 14 as libc::c_int as uint32_t),
+        llvm_lshr_u32(_472, 14 as core::ffi::c_int as uint32_t),
     );
     _473 = _366;
     _474 = _358;
@@ -1722,7 +1732,7 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
             ),
             llvm_mul_u32(_484 as uint32_t, _485),
         ),
-        llvm_lshr_u32(_486, 6 as libc::c_int as uint32_t),
+        llvm_lshr_u32(_486, 6 as core::ffi::c_int as uint32_t),
     );
     _487 = _370;
     _488 = _358;
@@ -1739,26 +1749,26 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
             ),
             llvm_mul_u32(_491 as uint32_t, _492),
         ),
-        llvm_lshr_u32(_493, 2 as libc::c_int as uint32_t),
+        llvm_lshr_u32(_493, 2 as core::ffi::c_int as uint32_t),
     );
     _494 = _379;
-    _379 = _494 & 63 as libc::c_int as uint32_t;
+    _379 = _494 & 63 as core::ffi::c_int as uint32_t;
     _495 = _380;
-    _380 = _495 & 63 as libc::c_int as uint32_t;
+    _380 = _495 & 63 as core::ffi::c_int as uint32_t;
     _496 = _381;
-    _381 = _496 & 63 as libc::c_int as uint32_t;
+    _381 = _496 & 63 as core::ffi::c_int as uint32_t;
     _497 = _382;
-    _382 = _497 & 63 as libc::c_int as uint32_t;
+    _382 = _497 & 63 as core::ffi::c_int as uint32_t;
     _498 = _361;
-    if _498 as int32_t <= 3 as libc::c_uint as int32_t {
+    if _498 as int32_t <= 3 as core::ffi::c_uint as int32_t {
         _382 = 0;
     }
     _499 = _361;
-    if _499 as int32_t <= 2 as libc::c_uint as int32_t {
+    if _499 as int32_t <= 2 as core::ffi::c_uint as int32_t {
         _381 = 0;
     }
     _500 = _361;
-    if _500 as int32_t <= 1 as libc::c_uint as int32_t {
+    if _500 as int32_t <= 1 as core::ffi::c_uint as int32_t {
         _380 = 0;
     }
     _501 = _379;
@@ -1770,7 +1780,7 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
             _505 = _379;
             _506 = _382;
             if _505 as int32_t >= _506 as int32_t {
-                _383 = 0 as libc::c_int as uint8_t;
+                _383 = 0 as core::ffi::c_int as uint8_t;
                 current_block = 17009346936204501982;
             } else {
                 current_block = 5529794599794551815;
@@ -1789,7 +1799,7 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
                 _509 = _380;
                 _510 = _382;
                 if _509 as int32_t >= _510 as int32_t {
-                    _383 = 1 as libc::c_int as uint8_t;
+                    _383 = 1 as core::ffi::c_int as uint8_t;
                     current_block = 17009346936204501982;
                 } else {
                     current_block = 16697689281210591392;
@@ -1803,9 +1813,9 @@ unsafe extern "C" fn _ZL16select_partitioniiiiib(
                     _511 = _381;
                     _512 = _382;
                     if _511 as int32_t >= _512 as int32_t {
-                        _383 = 2 as libc::c_int as uint8_t;
+                        _383 = 2 as core::ffi::c_int as uint8_t;
                     } else {
-                        _383 = 3 as libc::c_int as uint8_t;
+                        _383 = 3 as core::ffi::c_int as uint8_t;
                     }
                 }
             }
@@ -1861,39 +1871,39 @@ unsafe extern "C" fn _ZL6hash52j(mut _552: uint32_t) -> uint32_t {
     _553 = _552;
     _554 = _553;
     _555 = _553;
-    _553 = _555 ^ llvm_lshr_u32(_554, 15 as libc::c_int as uint32_t);
+    _553 = _555 ^ llvm_lshr_u32(_554, 15 as core::ffi::c_int as uint32_t);
     _556 = _553;
-    _553 = llvm_mul_u32(_556, -(287438703 as libc::c_int) as uint32_t);
+    _553 = llvm_mul_u32(_556, -(287438703 as core::ffi::c_int) as uint32_t);
     _557 = _553;
     _558 = _553;
-    _553 = _558 ^ llvm_lshr_u32(_557, 5 as libc::c_int as uint32_t);
+    _553 = _558 ^ llvm_lshr_u32(_557, 5 as core::ffi::c_int as uint32_t);
     _559 = _553;
     _560 = _553;
-    _553 = llvm_add_u32(_560, _559 << 16 as libc::c_int);
+    _553 = llvm_add_u32(_560, _559 << 16 as core::ffi::c_int);
     _561 = _553;
     _562 = _553;
-    _553 = _562 ^ llvm_lshr_u32(_561, 7 as libc::c_int as uint32_t);
+    _553 = _562 ^ llvm_lshr_u32(_561, 7 as core::ffi::c_int as uint32_t);
     _563 = _553;
     _564 = _553;
-    _553 = _564 ^ llvm_lshr_u32(_563, 3 as libc::c_int as uint32_t);
+    _553 = _564 ^ llvm_lshr_u32(_563, 3 as core::ffi::c_int as uint32_t);
     _565 = _553;
     _566 = _553;
-    _553 = _566 ^ _565 << 6 as libc::c_int;
+    _553 = _566 ^ _565 << 6 as core::ffi::c_int;
     _567 = _553;
     _568 = _553;
-    _553 = _568 ^ llvm_lshr_u32(_567, 17 as libc::c_int as uint32_t);
+    _553 = _568 ^ llvm_lshr_u32(_567, 17 as core::ffi::c_int as uint32_t);
     _569 = _553;
     return _569;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
     mut _570: uint32_t,
-    mut _571: *mut libc::c_void,
-    mut _572: *mut libc::c_void,
+    mut _571: *mut core::ffi::c_void,
+    mut _572: *mut core::ffi::c_void,
 ) {
     let mut _573: uint32_t = 0;
-    let mut _574: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _575: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _574: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _575: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _576: uint32_t = 0;
     let mut _577: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
     let mut _578: uint32_t = 0;
@@ -1902,7 +1912,7 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
     let mut _581: uint32_t = 0;
     let mut _582: uint64_t = 0;
     let mut _583: uint32_t = 0;
-    let mut _584: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _584: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _585: uint32_t = 0;
     let mut _586: uint32_t = 0;
     let mut _587: uint32_t = 0;
@@ -1910,7 +1920,7 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
     let mut _589: uint32_t = 0;
     let mut _590: uint32_t = 0;
     let mut _591: uint32_t = 0;
-    let mut _592: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _592: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _593: uint32_t = 0;
     let mut _594: uint8_t = 0;
     let mut _595: uint32_t = 0;
@@ -1921,9 +1931,9 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
     let mut _600: uint32_t = 0;
     let mut _601: uint64_t = 0;
     let mut _602: uint32_t = 0;
-    let mut _603: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _603: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _604: uint32_t = 0;
-    let mut _605: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _605: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _606: uint64_t = 0;
     let mut _607: uint32_t = 0;
     _573 = _570;
@@ -1932,30 +1942,30 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
     _576 = 0;
     loop {
         _583 = _576;
-        if !(_583 < 7 as libc::c_uint) {
+        if !(_583 < 7 as core::ffi::c_uint) {
             break;
         }
         _584 = _575;
         _585 = _576;
         *(&mut *(_584 as *mut uint64_t).offset(_585 as uint64_t as int64_t as isize)
-            as *mut uint64_t) = 0 as libc::c_int as uint64_t;
+            as *mut uint64_t) = 0 as core::ffi::c_int as uint64_t;
         _586 = _576;
-        _576 = llvm_add_u32(_586, 1 as libc::c_int as uint32_t);
+        _576 = llvm_add_u32(_586, 1 as core::ffi::c_int as uint32_t);
     }
     _578 = 0;
     _579 = 0;
     loop {
         _587 = _579;
-        if !(_587 < 4 as libc::c_uint) {
+        if !(_587 < 4 as core::ffi::c_uint) {
             break;
         }
         _588 = _579;
         *(&mut *(_577.array)
             .as_mut_ptr()
             .offset(_588 as uint64_t as int64_t as isize) as *mut uint32_t) =
-            -(1 as libc::c_int) as uint32_t;
+            -(1 as core::ffi::c_int) as uint32_t;
         _589 = _579;
-        _579 = llvm_add_u32(_589, 1 as libc::c_int as uint32_t);
+        _579 = llvm_add_u32(_589, 1 as core::ffi::c_int as uint32_t);
     }
     _580 = 0;
     loop {
@@ -1973,9 +1983,9 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
         _596 = *(&mut *(_577.array)
             .as_mut_ptr()
             .offset(_595 as int32_t as int64_t as isize) as *mut uint32_t);
-        if (_596 as int32_t) < 0 as libc::c_uint as int32_t {
+        if (_596 as int32_t) < 0 as core::ffi::c_uint as int32_t {
             _597 = _578;
-            _578 = llvm_add_u32(_597, 1 as libc::c_int as uint32_t);
+            _578 = llvm_add_u32(_597, 1 as core::ffi::c_int as uint32_t);
             _598 = _581;
             *(&mut *(_577.array)
                 .as_mut_ptr()
@@ -1993,53 +2003,54 @@ unsafe extern "C" fn _ZL31generate_canonical_partitioningjPKhPm(
         _605 = &mut *(_603 as *mut uint64_t).offset((llvm_lshr_u32
             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
             _604,
-            5 as libc::c_int as uint32_t,
-        ) as uint64_t as int64_t as isize) as *mut uint64_t as *mut libc::c_void;
+            5 as core::ffi::c_int as uint32_t,
+        ) as uint64_t as int64_t as isize) as *mut uint64_t
+            as *mut core::ffi::c_void;
         _606 = *(_605 as *mut uint64_t);
         *(_605 as *mut uint64_t) = _606
             | _601
                 << llvm_mul_u32(
-                    2 as libc::c_int as uint32_t,
-                    _602 & 31 as libc::c_int as uint32_t,
+                    2 as core::ffi::c_int as uint32_t,
+                    _602 & 31 as core::ffi::c_int as uint32_t,
                 ) as uint64_t;
         _607 = _580;
-        _580 = llvm_add_u32(_607, 1 as libc::c_int as uint32_t);
+        _580 = llvm_add_u32(_607, 1 as core::ffi::c_int as uint32_t);
     }
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL31compare_canonical_partitioningsPKmS0_(
-    mut _622: *mut libc::c_void,
-    mut _623: *mut libc::c_void,
+    mut _622: *mut core::ffi::c_void,
+    mut _623: *mut core::ffi::c_void,
 ) -> bool_0 {
-    let mut _624: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _625: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _626: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _624: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _625: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _626: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _627: uint64_t = 0;
-    let mut _628: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _628: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _629: uint64_t = 0;
-    let mut _630: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _630: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _631: uint64_t = 0;
-    let mut _632: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _632: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _633: uint64_t = 0;
-    let mut _634: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _634: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _635: uint64_t = 0;
-    let mut _636: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _636: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _637: uint64_t = 0;
-    let mut _638: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _638: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _639: uint64_t = 0;
-    let mut _640: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _640: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _641: uint64_t = 0;
-    let mut _642: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _642: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _643: uint64_t = 0;
-    let mut _644: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _644: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _645: uint64_t = 0;
-    let mut _646: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _646: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _647: uint64_t = 0;
-    let mut _648: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _648: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _649: uint64_t = 0;
-    let mut _650: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _650: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _651: uint64_t = 0;
-    let mut _652: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _652: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _653: uint64_t = 0;
     let mut _654: bool_0 = 0;
     let mut _654__PHI_TEMPORARY: bool_0 = 0;
@@ -2051,70 +2062,72 @@ unsafe extern "C" fn _ZL31compare_canonical_partitioningsPKmS0_(
     _629 = *(_628 as *mut uint64_t);
     if _627 == _629 {
         _630 = _624;
-        _631 = *(&mut *(_630 as *mut uint64_t).offset(1 as libc::c_int as int64_t as isize)
+        _631 = *(&mut *(_630 as *mut uint64_t).offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut uint64_t);
         _632 = _625;
-        _633 = *(&mut *(_632 as *mut uint64_t).offset(1 as libc::c_int as int64_t as isize)
+        _633 = *(&mut *(_632 as *mut uint64_t).offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut uint64_t);
         if _631 == _633 {
             _634 = _624;
-            _635 = *(&mut *(_634 as *mut uint64_t).offset(2 as libc::c_int as int64_t as isize)
+            _635 = *(&mut *(_634 as *mut uint64_t).offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint64_t);
             _636 = _625;
-            _637 = *(&mut *(_636 as *mut uint64_t).offset(2 as libc::c_int as int64_t as isize)
+            _637 = *(&mut *(_636 as *mut uint64_t).offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint64_t);
             if _635 == _637 {
                 _638 = _624;
-                _639 = *(&mut *(_638 as *mut uint64_t).offset(3 as libc::c_int as int64_t as isize)
+                _639 = *(&mut *(_638 as *mut uint64_t)
+                    .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint64_t);
                 _640 = _625;
-                _641 = *(&mut *(_640 as *mut uint64_t).offset(3 as libc::c_int as int64_t as isize)
+                _641 = *(&mut *(_640 as *mut uint64_t)
+                    .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint64_t);
                 if _639 == _641 {
                     _642 = _624;
                     _643 = *(&mut *(_642 as *mut uint64_t)
-                        .offset(4 as libc::c_int as int64_t as isize)
+                        .offset(4 as core::ffi::c_int as int64_t as isize)
                         as *mut uint64_t);
                     _644 = _625;
                     _645 = *(&mut *(_644 as *mut uint64_t)
-                        .offset(4 as libc::c_int as int64_t as isize)
+                        .offset(4 as core::ffi::c_int as int64_t as isize)
                         as *mut uint64_t);
                     if _643 == _645 {
                         _646 = _624;
                         _647 = *(&mut *(_646 as *mut uint64_t)
-                            .offset(5 as libc::c_int as int64_t as isize)
+                            .offset(5 as core::ffi::c_int as int64_t as isize)
                             as *mut uint64_t);
                         _648 = _625;
                         _649 = *(&mut *(_648 as *mut uint64_t)
-                            .offset(5 as libc::c_int as int64_t as isize)
+                            .offset(5 as core::ffi::c_int as int64_t as isize)
                             as *mut uint64_t);
                         if _647 == _649 {
                             _650 = _624;
                             _651 = *(&mut *(_650 as *mut uint64_t)
-                                .offset(6 as libc::c_int as int64_t as isize)
+                                .offset(6 as core::ffi::c_int as int64_t as isize)
                                 as *mut uint64_t);
                             _652 = _625;
                             _653 = *(&mut *(_652 as *mut uint64_t)
-                                .offset(6 as libc::c_int as int64_t as isize)
+                                .offset(6 as core::ffi::c_int as int64_t as isize)
                                 as *mut uint64_t);
-                            _654__PHI_TEMPORARY = (_651 == _653) as libc::c_int as bool_0;
+                            _654__PHI_TEMPORARY = (_651 == _653) as core::ffi::c_int as bool_0;
                         } else {
-                            _654__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
+                            _654__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
                         }
                     } else {
-                        _654__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
+                        _654__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
                     }
                 } else {
-                    _654__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
+                    _654__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
                 }
             } else {
-                _654__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
+                _654__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
             }
         } else {
-            _654__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
+            _654__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
         }
     } else {
-        _654__PHI_TEMPORARY = 0 as libc::c_int as bool_0;
+        _654__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
     }
     _654 = _654__PHI_TEMPORARY;
     return _654;

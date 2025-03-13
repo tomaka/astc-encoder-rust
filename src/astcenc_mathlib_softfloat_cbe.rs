@@ -1,10 +1,9 @@
-use ::libc;
-pub type __uint8_t = libc::c_uchar;
-pub type __uint16_t = libc::c_ushort;
-pub type __int32_t = libc::c_int;
-pub type __uint32_t = libc::c_uint;
-pub type __int64_t = libc::c_long;
-pub type __uint64_t = libc::c_ulong;
+pub type __uint8_t = core::ffi::c_uchar;
+pub type __uint16_t = core::ffi::c_ushort;
+pub type __int32_t = core::ffi::c_int;
+pub type __uint32_t = core::ffi::c_uint;
+pub type __int64_t = core::ffi::c_long;
+pub type __uint64_t = core::ffi::c_ulong;
 pub type int32_t = __int32_t;
 pub type int64_t = __int64_t;
 pub type uint8_t = __uint8_t;
@@ -50,70 +49,70 @@ pub struct l_array_256_uint8_t {
 static mut _ZZL12sf16_to_sf32tE3tbl: l_array_64_uint32_t = {
     let mut init = l_array_64_uint32_t {
         array: [
-            2147483648 as libc::c_uint,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            114688 as libc::c_int as uint32_t,
-            2147713024 as libc::c_uint,
-            2147713024 as libc::c_uint,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            344064 as libc::c_int as uint32_t,
-            2147942400 as libc::c_uint,
+            2147483648 as core::ffi::c_uint,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            114688 as core::ffi::c_int as uint32_t,
+            2147713024 as core::ffi::c_uint,
+            2147713024 as core::ffi::c_uint,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            344064 as core::ffi::c_int as uint32_t,
+            2147942400 as core::ffi::c_uint,
         ],
     };
     init
@@ -135,134 +134,134 @@ static mut _ZL9clz_table: l_unnamed_1 = unsafe {
             field1: {
                 let mut init = l_array_128_uint8_t {
                     array: [
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
-                        0 as libc::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
+                        0 as core::ffi::c_int as uint8_t,
                     ],
                 };
                 init
@@ -292,61 +291,61 @@ static mut _ZZL12sf32_to_sf16j9roundmodeE4tabx: l_array_60_uint32_t = {
             0,
             0,
             0,
-            32768 as libc::c_int as uint32_t,
-            2147483648 as libc::c_uint,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            1 as libc::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            2147483648 as core::ffi::c_uint,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            1 as core::ffi::c_int as uint32_t,
             0,
             0,
             0,
             0,
-            32768 as libc::c_int as uint32_t,
-            32769 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32769 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
             0,
             0,
             0,
             0,
             0,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            32768 as libc::c_int as uint32_t,
-            -(939515905 as libc::c_int) as uint32_t,
-            -(939524096 as libc::c_int) as uint32_t,
-            -(939524096 as libc::c_int) as uint32_t,
-            -(939520001 as libc::c_int) as uint32_t,
-            -(939520000 as libc::c_int) as uint32_t,
-            1476395008 as libc::c_uint,
-            939532287 as libc::c_int as uint32_t,
-            1476395008 as libc::c_uint,
-            1476399103 as libc::c_uint,
-            1476399104 as libc::c_uint,
-            31744 as libc::c_int as uint32_t,
-            31743 as libc::c_int as uint32_t,
-            31743 as libc::c_int as uint32_t,
-            31744 as libc::c_int as uint32_t,
-            31744 as libc::c_int as uint32_t,
-            64511 as libc::c_int as uint32_t,
-            64512 as libc::c_int as uint32_t,
-            64511 as libc::c_int as uint32_t,
-            64512 as libc::c_int as uint32_t,
-            64512 as libc::c_int as uint32_t,
-            2415919104 as libc::c_uint,
-            2415919104 as libc::c_uint,
-            2415919104 as libc::c_uint,
-            2415919104 as libc::c_uint,
-            2415919104 as libc::c_uint,
-            536870912 as libc::c_int as uint32_t,
-            536870912 as libc::c_int as uint32_t,
-            536870912 as libc::c_int as uint32_t,
-            536870912 as libc::c_int as uint32_t,
-            536870912 as libc::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            32768 as core::ffi::c_int as uint32_t,
+            -(939515905 as core::ffi::c_int) as uint32_t,
+            -(939524096 as core::ffi::c_int) as uint32_t,
+            -(939524096 as core::ffi::c_int) as uint32_t,
+            -(939520001 as core::ffi::c_int) as uint32_t,
+            -(939520000 as core::ffi::c_int) as uint32_t,
+            1476395008 as core::ffi::c_uint,
+            939532287 as core::ffi::c_int as uint32_t,
+            1476395008 as core::ffi::c_uint,
+            1476399103 as core::ffi::c_uint,
+            1476399104 as core::ffi::c_uint,
+            31744 as core::ffi::c_int as uint32_t,
+            31743 as core::ffi::c_int as uint32_t,
+            31743 as core::ffi::c_int as uint32_t,
+            31744 as core::ffi::c_int as uint32_t,
+            31744 as core::ffi::c_int as uint32_t,
+            64511 as core::ffi::c_int as uint32_t,
+            64512 as core::ffi::c_int as uint32_t,
+            64511 as core::ffi::c_int as uint32_t,
+            64512 as core::ffi::c_int as uint32_t,
+            64512 as core::ffi::c_int as uint32_t,
+            2415919104 as core::ffi::c_uint,
+            2415919104 as core::ffi::c_uint,
+            2415919104 as core::ffi::c_uint,
+            2415919104 as core::ffi::c_uint,
+            2415919104 as core::ffi::c_uint,
+            536870912 as core::ffi::c_int as uint32_t,
+            536870912 as core::ffi::c_int as uint32_t,
+            536870912 as core::ffi::c_int as uint32_t,
+            536870912 as core::ffi::c_int as uint32_t,
+            536870912 as core::ffi::c_int as uint32_t,
         ],
     };
     init
@@ -373,17 +372,17 @@ unsafe extern "C" fn llvm_neg_u32(mut a: int32_t) -> uint32_t {
 }
 
 #[inline(never)]
-pub unsafe extern "C" fn _Z13sf16_to_floatt(mut _1: uint16_t) -> libc::c_float {
+pub unsafe extern "C" fn _Z13sf16_to_floatt(mut _1: uint16_t) -> core::ffi::c_float {
     let mut _2: uint16_t = 0;
     let mut _3: l_struct_union_OC_if32 = l_struct_union_OC_if32 { field0: 0 };
     let mut _4: uint16_t = 0;
     let mut _5: uint32_t = 0;
-    let mut _6: libc::c_float = 0.;
+    let mut _6: core::ffi::c_float = 0.;
     _2 = _1;
     _4 = _2;
     _5 = _ZL12sf16_to_sf32t(_4);
     *(&mut _3 as *mut l_struct_union_OC_if32 as *mut uint32_t) = _5;
-    _6 = *(&mut _3 as *mut l_struct_union_OC_if32 as *mut libc::c_float);
+    _6 = *(&mut _3 as *mut l_struct_union_OC_if32 as *mut core::ffi::c_float);
     return _6;
 }
 #[inline(never)]
@@ -431,24 +430,24 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _19 = _11;
     _11 = llvm_add_u32(_19, _18);
     _20 = _11;
-    if _20 & 2147483648 as libc::c_uint == 0 as libc::c_uint {
+    if _20 & 2147483648 as core::ffi::c_uint == 0 as core::ffi::c_uint {
         _21 = _11;
-        _8 = _21 << 13 as libc::c_int;
+        _8 = _21 << 13 as core::ffi::c_int;
     } else {
         _22 = _11;
-        if _22 & 1023 as libc::c_int as uint32_t == 0 as libc::c_uint {
+        if _22 & 1023 as core::ffi::c_int as uint32_t == 0 as core::ffi::c_uint {
             _23 = _11;
-            _8 = _23 << 13 as libc::c_int;
+            _8 = _23 << 13 as core::ffi::c_int;
         } else {
             _24 = _10;
-            if _24 & 31744 as libc::c_int as uint32_t != 0 as libc::c_uint {
+            if _24 & 31744 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
                 _25 = _11;
-                _8 = _25 << 13 as libc::c_int | 4194304 as libc::c_int as uint32_t;
+                _8 = _25 << 13 as core::ffi::c_int | 4194304 as core::ffi::c_int as uint32_t;
             } else {
                 _26 = _10;
-                _12 = (_26 & 32768 as libc::c_int as uint32_t) << 16 as libc::c_int;
+                _12 = (_26 & 32768 as core::ffi::c_int as uint32_t) << 16 as core::ffi::c_int;
                 _27 = _10;
-                _13 = _27 & 32767 as libc::c_int as uint32_t;
+                _13 = _27 & 32767 as core::ffi::c_int as uint32_t;
                 _28 = _13;
                 _29 = _ZL5clz32j(_28);
                 _14 = _29;
@@ -460,8 +459,9 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
                 _34 = _12;
                 _8 = llvm_add_u32(
                     llvm_add_u32(
-                        llvm_lshr_u32(_32, 8 as libc::c_int as uint32_t),
-                        llvm_sub_u32(133 as libc::c_int as uint32_t, _33) << 23 as libc::c_int,
+                        llvm_lshr_u32(_32, 8 as core::ffi::c_int as uint32_t),
+                        llvm_sub_u32(133 as core::ffi::c_int as uint32_t, _33)
+                            << 23 as core::ffi::c_int,
                     ),
                     _34,
                 );
@@ -473,17 +473,17 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
 }
 
 #[inline(never)]
-pub unsafe extern "C" fn _Z13float_to_sf16f(mut _43: libc::c_float) -> uint16_t {
-    let mut _44: libc::c_float = 0.;
+pub unsafe extern "C" fn _Z13float_to_sf16f(mut _43: core::ffi::c_float) -> uint16_t {
+    let mut _44: core::ffi::c_float = 0.;
     let mut _45: l_struct_union_OC_if32 = l_struct_union_OC_if32 { field0: 0 };
-    let mut _46: libc::c_float = 0.;
+    let mut _46: core::ffi::c_float = 0.;
     let mut _47: uint32_t = 0;
     let mut _48: uint16_t = 0;
     _44 = _43;
     _46 = _44;
-    *(&mut _45 as *mut l_struct_union_OC_if32 as *mut libc::c_float) = _46;
+    *(&mut _45 as *mut l_struct_union_OC_if32 as *mut core::ffi::c_float) = _46;
     _47 = *(&mut _45 as *mut l_struct_union_OC_if32 as *mut uint32_t);
-    _48 = _ZL12sf32_to_sf16j9roundmode(_47, 3 as libc::c_int as uint32_t);
+    _48 = _ZL12sf32_to_sf16j9roundmode(_47, 3 as core::ffi::c_int as uint32_t);
     return _48;
 }
 #[inline(never)]
@@ -547,7 +547,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
         .offset(
             (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                 _58,
-                23 as libc::c_int as uint32_t,
+                23 as core::ffi::c_int as uint32_t,
             ) as uint64_t as int64_t as isize,
         ) as *const uint8_t as *mut uint8_t);
     _55 = llvm_add_u32(_57, _59 as uint32_t);
@@ -561,25 +561,28 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
     match _62 {
         50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 => {
             _63 = _52;
-            _54 = llvm_sub_u32(_63, 1 as libc::c_int as uint32_t)
-                & 8388608 as libc::c_int as uint32_t;
+            _54 = llvm_sub_u32(_63, 1 as core::ffi::c_int as uint32_t)
+                & 8388608 as core::ffi::c_int as uint32_t;
             _64 = _52;
             _65 = _56;
             _66 = _54;
-            _51 = (llvm_lshr_u32(llvm_add_u32(_64, _65), 13 as libc::c_int as uint32_t)
-                | llvm_lshr_u32(_66, 14 as libc::c_int as uint32_t)) as uint16_t;
+            _51 = (llvm_lshr_u32(llvm_add_u32(_64, _65), 13 as core::ffi::c_int as uint32_t)
+                | llvm_lshr_u32(_66, 14 as core::ffi::c_int as uint32_t))
+                as uint16_t;
         }
         0 => {
             _67 = _52;
-            _51 = llvm_lshr_u32(llvm_neg_u32(_67 as int32_t), 31 as libc::c_int as uint32_t)
-                as uint16_t;
+            _51 = llvm_lshr_u32(
+                llvm_neg_u32(_67 as int32_t),
+                31 as core::ffi::c_int as uint32_t,
+            ) as uint16_t;
         }
         6 => {
             _68 = _56;
             _69 = _52;
             _51 = llvm_add_u32(
-                llvm_lshr_u32(llvm_sub_u32(_68, _69), 31 as libc::c_int as uint32_t),
-                32768 as libc::c_int as uint32_t,
+                llvm_lshr_u32(llvm_sub_u32(_68, _69), 31 as core::ffi::c_int as uint32_t),
+                32768 as core::ffi::c_int as uint32_t,
             ) as uint16_t;
         }
         1 | 2 | 3 | 4 | 5 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 40
@@ -590,7 +593,8 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
         30 | 31 | 32 | 34 | 35 | 36 | 37 | 39 => {
             _71 = _52;
             _72 = _56;
-            _51 = llvm_lshr_u32(llvm_add_u32(_71, _72), 13 as libc::c_int as uint32_t) as uint16_t;
+            _51 = llvm_lshr_u32(llvm_add_u32(_71, _72), 13 as core::ffi::c_int as uint32_t)
+                as uint16_t;
         }
         33 | 38 => {
             _73 = _52;
@@ -600,24 +604,26 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _76 = _54;
             _54 = llvm_add_u32(
                 _76,
-                llvm_lshr_u32(_75, 13 as libc::c_int as uint32_t) & 1 as libc::c_int as uint32_t,
+                llvm_lshr_u32(_75, 13 as core::ffi::c_int as uint32_t)
+                    & 1 as core::ffi::c_int as uint32_t,
             );
             _77 = _54;
-            _51 = llvm_lshr_u32(_77, 13 as libc::c_int as uint32_t) as uint16_t;
+            _51 = llvm_lshr_u32(_77, 13 as core::ffi::c_int as uint32_t) as uint16_t;
         }
         21 | 22 | 25 | 27 => {
             _78 = _52;
             _54 = llvm_sub_u32(
-                126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_78, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
+                126 as core::ffi::c_int as uint32_t,
+                llvm_lshr_u32(_78, 23 as core::ffi::c_int as uint32_t)
+                    & 255 as core::ffi::c_int as uint32_t,
             );
             _79 = _52;
             _80 = _54;
             _81 = _56;
             _51 = (llvm_lshr_u32(
                 llvm_add_u32(
-                    _79 & 8388607 as libc::c_int as uint32_t,
-                    8388608 as libc::c_int as uint32_t,
+                    _79 & 8388607 as core::ffi::c_int as uint32_t,
+                    8388608 as core::ffi::c_int as uint32_t,
                 ),
                 _80,
             ) | _81) as uint16_t;
@@ -625,15 +631,16 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
         20 | 26 => {
             _82 = _52;
             _54 = llvm_sub_u32(
-                126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_82, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
+                126 as core::ffi::c_int as uint32_t,
+                llvm_lshr_u32(_82, 23 as core::ffi::c_int as uint32_t)
+                    & 255 as core::ffi::c_int as uint32_t,
             );
             _83 = _52;
             _84 = _54;
             _85 = _ZL12rtup_shift32jj(
                 llvm_add_u32(
-                    _83 & 8388607 as libc::c_int as uint32_t,
-                    8388608 as libc::c_int as uint32_t,
+                    _83 & 8388607 as core::ffi::c_int as uint32_t,
+                    8388608 as core::ffi::c_int as uint32_t,
                 ),
                 _84,
             );
@@ -643,15 +650,16 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
         24 | 29 => {
             _87 = _52;
             _54 = llvm_sub_u32(
-                126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_87, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
+                126 as core::ffi::c_int as uint32_t,
+                llvm_lshr_u32(_87, 23 as core::ffi::c_int as uint32_t)
+                    & 255 as core::ffi::c_int as uint32_t,
             );
             _88 = _52;
             _89 = _54;
             _90 = _ZL12rtna_shift32jj(
                 llvm_add_u32(
-                    _88 & 8388607 as libc::c_int as uint32_t,
-                    8388608 as libc::c_int as uint32_t,
+                    _88 & 8388607 as core::ffi::c_int as uint32_t,
+                    8388608 as core::ffi::c_int as uint32_t,
                 ),
                 _89,
             );
@@ -661,15 +669,16 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
         23 | 28 => {
             _92 = _52;
             _54 = llvm_sub_u32(
-                126 as libc::c_int as uint32_t,
-                llvm_lshr_u32(_92, 23 as libc::c_int as uint32_t) & 255 as libc::c_int as uint32_t,
+                126 as core::ffi::c_int as uint32_t,
+                llvm_lshr_u32(_92, 23 as core::ffi::c_int as uint32_t)
+                    & 255 as core::ffi::c_int as uint32_t,
             );
             _93 = _52;
             _94 = _54;
             _95 = _ZL12rtne_shift32jj(
                 llvm_add_u32(
-                    _93 & 8388607 as libc::c_int as uint32_t,
-                    8388608 as libc::c_int as uint32_t,
+                    _93 & 8388607 as core::ffi::c_int as uint32_t,
+                    8388608 as core::ffi::c_int as uint32_t,
                 ),
                 _94,
             );
@@ -677,7 +686,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _51 = (_95 | _96) as uint16_t;
         }
         _ => {
-            _51 = 0 as libc::c_int as uint16_t;
+            _51 = 0 as core::ffi::c_int as uint16_t;
         }
     }
     _97 = _51;
@@ -697,20 +706,20 @@ unsafe extern "C" fn _ZL5clz32j(mut _110: uint32_t) -> uint32_t {
     let mut _120: uint32_t = 0;
     let mut _121: uint8_t = 0;
     _111 = _110;
-    _112 = 24 as libc::c_int as uint32_t;
+    _112 = 24 as core::ffi::c_int as uint32_t;
     _113 = _111;
-    if _113 >= 65536 as libc::c_uint {
+    if _113 >= 65536 as core::ffi::c_uint {
         _114 = _111;
-        _111 = llvm_lshr_u32(_114, 16 as libc::c_int as uint32_t);
+        _111 = llvm_lshr_u32(_114, 16 as core::ffi::c_int as uint32_t);
         _115 = _112;
-        _112 = llvm_sub_u32(_115, 16 as libc::c_int as uint32_t);
+        _112 = llvm_sub_u32(_115, 16 as core::ffi::c_int as uint32_t);
     }
     _116 = _111;
-    if _116 >= 256 as libc::c_uint {
+    if _116 >= 256 as core::ffi::c_uint {
         _117 = _111;
-        _111 = llvm_lshr_u32(_117, 8 as libc::c_int as uint32_t);
+        _111 = llvm_lshr_u32(_117, 8 as core::ffi::c_int as uint32_t);
         _118 = _112;
-        _112 = llvm_sub_u32(_118, 8 as libc::c_int as uint32_t);
+        _112 = llvm_sub_u32(_118, 8 as core::ffi::c_int as uint32_t);
     }
     _119 = _112;
     _120 = _111;
@@ -734,12 +743,12 @@ unsafe extern "C" fn _ZL12rtup_shift32jj(mut _126: uint32_t, mut _127: uint32_t)
     _128 = _126;
     _129 = _127;
     _131 = _129;
-    _130 = ((1 as libc::c_int) << _131) as uint32_t;
+    _130 = ((1 as core::ffi::c_int) << _131) as uint32_t;
     _132 = _130;
     _133 = _128;
     _128 = llvm_add_u32(_133, _132);
     _134 = _128;
-    _128 = llvm_add_u32(_134, -(1 as libc::c_int) as uint32_t);
+    _128 = llvm_add_u32(_134, -(1 as core::ffi::c_int) as uint32_t);
     _135 = _129;
     _136 = _128;
     _128 = llvm_lshr_u32(_136, _135);
@@ -761,8 +770,8 @@ unsafe extern "C" fn _ZL12rtna_shift32jj(mut _138: uint32_t, mut _139: uint32_t)
     _141 = _139;
     _143 = _141;
     _142 = llvm_lshr_u32(
-        ((1 as libc::c_int) << _143) as uint32_t,
-        1 as libc::c_int as uint32_t,
+        ((1 as core::ffi::c_int) << _143) as uint32_t,
+        1 as core::ffi::c_int as uint32_t,
     );
     _144 = _142;
     _145 = _140;
@@ -794,18 +803,21 @@ unsafe extern "C" fn _ZL12rtne_shift32jj(mut _149: uint32_t, mut _150: uint32_t)
     _151 = _149;
     _152 = _150;
     _156 = _152;
-    _153 = ((1 as libc::c_int) << _156) as uint32_t;
+    _153 = ((1 as core::ffi::c_int) << _156) as uint32_t;
     _157 = _151;
     _158 = _153;
-    _154 = llvm_add_u32(_157, llvm_lshr_u32(_158, 1 as libc::c_int as uint32_t));
+    _154 = llvm_add_u32(_157, llvm_lshr_u32(_158, 1 as core::ffi::c_int as uint32_t));
     _159 = _151;
     _160 = _153;
-    _155 = (_159 | 1 as libc::c_int as uint32_t) & _160;
+    _155 = (_159 | 1 as core::ffi::c_int as uint32_t) & _160;
     _161 = _155;
-    _155 = llvm_add_u32(_161, -(1 as libc::c_int) as uint32_t);
+    _155 = llvm_add_u32(_161, -(1 as core::ffi::c_int) as uint32_t);
     _162 = _155;
     _163 = _154;
-    _154 = llvm_sub_u32(_163, llvm_lshr_u32(_162, 31 as libc::c_int as uint32_t));
+    _154 = llvm_sub_u32(
+        _163,
+        llvm_lshr_u32(_162, 31 as core::ffi::c_int as uint32_t),
+    );
     _164 = _152;
     _165 = _154;
     _154 = llvm_lshr_u32(_165, _164);

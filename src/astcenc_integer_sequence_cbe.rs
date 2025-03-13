@@ -1,18 +1,21 @@
-use ::libc;
 extern "C" {
     fn __assert_fail(
-        _649: *mut libc::c_void,
-        _650: *mut libc::c_void,
+        _649: *mut core::ffi::c_void,
+        _650: *mut core::ffi::c_void,
         _651: uint32_t,
-        _652: *mut libc::c_void,
+        _652: *mut core::ffi::c_void,
     ) -> !;
-    fn memset(_: *mut libc::c_void, _: libc::c_int, _: libc::c_ulong) -> *mut libc::c_void;
+    fn memset(
+        _: *mut core::ffi::c_void,
+        _: core::ffi::c_int,
+        _: core::ffi::c_ulong,
+    ) -> *mut core::ffi::c_void;
 }
-pub type __uint8_t = libc::c_uchar;
-pub type __int32_t = libc::c_int;
-pub type __uint32_t = libc::c_uint;
-pub type __int64_t = libc::c_long;
-pub type __uint64_t = libc::c_ulong;
+pub type __uint8_t = core::ffi::c_uchar;
+pub type __int32_t = core::ffi::c_int;
+pub type __uint32_t = core::ffi::c_uint;
+pub type __int64_t = core::ffi::c_long;
+pub type __uint64_t = core::ffi::c_ulong;
 pub type int32_t = __int32_t;
 pub type int64_t = __int64_t;
 pub type uint8_t = __uint8_t;
@@ -151,127 +154,127 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                 array: [
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 1 as libc::c_int as uint8_t,
+                            field0: 1 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 136 as libc::c_uint as uint8_t,
+                            field0: 136 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 2 as libc::c_int as uint8_t,
+                            field0: 2 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 71 as libc::c_uint as uint8_t,
+                            field0: 71 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 141 as libc::c_uint as uint8_t,
+                            field0: 141 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 3 as libc::c_int as uint8_t,
+                            field0: 3 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 74 as libc::c_uint as uint8_t,
+                            field0: 74 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 146 as libc::c_uint as uint8_t,
+                            field0: 146 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 4 as libc::c_int as uint8_t,
+                            field0: 4 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 77 as libc::c_uint as uint8_t,
+                            field0: 77 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 151 as libc::c_uint as uint8_t,
+                            field0: 151 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 5 as libc::c_int as uint8_t,
+                            field0: 5 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 80 as libc::c_uint as uint8_t,
+                            field0: 80 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 156 as libc::c_uint as uint8_t,
+                            field0: 156 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 6 as libc::c_int as uint8_t,
+                            field0: 6 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 83 as libc::c_uint as uint8_t,
+                            field0: 83 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 161 as libc::c_uint as uint8_t,
+                            field0: 161 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 7 as libc::c_int as uint8_t,
+                            field0: 7 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 86 as libc::c_uint as uint8_t,
+                            field0: 86 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 166 as libc::c_uint as uint8_t,
+                            field0: 166 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_ise_size {
-                            field0: 8 as libc::c_int as uint8_t,
+                            field0: 8 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
@@ -322,127 +325,127 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                 array: [
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 1 as libc::c_int as uint8_t,
+                            field0: 1 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 64 as libc::c_uint as uint8_t,
+                            field0: 64 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 2 as libc::c_int as uint8_t,
+                            field0: 2 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 128 as libc::c_uint as uint8_t,
+                            field0: 128 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 65 as libc::c_uint as uint8_t,
+                            field0: 65 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 3 as libc::c_int as uint8_t,
+                            field0: 3 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 129 as libc::c_uint as uint8_t,
+                            field0: 129 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 66 as libc::c_uint as uint8_t,
+                            field0: 66 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 4 as libc::c_int as uint8_t,
+                            field0: 4 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 130 as libc::c_uint as uint8_t,
+                            field0: 130 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 67 as libc::c_uint as uint8_t,
+                            field0: 67 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 5 as libc::c_int as uint8_t,
+                            field0: 5 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 131 as libc::c_uint as uint8_t,
+                            field0: 131 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 68 as libc::c_uint as uint8_t,
+                            field0: 68 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 6 as libc::c_int as uint8_t,
+                            field0: 6 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 132 as libc::c_uint as uint8_t,
+                            field0: 132 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 69 as libc::c_uint as uint8_t,
+                            field0: 69 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 7 as libc::c_int as uint8_t,
+                            field0: 7 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 133 as libc::c_uint as uint8_t,
+                            field0: 133 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 70 as libc::c_uint as uint8_t,
+                            field0: 70 as core::ffi::c_uint as uint8_t,
                         };
                         init
                     },
                     {
                         let mut init = l_struct_struct_OC_btq_count {
-                            field0: 8 as libc::c_int as uint8_t,
+                            field0: 8 as core::ffi::c_int as uint8_t,
                         };
                         init
                     },
@@ -1832,11 +1835,11 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                 {
                     let mut init = l_array_5_uint8_t {
                         array: [
-                            0 as libc::c_int as uint8_t,
-                            0 as libc::c_int as uint8_t,
-                            0 as libc::c_int as uint8_t,
-                            0 as libc::c_int as uint8_t,
-                            0 as libc::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
                         ],
                     };
                     init
@@ -3901,9 +3904,9 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                 {
                     let mut init = l_array_3_uint8_t {
                         array: [
-                            0 as libc::c_int as uint8_t,
-                            0 as libc::c_int as uint8_t,
-                            0 as libc::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
+                            0 as core::ffi::c_int as uint8_t,
                         ],
                     };
                     init
@@ -4927,7 +4930,7 @@ unsafe extern "C" fn llvm_udiv_u32(mut a: uint32_t, mut b: uint32_t) -> uint32_t
 }
 #[inline(always)]
 unsafe extern "C" fn llvm_lshr_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
-    let mut r: uint8_t = (a as libc::c_int >> b as libc::c_int) as uint8_t;
+    let mut r: uint8_t = (a as core::ffi::c_int >> b as core::ffi::c_int) as uint8_t;
     return r;
 }
 #[inline(always)]
@@ -4942,7 +4945,7 @@ unsafe extern "C" fn llvm_ashr_u32(mut a: int32_t, mut b: int32_t) -> uint32_t {
 }
 #[inline(always)]
 unsafe extern "C" fn llvm_and_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
-    let mut r: uint8_t = (a as libc::c_int & b as libc::c_int) as uint8_t;
+    let mut r: uint8_t = (a as core::ffi::c_int & b as core::ffi::c_int) as uint8_t;
     return r;
 }
 
@@ -4951,19 +4954,19 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
     mut _1: uint32_t,
     mut _2: uint32_t,
 ) -> uint32_t {
-    let mut _3: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _3: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4: uint32_t = 0;
     let mut _5: uint32_t = 0;
     let mut _6: uint32_t = 0;
-    let mut _7: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _7: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _8: uint32_t = 0;
     let mut _9: uint32_t = 0;
-    let mut _10: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _10: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _11: uint32_t = 0;
-    let mut _12: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _13: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _12: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _13: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _14: uint8_t = 0;
-    let mut _15: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _15: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _16: uint8_t = 0;
     let mut _17: uint32_t = 0;
     let mut _18: uint32_t = 0;
@@ -4972,22 +4975,23 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
     _5 = _1;
     _6 = _2;
     _9 = _6;
-    _3 = &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array as *mut libc::c_void;
+    _3 = &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array as *mut core::ffi::c_void;
     _10 = _3;
-    if _9 as uint64_t >= 21 as libc::c_ulong {
-        _4 = 1024 as libc::c_int as uint32_t;
+    if _9 as uint64_t >= 21 as core::ffi::c_ulong {
+        _4 = 1024 as core::ffi::c_int as uint32_t;
     } else {
         _11 = _6;
         _12 = _ZNKSt5arrayI8ise_sizeLm21EEixEm(
-            &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array as *mut libc::c_void,
+            &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array as *mut core::ffi::c_void,
             _11 as uint64_t,
         );
         _7 = _12;
         _13 = _7;
         _14 = *(_13 as *mut uint8_t);
         _8 = llvm_add_u32(
-            (llvm_lshr_u8(_14, 6 as libc::c_int as uint8_t) as uint32_t) << 1 as libc::c_int,
-            1 as libc::c_int as uint32_t,
+            (llvm_lshr_u8(_14, 6 as core::ffi::c_int as uint8_t) as uint32_t)
+                << 1 as core::ffi::c_int,
+            1 as core::ffi::c_int as uint32_t,
         );
         _15 = _7;
         _16 = *(_15 as *mut uint8_t);
@@ -4998,12 +5002,12 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
             llvm_sub_u32(
                 llvm_add_u32(
                     llvm_mul_u32(
-                        llvm_and_u8(_16, 63 as libc::c_int as uint8_t) as uint32_t,
+                        llvm_and_u8(_16, 63 as core::ffi::c_int as uint8_t) as uint32_t,
                         _17,
                     ),
                     _18,
                 ),
-                1 as libc::c_int as uint32_t,
+                1 as core::ffi::c_int as uint32_t,
             ),
             _19,
         );
@@ -5014,12 +5018,12 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
 
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
-    mut _24: *mut libc::c_void,
+    mut _24: *mut core::ffi::c_void,
     mut _25: uint64_t,
-) -> *mut libc::c_void {
-    let mut _26: *mut libc::c_void = 0 as *mut libc::c_void;
+) -> *mut core::ffi::c_void {
+    let mut _26: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _27: uint64_t = 0;
-    let mut _28: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _28: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _29: uint64_t = 0;
     _26 = _24;
     _27 = _25;
@@ -5030,21 +5034,21 @@ pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
         .array)
         .as_mut_ptr()
         .offset(_29 as int64_t as isize) as *mut l_struct_struct_OC_ise_size
-        as *mut libc::c_void;
+        as *mut core::ffi::c_void;
 }
 
 #[inline(never)]
 pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     mut _30: uint32_t,
     mut _31: uint32_t,
-    mut _32: *mut libc::c_void,
-    mut _33: *mut libc::c_void,
+    mut _32: *mut core::ffi::c_void,
+    mut _33: *mut core::ffi::c_void,
     mut _34: uint32_t,
 ) {
     let mut _35: uint32_t = 0;
     let mut _36: uint32_t = 0;
-    let mut _37: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _38: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _37: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _38: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _39: uint32_t = 0;
     let mut _40: uint32_t = 0;
     let mut _41: uint32_t = 0;
@@ -5085,36 +5089,36 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _76: uint32_t = 0;
     let mut _77: uint32_t = 0;
     let mut _78: uint32_t = 0;
-    let mut _79: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _79: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _80: uint8_t = 0;
     let mut _81: uint32_t = 0;
-    let mut _82: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _82: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _83: uint8_t = 0;
     let mut _84: uint32_t = 0;
-    let mut _85: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _85: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _86: uint8_t = 0;
     let mut _87: uint32_t = 0;
     let mut _88: uint32_t = 0;
     let mut _89: uint32_t = 0;
     let mut _90: uint32_t = 0;
     let mut _91: uint32_t = 0;
-    let mut _92: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _92: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _93: uint32_t = 0;
     let mut _94: uint8_t = 0;
     let mut _95: uint32_t = 0;
-    let mut _96: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _96: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _97: uint32_t = 0;
     let mut _98: uint8_t = 0;
     let mut _99: uint32_t = 0;
-    let mut _100: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _100: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _101: uint32_t = 0;
     let mut _102: uint8_t = 0;
     let mut _103: uint32_t = 0;
-    let mut _104: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _104: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _105: uint32_t = 0;
     let mut _106: uint8_t = 0;
     let mut _107: uint32_t = 0;
-    let mut _108: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _108: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _109: uint32_t = 0;
     let mut _110: uint8_t = 0;
     let mut _111: uint32_t = 0;
@@ -5124,7 +5128,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _115: uint32_t = 0;
     let mut _116: uint32_t = 0;
     let mut _117: uint8_t = 0;
-    let mut _118: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _118: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _119: uint32_t = 0;
     let mut _120: uint8_t = 0;
     let mut _121: uint32_t = 0;
@@ -5133,10 +5137,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _124: uint8_t = 0;
     let mut _125: uint32_t = 0;
     let mut _126: uint32_t = 0;
-    let mut _127: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _127: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _128: uint32_t = 0;
     let mut _129: uint32_t = 0;
-    let mut _130: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _131: uint32_t = 0;
     let mut _132: uint8_t = 0;
     let mut _133: uint32_t = 0;
@@ -5145,10 +5149,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _136: uint8_t = 0;
     let mut _137: uint32_t = 0;
     let mut _138: uint32_t = 0;
-    let mut _139: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _139: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _140: uint32_t = 0;
     let mut _141: uint32_t = 0;
-    let mut _142: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _142: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _143: uint32_t = 0;
     let mut _144: uint8_t = 0;
     let mut _145: uint32_t = 0;
@@ -5157,10 +5161,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _148: uint8_t = 0;
     let mut _149: uint32_t = 0;
     let mut _150: uint32_t = 0;
-    let mut _151: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _151: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _152: uint32_t = 0;
     let mut _153: uint32_t = 0;
-    let mut _154: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _154: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _155: uint32_t = 0;
     let mut _156: uint8_t = 0;
     let mut _157: uint32_t = 0;
@@ -5169,10 +5173,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _160: uint8_t = 0;
     let mut _161: uint32_t = 0;
     let mut _162: uint32_t = 0;
-    let mut _163: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _163: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _164: uint32_t = 0;
     let mut _165: uint32_t = 0;
-    let mut _166: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _166: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _167: uint32_t = 0;
     let mut _168: uint8_t = 0;
     let mut _169: uint32_t = 0;
@@ -5181,7 +5185,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _172: uint8_t = 0;
     let mut _173: uint32_t = 0;
     let mut _174: uint32_t = 0;
-    let mut _175: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _175: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _176: uint32_t = 0;
     let mut _177: uint32_t = 0;
     let mut _178: uint32_t = 0;
@@ -5189,7 +5193,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _180: uint32_t = 0;
     let mut _181: uint32_t = 0;
     let mut _182: uint32_t = 0;
-    let mut _183: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _183: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _184: uint32_t = 0;
     let mut _185: uint8_t = 0;
     let mut _186: uint32_t = 0;
@@ -5198,7 +5202,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _188__PHI_TEMPORARY: uint32_t = 0;
     let mut _189: uint32_t = 0;
     let mut _190: uint32_t = 0;
-    let mut _191: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _191: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _192: uint32_t = 0;
     let mut _193: uint8_t = 0;
     let mut _194: uint32_t = 0;
@@ -5207,14 +5211,14 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _196__PHI_TEMPORARY: uint32_t = 0;
     let mut _197: uint32_t = 0;
     let mut _198: uint32_t = 0;
-    let mut _199: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _199: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _200: uint32_t = 0;
     let mut _201: uint8_t = 0;
     let mut _202: uint32_t = 0;
     let mut _203: uint32_t = 0;
     let mut _204: uint32_t = 0;
     let mut _204__PHI_TEMPORARY: uint32_t = 0;
-    let mut _205: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _205: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _206: uint32_t = 0;
     let mut _207: uint8_t = 0;
     let mut _208: uint32_t = 0;
@@ -5226,7 +5230,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _214: uint8_t = 0;
     let mut _215: uint32_t = 0;
     let mut _216: uint32_t = 0;
-    let mut _217: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _217: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _218: uint32_t = 0;
     let mut _219: uint8_t = 0;
     let mut _220: uint32_t = 0;
@@ -5241,7 +5245,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _229: uint32_t = 0;
     let mut _230: uint8_t = 0;
     let mut _231: uint32_t = 0;
-    let mut _232: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _232: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _233: uint32_t = 0;
     let mut _234: uint32_t = 0;
     let mut _235: uint8_t = 0;
@@ -5252,15 +5256,15 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _240: uint32_t = 0;
     let mut _241: uint32_t = 0;
     let mut _242: uint32_t = 0;
-    let mut _243: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _243: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _244: uint32_t = 0;
     let mut _245: uint8_t = 0;
     let mut _246: uint32_t = 0;
-    let mut _247: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _247: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _248: uint32_t = 0;
     let mut _249: uint8_t = 0;
     let mut _250: uint32_t = 0;
-    let mut _251: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _251: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _252: uint32_t = 0;
     let mut _253: uint8_t = 0;
     let mut _254: uint32_t = 0;
@@ -5268,7 +5272,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _256: uint32_t = 0;
     let mut _257: uint32_t = 0;
     let mut _258: uint8_t = 0;
-    let mut _259: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _259: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _260: uint32_t = 0;
     let mut _261: uint8_t = 0;
     let mut _262: uint32_t = 0;
@@ -5277,10 +5281,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _265: uint8_t = 0;
     let mut _266: uint32_t = 0;
     let mut _267: uint32_t = 0;
-    let mut _268: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _268: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _269: uint32_t = 0;
     let mut _270: uint32_t = 0;
-    let mut _271: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _271: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _272: uint32_t = 0;
     let mut _273: uint8_t = 0;
     let mut _274: uint32_t = 0;
@@ -5289,10 +5293,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _277: uint8_t = 0;
     let mut _278: uint32_t = 0;
     let mut _279: uint32_t = 0;
-    let mut _280: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _280: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _281: uint32_t = 0;
     let mut _282: uint32_t = 0;
-    let mut _283: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _283: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _284: uint32_t = 0;
     let mut _285: uint8_t = 0;
     let mut _286: uint32_t = 0;
@@ -5301,7 +5305,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _289: uint8_t = 0;
     let mut _290: uint32_t = 0;
     let mut _291: uint32_t = 0;
-    let mut _292: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _292: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _293: uint32_t = 0;
     let mut _294: uint32_t = 0;
     let mut _295: uint32_t = 0;
@@ -5309,14 +5313,14 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _297: uint32_t = 0;
     let mut _298: uint32_t = 0;
     let mut _299: uint32_t = 0;
-    let mut _300: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _300: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _301: uint32_t = 0;
     let mut _302: uint8_t = 0;
     let mut _303: uint32_t = 0;
     let mut _304: uint32_t = 0;
     let mut _305: uint32_t = 0;
     let mut _305__PHI_TEMPORARY: uint32_t = 0;
-    let mut _306: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _306: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _307: uint32_t = 0;
     let mut _308: uint8_t = 0;
     let mut _309: uint32_t = 0;
@@ -5326,7 +5330,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _313: uint8_t = 0;
     let mut _314: uint32_t = 0;
     let mut _315: uint32_t = 0;
-    let mut _316: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _316: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _317: uint32_t = 0;
     let mut _318: uint8_t = 0;
     let mut _319: uint32_t = 0;
@@ -5341,7 +5345,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _328: uint32_t = 0;
     let mut _329: uint8_t = 0;
     let mut _330: uint32_t = 0;
-    let mut _331: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _331: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _332: uint32_t = 0;
     let mut _333: uint32_t = 0;
     let mut _334: uint8_t = 0;
@@ -5350,12 +5354,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _337: uint32_t = 0;
     let mut _338: uint32_t = 0;
     let mut _339: uint32_t = 0;
-    let mut _340: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _340: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _341: uint32_t = 0;
     let mut _342: uint8_t = 0;
     let mut _343: uint32_t = 0;
     let mut _344: uint32_t = 0;
-    let mut _345: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _345: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _346: uint32_t = 0;
     let mut _347: uint32_t = 0;
     let mut _348: uint32_t = 0;
@@ -5365,44 +5369,44 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     _38 = _33;
     _39 = _34;
     _77 = _36;
-    if _77 > 0 as libc::c_uint {
+    if _77 > 0 as core::ffi::c_uint {
         _78 = _35;
         _79 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
             _78 as uint64_t,
         );
         _80 = *(_79 as *mut uint8_t);
-        _40 = llvm_and_u8(_80, 63 as libc::c_int as uint8_t) as uint32_t;
+        _40 = llvm_and_u8(_80, 63 as core::ffi::c_int as uint8_t) as uint32_t;
         _81 = _35;
         _82 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
             _81 as uint64_t,
         );
         _83 = *(_82 as *mut uint8_t);
         _41 = llvm_and_u8(
-            llvm_lshr_u8(_83, 6 as libc::c_int as uint8_t),
-            1 as libc::c_int as uint8_t,
+            llvm_lshr_u8(_83, 6 as core::ffi::c_int as uint8_t),
+            1 as core::ffi::c_int as uint8_t,
         ) as uint32_t;
         _84 = _35;
         _85 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
             _84 as uint64_t,
         );
         _86 = *(_85 as *mut uint8_t);
-        _42 = llvm_lshr_u8(_86, 7 as libc::c_int as uint8_t) as uint32_t;
+        _42 = llvm_lshr_u8(_86, 7 as core::ffi::c_int as uint8_t) as uint32_t;
         _87 = _40;
         _43 = llvm_sub_u32(
-            ((1 as libc::c_int) << _87) as uint32_t,
-            1 as libc::c_int as uint32_t,
+            ((1 as core::ffi::c_int) << _87) as uint32_t,
+            1 as core::ffi::c_int as uint32_t,
         );
         _88 = _41;
-        if _88 != 0 as libc::c_uint {
+        if _88 != 0 as core::ffi::c_uint {
             _44 = 0;
             _89 = _36;
-            _45 = llvm_udiv_u32(_89, 5 as libc::c_int as uint32_t);
+            _45 = llvm_udiv_u32(_89, 5 as core::ffi::c_int as uint32_t);
             _46 = 0;
             loop {
                 _90 = _46;
@@ -5415,7 +5419,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _94 = *(&mut *(_92 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _93,
-                    4 as libc::c_int as uint32_t,
+                    4 as core::ffi::c_int as uint32_t,
                 ) as uint64_t as int64_t
                     as isize) as *mut uint8_t);
                 _95 = _40;
@@ -5425,7 +5429,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _98 = *(&mut *(_96 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _97,
-                    3 as libc::c_int as uint32_t,
+                    3 as core::ffi::c_int as uint32_t,
                 ) as uint64_t as int64_t
                     as isize) as *mut uint8_t);
                 _99 = _40;
@@ -5435,7 +5439,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _102 = *(&mut *(_100 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _101,
-                    2 as libc::c_int as uint32_t,
+                    2 as core::ffi::c_int as uint32_t,
                 ) as uint64_t
                     as int64_t
                     as isize) as *mut uint8_t);
@@ -5446,7 +5450,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _106 = *(&mut *(_104 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _105,
-                    1 as libc::c_int as uint32_t,
+                    1 as core::ffi::c_int as uint32_t,
                 ) as uint64_t
                     as int64_t
                     as isize) as *mut uint8_t);
@@ -5491,15 +5495,15 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _52 = _117;
                 _118 = _37;
                 _119 = _44;
-                _44 = llvm_add_u32(_119, 1 as libc::c_int as uint32_t);
+                _44 = llvm_add_u32(_119, 1 as core::ffi::c_int as uint32_t);
                 _120 = *(&mut *(_118 as *mut uint8_t).offset(_119 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _121 = _43;
                 _122 = _52;
                 _123 = _40;
                 _53 = (_120 as uint32_t & _121
-                    | (llvm_ashr_u32(_122 as uint32_t as int32_t, 0 as libc::c_int)
-                        & 3 as libc::c_int as uint32_t)
+                    | (llvm_ashr_u32(_122 as uint32_t as int32_t, 0 as core::ffi::c_int)
+                        & 3 as core::ffi::c_int as uint32_t)
                         << _123) as uint8_t;
                 _124 = _53;
                 _125 = _40;
@@ -5507,24 +5511,24 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _127 = _38;
                 _ZL10write_bitsjjjPh(
                     _124 as uint32_t,
-                    llvm_add_u32(_125, 2 as libc::c_int as uint32_t),
+                    llvm_add_u32(_125, 2 as core::ffi::c_int as uint32_t),
                     _126,
                     _127,
                 );
                 _128 = _40;
                 _129 = _39;
-                _39 = llvm_add_u32(_129, llvm_add_u32(_128, 2 as libc::c_int as uint32_t));
+                _39 = llvm_add_u32(_129, llvm_add_u32(_128, 2 as core::ffi::c_int as uint32_t));
                 _130 = _37;
                 _131 = _44;
-                _44 = llvm_add_u32(_131, 1 as libc::c_int as uint32_t);
+                _44 = llvm_add_u32(_131, 1 as core::ffi::c_int as uint32_t);
                 _132 = *(&mut *(_130 as *mut uint8_t).offset(_131 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _133 = _43;
                 _134 = _52;
                 _135 = _40;
                 _53 = (_132 as uint32_t & _133
-                    | (llvm_ashr_u32(_134 as uint32_t as int32_t, 2 as libc::c_int)
-                        & 3 as libc::c_int as uint32_t)
+                    | (llvm_ashr_u32(_134 as uint32_t as int32_t, 2 as core::ffi::c_int)
+                        & 3 as core::ffi::c_int as uint32_t)
                         << _135) as uint8_t;
                 _136 = _53;
                 _137 = _40;
@@ -5532,24 +5536,24 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _139 = _38;
                 _ZL10write_bitsjjjPh(
                     _136 as uint32_t,
-                    llvm_add_u32(_137, 2 as libc::c_int as uint32_t),
+                    llvm_add_u32(_137, 2 as core::ffi::c_int as uint32_t),
                     _138,
                     _139,
                 );
                 _140 = _40;
                 _141 = _39;
-                _39 = llvm_add_u32(_141, llvm_add_u32(_140, 2 as libc::c_int as uint32_t));
+                _39 = llvm_add_u32(_141, llvm_add_u32(_140, 2 as core::ffi::c_int as uint32_t));
                 _142 = _37;
                 _143 = _44;
-                _44 = llvm_add_u32(_143, 1 as libc::c_int as uint32_t);
+                _44 = llvm_add_u32(_143, 1 as core::ffi::c_int as uint32_t);
                 _144 = *(&mut *(_142 as *mut uint8_t).offset(_143 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _145 = _43;
                 _146 = _52;
                 _147 = _40;
                 _53 = (_144 as uint32_t & _145
-                    | (llvm_ashr_u32(_146 as uint32_t as int32_t, 4 as libc::c_int)
-                        & 1 as libc::c_int as uint32_t)
+                    | (llvm_ashr_u32(_146 as uint32_t as int32_t, 4 as core::ffi::c_int)
+                        & 1 as core::ffi::c_int as uint32_t)
                         << _147) as uint8_t;
                 _148 = _53;
                 _149 = _40;
@@ -5557,24 +5561,24 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _151 = _38;
                 _ZL10write_bitsjjjPh(
                     _148 as uint32_t,
-                    llvm_add_u32(_149, 1 as libc::c_int as uint32_t),
+                    llvm_add_u32(_149, 1 as core::ffi::c_int as uint32_t),
                     _150,
                     _151,
                 );
                 _152 = _40;
                 _153 = _39;
-                _39 = llvm_add_u32(_153, llvm_add_u32(_152, 1 as libc::c_int as uint32_t));
+                _39 = llvm_add_u32(_153, llvm_add_u32(_152, 1 as core::ffi::c_int as uint32_t));
                 _154 = _37;
                 _155 = _44;
-                _44 = llvm_add_u32(_155, 1 as libc::c_int as uint32_t);
+                _44 = llvm_add_u32(_155, 1 as core::ffi::c_int as uint32_t);
                 _156 = *(&mut *(_154 as *mut uint8_t).offset(_155 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _157 = _43;
                 _158 = _52;
                 _159 = _40;
                 _53 = (_156 as uint32_t & _157
-                    | (llvm_ashr_u32(_158 as uint32_t as int32_t, 5 as libc::c_int)
-                        & 3 as libc::c_int as uint32_t)
+                    | (llvm_ashr_u32(_158 as uint32_t as int32_t, 5 as core::ffi::c_int)
+                        & 3 as core::ffi::c_int as uint32_t)
                         << _159) as uint8_t;
                 _160 = _53;
                 _161 = _40;
@@ -5582,24 +5586,24 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _163 = _38;
                 _ZL10write_bitsjjjPh(
                     _160 as uint32_t,
-                    llvm_add_u32(_161, 2 as libc::c_int as uint32_t),
+                    llvm_add_u32(_161, 2 as core::ffi::c_int as uint32_t),
                     _162,
                     _163,
                 );
                 _164 = _40;
                 _165 = _39;
-                _39 = llvm_add_u32(_165, llvm_add_u32(_164, 2 as libc::c_int as uint32_t));
+                _39 = llvm_add_u32(_165, llvm_add_u32(_164, 2 as core::ffi::c_int as uint32_t));
                 _166 = _37;
                 _167 = _44;
-                _44 = llvm_add_u32(_167, 1 as libc::c_int as uint32_t);
+                _44 = llvm_add_u32(_167, 1 as core::ffi::c_int as uint32_t);
                 _168 = *(&mut *(_166 as *mut uint8_t).offset(_167 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _169 = _43;
                 _170 = _52;
                 _171 = _40;
                 _53 = (_168 as uint32_t & _169
-                    | (llvm_ashr_u32(_170 as uint32_t as int32_t, 7 as libc::c_int)
-                        & 1 as libc::c_int as uint32_t)
+                    | (llvm_ashr_u32(_170 as uint32_t as int32_t, 7 as core::ffi::c_int)
+                        & 1 as core::ffi::c_int as uint32_t)
                         << _171) as uint8_t;
                 _172 = _53;
                 _173 = _40;
@@ -5607,15 +5611,15 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _175 = _38;
                 _ZL10write_bitsjjjPh(
                     _172 as uint32_t,
-                    llvm_add_u32(_173, 1 as libc::c_int as uint32_t),
+                    llvm_add_u32(_173, 1 as core::ffi::c_int as uint32_t),
                     _174,
                     _175,
                 );
                 _176 = _40;
                 _177 = _39;
-                _39 = llvm_add_u32(_177, llvm_add_u32(_176, 1 as libc::c_int as uint32_t));
+                _39 = llvm_add_u32(_177, llvm_add_u32(_176, 1 as core::ffi::c_int as uint32_t));
                 _178 = _46;
-                _46 = llvm_add_u32(_178, 1 as libc::c_int as uint32_t);
+                _46 = llvm_add_u32(_178, 1 as core::ffi::c_int as uint32_t);
             }
             _179 = _44;
             _180 = _36;
@@ -5623,7 +5627,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _54 = 0;
                 _181 = _44;
                 _182 = _36;
-                if llvm_add_u32(_181, 3 as libc::c_int as uint32_t) >= _182 {
+                if llvm_add_u32(_181, 3 as core::ffi::c_int as uint32_t) >= _182 {
                     _188__PHI_TEMPORARY = 0;
                 } else {
                     _183 = _37;
@@ -5631,7 +5635,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _185 = *(&mut *(_183 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _184,
-                        3 as libc::c_int as uint32_t,
+                        3 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -5643,7 +5647,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _55 = _188;
                 _189 = _44;
                 _190 = _36;
-                if llvm_add_u32(_189, 2 as libc::c_int as uint32_t) >= _190 {
+                if llvm_add_u32(_189, 2 as core::ffi::c_int as uint32_t) >= _190 {
                     _196__PHI_TEMPORARY = 0;
                 } else {
                     _191 = _37;
@@ -5651,7 +5655,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _193 = *(&mut *(_191 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _192,
-                        2 as libc::c_int as uint32_t,
+                        2 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -5663,7 +5667,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _56 = _196;
                 _197 = _44;
                 _198 = _36;
-                if llvm_add_u32(_197, 1 as libc::c_int as uint32_t) >= _198 {
+                if llvm_add_u32(_197, 1 as core::ffi::c_int as uint32_t) >= _198 {
                     _204__PHI_TEMPORARY = 0;
                 } else {
                     _199 = _37;
@@ -5671,7 +5675,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _201 = *(&mut *(_199 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _200,
-                        1 as libc::c_int as uint32_t,
+                        1 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -5746,8 +5750,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _61 = (_219 as uint32_t & _220
                         | (llvm_ashr_u32(_221 as uint32_t as int32_t, _223 as uint32_t as int32_t)
                             & llvm_sub_u32(
-                                ((1 as libc::c_int) << _225 as uint32_t) as uint32_t,
-                                1 as libc::c_int as uint32_t,
+                                ((1 as core::ffi::c_int) << _225 as uint32_t) as uint32_t,
+                                1 as core::ffi::c_int as uint32_t,
                             ))
                             << _226) as uint8_t;
                     _227 = _61;
@@ -5774,17 +5778,17 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _236 = _39;
                     _39 = llvm_add_u32(_236, llvm_add_u32(_233, _235 as uint32_t));
                     _237 = _44;
-                    _44 = llvm_add_u32(_237, 1 as libc::c_int as uint32_t);
+                    _44 = llvm_add_u32(_237, 1 as core::ffi::c_int as uint32_t);
                     _238 = _60;
-                    _60 = llvm_add_u32(_238, 1 as libc::c_int as uint32_t);
+                    _60 = llvm_add_u32(_238, 1 as core::ffi::c_int as uint32_t);
                 }
             }
         } else {
             _239 = _42;
-            if _239 != 0 as libc::c_uint {
+            if _239 != 0 as core::ffi::c_uint {
                 _62 = 0;
                 _240 = _36;
-                _63 = llvm_udiv_u32(_240, 3 as libc::c_int as uint32_t);
+                _63 = llvm_udiv_u32(_240, 3 as core::ffi::c_int as uint32_t);
                 _64 = 0;
                 loop {
                     _241 = _64;
@@ -5797,7 +5801,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _245 = *(&mut *(_243 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _244,
-                        2 as libc::c_int as uint32_t,
+                        2 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -5808,7 +5812,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _249 = *(&mut *(_247 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _248,
-                        1 as libc::c_int as uint32_t,
+                        1 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
@@ -5843,7 +5847,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _68 = _258;
                     _259 = _37;
                     _260 = _62;
-                    _62 = llvm_add_u32(_260, 1 as libc::c_int as uint32_t);
+                    _62 = llvm_add_u32(_260, 1 as core::ffi::c_int as uint32_t);
                     _261 = *(&mut *(_259 as *mut uint8_t)
                         .offset(_260 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
@@ -5851,8 +5855,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _263 = _68;
                     _264 = _40;
                     _69 = (_261 as uint32_t & _262
-                        | (llvm_ashr_u32(_263 as uint32_t as int32_t, 0 as libc::c_int)
-                            & 7 as libc::c_int as uint32_t)
+                        | (llvm_ashr_u32(_263 as uint32_t as int32_t, 0 as core::ffi::c_int)
+                            & 7 as core::ffi::c_int as uint32_t)
                             << _264) as uint8_t;
                     _265 = _69;
                     _266 = _40;
@@ -5860,16 +5864,16 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _268 = _38;
                     _ZL10write_bitsjjjPh(
                         _265 as uint32_t,
-                        llvm_add_u32(_266, 3 as libc::c_int as uint32_t),
+                        llvm_add_u32(_266, 3 as core::ffi::c_int as uint32_t),
                         _267,
                         _268,
                     );
                     _269 = _40;
                     _270 = _39;
-                    _39 = llvm_add_u32(_270, llvm_add_u32(_269, 3 as libc::c_int as uint32_t));
+                    _39 = llvm_add_u32(_270, llvm_add_u32(_269, 3 as core::ffi::c_int as uint32_t));
                     _271 = _37;
                     _272 = _62;
-                    _62 = llvm_add_u32(_272, 1 as libc::c_int as uint32_t);
+                    _62 = llvm_add_u32(_272, 1 as core::ffi::c_int as uint32_t);
                     _273 = *(&mut *(_271 as *mut uint8_t)
                         .offset(_272 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
@@ -5877,8 +5881,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _275 = _68;
                     _276 = _40;
                     _69 = (_273 as uint32_t & _274
-                        | (llvm_ashr_u32(_275 as uint32_t as int32_t, 3 as libc::c_int)
-                            & 3 as libc::c_int as uint32_t)
+                        | (llvm_ashr_u32(_275 as uint32_t as int32_t, 3 as core::ffi::c_int)
+                            & 3 as core::ffi::c_int as uint32_t)
                             << _276) as uint8_t;
                     _277 = _69;
                     _278 = _40;
@@ -5886,16 +5890,16 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _280 = _38;
                     _ZL10write_bitsjjjPh(
                         _277 as uint32_t,
-                        llvm_add_u32(_278, 2 as libc::c_int as uint32_t),
+                        llvm_add_u32(_278, 2 as core::ffi::c_int as uint32_t),
                         _279,
                         _280,
                     );
                     _281 = _40;
                     _282 = _39;
-                    _39 = llvm_add_u32(_282, llvm_add_u32(_281, 2 as libc::c_int as uint32_t));
+                    _39 = llvm_add_u32(_282, llvm_add_u32(_281, 2 as core::ffi::c_int as uint32_t));
                     _283 = _37;
                     _284 = _62;
-                    _62 = llvm_add_u32(_284, 1 as libc::c_int as uint32_t);
+                    _62 = llvm_add_u32(_284, 1 as core::ffi::c_int as uint32_t);
                     _285 = *(&mut *(_283 as *mut uint8_t)
                         .offset(_284 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
@@ -5903,8 +5907,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _287 = _68;
                     _288 = _40;
                     _69 = (_285 as uint32_t & _286
-                        | (llvm_ashr_u32(_287 as uint32_t as int32_t, 5 as libc::c_int)
-                            & 3 as libc::c_int as uint32_t)
+                        | (llvm_ashr_u32(_287 as uint32_t as int32_t, 5 as core::ffi::c_int)
+                            & 3 as core::ffi::c_int as uint32_t)
                             << _288) as uint8_t;
                     _289 = _69;
                     _290 = _40;
@@ -5912,15 +5916,15 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _292 = _38;
                     _ZL10write_bitsjjjPh(
                         _289 as uint32_t,
-                        llvm_add_u32(_290, 2 as libc::c_int as uint32_t),
+                        llvm_add_u32(_290, 2 as core::ffi::c_int as uint32_t),
                         _291,
                         _292,
                     );
                     _293 = _40;
                     _294 = _39;
-                    _39 = llvm_add_u32(_294, llvm_add_u32(_293, 2 as libc::c_int as uint32_t));
+                    _39 = llvm_add_u32(_294, llvm_add_u32(_293, 2 as core::ffi::c_int as uint32_t));
                     _295 = _64;
-                    _64 = llvm_add_u32(_295, 1 as libc::c_int as uint32_t);
+                    _64 = llvm_add_u32(_295, 1 as core::ffi::c_int as uint32_t);
                 }
                 _296 = _62;
                 _297 = _36;
@@ -5928,7 +5932,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _70 = 0;
                     _298 = _62;
                     _299 = _36;
-                    if llvm_add_u32(_298, 1 as libc::c_int as uint32_t) >= _299 {
+                    if llvm_add_u32(_298, 1 as core::ffi::c_int as uint32_t) >= _299 {
                         _305__PHI_TEMPORARY = 0;
                     } else {
                         _300 = _37;
@@ -5936,7 +5940,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                         _302 = *(&mut *(_300 as *mut uint8_t).offset((llvm_add_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _301,
-                            1 as libc::c_int as uint32_t,
+                            1 as core::ffi::c_int as uint32_t,
                         )
                             as uint64_t
                             as int64_t
@@ -6004,8 +6008,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                                 _320 as uint32_t as int32_t,
                                 _322 as uint32_t as int32_t,
                             ) & llvm_sub_u32(
-                                ((1 as libc::c_int) << _324 as uint32_t) as uint32_t,
-                                1 as libc::c_int as uint32_t,
+                                ((1 as core::ffi::c_int) << _324 as uint32_t) as uint32_t,
+                                1 as core::ffi::c_int as uint32_t,
                             )) << _325) as uint8_t;
                         _326 = _75;
                         _327 = _40;
@@ -6031,9 +6035,9 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                         _335 = _39;
                         _39 = llvm_add_u32(_335, llvm_add_u32(_332, _334 as uint32_t));
                         _336 = _62;
-                        _62 = llvm_add_u32(_336, 1 as libc::c_int as uint32_t);
+                        _62 = llvm_add_u32(_336, 1 as core::ffi::c_int as uint32_t);
                         _337 = _74;
-                        _74 = llvm_add_u32(_337, 1 as libc::c_int as uint32_t);
+                        _74 = llvm_add_u32(_337, 1 as core::ffi::c_int as uint32_t);
                     }
                 }
             } else {
@@ -6057,30 +6061,30 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _347 = _39;
                     _39 = llvm_add_u32(_347, _346);
                     _348 = _76;
-                    _76 = llvm_add_u32(_348, 1 as libc::c_int as uint32_t);
+                    _76 = llvm_add_u32(_348, 1 as core::ffi::c_int as uint32_t);
                 }
             }
         }
         return;
     } else {
         __assert_fail(
-            &_OC_str as *const l_array_20_uint8_t as *mut libc::c_void,
-            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut libc::c_void,
+            &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
             500,
             &__PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj as *const l_array_86_uint8_t
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
         );
     };
 }
 
 #[inline(never)]
 pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
-    mut _394: *mut libc::c_void,
+    mut _394: *mut core::ffi::c_void,
     mut _395: uint64_t,
-) -> *mut libc::c_void {
-    let mut _396: *mut libc::c_void = 0 as *mut libc::c_void;
+) -> *mut core::ffi::c_void {
+    let mut _396: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _397: uint64_t = 0;
-    let mut _398: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _398: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _399: uint64_t = 0;
     _396 = _394;
     _397 = _395;
@@ -6091,25 +6095,25 @@ pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
         .array)
         .as_mut_ptr()
         .offset(_399 as int64_t as isize) as *mut l_struct_struct_OC_btq_count
-        as *mut libc::c_void;
+        as *mut core::ffi::c_void;
 }
 #[inline(never)]
 unsafe extern "C" fn _ZL10write_bitsjjjPh(
     mut _400: uint32_t,
     mut _401: uint32_t,
     mut _402: uint32_t,
-    mut _403: *mut libc::c_void,
+    mut _403: *mut core::ffi::c_void,
 ) {
     let mut _404: uint32_t = 0;
     let mut _405: uint32_t = 0;
     let mut _406: uint32_t = 0;
-    let mut _407: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _407: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _408: uint32_t = 0;
     let mut _409: uint32_t = 0;
     let mut _410: uint32_t = 0;
     let mut _411: uint32_t = 0;
     let mut _412: uint32_t = 0;
-    let mut _413: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _413: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _414: uint32_t = 0;
     let mut _415: uint32_t = 0;
     let mut _416: uint32_t = 0;
@@ -6117,20 +6121,20 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     let mut _418: uint32_t = 0;
     let mut _419: uint32_t = 0;
     let mut _420: uint32_t = 0;
-    let mut _421: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _422: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _421: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _422: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _423: uint8_t = 0;
     let mut _424: uint32_t = 0;
-    let mut _425: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _426: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _425: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _426: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _427: uint8_t = 0;
     let mut _428: uint32_t = 0;
-    let mut _429: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _430: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _429: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _430: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _431: uint8_t = 0;
     let mut _432: uint32_t = 0;
-    let mut _433: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _434: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _433: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _434: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _435: uint8_t = 0;
     _404 = _400;
     _405 = _401;
@@ -6138,8 +6142,8 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     _407 = _403;
     _409 = _405;
     _408 = llvm_sub_u32(
-        ((1 as libc::c_int) << _409) as uint32_t,
-        1 as libc::c_int as uint32_t,
+        ((1 as core::ffi::c_int) << _409) as uint32_t,
+        1 as core::ffi::c_int as uint32_t,
     );
     _410 = _408;
     _411 = _404;
@@ -6148,10 +6152,11 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     _413 = _407;
     _407 = &mut *(_413 as *mut uint8_t).offset((llvm_lshr_u32
         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-        _412, 3 as libc::c_int as uint32_t
-    ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut libc::c_void;
+        _412,
+        3 as core::ffi::c_int as uint32_t,
+    ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
     _414 = _406;
-    _406 = _414 & 7 as libc::c_int as uint32_t;
+    _406 = _414 & 7 as core::ffi::c_int as uint32_t;
     _415 = _406;
     _416 = _404;
     _404 = _416 << _415;
@@ -6159,45 +6164,45 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     _418 = _408;
     _408 = _418 << _417;
     _419 = _408;
-    _408 = _419 ^ -(1 as libc::c_int) as uint32_t;
+    _408 = _419 ^ -(1 as core::ffi::c_int) as uint32_t;
     _420 = _408;
     _421 = _407;
-    _422 = _421 as *mut uint8_t as *mut libc::c_void;
+    _422 = _421 as *mut uint8_t as *mut core::ffi::c_void;
     _423 = *(_422 as *mut uint8_t);
     *(_422 as *mut uint8_t) = (_423 as uint32_t & _420) as uint8_t;
     _424 = _404;
     _425 = _407;
-    _426 = _425 as *mut uint8_t as *mut libc::c_void;
+    _426 = _425 as *mut uint8_t as *mut core::ffi::c_void;
     _427 = *(_426 as *mut uint8_t);
     *(_426 as *mut uint8_t) = (_427 as uint32_t | _424) as uint8_t;
     _428 = _408;
     _429 = _407;
-    _430 = &mut *(_429 as *mut uint8_t).offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t
-        as *mut libc::c_void;
+    _430 = &mut *(_429 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut uint8_t as *mut core::ffi::c_void;
     _431 = *(_430 as *mut uint8_t);
     *(_430 as *mut uint8_t) =
-        (_431 as uint32_t & llvm_lshr_u32(_428, 8 as libc::c_int as uint32_t)) as uint8_t;
+        (_431 as uint32_t & llvm_lshr_u32(_428, 8 as core::ffi::c_int as uint32_t)) as uint8_t;
     _432 = _404;
     _433 = _407;
-    _434 = &mut *(_433 as *mut uint8_t).offset(1 as libc::c_int as int64_t as isize) as *mut uint8_t
-        as *mut libc::c_void;
+    _434 = &mut *(_433 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut uint8_t as *mut core::ffi::c_void;
     _435 = *(_434 as *mut uint8_t);
     *(_434 as *mut uint8_t) =
-        (_435 as uint32_t | llvm_lshr_u32(_432, 8 as libc::c_int as uint32_t)) as uint8_t;
+        (_435 as uint32_t | llvm_lshr_u32(_432, 8 as core::ffi::c_int as uint32_t)) as uint8_t;
 }
 
 #[inline(never)]
 pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     mut _436: uint32_t,
     mut _437: uint32_t,
-    mut _438: *mut libc::c_void,
-    mut _439: *mut libc::c_void,
+    mut _438: *mut core::ffi::c_void,
+    mut _439: *mut core::ffi::c_void,
     mut _440: uint32_t,
 ) {
     let mut _441: uint32_t = 0;
     let mut _442: uint32_t = 0;
-    let mut _443: *mut libc::c_void = 0 as *mut libc::c_void;
-    let mut _444: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _443: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _444: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _445: uint32_t = 0;
     let mut _446: l_array_68_uint8_t = l_array_68_uint8_t { array: [0; 68] };
     let mut _447: l_array_22_uint8_t = l_array_22_uint8_t { array: [0; 22] };
@@ -6211,27 +6216,27 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _455: uint32_t = 0;
     let mut _456: uint32_t = 0;
     let mut _457: uint32_t = 0;
-    let mut _458: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _458: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _459: uint32_t = 0;
     let mut _460: uint32_t = 0;
-    let mut _461: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _461: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _462: uint32_t = 0;
     let mut _463: uint32_t = 0;
-    let mut _464: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _464: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _465: uint32_t = 0;
-    let mut _466: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _466: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _467: uint8_t = 0;
     let mut _468: uint32_t = 0;
-    let mut _469: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _469: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _470: uint8_t = 0;
     let mut _471: uint32_t = 0;
-    let mut _472: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _472: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _473: uint8_t = 0;
     let mut _474: uint32_t = 0;
     let mut _475: uint32_t = 0;
     let mut _476: uint32_t = 0;
     let mut _477: uint32_t = 0;
-    let mut _478: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _478: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _479: uint32_t = 0;
     let mut _480: uint32_t = 0;
     let mut _481: uint32_t = 0;
@@ -6240,7 +6245,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _484: uint32_t = 0;
     let mut _485: uint8_t = 0;
     let mut _486: uint32_t = 0;
-    let mut _487: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _487: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _488: uint32_t = 0;
     let mut _489: uint32_t = 0;
     let mut _490: uint8_t = 0;
@@ -6249,7 +6254,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _493: uint32_t = 0;
     let mut _494: uint8_t = 0;
     let mut _495: uint32_t = 0;
-    let mut _496: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _496: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _497: uint8_t = 0;
     let mut _498: uint32_t = 0;
     let mut _499: uint8_t = 0;
@@ -6260,7 +6265,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _504: uint32_t = 0;
     let mut _505: uint8_t = 0;
     let mut _506: uint32_t = 0;
-    let mut _507: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _507: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _508: uint32_t = 0;
     let mut _509: uint32_t = 0;
     let mut _510: uint8_t = 0;
@@ -6269,7 +6274,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _513: uint32_t = 0;
     let mut _514: uint8_t = 0;
     let mut _515: uint32_t = 0;
-    let mut _516: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _517: uint8_t = 0;
     let mut _518: uint32_t = 0;
     let mut _519: uint8_t = 0;
@@ -6284,35 +6289,35 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _528: uint32_t = 0;
     let mut _529: uint32_t = 0;
     let mut _530: uint8_t = 0;
-    let mut _531: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _531: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _532: uint8_t = 0;
     let mut _533: uint32_t = 0;
     let mut _534: uint32_t = 0;
-    let mut _535: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _535: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _536: uint8_t = 0;
-    let mut _537: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _537: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _538: uint8_t = 0;
     let mut _539: uint32_t = 0;
     let mut _540: uint32_t = 0;
-    let mut _541: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _541: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _542: uint8_t = 0;
-    let mut _543: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _543: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _544: uint8_t = 0;
     let mut _545: uint32_t = 0;
     let mut _546: uint32_t = 0;
-    let mut _547: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _547: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _548: uint8_t = 0;
-    let mut _549: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _549: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _550: uint8_t = 0;
     let mut _551: uint32_t = 0;
     let mut _552: uint32_t = 0;
-    let mut _553: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _553: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _554: uint8_t = 0;
-    let mut _555: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _555: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _556: uint8_t = 0;
     let mut _557: uint32_t = 0;
     let mut _558: uint32_t = 0;
-    let mut _559: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _559: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _560: uint8_t = 0;
     let mut _561: uint32_t = 0;
     let mut _562: uint32_t = 0;
@@ -6322,30 +6327,30 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _566: uint32_t = 0;
     let mut _567: uint32_t = 0;
     let mut _568: uint8_t = 0;
-    let mut _569: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _569: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _570: uint8_t = 0;
     let mut _571: uint32_t = 0;
     let mut _572: uint32_t = 0;
-    let mut _573: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _573: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _574: uint8_t = 0;
-    let mut _575: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _575: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _576: uint8_t = 0;
     let mut _577: uint32_t = 0;
     let mut _578: uint32_t = 0;
-    let mut _579: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _579: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _580: uint8_t = 0;
-    let mut _581: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _581: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _582: uint8_t = 0;
     let mut _583: uint32_t = 0;
     let mut _584: uint32_t = 0;
-    let mut _585: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _585: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _586: uint8_t = 0;
     let mut _587: uint32_t = 0;
     let mut _588: uint32_t = 0;
     let mut _589: uint32_t = 0;
     let mut _590: uint32_t = 0;
     let mut _591: uint8_t = 0;
-    let mut _592: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _592: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _593: uint32_t = 0;
     let mut _594: uint32_t = 0;
     _441 = _436;
@@ -6354,39 +6359,39 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     _444 = _439;
     _445 = _440;
     _463 = _442;
-    if _463 > 0 as libc::c_uint {
+    if _463 > 0 as core::ffi::c_uint {
         _464 = memset(
-            &mut _447 as *mut l_array_22_uint8_t as *mut libc::c_void,
+            &mut _447 as *mut l_array_22_uint8_t as *mut core::ffi::c_void,
             0,
-            22 as libc::c_int as uint64_t,
+            22 as core::ffi::c_int as uint64_t,
         );
         _465 = _441;
         _466 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
             _465 as uint64_t,
         );
         _467 = *(_466 as *mut uint8_t);
-        _448 = llvm_and_u8(_467, 63 as libc::c_int as uint8_t) as uint32_t;
+        _448 = llvm_and_u8(_467, 63 as core::ffi::c_int as uint8_t) as uint32_t;
         _468 = _441;
         _469 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
             _468 as uint64_t,
         );
         _470 = *(_469 as *mut uint8_t);
         _449 = llvm_and_u8(
-            llvm_lshr_u8(_470, 6 as libc::c_int as uint8_t),
-            1 as libc::c_int as uint8_t,
+            llvm_lshr_u8(_470, 6 as core::ffi::c_int as uint8_t),
+            1 as core::ffi::c_int as uint8_t,
         ) as uint32_t;
         _471 = _441;
         _472 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
             _471 as uint64_t,
         );
         _473 = *(_472 as *mut uint8_t);
-        _450 = llvm_lshr_u8(_473, 7 as libc::c_int as uint8_t) as uint32_t;
+        _450 = llvm_lshr_u8(_473, 7 as core::ffi::c_int as uint8_t) as uint32_t;
         _451 = 0;
         _452 = 0;
         _453 = 0;
@@ -6408,7 +6413,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _482 = _445;
             _445 = llvm_add_u32(_482, _481);
             _483 = _449;
-            if _483 != 0 as libc::c_uint {
+            if _483 != 0 as core::ffi::c_uint {
                 _484 = _451;
                 _485 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read.array)
                     .as_ptr()
@@ -6435,7 +6440,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _496 = &mut *(_447.array)
                     .as_mut_ptr()
                     .offset(_495 as uint64_t as int64_t as isize)
-                    as *mut uint8_t as *mut libc::c_void;
+                    as *mut uint8_t as *mut core::ffi::c_void;
                 _497 = *(_496 as *mut uint8_t);
                 *(_496 as *mut uint8_t) = (_497 as uint32_t | _492 << _494 as uint32_t) as uint8_t;
                 _498 = _451;
@@ -6453,7 +6458,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _451 = _502 as uint32_t;
             }
             _503 = _450;
-            if _503 != 0 as libc::c_uint {
+            if _503 != 0 as core::ffi::c_uint {
                 _504 = _451;
                 _505 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0.array)
                     .as_ptr()
@@ -6480,7 +6485,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _516 = &mut *(_447.array)
                     .as_mut_ptr()
                     .offset(_515 as uint64_t as int64_t as isize)
-                    as *mut uint8_t as *mut libc::c_void;
+                    as *mut uint8_t as *mut core::ffi::c_void;
                 _517 = *(_516 as *mut uint8_t);
                 *(_516 as *mut uint8_t) = (_517 as uint32_t | _512 << _514 as uint32_t) as uint8_t;
                 _518 = _451;
@@ -6498,17 +6503,17 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _451 = _522 as uint32_t;
             }
             _523 = _453;
-            _453 = llvm_add_u32(_523, 1 as libc::c_int as uint32_t);
+            _453 = llvm_add_u32(_523, 1 as core::ffi::c_int as uint32_t);
         }
         _524 = _449;
-        if _524 != 0 as libc::c_uint {
+        if _524 != 0 as core::ffi::c_uint {
             _525 = _442;
             _456 = llvm_udiv_u32(
-                llvm_add_u32(_525, 4 as libc::c_int as uint32_t),
-                5 as libc::c_int as uint32_t,
+                llvm_add_u32(_525, 4 as core::ffi::c_int as uint32_t),
+                5 as core::ffi::c_int as uint32_t,
             );
             _526 = _456;
-            if _526 > 0 as libc::c_uint {
+            if _526 > 0 as core::ffi::c_uint {
                 _457 = 0;
                 loop {
                     _527 = _457;
@@ -6528,120 +6533,125 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                         as *mut l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(0 as libc::c_int as int64_t as isize)
-                        as *mut uint8_t as *mut libc::c_void;
+                        .offset(0 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t as *mut core::ffi::c_void;
                     _531 = _458;
                     _532 = *(_531 as *mut uint8_t);
                     _533 = _448;
                     _534 = _457;
                     _535 = &mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        5 as libc::c_int as uint32_t,
+                        5 as core::ffi::c_int as uint32_t,
                         _534,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _536 = *(_535 as *mut uint8_t);
                     *(_535 as *mut uint8_t) =
                         (_536 as uint32_t | (_532 as uint32_t) << _533) as uint8_t;
                     _537 = _458;
                     _538 = *(&mut *(_537 as *mut uint8_t)
-                        .offset(1 as libc::c_int as int64_t as isize)
+                        .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _539 = _448;
                     _540 = _457;
                     _541 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            5 as libc::c_int as uint32_t,
+                            5 as core::ffi::c_int as uint32_t,
                             _540,
                         ),
-                        1 as libc::c_int as uint32_t,
+                        1 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _542 = *(_541 as *mut uint8_t);
                     *(_541 as *mut uint8_t) =
                         (_542 as uint32_t | (_538 as uint32_t) << _539) as uint8_t;
                     _543 = _458;
                     _544 = *(&mut *(_543 as *mut uint8_t)
-                        .offset(2 as libc::c_int as int64_t as isize)
+                        .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _545 = _448;
                     _546 = _457;
                     _547 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            5 as libc::c_int as uint32_t,
+                            5 as core::ffi::c_int as uint32_t,
                             _546,
                         ),
-                        2 as libc::c_int as uint32_t,
+                        2 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _548 = *(_547 as *mut uint8_t);
                     *(_547 as *mut uint8_t) =
                         (_548 as uint32_t | (_544 as uint32_t) << _545) as uint8_t;
                     _549 = _458;
                     _550 = *(&mut *(_549 as *mut uint8_t)
-                        .offset(3 as libc::c_int as int64_t as isize)
+                        .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _551 = _448;
                     _552 = _457;
                     _553 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            5 as libc::c_int as uint32_t,
+                            5 as core::ffi::c_int as uint32_t,
                             _552,
                         ),
-                        3 as libc::c_int as uint32_t,
+                        3 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _554 = *(_553 as *mut uint8_t);
                     *(_553 as *mut uint8_t) =
                         (_554 as uint32_t | (_550 as uint32_t) << _551) as uint8_t;
                     _555 = _458;
                     _556 = *(&mut *(_555 as *mut uint8_t)
-                        .offset(4 as libc::c_int as int64_t as isize)
+                        .offset(4 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _557 = _448;
                     _558 = _457;
                     _559 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            5 as libc::c_int as uint32_t,
+                            5 as core::ffi::c_int as uint32_t,
                             _558,
                         ),
-                        4 as libc::c_int as uint32_t,
+                        4 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _560 = *(_559 as *mut uint8_t);
                     *(_559 as *mut uint8_t) =
                         (_560 as uint32_t | (_556 as uint32_t) << _557) as uint8_t;
                     _561 = _457;
-                    _457 = llvm_add_u32(_561, 1 as libc::c_int as uint32_t);
+                    _457 = llvm_add_u32(_561, 1 as core::ffi::c_int as uint32_t);
                 }
             } else {
                 __assert_fail(
-                    &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut libc::c_void,
-                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut libc::c_void,
+                    &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
                     710,
                     &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
-                        as *const l_array_86_uint8_t as *mut libc::c_void,
+                        as *const l_array_86_uint8_t as *mut core::ffi::c_void,
                 );
             }
         }
         _562 = _450;
-        if _562 != 0 as libc::c_uint {
+        if _562 != 0 as core::ffi::c_uint {
             _563 = _442;
             _459 = llvm_udiv_u32(
-                llvm_add_u32(_563, 2 as libc::c_int as uint32_t),
-                3 as libc::c_int as uint32_t,
+                llvm_add_u32(_563, 2 as core::ffi::c_int as uint32_t),
+                3 as core::ffi::c_int as uint32_t,
             );
             _564 = _459;
-            if _564 > 0 as libc::c_uint {
+            if _564 > 0 as core::ffi::c_uint {
                 _460 = 0;
                 loop {
                     _565 = _460;
@@ -6661,70 +6671,73 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                         as *mut l_array_3_uint8_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(0 as libc::c_int as int64_t as isize)
-                        as *mut uint8_t as *mut libc::c_void;
+                        .offset(0 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t as *mut core::ffi::c_void;
                     _569 = _461;
                     _570 = *(_569 as *mut uint8_t);
                     _571 = _448;
                     _572 = _460;
                     _573 = &mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                        3 as libc::c_int as uint32_t,
+                        3 as core::ffi::c_int as uint32_t,
                         _572,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _574 = *(_573 as *mut uint8_t);
                     *(_573 as *mut uint8_t) =
                         (_574 as uint32_t | (_570 as uint32_t) << _571) as uint8_t;
                     _575 = _461;
                     _576 = *(&mut *(_575 as *mut uint8_t)
-                        .offset(1 as libc::c_int as int64_t as isize)
+                        .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _577 = _448;
                     _578 = _460;
                     _579 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            3 as libc::c_int as uint32_t,
+                            3 as core::ffi::c_int as uint32_t,
                             _578,
                         ),
-                        1 as libc::c_int as uint32_t,
+                        1 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _580 = *(_579 as *mut uint8_t);
                     *(_579 as *mut uint8_t) =
                         (_580 as uint32_t | (_576 as uint32_t) << _577) as uint8_t;
                     _581 = _461;
                     _582 = *(&mut *(_581 as *mut uint8_t)
-                        .offset(2 as libc::c_int as int64_t as isize)
+                        .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _583 = _448;
                     _584 = _460;
                     _585 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-                            3 as libc::c_int as uint32_t,
+                            3 as core::ffi::c_int as uint32_t,
                             _584,
                         ),
-                        2 as libc::c_int as uint32_t,
+                        2 as core::ffi::c_int as uint32_t,
                     ) as uint64_t
                         as int64_t
-                        as isize) as *mut uint8_t as *mut libc::c_void;
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _586 = *(_585 as *mut uint8_t);
                     *(_585 as *mut uint8_t) =
                         (_586 as uint32_t | (_582 as uint32_t) << _583) as uint8_t;
                     _587 = _460;
-                    _460 = llvm_add_u32(_587, 1 as libc::c_int as uint32_t);
+                    _460 = llvm_add_u32(_587, 1 as core::ffi::c_int as uint32_t);
                 }
             } else {
                 __assert_fail(
-                    &_OC_str_OC_3 as *const l_array_17_uint8_t as *mut libc::c_void,
-                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut libc::c_void,
-                    725 as libc::c_int as uint32_t,
+                    &_OC_str_OC_3 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
+                    725 as core::ffi::c_int as uint32_t,
                     &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
-                        as *const l_array_86_uint8_t as *mut libc::c_void,
+                        as *const l_array_86_uint8_t as *mut core::ffi::c_void,
                 );
             }
         }
@@ -6744,16 +6757,16 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             *(&mut *(_592 as *mut uint8_t).offset(_593 as uint64_t as int64_t as isize)
                 as *mut uint8_t) = _591;
             _594 = _462;
-            _462 = llvm_add_u32(_594, 1 as libc::c_int as uint32_t);
+            _462 = llvm_add_u32(_594, 1 as core::ffi::c_int as uint32_t);
         }
         return;
     } else {
         __assert_fail(
-            &_OC_str as *const l_array_20_uint8_t as *mut libc::c_void,
-            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut libc::c_void,
-            658 as libc::c_int as uint32_t,
+            &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
+            658 as core::ffi::c_int as uint32_t,
             &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj as *const l_array_86_uint8_t
-                as *mut libc::c_void,
+                as *mut core::ffi::c_void,
         );
     };
 }
@@ -6761,20 +6774,20 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
 unsafe extern "C" fn _ZL9read_bitsjjPKh(
     mut _628: uint32_t,
     mut _629: uint32_t,
-    mut _630: *mut libc::c_void,
+    mut _630: *mut core::ffi::c_void,
 ) -> uint32_t {
     let mut _631: uint32_t = 0;
     let mut _632: uint32_t = 0;
-    let mut _633: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _633: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _634: uint32_t = 0;
     let mut _635: uint32_t = 0;
     let mut _636: uint32_t = 0;
     let mut _637: uint32_t = 0;
-    let mut _638: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _638: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _639: uint32_t = 0;
-    let mut _640: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _640: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _641: uint8_t = 0;
-    let mut _642: *mut libc::c_void = 0 as *mut libc::c_void;
+    let mut _642: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _643: uint8_t = 0;
     let mut _644: uint32_t = 0;
     let mut _645: uint32_t = 0;
@@ -6786,23 +6799,24 @@ unsafe extern "C" fn _ZL9read_bitsjjPKh(
     _633 = _630;
     _636 = _631;
     _634 = llvm_sub_u32(
-        ((1 as libc::c_int) << _636) as uint32_t,
-        1 as libc::c_int as uint32_t,
+        ((1 as core::ffi::c_int) << _636) as uint32_t,
+        1 as core::ffi::c_int as uint32_t,
     );
     _637 = _632;
     _638 = _633;
     _633 = &mut *(_638 as *mut uint8_t).offset((llvm_lshr_u32
         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
-        _637, 3 as libc::c_int as uint32_t
-    ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut libc::c_void;
+        _637,
+        3 as core::ffi::c_int as uint32_t,
+    ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
     _639 = _632;
-    _632 = _639 & 7 as libc::c_int as uint32_t;
+    _632 = _639 & 7 as core::ffi::c_int as uint32_t;
     _640 = _633;
     _641 = *(_640 as *mut uint8_t);
     _642 = _633;
-    _643 = *(&mut *(_642 as *mut uint8_t).offset(1 as libc::c_int as int64_t as isize)
+    _643 = *(&mut *(_642 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t);
-    _635 = _641 as uint32_t | (_643 as uint32_t) << 8 as libc::c_int;
+    _635 = _641 as uint32_t | (_643 as uint32_t) << 8 as core::ffi::c_int;
     _644 = _632;
     _645 = _635;
     _635 = llvm_lshr_u32(_645, _644);

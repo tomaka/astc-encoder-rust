@@ -69,4 +69,4 @@ RUN echo "pub mod bindings;" >> lib.rs
 RUN echo "pub use bindings::*;" >> lib.rs
 
 # Do some more tweaks to the Rust code
-RUN cd src && for f in *.rs; do sed -i 's/0 as libc::c_int as uint32_t/0/' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/0 as core::ffi::c_int as uint32_t/0/' $f; done

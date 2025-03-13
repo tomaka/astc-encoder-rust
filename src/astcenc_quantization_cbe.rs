@@ -1,5 +1,4 @@
-use ::libc;
-pub type __uint8_t = libc::c_uchar;
+pub type __uint8_t = core::ffi::c_uchar;
 pub type uint8_t = __uint8_t;
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -104,7 +103,7 @@ pub struct l_array_192_uint8_t {
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct l_array_17_void_KC_ {
-    pub array: [*mut libc::c_void; 17],
+    pub array: [*mut core::ffi::c_void; 17],
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -707,39 +706,39 @@ pub static mut color_scrambled_pquant_to_uquant_tables: l_array_17_void_KC_ = un
         let mut init = l_array_17_void_KC_ {
             array: [
                 &_ZL35color_scrambled_pquant_to_uquant_q6 as *const l_array_6_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL35color_scrambled_pquant_to_uquant_q8 as *const l_array_8_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q10 as *const l_array_10_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q12 as *const l_array_12_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q16 as *const l_array_16_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q20 as *const l_array_20_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q24 as *const l_array_24_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q32 as *const l_array_32_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q40 as *const l_array_40_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q48 as *const l_array_48_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q64 as *const l_array_64_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q80 as *const l_array_80_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL36color_scrambled_pquant_to_uquant_q96 as *const l_array_96_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL37color_scrambled_pquant_to_uquant_q128 as *const l_array_128_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL37color_scrambled_pquant_to_uquant_q160 as *const l_array_160_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL37color_scrambled_pquant_to_uquant_q192 as *const l_array_192_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
                 &_ZL37color_scrambled_pquant_to_uquant_q256 as *const l_array_256_uint8_t
-                    as *mut libc::c_void,
+                    as *mut core::ffi::c_void,
             ],
         };
         init

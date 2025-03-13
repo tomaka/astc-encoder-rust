@@ -38,6 +38,7 @@ Unfortunately, the generated Rust project doesn't compile immediately, and needs
 - One [call to `LLVMMul_uov`](https://github.com/JuliaHubOSS/llvm-cbe/blob/732f15aa9a7f7f63e2acdcb9b9836de70ee74135/lib/Target/CBackend/CBackend.cpp#L4640-L4643), which is equivalent to [`std::instrinsics::mul_with_overflow`](https://doc.rust-lang.org/std/intrinsics/fn.mul_with_overflow.html), was replaced with [`u32::overflowing_mul`](https://doc.rust-lang.org/std/primitive.u32.html#method.overflowing_mul).
 - Many functions were each defined multiple times. All `#[no_mangle]` were removed.
 - Bindings were adjusted to directly call functions, rather than using `#[link_name]`.
+- `libc::` can be replaced with `core::ffi::`.
 
 # License
 
