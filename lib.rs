@@ -5,6 +5,7 @@
 #![allow(non_upper_case_globals)]
 #![allow(unused_assignments)]
 #![allow(unused_mut)]
+#![no_std]
 
 pub mod src {
     pub mod astcenc_averages_and_directions_cbe;
