@@ -182,7 +182,7 @@ static mut _ZL13block_pcd_4x4: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         61 as core::ffi::c_int as uint16_t,
-                        84 as libc::c_int as uint16_t,
+                        84 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -200,7 +200,7 @@ static mut _ZL13block_pcd_4x4: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        53 as libc::c_int as uint16_t,
+                        53 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -247,7 +247,7 @@ static mut _ZL13block_pcd_5x4: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        202 as libc::c_int as uint16_t,
+                        202 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -294,7 +294,7 @@ static mut _ZL13block_pcd_5x5: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        116 as libc::c_int as uint16_t,
+                        116 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -341,7 +341,7 @@ static mut _ZL13block_pcd_6x5: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        156 as libc::c_int as uint16_t,
+                        156 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -388,7 +388,7 @@ static mut _ZL13block_pcd_6x6: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        256 as libc::c_int as uint16_t,
+                        256 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -435,7 +435,7 @@ static mut _ZL13block_pcd_8x5: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        178 as libc::c_int as uint16_t,
+                        178 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -482,7 +482,7 @@ static mut _ZL13block_pcd_8x6: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        64 as libc::c_int as uint16_t,
+                        64 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -529,7 +529,7 @@ static mut _ZL13block_pcd_8x8: l_struct_struct_OC_packed_percentile_table = unsa
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        38 as libc::c_int as uint16_t,
+                        38 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -576,7 +576,7 @@ static mut _ZL14block_pcd_10x5: l_struct_struct_OC_packed_percentile_table = uns
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        79 as libc::c_int as uint16_t,
+                        79 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -623,7 +623,7 @@ static mut _ZL14block_pcd_10x6: l_struct_struct_OC_packed_percentile_table = uns
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        78 as libc::c_int as uint16_t,
+                        78 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -670,7 +670,7 @@ static mut _ZL14block_pcd_10x8: l_struct_struct_OC_packed_percentile_table = uns
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        52 as libc::c_int as uint16_t,
+                        52 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -717,7 +717,7 @@ static mut _ZL15block_pcd_10x10: l_struct_struct_OC_packed_percentile_table = un
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        70 as libc::c_int as uint16_t,
+                        70 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -764,7 +764,7 @@ static mut _ZL15block_pcd_12x10: l_struct_struct_OC_packed_percentile_table = un
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        23 as libc::c_int as uint16_t,
+                        23 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -811,7 +811,7 @@ static mut _ZL15block_pcd_12x12: l_struct_struct_OC_packed_percentile_table = un
                 let mut init = l_array_2_uint16_t {
                     array: [
                         0 as core::ffi::c_int as uint16_t,
-                        22 as libc::c_int as uint16_t,
+                        22 as core::ffi::c_int as uint16_t,
                     ],
                 };
                 init
@@ -7527,42 +7527,42 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
 ) -> *mut core::ffi::c_void {
     let mut _3: uint32_t = 0;
     let mut _4: uint32_t = 0;
-    let mut _5: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7: uint32_t = 0;
     let mut _8: uint32_t = 0;
     let mut _9: uint32_t = 0;
     let mut _10: uint32_t = 0;
     let mut _11: uint32_t = 0;
-    let mut _12: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _12: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _13: uint32_t = 0;
     let mut _14: uint16_t = 0;
     let mut _15: uint32_t = 0;
     let mut _16: uint32_t = 0;
-    let mut _17: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _17: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _18: uint32_t = 0;
     let mut _19: uint32_t = 0;
-    let mut _20: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _20: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _21: uint32_t = 0;
-    let mut _22: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _22: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _23: uint32_t = 0;
     let mut _24: uint32_t = 0;
     let mut _25: uint32_t = 0;
-    let mut _26: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _26: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _27: uint32_t = 0;
     let mut _28: uint16_t = 0;
-    let mut _29: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _29: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _30: uint32_t = 0;
     let mut _31: uint16_t = 0;
-    let mut _32: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _32: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _33: uint32_t = 0;
     let mut _34: uint16_t = 0;
-    let mut _35: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _35: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _36: uint32_t = 0;
-    let mut _37: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _37: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _38: uint32_t = 0;
     let mut _39: uint32_t = 0;
-    let mut _40: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _40: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _41: uint32_t = 0;
     let mut _42: uint16_t = 0;
     let mut _43: uint16_t = 0;
@@ -7571,11 +7571,11 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
     let mut _46: uint32_t = 0;
     let mut _47: uint32_t = 0;
     let mut _48: uint32_t = 0;
-    let mut _49: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _49: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _50: uint32_t = 0;
     let mut _51: uint32_t = 0;
     let mut _52: uint32_t = 0;
-    let mut _53: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _53: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _3 = _1;
     _4 = _2;
     _17 = _Znam(8192 as core::ffi::c_int as uint64_t);
@@ -7593,7 +7593,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         _22 = _5;
         _23 = _7;
         *(&mut *(_22 as *mut core::ffi::c_float).offset(_23 as uint64_t as int64_t as isize)
-            as *mut core::ffi::c_float) = 1 as libc::c_int as libc::c_float;
+            as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
         _24 = _7;
         _7 = llvm_add_u32(_24, 1 as core::ffi::c_int as uint32_t);
     }
@@ -7677,14 +7677,14 @@ unsafe extern "C" fn _ZL16get_packed_tableii(
     mut _66: uint32_t,
     mut _67: uint32_t,
 ) -> *mut core::ffi::c_void {
-    let mut _68: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _68: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _69: uint32_t = 0;
     let mut _70: uint32_t = 0;
     let mut _71: uint32_t = 0;
     let mut _72: uint32_t = 0;
     let mut _73: uint32_t = 0;
     let mut _74: uint32_t = 0;
-    let mut _75: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _75: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _69 = _66;
     _70 = _67;
     _72 = _70;
@@ -7810,7 +7810,7 @@ pub unsafe extern "C" fn _Z22is_legal_3d_block_sizejjj(
     _113 = _109;
     _114 = _110;
     _115 = _111;
-    _112 = _113 << 16 as core::ffi::c_int | _114 << 8 as libc::c_int | _115;
+    _112 = _113 << 16 as core::ffi::c_int | _114 << 8 as core::ffi::c_int | _115;
     _116 = _112;
     match _116 {
         197379 | 262915 | 263171 | 263172 | 328708 | 328964 | 328965 | 394501 | 394757 | 394758 => {

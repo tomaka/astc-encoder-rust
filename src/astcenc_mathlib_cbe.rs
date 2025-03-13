@@ -24,9 +24,9 @@ unsafe extern "C" fn llvm_lshr_u64(mut a: uint64_t, mut b: uint64_t) -> uint64_t
 #[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc9rand_initEPm(mut _1: *mut core::ffi::c_void) {
-    let mut _2: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _2 = _1;
     _3 = _2;
     *(_3 as *mut uint64_t) = -(362010416112341909 as core::ffi::c_long) as uint64_t;
@@ -37,13 +37,13 @@ pub unsafe extern "C" fn _ZN4astc9rand_initEPm(mut _1: *mut core::ffi::c_void) {
 #[no_mangle]
 #[inline(never)]
 pub unsafe extern "C" fn _ZN4astc4randEPm(mut _5: *mut core::ffi::c_void) -> uint64_t {
-    let mut _6: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7: uint64_t = 0;
     let mut _8: uint64_t = 0;
     let mut _9: uint64_t = 0;
-    let mut _10: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _10: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _11: uint64_t = 0;
-    let mut _12: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _12: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _13: uint64_t = 0;
     let mut _14: uint64_t = 0;
     let mut _15: uint64_t = 0;
@@ -53,10 +53,10 @@ pub unsafe extern "C" fn _ZN4astc4randEPm(mut _5: *mut core::ffi::c_void) -> uin
     let mut _19: uint64_t = 0;
     let mut _20: uint64_t = 0;
     let mut _21: uint64_t = 0;
-    let mut _22: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _22: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _23: uint64_t = 0;
     let mut _24: uint64_t = 0;
-    let mut _25: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _25: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _26: uint64_t = 0;
     _6 = _5;
     _10 = _6;

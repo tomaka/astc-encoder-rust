@@ -32,7 +32,6 @@ pub mod src {
 } // mod src
 pub mod bindings;
 pub use bindings::*;
-
 use src::astcenc_averages_and_directions_cbe::*;
 use src::astcenc_block_sizes_cbe::*;
 use src::astcenc_color_quantize_cbe::*;
@@ -55,3 +54,49 @@ use src::astcenc_quantization_cbe::*;
 use src::astcenc_symbolic_physical_cbe::*;
 use src::astcenc_weight_align_cbe::*;
 use src::astcenc_weight_quant_xfer_tables_cbe::*;
+unsafe fn memcpy(
+    d: *mut core::ffi::c_void,
+    s: *mut core::ffi::c_void,
+    c: u64,
+) -> *mut core::ffi::c_void {
+    core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c);
+    d
+}
+unsafe fn memset(
+    d: *mut core::ffi::c_void,
+    ch: core::ffi::c_int,
+    c: u64,
+) -> *mut core::ffi::c_void {
+    assert!(ch <= 255);
+    core::ptr::write_bytes::<u8>(d.cast(), ch as u8, c);
+    d
+}
+fn abs(v: u32) -> u32 {
+    v
+}
+fn cosf(v: f32) -> f32 {
+    v.cos()
+}
+fn sinf(v: f32) -> f32 {
+    v.sin()
+}
+fn fabsf(v: f32) -> f32 {
+    v.abs()
+}
+fn roundf(v: f32) -> f32 {
+    v.round()
+}
+fn sqrtf(v: f32) -> f32 {
+    v.sqrt()
+}
+fn logf(v: f32) -> f32 {
+    v.ln()
+}
+fn __assert_fail(
+    assertion: *mut core::ffi::c_void,
+    file: *mut core::ffi::c_void,
+    line: core::ffi::c_uint,
+    function: *mut core::ffi::c_void,
+) {
+    panic!()
+}

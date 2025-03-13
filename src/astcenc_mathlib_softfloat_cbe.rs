@@ -434,22 +434,22 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _19 = _11;
     _11 = llvm_add_u32(_19, _18);
     _20 = _11;
-    if _20 & 2147483648 as core::ffi::c_uint == 0 as libc::c_uint {
+    if _20 & 2147483648 as core::ffi::c_uint == 0 as core::ffi::c_uint {
         _21 = _11;
         _8 = _21 << 13 as core::ffi::c_int;
     } else {
         _22 = _11;
-        if _22 & 1023 as core::ffi::c_int as uint32_t == 0 as libc::c_uint {
+        if _22 & 1023 as core::ffi::c_int as uint32_t == 0 as core::ffi::c_uint {
             _23 = _11;
             _8 = _23 << 13 as core::ffi::c_int;
         } else {
             _24 = _10;
-            if _24 & 31744 as core::ffi::c_int as uint32_t != 0 as libc::c_uint {
+            if _24 & 31744 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
                 _25 = _11;
-                _8 = _25 << 13 as core::ffi::c_int | 4194304 as libc::c_int as uint32_t;
+                _8 = _25 << 13 as core::ffi::c_int | 4194304 as core::ffi::c_int as uint32_t;
             } else {
                 _26 = _10;
-                _12 = (_26 & 32768 as core::ffi::c_int as uint32_t) << 16 as libc::c_int;
+                _12 = (_26 & 32768 as core::ffi::c_int as uint32_t) << 16 as core::ffi::c_int;
                 _27 = _10;
                 _13 = _27 & 32767 as core::ffi::c_int as uint32_t;
                 _28 = _13;

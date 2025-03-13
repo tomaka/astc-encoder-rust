@@ -4919,7 +4919,7 @@ unsafe extern "C" fn llvm_udiv_u32(mut a: uint32_t, mut b: uint32_t) -> uint32_t
 }
 #[inline(always)]
 unsafe extern "C" fn llvm_lshr_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
-    let mut r: uint8_t = (a as core::ffi::c_int >> b as libc::c_int) as uint8_t;
+    let mut r: uint8_t = (a as core::ffi::c_int >> b as core::ffi::c_int) as uint8_t;
     return r;
 }
 #[inline(always)]
@@ -4934,7 +4934,7 @@ unsafe extern "C" fn llvm_ashr_u32(mut a: int32_t, mut b: int32_t) -> uint32_t {
 }
 #[inline(always)]
 unsafe extern "C" fn llvm_and_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
-    let mut r: uint8_t = (a as core::ffi::c_int & b as libc::c_int) as uint8_t;
+    let mut r: uint8_t = (a as core::ffi::c_int & b as core::ffi::c_int) as uint8_t;
     return r;
 }
 #[no_mangle]
@@ -4943,19 +4943,19 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
     mut _1: uint32_t,
     mut _2: uint32_t,
 ) -> uint32_t {
-    let mut _3: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4: uint32_t = 0;
     let mut _5: uint32_t = 0;
     let mut _6: uint32_t = 0;
-    let mut _7: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _8: uint32_t = 0;
     let mut _9: uint32_t = 0;
-    let mut _10: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _10: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _11: uint32_t = 0;
-    let mut _12: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _13: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _12: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _13: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _14: uint8_t = 0;
-    let mut _15: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _15: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _16: uint8_t = 0;
     let mut _17: uint32_t = 0;
     let mut _18: uint32_t = 0;
@@ -5010,9 +5010,9 @@ pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
     mut _24: *mut core::ffi::c_void,
     mut _25: uint64_t,
 ) -> *mut core::ffi::c_void {
-    let mut _26: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _26: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _27: uint64_t = 0;
-    let mut _28: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _28: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _29: uint64_t = 0;
     _26 = _24;
     _27 = _25;
@@ -5036,8 +5036,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
 ) {
     let mut _35: uint32_t = 0;
     let mut _36: uint32_t = 0;
-    let mut _37: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _38: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _37: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _38: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _39: uint32_t = 0;
     let mut _40: uint32_t = 0;
     let mut _41: uint32_t = 0;
@@ -5078,36 +5078,36 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _76: uint32_t = 0;
     let mut _77: uint32_t = 0;
     let mut _78: uint32_t = 0;
-    let mut _79: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _79: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _80: uint8_t = 0;
     let mut _81: uint32_t = 0;
-    let mut _82: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _82: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _83: uint8_t = 0;
     let mut _84: uint32_t = 0;
-    let mut _85: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _85: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _86: uint8_t = 0;
     let mut _87: uint32_t = 0;
     let mut _88: uint32_t = 0;
     let mut _89: uint32_t = 0;
     let mut _90: uint32_t = 0;
     let mut _91: uint32_t = 0;
-    let mut _92: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _92: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _93: uint32_t = 0;
     let mut _94: uint8_t = 0;
     let mut _95: uint32_t = 0;
-    let mut _96: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _96: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _97: uint32_t = 0;
     let mut _98: uint8_t = 0;
     let mut _99: uint32_t = 0;
-    let mut _100: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _100: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _101: uint32_t = 0;
     let mut _102: uint8_t = 0;
     let mut _103: uint32_t = 0;
-    let mut _104: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _104: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _105: uint32_t = 0;
     let mut _106: uint8_t = 0;
     let mut _107: uint32_t = 0;
-    let mut _108: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _108: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _109: uint32_t = 0;
     let mut _110: uint8_t = 0;
     let mut _111: uint32_t = 0;
@@ -5117,7 +5117,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _115: uint32_t = 0;
     let mut _116: uint32_t = 0;
     let mut _117: uint8_t = 0;
-    let mut _118: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _118: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _119: uint32_t = 0;
     let mut _120: uint8_t = 0;
     let mut _121: uint32_t = 0;
@@ -5126,10 +5126,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _124: uint8_t = 0;
     let mut _125: uint32_t = 0;
     let mut _126: uint32_t = 0;
-    let mut _127: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _127: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _128: uint32_t = 0;
     let mut _129: uint32_t = 0;
-    let mut _130: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _131: uint32_t = 0;
     let mut _132: uint8_t = 0;
     let mut _133: uint32_t = 0;
@@ -5138,10 +5138,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _136: uint8_t = 0;
     let mut _137: uint32_t = 0;
     let mut _138: uint32_t = 0;
-    let mut _139: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _139: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _140: uint32_t = 0;
     let mut _141: uint32_t = 0;
-    let mut _142: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _142: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _143: uint32_t = 0;
     let mut _144: uint8_t = 0;
     let mut _145: uint32_t = 0;
@@ -5150,10 +5150,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _148: uint8_t = 0;
     let mut _149: uint32_t = 0;
     let mut _150: uint32_t = 0;
-    let mut _151: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _151: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _152: uint32_t = 0;
     let mut _153: uint32_t = 0;
-    let mut _154: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _154: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _155: uint32_t = 0;
     let mut _156: uint8_t = 0;
     let mut _157: uint32_t = 0;
@@ -5162,10 +5162,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _160: uint8_t = 0;
     let mut _161: uint32_t = 0;
     let mut _162: uint32_t = 0;
-    let mut _163: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _163: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _164: uint32_t = 0;
     let mut _165: uint32_t = 0;
-    let mut _166: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _166: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _167: uint32_t = 0;
     let mut _168: uint8_t = 0;
     let mut _169: uint32_t = 0;
@@ -5174,7 +5174,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _172: uint8_t = 0;
     let mut _173: uint32_t = 0;
     let mut _174: uint32_t = 0;
-    let mut _175: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _175: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _176: uint32_t = 0;
     let mut _177: uint32_t = 0;
     let mut _178: uint32_t = 0;
@@ -5182,7 +5182,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _180: uint32_t = 0;
     let mut _181: uint32_t = 0;
     let mut _182: uint32_t = 0;
-    let mut _183: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _183: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _184: uint32_t = 0;
     let mut _185: uint8_t = 0;
     let mut _186: uint32_t = 0;
@@ -5191,7 +5191,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _188__PHI_TEMPORARY: uint32_t = 0;
     let mut _189: uint32_t = 0;
     let mut _190: uint32_t = 0;
-    let mut _191: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _191: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _192: uint32_t = 0;
     let mut _193: uint8_t = 0;
     let mut _194: uint32_t = 0;
@@ -5200,14 +5200,14 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _196__PHI_TEMPORARY: uint32_t = 0;
     let mut _197: uint32_t = 0;
     let mut _198: uint32_t = 0;
-    let mut _199: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _199: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _200: uint32_t = 0;
     let mut _201: uint8_t = 0;
     let mut _202: uint32_t = 0;
     let mut _203: uint32_t = 0;
     let mut _204: uint32_t = 0;
     let mut _204__PHI_TEMPORARY: uint32_t = 0;
-    let mut _205: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _205: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _206: uint32_t = 0;
     let mut _207: uint8_t = 0;
     let mut _208: uint32_t = 0;
@@ -5219,7 +5219,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _214: uint8_t = 0;
     let mut _215: uint32_t = 0;
     let mut _216: uint32_t = 0;
-    let mut _217: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _217: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _218: uint32_t = 0;
     let mut _219: uint8_t = 0;
     let mut _220: uint32_t = 0;
@@ -5234,7 +5234,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _229: uint32_t = 0;
     let mut _230: uint8_t = 0;
     let mut _231: uint32_t = 0;
-    let mut _232: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _232: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _233: uint32_t = 0;
     let mut _234: uint32_t = 0;
     let mut _235: uint8_t = 0;
@@ -5245,15 +5245,15 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _240: uint32_t = 0;
     let mut _241: uint32_t = 0;
     let mut _242: uint32_t = 0;
-    let mut _243: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _243: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _244: uint32_t = 0;
     let mut _245: uint8_t = 0;
     let mut _246: uint32_t = 0;
-    let mut _247: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _247: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _248: uint32_t = 0;
     let mut _249: uint8_t = 0;
     let mut _250: uint32_t = 0;
-    let mut _251: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _251: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _252: uint32_t = 0;
     let mut _253: uint8_t = 0;
     let mut _254: uint32_t = 0;
@@ -5261,7 +5261,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _256: uint32_t = 0;
     let mut _257: uint32_t = 0;
     let mut _258: uint8_t = 0;
-    let mut _259: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _259: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _260: uint32_t = 0;
     let mut _261: uint8_t = 0;
     let mut _262: uint32_t = 0;
@@ -5270,10 +5270,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _265: uint8_t = 0;
     let mut _266: uint32_t = 0;
     let mut _267: uint32_t = 0;
-    let mut _268: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _268: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _269: uint32_t = 0;
     let mut _270: uint32_t = 0;
-    let mut _271: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _271: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _272: uint32_t = 0;
     let mut _273: uint8_t = 0;
     let mut _274: uint32_t = 0;
@@ -5282,10 +5282,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _277: uint8_t = 0;
     let mut _278: uint32_t = 0;
     let mut _279: uint32_t = 0;
-    let mut _280: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _280: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _281: uint32_t = 0;
     let mut _282: uint32_t = 0;
-    let mut _283: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _283: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _284: uint32_t = 0;
     let mut _285: uint8_t = 0;
     let mut _286: uint32_t = 0;
@@ -5294,7 +5294,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _289: uint8_t = 0;
     let mut _290: uint32_t = 0;
     let mut _291: uint32_t = 0;
-    let mut _292: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _292: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _293: uint32_t = 0;
     let mut _294: uint32_t = 0;
     let mut _295: uint32_t = 0;
@@ -5302,14 +5302,14 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _297: uint32_t = 0;
     let mut _298: uint32_t = 0;
     let mut _299: uint32_t = 0;
-    let mut _300: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _300: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _301: uint32_t = 0;
     let mut _302: uint8_t = 0;
     let mut _303: uint32_t = 0;
     let mut _304: uint32_t = 0;
     let mut _305: uint32_t = 0;
     let mut _305__PHI_TEMPORARY: uint32_t = 0;
-    let mut _306: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _306: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _307: uint32_t = 0;
     let mut _308: uint8_t = 0;
     let mut _309: uint32_t = 0;
@@ -5319,7 +5319,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _313: uint8_t = 0;
     let mut _314: uint32_t = 0;
     let mut _315: uint32_t = 0;
-    let mut _316: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _316: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _317: uint32_t = 0;
     let mut _318: uint8_t = 0;
     let mut _319: uint32_t = 0;
@@ -5334,7 +5334,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _328: uint32_t = 0;
     let mut _329: uint8_t = 0;
     let mut _330: uint32_t = 0;
-    let mut _331: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _331: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _332: uint32_t = 0;
     let mut _333: uint32_t = 0;
     let mut _334: uint8_t = 0;
@@ -5343,12 +5343,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
     let mut _337: uint32_t = 0;
     let mut _338: uint32_t = 0;
     let mut _339: uint32_t = 0;
-    let mut _340: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _340: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _341: uint32_t = 0;
     let mut _342: uint8_t = 0;
     let mut _343: uint32_t = 0;
     let mut _344: uint32_t = 0;
-    let mut _345: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _345: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _346: uint32_t = 0;
     let mut _347: uint32_t = 0;
     let mut _348: uint32_t = 0;
@@ -6075,9 +6075,9 @@ pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
     mut _394: *mut core::ffi::c_void,
     mut _395: uint64_t,
 ) -> *mut core::ffi::c_void {
-    let mut _396: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _396: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _397: uint64_t = 0;
-    let mut _398: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _398: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _399: uint64_t = 0;
     _396 = _394;
     _397 = _395;
@@ -6100,13 +6100,13 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     let mut _404: uint32_t = 0;
     let mut _405: uint32_t = 0;
     let mut _406: uint32_t = 0;
-    let mut _407: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _407: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _408: uint32_t = 0;
     let mut _409: uint32_t = 0;
     let mut _410: uint32_t = 0;
     let mut _411: uint32_t = 0;
     let mut _412: uint32_t = 0;
-    let mut _413: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _413: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _414: uint32_t = 0;
     let mut _415: uint32_t = 0;
     let mut _416: uint32_t = 0;
@@ -6114,20 +6114,20 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     let mut _418: uint32_t = 0;
     let mut _419: uint32_t = 0;
     let mut _420: uint32_t = 0;
-    let mut _421: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _422: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _421: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _422: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _423: uint8_t = 0;
     let mut _424: uint32_t = 0;
-    let mut _425: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _426: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _425: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _426: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _427: uint8_t = 0;
     let mut _428: uint32_t = 0;
-    let mut _429: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _430: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _429: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _430: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _431: uint8_t = 0;
     let mut _432: uint32_t = 0;
-    let mut _433: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _434: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _433: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _434: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _435: uint8_t = 0;
     _404 = _400;
     _405 = _401;
@@ -6194,8 +6194,8 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
 ) {
     let mut _441: uint32_t = 0;
     let mut _442: uint32_t = 0;
-    let mut _443: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _444: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _443: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _444: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _445: uint32_t = 0;
     let mut _446: l_array_68_uint8_t = l_array_68_uint8_t { array: [0; 68] };
     let mut _447: l_array_22_uint8_t = l_array_22_uint8_t { array: [0; 22] };
@@ -6209,27 +6209,27 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _455: uint32_t = 0;
     let mut _456: uint32_t = 0;
     let mut _457: uint32_t = 0;
-    let mut _458: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _458: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _459: uint32_t = 0;
     let mut _460: uint32_t = 0;
-    let mut _461: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _461: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _462: uint32_t = 0;
     let mut _463: uint32_t = 0;
-    let mut _464: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _464: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _465: uint32_t = 0;
-    let mut _466: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _466: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _467: uint8_t = 0;
     let mut _468: uint32_t = 0;
-    let mut _469: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _469: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _470: uint8_t = 0;
     let mut _471: uint32_t = 0;
-    let mut _472: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _472: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _473: uint8_t = 0;
     let mut _474: uint32_t = 0;
     let mut _475: uint32_t = 0;
     let mut _476: uint32_t = 0;
     let mut _477: uint32_t = 0;
-    let mut _478: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _478: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _479: uint32_t = 0;
     let mut _480: uint32_t = 0;
     let mut _481: uint32_t = 0;
@@ -6238,7 +6238,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _484: uint32_t = 0;
     let mut _485: uint8_t = 0;
     let mut _486: uint32_t = 0;
-    let mut _487: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _487: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _488: uint32_t = 0;
     let mut _489: uint32_t = 0;
     let mut _490: uint8_t = 0;
@@ -6247,7 +6247,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _493: uint32_t = 0;
     let mut _494: uint8_t = 0;
     let mut _495: uint32_t = 0;
-    let mut _496: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _496: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _497: uint8_t = 0;
     let mut _498: uint32_t = 0;
     let mut _499: uint8_t = 0;
@@ -6258,7 +6258,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _504: uint32_t = 0;
     let mut _505: uint8_t = 0;
     let mut _506: uint32_t = 0;
-    let mut _507: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _507: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _508: uint32_t = 0;
     let mut _509: uint32_t = 0;
     let mut _510: uint8_t = 0;
@@ -6267,7 +6267,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _513: uint32_t = 0;
     let mut _514: uint8_t = 0;
     let mut _515: uint32_t = 0;
-    let mut _516: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _517: uint8_t = 0;
     let mut _518: uint32_t = 0;
     let mut _519: uint8_t = 0;
@@ -6282,35 +6282,35 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _528: uint32_t = 0;
     let mut _529: uint32_t = 0;
     let mut _530: uint8_t = 0;
-    let mut _531: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _531: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _532: uint8_t = 0;
     let mut _533: uint32_t = 0;
     let mut _534: uint32_t = 0;
-    let mut _535: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _535: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _536: uint8_t = 0;
-    let mut _537: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _537: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _538: uint8_t = 0;
     let mut _539: uint32_t = 0;
     let mut _540: uint32_t = 0;
-    let mut _541: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _541: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _542: uint8_t = 0;
-    let mut _543: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _543: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _544: uint8_t = 0;
     let mut _545: uint32_t = 0;
     let mut _546: uint32_t = 0;
-    let mut _547: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _547: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _548: uint8_t = 0;
-    let mut _549: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _549: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _550: uint8_t = 0;
     let mut _551: uint32_t = 0;
     let mut _552: uint32_t = 0;
-    let mut _553: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _553: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _554: uint8_t = 0;
-    let mut _555: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _555: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _556: uint8_t = 0;
     let mut _557: uint32_t = 0;
     let mut _558: uint32_t = 0;
-    let mut _559: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _559: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _560: uint8_t = 0;
     let mut _561: uint32_t = 0;
     let mut _562: uint32_t = 0;
@@ -6320,30 +6320,30 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _566: uint32_t = 0;
     let mut _567: uint32_t = 0;
     let mut _568: uint8_t = 0;
-    let mut _569: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _569: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _570: uint8_t = 0;
     let mut _571: uint32_t = 0;
     let mut _572: uint32_t = 0;
-    let mut _573: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _573: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _574: uint8_t = 0;
-    let mut _575: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _575: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _576: uint8_t = 0;
     let mut _577: uint32_t = 0;
     let mut _578: uint32_t = 0;
-    let mut _579: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _579: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _580: uint8_t = 0;
-    let mut _581: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _581: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _582: uint8_t = 0;
     let mut _583: uint32_t = 0;
     let mut _584: uint32_t = 0;
-    let mut _585: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _585: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _586: uint8_t = 0;
     let mut _587: uint32_t = 0;
     let mut _588: uint32_t = 0;
     let mut _589: uint32_t = 0;
     let mut _590: uint32_t = 0;
     let mut _591: uint8_t = 0;
-    let mut _592: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _592: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _593: uint32_t = 0;
     let mut _594: uint32_t = 0;
     _441 = _436;
@@ -6771,16 +6771,16 @@ unsafe extern "C" fn _ZL9read_bitsjjPKh(
 ) -> uint32_t {
     let mut _631: uint32_t = 0;
     let mut _632: uint32_t = 0;
-    let mut _633: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _633: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _634: uint32_t = 0;
     let mut _635: uint32_t = 0;
     let mut _636: uint32_t = 0;
     let mut _637: uint32_t = 0;
-    let mut _638: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _638: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _639: uint32_t = 0;
-    let mut _640: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _640: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _641: uint8_t = 0;
-    let mut _642: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _642: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _643: uint8_t = 0;
     let mut _644: uint32_t = 0;
     let mut _645: uint32_t = 0;

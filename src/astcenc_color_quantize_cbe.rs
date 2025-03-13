@@ -1386,8 +1386,8 @@ static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_2_float {
                     array: [
-                        1024 as core::ffi::c_int as libc::c_float,
-                        4096 as core::ffi::c_int as libc::c_float,
+                        1024 as core::ffi::c_int as core::ffi::c_float,
+                        4096 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1395,8 +1395,8 @@ static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_2_float {
                     array: [
-                        2048 as core::ffi::c_int as libc::c_float,
-                        1024 as core::ffi::c_int as libc::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        1024 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1404,8 +1404,8 @@ static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_2_float {
                     array: [
-                        2048 as core::ffi::c_int as libc::c_float,
-                        16384 as core::ffi::c_int as libc::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        16384 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1413,8 +1413,8 @@ static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_2_float {
                     array: [
-                        8192 as core::ffi::c_int as libc::c_float,
-                        16384 as core::ffi::c_int as libc::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        16384 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1422,8 +1422,8 @@ static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_2_float {
                     array: [
-                        32768 as core::ffi::c_int as libc::c_float,
-                        16384 as core::ffi::c_int as libc::c_float,
+                        32768 as core::ffi::c_int as core::ffi::c_float,
+                        16384 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1435,11 +1435,11 @@ static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs:
 static mut _ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_rscales: l_array_5_float = {
     let mut init = l_array_5_float {
         array: [
-            32 as core::ffi::c_int as libc::c_float,
-            32 as core::ffi::c_int as libc::c_float,
-            64 as core::ffi::c_int as libc::c_float,
-            128 as core::ffi::c_int as libc::c_float,
-            256 as core::ffi::c_int as libc::c_float,
+            32 as core::ffi::c_int as core::ffi::c_float,
+            32 as core::ffi::c_int as core::ffi::c_float,
+            64 as core::ffi::c_int as core::ffi::c_float,
+            128 as core::ffi::c_int as core::ffi::c_float,
+            256 as core::ffi::c_int as core::ffi::c_float,
         ],
     };
     init
@@ -1559,10 +1559,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        16384 as core::ffi::c_int as libc::c_float,
-                        8192 as core::ffi::c_int as libc::c_float,
-                        8192 as core::ffi::c_int as libc::c_float,
-                        8 as core::ffi::c_int as libc::c_float,
+                        16384 as core::ffi::c_int as core::ffi::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        8 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1570,10 +1570,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        32768 as core::ffi::c_int as libc::c_float,
-                        8192 as core::ffi::c_int as libc::c_float,
-                        4096 as core::ffi::c_int as libc::c_float,
-                        8 as core::ffi::c_int as libc::c_float,
+                        32768 as core::ffi::c_int as core::ffi::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        4096 as core::ffi::c_int as core::ffi::c_float,
+                        8 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1581,10 +1581,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        4096 as core::ffi::c_int as libc::c_float,
-                        8192 as core::ffi::c_int as libc::c_float,
-                        4096 as core::ffi::c_int as libc::c_float,
-                        4 as core::ffi::c_int as libc::c_float,
+                        4096 as core::ffi::c_int as core::ffi::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        4096 as core::ffi::c_int as core::ffi::c_float,
+                        4 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1592,10 +1592,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        8192 as core::ffi::c_int as libc::c_float,
-                        8192 as core::ffi::c_int as libc::c_float,
-                        2048 as core::ffi::c_int as libc::c_float,
-                        4 as core::ffi::c_int as libc::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        4 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1603,10 +1603,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        8192 as core::ffi::c_int as libc::c_float,
-                        2048 as core::ffi::c_int as libc::c_float,
-                        512 as core::ffi::c_int as libc::c_float,
-                        2 as core::ffi::c_int as libc::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        512 as core::ffi::c_int as core::ffi::c_float,
+                        2 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1614,10 +1614,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        2048 as core::ffi::c_int as libc::c_float,
-                        8192 as core::ffi::c_int as libc::c_float,
-                        1024 as core::ffi::c_int as libc::c_float,
-                        2 as core::ffi::c_int as libc::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        8192 as core::ffi::c_int as core::ffi::c_float,
+                        1024 as core::ffi::c_int as core::ffi::c_float,
+                        2 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1625,10 +1625,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        2048 as core::ffi::c_int as libc::c_float,
-                        2048 as core::ffi::c_int as libc::c_float,
-                        256 as core::ffi::c_int as libc::c_float,
-                        1 as core::ffi::c_int as libc::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        256 as core::ffi::c_int as core::ffi::c_float,
+                        1 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1636,10 +1636,10 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs:
             {
                 let mut init = l_array_4_float {
                     array: [
-                        1024 as core::ffi::c_int as libc::c_float,
-                        2048 as core::ffi::c_int as libc::c_float,
-                        512 as core::ffi::c_int as libc::c_float,
-                        1 as core::ffi::c_int as libc::c_float,
+                        1024 as core::ffi::c_int as core::ffi::c_float,
+                        2048 as core::ffi::c_int as core::ffi::c_float,
+                        512 as core::ffi::c_int as core::ffi::c_float,
+                        1 as core::ffi::c_int as core::ffi::c_float,
                     ],
                 };
                 init
@@ -1666,14 +1666,14 @@ static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE11mode_scales: l_arr
 static mut _ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_rscales: l_array_8_float = {
     let mut init = l_array_8_float {
         array: [
-            128 as core::ffi::c_int as libc::c_float,
-            128 as core::ffi::c_int as libc::c_float,
-            64 as core::ffi::c_int as libc::c_float,
-            64 as core::ffi::c_int as libc::c_float,
-            32 as core::ffi::c_int as libc::c_float,
-            32 as core::ffi::c_int as libc::c_float,
-            16 as core::ffi::c_int as libc::c_float,
-            16 as core::ffi::c_int as libc::c_float,
+            128 as core::ffi::c_int as core::ffi::c_float,
+            128 as core::ffi::c_int as core::ffi::c_float,
+            64 as core::ffi::c_int as core::ffi::c_float,
+            64 as core::ffi::c_int as core::ffi::c_float,
+            32 as core::ffi::c_int as core::ffi::c_float,
+            32 as core::ffi::c_int as core::ffi::c_float,
+            16 as core::ffi::c_int as core::ffi::c_float,
+            16 as core::ffi::c_int as core::ffi::c_float,
         ],
     };
     init
@@ -1704,7 +1704,7 @@ unsafe extern "C" fn llvm_select_u32(
 }
 #[inline(always)]
 unsafe extern "C" fn llvm_add_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
-    let mut r: uint8_t = (a as core::ffi::c_int + b as libc::c_int) as uint8_t;
+    let mut r: uint8_t = (a as core::ffi::c_int + b as core::ffi::c_int) as uint8_t;
     return r;
 }
 #[inline(always)]
@@ -1791,7 +1791,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     mut _7: uint32_t,
 ) -> uint8_t {
     let mut current_block: u64;
-    let mut _8: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _8: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _9: core::ffi::c_float = 0.;
     let mut _10: core::ffi::c_float = 0.;
     let mut _11: core::ffi::c_float = 0.;
@@ -1805,7 +1805,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _15: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _16: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _16: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _17: core::ffi::c_float = 0.;
     let mut _18: core::ffi::c_float = 0.;
     let mut _19: core::ffi::c_float = 0.;
@@ -1819,7 +1819,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _23: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _24: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _24: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _25: core::ffi::c_float = 0.;
     let mut _26: core::ffi::c_float = 0.;
     let mut _27: core::ffi::c_float = 0.;
@@ -1833,7 +1833,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _31: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _32: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _32: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _33: core::ffi::c_float = 0.;
     let mut _34: core::ffi::c_float = 0.;
     let mut _35: core::ffi::c_float = 0.;
@@ -1847,27 +1847,27 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _39: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _40: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _40: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _41: core::ffi::c_float = 0.;
     let mut _42: core::ffi::c_float = 0.;
     let mut _43: core::ffi::c_float = 0.;
     let mut _44: core::ffi::c_float = 0.;
-    let mut _45: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _45: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _46: core::ffi::c_float = 0.;
     let mut _47: core::ffi::c_float = 0.;
     let mut _48: core::ffi::c_float = 0.;
     let mut _49: core::ffi::c_float = 0.;
-    let mut _50: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _50: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _51: core::ffi::c_float = 0.;
-    let mut _52: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _52: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _53: core::ffi::c_float = 0.;
-    let mut _54: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _54: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _55: core::ffi::c_float = 0.;
-    let mut _56: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _56: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _57: core::ffi::c_float = 0.;
-    let mut _58: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _58: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _59: core::ffi::c_float = 0.;
-    let mut _60: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _60: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _61: core::ffi::c_float = 0.;
     let mut _62: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1939,20 +1939,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _87: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _88: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _89: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _90: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _91: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _92: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _93: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _94: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _95: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _96: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _97: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _98: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _99: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _100: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _101: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _88: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _89: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _90: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _91: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _92: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _93: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _94: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _95: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _96: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _97: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _98: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _99: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _100: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _101: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _102: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -2020,7 +2020,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _128: uint32_t = 0;
-    let mut _129: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _129: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _130: uint32_t = 0;
     let mut _131: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -2373,14 +2373,14 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _253: uint32_t = 0;
     let mut _254: bool_0 = 0;
     let mut _254__PHI_TEMPORARY: bool_0 = 0;
-    let mut _255: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _255: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _256: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _257: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _257: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _258: core::ffi::c_float = 0.;
     let mut _259: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _260: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _260: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _261: core::ffi::c_float = 0.;
-    let mut _262: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _262: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _263: core::ffi::c_float = 0.;
     let mut _264: core::ffi::c_float = 0.;
     let mut _265: core::ffi::c_float = 0.;
@@ -2411,7 +2411,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _287: core::ffi::c_float = 0.;
     let mut _288: core::ffi::c_float = 0.;
     let mut _288__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _289: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _289: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _290: core::ffi::c_float = 0.;
     let mut _291: core::ffi::c_float = 0.;
     let mut _292: core::ffi::c_float = 0.;
@@ -2424,9 +2424,9 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     };
     let mut _296: core::ffi::c_float = 0.;
     let mut _297: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _298: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _298: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _299: core::ffi::c_float = 0.;
-    let mut _300: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _300: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _301: core::ffi::c_float = 0.;
     let mut _302: core::ffi::c_float = 0.;
     let mut _303: core::ffi::c_float = 0.;
@@ -2457,7 +2457,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _325: core::ffi::c_float = 0.;
     let mut _326: core::ffi::c_float = 0.;
     let mut _326__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _327: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _327: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _328: core::ffi::c_float = 0.;
     let mut _329: core::ffi::c_float = 0.;
     let mut _330: core::ffi::c_float = 0.;
@@ -2471,15 +2471,15 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _334: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _335: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _336: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _335: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _336: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _337: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _338: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _338: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _339: core::ffi::c_float = 0.;
     let mut _340: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _341: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _341: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _342: core::ffi::c_float = 0.;
-    let mut _343: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _343: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _344: core::ffi::c_float = 0.;
     let mut _345: core::ffi::c_float = 0.;
     let mut _346: core::ffi::c_float = 0.;
@@ -2510,7 +2510,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _368: core::ffi::c_float = 0.;
     let mut _369: core::ffi::c_float = 0.;
     let mut _369__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _370: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _370: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _371: core::ffi::c_float = 0.;
     let mut _372: core::ffi::c_float = 0.;
     let mut _373: core::ffi::c_float = 0.;
@@ -2523,9 +2523,9 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     };
     let mut _377: core::ffi::c_float = 0.;
     let mut _378: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _379: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _379: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _380: core::ffi::c_float = 0.;
-    let mut _381: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _381: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _382: core::ffi::c_float = 0.;
     let mut _383: core::ffi::c_float = 0.;
     let mut _384: core::ffi::c_float = 0.;
@@ -2556,7 +2556,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _406: core::ffi::c_float = 0.;
     let mut _407: core::ffi::c_float = 0.;
     let mut _407__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _408: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _408: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _409: core::ffi::c_float = 0.;
     let mut _410: core::ffi::c_float = 0.;
     let mut _411: core::ffi::c_float = 0.;
@@ -2570,12 +2570,12 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _415: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _416: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _417: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _416: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _417: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _418: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _419: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _419: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _420: core::ffi::c_float = 0.;
-    let mut _421: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _421: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _422: core::ffi::c_float = 0.;
     let mut _423: core::ffi::c_float = 0.;
     let mut _424: core::ffi::c_float = 0.;
@@ -2590,7 +2590,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _433: core::ffi::c_float = 0.;
     let mut _434: core::ffi::c_float = 0.;
     let mut _435: core::ffi::c_float = 0.;
-    let mut _436: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _436: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _437: core::ffi::c_float = 0.;
     let mut _438: core::ffi::c_float = 0.;
     let mut _439: core::ffi::c_float = 0.;
@@ -2601,11 +2601,11 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _442: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _443: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _443: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _444: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _445: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _445: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _446: core::ffi::c_float = 0.;
-    let mut _447: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _447: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _448: core::ffi::c_float = 0.;
     let mut _449: core::ffi::c_float = 0.;
     let mut _450: core::ffi::c_float = 0.;
@@ -2620,7 +2620,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _459: core::ffi::c_float = 0.;
     let mut _460: core::ffi::c_float = 0.;
     let mut _461: core::ffi::c_float = 0.;
-    let mut _462: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _462: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _463: core::ffi::c_float = 0.;
     let mut _464: core::ffi::c_float = 0.;
     let mut _465: core::ffi::c_float = 0.;
@@ -2633,39 +2633,39 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     };
     let mut _469: uint32_t = 0;
     let mut _470: uint32_t = 0;
-    let mut _471: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _472: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _471: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _472: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _473: uint32_t = 0;
     let mut _474: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _475: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _476: bool_0 = 0;
-    let mut _477: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _478: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _477: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _478: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _479: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _480: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _481: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _482: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _483: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _484: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _481: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _482: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _483: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _484: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _485: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _486: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _487: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _488: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _489: core::ffi::c_float = 0.;
-    let mut _490: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _491: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _490: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _491: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _492: uint32_t = 0;
     let mut _493: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _494: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _495: bool_0 = 0;
-    let mut _496: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _497: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _496: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _497: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _498: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _499: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _500: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _501: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _502: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _503: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _500: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _501: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _502: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _503: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _504: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _505: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _506: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -2674,23 +2674,23 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _509: core::ffi::c_float = 0.;
     let mut _510: core::ffi::c_float = 0.;
     let mut _511: core::ffi::c_float = 0.;
-    let mut _512: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _513: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _512: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _513: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _514: uint32_t = 0;
-    let mut _515: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _516: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _515: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _517: uint32_t = 0;
     let mut _518: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _519: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _520: bool_0 = 0;
-    let mut _521: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _522: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _521: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _522: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _523: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _524: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _525: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _526: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _527: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _528: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _525: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _526: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _527: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _528: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _529: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _530: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _531: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -2699,21 +2699,21 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _534: core::ffi::c_float = 0.;
     let mut _535: core::ffi::c_float = 0.;
     let mut _536: core::ffi::c_float = 0.;
-    let mut _537: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _538: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _539: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _540: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _537: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _538: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _539: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _540: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _541: uint32_t = 0;
     let mut _542: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _543: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _544: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _545: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _544: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _545: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _546: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _547: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _548: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _549: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _550: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _551: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _548: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _549: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _550: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _551: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _552: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _553: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _554: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -2721,60 +2721,60 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _556: core::ffi::c_float = 0.;
     let mut _557: core::ffi::c_float = 0.;
     let mut _558: core::ffi::c_float = 0.;
-    let mut _559: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _560: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _561: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _559: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _560: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _561: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _562: uint32_t = 0;
-    let mut _563: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _564: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _563: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _564: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _565: uint32_t = 0;
-    let mut _566: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _567: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _566: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _567: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _568: uint32_t = 0;
-    let mut _569: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _570: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _569: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _570: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _571: uint32_t = 0;
-    let mut _572: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _573: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _572: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _573: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _574: uint32_t = 0;
-    let mut _575: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _576: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _575: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _576: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _577: uint32_t = 0;
-    let mut _578: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _578: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _579: uint32_t = 0;
-    let mut _580: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _581: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _580: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _581: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _582: uint32_t = 0;
     let mut _583: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _584: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _585: bool_0 = 0;
-    let mut _586: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _587: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _586: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _587: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _588: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _589: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _590: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _591: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _592: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _593: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _590: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _591: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _592: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _593: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _594: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _595: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _596: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _597: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _598: core::ffi::c_float = 0.;
-    let mut _599: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _600: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _599: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _600: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _601: uint32_t = 0;
     let mut _602: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _603: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _604: bool_0 = 0;
-    let mut _605: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _606: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _605: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _606: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _607: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _608: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _609: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _610: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _611: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _612: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _609: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _610: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _611: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _612: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _613: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _614: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _615: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -2783,23 +2783,23 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _618: core::ffi::c_float = 0.;
     let mut _619: core::ffi::c_float = 0.;
     let mut _620: core::ffi::c_float = 0.;
-    let mut _621: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _622: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _621: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _622: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _623: uint32_t = 0;
-    let mut _624: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _625: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _624: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _625: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _626: uint32_t = 0;
     let mut _627: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _628: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _629: bool_0 = 0;
-    let mut _630: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _631: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _630: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _631: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _632: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _633: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _634: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _635: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _636: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _637: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _634: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _635: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _636: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _637: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _638: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _639: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _640: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -2808,21 +2808,21 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _643: core::ffi::c_float = 0.;
     let mut _644: core::ffi::c_float = 0.;
     let mut _645: core::ffi::c_float = 0.;
-    let mut _646: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _647: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _648: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _649: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _646: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _647: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _648: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _649: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _650: uint32_t = 0;
     let mut _651: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _652: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _653: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _654: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _653: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _654: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _655: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _656: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _657: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _658: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _659: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _660: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _657: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _658: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _659: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _660: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _661: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _662: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _663: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -2830,96 +2830,96 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
     let mut _665: core::ffi::c_float = 0.;
     let mut _666: core::ffi::c_float = 0.;
     let mut _667: core::ffi::c_float = 0.;
-    let mut _668: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _669: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _670: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _668: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _669: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _670: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _671: uint32_t = 0;
-    let mut _672: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _673: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _672: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _673: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _674: uint32_t = 0;
-    let mut _675: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _676: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _675: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _676: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _677: uint32_t = 0;
-    let mut _678: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _679: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _678: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _679: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _680: uint32_t = 0;
-    let mut _681: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _682: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _681: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _682: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _683: uint32_t = 0;
-    let mut _684: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _685: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _684: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _685: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _686: uint32_t = 0;
-    let mut _687: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _688: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _687: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _688: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _689: uint32_t = 0;
-    let mut _690: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _691: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _690: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _691: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _692: uint32_t = 0;
-    let mut _693: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _694: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _695: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _693: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _694: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _695: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _696: uint32_t = 0;
     let mut _697: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _698: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _699: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _698: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _699: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _700: uint32_t = 0;
     let mut _701: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _702: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _703: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _704: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _702: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _703: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _704: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _705: uint32_t = 0;
     let mut _706: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _707: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _708: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _709: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _710: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _711: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _708: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _709: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _710: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _711: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _712: uint32_t = 0;
     let mut _713: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _714: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _715: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _716: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _717: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _718: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _716: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _717: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _718: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _719: uint32_t = 0;
     let mut _720: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _721: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _722: bool_0 = 0;
-    let mut _723: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _724: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _725: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _723: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _724: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _725: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _726: uint32_t = 0;
     let mut _727: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _728: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _729: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _730: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _731: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _729: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _730: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _731: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _732: uint32_t = 0;
     let mut _733: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _734: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _735: uint32_t = 0;
-    let mut _736: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _737: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _738: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _736: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _737: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _738: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _739: uint32_t = 0;
     let mut _740: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _741: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _742: bool_0 = 0;
-    let mut _743: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _744: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _745: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _743: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _744: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _745: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _746: uint32_t = 0;
     let mut _747: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _748: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _749: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _750: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _751: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _749: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _750: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _751: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _752: uint32_t = 0;
     let mut _753: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _754: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _755: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _756: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _757: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _755: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _756: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _757: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _758: uint32_t = 0;
     let mut _759: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _760: l_array_4_float = l_array_4_float { array: [0.; 4] };
@@ -2948,8 +2948,8 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         );
         _256 = *(&mut _132.field0 as *mut l_array_4_float);
         *(&mut _113 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _256;
-        _114 = 0 as core::ffi::c_int as libc::c_float;
-        _115 = 65535 as core::ffi::c_int as libc::c_float;
+        _114 = 0 as core::ffi::c_int as core::ffi::c_float;
+        _115 = 65535 as core::ffi::c_int as core::ffi::c_float;
         _257 = memcpy(
             &mut _117 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _113 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -2973,22 +2973,25 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _264 = _59;
         *(&mut *((*(_262 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _264;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _264;
         _265 = _59;
         *(&mut *((*(_262 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _265;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _265;
         _266 = _59;
         *(&mut *((*(_262 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _266;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _266;
         _267 = *(&mut _76 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _268 = *(&mut _77 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _30 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _267;
         *(&mut _31 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _268;
         _269 = *(&mut _30 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _270 = *(&mut _31 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        if llvm_fcmp_ogt(_269 as core::ffi::c_double, _270 as libc::c_double) != 0 {
+        if llvm_fcmp_ogt(_269 as core::ffi::c_double, _270 as core::ffi::c_double) != 0 {
             _271 = *(&mut _30 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
             _273__PHI_TEMPORARY = _271;
         } else {
@@ -3000,19 +3003,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _275 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_274 as core::ffi::c_double, _275 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_274 as core::ffi::c_double, _275 as core::ffi::c_double) != 0 {
             _276 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _278__PHI_TEMPORARY = _276;
         } else {
             _277 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
@@ -3020,7 +3023,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _278__PHI_TEMPORARY = _277;
         }
         _278 = _278__PHI_TEMPORARY;
@@ -3028,19 +3031,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _280 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_279 as core::ffi::c_double, _280 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_279 as core::ffi::c_double, _280 as core::ffi::c_double) != 0 {
             _281 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _283__PHI_TEMPORARY = _281;
         } else {
             _282 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
@@ -3048,7 +3051,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _283__PHI_TEMPORARY = _282;
         }
         _283 = _283__PHI_TEMPORARY;
@@ -3056,19 +3059,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _285 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_284 as core::ffi::c_double, _285 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_284 as core::ffi::c_double, _285 as core::ffi::c_double) != 0 {
             _286 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _288__PHI_TEMPORARY = _286;
         } else {
             _287 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
@@ -3076,7 +3079,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _288__PHI_TEMPORARY = _287;
         }
         _288 = _288__PHI_TEMPORARY;
@@ -3091,15 +3094,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _291 = _26;
         *(&mut *((*(_289 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _291;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _291;
         _292 = _27;
         *(&mut *((*(_289 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _292;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _292;
         _293 = _28;
         *(&mut *((*(_289 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _293;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _293;
         _294 = _29;
         *(&mut _73 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _294.field0;
         _295 = _73;
@@ -3122,22 +3128,25 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _302 = _55;
         *(&mut *((*(_300 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _302;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _302;
         _303 = _55;
         *(&mut *((*(_300 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _303;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _303;
         _304 = _55;
         *(&mut *((*(_300 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _304;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _304;
         _305 = *(&mut _86 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _306 = *(&mut _87 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _63 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _305;
         *(&mut _64 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _306;
         _307 = *(&mut _63 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _308 = *(&mut _64 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        if llvm_fcmp_olt(_307 as core::ffi::c_double, _308 as libc::c_double) != 0 {
+        if llvm_fcmp_olt(_307 as core::ffi::c_double, _308 as core::ffi::c_double) != 0 {
             _309 = *(&mut _63 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
             _311__PHI_TEMPORARY = _309;
         } else {
@@ -3149,19 +3158,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _313 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_olt(_312 as core::ffi::c_double, _313 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_olt(_312 as core::ffi::c_double, _313 as core::ffi::c_double) != 0 {
             _314 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _316__PHI_TEMPORARY = _314;
         } else {
             _315 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
@@ -3169,7 +3178,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _316__PHI_TEMPORARY = _315;
         }
         _316 = _316__PHI_TEMPORARY;
@@ -3177,19 +3186,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _318 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_olt(_317 as core::ffi::c_double, _318 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_olt(_317 as core::ffi::c_double, _318 as core::ffi::c_double) != 0 {
             _319 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _321__PHI_TEMPORARY = _319;
         } else {
             _320 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
@@ -3197,7 +3206,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _321__PHI_TEMPORARY = _320;
         }
         _321 = _321__PHI_TEMPORARY;
@@ -3205,19 +3214,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _323 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_olt(_322 as core::ffi::c_double, _323 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_olt(_322 as core::ffi::c_double, _323 as core::ffi::c_double) != 0 {
             _324 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _326__PHI_TEMPORARY = _324;
         } else {
             _325 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
@@ -3225,7 +3234,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _326__PHI_TEMPORARY = _325;
         }
         _326 = _326__PHI_TEMPORARY;
@@ -3240,15 +3249,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _329 = _47;
         *(&mut *((*(_327 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _329;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _329;
         _330 = _48;
         *(&mut *((*(_327 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _330;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _330;
         _331 = _49;
         *(&mut *((*(_327 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _331;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _331;
         _332 = _62;
         *(&mut _83 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _332.field0;
         _333 = _83;
@@ -3267,8 +3279,8 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         );
         _337 = *(&mut _134.field0 as *mut l_array_4_float);
         *(&mut _119 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _337;
-        _120 = 0 as core::ffi::c_int as libc::c_float;
-        _121 = 65535 as core::ffi::c_int as libc::c_float;
+        _120 = 0 as core::ffi::c_int as core::ffi::c_float;
+        _121 = 65535 as core::ffi::c_int as core::ffi::c_float;
         _338 = memcpy(
             &mut _123 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             &mut _119 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -3292,22 +3304,25 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _345 = _61;
         *(&mut *((*(_343 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _345;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _345;
         _346 = _61;
         *(&mut *((*(_343 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _346;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _346;
         _347 = _61;
         *(&mut *((*(_343 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _347;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _347;
         _348 = *(&mut _71 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _349 = *(&mut _72 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _38 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _348;
         *(&mut _39 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _349;
         _350 = *(&mut _38 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _351 = *(&mut _39 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        if llvm_fcmp_ogt(_350 as core::ffi::c_double, _351 as libc::c_double) != 0 {
+        if llvm_fcmp_ogt(_350 as core::ffi::c_double, _351 as core::ffi::c_double) != 0 {
             _352 = *(&mut _38 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
             _354__PHI_TEMPORARY = _352;
         } else {
@@ -3319,19 +3334,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _356 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_355 as core::ffi::c_double, _356 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_355 as core::ffi::c_double, _356 as core::ffi::c_double) != 0 {
             _357 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _359__PHI_TEMPORARY = _357;
         } else {
             _358 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
@@ -3339,7 +3354,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _359__PHI_TEMPORARY = _358;
         }
         _359 = _359__PHI_TEMPORARY;
@@ -3347,19 +3362,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _361 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_360 as core::ffi::c_double, _361 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_360 as core::ffi::c_double, _361 as core::ffi::c_double) != 0 {
             _362 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _364__PHI_TEMPORARY = _362;
         } else {
             _363 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
@@ -3367,7 +3382,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _364__PHI_TEMPORARY = _363;
         }
         _364 = _364__PHI_TEMPORARY;
@@ -3375,19 +3390,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _366 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_365 as core::ffi::c_double, _366 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_365 as core::ffi::c_double, _366 as core::ffi::c_double) != 0 {
             _367 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _369__PHI_TEMPORARY = _367;
         } else {
             _368 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
@@ -3395,7 +3410,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _369__PHI_TEMPORARY = _368;
         }
         _369 = _369__PHI_TEMPORARY;
@@ -3410,15 +3425,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _372 = _34;
         *(&mut *((*(_370 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _372;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _372;
         _373 = _35;
         *(&mut *((*(_370 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _373;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _373;
         _374 = _36;
         *(&mut *((*(_370 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _374;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _374;
         _375 = _37;
         *(&mut _68 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _375.field0;
         _376 = _68;
@@ -3441,22 +3459,25 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _383 = _57;
         *(&mut *((*(_381 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _383;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _383;
         _384 = _57;
         *(&mut *((*(_381 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _384;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _384;
         _385 = _57;
         *(&mut *((*(_381 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _385;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _385;
         _386 = *(&mut _81 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _387 = *(&mut _82 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _66 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _386;
         *(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _387;
         _388 = *(&mut _66 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _389 = *(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        if llvm_fcmp_olt(_388 as core::ffi::c_double, _389 as libc::c_double) != 0 {
+        if llvm_fcmp_olt(_388 as core::ffi::c_double, _389 as core::ffi::c_double) != 0 {
             _390 = *(&mut _66 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
             _392__PHI_TEMPORARY = _390;
         } else {
@@ -3468,19 +3489,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _394 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_olt(_393 as core::ffi::c_double, _394 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_olt(_393 as core::ffi::c_double, _394 as core::ffi::c_double) != 0 {
             _395 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _397__PHI_TEMPORARY = _395;
         } else {
             _396 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
@@ -3488,7 +3509,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _397__PHI_TEMPORARY = _396;
         }
         _397 = _397__PHI_TEMPORARY;
@@ -3496,19 +3517,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _399 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_olt(_398 as core::ffi::c_double, _399 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_olt(_398 as core::ffi::c_double, _399 as core::ffi::c_double) != 0 {
             _400 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _402__PHI_TEMPORARY = _400;
         } else {
             _401 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
@@ -3516,7 +3537,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _402__PHI_TEMPORARY = _401;
         }
         _402 = _402__PHI_TEMPORARY;
@@ -3524,19 +3545,19 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _404 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_olt(_403 as core::ffi::c_double, _404 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_olt(_403 as core::ffi::c_double, _404 as core::ffi::c_double) != 0 {
             _405 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
                 as *mut l_array_4_float))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _407__PHI_TEMPORARY = _405;
         } else {
             _406 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
@@ -3544,7 +3565,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _407__PHI_TEMPORARY = _406;
         }
         _407 = _407__PHI_TEMPORARY;
@@ -3559,15 +3580,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _410 = _42;
         *(&mut *((*(_408 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _410;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _410;
         _411 = _43;
         *(&mut *((*(_408 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _411;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _411;
         _412 = _44;
         *(&mut *((*(_408 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _412;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _412;
         _413 = _65;
         *(&mut _78 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _413.field0;
         _414 = _78;
@@ -3601,15 +3625,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _423 = _53;
         *(&mut *((*(_421 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _423;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _423;
         _424 = _53;
         *(&mut *((*(_421 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _424;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _424;
         _425 = _53;
         *(&mut *((*(_421 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _425;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _425;
         _426 = *(&mut _105 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _427 = *(&mut _106 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _22 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _426;
@@ -3620,32 +3647,32 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _431 = *(&mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _432 = *(&mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _433 = *(&mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _434 = *(&mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _435 = *(&mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _16 = &mut _21 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _17 = llvm_fmul_f32(_428, _429);
         _18 = llvm_fmul_f32(_430, _431);
@@ -3657,15 +3684,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _438 = _18;
         *(&mut *((*(_436 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _438;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _438;
         _439 = _19;
         *(&mut *((*(_436 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _439;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _439;
         _440 = _20;
         *(&mut *((*(_436 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _440;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _440;
         _441 = _21;
         *(&mut _102 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _441.field0;
         _442 = _102;
@@ -3692,15 +3722,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _449 = _51;
         *(&mut *((*(_447 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _449;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _449;
         _450 = _51;
         *(&mut *((*(_447 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _450;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _450;
         _451 = _51;
         *(&mut *((*(_447 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _451;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _451;
         _452 = *(&mut _110 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _453 = *(&mut _111 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _14 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _452;
@@ -3711,32 +3744,32 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _457 = *(&mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _458 = *(&mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _459 = *(&mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _460 = *(&mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _461 = *(&mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _8 = &mut _13 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _9 = llvm_fmul_f32(_454, _455);
         _10 = llvm_fmul_f32(_456, _457);
@@ -3748,15 +3781,18 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _464 = _10;
         *(&mut *((*(_462 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _464;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _464;
         _465 = _11;
         *(&mut *((*(_462 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _465;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _465;
         _466 = _12;
         *(&mut *((*(_462 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _466;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _466;
         _467 = _13;
         *(&mut _107 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _467.field0;
         _468 = _107;
@@ -3921,7 +3957,9 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                         _161 = _508;
                         _509 = _161;
                         _510 = _140;
-                        if llvm_fcmp_olt(_509 as core::ffi::c_double, _510 as libc::c_double) != 0 {
+                        if llvm_fcmp_olt(_509 as core::ffi::c_double, _510 as core::ffi::c_double)
+                            != 0
+                        {
                             _139 = 9 as core::ffi::c_int as uint8_t;
                             _511 = _161;
                             _140 = _511;
@@ -4020,7 +4058,9 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                         _172 = _533;
                         _534 = _172;
                         _535 = _140;
-                        if llvm_fcmp_olt(_534 as core::ffi::c_double, _535 as libc::c_double) != 0 {
+                        if llvm_fcmp_olt(_534 as core::ffi::c_double, _535 as core::ffi::c_double)
+                            != 0
+                        {
                             _139 = 8 as core::ffi::c_int as uint8_t;
                             _536 = _172;
                             _140 = _536;
@@ -4111,7 +4151,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 _183 = _556;
                 _557 = _183;
                 _558 = _140;
-                if llvm_fcmp_olt(_557 as core::ffi::c_double, _558 as libc::c_double) != 0 {
+                if llvm_fcmp_olt(_557 as core::ffi::c_double, _558 as core::ffi::c_double) != 0 {
                     _139 = 8 as core::ffi::c_int as uint8_t;
                     _559 = memcpy(
                         &mut _141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
@@ -4327,7 +4367,9 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                         _204 = _617;
                         _618 = _204;
                         _619 = _140;
-                        if llvm_fcmp_olt(_618 as core::ffi::c_double, _619 as libc::c_double) != 0 {
+                        if llvm_fcmp_olt(_618 as core::ffi::c_double, _619 as core::ffi::c_double)
+                            != 0
+                        {
                             _139 = 13 as core::ffi::c_int as uint8_t;
                             _620 = _204;
                             _140 = _620;
@@ -4426,7 +4468,9 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                         _215 = _642;
                         _643 = _215;
                         _644 = _140;
-                        if llvm_fcmp_olt(_643 as core::ffi::c_double, _644 as libc::c_double) != 0 {
+                        if llvm_fcmp_olt(_643 as core::ffi::c_double, _644 as core::ffi::c_double)
+                            != 0
+                        {
                             _139 = 12 as core::ffi::c_int as uint8_t;
                             _645 = _215;
                             _140 = _645;
@@ -4517,7 +4561,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 _226 = _665;
                 _666 = _226;
                 _667 = _140;
-                if llvm_fcmp_olt(_666 as core::ffi::c_double, _667 as libc::c_double) != 0 {
+                if llvm_fcmp_olt(_666 as core::ffi::c_double, _667 as core::ffi::c_double) != 0 {
                     _139 = 12 as core::ffi::c_int as uint8_t;
                     _668 = memcpy(
                         &mut _141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
@@ -4832,12 +4876,12 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     mut _868: *mut core::ffi::c_void,
     mut _869: uint32_t,
 ) -> bool_0 {
-    let mut _870: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _870: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _871: uint32_t = 0;
     let mut _872: uint32_t = 0;
     let mut _873: uint32_t = 0;
     let mut _874: uint32_t = 0;
-    let mut _875: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _875: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _876: uint32_t = 0;
     let mut _877: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -4861,7 +4905,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _884: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _885: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _885: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _886: uint32_t = 0;
     let mut _887: uint32_t = 0;
     let mut _888: uint32_t = 0;
@@ -4878,7 +4922,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _893: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _894: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _894: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _895: uint32_t = 0;
     let mut _896: uint32_t = 0;
     let mut _897: uint32_t = 0;
@@ -4892,7 +4936,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _901: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _902: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _902: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _903: uint32_t = 0;
     let mut _904: uint32_t = 0;
     let mut _905: uint32_t = 0;
@@ -4906,7 +4950,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _909: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _910: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _910: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _911: uint32_t = 0;
     let mut _912: uint32_t = 0;
     let mut _913: uint32_t = 0;
@@ -4920,7 +4964,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _917: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _918: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _918: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _919: uint32_t = 0;
     let mut _920: uint32_t = 0;
     let mut _921: uint32_t = 0;
@@ -4934,7 +4978,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _925: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _926: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _926: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _927: uint32_t = 0;
     let mut _928: uint32_t = 0;
     let mut _929: uint32_t = 0;
@@ -4948,7 +4992,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _933: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _934: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _934: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _935: uint32_t = 0;
     let mut _936: uint32_t = 0;
     let mut _937: uint32_t = 0;
@@ -4962,7 +5006,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _941: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _942: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _942: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _943: uint32_t = 0;
     let mut _944: uint32_t = 0;
     let mut _945: uint32_t = 0;
@@ -4976,7 +5020,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _949: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _950: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _950: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _951: uint32_t = 0;
     let mut _952: uint32_t = 0;
     let mut _953: uint32_t = 0;
@@ -4990,67 +5034,67 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _957: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _958: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _958: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _959: uint32_t = 0;
     let mut _960: uint32_t = 0;
     let mut _961: uint32_t = 0;
     let mut _962: uint32_t = 0;
-    let mut _963: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _963: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _964: uint32_t = 0;
     let mut _965: uint32_t = 0;
     let mut _966: uint32_t = 0;
     let mut _967: uint32_t = 0;
-    let mut _968: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _968: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _969: uint32_t = 0;
     let mut _970: uint32_t = 0;
     let mut _971: uint32_t = 0;
     let mut _972: uint32_t = 0;
-    let mut _973: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _973: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _974: uint32_t = 0;
     let mut _975: uint32_t = 0;
     let mut _976: uint32_t = 0;
     let mut _977: uint32_t = 0;
-    let mut _978: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _978: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _979: uint32_t = 0;
     let mut _980: uint32_t = 0;
     let mut _981: uint32_t = 0;
     let mut _982: uint32_t = 0;
-    let mut _983: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _983: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _984: uint32_t = 0;
     let mut _985: uint32_t = 0;
     let mut _986: uint32_t = 0;
     let mut _987: uint32_t = 0;
-    let mut _988: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _988: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _989: uint32_t = 0;
     let mut _990: uint32_t = 0;
     let mut _991: uint32_t = 0;
     let mut _992: uint32_t = 0;
-    let mut _993: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _993: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _994: uint32_t = 0;
     let mut _995: uint32_t = 0;
     let mut _996: uint32_t = 0;
     let mut _997: uint32_t = 0;
-    let mut _998: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _998: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _999: uint32_t = 0;
     let mut _1000: uint32_t = 0;
     let mut _1001: uint32_t = 0;
     let mut _1002: uint32_t = 0;
-    let mut _1003: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1003: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1004: uint32_t = 0;
     let mut _1005: uint32_t = 0;
     let mut _1006: uint32_t = 0;
     let mut _1007: uint32_t = 0;
-    let mut _1008: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1008: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1009: uint32_t = 0;
     let mut _1010: uint32_t = 0;
     let mut _1011: uint32_t = 0;
     let mut _1012: uint32_t = 0;
-    let mut _1013: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1013: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1014: uint32_t = 0;
     let mut _1015: uint32_t = 0;
     let mut _1016: uint32_t = 0;
     let mut _1017: uint32_t = 0;
-    let mut _1018: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1018: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1019: uint32_t = 0;
     let mut _1020: uint32_t = 0;
     let mut _1021: uint32_t = 0;
@@ -5067,90 +5111,90 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1026: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1027: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1027: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1028: uint8_t = 0;
     let mut _1029: uint8_t = 0;
     let mut _1030: uint8_t = 0;
     let mut _1031: uint8_t = 0;
-    let mut _1032: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1032: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1033: uint8_t = 0;
     let mut _1034: uint8_t = 0;
     let mut _1035: uint8_t = 0;
     let mut _1036: uint8_t = 0;
-    let mut _1037: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1037: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1038: uint8_t = 0;
     let mut _1039: uint8_t = 0;
     let mut _1040: uint8_t = 0;
     let mut _1041: uint8_t = 0;
-    let mut _1042: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1042: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1043: uint8_t = 0;
     let mut _1044: uint8_t = 0;
     let mut _1045: uint8_t = 0;
     let mut _1046: uint8_t = 0;
-    let mut _1047: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1047: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1048: uint8_t = 0;
     let mut _1049: uint8_t = 0;
     let mut _1050: uint8_t = 0;
     let mut _1051: uint8_t = 0;
-    let mut _1052: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1052: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1053: uint8_t = 0;
     let mut _1054: uint8_t = 0;
     let mut _1055: uint8_t = 0;
     let mut _1056: uint8_t = 0;
-    let mut _1057: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1057: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1058: uint8_t = 0;
     let mut _1059: uint8_t = 0;
     let mut _1060: uint8_t = 0;
     let mut _1061: uint8_t = 0;
-    let mut _1062: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1062: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1063: uint8_t = 0;
     let mut _1064: uint8_t = 0;
     let mut _1065: uint8_t = 0;
     let mut _1066: uint8_t = 0;
-    let mut _1067: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1067: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1068: uint8_t = 0;
     let mut _1069: uint8_t = 0;
     let mut _1070: uint8_t = 0;
     let mut _1071: uint8_t = 0;
-    let mut _1072: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1072: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1073: uint8_t = 0;
     let mut _1074: uint8_t = 0;
     let mut _1075: uint8_t = 0;
     let mut _1076: uint8_t = 0;
-    let mut _1077: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1077: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1078: uint8_t = 0;
     let mut _1079: uint8_t = 0;
     let mut _1080: uint8_t = 0;
     let mut _1081: uint8_t = 0;
-    let mut _1082: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1082: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1083: uint8_t = 0;
     let mut _1084: uint8_t = 0;
     let mut _1085: uint8_t = 0;
     let mut _1086: uint8_t = 0;
-    let mut _1087: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1087: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1088: uint8_t = 0;
     let mut _1089: uint8_t = 0;
     let mut _1090: uint8_t = 0;
     let mut _1091: uint8_t = 0;
-    let mut _1092: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1092: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1093: uint8_t = 0;
     let mut _1094: uint8_t = 0;
     let mut _1095: uint8_t = 0;
     let mut _1096: uint8_t = 0;
-    let mut _1097: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1097: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1098: uint8_t = 0;
     let mut _1099: uint8_t = 0;
     let mut _1100: uint8_t = 0;
     let mut _1101: uint8_t = 0;
-    let mut _1102: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1103: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1104: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1105: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1106: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1107: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1108: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1109: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1110: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1102: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1103: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1104: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1105: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1106: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1107: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1108: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1109: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1110: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1111: core::ffi::c_float = 0.;
     let mut _1112: core::ffi::c_float = 0.;
     let mut _1113: core::ffi::c_float = 0.;
@@ -5164,7 +5208,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1117: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1118: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1118: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1119: core::ffi::c_float = 0.;
     let mut _1120: core::ffi::c_float = 0.;
     let mut _1121: core::ffi::c_float = 0.;
@@ -5178,7 +5222,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1125: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1126: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1126: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1127: core::ffi::c_float = 0.;
     let mut _1128: core::ffi::c_float = 0.;
     let mut _1129: core::ffi::c_float = 0.;
@@ -5192,7 +5236,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1133: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1134: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1134: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1135: core::ffi::c_float = 0.;
     let mut _1136: core::ffi::c_float = 0.;
     let mut _1137: core::ffi::c_float = 0.;
@@ -5215,13 +5259,13 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1144: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1145: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1146: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1147: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1145: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1146: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1147: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1148: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1149: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1149: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1150: uint32_t = 0;
     let mut _1151: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -5255,11 +5299,11 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1164: uint32_t = 0;
     let mut _1165: uint32_t = 0;
     let mut _1166: uint32_t = 0;
-    let mut _1167: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1167: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1168: uint32_t = 0;
-    let mut _1169: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1169: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1170: uint32_t = 0;
-    let mut _1171: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1171: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1172: uint32_t = 0;
     let mut _1173: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -5309,8 +5353,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1190: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1191: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1192: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1191: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1192: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1193: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
@@ -5362,7 +5406,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1209: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1210: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1210: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1211: uint32_t = 0;
     let mut _1212: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -5413,23 +5457,23 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1230: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1231: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1231: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1232: uint32_t = 0;
-    let mut _1233: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1233: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1234: uint32_t = 0;
-    let mut _1235: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1235: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1236: uint32_t = 0;
-    let mut _1237: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1237: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1238: uint32_t = 0;
-    let mut _1239: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1239: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1240: uint32_t = 0;
-    let mut _1241: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1241: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1242: uint32_t = 0;
-    let mut _1243: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1243: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1244: uint32_t = 0;
-    let mut _1245: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1245: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1246: uint32_t = 0;
-    let mut _1247: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1247: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1248: uint32_t = 0;
     let mut _1249: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -5449,9 +5493,9 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1254: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1255: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1255: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1256: uint32_t = 0;
-    let mut _1257: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1257: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1258: uint32_t = 0;
     let mut _1259: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -5565,9 +5609,9 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1302: uint32_t = 0;
     let mut _1303: uint32_t = 0;
     let mut _1304: uint32_t = 0;
-    let mut _1305: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1305: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1306: core::ffi::c_float = 0.;
-    let mut _1307: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1307: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1308: core::ffi::c_float = 0.;
     let mut _1309: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -5584,7 +5628,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1313: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1314: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1314: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1315: core::ffi::c_float = 0.;
     let mut _1316: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -5706,7 +5750,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1355: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1356: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1356: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1357: core::ffi::c_float = 0.;
     let mut _1358: core::ffi::c_float = 0.;
     let mut _1359: core::ffi::c_float = 0.;
@@ -5714,8 +5758,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1361: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1362: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1363: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1362: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1363: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1364: core::ffi::c_float = 0.;
     let mut _1365: core::ffi::c_float = 0.;
     let mut _1366: core::ffi::c_float = 0.;
@@ -5723,8 +5767,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1368: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1369: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1370: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1369: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1370: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1371: core::ffi::c_float = 0.;
     let mut _1372: core::ffi::c_float = 0.;
     let mut _1373: core::ffi::c_float = 0.;
@@ -5738,7 +5782,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1377: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1378: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1378: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1379: core::ffi::c_float = 0.;
     let mut _1380: core::ffi::c_float = 0.;
     let mut _1381: core::ffi::c_float = 0.;
@@ -5752,8 +5796,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1385: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1386: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1387: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1386: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1387: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1388: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -5763,8 +5807,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1390: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1391: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1392: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1391: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1392: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1393: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -5774,13 +5818,13 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1395: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1396: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1396: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1397: core::ffi::c_float = 0.;
-    let mut _1398: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1398: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1399: core::ffi::c_float = 0.;
-    let mut _1400: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1400: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1401: core::ffi::c_float = 0.;
-    let mut _1402: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1402: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1403: core::ffi::c_float = 0.;
     let mut _1404: bool_0 = 0;
     let mut _1405: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -5789,8 +5833,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1406: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1407: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1408: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1407: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1408: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1409: uint32_t = 0;
     let mut _1410: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -6026,17 +6070,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1487: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1488: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1489: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1490: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1488: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1489: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1490: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1491: core::ffi::c_float = 0.;
-    let mut _1492: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1492: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1493: core::ffi::c_float = 0.;
-    let mut _1494: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1494: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1495: core::ffi::c_float = 0.;
-    let mut _1496: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1496: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1497: core::ffi::c_float = 0.;
-    let mut _1498: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1498: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1499: core::ffi::c_float = 0.;
     let mut _1500: core::ffi::c_float = 0.;
     let mut _1501: core::ffi::c_float = 0.;
@@ -6054,7 +6098,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1511: core::ffi::c_float = 0.;
     let mut _1512: core::ffi::c_float = 0.;
     let mut _1513: core::ffi::c_float = 0.;
-    let mut _1514: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1514: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1515: core::ffi::c_float = 0.;
     let mut _1516: core::ffi::c_float = 0.;
     let mut _1517: core::ffi::c_float = 0.;
@@ -6062,10 +6106,10 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1519: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1520: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1521: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1522: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1523: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1520: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1521: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1522: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1523: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1524: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1525: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1526: core::ffi::c_float = 0.;
@@ -6076,7 +6120,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1531: core::ffi::c_float = 0.;
     let mut _1532: core::ffi::c_float = 0.;
     let mut _1533: core::ffi::c_float = 0.;
-    let mut _1534: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1534: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1535: core::ffi::c_float = 0.;
     let mut _1536: core::ffi::c_float = 0.;
     let mut _1537: core::ffi::c_float = 0.;
@@ -6084,20 +6128,20 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1539: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1540: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1541: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1542: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1543: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1544: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1545: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1540: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1541: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1542: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1543: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1544: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1545: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1546: core::ffi::c_float = 0.;
-    let mut _1547: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1547: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1548: core::ffi::c_float = 0.;
-    let mut _1549: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1549: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1550: core::ffi::c_float = 0.;
-    let mut _1551: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1551: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1552: core::ffi::c_float = 0.;
-    let mut _1553: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1553: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1554: core::ffi::c_float = 0.;
     let mut _1555: core::ffi::c_float = 0.;
     let mut _1556: core::ffi::c_float = 0.;
@@ -6115,7 +6159,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1566: core::ffi::c_float = 0.;
     let mut _1567: core::ffi::c_float = 0.;
     let mut _1568: core::ffi::c_float = 0.;
-    let mut _1569: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1569: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1570: core::ffi::c_float = 0.;
     let mut _1571: core::ffi::c_float = 0.;
     let mut _1572: core::ffi::c_float = 0.;
@@ -6123,10 +6167,10 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1574: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1575: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1576: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1577: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1578: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1575: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1576: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1577: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1578: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1579: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1580: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1581: core::ffi::c_float = 0.;
@@ -6137,7 +6181,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1586: core::ffi::c_float = 0.;
     let mut _1587: core::ffi::c_float = 0.;
     let mut _1588: core::ffi::c_float = 0.;
-    let mut _1589: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1589: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1590: core::ffi::c_float = 0.;
     let mut _1591: core::ffi::c_float = 0.;
     let mut _1592: core::ffi::c_float = 0.;
@@ -6145,11 +6189,11 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1594: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1595: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1596: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1597: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1598: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1599: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1595: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1596: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1597: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1598: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1599: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1600: core::ffi::c_float = 0.;
     let mut _1601: core::ffi::c_float = 0.;
     let mut _1602: core::ffi::c_float = 0.;
@@ -6164,7 +6208,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1611: core::ffi::c_float = 0.;
     let mut _1612: core::ffi::c_float = 0.;
     let mut _1613: core::ffi::c_float = 0.;
-    let mut _1614: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1614: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1615: uint8_t = 0;
     let mut _1616: uint64_t = 0;
     let mut _1617: uint8_t = 0;
@@ -6174,8 +6218,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1621: uint8_t = 0;
     let mut _1622: uint64_t = 0;
     let mut _1623: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1624: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1625: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1624: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1625: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1626: core::ffi::c_float = 0.;
     let mut _1627: core::ffi::c_float = 0.;
     let mut _1628: core::ffi::c_float = 0.;
@@ -6190,7 +6234,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1637: core::ffi::c_float = 0.;
     let mut _1638: core::ffi::c_float = 0.;
     let mut _1639: core::ffi::c_float = 0.;
-    let mut _1640: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1640: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1641: uint8_t = 0;
     let mut _1642: uint64_t = 0;
     let mut _1643: uint8_t = 0;
@@ -6210,7 +6254,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1657: uint32_t = 0;
     let mut _1658: uint32_t = 0;
     let mut _1659: uint32_t = 0;
-    let mut _1660: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1660: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1661: uint8_t = 0;
     let mut _1662: uint64_t = 0;
     let mut _1663: uint8_t = 0;
@@ -6220,8 +6264,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1667: uint8_t = 0;
     let mut _1668: uint64_t = 0;
     let mut _1669: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1670: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1671: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1670: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1671: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1672: core::ffi::c_float = 0.;
     let mut _1673: core::ffi::c_float = 0.;
     let mut _1674: core::ffi::c_float = 0.;
@@ -6236,7 +6280,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1683: core::ffi::c_float = 0.;
     let mut _1684: core::ffi::c_float = 0.;
     let mut _1685: core::ffi::c_float = 0.;
-    let mut _1686: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1686: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1687: uint8_t = 0;
     let mut _1688: uint64_t = 0;
     let mut _1689: uint8_t = 0;
@@ -6246,8 +6290,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1693: uint8_t = 0;
     let mut _1694: uint64_t = 0;
     let mut _1695: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1696: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1697: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1696: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1697: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1698: core::ffi::c_float = 0.;
     let mut _1699: core::ffi::c_float = 0.;
     let mut _1700: core::ffi::c_float = 0.;
@@ -6262,7 +6306,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1709: core::ffi::c_float = 0.;
     let mut _1710: core::ffi::c_float = 0.;
     let mut _1711: core::ffi::c_float = 0.;
-    let mut _1712: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1712: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1713: uint8_t = 0;
     let mut _1714: uint64_t = 0;
     let mut _1715: uint8_t = 0;
@@ -6282,7 +6326,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1729: uint32_t = 0;
     let mut _1730: uint32_t = 0;
     let mut _1731: uint32_t = 0;
-    let mut _1732: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1732: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1733: uint8_t = 0;
     let mut _1734: uint64_t = 0;
     let mut _1735: uint8_t = 0;
@@ -6292,8 +6336,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1739: uint8_t = 0;
     let mut _1740: uint64_t = 0;
     let mut _1741: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1742: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1743: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1742: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1743: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1744: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1745: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1746: uint32_t = 0;
@@ -6304,7 +6348,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1751: uint32_t = 0;
     let mut _1752: uint32_t = 0;
     let mut _1753: uint32_t = 0;
-    let mut _1754: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1754: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1755: uint8_t = 0;
     let mut _1756: uint64_t = 0;
     let mut _1757: uint8_t = 0;
@@ -6315,16 +6359,16 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1762: uint64_t = 0;
     let mut _1763: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1764: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1765: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1765: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1766: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1767: uint32_t = 0;
     let mut _1768: uint32_t = 0;
     let mut _1769: uint32_t = 0;
     let mut _1770: uint32_t = 0;
-    let mut _1771: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1771: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1772: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1773: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1774: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1773: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1774: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1775: core::ffi::c_float = 0.;
     let mut _1776: core::ffi::c_float = 0.;
     let mut _1777: core::ffi::c_float = 0.;
@@ -6339,7 +6383,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1786: core::ffi::c_float = 0.;
     let mut _1787: core::ffi::c_float = 0.;
     let mut _1788: core::ffi::c_float = 0.;
-    let mut _1789: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1789: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1790: core::ffi::c_float = 0.;
     let mut _1791: core::ffi::c_float = 0.;
     let mut _1792: core::ffi::c_float = 0.;
@@ -6347,20 +6391,20 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1794: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1795: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1795: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1796: core::ffi::c_float = 0.;
     let mut _1797: core::ffi::c_float = 0.;
     let mut _1798: core::ffi::c_float = 0.;
     let mut _1799: core::ffi::c_float = 0.;
-    let mut _1800: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1800: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1801: uint32_t = 0;
     let mut _1802: uint32_t = 0;
     let mut _1803: uint32_t = 0;
     let mut _1804: uint32_t = 0;
     let mut _1805: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1806: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1806: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1807: core::ffi::c_float = 0.;
-    let mut _1808: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1808: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1809: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1810: uint32_t = 0;
     let mut _1811: uint32_t = 0;
@@ -6370,18 +6414,18 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1815: uint32_t = 0;
     let mut _1816: uint32_t = 0;
     let mut _1817: uint32_t = 0;
-    let mut _1818: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1818: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1819: uint32_t = 0;
     let mut _1820: uint32_t = 0;
     let mut _1821: uint32_t = 0;
     let mut _1822: uint32_t = 0;
     let mut _1823: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1824: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1825: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1824: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1825: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1826: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1827: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1827: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1828: uint32_t = 0;
-    let mut _1829: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1829: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1830: uint32_t = 0;
     let mut _1831: uint32_t = 0;
     let mut _1832: uint32_t = 0;
@@ -6396,7 +6440,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1841: uint32_t = 0;
     let mut _1842: uint32_t = 0;
     let mut _1843: uint32_t = 0;
-    let mut _1844: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1844: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1845: uint32_t = 0;
     let mut _1846: uint32_t = 0;
     let mut _1847: uint32_t = 0;
@@ -6404,15 +6448,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1849: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1850: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1851: uint32_t = 0;
-    let mut _1852: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1852: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1853: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1854: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1855: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1856: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1855: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1856: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1857: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1858: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1858: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1859: uint32_t = 0;
-    let mut _1860: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1860: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1861: uint32_t = 0;
     let mut _1862: uint32_t = 0;
     let mut _1863: uint32_t = 0;
@@ -6427,7 +6471,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1872: uint32_t = 0;
     let mut _1873: uint32_t = 0;
     let mut _1874: uint32_t = 0;
-    let mut _1875: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1875: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1876: uint32_t = 0;
     let mut _1877: uint32_t = 0;
     let mut _1878: uint32_t = 0;
@@ -6444,17 +6488,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1889: uint32_t = 0;
     let mut _1890: uint32_t = 0;
     let mut _1891: uint32_t = 0;
-    let mut _1892: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1892: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1893: uint32_t = 0;
     let mut _1894: uint32_t = 0;
     let mut _1895: uint32_t = 0;
     let mut _1896: uint32_t = 0;
     let mut _1897: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1898: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1899: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1898: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1899: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1900: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1901: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1902: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1901: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1902: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1903: core::ffi::c_float = 0.;
     let mut _1904: core::ffi::c_float = 0.;
     let mut _1905: core::ffi::c_float = 0.;
@@ -6469,7 +6513,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1914: core::ffi::c_float = 0.;
     let mut _1915: core::ffi::c_float = 0.;
     let mut _1916: core::ffi::c_float = 0.;
-    let mut _1917: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1917: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1918: core::ffi::c_float = 0.;
     let mut _1919: core::ffi::c_float = 0.;
     let mut _1920: core::ffi::c_float = 0.;
@@ -6477,18 +6521,18 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1922: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1923: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1923: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1924: core::ffi::c_float = 0.;
     let mut _1925: core::ffi::c_float = 0.;
     let mut _1926: core::ffi::c_float = 0.;
     let mut _1927: core::ffi::c_float = 0.;
-    let mut _1928: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1928: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1929: uint32_t = 0;
     let mut _1930: uint32_t = 0;
     let mut _1931: uint32_t = 0;
     let mut _1932: uint32_t = 0;
     let mut _1933: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1934: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1934: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1935: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1936: uint32_t = 0;
     let mut _1937: uint32_t = 0;
@@ -6498,15 +6542,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1941: uint32_t = 0;
     let mut _1942: uint32_t = 0;
     let mut _1943: uint32_t = 0;
-    let mut _1944: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1944: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1945: uint32_t = 0;
     let mut _1946: uint32_t = 0;
     let mut _1947: uint32_t = 0;
     let mut _1948: uint32_t = 0;
     let mut _1949: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1950: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1951: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1952: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1950: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1951: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1952: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1953: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1954: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1955: uint32_t = 0;
@@ -6517,17 +6561,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1960: uint32_t = 0;
     let mut _1961: uint32_t = 0;
     let mut _1962: uint32_t = 0;
-    let mut _1963: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1963: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1964: uint32_t = 0;
     let mut _1965: uint32_t = 0;
     let mut _1966: uint32_t = 0;
     let mut _1967: uint32_t = 0;
     let mut _1968: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1969: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1970: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1969: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1970: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1971: uint32_t = 0;
-    let mut _1972: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1973: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1972: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1973: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1974: uint32_t = 0;
     let mut _1975: uint32_t = 0;
     let mut _1976: uint32_t = 0;
@@ -6542,7 +6586,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1985: uint32_t = 0;
     let mut _1986: uint32_t = 0;
     let mut _1987: uint32_t = 0;
-    let mut _1988: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1988: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1989: uint8_t = 0;
     let mut _1990: uint64_t = 0;
     let mut _1991: uint8_t = 0;
@@ -6552,8 +6596,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _1995: uint8_t = 0;
     let mut _1996: uint64_t = 0;
     let mut _1997: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1998: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1999: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1998: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1999: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2000: uint32_t = 0;
     let mut _2001: uint32_t = 0;
     let mut _2002: uint32_t = 0;
@@ -6568,7 +6612,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2011: uint32_t = 0;
     let mut _2012: uint32_t = 0;
     let mut _2013: uint32_t = 0;
-    let mut _2014: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2014: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2015: uint8_t = 0;
     let mut _2016: uint64_t = 0;
     let mut _2017: uint8_t = 0;
@@ -6588,7 +6632,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2031: uint32_t = 0;
     let mut _2032: uint32_t = 0;
     let mut _2033: uint32_t = 0;
-    let mut _2034: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2034: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2035: uint8_t = 0;
     let mut _2036: uint64_t = 0;
     let mut _2037: uint8_t = 0;
@@ -6599,17 +6643,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2042: uint64_t = 0;
     let mut _2043: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2044: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2045: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2045: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2046: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2047: uint32_t = 0;
     let mut _2048: uint32_t = 0;
     let mut _2049: uint32_t = 0;
     let mut _2050: uint32_t = 0;
-    let mut _2051: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2051: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2052: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2053: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2053: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2054: uint32_t = 0;
-    let mut _2055: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2055: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2056: uint32_t = 0;
     let mut _2057: uint32_t = 0;
     let mut _2058: uint32_t = 0;
@@ -6624,20 +6668,20 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2067: uint32_t = 0;
     let mut _2068: uint32_t = 0;
     let mut _2069: uint32_t = 0;
-    let mut _2070: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2070: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2071: uint32_t = 0;
     let mut _2072: uint32_t = 0;
     let mut _2073: uint32_t = 0;
     let mut _2074: uint32_t = 0;
     let mut _2075: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2076: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2077: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2078: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2079: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2077: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2078: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2079: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2080: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2081: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2081: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2082: uint32_t = 0;
-    let mut _2083: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2083: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2084: uint32_t = 0;
     let mut _2085: uint32_t = 0;
     let mut _2086: uint32_t = 0;
@@ -6652,7 +6696,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2095: uint32_t = 0;
     let mut _2096: uint32_t = 0;
     let mut _2097: uint32_t = 0;
-    let mut _2098: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2098: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2099: uint32_t = 0;
     let mut _2100: uint32_t = 0;
     let mut _2101: uint32_t = 0;
@@ -6668,7 +6712,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2111: uint32_t = 0;
     let mut _2112: uint32_t = 0;
     let mut _2113: uint32_t = 0;
-    let mut _2114: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2114: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2115: uint32_t = 0;
     let mut _2116: uint32_t = 0;
     let mut _2117: uint32_t = 0;
@@ -6684,19 +6728,19 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2127: uint32_t = 0;
     let mut _2128: uint32_t = 0;
     let mut _2129: uint32_t = 0;
-    let mut _2130: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2131: uint32_t = 0;
     let mut _2132: uint32_t = 0;
     let mut _2133: uint32_t = 0;
     let mut _2134: uint32_t = 0;
     let mut _2135: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2136: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2136: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2137: uint32_t = 0;
-    let mut _2138: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2138: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2139: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2140: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2141: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2142: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2141: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2142: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2143: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2144: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2145: uint32_t = 0;
@@ -6707,16 +6751,16 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2150: uint32_t = 0;
     let mut _2151: uint32_t = 0;
     let mut _2152: uint32_t = 0;
-    let mut _2153: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2153: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2154: uint32_t = 0;
     let mut _2155: uint32_t = 0;
     let mut _2156: uint32_t = 0;
     let mut _2157: uint32_t = 0;
     let mut _2158: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2159: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2160: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2160: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2161: uint32_t = 0;
-    let mut _2162: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2162: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2163: uint32_t = 0;
     let mut _2164: uint32_t = 0;
     let mut _2165: uint32_t = 0;
@@ -6731,17 +6775,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2174: uint32_t = 0;
     let mut _2175: uint32_t = 0;
     let mut _2176: uint32_t = 0;
-    let mut _2177: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2177: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2178: uint32_t = 0;
     let mut _2179: uint32_t = 0;
     let mut _2180: uint32_t = 0;
     let mut _2181: uint32_t = 0;
     let mut _2182: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2183: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2184: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2184: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2185: uint32_t = 0;
-    let mut _2186: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2187: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2186: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2187: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2188: uint32_t = 0;
     let mut _2189: uint32_t = 0;
     let mut _2190: uint32_t = 0;
@@ -6757,7 +6801,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2200: uint32_t = 0;
     let mut _2201: uint32_t = 0;
     let mut _2202: uint32_t = 0;
-    let mut _2203: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2203: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2204: uint8_t = 0;
     let mut _2205: uint64_t = 0;
     let mut _2206: uint8_t = 0;
@@ -6768,16 +6812,16 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2211: uint64_t = 0;
     let mut _2212: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2213: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2214: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2214: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2215: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2216: uint32_t = 0;
     let mut _2217: uint32_t = 0;
     let mut _2218: uint32_t = 0;
     let mut _2219: uint32_t = 0;
-    let mut _2220: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2221: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2222: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2223: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2220: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2221: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2222: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2223: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2224: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2225: uint32_t = 0;
     let mut _2226: uint32_t = 0;
@@ -6787,18 +6831,18 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2230: uint32_t = 0;
     let mut _2231: uint32_t = 0;
     let mut _2232: uint32_t = 0;
-    let mut _2233: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2233: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2234: uint32_t = 0;
     let mut _2235: uint32_t = 0;
     let mut _2236: uint32_t = 0;
     let mut _2237: uint32_t = 0;
     let mut _2238: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2239: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2240: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2239: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2240: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2241: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2242: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2242: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2243: uint32_t = 0;
-    let mut _2244: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2244: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2245: uint32_t = 0;
     let mut _2246: uint32_t = 0;
     let mut _2247: uint32_t = 0;
@@ -6813,7 +6857,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2256: uint32_t = 0;
     let mut _2257: uint32_t = 0;
     let mut _2258: uint32_t = 0;
-    let mut _2259: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2259: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2260: uint32_t = 0;
     let mut _2261: uint32_t = 0;
     let mut _2262: uint32_t = 0;
@@ -6830,16 +6874,16 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2273: uint32_t = 0;
     let mut _2274: uint32_t = 0;
     let mut _2275: uint32_t = 0;
-    let mut _2276: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2276: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2277: uint32_t = 0;
     let mut _2278: uint32_t = 0;
     let mut _2279: uint32_t = 0;
     let mut _2280: uint32_t = 0;
     let mut _2281: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2282: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2283: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2284: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2285: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2282: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2283: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2284: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2285: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2286: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2287: uint32_t = 0;
     let mut _2288: uint32_t = 0;
@@ -6849,16 +6893,16 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2292: uint32_t = 0;
     let mut _2293: uint32_t = 0;
     let mut _2294: uint32_t = 0;
-    let mut _2295: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2295: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2296: uint32_t = 0;
     let mut _2297: uint32_t = 0;
     let mut _2298: uint32_t = 0;
     let mut _2299: uint32_t = 0;
     let mut _2300: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2301: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2302: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2302: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2303: uint32_t = 0;
-    let mut _2304: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2304: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2305: uint32_t = 0;
     let mut _2306: uint32_t = 0;
     let mut _2307: uint32_t = 0;
@@ -6873,21 +6917,21 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2316: uint32_t = 0;
     let mut _2317: uint32_t = 0;
     let mut _2318: uint32_t = 0;
-    let mut _2319: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2319: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2320: uint32_t = 0;
     let mut _2321: uint32_t = 0;
     let mut _2322: uint32_t = 0;
     let mut _2323: uint32_t = 0;
     let mut _2324: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2325: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2326: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2327: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2328: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2329: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2326: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2327: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2328: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2329: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2330: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2331: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2331: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2332: uint32_t = 0;
-    let mut _2333: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2333: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2334: uint32_t = 0;
     let mut _2335: uint32_t = 0;
     let mut _2336: uint32_t = 0;
@@ -6902,14 +6946,14 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2345: uint32_t = 0;
     let mut _2346: uint32_t = 0;
     let mut _2347: uint32_t = 0;
-    let mut _2348: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2348: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2349: uint32_t = 0;
     let mut _2350: uint32_t = 0;
     let mut _2351: uint32_t = 0;
     let mut _2352: uint32_t = 0;
     let mut _2353: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2354: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2355: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2355: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2356: uint32_t = 0;
     let mut _2357: uint32_t = 0;
     let mut _2358: uint32_t = 0;
@@ -6925,7 +6969,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2368: uint32_t = 0;
     let mut _2369: uint32_t = 0;
     let mut _2370: uint32_t = 0;
-    let mut _2371: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2371: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2372: uint8_t = 0;
     let mut _2373: uint64_t = 0;
     let mut _2374: uint8_t = 0;
@@ -6935,14 +6979,14 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2378: uint8_t = 0;
     let mut _2379: uint64_t = 0;
     let mut _2380: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2381: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2382: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2383: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2384: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2381: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2382: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2383: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2384: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2385: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2386: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2386: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2387: uint32_t = 0;
-    let mut _2388: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2388: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2389: uint32_t = 0;
     let mut _2390: uint32_t = 0;
     let mut _2391: uint32_t = 0;
@@ -6957,14 +7001,14 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2400: uint32_t = 0;
     let mut _2401: uint32_t = 0;
     let mut _2402: uint32_t = 0;
-    let mut _2403: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2403: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2404: uint32_t = 0;
     let mut _2405: uint32_t = 0;
     let mut _2406: uint32_t = 0;
     let mut _2407: uint32_t = 0;
     let mut _2408: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2409: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2410: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2410: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2411: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2412: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2413: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -6988,24 +7032,24 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2428: uint32_t = 0;
     let mut _2429: uint32_t = 0;
     let mut _2429__PHI_TEMPORARY: uint32_t = 0;
-    let mut _2430: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2430: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2431: uint32_t = 0;
     let mut _2432: uint32_t = 0;
     let mut _2433: uint32_t = 0;
     let mut _2434: uint32_t = 0;
     let mut _2435: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2436: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2437: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2438: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2436: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2437: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2438: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2439: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2440: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2440: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2441: uint32_t = 0;
-    let mut _2442: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2442: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2443: uint32_t = 0;
-    let mut _2444: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2444: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2445: uint32_t = 0;
-    let mut _2446: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2447: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2446: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2447: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2448: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2449: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2450: uint32_t = 0;
@@ -7016,15 +7060,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2455: uint32_t = 0;
     let mut _2456: uint32_t = 0;
     let mut _2457: uint32_t = 0;
-    let mut _2458: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2458: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2459: uint32_t = 0;
     let mut _2460: uint32_t = 0;
     let mut _2461: uint32_t = 0;
     let mut _2462: uint32_t = 0;
     let mut _2463: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2464: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2465: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2466: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2464: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2465: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2466: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2467: uint32_t = 0;
     let mut _2468: uint32_t = 0;
     let mut _2469: uint32_t = 0;
@@ -7039,7 +7083,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2478: uint32_t = 0;
     let mut _2479: uint32_t = 0;
     let mut _2480: uint32_t = 0;
-    let mut _2481: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2481: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2482: uint8_t = 0;
     let mut _2483: uint64_t = 0;
     let mut _2484: uint8_t = 0;
@@ -7049,8 +7093,8 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2488: uint8_t = 0;
     let mut _2489: uint64_t = 0;
     let mut _2490: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2491: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2492: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2491: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2492: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2493: uint32_t = 0;
     let mut _2494: uint32_t = 0;
     let mut _2495: uint32_t = 0;
@@ -7065,7 +7109,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2504: uint32_t = 0;
     let mut _2505: uint32_t = 0;
     let mut _2506: uint32_t = 0;
-    let mut _2507: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2507: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2508: uint8_t = 0;
     let mut _2509: uint64_t = 0;
     let mut _2510: uint8_t = 0;
@@ -7085,7 +7129,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2524: uint32_t = 0;
     let mut _2525: uint32_t = 0;
     let mut _2526: uint32_t = 0;
-    let mut _2527: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2527: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2528: uint8_t = 0;
     let mut _2529: uint64_t = 0;
     let mut _2530: uint8_t = 0;
@@ -7096,16 +7140,16 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     let mut _2535: uint64_t = 0;
     let mut _2536: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2537: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _2538: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2538: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2539: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2540: uint32_t = 0;
     let mut _2541: uint32_t = 0;
     let mut _2542: uint32_t = 0;
     let mut _2543: uint32_t = 0;
-    let mut _2544: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2545: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2546: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2547: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2544: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2545: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2546: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2547: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2548: bool_0 = 0;
     *(&mut _1405.field0 as *mut l_array_4_float) = _865;
     *(&mut _1406.field0 as *mut l_array_4_float) = _866;
@@ -7127,22 +7171,26 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1490 = _1107;
     _1491 = *(&mut *((*(_1490 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1108 = _1489;
     _1492 = _1108;
     _1493 = *(&mut *((*(_1492 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1109 = _1489;
     _1494 = _1109;
     _1495 = *(&mut *((*(_1494 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1103 = _1489;
     _1496 = _1103;
     _1497 = *(&mut *((*(_1496 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1356 = &mut _1361 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _1357 = _1491;
     _1358 = _1493;
@@ -7154,15 +7202,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1500 = _1358;
     *(&mut *((*(_1498 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1500;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1500;
     _1501 = _1359;
     *(&mut *((*(_1498 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1501;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1501;
     _1502 = _1360;
     *(&mut *((*(_1498 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1502;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1502;
     _1503 = _1361;
     *(&mut _1412.field0 as *mut l_array_4_float) = _1503.field0;
     _1504 = *(&mut _1411.field0 as *mut l_array_4_float);
@@ -7174,27 +7222,33 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1508 = *(&mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1509 = *(&mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1510 = *(&mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1511 = *(&mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1512 = *(&mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1513 = *(&mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1370 = &mut _1375 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _1371 = llvm_fsub_f32(_1506, _1507);
     _1372 = llvm_fsub_f32(_1508, _1509);
@@ -7206,15 +7260,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1516 = _1372;
     *(&mut *((*(_1514 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1516;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1516;
     _1517 = _1373;
     *(&mut *((*(_1514 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1517;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1517;
     _1518 = _1374;
     *(&mut *((*(_1514 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1518;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1518;
     _1519 = _1375;
     *(&mut _1410.field0 as *mut l_array_4_float) = _1519.field0;
     _1386 = &mut _1405 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7240,27 +7294,33 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1528 = *(&mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1529 = *(&mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1530 = *(&mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1531 = *(&mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1532 = *(&mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1533 = *(&mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1118 = &mut _1123 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _1119 = llvm_fadd_f32(_1526, _1527);
     _1120 = llvm_fadd_f32(_1528, _1529);
@@ -7272,15 +7332,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1536 = _1120;
     *(&mut *((*(_1534 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1536;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1536;
     _1537 = _1121;
     *(&mut *((*(_1534 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1537;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1537;
     _1538 = _1122;
     *(&mut *((*(_1534 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1538;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1538;
     _1539 = _1123;
     *(&mut _1388 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1539.field0;
     _1540 = _1386;
@@ -7301,22 +7361,26 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1545 = _1104;
     _1546 = *(&mut *((*(_1545 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1105 = _1544;
     _1547 = _1105;
     _1548 = *(&mut *((*(_1547 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1106 = _1544;
     _1549 = _1106;
     _1550 = *(&mut *((*(_1549 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1102 = _1544;
     _1551 = _1102;
     _1552 = *(&mut *((*(_1551 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1363 = &mut _1368 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _1364 = _1546;
     _1365 = _1548;
@@ -7328,15 +7392,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1555 = _1365;
     *(&mut *((*(_1553 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1555;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1555;
     _1556 = _1366;
     *(&mut *((*(_1553 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1556;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1556;
     _1557 = _1367;
     *(&mut *((*(_1553 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1557;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1557;
     _1558 = _1368;
     *(&mut _1415.field0 as *mut l_array_4_float) = _1558.field0;
     _1559 = *(&mut _1414.field0 as *mut l_array_4_float);
@@ -7348,27 +7412,33 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1563 = *(&mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1564 = *(&mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1565 = *(&mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1566 = *(&mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1567 = *(&mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1568 = *(&mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1378 = &mut _1383 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _1379 = llvm_fsub_f32(_1561, _1562);
     _1380 = llvm_fsub_f32(_1563, _1564);
@@ -7380,15 +7450,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1571 = _1380;
     *(&mut *((*(_1569 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1571;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1571;
     _1572 = _1381;
     *(&mut *((*(_1569 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1572;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1572;
     _1573 = _1382;
     *(&mut *((*(_1569 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1573;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1573;
     _1574 = _1383;
     *(&mut _1413.field0 as *mut l_array_4_float) = _1574.field0;
     _1391 = &mut _1406 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -7414,27 +7484,33 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1583 = *(&mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1584 = *(&mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1585 = *(&mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1586 = *(&mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1587 = *(&mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1588 = *(&mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1110 = &mut _1115 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _1111 = llvm_fadd_f32(_1581, _1582);
     _1112 = llvm_fadd_f32(_1583, _1584);
@@ -7446,15 +7522,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1591 = _1112;
     *(&mut *((*(_1589 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1591;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1591;
     _1592 = _1113;
     *(&mut *((*(_1589 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1592;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1592;
     _1593 = _1114;
     *(&mut *((*(_1589 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1593;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1593;
     _1594 = _1115;
     *(&mut _1393 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1594.field0;
     _1595 = _1391;
@@ -7470,22 +7546,22 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         16 as core::ffi::c_int as uint64_t,
     );
     _1402 = &mut _1419 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _1403 = 0 as core::ffi::c_int as libc::c_float;
+    _1403 = 0 as core::ffi::c_int as core::ffi::c_float;
     _1599 = _1402;
     _1600 = _1403;
     *(_1599 as *mut core::ffi::c_float) = _1600;
     _1601 = _1403;
     *(&mut *((*(_1599 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1601;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1601;
     _1602 = _1403;
     *(&mut *((*(_1599 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1602;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1602;
     _1603 = _1403;
     *(&mut *((*(_1599 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1603;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1603;
     _1604 = *(&mut _1418.field0 as *mut l_array_4_float);
     _1605 = *(&mut _1419.field0 as *mut l_array_4_float);
     *(&mut _1336 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1604;
@@ -7495,72 +7571,78 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1608 = *(&mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1609 = *(&mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1610 = *(&mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1611 = *(&mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1612 = *(&mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1613 = *(&mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1057 = &mut _1335 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1058 = llvm_fcmp_olt(_1606 as core::ffi::c_double, _1607 as libc::c_double) as bool_0;
-    _1059 = llvm_fcmp_olt(_1608 as core::ffi::c_double, _1609 as libc::c_double) as bool_0;
-    _1060 = llvm_fcmp_olt(_1610 as core::ffi::c_double, _1611 as libc::c_double) as bool_0;
-    _1061 = llvm_fcmp_olt(_1612 as core::ffi::c_double, _1613 as libc::c_double) as bool_0;
+    _1058 = llvm_fcmp_olt(_1606 as core::ffi::c_double, _1607 as core::ffi::c_double) as bool_0;
+    _1059 = llvm_fcmp_olt(_1608 as core::ffi::c_double, _1609 as core::ffi::c_double) as bool_0;
+    _1060 = llvm_fcmp_olt(_1610 as core::ffi::c_double, _1611 as core::ffi::c_double) as bool_0;
+    _1061 = llvm_fcmp_olt(_1612 as core::ffi::c_double, _1613 as core::ffi::c_double) as bool_0;
     _1614 = _1057;
     _1615 = _1058;
-    _1616 = ((_1615 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1616 = ((_1615 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1614 as *mut uint32_t) = llvm_select_u32(
-        ((_1615 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1615 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1617 = _1059;
-    _1618 = ((_1617 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1618 = ((_1617 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1614 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1617 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1617 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1619 = _1060;
-    _1620 = ((_1619 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1620 = ((_1619 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1614 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1619 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1619 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1621 = _1061;
-    _1622 = ((_1621 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1622 = ((_1621 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1614 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1621 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1621 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -7572,22 +7654,22 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         16 as core::ffi::c_int as uint64_t,
     );
     _1400 = &mut _1422 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _1401 = 255 as core::ffi::c_int as libc::c_float;
+    _1401 = 255 as core::ffi::c_int as core::ffi::c_float;
     _1625 = _1400;
     _1626 = _1401;
     *(_1625 as *mut core::ffi::c_float) = _1626;
     _1627 = _1401;
     *(&mut *((*(_1625 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1627;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1627;
     _1628 = _1401;
     *(&mut *((*(_1625 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1628;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1628;
     _1629 = _1401;
     *(&mut *((*(_1625 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1629;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1629;
     _1630 = *(&mut _1421.field0 as *mut l_array_4_float);
     _1631 = *(&mut _1422.field0 as *mut l_array_4_float);
     *(&mut _1330 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1630;
@@ -7597,72 +7679,78 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1634 = *(&mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1635 = *(&mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1636 = *(&mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1637 = *(&mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1638 = *(&mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1639 = *(&mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1067 = &mut _1329 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1068 = llvm_fcmp_ogt(_1632 as core::ffi::c_double, _1633 as libc::c_double) as bool_0;
-    _1069 = llvm_fcmp_ogt(_1634 as core::ffi::c_double, _1635 as libc::c_double) as bool_0;
-    _1070 = llvm_fcmp_ogt(_1636 as core::ffi::c_double, _1637 as libc::c_double) as bool_0;
-    _1071 = llvm_fcmp_ogt(_1638 as core::ffi::c_double, _1639 as libc::c_double) as bool_0;
+    _1068 = llvm_fcmp_ogt(_1632 as core::ffi::c_double, _1633 as core::ffi::c_double) as bool_0;
+    _1069 = llvm_fcmp_ogt(_1634 as core::ffi::c_double, _1635 as core::ffi::c_double) as bool_0;
+    _1070 = llvm_fcmp_ogt(_1636 as core::ffi::c_double, _1637 as core::ffi::c_double) as bool_0;
+    _1071 = llvm_fcmp_ogt(_1638 as core::ffi::c_double, _1639 as core::ffi::c_double) as bool_0;
     _1640 = _1067;
     _1641 = _1068;
-    _1642 = ((_1641 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1642 = ((_1641 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1640 as *mut uint32_t) = llvm_select_u32(
-        ((_1641 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1641 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1643 = _1069;
-    _1644 = ((_1643 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1644 = ((_1643 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1640 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1643 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1643 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1645 = _1070;
-    _1646 = ((_1645 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1646 = ((_1645 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1640 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1645 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1645 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1647 = _1071;
-    _1648 = ((_1647 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1648 = ((_1647 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1640 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1647 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1647 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -7699,50 +7787,50 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _1047 = &mut _1341 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1048 = (_1652 | _1653 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1049 = (_1654 | _1655 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1050 = (_1656 | _1657 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1051 = (_1658 | _1659 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _1048 = (_1652 | _1653 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1049 = (_1654 | _1655 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1050 = (_1656 | _1657 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1051 = (_1658 | _1659 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _1660 = _1047;
     _1661 = _1048;
-    _1662 = ((_1661 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1662 = ((_1661 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1660 as *mut uint32_t) = llvm_select_u32(
-        ((_1661 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1661 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1663 = _1049;
-    _1664 = ((_1663 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1664 = ((_1663 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1660 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1663 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1663 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1665 = _1050;
-    _1666 = ((_1665 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1666 = ((_1665 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1660 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1665 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1665 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1667 = _1051;
-    _1668 = ((_1667 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1668 = ((_1667 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1660 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1667 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1667 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -7754,22 +7842,22 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         16 as core::ffi::c_int as uint64_t,
     );
     _1398 = &mut _1426 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _1399 = 0 as core::ffi::c_int as libc::c_float;
+    _1399 = 0 as core::ffi::c_int as core::ffi::c_float;
     _1671 = _1398;
     _1672 = _1399;
     *(_1671 as *mut core::ffi::c_float) = _1672;
     _1673 = _1399;
     *(&mut *((*(_1671 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1673;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1673;
     _1674 = _1399;
     *(&mut *((*(_1671 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1674;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1674;
     _1675 = _1399;
     *(&mut *((*(_1671 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1675;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1675;
     _1676 = *(&mut _1425.field0 as *mut l_array_4_float);
     _1677 = *(&mut _1426.field0 as *mut l_array_4_float);
     *(&mut _1339 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1676;
@@ -7779,72 +7867,78 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1680 = *(&mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1681 = *(&mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1682 = *(&mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1683 = *(&mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1684 = *(&mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1685 = *(&mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1052 = &mut _1338 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1053 = llvm_fcmp_olt(_1678 as core::ffi::c_double, _1679 as libc::c_double) as bool_0;
-    _1054 = llvm_fcmp_olt(_1680 as core::ffi::c_double, _1681 as libc::c_double) as bool_0;
-    _1055 = llvm_fcmp_olt(_1682 as core::ffi::c_double, _1683 as libc::c_double) as bool_0;
-    _1056 = llvm_fcmp_olt(_1684 as core::ffi::c_double, _1685 as libc::c_double) as bool_0;
+    _1053 = llvm_fcmp_olt(_1678 as core::ffi::c_double, _1679 as core::ffi::c_double) as bool_0;
+    _1054 = llvm_fcmp_olt(_1680 as core::ffi::c_double, _1681 as core::ffi::c_double) as bool_0;
+    _1055 = llvm_fcmp_olt(_1682 as core::ffi::c_double, _1683 as core::ffi::c_double) as bool_0;
+    _1056 = llvm_fcmp_olt(_1684 as core::ffi::c_double, _1685 as core::ffi::c_double) as bool_0;
     _1686 = _1052;
     _1687 = _1053;
-    _1688 = ((_1687 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1688 = ((_1687 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1686 as *mut uint32_t) = llvm_select_u32(
-        ((_1687 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1687 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1689 = _1054;
-    _1690 = ((_1689 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1690 = ((_1689 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1686 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1689 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1689 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1691 = _1055;
-    _1692 = ((_1691 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1692 = ((_1691 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1686 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1691 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1691 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1693 = _1056;
-    _1694 = ((_1693 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1694 = ((_1693 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1686 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1693 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1693 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -7856,22 +7950,22 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         16 as core::ffi::c_int as uint64_t,
     );
     _1396 = &mut _1429 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _1397 = 255 as core::ffi::c_int as libc::c_float;
+    _1397 = 255 as core::ffi::c_int as core::ffi::c_float;
     _1697 = _1396;
     _1698 = _1397;
     *(_1697 as *mut core::ffi::c_float) = _1698;
     _1699 = _1397;
     *(&mut *((*(_1697 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1699;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1699;
     _1700 = _1397;
     *(&mut *((*(_1697 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1700;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1700;
     _1701 = _1397;
     *(&mut *((*(_1697 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1701;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1701;
     _1702 = *(&mut _1428.field0 as *mut l_array_4_float);
     _1703 = *(&mut _1429.field0 as *mut l_array_4_float);
     *(&mut _1333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1702;
@@ -7881,72 +7975,78 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1706 = *(&mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1707 = *(&mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1708 = *(&mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1709 = *(&mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1710 = *(&mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1711 = *(&mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1062 = &mut _1332 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1063 = llvm_fcmp_ogt(_1704 as core::ffi::c_double, _1705 as libc::c_double) as bool_0;
-    _1064 = llvm_fcmp_ogt(_1706 as core::ffi::c_double, _1707 as libc::c_double) as bool_0;
-    _1065 = llvm_fcmp_ogt(_1708 as core::ffi::c_double, _1709 as libc::c_double) as bool_0;
-    _1066 = llvm_fcmp_ogt(_1710 as core::ffi::c_double, _1711 as libc::c_double) as bool_0;
+    _1063 = llvm_fcmp_ogt(_1704 as core::ffi::c_double, _1705 as core::ffi::c_double) as bool_0;
+    _1064 = llvm_fcmp_ogt(_1706 as core::ffi::c_double, _1707 as core::ffi::c_double) as bool_0;
+    _1065 = llvm_fcmp_ogt(_1708 as core::ffi::c_double, _1709 as core::ffi::c_double) as bool_0;
+    _1066 = llvm_fcmp_ogt(_1710 as core::ffi::c_double, _1711 as core::ffi::c_double) as bool_0;
     _1712 = _1062;
     _1713 = _1063;
-    _1714 = ((_1713 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1714 = ((_1713 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1712 as *mut uint32_t) = llvm_select_u32(
-        ((_1713 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1713 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1715 = _1064;
-    _1716 = ((_1715 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1716 = ((_1715 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1712 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1715 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1715 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1717 = _1065;
-    _1718 = ((_1717 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1718 = ((_1717 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1712 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1717 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1717 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1719 = _1066;
-    _1720 = ((_1719 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1720 = ((_1719 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1712 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1719 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1719 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -7983,50 +8083,50 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _1042 = &mut _1344 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1043 = (_1724 | _1725 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1044 = (_1726 | _1727 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1045 = (_1728 | _1729 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1046 = (_1730 | _1731 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _1043 = (_1724 | _1725 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1044 = (_1726 | _1727 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1045 = (_1728 | _1729 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1046 = (_1730 | _1731 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _1732 = _1042;
     _1733 = _1043;
-    _1734 = ((_1733 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1734 = ((_1733 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1732 as *mut uint32_t) = llvm_select_u32(
-        ((_1733 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1733 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1735 = _1044;
-    _1736 = ((_1735 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1736 = ((_1735 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1732 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1735 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1735 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1737 = _1045;
-    _1738 = ((_1737 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1738 = ((_1737 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1732 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1737 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1737 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1739 = _1046;
-    _1740 = ((_1739 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1740 = ((_1739 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1732 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1739 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1739 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -8073,50 +8173,50 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _1037 = &mut _1347 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1038 = (_1746 | _1747 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1039 = (_1748 | _1749 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1040 = (_1750 | _1751 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1041 = (_1752 | _1753 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _1038 = (_1746 | _1747 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1039 = (_1748 | _1749 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1040 = (_1750 | _1751 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1041 = (_1752 | _1753 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _1754 = _1037;
     _1755 = _1038;
-    _1756 = ((_1755 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1756 = ((_1755 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1754 as *mut uint32_t) = llvm_select_u32(
-        ((_1755 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1755 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1757 = _1039;
-    _1758 = ((_1757 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1758 = ((_1757 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1754 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1757 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1757 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1759 = _1040;
-    _1760 = ((_1759 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1760 = ((_1759 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1754 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1759 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1759 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1761 = _1041;
-    _1762 = ((_1761 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1762 = ((_1761 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1754 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1761 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1761 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -8145,9 +8245,9 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     if _1767 & 1 as core::ffi::c_int as uint32_t
-        | _1768 & 2 as libc::c_int as uint32_t
+        | _1768 & 2 as core::ffi::c_int as uint32_t
         | _1769 & 4 as core::ffi::c_int as uint32_t
-        | _1770 & 8 as libc::c_int as uint32_t
+        | _1770 & 8 as core::ffi::c_int as uint32_t
         != 0 as core::ffi::c_uint
     {
         _1404 = 0 as core::ffi::c_int as bool_0;
@@ -8172,15 +8272,18 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1776 = _1308;
         *(&mut *((*(_1774 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1776;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1776;
         _1777 = _1308;
         *(&mut *((*(_1774 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1777;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1777;
         _1778 = _1308;
         *(&mut *((*(_1774 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1778;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1778;
         _1779 = *(&mut _1312 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _1780 = *(&mut _1313 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _1140 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1779;
@@ -8191,32 +8294,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1784 = *(&mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1785 = *(&mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1786 = *(&mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1787 = *(&mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1788 = *(&mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1134 = &mut _1139 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _1135 = llvm_fadd_f32(_1781, _1782);
         _1136 = llvm_fadd_f32(_1783, _1784);
@@ -8228,15 +8331,18 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1791 = _1136;
         *(&mut *((*(_1789 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1791;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1791;
         _1792 = _1137;
         *(&mut *((*(_1789 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1792;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1792;
         _1793 = _1138;
         *(&mut *((*(_1789 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1793;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1793;
         _1794 = _1139;
         *(&mut _1311 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1794.field0;
         _1795 = memcpy(
@@ -8249,17 +8355,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1798 = *(&mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1799 = *(&mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _963 = &mut _1309 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _964 = _1796 as int32_t as uint32_t;
         _965 = _1797 as int32_t as uint32_t;
@@ -8283,12 +8389,13 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1805 = *(&mut _1309 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
         (*(&mut _1433.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_198)).data = _1805;
         _1305 = &mut _1405 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-        _1306 = 0 as core::ffi::c_int as libc::c_float;
+        _1306 = 0 as core::ffi::c_int as core::ffi::c_float;
         _1806 = _1305;
         _1807 = _1306;
         *(&mut *((*(_1806 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1807;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1807;
         _1808 = memcpy(
             &mut _1436 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
             &mut _1433 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
@@ -8614,15 +8721,18 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1904 = _1315;
         *(&mut *((*(_1902 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1904;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1904;
         _1905 = _1315;
         *(&mut *((*(_1902 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1905;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1905;
         _1906 = _1315;
         *(&mut *((*(_1902 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1906;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1906;
         _1907 = *(&mut _1319 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _1908 = *(&mut _1320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _1132 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1907;
@@ -8633,32 +8743,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1912 = *(&mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1913 = *(&mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1914 = *(&mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1915 = *(&mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1916 = *(&mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1126 = &mut _1131 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _1127 = llvm_fadd_f32(_1909, _1910);
         _1128 = llvm_fadd_f32(_1911, _1912);
@@ -8670,15 +8780,18 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1919 = _1128;
         *(&mut *((*(_1917 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1919;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1919;
         _1920 = _1129;
         *(&mut *((*(_1917 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1920;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1920;
         _1921 = _1130;
         *(&mut *((*(_1917 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _1921;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _1921;
         _1922 = _1131;
         *(&mut _1318 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _1922.field0;
         _1923 = memcpy(
@@ -8691,17 +8804,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1926 = *(&mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _1927 = *(&mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _958 = &mut _1316 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _959 = _1924 as int32_t as uint32_t;
         _960 = _1925 as int32_t as uint32_t;
@@ -8927,44 +9040,44 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1081 = (_1986 as int32_t > _1987 as int32_t) as core::ffi::c_int as bool_0;
         _1988 = _1077;
         _1989 = _1078;
-        _1990 = ((_1989 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _1990 = ((_1989 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(_1988 as *mut uint32_t) = llvm_select_u32(
-            ((_1989 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_1989 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _1991 = _1079;
-        _1992 = ((_1991 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _1992 = ((_1991 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_1988 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_1991 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_1991 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _1993 = _1080;
-        _1994 = ((_1993 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _1994 = ((_1993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_1988 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_1993 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_1993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _1995 = _1081;
-        _1996 = ((_1995 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _1996 = ((_1995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_1988 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_1995 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_1995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
@@ -9035,44 +9148,44 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1091 = ((_2012 as int32_t) < _2013 as int32_t) as core::ffi::c_int as bool_0;
         _2014 = _1087;
         _2015 = _1088;
-        _2016 = ((_2015 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2016 = ((_2015 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(_2014 as *mut uint32_t) = llvm_select_u32(
-            ((_2015 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2015 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _2017 = _1089;
-        _2018 = ((_2017 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2018 = ((_2017 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_2014 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_2017 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2017 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _2019 = _1090;
-        _2020 = ((_2019 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2020 = ((_2019 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_2014 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_2019 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2019 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _2021 = _1091;
-        _2022 = ((_2021 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2022 = ((_2021 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_2014 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_2021 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2021 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
@@ -9115,50 +9228,50 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _1032 = &mut _1350 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-        _1033 = (_2026 | _2027 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-        _1034 = (_2028 | _2029 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-        _1035 = (_2030 | _2031 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-        _1036 = (_2032 | _2033 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+        _1033 = (_2026 | _2027 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+        _1034 = (_2028 | _2029 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+        _1035 = (_2030 | _2031 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+        _1036 = (_2032 | _2033 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
         _2034 = _1032;
         _2035 = _1033;
-        _2036 = ((_2035 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2036 = ((_2035 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(_2034 as *mut uint32_t) = llvm_select_u32(
-            ((_2035 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2035 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _2037 = _1034;
-        _2038 = ((_2037 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2038 = ((_2037 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_2034 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_2037 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2037 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _2039 = _1035;
-        _2040 = ((_2039 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2040 = ((_2039 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_2034 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_2039 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2039 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _2041 = _1036;
-        _2042 = ((_2041 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _2042 = ((_2041 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_2034 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_2041 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_2041 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
@@ -9190,9 +9303,9 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if _2047 & 1 as core::ffi::c_int as uint32_t
-            | _2048 & 2 as libc::c_int as uint32_t
+            | _2048 & 2 as core::ffi::c_int as uint32_t
             | _2049 & 4 as core::ffi::c_int as uint32_t
-            | _2050 & 8 as libc::c_int as uint32_t
+            | _2050 & 8 as core::ffi::c_int as uint32_t
             != 0 as core::ffi::c_uint
         {
             _1404 = 0 as core::ffi::c_int as bool_0;
@@ -9826,47 +9939,51 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _1096 = (_2201 != _2202) as core::ffi::c_int as bool_0;
             _2203 = _1092;
             _2204 = _1093;
-            _2205 = ((_2204 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _2205 = ((_2204 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(_2203 as *mut uint32_t) = llvm_select_u32(
-                ((_2204 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_2204 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2206 = _1094;
-            _2207 = ((_2206 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _2207 = ((_2206 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(&mut *((*(_2203 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
-                ((_2206 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_2206 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2208 = _1095;
-            _2209 = ((_2208 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _2209 = ((_2208 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(&mut *((*(_2203 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
-                ((_2208 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_2208 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _2210 = _1096;
-            _2211 = ((_2210 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _2211 = ((_2210 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(&mut *((*(_2203 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
-                ((_2210 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_2210 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
@@ -9906,7 +10023,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 | _2217 & 2 as core::ffi::c_int as uint32_t
                 | _2218 & 4 as core::ffi::c_int as uint32_t
                 | _2219 & 8 as core::ffi::c_int as uint32_t
-                != 0 as libc::c_uint
+                != 0 as core::ffi::c_uint
             {
                 _1404 = 0 as core::ffi::c_int as bool_0;
             } else {
@@ -10498,51 +10615,59 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _1101 = (_2369 != _2370) as core::ffi::c_int as bool_0;
                 _2371 = _1097;
                 _2372 = _1098;
-                _2373 = ((_2372 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _2373 = ((_2372 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(_2371 as *mut uint32_t) = llvm_select_u32(
-                    ((_2372 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_2372 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _2374 = _1099;
-                _2375 = ((_2374 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _2375 = ((_2374 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_2371 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_2374 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_2374 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _2376 = _1100;
-                _2377 = ((_2376 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _2377 = ((_2376 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_2371 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_2376 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_2376 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _2378 = _1101;
-                _2379 = ((_2378 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _2379 = ((_2378 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_2371 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_2378 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_2378 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
@@ -10670,7 +10795,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 *(&mut _892 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _2412;
                 *(&mut _893 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _2413;
                 _2414 = *(&mut _893 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-                if _2414 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+                if _2414 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                     _2415 = *(&mut _892 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                     _2417__PHI_TEMPORARY = _2415;
                 } else {
@@ -10684,7 +10809,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                if _2418 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+                if _2418 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                     _2419 = *(&mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
@@ -10708,7 +10833,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                if _2422 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+                if _2422 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                     _2423 = *(&mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
@@ -10732,7 +10857,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                if _2426 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+                if _2426 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                     _2427 = *(&mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
                         as *mut l_array_4_uint32_t))
                         .array)
@@ -10979,54 +11104,62 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _1086 = ((_2479 as int32_t) < _2480 as int32_t) as core::ffi::c_int as bool_0;
                     _2481 = _1082;
                     _2482 = _1083;
-                    _2483 = ((_2482 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2483 = ((_2482 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(_2481 as *mut uint32_t) = llvm_select_u32(
-                        ((_2482 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2482 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2484 = _1084;
-                    _2485 = ((_2484 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2485 = ((_2484 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2481 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2484 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2484 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2486 = _1085;
-                    _2487 = ((_2486 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2487 = ((_2486 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2481 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2486 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2486 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2488 = _1086;
-                    _2489 = ((_2488 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2489 = ((_2488 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2481 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2488 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2488 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
@@ -11115,54 +11248,62 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _1076 = (_2505 as int32_t > _2506 as int32_t) as core::ffi::c_int as bool_0;
                     _2507 = _1072;
                     _2508 = _1073;
-                    _2509 = ((_2508 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2509 = ((_2508 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(_2507 as *mut uint32_t) = llvm_select_u32(
-                        ((_2508 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2508 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2510 = _1074;
-                    _2511 = ((_2510 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2511 = ((_2510 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2507 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2510 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2510 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2512 = _1075;
-                    _2513 = ((_2512 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2513 = ((_2512 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2507 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2512 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2512 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2514 = _1076;
-                    _2515 = ((_2514 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2515 = ((_2514 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2507 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2514 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2514 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
@@ -11220,60 +11361,68 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
                     _1027 = &mut _1353 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-                    _1028 = (_2519 | _2520 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-                    _1029 = (_2521 | _2522 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-                    _1030 = (_2523 | _2524 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-                    _1031 = (_2525 | _2526 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+                    _1028 = (_2519 | _2520 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+                    _1029 = (_2521 | _2522 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+                    _1030 = (_2523 | _2524 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+                    _1031 = (_2525 | _2526 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
                     _2527 = _1027;
                     _2528 = _1028;
-                    _2529 = ((_2528 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2529 = ((_2528 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(_2527 as *mut uint32_t) = llvm_select_u32(
-                        ((_2528 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2528 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2530 = _1029;
-                    _2531 = ((_2530 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2531 = ((_2530 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2527 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2530 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2530 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2532 = _1030;
-                    _2533 = ((_2532 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2533 = ((_2532 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2527 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2532 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2532 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
                     );
                     _2534 = _1031;
-                    _2535 = ((_2534 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int
+                    _2535 = ((_2534 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                        as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
                     *(&mut *((*(_2527 as *mut l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
-                        ((_2534 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                            == 0 as core::ffi::c_uint) as libc::c_int
+                        ((_2534 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                            as uint32_t
+                            == 0 as core::ffi::c_uint) as core::ffi::c_int
                             as bool_0,
                         0 as core::ffi::c_int as uint32_t,
                         -(1 as core::ffi::c_int) as uint32_t,
@@ -11319,7 +11468,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         | _2541 & 2 as core::ffi::c_int as uint32_t
                         | _2542 & 4 as core::ffi::c_int as uint32_t
                         | _2543 & 8 as core::ffi::c_int as uint32_t
-                        != 0 as libc::c_uint
+                        != 0 as core::ffi::c_uint
                     {
                         _1404 = 0 as core::ffi::c_int as bool_0;
                     } else {
@@ -11354,7 +11503,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2576: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2577: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2577: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2578: core::ffi::c_float = 0.;
     let mut _2579: core::ffi::c_float = 0.;
     let mut _2580: core::ffi::c_float = 0.;
@@ -11365,7 +11514,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2583: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2584: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2584: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2585: core::ffi::c_float = 0.;
     let mut _2586: core::ffi::c_float = 0.;
     let mut _2587: core::ffi::c_float = 0.;
@@ -11376,7 +11525,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2590: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2591: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2591: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2592: core::ffi::c_float = 0.;
     let mut _2593: core::ffi::c_float = 0.;
     let mut _2594: core::ffi::c_float = 0.;
@@ -11390,7 +11539,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2598: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2599: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2599: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2600: core::ffi::c_float = 0.;
     let mut _2601: core::ffi::c_float = 0.;
     let mut _2602: core::ffi::c_float = 0.;
@@ -11404,7 +11553,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2606: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2607: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2607: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2608: core::ffi::c_float = 0.;
     let mut _2609: core::ffi::c_float = 0.;
     let mut _2610: core::ffi::c_float = 0.;
@@ -11418,7 +11567,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2614: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2615: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2615: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2616: core::ffi::c_float = 0.;
     let mut _2617: core::ffi::c_float = 0.;
     let mut _2618: core::ffi::c_float = 0.;
@@ -11432,7 +11581,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2622: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2623: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2623: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2624: core::ffi::c_float = 0.;
     let mut _2625: core::ffi::c_float = 0.;
     let mut _2626: core::ffi::c_float = 0.;
@@ -11503,14 +11652,14 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2649: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2650: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2651: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2650: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2651: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2652: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2653: uint32_t = 0;
     let mut _2654: uint32_t = 0;
     let mut _2655: uint32_t = 0;
     let mut _2656: uint32_t = 0;
-    let mut _2657: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2657: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2658: core::ffi::c_float = 0.;
     let mut _2659: core::ffi::c_float = 0.;
     let mut _2660: core::ffi::c_float = 0.;
@@ -11528,7 +11677,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2670: core::ffi::c_float = 0.;
     let mut _2671: core::ffi::c_float = 0.;
     let mut _2672: core::ffi::c_float = 0.;
-    let mut _2673: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2673: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2674: core::ffi::c_float = 0.;
     let mut _2675: core::ffi::c_float = 0.;
     let mut _2676: core::ffi::c_float = 0.;
@@ -11536,14 +11685,14 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2678: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2679: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2680: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2679: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2680: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2681: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _2682: uint32_t = 0;
     let mut _2683: uint32_t = 0;
     let mut _2684: uint32_t = 0;
     let mut _2685: uint32_t = 0;
-    let mut _2686: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2686: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2687: core::ffi::c_float = 0.;
     let mut _2688: core::ffi::c_float = 0.;
     let mut _2689: core::ffi::c_float = 0.;
@@ -11561,7 +11710,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2699: core::ffi::c_float = 0.;
     let mut _2700: core::ffi::c_float = 0.;
     let mut _2701: core::ffi::c_float = 0.;
-    let mut _2702: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2702: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2703: core::ffi::c_float = 0.;
     let mut _2704: core::ffi::c_float = 0.;
     let mut _2705: core::ffi::c_float = 0.;
@@ -11569,8 +11718,8 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2707: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2708: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2709: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2708: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2709: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2710: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2711: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2712: core::ffi::c_float = 0.;
@@ -11581,7 +11730,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2717: core::ffi::c_float = 0.;
     let mut _2718: core::ffi::c_float = 0.;
     let mut _2719: core::ffi::c_float = 0.;
-    let mut _2720: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2720: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2721: core::ffi::c_float = 0.;
     let mut _2722: core::ffi::c_float = 0.;
     let mut _2723: core::ffi::c_float = 0.;
@@ -11589,8 +11738,8 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2725: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2726: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2727: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2726: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2727: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2728: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2729: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2730: core::ffi::c_float = 0.;
@@ -11601,7 +11750,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2735: core::ffi::c_float = 0.;
     let mut _2736: core::ffi::c_float = 0.;
     let mut _2737: core::ffi::c_float = 0.;
-    let mut _2738: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2738: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2739: core::ffi::c_float = 0.;
     let mut _2740: core::ffi::c_float = 0.;
     let mut _2741: core::ffi::c_float = 0.;
@@ -11619,7 +11768,7 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     let mut _2751: core::ffi::c_float = 0.;
     let mut _2752: core::ffi::c_float = 0.;
     let mut _2753: core::ffi::c_float = 0.;
-    let mut _2754: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2754: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2755: core::ffi::c_float = 0.;
     let mut _2756: core::ffi::c_float = 0.;
     let mut _2757: core::ffi::c_float = 0.;
@@ -11672,15 +11821,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2659 = _2579;
     *(&mut *((*(_2657 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2659;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2659;
     _2660 = _2580;
     *(&mut *((*(_2657 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2660;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2660;
     _2661 = _2581;
     *(&mut *((*(_2657 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2661;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2661;
     _2662 = _2582;
     *(&mut _2637.field0 as *mut l_array_4_float) = _2662.field0;
     _2663 = *(&mut _2636.field0 as *mut l_array_4_float);
@@ -11692,27 +11841,33 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2667 = *(&mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2668 = *(&mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2669 = *(&mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2670 = *(&mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2671 = *(&mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2672 = *(&mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2599 = &mut _2604 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _2600 = llvm_fsub_f32(_2665, _2666);
     _2601 = llvm_fsub_f32(_2667, _2668);
@@ -11724,15 +11879,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2675 = _2601;
     *(&mut *((*(_2673 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2675;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2675;
     _2676 = _2602;
     *(&mut *((*(_2673 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2676;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2676;
     _2677 = _2603;
     *(&mut *((*(_2673 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2677;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2677;
     _2678 = _2604;
     *(&mut _2635.field0 as *mut l_array_4_float) = _2678.field0;
     _2679 = memcpy(
@@ -11771,15 +11926,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2688 = _2586;
     *(&mut *((*(_2686 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2688;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2688;
     _2689 = _2587;
     *(&mut *((*(_2686 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2689;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2689;
     _2690 = _2588;
     *(&mut *((*(_2686 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2690;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2690;
     _2691 = _2589;
     *(&mut _2641.field0 as *mut l_array_4_float) = _2691.field0;
     _2692 = *(&mut _2640.field0 as *mut l_array_4_float);
@@ -11791,27 +11946,33 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2696 = *(&mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2697 = *(&mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2698 = *(&mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2699 = *(&mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2700 = *(&mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2701 = *(&mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2607 = &mut _2612 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _2608 = llvm_fsub_f32(_2694, _2695);
     _2609 = llvm_fsub_f32(_2696, _2697);
@@ -11823,15 +11984,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2704 = _2609;
     *(&mut *((*(_2702 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2704;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2704;
     _2705 = _2610;
     *(&mut *((*(_2702 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2705;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2705;
     _2706 = _2611;
     *(&mut *((*(_2702 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2706;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2706;
     _2707 = _2612;
     *(&mut _2639.field0 as *mut l_array_4_float) = _2707.field0;
     _2708 = memcpy(
@@ -11853,27 +12014,33 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2714 = *(&mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2715 = *(&mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2716 = *(&mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2717 = *(&mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2718 = *(&mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2719 = *(&mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2615 = &mut _2620 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _2616 = llvm_fmul_f32(_2712, _2713);
     _2617 = llvm_fmul_f32(_2714, _2715);
@@ -11885,15 +12052,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2722 = _2617;
     *(&mut *((*(_2720 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2722;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2722;
     _2723 = _2618;
     *(&mut *((*(_2720 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2723;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2723;
     _2724 = _2619;
     *(&mut *((*(_2720 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2724;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2724;
     _2725 = _2620;
     *(&mut _2644.field0 as *mut l_array_4_float) = _2725.field0;
     _2726 = memcpy(
@@ -11915,27 +12082,33 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2732 = *(&mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2733 = *(&mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2734 = *(&mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2735 = *(&mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2736 = *(&mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2737 = *(&mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2623 = &mut _2628 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _2624 = llvm_fmul_f32(_2730, _2731);
     _2625 = llvm_fmul_f32(_2732, _2733);
@@ -11947,15 +12120,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2740 = _2625;
     *(&mut *((*(_2738 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2740;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2740;
     _2741 = _2626;
     *(&mut *((*(_2738 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2741;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2741;
     _2742 = _2627;
     *(&mut *((*(_2738 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2742;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2742;
     _2743 = _2628;
     *(&mut _2647.field0 as *mut l_array_4_float) = _2743.field0;
     _2744 = *(&mut _2644.field0 as *mut l_array_4_float);
@@ -11967,27 +12140,33 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2748 = *(&mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2749 = *(&mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2750 = *(&mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2751 = *(&mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2752 = *(&mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2753 = *(&mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2591 = &mut _2596 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _2592 = llvm_fadd_f32(_2746, _2747);
     _2593 = llvm_fadd_f32(_2748, _2749);
@@ -11999,15 +12178,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2756 = _2593;
     *(&mut *((*(_2754 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2756;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2756;
     _2757 = _2594;
     *(&mut *((*(_2754 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2757;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2757;
     _2758 = _2595;
     *(&mut *((*(_2754 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2758;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2758;
     _2759 = _2596;
     *(&mut _2643.field0 as *mut l_array_4_float) = _2759.field0;
     _2760 = *(&mut _2643.field0 as *mut l_array_4_float);
@@ -12016,15 +12195,18 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2762 = *(&mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2763 = *(&mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2764 = *(&mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     return llvm_fadd_f32(llvm_fadd_f32(_2761, _2762), llvm_fadd_f32(_2763, _2764));
 }
 #[inline(never)]
@@ -12035,12 +12217,12 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     mut _2768: *mut core::ffi::c_void,
     mut _2769: uint32_t,
 ) -> bool_0 {
-    let mut _2770: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2770: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2771: uint32_t = 0;
     let mut _2772: uint32_t = 0;
     let mut _2773: uint32_t = 0;
     let mut _2774: uint32_t = 0;
-    let mut _2775: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2775: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2776: uint32_t = 0;
     let mut _2777: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12064,7 +12246,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2784: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2785: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2785: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2786: uint32_t = 0;
     let mut _2787: uint32_t = 0;
     let mut _2788: uint32_t = 0;
@@ -12081,7 +12263,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2793: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2794: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2794: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2795: uint32_t = 0;
     let mut _2796: uint32_t = 0;
     let mut _2797: uint32_t = 0;
@@ -12095,7 +12277,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2801: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2802: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2802: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2803: uint32_t = 0;
     let mut _2804: uint32_t = 0;
     let mut _2805: uint32_t = 0;
@@ -12109,7 +12291,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2809: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2810: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2810: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2811: uint32_t = 0;
     let mut _2812: uint32_t = 0;
     let mut _2813: uint32_t = 0;
@@ -12123,7 +12305,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2817: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2818: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2818: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2819: uint32_t = 0;
     let mut _2820: uint32_t = 0;
     let mut _2821: uint32_t = 0;
@@ -12137,7 +12319,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2825: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2826: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2826: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2827: uint32_t = 0;
     let mut _2828: uint32_t = 0;
     let mut _2829: uint32_t = 0;
@@ -12151,7 +12333,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2833: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2834: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2834: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2835: uint32_t = 0;
     let mut _2836: uint32_t = 0;
     let mut _2837: uint32_t = 0;
@@ -12165,7 +12347,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2841: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2842: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2842: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2843: uint32_t = 0;
     let mut _2844: uint32_t = 0;
     let mut _2845: uint32_t = 0;
@@ -12179,7 +12361,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2849: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2850: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2850: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2851: uint32_t = 0;
     let mut _2852: uint32_t = 0;
     let mut _2853: uint32_t = 0;
@@ -12193,67 +12375,67 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2857: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2858: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2858: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2859: uint32_t = 0;
     let mut _2860: uint32_t = 0;
     let mut _2861: uint32_t = 0;
     let mut _2862: uint32_t = 0;
-    let mut _2863: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2863: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2864: uint32_t = 0;
     let mut _2865: uint32_t = 0;
     let mut _2866: uint32_t = 0;
     let mut _2867: uint32_t = 0;
-    let mut _2868: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2868: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2869: uint32_t = 0;
     let mut _2870: uint32_t = 0;
     let mut _2871: uint32_t = 0;
     let mut _2872: uint32_t = 0;
-    let mut _2873: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2873: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2874: uint32_t = 0;
     let mut _2875: uint32_t = 0;
     let mut _2876: uint32_t = 0;
     let mut _2877: uint32_t = 0;
-    let mut _2878: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2878: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2879: uint32_t = 0;
     let mut _2880: uint32_t = 0;
     let mut _2881: uint32_t = 0;
     let mut _2882: uint32_t = 0;
-    let mut _2883: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2883: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2884: uint32_t = 0;
     let mut _2885: uint32_t = 0;
     let mut _2886: uint32_t = 0;
     let mut _2887: uint32_t = 0;
-    let mut _2888: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2888: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2889: uint32_t = 0;
     let mut _2890: uint32_t = 0;
     let mut _2891: uint32_t = 0;
     let mut _2892: uint32_t = 0;
-    let mut _2893: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2893: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2894: uint32_t = 0;
     let mut _2895: uint32_t = 0;
     let mut _2896: uint32_t = 0;
     let mut _2897: uint32_t = 0;
-    let mut _2898: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2898: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2899: uint32_t = 0;
     let mut _2900: uint32_t = 0;
     let mut _2901: uint32_t = 0;
     let mut _2902: uint32_t = 0;
-    let mut _2903: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2903: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2904: uint32_t = 0;
     let mut _2905: uint32_t = 0;
     let mut _2906: uint32_t = 0;
     let mut _2907: uint32_t = 0;
-    let mut _2908: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2908: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2909: uint32_t = 0;
     let mut _2910: uint32_t = 0;
     let mut _2911: uint32_t = 0;
     let mut _2912: uint32_t = 0;
-    let mut _2913: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2913: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2914: uint32_t = 0;
     let mut _2915: uint32_t = 0;
     let mut _2916: uint32_t = 0;
     let mut _2917: uint32_t = 0;
-    let mut _2918: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2918: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2919: uint32_t = 0;
     let mut _2920: uint32_t = 0;
     let mut _2921: uint32_t = 0;
@@ -12267,47 +12449,47 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2925: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2926: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2926: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2927: uint8_t = 0;
     let mut _2928: uint8_t = 0;
     let mut _2929: uint8_t = 0;
     let mut _2930: uint8_t = 0;
-    let mut _2931: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2931: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2932: uint8_t = 0;
     let mut _2933: uint8_t = 0;
     let mut _2934: uint8_t = 0;
     let mut _2935: uint8_t = 0;
-    let mut _2936: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2936: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2937: uint8_t = 0;
     let mut _2938: uint8_t = 0;
     let mut _2939: uint8_t = 0;
     let mut _2940: uint8_t = 0;
-    let mut _2941: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2941: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2942: uint8_t = 0;
     let mut _2943: uint8_t = 0;
     let mut _2944: uint8_t = 0;
     let mut _2945: uint8_t = 0;
-    let mut _2946: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2946: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2947: uint8_t = 0;
     let mut _2948: uint8_t = 0;
     let mut _2949: uint8_t = 0;
     let mut _2950: uint8_t = 0;
-    let mut _2951: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2951: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2952: uint8_t = 0;
     let mut _2953: uint8_t = 0;
     let mut _2954: uint8_t = 0;
     let mut _2955: uint8_t = 0;
-    let mut _2956: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2956: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2957: uint8_t = 0;
     let mut _2958: uint8_t = 0;
     let mut _2959: uint8_t = 0;
     let mut _2960: uint8_t = 0;
-    let mut _2961: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2961: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2962: uint8_t = 0;
     let mut _2963: uint8_t = 0;
     let mut _2964: uint8_t = 0;
     let mut _2965: uint8_t = 0;
-    let mut _2966: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2966: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2967: core::ffi::c_float = 0.;
     let mut _2968: core::ffi::c_float = 0.;
     let mut _2969: core::ffi::c_float = 0.;
@@ -12321,7 +12503,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2973: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2974: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2974: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2975: core::ffi::c_float = 0.;
     let mut _2976: core::ffi::c_float = 0.;
     let mut _2977: core::ffi::c_float = 0.;
@@ -12344,13 +12526,13 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _2984: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2985: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2986: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2987: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2985: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2986: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2987: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2988: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _2989: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2989: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2990: uint32_t = 0;
     let mut _2991: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12384,11 +12566,11 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3004: uint32_t = 0;
     let mut _3005: uint32_t = 0;
     let mut _3006: uint32_t = 0;
-    let mut _3007: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3007: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3008: uint32_t = 0;
-    let mut _3009: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3009: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3010: uint32_t = 0;
-    let mut _3011: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3011: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3012: uint32_t = 0;
     let mut _3013: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12438,8 +12620,8 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3030: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _3031: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3032: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3031: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3032: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3033: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
@@ -12491,7 +12673,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3049: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _3050: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3050: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3051: uint32_t = 0;
     let mut _3052: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12542,23 +12724,23 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3070: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _3071: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3071: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3072: uint32_t = 0;
-    let mut _3073: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3073: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3074: uint32_t = 0;
-    let mut _3075: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3075: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3076: uint32_t = 0;
-    let mut _3077: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3077: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3078: uint32_t = 0;
-    let mut _3079: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3079: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3080: uint32_t = 0;
-    let mut _3081: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3081: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3082: uint32_t = 0;
-    let mut _3083: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3083: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3084: uint32_t = 0;
-    let mut _3085: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3085: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3086: uint32_t = 0;
-    let mut _3087: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3087: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3088: uint32_t = 0;
     let mut _3089: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12578,9 +12760,9 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3094: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _3095: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3095: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3096: uint32_t = 0;
-    let mut _3097: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3097: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3098: uint32_t = 0;
     let mut _3099: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12694,9 +12876,9 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3142: uint32_t = 0;
     let mut _3143: uint32_t = 0;
     let mut _3144: uint32_t = 0;
-    let mut _3145: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3145: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3146: core::ffi::c_float = 0.;
-    let mut _3147: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3147: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3148: core::ffi::c_float = 0.;
     let mut _3149: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12713,7 +12895,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3153: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _3154: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3154: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3155: core::ffi::c_float = 0.;
     let mut _3156: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12773,8 +12955,8 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3175: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _3176: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3177: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3176: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3177: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3178: uint32_t = 0;
     let mut _3179: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -12941,10 +13123,10 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3233: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _3234: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3234: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3235: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _3236: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3237: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3236: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3237: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3238: core::ffi::c_float = 0.;
     let mut _3239: core::ffi::c_float = 0.;
     let mut _3240: core::ffi::c_float = 0.;
@@ -12959,7 +13141,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3249: core::ffi::c_float = 0.;
     let mut _3250: core::ffi::c_float = 0.;
     let mut _3251: core::ffi::c_float = 0.;
-    let mut _3252: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3252: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3253: core::ffi::c_float = 0.;
     let mut _3254: core::ffi::c_float = 0.;
     let mut _3255: core::ffi::c_float = 0.;
@@ -12967,20 +13149,20 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3257: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _3258: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3258: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3259: core::ffi::c_float = 0.;
     let mut _3260: core::ffi::c_float = 0.;
     let mut _3261: core::ffi::c_float = 0.;
     let mut _3262: core::ffi::c_float = 0.;
-    let mut _3263: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3263: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3264: uint32_t = 0;
     let mut _3265: uint32_t = 0;
     let mut _3266: uint32_t = 0;
     let mut _3267: uint32_t = 0;
     let mut _3268: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3269: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3269: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3270: core::ffi::c_float = 0.;
-    let mut _3271: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3271: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3272: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3273: uint32_t = 0;
     let mut _3274: uint32_t = 0;
@@ -12990,18 +13172,18 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3278: uint32_t = 0;
     let mut _3279: uint32_t = 0;
     let mut _3280: uint32_t = 0;
-    let mut _3281: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3281: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3282: uint32_t = 0;
     let mut _3283: uint32_t = 0;
     let mut _3284: uint32_t = 0;
     let mut _3285: uint32_t = 0;
     let mut _3286: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3287: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3288: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3287: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3288: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3289: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3290: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3290: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3291: uint32_t = 0;
-    let mut _3292: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3292: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3293: uint32_t = 0;
     let mut _3294: uint32_t = 0;
     let mut _3295: uint32_t = 0;
@@ -13016,7 +13198,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3304: uint32_t = 0;
     let mut _3305: uint32_t = 0;
     let mut _3306: uint32_t = 0;
-    let mut _3307: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3307: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3308: uint32_t = 0;
     let mut _3309: uint32_t = 0;
     let mut _3310: uint32_t = 0;
@@ -13024,15 +13206,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3312: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3313: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3314: uint32_t = 0;
-    let mut _3315: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3315: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3316: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3317: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3318: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3319: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3318: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3319: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3320: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3321: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3321: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3322: uint32_t = 0;
-    let mut _3323: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3323: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3324: uint32_t = 0;
     let mut _3325: uint32_t = 0;
     let mut _3326: uint32_t = 0;
@@ -13047,7 +13229,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3335: uint32_t = 0;
     let mut _3336: uint32_t = 0;
     let mut _3337: uint32_t = 0;
-    let mut _3338: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3338: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3339: uint32_t = 0;
     let mut _3340: uint32_t = 0;
     let mut _3341: uint32_t = 0;
@@ -13064,17 +13246,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3352: uint32_t = 0;
     let mut _3353: uint32_t = 0;
     let mut _3354: uint32_t = 0;
-    let mut _3355: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3355: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3356: uint32_t = 0;
     let mut _3357: uint32_t = 0;
     let mut _3358: uint32_t = 0;
     let mut _3359: uint32_t = 0;
     let mut _3360: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3361: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3362: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3361: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3362: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3363: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _3364: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3365: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3364: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3365: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3366: core::ffi::c_float = 0.;
     let mut _3367: core::ffi::c_float = 0.;
     let mut _3368: core::ffi::c_float = 0.;
@@ -13089,7 +13271,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3377: core::ffi::c_float = 0.;
     let mut _3378: core::ffi::c_float = 0.;
     let mut _3379: core::ffi::c_float = 0.;
-    let mut _3380: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3380: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3381: core::ffi::c_float = 0.;
     let mut _3382: core::ffi::c_float = 0.;
     let mut _3383: core::ffi::c_float = 0.;
@@ -13097,18 +13279,18 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3385: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _3386: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3386: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3387: core::ffi::c_float = 0.;
     let mut _3388: core::ffi::c_float = 0.;
     let mut _3389: core::ffi::c_float = 0.;
     let mut _3390: core::ffi::c_float = 0.;
-    let mut _3391: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3391: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3392: uint32_t = 0;
     let mut _3393: uint32_t = 0;
     let mut _3394: uint32_t = 0;
     let mut _3395: uint32_t = 0;
     let mut _3396: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3397: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3397: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3398: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3399: uint32_t = 0;
     let mut _3400: uint32_t = 0;
@@ -13118,15 +13300,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3404: uint32_t = 0;
     let mut _3405: uint32_t = 0;
     let mut _3406: uint32_t = 0;
-    let mut _3407: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3407: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3408: uint32_t = 0;
     let mut _3409: uint32_t = 0;
     let mut _3410: uint32_t = 0;
     let mut _3411: uint32_t = 0;
     let mut _3412: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3413: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3414: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3415: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3413: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3414: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3415: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3416: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3417: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3418: uint32_t = 0;
@@ -13137,17 +13319,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3423: uint32_t = 0;
     let mut _3424: uint32_t = 0;
     let mut _3425: uint32_t = 0;
-    let mut _3426: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3426: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3427: uint32_t = 0;
     let mut _3428: uint32_t = 0;
     let mut _3429: uint32_t = 0;
     let mut _3430: uint32_t = 0;
     let mut _3431: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3432: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3433: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3432: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3433: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3434: uint32_t = 0;
-    let mut _3435: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3436: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3435: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3436: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3437: uint32_t = 0;
     let mut _3438: uint32_t = 0;
     let mut _3439: uint32_t = 0;
@@ -13162,7 +13344,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3448: uint32_t = 0;
     let mut _3449: uint32_t = 0;
     let mut _3450: uint32_t = 0;
-    let mut _3451: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3451: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3452: uint8_t = 0;
     let mut _3453: uint64_t = 0;
     let mut _3454: uint8_t = 0;
@@ -13172,8 +13354,8 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3458: uint8_t = 0;
     let mut _3459: uint64_t = 0;
     let mut _3460: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3461: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3462: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3461: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3462: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3463: uint32_t = 0;
     let mut _3464: uint32_t = 0;
     let mut _3465: uint32_t = 0;
@@ -13188,7 +13370,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3474: uint32_t = 0;
     let mut _3475: uint32_t = 0;
     let mut _3476: uint32_t = 0;
-    let mut _3477: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3477: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3478: uint8_t = 0;
     let mut _3479: uint64_t = 0;
     let mut _3480: uint8_t = 0;
@@ -13208,7 +13390,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3494: uint32_t = 0;
     let mut _3495: uint32_t = 0;
     let mut _3496: uint32_t = 0;
-    let mut _3497: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3497: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3498: uint8_t = 0;
     let mut _3499: uint64_t = 0;
     let mut _3500: uint8_t = 0;
@@ -13219,17 +13401,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3505: uint64_t = 0;
     let mut _3506: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3507: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3508: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3508: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3509: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3510: uint32_t = 0;
     let mut _3511: uint32_t = 0;
     let mut _3512: uint32_t = 0;
     let mut _3513: uint32_t = 0;
-    let mut _3514: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3514: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3515: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3516: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3517: uint32_t = 0;
-    let mut _3518: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3518: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3519: uint32_t = 0;
     let mut _3520: uint32_t = 0;
     let mut _3521: uint32_t = 0;
@@ -13244,20 +13426,20 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3530: uint32_t = 0;
     let mut _3531: uint32_t = 0;
     let mut _3532: uint32_t = 0;
-    let mut _3533: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3533: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3534: uint32_t = 0;
     let mut _3535: uint32_t = 0;
     let mut _3536: uint32_t = 0;
     let mut _3537: uint32_t = 0;
     let mut _3538: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3539: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3540: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3541: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3542: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3540: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3541: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3542: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3543: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3544: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3544: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3545: uint32_t = 0;
-    let mut _3546: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3546: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3547: uint32_t = 0;
     let mut _3548: uint32_t = 0;
     let mut _3549: uint32_t = 0;
@@ -13272,7 +13454,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3558: uint32_t = 0;
     let mut _3559: uint32_t = 0;
     let mut _3560: uint32_t = 0;
-    let mut _3561: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3561: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3562: uint32_t = 0;
     let mut _3563: uint32_t = 0;
     let mut _3564: uint32_t = 0;
@@ -13288,7 +13470,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3574: uint32_t = 0;
     let mut _3575: uint32_t = 0;
     let mut _3576: uint32_t = 0;
-    let mut _3577: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3577: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3578: uint32_t = 0;
     let mut _3579: uint32_t = 0;
     let mut _3580: uint32_t = 0;
@@ -13304,19 +13486,19 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3590: uint32_t = 0;
     let mut _3591: uint32_t = 0;
     let mut _3592: uint32_t = 0;
-    let mut _3593: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3593: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3594: uint32_t = 0;
     let mut _3595: uint32_t = 0;
     let mut _3596: uint32_t = 0;
     let mut _3597: uint32_t = 0;
     let mut _3598: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3599: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3599: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3600: uint32_t = 0;
-    let mut _3601: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3601: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3602: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3603: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3604: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3605: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3604: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3605: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3606: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3607: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3608: uint32_t = 0;
@@ -13327,16 +13509,16 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3613: uint32_t = 0;
     let mut _3614: uint32_t = 0;
     let mut _3615: uint32_t = 0;
-    let mut _3616: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3616: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3617: uint32_t = 0;
     let mut _3618: uint32_t = 0;
     let mut _3619: uint32_t = 0;
     let mut _3620: uint32_t = 0;
     let mut _3621: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3622: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3623: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3623: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3624: uint32_t = 0;
-    let mut _3625: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3625: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3626: uint32_t = 0;
     let mut _3627: uint32_t = 0;
     let mut _3628: uint32_t = 0;
@@ -13351,17 +13533,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3637: uint32_t = 0;
     let mut _3638: uint32_t = 0;
     let mut _3639: uint32_t = 0;
-    let mut _3640: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3640: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3641: uint32_t = 0;
     let mut _3642: uint32_t = 0;
     let mut _3643: uint32_t = 0;
     let mut _3644: uint32_t = 0;
     let mut _3645: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3646: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3647: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3647: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3648: uint32_t = 0;
-    let mut _3649: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3650: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3649: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3650: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3651: uint32_t = 0;
     let mut _3652: uint32_t = 0;
     let mut _3653: uint32_t = 0;
@@ -13377,7 +13559,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3663: uint32_t = 0;
     let mut _3664: uint32_t = 0;
     let mut _3665: uint32_t = 0;
-    let mut _3666: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3666: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3667: uint8_t = 0;
     let mut _3668: uint64_t = 0;
     let mut _3669: uint8_t = 0;
@@ -13388,16 +13570,16 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3674: uint64_t = 0;
     let mut _3675: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3676: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3677: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3677: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3678: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3679: uint32_t = 0;
     let mut _3680: uint32_t = 0;
     let mut _3681: uint32_t = 0;
     let mut _3682: uint32_t = 0;
-    let mut _3683: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3684: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3685: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3686: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3683: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3684: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3685: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3686: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3687: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3688: uint32_t = 0;
     let mut _3689: uint32_t = 0;
@@ -13407,18 +13589,18 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3693: uint32_t = 0;
     let mut _3694: uint32_t = 0;
     let mut _3695: uint32_t = 0;
-    let mut _3696: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3696: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3697: uint32_t = 0;
     let mut _3698: uint32_t = 0;
     let mut _3699: uint32_t = 0;
     let mut _3700: uint32_t = 0;
     let mut _3701: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3702: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3703: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3702: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3703: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3704: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3705: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3705: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3706: uint32_t = 0;
-    let mut _3707: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3707: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3708: uint32_t = 0;
     let mut _3709: uint32_t = 0;
     let mut _3710: uint32_t = 0;
@@ -13433,7 +13615,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3719: uint32_t = 0;
     let mut _3720: uint32_t = 0;
     let mut _3721: uint32_t = 0;
-    let mut _3722: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3722: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3723: uint32_t = 0;
     let mut _3724: uint32_t = 0;
     let mut _3725: uint32_t = 0;
@@ -13450,16 +13632,16 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3736: uint32_t = 0;
     let mut _3737: uint32_t = 0;
     let mut _3738: uint32_t = 0;
-    let mut _3739: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3739: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3740: uint32_t = 0;
     let mut _3741: uint32_t = 0;
     let mut _3742: uint32_t = 0;
     let mut _3743: uint32_t = 0;
     let mut _3744: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3745: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3746: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3747: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3748: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3745: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3746: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3747: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3748: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3749: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3750: uint32_t = 0;
     let mut _3751: uint32_t = 0;
@@ -13469,16 +13651,16 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3755: uint32_t = 0;
     let mut _3756: uint32_t = 0;
     let mut _3757: uint32_t = 0;
-    let mut _3758: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3758: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3759: uint32_t = 0;
     let mut _3760: uint32_t = 0;
     let mut _3761: uint32_t = 0;
     let mut _3762: uint32_t = 0;
     let mut _3763: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3764: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3765: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3765: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3766: uint32_t = 0;
-    let mut _3767: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3767: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3768: uint32_t = 0;
     let mut _3769: uint32_t = 0;
     let mut _3770: uint32_t = 0;
@@ -13493,21 +13675,21 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3779: uint32_t = 0;
     let mut _3780: uint32_t = 0;
     let mut _3781: uint32_t = 0;
-    let mut _3782: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3782: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3783: uint32_t = 0;
     let mut _3784: uint32_t = 0;
     let mut _3785: uint32_t = 0;
     let mut _3786: uint32_t = 0;
     let mut _3787: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3788: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3789: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3790: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3791: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3792: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3789: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3790: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3791: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3792: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3793: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3794: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3794: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3795: uint32_t = 0;
-    let mut _3796: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3796: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3797: uint32_t = 0;
     let mut _3798: uint32_t = 0;
     let mut _3799: uint32_t = 0;
@@ -13522,14 +13704,14 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3808: uint32_t = 0;
     let mut _3809: uint32_t = 0;
     let mut _3810: uint32_t = 0;
-    let mut _3811: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3811: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3812: uint32_t = 0;
     let mut _3813: uint32_t = 0;
     let mut _3814: uint32_t = 0;
     let mut _3815: uint32_t = 0;
     let mut _3816: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3817: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3818: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3818: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3819: uint32_t = 0;
     let mut _3820: uint32_t = 0;
     let mut _3821: uint32_t = 0;
@@ -13545,7 +13727,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3831: uint32_t = 0;
     let mut _3832: uint32_t = 0;
     let mut _3833: uint32_t = 0;
-    let mut _3834: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3834: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3835: uint8_t = 0;
     let mut _3836: uint64_t = 0;
     let mut _3837: uint8_t = 0;
@@ -13555,14 +13737,14 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3841: uint8_t = 0;
     let mut _3842: uint64_t = 0;
     let mut _3843: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3844: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3845: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3846: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3847: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3844: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3845: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3846: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3847: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3848: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3849: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3849: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3850: uint32_t = 0;
-    let mut _3851: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3851: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3852: uint32_t = 0;
     let mut _3853: uint32_t = 0;
     let mut _3854: uint32_t = 0;
@@ -13577,14 +13759,14 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3863: uint32_t = 0;
     let mut _3864: uint32_t = 0;
     let mut _3865: uint32_t = 0;
-    let mut _3866: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3866: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3867: uint32_t = 0;
     let mut _3868: uint32_t = 0;
     let mut _3869: uint32_t = 0;
     let mut _3870: uint32_t = 0;
     let mut _3871: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3872: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3873: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3873: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3874: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3875: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3876: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -13608,24 +13790,24 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3891: uint32_t = 0;
     let mut _3892: uint32_t = 0;
     let mut _3892__PHI_TEMPORARY: uint32_t = 0;
-    let mut _3893: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3893: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3894: uint32_t = 0;
     let mut _3895: uint32_t = 0;
     let mut _3896: uint32_t = 0;
     let mut _3897: uint32_t = 0;
     let mut _3898: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3899: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3900: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3901: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3899: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3900: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3901: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3902: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3903: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3903: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3904: uint32_t = 0;
-    let mut _3905: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3905: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3906: uint32_t = 0;
-    let mut _3907: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3907: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3908: uint32_t = 0;
-    let mut _3909: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3910: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3909: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3910: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3911: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3912: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _3913: uint32_t = 0;
@@ -13636,15 +13818,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3918: uint32_t = 0;
     let mut _3919: uint32_t = 0;
     let mut _3920: uint32_t = 0;
-    let mut _3921: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3921: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3922: uint32_t = 0;
     let mut _3923: uint32_t = 0;
     let mut _3924: uint32_t = 0;
     let mut _3925: uint32_t = 0;
     let mut _3926: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3927: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3928: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3929: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3927: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3928: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3929: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3930: uint32_t = 0;
     let mut _3931: uint32_t = 0;
     let mut _3932: uint32_t = 0;
@@ -13659,7 +13841,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3941: uint32_t = 0;
     let mut _3942: uint32_t = 0;
     let mut _3943: uint32_t = 0;
-    let mut _3944: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3944: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3945: uint8_t = 0;
     let mut _3946: uint64_t = 0;
     let mut _3947: uint8_t = 0;
@@ -13669,8 +13851,8 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3951: uint8_t = 0;
     let mut _3952: uint64_t = 0;
     let mut _3953: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _3954: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _3955: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3954: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _3955: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3956: uint32_t = 0;
     let mut _3957: uint32_t = 0;
     let mut _3958: uint32_t = 0;
@@ -13685,7 +13867,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3967: uint32_t = 0;
     let mut _3968: uint32_t = 0;
     let mut _3969: uint32_t = 0;
-    let mut _3970: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3970: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3971: uint8_t = 0;
     let mut _3972: uint64_t = 0;
     let mut _3973: uint8_t = 0;
@@ -13705,7 +13887,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3987: uint32_t = 0;
     let mut _3988: uint32_t = 0;
     let mut _3989: uint32_t = 0;
-    let mut _3990: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3990: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3991: uint8_t = 0;
     let mut _3992: uint64_t = 0;
     let mut _3993: uint8_t = 0;
@@ -13716,16 +13898,16 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     let mut _3998: uint64_t = 0;
     let mut _3999: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4000: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4001: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4001: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4002: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4003: uint32_t = 0;
     let mut _4004: uint32_t = 0;
     let mut _4005: uint32_t = 0;
     let mut _4006: uint32_t = 0;
-    let mut _4007: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4008: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4009: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4010: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4007: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4008: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4009: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4010: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4011: bool_0 = 0;
     *(&mut _3174.field0 as *mut l_array_4_float) = _2765;
     *(&mut _3175.field0 as *mut l_array_4_float) = _2766;
@@ -13752,15 +13934,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3239 = _3148;
     *(&mut *((*(_3237 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3239;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3239;
     _3240 = _3148;
     *(&mut *((*(_3237 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3240;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3240;
     _3241 = _3148;
     *(&mut *((*(_3237 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3241;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3241;
     _3242 = *(&mut _3152 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _3243 = *(&mut _3153 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _2980 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3242;
@@ -13770,27 +13952,33 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3246 = *(&mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3247 = *(&mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3248 = *(&mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3249 = *(&mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3250 = *(&mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3251 = *(&mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2974 = &mut _2979 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _2975 = llvm_fadd_f32(_3244, _3245);
     _2976 = llvm_fadd_f32(_3246, _3247);
@@ -13802,15 +13990,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3254 = _2976;
     *(&mut *((*(_3252 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3254;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3254;
     _3255 = _2977;
     *(&mut *((*(_3252 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3255;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3255;
     _3256 = _2978;
     *(&mut *((*(_3252 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3256;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3256;
     _3257 = _2979;
     *(&mut _3151 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3257.field0;
     _3258 = memcpy(
@@ -13822,15 +14010,18 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3260 = *(&mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3261 = *(&mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3262 = *(&mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2863 = &mut _3149 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _2864 = _3259 as int32_t as uint32_t;
     _2865 = _3260 as int32_t as uint32_t;
@@ -13854,12 +14045,12 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3268 = *(&mut _3149 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t);
     (*(&mut _3179.field0 as *mut l_array_4_uint32_t as *mut C2RustUnnamed_131)).data = _3268;
     _3145 = &mut _3174 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _3146 = 0 as core::ffi::c_int as libc::c_float;
+    _3146 = 0 as core::ffi::c_int as core::ffi::c_float;
     _3269 = _3145;
     _3270 = _3146;
     *(&mut *((*(_3269 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3270;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3270;
     _3271 = memcpy(
         &mut _3182 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
         &mut _3179 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void,
@@ -14176,15 +14367,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3367 = _3155;
     *(&mut *((*(_3365 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3367;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3367;
     _3368 = _3155;
     *(&mut *((*(_3365 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3368;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3368;
     _3369 = _3155;
     *(&mut *((*(_3365 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3369;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3369;
     _3370 = *(&mut _3159 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _3371 = *(&mut _3160 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _2972 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3370;
@@ -14194,27 +14385,33 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3374 = *(&mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3375 = *(&mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3376 = *(&mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3377 = *(&mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3378 = *(&mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3379 = *(&mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2966 = &mut _2971 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _2967 = llvm_fadd_f32(_3372, _3373);
     _2968 = llvm_fadd_f32(_3374, _3375);
@@ -14226,15 +14423,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3382 = _2968;
     *(&mut *((*(_3380 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3382;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3382;
     _3383 = _2969;
     *(&mut *((*(_3380 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3383;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3383;
     _3384 = _2970;
     *(&mut *((*(_3380 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _3384;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3384;
     _3385 = _2971;
     *(&mut _3158 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _3385.field0;
     _3386 = memcpy(
@@ -14246,15 +14443,18 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3388 = *(&mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3389 = *(&mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _3390 = *(&mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _2858 = &mut _3156 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _2859 = _3387 as int32_t as uint32_t;
     _2860 = _3388 as int32_t as uint32_t;
@@ -14465,44 +14665,44 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _2945 = (_3449 as int32_t > _3450 as int32_t) as core::ffi::c_int as bool_0;
     _3451 = _2941;
     _3452 = _2942;
-    _3453 = ((_3452 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3453 = ((_3452 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_3451 as *mut uint32_t) = llvm_select_u32(
-        ((_3452 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3452 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3454 = _2943;
-    _3455 = ((_3454 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3455 = ((_3454 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3451 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3454 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3454 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3456 = _2944;
-    _3457 = ((_3456 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3457 = ((_3456 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3451 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3456 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3456 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3458 = _2945;
-    _3459 = ((_3458 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3459 = ((_3458 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3451 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3458 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3458 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -14567,44 +14767,44 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _2955 = ((_3475 as int32_t) < _3476 as int32_t) as core::ffi::c_int as bool_0;
     _3477 = _2951;
     _3478 = _2952;
-    _3479 = ((_3478 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3479 = ((_3478 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_3477 as *mut uint32_t) = llvm_select_u32(
-        ((_3478 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3478 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3480 = _2953;
-    _3481 = ((_3480 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3481 = ((_3480 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3477 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3480 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3480 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3482 = _2954;
-    _3483 = ((_3482 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3483 = ((_3482 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3477 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3482 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3482 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3484 = _2955;
-    _3485 = ((_3484 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3485 = ((_3484 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3477 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3484 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3484 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -14641,50 +14841,50 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _2931 = &mut _3167 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _2932 = (_3489 | _3490 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _2933 = (_3491 | _3492 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _2934 = (_3493 | _3494 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _2935 = (_3495 | _3496 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _2932 = (_3489 | _3490 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _2933 = (_3491 | _3492 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _2934 = (_3493 | _3494 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _2935 = (_3495 | _3496 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _3497 = _2931;
     _3498 = _2932;
-    _3499 = ((_3498 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3499 = ((_3498 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_3497 as *mut uint32_t) = llvm_select_u32(
-        ((_3498 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3498 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3500 = _2933;
-    _3501 = ((_3500 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3501 = ((_3500 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3497 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3500 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3500 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3502 = _2934;
-    _3503 = ((_3502 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3503 = ((_3502 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3497 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3502 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3502 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _3504 = _2935;
-    _3505 = ((_3504 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _3505 = ((_3504 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_3497 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_3504 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_3504 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -14713,9 +14913,9 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     if _3510 & 1 as core::ffi::c_int as uint32_t
-        | _3511 & 2 as libc::c_int as uint32_t
+        | _3511 & 2 as core::ffi::c_int as uint32_t
         | _3512 & 4 as core::ffi::c_int as uint32_t
-        | _3513 & 8 as libc::c_int as uint32_t
+        | _3513 & 8 as core::ffi::c_int as uint32_t
         != 0 as core::ffi::c_uint
     {
         _3173 = 0 as core::ffi::c_int as bool_0;
@@ -15260,44 +15460,44 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _2960 = (_3664 != _3665) as core::ffi::c_int as bool_0;
         _3666 = _2956;
         _3667 = _2957;
-        _3668 = ((_3667 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _3668 = ((_3667 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(_3666 as *mut uint32_t) = llvm_select_u32(
-            ((_3667 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_3667 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _3669 = _2958;
-        _3670 = ((_3669 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _3670 = ((_3669 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_3666 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_3669 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_3669 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _3671 = _2959;
-        _3672 = ((_3671 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _3672 = ((_3671 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_3666 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_3671 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_3671 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
         _3673 = _2960;
-        _3674 = ((_3673 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+        _3674 = ((_3673 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
         *(&mut *((*(_3666 as *mut l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-            ((_3673 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+            ((_3673 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
             0 as core::ffi::c_int as uint32_t,
             -(1 as core::ffi::c_int) as uint32_t,
         );
@@ -15329,9 +15529,9 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if _3679 & 1 as core::ffi::c_int as uint32_t
-            | _3680 & 2 as libc::c_int as uint32_t
+            | _3680 & 2 as core::ffi::c_int as uint32_t
             | _3681 & 4 as core::ffi::c_int as uint32_t
-            | _3682 & 8 as libc::c_int as uint32_t
+            | _3682 & 8 as core::ffi::c_int as uint32_t
             != 0 as core::ffi::c_uint
         {
             _3173 = 0 as core::ffi::c_int as bool_0;
@@ -15924,47 +16124,51 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _2965 = (_3832 != _3833) as core::ffi::c_int as bool_0;
             _3834 = _2961;
             _3835 = _2962;
-            _3836 = ((_3835 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _3836 = ((_3835 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(_3834 as *mut uint32_t) = llvm_select_u32(
-                ((_3835 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_3835 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _3837 = _2963;
-            _3838 = ((_3837 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _3838 = ((_3837 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(&mut *((*(_3834 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
-                ((_3837 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_3837 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _3839 = _2964;
-            _3840 = ((_3839 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _3840 = ((_3839 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(&mut *((*(_3834 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
-                ((_3839 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_3839 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
             _3841 = _2965;
-            _3842 = ((_3841 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+            _3842 = ((_3841 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
+                as uint64_t;
             *(&mut *((*(_3834 as *mut l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
-                ((_3841 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                ((_3841 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
                 0 as core::ffi::c_int as uint32_t,
                 -(1 as core::ffi::c_int) as uint32_t,
             );
@@ -16092,7 +16296,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             *(&mut _2792 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _3875;
             *(&mut _2793 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _3876;
             _3877 = *(&mut _2793 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-            if _3877 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+            if _3877 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                 _3878 = *(&mut _2792 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _3880__PHI_TEMPORARY = _3878;
             } else {
@@ -16106,7 +16310,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            if _3881 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+            if _3881 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                 _3882 = *(&mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
@@ -16130,7 +16334,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            if _3885 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+            if _3885 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                 _3886 = *(&mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
@@ -16154,7 +16358,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            if _3889 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+            if _3889 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
                 _3890 = *(&mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
                     as *mut l_array_4_uint32_t))
                     .array)
@@ -16391,51 +16595,59 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _2950 = ((_3942 as int32_t) < _3943 as int32_t) as core::ffi::c_int as bool_0;
                 _3944 = _2946;
                 _3945 = _2947;
-                _3946 = ((_3945 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3946 = ((_3945 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(_3944 as *mut uint32_t) = llvm_select_u32(
-                    ((_3945 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3945 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3947 = _2948;
-                _3948 = ((_3947 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3948 = ((_3947 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3944 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3947 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3947 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3949 = _2949;
-                _3950 = ((_3949 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3950 = ((_3949 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3944 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3949 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3949 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3951 = _2950;
-                _3952 = ((_3951 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3952 = ((_3951 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3944 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3951 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3951 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
@@ -16518,51 +16730,59 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _2940 = (_3968 as int32_t > _3969 as int32_t) as core::ffi::c_int as bool_0;
                 _3970 = _2936;
                 _3971 = _2937;
-                _3972 = ((_3971 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3972 = ((_3971 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(_3970 as *mut uint32_t) = llvm_select_u32(
-                    ((_3971 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3971 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3973 = _2938;
-                _3974 = ((_3973 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3974 = ((_3973 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3970 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3973 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3973 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3975 = _2939;
-                _3976 = ((_3975 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3976 = ((_3975 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3970 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3975 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3975 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3977 = _2940;
-                _3978 = ((_3977 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3978 = ((_3977 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3970 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3977 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3977 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
@@ -16614,57 +16834,65 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _2926 = &mut _3170 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-                _2927 = (_3982 | _3983 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-                _2928 = (_3984 | _3985 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-                _2929 = (_3986 | _3987 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-                _2930 = (_3988 | _3989 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+                _2927 = (_3982 | _3983 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+                _2928 = (_3984 | _3985 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+                _2929 = (_3986 | _3987 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+                _2930 = (_3988 | _3989 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
                 _3990 = _2926;
                 _3991 = _2927;
-                _3992 = ((_3991 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3992 = ((_3991 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(_3990 as *mut uint32_t) = llvm_select_u32(
-                    ((_3991 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3991 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3993 = _2928;
-                _3994 = ((_3993 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3994 = ((_3993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3990 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3993 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3995 = _2929;
-                _3996 = ((_3995 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3996 = ((_3995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3990 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3995 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
                 _3997 = _2930;
-                _3998 = ((_3997 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                    == 0 as core::ffi::c_uint) as libc::c_int as bool_0
+                _3998 = ((_3997 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0
+                    as uint32_t
+                    == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
                 *(&mut *((*(_3990 as *mut l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
-                    ((_3997 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-                        == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+                    ((_3997 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+                        == 0 as core::ffi::c_uint) as core::ffi::c_int
+                        as bool_0,
                     0 as core::ffi::c_int as uint32_t,
                     -(1 as core::ffi::c_int) as uint32_t,
                 );
@@ -16704,7 +16932,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     | _4004 & 2 as core::ffi::c_int as uint32_t
                     | _4005 & 4 as core::ffi::c_int as uint32_t
                     | _4006 & 8 as core::ffi::c_int as uint32_t
-                    != 0 as libc::c_uint
+                    != 0 as core::ffi::c_uint
                 {
                     _3173 = 0 as core::ffi::c_int as bool_0;
                 } else {
@@ -16736,12 +16964,12 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     mut _4036: *mut core::ffi::c_void,
     mut _4037: uint32_t,
 ) -> bool_0 {
-    let mut _4038: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4038: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4039: uint32_t = 0;
     let mut _4040: uint32_t = 0;
     let mut _4041: uint32_t = 0;
     let mut _4042: uint32_t = 0;
-    let mut _4043: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4043: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4044: uint32_t = 0;
     let mut _4045: uint32_t = 0;
     let mut _4046: uint32_t = 0;
@@ -16749,50 +16977,50 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4048: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4049: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4049: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4050: uint8_t = 0;
     let mut _4051: uint8_t = 0;
     let mut _4052: uint8_t = 0;
     let mut _4053: uint8_t = 0;
-    let mut _4054: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4054: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4055: uint8_t = 0;
     let mut _4056: uint8_t = 0;
     let mut _4057: uint8_t = 0;
     let mut _4058: uint8_t = 0;
-    let mut _4059: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4059: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4060: uint8_t = 0;
     let mut _4061: uint8_t = 0;
     let mut _4062: uint8_t = 0;
     let mut _4063: uint8_t = 0;
-    let mut _4064: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4064: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4065: uint8_t = 0;
     let mut _4066: uint8_t = 0;
     let mut _4067: uint8_t = 0;
     let mut _4068: uint8_t = 0;
-    let mut _4069: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4069: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4070: uint8_t = 0;
     let mut _4071: uint8_t = 0;
     let mut _4072: uint8_t = 0;
     let mut _4073: uint8_t = 0;
-    let mut _4074: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4074: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4075: uint8_t = 0;
     let mut _4076: uint8_t = 0;
     let mut _4077: uint8_t = 0;
     let mut _4078: uint8_t = 0;
-    let mut _4079: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4079: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4080: uint8_t = 0;
     let mut _4081: uint8_t = 0;
     let mut _4082: uint8_t = 0;
     let mut _4083: uint8_t = 0;
-    let mut _4084: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4085: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4086: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4087: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4088: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4089: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4090: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4091: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4092: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4084: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4085: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4086: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4087: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4088: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4089: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4090: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4091: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4092: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4093: core::ffi::c_float = 0.;
     let mut _4094: core::ffi::c_float = 0.;
     let mut _4095: core::ffi::c_float = 0.;
@@ -16806,7 +17034,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4099: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4100: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4100: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4101: core::ffi::c_float = 0.;
     let mut _4102: core::ffi::c_float = 0.;
     let mut _4103: core::ffi::c_float = 0.;
@@ -16820,7 +17048,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4107: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4108: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4108: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4109: core::ffi::c_float = 0.;
     let mut _4110: core::ffi::c_float = 0.;
     let mut _4111: core::ffi::c_float = 0.;
@@ -16834,7 +17062,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4115: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4116: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4116: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4117: core::ffi::c_float = 0.;
     let mut _4118: core::ffi::c_float = 0.;
     let mut _4119: core::ffi::c_float = 0.;
@@ -16848,19 +17076,19 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4123: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4124: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4125: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4126: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4124: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4125: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4126: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4127: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4128: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4129: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4130: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4128: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4129: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4131: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4132: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4132: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4133: core::ffi::c_float = 0.;
     let mut _4134: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -16877,7 +17105,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4138: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4139: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4139: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4140: core::ffi::c_float = 0.;
     let mut _4141: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -16963,7 +17191,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4168: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4169: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4169: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4170: core::ffi::c_float = 0.;
     let mut _4171: core::ffi::c_float = 0.;
     let mut _4172: core::ffi::c_float = 0.;
@@ -16971,8 +17199,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4174: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4175: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4176: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4175: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4176: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4177: core::ffi::c_float = 0.;
     let mut _4178: core::ffi::c_float = 0.;
     let mut _4179: core::ffi::c_float = 0.;
@@ -16980,8 +17208,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4181: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4182: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4183: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4182: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4183: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4184: core::ffi::c_float = 0.;
     let mut _4185: core::ffi::c_float = 0.;
     let mut _4186: core::ffi::c_float = 0.;
@@ -16995,7 +17223,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4190: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4191: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4191: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4192: core::ffi::c_float = 0.;
     let mut _4193: core::ffi::c_float = 0.;
     let mut _4194: core::ffi::c_float = 0.;
@@ -17009,8 +17237,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4198: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4199: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4200: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4199: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4200: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4201: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -17020,8 +17248,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4203: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4204: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4205: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4204: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4205: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4206: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -17031,13 +17259,13 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4208: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4209: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4209: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4210: core::ffi::c_float = 0.;
-    let mut _4211: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4211: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4212: core::ffi::c_float = 0.;
-    let mut _4213: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4213: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4214: core::ffi::c_float = 0.;
-    let mut _4215: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4215: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4216: core::ffi::c_float = 0.;
     let mut _4217: bool_0 = 0;
     let mut _4218: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -17046,8 +17274,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4219: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4220: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4221: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4220: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4221: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4222: uint32_t = 0;
     let mut _4223: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -17148,17 +17376,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4255: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4256: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4257: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4258: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4256: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4257: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4258: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4259: core::ffi::c_float = 0.;
-    let mut _4260: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4260: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4261: core::ffi::c_float = 0.;
-    let mut _4262: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4262: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4263: core::ffi::c_float = 0.;
-    let mut _4264: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4264: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4265: core::ffi::c_float = 0.;
-    let mut _4266: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4266: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4267: core::ffi::c_float = 0.;
     let mut _4268: core::ffi::c_float = 0.;
     let mut _4269: core::ffi::c_float = 0.;
@@ -17176,7 +17404,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4279: core::ffi::c_float = 0.;
     let mut _4280: core::ffi::c_float = 0.;
     let mut _4281: core::ffi::c_float = 0.;
-    let mut _4282: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4282: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4283: core::ffi::c_float = 0.;
     let mut _4284: core::ffi::c_float = 0.;
     let mut _4285: core::ffi::c_float = 0.;
@@ -17184,10 +17412,10 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4287: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4288: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4289: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4290: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4291: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4288: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4289: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4290: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4291: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4292: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4293: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4294: core::ffi::c_float = 0.;
@@ -17198,7 +17426,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4299: core::ffi::c_float = 0.;
     let mut _4300: core::ffi::c_float = 0.;
     let mut _4301: core::ffi::c_float = 0.;
-    let mut _4302: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4302: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4303: core::ffi::c_float = 0.;
     let mut _4304: core::ffi::c_float = 0.;
     let mut _4305: core::ffi::c_float = 0.;
@@ -17206,20 +17434,20 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4307: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4308: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4309: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4310: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4311: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4312: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4313: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4308: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4309: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4310: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4311: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4312: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4313: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4314: core::ffi::c_float = 0.;
-    let mut _4315: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4315: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4316: core::ffi::c_float = 0.;
-    let mut _4317: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4317: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4318: core::ffi::c_float = 0.;
-    let mut _4319: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4319: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4320: core::ffi::c_float = 0.;
-    let mut _4321: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4321: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4322: core::ffi::c_float = 0.;
     let mut _4323: core::ffi::c_float = 0.;
     let mut _4324: core::ffi::c_float = 0.;
@@ -17237,7 +17465,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4334: core::ffi::c_float = 0.;
     let mut _4335: core::ffi::c_float = 0.;
     let mut _4336: core::ffi::c_float = 0.;
-    let mut _4337: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4337: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4338: core::ffi::c_float = 0.;
     let mut _4339: core::ffi::c_float = 0.;
     let mut _4340: core::ffi::c_float = 0.;
@@ -17245,10 +17473,10 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4342: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4343: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4344: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4345: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4346: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4343: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4344: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4345: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4346: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4347: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4348: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4349: core::ffi::c_float = 0.;
@@ -17259,7 +17487,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4354: core::ffi::c_float = 0.;
     let mut _4355: core::ffi::c_float = 0.;
     let mut _4356: core::ffi::c_float = 0.;
-    let mut _4357: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4357: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4358: core::ffi::c_float = 0.;
     let mut _4359: core::ffi::c_float = 0.;
     let mut _4360: core::ffi::c_float = 0.;
@@ -17267,11 +17495,11 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4362: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4363: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4364: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4365: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4366: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4367: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4363: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4364: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4365: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4366: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4367: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4368: core::ffi::c_float = 0.;
     let mut _4369: core::ffi::c_float = 0.;
     let mut _4370: core::ffi::c_float = 0.;
@@ -17286,7 +17514,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4379: core::ffi::c_float = 0.;
     let mut _4380: core::ffi::c_float = 0.;
     let mut _4381: core::ffi::c_float = 0.;
-    let mut _4382: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4382: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4383: uint8_t = 0;
     let mut _4384: uint64_t = 0;
     let mut _4385: uint8_t = 0;
@@ -17296,8 +17524,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4389: uint8_t = 0;
     let mut _4390: uint64_t = 0;
     let mut _4391: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4392: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4393: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4392: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4393: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4394: core::ffi::c_float = 0.;
     let mut _4395: core::ffi::c_float = 0.;
     let mut _4396: core::ffi::c_float = 0.;
@@ -17312,7 +17540,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4405: core::ffi::c_float = 0.;
     let mut _4406: core::ffi::c_float = 0.;
     let mut _4407: core::ffi::c_float = 0.;
-    let mut _4408: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4408: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4409: uint8_t = 0;
     let mut _4410: uint64_t = 0;
     let mut _4411: uint8_t = 0;
@@ -17332,7 +17560,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4425: uint32_t = 0;
     let mut _4426: uint32_t = 0;
     let mut _4427: uint32_t = 0;
-    let mut _4428: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4428: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4429: uint8_t = 0;
     let mut _4430: uint64_t = 0;
     let mut _4431: uint8_t = 0;
@@ -17342,8 +17570,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4435: uint8_t = 0;
     let mut _4436: uint64_t = 0;
     let mut _4437: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4438: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4439: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4438: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4439: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4440: core::ffi::c_float = 0.;
     let mut _4441: core::ffi::c_float = 0.;
     let mut _4442: core::ffi::c_float = 0.;
@@ -17358,7 +17586,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4451: core::ffi::c_float = 0.;
     let mut _4452: core::ffi::c_float = 0.;
     let mut _4453: core::ffi::c_float = 0.;
-    let mut _4454: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4454: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4455: uint8_t = 0;
     let mut _4456: uint64_t = 0;
     let mut _4457: uint8_t = 0;
@@ -17368,8 +17596,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4461: uint8_t = 0;
     let mut _4462: uint64_t = 0;
     let mut _4463: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4464: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4465: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4464: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4465: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4466: core::ffi::c_float = 0.;
     let mut _4467: core::ffi::c_float = 0.;
     let mut _4468: core::ffi::c_float = 0.;
@@ -17384,7 +17612,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4477: core::ffi::c_float = 0.;
     let mut _4478: core::ffi::c_float = 0.;
     let mut _4479: core::ffi::c_float = 0.;
-    let mut _4480: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4480: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4481: uint8_t = 0;
     let mut _4482: uint64_t = 0;
     let mut _4483: uint8_t = 0;
@@ -17404,7 +17632,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4497: uint32_t = 0;
     let mut _4498: uint32_t = 0;
     let mut _4499: uint32_t = 0;
-    let mut _4500: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4500: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4501: uint8_t = 0;
     let mut _4502: uint64_t = 0;
     let mut _4503: uint8_t = 0;
@@ -17414,8 +17642,8 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4507: uint8_t = 0;
     let mut _4508: uint64_t = 0;
     let mut _4509: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4510: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4511: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4510: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4511: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4512: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4513: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4514: uint32_t = 0;
@@ -17426,7 +17654,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4519: uint32_t = 0;
     let mut _4520: uint32_t = 0;
     let mut _4521: uint32_t = 0;
-    let mut _4522: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4522: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4523: uint8_t = 0;
     let mut _4524: uint64_t = 0;
     let mut _4525: uint8_t = 0;
@@ -17437,17 +17665,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4530: uint64_t = 0;
     let mut _4531: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4532: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4533: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4533: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4534: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4535: uint32_t = 0;
     let mut _4536: uint32_t = 0;
     let mut _4537: uint32_t = 0;
     let mut _4538: uint32_t = 0;
     let mut _4539: uint32_t = 0;
-    let mut _4540: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4540: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4541: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _4542: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4543: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4542: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4543: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4544: core::ffi::c_float = 0.;
     let mut _4545: core::ffi::c_float = 0.;
     let mut _4546: core::ffi::c_float = 0.;
@@ -17462,7 +17690,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4555: core::ffi::c_float = 0.;
     let mut _4556: core::ffi::c_float = 0.;
     let mut _4557: core::ffi::c_float = 0.;
-    let mut _4558: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4558: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4559: core::ffi::c_float = 0.;
     let mut _4560: core::ffi::c_float = 0.;
     let mut _4561: core::ffi::c_float = 0.;
@@ -17470,26 +17698,26 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4563: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4564: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4564: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4565: core::ffi::c_float = 0.;
     let mut _4566: core::ffi::c_float = 0.;
     let mut _4567: core::ffi::c_float = 0.;
     let mut _4568: core::ffi::c_float = 0.;
-    let mut _4569: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4569: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4570: uint32_t = 0;
     let mut _4571: uint32_t = 0;
     let mut _4572: uint32_t = 0;
     let mut _4573: uint32_t = 0;
     let mut _4574: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4575: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4575: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4576: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4577: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4578: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4579: uint32_t = 0;
-    let mut _4580: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4580: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4581: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _4582: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4583: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4582: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4583: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4584: core::ffi::c_float = 0.;
     let mut _4585: core::ffi::c_float = 0.;
     let mut _4586: core::ffi::c_float = 0.;
@@ -17504,7 +17732,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4595: core::ffi::c_float = 0.;
     let mut _4596: core::ffi::c_float = 0.;
     let mut _4597: core::ffi::c_float = 0.;
-    let mut _4598: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4598: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4599: core::ffi::c_float = 0.;
     let mut _4600: core::ffi::c_float = 0.;
     let mut _4601: core::ffi::c_float = 0.;
@@ -17512,41 +17740,41 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     let mut _4603: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4604: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4604: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4605: core::ffi::c_float = 0.;
     let mut _4606: core::ffi::c_float = 0.;
     let mut _4607: core::ffi::c_float = 0.;
     let mut _4608: core::ffi::c_float = 0.;
-    let mut _4609: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4609: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4610: uint32_t = 0;
     let mut _4611: uint32_t = 0;
     let mut _4612: uint32_t = 0;
     let mut _4613: uint32_t = 0;
     let mut _4614: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4615: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4615: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4616: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4617: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4618: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4619: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4619: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4620: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4621: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4621: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4622: uint32_t = 0;
-    let mut _4623: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4623: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4624: uint32_t = 0;
-    let mut _4625: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4625: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4626: uint32_t = 0;
-    let mut _4627: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4627: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4628: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4629: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4629: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4630: uint32_t = 0;
-    let mut _4631: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4631: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4632: uint32_t = 0;
-    let mut _4633: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4633: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4634: uint32_t = 0;
-    let mut _4635: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4636: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4637: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4638: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4635: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4636: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4637: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4638: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4639: bool_0 = 0;
     *(&mut _4218.field0 as *mut l_array_4_float) = _4033;
     *(&mut _4219.field0 as *mut l_array_4_float) = _4034;
@@ -17564,22 +17792,26 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4258 = _4089;
     _4259 = *(&mut *((*(_4258 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4090 = _4257;
     _4260 = _4090;
     _4261 = *(&mut *((*(_4260 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4091 = _4257;
     _4262 = _4091;
     _4263 = *(&mut *((*(_4262 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4085 = _4257;
     _4264 = _4085;
     _4265 = *(&mut *((*(_4264 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4169 = &mut _4174 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _4170 = _4259;
     _4171 = _4261;
@@ -17591,15 +17823,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4268 = _4171;
     *(&mut *((*(_4266 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4268;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4268;
     _4269 = _4172;
     *(&mut *((*(_4266 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4269;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4269;
     _4270 = _4173;
     *(&mut *((*(_4266 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4270;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4270;
     _4271 = _4174;
     *(&mut _4225.field0 as *mut l_array_4_float) = _4271.field0;
     _4272 = *(&mut _4224.field0 as *mut l_array_4_float);
@@ -17611,27 +17843,33 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4276 = *(&mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4277 = *(&mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4278 = *(&mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4279 = *(&mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4280 = *(&mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4281 = *(&mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4183 = &mut _4188 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _4184 = llvm_fsub_f32(_4274, _4275);
     _4185 = llvm_fsub_f32(_4276, _4277);
@@ -17643,15 +17881,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4284 = _4185;
     *(&mut *((*(_4282 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4284;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4284;
     _4285 = _4186;
     *(&mut *((*(_4282 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4285;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4285;
     _4286 = _4187;
     *(&mut *((*(_4282 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4286;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4286;
     _4287 = _4188;
     *(&mut _4223.field0 as *mut l_array_4_float) = _4287.field0;
     _4199 = &mut _4218 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -17677,27 +17915,33 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4296 = *(&mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4297 = *(&mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4298 = *(&mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4299 = *(&mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4300 = *(&mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4301 = *(&mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4100 = &mut _4105 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _4101 = llvm_fadd_f32(_4294, _4295);
     _4102 = llvm_fadd_f32(_4296, _4297);
@@ -17709,15 +17953,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4304 = _4102;
     *(&mut *((*(_4302 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4304;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4304;
     _4305 = _4103;
     *(&mut *((*(_4302 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4305;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4305;
     _4306 = _4104;
     *(&mut *((*(_4302 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4306;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4306;
     _4307 = _4105;
     *(&mut _4201 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4307.field0;
     _4308 = _4199;
@@ -17738,22 +17982,26 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4313 = _4086;
     _4314 = *(&mut *((*(_4313 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4087 = _4312;
     _4315 = _4087;
     _4316 = *(&mut *((*(_4315 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4088 = _4312;
     _4317 = _4088;
     _4318 = *(&mut *((*(_4317 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4084 = _4312;
     _4319 = _4084;
     _4320 = *(&mut *((*(_4319 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4176 = &mut _4181 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _4177 = _4314;
     _4178 = _4316;
@@ -17765,15 +18013,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4323 = _4178;
     *(&mut *((*(_4321 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4323;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4323;
     _4324 = _4179;
     *(&mut *((*(_4321 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4324;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4324;
     _4325 = _4180;
     *(&mut *((*(_4321 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4325;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4325;
     _4326 = _4181;
     *(&mut _4228.field0 as *mut l_array_4_float) = _4326.field0;
     _4327 = *(&mut _4227.field0 as *mut l_array_4_float);
@@ -17785,27 +18033,33 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4331 = *(&mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4332 = *(&mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4333 = *(&mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4334 = *(&mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4335 = *(&mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4336 = *(&mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4191 = &mut _4196 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _4192 = llvm_fsub_f32(_4329, _4330);
     _4193 = llvm_fsub_f32(_4331, _4332);
@@ -17817,15 +18071,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4339 = _4193;
     *(&mut *((*(_4337 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4339;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4339;
     _4340 = _4194;
     *(&mut *((*(_4337 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4340;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4340;
     _4341 = _4195;
     *(&mut *((*(_4337 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4341;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4341;
     _4342 = _4196;
     *(&mut _4226.field0 as *mut l_array_4_float) = _4342.field0;
     _4204 = &mut _4219 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -17851,27 +18105,33 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4351 = *(&mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4352 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4353 = *(&mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4354 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4355 = *(&mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4356 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4092 = &mut _4097 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _4093 = llvm_fadd_f32(_4349, _4350);
     _4094 = llvm_fadd_f32(_4351, _4352);
@@ -17883,15 +18143,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4359 = _4094;
     *(&mut *((*(_4357 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4359;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4359;
     _4360 = _4095;
     *(&mut *((*(_4357 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4360;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4360;
     _4361 = _4096;
     *(&mut *((*(_4357 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4361;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4361;
     _4362 = _4097;
     *(&mut _4206 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4362.field0;
     _4363 = _4204;
@@ -17907,22 +18167,22 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         16 as core::ffi::c_int as uint64_t,
     );
     _4215 = &mut _4232 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _4216 = 0 as core::ffi::c_int as libc::c_float;
+    _4216 = 0 as core::ffi::c_int as core::ffi::c_float;
     _4367 = _4215;
     _4368 = _4216;
     *(_4367 as *mut core::ffi::c_float) = _4368;
     _4369 = _4216;
     *(&mut *((*(_4367 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4369;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4369;
     _4370 = _4216;
     *(&mut *((*(_4367 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4370;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4370;
     _4371 = _4216;
     *(&mut *((*(_4367 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4371;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4371;
     _4372 = *(&mut _4231.field0 as *mut l_array_4_float);
     _4373 = *(&mut _4232.field0 as *mut l_array_4_float);
     *(&mut _4155 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4372;
@@ -17932,72 +18192,78 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4376 = *(&mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4377 = *(&mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4378 = *(&mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4379 = *(&mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4380 = *(&mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4381 = *(&mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4069 = &mut _4154 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _4070 = llvm_fcmp_olt(_4374 as core::ffi::c_double, _4375 as libc::c_double) as bool_0;
-    _4071 = llvm_fcmp_olt(_4376 as core::ffi::c_double, _4377 as libc::c_double) as bool_0;
-    _4072 = llvm_fcmp_olt(_4378 as core::ffi::c_double, _4379 as libc::c_double) as bool_0;
-    _4073 = llvm_fcmp_olt(_4380 as core::ffi::c_double, _4381 as libc::c_double) as bool_0;
+    _4070 = llvm_fcmp_olt(_4374 as core::ffi::c_double, _4375 as core::ffi::c_double) as bool_0;
+    _4071 = llvm_fcmp_olt(_4376 as core::ffi::c_double, _4377 as core::ffi::c_double) as bool_0;
+    _4072 = llvm_fcmp_olt(_4378 as core::ffi::c_double, _4379 as core::ffi::c_double) as bool_0;
+    _4073 = llvm_fcmp_olt(_4380 as core::ffi::c_double, _4381 as core::ffi::c_double) as bool_0;
     _4382 = _4069;
     _4383 = _4070;
-    _4384 = ((_4383 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4384 = ((_4383 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_4382 as *mut uint32_t) = llvm_select_u32(
-        ((_4383 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4383 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4385 = _4071;
-    _4386 = ((_4385 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4386 = ((_4385 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4382 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4385 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4385 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4387 = _4072;
-    _4388 = ((_4387 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4388 = ((_4387 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4382 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4387 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4387 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4389 = _4073;
-    _4390 = ((_4389 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4390 = ((_4389 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4382 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4389 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4389 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -18009,22 +18275,22 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         16 as core::ffi::c_int as uint64_t,
     );
     _4213 = &mut _4235 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _4214 = 255 as core::ffi::c_int as libc::c_float;
+    _4214 = 255 as core::ffi::c_int as core::ffi::c_float;
     _4393 = _4213;
     _4394 = _4214;
     *(_4393 as *mut core::ffi::c_float) = _4394;
     _4395 = _4214;
     *(&mut *((*(_4393 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4395;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4395;
     _4396 = _4214;
     *(&mut *((*(_4393 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4396;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4396;
     _4397 = _4214;
     *(&mut *((*(_4393 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4397;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4397;
     _4398 = *(&mut _4234.field0 as *mut l_array_4_float);
     _4399 = *(&mut _4235.field0 as *mut l_array_4_float);
     *(&mut _4149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4398;
@@ -18034,72 +18300,78 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4402 = *(&mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4403 = *(&mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4404 = *(&mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4405 = *(&mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4406 = *(&mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4407 = *(&mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4079 = &mut _4148 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _4080 = llvm_fcmp_ogt(_4400 as core::ffi::c_double, _4401 as libc::c_double) as bool_0;
-    _4081 = llvm_fcmp_ogt(_4402 as core::ffi::c_double, _4403 as libc::c_double) as bool_0;
-    _4082 = llvm_fcmp_ogt(_4404 as core::ffi::c_double, _4405 as libc::c_double) as bool_0;
-    _4083 = llvm_fcmp_ogt(_4406 as core::ffi::c_double, _4407 as libc::c_double) as bool_0;
+    _4080 = llvm_fcmp_ogt(_4400 as core::ffi::c_double, _4401 as core::ffi::c_double) as bool_0;
+    _4081 = llvm_fcmp_ogt(_4402 as core::ffi::c_double, _4403 as core::ffi::c_double) as bool_0;
+    _4082 = llvm_fcmp_ogt(_4404 as core::ffi::c_double, _4405 as core::ffi::c_double) as bool_0;
+    _4083 = llvm_fcmp_ogt(_4406 as core::ffi::c_double, _4407 as core::ffi::c_double) as bool_0;
     _4408 = _4079;
     _4409 = _4080;
-    _4410 = ((_4409 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4410 = ((_4409 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_4408 as *mut uint32_t) = llvm_select_u32(
-        ((_4409 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4409 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4411 = _4081;
-    _4412 = ((_4411 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4412 = ((_4411 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4408 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4411 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4411 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4413 = _4082;
-    _4414 = ((_4413 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4414 = ((_4413 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4408 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4413 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4413 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4415 = _4083;
-    _4416 = ((_4415 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4416 = ((_4415 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4408 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4415 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4415 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -18136,50 +18408,50 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _4059 = &mut _4160 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _4060 = (_4420 | _4421 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4061 = (_4422 | _4423 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4062 = (_4424 | _4425 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4063 = (_4426 | _4427 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _4060 = (_4420 | _4421 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4061 = (_4422 | _4423 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4062 = (_4424 | _4425 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4063 = (_4426 | _4427 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _4428 = _4059;
     _4429 = _4060;
-    _4430 = ((_4429 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4430 = ((_4429 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_4428 as *mut uint32_t) = llvm_select_u32(
-        ((_4429 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4429 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4431 = _4061;
-    _4432 = ((_4431 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4432 = ((_4431 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4428 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4431 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4431 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4433 = _4062;
-    _4434 = ((_4433 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4434 = ((_4433 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4428 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4433 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4433 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4435 = _4063;
-    _4436 = ((_4435 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4436 = ((_4435 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4428 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4435 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4435 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -18191,22 +18463,22 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         16 as core::ffi::c_int as uint64_t,
     );
     _4211 = &mut _4239 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _4212 = 0 as core::ffi::c_int as libc::c_float;
+    _4212 = 0 as core::ffi::c_int as core::ffi::c_float;
     _4439 = _4211;
     _4440 = _4212;
     *(_4439 as *mut core::ffi::c_float) = _4440;
     _4441 = _4212;
     *(&mut *((*(_4439 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4441;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4441;
     _4442 = _4212;
     *(&mut *((*(_4439 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4442;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4442;
     _4443 = _4212;
     *(&mut *((*(_4439 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4443;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4443;
     _4444 = *(&mut _4238.field0 as *mut l_array_4_float);
     _4445 = *(&mut _4239.field0 as *mut l_array_4_float);
     *(&mut _4158 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4444;
@@ -18216,72 +18488,78 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4448 = *(&mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4449 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4450 = *(&mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4451 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4452 = *(&mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4453 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4064 = &mut _4157 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _4065 = llvm_fcmp_olt(_4446 as core::ffi::c_double, _4447 as libc::c_double) as bool_0;
-    _4066 = llvm_fcmp_olt(_4448 as core::ffi::c_double, _4449 as libc::c_double) as bool_0;
-    _4067 = llvm_fcmp_olt(_4450 as core::ffi::c_double, _4451 as libc::c_double) as bool_0;
-    _4068 = llvm_fcmp_olt(_4452 as core::ffi::c_double, _4453 as libc::c_double) as bool_0;
+    _4065 = llvm_fcmp_olt(_4446 as core::ffi::c_double, _4447 as core::ffi::c_double) as bool_0;
+    _4066 = llvm_fcmp_olt(_4448 as core::ffi::c_double, _4449 as core::ffi::c_double) as bool_0;
+    _4067 = llvm_fcmp_olt(_4450 as core::ffi::c_double, _4451 as core::ffi::c_double) as bool_0;
+    _4068 = llvm_fcmp_olt(_4452 as core::ffi::c_double, _4453 as core::ffi::c_double) as bool_0;
     _4454 = _4064;
     _4455 = _4065;
-    _4456 = ((_4455 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4456 = ((_4455 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_4454 as *mut uint32_t) = llvm_select_u32(
-        ((_4455 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4455 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4457 = _4066;
-    _4458 = ((_4457 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4458 = ((_4457 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4454 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4457 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4457 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4459 = _4067;
-    _4460 = ((_4459 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4460 = ((_4459 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4454 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4459 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4459 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4461 = _4068;
-    _4462 = ((_4461 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4462 = ((_4461 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4454 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4461 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4461 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -18293,22 +18571,22 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         16 as core::ffi::c_int as uint64_t,
     );
     _4209 = &mut _4242 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-    _4210 = 255 as core::ffi::c_int as libc::c_float;
+    _4210 = 255 as core::ffi::c_int as core::ffi::c_float;
     _4465 = _4209;
     _4466 = _4210;
     *(_4465 as *mut core::ffi::c_float) = _4466;
     _4467 = _4210;
     *(&mut *((*(_4465 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4467;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4467;
     _4468 = _4210;
     *(&mut *((*(_4465 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4468;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4468;
     _4469 = _4210;
     *(&mut *((*(_4465 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4469;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4469;
     _4470 = *(&mut _4241.field0 as *mut l_array_4_float);
     _4471 = *(&mut _4242.field0 as *mut l_array_4_float);
     *(&mut _4152 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4470;
@@ -18318,72 +18596,78 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4474 = *(&mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4475 = *(&mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4476 = *(&mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4477 = *(&mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4478 = *(&mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4479 = *(&mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _4074 = &mut _4151 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _4075 = llvm_fcmp_ogt(_4472 as core::ffi::c_double, _4473 as libc::c_double) as bool_0;
-    _4076 = llvm_fcmp_ogt(_4474 as core::ffi::c_double, _4475 as libc::c_double) as bool_0;
-    _4077 = llvm_fcmp_ogt(_4476 as core::ffi::c_double, _4477 as libc::c_double) as bool_0;
-    _4078 = llvm_fcmp_ogt(_4478 as core::ffi::c_double, _4479 as libc::c_double) as bool_0;
+    _4075 = llvm_fcmp_ogt(_4472 as core::ffi::c_double, _4473 as core::ffi::c_double) as bool_0;
+    _4076 = llvm_fcmp_ogt(_4474 as core::ffi::c_double, _4475 as core::ffi::c_double) as bool_0;
+    _4077 = llvm_fcmp_ogt(_4476 as core::ffi::c_double, _4477 as core::ffi::c_double) as bool_0;
+    _4078 = llvm_fcmp_ogt(_4478 as core::ffi::c_double, _4479 as core::ffi::c_double) as bool_0;
     _4480 = _4074;
     _4481 = _4075;
-    _4482 = ((_4481 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4482 = ((_4481 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_4480 as *mut uint32_t) = llvm_select_u32(
-        ((_4481 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4481 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4483 = _4076;
-    _4484 = ((_4483 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4484 = ((_4483 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4480 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4483 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4483 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4485 = _4077;
-    _4486 = ((_4485 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4486 = ((_4485 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4480 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4485 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4485 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4487 = _4078;
-    _4488 = ((_4487 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4488 = ((_4487 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4480 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4487 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4487 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -18420,50 +18704,50 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _4054 = &mut _4163 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _4055 = (_4492 | _4493 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4056 = (_4494 | _4495 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4057 = (_4496 | _4497 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4058 = (_4498 | _4499 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _4055 = (_4492 | _4493 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4056 = (_4494 | _4495 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4057 = (_4496 | _4497 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4058 = (_4498 | _4499 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _4500 = _4054;
     _4501 = _4055;
-    _4502 = ((_4501 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4502 = ((_4501 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_4500 as *mut uint32_t) = llvm_select_u32(
-        ((_4501 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4501 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4503 = _4056;
-    _4504 = ((_4503 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4504 = ((_4503 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4500 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4503 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4503 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4505 = _4057;
-    _4506 = ((_4505 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4506 = ((_4505 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4500 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4505 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4505 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4507 = _4058;
-    _4508 = ((_4507 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4508 = ((_4507 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4500 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4507 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4507 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -18510,50 +18794,50 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _4049 = &mut _4166 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _4050 = (_4514 | _4515 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4051 = (_4516 | _4517 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4052 = (_4518 | _4519 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _4053 = (_4520 | _4521 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _4050 = (_4514 | _4515 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4051 = (_4516 | _4517 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4052 = (_4518 | _4519 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _4053 = (_4520 | _4521 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _4522 = _4049;
     _4523 = _4050;
-    _4524 = ((_4523 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4524 = ((_4523 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_4522 as *mut uint32_t) = llvm_select_u32(
-        ((_4523 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4523 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4525 = _4051;
-    _4526 = ((_4525 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4526 = ((_4525 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4522 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4525 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4525 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4527 = _4052;
-    _4528 = ((_4527 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4528 = ((_4527 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4522 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4527 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4527 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _4529 = _4053;
-    _4530 = ((_4529 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _4530 = ((_4529 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_4522 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_4529 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_4529 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -18582,9 +18866,9 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     if _4535 & 1 as core::ffi::c_int as uint32_t
-        | _4536 & 2 as libc::c_int as uint32_t
+        | _4536 & 2 as core::ffi::c_int as uint32_t
         | _4537 & 4 as core::ffi::c_int as uint32_t
-        | _4538 & 8 as libc::c_int as uint32_t
+        | _4538 & 8 as core::ffi::c_int as uint32_t
         != 0 as core::ffi::c_uint
     {
         _4217 = 0 as core::ffi::c_int as bool_0;
@@ -18610,15 +18894,18 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4545 = _4133;
         *(&mut *((*(_4543 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4545;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4545;
         _4546 = _4133;
         *(&mut *((*(_4543 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4546;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4546;
         _4547 = _4133;
         *(&mut *((*(_4543 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4547;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4547;
         _4548 = *(&mut _4137 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _4549 = *(&mut _4138 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4548;
@@ -18629,32 +18916,32 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4553 = *(&mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4554 = *(&mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4555 = *(&mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4556 = *(&mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4557 = *(&mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4116 = &mut _4121 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4117 = llvm_fadd_f32(_4550, _4551);
         _4118 = llvm_fadd_f32(_4552, _4553);
@@ -18666,15 +18953,18 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4560 = _4118;
         *(&mut *((*(_4558 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4560;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4560;
         _4561 = _4119;
         *(&mut *((*(_4558 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4561;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4561;
         _4562 = _4120;
         *(&mut *((*(_4558 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4562;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4562;
         _4563 = _4121;
         *(&mut _4136 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4563.field0;
         _4564 = memcpy(
@@ -18687,17 +18977,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4567 = *(&mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4568 = *(&mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4043 = &mut _4134 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4044 = _4565 as int32_t as uint32_t;
         _4045 = _4566 as int32_t as uint32_t;
@@ -18750,15 +19040,18 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4585 = _4140;
         *(&mut *((*(_4583 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4585;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4585;
         _4586 = _4140;
         *(&mut *((*(_4583 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4586;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4586;
         _4587 = _4140;
         *(&mut *((*(_4583 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4587;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4587;
         _4588 = *(&mut _4144 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _4589 = *(&mut _4145 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _4114 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4588;
@@ -18769,32 +19062,32 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4593 = *(&mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4594 = *(&mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4595 = *(&mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4596 = *(&mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4597 = *(&mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4108 = &mut _4113 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4109 = llvm_fadd_f32(_4590, _4591);
         _4110 = llvm_fadd_f32(_4592, _4593);
@@ -18806,15 +19099,18 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4600 = _4110;
         *(&mut *((*(_4598 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4600;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4600;
         _4601 = _4111;
         *(&mut *((*(_4598 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4601;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4601;
         _4602 = _4112;
         *(&mut *((*(_4598 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4602;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4602;
         _4603 = _4113;
         *(&mut _4143 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4603.field0;
         _4604 = memcpy(
@@ -18827,17 +19123,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4607 = *(&mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4608 = *(&mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4038 = &mut _4141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4039 = _4605 as int32_t as uint32_t;
         _4040 = _4606 as int32_t as uint32_t;
@@ -18940,7 +19236,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     mut _4648: *mut core::ffi::c_void,
     mut _4649: uint32_t,
 ) {
-    let mut _4650: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4650: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4651: uint32_t = 0;
     let mut _4652: uint32_t = 0;
     let mut _4653: uint32_t = 0;
@@ -18954,7 +19250,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4657: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4658: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4658: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4659: uint32_t = 0;
     let mut _4660: uint32_t = 0;
     let mut _4661: uint32_t = 0;
@@ -18968,17 +19264,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4665: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4666: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4666: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4667: uint32_t = 0;
     let mut _4668: uint32_t = 0;
     let mut _4669: uint32_t = 0;
     let mut _4670: uint32_t = 0;
-    let mut _4671: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4671: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4672: uint32_t = 0;
     let mut _4673: uint32_t = 0;
     let mut _4674: uint32_t = 0;
     let mut _4675: uint32_t = 0;
-    let mut _4676: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4676: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4677: core::ffi::c_float = 0.;
     let mut _4678: core::ffi::c_float = 0.;
     let mut _4679: core::ffi::c_float = 0.;
@@ -18992,7 +19288,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4683: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4684: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4684: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4685: core::ffi::c_float = 0.;
     let mut _4686: core::ffi::c_float = 0.;
     let mut _4687: core::ffi::c_float = 0.;
@@ -19006,7 +19302,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4691: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4692: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4692: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4693: core::ffi::c_float = 0.;
     let mut _4694: core::ffi::c_float = 0.;
     let mut _4695: core::ffi::c_float = 0.;
@@ -19020,23 +19316,23 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4699: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4700: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4701: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4702: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4700: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4701: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4702: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4703: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4704: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4705: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4706: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4704: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4705: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4706: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4707: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4708: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4708: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4709: uint32_t = 0;
-    let mut _4710: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4710: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4711: uint32_t = 0;
-    let mut _4712: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4712: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4713: core::ffi::c_float = 0.;
     let mut _4714: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -19053,7 +19349,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4718: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4719: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4719: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4720: core::ffi::c_float = 0.;
     let mut _4721: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -19070,7 +19366,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4725: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4726: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4726: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4727: core::ffi::c_float = 0.;
     let mut _4728: core::ffi::c_float = 0.;
     let mut _4729: core::ffi::c_float = 0.;
@@ -19084,7 +19380,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4733: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4734: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4734: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4735: core::ffi::c_float = 0.;
     let mut _4736: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -19092,8 +19388,8 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4737: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4738: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4739: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4738: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4739: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4740: uint32_t = 0;
     let mut _4741: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -19170,15 +19466,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4765: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _4766: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4766: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4767: core::ffi::c_float = 0.;
     let mut _4768: core::ffi::c_float = 0.;
     let mut _4769: core::ffi::c_float = 0.;
     let mut _4770: core::ffi::c_float = 0.;
-    let mut _4771: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4771: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4772: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _4773: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4774: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4773: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4774: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4775: core::ffi::c_float = 0.;
     let mut _4776: core::ffi::c_float = 0.;
     let mut _4777: core::ffi::c_float = 0.;
@@ -19193,7 +19489,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4786: core::ffi::c_float = 0.;
     let mut _4787: core::ffi::c_float = 0.;
     let mut _4788: core::ffi::c_float = 0.;
-    let mut _4789: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4789: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4790: core::ffi::c_float = 0.;
     let mut _4791: core::ffi::c_float = 0.;
     let mut _4792: core::ffi::c_float = 0.;
@@ -19201,18 +19497,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4794: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4795: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4795: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4796: core::ffi::c_float = 0.;
     let mut _4797: core::ffi::c_float = 0.;
     let mut _4798: core::ffi::c_float = 0.;
     let mut _4799: core::ffi::c_float = 0.;
-    let mut _4800: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4800: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4801: uint32_t = 0;
     let mut _4802: uint32_t = 0;
     let mut _4803: uint32_t = 0;
     let mut _4804: uint32_t = 0;
     let mut _4805: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4806: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4806: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4807: uint32_t = 0;
     let mut _4808: uint32_t = 0;
     let mut _4809: uint32_t = 0;
@@ -19243,21 +19539,21 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4831: uint32_t = 0;
     let mut _4832: uint32_t = 0;
     let mut _4832__PHI_TEMPORARY: uint32_t = 0;
-    let mut _4833: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4833: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4834: uint32_t = 0;
     let mut _4835: uint32_t = 0;
     let mut _4836: uint32_t = 0;
     let mut _4837: uint32_t = 0;
     let mut _4838: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4839: uint32_t = 0;
-    let mut _4840: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4841: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4840: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4841: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4842: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4843: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4844: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4845: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4846: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4847: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4845: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4846: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4847: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4848: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4849: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4850: core::ffi::c_float = 0.;
@@ -19268,7 +19564,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4855: core::ffi::c_float = 0.;
     let mut _4856: core::ffi::c_float = 0.;
     let mut _4857: core::ffi::c_float = 0.;
-    let mut _4858: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4858: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4859: core::ffi::c_float = 0.;
     let mut _4860: core::ffi::c_float = 0.;
     let mut _4861: core::ffi::c_float = 0.;
@@ -19276,11 +19572,11 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4863: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4864: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4865: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4864: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4865: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4866: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _4867: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4868: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4867: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4868: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4869: core::ffi::c_float = 0.;
     let mut _4870: core::ffi::c_float = 0.;
     let mut _4871: core::ffi::c_float = 0.;
@@ -19295,7 +19591,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4880: core::ffi::c_float = 0.;
     let mut _4881: core::ffi::c_float = 0.;
     let mut _4882: core::ffi::c_float = 0.;
-    let mut _4883: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4883: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4884: core::ffi::c_float = 0.;
     let mut _4885: core::ffi::c_float = 0.;
     let mut _4886: core::ffi::c_float = 0.;
@@ -19303,18 +19599,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4888: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4889: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4889: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4890: core::ffi::c_float = 0.;
     let mut _4891: core::ffi::c_float = 0.;
     let mut _4892: core::ffi::c_float = 0.;
     let mut _4893: core::ffi::c_float = 0.;
-    let mut _4894: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4894: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4895: uint32_t = 0;
     let mut _4896: uint32_t = 0;
     let mut _4897: uint32_t = 0;
     let mut _4898: uint32_t = 0;
     let mut _4899: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4900: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4900: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4901: uint32_t = 0;
     let mut _4902: uint32_t = 0;
     let mut _4903: uint32_t = 0;
@@ -19345,21 +19641,21 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4925: uint32_t = 0;
     let mut _4926: uint32_t = 0;
     let mut _4926__PHI_TEMPORARY: uint32_t = 0;
-    let mut _4927: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4927: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4928: uint32_t = 0;
     let mut _4929: uint32_t = 0;
     let mut _4930: uint32_t = 0;
     let mut _4931: uint32_t = 0;
     let mut _4932: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4933: uint32_t = 0;
-    let mut _4934: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4935: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4934: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4935: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4936: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _4937: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4938: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4939: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4940: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4941: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4939: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4940: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4941: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4942: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4943: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _4944: core::ffi::c_float = 0.;
@@ -19370,7 +19666,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4949: core::ffi::c_float = 0.;
     let mut _4950: core::ffi::c_float = 0.;
     let mut _4951: core::ffi::c_float = 0.;
-    let mut _4952: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4952: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4953: core::ffi::c_float = 0.;
     let mut _4954: core::ffi::c_float = 0.;
     let mut _4955: core::ffi::c_float = 0.;
@@ -19378,27 +19674,27 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     let mut _4957: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _4958: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4959: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4958: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4959: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4960: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4961: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4961: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4962: uint32_t = 0;
-    let mut _4963: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4963: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4964: uint32_t = 0;
-    let mut _4965: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4965: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4966: uint32_t = 0;
-    let mut _4967: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4967: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4968: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _4969: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4969: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4970: uint32_t = 0;
-    let mut _4971: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4971: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4972: uint32_t = 0;
-    let mut _4973: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4973: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _4974: uint32_t = 0;
-    let mut _4975: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4976: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4977: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _4978: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _4975: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4976: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4977: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _4978: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     *(&mut _4736.field0 as *mut l_array_4_float) = _4645;
     *(&mut _4737.field0 as *mut l_array_4_float) = _4646;
     _4738 = _4647;
@@ -19412,15 +19708,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     _4768 = _4735;
     *(&mut *((*(_4766 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4768;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4768;
     _4769 = _4735;
     *(&mut *((*(_4766 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4769;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4769;
     _4770 = _4735;
     *(&mut *((*(_4766 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4770;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4770;
     loop {
         _4771 = memcpy(
             &mut _4746 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -19442,15 +19738,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4776 = _4713;
         *(&mut *((*(_4774 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4776;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4776;
         _4777 = _4713;
         *(&mut *((*(_4774 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4777;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4777;
         _4778 = _4713;
         *(&mut *((*(_4774 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4778;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4778;
         _4779 = *(&mut _4717 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _4780 = *(&mut _4718 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _4698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4779;
@@ -19461,32 +19760,32 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4784 = *(&mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4785 = *(&mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4786 = *(&mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4787 = *(&mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4788 = *(&mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4692 = &mut _4697 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4693 = llvm_fadd_f32(_4781, _4782);
         _4694 = llvm_fadd_f32(_4783, _4784);
@@ -19498,15 +19797,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4791 = _4694;
         *(&mut *((*(_4789 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4791;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4791;
         _4792 = _4695;
         *(&mut *((*(_4789 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4792;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4792;
         _4793 = _4696;
         *(&mut *((*(_4789 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4793;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4793;
         _4794 = _4697;
         *(&mut _4716 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4794.field0;
         _4795 = memcpy(
@@ -19519,17 +19821,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4798 = *(&mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4799 = *(&mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4671 = &mut _4714 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4672 = _4796 as int32_t as uint32_t;
         _4673 = _4797 as int32_t as uint32_t;
@@ -19729,32 +20031,32 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4853 = *(&mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4854 = *(&mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4855 = *(&mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4856 = *(&mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4857 = *(&mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4726 = &mut _4731 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4727 = llvm_fsub_f32(_4850, _4851);
         _4728 = llvm_fsub_f32(_4852, _4853);
@@ -19766,15 +20068,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4860 = _4728;
         *(&mut *((*(_4858 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4860;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4860;
         _4861 = _4729;
         *(&mut *((*(_4858 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4861;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4861;
         _4862 = _4730;
         *(&mut *((*(_4858 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4862;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4862;
         _4863 = _4731;
         *(&mut _4751.field0 as *mut l_array_4_float) = _4863.field0;
         _4864 = memcpy(
@@ -19802,15 +20107,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4870 = _4720;
         *(&mut *((*(_4868 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4870;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4870;
         _4871 = _4720;
         *(&mut *((*(_4868 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4871;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4871;
         _4872 = _4720;
         *(&mut *((*(_4868 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4872;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4872;
         _4873 = *(&mut _4724 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         _4874 = *(&mut _4725 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
         *(&mut _4690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4873;
@@ -19821,32 +20129,32 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4878 = *(&mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4879 = *(&mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4880 = *(&mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4881 = *(&mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4882 = *(&mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4684 = &mut _4689 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4685 = llvm_fadd_f32(_4875, _4876);
         _4686 = llvm_fadd_f32(_4877, _4878);
@@ -19858,15 +20166,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4885 = _4686;
         *(&mut *((*(_4883 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4885;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4885;
         _4886 = _4687;
         *(&mut *((*(_4883 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4886;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4886;
         _4887 = _4688;
         *(&mut *((*(_4883 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4887;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4887;
         _4888 = _4689;
         *(&mut _4723 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _4888.field0;
         _4889 = memcpy(
@@ -19879,17 +20190,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4892 = *(&mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4893 = *(&mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4666 = &mut _4721 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4667 = _4890 as int32_t as uint32_t;
         _4668 = _4891 as int32_t as uint32_t;
@@ -20089,32 +20400,32 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4947 = *(&mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4948 = *(&mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4949 = *(&mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4950 = *(&mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4951 = *(&mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _4676 = &mut _4681 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4677 = llvm_fadd_f32(_4944, _4945);
         _4678 = llvm_fadd_f32(_4946, _4947);
@@ -20126,15 +20437,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4954 = _4678;
         *(&mut *((*(_4952 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4954;
+            .offset(1 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4954;
         _4955 = _4679;
         *(&mut *((*(_4952 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4955;
+            .offset(2 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4955;
         _4956 = _4680;
         *(&mut *((*(_4952 as *mut l_array_4_float)).array)
             .as_mut_ptr()
-            .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _4956;
+            .offset(3 as core::ffi::c_int as int64_t as isize)
+            as *mut core::ffi::c_float) = _4956;
         _4957 = _4681;
         *(&mut _4761.field0 as *mut l_array_4_float) = _4957.field0;
         _4958 = memcpy(
@@ -20215,8 +20529,8 @@ unsafe extern "C" fn _ZL37try_quantize_rgba_delta_blue_contract7vfloat4S_R5vint4
     let mut _5012: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5013: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5014: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5013: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5014: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5015: uint32_t = 0;
     let mut _5016: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -20230,18 +20544,18 @@ unsafe extern "C" fn _ZL37try_quantize_rgba_delta_blue_contract7vfloat4S_R5vint4
     let mut _5019: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5020: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5021: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5022: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5023: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5020: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5021: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5022: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5023: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5024: uint32_t = 0;
     let mut _5025: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5026: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5027: bool_0 = 0;
-    let mut _5028: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5029: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5030: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5031: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5028: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5029: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5030: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5031: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5032: uint32_t = 0;
     let mut _5033: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5034: l_array_4_float = l_array_4_float { array: [0.; 4] };
@@ -20311,8 +20625,8 @@ unsafe extern "C" fn _ZL23try_quantize_rgba_delta7vfloat4S_R5vint4S1_12quant_met
     let mut _5045: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5046: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5047: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5046: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5047: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5048: uint32_t = 0;
     let mut _5049: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -20326,18 +20640,18 @@ unsafe extern "C" fn _ZL23try_quantize_rgba_delta7vfloat4S_R5vint4S1_12quant_met
     let mut _5052: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5053: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5054: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5055: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5056: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5053: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5054: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5055: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5056: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5057: uint32_t = 0;
     let mut _5058: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5059: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5060: bool_0 = 0;
-    let mut _5061: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5062: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5063: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5064: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5061: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5062: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5063: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5064: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5065: uint32_t = 0;
     let mut _5066: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5067: l_array_4_float = l_array_4_float { array: [0.; 4] };
@@ -20401,11 +20715,11 @@ unsafe extern "C" fn _ZL31try_quantize_rgba_blue_contract7vfloat4S_R5vint4S1_12q
     mut _5075: *mut core::ffi::c_void,
     mut _5076: uint32_t,
 ) -> bool_0 {
-    let mut _5077: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5078: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5079: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5077: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5078: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5079: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5080: uint32_t = 0;
-    let mut _5081: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5081: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5082: uint32_t = 0;
     let mut _5083: bool_0 = 0;
     let mut _5084: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -20414,8 +20728,8 @@ unsafe extern "C" fn _ZL31try_quantize_rgba_blue_contract7vfloat4S_R5vint4S1_12q
     let mut _5085: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5086: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5087: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5086: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5087: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5088: uint32_t = 0;
     let mut _5089: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -20425,33 +20739,33 @@ unsafe extern "C" fn _ZL31try_quantize_rgba_blue_contract7vfloat4S_R5vint4S1_12q
     };
     let mut _5091: core::ffi::c_float = 0.;
     let mut _5092: core::ffi::c_float = 0.;
-    let mut _5093: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5094: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5095: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5096: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5093: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5094: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5095: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5096: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5097: uint32_t = 0;
     let mut _5098: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5099: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5100: bool_0 = 0;
-    let mut _5101: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5101: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5102: core::ffi::c_float = 0.;
-    let mut _5103: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5103: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5104: core::ffi::c_float = 0.;
-    let mut _5105: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5105: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5106: uint32_t = 0;
     let mut _5107: core::ffi::c_float = 0.;
     let mut _5108: uint32_t = 0;
     let mut _5109: core::ffi::c_float = 0.;
     let mut _5110: uint8_t = 0;
-    let mut _5111: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5111: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5112: uint32_t = 0;
-    let mut _5113: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5113: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5114: uint32_t = 0;
     let mut _5115: core::ffi::c_float = 0.;
     let mut _5116: uint32_t = 0;
     let mut _5117: core::ffi::c_float = 0.;
     let mut _5118: uint8_t = 0;
-    let mut _5119: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5119: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5120: uint32_t = 0;
     let mut _5121: bool_0 = 0;
     *(&mut _5084.field0 as *mut l_array_4_float) = _5072;
@@ -20483,14 +20797,14 @@ unsafe extern "C" fn _ZL31try_quantize_rgba_blue_contract7vfloat4S_R5vint4S1_12q
         _5102 = *(&mut *((*(_5101 as *mut l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5091 = _5102;
         _5078 = &mut _5085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5103 = _5078;
         _5104 = *(&mut *((*(_5103 as *mut l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5092 = _5104;
         _5105 = _5086;
         _5106 = _5088;
@@ -20533,11 +20847,11 @@ unsafe extern "C" fn _ZL13quantize_rgba7vfloat4S_R5vint4S1_12quant_method(
     mut _5128: *mut core::ffi::c_void,
     mut _5129: uint32_t,
 ) {
-    let mut _5130: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5131: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5132: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5131: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5132: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5133: uint32_t = 0;
-    let mut _5134: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5134: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5135: uint32_t = 0;
     let mut _5136: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -20545,8 +20859,8 @@ unsafe extern "C" fn _ZL13quantize_rgba7vfloat4S_R5vint4S1_12quant_method(
     let mut _5137: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5138: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5139: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5138: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5139: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5140: uint32_t = 0;
     let mut _5141: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -20556,32 +20870,32 @@ unsafe extern "C" fn _ZL13quantize_rgba7vfloat4S_R5vint4S1_12quant_method(
     };
     let mut _5143: core::ffi::c_float = 0.;
     let mut _5144: core::ffi::c_float = 0.;
-    let mut _5145: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5146: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5147: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5148: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5145: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5146: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5147: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5148: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5149: uint32_t = 0;
     let mut _5150: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _5151: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5152: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5152: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5153: core::ffi::c_float = 0.;
-    let mut _5154: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5154: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5155: core::ffi::c_float = 0.;
-    let mut _5156: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5156: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5157: uint32_t = 0;
     let mut _5158: core::ffi::c_float = 0.;
     let mut _5159: uint32_t = 0;
     let mut _5160: core::ffi::c_float = 0.;
     let mut _5161: uint8_t = 0;
-    let mut _5162: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5162: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5163: uint32_t = 0;
-    let mut _5164: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5164: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5165: uint32_t = 0;
     let mut _5166: core::ffi::c_float = 0.;
     let mut _5167: uint32_t = 0;
     let mut _5168: core::ffi::c_float = 0.;
     let mut _5169: uint8_t = 0;
-    let mut _5170: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5170: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5171: uint32_t = 0;
     *(&mut _5136.field0 as *mut l_array_4_float) = _5125;
     *(&mut _5137.field0 as *mut l_array_4_float) = _5126;
@@ -20608,13 +20922,15 @@ unsafe extern "C" fn _ZL13quantize_rgba7vfloat4S_R5vint4S1_12quant_method(
     _5152 = _5130;
     _5153 = *(&mut *((*(_5152 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5143 = _5153;
     _5131 = &mut _5137 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5154 = _5131;
     _5155 = *(&mut *((*(_5154 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5144 = _5155;
     _5156 = _5138;
     _5157 = _5140;
@@ -20649,20 +20965,20 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     mut _5173: *mut core::ffi::c_void,
     mut _5174: uint32_t,
 ) {
-    let mut _5175: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5176: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5177: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5175: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5176: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5177: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5178: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5179: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5180: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5181: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5182: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5179: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5180: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5181: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5182: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5183: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5184: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5184: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5185: uint32_t = 0;
     let mut _5186: core::ffi::c_float = 0.;
     let mut _5187: core::ffi::c_float = 0.;
@@ -20678,15 +20994,15 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     let mut _5195: core::ffi::c_float = 0.;
     let mut _5196: core::ffi::c_float = 0.;
     let mut _5197: uint32_t = 0;
-    let mut _5198: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5198: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5199: core::ffi::c_float = 0.;
     let mut _5200: core::ffi::c_float = 0.;
     let mut _5201: core::ffi::c_float = 0.;
-    let mut _5202: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5202: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5203: core::ffi::c_float = 0.;
     let mut _5204: core::ffi::c_float = 0.;
     let mut _5205: core::ffi::c_float = 0.;
-    let mut _5206: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5206: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5207: core::ffi::c_float = 0.;
     let mut _5208: core::ffi::c_float = 0.;
     let mut _5209: core::ffi::c_float = 0.;
@@ -20705,19 +21021,19 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     let mut _5222: uint32_t = 0;
     let mut _5223: core::ffi::c_float = 0.;
     let mut _5224: uint8_t = 0;
-    let mut _5225: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5225: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5226: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5227: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5227: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5228: core::ffi::c_float = 0.;
-    let mut _5229: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5229: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5230: core::ffi::c_float = 0.;
-    let mut _5231: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5231: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5232: core::ffi::c_float = 0.;
     let mut _5233: core::ffi::c_float = 0.;
     let mut _5234: uint32_t = 0;
     let mut _5235: uint32_t = 0;
     let mut _5236: uint32_t = 0;
-    let mut _5237: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5237: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5238: core::ffi::c_float = 0.;
     let mut _5239: core::ffi::c_float = 0.;
     let mut _5240: core::ffi::c_float = 0.;
@@ -20727,15 +21043,15 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     let mut _5244: uint32_t = 0;
     let mut _5245: uint32_t = 0;
     let mut _5246: uint32_t = 0;
-    let mut _5247: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5247: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5248: uint32_t = 0;
-    let mut _5249: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5249: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5250: uint32_t = 0;
-    let mut _5251: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5251: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5252: uint32_t = 0;
     let mut _5253: uint32_t = 0;
     let mut _5254: uint8_t = 0;
-    let mut _5255: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5255: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     *(&mut _5183.field0 as *mut l_array_4_float) = _5172;
     _5184 = _5173;
     _5185 = _5174;
@@ -20750,7 +21066,8 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5202 = _5179;
     _5203 = *(&mut *((*(_5202 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5204 = _5186;
     _5205 = _ZN4astcL9clamp255fEf(llvm_fmul_f32(_5203, _5204));
     _5188 = _5205;
@@ -20758,7 +21075,8 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5206 = _5182;
     _5207 = *(&mut *((*(_5206 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5208 = _5186;
     _5209 = _ZN4astcL9clamp255fEf(llvm_fmul_f32(_5207, _5208));
     _5189 = _5209;
@@ -20794,12 +21112,14 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5229 = _5175;
     _5230 = *(&mut *((*(_5229 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5177 = &mut _5178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5231 = _5177;
     _5232 = *(&mut *((*(_5231 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5233 = _5186;
     _5193 = llvm_fmul_f32(llvm_fadd_f32(llvm_fadd_f32(_5228, _5230), _5232), _5233);
     _5234 = _5190;
@@ -20810,7 +21130,8 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5237 = _5181;
     _5238 = *(&mut *((*(_5237 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5239 = _5193;
     _5240 = _5195;
     _5241 = _ZN4astcL7clamp1fEf(llvm_fdiv_f32(
@@ -20824,7 +21145,7 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5242 = _5196;
     _5243 = _ZN4astcL11flt2int_rtnEf(llvm_fmul_f32(
         _5242,
-        256 as core::ffi::c_int as libc::c_float,
+        256 as core::ffi::c_int as core::ffi::c_float,
     ));
     _5197 = _5243;
     _5244 = _5197;
@@ -20859,11 +21180,11 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     mut _5258: uint32_t,
 ) {
     let mut current_block: u64;
-    let mut _5259: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5260: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5261: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5262: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5263: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5259: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5260: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5261: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5262: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5263: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5264: core::ffi::c_float = 0.;
     let mut _5265: core::ffi::c_float = 0.;
     let mut _5266: core::ffi::c_float = 0.;
@@ -20871,12 +21192,12 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5268: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5269: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5270: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5271: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5272: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5273: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5274: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5269: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5270: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5271: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5272: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5273: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5274: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5275: core::ffi::c_float = 0.;
     let mut _5276: core::ffi::c_float = 0.;
     let mut _5277: core::ffi::c_float = 0.;
@@ -20884,41 +21205,41 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5279: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5280: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5281: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5280: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5281: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5282: core::ffi::c_float = 0.;
-    let mut _5283: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5283: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5284: core::ffi::c_float = 0.;
-    let mut _5285: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5285: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5286: core::ffi::c_float = 0.;
-    let mut _5287: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5288: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5289: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5290: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5291: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5292: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5293: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5294: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5295: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5296: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5297: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5298: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5299: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5300: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5301: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5302: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5303: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5304: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5305: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5306: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5307: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5308: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5309: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5310: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5311: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5312: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5313: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5314: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5287: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5288: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5289: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5290: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5291: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5292: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5293: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5294: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5295: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5296: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5297: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5298: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5299: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5300: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5301: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5302: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5303: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5304: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5305: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5306: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5307: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5308: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5309: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5310: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5311: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5312: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5313: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5314: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5315: core::ffi::c_float = 0.;
     let mut _5316: core::ffi::c_float = 0.;
     let mut _5317: core::ffi::c_float = 0.;
@@ -20932,14 +21253,14 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5321: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5322: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5322: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5323: core::ffi::c_float = 0.;
     let mut _5324: core::ffi::c_float = 0.;
     let mut _5325: core::ffi::c_float = 0.;
     let mut _5326: core::ffi::c_float = 0.;
-    let mut _5327: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5327: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5328: core::ffi::c_float = 0.;
-    let mut _5329: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5329: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5330: core::ffi::c_float = 0.;
     let mut _5331: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -20993,7 +21314,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5350: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5351: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5351: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5352: uint32_t = 0;
     let mut _5353: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -21052,32 +21373,32 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5397: core::ffi::c_float = 0.;
     let mut _5398: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
     let mut _5399: uint8_t = 0;
-    let mut _5400: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5400: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5401: core::ffi::c_float = 0.;
-    let mut _5402: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5402: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5403: core::ffi::c_float = 0.;
-    let mut _5404: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5404: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5405: core::ffi::c_float = 0.;
-    let mut _5406: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5406: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5407: core::ffi::c_float = 0.;
-    let mut _5408: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5408: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5409: core::ffi::c_float = 0.;
-    let mut _5410: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5410: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5411: core::ffi::c_float = 0.;
-    let mut _5412: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5412: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5413: core::ffi::c_float = 0.;
-    let mut _5414: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5414: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5415: core::ffi::c_float = 0.;
-    let mut _5416: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5416: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5417: core::ffi::c_float = 0.;
-    let mut _5418: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5418: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5419: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5420: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5420: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5421: core::ffi::c_float = 0.;
     let mut _5422: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5423: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5423: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5424: core::ffi::c_float = 0.;
-    let mut _5425: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5425: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5426: core::ffi::c_float = 0.;
     let mut _5427: core::ffi::c_float = 0.;
     let mut _5428: core::ffi::c_float = 0.;
@@ -21108,7 +21429,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5450: core::ffi::c_float = 0.;
     let mut _5451: core::ffi::c_float = 0.;
     let mut _5451__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _5452: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5452: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5453: core::ffi::c_float = 0.;
     let mut _5454: core::ffi::c_float = 0.;
     let mut _5455: core::ffi::c_float = 0.;
@@ -21121,9 +21442,9 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     };
     let mut _5459: core::ffi::c_float = 0.;
     let mut _5460: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _5461: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5461: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5462: core::ffi::c_float = 0.;
-    let mut _5463: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5463: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5464: core::ffi::c_float = 0.;
     let mut _5465: core::ffi::c_float = 0.;
     let mut _5466: core::ffi::c_float = 0.;
@@ -21154,7 +21475,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5488: core::ffi::c_float = 0.;
     let mut _5489: core::ffi::c_float = 0.;
     let mut _5489__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _5490: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5490: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5491: core::ffi::c_float = 0.;
     let mut _5492: core::ffi::c_float = 0.;
     let mut _5493: core::ffi::c_float = 0.;
@@ -21168,31 +21489,31 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5497: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5498: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5499: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5500: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5498: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5499: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5500: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5501: core::ffi::c_float = 0.;
-    let mut _5502: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5502: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5503: core::ffi::c_float = 0.;
-    let mut _5504: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5504: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5505: core::ffi::c_float = 0.;
-    let mut _5506: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5506: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5507: core::ffi::c_float = 0.;
-    let mut _5508: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5508: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5509: core::ffi::c_float = 0.;
-    let mut _5510: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5510: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5511: core::ffi::c_float = 0.;
     let mut _5512: uint32_t = 0;
-    let mut _5513: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5514: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5513: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5514: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5515: core::ffi::c_float = 0.;
-    let mut _5516: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5517: core::ffi::c_float = 0.;
-    let mut _5518: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5518: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5519: core::ffi::c_float = 0.;
-    let mut _5520: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5520: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5521: core::ffi::c_float = 0.;
-    let mut _5522: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5522: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5523: core::ffi::c_float = 0.;
     let mut _5524: core::ffi::c_float = 0.;
     let mut _5525: core::ffi::c_float = 0.;
@@ -21200,17 +21521,17 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5527: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5528: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5529: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5530: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5528: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5529: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5530: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5531: core::ffi::c_float = 0.;
-    let mut _5532: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5532: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5533: core::ffi::c_float = 0.;
-    let mut _5534: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5534: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5535: core::ffi::c_float = 0.;
-    let mut _5536: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5536: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5537: core::ffi::c_float = 0.;
-    let mut _5538: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5538: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5539: core::ffi::c_float = 0.;
     let mut _5540: core::ffi::c_float = 0.;
     let mut _5541: core::ffi::c_float = 0.;
@@ -21218,18 +21539,18 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5543: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5544: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5545: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5544: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5545: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5546: core::ffi::c_float = 0.;
-    let mut _5547: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5547: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5548: core::ffi::c_float = 0.;
-    let mut _5549: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5549: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5550: core::ffi::c_float = 0.;
-    let mut _5551: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5551: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5552: core::ffi::c_float = 0.;
-    let mut _5553: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5553: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5554: core::ffi::c_float = 0.;
-    let mut _5555: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5555: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5556: core::ffi::c_float = 0.;
     let mut _5557: uint32_t = 0;
     let mut _5558: core::ffi::c_float = 0.;
@@ -21270,10 +21591,10 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5592: uint32_t = 0;
     let mut _5593: core::ffi::c_float = 0.;
     let mut _5594: core::ffi::c_float = 0.;
-    let mut _5595: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5595: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5596: core::ffi::c_float = 0.;
     let mut _5597: core::ffi::c_float = 0.;
-    let mut _5598: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5598: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5599: core::ffi::c_float = 0.;
     let mut _5600: core::ffi::c_float = 0.;
     let mut _5601: core::ffi::c_float = 0.;
@@ -21330,15 +21651,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5652: uint32_t = 0;
     let mut _5653: core::ffi::c_float = 0.;
     let mut _5654: core::ffi::c_float = 0.;
-    let mut _5655: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5655: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5656: core::ffi::c_float = 0.;
     let mut _5657: core::ffi::c_float = 0.;
     let mut _5658: core::ffi::c_float = 0.;
-    let mut _5659: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5659: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5660: core::ffi::c_float = 0.;
     let mut _5661: core::ffi::c_float = 0.;
     let mut _5662: core::ffi::c_float = 0.;
-    let mut _5663: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5663: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5664: core::ffi::c_float = 0.;
     let mut _5665: core::ffi::c_float = 0.;
     let mut _5666: core::ffi::c_float = 0.;
@@ -21370,21 +21691,21 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5692: uint32_t = 0;
     let mut _5693: uint32_t = 0;
     let mut _5694: uint8_t = 0;
-    let mut _5695: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5695: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5696: uint8_t = 0;
-    let mut _5697: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5697: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5698: uint8_t = 0;
-    let mut _5699: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5699: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5700: uint8_t = 0;
-    let mut _5701: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5701: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5702: uint32_t = 0;
-    let mut _5703: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5703: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5704: core::ffi::c_float = 0.;
-    let mut _5705: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5705: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5706: core::ffi::c_float = 0.;
-    let mut _5707: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5707: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5708: core::ffi::c_float = 0.;
-    let mut _5709: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5709: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5710: core::ffi::c_float = 0.;
     let mut _5711: uint32_t = 0;
     let mut _5712: uint32_t = 0;
@@ -21406,7 +21727,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5728: core::ffi::c_float = 0.;
     let mut _5729: core::ffi::c_float = 0.;
     let mut _5730: core::ffi::c_float = 0.;
-    let mut _5731: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5731: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5732: core::ffi::c_float = 0.;
     let mut _5733: core::ffi::c_float = 0.;
     let mut _5734: core::ffi::c_float = 0.;
@@ -21422,7 +21743,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     let mut _5744: uint32_t = 0;
     let mut _5745: uint8_t = 0;
     let mut _5746: uint32_t = 0;
-    let mut _5747: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5747: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5748: uint8_t = 0;
     let mut _5749: uint8_t = 0;
     *(&mut _5350.field0 as *mut l_array_4_float) = _5256;
@@ -21435,7 +21756,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5402 = _5302;
     _5403 = *(&mut *((*(_5402 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5285 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5286 = llvm_fadd_f32(_5401, _5403);
     _5404 = _5285;
@@ -21445,36 +21767,40 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5406 = _5287;
     _5407 = *(&mut *((*(_5406 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5303 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5408 = _5303;
     _5409 = *(&mut *((*(_5408 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5283 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5284 = llvm_fadd_f32(_5407, _5409);
     _5410 = _5283;
     _5411 = _5284;
     *(&mut *((*(_5410 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5411;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5411;
     _5307 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5412 = _5307;
     _5413 = *(&mut *((*(_5412 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5304 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5414 = _5304;
     _5415 = *(&mut *((*(_5414 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5281 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5282 = llvm_fadd_f32(_5413, _5415);
     _5416 = _5281;
     _5417 = _5282;
     *(&mut *((*(_5416 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5417;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5417;
     _5418 = memcpy(
         &mut _5354 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -21482,8 +21808,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     );
     _5419 = *(&mut _5354.field0 as *mut l_array_4_float);
     *(&mut _5345 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5419;
-    _5346 = 0 as core::ffi::c_int as libc::c_float;
-    _5347 = 65535 as core::ffi::c_int as libc::c_float;
+    _5346 = 0 as core::ffi::c_int as core::ffi::c_float;
+    _5347 = 65535 as core::ffi::c_int as core::ffi::c_float;
     _5420 = memcpy(
         &mut _5349 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _5345 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -21507,22 +21833,22 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5427 = _5330;
     *(&mut *((*(_5425 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5427;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5427;
     _5428 = _5330;
     *(&mut *((*(_5425 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5428;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5428;
     _5429 = _5330;
     *(&mut *((*(_5425 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5429;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5429;
     _5430 = *(&mut _5337 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _5431 = *(&mut _5338 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5430;
     *(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5431;
     _5432 = *(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _5433 = *(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    if llvm_fcmp_ogt(_5432 as core::ffi::c_double, _5433 as libc::c_double) != 0 {
+    if llvm_fcmp_ogt(_5432 as core::ffi::c_double, _5433 as core::ffi::c_double) != 0 {
         _5434 = *(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _5436__PHI_TEMPORARY = _5434;
     } else {
@@ -21533,72 +21859,78 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5437 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5438 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_5437 as core::ffi::c_double, _5438 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_5437 as core::ffi::c_double, _5438 as core::ffi::c_double) != 0 {
         _5439 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5441__PHI_TEMPORARY = _5439;
     } else {
         _5440 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5441__PHI_TEMPORARY = _5440;
     }
     _5441 = _5441__PHI_TEMPORARY;
     _5442 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5443 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_5442 as core::ffi::c_double, _5443 as libc::c_double) != 0 {
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_5442 as core::ffi::c_double, _5443 as core::ffi::c_double) != 0 {
         _5444 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5446__PHI_TEMPORARY = _5444;
     } else {
         _5445 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5446__PHI_TEMPORARY = _5445;
     }
     _5446 = _5446__PHI_TEMPORARY;
     _5447 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5448 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_5447 as core::ffi::c_double, _5448 as libc::c_double) != 0 {
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_5447 as core::ffi::c_double, _5448 as core::ffi::c_double) != 0 {
         _5449 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5451__PHI_TEMPORARY = _5449;
     } else {
         _5450 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5451__PHI_TEMPORARY = _5450;
     }
     _5451 = _5451__PHI_TEMPORARY;
@@ -21613,15 +21945,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5454 = _5316;
     *(&mut *((*(_5452 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5454;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5454;
     _5455 = _5317;
     *(&mut *((*(_5452 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5455;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5455;
     _5456 = _5318;
     *(&mut *((*(_5452 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5456;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5456;
     _5457 = _5319;
     *(&mut _5334 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5457.field0;
     _5458 = _5334;
@@ -21644,22 +21976,22 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5465 = _5328;
     *(&mut *((*(_5463 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5465;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5465;
     _5466 = _5328;
     *(&mut *((*(_5463 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5466;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5466;
     _5467 = _5328;
     *(&mut *((*(_5463 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5467;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5467;
     _5468 = *(&mut _5342 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _5469 = *(&mut _5343 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5468;
     *(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5469;
     _5470 = *(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _5471 = *(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    if llvm_fcmp_olt(_5470 as core::ffi::c_double, _5471 as libc::c_double) != 0 {
+    if llvm_fcmp_olt(_5470 as core::ffi::c_double, _5471 as core::ffi::c_double) != 0 {
         _5472 = *(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _5474__PHI_TEMPORARY = _5472;
     } else {
@@ -21670,72 +22002,78 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5475 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5476 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_5475 as core::ffi::c_double, _5476 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_5475 as core::ffi::c_double, _5476 as core::ffi::c_double) != 0 {
         _5477 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5479__PHI_TEMPORARY = _5477;
     } else {
         _5478 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5479__PHI_TEMPORARY = _5478;
     }
     _5479 = _5479__PHI_TEMPORARY;
     _5480 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5481 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_5480 as core::ffi::c_double, _5481 as libc::c_double) != 0 {
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_5480 as core::ffi::c_double, _5481 as core::ffi::c_double) != 0 {
         _5482 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5484__PHI_TEMPORARY = _5482;
     } else {
         _5483 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5484__PHI_TEMPORARY = _5483;
     }
     _5484 = _5484__PHI_TEMPORARY;
     _5485 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5486 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_5485 as core::ffi::c_double, _5486 as libc::c_double) != 0 {
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_5485 as core::ffi::c_double, _5486 as core::ffi::c_double) != 0 {
         _5487 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5489__PHI_TEMPORARY = _5487;
     } else {
         _5488 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5489__PHI_TEMPORARY = _5488;
     }
     _5489 = _5489__PHI_TEMPORARY;
@@ -21750,15 +22088,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5492 = _5324;
     *(&mut *((*(_5490 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5492;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5492;
     _5493 = _5325;
     *(&mut *((*(_5490 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5493;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5493;
     _5494 = _5326;
     *(&mut *((*(_5490 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _5494;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5494;
     _5495 = _5331;
     *(&mut _5339 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _5495.field0;
     _5496 = _5339;
@@ -21782,8 +22120,9 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5502 = _5288;
     _5503 = *(&mut *((*(_5502 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_5501 as core::ffi::c_double, _5503 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_5501 as core::ffi::c_double, _5503 as core::ffi::c_double) != 0 {
         _5296 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5504 = _5296;
         _5505 = *(_5504 as *mut core::ffi::c_float);
@@ -21792,8 +22131,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5507 = *(&mut *((*(_5506 as *mut l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_5505 as core::ffi::c_double, _5507 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_5505 as core::ffi::c_double, _5507 as core::ffi::c_double) != 0 {
             _5356 = 0 as core::ffi::c_int as uint32_t;
             current_block = 1492197662100137625;
         } else {
@@ -21809,14 +22148,14 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5509 = *(&mut *((*(_5508 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5309 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5510 = _5309;
             _5511 = *(&mut *((*(_5510 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
-            if llvm_fcmp_ogt(_5509 as core::ffi::c_double, _5511 as libc::c_double) != 0 {
+                as *mut core::ffi::c_float);
+            if llvm_fcmp_ogt(_5509 as core::ffi::c_double, _5511 as core::ffi::c_double) != 0 {
                 _5356 = 1 as core::ffi::c_int as uint32_t;
             } else {
                 _5356 = 2 as core::ffi::c_int as uint32_t;
@@ -21834,7 +22173,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5515 = *(&mut *((*(_5514 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5271 = _5513;
             _5516 = _5271;
             _5517 = *(_5516 as *mut core::ffi::c_float);
@@ -21843,13 +22182,13 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5519 = *(&mut *((*(_5518 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5272 = _5513;
             _5520 = _5272;
             _5521 = *(&mut *((*(_5520 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5274 = &mut _5279 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5275 = _5515;
             _5276 = _5517;
@@ -21889,13 +22228,13 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5531 = *(&mut *((*(_5530 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5259 = _5529;
             _5532 = _5259;
             _5533 = *(&mut *((*(_5532 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5260 = _5529;
             _5534 = _5260;
             _5535 = *(_5534 as *mut core::ffi::c_float);
@@ -21904,7 +22243,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5537 = *(&mut *((*(_5536 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5263 = &mut _5268 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5264 = _5531;
             _5265 = _5533;
@@ -21949,7 +22288,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5549 = _5290;
     _5550 = *(&mut *((*(_5549 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5360 = llvm_fsub_f32(_5548, _5550);
     _5299 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5551 = _5299;
@@ -21958,13 +22298,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5553 = _5310;
     _5554 = *(&mut *((*(_5553 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5361 = llvm_fsub_f32(_5552, _5554);
     _5305 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5555 = _5305;
     _5556 = *(&mut *((*(_5555 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5362 = _5556;
     _5363 = 0 as core::ffi::c_int as uint32_t;
     loop {
@@ -21983,8 +22325,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 .array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
-        if !(llvm_fcmp_ogt(_5558 as core::ffi::c_double, _5560 as libc::c_double) != 0) {
+                as *mut core::ffi::c_float);
+        if !(llvm_fcmp_ogt(_5558 as core::ffi::c_double, _5560 as core::ffi::c_double) != 0) {
             _5561 = _5361;
             _5562 = _5363;
             _5563 = *(&mut *((*(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs
@@ -21995,8 +22337,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 .array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
-            if !(llvm_fcmp_ogt(_5561 as core::ffi::c_double, _5563 as libc::c_double) != 0) {
+                as *mut core::ffi::c_float);
+            if !(llvm_fcmp_ogt(_5561 as core::ffi::c_double, _5563 as core::ffi::c_double) != 0) {
                 _5564 = _5362;
                 _5565 = _5363;
                 _5566 =
@@ -22009,8 +22351,9 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
-                        as *mut libc::c_float);
-                if !(llvm_fcmp_ogt(_5564 as core::ffi::c_double, _5566 as libc::c_double) != 0) {
+                        as *mut core::ffi::c_float);
+                if !(llvm_fcmp_ogt(_5564 as core::ffi::c_double, _5566 as core::ffi::c_double) != 0)
+                {
                     _5567 = _5363;
                     if (_5567 as int32_t) < 4 as core::ffi::c_uint as int32_t {
                         _5568 = _5363;
@@ -22030,7 +22373,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                         .as_ptr()
                         .offset(_5574 as int32_t as int64_t as isize)
                         as *const core::ffi::c_float
-                        as *mut libc::c_float);
+                        as *mut core::ffi::c_float);
                     _5365 = _5575;
                     _5576 = _5363;
                     _5577 = *(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_rscales
@@ -22038,7 +22381,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                         .as_ptr()
                         .offset(_5576 as int32_t as int64_t as isize)
                         as *const core::ffi::c_float
-                        as *mut libc::c_float);
+                        as *mut core::ffi::c_float);
                     _5366 = _5577;
                     _5578 = _5363;
                     _5579 =
@@ -22074,7 +22417,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     _5370 = _5585 & 63 as core::ffi::c_int as uint32_t;
                     _5586 = _5364;
                     _5587 = _5370;
-                    _5370 = _5587 | (_5586 & 3 as core::ffi::c_int as uint32_t) << 6 as libc::c_int;
+                    _5370 = _5587
+                        | (_5586 & 3 as core::ffi::c_int as uint32_t) << 6 as core::ffi::c_int;
                     _5588 = _5352;
                     _5589 = _5370;
                     _ZL43quantize_and_unquantize_retain_top_two_bits12quant_methodhRh(
@@ -22108,15 +22452,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     _5600 = _5373;
                     _5601 = _ZN4astc5clampIfEET_S1_S1_S1_(
                         _5600,
-                        0 as core::ffi::c_int as libc::c_float,
-                        65535 as core::ffi::c_int as libc::c_float,
+                        0 as core::ffi::c_int as core::ffi::c_float,
+                        65535 as core::ffi::c_int as core::ffi::c_float,
                     );
                     _5373 = _5601;
                     _5602 = _5374;
                     _5603 = _ZN4astc5clampIfEET_S1_S1_S1_(
                         _5602,
-                        0 as core::ffi::c_int as libc::c_float,
-                        65535 as core::ffi::c_int as libc::c_float,
+                        0 as core::ffi::c_int as core::ffi::c_float,
+                        65535 as core::ffi::c_int as core::ffi::c_float,
                     );
                     _5374 = _5603;
                     _5604 = _5373;
@@ -22298,7 +22642,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                             _5668 = _5386;
                             _5669 = _ZN4astc5clampIfEET_S1_S1_S1_(
                                 _5668,
-                                0 as core::ffi::c_int as libc::c_float,
+                                0 as core::ffi::c_int as core::ffi::c_float,
                                 1.0E+9f64 as core::ffi::c_float,
                             );
                             _5386 = _5669;
@@ -22334,7 +22678,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5706 = *(&mut *((*(_5705 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
@@ -22344,7 +22688,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5708 = *(&mut *((*(_5707 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
@@ -22354,7 +22698,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5710 = *(&mut *((*(_5709 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
@@ -22372,8 +22716,8 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     as *mut core::ffi::c_float);
                 _5714 = _ZN4astc5clampIfEET_S1_S1_S1_(
                     _5713,
-                    0 as core::ffi::c_int as libc::c_float,
-                    65020 as core::ffi::c_int as libc::c_float,
+                    0 as core::ffi::c_int as core::ffi::c_float,
+                    65020 as core::ffi::c_int as core::ffi::c_float,
                 );
                 _5715 = _5396;
                 *(&mut *(_5393.array)
@@ -22405,7 +22749,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     .offset(_5722 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float) = llvm_fmul_f32(
                     _5721 as int32_t as core::ffi::c_float,
-                    512 as core::ffi::c_int as libc::c_float,
+                    512 as core::ffi::c_int as core::ffi::c_float,
                 );
                 _5723 = _5396;
                 _5396 = llvm_add_u32(_5723, 1 as core::ffi::c_int as uint32_t);
@@ -22413,27 +22757,27 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5724 = *(&mut *(_5395.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5725 = *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5726 = *(&mut *(_5395.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5727 = *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5728 = *(&mut *(_5395.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5729 = *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5397 = llvm_fadd_f32(
                 llvm_fadd_f32(llvm_fsub_f32(_5724, _5725), llvm_fsub_f32(_5726, _5727)),
                 llvm_fsub_f32(_5728, _5729),
@@ -22442,18 +22786,18 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5731 = &mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float as *mut core::ffi::c_void;
+                as *mut core::ffi::c_float as *mut core::ffi::c_void;
             _5732 = *(_5731 as *mut core::ffi::c_float);
             _5733 = llvm_OC_fmuladd_OC_f32(_5730, 0.333333343f64 as core::ffi::c_float, _5732);
             *(_5731 as *mut core::ffi::c_float) = _5733;
             _5734 = *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5735 = _ZN4astc5clampIfEET_S1_S1_S1_(
                 _5734,
-                0 as core::ffi::c_int as libc::c_float,
-                65020 as core::ffi::c_int as libc::c_float,
+                0 as core::ffi::c_int as core::ffi::c_float,
+                65020 as core::ffi::c_int as core::ffi::c_float,
             );
             *(&mut *(_5393.array)
                 .as_mut_ptr()
@@ -22462,7 +22806,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5736 = *(&mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5737 = _ZN4astcL11flt2int_rtnEf(llvm_fmul_f32(
                 _5736,
                 0.001953125f64 as core::ffi::c_float,
@@ -22510,7 +22854,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _5741 & 127 as core::ffi::c_int as uint32_t
-                | (_5742 & 64 as core::ffi::c_int as uint32_t) << 1 as libc::c_int;
+                | (_5742 & 64 as core::ffi::c_int as uint32_t) << 1 as core::ffi::c_int;
             _5399 = 0 as core::ffi::c_int as uint8_t;
             loop {
                 _5743 = _5399;
@@ -22624,11 +22968,11 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     mut _5837: uint32_t,
 ) {
     let mut current_block: u64;
-    let mut _5838: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5839: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5840: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5841: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5842: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5838: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5839: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5840: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5841: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5842: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5843: core::ffi::c_float = 0.;
     let mut _5844: core::ffi::c_float = 0.;
     let mut _5845: core::ffi::c_float = 0.;
@@ -22636,12 +22980,12 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _5847: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5848: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5849: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5850: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5851: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5852: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5853: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5848: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5849: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5850: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5851: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5852: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5853: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5854: core::ffi::c_float = 0.;
     let mut _5855: core::ffi::c_float = 0.;
     let mut _5856: core::ffi::c_float = 0.;
@@ -22649,12 +22993,12 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _5858: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5859: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5860: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5861: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5862: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5863: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5864: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5859: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5860: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5861: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5862: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5863: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5864: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5865: core::ffi::c_float = 0.;
     let mut _5866: core::ffi::c_float = 0.;
     let mut _5867: core::ffi::c_float = 0.;
@@ -22662,12 +23006,12 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _5869: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5870: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5871: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5872: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5873: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5874: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5875: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5870: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5871: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5872: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5873: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5874: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5875: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5876: core::ffi::c_float = 0.;
     let mut _5877: core::ffi::c_float = 0.;
     let mut _5878: core::ffi::c_float = 0.;
@@ -22675,31 +23019,31 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _5880: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5881: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5882: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5883: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5884: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5885: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5886: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5887: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5888: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5889: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5890: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5891: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5892: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5893: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5894: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5895: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5896: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5897: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5898: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5899: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5900: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5901: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5902: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5903: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5904: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _5905: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5881: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5882: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5883: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5884: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5885: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5886: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5887: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5888: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5889: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5890: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5891: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5892: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5893: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5894: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5895: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5896: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5897: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5898: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5899: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5900: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5901: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5902: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5903: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5904: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _5905: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5906: core::ffi::c_float = 0.;
     let mut _5907: core::ffi::c_float = 0.;
     let mut _5908: core::ffi::c_float = 0.;
@@ -22713,7 +23057,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _5912: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5913: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5913: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5914: core::ffi::c_float = 0.;
     let mut _5915: core::ffi::c_float = 0.;
     let mut _5916: core::ffi::c_float = 0.;
@@ -22727,23 +23071,23 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _5920: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5921: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5921: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5922: core::ffi::c_float = 0.;
     let mut _5923: core::ffi::c_float = 0.;
     let mut _5924: core::ffi::c_float = 0.;
     let mut _5925: core::ffi::c_float = 0.;
-    let mut _5926: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5926: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5927: core::ffi::c_float = 0.;
     let mut _5928: core::ffi::c_float = 0.;
     let mut _5929: core::ffi::c_float = 0.;
     let mut _5930: core::ffi::c_float = 0.;
-    let mut _5931: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5931: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5932: core::ffi::c_float = 0.;
-    let mut _5933: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5933: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5934: core::ffi::c_float = 0.;
-    let mut _5935: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5935: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5936: core::ffi::c_float = 0.;
-    let mut _5937: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5937: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5938: core::ffi::c_float = 0.;
     let mut _5939: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -22849,7 +23193,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _5978: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _5979: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _5979: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _5980: uint32_t = 0;
     let mut _5981: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -22934,14 +23278,14 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6041: uint32_t = 0;
     let mut _6042: uint32_t = 0;
     let mut _6043: uint32_t = 0;
-    let mut _6044: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6044: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6045: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6046: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6046: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6047: core::ffi::c_float = 0.;
     let mut _6048: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6049: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6049: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6050: core::ffi::c_float = 0.;
-    let mut _6051: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6051: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6052: core::ffi::c_float = 0.;
     let mut _6053: core::ffi::c_float = 0.;
     let mut _6054: core::ffi::c_float = 0.;
@@ -22972,7 +23316,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6076: core::ffi::c_float = 0.;
     let mut _6077: core::ffi::c_float = 0.;
     let mut _6077__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _6078: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6078: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6079: core::ffi::c_float = 0.;
     let mut _6080: core::ffi::c_float = 0.;
     let mut _6081: core::ffi::c_float = 0.;
@@ -22985,9 +23329,9 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     };
     let mut _6085: core::ffi::c_float = 0.;
     let mut _6086: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6087: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6087: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6088: core::ffi::c_float = 0.;
-    let mut _6089: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6089: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6090: core::ffi::c_float = 0.;
     let mut _6091: core::ffi::c_float = 0.;
     let mut _6092: core::ffi::c_float = 0.;
@@ -23018,7 +23362,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6114: core::ffi::c_float = 0.;
     let mut _6115: core::ffi::c_float = 0.;
     let mut _6115__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _6116: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6116: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6117: core::ffi::c_float = 0.;
     let mut _6118: core::ffi::c_float = 0.;
     let mut _6119: core::ffi::c_float = 0.;
@@ -23032,15 +23376,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6123: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6124: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6125: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6124: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6125: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6126: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6127: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6127: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6128: core::ffi::c_float = 0.;
     let mut _6129: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6130: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6131: core::ffi::c_float = 0.;
-    let mut _6132: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6132: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6133: core::ffi::c_float = 0.;
     let mut _6134: core::ffi::c_float = 0.;
     let mut _6135: core::ffi::c_float = 0.;
@@ -23071,7 +23415,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6157: core::ffi::c_float = 0.;
     let mut _6158: core::ffi::c_float = 0.;
     let mut _6158__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _6159: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6159: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6160: core::ffi::c_float = 0.;
     let mut _6161: core::ffi::c_float = 0.;
     let mut _6162: core::ffi::c_float = 0.;
@@ -23084,9 +23428,9 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     };
     let mut _6166: core::ffi::c_float = 0.;
     let mut _6167: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6168: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6168: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6169: core::ffi::c_float = 0.;
-    let mut _6170: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6170: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6171: core::ffi::c_float = 0.;
     let mut _6172: core::ffi::c_float = 0.;
     let mut _6173: core::ffi::c_float = 0.;
@@ -23117,7 +23461,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6195: core::ffi::c_float = 0.;
     let mut _6196: core::ffi::c_float = 0.;
     let mut _6196__PHI_TEMPORARY: core::ffi::c_float = 0.;
-    let mut _6197: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6197: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6198: core::ffi::c_float = 0.;
     let mut _6199: core::ffi::c_float = 0.;
     let mut _6200: core::ffi::c_float = 0.;
@@ -23131,32 +23475,32 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6204: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6205: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6206: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6207: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6208: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6205: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6206: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6207: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6208: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6209: core::ffi::c_float = 0.;
-    let mut _6210: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6210: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6211: core::ffi::c_float = 0.;
-    let mut _6212: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6212: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6213: core::ffi::c_float = 0.;
-    let mut _6214: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6214: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6215: core::ffi::c_float = 0.;
-    let mut _6216: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6216: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6217: core::ffi::c_float = 0.;
-    let mut _6218: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6218: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6219: core::ffi::c_float = 0.;
     let mut _6220: uint32_t = 0;
-    let mut _6221: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6222: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6221: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6222: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6223: core::ffi::c_float = 0.;
-    let mut _6224: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6224: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6225: core::ffi::c_float = 0.;
-    let mut _6226: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6226: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6227: core::ffi::c_float = 0.;
-    let mut _6228: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6228: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6229: core::ffi::c_float = 0.;
-    let mut _6230: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6230: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6231: core::ffi::c_float = 0.;
     let mut _6232: core::ffi::c_float = 0.;
     let mut _6233: core::ffi::c_float = 0.;
@@ -23164,17 +23508,17 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6235: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6236: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6237: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6238: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6236: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6237: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6238: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6239: core::ffi::c_float = 0.;
-    let mut _6240: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6240: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6241: core::ffi::c_float = 0.;
-    let mut _6242: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6242: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6243: core::ffi::c_float = 0.;
-    let mut _6244: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6244: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6245: core::ffi::c_float = 0.;
-    let mut _6246: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6246: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6247: core::ffi::c_float = 0.;
     let mut _6248: core::ffi::c_float = 0.;
     let mut _6249: core::ffi::c_float = 0.;
@@ -23182,17 +23526,17 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6251: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6252: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6253: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6254: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6252: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6253: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6254: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6255: core::ffi::c_float = 0.;
-    let mut _6256: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6256: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6257: core::ffi::c_float = 0.;
-    let mut _6258: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6258: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6259: core::ffi::c_float = 0.;
-    let mut _6260: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6260: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6261: core::ffi::c_float = 0.;
-    let mut _6262: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6262: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6263: core::ffi::c_float = 0.;
     let mut _6264: core::ffi::c_float = 0.;
     let mut _6265: core::ffi::c_float = 0.;
@@ -23200,17 +23544,17 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6267: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6268: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6269: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6270: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6268: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6269: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6270: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6271: core::ffi::c_float = 0.;
-    let mut _6272: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6272: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6273: core::ffi::c_float = 0.;
-    let mut _6274: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6274: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6275: core::ffi::c_float = 0.;
-    let mut _6276: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6276: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6277: core::ffi::c_float = 0.;
-    let mut _6278: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6278: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6279: core::ffi::c_float = 0.;
     let mut _6280: core::ffi::c_float = 0.;
     let mut _6281: core::ffi::c_float = 0.;
@@ -23218,29 +23562,29 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6283: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6284: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6285: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6284: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6285: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6286: core::ffi::c_float = 0.;
     let mut _6287: core::ffi::c_float = 0.;
     let mut _6288: core::ffi::c_float = 0.;
     let mut _6289: core::ffi::c_float = 0.;
-    let mut _6290: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6290: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6291: core::ffi::c_float = 0.;
     let mut _6292: core::ffi::c_float = 0.;
-    let mut _6293: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6293: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6294: core::ffi::c_float = 0.;
     let mut _6295: core::ffi::c_float = 0.;
-    let mut _6296: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6296: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6297: core::ffi::c_float = 0.;
     let mut _6298: core::ffi::c_float = 0.;
     let mut _6299: core::ffi::c_float = 0.;
     let mut _6300: core::ffi::c_float = 0.;
-    let mut _6301: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6301: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6302: core::ffi::c_float = 0.;
     let mut _6303: core::ffi::c_float = 0.;
     let mut _6304: core::ffi::c_float = 0.;
     let mut _6305: core::ffi::c_float = 0.;
-    let mut _6306: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6306: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6307: core::ffi::c_float = 0.;
     let mut _6308: uint32_t = 0;
     let mut _6309: uint32_t = 0;
@@ -23284,7 +23628,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6347: uint32_t = 0;
     let mut _6348: core::ffi::c_float = 0.;
     let mut _6349: core::ffi::c_float = 0.;
-    let mut _6350: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6350: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6351: core::ffi::c_float = 0.;
     let mut _6352: core::ffi::c_float = 0.;
     let mut _6353: core::ffi::c_float = 0.;
@@ -23305,10 +23649,10 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6368: uint32_t = 0;
     let mut _6369: core::ffi::c_float = 0.;
     let mut _6370: core::ffi::c_float = 0.;
-    let mut _6371: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6371: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6372: core::ffi::c_float = 0.;
     let mut _6373: core::ffi::c_float = 0.;
-    let mut _6374: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6374: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6375: core::ffi::c_float = 0.;
     let mut _6376: core::ffi::c_float = 0.;
     let mut _6377: core::ffi::c_float = 0.;
@@ -23356,12 +23700,12 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6419: core::ffi::c_float = 0.;
     let mut _6420: core::ffi::c_float = 0.;
     let mut _6421: core::ffi::c_float = 0.;
-    let mut _6422: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6422: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6423: core::ffi::c_float = 0.;
     let mut _6424: core::ffi::c_float = 0.;
     let mut _6425: core::ffi::c_float = 0.;
     let mut _6426: core::ffi::c_float = 0.;
-    let mut _6427: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6427: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6428: core::ffi::c_float = 0.;
     let mut _6429: core::ffi::c_float = 0.;
     let mut _6430: core::ffi::c_float = 0.;
@@ -23413,29 +23757,29 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6476: uint32_t = 0;
     let mut _6477: uint32_t = 0;
     let mut _6478: uint32_t = 0;
-    let mut _6479: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6479: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6480: uint8_t = 0;
-    let mut _6481: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6481: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6482: uint8_t = 0;
-    let mut _6483: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6483: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6484: uint8_t = 0;
-    let mut _6485: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6485: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6486: uint8_t = 0;
-    let mut _6487: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6487: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6488: uint8_t = 0;
-    let mut _6489: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6489: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6490: uint32_t = 0;
-    let mut _6491: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6491: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6492: core::ffi::c_float = 0.;
-    let mut _6493: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6493: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6494: core::ffi::c_float = 0.;
-    let mut _6495: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6495: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6496: core::ffi::c_float = 0.;
-    let mut _6497: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6497: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6498: core::ffi::c_float = 0.;
-    let mut _6499: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6499: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6500: core::ffi::c_float = 0.;
-    let mut _6501: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6501: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6502: core::ffi::c_float = 0.;
     let mut _6503: uint32_t = 0;
     let mut _6504: uint32_t = 0;
@@ -23450,7 +23794,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6513: uint32_t = 0;
     let mut _6514: uint32_t = 0;
     let mut _6515: uint8_t = 0;
-    let mut _6516: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6517: uint32_t = 0;
     let mut _6518: uint32_t = 0;
     let mut _6519: uint32_t = 0;
@@ -23459,7 +23803,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     let mut _6522: uint32_t = 0;
     let mut _6523: uint32_t = 0;
     let mut _6524: uint32_t = 0;
-    let mut _6525: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6525: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6526: uint32_t = 0;
     let mut _6527: uint32_t = 0;
     *(&mut _5977.field0 as *mut l_array_4_float) = _5834;
@@ -23473,8 +23817,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     );
     _6045 = *(&mut _5982.field0 as *mut l_array_4_float);
     *(&mut _5966 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6045;
-    _5967 = 0 as core::ffi::c_int as libc::c_float;
-    _5968 = 65535 as core::ffi::c_int as libc::c_float;
+    _5967 = 0 as core::ffi::c_int as core::ffi::c_float;
+    _5968 = 65535 as core::ffi::c_int as core::ffi::c_float;
     _6046 = memcpy(
         &mut _5970 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _5966 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -23498,22 +23842,22 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6053 = _5936;
     *(&mut *((*(_6051 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6053;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6053;
     _6054 = _5936;
     *(&mut *((*(_6051 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6054;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6054;
     _6055 = _5936;
     *(&mut *((*(_6051 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6055;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6055;
     _6056 = *(&mut _5953 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _6057 = *(&mut _5954 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6056;
     *(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6057;
     _6058 = *(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _6059 = *(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    if llvm_fcmp_ogt(_6058 as core::ffi::c_double, _6059 as libc::c_double) != 0 {
+    if llvm_fcmp_ogt(_6058 as core::ffi::c_double, _6059 as core::ffi::c_double) != 0 {
         _6060 = *(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _6062__PHI_TEMPORARY = _6060;
     } else {
@@ -23524,72 +23868,78 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6063 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6064 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_6063 as core::ffi::c_double, _6064 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_6063 as core::ffi::c_double, _6064 as core::ffi::c_double) != 0 {
         _6065 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6067__PHI_TEMPORARY = _6065;
     } else {
         _6066 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6067__PHI_TEMPORARY = _6066;
     }
     _6067 = _6067__PHI_TEMPORARY;
     _6068 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6069 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_6068 as core::ffi::c_double, _6069 as libc::c_double) != 0 {
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_6068 as core::ffi::c_double, _6069 as core::ffi::c_double) != 0 {
         _6070 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6072__PHI_TEMPORARY = _6070;
     } else {
         _6071 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6072__PHI_TEMPORARY = _6071;
     }
     _6072 = _6072__PHI_TEMPORARY;
     _6073 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6074 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_6073 as core::ffi::c_double, _6074 as libc::c_double) != 0 {
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_6073 as core::ffi::c_double, _6074 as core::ffi::c_double) != 0 {
         _6075 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6077__PHI_TEMPORARY = _6075;
     } else {
         _6076 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6077__PHI_TEMPORARY = _6076;
     }
     _6077 = _6077__PHI_TEMPORARY;
@@ -23604,15 +23954,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6080 = _5907;
     *(&mut *((*(_6078 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6080;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6080;
     _6081 = _5908;
     *(&mut *((*(_6078 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6081;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6081;
     _6082 = _5909;
     *(&mut *((*(_6078 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6082;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6082;
     _6083 = _5910;
     *(&mut _5950 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6083.field0;
     _6084 = _5950;
@@ -23635,22 +23985,22 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6091 = _5932;
     *(&mut *((*(_6089 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6091;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6091;
     _6092 = _5932;
     *(&mut *((*(_6089 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6092;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6092;
     _6093 = _5932;
     *(&mut *((*(_6089 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6093;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6093;
     _6094 = *(&mut _5963 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _6095 = *(&mut _5964 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6094;
     *(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6095;
     _6096 = *(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _6097 = *(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    if llvm_fcmp_olt(_6096 as core::ffi::c_double, _6097 as libc::c_double) != 0 {
+    if llvm_fcmp_olt(_6096 as core::ffi::c_double, _6097 as core::ffi::c_double) != 0 {
         _6098 = *(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _6100__PHI_TEMPORARY = _6098;
     } else {
@@ -23661,72 +24011,78 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6101 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6102 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_6101 as core::ffi::c_double, _6102 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_6101 as core::ffi::c_double, _6102 as core::ffi::c_double) != 0 {
         _6103 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6105__PHI_TEMPORARY = _6103;
     } else {
         _6104 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6105__PHI_TEMPORARY = _6104;
     }
     _6105 = _6105__PHI_TEMPORARY;
     _6106 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6107 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_6106 as core::ffi::c_double, _6107 as libc::c_double) != 0 {
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_6106 as core::ffi::c_double, _6107 as core::ffi::c_double) != 0 {
         _6108 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6110__PHI_TEMPORARY = _6108;
     } else {
         _6109 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6110__PHI_TEMPORARY = _6109;
     }
     _6110 = _6110__PHI_TEMPORARY;
     _6111 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6112 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_6111 as core::ffi::c_double, _6112 as libc::c_double) != 0 {
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_6111 as core::ffi::c_double, _6112 as core::ffi::c_double) != 0 {
         _6113 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6115__PHI_TEMPORARY = _6113;
     } else {
         _6114 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6115__PHI_TEMPORARY = _6114;
     }
     _6115 = _6115__PHI_TEMPORARY;
@@ -23741,15 +24097,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6118 = _5928;
     *(&mut *((*(_6116 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6118;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6118;
     _6119 = _5929;
     *(&mut *((*(_6116 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6119;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6119;
     _6120 = _5930;
     *(&mut *((*(_6116 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6120;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6120;
     _6121 = _5939;
     *(&mut _5960 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6121.field0;
     _6122 = _5960;
@@ -23768,8 +24124,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     );
     _6126 = *(&mut _5984.field0 as *mut l_array_4_float);
     *(&mut _5972 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6126;
-    _5973 = 0 as core::ffi::c_int as libc::c_float;
-    _5974 = 65535 as core::ffi::c_int as libc::c_float;
+    _5973 = 0 as core::ffi::c_int as core::ffi::c_float;
+    _5974 = 65535 as core::ffi::c_int as core::ffi::c_float;
     _6127 = memcpy(
         &mut _5976 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         &mut _5972 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -23793,22 +24149,22 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6134 = _5938;
     *(&mut *((*(_6132 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6134;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6134;
     _6135 = _5938;
     *(&mut *((*(_6132 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6135;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6135;
     _6136 = _5938;
     *(&mut *((*(_6132 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6136;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6136;
     _6137 = *(&mut _5948 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _6138 = *(&mut _5949 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6137;
     *(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6138;
     _6139 = *(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _6140 = *(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    if llvm_fcmp_ogt(_6139 as core::ffi::c_double, _6140 as libc::c_double) != 0 {
+    if llvm_fcmp_ogt(_6139 as core::ffi::c_double, _6140 as core::ffi::c_double) != 0 {
         _6141 = *(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _6143__PHI_TEMPORARY = _6141;
     } else {
@@ -23819,72 +24175,78 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6144 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6145 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_6144 as core::ffi::c_double, _6145 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_6144 as core::ffi::c_double, _6145 as core::ffi::c_double) != 0 {
         _6146 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6148__PHI_TEMPORARY = _6146;
     } else {
         _6147 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6148__PHI_TEMPORARY = _6147;
     }
     _6148 = _6148__PHI_TEMPORARY;
     _6149 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6150 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_6149 as core::ffi::c_double, _6150 as libc::c_double) != 0 {
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_6149 as core::ffi::c_double, _6150 as core::ffi::c_double) != 0 {
         _6151 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6153__PHI_TEMPORARY = _6151;
     } else {
         _6152 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6153__PHI_TEMPORARY = _6152;
     }
     _6153 = _6153__PHI_TEMPORARY;
     _6154 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6155 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_6154 as core::ffi::c_double, _6155 as libc::c_double) != 0 {
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_6154 as core::ffi::c_double, _6155 as core::ffi::c_double) != 0 {
         _6156 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6158__PHI_TEMPORARY = _6156;
     } else {
         _6157 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6158__PHI_TEMPORARY = _6157;
     }
     _6158 = _6158__PHI_TEMPORARY;
@@ -23899,15 +24261,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6161 = _5915;
     *(&mut *((*(_6159 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6161;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6161;
     _6162 = _5916;
     *(&mut *((*(_6159 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6162;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6162;
     _6163 = _5917;
     *(&mut *((*(_6159 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6163;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6163;
     _6164 = _5918;
     *(&mut _5945 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6164.field0;
     _6165 = _5945;
@@ -23930,22 +24292,22 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6172 = _5934;
     *(&mut *((*(_6170 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6172;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6172;
     _6173 = _5934;
     *(&mut *((*(_6170 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6173;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6173;
     _6174 = _5934;
     *(&mut *((*(_6170 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6174;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6174;
     _6175 = *(&mut _5958 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     _6176 = *(&mut _5959 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float);
     *(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6175;
     *(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6176;
     _6177 = *(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _6178 = *(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    if llvm_fcmp_olt(_6177 as core::ffi::c_double, _6178 as libc::c_double) != 0 {
+    if llvm_fcmp_olt(_6177 as core::ffi::c_double, _6178 as core::ffi::c_double) != 0 {
         _6179 = *(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _6181__PHI_TEMPORARY = _6179;
     } else {
@@ -23956,72 +24318,78 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6182 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6183 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_6182 as core::ffi::c_double, _6183 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_6182 as core::ffi::c_double, _6183 as core::ffi::c_double) != 0 {
         _6184 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6186__PHI_TEMPORARY = _6184;
     } else {
         _6185 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6186__PHI_TEMPORARY = _6185;
     }
     _6186 = _6186__PHI_TEMPORARY;
     _6187 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6188 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_6187 as core::ffi::c_double, _6188 as libc::c_double) != 0 {
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_6187 as core::ffi::c_double, _6188 as core::ffi::c_double) != 0 {
         _6189 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6191__PHI_TEMPORARY = _6189;
     } else {
         _6190 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6191__PHI_TEMPORARY = _6190;
     }
     _6191 = _6191__PHI_TEMPORARY;
     _6192 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6193 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_olt(_6192 as core::ffi::c_double, _6193 as libc::c_double) != 0 {
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_olt(_6192 as core::ffi::c_double, _6193 as core::ffi::c_double) != 0 {
         _6194 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6196__PHI_TEMPORARY = _6194;
     } else {
         _6195 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6196__PHI_TEMPORARY = _6195;
     }
     _6196 = _6196__PHI_TEMPORARY;
@@ -24036,15 +24404,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6199 = _5923;
     *(&mut *((*(_6197 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6199;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6199;
     _6200 = _5924;
     *(&mut *((*(_6197 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6200;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6200;
     _6201 = _5925;
     *(&mut *((*(_6197 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _6201;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6201;
     _6202 = _5942;
     *(&mut _5955 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _6202.field0;
     _6203 = _5955;
@@ -24073,8 +24441,9 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6210 = _5882;
     _6211 = *(&mut *((*(_6210 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
-    if llvm_fcmp_ogt(_6209 as core::ffi::c_double, _6211 as libc::c_double) != 0 {
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
+    if llvm_fcmp_ogt(_6209 as core::ffi::c_double, _6211 as core::ffi::c_double) != 0 {
         _5891 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _6212 = _5891;
         _6213 = *(_6212 as *mut core::ffi::c_float);
@@ -24083,8 +24452,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6215 = *(&mut *((*(_6214 as *mut l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
-        if llvm_fcmp_ogt(_6213 as core::ffi::c_double, _6215 as libc::c_double) != 0 {
+            as *mut core::ffi::c_float);
+        if llvm_fcmp_ogt(_6213 as core::ffi::c_double, _6215 as core::ffi::c_double) != 0 {
             _5987 = 0 as core::ffi::c_int as uint32_t;
             current_block = 3139441629087481104;
         } else {
@@ -24100,14 +24469,14 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6217 = *(&mut *((*(_6216 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5898 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6218 = _5898;
             _6219 = *(&mut *((*(_6218 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
-            if llvm_fcmp_ogt(_6217 as core::ffi::c_double, _6219 as libc::c_double) != 0 {
+                as *mut core::ffi::c_float);
+            if llvm_fcmp_ogt(_6217 as core::ffi::c_double, _6219 as core::ffi::c_double) != 0 {
                 _5987 = 1 as core::ffi::c_int as uint32_t;
             } else {
                 _5987 = 2 as core::ffi::c_int as uint32_t;
@@ -24125,7 +24494,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6223 = *(&mut *((*(_6222 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5861 = _6221;
             _6224 = _5861;
             _6225 = *(_6224 as *mut core::ffi::c_float);
@@ -24134,13 +24503,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6227 = *(&mut *((*(_6226 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5862 = _6221;
             _6228 = _5862;
             _6229 = *(&mut *((*(_6228 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5864 = &mut _5869 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5865 = _6223;
             _5866 = _6225;
@@ -24178,7 +24547,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6239 = *(&mut *((*(_6238 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5872 = _6237;
             _6240 = _5872;
             _6241 = *(_6240 as *mut core::ffi::c_float);
@@ -24187,13 +24556,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6243 = *(&mut *((*(_6242 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5873 = _6237;
             _6244 = _5873;
             _6245 = *(&mut *((*(_6244 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5875 = &mut _5880 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5876 = _6239;
             _5877 = _6241;
@@ -24233,13 +24602,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6255 = *(&mut *((*(_6254 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5838 = _6253;
             _6256 = _5838;
             _6257 = *(&mut *((*(_6256 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5839 = _6253;
             _6258 = _5839;
             _6259 = *(_6258 as *mut core::ffi::c_float);
@@ -24248,7 +24617,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6261 = *(&mut *((*(_6260 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5842 = &mut _5847 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5843 = _6255;
             _5844 = _6257;
@@ -24286,13 +24655,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6271 = *(&mut *((*(_6270 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5849 = _6269;
             _6272 = _5849;
             _6273 = *(&mut *((*(_6272 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5850 = _6269;
             _6274 = _5850;
             _6275 = *(_6274 as *mut core::ffi::c_float);
@@ -24301,7 +24670,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6277 = *(&mut *((*(_6276 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             _5853 = &mut _5858 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5854 = _6271;
             _5855 = _6273;
@@ -24342,8 +24711,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6287 = _5992;
     _6288 = _ZN4astc5clampIfEET_S1_S1_S1_(
         _6287,
-        0 as core::ffi::c_int as libc::c_float,
-        65535 as core::ffi::c_int as libc::c_float,
+        0 as core::ffi::c_int as core::ffi::c_float,
+        65535 as core::ffi::c_int as core::ffi::c_float,
     );
     _5992 = _6288;
     _6289 = _5992;
@@ -24351,14 +24720,16 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6290 = _5884;
     _6291 = *(&mut *((*(_6290 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5993 = llvm_fsub_f32(_6289, _6291);
     _6292 = _5992;
     _5899 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6293 = _5899;
     _6294 = *(&mut *((*(_6293 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5994 = llvm_fsub_f32(_6292, _6294);
     _6295 = _5992;
     _5893 = &mut _5977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -24372,7 +24743,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6301 = _5885;
     _6302 = *(&mut *((*(_6301 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5996 = llvm_fsub_f32(llvm_fsub_f32(llvm_fsub_f32(_6298, _6299), _6300), _6302);
     _6303 = _5992;
     _6304 = _5994;
@@ -24381,7 +24753,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6306 = _5900;
     _6307 = *(&mut *((*(_6306 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _5997 = llvm_fsub_f32(llvm_fsub_f32(llvm_fsub_f32(_6303, _6304), _6305), _6307);
     _5998 = 7 as core::ffi::c_int as uint32_t;
     loop {
@@ -24399,7 +24772,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             .array)
             .as_mut_ptr()
             .offset(0 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _5999 = _6310;
         _6311 = _5998;
         _6312 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
@@ -24410,7 +24783,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6000 = _6312;
         _6313 = _5998;
         _6314 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
@@ -24421,21 +24794,23 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut libc::c_float);
+            as *mut core::ffi::c_float);
         _6001 = _6314;
         _6315 = _5993;
         _6316 = _5999;
-        if !(llvm_fcmp_ogt(_6315 as core::ffi::c_double, _6316 as libc::c_double) != 0) {
+        if !(llvm_fcmp_ogt(_6315 as core::ffi::c_double, _6316 as core::ffi::c_double) != 0) {
             _6317 = _5994;
             _6318 = _5999;
-            if !(llvm_fcmp_ogt(_6317 as core::ffi::c_double, _6318 as libc::c_double) != 0) {
+            if !(llvm_fcmp_ogt(_6317 as core::ffi::c_double, _6318 as core::ffi::c_double) != 0) {
                 _6319 = _5995;
                 _6320 = _6000;
-                if !(llvm_fcmp_ogt(_6319 as core::ffi::c_double, _6320 as libc::c_double) != 0) {
+                if !(llvm_fcmp_ogt(_6319 as core::ffi::c_double, _6320 as core::ffi::c_double) != 0)
+                {
                     _6321 = _5996;
                     _6322 = fabsf(_6321);
                     _6323 = _6001;
-                    if !(llvm_fcmp_ogt(_6322 as core::ffi::c_double, _6323 as libc::c_double) != 0)
+                    if !(llvm_fcmp_ogt(_6322 as core::ffi::c_double, _6323 as core::ffi::c_double)
+                        != 0)
                     {
                         _6324 = _5997;
                         _6325 = fabsf(_6324);
@@ -24452,14 +24827,14 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                     .as_ptr()
                                     .offset(_6327 as int32_t as int64_t as isize)
                                     as *const core::ffi::c_float
-                                    as *mut libc::c_float);
+                                    as *mut core::ffi::c_float);
                             _6002 = _6328;
                             _6329 = _5998;
                             _6330 = *(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_rscales
                                 .array)
                                 .as_ptr()
                                 .offset(_6329 as int32_t as int64_t as isize)
-                                as *const core::ffi::c_float as *mut libc::c_float);
+                                as *const core::ffi::c_float as *mut core::ffi::c_float);
                             _6003 = _6330;
                             _6331 = _5998;
                             _6332 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits
@@ -24523,8 +24898,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                             _6352 = _6012;
                             _6353 = _ZN4astc5clampIfEET_S1_S1_S1_(
                                 _6352,
-                                0 as core::ffi::c_int as libc::c_float,
-                                65535 as core::ffi::c_int as libc::c_float,
+                                0 as core::ffi::c_int as core::ffi::c_float,
+                                65535 as core::ffi::c_int as core::ffi::c_float,
                             );
                             _6012 = _6353;
                             _6354 = _6012;
@@ -24584,15 +24959,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                 _6376 = _6016;
                                 _6377 = _ZN4astc5clampIfEET_S1_S1_S1_(
                                     _6376,
-                                    0 as core::ffi::c_int as libc::c_float,
-                                    65535 as core::ffi::c_int as libc::c_float,
+                                    0 as core::ffi::c_int as core::ffi::c_float,
+                                    65535 as core::ffi::c_int as core::ffi::c_float,
                                 );
                                 _6016 = _6377;
                                 _6378 = _6017;
                                 _6379 = _ZN4astc5clampIfEET_S1_S1_S1_(
                                     _6378,
-                                    0 as core::ffi::c_int as libc::c_float,
-                                    65535 as core::ffi::c_int as libc::c_float,
+                                    0 as core::ffi::c_int as core::ffi::c_float,
+                                    65535 as core::ffi::c_int as core::ffi::c_float,
                                 );
                                 _6017 = _6379;
                                 _6380 = _6016;
@@ -24671,7 +25046,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                                 _6403 as int32_t,
                                                 1 as core::ffi::c_int,
                                             ) & 1 as core::ffi::c_int as uint32_t)
-                                                << 7 as libc::c_int;
+                                                << 7 as core::ffi::c_int;
                                         _6405 = _5998;
                                         _6406 = _6021;
                                         _6021 = _6406
@@ -24679,7 +25054,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                                 _6405 as int32_t,
                                                 2 as core::ffi::c_int,
                                             ) & 1 as core::ffi::c_int as uint32_t)
-                                                << 7 as libc::c_int;
+                                                << 7 as core::ffi::c_int;
                                         _6407 = _5980;
                                         _6408 = _6020;
                                         _ZL43quantize_and_unquantize_retain_top_two_bits12quant_methodhRh(
@@ -24747,15 +25122,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                         _6429 = _6026;
                                         _6430 = _ZN4astc5clampIfEET_S1_S1_S1_(
                                             _6429,
-                                            -(65535 as core::ffi::c_int) as libc::c_float,
-                                            65535 as core::ffi::c_int as libc::c_float,
+                                            -(65535 as core::ffi::c_int) as core::ffi::c_float,
+                                            65535 as core::ffi::c_int as core::ffi::c_float,
                                         );
                                         _6026 = _6430;
                                         _6431 = _6027;
                                         _6432 = _ZN4astc5clampIfEET_S1_S1_S1_(
                                             _6431,
-                                            -(65535 as core::ffi::c_int) as libc::c_float,
-                                            65535 as core::ffi::c_int as libc::c_float,
+                                            -(65535 as core::ffi::c_int) as core::ffi::c_float,
+                                            65535 as core::ffi::c_int as core::ffi::c_float,
                                         );
                                         _6027 = _6432;
                                         _6433 = _6026;
@@ -24812,7 +25187,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6496 = *(&mut *((*(_6495 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             *(&mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
@@ -24822,7 +25197,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6498 = *(&mut *((*(_6497 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             *(&mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
@@ -24832,7 +25207,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6500 = *(&mut *((*(_6499 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             *(&mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(4 as core::ffi::c_int as int64_t as isize)
@@ -24842,7 +25217,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6502 = *(&mut *((*(_6501 as *mut l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
-                as *mut libc::c_float);
+                as *mut core::ffi::c_float);
             *(&mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(5 as core::ffi::c_int as int64_t as isize)
@@ -24860,8 +25235,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                     as *mut core::ffi::c_float);
                 _6506 = _ZN4astc5clampIfEET_S1_S1_S1_(
                     _6505,
-                    0 as core::ffi::c_int as libc::c_float,
-                    65020 as core::ffi::c_int as libc::c_float,
+                    0 as core::ffi::c_int as core::ffi::c_float,
+                    65020 as core::ffi::c_int as core::ffi::c_float,
                 );
                 _6507 = _6039;
                 *(&mut *(_6038.array)
@@ -24883,8 +25258,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                     .offset(_6510 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float);
                 _6512 = _ZN4astcL11flt2int_rtnEf(llvm_fdiv_f32(
-                    llvm_fmul_f32(_6511, 1 as core::ffi::c_int as libc::c_float),
-                    256 as core::ffi::c_int as libc::c_float,
+                    llvm_fmul_f32(_6511, 1 as core::ffi::c_int as core::ffi::c_float),
+                    256 as core::ffi::c_int as core::ffi::c_float,
                 ));
                 _6041 = _6512;
                 _6513 = _5980;
@@ -24909,8 +25284,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                     .offset(_6520 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float);
                 _6522 = _ZN4astcL11flt2int_rtnEf(llvm_fdiv_f32(
-                    llvm_fmul_f32(_6521, 1 as core::ffi::c_int as libc::c_float),
-                    512 as core::ffi::c_int as libc::c_float,
+                    llvm_fmul_f32(_6521, 1 as core::ffi::c_int as core::ffi::c_float),
+                    512 as core::ffi::c_int as core::ffi::c_float,
                 ));
                 _6043 = llvm_add_u32(_6522, 128 as core::ffi::c_int as uint32_t);
                 _6523 = _5980;
@@ -25015,13 +25390,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6031 = _6469 | _6468 << 5 as core::ffi::c_int;
             _6470 = _5987;
             _6471 = _6030;
-            _6030 = _6471 | (_6470 & 1 as core::ffi::c_int as uint32_t) << 7 as libc::c_int;
+            _6030 = _6471 | (_6470 & 1 as core::ffi::c_int as uint32_t) << 7 as core::ffi::c_int;
             _6472 = _5987;
             _6473 = _6031;
             _6031 = _6473
                 | (llvm_ashr_u32(_6472 as int32_t, 1 as core::ffi::c_int)
                     & 1 as core::ffi::c_int as uint32_t)
-                    << 7 as libc::c_int;
+                    << 7 as core::ffi::c_int;
             _6474 = _5980;
             _6475 = _6030;
             _ZL44quantize_and_unquantize_retain_top_four_bits12quant_methodhRh(
@@ -25070,8 +25445,8 @@ unsafe extern "C" fn _ZL19quantize_rgbs_alpha7vfloat4S_S_Ph12quant_method(
     mut _6641: *mut core::ffi::c_void,
     mut _6642: uint32_t,
 ) {
-    let mut _6643: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6644: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6643: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6644: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6645: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -25081,31 +25456,31 @@ unsafe extern "C" fn _ZL19quantize_rgbs_alpha7vfloat4S_S_Ph12quant_method(
     let mut _6647: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6648: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6648: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6649: uint32_t = 0;
     let mut _6650: core::ffi::c_float = 0.;
     let mut _6651: core::ffi::c_float = 0.;
     let mut _6652: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6653: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6653: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6654: core::ffi::c_float = 0.;
-    let mut _6655: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6655: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6656: core::ffi::c_float = 0.;
     let mut _6657: uint32_t = 0;
     let mut _6658: core::ffi::c_float = 0.;
     let mut _6659: uint32_t = 0;
     let mut _6660: core::ffi::c_float = 0.;
     let mut _6661: uint8_t = 0;
-    let mut _6662: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6662: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6663: uint32_t = 0;
     let mut _6664: core::ffi::c_float = 0.;
     let mut _6665: uint32_t = 0;
     let mut _6666: core::ffi::c_float = 0.;
     let mut _6667: uint8_t = 0;
-    let mut _6668: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6669: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6670: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6668: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6669: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6670: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6671: uint32_t = 0;
     let mut _6672: l_array_4_float = l_array_4_float { array: [0.; 4] };
     *(&mut _6645.field0 as *mut l_array_4_float) = _6638;
@@ -25117,13 +25492,15 @@ unsafe extern "C" fn _ZL19quantize_rgbs_alpha7vfloat4S_S_Ph12quant_method(
     _6653 = _6643;
     _6654 = *(&mut *((*(_6653 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6650 = _6654;
     _6644 = &mut _6646 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6655 = _6644;
     _6656 = *(&mut *((*(_6655 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6651 = _6656;
     _6657 = _6649;
     _6658 = _6650;
@@ -25159,15 +25536,15 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     mut _6676: uint32_t,
 ) -> bool_0 {
     let mut current_block: u64;
-    let mut _6677: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6678: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6679: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6677: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6678: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6679: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6680: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6681: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6682: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6683: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6681: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6682: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6683: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6684: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -25178,7 +25555,7 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     let mut _6687: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6688: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6688: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6689: uint32_t = 0;
     let mut _6690: core::ffi::c_float = 0.;
     let mut _6691: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -25200,21 +25577,21 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     let mut _6703: uint32_t = 0;
     let mut _6704: uint32_t = 0;
     let mut _6705: uint32_t = 0;
-    let mut _6706: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6706: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6707: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6708: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6708: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6709: core::ffi::c_float = 0.;
-    let mut _6710: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6710: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6711: core::ffi::c_float = 0.;
-    let mut _6712: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6712: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6713: core::ffi::c_float = 0.;
-    let mut _6714: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6714: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6715: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6716: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6716: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6717: core::ffi::c_float = 0.;
-    let mut _6718: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6718: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6719: core::ffi::c_float = 0.;
-    let mut _6720: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6720: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6721: core::ffi::c_float = 0.;
     let mut _6722: core::ffi::c_float = 0.;
     let mut _6723: core::ffi::c_float = 0.;
@@ -25255,9 +25632,9 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     let mut _6758: uint32_t = 0;
     let mut _6759: uint32_t = 0;
     let mut _6760: uint32_t = 0;
-    let mut _6761: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6761: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6762: uint32_t = 0;
-    let mut _6763: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6763: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6764: uint32_t = 0;
     let mut _6765: uint32_t = 0;
     let mut _6766: uint32_t = 0;
@@ -25285,9 +25662,9 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     let mut _6788: uint32_t = 0;
     let mut _6789: uint32_t = 0;
     let mut _6790: uint32_t = 0;
-    let mut _6791: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6791: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6792: uint32_t = 0;
-    let mut _6793: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6793: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6794: bool_0 = 0;
     *(&mut _6686.field0 as *mut l_array_4_float) = _6673;
     *(&mut _6687.field0 as *mut l_array_4_float) = _6674;
@@ -25307,12 +25684,14 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     _6710 = _6677;
     _6711 = *(&mut *((*(_6710 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6679 = &mut _6680 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6712 = _6679;
     _6713 = *(&mut *((*(_6712 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6690 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_6709, _6711), _6713),
         0.333333343f64 as core::ffi::c_float,
@@ -25331,19 +25710,21 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     _6718 = _6681;
     _6719 = *(&mut *((*(_6718 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6683 = &mut _6684 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6720 = _6683;
     _6721 = *(&mut *((*(_6720 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6692 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_6717, _6719), _6721),
         0.333333343f64 as core::ffi::c_float,
     );
     _6722 = _6692;
     _6723 = _6690;
-    if llvm_fcmp_olt(_6722 as core::ffi::c_double, _6723 as libc::c_double) != 0 {
+    if llvm_fcmp_olt(_6722 as core::ffi::c_double, _6723 as core::ffi::c_double) != 0 {
         _6724 = _6690;
         _6725 = _6692;
         _6694 = llvm_fmul_f32(llvm_fadd_f32(_6724, _6725), 0.5f64 as core::ffi::c_float);
@@ -25482,7 +25863,7 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
                 _6774 = _6702;
                 _6704 = _6774;
                 _6775 = _6704;
-                if _6775 & 128 as core::ffi::c_int as uint32_t == 0 as libc::c_uint {
+                if _6775 & 128 as core::ffi::c_int as uint32_t == 0 as core::ffi::c_uint {
                     _6685 = 0 as core::ffi::c_int as bool_0;
                 } else {
                     _6776 = _6697;
@@ -25551,15 +25932,15 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     mut _6816: *mut core::ffi::c_void,
     mut _6817: uint32_t,
 ) {
-    let mut _6818: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6819: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6820: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6818: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6819: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6820: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6821: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6822: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6823: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6824: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6822: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6823: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6824: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6825: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -25569,7 +25950,7 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     let mut _6827: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6828: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6828: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6829: uint32_t = 0;
     let mut _6830: core::ffi::c_float = 0.;
     let mut _6831: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -25598,21 +25979,21 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     let mut _6850: uint32_t = 0;
     let mut _6851: uint32_t = 0;
     let mut _6852: uint32_t = 0;
-    let mut _6853: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6853: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6854: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6855: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6855: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6856: core::ffi::c_float = 0.;
-    let mut _6857: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6857: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6858: core::ffi::c_float = 0.;
-    let mut _6859: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6859: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6860: core::ffi::c_float = 0.;
-    let mut _6861: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6861: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6862: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6863: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6863: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6864: core::ffi::c_float = 0.;
-    let mut _6865: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6865: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6866: core::ffi::c_float = 0.;
-    let mut _6867: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6867: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6868: core::ffi::c_float = 0.;
     let mut _6869: core::ffi::c_float = 0.;
     let mut _6870: core::ffi::c_float = 0.;
@@ -25665,11 +26046,11 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     let mut _6917: uint32_t = 0;
     let mut _6918: uint32_t = 0;
     let mut _6919: uint8_t = 0;
-    let mut _6920: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6920: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6921: uint32_t = 0;
     let mut _6922: uint32_t = 0;
     let mut _6923: uint8_t = 0;
-    let mut _6924: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6924: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     *(&mut _6826.field0 as *mut l_array_4_float) = _6814;
     *(&mut _6827.field0 as *mut l_array_4_float) = _6815;
     _6828 = _6816;
@@ -25688,12 +26069,14 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     _6857 = _6818;
     _6858 = *(&mut *((*(_6857 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6820 = &mut _6821 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6859 = _6820;
     _6860 = *(&mut *((*(_6859 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6830 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_6856, _6858), _6860),
         0.333333343f64 as core::ffi::c_float,
@@ -25712,19 +26095,21 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     _6865 = _6822;
     _6866 = *(&mut *((*(_6865 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6824 = &mut _6825 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6867 = _6824;
     _6868 = *(&mut *((*(_6867 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6832 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_6864, _6866), _6868),
         0.333333343f64 as core::ffi::c_float,
     );
     _6869 = _6832;
     _6870 = _6830;
-    if llvm_fcmp_olt(_6869 as core::ffi::c_double, _6870 as libc::c_double) != 0 {
+    if llvm_fcmp_olt(_6869 as core::ffi::c_double, _6870 as core::ffi::c_double) != 0 {
         _6871 = _6830;
         _6872 = _6832;
         _6834 = llvm_fmul_f32(llvm_fadd_f32(_6871, _6872), 0.5f64 as core::ffi::c_float);
@@ -25791,12 +26176,12 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     _6893 = _6840;
     _6843 = llvm_add_u32(
         _6893 << 8 as core::ffi::c_int,
-        128 as libc::c_int as uint32_t,
+        128 as core::ffi::c_int as uint32_t,
     );
     _6894 = _6839;
     _6844 = llvm_sub_u32(
         _6894 << 8 as core::ffi::c_int,
-        128 as libc::c_int as uint32_t,
+        128 as core::ffi::c_int as uint32_t,
     );
     _6895 = _6841;
     _6896 = _6836;
@@ -25852,15 +26237,15 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     mut _6932: *mut core::ffi::c_void,
     mut _6933: uint32_t,
 ) {
-    let mut _6934: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6935: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6936: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6934: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6935: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6936: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6937: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6938: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6939: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6940: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6938: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6939: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6940: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6941: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -25870,7 +26255,7 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     let mut _6943: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6944: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6944: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6945: uint32_t = 0;
     let mut _6946: core::ffi::c_float = 0.;
     let mut _6947: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -25881,21 +26266,21 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _6950: core::ffi::c_float = 0.;
-    let mut _6951: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6951: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6952: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6953: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6953: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6954: core::ffi::c_float = 0.;
-    let mut _6955: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6955: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6956: core::ffi::c_float = 0.;
-    let mut _6957: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6957: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6958: core::ffi::c_float = 0.;
-    let mut _6959: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6959: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6960: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _6961: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6961: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6962: core::ffi::c_float = 0.;
-    let mut _6963: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6963: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6964: core::ffi::c_float = 0.;
-    let mut _6965: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6965: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6966: core::ffi::c_float = 0.;
     let mut _6967: core::ffi::c_float = 0.;
     let mut _6968: core::ffi::c_float = 0.;
@@ -25908,13 +26293,13 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     let mut _6975: uint32_t = 0;
     let mut _6976: core::ffi::c_float = 0.;
     let mut _6977: uint8_t = 0;
-    let mut _6978: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6978: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6979: uint32_t = 0;
     let mut _6980: core::ffi::c_float = 0.;
     let mut _6981: uint32_t = 0;
     let mut _6982: core::ffi::c_float = 0.;
     let mut _6983: uint8_t = 0;
-    let mut _6984: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6984: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     *(&mut _6942.field0 as *mut l_array_4_float) = _6930;
     *(&mut _6943.field0 as *mut l_array_4_float) = _6931;
     _6944 = _6932;
@@ -25933,12 +26318,14 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     _6955 = _6934;
     _6956 = *(&mut *((*(_6955 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6936 = &mut _6937 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6957 = _6936;
     _6958 = *(&mut *((*(_6957 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6946 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_6954, _6956), _6958),
         0.333333343f64 as core::ffi::c_float,
@@ -25957,19 +26344,21 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     _6963 = _6938;
     _6964 = *(&mut *((*(_6963 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6940 = &mut _6941 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6965 = _6940;
     _6966 = *(&mut *((*(_6965 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6948 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_6962, _6964), _6966),
         0.333333343f64 as core::ffi::c_float,
     );
     _6967 = _6946;
     _6968 = _6948;
-    if llvm_fcmp_ogt(_6967 as core::ffi::c_double, _6968 as libc::c_double) != 0 {
+    if llvm_fcmp_ogt(_6967 as core::ffi::c_double, _6968 as core::ffi::c_double) != 0 {
         _6969 = _6946;
         _6970 = _6948;
         _6950 = llvm_fmul_f32(llvm_fadd_f32(_6969, _6970), 0.5f64 as core::ffi::c_float);
@@ -26002,20 +26391,20 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     mut _6990: uint32_t,
 ) -> bool_0 {
     let mut current_block: u64;
-    let mut _6991: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6992: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6993: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6991: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6992: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6993: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6994: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6995: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6996: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _6997: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6995: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6996: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _6997: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _6998: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _6999: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7000: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _6999: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7000: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7001: bool_0 = 0;
     let mut _7002: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -26023,7 +26412,7 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     let mut _7003: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7004: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7004: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7005: uint32_t = 0;
     let mut _7006: core::ffi::c_float = 0.;
     let mut _7007: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -26047,25 +26436,25 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     let mut _7021: uint32_t = 0;
     let mut _7022: uint32_t = 0;
     let mut _7023: uint32_t = 0;
-    let mut _7024: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7024: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7025: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _7026: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7026: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7027: core::ffi::c_float = 0.;
-    let mut _7028: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7028: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7029: core::ffi::c_float = 0.;
-    let mut _7030: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7030: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7031: core::ffi::c_float = 0.;
-    let mut _7032: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7032: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7033: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _7034: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7034: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7035: core::ffi::c_float = 0.;
-    let mut _7036: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7036: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7037: core::ffi::c_float = 0.;
-    let mut _7038: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7038: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7039: core::ffi::c_float = 0.;
-    let mut _7040: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7040: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7041: core::ffi::c_float = 0.;
-    let mut _7042: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7042: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7043: core::ffi::c_float = 0.;
     let mut _7044: core::ffi::c_float = 0.;
     let mut _7045: uint32_t = 0;
@@ -26134,13 +26523,13 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     let mut _7108: uint32_t = 0;
     let mut _7109: uint32_t = 0;
     let mut _7110: uint32_t = 0;
-    let mut _7111: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7111: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7112: uint32_t = 0;
-    let mut _7113: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7113: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7114: uint32_t = 0;
-    let mut _7115: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7115: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7116: uint32_t = 0;
-    let mut _7117: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7117: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7118: bool_0 = 0;
     *(&mut _7002.field0 as *mut l_array_4_float) = _6987;
     *(&mut _7003.field0 as *mut l_array_4_float) = _6988;
@@ -26160,12 +26549,14 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     _7028 = _6991;
     _7029 = *(&mut *((*(_7028 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6993 = &mut _6994 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7030 = _6993;
     _7031 = *(&mut *((*(_7030 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7006 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_7027, _7029), _7031),
         0.333333343f64 as core::ffi::c_float,
@@ -26184,12 +26575,14 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     _7036 = _6995;
     _7037 = *(&mut *((*(_7036 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _6997 = &mut _6998 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7038 = _6997;
     _7039 = *(&mut *((*(_7038 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7008 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_7035, _7037), _7039),
         0.333333343f64 as core::ffi::c_float,
@@ -26198,13 +26591,15 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     _7040 = _6999;
     _7041 = *(&mut *((*(_7040 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7010 = _7041;
     _7000 = &mut _7003 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7042 = _7000;
     _7043 = *(&mut *((*(_7042 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7011 = _7043;
     _7044 = _7006;
     _7045 = _ZN4astcL11flt2int_rtnEf(_7044);
@@ -26319,12 +26714,14 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
                             _7097 = _7023;
                             _7023 = _7097 & 127 as core::ffi::c_int as uint32_t;
                             _7098 = _7022;
-                            if _7098 & 64 as core::ffi::c_int as uint32_t != 0 as libc::c_uint {
+                            if _7098 & 64 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint
+                            {
                                 _7099 = _7022;
                                 _7022 = llvm_sub_u32(_7099, 128 as core::ffi::c_int as uint32_t);
                             }
                             _7100 = _7023;
-                            if _7100 & 64 as core::ffi::c_int as uint32_t != 0 as libc::c_uint {
+                            if _7100 & 64 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint
+                            {
                                 _7101 = _7023;
                                 _7023 = llvm_sub_u32(_7101, 128 as core::ffi::c_int as uint32_t);
                             }
@@ -26417,27 +26814,27 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     mut _7142: *mut core::ffi::c_void,
     mut _7143: uint32_t,
 ) {
-    let mut _7144: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7145: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7146: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7144: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7145: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7146: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7147: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7148: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7149: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7150: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7148: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7149: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7150: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7151: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7152: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7153: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7152: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7153: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7154: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _7155: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7156: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7156: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7157: uint32_t = 0;
     let mut _7158: core::ffi::c_float = 0.;
     let mut _7159: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -26449,50 +26846,50 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     };
     let mut _7162: core::ffi::c_float = 0.;
     let mut _7163: core::ffi::c_float = 0.;
-    let mut _7164: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7164: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7165: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _7166: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7166: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7167: core::ffi::c_float = 0.;
-    let mut _7168: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7168: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7169: core::ffi::c_float = 0.;
-    let mut _7170: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7170: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7171: core::ffi::c_float = 0.;
-    let mut _7172: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7172: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7173: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _7174: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7174: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7175: core::ffi::c_float = 0.;
-    let mut _7176: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7176: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7177: core::ffi::c_float = 0.;
-    let mut _7178: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7178: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7179: core::ffi::c_float = 0.;
-    let mut _7180: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7180: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7181: core::ffi::c_float = 0.;
-    let mut _7182: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7182: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7183: core::ffi::c_float = 0.;
     let mut _7184: uint32_t = 0;
     let mut _7185: core::ffi::c_float = 0.;
     let mut _7186: uint32_t = 0;
     let mut _7187: core::ffi::c_float = 0.;
     let mut _7188: uint8_t = 0;
-    let mut _7189: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7189: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7190: uint32_t = 0;
     let mut _7191: core::ffi::c_float = 0.;
     let mut _7192: uint32_t = 0;
     let mut _7193: core::ffi::c_float = 0.;
     let mut _7194: uint8_t = 0;
-    let mut _7195: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7195: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7196: uint32_t = 0;
     let mut _7197: core::ffi::c_float = 0.;
     let mut _7198: uint32_t = 0;
     let mut _7199: core::ffi::c_float = 0.;
     let mut _7200: uint8_t = 0;
-    let mut _7201: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7201: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7202: uint32_t = 0;
     let mut _7203: core::ffi::c_float = 0.;
     let mut _7204: uint32_t = 0;
     let mut _7205: core::ffi::c_float = 0.;
     let mut _7206: uint8_t = 0;
-    let mut _7207: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7207: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     *(&mut _7154.field0 as *mut l_array_4_float) = _7140;
     *(&mut _7155.field0 as *mut l_array_4_float) = _7141;
     _7156 = _7142;
@@ -26511,12 +26908,14 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7168 = _7144;
     _7169 = *(&mut *((*(_7168 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7146 = &mut _7147 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7170 = _7146;
     _7171 = *(&mut *((*(_7170 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7158 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_7167, _7169), _7171),
         0.333333343f64 as core::ffi::c_float,
@@ -26535,12 +26934,14 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7176 = _7148;
     _7177 = *(&mut *((*(_7176 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7150 = &mut _7151 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7178 = _7150;
     _7179 = *(&mut *((*(_7178 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7160 = llvm_fmul_f32(
         llvm_fadd_f32(llvm_fadd_f32(_7175, _7177), _7179),
         0.333333343f64 as core::ffi::c_float,
@@ -26549,13 +26950,15 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7180 = _7152;
     _7181 = *(&mut *((*(_7180 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7162 = _7181;
     _7153 = &mut _7155 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7182 = _7153;
     _7183 = *(&mut *((*(_7182 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7163 = _7183;
     _7184 = _7157;
     _7185 = _7158;
@@ -26596,15 +26999,15 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     mut _7210: *mut core::ffi::c_void,
     mut _7211: uint32_t,
 ) {
-    let mut _7212: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7213: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7212: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7213: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7214: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _7215: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7216: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7216: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7217: uint32_t = 0;
     let mut _7218: core::ffi::c_float = 0.;
     let mut _7219: core::ffi::c_float = 0.;
@@ -26615,11 +27018,11 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     let mut _7222: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7223: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7223: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7224: core::ffi::c_float = 0.;
     let mut _7225: core::ffi::c_float = 0.;
     let mut _7226: core::ffi::c_float = 0.;
-    let mut _7227: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7227: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7228: core::ffi::c_float = 0.;
     let mut _7229: core::ffi::c_float = 0.;
     let mut _7230: core::ffi::c_float = 0.;
@@ -26628,16 +27031,16 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     let mut _7233: uint32_t = 0;
     let mut _7234: core::ffi::c_float = 0.;
     let mut _7235: uint8_t = 0;
-    let mut _7236: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7236: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7237: uint32_t = 0;
     let mut _7238: core::ffi::c_float = 0.;
     let mut _7239: uint32_t = 0;
     let mut _7240: core::ffi::c_float = 0.;
     let mut _7241: uint8_t = 0;
-    let mut _7242: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7243: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7244: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7245: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7242: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7243: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7244: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7245: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7246: uint32_t = 0;
     let mut _7247: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _7248: l_array_4_float = l_array_4_float { array: [0.; 4] };
@@ -26650,7 +27053,8 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     _7223 = _7212;
     _7224 = *(&mut *((*(_7223 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7225 = _7218;
     _7226 = _ZN4astcL9clamp255fEf(llvm_fmul_f32(_7224, _7225));
     _7219 = _7226;
@@ -26658,7 +27062,8 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     _7227 = _7213;
     _7228 = *(&mut *((*(_7227 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7229 = _7218;
     _7230 = _ZN4astcL9clamp255fEf(llvm_fmul_f32(_7228, _7229));
     _7220 = _7230;
@@ -26701,15 +27106,15 @@ unsafe extern "C" fn _ZL22quantize_hdr_rgb_alpha7vfloat4S_Ph12quant_method(
     mut _7251: *mut core::ffi::c_void,
     mut _7252: uint32_t,
 ) {
-    let mut _7253: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7254: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7253: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7254: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7255: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _7256: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7257: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7257: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7258: uint32_t = 0;
     let mut _7259: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -26717,17 +27122,17 @@ unsafe extern "C" fn _ZL22quantize_hdr_rgb_alpha7vfloat4S_Ph12quant_method(
     let mut _7260: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7261: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7262: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7263: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7261: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7262: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7263: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7264: uint32_t = 0;
     let mut _7265: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _7266: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _7267: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7267: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7268: core::ffi::c_float = 0.;
-    let mut _7269: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7269: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7270: core::ffi::c_float = 0.;
-    let mut _7271: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7271: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7272: uint32_t = 0;
     *(&mut _7255.field0 as *mut l_array_4_float) = _7249;
     *(&mut _7256.field0 as *mut l_array_4_float) = _7250;
@@ -26752,12 +27157,14 @@ unsafe extern "C" fn _ZL22quantize_hdr_rgb_alpha7vfloat4S_Ph12quant_method(
     _7267 = _7253;
     _7268 = *(&mut *((*(_7267 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7254 = &mut _7256 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7269 = _7254;
     _7270 = *(&mut *((*(_7269 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7271 = _7257;
     _7272 = _7258;
     _ZL18quantize_hdr_alphaffPh12quant_method(
@@ -26774,21 +27181,21 @@ pub unsafe extern "C" fn _ZSt4swapI7vfloat4ENSt9enable_ifIXsr6__and_ISt6__not_IS
     mut _7273: *mut core::ffi::c_void,
     mut _7274: *mut core::ffi::c_void,
 ) {
-    let mut _7275: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7276: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7275: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7276: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7277: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7278: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7279: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7280: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7281: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7282: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7283: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7284: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7285: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7286: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7287: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7278: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7279: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7280: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7281: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7282: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7283: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7284: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7285: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7286: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7287: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _7275 = _7273;
     _7276 = _7274;
     _7278 = _7275;
@@ -26813,7 +27220,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     mut _7288: uint32_t,
     mut _7289: l_array_2_uint64_t,
 ) -> l_array_2_uint64_t {
-    let mut _7290: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7290: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7291: uint32_t = 0;
     let mut _7292: uint32_t = 0;
     let mut _7293: uint32_t = 0;
@@ -26827,7 +27234,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7297: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7298: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7298: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7299: uint32_t = 0;
     let mut _7300: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -26842,7 +27249,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7304: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7305: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7305: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7306: uint32_t = 0;
     let mut _7307: uint32_t = 0;
     let mut _7308: uint32_t = 0;
@@ -26856,7 +27263,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7312: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7313: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7313: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7314: uint32_t = 0;
     let mut _7315: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -26871,14 +27278,14 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7319: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7320: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7320: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7321: uint32_t = 0;
     let mut _7322: uint32_t = 0;
     let mut _7323: uint32_t = 0;
     let mut _7324: uint32_t = 0;
-    let mut _7325: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7326: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7327: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7325: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7326: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7327: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7328: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
@@ -26895,11 +27302,11 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7333: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7334: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7334: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7335: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7336: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7336: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7337: uint32_t = 0;
-    let mut _7338: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7338: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7339: uint32_t = 0;
     let mut _7340: uint32_t = 0;
     let mut _7341: uint32_t = 0;
@@ -26914,7 +27321,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7350: uint32_t = 0;
     let mut _7351: uint32_t = 0;
     let mut _7352: uint32_t = 0;
-    let mut _7353: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7353: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7354: uint32_t = 0;
     let mut _7355: uint32_t = 0;
     let mut _7356: uint32_t = 0;
@@ -26922,9 +27329,9 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7358: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7359: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7360: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7361: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7361: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7362: uint32_t = 0;
-    let mut _7363: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7363: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7364: uint32_t = 0;
     let mut _7365: uint32_t = 0;
     let mut _7366: uint32_t = 0;
@@ -26939,7 +27346,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7375: uint32_t = 0;
     let mut _7376: uint32_t = 0;
     let mut _7377: uint32_t = 0;
-    let mut _7378: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7378: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7379: uint32_t = 0;
     let mut _7380: uint32_t = 0;
     let mut _7381: uint32_t = 0;
@@ -26947,18 +27354,18 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     let mut _7383: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7384: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7385: uint32_t = 0;
-    let mut _7386: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7386: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7387: uint32_t = 0;
     let mut _7388: uint8_t = 0;
     let mut _7389: uint32_t = 0;
-    let mut _7390: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7390: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7391: uint32_t = 0;
     let mut _7392: uint8_t = 0;
     let mut _7393: uint32_t = 0;
-    let mut _7394: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7394: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7395: uint32_t = 0;
     let mut _7396: uint8_t = 0;
-    let mut _7397: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7397: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7398: uint32_t = 0;
     let mut _7399: uint32_t = 0;
     let mut _7400: uint32_t = 0;
@@ -27208,8 +27615,8 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
 pub unsafe extern "C" fn _ZSt4moveIR7vfloat4EONSt16remove_referenceIT_E4typeEOS3_(
     mut _7403: *mut core::ffi::c_void,
 ) -> *mut core::ffi::c_void {
-    let mut _7404: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7405: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7404: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7405: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _7404 = _7403;
     _7405 = _7404;
     return _7405;
@@ -27220,7 +27627,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     mut _7407: l_array_2_uint64_t,
     mut _7408: l_array_4_float,
 ) -> l_array_2_uint64_t {
-    let mut _7409: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7409: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7410: uint8_t = 0;
     let mut _7411: uint8_t = 0;
     let mut _7412: uint8_t = 0;
@@ -27234,7 +27641,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7416: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7417: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7417: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7418: core::ffi::c_float = 0.;
     let mut _7419: core::ffi::c_float = 0.;
     let mut _7420: core::ffi::c_float = 0.;
@@ -27245,7 +27652,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7423: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7424: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7424: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7425: uint32_t = 0;
     let mut _7426: uint32_t = 0;
     let mut _7427: uint32_t = 0;
@@ -27262,7 +27669,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7432: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7433: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7433: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7434: uint32_t = 0;
     let mut _7435: uint32_t = 0;
     let mut _7436: uint32_t = 0;
@@ -27276,7 +27683,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7440: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7441: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7441: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7442: uint32_t = 0;
     let mut _7443: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -27291,7 +27698,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7447: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7448: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7448: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7449: uint32_t = 0;
     let mut _7450: uint32_t = 0;
     let mut _7451: uint32_t = 0;
@@ -27305,7 +27712,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7455: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7456: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7456: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7457: uint32_t = 0;
     let mut _7458: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -27320,12 +27727,12 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7462: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7463: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7463: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7464: uint32_t = 0;
     let mut _7465: uint32_t = 0;
     let mut _7466: uint32_t = 0;
     let mut _7467: uint32_t = 0;
-    let mut _7468: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7468: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7469: core::ffi::c_float = 0.;
     let mut _7470: core::ffi::c_float = 0.;
     let mut _7471: core::ffi::c_float = 0.;
@@ -27339,11 +27746,11 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7475: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7476: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7476: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7477: core::ffi::c_float = 0.;
-    let mut _7478: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7479: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7480: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7478: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7479: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7480: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7481: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
@@ -27396,11 +27803,11 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7498: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _7499: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7499: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7500: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7501: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7501: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7502: uint32_t = 0;
-    let mut _7503: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7503: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7504: uint32_t = 0;
     let mut _7505: uint32_t = 0;
     let mut _7506: uint32_t = 0;
@@ -27415,21 +27822,21 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7515: uint32_t = 0;
     let mut _7516: uint32_t = 0;
     let mut _7517: uint32_t = 0;
-    let mut _7518: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7518: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7519: uint32_t = 0;
     let mut _7520: uint32_t = 0;
     let mut _7521: uint32_t = 0;
     let mut _7522: uint32_t = 0;
     let mut _7523: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7524: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7525: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7526: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7525: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7526: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7527: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7528: uint32_t = 0;
     let mut _7529: uint32_t = 0;
     let mut _7530: uint32_t = 0;
     let mut _7531: uint32_t = 0;
-    let mut _7532: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7532: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7533: core::ffi::c_float = 0.;
     let mut _7534: core::ffi::c_float = 0.;
     let mut _7535: core::ffi::c_float = 0.;
@@ -27447,7 +27854,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7545: core::ffi::c_float = 0.;
     let mut _7546: core::ffi::c_float = 0.;
     let mut _7547: core::ffi::c_float = 0.;
-    let mut _7548: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7548: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7549: core::ffi::c_float = 0.;
     let mut _7550: core::ffi::c_float = 0.;
     let mut _7551: core::ffi::c_float = 0.;
@@ -27455,8 +27862,8 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7553: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7554: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7555: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7554: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7555: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7556: core::ffi::c_float = 0.;
     let mut _7557: core::ffi::c_float = 0.;
     let mut _7558: core::ffi::c_float = 0.;
@@ -27471,7 +27878,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7567: core::ffi::c_float = 0.;
     let mut _7568: core::ffi::c_float = 0.;
     let mut _7569: core::ffi::c_float = 0.;
-    let mut _7570: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7570: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7571: uint8_t = 0;
     let mut _7572: uint64_t = 0;
     let mut _7573: uint8_t = 0;
@@ -27481,12 +27888,12 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7577: uint8_t = 0;
     let mut _7578: uint64_t = 0;
     let mut _7579: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7580: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7581: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7580: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7581: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7582: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7583: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7583: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7584: uint32_t = 0;
-    let mut _7585: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7585: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7586: uint32_t = 0;
     let mut _7587: uint32_t = 0;
     let mut _7588: uint32_t = 0;
@@ -27501,14 +27908,14 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7597: uint32_t = 0;
     let mut _7598: uint32_t = 0;
     let mut _7599: uint32_t = 0;
-    let mut _7600: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7600: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7601: uint32_t = 0;
     let mut _7602: uint32_t = 0;
     let mut _7603: uint32_t = 0;
     let mut _7604: uint32_t = 0;
     let mut _7605: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7606: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7607: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7607: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7608: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7609: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _7610: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
@@ -27532,26 +27939,26 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     let mut _7625: uint32_t = 0;
     let mut _7626: uint32_t = 0;
     let mut _7626__PHI_TEMPORARY: uint32_t = 0;
-    let mut _7627: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7627: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7628: uint32_t = 0;
     let mut _7629: uint32_t = 0;
     let mut _7630: uint32_t = 0;
     let mut _7631: uint32_t = 0;
     let mut _7632: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _7633: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7633: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7634: uint32_t = 0;
-    let mut _7635: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7635: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7636: uint32_t = 0;
     let mut _7637: uint8_t = 0;
     let mut _7638: uint32_t = 0;
-    let mut _7639: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7639: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7640: uint32_t = 0;
     let mut _7641: uint8_t = 0;
     let mut _7642: uint32_t = 0;
-    let mut _7643: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7643: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7644: uint32_t = 0;
     let mut _7645: uint8_t = 0;
-    let mut _7646: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7646: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7647: uint32_t = 0;
     let mut _7648: uint32_t = 0;
     let mut _7649: uint32_t = 0;
@@ -27681,15 +28088,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7534 = _7419;
     *(&mut *((*(_7532 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7534;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7534;
     _7535 = _7420;
     *(&mut *((*(_7532 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7535;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7535;
     _7536 = _7421;
     *(&mut *((*(_7532 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7536;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7536;
     _7537 = _7422;
     *(&mut _7489.field0 as *mut l_array_4_float) = _7537.field0;
     _7538 = *(&mut _7488.field0 as *mut l_array_4_float);
@@ -27701,27 +28108,33 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7542 = *(&mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7543 = *(&mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7544 = *(&mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7545 = *(&mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7546 = *(&mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7547 = *(&mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7468 = &mut _7473 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7469 = llvm_fsub_f32(_7540, _7541);
     _7470 = llvm_fsub_f32(_7542, _7543);
@@ -27733,15 +28146,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7550 = _7470;
     *(&mut *((*(_7548 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7550;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7550;
     _7551 = _7471;
     *(&mut *((*(_7548 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7551;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7551;
     _7552 = _7472;
     *(&mut *((*(_7548 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7552;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7552;
     _7553 = _7473;
     *(&mut _7487.field0 as *mut l_array_4_float) = _7553.field0;
     _7554 = memcpy(
@@ -27757,15 +28170,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7557 = _7477;
     *(&mut *((*(_7555 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7557;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7557;
     _7558 = _7477;
     *(&mut *((*(_7555 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7558;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7558;
     _7559 = _7477;
     *(&mut *((*(_7555 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _7559;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7559;
     _7560 = *(&mut _7492.field0 as *mut l_array_4_float);
     _7561 = *(&mut _7493.field0 as *mut l_array_4_float);
     *(&mut _7415 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float) = _7560;
@@ -27775,72 +28188,78 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7564 = *(&mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7565 = *(&mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7566 = *(&mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7567 = *(&mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7568 = *(&mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7569 = *(&mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7409 = &mut _7414 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _7410 = llvm_fcmp_oge(_7562 as core::ffi::c_double, _7563 as libc::c_double) as bool_0;
-    _7411 = llvm_fcmp_oge(_7564 as core::ffi::c_double, _7565 as libc::c_double) as bool_0;
-    _7412 = llvm_fcmp_oge(_7566 as core::ffi::c_double, _7567 as libc::c_double) as bool_0;
-    _7413 = llvm_fcmp_oge(_7568 as core::ffi::c_double, _7569 as libc::c_double) as bool_0;
+    _7410 = llvm_fcmp_oge(_7562 as core::ffi::c_double, _7563 as core::ffi::c_double) as bool_0;
+    _7411 = llvm_fcmp_oge(_7564 as core::ffi::c_double, _7565 as core::ffi::c_double) as bool_0;
+    _7412 = llvm_fcmp_oge(_7566 as core::ffi::c_double, _7567 as core::ffi::c_double) as bool_0;
+    _7413 = llvm_fcmp_oge(_7568 as core::ffi::c_double, _7569 as core::ffi::c_double) as bool_0;
     _7570 = _7409;
     _7571 = _7410;
-    _7572 = ((_7571 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _7572 = ((_7571 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_7570 as *mut uint32_t) = llvm_select_u32(
-        ((_7571 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_7571 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _7573 = _7411;
-    _7574 = ((_7573 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _7574 = ((_7573 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_7570 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_7573 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_7573 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _7575 = _7412;
-    _7576 = ((_7575 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _7576 = ((_7575 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_7570 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_7575 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_7575 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _7577 = _7413;
-    _7578 = ((_7577 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _7578 = ((_7577 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_7570 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_7577 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_7577 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -27948,7 +28367,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     *(&mut _7431 as *mut l_struct_struct_OC_vint4 as *mut l_array_2_uint64_t) = _7609;
     *(&mut _7432 as *mut l_struct_struct_OC_vmask4 as *mut l_array_2_uint64_t) = _7610;
     _7611 = *(&mut _7432 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    if _7611 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+    if _7611 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
         _7612 = *(&mut _7431 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _7614__PHI_TEMPORARY = _7612;
     } else {
@@ -27960,7 +28379,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    if _7615 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+    if _7615 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
         _7616 = *(&mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
             as *mut l_array_4_uint32_t))
             .array)
@@ -27980,7 +28399,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    if _7619 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+    if _7619 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
         _7620 = *(&mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
             as *mut l_array_4_uint32_t))
             .array)
@@ -28000,7 +28419,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    if _7623 & 2147483648 as core::ffi::c_uint != 0 as libc::c_uint {
+    if _7623 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
         _7624 = *(&mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
             as *mut l_array_4_uint32_t))
             .array)
@@ -28124,11 +28543,11 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
     mut _7668: uint32_t,
 ) -> bool_0 {
     let mut current_block: u64;
-    let mut _7669: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7670: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7671: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7669: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7670: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7671: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7672: uint32_t = 0;
-    let mut _7673: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7673: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7674: uint32_t = 0;
     let mut _7675: bool_0 = 0;
     let mut _7676: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
@@ -28137,8 +28556,8 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
     let mut _7677: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _7678: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _7679: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7678: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _7679: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7680: uint32_t = 0;
     let mut _7681: core::ffi::c_float = 0.;
     let mut _7682: core::ffi::c_float = 0.;
@@ -28148,9 +28567,9 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
     let mut _7686: uint32_t = 0;
     let mut _7687: uint32_t = 0;
     let mut _7688: uint32_t = 0;
-    let mut _7689: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7689: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7690: core::ffi::c_float = 0.;
-    let mut _7691: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7691: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7692: core::ffi::c_float = 0.;
     let mut _7693: core::ffi::c_float = 0.;
     let mut _7694: uint32_t = 0;
@@ -28185,13 +28604,13 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
     let mut _7723: uint32_t = 0;
     let mut _7724: uint32_t = 0;
     let mut _7725: uint32_t = 0;
-    let mut _7726: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7726: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7727: uint32_t = 0;
-    let mut _7728: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7728: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7729: uint32_t = 0;
-    let mut _7730: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7730: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7731: uint32_t = 0;
-    let mut _7732: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7732: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7733: uint32_t = 0;
     let mut _7734: bool_0 = 0;
     *(&mut _7676.field0 as *mut l_array_4_float) = _7664;
@@ -28203,13 +28622,15 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
     _7689 = _7669;
     _7690 = *(&mut *((*(_7689 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7681 = _7690;
     _7670 = &mut _7677 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7691 = _7670;
     _7692 = *(&mut *((*(_7691 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _7682 = _7692;
     _7693 = _7681;
     _7694 = _ZN4astcL11flt2int_rtnEf(_7693);
@@ -28260,13 +28681,13 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
             _7688 = _7716;
             _7717 = _7686;
             _7718 = _7688;
-            if (_7717 ^ _7718) & 192 as core::ffi::c_int as uint32_t != 0 as libc::c_uint {
+            if (_7717 ^ _7718) & 192 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
                 _7675 = 0 as core::ffi::c_int as bool_0;
             } else {
                 _7719 = _7688;
                 _7688 = _7719 & 127 as core::ffi::c_int as uint32_t;
                 _7720 = _7688;
-                if _7720 & 64 as core::ffi::c_int as uint32_t != 0 as libc::c_uint {
+                if _7720 & 64 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint {
                     _7721 = _7688;
                     _7688 = llvm_sub_u32(_7721, 128 as core::ffi::c_int as uint32_t);
                 }
@@ -28414,7 +28835,7 @@ unsafe extern "C" fn _ZL11quant_color12quant_methodif(
     return _7773;
 }
 #[inline(never)]
-unsafe extern "C" fn _ZN4astcL9clamp255fEf(mut _7776: core::ffi::c_float) -> libc::c_float {
+unsafe extern "C" fn _ZN4astcL9clamp255fEf(mut _7776: core::ffi::c_float) -> core::ffi::c_float {
     let mut _7777: core::ffi::c_float = 0.;
     let mut _7778: core::ffi::c_float = 0.;
     let mut _7779: core::ffi::c_float = 0.;
@@ -28422,13 +28843,13 @@ unsafe extern "C" fn _ZN4astcL9clamp255fEf(mut _7776: core::ffi::c_float) -> lib
     _7778 = _7777;
     _7779 = _ZN4astc5clampIfEET_S1_S1_S1_(
         _7778,
-        0 as core::ffi::c_int as libc::c_float,
-        255 as core::ffi::c_int as libc::c_float,
+        0 as core::ffi::c_int as core::ffi::c_float,
+        255 as core::ffi::c_int as core::ffi::c_float,
     );
     return _7779;
 }
 #[inline(never)]
-unsafe extern "C" fn _ZN4astcL7clamp1fEf(mut _7780: core::ffi::c_float) -> libc::c_float {
+unsafe extern "C" fn _ZN4astcL7clamp1fEf(mut _7780: core::ffi::c_float) -> core::ffi::c_float {
     let mut _7781: core::ffi::c_float = 0.;
     let mut _7782: core::ffi::c_float = 0.;
     let mut _7783: core::ffi::c_float = 0.;
@@ -28436,8 +28857,8 @@ unsafe extern "C" fn _ZN4astcL7clamp1fEf(mut _7780: core::ffi::c_float) -> libc:
     _7782 = _7781;
     _7783 = _ZN4astc5clampIfEET_S1_S1_S1_(
         _7782,
-        0 as core::ffi::c_int as libc::c_float,
-        1 as core::ffi::c_int as libc::c_float,
+        0 as core::ffi::c_int as core::ffi::c_float,
+        1 as core::ffi::c_int as core::ffi::c_float,
     );
     return _7783;
 }
@@ -28506,13 +28927,13 @@ pub unsafe extern "C" fn _ZN4astc5clampIfEET_S1_S1_S1_(
     _7810 = _7806;
     _7811 = _7808;
     _7812 = _7810;
-    if llvm_fcmp_ogt(_7811 as core::ffi::c_double, _7812 as libc::c_double) != 0 {
+    if llvm_fcmp_ogt(_7811 as core::ffi::c_double, _7812 as core::ffi::c_double) != 0 {
         _7813 = _7810;
         _7807 = _7813;
     } else {
         _7814 = _7808;
         _7815 = _7809;
-        if llvm_fcmp_ogt(_7814 as core::ffi::c_double, _7815 as libc::c_double) != 0 {
+        if llvm_fcmp_ogt(_7814 as core::ffi::c_double, _7815 as core::ffi::c_double) != 0 {
             _7816 = _7808;
             _7807 = _7816;
         } else {
@@ -28531,7 +28952,7 @@ unsafe extern "C" fn _ZL43quantize_and_unquantize_retain_top_two_bits12quant_met
 ) {
     let mut _7827: uint32_t = 0;
     let mut _7828: uint8_t = 0;
-    let mut _7829: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7829: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7830: uint32_t = 0;
     let mut _7831: uint8_t = 0;
     let mut _7832: uint32_t = 0;
@@ -28547,7 +28968,7 @@ unsafe extern "C" fn _ZL43quantize_and_unquantize_retain_top_two_bits12quant_met
     let mut _7842: uint8_t = 0;
     let mut _7843: uint32_t = 0;
     let mut _7844: uint8_t = 0;
-    let mut _7845: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7845: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _7827 = _7824;
     _7828 = _7825;
     _7829 = _7826;
@@ -28560,7 +28981,7 @@ unsafe extern "C" fn _ZL43quantize_and_unquantize_retain_top_two_bits12quant_met
         _7836 = _7831;
         _7830 = (_7835 as uint32_t & 192 as core::ffi::c_int as uint32_t
             != _7836 as uint32_t & 192 as core::ffi::c_int as uint32_t)
-            as libc::c_int as bool_0 as uint32_t;
+            as core::ffi::c_int as bool_0 as uint32_t;
         _7837 = _7831;
         _7838 = _7828;
         if (_7837 as uint32_t & 192 as core::ffi::c_int as uint32_t) as int32_t
@@ -28595,7 +29016,7 @@ unsafe extern "C" fn _ZL44quantize_and_unquantize_retain_top_four_bits12quant_me
 ) {
     let mut _7857: uint32_t = 0;
     let mut _7858: uint8_t = 0;
-    let mut _7859: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7859: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7860: uint8_t = 0;
     let mut _7861: uint8_t = 0;
     let mut _7862: uint32_t = 0;
@@ -28611,7 +29032,7 @@ unsafe extern "C" fn _ZL44quantize_and_unquantize_retain_top_four_bits12quant_me
     let mut _7872: uint8_t = 0;
     let mut _7873: uint8_t = 0;
     let mut _7874: uint8_t = 0;
-    let mut _7875: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7875: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _7857 = _7854;
     _7858 = _7855;
     _7859 = _7856;
@@ -28624,7 +29045,7 @@ unsafe extern "C" fn _ZL44quantize_and_unquantize_retain_top_four_bits12quant_me
         _7866 = _7861;
         _7860 = (_7865 as uint32_t & 240 as core::ffi::c_int as uint32_t
             != _7866 as uint32_t & 240 as core::ffi::c_int as uint32_t)
-            as libc::c_int as bool_0;
+            as core::ffi::c_int as bool_0;
         _7867 = _7861;
         _7868 = _7858;
         if (_7867 as uint32_t & 240 as core::ffi::c_int as uint32_t) as int32_t
@@ -28643,7 +29064,7 @@ unsafe extern "C" fn _ZL44quantize_and_unquantize_retain_top_four_bits12quant_me
             }
         }
         _7873 = _7860;
-        if !(_7873 as core::ffi::c_int != 0 as libc::c_int as uint8_t as libc::c_int) {
+        if !(_7873 as core::ffi::c_int != 0 as core::ffi::c_int as uint8_t as core::ffi::c_int) {
             break;
         }
     }
@@ -28661,7 +29082,7 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
     let mut current_block: u64;
     let mut _7888: core::ffi::c_float = 0.;
     let mut _7889: core::ffi::c_float = 0.;
-    let mut _7890: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7890: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7891: uint32_t = 0;
     let mut _7892: uint32_t = 0;
     let mut _7893: uint32_t = 0;
@@ -28724,9 +29145,9 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
     let mut _7950: uint32_t = 0;
     let mut _7951: uint32_t = 0;
     let mut _7952: uint32_t = 0;
-    let mut _7953: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7953: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7954: uint32_t = 0;
-    let mut _7955: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7955: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7956: uint32_t = 0;
     let mut _7957: uint32_t = 0;
     let mut _7958: uint32_t = 0;
@@ -28735,11 +29156,11 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
     let mut _7961: uint32_t = 0;
     let mut _7962: uint32_t = 0;
     let mut _7963: uint8_t = 0;
-    let mut _7964: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7964: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _7965: uint32_t = 0;
     let mut _7966: uint32_t = 0;
     let mut _7967: uint8_t = 0;
-    let mut _7968: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7968: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _7888 = _7884;
     _7889 = _7885;
     _7890 = _7886;
@@ -28747,15 +29168,15 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
     _7906 = _7888;
     _7907 = _ZN4astc5clampIfEET_S1_S1_S1_(
         _7906,
-        0 as core::ffi::c_int as libc::c_float,
-        65280 as core::ffi::c_int as libc::c_float,
+        0 as core::ffi::c_int as core::ffi::c_float,
+        65280 as core::ffi::c_int as core::ffi::c_float,
     );
     _7888 = _7907;
     _7908 = _7889;
     _7909 = _ZN4astc5clampIfEET_S1_S1_S1_(
         _7908,
-        0 as core::ffi::c_int as libc::c_float,
-        65280 as core::ffi::c_int as libc::c_float,
+        0 as core::ffi::c_int as core::ffi::c_float,
+        65280 as core::ffi::c_int as core::ffi::c_float,
     );
     _7889 = _7909;
     _7910 = _7888;
@@ -28794,7 +29215,7 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
         _7921 = _7894;
         _7922 = _7903;
         _7897 = _7921 & 127 as core::ffi::c_int as uint32_t
-            | (_7922 & 1 as core::ffi::c_int as uint32_t) << 7 as libc::c_int;
+            | (_7922 & 1 as core::ffi::c_int as uint32_t) << 7 as core::ffi::c_int;
         _7923 = _7891;
         _7924 = _7897;
         _7925 = _ZL11quant_color12quant_methodi(_7923, _7924);
@@ -28803,7 +29224,7 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
         _7901 = _7926;
         _7927 = _7897;
         _7928 = _7901;
-        if !((_7927 ^ _7928) & 128 as core::ffi::c_int as uint32_t != 0 as libc::c_uint) {
+        if !((_7927 ^ _7928) & 128 as core::ffi::c_int as uint32_t != 0 as core::ffi::c_uint) {
             _7929 = _7894;
             _7930 = _7901;
             _7894 = _7929 & -(128 as core::ffi::c_int) as uint32_t
@@ -28829,7 +29250,7 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
                     _7941 = _7903;
                     _7942 = _7896;
                     _7943 = _7905;
-                    _7898 = (_7939 & 2 as core::ffi::c_int as uint32_t) << 6 as libc::c_int
+                    _7898 = (_7939 & 2 as core::ffi::c_int as uint32_t) << 6 as core::ffi::c_int
                         | llvm_ashr_u32(_7940 as int32_t, 7 as core::ffi::c_int)
                             << llvm_sub_u32(6 as core::ffi::c_int as uint32_t, _7941)
                         | _7942 & _7943;

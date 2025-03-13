@@ -72,11 +72,12 @@ RUN echo "pub use bindings::*;" >> lib.rs
 # Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
 RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
 # Remove casting of numeric constants which causes signed/unsigned types issues
-RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint32_t/$1/' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint64_t/$1/' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint32_t/$1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/(\d+) as libc::c_int as uint64_t/$1/g' $f; done
 # Replace `libc::` with `core::ffi::` and remove `libc` altogether
-RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/g' $f; done
 RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done
+RUN sed -i 's/extern crate libc;//' lib.rs
 # Remove all `#[no_mangle]` attributes
 RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
 # Each Rust module imports every other public symbol of every other module
@@ -93,7 +94,7 @@ RUN echo "fn sinf(v: f32) -> f32 { v.sin() }" >> lib.rs
 RUN echo "fn fabsf(v: f32) -> f32 { v.abs() }" >> lib.rs
 RUN echo "fn roundf(v: f32) -> f32 { v.round() }" >> lib.rs
 RUN echo "fn sqrtf(v: f32) -> f32 { v.sqrt() }" >> lib.rs
-RUN echo "fn logf(v: f32) -> f32 { v.log() }" >> lib.rs
+RUN echo "fn logf(v: f32) -> f32 { v.ln() }" >> lib.rs
 RUN echo "fn __assert_fail(assertion: *mut core::ffi::c_void, file: *mut core::ffi::c_void, line: core::ffi::c_uint, function: *mut core::ffi::c_void) { panic!() }" >> lib.rs
 RUN echo "unsafe fn posix_memalign(memptr: *mut *mut core::ffi::c_void, alignment: u64, size: u64) -> core::ffi::c_int { if size != 0 { let ptr = std::alloc::alloc(std::alloc::Layout::from_size_align(size, alignment).unwrap())); memptr.write(ptr); } else { memptr.write(core::ptr::null_mut()); } 0 }"
 

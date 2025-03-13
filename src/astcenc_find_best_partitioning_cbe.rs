@@ -784,12 +784,12 @@ unsafe extern "C" fn llvm_select_u32(
 }
 #[inline(always)]
 unsafe extern "C" fn llvm_add_u8(mut a: uint8_t, mut b: uint8_t) -> uint8_t {
-    let mut r: uint8_t = (a as core::ffi::c_int + b as libc::c_int) as uint8_t;
+    let mut r: uint8_t = (a as core::ffi::c_int + b as core::ffi::c_int) as uint8_t;
     return r;
 }
 #[inline(always)]
 unsafe extern "C" fn llvm_add_u16(mut a: uint16_t, mut b: uint16_t) -> uint16_t {
-    let mut r: uint16_t = (a as core::ffi::c_int + b as libc::c_int) as uint16_t;
+    let mut r: uint16_t = (a as core::ffi::c_int + b as core::ffi::c_int) as uint16_t;
     return r;
 }
 #[inline(always)]
@@ -884,21 +884,21 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     mut _5: *mut core::ffi::c_void,
     mut _6: uint32_t,
 ) -> uint32_t {
-    let mut _7: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _8: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _9: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _10: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _11: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _12: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _13: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _7: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _8: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _9: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _10: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _11: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _12: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _13: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _14: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _15: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _15: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _16: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _17: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _17: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _18: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -923,7 +923,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _25: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _26: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _26: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _27: core::ffi::c_float = 0.;
     let mut _28: core::ffi::c_float = 0.;
     let mut _29: core::ffi::c_float = 0.;
@@ -934,7 +934,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _32: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _33: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _33: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _34: core::ffi::c_float = 0.;
     let mut _35: core::ffi::c_float = 0.;
     let mut _36: core::ffi::c_float = 0.;
@@ -945,7 +945,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _39: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _40: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _40: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _41: core::ffi::c_float = 0.;
     let mut _42: core::ffi::c_float = 0.;
     let mut _43: core::ffi::c_float = 0.;
@@ -956,7 +956,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _46: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _47: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _47: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _48: core::ffi::c_float = 0.;
     let mut _49: core::ffi::c_float = 0.;
     let mut _50: core::ffi::c_float = 0.;
@@ -967,7 +967,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _53: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _54: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _54: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _55: core::ffi::c_float = 0.;
     let mut _56: core::ffi::c_float = 0.;
     let mut _57: core::ffi::c_float = 0.;
@@ -981,7 +981,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _61: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _62: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _62: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _63: core::ffi::c_float = 0.;
     let mut _64: core::ffi::c_float = 0.;
     let mut _65: core::ffi::c_float = 0.;
@@ -995,7 +995,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _69: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _70: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _70: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _71: core::ffi::c_float = 0.;
     let mut _72: core::ffi::c_float = 0.;
     let mut _73: core::ffi::c_float = 0.;
@@ -1009,7 +1009,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _77: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _78: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _78: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _79: core::ffi::c_float = 0.;
     let mut _80: core::ffi::c_float = 0.;
     let mut _81: core::ffi::c_float = 0.;
@@ -1023,131 +1023,131 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _85: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _86: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _87: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _88: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _89: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _90: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _86: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _87: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _88: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _89: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _90: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _91: core::ffi::c_float = 0.;
     let mut _92: core::ffi::c_float = 0.;
     let mut _93: core::ffi::c_float = 0.;
     let mut _94: core::ffi::c_float = 0.;
-    let mut _95: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _95: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _96: core::ffi::c_float = 0.;
     let mut _97: core::ffi::c_float = 0.;
     let mut _98: core::ffi::c_float = 0.;
     let mut _99: core::ffi::c_float = 0.;
-    let mut _100: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _100: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _101: core::ffi::c_float = 0.;
     let mut _102: core::ffi::c_float = 0.;
     let mut _103: core::ffi::c_float = 0.;
     let mut _104: core::ffi::c_float = 0.;
-    let mut _105: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _105: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _106: core::ffi::c_float = 0.;
     let mut _107: core::ffi::c_float = 0.;
     let mut _108: core::ffi::c_float = 0.;
     let mut _109: core::ffi::c_float = 0.;
-    let mut _110: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _110: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _111: core::ffi::c_float = 0.;
     let mut _112: core::ffi::c_float = 0.;
     let mut _113: core::ffi::c_float = 0.;
     let mut _114: core::ffi::c_float = 0.;
-    let mut _115: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _115: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _116: core::ffi::c_float = 0.;
     let mut _117: core::ffi::c_float = 0.;
     let mut _118: core::ffi::c_float = 0.;
     let mut _119: core::ffi::c_float = 0.;
-    let mut _120: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _120: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _121: core::ffi::c_float = 0.;
     let mut _122: core::ffi::c_float = 0.;
     let mut _123: core::ffi::c_float = 0.;
     let mut _124: core::ffi::c_float = 0.;
-    let mut _125: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _125: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _126: core::ffi::c_float = 0.;
     let mut _127: core::ffi::c_float = 0.;
     let mut _128: core::ffi::c_float = 0.;
     let mut _129: core::ffi::c_float = 0.;
-    let mut _130: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _130: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _131: core::ffi::c_float = 0.;
     let mut _132: core::ffi::c_float = 0.;
     let mut _133: core::ffi::c_float = 0.;
     let mut _134: core::ffi::c_float = 0.;
-    let mut _135: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _135: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _136: core::ffi::c_float = 0.;
     let mut _137: core::ffi::c_float = 0.;
     let mut _138: core::ffi::c_float = 0.;
     let mut _139: core::ffi::c_float = 0.;
-    let mut _140: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _140: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _141: core::ffi::c_float = 0.;
     let mut _142: core::ffi::c_float = 0.;
     let mut _143: core::ffi::c_float = 0.;
     let mut _144: core::ffi::c_float = 0.;
-    let mut _145: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _145: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _146: core::ffi::c_float = 0.;
     let mut _147: core::ffi::c_float = 0.;
     let mut _148: core::ffi::c_float = 0.;
     let mut _149: core::ffi::c_float = 0.;
-    let mut _150: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _150: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _151: core::ffi::c_float = 0.;
     let mut _152: core::ffi::c_float = 0.;
     let mut _153: core::ffi::c_float = 0.;
     let mut _154: core::ffi::c_float = 0.;
-    let mut _155: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _155: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _156: core::ffi::c_float = 0.;
     let mut _157: core::ffi::c_float = 0.;
     let mut _158: core::ffi::c_float = 0.;
     let mut _159: core::ffi::c_float = 0.;
-    let mut _160: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _160: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _161: core::ffi::c_float = 0.;
     let mut _162: core::ffi::c_float = 0.;
     let mut _163: core::ffi::c_float = 0.;
     let mut _164: core::ffi::c_float = 0.;
-    let mut _165: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _165: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _166: core::ffi::c_float = 0.;
     let mut _167: core::ffi::c_float = 0.;
     let mut _168: core::ffi::c_float = 0.;
     let mut _169: core::ffi::c_float = 0.;
-    let mut _170: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _170: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _171: core::ffi::c_float = 0.;
     let mut _172: core::ffi::c_float = 0.;
     let mut _173: core::ffi::c_float = 0.;
     let mut _174: core::ffi::c_float = 0.;
-    let mut _175: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _175: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _176: core::ffi::c_float = 0.;
     let mut _177: core::ffi::c_float = 0.;
     let mut _178: core::ffi::c_float = 0.;
     let mut _179: core::ffi::c_float = 0.;
-    let mut _180: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _180: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _181: core::ffi::c_float = 0.;
     let mut _182: core::ffi::c_float = 0.;
     let mut _183: core::ffi::c_float = 0.;
     let mut _184: core::ffi::c_float = 0.;
-    let mut _185: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _185: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _186: core::ffi::c_float = 0.;
     let mut _187: core::ffi::c_float = 0.;
     let mut _188: core::ffi::c_float = 0.;
     let mut _189: core::ffi::c_float = 0.;
-    let mut _190: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _190: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _191: core::ffi::c_float = 0.;
     let mut _192: core::ffi::c_float = 0.;
     let mut _193: core::ffi::c_float = 0.;
     let mut _194: core::ffi::c_float = 0.;
-    let mut _195: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _195: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _196: core::ffi::c_float = 0.;
     let mut _197: core::ffi::c_float = 0.;
     let mut _198: core::ffi::c_float = 0.;
     let mut _199: core::ffi::c_float = 0.;
-    let mut _200: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _200: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _201: core::ffi::c_float = 0.;
     let mut _202: core::ffi::c_float = 0.;
     let mut _203: core::ffi::c_float = 0.;
     let mut _204: core::ffi::c_float = 0.;
-    let mut _205: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _205: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _206: core::ffi::c_float = 0.;
     let mut _207: core::ffi::c_float = 0.;
     let mut _208: core::ffi::c_float = 0.;
     let mut _209: core::ffi::c_float = 0.;
-    let mut _210: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _210: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _211: core::ffi::c_float = 0.;
     let mut _212: core::ffi::c_float = 0.;
     let mut _213: core::ffi::c_float = 0.;
@@ -1299,7 +1299,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _265: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _266: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _266: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _267: core::ffi::c_float = 0.;
     let mut _268: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1323,7 +1323,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _275: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _276: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _276: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _277: core::ffi::c_float = 0.;
     let mut _278: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1347,7 +1347,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _285: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _286: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _286: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _287: core::ffi::c_float = 0.;
     let mut _288: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1371,7 +1371,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _295: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _296: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _296: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _297: core::ffi::c_float = 0.;
     let mut _298: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1395,31 +1395,31 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _305: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _306: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _306: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _307: core::ffi::c_float = 0.;
-    let mut _308: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _308: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _309: core::ffi::c_float = 0.;
-    let mut _310: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _310: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _311: core::ffi::c_float = 0.;
-    let mut _312: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _312: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _313: core::ffi::c_float = 0.;
-    let mut _314: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _314: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _315: core::ffi::c_float = 0.;
-    let mut _316: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _316: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _317: core::ffi::c_float = 0.;
-    let mut _318: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _318: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _319: core::ffi::c_float = 0.;
-    let mut _320: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _320: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _321: core::ffi::c_float = 0.;
-    let mut _322: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _322: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _323: core::ffi::c_float = 0.;
-    let mut _324: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _324: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _325: core::ffi::c_float = 0.;
-    let mut _326: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _326: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _327: core::ffi::c_float = 0.;
-    let mut _328: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _328: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _329: core::ffi::c_float = 0.;
-    let mut _330: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _330: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _331: core::ffi::c_float = 0.;
     let mut _332: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -1769,11 +1769,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _447: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _448: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _449: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _448: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _449: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _450: uint32_t = 0;
     let mut _451: uint32_t = 0;
-    let mut _452: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _452: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _453: uint32_t = 0;
     let mut _454: uint32_t = 0;
     let mut _455: core::ffi::c_float = 0.;
@@ -1787,7 +1787,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _463: uint32_t = 0;
     let mut _464: uint32_t = 0;
     let mut _465: uint32_t = 0;
-    let mut _466: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _466: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _467: l_array_4_struct_AC_l_struct_struct_OC_partition_metrics =
         l_array_4_struct_AC_l_struct_struct_OC_partition_metrics {
             array: [l_struct_struct_OC_partition_metrics {
@@ -1845,7 +1845,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
         };
     let mut _472: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _473: uint32_t = 0;
-    let mut _474: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _474: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _475: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -1936,7 +1936,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     };
     let mut _507: uint32_t = 0;
     let mut _508: uint32_t = 0;
-    let mut _509: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _509: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _510: l_array_4_struct_AC_l_struct_struct_OC_partition_metrics =
         l_array_4_struct_AC_l_struct_struct_OC_partition_metrics {
             array: [l_struct_struct_OC_partition_metrics {
@@ -1987,8 +1987,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
             }; 4],
         };
     let mut _512: uint32_t = 0;
-    let mut _513: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _514: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _513: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _514: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _515: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -2037,7 +2037,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _530: core::ffi::c_float = 0.;
     let mut _531: core::ffi::c_float = 0.;
     let mut _532: uint32_t = 0;
-    let mut _533: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _533: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _534: core::ffi::c_float = 0.;
     let mut _535: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -2087,7 +2087,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _554: uint32_t = 0;
     let mut _555: uint32_t = 0;
     let mut _556: uint8_t = 0;
-    let mut _557: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _557: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _558: uint8_t = 0;
     let mut _559: uint32_t = 0;
     let mut _560: uint32_t = 0;
@@ -2096,8 +2096,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _563: uint32_t = 0;
     let mut _564: core::ffi::c_float = 0.;
     let mut _565: core::ffi::c_float = 0.;
-    let mut _566: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _567: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _566: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _567: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _568: uint32_t = 0;
     let mut _569: uint32_t = 0;
     let mut _570: uint32_t = 0;
@@ -2106,7 +2106,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _573: uint32_t = 0;
     let mut _574: uint32_t = 0;
     let mut _575: uint32_t = 0;
-    let mut _576: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _576: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _577: bool_0 = 0;
     let mut _578: uint32_t = 0;
     let mut _579: uint32_t = 0;
@@ -2118,21 +2118,21 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _585: uint32_t = 0;
     let mut _586: uint32_t = 0;
     let mut _587: uint16_t = 0;
-    let mut _588: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _588: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _589: uint32_t = 0;
     let mut _590: uint32_t = 0;
-    let mut _591: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _592: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _593: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _591: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _592: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _593: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _594: uint32_t = 0;
     let mut _595: uint32_t = 0;
     let mut _596: uint32_t = 0;
-    let mut _597: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _597: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _598: uint32_t = 0;
-    let mut _599: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _600: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _601: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _602: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _599: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _600: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _601: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _602: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _603: core::ffi::c_float = 0.;
     let mut _604: core::ffi::c_float = 0.;
     let mut _605: core::ffi::c_float = 0.;
@@ -2142,12 +2142,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     };
     let mut _608: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _609: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _610: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _611: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _610: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _611: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _612: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _613: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _614: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _615: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _614: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _615: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _616: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _617: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _618: core::ffi::c_float = 0.;
@@ -2158,7 +2158,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _623: core::ffi::c_float = 0.;
     let mut _624: core::ffi::c_float = 0.;
     let mut _625: core::ffi::c_float = 0.;
-    let mut _626: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _626: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _627: core::ffi::c_float = 0.;
     let mut _628: core::ffi::c_float = 0.;
     let mut _629: core::ffi::c_float = 0.;
@@ -2166,13 +2166,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _631: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _632: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _632: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _633: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _634: core::ffi::c_float = 0.;
     let mut _635: core::ffi::c_float = 0.;
     let mut _636: core::ffi::c_float = 0.;
     let mut _637: core::ffi::c_float = 0.;
-    let mut _638: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _638: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _639: core::ffi::c_float = 0.;
     let mut _640: core::ffi::c_float = 0.;
     let mut _641: core::ffi::c_float = 0.;
@@ -2180,10 +2180,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _643: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _644: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _644: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _645: core::ffi::c_float = 0.;
-    let mut _646: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _647: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _646: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _647: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _648: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _649: core::ffi::c_float = 0.;
     let mut _650: core::ffi::c_float = 0.;
@@ -2193,7 +2193,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _654: core::ffi::c_float = 0.;
     let mut _655: core::ffi::c_float = 0.;
     let mut _656: core::ffi::c_float = 0.;
-    let mut _657: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _657: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _658: core::ffi::c_float = 0.;
     let mut _659: core::ffi::c_float = 0.;
     let mut _660: core::ffi::c_float = 0.;
@@ -2211,7 +2211,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _670: core::ffi::c_float = 0.;
     let mut _671: core::ffi::c_float = 0.;
     let mut _672: core::ffi::c_float = 0.;
-    let mut _673: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _673: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _674: core::ffi::c_float = 0.;
     let mut _675: core::ffi::c_float = 0.;
     let mut _676: core::ffi::c_float = 0.;
@@ -2219,24 +2219,24 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _678: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _679: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _679: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _680: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _681: uint32_t = 0;
-    let mut _682: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _682: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _683: uint32_t = 0;
-    let mut _684: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _684: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _685: uint32_t = 0;
-    let mut _686: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _686: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _687: uint32_t = 0;
-    let mut _688: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _688: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _689: uint32_t = 0;
-    let mut _690: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _690: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _691: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _692: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _693: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _694: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _693: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _694: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _695: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _696: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _697: core::ffi::c_float = 0.;
@@ -2247,7 +2247,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _702: core::ffi::c_float = 0.;
     let mut _703: core::ffi::c_float = 0.;
     let mut _704: core::ffi::c_float = 0.;
-    let mut _705: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _705: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _706: core::ffi::c_float = 0.;
     let mut _707: core::ffi::c_float = 0.;
     let mut _708: core::ffi::c_float = 0.;
@@ -2255,13 +2255,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _710: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _711: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _711: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _712: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _713: core::ffi::c_float = 0.;
     let mut _714: core::ffi::c_float = 0.;
     let mut _715: core::ffi::c_float = 0.;
     let mut _716: core::ffi::c_float = 0.;
-    let mut _717: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _717: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _718: core::ffi::c_float = 0.;
     let mut _719: core::ffi::c_float = 0.;
     let mut _720: core::ffi::c_float = 0.;
@@ -2279,7 +2279,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _730: core::ffi::c_float = 0.;
     let mut _731: core::ffi::c_float = 0.;
     let mut _732: core::ffi::c_float = 0.;
-    let mut _733: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _733: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _734: core::ffi::c_float = 0.;
     let mut _735: core::ffi::c_float = 0.;
     let mut _736: core::ffi::c_float = 0.;
@@ -2297,7 +2297,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _746: core::ffi::c_float = 0.;
     let mut _747: core::ffi::c_float = 0.;
     let mut _748: core::ffi::c_float = 0.;
-    let mut _749: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _749: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _750: core::ffi::c_float = 0.;
     let mut _751: core::ffi::c_float = 0.;
     let mut _752: core::ffi::c_float = 0.;
@@ -2306,11 +2306,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _755: uint32_t = 0;
-    let mut _756: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _756: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _757: uint32_t = 0;
     let mut _758: uint32_t = 0;
-    let mut _759: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _760: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _759: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _760: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _761: core::ffi::c_float = 0.;
     let mut _762: core::ffi::c_float = 0.;
     let mut _763: core::ffi::c_float = 0.;
@@ -2319,10 +2319,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _766: uint32_t = 0;
-    let mut _767: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _768: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _769: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _770: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _767: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _768: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _769: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _770: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _771: core::ffi::c_float = 0.;
     let mut _772: core::ffi::c_float = 0.;
     let mut _773: core::ffi::c_float = 0.;
@@ -2332,12 +2332,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     };
     let mut _776: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _777: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _778: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _779: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _778: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _779: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _780: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _781: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _782: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _783: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _782: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _783: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _784: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _785: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _786: core::ffi::c_float = 0.;
@@ -2348,7 +2348,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _791: core::ffi::c_float = 0.;
     let mut _792: core::ffi::c_float = 0.;
     let mut _793: core::ffi::c_float = 0.;
-    let mut _794: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _794: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _795: core::ffi::c_float = 0.;
     let mut _796: core::ffi::c_float = 0.;
     let mut _797: core::ffi::c_float = 0.;
@@ -2356,13 +2356,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _799: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _800: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _800: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _801: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _802: core::ffi::c_float = 0.;
     let mut _803: core::ffi::c_float = 0.;
     let mut _804: core::ffi::c_float = 0.;
     let mut _805: core::ffi::c_float = 0.;
-    let mut _806: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _806: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _807: core::ffi::c_float = 0.;
     let mut _808: core::ffi::c_float = 0.;
     let mut _809: core::ffi::c_float = 0.;
@@ -2370,10 +2370,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _811: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _812: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _812: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _813: core::ffi::c_float = 0.;
-    let mut _814: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _815: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _814: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _815: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _816: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _817: core::ffi::c_float = 0.;
     let mut _818: core::ffi::c_float = 0.;
@@ -2383,7 +2383,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _822: core::ffi::c_float = 0.;
     let mut _823: core::ffi::c_float = 0.;
     let mut _824: core::ffi::c_float = 0.;
-    let mut _825: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _825: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _826: core::ffi::c_float = 0.;
     let mut _827: core::ffi::c_float = 0.;
     let mut _828: core::ffi::c_float = 0.;
@@ -2401,7 +2401,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _838: core::ffi::c_float = 0.;
     let mut _839: core::ffi::c_float = 0.;
     let mut _840: core::ffi::c_float = 0.;
-    let mut _841: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _841: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _842: core::ffi::c_float = 0.;
     let mut _843: core::ffi::c_float = 0.;
     let mut _844: core::ffi::c_float = 0.;
@@ -2409,13 +2409,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _846: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _847: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _847: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _848: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _849: uint32_t = 0;
-    let mut _850: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _851: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _850: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _851: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _852: core::ffi::c_float = 0.;
     let mut _853: core::ffi::c_float = 0.;
     let mut _854: core::ffi::c_float = 0.;
@@ -2424,33 +2424,33 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _857: uint32_t = 0;
-    let mut _858: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _858: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _859: uint32_t = 0;
     let mut _860: uint32_t = 0;
-    let mut _861: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _861: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _862: uint32_t = 0;
-    let mut _863: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _864: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _863: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _864: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _865: uint32_t = 0;
     let mut _866: uint32_t = 0;
-    let mut _867: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _867: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _868: uint32_t = 0;
     let mut _869: uint8_t = 0;
     let mut _870: core::ffi::c_float = 0.;
     let mut _871: core::ffi::c_float = 0.;
-    let mut _872: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _872: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _873: core::ffi::c_float = 0.;
     let mut _874: core::ffi::c_float = 0.;
     let mut _875: core::ffi::c_float = 0.;
     let mut _876: core::ffi::c_float = 0.;
     let mut _877: uint32_t = 0;
-    let mut _878: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _878: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _879: uint32_t = 0;
     let mut _880: core::ffi::c_float = 0.;
     let mut _881: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _882: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _882: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _883: core::ffi::c_float = 0.;
-    let mut _884: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _884: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _885: core::ffi::c_float = 0.;
     let mut _886: core::ffi::c_float = 0.;
     let mut _887: core::ffi::c_float = 0.;
@@ -2465,7 +2465,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _896: core::ffi::c_float = 0.;
     let mut _897: core::ffi::c_float = 0.;
     let mut _898: core::ffi::c_float = 0.;
-    let mut _899: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _899: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _900: core::ffi::c_float = 0.;
     let mut _901: core::ffi::c_float = 0.;
     let mut _902: core::ffi::c_float = 0.;
@@ -2477,13 +2477,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _906: uint32_t = 0;
-    let mut _907: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _907: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _908: uint32_t = 0;
     let mut _909: core::ffi::c_float = 0.;
     let mut _910: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _911: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _911: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _912: core::ffi::c_float = 0.;
-    let mut _913: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _913: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _914: core::ffi::c_float = 0.;
     let mut _915: core::ffi::c_float = 0.;
     let mut _916: core::ffi::c_float = 0.;
@@ -2498,7 +2498,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _925: core::ffi::c_float = 0.;
     let mut _926: core::ffi::c_float = 0.;
     let mut _927: core::ffi::c_float = 0.;
-    let mut _928: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _928: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _929: core::ffi::c_float = 0.;
     let mut _930: core::ffi::c_float = 0.;
     let mut _931: core::ffi::c_float = 0.;
@@ -2509,8 +2509,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _934: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _935: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _936: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _935: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _936: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _937: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _938: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _939: core::ffi::c_float = 0.;
@@ -2521,7 +2521,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _944: core::ffi::c_float = 0.;
     let mut _945: core::ffi::c_float = 0.;
     let mut _946: core::ffi::c_float = 0.;
-    let mut _947: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _947: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _948: core::ffi::c_float = 0.;
     let mut _949: core::ffi::c_float = 0.;
     let mut _950: core::ffi::c_float = 0.;
@@ -2529,11 +2529,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _952: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _953: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _953: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _954: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _955: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _956: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _957: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _956: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _957: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _958: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _959: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _960: core::ffi::c_float = 0.;
@@ -2544,7 +2544,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _965: core::ffi::c_float = 0.;
     let mut _966: core::ffi::c_float = 0.;
     let mut _967: core::ffi::c_float = 0.;
-    let mut _968: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _968: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _969: core::ffi::c_float = 0.;
     let mut _970: core::ffi::c_float = 0.;
     let mut _971: core::ffi::c_float = 0.;
@@ -2552,15 +2552,15 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _973: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _974: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _974: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _975: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _976: core::ffi::c_float = 0.;
     let mut _977: core::ffi::c_float = 0.;
     let mut _978: core::ffi::c_float = 0.;
     let mut _979: core::ffi::c_float = 0.;
     let mut _980: core::ffi::c_float = 0.;
-    let mut _981: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _982: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _981: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _982: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _983: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _984: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _985: core::ffi::c_float = 0.;
@@ -2571,7 +2571,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _990: core::ffi::c_float = 0.;
     let mut _991: core::ffi::c_float = 0.;
     let mut _992: core::ffi::c_float = 0.;
-    let mut _993: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _993: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _994: core::ffi::c_float = 0.;
     let mut _995: core::ffi::c_float = 0.;
     let mut _996: core::ffi::c_float = 0.;
@@ -2579,11 +2579,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _998: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _999: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _999: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1000: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1001: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1002: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1003: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1002: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1003: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1004: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1005: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1006: core::ffi::c_float = 0.;
@@ -2594,7 +2594,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1011: core::ffi::c_float = 0.;
     let mut _1012: core::ffi::c_float = 0.;
     let mut _1013: core::ffi::c_float = 0.;
-    let mut _1014: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1014: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1015: core::ffi::c_float = 0.;
     let mut _1016: core::ffi::c_float = 0.;
     let mut _1017: core::ffi::c_float = 0.;
@@ -2602,7 +2602,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1019: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1020: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1020: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1021: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1022: core::ffi::c_float = 0.;
     let mut _1023: core::ffi::c_float = 0.;
@@ -2621,25 +2621,25 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1036: uint32_t = 0;
     let mut _1037: uint32_t = 0;
     let mut _1038: uint16_t = 0;
-    let mut _1039: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1039: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1040: uint32_t = 0;
     let mut _1041: uint32_t = 0;
-    let mut _1042: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1043: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1044: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1042: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1043: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1044: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1045: uint32_t = 0;
     let mut _1046: uint32_t = 0;
     let mut _1047: uint32_t = 0;
     let mut _1048: uint32_t = 0;
-    let mut _1049: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1050: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1051: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1052: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1053: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1049: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1050: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1051: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1052: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1053: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1054: core::ffi::c_float = 0.;
     let mut _1055: core::ffi::c_float = 0.;
     let mut _1056: core::ffi::c_float = 0.;
-    let mut _1057: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1057: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1058: core::ffi::c_float = 0.;
     let mut _1059: core::ffi::c_float = 0.;
     let mut _1060: core::ffi::c_float = 0.;
@@ -2649,12 +2649,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     };
     let mut _1063: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1064: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1065: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1066: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1065: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1066: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1067: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1068: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1069: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1070: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1069: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1070: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1071: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1072: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1073: core::ffi::c_float = 0.;
@@ -2665,7 +2665,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1078: core::ffi::c_float = 0.;
     let mut _1079: core::ffi::c_float = 0.;
     let mut _1080: core::ffi::c_float = 0.;
-    let mut _1081: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1081: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1082: core::ffi::c_float = 0.;
     let mut _1083: core::ffi::c_float = 0.;
     let mut _1084: core::ffi::c_float = 0.;
@@ -2673,13 +2673,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1086: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1087: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1087: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1088: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1089: core::ffi::c_float = 0.;
     let mut _1090: core::ffi::c_float = 0.;
     let mut _1091: core::ffi::c_float = 0.;
     let mut _1092: core::ffi::c_float = 0.;
-    let mut _1093: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1093: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1094: core::ffi::c_float = 0.;
     let mut _1095: core::ffi::c_float = 0.;
     let mut _1096: core::ffi::c_float = 0.;
@@ -2687,10 +2687,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1098: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1099: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1099: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1100: core::ffi::c_float = 0.;
-    let mut _1101: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1102: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1101: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1102: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1103: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1104: core::ffi::c_float = 0.;
     let mut _1105: core::ffi::c_float = 0.;
@@ -2700,7 +2700,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1109: core::ffi::c_float = 0.;
     let mut _1110: core::ffi::c_float = 0.;
     let mut _1111: core::ffi::c_float = 0.;
-    let mut _1112: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1112: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1113: core::ffi::c_float = 0.;
     let mut _1114: core::ffi::c_float = 0.;
     let mut _1115: core::ffi::c_float = 0.;
@@ -2718,7 +2718,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1125: core::ffi::c_float = 0.;
     let mut _1126: core::ffi::c_float = 0.;
     let mut _1127: core::ffi::c_float = 0.;
-    let mut _1128: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1128: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1129: core::ffi::c_float = 0.;
     let mut _1130: core::ffi::c_float = 0.;
     let mut _1131: core::ffi::c_float = 0.;
@@ -2726,13 +2726,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1133: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1134: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1134: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1135: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1136: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1137: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1138: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1136: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1137: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1138: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1139: core::ffi::c_float = 0.;
     let mut _1140: core::ffi::c_float = 0.;
     let mut _1141: core::ffi::c_float = 0.;
@@ -2740,14 +2740,14 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1143: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1144: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1145: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1146: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1147: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1144: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1145: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1146: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1147: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1148: core::ffi::c_float = 0.;
     let mut _1149: core::ffi::c_float = 0.;
     let mut _1150: core::ffi::c_float = 0.;
-    let mut _1151: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1151: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1152: core::ffi::c_float = 0.;
     let mut _1153: core::ffi::c_float = 0.;
     let mut _1154: core::ffi::c_float = 0.;
@@ -2757,12 +2757,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     };
     let mut _1157: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1158: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1159: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1160: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1159: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1160: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1161: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1162: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1163: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1164: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1163: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1164: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1165: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1166: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1167: core::ffi::c_float = 0.;
@@ -2773,7 +2773,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1172: core::ffi::c_float = 0.;
     let mut _1173: core::ffi::c_float = 0.;
     let mut _1174: core::ffi::c_float = 0.;
-    let mut _1175: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1175: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1176: core::ffi::c_float = 0.;
     let mut _1177: core::ffi::c_float = 0.;
     let mut _1178: core::ffi::c_float = 0.;
@@ -2781,13 +2781,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1180: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1181: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1181: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1182: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1183: core::ffi::c_float = 0.;
     let mut _1184: core::ffi::c_float = 0.;
     let mut _1185: core::ffi::c_float = 0.;
     let mut _1186: core::ffi::c_float = 0.;
-    let mut _1187: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1187: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1188: core::ffi::c_float = 0.;
     let mut _1189: core::ffi::c_float = 0.;
     let mut _1190: core::ffi::c_float = 0.;
@@ -2795,10 +2795,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1192: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1193: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1193: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1194: core::ffi::c_float = 0.;
-    let mut _1195: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1196: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1195: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1196: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1197: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1198: core::ffi::c_float = 0.;
     let mut _1199: core::ffi::c_float = 0.;
@@ -2808,7 +2808,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1203: core::ffi::c_float = 0.;
     let mut _1204: core::ffi::c_float = 0.;
     let mut _1205: core::ffi::c_float = 0.;
-    let mut _1206: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1206: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1207: core::ffi::c_float = 0.;
     let mut _1208: core::ffi::c_float = 0.;
     let mut _1209: core::ffi::c_float = 0.;
@@ -2826,7 +2826,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1219: core::ffi::c_float = 0.;
     let mut _1220: core::ffi::c_float = 0.;
     let mut _1221: core::ffi::c_float = 0.;
-    let mut _1222: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1222: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1223: core::ffi::c_float = 0.;
     let mut _1224: core::ffi::c_float = 0.;
     let mut _1225: core::ffi::c_float = 0.;
@@ -2834,24 +2834,24 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1227: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1228: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1228: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1229: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1230: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1231: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1232: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1233: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1234: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1235: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1236: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1237: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1238: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1239: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1230: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1231: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1232: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1233: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1234: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1235: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1236: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1237: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1238: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1239: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1240: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1241: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1242: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1243: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1242: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1243: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1244: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1245: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1246: core::ffi::c_float = 0.;
@@ -2862,7 +2862,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1251: core::ffi::c_float = 0.;
     let mut _1252: core::ffi::c_float = 0.;
     let mut _1253: core::ffi::c_float = 0.;
-    let mut _1254: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1254: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1255: core::ffi::c_float = 0.;
     let mut _1256: core::ffi::c_float = 0.;
     let mut _1257: core::ffi::c_float = 0.;
@@ -2870,18 +2870,18 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1259: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1260: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1260: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1261: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1262: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1262: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1263: core::ffi::c_float = 0.;
-    let mut _1264: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1264: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1265: core::ffi::c_float = 0.;
-    let mut _1266: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1266: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1267: core::ffi::c_float = 0.;
     let mut _1268: core::ffi::c_float = 0.;
     let mut _1269: core::ffi::c_float = 0.;
     let mut _1270: core::ffi::c_float = 0.;
-    let mut _1271: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1271: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1272: core::ffi::c_float = 0.;
     let mut _1273: core::ffi::c_float = 0.;
     let mut _1274: core::ffi::c_float = 0.;
@@ -2899,7 +2899,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1284: core::ffi::c_float = 0.;
     let mut _1285: core::ffi::c_float = 0.;
     let mut _1286: core::ffi::c_float = 0.;
-    let mut _1287: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1287: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1288: core::ffi::c_float = 0.;
     let mut _1289: core::ffi::c_float = 0.;
     let mut _1290: core::ffi::c_float = 0.;
@@ -2917,7 +2917,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1300: core::ffi::c_float = 0.;
     let mut _1301: core::ffi::c_float = 0.;
     let mut _1302: core::ffi::c_float = 0.;
-    let mut _1303: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1303: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1304: core::ffi::c_float = 0.;
     let mut _1305: core::ffi::c_float = 0.;
     let mut _1306: core::ffi::c_float = 0.;
@@ -2925,12 +2925,12 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1308: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1309: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1310: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1311: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1312: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1313: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1314: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1309: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1310: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1311: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1312: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1313: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1314: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1315: core::ffi::c_float = 0.;
     let mut _1316: core::ffi::c_float = 0.;
     let mut _1317: core::ffi::c_float = 0.;
@@ -2938,35 +2938,35 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1319: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1320: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1321: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1322: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1323: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1324: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1320: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1321: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1322: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1323: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1324: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1325: uint32_t = 0;
-    let mut _1326: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1327: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1326: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1327: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1328: uint32_t = 0;
     let mut _1329: uint32_t = 0;
     let mut _1330: uint32_t = 0;
-    let mut _1331: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1331: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1332: uint32_t = 0;
     let mut _1333: uint8_t = 0;
     let mut _1334: core::ffi::c_float = 0.;
     let mut _1335: core::ffi::c_float = 0.;
-    let mut _1336: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1336: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1337: core::ffi::c_float = 0.;
     let mut _1338: core::ffi::c_float = 0.;
     let mut _1339: core::ffi::c_float = 0.;
     let mut _1340: core::ffi::c_float = 0.;
-    let mut _1341: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1342: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1343: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1341: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1342: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1343: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1344: core::ffi::c_float = 0.;
     let mut _1345: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1346: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1346: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1347: core::ffi::c_float = 0.;
-    let mut _1348: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1348: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1349: core::ffi::c_float = 0.;
     let mut _1350: core::ffi::c_float = 0.;
     let mut _1351: core::ffi::c_float = 0.;
@@ -2981,7 +2981,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1360: core::ffi::c_float = 0.;
     let mut _1361: core::ffi::c_float = 0.;
     let mut _1362: core::ffi::c_float = 0.;
-    let mut _1363: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1363: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1364: core::ffi::c_float = 0.;
     let mut _1365: core::ffi::c_float = 0.;
     let mut _1366: core::ffi::c_float = 0.;
@@ -2992,14 +2992,14 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1369: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1370: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1371: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1372: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1370: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1371: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1372: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1373: core::ffi::c_float = 0.;
     let mut _1374: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1375: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1375: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1376: core::ffi::c_float = 0.;
-    let mut _1377: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1377: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1378: core::ffi::c_float = 0.;
     let mut _1379: core::ffi::c_float = 0.;
     let mut _1380: core::ffi::c_float = 0.;
@@ -3014,7 +3014,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1389: core::ffi::c_float = 0.;
     let mut _1390: core::ffi::c_float = 0.;
     let mut _1391: core::ffi::c_float = 0.;
-    let mut _1392: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1392: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1393: core::ffi::c_float = 0.;
     let mut _1394: core::ffi::c_float = 0.;
     let mut _1395: core::ffi::c_float = 0.;
@@ -3025,8 +3025,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1398: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1399: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1400: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1399: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1400: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1401: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1402: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1403: core::ffi::c_float = 0.;
@@ -3037,7 +3037,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1408: core::ffi::c_float = 0.;
     let mut _1409: core::ffi::c_float = 0.;
     let mut _1410: core::ffi::c_float = 0.;
-    let mut _1411: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1411: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1412: core::ffi::c_float = 0.;
     let mut _1413: core::ffi::c_float = 0.;
     let mut _1414: core::ffi::c_float = 0.;
@@ -3045,11 +3045,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1416: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1417: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1417: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1418: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1419: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1420: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1421: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1420: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1421: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1422: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1423: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1424: core::ffi::c_float = 0.;
@@ -3060,7 +3060,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1429: core::ffi::c_float = 0.;
     let mut _1430: core::ffi::c_float = 0.;
     let mut _1431: core::ffi::c_float = 0.;
-    let mut _1432: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1432: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1433: core::ffi::c_float = 0.;
     let mut _1434: core::ffi::c_float = 0.;
     let mut _1435: core::ffi::c_float = 0.;
@@ -3068,17 +3068,17 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1437: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1438: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1438: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1439: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1440: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1440: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1441: core::ffi::c_float = 0.;
-    let mut _1442: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1442: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1443: core::ffi::c_float = 0.;
-    let mut _1444: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1444: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1445: core::ffi::c_float = 0.;
     let mut _1446: core::ffi::c_float = 0.;
-    let mut _1447: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1448: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1447: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1448: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1449: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1450: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1451: core::ffi::c_float = 0.;
@@ -3089,7 +3089,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1456: core::ffi::c_float = 0.;
     let mut _1457: core::ffi::c_float = 0.;
     let mut _1458: core::ffi::c_float = 0.;
-    let mut _1459: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1459: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1460: core::ffi::c_float = 0.;
     let mut _1461: core::ffi::c_float = 0.;
     let mut _1462: core::ffi::c_float = 0.;
@@ -3097,11 +3097,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1464: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1465: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1465: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1466: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1467: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1468: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1469: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1468: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1469: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1470: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1471: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1472: core::ffi::c_float = 0.;
@@ -3112,7 +3112,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1477: core::ffi::c_float = 0.;
     let mut _1478: core::ffi::c_float = 0.;
     let mut _1479: core::ffi::c_float = 0.;
-    let mut _1480: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1480: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1481: core::ffi::c_float = 0.;
     let mut _1482: core::ffi::c_float = 0.;
     let mut _1483: core::ffi::c_float = 0.;
@@ -3120,13 +3120,13 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1485: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1486: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1486: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1487: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _1488: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1488: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1489: core::ffi::c_float = 0.;
-    let mut _1490: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1490: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1491: core::ffi::c_float = 0.;
-    let mut _1492: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1492: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1493: core::ffi::c_float = 0.;
     let mut _1494: core::ffi::c_float = 0.;
     let mut _1495: uint32_t = 0;
@@ -3139,22 +3139,22 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1502: uint32_t = 0;
     let mut _1503: uint32_t = 0;
     let mut _1504: uint32_t = 0;
-    let mut _1505: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1505: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1506: uint32_t = 0;
     let mut _1507: uint32_t = 0;
     let mut _1508: uint32_t = 0;
-    let mut _1509: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1509: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1510: uint16_t = 0;
     let mut _1511: uint32_t = 0;
-    let mut _1512: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1512: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1513: uint32_t = 0;
     let mut _1514: uint32_t = 0;
     let mut _1515: uint32_t = 0;
-    let mut _1516: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1516: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1517: uint16_t = 0;
     let mut _1518: uint32_t = 0;
     let mut _1519: uint32_t = 0;
-    let mut _1520: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1520: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1521: uint32_t = 0;
     let mut _1522: uint32_t = 0;
     let mut _1523: uint32_t = 0;
@@ -3166,11 +3166,11 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
     let mut _1529: uint32_t = 0;
     let mut _1530: uint8_t = 0;
     let mut _1531: uint32_t = 0;
-    let mut _1532: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1532: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1533: uint32_t = 0;
     let mut _1534: uint32_t = 0;
     let mut _1535: uint32_t = 0;
-    let mut _1536: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1536: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1537: uint64_t = 0;
     let mut _1538: uint32_t = 0;
     let mut _1539: uint32_t = 0;
@@ -3234,7 +3234,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
             _576 = _449;
             _577 =
                 _ZNK11image_block19is_constant_channelEi(_576, 3 as core::ffi::c_int as uint32_t);
-            _458 = (_577 as core::ffi::c_int ^ 1 as libc::c_int) as bool_0;
+            _458 = (_577 as core::ffi::c_int ^ 1 as core::ffi::c_int) as bool_0;
             _463 = 0 as core::ffi::c_int as uint32_t;
             loop {
                 _578 = _463;
@@ -3246,17 +3246,17 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                 *(&mut *(_459.array)
                     .as_mut_ptr()
                     .offset(_580 as uint64_t as int64_t as isize)
-                    as *mut core::ffi::c_float) = 1.00000002E+30f64 as libc::c_float;
+                    as *mut core::ffi::c_float) = 1.00000002E+30f64 as core::ffi::c_float;
                 _581 = _463;
                 *(&mut *(_461.array)
                     .as_mut_ptr()
                     .offset(_581 as uint64_t as int64_t as isize)
-                    as *mut core::ffi::c_float) = 1.00000002E+30f64 as libc::c_float;
+                    as *mut core::ffi::c_float) = 1.00000002E+30f64 as core::ffi::c_float;
                 _582 = _463;
                 _463 = llvm_add_u32(_582, 1 as core::ffi::c_int as uint32_t);
             }
             _583 = _458;
-            if _583 as core::ffi::c_uint & 1 as libc::c_uint != 0 {
+            if _583 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                 _464 = 0 as core::ffi::c_int as uint32_t;
                 loop {
                     _584 = _464;
@@ -3513,7 +3513,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _645 = *(_644 as *mut core::ffi::c_float);
                         if llvm_fcmp_une(
                             _645 as core::ffi::c_double,
-                            0 as core::ffi::c_int as libc::c_double,
+                            0 as core::ffi::c_int as core::ffi::c_double,
                         ) != 0
                         {
                             _646 = memcpy(
@@ -4051,7 +4051,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         );
                         _330 =
                             &mut _332 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-                        _331 = 0 as core::ffi::c_int as libc::c_float;
+                        _331 = 0 as core::ffi::c_int as core::ffi::c_float;
                         _760 = _330;
                         _761 = _331;
                         *(_760 as *mut core::ffi::c_float) = _761;
@@ -4283,7 +4283,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _813 = *(_812 as *mut core::ffi::c_float);
                         if llvm_fcmp_une(
                             _813 as core::ffi::c_double,
-                            0 as core::ffi::c_int as libc::c_double,
+                            0 as core::ffi::c_int as core::ffi::c_double,
                         ) != 0
                         {
                             _814 = memcpy(
@@ -4455,7 +4455,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         );
                         _328 =
                             &mut _333 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-                        _329 = 0 as core::ffi::c_int as libc::c_float;
+                        _329 = 0 as core::ffi::c_int as core::ffi::c_float;
                         _851 = _328;
                         _852 = _329;
                         *(_851 as *mut core::ffi::c_float) = _852;
@@ -4510,8 +4510,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _862 = _473;
                         _473 = llvm_add_u32(_862, 1 as core::ffi::c_int as uint32_t);
                     }
-                    _490 = 0 as core::ffi::c_int as libc::c_float;
-                    _491 = 0 as core::ffi::c_int as libc::c_float;
+                    _490 = 0 as core::ffi::c_int as core::ffi::c_float;
+                    _491 = 0 as core::ffi::c_int as core::ffi::c_float;
                     _863 = _466;
                     _864 = _449;
                     _Z26compute_error_squared_rgbaRK14partition_infoRK11image_blockPK15processed_line4S7_PfRfS9_(
@@ -4530,9 +4530,9 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut *(_472.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
-                            as *mut core::ffi::c_float as *mut libc::c_void,
-                        &mut _490 as *mut core::ffi::c_float as *mut libc::c_void,
-                        &mut _491 as *mut core::ffi::c_float as *mut libc::c_void,
+                            as *mut core::ffi::c_float as *mut core::ffi::c_void,
+                        &mut _490 as *mut core::ffi::c_float as *mut core::ffi::c_void,
+                        &mut _491 as *mut core::ffi::c_float as *mut core::ffi::c_void,
                     );
                     _492 = 0 as core::ffi::c_int as uint32_t;
                     loop {
@@ -5261,7 +5261,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut *(_459.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
-                            as *mut core::ffi::c_float as *mut libc::c_void,
+                            as *mut core::ffi::c_float
+                            as *mut core::ffi::c_void,
                         &mut *(_460.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -5277,7 +5278,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut *(_461.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
-                            as *mut core::ffi::c_float as *mut libc::c_void,
+                            as *mut core::ffi::c_float
+                            as *mut core::ffi::c_void,
                         &mut *(_462.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -5367,7 +5369,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _191 = _1054;
                         _192 = _1055;
                         _193 = _1056;
-                        _194 = 0 as core::ffi::c_int as libc::c_float;
+                        _194 = 0 as core::ffi::c_int as core::ffi::c_float;
                         _1057 = _190;
                         _1058 = _191;
                         *(_1057 as *mut core::ffi::c_float) = _1058;
@@ -5557,7 +5559,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1100 = *(_1099 as *mut core::ffi::c_float);
                         if llvm_fcmp_une(
                             _1100 as core::ffi::c_double,
-                            0 as core::ffi::c_int as libc::c_double,
+                            0 as core::ffi::c_int as core::ffi::c_double,
                         ) != 0
                         {
                             _1101 = memcpy(
@@ -5728,7 +5730,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         );
                         _326 =
                             &mut _334 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-                        _327 = 0 as core::ffi::c_int as libc::c_float;
+                        _327 = 0 as core::ffi::c_int as core::ffi::c_float;
                         _1138 = _326;
                         _1139 = _327;
                         *(_1138 as *mut core::ffi::c_float) = _1139;
@@ -5777,7 +5779,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _186 = _1148;
                         _187 = _1149;
                         _188 = _1150;
-                        _189 = 0 as core::ffi::c_int as libc::c_float;
+                        _189 = 0 as core::ffi::c_int as core::ffi::c_float;
                         _1151 = _185;
                         _1152 = _186;
                         *(_1151 as *mut core::ffi::c_float) = _1152;
@@ -5967,7 +5969,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1194 = *(_1193 as *mut core::ffi::c_float);
                         if llvm_fcmp_une(
                             _1194 as core::ffi::c_double,
-                            0 as core::ffi::c_int as libc::c_double,
+                            0 as core::ffi::c_int as core::ffi::c_double,
                         ) != 0
                         {
                             _1195 = memcpy(
@@ -6304,7 +6306,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _201 = _1268;
                         _202 = _1269;
                         _203 = _1270;
-                        _204 = 0 as core::ffi::c_int as libc::c_float;
+                        _204 = 0 as core::ffi::c_int as core::ffi::c_float;
                         _1271 = _200;
                         _1272 = _201;
                         *(_1271 as *mut core::ffi::c_float) = _1272;
@@ -6499,7 +6501,7 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         );
                         _324 =
                             &mut _335 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-                        _325 = 0 as core::ffi::c_int as libc::c_float;
+                        _325 = 0 as core::ffi::c_int as core::ffi::c_float;
                         _1314 = _324;
                         _1315 = _325;
                         *(_1314 as *mut core::ffi::c_float) = _1315;
@@ -6551,8 +6553,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         _1325 = _512;
                         _512 = llvm_add_u32(_1325, 1 as core::ffi::c_int as uint32_t);
                     }
-                    _530 = 0 as core::ffi::c_int as libc::c_float;
-                    _531 = 0 as core::ffi::c_int as libc::c_float;
+                    _530 = 0 as core::ffi::c_int as core::ffi::c_float;
+                    _531 = 0 as core::ffi::c_int as core::ffi::c_float;
                     _1326 = _509;
                     _1327 = _449;
                     _Z25compute_error_squared_rgbRK14partition_infoRK11image_blockP16partition_lines3RfS7_(
@@ -6563,8 +6565,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut l_struct_struct_OC_partition_lines3
                             as *mut core::ffi::c_void,
-                        &mut _530 as *mut core::ffi::c_float as *mut libc::c_void,
-                        &mut _531 as *mut core::ffi::c_float as *mut libc::c_void,
+                        &mut _530 as *mut core::ffi::c_float as *mut core::ffi::c_void,
+                        &mut _531 as *mut core::ffi::c_float as *mut core::ffi::c_void,
                     );
                     _532 = 0 as core::ffi::c_int as uint32_t;
                     loop {
@@ -7280,7 +7282,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut *(_459.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
-                            as *mut core::ffi::c_float as *mut libc::c_void,
+                            as *mut core::ffi::c_float
+                            as *mut core::ffi::c_void,
                         &mut *(_460.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -7296,7 +7299,8 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                         &mut *(_461.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
-                            as *mut core::ffi::c_float as *mut libc::c_void,
+                            as *mut core::ffi::c_float
+                            as *mut core::ffi::c_void,
                         &mut *(_462.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -7383,9 +7387,10 @@ pub unsafe extern "C" fn _Z30find_best_partition_candidatesRK21block_size_descri
                     as *mut uint64_t);
                 _1529 = _555;
                 _556 = (_1528 & ((1 as core::ffi::c_int) << _1529 as uint64_t) as uint64_t
-                    != 0 as core::ffi::c_ulong) as libc::c_int as bool_0;
+                    != 0 as core::ffi::c_ulong) as core::ffi::c_int
+                    as bool_0;
                 _1530 = _556;
-                if !(_1530 as core::ffi::c_uint & 1 as libc::c_uint != 0) {
+                if !(_1530 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0) {
                     _1531 = _553;
                     _1532 = _452;
                     _1533 = _551;
@@ -7439,10 +7444,10 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
     mut _1614: uint32_t,
     mut _1615: *mut core::ffi::c_void,
 ) -> uint32_t {
-    let mut _1616: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1617: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1616: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1617: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1618: uint32_t = 0;
-    let mut _1619: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1619: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1620: l_array_4_struct_AC_l_struct_struct_OC_vfloat4 =
         l_array_4_struct_AC_l_struct_struct_OC_vfloat4 {
             array: [l_struct_struct_OC_vfloat4 {
@@ -7458,42 +7463,42 @@ unsafe extern "C" fn _ZL33compute_kmeans_partition_orderingRK21block_size_descri
     let mut _1627: l_array_1024_uint8_t = l_array_1024_uint8_t { array: [0; 1024] };
     let mut _1628: uint32_t = 0;
     let mut _1629: uint32_t = 0;
-    let mut _1630: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1631: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1630: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1631: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1632: uint8_t = 0;
     let mut _1633: uint32_t = 0;
-    let mut _1634: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1635: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1634: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1635: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1636: uint8_t = 0;
     let mut _1637: uint32_t = 0;
-    let mut _1638: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1639: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1638: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1639: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1640: uint8_t = 0;
     let mut _1641: uint32_t = 0;
     let mut _1642: uint32_t = 0;
-    let mut _1643: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1644: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1643: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1644: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1645: uint8_t = 0;
     let mut _1646: uint8_t = 0;
     let mut _1647: uint32_t = 0;
     let mut _1648: uint32_t = 0;
     let mut _1649: uint32_t = 0;
-    let mut _1650: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1650: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1651: uint32_t = 0;
     let mut _1652: uint8_t = 0;
     let mut _1653: uint32_t = 0;
     let mut _1654: uint32_t = 0;
     let mut _1655: uint8_t = 0;
-    let mut _1656: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1656: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1657: uint64_t = 0;
     let mut _1658: uint32_t = 0;
-    let mut _1659: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1659: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1660: uint32_t = 0;
     let mut _1661: uint32_t = 0;
-    let mut _1662: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1662: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1663: uint32_t = 0;
     let mut _1664: uint32_t = 0;
-    let mut _1665: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1665: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1666: uint32_t = 0;
     _1616 = _1612;
     _1617 = _1613;
@@ -7691,22 +7696,22 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1695: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1696: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1696: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1697: uint32_t = 0;
     let mut _1698: uint32_t = 0;
     let mut _1699: uint32_t = 0;
     let mut _1700: uint32_t = 0;
-    let mut _1701: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1701: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1702: uint8_t = 0;
     let mut _1703: uint8_t = 0;
     let mut _1704: uint8_t = 0;
     let mut _1705: uint8_t = 0;
-    let mut _1706: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1706: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1707: uint8_t = 0;
     let mut _1708: uint8_t = 0;
     let mut _1709: uint8_t = 0;
     let mut _1710: uint8_t = 0;
-    let mut _1711: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1711: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1712: uint8_t = 0;
     let mut _1713: uint8_t = 0;
     let mut _1714: uint8_t = 0;
@@ -7735,7 +7740,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1723: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1724: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1724: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1725: uint32_t = 0;
     let mut _1726: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -7749,7 +7754,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1729: l_struct_struct_OC_vint4 = l_struct_struct_OC_vint4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1730: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1730: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1731: uint32_t = 0;
     let mut _1732: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
@@ -7778,15 +7783,15 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1740: l_struct_struct_OC_vmask4 = l_struct_struct_OC_vmask4 {
         field0: l_array_4_uint32_t { array: [0; 4] },
     };
-    let mut _1741: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1742: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1741: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1742: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1743: uint32_t = 0;
     let mut _1744: uint32_t = 0;
     let mut _1745: uint32_t = 0;
     let mut _1746: uint32_t = 0;
     let mut _1747: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1748: uint32_t = 0;
-    let mut _1749: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1749: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1750: uint32_t = 0;
     let mut _1751: uint32_t = 0;
     let mut _1752: uint32_t = 0;
@@ -7801,7 +7806,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1761: uint32_t = 0;
     let mut _1762: uint32_t = 0;
     let mut _1763: uint32_t = 0;
-    let mut _1764: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1764: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1765: uint8_t = 0;
     let mut _1766: uint64_t = 0;
     let mut _1767: uint8_t = 0;
@@ -7811,8 +7816,8 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1771: uint8_t = 0;
     let mut _1772: uint64_t = 0;
     let mut _1773: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1774: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1775: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1774: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1775: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1776: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1777: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _1778: core::ffi::c_float = 0.;
@@ -7823,7 +7828,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1783: core::ffi::c_float = 0.;
     let mut _1784: core::ffi::c_float = 0.;
     let mut _1785: core::ffi::c_float = 0.;
-    let mut _1786: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1786: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1787: uint8_t = 0;
     let mut _1788: uint64_t = 0;
     let mut _1789: uint8_t = 0;
@@ -7833,8 +7838,8 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1793: uint8_t = 0;
     let mut _1794: uint64_t = 0;
     let mut _1795: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1796: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1797: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1796: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1797: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1798: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1799: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1800: uint32_t = 0;
@@ -7845,7 +7850,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1805: uint32_t = 0;
     let mut _1806: uint32_t = 0;
     let mut _1807: uint32_t = 0;
-    let mut _1808: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1808: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1809: uint8_t = 0;
     let mut _1810: uint64_t = 0;
     let mut _1811: uint8_t = 0;
@@ -7856,7 +7861,7 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     let mut _1816: uint64_t = 0;
     let mut _1817: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1818: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1819: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1819: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1820: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
     let mut _1821: uint32_t = 0;
     let mut _1822: uint32_t = 0;
@@ -7942,44 +7947,44 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _1705 = (_1762 == _1763) as core::ffi::c_int as bool_0;
     _1764 = _1701;
     _1765 = _1702;
-    _1766 = ((_1765 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1766 = ((_1765 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1764 as *mut uint32_t) = llvm_select_u32(
-        ((_1765 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1765 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1767 = _1703;
-    _1768 = ((_1767 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1768 = ((_1767 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1764 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1767 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1767 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1769 = _1704;
-    _1770 = ((_1769 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1770 = ((_1769 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1764 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1769 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1769 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1771 = _1705;
-    _1772 = ((_1771 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1772 = ((_1771 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1764 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1771 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1771 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -8006,72 +8011,78 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     _1780 = *(&mut *((*(&mut _1722 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1781 = *(&mut *((*(&mut _1723 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(1 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1782 = *(&mut *((*(&mut _1722 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1783 = *(&mut *((*(&mut _1723 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(2 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1784 = *(&mut *((*(&mut _1722 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1785 = *(&mut *((*(&mut _1723 as *mut l_struct_struct_OC_vfloat4 as *mut l_array_4_float))
         .array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float);
+        .offset(3 as core::ffi::c_int as int64_t as isize)
+        as *mut core::ffi::c_float);
     _1706 = &mut _1721 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1707 = llvm_fcmp_oeq(_1778 as core::ffi::c_double, _1779 as libc::c_double) as bool_0;
-    _1708 = llvm_fcmp_oeq(_1780 as core::ffi::c_double, _1781 as libc::c_double) as bool_0;
-    _1709 = llvm_fcmp_oeq(_1782 as core::ffi::c_double, _1783 as libc::c_double) as bool_0;
-    _1710 = llvm_fcmp_oeq(_1784 as core::ffi::c_double, _1785 as libc::c_double) as bool_0;
+    _1707 = llvm_fcmp_oeq(_1778 as core::ffi::c_double, _1779 as core::ffi::c_double) as bool_0;
+    _1708 = llvm_fcmp_oeq(_1780 as core::ffi::c_double, _1781 as core::ffi::c_double) as bool_0;
+    _1709 = llvm_fcmp_oeq(_1782 as core::ffi::c_double, _1783 as core::ffi::c_double) as bool_0;
+    _1710 = llvm_fcmp_oeq(_1784 as core::ffi::c_double, _1785 as core::ffi::c_double) as bool_0;
     _1786 = _1706;
     _1787 = _1707;
-    _1788 = ((_1787 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1788 = ((_1787 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1786 as *mut uint32_t) = llvm_select_u32(
-        ((_1787 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1787 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1789 = _1708;
-    _1790 = ((_1789 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1790 = ((_1789 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1786 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1789 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1789 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1791 = _1709;
-    _1792 = ((_1791 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1792 = ((_1791 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1786 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1791 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1791 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1793 = _1710;
-    _1794 = ((_1793 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1794 = ((_1793 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1786 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1793 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1793 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -8118,50 +8129,50 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _1711 = &mut _1716 as *mut l_struct_struct_OC_vmask4 as *mut core::ffi::c_void;
-    _1712 = (_1800 & _1801 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1713 = (_1802 & _1803 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1714 = (_1804 & _1805 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
-    _1715 = (_1806 & _1807 != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+    _1712 = (_1800 & _1801 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1713 = (_1802 & _1803 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1714 = (_1804 & _1805 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
+    _1715 = (_1806 & _1807 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _1808 = _1711;
     _1809 = _1712;
-    _1810 = ((_1809 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1810 = ((_1809 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(_1808 as *mut uint32_t) = llvm_select_u32(
-        ((_1809 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1809 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1811 = _1713;
-    _1812 = ((_1811 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1812 = ((_1811 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1808 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1811 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1811 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1813 = _1714;
-    _1814 = ((_1813 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1814 = ((_1813 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1808 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1813 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1813 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
     _1815 = _1715;
-    _1816 = ((_1815 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-        == 0 as core::ffi::c_uint) as libc::c_int as bool_0 as uint64_t;
+    _1816 = ((_1815 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+        == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
     *(&mut *((*(_1808 as *mut l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
-        ((_1815 as core::ffi::c_uint & 1 as libc::c_uint) as bool_0 as uint32_t
-            == 0 as core::ffi::c_uint) as libc::c_int as bool_0,
+        ((_1815 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
+            == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0,
         0 as core::ffi::c_int as uint32_t,
         -(1 as core::ffi::c_int) as uint32_t,
     );
@@ -8190,10 +8201,10 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     return (_1821 & 1 as core::ffi::c_int as uint32_t
-        | _1822 & 2 as libc::c_int as uint32_t
+        | _1822 & 2 as core::ffi::c_int as uint32_t
         | _1823 & 4 as core::ffi::c_int as uint32_t
-        | _1824 & 8 as libc::c_int as uint32_t
-        != 0 as core::ffi::c_uint) as libc::c_int as bool_0;
+        | _1824 & 8 as core::ffi::c_int as uint32_t
+        != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
 }
 #[no_mangle]
 #[inline(never)]
@@ -8202,11 +8213,11 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor22get_raw_partition_infoEjj(
     mut _1826: uint32_t,
     mut _1827: uint32_t,
 ) -> *mut core::ffi::c_void {
-    let mut _1828: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1828: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1829: uint32_t = 0;
     let mut _1830: uint32_t = 0;
-    let mut _1831: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1832: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1831: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1832: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1833: uint32_t = 0;
     let mut _1834: uint32_t = 0;
     let mut _1835: uint32_t = 0;
@@ -8214,9 +8225,9 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor22get_raw_partition_infoEjj(
     let mut _1837: bool_0 = 0;
     let mut _1837__PHI_TEMPORARY: bool_0 = 0;
     let mut _1838: uint32_t = 0;
-    let mut _1839: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1839: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1840: uint32_t = 0;
-    let mut _1841: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1841: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _1828 = _1825;
     _1829 = _1826;
     _1830 = _1827;
@@ -8272,40 +8283,40 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
     let mut _1852: uint32_t = 0;
     let mut _1853: core::ffi::c_float = 0.;
     let mut _1854: uint32_t = 0;
-    let mut _1855: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _1856: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1855: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _1856: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1857: uint32_t = 0;
     let mut _1858: uint32_t = 0;
     let mut _1859: uint32_t = 0;
     let mut _1860: core::ffi::c_float = 0.;
-    let mut _1861: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1861: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1862: uint32_t = 0;
     let mut _1863: core::ffi::c_float = 0.;
     let mut _1864: uint32_t = 0;
     let mut _1865: uint32_t = 0;
     let mut _1866: core::ffi::c_float = 0.;
-    let mut _1867: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1867: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1868: uint32_t = 0;
     let mut _1869: core::ffi::c_float = 0.;
     let mut _1870: uint32_t = 0;
     let mut _1871: uint32_t = 0;
     let mut _1872: uint32_t = 0;
-    let mut _1873: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1873: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1874: uint32_t = 0;
     let mut _1875: core::ffi::c_float = 0.;
-    let mut _1876: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1876: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1877: uint32_t = 0;
-    let mut _1878: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1878: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1879: uint32_t = 0;
     let mut _1880: uint32_t = 0;
-    let mut _1881: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1881: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1882: uint32_t = 0;
     let mut _1883: uint32_t = 0;
     let mut _1884: core::ffi::c_float = 0.;
-    let mut _1885: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1885: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1886: uint32_t = 0;
     let mut _1887: uint32_t = 0;
-    let mut _1888: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1888: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1889: uint32_t = 0;
     let mut _1890: uint32_t = 0;
     _1852 = _1847;
@@ -8324,7 +8335,7 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
             1 as core::ffi::c_int as uint32_t,
         ) as uint64_t as int64_t
             as isize) as *mut core::ffi::c_float);
-        if !(llvm_fcmp_oge(_1860 as core::ffi::c_double, _1863 as libc::c_double) != 0) {
+        if !(llvm_fcmp_oge(_1860 as core::ffi::c_double, _1863 as core::ffi::c_double) != 0) {
             _1857 = 0 as core::ffi::c_int as uint32_t;
             loop {
                 _1864 = _1857;
@@ -8339,7 +8350,8 @@ unsafe extern "C" fn _ZL13insert_resultjfjPfPj(
                 _1869 = *(&mut *(_1867 as *mut core::ffi::c_float)
                     .offset(_1868 as uint64_t as int64_t as isize)
                     as *mut core::ffi::c_float);
-                if !(llvm_fcmp_ogt(_1866 as core::ffi::c_double, _1869 as libc::c_double) != 0) {
+                if !(llvm_fcmp_ogt(_1866 as core::ffi::c_double, _1869 as core::ffi::c_double) != 0)
+                {
                     current_block = 11457568801535137816;
                     break;
                 }
@@ -8428,32 +8440,32 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _1911: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1912: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1912: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1913: core::ffi::c_float = 0.;
     let mut _1914: core::ffi::c_float = 0.;
     let mut _1915: core::ffi::c_float = 0.;
     let mut _1916: core::ffi::c_float = 0.;
-    let mut _1917: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1917: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1918: core::ffi::c_float = 0.;
     let mut _1919: core::ffi::c_float = 0.;
     let mut _1920: core::ffi::c_float = 0.;
     let mut _1921: core::ffi::c_float = 0.;
-    let mut _1922: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1922: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1923: core::ffi::c_float = 0.;
     let mut _1924: core::ffi::c_float = 0.;
     let mut _1925: core::ffi::c_float = 0.;
     let mut _1926: core::ffi::c_float = 0.;
-    let mut _1927: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1927: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1928: core::ffi::c_float = 0.;
     let mut _1929: core::ffi::c_float = 0.;
     let mut _1930: core::ffi::c_float = 0.;
     let mut _1931: core::ffi::c_float = 0.;
-    let mut _1932: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1932: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1933: core::ffi::c_float = 0.;
     let mut _1934: core::ffi::c_float = 0.;
     let mut _1935: core::ffi::c_float = 0.;
     let mut _1936: core::ffi::c_float = 0.;
-    let mut _1937: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1937: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1938: core::ffi::c_float = 0.;
     let mut _1939: core::ffi::c_float = 0.;
     let mut _1940: core::ffi::c_float = 0.;
@@ -8548,10 +8560,10 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _1971: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _1972: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1972: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1973: uint32_t = 0;
     let mut _1974: uint32_t = 0;
-    let mut _1975: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _1975: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1976: uint32_t = 0;
     let mut _1977: l_array_216_float = l_array_216_float { array: [0.; 216] };
     let mut _1978: uint32_t = 0;
@@ -8621,24 +8633,24 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2006: uint32_t = 0;
     let mut _2007: uint32_t = 0;
     let mut _2008: uint32_t = 0;
-    let mut _2009: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2009: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2010: uint32_t = 0;
     let mut _2011: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2012: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2012: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2013: uint32_t = 0;
-    let mut _2014: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2014: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2015: uint32_t = 0;
     let mut _2016: uint32_t = 0;
     let mut _2017: uint32_t = 0;
-    let mut _2018: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2018: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2019: uint32_t = 0;
     let mut _2020: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2021: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2022: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2021: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2022: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2023: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2024: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2025: core::ffi::c_float = 0.;
@@ -8649,7 +8661,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2030: core::ffi::c_float = 0.;
     let mut _2031: core::ffi::c_float = 0.;
     let mut _2032: core::ffi::c_float = 0.;
-    let mut _2033: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2033: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2034: core::ffi::c_float = 0.;
     let mut _2035: core::ffi::c_float = 0.;
     let mut _2036: core::ffi::c_float = 0.;
@@ -8657,8 +8669,8 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2038: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2039: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2040: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2039: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2040: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2041: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2042: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2043: core::ffi::c_float = 0.;
@@ -8669,7 +8681,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2048: core::ffi::c_float = 0.;
     let mut _2049: core::ffi::c_float = 0.;
     let mut _2050: core::ffi::c_float = 0.;
-    let mut _2051: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2051: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2052: core::ffi::c_float = 0.;
     let mut _2053: core::ffi::c_float = 0.;
     let mut _2054: core::ffi::c_float = 0.;
@@ -8677,12 +8689,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2056: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2057: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2058: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2057: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2058: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2059: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2060: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _2061: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2062: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2061: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2062: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2063: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2064: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2065: core::ffi::c_float = 0.;
@@ -8693,7 +8705,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2070: core::ffi::c_float = 0.;
     let mut _2071: core::ffi::c_float = 0.;
     let mut _2072: core::ffi::c_float = 0.;
-    let mut _2073: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2073: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2074: core::ffi::c_float = 0.;
     let mut _2075: core::ffi::c_float = 0.;
     let mut _2076: core::ffi::c_float = 0.;
@@ -8701,7 +8713,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2078: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2079: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2079: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2080: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2081: core::ffi::c_float = 0.;
     let mut _2082: core::ffi::c_float = 0.;
@@ -8712,7 +8724,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2087: core::ffi::c_float = 0.;
     let mut _2088: uint32_t = 0;
     let mut _2089: uint32_t = 0;
-    let mut _2090: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2090: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2091: uint32_t = 0;
     let mut _2092: uint32_t = 0;
     let mut _2093: core::ffi::c_float = 0.;
@@ -8729,26 +8741,26 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2104: uint32_t = 0;
     let mut _2105: uint32_t = 0;
     let mut _2106: uint32_t = 0;
-    let mut _2107: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2107: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2108: uint32_t = 0;
     let mut _2109: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2110: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2111: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2110: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2111: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2112: uint32_t = 0;
-    let mut _2113: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2113: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2114: uint32_t = 0;
     let mut _2115: uint32_t = 0;
     let mut _2116: uint32_t = 0;
     let mut _2117: uint32_t = 0;
-    let mut _2118: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2118: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2119: uint32_t = 0;
     let mut _2120: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2121: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2122: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2121: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2122: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2123: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2124: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2125: core::ffi::c_float = 0.;
@@ -8759,7 +8771,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2130: core::ffi::c_float = 0.;
     let mut _2131: core::ffi::c_float = 0.;
     let mut _2132: core::ffi::c_float = 0.;
-    let mut _2133: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2133: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2134: core::ffi::c_float = 0.;
     let mut _2135: core::ffi::c_float = 0.;
     let mut _2136: core::ffi::c_float = 0.;
@@ -8767,8 +8779,8 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2138: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2139: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2140: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2139: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2140: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2141: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2142: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2143: core::ffi::c_float = 0.;
@@ -8779,7 +8791,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2148: core::ffi::c_float = 0.;
     let mut _2149: core::ffi::c_float = 0.;
     let mut _2150: core::ffi::c_float = 0.;
-    let mut _2151: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2151: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2152: core::ffi::c_float = 0.;
     let mut _2153: core::ffi::c_float = 0.;
     let mut _2154: core::ffi::c_float = 0.;
@@ -8787,12 +8799,12 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2156: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2157: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2158: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2157: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2158: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2159: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2160: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _2161: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2162: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2161: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2162: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2163: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2164: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2165: core::ffi::c_float = 0.;
@@ -8803,7 +8815,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2170: core::ffi::c_float = 0.;
     let mut _2171: core::ffi::c_float = 0.;
     let mut _2172: core::ffi::c_float = 0.;
-    let mut _2173: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2173: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2174: core::ffi::c_float = 0.;
     let mut _2175: core::ffi::c_float = 0.;
     let mut _2176: core::ffi::c_float = 0.;
@@ -8811,7 +8823,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
     let mut _2178: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2179: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2179: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2180: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2181: core::ffi::c_float = 0.;
     let mut _2182: core::ffi::c_float = 0.;
@@ -8852,7 +8864,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
             );
             _2015 = _1976;
             _1976 = llvm_add_u32(_2015, 1 as core::ffi::c_int as uint32_t);
-            _1980 = 0 as core::ffi::c_int as libc::c_float;
+            _1980 = 0 as core::ffi::c_int as core::ffi::c_float;
             _1981 = 0 as core::ffi::c_int as uint32_t;
             loop {
                 _2016 = _1981;
@@ -8885,37 +8897,37 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2028 = *(&mut *((*(&mut _1968 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2029 = *(&mut *((*(&mut _1967 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2030 = *(&mut *((*(&mut _1968 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2031 = *(&mut *((*(&mut _1967 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2032 = *(&mut *((*(&mut _1968 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _1917 = &mut _1966 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _1918 = llvm_fsub_f32(_2025, _2026);
                 _1919 = llvm_fsub_f32(_2027, _2028);
@@ -8962,37 +8974,37 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2046 = *(&mut *((*(&mut _1962 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2047 = *(&mut *((*(&mut _1961 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2048 = *(&mut *((*(&mut _1962 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2049 = *(&mut *((*(&mut _1961 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2050 = *(&mut *((*(&mut _1962 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _1927 = &mut _1960 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _1928 = llvm_fmul_f32(_2043, _2044);
                 _1929 = llvm_fmul_f32(_2045, _2046);
@@ -9051,37 +9063,37 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2068 = *(&mut *((*(&mut _1944 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2069 = *(&mut *((*(&mut _1943 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2070 = *(&mut *((*(&mut _1944 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2071 = *(&mut *((*(&mut _1943 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2072 = *(&mut *((*(&mut _1944 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _1937 = &mut _1942 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _1938 = llvm_fmul_f32(_2065, _2066);
                 _1939 = llvm_fmul_f32(_2067, _2068);
@@ -9121,19 +9133,19 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2083 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2084 = *(&mut *((*(&mut _1911 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _1986 = llvm_fadd_f32(llvm_fadd_f32(_2081, _2082), llvm_fadd_f32(_2083, _2084));
                 _2085 = _1986;
                 _2086 = _1980;
@@ -9163,7 +9175,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                 ),
             );
             loop {
-                _1993 = 0 as core::ffi::c_int as libc::c_float;
+                _1993 = 0 as core::ffi::c_int as core::ffi::c_float;
                 _2093 = _1980;
                 _2094 = _1992;
                 _1992 = llvm_add_u32(_2094, 1 as core::ffi::c_int as uint32_t);
@@ -9188,7 +9200,9 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                     _1993 = llvm_fadd_f32(_2100, _2099);
                     _2101 = _1993;
                     _2102 = _1994;
-                    if llvm_fcmp_oge(_2101 as core::ffi::c_double, _2102 as libc::c_double) != 0 {
+                    if llvm_fcmp_oge(_2101 as core::ffi::c_double, _2102 as core::ffi::c_double)
+                        != 0
+                    {
                         break;
                     }
                     _2103 = _1978;
@@ -9226,7 +9240,7 @@ unsafe extern "C" fn _ZL11kmeans_initRK11image_blockjjP7vfloat4(
                 if _2114 >= _2115 {
                     break;
                 }
-                _1980 = 0 as core::ffi::c_int as libc::c_float;
+                _1980 = 0 as core::ffi::c_int as core::ffi::c_float;
                 _1996 = 0 as core::ffi::c_int as uint32_t;
                 loop {
                     _2116 = _1996;
@@ -9577,7 +9591,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     mut _2221: *mut core::ffi::c_void,
     mut _2222: *mut core::ffi::c_void,
 ) {
-    let mut _2223: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2223: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2224: core::ffi::c_float = 0.;
     let mut _2225: core::ffi::c_float = 0.;
     let mut _2226: core::ffi::c_float = 0.;
@@ -9591,8 +9605,8 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2230: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2231: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2232: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2231: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2232: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2233: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
@@ -9602,12 +9616,12 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2235: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2236: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2236: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2237: core::ffi::c_float = 0.;
     let mut _2238: core::ffi::c_float = 0.;
     let mut _2239: core::ffi::c_float = 0.;
     let mut _2240: core::ffi::c_float = 0.;
-    let mut _2241: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2241: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2242: core::ffi::c_float = 0.;
     let mut _2243: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -9631,13 +9645,13 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2250: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2251: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2251: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2252: core::ffi::c_float = 0.;
-    let mut _2253: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2253: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2254: core::ffi::c_float = 0.;
-    let mut _2255: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2255: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2256: core::ffi::c_float = 0.;
-    let mut _2257: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2257: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2258: core::ffi::c_float = 0.;
     let mut _2259: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
@@ -9651,11 +9665,11 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2262: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2263: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2263: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2264: uint32_t = 0;
     let mut _2265: uint32_t = 0;
-    let mut _2266: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2267: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2266: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2267: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2268: l_array_4_struct_AC_l_struct_struct_OC_vfloat4 =
         l_array_4_struct_AC_l_struct_struct_OC_vfloat4 {
             array: [l_struct_struct_OC_vfloat4 {
@@ -9678,7 +9692,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     };
     let mut _2277: uint32_t = 0;
     let mut _2278: uint32_t = 0;
-    let mut _2279: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2279: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2280: core::ffi::c_float = 0.;
     let mut _2281: core::ffi::c_float = 0.;
     let mut _2282: core::ffi::c_float = 0.;
@@ -9686,7 +9700,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2284: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2285: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2285: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2286: core::ffi::c_float = 0.;
     let mut _2287: core::ffi::c_float = 0.;
     let mut _2288: core::ffi::c_float = 0.;
@@ -9694,7 +9708,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2290: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2291: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2291: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2292: core::ffi::c_float = 0.;
     let mut _2293: core::ffi::c_float = 0.;
     let mut _2294: core::ffi::c_float = 0.;
@@ -9702,7 +9716,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2296: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2297: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2297: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2298: core::ffi::c_float = 0.;
     let mut _2299: core::ffi::c_float = 0.;
     let mut _2300: core::ffi::c_float = 0.;
@@ -9710,22 +9724,22 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2302: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2303: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2303: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2304: uint32_t = 0;
     let mut _2305: uint32_t = 0;
-    let mut _2306: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2306: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2307: uint32_t = 0;
     let mut _2308: uint8_t = 0;
-    let mut _2309: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2309: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2310: uint32_t = 0;
     let mut _2311: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _2312: uint8_t = 0;
-    let mut _2313: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2314: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2315: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2316: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2313: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2314: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2315: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2316: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2317: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2318: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2319: core::ffi::c_float = 0.;
@@ -9736,7 +9750,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2324: core::ffi::c_float = 0.;
     let mut _2325: core::ffi::c_float = 0.;
     let mut _2326: core::ffi::c_float = 0.;
-    let mut _2327: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2327: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2328: core::ffi::c_float = 0.;
     let mut _2329: core::ffi::c_float = 0.;
     let mut _2330: core::ffi::c_float = 0.;
@@ -9744,11 +9758,11 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2332: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2333: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2334: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2335: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2333: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2334: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2335: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2336: uint8_t = 0;
-    let mut _2337: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2337: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2338: uint8_t = 0;
     let mut _2339: uint32_t = 0;
     let mut _2340: uint32_t = 0;
@@ -9756,12 +9770,12 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2342: uint32_t = 0;
     let mut _2343: uint8_t = 0;
     let mut _2344: uint32_t = 0;
-    let mut _2345: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2345: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2346: core::ffi::c_float = 0.;
     let mut _2347: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _2348: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2348: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2349: core::ffi::c_float = 0.;
-    let mut _2350: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2350: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2351: core::ffi::c_float = 0.;
     let mut _2352: core::ffi::c_float = 0.;
     let mut _2353: core::ffi::c_float = 0.;
@@ -9776,7 +9790,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2362: core::ffi::c_float = 0.;
     let mut _2363: core::ffi::c_float = 0.;
     let mut _2364: core::ffi::c_float = 0.;
-    let mut _2365: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2365: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2366: core::ffi::c_float = 0.;
     let mut _2367: core::ffi::c_float = 0.;
     let mut _2368: core::ffi::c_float = 0.;
@@ -9787,9 +9801,9 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
     let mut _2371: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2372: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2372: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2373: uint32_t = 0;
-    let mut _2374: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2374: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2375: uint32_t = 0;
     _2263 = _2218;
     _2264 = _2219;
@@ -9801,7 +9815,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
         _2278 = _2265;
         if _2278 > 0 as core::ffi::c_uint {
             _2257 = &mut _2259 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-            _2258 = 0 as core::ffi::c_int as libc::c_float;
+            _2258 = 0 as core::ffi::c_int as core::ffi::c_float;
             _2279 = _2257;
             _2280 = _2258;
             *(_2279 as *mut core::ffi::c_float) = _2280;
@@ -9825,7 +9839,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 as *mut l_struct_struct_OC_vfloat4))
                 .field0 as *mut l_array_4_float) = _2284.field0;
             _2255 = &mut _2260 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-            _2256 = 0 as core::ffi::c_int as libc::c_float;
+            _2256 = 0 as core::ffi::c_int as core::ffi::c_float;
             _2285 = _2255;
             _2286 = _2256;
             *(_2285 as *mut core::ffi::c_float) = _2286;
@@ -9851,7 +9865,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 as *mut l_struct_struct_OC_vfloat4))
                 .field0 as *mut l_array_4_float) = _2290.field0;
             _2253 = &mut _2261 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-            _2254 = 0 as core::ffi::c_int as libc::c_float;
+            _2254 = 0 as core::ffi::c_int as core::ffi::c_float;
             _2291 = _2253;
             _2292 = _2254;
             *(_2291 as *mut core::ffi::c_float) = _2292;
@@ -9877,7 +9891,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                 as *mut l_struct_struct_OC_vfloat4))
                 .field0 as *mut l_array_4_float) = _2296.field0;
             _2251 = &mut _2262 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
-            _2252 = 0 as core::ffi::c_int as libc::c_float;
+            _2252 = 0 as core::ffi::c_int as core::ffi::c_float;
             _2297 = _2251;
             _2298 = _2252;
             *(_2297 as *mut core::ffi::c_float) = _2298;
@@ -9954,37 +9968,37 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2322 = *(&mut *((*(&mut _2230 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2323 = *(&mut *((*(&mut _2229 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2324 = *(&mut *((*(&mut _2230 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2325 = *(&mut *((*(&mut _2229 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2326 = *(&mut *((*(&mut _2230 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2223 = &mut _2228 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2224 = llvm_fadd_f32(_2319, _2320);
                 _2225 = llvm_fadd_f32(_2321, _2322);
@@ -10041,7 +10055,7 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                     .offset(_2342 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _2274 = llvm_fdiv_f32(
-                    1 as core::ffi::c_int as libc::c_float,
+                    1 as core::ffi::c_int as core::ffi::c_float,
                     _2343 as core::ffi::c_float,
                 );
                 _2344 = _2273;
@@ -10095,37 +10109,37 @@ unsafe extern "C" fn _ZL13kmeans_updateRK11image_blockjjP7vfloat4PKh(
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2360 = *(&mut *((*(&mut _2245 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2361 = *(&mut *((*(&mut _2244 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2362 = *(&mut *((*(&mut _2245 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2363 = *(&mut *((*(&mut _2244 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2364 = *(&mut *((*(&mut _2245 as *mut l_struct_struct_OC_vfloat4
                     as *mut l_array_4_float))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
-                    as *mut libc::c_float);
+                    as *mut core::ffi::c_float);
                 _2236 = &mut _2243 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                 _2237 = llvm_fmul_f32(_2357, _2358);
                 _2238 = llvm_fmul_f32(_2359, _2360);
@@ -10198,17 +10212,17 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2395: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2396: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2396: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2397: core::ffi::c_float = 0.;
     let mut _2398: core::ffi::c_float = 0.;
     let mut _2399: core::ffi::c_float = 0.;
     let mut _2400: core::ffi::c_float = 0.;
-    let mut _2401: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2401: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2402: core::ffi::c_float = 0.;
     let mut _2403: core::ffi::c_float = 0.;
     let mut _2404: core::ffi::c_float = 0.;
     let mut _2405: core::ffi::c_float = 0.;
-    let mut _2406: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2406: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2407: core::ffi::c_float = 0.;
     let mut _2408: core::ffi::c_float = 0.;
     let mut _2409: core::ffi::c_float = 0.;
@@ -10258,11 +10272,11 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2425: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2426: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2426: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2427: uint32_t = 0;
     let mut _2428: uint32_t = 0;
-    let mut _2429: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2430: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2429: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2430: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2431: l_array_4_uint8_t = l_array_4_uint8_t { array: [0; 4] };
     let mut _2432: uint32_t = 0;
     let mut _2433: core::ffi::c_float = 0.;
@@ -10297,21 +10311,21 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2446: uint32_t = 0;
     let mut _2447: uint32_t = 0;
     let mut _2448: uint32_t = 0;
-    let mut _2449: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2449: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2450: uint32_t = 0;
     let mut _2451: uint32_t = 0;
     let mut _2452: core::ffi::c_float = 0.;
-    let mut _2453: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2453: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2454: uint32_t = 0;
     let mut _2455: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
     let mut _2456: uint32_t = 0;
     let mut _2457: uint32_t = 0;
-    let mut _2458: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2459: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2458: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2459: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2460: uint32_t = 0;
-    let mut _2461: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2461: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2462: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2463: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2464: core::ffi::c_float = 0.;
@@ -10322,7 +10336,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2469: core::ffi::c_float = 0.;
     let mut _2470: core::ffi::c_float = 0.;
     let mut _2471: core::ffi::c_float = 0.;
-    let mut _2472: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2472: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2473: core::ffi::c_float = 0.;
     let mut _2474: core::ffi::c_float = 0.;
     let mut _2475: core::ffi::c_float = 0.;
@@ -10330,8 +10344,8 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2477: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2478: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2479: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2478: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2479: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2480: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2481: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2482: core::ffi::c_float = 0.;
@@ -10342,7 +10356,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2487: core::ffi::c_float = 0.;
     let mut _2488: core::ffi::c_float = 0.;
     let mut _2489: core::ffi::c_float = 0.;
-    let mut _2490: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2490: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2491: core::ffi::c_float = 0.;
     let mut _2492: core::ffi::c_float = 0.;
     let mut _2493: core::ffi::c_float = 0.;
@@ -10350,12 +10364,12 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2495: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2496: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2497: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2496: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2497: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2498: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2499: l_array_4_float = l_array_4_float { array: [0.; 4] };
-    let mut _2500: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2501: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2500: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2501: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2502: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2503: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2504: core::ffi::c_float = 0.;
@@ -10366,7 +10380,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2509: core::ffi::c_float = 0.;
     let mut _2510: core::ffi::c_float = 0.;
     let mut _2511: core::ffi::c_float = 0.;
-    let mut _2512: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2512: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2513: core::ffi::c_float = 0.;
     let mut _2514: core::ffi::c_float = 0.;
     let mut _2515: core::ffi::c_float = 0.;
@@ -10374,7 +10388,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2517: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2518: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2518: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2519: l_array_4_float = l_array_4_float { array: [0.; 4] };
     let mut _2520: core::ffi::c_float = 0.;
     let mut _2521: core::ffi::c_float = 0.;
@@ -10386,26 +10400,26 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
     let mut _2527: uint32_t = 0;
     let mut _2528: uint32_t = 0;
     let mut _2529: uint32_t = 0;
-    let mut _2530: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2530: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2531: uint32_t = 0;
     let mut _2532: uint32_t = 0;
-    let mut _2533: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2533: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2534: uint8_t = 0;
     let mut _2535: uint32_t = 0;
     let mut _2536: uint32_t = 0;
     let mut _2537: uint32_t = 0;
     let mut _2538: uint32_t = 0;
     let mut _2539: uint8_t = 0;
-    let mut _2540: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2540: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2541: uint32_t = 0;
     let mut _2542: uint8_t = 0;
-    let mut _2543: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2543: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2544: uint8_t = 0;
     let mut _2545: uint32_t = 0;
-    let mut _2546: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2546: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2547: uint8_t = 0;
     let mut _2548: uint32_t = 0;
-    let mut _2549: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2549: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2550: uint32_t = 0;
     let mut _2551: uint32_t = 0;
     let mut _2552: uint8_t = 0;
@@ -10741,7 +10755,9 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                     _2440 = llvm_fadd_f32(llvm_fadd_f32(_2520, _2521), llvm_fadd_f32(_2522, _2523));
                     _2524 = _2440;
                     _2525 = _2433;
-                    if llvm_fcmp_olt(_2524 as core::ffi::c_double, _2525 as libc::c_double) != 0 {
+                    if llvm_fcmp_olt(_2524 as core::ffi::c_double, _2525 as core::ffi::c_double)
+                        != 0
+                    {
                         _2526 = _2440;
                         _2433 = _2526;
                         _2527 = _2436;
@@ -10814,7 +10830,7 @@ unsafe extern "C" fn _ZL13kmeans_assignRK11image_blockjjPK7vfloat4Ph(
                     _2446 = llvm_add_u32(_2551, 1 as core::ffi::c_int as uint32_t);
                 }
                 _2552 = _2445;
-                if !(_2552 as core::ffi::c_uint & 1 as libc::c_uint != 0) {
+                if !(_2552 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0) {
                     break;
                 }
             }
@@ -10870,69 +10886,69 @@ unsafe extern "C" fn _ZL29count_partition_mismatch_bitsRK21block_size_descriptor
     mut _2593: *mut core::ffi::c_void,
 ) {
     let mut current_block: u64;
-    let mut _2594: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2594: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2595: uint32_t = 0;
-    let mut _2596: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2597: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2596: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2597: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2598: uint32_t = 0;
     let mut _2599: uint32_t = 0;
     let mut _2600: uint32_t = 0;
     let mut _2601: uint32_t = 0;
-    let mut _2602: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2602: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2603: uint32_t = 0;
     let mut _2604: uint32_t = 0;
     let mut _2605: uint32_t = 0;
     let mut _2606: uint32_t = 0;
     let mut _2607: uint32_t = 0;
     let mut _2608: uint32_t = 0;
-    let mut _2609: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2610: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2609: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2610: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2611: uint32_t = 0;
     let mut _2612: uint8_t = 0;
-    let mut _2613: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2613: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2614: uint32_t = 0;
-    let mut _2615: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2615: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2616: uint32_t = 0;
     let mut _2617: uint8_t = 0;
-    let mut _2618: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2618: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2619: uint32_t = 0;
     let mut _2620: uint8_t = 0;
-    let mut _2621: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2621: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2622: uint8_t = 0;
     let mut _2623: uint32_t = 0;
     let mut _2624: uint32_t = 0;
     let mut _2625: uint32_t = 0;
     let mut _2626: uint32_t = 0;
-    let mut _2627: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2628: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2627: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2628: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2629: uint32_t = 0;
     let mut _2630: uint8_t = 0;
-    let mut _2631: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2631: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2632: uint32_t = 0;
-    let mut _2633: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2633: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2634: uint32_t = 0;
     let mut _2635: uint8_t = 0;
-    let mut _2636: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2636: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2637: uint32_t = 0;
     let mut _2638: uint8_t = 0;
-    let mut _2639: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2639: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2640: uint8_t = 0;
     let mut _2641: uint32_t = 0;
     let mut _2642: uint32_t = 0;
     let mut _2643: uint32_t = 0;
-    let mut _2644: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2645: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2644: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2645: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2646: uint32_t = 0;
     let mut _2647: uint8_t = 0;
-    let mut _2648: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2648: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2649: uint32_t = 0;
-    let mut _2650: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2650: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2651: uint32_t = 0;
     let mut _2652: uint8_t = 0;
-    let mut _2653: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2653: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2654: uint32_t = 0;
     let mut _2655: uint8_t = 0;
-    let mut _2656: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2656: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2657: uint8_t = 0;
     let mut _2658: uint32_t = 0;
     _2594 = _2590;
@@ -11225,8 +11241,8 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
 ) -> uint32_t {
     let mut _2702: uint32_t = 0;
     let mut _2703: uint32_t = 0;
-    let mut _2704: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2705: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2704: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2705: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2706: l_array_64_uint16_t = l_array_64_uint16_t { array: [0; 64] };
     let mut _2707: uint32_t = 0;
     let mut _2708: uint16_t = 0;
@@ -11235,13 +11251,13 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
     let mut _2711: uint32_t = 0;
     let mut _2712: uint32_t = 0;
     let mut _2713: uint32_t = 0;
-    let mut _2714: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2714: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2715: uint32_t = 0;
     let mut _2716: uint32_t = 0;
-    let mut _2717: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2717: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2718: uint32_t = 0;
     let mut _2719: uint8_t = 0;
-    let mut _2720: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2720: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2721: uint16_t = 0;
     let mut _2722: uint32_t = 0;
     let mut _2723: uint32_t = 0;
@@ -11255,13 +11271,13 @@ unsafe extern "C" fn _ZL39get_partition_ordering_by_mismatch_bitsjjPKhPt(
     let mut _2731: uint32_t = 0;
     let mut _2732: uint32_t = 0;
     let mut _2733: uint32_t = 0;
-    let mut _2734: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2734: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2735: uint32_t = 0;
     let mut _2736: uint8_t = 0;
-    let mut _2737: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2737: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2738: uint16_t = 0;
     let mut _2739: uint32_t = 0;
-    let mut _2740: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2740: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2741: uint32_t = 0;
     let mut _2742: uint32_t = 0;
     let mut _2743: uint32_t = 0;
@@ -11365,7 +11381,7 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     mut _2759: *mut core::ffi::c_void,
     mut _2760: uint32_t,
 ) -> l_struct_struct_OC_vfloat4 {
-    let mut _2761: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2761: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2762: core::ffi::c_float = 0.;
     let mut _2763: core::ffi::c_float = 0.;
     let mut _2764: core::ffi::c_float = 0.;
@@ -11373,9 +11389,9 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     let mut _2766: l_struct_struct_OC_vfloat4 = l_struct_struct_OC_vfloat4 {
         field0: l_array_4_float { array: [0.; 4] },
     };
-    let mut _2767: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2767: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2768: uint32_t = 0;
-    let mut _2769: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2769: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2770: uint32_t = 0;
     let mut _2771: core::ffi::c_float = 0.;
     let mut _2772: uint32_t = 0;
@@ -11384,7 +11400,7 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     let mut _2775: core::ffi::c_float = 0.;
     let mut _2776: uint32_t = 0;
     let mut _2777: core::ffi::c_float = 0.;
-    let mut _2778: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2778: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2779: core::ffi::c_float = 0.;
     let mut _2780: core::ffi::c_float = 0.;
     let mut _2781: core::ffi::c_float = 0.;
@@ -11430,15 +11446,15 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     _2780 = _2763;
     *(&mut *((*(_2778 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2780;
+        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2780;
     _2781 = _2764;
     *(&mut *((*(_2778 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2781;
+        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2781;
     _2782 = _2765;
     *(&mut *((*(_2778 as *mut l_array_4_float)).array)
         .as_mut_ptr()
-        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut libc::c_float) = _2782;
+        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2782;
     _2783 = _2766;
     return _2783;
 }
@@ -11459,7 +11475,7 @@ unsafe extern "C" fn _ZN4astcL3minIfEET_S1_S1_(
     _2787 = _2785;
     _2788 = _2786;
     _2789 = _2787;
-    if llvm_fcmp_olt(_2788 as core::ffi::c_double, _2789 as libc::c_double) != 0 {
+    if llvm_fcmp_olt(_2788 as core::ffi::c_double, _2789 as core::ffi::c_double) != 0 {
         _2790 = _2786;
         _2792__PHI_TEMPORARY = _2790;
     } else {
@@ -11479,28 +11495,28 @@ unsafe extern "C" fn _ZL19partition_mismatch2PKmS0_(
     mut _2796: *mut core::ffi::c_void,
     mut _2797: *mut core::ffi::c_void,
 ) -> uint8_t {
-    let mut _2798: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2799: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2798: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2799: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2800: uint32_t = 0;
     let mut _2801: uint32_t = 0;
-    let mut _2802: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2802: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2803: uint64_t = 0;
-    let mut _2804: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2804: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2805: uint64_t = 0;
     let mut _2806: uint32_t = 0;
-    let mut _2807: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2807: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2808: uint64_t = 0;
-    let mut _2809: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2809: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2810: uint64_t = 0;
     let mut _2811: uint32_t = 0;
-    let mut _2812: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2812: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2813: uint64_t = 0;
-    let mut _2814: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2814: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2815: uint64_t = 0;
     let mut _2816: uint32_t = 0;
-    let mut _2817: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2817: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2818: uint64_t = 0;
-    let mut _2819: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2819: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2820: uint64_t = 0;
     let mut _2821: uint32_t = 0;
     let mut _2822: uint32_t = 0;
@@ -11544,8 +11560,8 @@ unsafe extern "C" fn _ZL19partition_mismatch3PKmS0_(
     mut _2825: *mut core::ffi::c_void,
     mut _2826: *mut core::ffi::c_void,
 ) -> uint8_t {
-    let mut _2827: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2828: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2827: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2828: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2829: uint32_t = 0;
     let mut _2830: uint32_t = 0;
     let mut _2831: uint32_t = 0;
@@ -11564,49 +11580,49 @@ unsafe extern "C" fn _ZL19partition_mismatch3PKmS0_(
     let mut _2844: uint32_t = 0;
     let mut _2845: uint32_t = 0;
     let mut _2846: uint32_t = 0;
-    let mut _2847: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2847: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2848: uint64_t = 0;
-    let mut _2849: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2849: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2850: uint64_t = 0;
     let mut _2851: uint32_t = 0;
-    let mut _2852: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2852: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2853: uint64_t = 0;
-    let mut _2854: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2854: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2855: uint64_t = 0;
     let mut _2856: uint32_t = 0;
-    let mut _2857: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2857: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2858: uint64_t = 0;
-    let mut _2859: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2859: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2860: uint64_t = 0;
     let mut _2861: uint32_t = 0;
-    let mut _2862: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2862: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2863: uint64_t = 0;
-    let mut _2864: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2864: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2865: uint64_t = 0;
     let mut _2866: uint32_t = 0;
-    let mut _2867: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2867: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2868: uint64_t = 0;
-    let mut _2869: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2869: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2870: uint64_t = 0;
     let mut _2871: uint32_t = 0;
-    let mut _2872: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2872: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2873: uint64_t = 0;
-    let mut _2874: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2874: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2875: uint64_t = 0;
     let mut _2876: uint32_t = 0;
-    let mut _2877: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2877: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2878: uint64_t = 0;
-    let mut _2879: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2879: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2880: uint64_t = 0;
     let mut _2881: uint32_t = 0;
-    let mut _2882: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2882: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2883: uint64_t = 0;
-    let mut _2884: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2884: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2885: uint64_t = 0;
     let mut _2886: uint32_t = 0;
-    let mut _2887: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2887: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2888: uint64_t = 0;
-    let mut _2889: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2889: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2890: uint64_t = 0;
     let mut _2891: uint32_t = 0;
     let mut _2892: uint32_t = 0;
@@ -11749,8 +11765,8 @@ unsafe extern "C" fn _ZL19partition_mismatch4PKmS0_(
     mut _2920: *mut core::ffi::c_void,
     mut _2921: *mut core::ffi::c_void,
 ) -> uint8_t {
-    let mut _2922: *mut core::ffi::c_void = 0 as *mut libc::c_void;
-    let mut _2923: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2922: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
+    let mut _2923: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2924: uint32_t = 0;
     let mut _2925: uint32_t = 0;
     let mut _2926: uint32_t = 0;
@@ -11777,84 +11793,84 @@ unsafe extern "C" fn _ZL19partition_mismatch4PKmS0_(
     let mut _2947: uint32_t = 0;
     let mut _2948: uint32_t = 0;
     let mut _2949: uint32_t = 0;
-    let mut _2950: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2950: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2951: uint64_t = 0;
-    let mut _2952: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2952: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2953: uint64_t = 0;
     let mut _2954: uint32_t = 0;
-    let mut _2955: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2955: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2956: uint64_t = 0;
-    let mut _2957: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2957: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2958: uint64_t = 0;
     let mut _2959: uint32_t = 0;
-    let mut _2960: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2960: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2961: uint64_t = 0;
-    let mut _2962: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2962: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2963: uint64_t = 0;
     let mut _2964: uint32_t = 0;
-    let mut _2965: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2965: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2966: uint64_t = 0;
-    let mut _2967: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2967: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2968: uint64_t = 0;
     let mut _2969: uint32_t = 0;
-    let mut _2970: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2970: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2971: uint64_t = 0;
-    let mut _2972: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2972: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2973: uint64_t = 0;
     let mut _2974: uint32_t = 0;
-    let mut _2975: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2975: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2976: uint64_t = 0;
-    let mut _2977: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2977: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2978: uint64_t = 0;
     let mut _2979: uint32_t = 0;
-    let mut _2980: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2980: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2981: uint64_t = 0;
-    let mut _2982: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2982: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2983: uint64_t = 0;
     let mut _2984: uint32_t = 0;
-    let mut _2985: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2985: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2986: uint64_t = 0;
-    let mut _2987: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2987: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2988: uint64_t = 0;
     let mut _2989: uint32_t = 0;
-    let mut _2990: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2990: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2991: uint64_t = 0;
-    let mut _2992: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2992: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2993: uint64_t = 0;
     let mut _2994: uint32_t = 0;
-    let mut _2995: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2995: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2996: uint64_t = 0;
-    let mut _2997: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _2997: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _2998: uint64_t = 0;
     let mut _2999: uint32_t = 0;
-    let mut _3000: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3000: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3001: uint64_t = 0;
-    let mut _3002: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3002: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3003: uint64_t = 0;
     let mut _3004: uint32_t = 0;
-    let mut _3005: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3005: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3006: uint64_t = 0;
-    let mut _3007: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3007: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3008: uint64_t = 0;
     let mut _3009: uint32_t = 0;
-    let mut _3010: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3010: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3011: uint64_t = 0;
-    let mut _3012: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3012: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3013: uint64_t = 0;
     let mut _3014: uint32_t = 0;
-    let mut _3015: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3015: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3016: uint64_t = 0;
-    let mut _3017: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3017: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3018: uint64_t = 0;
     let mut _3019: uint32_t = 0;
-    let mut _3020: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3020: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3021: uint64_t = 0;
-    let mut _3022: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3022: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3023: uint64_t = 0;
     let mut _3024: uint32_t = 0;
-    let mut _3025: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3025: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3026: uint64_t = 0;
-    let mut _3027: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3027: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3028: uint64_t = 0;
     let mut _3029: uint32_t = 0;
     let mut _3030: uint32_t = 0;
@@ -12284,10 +12300,10 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     mut _3154: *mut core::ffi::c_void,
     mut _3155: uint32_t,
 ) -> *mut core::ffi::c_void {
-    let mut _3156: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3156: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3157: uint32_t = 0;
     let mut _3158: uint32_t = 0;
-    let mut _3159: *mut core::ffi::c_void = 0 as *mut libc::c_void;
+    let mut _3159: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _3160: uint32_t = 0;
     let mut _3161: uint32_t = 0;
     let mut _3162: uint32_t = 0;
@@ -12316,7 +12332,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
 }
 #[no_mangle]
 #[inline(never)]
-pub unsafe extern "C" fn _ZSt4sqrtf(mut _3165: core::ffi::c_float) -> libc::c_float {
+pub unsafe extern "C" fn _ZSt4sqrtf(mut _3165: core::ffi::c_float) -> core::ffi::c_float {
     let mut _3166: core::ffi::c_float = 0.;
     let mut _3167: core::ffi::c_float = 0.;
     let mut _3168: core::ffi::c_float = 0.;
