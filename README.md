@@ -1,3 +1,5 @@
+Note: this doesn't link yet, as many C/C++ symbols are undefined and need to be substituted manually.
+
 # ASTC encoder transpiled to Rust
 
 This repository contains a version of https://github.com/ARM-software/astc-encoder/ transpiled to Rust using [c2rust](https://github.com/immunant/c2rust).
