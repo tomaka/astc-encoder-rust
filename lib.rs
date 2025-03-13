@@ -119,6 +119,6 @@ unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void {
 unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) {
     libc::free(ptr)
 }
-unsafe fn _ZSt25__throw_bad_function_callv() {
+unsafe fn _ZSt25__throw_bad_function_callv() -> ! {
     panic!()
 }

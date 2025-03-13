@@ -104,7 +104,7 @@ RUN echo "use libc::free;" >> lib.rs
 RUN echo "unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
 RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
 RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> lib.rs
-RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() { panic!() }" >> lib.rs
+RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 
 # Rustfmt
 RUN cargo fmt
