@@ -116,3 +116,9 @@ unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void {
 unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void {
     libc::malloc(size as libc::size_t)
 }
+unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) {
+    libc::free(ptr)
+}
+unsafe fn _ZSt25__throw_bad_function_callv() {
+    panic!()
+}
