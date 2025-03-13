@@ -31,3 +31,5 @@ pub mod src {
     pub mod astcenc_weight_align_cbe;
     pub mod astcenc_weight_quant_xfer_tables_cbe;
 } // mod src
+pub mod bindings;
+pub use bindings::*;

@@ -15,9 +15,10 @@ RUN cmake -S .. -G "Ninja"
 RUN ninja llvm-cbe
 ENV PATH="$PATH:/root/llvm-cbe/build/tools/llvm-cbe"
 
-# Install Rust and c2rust
+# Install Rust, bindgen, and c2rust
 RUN rustup default stable
 RUN cargo install c2rust@0.20.0
+RUN cargo install bindgen-cli@0.71.0
 ENV PATH="$PATH:/root/.cargo/bin"
 
 # Clone astc-encoder
@@ -56,3 +57,13 @@ RUN mkdir final_output
 # Turn the C code into Rust
 # We need to increase the stack size to avoid stack overflow issues
 RUN prlimit --stack=67108864 c2rust transpile --output-dir final_output --emit-build-files build/compile_commands.json
+WORKDIR final_output
+RUN rm rust-toolchain.toml
+
+# Run bindgen
+RUN bindgen /root/astc-encoder/Source/astcenc.h -o bindings.rs --use-core --with-derive-hash --with-derive-partialeq --with-derive-eq -- -xc++
+
+# Do some more tweaks to the Rust code
+RUN cd src && for f in *.rs; do sed -i 's/0 as libc::c_int as uint32_t/0/' $f; done
+RUN echo "pub mod bindings;" >> lib.rs
+RUN echo "pub use bindings::*;" >> lib.rs
