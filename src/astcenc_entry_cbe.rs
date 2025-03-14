@@ -1795,7 +1795,7 @@ unsafe extern "C" fn llvm_OC_umul_OC_with_OC_overflow_OC_i64(
         field1: 0,
     };
     r.field1 = LLVMMul_uov(
-        (8u64).wrapping_mul(::core::mem::size_of::<uint64_t>() as core::ffi::c_ulong),
+        (8).wrapping_mul(::core::mem::size_of::<uint64_t>() as core::ffi::c_ulong),
         &mut a,
         &mut b,
         &mut r.field0,

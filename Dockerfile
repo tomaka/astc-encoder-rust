@@ -90,6 +90,9 @@ RUN sed -i '1 i\#![allow(ambiguous_glob_imports)]' lib.rs
 RUN sed -i '1 i\#![allow(unused_parens)]' lib.rs
 RUN sed -i '1 i\#![allow(unused_imports)]' lib.rs
 
+# Very specific fix
+RUN sed -i 's/(8)\.wrapping_mul/(8u64)\.wrapping_mul/g' src/astcenc_entry_cbe.rs
+
 # There are many structs named `l_array_*_uint*_t` which have a single field with an array.
 # These structs are redefined locally in each module. Unfortunately, when a function that returns
 # a struct like this is called from a different module, the Rust compiler will yield a compilation
@@ -132,6 +135,8 @@ RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> 
 RUN echo "unsafe fn _ZdlPvm(ptr: *mut core::ffi::c_void, _: u64) { libc::free(ptr) }" >> lib.rs
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
+RUN echo "// __cxa_begin_catch is only ever used right before a call to terminate()" >> lib.rs
+RUN echo "unsafe fn __cxa_begin_catch(_: *mut core::ffi::c_void) -> ! { core::ptr::null_mut() }" >> lib.rs
 RUN echo "unsafe fn _ZSt9terminatev() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_lock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs
 RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_unlock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs
