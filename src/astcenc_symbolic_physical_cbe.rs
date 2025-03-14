@@ -838,14 +838,14 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     break;
                 }
                 _57 = _7;
-                _58 = *(&*(_ZZ20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPhE6cbytes
+                _58 = *(&raw const *(_ZZ20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPhE6cbytes
                     .array)
                     .as_ptr()
                     .offset(_57 as uint64_t as int64_t as isize) as *const uint8_t
                     as *mut uint8_t);
                 _59 = _6;
                 _60 = _7;
-                *(&mut *(_59 as *mut uint8_t).offset(_60 as uint64_t as int64_t as isize)
+                *(&raw mut *(_59 as *mut uint8_t).offset(_60 as uint64_t as int64_t as isize)
                     as *mut uint8_t) = _58;
                 _61 = _7;
                 _7 = llvm_add_u32(_61, 1);
@@ -858,17 +858,17 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 }
                 _63 = _5;
                 _64 = _8;
-                _65 =
-                    *(&mut *((*(&mut (*(_63 as *mut l_struct_struct_OC_symbolic_compressed_block))
-                        .field9 as *mut l_struct_union_OC_anon
-                        as *mut crate::l_array_4_uint32_t))
-                        .array)
-                        .as_mut_ptr()
-                        .offset(_64 as uint64_t as int64_t as isize)
-                        as *mut uint32_t);
+                _65 = *(&raw mut *((*(&mut (*(_63
+                    as *mut l_struct_struct_OC_symbolic_compressed_block))
+                    .field9 as *mut l_struct_union_OC_anon
+                    as *mut crate::l_array_4_uint32_t))
+                    .array)
+                    .as_mut_ptr()
+                    .offset(_64 as uint64_t as int64_t as isize)
+                    as *mut uint32_t);
                 _66 = _6;
                 _67 = _8;
-                *(&mut *(_66 as *mut uint8_t).offset((llvm_add_u32
+                *(&raw mut *(_66 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _67),
                     8,
@@ -876,17 +876,17 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     as isize) as *mut uint8_t) = (_65 & 255) as uint8_t;
                 _68 = _5;
                 _69 = _8;
-                _70 =
-                    *(&mut *((*(&mut (*(_68 as *mut l_struct_struct_OC_symbolic_compressed_block))
-                        .field9 as *mut l_struct_union_OC_anon
-                        as *mut crate::l_array_4_uint32_t))
-                        .array)
-                        .as_mut_ptr()
-                        .offset(_69 as uint64_t as int64_t as isize)
-                        as *mut uint32_t);
+                _70 = *(&raw mut *((*(&mut (*(_68
+                    as *mut l_struct_struct_OC_symbolic_compressed_block))
+                    .field9 as *mut l_struct_union_OC_anon
+                    as *mut crate::l_array_4_uint32_t))
+                    .array)
+                    .as_mut_ptr()
+                    .offset(_69 as uint64_t as int64_t as isize)
+                    as *mut uint32_t);
                 _71 = _6;
                 _72 = _8;
-                *(&mut *(_71 as *mut uint8_t).offset((llvm_add_u32
+                *(&raw mut *(_71 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _72),
                     9,
@@ -908,14 +908,14 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         break;
                     }
                     _77 = _9;
-                    _78 = *(&*(_ZZ20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPhE6cbytes_0
+                    _78 = *(&raw const *(_ZZ20symbolic_to_physicalRK21block_size_descriptorRK25symbolic_compressed_blockPhE6cbytes_0
                         .array)
                         .as_ptr()
                         .offset(_77 as uint64_t as int64_t as isize) as *const uint8_t
                         as *mut uint8_t);
                     _79 = _6;
                     _80 = _9;
-                    *(&mut *(_79 as *mut uint8_t).offset(_80 as uint64_t as int64_t as isize)
+                    *(&raw mut *(_79 as *mut uint8_t).offset(_80 as uint64_t as int64_t as isize)
                         as *mut uint8_t) = _78;
                     _81 = _9;
                     _9 = llvm_add_u32(_81, 1);
@@ -928,9 +928,10 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     }
                     _83 = _5;
                     _84 = _10;
-                    _85 = *(&mut *((*(&mut (*(_83
+                    _85 = *(&raw mut *((*(&mut (*(_83
                         as *mut l_struct_struct_OC_symbolic_compressed_block))
-                        .field9 as *mut l_struct_union_OC_anon
+                        .field9
+                        as *mut l_struct_union_OC_anon
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -938,7 +939,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         as *mut uint32_t);
                     _86 = _6;
                     _87 = _10;
-                    *(&mut *(_86 as *mut uint8_t).offset((llvm_add_u32
+                    *(&raw mut *(_86 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             2, _87,
@@ -949,9 +950,10 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         as isize) as *mut uint8_t) = (_85 & 255) as uint8_t;
                     _88 = _5;
                     _89 = _10;
-                    _90 = *(&mut *((*(&mut (*(_88
+                    _90 = *(&raw mut *((*(&mut (*(_88
                         as *mut l_struct_struct_OC_symbolic_compressed_block))
-                        .field9 as *mut l_struct_union_OC_anon
+                        .field9
+                        as *mut l_struct_union_OC_anon
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -959,7 +961,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         as *mut uint32_t);
                     _91 = _6;
                     _92 = _10;
-                    *(&mut *(_91 as *mut uint8_t).offset((llvm_add_u32
+                    *(&raw mut *(_91 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             2, _92,
@@ -1009,7 +1011,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     *(&mut (*(_111 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
                 _18 = llvm_and_u8(_112, 1) as uint32_t;
                 _113 = _16;
-                _19 = &mut *(quant_and_xfer_tables.array)
+                _19 = &raw mut *(quant_and_xfer_tables.array)
                     .as_mut_ptr()
                     .offset(_113 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_quant_and_transfer_table
@@ -1040,7 +1042,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         }
                         _125 = _5;
                         _126 = _23;
-                        _127 = *(&mut *((*(&mut (*(_125
+                        _127 = *(&raw mut *((*(&mut (*(_125
                             as *mut l_struct_struct_OC_symbolic_compressed_block))
                             .field10
                             as *mut crate::l_array_64_uint8_t))
@@ -1060,7 +1062,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             as uint32_t;
                         _131 = _19;
                         _132 = _26;
-                        _133 = *(&mut *((*(&mut (*(_131
+                        _133 = *(&raw mut *((*(&mut (*(_131
                             as *mut l_struct_struct_OC_quant_and_transfer_table))
                             .field1
                             as *mut crate::l_array_32_uint8_t))
@@ -1069,15 +1071,16 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             .offset(_132 as int32_t as int64_t as isize)
                             as *mut uint8_t);
                         _134 = _23;
-                        *(&mut *(_22.array).as_mut_ptr().offset((llvm_mul_u32
+                        *(&raw mut *(_22.array).as_mut_ptr().offset((llvm_mul_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             2, _134
-                        ) as int32_t
+                        )
+                            as int32_t
                             as int64_t
                             as isize) as *mut uint8_t) = _133;
                         _135 = _5;
                         _136 = _23;
-                        _137 = *(&mut *((*(&mut (*(_135
+                        _137 = *(&raw mut *((*(&mut (*(_135
                             as *mut l_struct_struct_OC_symbolic_compressed_block))
                             .field10
                             as *mut crate::l_array_64_uint8_t))
@@ -1100,7 +1103,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             as uint32_t;
                         _141 = _19;
                         _142 = _26;
-                        _143 = *(&mut *((*(&mut (*(_141
+                        _143 = *(&raw mut *((*(&mut (*(_141
                             as *mut l_struct_struct_OC_quant_and_transfer_table))
                             .field1
                             as *mut crate::l_array_32_uint8_t))
@@ -1109,13 +1112,14 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             .offset(_142 as int32_t as int64_t as isize)
                             as *mut uint8_t);
                         _144 = _23;
-                        *(&mut *(_22.array).as_mut_ptr().offset((llvm_add_u32
+                        *(&raw mut *(_22.array).as_mut_ptr().offset((llvm_add_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 2, _144,
                             ),
                             1,
-                        ) as int32_t
+                        )
+                            as int32_t
                             as int64_t
                             as isize) as *mut uint8_t) = _143;
                         _145 = _23;
@@ -1131,7 +1135,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         }
                         _148 = _5;
                         _149 = _27;
-                        _150 = *(&mut *((*(&mut (*(_148
+                        _150 = *(&raw mut *((*(&mut (*(_148
                             as *mut l_struct_struct_OC_symbolic_compressed_block))
                             .field10
                             as *mut crate::l_array_64_uint8_t))
@@ -1151,7 +1155,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             as uint32_t;
                         _154 = _19;
                         _155 = _30;
-                        _156 = *(&mut *((*(&mut (*(_154
+                        _156 = *(&raw mut *((*(&mut (*(_154
                             as *mut l_struct_struct_OC_quant_and_transfer_table))
                             .field1
                             as *mut crate::l_array_32_uint8_t))
@@ -1160,7 +1164,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             .offset(_155 as int32_t as int64_t as isize)
                             as *mut uint8_t);
                         _157 = _27;
-                        *(&mut *(_22.array)
+                        *(&raw mut *(_22.array)
                             .as_mut_ptr()
                             .offset(_157 as int32_t as int64_t as isize)
                             as *mut uint8_t) = _156;
@@ -1173,11 +1177,11 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 _Z10encode_ise12quant_methodjPKhPhj(
                     _159,
                     _160,
-                    &mut *(_22.array)
+                    &raw mut *(_22.array)
                         .as_mut_ptr()
                         .offset(0 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t as *mut core::ffi::c_void,
-                    &mut *(_12.array)
+                    &raw mut *(_12.array)
                         .as_mut_ptr()
                         .offset(0 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t as *mut core::ffi::c_void,
@@ -1190,16 +1194,17 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         break;
                     }
                     _162 = _31;
-                    _163 = *(&mut *(_12.array).as_mut_ptr().offset((llvm_sub_u32
+                    _163 = *(&raw mut *(_12.array).as_mut_ptr().offset((llvm_sub_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         15, _162
-                    ) as int32_t
+                    )
+                        as int32_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _164 = _ZL7bitrev8i(_163 as uint32_t);
                     _165 = _6;
                     _166 = _31;
-                    *(&mut *(_165 as *mut uint8_t).offset(_166 as int32_t as int64_t as isize)
+                    *(&raw mut *(_165 as *mut uint8_t).offset(_166 as int32_t as int64_t as isize)
                         as *mut uint8_t) = _164 as uint8_t;
                     _167 = _31;
                     _31 = llvm_add_u32(_167, 1);
@@ -1236,7 +1241,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         .field2 as *mut uint8_t);
                     if _182 as core::ffi::c_int != 0 as core::ffi::c_int {
                         _183 = _5;
-                        _184 = *(&mut *((*(&mut (*(_183
+                        _184 = *(&raw mut *((*(&mut (*(_183
                             as *mut l_struct_struct_OC_symbolic_compressed_block))
                             .field6
                             as *mut crate::l_array_4_uint8_t))
@@ -1262,7 +1267,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             }
                             _188 = _5;
                             _189 = _34;
-                            _190 = *(&mut *((*(&mut (*(_188
+                            _190 = *(&raw mut *((*(&mut (*(_188
                                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                 .field6
                                 as *mut crate::l_array_4_uint8_t))
@@ -1294,7 +1299,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             }
                             _199 = _5;
                             _200 = _38;
-                            _201 = *(&mut *((*(&mut (*(_199
+                            _201 = *(&raw mut *((*(&mut (*(_199
                                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                 .field6
                                 as *mut crate::l_array_4_uint8_t))
@@ -1325,7 +1330,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             }
                             _210 = _5;
                             _211 = _40;
-                            _212 = *(&mut *((*(&mut (*(_210
+                            _212 = *(&raw mut *((*(&mut (*(_210
                                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                 .field6
                                 as *mut crate::l_array_4_uint8_t))
@@ -1366,7 +1371,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     }
                 } else {
                     _231 = _5;
-                    _232 = *(&mut *((*(&mut (*(_231
+                    _232 = *(&raw mut *((*(&mut (*(_231
                         as *mut l_struct_struct_OC_symbolic_compressed_block))
                         .field6
                         as *mut crate::l_array_4_uint8_t))
@@ -1395,7 +1400,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                 _239 = _5;
                 _240 = *(&mut (*(_239 as *mut l_struct_struct_OC_symbolic_compressed_block)).field7
                     as *mut uint32_t);
-                _48 = &mut *((*(&*(color_uquant_to_scrambled_pquant_tables.array)
+                _48 = &raw mut *((*(&raw const *(color_uquant_to_scrambled_pquant_tables.array)
                     .as_ptr()
                     .offset(
                         (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
@@ -1419,7 +1424,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                     }
                     _244 = _5;
                     _245 = _49;
-                    _246 = *(&mut *((*(&mut (*(_244
+                    _246 = *(&raw mut *((*(&mut (*(_244
                         as *mut l_struct_struct_OC_symbolic_compressed_block))
                         .field6
                         as *mut crate::l_array_4_uint8_t))
@@ -1450,7 +1455,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         _251 = _5;
                         _252 = _49;
                         _253 = _51;
-                        _254 = *(&mut *((*(&mut *((*(&mut (*(_251
+                        _254 = *(&raw mut *((*(&raw mut *((*(&mut (*(_251
                             as *mut l_struct_struct_OC_symbolic_compressed_block))
                             .field9
                             as *mut l_struct_union_OC_anon
@@ -1463,15 +1468,16 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                             .as_mut_ptr()
                             .offset(_253 as int32_t as int64_t as isize)
                             as *mut uint8_t);
-                        _255 = *(&mut *(_250 as *mut uint8_t)
+                        _255 = *(&raw mut *(_250 as *mut uint8_t)
                             .offset(_254 as uint64_t as int64_t as isize)
                             as *mut uint8_t);
                         _256 = _51;
                         _257 = _47;
-                        *(&mut *(_46.array).as_mut_ptr().offset((llvm_add_u32
+                        *(&raw mut *(_46.array).as_mut_ptr().offset((llvm_add_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _256, _257
-                        ) as int32_t
+                        )
+                            as int32_t
                             as int64_t
                             as isize) as *mut uint8_t) = _255;
                         _258 = _51;
@@ -1508,7 +1514,7 @@ pub unsafe extern "C" fn _Z20symbolic_to_physicalRK21block_size_descriptorRK25sy
                         _Z10encode_ise12quant_methodjPKhPhj(
                             _263,
                             _264,
-                            &mut *(_46.array)
+                            &raw mut *(_46.array)
                                 .as_mut_ptr()
                                 .offset(0 as core::ffi::c_int as int64_t as isize)
                                 as *mut uint8_t
@@ -1558,7 +1564,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     _347 = _345;
     _349 = _346;
     _350 = _347;
-    _351 = *(&mut *((*(&mut (*(_349 as *mut l_struct_struct_OC_block_size_descriptor)).field15
+    _351 = *(&raw mut *((*(&mut (*(_349 as *mut l_struct_struct_OC_block_size_descriptor)).field15
         as *mut crate::l_array_2048_uint16_t))
         .array)
         .as_mut_ptr()
@@ -1576,8 +1582,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     _355 = _355__PHI_TEMPORARY;
     if _355 != 0 {
         _356 = _348;
-        return &mut *((*(&mut (*(_349 as *mut l_struct_struct_OC_block_size_descriptor)).field16
-            as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+        return &raw mut *((*(&mut (*(_349 as *mut l_struct_struct_OC_block_size_descriptor))
+            .field16 as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
             .array)
             .as_mut_ptr()
             .offset(_356 as uint64_t as int64_t as isize)
@@ -1606,7 +1612,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     _365 = _363;
     _366 = _364;
     _367 = _365;
-    return &mut *((*(&mut (*(_366 as *mut l_struct_struct_OC_block_size_descriptor)).field14
+    return &raw mut *((*(&mut (*(_366 as *mut l_struct_struct_OC_block_size_descriptor)).field14
         as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
         .array)
         .as_mut_ptr()
@@ -1781,7 +1787,7 @@ unsafe extern "C" fn _ZL10write_bitsiiiPh(
     _413 = _420 & _419;
     _421 = _415;
     _422 = _416;
-    _416 = &mut *(_422 as *mut uint8_t).offset((llvm_ashr_u32
+    _416 = &raw mut *(_422 as *mut uint8_t).offset((llvm_ashr_u32
         as unsafe extern "C" fn(int32_t, int32_t) -> uint32_t)(
         _421 as int32_t,
         3 as core::ffi::c_int,
@@ -1808,14 +1814,14 @@ unsafe extern "C" fn _ZL10write_bitsiiiPh(
     *(_435 as *mut uint8_t) = (_436 as uint32_t | _433) as uint8_t;
     _437 = _417;
     _438 = _416;
-    _439 = &mut *(_438 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    _439 = &raw mut *(_438 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t as *mut core::ffi::c_void;
     _440 = *(_439 as *mut uint8_t);
     *(_439 as *mut uint8_t) =
         (_440 as uint32_t & llvm_ashr_u32(_437 as int32_t, 8 as core::ffi::c_int)) as uint8_t;
     _441 = _413;
     _442 = _416;
-    _443 = &mut *(_442 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    _443 = &raw mut *(_442 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t as *mut core::ffi::c_void;
     _444 = *(_443 as *mut uint8_t);
     *(_443 as *mut uint8_t) =
@@ -2210,7 +2216,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
             }
             _527 = _465;
             _528 = _469;
-            _529 = *(&mut *(_527 as *mut uint8_t).offset((llvm_add_u32
+            _529 = *(&raw mut *(_527 as *mut uint8_t).offset((llvm_add_u32
                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                 (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _528),
                 8,
@@ -2218,7 +2224,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                 as isize) as *mut uint8_t);
             _530 = _465;
             _531 = _469;
-            _532 = *(&mut *(_530 as *mut uint8_t).offset((llvm_add_u32
+            _532 = *(&raw mut *(_530 as *mut uint8_t).offset((llvm_add_u32
                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                 (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(2, _531),
                 9,
@@ -2226,8 +2232,8 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                 as isize) as *mut uint8_t);
             _533 = _466;
             _534 = _469;
-            *(&mut *((*(&mut (*(_533 as *mut l_struct_struct_OC_symbolic_compressed_block)).field9
-                as *mut l_struct_union_OC_anon
+            *(&raw mut *((*(&mut (*(_533 as *mut l_struct_struct_OC_symbolic_compressed_block))
+                .field9 as *mut l_struct_union_OC_anon
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -2394,8 +2400,8 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
     } else {
         _592 = _464;
         _593 = _468;
-        _594 = *(&mut *((*(&mut (*(_592 as *mut l_struct_struct_OC_block_size_descriptor)).field15
-            as *mut crate::l_array_2048_uint16_t))
+        _594 = *(&raw mut *((*(&mut (*(_592 as *mut l_struct_struct_OC_block_size_descriptor))
+            .field15 as *mut crate::l_array_2048_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_593 as int32_t as int64_t as isize) as *mut uint16_t);
@@ -2461,7 +2467,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                         }
                         _624 = _465;
                         _625 = _491;
-                        _626 = *(&mut *(_624 as *mut uint8_t).offset((llvm_sub_u32
+                        _626 = *(&raw mut *(_624 as *mut uint8_t).offset((llvm_sub_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             15, _625
                         )
@@ -2470,7 +2476,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             as isize) as *mut uint8_t);
                         _627 = _ZL7bitrev8i(_626 as uint32_t);
                         _628 = _491;
-                        *(&mut *(_467.array)
+                        *(&raw mut *(_467.array)
                             .as_mut_ptr()
                             .offset(_628 as int32_t as int64_t as isize)
                             as *mut uint8_t) = _627 as uint8_t;
@@ -2484,7 +2490,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                     _633 = _492;
                     _493 = llvm_sub_u32(128, _633);
                     _634 = _487;
-                    _495 = &mut *(quant_and_xfer_tables.array)
+                    _495 = &raw mut *(quant_and_xfer_tables.array)
                         .as_mut_ptr()
                         .offset(_634 as uint64_t as int64_t as isize)
                         as *mut l_struct_struct_OC_quant_and_transfer_table
@@ -2494,11 +2500,11 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                     _Z10decode_ise12quant_methodjPKhPhj(
                         _635,
                         _636,
-                        &mut *(_467.array)
+                        &raw mut *(_467.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut uint8_t as *mut core::ffi::c_void,
-                        &mut *(_494.array)
+                        &raw mut *(_494.array)
                             .as_mut_ptr()
                             .offset(0 as core::ffi::c_int as int64_t as isize)
                             as *mut uint8_t as *mut core::ffi::c_void,
@@ -2515,14 +2521,14 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             }
                             _640 = _495;
                             _641 = _496;
-                            _642 = *(&mut *(_494.array).as_mut_ptr().offset((llvm_mul_u32
+                            _642 = *(&raw mut *(_494.array).as_mut_ptr().offset((llvm_mul_u32
                                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 2, _641
                             )
                                 as int32_t
                                 as int64_t
                                 as isize) as *mut uint8_t);
-                            _643 = *(&mut *((*(&mut (*(_640
+                            _643 = *(&raw mut *((*(&mut (*(_640
                                 as *mut l_struct_struct_OC_quant_and_transfer_table))
                                 .field2
                                 as *mut crate::l_array_32_uint8_t))
@@ -2532,7 +2538,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 as *mut uint8_t);
                             _644 = _466;
                             _645 = _496;
-                            *(&mut *((*(&mut (*(_644
+                            *(&raw mut *((*(&mut (*(_644
                                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                 .field10
                                 as *mut crate::l_array_64_uint8_t))
@@ -2542,7 +2548,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 as *mut uint8_t) = _643;
                             _646 = _495;
                             _647 = _496;
-                            _648 = *(&mut *(_494.array).as_mut_ptr().offset((llvm_add_u32
+                            _648 = *(&raw mut *(_494.array).as_mut_ptr().offset((llvm_add_u32
                                 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                                 (llvm_mul_u32
                                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
@@ -2553,7 +2559,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 as int32_t
                                 as int64_t
                                 as isize) as *mut uint8_t);
-                            _649 = *(&mut *((*(&mut (*(_646
+                            _649 = *(&raw mut *((*(&mut (*(_646
                                 as *mut l_struct_struct_OC_quant_and_transfer_table))
                                 .field2
                                 as *mut crate::l_array_32_uint8_t))
@@ -2563,7 +2569,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 as *mut uint8_t);
                             _650 = _466;
                             _651 = _496;
-                            *(&mut *((*(&mut (*(_650
+                            *(&raw mut *((*(&mut (*(_650
                                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                 .field10
                                 as *mut crate::l_array_64_uint8_t))
@@ -2587,11 +2593,11 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             }
                             _655 = _495;
                             _656 = _497;
-                            _657 = *(&mut *(_494.array)
+                            _657 = *(&raw mut *(_494.array)
                                 .as_mut_ptr()
                                 .offset(_656 as int32_t as int64_t as isize)
                                 as *mut uint8_t);
-                            _658 = *(&mut *((*(&mut (*(_655
+                            _658 = *(&raw mut *((*(&mut (*(_655
                                 as *mut l_struct_struct_OC_quant_and_transfer_table))
                                 .field2
                                 as *mut crate::l_array_32_uint8_t))
@@ -2601,7 +2607,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 as *mut uint8_t);
                             _659 = _466;
                             _660 = _497;
-                            *(&mut *((*(&mut (*(_659
+                            *(&raw mut *((*(&mut (*(_659
                                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                 .field10
                                 as *mut crate::l_array_64_uint8_t))
@@ -2638,7 +2644,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                             if _666 == 1 as core::ffi::c_uint {
                                 _667 = _465;
                                 _668 = _ZL9read_bitsiiPKh(4, 13, _667);
-                                *(&mut *(_498.array)
+                                *(&raw mut *(_498.array)
                                     .as_mut_ptr()
                                     .offset(0 as core::ffi::c_int as int64_t as isize)
                                     as *mut uint32_t) = _668;
@@ -2672,7 +2678,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                         }
                                         _683 = _500;
                                         _684 = _502;
-                                        *(&mut *(_498.array)
+                                        *(&raw mut *(_498.array)
                                             .as_mut_ptr()
                                             .offset(_684 as int32_t as int64_t as isize)
                                             as *mut uint32_t) =
@@ -2705,7 +2711,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                         _693 = _503;
                                         _694 = _501;
                                         _695 = _504;
-                                        *(&mut *(_498.array)
+                                        *(&raw mut *(_498.array)
                                             .as_mut_ptr()
                                             .offset(_695 as int32_t as int64_t as isize)
                                             as *mut uint32_t) = llvm_add_u32(
@@ -2727,7 +2733,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                         _700 = _500;
                                         _701 = _503;
                                         _702 = _505;
-                                        _703 = &mut *(_498.array)
+                                        _703 = &raw mut *(_498.array)
                                             .as_mut_ptr()
                                             .offset(_702 as int32_t as int64_t as isize)
                                             as *mut uint32_t
@@ -2756,13 +2762,13 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                     break;
                                 }
                                 _712 = _506;
-                                _713 = *(&mut *(_498.array)
+                                _713 = *(&raw mut *(_498.array)
                                     .as_mut_ptr()
                                     .offset(_712 as int32_t as int64_t as isize)
                                     as *mut uint32_t);
                                 _714 = _466;
                                 _715 = _506;
-                                *(&mut *((*(&mut (*(_714
+                                *(&raw mut *((*(&mut (*(_714
                                     as *mut l_struct_struct_OC_symbolic_compressed_block))
                                     .field6
                                     as *mut crate::l_array_4_uint8_t))
@@ -2782,7 +2788,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                     break;
                                 }
                                 _719 = _508;
-                                _720 = *(&mut *(_498.array)
+                                _720 = *(&raw mut *(_498.array)
                                     .as_mut_ptr()
                                     .offset(_719 as int32_t as int64_t as isize)
                                     as *mut uint32_t);
@@ -2801,7 +2807,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                     .field0 as *mut uint8_t) = 0;
                             } else {
                                 _726 = _490;
-                                _727 = *(&*(_ZZ20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_blockE14color_bits_arr
+                                _727 = *(&raw const *(_ZZ20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_blockE14color_bits_arr
                                     .array)
                                     .as_ptr()
                                     .offset(_726 as int32_t as int64_t as isize)
@@ -2820,14 +2826,15 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                 }
                                 _733 = _507;
                                 _734 = _510;
-                                _735 = *(&mut *((*(&*(quant_mode_table.array).as_ptr().offset(
-                                    (llvm_ashr_u32
+                                _735 = *(&raw mut *((*(&raw const *(quant_mode_table.array)
+                                    .as_ptr()
+                                    .offset((llvm_ashr_u32
                                         as unsafe extern "C" fn(int32_t, int32_t) -> uint32_t)(
                                         _733 as int32_t,
                                         1 as core::ffi::c_int,
-                                    ) as int32_t as int64_t
-                                        as isize,
-                                )
+                                    ) as int32_t
+                                        as int64_t
+                                        as isize)
                                     as *const crate::l_array_128_uint8_t
                                     as *mut crate::l_array_128_uint8_t))
                                     .array)
@@ -2860,7 +2867,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                         _740,
                                         _741,
                                         _742,
-                                        &mut *(_512.array)
+                                        &raw mut *(_512.array)
                                             .as_mut_ptr()
                                             .offset(0 as core::ffi::c_int as int64_t as isize)
                                             as *mut uint8_t
@@ -2879,7 +2886,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                         .field7
                                         as *mut uint32_t);
                                     _747 =
-                                        *(&mut *(color_scrambled_pquant_to_uquant_tables.array)
+                                        *(&raw mut *(color_scrambled_pquant_to_uquant_tables.array)
                                             .as_mut_ptr()
                                             .offset((llvm_sub_u32
                                                 as unsafe extern "C" fn(
@@ -2902,7 +2909,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                             break;
                                         }
                                         _750 = _515;
-                                        _751 = *(&mut *(_498.array)
+                                        _751 = *(&raw mut *(_498.array)
                                             .as_mut_ptr()
                                             .offset(_750 as int32_t as int64_t as isize)
                                             as *mut uint32_t);
@@ -2926,7 +2933,7 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                             _754 = _514;
                                             _755 = _517;
                                             _756 = _513;
-                                            _757 = *(&mut *(_512.array).as_mut_ptr().offset(
+                                            _757 = *(&raw mut *(_512.array).as_mut_ptr().offset(
                                                 (llvm_add_u32
                                                     as unsafe extern "C" fn(
                                                         uint32_t,
@@ -2940,13 +2947,13 @@ pub unsafe extern "C" fn _Z20physical_to_symbolicRK21block_size_descriptorPKhR25
                                                     as isize,
                                             )
                                                 as *mut uint8_t);
-                                            _758 = *(&mut *(_754 as *mut uint8_t)
+                                            _758 = *(&raw mut *(_754 as *mut uint8_t)
                                                 .offset(_757 as uint64_t as int64_t as isize)
                                                 as *mut uint8_t);
                                             _759 = _466;
                                             _760 = _515;
                                             _761 = _517;
-                                            *(&mut *((*(&mut *((*(&mut (*(_759
+                                            *(&raw mut *((*(&raw mut *((*(&mut (*(_759
                                                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                                                 .field9 as *mut l_struct_union_OC_anon
                                                 as *mut crate::l_array_4_struct_AC_l_array_8_uint8_t))
@@ -3039,7 +3046,7 @@ unsafe extern "C" fn _ZL9read_bitsiiPKh(
     _884 = llvm_sub_u32(((1 as core::ffi::c_int) << _886) as uint32_t, 1);
     _887 = _882;
     _888 = _883;
-    _883 = &mut *(_888 as *mut uint8_t).offset((llvm_ashr_u32
+    _883 = &raw mut *(_888 as *mut uint8_t).offset((llvm_ashr_u32
         as unsafe extern "C" fn(int32_t, int32_t) -> uint32_t)(
         _887 as int32_t,
         3 as core::ffi::c_int,
@@ -3049,7 +3056,7 @@ unsafe extern "C" fn _ZL9read_bitsiiPKh(
     _890 = _883;
     _891 = *(_890 as *mut uint8_t);
     _892 = _883;
-    _893 = *(&mut *(_892 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    _893 = *(&raw mut *(_892 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t);
     _885 = _891 as uint32_t | (_893 as uint32_t) << 8 as core::ffi::c_int;
     _894 = _882;

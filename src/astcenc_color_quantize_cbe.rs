@@ -2897,17 +2897,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _263 = _59;
         *(_262 as *mut core::ffi::c_float) = _263;
         _264 = _59;
-        *(&mut *((*(_262 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_262 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _264;
         _265 = _59;
-        *(&mut *((*(_262 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_262 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _265;
         _266 = _59;
-        *(&mut *((*(_262 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_262 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _266;
@@ -2925,20 +2925,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _273__PHI_TEMPORARY = _272;
         }
         _273 = _273__PHI_TEMPORARY;
-        _274 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
+        _274 = *(&raw mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _275 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
+        _275 = *(&raw mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_ogt(_274 as core::ffi::c_double, _275 as core::ffi::c_double) != 0 {
-            _276 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
+            _276 = *(&raw mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -2946,7 +2946,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _278__PHI_TEMPORARY = _276;
         } else {
-            _277 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
+            _277 = *(&raw mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -2955,20 +2955,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _278__PHI_TEMPORARY = _277;
         }
         _278 = _278__PHI_TEMPORARY;
-        _279 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
+        _279 = *(&raw mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _280 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
+        _280 = *(&raw mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_ogt(_279 as core::ffi::c_double, _280 as core::ffi::c_double) != 0 {
-            _281 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
+            _281 = *(&raw mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -2976,7 +2976,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _283__PHI_TEMPORARY = _281;
         } else {
-            _282 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
+            _282 = *(&raw mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -2985,20 +2985,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _283__PHI_TEMPORARY = _282;
         }
         _283 = _283__PHI_TEMPORARY;
-        _284 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
+        _284 = *(&raw mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _285 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
+        _285 = *(&raw mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_ogt(_284 as core::ffi::c_double, _285 as core::ffi::c_double) != 0 {
-            _286 = *(&mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
+            _286 = *(&raw mut *((*(&mut _30 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3006,7 +3006,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _288__PHI_TEMPORARY = _286;
         } else {
-            _287 = *(&mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
+            _287 = *(&raw mut *((*(&mut _31 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3024,17 +3024,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _290 = _25;
         *(_289 as *mut core::ffi::c_float) = _290;
         _291 = _26;
-        *(&mut *((*(_289 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_289 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _291;
         _292 = _27;
-        *(&mut *((*(_289 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_289 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _292;
         _293 = _28;
-        *(&mut *((*(_289 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_289 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _293;
@@ -3059,17 +3059,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _301 = _55;
         *(_300 as *mut core::ffi::c_float) = _301;
         _302 = _55;
-        *(&mut *((*(_300 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_300 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _302;
         _303 = _55;
-        *(&mut *((*(_300 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_300 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _303;
         _304 = _55;
-        *(&mut *((*(_300 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_300 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _304;
@@ -3087,20 +3087,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _311__PHI_TEMPORARY = _310;
         }
         _311 = _311__PHI_TEMPORARY;
-        _312 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
+        _312 = *(&raw mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _313 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
+        _313 = *(&raw mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_olt(_312 as core::ffi::c_double, _313 as core::ffi::c_double) != 0 {
-            _314 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
+            _314 = *(&raw mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3108,7 +3108,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _316__PHI_TEMPORARY = _314;
         } else {
-            _315 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
+            _315 = *(&raw mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3117,20 +3117,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _316__PHI_TEMPORARY = _315;
         }
         _316 = _316__PHI_TEMPORARY;
-        _317 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
+        _317 = *(&raw mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _318 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
+        _318 = *(&raw mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_olt(_317 as core::ffi::c_double, _318 as core::ffi::c_double) != 0 {
-            _319 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
+            _319 = *(&raw mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3138,7 +3138,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _321__PHI_TEMPORARY = _319;
         } else {
-            _320 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
+            _320 = *(&raw mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3147,20 +3147,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _321__PHI_TEMPORARY = _320;
         }
         _321 = _321__PHI_TEMPORARY;
-        _322 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
+        _322 = *(&raw mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _323 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
+        _323 = *(&raw mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_olt(_322 as core::ffi::c_double, _323 as core::ffi::c_double) != 0 {
-            _324 = *(&mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
+            _324 = *(&raw mut *((*(&mut _63 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3168,7 +3168,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _326__PHI_TEMPORARY = _324;
         } else {
-            _325 = *(&mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
+            _325 = *(&raw mut *((*(&mut _64 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3186,17 +3186,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _328 = _46;
         *(_327 as *mut core::ffi::c_float) = _328;
         _329 = _47;
-        *(&mut *((*(_327 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_327 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _329;
         _330 = _48;
-        *(&mut *((*(_327 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_327 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _330;
         _331 = _49;
-        *(&mut *((*(_327 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_327 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _331;
@@ -3242,17 +3242,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _344 = _61;
         *(_343 as *mut core::ffi::c_float) = _344;
         _345 = _61;
-        *(&mut *((*(_343 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_343 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _345;
         _346 = _61;
-        *(&mut *((*(_343 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_343 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _346;
         _347 = _61;
-        *(&mut *((*(_343 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_343 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _347;
@@ -3270,20 +3270,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _354__PHI_TEMPORARY = _353;
         }
         _354 = _354__PHI_TEMPORARY;
-        _355 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
+        _355 = *(&raw mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _356 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
+        _356 = *(&raw mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_ogt(_355 as core::ffi::c_double, _356 as core::ffi::c_double) != 0 {
-            _357 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
+            _357 = *(&raw mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3291,7 +3291,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _359__PHI_TEMPORARY = _357;
         } else {
-            _358 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
+            _358 = *(&raw mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3300,20 +3300,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _359__PHI_TEMPORARY = _358;
         }
         _359 = _359__PHI_TEMPORARY;
-        _360 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
+        _360 = *(&raw mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _361 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
+        _361 = *(&raw mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_ogt(_360 as core::ffi::c_double, _361 as core::ffi::c_double) != 0 {
-            _362 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
+            _362 = *(&raw mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3321,7 +3321,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _364__PHI_TEMPORARY = _362;
         } else {
-            _363 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
+            _363 = *(&raw mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3330,20 +3330,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _364__PHI_TEMPORARY = _363;
         }
         _364 = _364__PHI_TEMPORARY;
-        _365 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
+        _365 = *(&raw mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _366 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
+        _366 = *(&raw mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_ogt(_365 as core::ffi::c_double, _366 as core::ffi::c_double) != 0 {
-            _367 = *(&mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
+            _367 = *(&raw mut *((*(&mut _38 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3351,7 +3351,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _369__PHI_TEMPORARY = _367;
         } else {
-            _368 = *(&mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
+            _368 = *(&raw mut *((*(&mut _39 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3369,17 +3369,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _371 = _33;
         *(_370 as *mut core::ffi::c_float) = _371;
         _372 = _34;
-        *(&mut *((*(_370 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_370 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _372;
         _373 = _35;
-        *(&mut *((*(_370 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_370 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _373;
         _374 = _36;
-        *(&mut *((*(_370 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_370 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _374;
@@ -3404,17 +3404,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _382 = _57;
         *(_381 as *mut core::ffi::c_float) = _382;
         _383 = _57;
-        *(&mut *((*(_381 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_381 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _383;
         _384 = _57;
-        *(&mut *((*(_381 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_381 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _384;
         _385 = _57;
-        *(&mut *((*(_381 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_381 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _385;
@@ -3432,20 +3432,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _392__PHI_TEMPORARY = _391;
         }
         _392 = _392__PHI_TEMPORARY;
-        _393 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
+        _393 = *(&raw mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _394 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
+        _394 = *(&raw mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_olt(_393 as core::ffi::c_double, _394 as core::ffi::c_double) != 0 {
-            _395 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
+            _395 = *(&raw mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3453,7 +3453,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _397__PHI_TEMPORARY = _395;
         } else {
-            _396 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
+            _396 = *(&raw mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3462,20 +3462,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _397__PHI_TEMPORARY = _396;
         }
         _397 = _397__PHI_TEMPORARY;
-        _398 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
+        _398 = *(&raw mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _399 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
+        _399 = *(&raw mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_olt(_398 as core::ffi::c_double, _399 as core::ffi::c_double) != 0 {
-            _400 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
+            _400 = *(&raw mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3483,7 +3483,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _402__PHI_TEMPORARY = _400;
         } else {
-            _401 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
+            _401 = *(&raw mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3492,20 +3492,20 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
             _402__PHI_TEMPORARY = _401;
         }
         _402 = _402__PHI_TEMPORARY;
-        _403 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
+        _403 = *(&raw mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _404 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
+        _404 = *(&raw mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         if llvm_fcmp_olt(_403 as core::ffi::c_double, _404 as core::ffi::c_double) != 0 {
-            _405 = *(&mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
+            _405 = *(&raw mut *((*(&mut _66 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3513,7 +3513,7 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 as *mut core::ffi::c_float);
             _407__PHI_TEMPORARY = _405;
         } else {
-            _406 = *(&mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
+            _406 = *(&raw mut *((*(&mut _67 as *mut l_struct_struct_OC_vfloat4
                 as *mut crate::l_array_4_float))
                 .array)
                 .as_mut_ptr()
@@ -3531,17 +3531,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _409 = _41;
         *(_408 as *mut core::ffi::c_float) = _409;
         _410 = _42;
-        *(&mut *((*(_408 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_408 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _410;
         _411 = _43;
-        *(&mut *((*(_408 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_408 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _411;
         _412 = _44;
-        *(&mut *((*(_408 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_408 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _412;
@@ -3577,17 +3577,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _422 = _53;
         *(_421 as *mut core::ffi::c_float) = _422;
         _423 = _53;
-        *(&mut *((*(_421 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_421 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _423;
         _424 = _53;
-        *(&mut *((*(_421 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_421 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _424;
         _425 = _53;
-        *(&mut *((*(_421 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_421 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _425;
@@ -3597,37 +3597,37 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         *(&mut _23 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _427;
         _428 = *(&mut _22 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _429 = *(&mut _23 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _430 = *(&mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4
+        _430 = *(&raw mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _431 = *(&mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4
+        _431 = *(&raw mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _432 = *(&mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4
+        _432 = *(&raw mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _433 = *(&mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4
+        _433 = *(&raw mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _434 = *(&mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4
+        _434 = *(&raw mut *((*(&mut _22 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _435 = *(&mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4
+        _435 = *(&raw mut *((*(&mut _23 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -3642,17 +3642,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _437 = _17;
         *(_436 as *mut core::ffi::c_float) = _437;
         _438 = _18;
-        *(&mut *((*(_436 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_436 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _438;
         _439 = _19;
-        *(&mut *((*(_436 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_436 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _439;
         _440 = _20;
-        *(&mut *((*(_436 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_436 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _440;
@@ -3681,17 +3681,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _448 = _51;
         *(_447 as *mut core::ffi::c_float) = _448;
         _449 = _51;
-        *(&mut *((*(_447 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_447 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _449;
         _450 = _51;
-        *(&mut *((*(_447 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_447 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _450;
         _451 = _51;
-        *(&mut *((*(_447 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_447 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _451;
@@ -3701,37 +3701,37 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         *(&mut _15 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _453;
         _454 = *(&mut _14 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _455 = *(&mut _15 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _456 = *(&mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4
+        _456 = *(&raw mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _457 = *(&mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4
+        _457 = *(&raw mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _458 = *(&mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4
+        _458 = *(&raw mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _459 = *(&mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4
+        _459 = *(&raw mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _460 = *(&mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4
+        _460 = *(&raw mut *((*(&mut _14 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _461 = *(&mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4
+        _461 = *(&raw mut *((*(&mut _15 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -3746,17 +3746,17 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
         _463 = _9;
         *(_462 as *mut core::ffi::c_float) = _463;
         _464 = _10;
-        *(&mut *((*(_462 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_462 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _464;
         _465 = _11;
-        *(&mut *((*(_462 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_462 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _465;
         _466 = _12;
-        *(&mut *((*(_462 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_462 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _466;
@@ -4145,43 +4145,43 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 _564 = _99;
                 _565 = *(_564 as *mut uint32_t);
                 _566 = _129;
-                *(&mut *(_566 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_566 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _565 as uint8_t;
                 _94 = &mut _141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _567 = _94;
-                _568 = *(&mut *((*(_567 as *mut crate::l_array_4_uint32_t)).array)
+                _568 = *(&raw mut *((*(_567 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _569 = _129;
-                *(&mut *(_569 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_569 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _568 as uint8_t;
                 _95 = &mut _142 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _570 = _95;
-                _571 = *(&mut *((*(_570 as *mut crate::l_array_4_uint32_t)).array)
+                _571 = *(&raw mut *((*(_570 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _572 = _129;
-                *(&mut *(_572 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_572 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _571 as uint8_t;
                 _90 = &mut _141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _573 = _90;
-                _574 = *(&mut *((*(_573 as *mut crate::l_array_4_uint32_t)).array)
+                _574 = *(&raw mut *((*(_573 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _575 = _129;
-                *(&mut *(_575 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_575 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _574 as uint8_t;
                 _91 = &mut _142 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _576 = _91;
-                _577 = *(&mut *((*(_576 as *mut crate::l_array_4_uint32_t)).array)
+                _577 = *(&raw mut *((*(_576 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _578 = _129;
-                *(&mut *(_578 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_578 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _577 as uint8_t;
             }
             12 => {
@@ -4559,61 +4559,61 @@ pub unsafe extern "C" fn _Z20pack_color_endpoints7vfloat4S_S_S_iPh12quant_method
                 _673 = _101;
                 _674 = *(_673 as *mut uint32_t);
                 _675 = _129;
-                *(&mut *(_675 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_675 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _674 as uint8_t;
                 _96 = &mut _141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _676 = _96;
-                _677 = *(&mut *((*(_676 as *mut crate::l_array_4_uint32_t)).array)
+                _677 = *(&raw mut *((*(_676 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _678 = _129;
-                *(&mut *(_678 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_678 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _677 as uint8_t;
                 _97 = &mut _142 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _679 = _97;
-                _680 = *(&mut *((*(_679 as *mut crate::l_array_4_uint32_t)).array)
+                _680 = *(&raw mut *((*(_679 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _681 = _129;
-                *(&mut *(_681 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_681 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _680 as uint8_t;
                 _92 = &mut _141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _682 = _92;
-                _683 = *(&mut *((*(_682 as *mut crate::l_array_4_uint32_t)).array)
+                _683 = *(&raw mut *((*(_682 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _684 = _129;
-                *(&mut *(_684 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_684 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _683 as uint8_t;
                 _93 = &mut _142 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _685 = _93;
-                _686 = *(&mut *((*(_685 as *mut crate::l_array_4_uint32_t)).array)
+                _686 = *(&raw mut *((*(_685 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _687 = _129;
-                *(&mut *(_687 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_687 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _686 as uint8_t;
                 _88 = &mut _141 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _688 = _88;
-                _689 = *(&mut *((*(_688 as *mut crate::l_array_4_uint32_t)).array)
+                _689 = *(&raw mut *((*(_688 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _690 = _129;
-                *(&mut *(_690 as *mut uint8_t).offset(6 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_690 as *mut uint8_t).offset(6 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _689 as uint8_t;
                 _89 = &mut _142 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _691 = _89;
-                _692 = *(&mut *((*(_691 as *mut crate::l_array_4_uint32_t)).array)
+                _692 = *(&raw mut *((*(_691 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _693 = _129;
-                *(&mut *(_693 as *mut uint8_t).offset(7 as core::ffi::c_int as int64_t as isize)
+                *(&raw mut *(_693 as *mut uint8_t).offset(7 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t) = _692 as uint8_t;
             }
             6 => {
@@ -7145,25 +7145,25 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1489 = _1362;
     _1107 = _1489;
     _1490 = _1107;
-    _1491 = *(&mut *((*(_1490 as *mut crate::l_array_4_float)).array)
+    _1491 = *(&raw mut *((*(_1490 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _1108 = _1489;
     _1492 = _1108;
-    _1493 = *(&mut *((*(_1492 as *mut crate::l_array_4_float)).array)
+    _1493 = *(&raw mut *((*(_1492 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _1109 = _1489;
     _1494 = _1109;
-    _1495 = *(&mut *((*(_1494 as *mut crate::l_array_4_float)).array)
+    _1495 = *(&raw mut *((*(_1494 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _1103 = _1489;
     _1496 = _1103;
-    _1497 = *(&mut *((*(_1496 as *mut crate::l_array_4_float)).array)
+    _1497 = *(&raw mut *((*(_1496 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -7176,15 +7176,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1499 = _1357;
     *(_1498 as *mut core::ffi::c_float) = _1499;
     _1500 = _1358;
-    *(&mut *((*(_1498 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1498 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1500;
     _1501 = _1359;
-    *(&mut *((*(_1498 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1498 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1501;
     _1502 = _1360;
-    *(&mut *((*(_1498 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1498 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1502;
     _1503 = _1361;
@@ -7195,37 +7195,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1377 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1505;
     _1506 = *(&mut _1376 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1507 = *(&mut _1377 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1508 = *(&mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4
+    _1508 = *(&raw mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1509 = *(&mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4
+    _1509 = *(&raw mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1510 = *(&mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4
+    _1510 = *(&raw mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1511 = *(&mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4
+    _1511 = *(&raw mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1512 = *(&mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4
+    _1512 = *(&raw mut *((*(&mut _1376 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1513 = *(&mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4
+    _1513 = *(&raw mut *((*(&mut _1377 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -7240,15 +7240,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1515 = _1371;
     *(_1514 as *mut core::ffi::c_float) = _1515;
     _1516 = _1372;
-    *(&mut *((*(_1514 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1514 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1516;
     _1517 = _1373;
-    *(&mut *((*(_1514 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1514 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1517;
     _1518 = _1374;
-    *(&mut *((*(_1514 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1514 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1518;
     _1519 = _1375;
@@ -7273,37 +7273,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1125 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1525;
     _1526 = *(&mut _1124 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1527 = *(&mut _1125 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1528 = *(&mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4
+    _1528 = *(&raw mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1529 = *(&mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4
+    _1529 = *(&raw mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1530 = *(&mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4
+    _1530 = *(&raw mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1531 = *(&mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4
+    _1531 = *(&raw mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1532 = *(&mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4
+    _1532 = *(&raw mut *((*(&mut _1124 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1533 = *(&mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4
+    _1533 = *(&raw mut *((*(&mut _1125 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -7318,15 +7318,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1535 = _1119;
     *(_1534 as *mut core::ffi::c_float) = _1535;
     _1536 = _1120;
-    *(&mut *((*(_1534 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1534 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1536;
     _1537 = _1121;
-    *(&mut *((*(_1534 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1534 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1537;
     _1538 = _1122;
-    *(&mut *((*(_1534 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1534 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1538;
     _1539 = _1123;
@@ -7347,25 +7347,25 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1544 = _1369;
     _1104 = _1544;
     _1545 = _1104;
-    _1546 = *(&mut *((*(_1545 as *mut crate::l_array_4_float)).array)
+    _1546 = *(&raw mut *((*(_1545 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _1105 = _1544;
     _1547 = _1105;
-    _1548 = *(&mut *((*(_1547 as *mut crate::l_array_4_float)).array)
+    _1548 = *(&raw mut *((*(_1547 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _1106 = _1544;
     _1549 = _1106;
-    _1550 = *(&mut *((*(_1549 as *mut crate::l_array_4_float)).array)
+    _1550 = *(&raw mut *((*(_1549 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _1102 = _1544;
     _1551 = _1102;
-    _1552 = *(&mut *((*(_1551 as *mut crate::l_array_4_float)).array)
+    _1552 = *(&raw mut *((*(_1551 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -7378,15 +7378,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1554 = _1364;
     *(_1553 as *mut core::ffi::c_float) = _1554;
     _1555 = _1365;
-    *(&mut *((*(_1553 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1553 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1555;
     _1556 = _1366;
-    *(&mut *((*(_1553 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1553 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1556;
     _1557 = _1367;
-    *(&mut *((*(_1553 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1553 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1557;
     _1558 = _1368;
@@ -7397,37 +7397,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1385 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1560;
     _1561 = *(&mut _1384 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1562 = *(&mut _1385 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1563 = *(&mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4
+    _1563 = *(&raw mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1564 = *(&mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4
+    _1564 = *(&raw mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1565 = *(&mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4
+    _1565 = *(&raw mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1566 = *(&mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4
+    _1566 = *(&raw mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1567 = *(&mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4
+    _1567 = *(&raw mut *((*(&mut _1384 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1568 = *(&mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4
+    _1568 = *(&raw mut *((*(&mut _1385 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -7442,15 +7442,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1570 = _1379;
     *(_1569 as *mut core::ffi::c_float) = _1570;
     _1571 = _1380;
-    *(&mut *((*(_1569 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1569 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1571;
     _1572 = _1381;
-    *(&mut *((*(_1569 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1569 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1572;
     _1573 = _1382;
-    *(&mut *((*(_1569 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1569 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1573;
     _1574 = _1383;
@@ -7475,37 +7475,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1117 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1580;
     _1581 = *(&mut _1116 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1582 = *(&mut _1117 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1583 = *(&mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4
+    _1583 = *(&raw mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1584 = *(&mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4
+    _1584 = *(&raw mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1585 = *(&mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4
+    _1585 = *(&raw mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1586 = *(&mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4
+    _1586 = *(&raw mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1587 = *(&mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4
+    _1587 = *(&raw mut *((*(&mut _1116 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1588 = *(&mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4
+    _1588 = *(&raw mut *((*(&mut _1117 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -7520,15 +7520,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1590 = _1111;
     *(_1589 as *mut core::ffi::c_float) = _1590;
     _1591 = _1112;
-    *(&mut *((*(_1589 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1589 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1591;
     _1592 = _1113;
-    *(&mut *((*(_1589 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1589 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1592;
     _1593 = _1114;
-    *(&mut *((*(_1589 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1589 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1593;
     _1594 = _1115;
@@ -7551,15 +7551,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1600 = _1403;
     *(_1599 as *mut core::ffi::c_float) = _1600;
     _1601 = _1403;
-    *(&mut *((*(_1599 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1599 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1601;
     _1602 = _1403;
-    *(&mut *((*(_1599 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1599 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1602;
     _1603 = _1403;
-    *(&mut *((*(_1599 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1599 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1603;
     _1604 = *(&mut _1418.field0 as *mut crate::l_array_4_float);
@@ -7568,37 +7568,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1337 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1605;
     _1606 = *(&mut _1336 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1607 = *(&mut _1337 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1608 = *(&mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4
+    _1608 = *(&raw mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1609 = *(&mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4
+    _1609 = *(&raw mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1610 = *(&mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4
+    _1610 = *(&raw mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1611 = *(&mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4
+    _1611 = *(&raw mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1612 = *(&mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4
+    _1612 = *(&raw mut *((*(&mut _1336 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1613 = *(&mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4
+    _1613 = *(&raw mut *((*(&mut _1337 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -7622,7 +7622,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1617 = _1059;
     _1618 = ((_1617 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1614 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1614 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1617 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7633,7 +7633,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1619 = _1060;
     _1620 = ((_1619 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1614 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1614 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1619 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7644,7 +7644,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1621 = _1061;
     _1622 = ((_1621 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1614 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1614 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1621 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7665,15 +7665,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1626 = _1401;
     *(_1625 as *mut core::ffi::c_float) = _1626;
     _1627 = _1401;
-    *(&mut *((*(_1625 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1625 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1627;
     _1628 = _1401;
-    *(&mut *((*(_1625 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1625 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1628;
     _1629 = _1401;
-    *(&mut *((*(_1625 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1625 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1629;
     _1630 = *(&mut _1421.field0 as *mut crate::l_array_4_float);
@@ -7682,37 +7682,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1331 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1631;
     _1632 = *(&mut _1330 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1633 = *(&mut _1331 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1634 = *(&mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4
+    _1634 = *(&raw mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1635 = *(&mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4
+    _1635 = *(&raw mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1636 = *(&mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4
+    _1636 = *(&raw mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1637 = *(&mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4
+    _1637 = *(&raw mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1638 = *(&mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4
+    _1638 = *(&raw mut *((*(&mut _1330 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1639 = *(&mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4
+    _1639 = *(&raw mut *((*(&mut _1331 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -7736,7 +7736,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1643 = _1069;
     _1644 = ((_1643 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1640 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1640 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1643 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7747,7 +7747,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1645 = _1070;
     _1646 = ((_1645 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1640 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1640 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1645 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7758,7 +7758,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1647 = _1071;
     _1648 = ((_1647 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1640 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1640 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1647 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7774,32 +7774,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1343 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _1651;
     _1652 = *(&mut _1342 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
     _1653 = *(&mut _1343 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _1654 = *(&mut *((*(&mut _1342 as *mut l_struct_struct_OC_vmask4
+    _1654 = *(&raw mut *((*(&mut _1342 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1655 = *(&mut *((*(&mut _1343 as *mut l_struct_struct_OC_vmask4
+    _1655 = *(&raw mut *((*(&mut _1343 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1656 = *(&mut *((*(&mut _1342 as *mut l_struct_struct_OC_vmask4
+    _1656 = *(&raw mut *((*(&mut _1342 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1657 = *(&mut *((*(&mut _1343 as *mut l_struct_struct_OC_vmask4
+    _1657 = *(&raw mut *((*(&mut _1343 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1658 = *(&mut *((*(&mut _1342 as *mut l_struct_struct_OC_vmask4
+    _1658 = *(&raw mut *((*(&mut _1342 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1659 = *(&mut *((*(&mut _1343 as *mut l_struct_struct_OC_vmask4
+    _1659 = *(&raw mut *((*(&mut _1343 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -7822,7 +7822,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1663 = _1049;
     _1664 = ((_1663 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1660 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1660 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1663 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7833,7 +7833,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1665 = _1050;
     _1666 = ((_1665 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1660 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1660 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1665 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7844,7 +7844,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1667 = _1051;
     _1668 = ((_1667 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1660 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1660 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1667 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7865,15 +7865,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1672 = _1399;
     *(_1671 as *mut core::ffi::c_float) = _1672;
     _1673 = _1399;
-    *(&mut *((*(_1671 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1671 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1673;
     _1674 = _1399;
-    *(&mut *((*(_1671 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1671 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1674;
     _1675 = _1399;
-    *(&mut *((*(_1671 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1671 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1675;
     _1676 = *(&mut _1425.field0 as *mut crate::l_array_4_float);
@@ -7882,37 +7882,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1340 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1677;
     _1678 = *(&mut _1339 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1679 = *(&mut _1340 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1680 = *(&mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4
+    _1680 = *(&raw mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1681 = *(&mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4
+    _1681 = *(&raw mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1682 = *(&mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4
+    _1682 = *(&raw mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1683 = *(&mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4
+    _1683 = *(&raw mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1684 = *(&mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4
+    _1684 = *(&raw mut *((*(&mut _1339 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1685 = *(&mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4
+    _1685 = *(&raw mut *((*(&mut _1340 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -7936,7 +7936,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1689 = _1054;
     _1690 = ((_1689 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1686 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1686 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1689 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7947,7 +7947,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1691 = _1055;
     _1692 = ((_1691 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1686 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1686 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1691 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7958,7 +7958,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1693 = _1056;
     _1694 = ((_1693 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1686 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1686 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1693 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -7979,15 +7979,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1698 = _1397;
     *(_1697 as *mut core::ffi::c_float) = _1698;
     _1699 = _1397;
-    *(&mut *((*(_1697 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1697 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1699;
     _1700 = _1397;
-    *(&mut *((*(_1697 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1697 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1700;
     _1701 = _1397;
-    *(&mut *((*(_1697 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_1697 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _1701;
     _1702 = *(&mut _1428.field0 as *mut crate::l_array_4_float);
@@ -7996,37 +7996,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1334 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1703;
     _1704 = *(&mut _1333 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _1705 = *(&mut _1334 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _1706 = *(&mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4
+    _1706 = *(&raw mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1707 = *(&mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4
+    _1707 = *(&raw mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1708 = *(&mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4
+    _1708 = *(&raw mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1709 = *(&mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4
+    _1709 = *(&raw mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1710 = *(&mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4
+    _1710 = *(&raw mut *((*(&mut _1333 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _1711 = *(&mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4
+    _1711 = *(&raw mut *((*(&mut _1334 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -8050,7 +8050,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1715 = _1064;
     _1716 = ((_1715 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1712 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1712 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1715 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8061,7 +8061,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1717 = _1065;
     _1718 = ((_1717 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1712 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1712 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1717 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8072,7 +8072,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1719 = _1066;
     _1720 = ((_1719 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1712 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1712 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1719 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8088,32 +8088,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1346 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _1723;
     _1724 = *(&mut _1345 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
     _1725 = *(&mut _1346 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _1726 = *(&mut *((*(&mut _1345 as *mut l_struct_struct_OC_vmask4
+    _1726 = *(&raw mut *((*(&mut _1345 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1727 = *(&mut *((*(&mut _1346 as *mut l_struct_struct_OC_vmask4
+    _1727 = *(&raw mut *((*(&mut _1346 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1728 = *(&mut *((*(&mut _1345 as *mut l_struct_struct_OC_vmask4
+    _1728 = *(&raw mut *((*(&mut _1345 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1729 = *(&mut *((*(&mut _1346 as *mut l_struct_struct_OC_vmask4
+    _1729 = *(&raw mut *((*(&mut _1346 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1730 = *(&mut *((*(&mut _1345 as *mut l_struct_struct_OC_vmask4
+    _1730 = *(&raw mut *((*(&mut _1345 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1731 = *(&mut *((*(&mut _1346 as *mut l_struct_struct_OC_vmask4
+    _1731 = *(&raw mut *((*(&mut _1346 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -8136,7 +8136,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1735 = _1044;
     _1736 = ((_1735 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1732 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1732 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1735 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8147,7 +8147,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1737 = _1045;
     _1738 = ((_1737 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1732 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1732 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1737 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8158,7 +8158,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1739 = _1046;
     _1740 = ((_1739 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1732 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1732 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1739 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8184,32 +8184,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     *(&mut _1349 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _1745;
     _1746 = *(&mut _1348 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
     _1747 = *(&mut _1349 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _1748 = *(&mut *((*(&mut _1348 as *mut l_struct_struct_OC_vmask4
+    _1748 = *(&raw mut *((*(&mut _1348 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1749 = *(&mut *((*(&mut _1349 as *mut l_struct_struct_OC_vmask4
+    _1749 = *(&raw mut *((*(&mut _1349 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1750 = *(&mut *((*(&mut _1348 as *mut l_struct_struct_OC_vmask4
+    _1750 = *(&raw mut *((*(&mut _1348 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1751 = *(&mut *((*(&mut _1349 as *mut l_struct_struct_OC_vmask4
+    _1751 = *(&raw mut *((*(&mut _1349 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1752 = *(&mut *((*(&mut _1348 as *mut l_struct_struct_OC_vmask4
+    _1752 = *(&raw mut *((*(&mut _1348 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1753 = *(&mut *((*(&mut _1349 as *mut l_struct_struct_OC_vmask4
+    _1753 = *(&raw mut *((*(&mut _1349 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -8232,7 +8232,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1757 = _1039;
     _1758 = ((_1757 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1754 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1754 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1757 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8243,7 +8243,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1759 = _1040;
     _1760 = ((_1759 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1754 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1754 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1759 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8254,7 +8254,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1761 = _1041;
     _1762 = ((_1761 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_1754 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_1754 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_1761 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -8274,17 +8274,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
     _1766 = *(&mut _1322 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t);
     *(&mut _1026 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _1766;
     _1767 = *(&mut _1026 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _1768 = *(&mut *((*(&mut _1026 as *mut l_struct_struct_OC_vmask4
+    _1768 = *(&raw mut *((*(&mut _1026 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1769 = *(&mut *((*(&mut _1026 as *mut l_struct_struct_OC_vmask4
+    _1769 = *(&raw mut *((*(&mut _1026 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _1770 = *(&mut *((*(&mut _1026 as *mut l_struct_struct_OC_vmask4
+    _1770 = *(&raw mut *((*(&mut _1026 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -8310,17 +8310,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1775 = _1308;
         *(_1774 as *mut core::ffi::c_float) = _1775;
         _1776 = _1308;
-        *(&mut *((*(_1774 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1774 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1776;
         _1777 = _1308;
-        *(&mut *((*(_1774 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1774 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1777;
         _1778 = _1308;
-        *(&mut *((*(_1774 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1774 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1778;
@@ -8330,37 +8330,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1141 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1780;
         _1781 = *(&mut _1140 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _1782 = *(&mut _1141 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _1783 = *(&mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4
+        _1783 = *(&raw mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1784 = *(&mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4
+        _1784 = *(&raw mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1785 = *(&mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4
+        _1785 = *(&raw mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1786 = *(&mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4
+        _1786 = *(&raw mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1787 = *(&mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4
+        _1787 = *(&raw mut *((*(&mut _1140 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1788 = *(&mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4
+        _1788 = *(&raw mut *((*(&mut _1141 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -8375,17 +8375,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1790 = _1135;
         *(_1789 as *mut core::ffi::c_float) = _1790;
         _1791 = _1136;
-        *(&mut *((*(_1789 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1789 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1791;
         _1792 = _1137;
-        *(&mut *((*(_1789 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1789 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1792;
         _1793 = _1138;
-        *(&mut *((*(_1789 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1789 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1793;
@@ -8398,19 +8398,19 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             16,
         );
         _1796 = *(&mut _1310 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _1797 = *(&mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4
+        _1797 = *(&raw mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1798 = *(&mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4
+        _1798 = *(&raw mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1799 = *(&mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4
+        _1799 = *(&raw mut *((*(&mut _1310 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -8425,15 +8425,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1801 = _964;
         *(_1800 as *mut uint32_t) = _1801;
         _1802 = _965;
-        *(&mut *((*(_1800 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1800 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1802;
         _1803 = _966;
-        *(&mut *((*(_1800 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1800 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1803;
         _1804 = _967;
-        *(&mut *((*(_1800 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1800 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1804;
         _1805 = *(&mut _1309 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8443,7 +8443,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1306 = 0 as core::ffi::c_int as core::ffi::c_float;
         _1806 = _1305;
         _1807 = _1306;
-        *(&mut *((*(_1806 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1806 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1807;
@@ -8457,19 +8457,19 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1294 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _1809;
         _1810 = *(&mut _1294 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _1295 = _1810 << 1 as core::ffi::c_int;
-        _1811 = *(&mut *((*(&mut _1294 as *mut l_struct_struct_OC_vint4
+        _1811 = *(&raw mut *((*(&mut _1294 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _1296 = _1811 << 1 as core::ffi::c_int;
-        _1812 = *(&mut *((*(&mut _1294 as *mut l_struct_struct_OC_vint4
+        _1812 = *(&raw mut *((*(&mut _1294 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _1297 = _1812 << 1 as core::ffi::c_int;
-        _1813 = *(&mut *((*(&mut _1294 as *mut l_struct_struct_OC_vint4
+        _1813 = *(&raw mut *((*(&mut _1294 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -8488,15 +8488,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1819 = _974;
         *(_1818 as *mut uint32_t) = _1819;
         _1820 = _975;
-        *(&mut *((*(_1818 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1818 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1820;
         _1821 = _976;
-        *(&mut *((*(_1818 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1818 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1821;
         _1822 = _977;
-        *(&mut *((*(_1818 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1818 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1822;
         _1823 = *(&mut _1293 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8528,15 +8528,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1830 = _1248;
         *(_1829 as *mut uint32_t) = _1830;
         _1831 = _1248;
-        *(&mut *((*(_1829 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1829 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1831;
         _1832 = _1248;
-        *(&mut *((*(_1829 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1829 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1832;
         _1833 = _1248;
-        *(&mut *((*(_1829 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1829 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1833;
         _1834 = *(&mut _1271 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8545,32 +8545,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _933 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _1835;
         _1836 = *(&mut _932 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _1837 = *(&mut _933 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _1838 = *(&mut *((*(&mut _932 as *mut l_struct_struct_OC_vint4
+        _1838 = *(&raw mut *((*(&mut _932 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1839 = *(&mut *((*(&mut _933 as *mut l_struct_struct_OC_vint4
+        _1839 = *(&raw mut *((*(&mut _933 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1840 = *(&mut *((*(&mut _932 as *mut l_struct_struct_OC_vint4
+        _1840 = *(&raw mut *((*(&mut _932 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1841 = *(&mut *((*(&mut _933 as *mut l_struct_struct_OC_vint4
+        _1841 = *(&raw mut *((*(&mut _933 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1842 = *(&mut *((*(&mut _932 as *mut l_struct_struct_OC_vint4
+        _1842 = *(&raw mut *((*(&mut _932 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1843 = *(&mut *((*(&mut _933 as *mut l_struct_struct_OC_vint4
+        _1843 = *(&raw mut *((*(&mut _933 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -8584,15 +8584,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1845 = _927;
         *(_1844 as *mut uint32_t) = _1845;
         _1846 = _928;
-        *(&mut *((*(_1844 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1844 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1846;
         _1847 = _929;
-        *(&mut *((*(_1844 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1844 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1847;
         _1848 = _930;
-        *(&mut *((*(_1844 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1844 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1848;
         _1849 = *(&mut _931 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8637,15 +8637,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1861 = _1246;
         *(_1860 as *mut uint32_t) = _1861;
         _1862 = _1246;
-        *(&mut *((*(_1860 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1860 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1862;
         _1863 = _1246;
-        *(&mut *((*(_1860 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1860 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1863;
         _1864 = _1246;
-        *(&mut *((*(_1860 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1860 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1864;
         _1865 = *(&mut _1276 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8654,32 +8654,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _925 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _1866;
         _1867 = *(&mut _924 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _1868 = *(&mut _925 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _1869 = *(&mut *((*(&mut _924 as *mut l_struct_struct_OC_vint4
+        _1869 = *(&raw mut *((*(&mut _924 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1870 = *(&mut *((*(&mut _925 as *mut l_struct_struct_OC_vint4
+        _1870 = *(&raw mut *((*(&mut _925 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1871 = *(&mut *((*(&mut _924 as *mut l_struct_struct_OC_vint4
+        _1871 = *(&raw mut *((*(&mut _924 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1872 = *(&mut *((*(&mut _925 as *mut l_struct_struct_OC_vint4
+        _1872 = *(&raw mut *((*(&mut _925 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1873 = *(&mut *((*(&mut _924 as *mut l_struct_struct_OC_vint4
+        _1873 = *(&raw mut *((*(&mut _924 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1874 = *(&mut *((*(&mut _925 as *mut l_struct_struct_OC_vint4
+        _1874 = *(&raw mut *((*(&mut _925 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -8693,15 +8693,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1876 = _919;
         *(_1875 as *mut uint32_t) = _1876;
         _1877 = _920;
-        *(&mut *((*(_1875 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1875 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1877;
         _1878 = _921;
-        *(&mut *((*(_1875 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1875 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1878;
         _1879 = _922;
-        *(&mut *((*(_1875 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1875 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1879;
         _1880 = *(&mut _923 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8717,32 +8717,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1264 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _1883;
         _1884 = *(&mut _1263 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _1885 = *(&mut _1264 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _1886 = *(&mut *((*(&mut _1263 as *mut l_struct_struct_OC_vint4
+        _1886 = *(&raw mut *((*(&mut _1263 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1887 = *(&mut *((*(&mut _1264 as *mut l_struct_struct_OC_vint4
+        _1887 = *(&raw mut *((*(&mut _1264 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1888 = *(&mut *((*(&mut _1263 as *mut l_struct_struct_OC_vint4
+        _1888 = *(&raw mut *((*(&mut _1263 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1889 = *(&mut *((*(&mut _1264 as *mut l_struct_struct_OC_vint4
+        _1889 = *(&raw mut *((*(&mut _1264 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1890 = *(&mut *((*(&mut _1263 as *mut l_struct_struct_OC_vint4
+        _1890 = *(&raw mut *((*(&mut _1263 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1891 = *(&mut *((*(&mut _1264 as *mut l_struct_struct_OC_vint4
+        _1891 = *(&raw mut *((*(&mut _1264 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -8756,15 +8756,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1893 = _984;
         *(_1892 as *mut uint32_t) = _1893;
         _1894 = _985;
-        *(&mut *((*(_1892 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1892 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1894;
         _1895 = _986;
-        *(&mut *((*(_1892 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1892 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1895;
         _1896 = _987;
-        *(&mut *((*(_1892 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1892 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1896;
         _1897 = *(&mut _1262 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8793,17 +8793,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1903 = _1315;
         *(_1902 as *mut core::ffi::c_float) = _1903;
         _1904 = _1315;
-        *(&mut *((*(_1902 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1902 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1904;
         _1905 = _1315;
-        *(&mut *((*(_1902 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1902 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1905;
         _1906 = _1315;
-        *(&mut *((*(_1902 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1902 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1906;
@@ -8813,37 +8813,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1133 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _1908;
         _1909 = *(&mut _1132 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _1910 = *(&mut _1133 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _1911 = *(&mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4
+        _1911 = *(&raw mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1912 = *(&mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4
+        _1912 = *(&raw mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1913 = *(&mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4
+        _1913 = *(&raw mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1914 = *(&mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4
+        _1914 = *(&raw mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1915 = *(&mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4
+        _1915 = *(&raw mut *((*(&mut _1132 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1916 = *(&mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4
+        _1916 = *(&raw mut *((*(&mut _1133 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -8858,17 +8858,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1918 = _1127;
         *(_1917 as *mut core::ffi::c_float) = _1918;
         _1919 = _1128;
-        *(&mut *((*(_1917 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1917 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1919;
         _1920 = _1129;
-        *(&mut *((*(_1917 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1917 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1920;
         _1921 = _1130;
-        *(&mut *((*(_1917 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_1917 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _1921;
@@ -8881,19 +8881,19 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             16,
         );
         _1924 = *(&mut _1317 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _1925 = *(&mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4
+        _1925 = *(&raw mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1926 = *(&mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4
+        _1926 = *(&raw mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _1927 = *(&mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4
+        _1927 = *(&raw mut *((*(&mut _1317 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -8908,15 +8908,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1929 = _959;
         *(_1928 as *mut uint32_t) = _1929;
         _1930 = _960;
-        *(&mut *((*(_1928 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1928 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1930;
         _1931 = _961;
-        *(&mut *((*(_1928 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1928 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1931;
         _1932 = _962;
-        *(&mut *((*(_1928 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1928 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1932;
         _1933 = *(&mut _1316 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -8932,19 +8932,19 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1300 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _1935;
         _1936 = *(&mut _1300 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _1301 = _1936 << 1 as core::ffi::c_int;
-        _1937 = *(&mut *((*(&mut _1300 as *mut l_struct_struct_OC_vint4
+        _1937 = *(&raw mut *((*(&mut _1300 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _1302 = _1937 << 1 as core::ffi::c_int;
-        _1938 = *(&mut *((*(&mut _1300 as *mut l_struct_struct_OC_vint4
+        _1938 = *(&raw mut *((*(&mut _1300 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _1303 = _1938 << 1 as core::ffi::c_int;
-        _1939 = *(&mut *((*(&mut _1300 as *mut l_struct_struct_OC_vint4
+        _1939 = *(&raw mut *((*(&mut _1300 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -8963,15 +8963,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1945 = _969;
         *(_1944 as *mut uint32_t) = _1945;
         _1946 = _970;
-        *(&mut *((*(_1944 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1944 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1946;
         _1947 = _971;
-        *(&mut *((*(_1944 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1944 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1947;
         _1948 = _972;
-        *(&mut *((*(_1944 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1944 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1948;
         _1949 = *(&mut _1299 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -9000,32 +9000,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1261 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _1954;
         _1955 = *(&mut _1260 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _1956 = *(&mut _1261 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _1957 = *(&mut *((*(&mut _1260 as *mut l_struct_struct_OC_vint4
+        _1957 = *(&raw mut *((*(&mut _1260 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1958 = *(&mut *((*(&mut _1261 as *mut l_struct_struct_OC_vint4
+        _1958 = *(&raw mut *((*(&mut _1261 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1959 = *(&mut *((*(&mut _1260 as *mut l_struct_struct_OC_vint4
+        _1959 = *(&raw mut *((*(&mut _1260 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1960 = *(&mut *((*(&mut _1261 as *mut l_struct_struct_OC_vint4
+        _1960 = *(&raw mut *((*(&mut _1261 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1961 = *(&mut *((*(&mut _1260 as *mut l_struct_struct_OC_vint4
+        _1961 = *(&raw mut *((*(&mut _1260 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1962 = *(&mut *((*(&mut _1261 as *mut l_struct_struct_OC_vint4
+        _1962 = *(&raw mut *((*(&mut _1261 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -9039,15 +9039,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1964 = _989;
         *(_1963 as *mut uint32_t) = _1964;
         _1965 = _990;
-        *(&mut *((*(_1963 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1963 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1965;
         _1966 = _991;
-        *(&mut *((*(_1963 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1963 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1966;
         _1967 = _992;
-        *(&mut *((*(_1963 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1963 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1967;
         _1968 = *(&mut _1259 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -9062,7 +9062,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1256 = 0;
         _1970 = _1255;
         _1971 = _1256;
-        *(&mut *((*(_1970 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1970 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1971;
         _1972 = memcpy(
@@ -9076,15 +9076,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1974 = _1238;
         *(_1973 as *mut uint32_t) = _1974;
         _1975 = _1238;
-        *(&mut *((*(_1973 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1973 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1975;
         _1976 = _1238;
-        *(&mut *((*(_1973 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1973 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1976;
         _1977 = _1238;
-        *(&mut *((*(_1973 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1973 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _1977;
         _1978 =
@@ -9095,32 +9095,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1251 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _1979;
         _1980 = *(&mut _1250 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _1981 = *(&mut _1251 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _1982 = *(&mut *((*(&mut _1250 as *mut l_struct_struct_OC_vint4
+        _1982 = *(&raw mut *((*(&mut _1250 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1983 = *(&mut *((*(&mut _1251 as *mut l_struct_struct_OC_vint4
+        _1983 = *(&raw mut *((*(&mut _1251 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1984 = *(&mut *((*(&mut _1250 as *mut l_struct_struct_OC_vint4
+        _1984 = *(&raw mut *((*(&mut _1250 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1985 = *(&mut *((*(&mut _1251 as *mut l_struct_struct_OC_vint4
+        _1985 = *(&raw mut *((*(&mut _1251 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1986 = *(&mut *((*(&mut _1250 as *mut l_struct_struct_OC_vint4
+        _1986 = *(&raw mut *((*(&mut _1250 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _1987 = *(&mut *((*(&mut _1251 as *mut l_struct_struct_OC_vint4
+        _1987 = *(&raw mut *((*(&mut _1251 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -9143,7 +9143,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1991 = _1079;
         _1992 = ((_1991 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_1988 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1988 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1991 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9154,7 +9154,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1993 = _1080;
         _1994 = ((_1993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_1988 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1988 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1993 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9165,7 +9165,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _1995 = _1081;
         _1996 = ((_1995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_1988 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1988 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_1995 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9187,15 +9187,15 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2000 = _1236;
         *(_1999 as *mut uint32_t) = _2000;
         _2001 = _1236;
-        *(&mut *((*(_1999 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1999 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _2001;
         _2002 = _1236;
-        *(&mut *((*(_1999 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1999 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _2002;
         _2003 = _1236;
-        *(&mut *((*(_1999 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_1999 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _2003;
         _2004 =
@@ -9206,32 +9206,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1227 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _2005;
         _2006 = *(&mut _1226 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _2007 = *(&mut _1227 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _2008 = *(&mut *((*(&mut _1226 as *mut l_struct_struct_OC_vint4
+        _2008 = *(&raw mut *((*(&mut _1226 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2009 = *(&mut *((*(&mut _1227 as *mut l_struct_struct_OC_vint4
+        _2009 = *(&raw mut *((*(&mut _1227 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2010 = *(&mut *((*(&mut _1226 as *mut l_struct_struct_OC_vint4
+        _2010 = *(&raw mut *((*(&mut _1226 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2011 = *(&mut *((*(&mut _1227 as *mut l_struct_struct_OC_vint4
+        _2011 = *(&raw mut *((*(&mut _1227 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2012 = *(&mut *((*(&mut _1226 as *mut l_struct_struct_OC_vint4
+        _2012 = *(&raw mut *((*(&mut _1226 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2013 = *(&mut *((*(&mut _1227 as *mut l_struct_struct_OC_vint4
+        _2013 = *(&raw mut *((*(&mut _1227 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -9254,7 +9254,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2017 = _1089;
         _2018 = ((_2017 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_2014 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_2014 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2017 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9265,7 +9265,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2019 = _1090;
         _2020 = ((_2019 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_2014 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_2014 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2019 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9276,7 +9276,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2021 = _1091;
         _2022 = ((_2021 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_2014 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_2014 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2021 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9295,32 +9295,32 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         *(&mut _1352 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _2025;
         _2026 = *(&mut _1351 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
         _2027 = *(&mut _1352 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-        _2028 = *(&mut *((*(&mut _1351 as *mut l_struct_struct_OC_vmask4
+        _2028 = *(&raw mut *((*(&mut _1351 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2029 = *(&mut *((*(&mut _1352 as *mut l_struct_struct_OC_vmask4
+        _2029 = *(&raw mut *((*(&mut _1352 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2030 = *(&mut *((*(&mut _1351 as *mut l_struct_struct_OC_vmask4
+        _2030 = *(&raw mut *((*(&mut _1351 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2031 = *(&mut *((*(&mut _1352 as *mut l_struct_struct_OC_vmask4
+        _2031 = *(&raw mut *((*(&mut _1352 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2032 = *(&mut *((*(&mut _1351 as *mut l_struct_struct_OC_vmask4
+        _2032 = *(&raw mut *((*(&mut _1351 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2033 = *(&mut *((*(&mut _1352 as *mut l_struct_struct_OC_vmask4
+        _2033 = *(&raw mut *((*(&mut _1352 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -9343,7 +9343,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2037 = _1034;
         _2038 = ((_2037 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_2034 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_2034 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2037 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9354,7 +9354,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2039 = _1035;
         _2040 = ((_2039 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_2034 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_2034 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2039 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9365,7 +9365,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2041 = _1036;
         _2042 = ((_2041 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_2034 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_2034 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_2041 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -9387,17 +9387,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
         _2046 = *(&mut _1324 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t);
         *(&mut _1025 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _2046;
         _2047 = *(&mut _1025 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-        _2048 = *(&mut *((*(&mut _1025 as *mut l_struct_struct_OC_vmask4
+        _2048 = *(&raw mut *((*(&mut _1025 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2049 = *(&mut *((*(&mut _1025 as *mut l_struct_struct_OC_vmask4
+        _2049 = *(&raw mut *((*(&mut _1025 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _2050 = *(&mut *((*(&mut _1025 as *mut l_struct_struct_OC_vmask4
+        _2050 = *(&raw mut *((*(&mut _1025 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -9428,17 +9428,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2056 = _1244;
             *(_2055 as *mut uint32_t) = _2056;
             _2057 = _1244;
-            *(&mut *((*(_2055 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2055 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2057;
             _2058 = _1244;
-            *(&mut *((*(_2055 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2055 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2058;
             _2059 = _1244;
-            *(&mut *((*(_2055 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2055 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2059;
@@ -9450,37 +9450,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             *(&mut _917 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _2061;
             _2062 = *(&mut _916 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _2063 = *(&mut _917 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _2064 = *(&mut *((*(&mut _916 as *mut l_struct_struct_OC_vint4
+            _2064 = *(&raw mut *((*(&mut _916 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2065 = *(&mut *((*(&mut _917 as *mut l_struct_struct_OC_vint4
+            _2065 = *(&raw mut *((*(&mut _917 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2066 = *(&mut *((*(&mut _916 as *mut l_struct_struct_OC_vint4
+            _2066 = *(&raw mut *((*(&mut _916 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2067 = *(&mut *((*(&mut _917 as *mut l_struct_struct_OC_vint4
+            _2067 = *(&raw mut *((*(&mut _917 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2068 = *(&mut *((*(&mut _916 as *mut l_struct_struct_OC_vint4
+            _2068 = *(&raw mut *((*(&mut _916 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2069 = *(&mut *((*(&mut _917 as *mut l_struct_struct_OC_vint4
+            _2069 = *(&raw mut *((*(&mut _917 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -9495,17 +9495,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2071 = _911;
             *(_2070 as *mut uint32_t) = _2071;
             _2072 = _912;
-            *(&mut *((*(_2070 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2070 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2072;
             _2073 = _913;
-            *(&mut *((*(_2070 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2070 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2073;
             _2074 = _914;
-            *(&mut *((*(_2070 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2070 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2074;
@@ -9549,17 +9549,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2084 = _1242;
             *(_2083 as *mut uint32_t) = _2084;
             _2085 = _1242;
-            *(&mut *((*(_2083 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2083 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2085;
             _2086 = _1242;
-            *(&mut *((*(_2083 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2083 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2086;
             _2087 = _1242;
-            *(&mut *((*(_2083 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2083 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2087;
@@ -9571,37 +9571,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             *(&mut _909 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _2089;
             _2090 = *(&mut _908 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _2091 = *(&mut _909 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _2092 = *(&mut *((*(&mut _908 as *mut l_struct_struct_OC_vint4
+            _2092 = *(&raw mut *((*(&mut _908 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2093 = *(&mut *((*(&mut _909 as *mut l_struct_struct_OC_vint4
+            _2093 = *(&raw mut *((*(&mut _909 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2094 = *(&mut *((*(&mut _908 as *mut l_struct_struct_OC_vint4
+            _2094 = *(&raw mut *((*(&mut _908 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2095 = *(&mut *((*(&mut _909 as *mut l_struct_struct_OC_vint4
+            _2095 = *(&raw mut *((*(&mut _909 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2096 = *(&mut *((*(&mut _908 as *mut l_struct_struct_OC_vint4
+            _2096 = *(&raw mut *((*(&mut _908 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2097 = *(&mut *((*(&mut _909 as *mut l_struct_struct_OC_vint4
+            _2097 = *(&raw mut *((*(&mut _909 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -9616,17 +9616,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2099 = _903;
             *(_2098 as *mut uint32_t) = _2099;
             _2100 = _904;
-            *(&mut *((*(_2098 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2098 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2100;
             _2101 = _905;
-            *(&mut *((*(_2098 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2098 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2101;
             _2102 = _906;
-            *(&mut *((*(_2098 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2098 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2102;
@@ -9644,21 +9644,21 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2105;
             _2106 = *(&mut _1220 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _1221 = llvm_lshr_u32(_2106, 1);
-            _2107 = *(&mut *((*(&mut _1220 as *mut l_struct_struct_OC_vint4
+            _2107 = *(&raw mut *((*(&mut _1220 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             _1222 = llvm_lshr_u32(_2107, 1);
-            _2108 = *(&mut *((*(&mut _1220 as *mut l_struct_struct_OC_vint4
+            _2108 = *(&raw mut *((*(&mut _1220 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             _1223 = llvm_lshr_u32(_2108, 1);
-            _2109 = *(&mut *((*(&mut _1220 as *mut l_struct_struct_OC_vint4
+            _2109 = *(&raw mut *((*(&mut _1220 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -9678,17 +9678,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2115 = _994;
             *(_2114 as *mut uint32_t) = _2115;
             _2116 = _995;
-            *(&mut *((*(_2114 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2114 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2116;
             _2117 = _996;
-            *(&mut *((*(_2114 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2114 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2117;
             _2118 = _997;
-            *(&mut *((*(_2114 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2114 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2118;
@@ -9708,37 +9708,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2121;
             _2122 = *(&mut _1266 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _2123 = *(&mut _1267 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _2124 = *(&mut *((*(&mut _1266 as *mut l_struct_struct_OC_vint4
+            _2124 = *(&raw mut *((*(&mut _1266 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2125 = *(&mut *((*(&mut _1267 as *mut l_struct_struct_OC_vint4
+            _2125 = *(&raw mut *((*(&mut _1267 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2126 = *(&mut *((*(&mut _1266 as *mut l_struct_struct_OC_vint4
+            _2126 = *(&raw mut *((*(&mut _1266 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2127 = *(&mut *((*(&mut _1267 as *mut l_struct_struct_OC_vint4
+            _2127 = *(&raw mut *((*(&mut _1267 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2128 = *(&mut *((*(&mut _1266 as *mut l_struct_struct_OC_vint4
+            _2128 = *(&raw mut *((*(&mut _1266 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2129 = *(&mut *((*(&mut _1267 as *mut l_struct_struct_OC_vint4
+            _2129 = *(&raw mut *((*(&mut _1267 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -9753,17 +9753,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2131 = _979;
             *(_2130 as *mut uint32_t) = _2131;
             _2132 = _980;
-            *(&mut *((*(_2130 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2130 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2132;
             _2133 = _981;
-            *(&mut *((*(_2130 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2130 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2133;
             _2134 = _982;
-            *(&mut *((*(_2130 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2130 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2134;
@@ -9810,37 +9810,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2144;
             _2145 = *(&mut _1217 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _2146 = *(&mut _1218 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _2147 = *(&mut *((*(&mut _1217 as *mut l_struct_struct_OC_vint4
+            _2147 = *(&raw mut *((*(&mut _1217 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2148 = *(&mut *((*(&mut _1218 as *mut l_struct_struct_OC_vint4
+            _2148 = *(&raw mut *((*(&mut _1218 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2149 = *(&mut *((*(&mut _1217 as *mut l_struct_struct_OC_vint4
+            _2149 = *(&raw mut *((*(&mut _1217 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2150 = *(&mut *((*(&mut _1218 as *mut l_struct_struct_OC_vint4
+            _2150 = *(&raw mut *((*(&mut _1218 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2151 = *(&mut *((*(&mut _1217 as *mut l_struct_struct_OC_vint4
+            _2151 = *(&raw mut *((*(&mut _1217 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2152 = *(&mut *((*(&mut _1218 as *mut l_struct_struct_OC_vint4
+            _2152 = *(&raw mut *((*(&mut _1218 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -9855,17 +9855,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2154 = _999;
             *(_2153 as *mut uint32_t) = _2154;
             _2155 = _1000;
-            *(&mut *((*(_2153 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2153 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2155;
             _2156 = _1001;
-            *(&mut *((*(_2153 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2153 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2156;
             _2157 = _1002;
-            *(&mut *((*(_2153 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2153 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2157;
@@ -9891,17 +9891,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2163 = _1240;
             *(_2162 as *mut uint32_t) = _2163;
             _2164 = _1240;
-            *(&mut *((*(_2162 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2162 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2164;
             _2165 = _1240;
-            *(&mut *((*(_2162 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2162 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2165;
             _2166 = _1240;
-            *(&mut *((*(_2162 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2162 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2166;
@@ -9913,37 +9913,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             *(&mut _901 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _2168;
             _2169 = *(&mut _900 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _2170 = *(&mut _901 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _2171 = *(&mut *((*(&mut _900 as *mut l_struct_struct_OC_vint4
+            _2171 = *(&raw mut *((*(&mut _900 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2172 = *(&mut *((*(&mut _901 as *mut l_struct_struct_OC_vint4
+            _2172 = *(&raw mut *((*(&mut _901 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2173 = *(&mut *((*(&mut _900 as *mut l_struct_struct_OC_vint4
+            _2173 = *(&raw mut *((*(&mut _900 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2174 = *(&mut *((*(&mut _901 as *mut l_struct_struct_OC_vint4
+            _2174 = *(&raw mut *((*(&mut _901 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2175 = *(&mut *((*(&mut _900 as *mut l_struct_struct_OC_vint4
+            _2175 = *(&raw mut *((*(&mut _900 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2176 = *(&mut *((*(&mut _901 as *mut l_struct_struct_OC_vint4
+            _2176 = *(&raw mut *((*(&mut _901 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -9958,17 +9958,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2178 = _895;
             *(_2177 as *mut uint32_t) = _2178;
             _2179 = _896;
-            *(&mut *((*(_2177 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2177 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2179;
             _2180 = _897;
-            *(&mut *((*(_2177 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2177 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2180;
             _2181 = _898;
-            *(&mut *((*(_2177 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2177 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2181;
@@ -9983,7 +9983,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _1258 = 0;
             _2184 = _1257;
             _2185 = _1258;
-            *(&mut *((*(_2184 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2184 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2185;
@@ -9998,17 +9998,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2188 = _1211;
             *(_2187 as *mut uint32_t) = _2188;
             _2189 = _1211;
-            *(&mut *((*(_2187 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2187 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2189;
             _2190 = _1211;
-            *(&mut *((*(_2187 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2187 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2190;
             _2191 = _1211;
-            *(&mut *((*(_2187 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2187 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _2191;
@@ -10028,37 +10028,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2194;
             _2195 = *(&mut _1214 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _2196 = *(&mut _1215 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _2197 = *(&mut *((*(&mut _1214 as *mut l_struct_struct_OC_vint4
+            _2197 = *(&raw mut *((*(&mut _1214 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2198 = *(&mut *((*(&mut _1215 as *mut l_struct_struct_OC_vint4
+            _2198 = *(&raw mut *((*(&mut _1215 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2199 = *(&mut *((*(&mut _1214 as *mut l_struct_struct_OC_vint4
+            _2199 = *(&raw mut *((*(&mut _1214 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2200 = *(&mut *((*(&mut _1215 as *mut l_struct_struct_OC_vint4
+            _2200 = *(&raw mut *((*(&mut _1215 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2201 = *(&mut *((*(&mut _1214 as *mut l_struct_struct_OC_vint4
+            _2201 = *(&raw mut *((*(&mut _1214 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2202 = *(&mut *((*(&mut _1215 as *mut l_struct_struct_OC_vint4
+            _2202 = *(&raw mut *((*(&mut _1215 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -10084,7 +10084,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2207 = ((_2206 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                 as uint64_t;
-            *(&mut *((*(_2203 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2203 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
@@ -10097,7 +10097,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2209 = ((_2208 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                 as uint64_t;
-            *(&mut *((*(_2203 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2203 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
@@ -10110,7 +10110,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             _2211 = ((_2210 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                 as uint64_t;
-            *(&mut *((*(_2203 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_2203 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
@@ -10138,19 +10138,19 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
             *(&mut _1024 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) =
                 _2215;
             _2216 = *(&mut _1024 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-            _2217 = *(&mut *((*(&mut _1024 as *mut l_struct_struct_OC_vmask4
+            _2217 = *(&raw mut *((*(&mut _1024 as *mut l_struct_struct_OC_vmask4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2218 = *(&mut *((*(&mut _1024 as *mut l_struct_struct_OC_vmask4
+            _2218 = *(&raw mut *((*(&mut _1024 as *mut l_struct_struct_OC_vmask4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _2219 = *(&mut *((*(&mut _1024 as *mut l_struct_struct_OC_vmask4
+            _2219 = *(&raw mut *((*(&mut _1024 as *mut l_struct_struct_OC_vmask4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -10183,21 +10183,21 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2224;
                 _2225 = *(&mut _1156 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _1157 = llvm_lshr_u32(_2225, 1);
-                _2226 = *(&mut *((*(&mut _1156 as *mut l_struct_struct_OC_vint4
+                _2226 = *(&raw mut *((*(&mut _1156 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _1158 = llvm_lshr_u32(_2226, 1);
-                _2227 = *(&mut *((*(&mut _1156 as *mut l_struct_struct_OC_vint4
+                _2227 = *(&raw mut *((*(&mut _1156 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _1159 = llvm_lshr_u32(_2227, 1);
-                _2228 = *(&mut *((*(&mut _1156 as *mut l_struct_struct_OC_vint4
+                _2228 = *(&raw mut *((*(&mut _1156 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10217,17 +10217,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2234 = _1004;
                 *(_2233 as *mut uint32_t) = _2234;
                 _2235 = _1005;
-                *(&mut *((*(_2233 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2233 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2235;
                 _2236 = _1006;
-                *(&mut *((*(_2233 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2233 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2236;
                 _2237 = _1007;
-                *(&mut *((*(_2233 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2233 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2237;
@@ -10258,17 +10258,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2245 = _1172;
                 *(_2244 as *mut uint32_t) = _2245;
                 _2246 = _1172;
-                *(&mut *((*(_2244 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2244 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2246;
                 _2247 = _1172;
-                *(&mut *((*(_2244 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2244 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2247;
                 _2248 = _1172;
-                *(&mut *((*(_2244 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2244 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2248;
@@ -10282,37 +10282,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2250;
                 _2251 = *(&mut _940 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _2252 = *(&mut _941 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _2253 = *(&mut *((*(&mut _940 as *mut l_struct_struct_OC_vint4
+                _2253 = *(&raw mut *((*(&mut _940 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2254 = *(&mut *((*(&mut _941 as *mut l_struct_struct_OC_vint4
+                _2254 = *(&raw mut *((*(&mut _941 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2255 = *(&mut *((*(&mut _940 as *mut l_struct_struct_OC_vint4
+                _2255 = *(&raw mut *((*(&mut _940 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2256 = *(&mut *((*(&mut _941 as *mut l_struct_struct_OC_vint4
+                _2256 = *(&raw mut *((*(&mut _941 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2257 = *(&mut *((*(&mut _940 as *mut l_struct_struct_OC_vint4
+                _2257 = *(&raw mut *((*(&mut _940 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2258 = *(&mut *((*(&mut _941 as *mut l_struct_struct_OC_vint4
+                _2258 = *(&raw mut *((*(&mut _941 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10327,17 +10327,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2260 = _935;
                 *(_2259 as *mut uint32_t) = _2260;
                 _2261 = _936;
-                *(&mut *((*(_2259 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2259 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2261;
                 _2262 = _937;
-                *(&mut *((*(_2259 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2259 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2262;
                 _2263 = _938;
-                *(&mut *((*(_2259 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2259 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2263;
@@ -10359,37 +10359,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2267;
                 _2268 = *(&mut _1174 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _2269 = *(&mut _1175 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _2270 = *(&mut *((*(&mut _1174 as *mut l_struct_struct_OC_vint4
+                _2270 = *(&raw mut *((*(&mut _1174 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2271 = *(&mut *((*(&mut _1175 as *mut l_struct_struct_OC_vint4
+                _2271 = *(&raw mut *((*(&mut _1175 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2272 = *(&mut *((*(&mut _1174 as *mut l_struct_struct_OC_vint4
+                _2272 = *(&raw mut *((*(&mut _1174 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2273 = *(&mut *((*(&mut _1175 as *mut l_struct_struct_OC_vint4
+                _2273 = *(&raw mut *((*(&mut _1175 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2274 = *(&mut *((*(&mut _1174 as *mut l_struct_struct_OC_vint4
+                _2274 = *(&raw mut *((*(&mut _1174 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2275 = *(&mut *((*(&mut _1175 as *mut l_struct_struct_OC_vint4
+                _2275 = *(&raw mut *((*(&mut _1175 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10404,17 +10404,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2277 = _1009;
                 *(_2276 as *mut uint32_t) = _2277;
                 _2278 = _1010;
-                *(&mut *((*(_2276 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2276 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2278;
                 _2279 = _1011;
-                *(&mut *((*(_2276 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2276 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2279;
                 _2280 = _1012;
-                *(&mut *((*(_2276 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2276 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2280;
@@ -10440,21 +10440,21 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2286;
                 _2287 = *(&mut _1162 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _1163 = llvm_lshr_u32(_2287, 1);
-                _2288 = *(&mut *((*(&mut _1162 as *mut l_struct_struct_OC_vint4
+                _2288 = *(&raw mut *((*(&mut _1162 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _1164 = llvm_lshr_u32(_2288, 1);
-                _2289 = *(&mut *((*(&mut _1162 as *mut l_struct_struct_OC_vint4
+                _2289 = *(&raw mut *((*(&mut _1162 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _1165 = llvm_lshr_u32(_2289, 1);
-                _2290 = *(&mut *((*(&mut _1162 as *mut l_struct_struct_OC_vint4
+                _2290 = *(&raw mut *((*(&mut _1162 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10474,17 +10474,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2296 = _1014;
                 *(_2295 as *mut uint32_t) = _2296;
                 _2297 = _1015;
-                *(&mut *((*(_2295 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2295 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2297;
                 _2298 = _1016;
-                *(&mut *((*(_2295 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2295 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2298;
                 _2299 = _1017;
-                *(&mut *((*(_2295 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2295 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2299;
@@ -10509,17 +10509,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2305 = _1170;
                 *(_2304 as *mut uint32_t) = _2305;
                 _2306 = _1170;
-                *(&mut *((*(_2304 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2304 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2306;
                 _2307 = _1170;
-                *(&mut *((*(_2304 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2304 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2307;
                 _2308 = _1170;
-                *(&mut *((*(_2304 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2304 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2308;
@@ -10533,37 +10533,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2310;
                 _2311 = *(&mut _948 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _2312 = *(&mut _949 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _2313 = *(&mut *((*(&mut _948 as *mut l_struct_struct_OC_vint4
+                _2313 = *(&raw mut *((*(&mut _948 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2314 = *(&mut *((*(&mut _949 as *mut l_struct_struct_OC_vint4
+                _2314 = *(&raw mut *((*(&mut _949 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2315 = *(&mut *((*(&mut _948 as *mut l_struct_struct_OC_vint4
+                _2315 = *(&raw mut *((*(&mut _948 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2316 = *(&mut *((*(&mut _949 as *mut l_struct_struct_OC_vint4
+                _2316 = *(&raw mut *((*(&mut _949 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2317 = *(&mut *((*(&mut _948 as *mut l_struct_struct_OC_vint4
+                _2317 = *(&raw mut *((*(&mut _948 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2318 = *(&mut *((*(&mut _949 as *mut l_struct_struct_OC_vint4
+                _2318 = *(&raw mut *((*(&mut _949 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10578,17 +10578,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2320 = _943;
                 *(_2319 as *mut uint32_t) = _2320;
                 _2321 = _944;
-                *(&mut *((*(_2319 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2319 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2321;
                 _2322 = _945;
-                *(&mut *((*(_2319 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2319 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2322;
                 _2323 = _946;
-                *(&mut *((*(_2319 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2319 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2323;
@@ -10629,17 +10629,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2334 = _1168;
                 *(_2333 as *mut uint32_t) = _2334;
                 _2335 = _1168;
-                *(&mut *((*(_2333 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2333 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2335;
                 _2336 = _1168;
-                *(&mut *((*(_2333 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2333 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2336;
                 _2337 = _1168;
-                *(&mut *((*(_2333 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2333 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2337;
@@ -10653,37 +10653,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2339;
                 _2340 = *(&mut _956 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _2341 = *(&mut _957 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _2342 = *(&mut *((*(&mut _956 as *mut l_struct_struct_OC_vint4
+                _2342 = *(&raw mut *((*(&mut _956 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2343 = *(&mut *((*(&mut _957 as *mut l_struct_struct_OC_vint4
+                _2343 = *(&raw mut *((*(&mut _957 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2344 = *(&mut *((*(&mut _956 as *mut l_struct_struct_OC_vint4
+                _2344 = *(&raw mut *((*(&mut _956 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2345 = *(&mut *((*(&mut _957 as *mut l_struct_struct_OC_vint4
+                _2345 = *(&raw mut *((*(&mut _957 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2346 = *(&mut *((*(&mut _956 as *mut l_struct_struct_OC_vint4
+                _2346 = *(&raw mut *((*(&mut _956 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2347 = *(&mut *((*(&mut _957 as *mut l_struct_struct_OC_vint4
+                _2347 = *(&raw mut *((*(&mut _957 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10698,17 +10698,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2349 = _951;
                 *(_2348 as *mut uint32_t) = _2349;
                 _2350 = _952;
-                *(&mut *((*(_2348 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2348 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2350;
                 _2351 = _953;
-                *(&mut *((*(_2348 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2348 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2351;
                 _2352 = _954;
-                *(&mut *((*(_2348 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2348 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2352;
@@ -10726,17 +10726,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2356 = _1150;
                 *(_2355 as *mut uint32_t) = _2356;
                 _2357 = _1150;
-                *(&mut *((*(_2355 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2355 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2357;
                 _2358 = _1150;
-                *(&mut *((*(_2355 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2355 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2358;
                 _2359 = _1150;
-                *(&mut *((*(_2355 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2355 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2359;
@@ -10754,37 +10754,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2362;
                 _2363 = *(&mut _1153 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _2364 = *(&mut _1154 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _2365 = *(&mut *((*(&mut _1153 as *mut l_struct_struct_OC_vint4
+                _2365 = *(&raw mut *((*(&mut _1153 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2366 = *(&mut *((*(&mut _1154 as *mut l_struct_struct_OC_vint4
+                _2366 = *(&raw mut *((*(&mut _1154 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2367 = *(&mut *((*(&mut _1153 as *mut l_struct_struct_OC_vint4
+                _2367 = *(&raw mut *((*(&mut _1153 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2368 = *(&mut *((*(&mut _1154 as *mut l_struct_struct_OC_vint4
+                _2368 = *(&raw mut *((*(&mut _1154 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2369 = *(&mut *((*(&mut _1153 as *mut l_struct_struct_OC_vint4
+                _2369 = *(&raw mut *((*(&mut _1153 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2370 = *(&mut *((*(&mut _1154 as *mut l_struct_struct_OC_vint4
+                _2370 = *(&raw mut *((*(&mut _1154 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10813,7 +10813,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_2371 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2371 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -10828,7 +10828,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_2371 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2371 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -10843,7 +10843,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_2371 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2371 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -10886,17 +10886,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2389 = _876;
                 *(_2388 as *mut uint32_t) = _2389;
                 _2390 = _876;
-                *(&mut *((*(_2388 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2388 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2390;
                 _2391 = _876;
-                *(&mut *((*(_2388 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2388 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2391;
                 _2392 = _876;
-                *(&mut *((*(_2388 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2388 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2392;
@@ -10910,37 +10910,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2394;
                 _2395 = *(&mut _878 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _2396 = *(&mut _879 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _2397 = *(&mut *((*(&mut _878 as *mut l_struct_struct_OC_vint4
+                _2397 = *(&raw mut *((*(&mut _878 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2398 = *(&mut *((*(&mut _879 as *mut l_struct_struct_OC_vint4
+                _2398 = *(&raw mut *((*(&mut _879 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2399 = *(&mut *((*(&mut _878 as *mut l_struct_struct_OC_vint4
+                _2399 = *(&raw mut *((*(&mut _878 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2400 = *(&mut *((*(&mut _879 as *mut l_struct_struct_OC_vint4
+                _2400 = *(&raw mut *((*(&mut _879 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2401 = *(&mut *((*(&mut _878 as *mut l_struct_struct_OC_vint4
+                _2401 = *(&raw mut *((*(&mut _878 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _2402 = *(&mut *((*(&mut _879 as *mut l_struct_struct_OC_vint4
+                _2402 = *(&raw mut *((*(&mut _879 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -10955,17 +10955,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2404 = _871;
                 *(_2403 as *mut uint32_t) = _2404;
                 _2405 = _872;
-                *(&mut *((*(_2403 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2403 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2405;
                 _2406 = _873;
-                *(&mut *((*(_2403 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2403 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2406;
                 _2407 = _874;
-                *(&mut *((*(_2403 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2403 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2407;
@@ -11003,14 +11003,14 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2417__PHI_TEMPORARY = _2416;
                 }
                 _2417 = _2417__PHI_TEMPORARY;
-                _2418 = *(&mut *((*(&mut _893 as *mut l_struct_struct_OC_vmask4
+                _2418 = *(&raw mut *((*(&mut _893 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 if _2418 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-                    _2419 = *(&mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
+                    _2419 = *(&raw mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11018,7 +11018,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t);
                     _2421__PHI_TEMPORARY = _2419;
                 } else {
-                    _2420 = *(&mut *((*(&mut _891 as *mut l_struct_struct_OC_vint4
+                    _2420 = *(&raw mut *((*(&mut _891 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11027,14 +11027,14 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2421__PHI_TEMPORARY = _2420;
                 }
                 _2421 = _2421__PHI_TEMPORARY;
-                _2422 = *(&mut *((*(&mut _893 as *mut l_struct_struct_OC_vmask4
+                _2422 = *(&raw mut *((*(&mut _893 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 if _2422 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-                    _2423 = *(&mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
+                    _2423 = *(&raw mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11042,7 +11042,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t);
                     _2425__PHI_TEMPORARY = _2423;
                 } else {
-                    _2424 = *(&mut *((*(&mut _891 as *mut l_struct_struct_OC_vint4
+                    _2424 = *(&raw mut *((*(&mut _891 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11051,14 +11051,14 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2425__PHI_TEMPORARY = _2424;
                 }
                 _2425 = _2425__PHI_TEMPORARY;
-                _2426 = *(&mut *((*(&mut _893 as *mut l_struct_struct_OC_vmask4
+                _2426 = *(&raw mut *((*(&mut _893 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 if _2426 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-                    _2427 = *(&mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
+                    _2427 = *(&raw mut *((*(&mut _892 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11066,7 +11066,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut uint32_t);
                     _2429__PHI_TEMPORARY = _2427;
                 } else {
-                    _2428 = *(&mut *((*(&mut _891 as *mut l_struct_struct_OC_vint4
+                    _2428 = *(&raw mut *((*(&mut _891 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11084,17 +11084,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2431 = _886;
                 *(_2430 as *mut uint32_t) = _2431;
                 _2432 = _887;
-                *(&mut *((*(_2430 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2430 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2432;
                 _2433 = _888;
-                *(&mut *((*(_2430 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2430 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2433;
                 _2434 = _889;
-                *(&mut *((*(_2430 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_2430 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _2434;
@@ -11123,13 +11123,13 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                 _2441 = *(_2440 as *mut uint32_t);
                 _1146 = &mut _1148 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _2442 = _1146;
-                _2443 = *(&mut *((*(_2442 as *mut crate::l_array_4_uint32_t)).array)
+                _2443 = *(&raw mut *((*(_2442 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
                 _1145 = &mut _1148 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
                 _2444 = _1145;
-                _2445 = *(&mut *((*(_2444 as *mut crate::l_array_4_uint32_t)).array)
+                _2445 = *(&raw mut *((*(_2444 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
@@ -11160,37 +11160,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut crate::l_array_2_uint64_t) = _2449;
                     _2450 = *(&mut _1143 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                     _2451 = *(&mut _1144 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _2452 = *(&mut *((*(&mut _1143 as *mut l_struct_struct_OC_vint4
+                    _2452 = *(&raw mut *((*(&mut _1143 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2453 = *(&mut *((*(&mut _1144 as *mut l_struct_struct_OC_vint4
+                    _2453 = *(&raw mut *((*(&mut _1144 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2454 = *(&mut *((*(&mut _1143 as *mut l_struct_struct_OC_vint4
+                    _2454 = *(&raw mut *((*(&mut _1143 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2455 = *(&mut *((*(&mut _1144 as *mut l_struct_struct_OC_vint4
+                    _2455 = *(&raw mut *((*(&mut _1144 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2456 = *(&mut *((*(&mut _1143 as *mut l_struct_struct_OC_vint4
+                    _2456 = *(&raw mut *((*(&mut _1143 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2457 = *(&mut *((*(&mut _1144 as *mut l_struct_struct_OC_vint4
+                    _2457 = *(&raw mut *((*(&mut _1144 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11205,17 +11205,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2459 = _1019;
                     *(_2458 as *mut uint32_t) = _2459;
                     _2460 = _1020;
-                    *(&mut *((*(_2458 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2458 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2460;
                     _2461 = _1021;
-                    *(&mut *((*(_2458 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2458 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2461;
                     _2462 = _1022;
-                    *(&mut *((*(_2458 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2458 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2462;
@@ -11240,17 +11240,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2467 = _1234;
                     *(_2466 as *mut uint32_t) = _2467;
                     _2468 = _1234;
-                    *(&mut *((*(_2466 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2466 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2468;
                     _2469 = _1234;
-                    *(&mut *((*(_2466 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2466 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2469;
                     _2470 = _1234;
-                    *(&mut *((*(_2466 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2466 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2470;
@@ -11266,37 +11266,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut crate::l_array_2_uint64_t) = _2472;
                     _2473 = *(&mut _1229 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                     _2474 = *(&mut _1230 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _2475 = *(&mut *((*(&mut _1229 as *mut l_struct_struct_OC_vint4
+                    _2475 = *(&raw mut *((*(&mut _1229 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2476 = *(&mut *((*(&mut _1230 as *mut l_struct_struct_OC_vint4
+                    _2476 = *(&raw mut *((*(&mut _1230 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2477 = *(&mut *((*(&mut _1229 as *mut l_struct_struct_OC_vint4
+                    _2477 = *(&raw mut *((*(&mut _1229 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2478 = *(&mut *((*(&mut _1230 as *mut l_struct_struct_OC_vint4
+                    _2478 = *(&raw mut *((*(&mut _1230 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2479 = *(&mut *((*(&mut _1229 as *mut l_struct_struct_OC_vint4
+                    _2479 = *(&raw mut *((*(&mut _1229 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2480 = *(&mut *((*(&mut _1230 as *mut l_struct_struct_OC_vint4
+                    _2480 = *(&raw mut *((*(&mut _1230 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11326,7 +11326,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2481 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2481 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11342,7 +11342,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2481 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2481 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11358,7 +11358,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2481 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2481 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11385,17 +11385,17 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     _2493 = _1232;
                     *(_2492 as *mut uint32_t) = _2493;
                     _2494 = _1232;
-                    *(&mut *((*(_2492 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2492 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2494;
                     _2495 = _1232;
-                    *(&mut *((*(_2492 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2492 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2495;
                     _2496 = _1232;
-                    *(&mut *((*(_2492 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2492 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = _2496;
@@ -11411,37 +11411,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut crate::l_array_2_uint64_t) = _2498;
                     _2499 = *(&mut _1253 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                     _2500 = *(&mut _1254 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                    _2501 = *(&mut *((*(&mut _1253 as *mut l_struct_struct_OC_vint4
+                    _2501 = *(&raw mut *((*(&mut _1253 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2502 = *(&mut *((*(&mut _1254 as *mut l_struct_struct_OC_vint4
+                    _2502 = *(&raw mut *((*(&mut _1254 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2503 = *(&mut *((*(&mut _1253 as *mut l_struct_struct_OC_vint4
+                    _2503 = *(&raw mut *((*(&mut _1253 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2504 = *(&mut *((*(&mut _1254 as *mut l_struct_struct_OC_vint4
+                    _2504 = *(&raw mut *((*(&mut _1254 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2505 = *(&mut *((*(&mut _1253 as *mut l_struct_struct_OC_vint4
+                    _2505 = *(&raw mut *((*(&mut _1253 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2506 = *(&mut *((*(&mut _1254 as *mut l_struct_struct_OC_vint4
+                    _2506 = *(&raw mut *((*(&mut _1254 as *mut l_struct_struct_OC_vint4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11471,7 +11471,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2507 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2507 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11487,7 +11487,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2507 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2507 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11503,7 +11503,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2507 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2507 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11531,37 +11531,37 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as *mut crate::l_array_2_uint64_t) = _2518;
                     _2519 = *(&mut _1354 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
                     _2520 = *(&mut _1355 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-                    _2521 = *(&mut *((*(&mut _1354 as *mut l_struct_struct_OC_vmask4
+                    _2521 = *(&raw mut *((*(&mut _1354 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2522 = *(&mut *((*(&mut _1355 as *mut l_struct_struct_OC_vmask4
+                    _2522 = *(&raw mut *((*(&mut _1355 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2523 = *(&mut *((*(&mut _1354 as *mut l_struct_struct_OC_vmask4
+                    _2523 = *(&raw mut *((*(&mut _1354 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2524 = *(&mut *((*(&mut _1355 as *mut l_struct_struct_OC_vmask4
+                    _2524 = *(&raw mut *((*(&mut _1355 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2525 = *(&mut *((*(&mut _1354 as *mut l_struct_struct_OC_vmask4
+                    _2525 = *(&raw mut *((*(&mut _1354 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2526 = *(&mut *((*(&mut _1355 as *mut l_struct_struct_OC_vmask4
+                    _2526 = *(&raw mut *((*(&mut _1355 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -11591,7 +11591,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2527 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2527 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11607,7 +11607,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2527 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2527 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11623,7 +11623,7 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                         as uint32_t
                         == 0 as core::ffi::c_uint) as core::ffi::c_int
                         as bool_0 as uint64_t;
-                    *(&mut *((*(_2527 as *mut crate::l_array_4_uint32_t)).array)
+                    *(&raw mut *((*(_2527 as *mut crate::l_array_4_uint32_t)).array)
                         .as_mut_ptr()
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t) = llvm_select_u32(
@@ -11654,19 +11654,19 @@ unsafe extern "C" fn _ZL36try_quantize_rgb_delta_blue_contract7vfloat4S_R5vint4S
                     *(&mut _1023 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_2_uint64_t) = _2539;
                     _2540 = *(&mut _1023 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-                    _2541 = *(&mut *((*(&mut _1023 as *mut l_struct_struct_OC_vmask4
+                    _2541 = *(&raw mut *((*(&mut _1023 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2542 = *(&mut *((*(&mut _1023 as *mut l_struct_struct_OC_vmask4
+                    _2542 = *(&raw mut *((*(&mut _1023 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint32_t);
-                    _2543 = *(&mut *((*(&mut _1023 as *mut l_struct_struct_OC_vmask4
+                    _2543 = *(&raw mut *((*(&mut _1023 as *mut l_struct_struct_OC_vmask4
                         as *mut crate::l_array_4_uint32_t))
                         .array)
                         .as_mut_ptr()
@@ -12001,17 +12001,17 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2652 = (*(&mut _2638.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed_0)).data;
     *(&mut _2583 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _2652;
     _2653 = *(&mut _2583 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _2654 = *(&mut *((*(&mut _2583 as *mut l_struct_struct_OC_vint4
+    _2654 = *(&raw mut *((*(&mut _2583 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _2655 = *(&mut *((*(&mut _2583 as *mut l_struct_struct_OC_vint4
+    _2655 = *(&raw mut *((*(&mut _2583 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _2656 = *(&mut *((*(&mut _2583 as *mut l_struct_struct_OC_vint4
+    _2656 = *(&raw mut *((*(&mut _2583 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -12025,15 +12025,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2658 = _2578;
     *(_2657 as *mut core::ffi::c_float) = _2658;
     _2659 = _2579;
-    *(&mut *((*(_2657 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2657 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2659;
     _2660 = _2580;
-    *(&mut *((*(_2657 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2657 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2660;
     _2661 = _2581;
-    *(&mut *((*(_2657 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2657 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2661;
     _2662 = _2582;
@@ -12044,37 +12044,37 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     *(&mut _2606 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _2664;
     _2665 = *(&mut _2605 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _2666 = *(&mut _2606 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _2667 = *(&mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4
+    _2667 = *(&raw mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2668 = *(&mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4
+    _2668 = *(&raw mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2669 = *(&mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4
+    _2669 = *(&raw mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2670 = *(&mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4
+    _2670 = *(&raw mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2671 = *(&mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4
+    _2671 = *(&raw mut *((*(&mut _2605 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2672 = *(&mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4
+    _2672 = *(&raw mut *((*(&mut _2606 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -12089,15 +12089,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2674 = _2600;
     *(_2673 as *mut core::ffi::c_float) = _2674;
     _2675 = _2601;
-    *(&mut *((*(_2673 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2673 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2675;
     _2676 = _2602;
-    *(&mut *((*(_2673 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2673 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2676;
     _2677 = _2603;
-    *(&mut *((*(_2673 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2673 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2677;
     _2678 = _2604;
@@ -12115,17 +12115,17 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2681 = (*(&mut _2642.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed)).data;
     *(&mut _2590 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _2681;
     _2682 = *(&mut _2590 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _2683 = *(&mut *((*(&mut _2590 as *mut l_struct_struct_OC_vint4
+    _2683 = *(&raw mut *((*(&mut _2590 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _2684 = *(&mut *((*(&mut _2590 as *mut l_struct_struct_OC_vint4
+    _2684 = *(&raw mut *((*(&mut _2590 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _2685 = *(&mut *((*(&mut _2590 as *mut l_struct_struct_OC_vint4
+    _2685 = *(&raw mut *((*(&mut _2590 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -12139,15 +12139,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2687 = _2585;
     *(_2686 as *mut core::ffi::c_float) = _2687;
     _2688 = _2586;
-    *(&mut *((*(_2686 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2686 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2688;
     _2689 = _2587;
-    *(&mut *((*(_2686 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2686 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2689;
     _2690 = _2588;
-    *(&mut *((*(_2686 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2686 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2690;
     _2691 = _2589;
@@ -12158,37 +12158,37 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     *(&mut _2614 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _2693;
     _2694 = *(&mut _2613 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _2695 = *(&mut _2614 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _2696 = *(&mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4
+    _2696 = *(&raw mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2697 = *(&mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4
+    _2697 = *(&raw mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2698 = *(&mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4
+    _2698 = *(&raw mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2699 = *(&mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4
+    _2699 = *(&raw mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2700 = *(&mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4
+    _2700 = *(&raw mut *((*(&mut _2613 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2701 = *(&mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4
+    _2701 = *(&raw mut *((*(&mut _2614 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -12203,15 +12203,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2703 = _2608;
     *(_2702 as *mut core::ffi::c_float) = _2703;
     _2704 = _2609;
-    *(&mut *((*(_2702 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2702 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2704;
     _2705 = _2610;
-    *(&mut *((*(_2702 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2702 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2705;
     _2706 = _2611;
-    *(&mut *((*(_2702 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2702 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2706;
     _2707 = _2612;
@@ -12232,37 +12232,37 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     *(&mut _2622 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _2711;
     _2712 = *(&mut _2621 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _2713 = *(&mut _2622 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _2714 = *(&mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4
+    _2714 = *(&raw mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2715 = *(&mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4
+    _2715 = *(&raw mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2716 = *(&mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4
+    _2716 = *(&raw mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2717 = *(&mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4
+    _2717 = *(&raw mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2718 = *(&mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4
+    _2718 = *(&raw mut *((*(&mut _2621 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2719 = *(&mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4
+    _2719 = *(&raw mut *((*(&mut _2622 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -12277,15 +12277,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2721 = _2616;
     *(_2720 as *mut core::ffi::c_float) = _2721;
     _2722 = _2617;
-    *(&mut *((*(_2720 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2720 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2722;
     _2723 = _2618;
-    *(&mut *((*(_2720 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2720 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2723;
     _2724 = _2619;
-    *(&mut *((*(_2720 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2720 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2724;
     _2725 = _2620;
@@ -12306,37 +12306,37 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     *(&mut _2630 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _2729;
     _2730 = *(&mut _2629 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _2731 = *(&mut _2630 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _2732 = *(&mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4
+    _2732 = *(&raw mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2733 = *(&mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4
+    _2733 = *(&raw mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2734 = *(&mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4
+    _2734 = *(&raw mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2735 = *(&mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4
+    _2735 = *(&raw mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2736 = *(&mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4
+    _2736 = *(&raw mut *((*(&mut _2629 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2737 = *(&mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4
+    _2737 = *(&raw mut *((*(&mut _2630 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -12351,15 +12351,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2739 = _2624;
     *(_2738 as *mut core::ffi::c_float) = _2739;
     _2740 = _2625;
-    *(&mut *((*(_2738 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2738 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2740;
     _2741 = _2626;
-    *(&mut *((*(_2738 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2738 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2741;
     _2742 = _2627;
-    *(&mut *((*(_2738 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2738 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2742;
     _2743 = _2628;
@@ -12370,37 +12370,37 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     *(&mut _2598 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _2745;
     _2746 = *(&mut _2597 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _2747 = *(&mut _2598 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _2748 = *(&mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4
+    _2748 = *(&raw mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2749 = *(&mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4
+    _2749 = *(&raw mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2750 = *(&mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4
+    _2750 = *(&raw mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2751 = *(&mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4
+    _2751 = *(&raw mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2752 = *(&mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4
+    _2752 = *(&raw mut *((*(&mut _2597 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2753 = *(&mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4
+    _2753 = *(&raw mut *((*(&mut _2598 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -12415,15 +12415,15 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2755 = _2592;
     *(_2754 as *mut core::ffi::c_float) = _2755;
     _2756 = _2593;
-    *(&mut *((*(_2754 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2754 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2756;
     _2757 = _2594;
-    *(&mut *((*(_2754 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2754 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2757;
     _2758 = _2595;
-    *(&mut *((*(_2754 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_2754 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _2758;
     _2759 = _2596;
@@ -12431,19 +12431,19 @@ unsafe extern "C" fn _ZL23get_rgba_encoding_error7vfloat4S_5vint4S0_(
     _2760 = *(&mut _2643.field0 as *mut crate::l_array_4_float);
     *(&mut _2576 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _2760;
     _2761 = *(&mut _2576 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _2762 = *(&mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4
+    _2762 = *(&raw mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2763 = *(&mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4
+    _2763 = *(&raw mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _2764 = *(&mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4
+    _2764 = *(&raw mut *((*(&mut _2576 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -14174,15 +14174,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3238 = _3148;
     *(_3237 as *mut core::ffi::c_float) = _3238;
     _3239 = _3148;
-    *(&mut *((*(_3237 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3237 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3239;
     _3240 = _3148;
-    *(&mut *((*(_3237 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3237 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3240;
     _3241 = _3148;
-    *(&mut *((*(_3237 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3237 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3241;
     _3242 = *(&mut _3152 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -14191,37 +14191,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _2981 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _3243;
     _3244 = *(&mut _2980 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _3245 = *(&mut _2981 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _3246 = *(&mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4
+    _3246 = *(&raw mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3247 = *(&mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4
+    _3247 = *(&raw mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3248 = *(&mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4
+    _3248 = *(&raw mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3249 = *(&mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4
+    _3249 = *(&raw mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3250 = *(&mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4
+    _3250 = *(&raw mut *((*(&mut _2980 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3251 = *(&mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4
+    _3251 = *(&raw mut *((*(&mut _2981 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -14236,15 +14236,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3253 = _2975;
     *(_3252 as *mut core::ffi::c_float) = _3253;
     _3254 = _2976;
-    *(&mut *((*(_3252 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3252 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3254;
     _3255 = _2977;
-    *(&mut *((*(_3252 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3252 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3255;
     _3256 = _2978;
-    *(&mut *((*(_3252 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3252 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3256;
     _3257 = _2979;
@@ -14255,19 +14255,19 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         16,
     );
     _3259 = *(&mut _3150 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _3260 = *(&mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4
+    _3260 = *(&raw mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3261 = *(&mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4
+    _3261 = *(&raw mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3262 = *(&mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4
+    _3262 = *(&raw mut *((*(&mut _3150 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -14282,15 +14282,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3264 = _2864;
     *(_3263 as *mut uint32_t) = _3264;
     _3265 = _2865;
-    *(&mut *((*(_3263 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3263 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3265;
     _3266 = _2866;
-    *(&mut *((*(_3263 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3263 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3266;
     _3267 = _2867;
-    *(&mut *((*(_3263 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3263 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3267;
     _3268 = *(&mut _3149 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14299,7 +14299,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3146 = 0 as core::ffi::c_int as core::ffi::c_float;
     _3269 = _3145;
     _3270 = _3146;
-    *(&mut *((*(_3269 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3269 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3270;
     _3271 = memcpy(
@@ -14311,19 +14311,19 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _3134 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3272;
     _3273 = *(&mut _3134 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3135 = _3273 << 1 as core::ffi::c_int;
-    _3274 = *(&mut *((*(&mut _3134 as *mut l_struct_struct_OC_vint4
+    _3274 = *(&raw mut *((*(&mut _3134 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _3136 = _3274 << 1 as core::ffi::c_int;
-    _3275 = *(&mut *((*(&mut _3134 as *mut l_struct_struct_OC_vint4
+    _3275 = *(&raw mut *((*(&mut _3134 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _3137 = _3275 << 1 as core::ffi::c_int;
-    _3276 = *(&mut *((*(&mut _3134 as *mut l_struct_struct_OC_vint4
+    _3276 = *(&raw mut *((*(&mut _3134 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -14342,15 +14342,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3282 = _2874;
     *(_3281 as *mut uint32_t) = _3282;
     _3283 = _2875;
-    *(&mut *((*(_3281 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3281 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3283;
     _3284 = _2876;
-    *(&mut *((*(_3281 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3281 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3284;
     _3285 = _2877;
-    *(&mut *((*(_3281 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3281 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3285;
     _3286 = *(&mut _3133 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14380,15 +14380,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3293 = _3088;
     *(_3292 as *mut uint32_t) = _3293;
     _3294 = _3088;
-    *(&mut *((*(_3292 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3292 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3294;
     _3295 = _3088;
-    *(&mut *((*(_3292 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3292 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3295;
     _3296 = _3088;
-    *(&mut *((*(_3292 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3292 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3296;
     _3297 = *(&mut _3111 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14397,32 +14397,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _2833 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3298;
     _3299 = *(&mut _2832 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3300 = *(&mut _2833 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _3301 = *(&mut *((*(&mut _2832 as *mut l_struct_struct_OC_vint4
+    _3301 = *(&raw mut *((*(&mut _2832 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3302 = *(&mut *((*(&mut _2833 as *mut l_struct_struct_OC_vint4
+    _3302 = *(&raw mut *((*(&mut _2833 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3303 = *(&mut *((*(&mut _2832 as *mut l_struct_struct_OC_vint4
+    _3303 = *(&raw mut *((*(&mut _2832 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3304 = *(&mut *((*(&mut _2833 as *mut l_struct_struct_OC_vint4
+    _3304 = *(&raw mut *((*(&mut _2833 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3305 = *(&mut *((*(&mut _2832 as *mut l_struct_struct_OC_vint4
+    _3305 = *(&raw mut *((*(&mut _2832 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3306 = *(&mut *((*(&mut _2833 as *mut l_struct_struct_OC_vint4
+    _3306 = *(&raw mut *((*(&mut _2833 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -14436,15 +14436,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3308 = _2827;
     *(_3307 as *mut uint32_t) = _3308;
     _3309 = _2828;
-    *(&mut *((*(_3307 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3307 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3309;
     _3310 = _2829;
-    *(&mut *((*(_3307 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3307 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3310;
     _3311 = _2830;
-    *(&mut *((*(_3307 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3307 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3311;
     _3312 = *(&mut _2831 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14485,15 +14485,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3324 = _3086;
     *(_3323 as *mut uint32_t) = _3324;
     _3325 = _3086;
-    *(&mut *((*(_3323 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3323 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3325;
     _3326 = _3086;
-    *(&mut *((*(_3323 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3323 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3326;
     _3327 = _3086;
-    *(&mut *((*(_3323 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3323 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3327;
     _3328 = *(&mut _3116 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14502,32 +14502,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _2825 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3329;
     _3330 = *(&mut _2824 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3331 = *(&mut _2825 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _3332 = *(&mut *((*(&mut _2824 as *mut l_struct_struct_OC_vint4
+    _3332 = *(&raw mut *((*(&mut _2824 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3333 = *(&mut *((*(&mut _2825 as *mut l_struct_struct_OC_vint4
+    _3333 = *(&raw mut *((*(&mut _2825 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3334 = *(&mut *((*(&mut _2824 as *mut l_struct_struct_OC_vint4
+    _3334 = *(&raw mut *((*(&mut _2824 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3335 = *(&mut *((*(&mut _2825 as *mut l_struct_struct_OC_vint4
+    _3335 = *(&raw mut *((*(&mut _2825 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3336 = *(&mut *((*(&mut _2824 as *mut l_struct_struct_OC_vint4
+    _3336 = *(&raw mut *((*(&mut _2824 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3337 = *(&mut *((*(&mut _2825 as *mut l_struct_struct_OC_vint4
+    _3337 = *(&raw mut *((*(&mut _2825 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -14541,15 +14541,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3339 = _2819;
     *(_3338 as *mut uint32_t) = _3339;
     _3340 = _2820;
-    *(&mut *((*(_3338 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3338 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3340;
     _3341 = _2821;
-    *(&mut *((*(_3338 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3338 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3341;
     _3342 = _2822;
-    *(&mut *((*(_3338 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3338 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3342;
     _3343 = *(&mut _2823 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14562,32 +14562,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _3104 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3346;
     _3347 = *(&mut _3103 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3348 = *(&mut _3104 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _3349 = *(&mut *((*(&mut _3103 as *mut l_struct_struct_OC_vint4
+    _3349 = *(&raw mut *((*(&mut _3103 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3350 = *(&mut *((*(&mut _3104 as *mut l_struct_struct_OC_vint4
+    _3350 = *(&raw mut *((*(&mut _3104 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3351 = *(&mut *((*(&mut _3103 as *mut l_struct_struct_OC_vint4
+    _3351 = *(&raw mut *((*(&mut _3103 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3352 = *(&mut *((*(&mut _3104 as *mut l_struct_struct_OC_vint4
+    _3352 = *(&raw mut *((*(&mut _3104 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3353 = *(&mut *((*(&mut _3103 as *mut l_struct_struct_OC_vint4
+    _3353 = *(&raw mut *((*(&mut _3103 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3354 = *(&mut *((*(&mut _3104 as *mut l_struct_struct_OC_vint4
+    _3354 = *(&raw mut *((*(&mut _3104 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -14601,15 +14601,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3356 = _2884;
     *(_3355 as *mut uint32_t) = _3356;
     _3357 = _2885;
-    *(&mut *((*(_3355 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3355 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3357;
     _3358 = _2886;
-    *(&mut *((*(_3355 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3355 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3358;
     _3359 = _2887;
-    *(&mut *((*(_3355 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3355 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3359;
     _3360 = *(&mut _3102 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14637,15 +14637,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3366 = _3155;
     *(_3365 as *mut core::ffi::c_float) = _3366;
     _3367 = _3155;
-    *(&mut *((*(_3365 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3365 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3367;
     _3368 = _3155;
-    *(&mut *((*(_3365 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3365 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3368;
     _3369 = _3155;
-    *(&mut *((*(_3365 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3365 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3369;
     _3370 = *(&mut _3159 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -14654,37 +14654,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _2973 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _3371;
     _3372 = *(&mut _2972 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _3373 = *(&mut _2973 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _3374 = *(&mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4
+    _3374 = *(&raw mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3375 = *(&mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4
+    _3375 = *(&raw mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3376 = *(&mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4
+    _3376 = *(&raw mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3377 = *(&mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4
+    _3377 = *(&raw mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3378 = *(&mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4
+    _3378 = *(&raw mut *((*(&mut _2972 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3379 = *(&mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4
+    _3379 = *(&raw mut *((*(&mut _2973 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -14699,15 +14699,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3381 = _2967;
     *(_3380 as *mut core::ffi::c_float) = _3381;
     _3382 = _2968;
-    *(&mut *((*(_3380 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3380 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3382;
     _3383 = _2969;
-    *(&mut *((*(_3380 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3380 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3383;
     _3384 = _2970;
-    *(&mut *((*(_3380 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_3380 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _3384;
     _3385 = _2971;
@@ -14718,19 +14718,19 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         16,
     );
     _3387 = *(&mut _3157 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _3388 = *(&mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4
+    _3388 = *(&raw mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3389 = *(&mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4
+    _3389 = *(&raw mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _3390 = *(&mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4
+    _3390 = *(&raw mut *((*(&mut _3157 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -14745,15 +14745,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3392 = _2859;
     *(_3391 as *mut uint32_t) = _3392;
     _3393 = _2860;
-    *(&mut *((*(_3391 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3391 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3393;
     _3394 = _2861;
-    *(&mut *((*(_3391 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3391 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3394;
     _3395 = _2862;
-    *(&mut *((*(_3391 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3391 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3395;
     _3396 = *(&mut _3156 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14767,19 +14767,19 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _3140 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3398;
     _3399 = *(&mut _3140 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3141 = _3399 << 1 as core::ffi::c_int;
-    _3400 = *(&mut *((*(&mut _3140 as *mut l_struct_struct_OC_vint4
+    _3400 = *(&raw mut *((*(&mut _3140 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _3142 = _3400 << 1 as core::ffi::c_int;
-    _3401 = *(&mut *((*(&mut _3140 as *mut l_struct_struct_OC_vint4
+    _3401 = *(&raw mut *((*(&mut _3140 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     _3143 = _3401 << 1 as core::ffi::c_int;
-    _3402 = *(&mut *((*(&mut _3140 as *mut l_struct_struct_OC_vint4
+    _3402 = *(&raw mut *((*(&mut _3140 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -14798,15 +14798,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3408 = _2869;
     *(_3407 as *mut uint32_t) = _3408;
     _3409 = _2870;
-    *(&mut *((*(_3407 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3407 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3409;
     _3410 = _2871;
-    *(&mut *((*(_3407 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3407 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3410;
     _3411 = _2872;
-    *(&mut *((*(_3407 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3407 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3411;
     _3412 = *(&mut _3139 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14832,32 +14832,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _3101 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3417;
     _3418 = *(&mut _3100 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3419 = *(&mut _3101 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _3420 = *(&mut *((*(&mut _3100 as *mut l_struct_struct_OC_vint4
+    _3420 = *(&raw mut *((*(&mut _3100 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3421 = *(&mut *((*(&mut _3101 as *mut l_struct_struct_OC_vint4
+    _3421 = *(&raw mut *((*(&mut _3101 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3422 = *(&mut *((*(&mut _3100 as *mut l_struct_struct_OC_vint4
+    _3422 = *(&raw mut *((*(&mut _3100 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3423 = *(&mut *((*(&mut _3101 as *mut l_struct_struct_OC_vint4
+    _3423 = *(&raw mut *((*(&mut _3101 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3424 = *(&mut *((*(&mut _3100 as *mut l_struct_struct_OC_vint4
+    _3424 = *(&raw mut *((*(&mut _3100 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3425 = *(&mut *((*(&mut _3101 as *mut l_struct_struct_OC_vint4
+    _3425 = *(&raw mut *((*(&mut _3101 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -14871,15 +14871,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3427 = _2889;
     *(_3426 as *mut uint32_t) = _3427;
     _3428 = _2890;
-    *(&mut *((*(_3426 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3426 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3428;
     _3429 = _2891;
-    *(&mut *((*(_3426 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3426 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3429;
     _3430 = _2892;
-    *(&mut *((*(_3426 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3426 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3430;
     _3431 = *(&mut _3099 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -14893,7 +14893,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3096 = 0;
     _3433 = _3095;
     _3434 = _3096;
-    *(&mut *((*(_3433 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3433 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3434;
     _3435 = memcpy(
@@ -14907,15 +14907,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3437 = _3078;
     *(_3436 as *mut uint32_t) = _3437;
     _3438 = _3078;
-    *(&mut *((*(_3436 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3436 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3438;
     _3439 = _3078;
-    *(&mut *((*(_3436 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3436 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3439;
     _3440 = _3078;
-    *(&mut *((*(_3436 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3436 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3440;
     _3441 = (*(&mut _3200.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed_113)).data;
@@ -14924,32 +14924,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _3091 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3442;
     _3443 = *(&mut _3090 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3444 = *(&mut _3091 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _3445 = *(&mut *((*(&mut _3090 as *mut l_struct_struct_OC_vint4
+    _3445 = *(&raw mut *((*(&mut _3090 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3446 = *(&mut *((*(&mut _3091 as *mut l_struct_struct_OC_vint4
+    _3446 = *(&raw mut *((*(&mut _3091 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3447 = *(&mut *((*(&mut _3090 as *mut l_struct_struct_OC_vint4
+    _3447 = *(&raw mut *((*(&mut _3090 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3448 = *(&mut *((*(&mut _3091 as *mut l_struct_struct_OC_vint4
+    _3448 = *(&raw mut *((*(&mut _3091 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3449 = *(&mut *((*(&mut _3090 as *mut l_struct_struct_OC_vint4
+    _3449 = *(&raw mut *((*(&mut _3090 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3450 = *(&mut *((*(&mut _3091 as *mut l_struct_struct_OC_vint4
+    _3450 = *(&raw mut *((*(&mut _3091 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -14972,7 +14972,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3454 = _2943;
     _3455 = ((_3454 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3451 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3451 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3454 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -14983,7 +14983,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3456 = _2944;
     _3457 = ((_3456 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3451 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3451 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3456 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -14994,7 +14994,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3458 = _2945;
     _3459 = ((_3458 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3451 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3451 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3458 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15015,15 +15015,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3463 = _3076;
     *(_3462 as *mut uint32_t) = _3463;
     _3464 = _3076;
-    *(&mut *((*(_3462 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3462 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3464;
     _3465 = _3076;
-    *(&mut *((*(_3462 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3462 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3465;
     _3466 = _3076;
-    *(&mut *((*(_3462 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3462 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3466;
     _3467 = (*(&mut _3203.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed_110)).data;
@@ -15032,32 +15032,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _3067 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3468;
     _3469 = *(&mut _3066 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _3470 = *(&mut _3067 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _3471 = *(&mut *((*(&mut _3066 as *mut l_struct_struct_OC_vint4
+    _3471 = *(&raw mut *((*(&mut _3066 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3472 = *(&mut *((*(&mut _3067 as *mut l_struct_struct_OC_vint4
+    _3472 = *(&raw mut *((*(&mut _3067 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3473 = *(&mut *((*(&mut _3066 as *mut l_struct_struct_OC_vint4
+    _3473 = *(&raw mut *((*(&mut _3066 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3474 = *(&mut *((*(&mut _3067 as *mut l_struct_struct_OC_vint4
+    _3474 = *(&raw mut *((*(&mut _3067 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3475 = *(&mut *((*(&mut _3066 as *mut l_struct_struct_OC_vint4
+    _3475 = *(&raw mut *((*(&mut _3066 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3476 = *(&mut *((*(&mut _3067 as *mut l_struct_struct_OC_vint4
+    _3476 = *(&raw mut *((*(&mut _3067 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -15080,7 +15080,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3480 = _2953;
     _3481 = ((_3480 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3477 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3477 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3480 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15091,7 +15091,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3482 = _2954;
     _3483 = ((_3482 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3477 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3477 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3482 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15102,7 +15102,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3484 = _2955;
     _3485 = ((_3484 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3477 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3477 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3484 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15118,32 +15118,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     *(&mut _3169 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _3488;
     _3489 = *(&mut _3168 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
     _3490 = *(&mut _3169 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _3491 = *(&mut *((*(&mut _3168 as *mut l_struct_struct_OC_vmask4
+    _3491 = *(&raw mut *((*(&mut _3168 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3492 = *(&mut *((*(&mut _3169 as *mut l_struct_struct_OC_vmask4
+    _3492 = *(&raw mut *((*(&mut _3169 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3493 = *(&mut *((*(&mut _3168 as *mut l_struct_struct_OC_vmask4
+    _3493 = *(&raw mut *((*(&mut _3168 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3494 = *(&mut *((*(&mut _3169 as *mut l_struct_struct_OC_vmask4
+    _3494 = *(&raw mut *((*(&mut _3169 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3495 = *(&mut *((*(&mut _3168 as *mut l_struct_struct_OC_vmask4
+    _3495 = *(&raw mut *((*(&mut _3168 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3496 = *(&mut *((*(&mut _3169 as *mut l_struct_struct_OC_vmask4
+    _3496 = *(&raw mut *((*(&mut _3169 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -15166,7 +15166,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3500 = _2933;
     _3501 = ((_3500 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3497 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3497 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3500 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15177,7 +15177,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3502 = _2934;
     _3503 = ((_3502 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3497 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3497 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3502 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15188,7 +15188,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3504 = _2935;
     _3505 = ((_3504 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_3497 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_3497 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_3504 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15208,17 +15208,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
     _3509 = *(&mut _3162 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t);
     *(&mut _2925 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _3509;
     _3510 = *(&mut _2925 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _3511 = *(&mut *((*(&mut _2925 as *mut l_struct_struct_OC_vmask4
+    _3511 = *(&raw mut *((*(&mut _2925 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3512 = *(&mut *((*(&mut _2925 as *mut l_struct_struct_OC_vmask4
+    _3512 = *(&raw mut *((*(&mut _2925 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _3513 = *(&mut *((*(&mut _2925 as *mut l_struct_struct_OC_vmask4
+    _3513 = *(&raw mut *((*(&mut _2925 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -15247,15 +15247,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3519 = _3084;
         *(_3518 as *mut uint32_t) = _3519;
         _3520 = _3084;
-        *(&mut *((*(_3518 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3518 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3520;
         _3521 = _3084;
-        *(&mut *((*(_3518 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3518 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3521;
         _3522 = _3084;
-        *(&mut *((*(_3518 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3518 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3522;
         _3523 = *(&mut _3121 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15264,32 +15264,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(&mut _2817 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3524;
         _3525 = *(&mut _2816 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _3526 = *(&mut _2817 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _3527 = *(&mut *((*(&mut _2816 as *mut l_struct_struct_OC_vint4
+        _3527 = *(&raw mut *((*(&mut _2816 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3528 = *(&mut *((*(&mut _2817 as *mut l_struct_struct_OC_vint4
+        _3528 = *(&raw mut *((*(&mut _2817 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3529 = *(&mut *((*(&mut _2816 as *mut l_struct_struct_OC_vint4
+        _3529 = *(&raw mut *((*(&mut _2816 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3530 = *(&mut *((*(&mut _2817 as *mut l_struct_struct_OC_vint4
+        _3530 = *(&raw mut *((*(&mut _2817 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3531 = *(&mut *((*(&mut _2816 as *mut l_struct_struct_OC_vint4
+        _3531 = *(&raw mut *((*(&mut _2816 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3532 = *(&mut *((*(&mut _2817 as *mut l_struct_struct_OC_vint4
+        _3532 = *(&raw mut *((*(&mut _2817 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15303,15 +15303,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3534 = _2811;
         *(_3533 as *mut uint32_t) = _3534;
         _3535 = _2812;
-        *(&mut *((*(_3533 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3533 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3535;
         _3536 = _2813;
-        *(&mut *((*(_3533 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3533 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3536;
         _3537 = _2814;
-        *(&mut *((*(_3533 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3533 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3537;
         _3538 = *(&mut _2815 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15350,15 +15350,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3547 = _3082;
         *(_3546 as *mut uint32_t) = _3547;
         _3548 = _3082;
-        *(&mut *((*(_3546 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3546 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3548;
         _3549 = _3082;
-        *(&mut *((*(_3546 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3546 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3549;
         _3550 = _3082;
-        *(&mut *((*(_3546 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3546 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3550;
         _3551 = *(&mut _3126 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15367,32 +15367,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(&mut _2809 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3552;
         _3553 = *(&mut _2808 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _3554 = *(&mut _2809 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _3555 = *(&mut *((*(&mut _2808 as *mut l_struct_struct_OC_vint4
+        _3555 = *(&raw mut *((*(&mut _2808 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3556 = *(&mut *((*(&mut _2809 as *mut l_struct_struct_OC_vint4
+        _3556 = *(&raw mut *((*(&mut _2809 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3557 = *(&mut *((*(&mut _2808 as *mut l_struct_struct_OC_vint4
+        _3557 = *(&raw mut *((*(&mut _2808 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3558 = *(&mut *((*(&mut _2809 as *mut l_struct_struct_OC_vint4
+        _3558 = *(&raw mut *((*(&mut _2809 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3559 = *(&mut *((*(&mut _2808 as *mut l_struct_struct_OC_vint4
+        _3559 = *(&raw mut *((*(&mut _2808 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3560 = *(&mut *((*(&mut _2809 as *mut l_struct_struct_OC_vint4
+        _3560 = *(&raw mut *((*(&mut _2809 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15406,15 +15406,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3562 = _2803;
         *(_3561 as *mut uint32_t) = _3562;
         _3563 = _2804;
-        *(&mut *((*(_3561 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3561 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3563;
         _3564 = _2805;
-        *(&mut *((*(_3561 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3561 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3564;
         _3565 = _2806;
-        *(&mut *((*(_3561 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3561 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3565;
         _3566 = *(&mut _2807 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15427,19 +15427,19 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(&mut _3060 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3568;
         _3569 = *(&mut _3060 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _3061 = llvm_lshr_u32(_3569, 1);
-        _3570 = *(&mut *((*(&mut _3060 as *mut l_struct_struct_OC_vint4
+        _3570 = *(&raw mut *((*(&mut _3060 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _3062 = llvm_lshr_u32(_3570, 1);
-        _3571 = *(&mut *((*(&mut _3060 as *mut l_struct_struct_OC_vint4
+        _3571 = *(&raw mut *((*(&mut _3060 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _3063 = llvm_lshr_u32(_3571, 1);
-        _3572 = *(&mut *((*(&mut _3060 as *mut l_struct_struct_OC_vint4
+        _3572 = *(&raw mut *((*(&mut _3060 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15458,15 +15458,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3578 = _2894;
         *(_3577 as *mut uint32_t) = _3578;
         _3579 = _2895;
-        *(&mut *((*(_3577 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3577 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3579;
         _3580 = _2896;
-        *(&mut *((*(_3577 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3577 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3580;
         _3581 = _2897;
-        *(&mut *((*(_3577 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3577 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3581;
         _3582 = *(&mut _3059 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15480,32 +15480,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(&mut _3107 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3584;
         _3585 = *(&mut _3106 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _3586 = *(&mut _3107 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _3587 = *(&mut *((*(&mut _3106 as *mut l_struct_struct_OC_vint4
+        _3587 = *(&raw mut *((*(&mut _3106 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3588 = *(&mut *((*(&mut _3107 as *mut l_struct_struct_OC_vint4
+        _3588 = *(&raw mut *((*(&mut _3107 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3589 = *(&mut *((*(&mut _3106 as *mut l_struct_struct_OC_vint4
+        _3589 = *(&raw mut *((*(&mut _3106 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3590 = *(&mut *((*(&mut _3107 as *mut l_struct_struct_OC_vint4
+        _3590 = *(&raw mut *((*(&mut _3107 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3591 = *(&mut *((*(&mut _3106 as *mut l_struct_struct_OC_vint4
+        _3591 = *(&raw mut *((*(&mut _3106 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3592 = *(&mut *((*(&mut _3107 as *mut l_struct_struct_OC_vint4
+        _3592 = *(&raw mut *((*(&mut _3107 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15519,15 +15519,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3594 = _2879;
         *(_3593 as *mut uint32_t) = _3594;
         _3595 = _2880;
-        *(&mut *((*(_3593 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3593 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3595;
         _3596 = _2881;
-        *(&mut *((*(_3593 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3593 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3596;
         _3597 = _2882;
-        *(&mut *((*(_3593 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3593 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3597;
         _3598 = *(&mut _3105 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15567,32 +15567,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(&mut _3058 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3607;
         _3608 = *(&mut _3057 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _3609 = *(&mut _3058 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _3610 = *(&mut *((*(&mut _3057 as *mut l_struct_struct_OC_vint4
+        _3610 = *(&raw mut *((*(&mut _3057 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3611 = *(&mut *((*(&mut _3058 as *mut l_struct_struct_OC_vint4
+        _3611 = *(&raw mut *((*(&mut _3058 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3612 = *(&mut *((*(&mut _3057 as *mut l_struct_struct_OC_vint4
+        _3612 = *(&raw mut *((*(&mut _3057 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3613 = *(&mut *((*(&mut _3058 as *mut l_struct_struct_OC_vint4
+        _3613 = *(&raw mut *((*(&mut _3058 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3614 = *(&mut *((*(&mut _3057 as *mut l_struct_struct_OC_vint4
+        _3614 = *(&raw mut *((*(&mut _3057 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3615 = *(&mut *((*(&mut _3058 as *mut l_struct_struct_OC_vint4
+        _3615 = *(&raw mut *((*(&mut _3058 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15606,15 +15606,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3617 = _2899;
         *(_3616 as *mut uint32_t) = _3617;
         _3618 = _2900;
-        *(&mut *((*(_3616 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3616 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3618;
         _3619 = _2901;
-        *(&mut *((*(_3616 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3616 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3619;
         _3620 = _2902;
-        *(&mut *((*(_3616 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3616 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3620;
         _3621 = *(&mut _3056 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15636,15 +15636,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3626 = _3080;
         *(_3625 as *mut uint32_t) = _3626;
         _3627 = _3080;
-        *(&mut *((*(_3625 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3625 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3627;
         _3628 = _3080;
-        *(&mut *((*(_3625 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3625 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3628;
         _3629 = _3080;
-        *(&mut *((*(_3625 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3625 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3629;
         _3630 = *(&mut _3131 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15653,32 +15653,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(&mut _2801 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3631;
         _3632 = *(&mut _2800 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _3633 = *(&mut _2801 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _3634 = *(&mut *((*(&mut _2800 as *mut l_struct_struct_OC_vint4
+        _3634 = *(&raw mut *((*(&mut _2800 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3635 = *(&mut *((*(&mut _2801 as *mut l_struct_struct_OC_vint4
+        _3635 = *(&raw mut *((*(&mut _2801 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3636 = *(&mut *((*(&mut _2800 as *mut l_struct_struct_OC_vint4
+        _3636 = *(&raw mut *((*(&mut _2800 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3637 = *(&mut *((*(&mut _2801 as *mut l_struct_struct_OC_vint4
+        _3637 = *(&raw mut *((*(&mut _2801 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3638 = *(&mut *((*(&mut _2800 as *mut l_struct_struct_OC_vint4
+        _3638 = *(&raw mut *((*(&mut _2800 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3639 = *(&mut *((*(&mut _2801 as *mut l_struct_struct_OC_vint4
+        _3639 = *(&raw mut *((*(&mut _2801 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15692,15 +15692,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3641 = _2795;
         *(_3640 as *mut uint32_t) = _3641;
         _3642 = _2796;
-        *(&mut *((*(_3640 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3640 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3642;
         _3643 = _2797;
-        *(&mut *((*(_3640 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3640 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3643;
         _3644 = _2798;
-        *(&mut *((*(_3640 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3640 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3644;
         _3645 = *(&mut _2799 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15712,7 +15712,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3098 = 0;
         _3647 = _3097;
         _3648 = _3098;
-        *(&mut *((*(_3647 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3647 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3648;
         _3649 = memcpy(
@@ -15726,15 +15726,15 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3651 = _3051;
         *(_3650 as *mut uint32_t) = _3651;
         _3652 = _3051;
-        *(&mut *((*(_3650 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3650 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3652;
         _3653 = _3051;
-        *(&mut *((*(_3650 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3650 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3653;
         _3654 = _3051;
-        *(&mut *((*(_3650 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3650 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _3654;
         _3655 = *(&mut _3052 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -15748,32 +15748,32 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         *(&mut _3055 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _3657;
         _3658 = *(&mut _3054 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
         _3659 = *(&mut _3055 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-        _3660 = *(&mut *((*(&mut _3054 as *mut l_struct_struct_OC_vint4
+        _3660 = *(&raw mut *((*(&mut _3054 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3661 = *(&mut *((*(&mut _3055 as *mut l_struct_struct_OC_vint4
+        _3661 = *(&raw mut *((*(&mut _3055 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3662 = *(&mut *((*(&mut _3054 as *mut l_struct_struct_OC_vint4
+        _3662 = *(&raw mut *((*(&mut _3054 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3663 = *(&mut *((*(&mut _3055 as *mut l_struct_struct_OC_vint4
+        _3663 = *(&raw mut *((*(&mut _3055 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3664 = *(&mut *((*(&mut _3054 as *mut l_struct_struct_OC_vint4
+        _3664 = *(&raw mut *((*(&mut _3054 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3665 = *(&mut *((*(&mut _3055 as *mut l_struct_struct_OC_vint4
+        _3665 = *(&raw mut *((*(&mut _3055 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15796,7 +15796,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3669 = _2958;
         _3670 = ((_3669 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_3666 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3666 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3669 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15807,7 +15807,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3671 = _2959;
         _3672 = ((_3671 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_3666 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3666 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3671 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15818,7 +15818,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3673 = _2960;
         _3674 = ((_3673 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
             == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-        *(&mut *((*(_3666 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_3666 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
             ((_3673 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -15840,17 +15840,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
         _3678 = *(&mut _3164 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t);
         *(&mut _2924 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _3678;
         _3679 = *(&mut _2924 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-        _3680 = *(&mut *((*(&mut _2924 as *mut l_struct_struct_OC_vmask4
+        _3680 = *(&raw mut *((*(&mut _2924 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3681 = *(&mut *((*(&mut _2924 as *mut l_struct_struct_OC_vmask4
+        _3681 = *(&raw mut *((*(&mut _2924 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _3682 = *(&mut *((*(&mut _2924 as *mut l_struct_struct_OC_vmask4
+        _3682 = *(&raw mut *((*(&mut _2924 as *mut l_struct_struct_OC_vmask4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -15882,21 +15882,21 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3687;
             _3688 = *(&mut _2996 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _2997 = llvm_lshr_u32(_3688, 1);
-            _3689 = *(&mut *((*(&mut _2996 as *mut l_struct_struct_OC_vint4
+            _3689 = *(&raw mut *((*(&mut _2996 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             _2998 = llvm_lshr_u32(_3689, 1);
-            _3690 = *(&mut *((*(&mut _2996 as *mut l_struct_struct_OC_vint4
+            _3690 = *(&raw mut *((*(&mut _2996 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             _2999 = llvm_lshr_u32(_3690, 1);
-            _3691 = *(&mut *((*(&mut _2996 as *mut l_struct_struct_OC_vint4
+            _3691 = *(&raw mut *((*(&mut _2996 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -15916,17 +15916,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3697 = _2904;
             *(_3696 as *mut uint32_t) = _3697;
             _3698 = _2905;
-            *(&mut *((*(_3696 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3696 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3698;
             _3699 = _2906;
-            *(&mut *((*(_3696 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3696 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3699;
             _3700 = _2907;
-            *(&mut *((*(_3696 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3696 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3700;
@@ -15957,17 +15957,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3708 = _3012;
             *(_3707 as *mut uint32_t) = _3708;
             _3709 = _3012;
-            *(&mut *((*(_3707 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3707 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3709;
             _3710 = _3012;
-            *(&mut *((*(_3707 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3707 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3710;
             _3711 = _3012;
-            *(&mut *((*(_3707 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3707 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3711;
@@ -15981,37 +15981,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3713;
             _3714 = *(&mut _2840 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _3715 = *(&mut _2841 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _3716 = *(&mut *((*(&mut _2840 as *mut l_struct_struct_OC_vint4
+            _3716 = *(&raw mut *((*(&mut _2840 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3717 = *(&mut *((*(&mut _2841 as *mut l_struct_struct_OC_vint4
+            _3717 = *(&raw mut *((*(&mut _2841 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3718 = *(&mut *((*(&mut _2840 as *mut l_struct_struct_OC_vint4
+            _3718 = *(&raw mut *((*(&mut _2840 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3719 = *(&mut *((*(&mut _2841 as *mut l_struct_struct_OC_vint4
+            _3719 = *(&raw mut *((*(&mut _2841 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3720 = *(&mut *((*(&mut _2840 as *mut l_struct_struct_OC_vint4
+            _3720 = *(&raw mut *((*(&mut _2840 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3721 = *(&mut *((*(&mut _2841 as *mut l_struct_struct_OC_vint4
+            _3721 = *(&raw mut *((*(&mut _2841 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -16026,17 +16026,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3723 = _2835;
             *(_3722 as *mut uint32_t) = _3723;
             _3724 = _2836;
-            *(&mut *((*(_3722 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3722 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3724;
             _3725 = _2837;
-            *(&mut *((*(_3722 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3722 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3725;
             _3726 = _2838;
-            *(&mut *((*(_3722 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3722 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3726;
@@ -16058,37 +16058,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3730;
             _3731 = *(&mut _3014 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _3732 = *(&mut _3015 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _3733 = *(&mut *((*(&mut _3014 as *mut l_struct_struct_OC_vint4
+            _3733 = *(&raw mut *((*(&mut _3014 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3734 = *(&mut *((*(&mut _3015 as *mut l_struct_struct_OC_vint4
+            _3734 = *(&raw mut *((*(&mut _3015 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3735 = *(&mut *((*(&mut _3014 as *mut l_struct_struct_OC_vint4
+            _3735 = *(&raw mut *((*(&mut _3014 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3736 = *(&mut *((*(&mut _3015 as *mut l_struct_struct_OC_vint4
+            _3736 = *(&raw mut *((*(&mut _3015 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3737 = *(&mut *((*(&mut _3014 as *mut l_struct_struct_OC_vint4
+            _3737 = *(&raw mut *((*(&mut _3014 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3738 = *(&mut *((*(&mut _3015 as *mut l_struct_struct_OC_vint4
+            _3738 = *(&raw mut *((*(&mut _3015 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -16103,17 +16103,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3740 = _2909;
             *(_3739 as *mut uint32_t) = _3740;
             _3741 = _2910;
-            *(&mut *((*(_3739 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3739 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3741;
             _3742 = _2911;
-            *(&mut *((*(_3739 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3739 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3742;
             _3743 = _2912;
-            *(&mut *((*(_3739 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3739 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3743;
@@ -16139,21 +16139,21 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3749;
             _3750 = *(&mut _3002 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _3003 = llvm_lshr_u32(_3750, 1);
-            _3751 = *(&mut *((*(&mut _3002 as *mut l_struct_struct_OC_vint4
+            _3751 = *(&raw mut *((*(&mut _3002 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             _3004 = llvm_lshr_u32(_3751, 1);
-            _3752 = *(&mut *((*(&mut _3002 as *mut l_struct_struct_OC_vint4
+            _3752 = *(&raw mut *((*(&mut _3002 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             _3005 = llvm_lshr_u32(_3752, 1);
-            _3753 = *(&mut *((*(&mut _3002 as *mut l_struct_struct_OC_vint4
+            _3753 = *(&raw mut *((*(&mut _3002 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -16173,17 +16173,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3759 = _2914;
             *(_3758 as *mut uint32_t) = _3759;
             _3760 = _2915;
-            *(&mut *((*(_3758 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3758 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3760;
             _3761 = _2916;
-            *(&mut *((*(_3758 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3758 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3761;
             _3762 = _2917;
-            *(&mut *((*(_3758 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3758 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3762;
@@ -16208,17 +16208,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3768 = _3010;
             *(_3767 as *mut uint32_t) = _3768;
             _3769 = _3010;
-            *(&mut *((*(_3767 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3767 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3769;
             _3770 = _3010;
-            *(&mut *((*(_3767 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3767 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3770;
             _3771 = _3010;
-            *(&mut *((*(_3767 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3767 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3771;
@@ -16232,37 +16232,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3773;
             _3774 = *(&mut _2848 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _3775 = *(&mut _2849 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _3776 = *(&mut *((*(&mut _2848 as *mut l_struct_struct_OC_vint4
+            _3776 = *(&raw mut *((*(&mut _2848 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3777 = *(&mut *((*(&mut _2849 as *mut l_struct_struct_OC_vint4
+            _3777 = *(&raw mut *((*(&mut _2849 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3778 = *(&mut *((*(&mut _2848 as *mut l_struct_struct_OC_vint4
+            _3778 = *(&raw mut *((*(&mut _2848 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3779 = *(&mut *((*(&mut _2849 as *mut l_struct_struct_OC_vint4
+            _3779 = *(&raw mut *((*(&mut _2849 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3780 = *(&mut *((*(&mut _2848 as *mut l_struct_struct_OC_vint4
+            _3780 = *(&raw mut *((*(&mut _2848 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3781 = *(&mut *((*(&mut _2849 as *mut l_struct_struct_OC_vint4
+            _3781 = *(&raw mut *((*(&mut _2849 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -16277,17 +16277,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3783 = _2843;
             *(_3782 as *mut uint32_t) = _3783;
             _3784 = _2844;
-            *(&mut *((*(_3782 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3782 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3784;
             _3785 = _2845;
-            *(&mut *((*(_3782 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3782 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3785;
             _3786 = _2846;
-            *(&mut *((*(_3782 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3782 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3786;
@@ -16328,17 +16328,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3797 = _3008;
             *(_3796 as *mut uint32_t) = _3797;
             _3798 = _3008;
-            *(&mut *((*(_3796 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3796 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3798;
             _3799 = _3008;
-            *(&mut *((*(_3796 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3796 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3799;
             _3800 = _3008;
-            *(&mut *((*(_3796 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3796 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3800;
@@ -16352,37 +16352,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3802;
             _3803 = *(&mut _2856 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _3804 = *(&mut _2857 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _3805 = *(&mut *((*(&mut _2856 as *mut l_struct_struct_OC_vint4
+            _3805 = *(&raw mut *((*(&mut _2856 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3806 = *(&mut *((*(&mut _2857 as *mut l_struct_struct_OC_vint4
+            _3806 = *(&raw mut *((*(&mut _2857 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3807 = *(&mut *((*(&mut _2856 as *mut l_struct_struct_OC_vint4
+            _3807 = *(&raw mut *((*(&mut _2856 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3808 = *(&mut *((*(&mut _2857 as *mut l_struct_struct_OC_vint4
+            _3808 = *(&raw mut *((*(&mut _2857 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3809 = *(&mut *((*(&mut _2856 as *mut l_struct_struct_OC_vint4
+            _3809 = *(&raw mut *((*(&mut _2856 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3810 = *(&mut *((*(&mut _2857 as *mut l_struct_struct_OC_vint4
+            _3810 = *(&raw mut *((*(&mut _2857 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -16397,17 +16397,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3812 = _2851;
             *(_3811 as *mut uint32_t) = _3812;
             _3813 = _2852;
-            *(&mut *((*(_3811 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3811 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3813;
             _3814 = _2853;
-            *(&mut *((*(_3811 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3811 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3814;
             _3815 = _2854;
-            *(&mut *((*(_3811 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3811 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3815;
@@ -16425,17 +16425,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3819 = _2990;
             *(_3818 as *mut uint32_t) = _3819;
             _3820 = _2990;
-            *(&mut *((*(_3818 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3818 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3820;
             _3821 = _2990;
-            *(&mut *((*(_3818 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3818 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3821;
             _3822 = _2990;
-            *(&mut *((*(_3818 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3818 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3822;
@@ -16453,37 +16453,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3825;
             _3826 = *(&mut _2993 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _3827 = *(&mut _2994 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _3828 = *(&mut *((*(&mut _2993 as *mut l_struct_struct_OC_vint4
+            _3828 = *(&raw mut *((*(&mut _2993 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3829 = *(&mut *((*(&mut _2994 as *mut l_struct_struct_OC_vint4
+            _3829 = *(&raw mut *((*(&mut _2994 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3830 = *(&mut *((*(&mut _2993 as *mut l_struct_struct_OC_vint4
+            _3830 = *(&raw mut *((*(&mut _2993 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3831 = *(&mut *((*(&mut _2994 as *mut l_struct_struct_OC_vint4
+            _3831 = *(&raw mut *((*(&mut _2994 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3832 = *(&mut *((*(&mut _2993 as *mut l_struct_struct_OC_vint4
+            _3832 = *(&raw mut *((*(&mut _2993 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3833 = *(&mut *((*(&mut _2994 as *mut l_struct_struct_OC_vint4
+            _3833 = *(&raw mut *((*(&mut _2994 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -16509,7 +16509,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3838 = ((_3837 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                 as uint64_t;
-            *(&mut *((*(_3834 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3834 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
@@ -16522,7 +16522,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3840 = ((_3839 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                 as uint64_t;
-            *(&mut *((*(_3834 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3834 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
@@ -16535,7 +16535,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3842 = ((_3841 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
                 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                 as uint64_t;
-            *(&mut *((*(_3834 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3834 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = llvm_select_u32(
@@ -16577,17 +16577,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3852 = _2776;
             *(_3851 as *mut uint32_t) = _3852;
             _3853 = _2776;
-            *(&mut *((*(_3851 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3851 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3853;
             _3854 = _2776;
-            *(&mut *((*(_3851 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3851 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3854;
             _3855 = _2776;
-            *(&mut *((*(_3851 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3851 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3855;
@@ -16601,37 +16601,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3857;
             _3858 = *(&mut _2778 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
             _3859 = *(&mut _2779 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-            _3860 = *(&mut *((*(&mut _2778 as *mut l_struct_struct_OC_vint4
+            _3860 = *(&raw mut *((*(&mut _2778 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3861 = *(&mut *((*(&mut _2779 as *mut l_struct_struct_OC_vint4
+            _3861 = *(&raw mut *((*(&mut _2779 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3862 = *(&mut *((*(&mut _2778 as *mut l_struct_struct_OC_vint4
+            _3862 = *(&raw mut *((*(&mut _2778 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3863 = *(&mut *((*(&mut _2779 as *mut l_struct_struct_OC_vint4
+            _3863 = *(&raw mut *((*(&mut _2779 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3864 = *(&mut *((*(&mut _2778 as *mut l_struct_struct_OC_vint4
+            _3864 = *(&raw mut *((*(&mut _2778 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _3865 = *(&mut *((*(&mut _2779 as *mut l_struct_struct_OC_vint4
+            _3865 = *(&raw mut *((*(&mut _2779 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -16646,17 +16646,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3867 = _2771;
             *(_3866 as *mut uint32_t) = _3867;
             _3868 = _2772;
-            *(&mut *((*(_3866 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3866 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3868;
             _3869 = _2773;
-            *(&mut *((*(_3866 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3866 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3869;
             _3870 = _2774;
-            *(&mut *((*(_3866 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3866 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3870;
@@ -16694,14 +16694,14 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3880__PHI_TEMPORARY = _3879;
             }
             _3880 = _3880__PHI_TEMPORARY;
-            _3881 = *(&mut *((*(&mut _2793 as *mut l_struct_struct_OC_vmask4
+            _3881 = *(&raw mut *((*(&mut _2793 as *mut l_struct_struct_OC_vmask4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             if _3881 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-                _3882 = *(&mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
+                _3882 = *(&raw mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -16709,7 +16709,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t);
                 _3884__PHI_TEMPORARY = _3882;
             } else {
-                _3883 = *(&mut *((*(&mut _2791 as *mut l_struct_struct_OC_vint4
+                _3883 = *(&raw mut *((*(&mut _2791 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -16718,14 +16718,14 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3884__PHI_TEMPORARY = _3883;
             }
             _3884 = _3884__PHI_TEMPORARY;
-            _3885 = *(&mut *((*(&mut _2793 as *mut l_struct_struct_OC_vmask4
+            _3885 = *(&raw mut *((*(&mut _2793 as *mut l_struct_struct_OC_vmask4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             if _3885 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-                _3886 = *(&mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
+                _3886 = *(&raw mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -16733,7 +16733,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t);
                 _3888__PHI_TEMPORARY = _3886;
             } else {
-                _3887 = *(&mut *((*(&mut _2791 as *mut l_struct_struct_OC_vint4
+                _3887 = *(&raw mut *((*(&mut _2791 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -16742,14 +16742,14 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3888__PHI_TEMPORARY = _3887;
             }
             _3888 = _3888__PHI_TEMPORARY;
-            _3889 = *(&mut *((*(&mut _2793 as *mut l_struct_struct_OC_vmask4
+            _3889 = *(&raw mut *((*(&mut _2793 as *mut l_struct_struct_OC_vmask4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             if _3889 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-                _3890 = *(&mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
+                _3890 = *(&raw mut *((*(&mut _2792 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -16757,7 +16757,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as *mut uint32_t);
                 _3892__PHI_TEMPORARY = _3890;
             } else {
-                _3891 = *(&mut *((*(&mut _2791 as *mut l_struct_struct_OC_vint4
+                _3891 = *(&raw mut *((*(&mut _2791 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -16775,17 +16775,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3894 = _2786;
             *(_3893 as *mut uint32_t) = _3894;
             _3895 = _2787;
-            *(&mut *((*(_3893 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3893 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3895;
             _3896 = _2788;
-            *(&mut *((*(_3893 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3893 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3896;
             _3897 = _2789;
-            *(&mut *((*(_3893 as *mut crate::l_array_4_uint32_t)).array)
+            *(&raw mut *((*(_3893 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _3897;
@@ -16814,13 +16814,13 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
             _3904 = *(_3903 as *mut uint32_t);
             _2986 = &mut _2988 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
             _3905 = _2986;
-            _3906 = *(&mut *((*(_3905 as *mut crate::l_array_4_uint32_t)).array)
+            _3906 = *(&raw mut *((*(_3905 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
             _2985 = &mut _2988 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
             _3907 = _2985;
-            _3908 = *(&mut *((*(_3907 as *mut crate::l_array_4_uint32_t)).array)
+            _3908 = *(&raw mut *((*(_3907 as *mut crate::l_array_4_uint32_t)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
@@ -16851,37 +16851,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     _3912;
                 _3913 = *(&mut _2983 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _3914 = *(&mut _2984 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _3915 = *(&mut *((*(&mut _2983 as *mut l_struct_struct_OC_vint4
+                _3915 = *(&raw mut *((*(&mut _2983 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3916 = *(&mut *((*(&mut _2984 as *mut l_struct_struct_OC_vint4
+                _3916 = *(&raw mut *((*(&mut _2984 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3917 = *(&mut *((*(&mut _2983 as *mut l_struct_struct_OC_vint4
+                _3917 = *(&raw mut *((*(&mut _2983 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3918 = *(&mut *((*(&mut _2984 as *mut l_struct_struct_OC_vint4
+                _3918 = *(&raw mut *((*(&mut _2984 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3919 = *(&mut *((*(&mut _2983 as *mut l_struct_struct_OC_vint4
+                _3919 = *(&raw mut *((*(&mut _2983 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3920 = *(&mut *((*(&mut _2984 as *mut l_struct_struct_OC_vint4
+                _3920 = *(&raw mut *((*(&mut _2984 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -16896,17 +16896,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3922 = _2919;
                 *(_3921 as *mut uint32_t) = _3922;
                 _3923 = _2920;
-                *(&mut *((*(_3921 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3921 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3923;
                 _3924 = _2921;
-                *(&mut *((*(_3921 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3921 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3924;
                 _3925 = _2922;
-                *(&mut *((*(_3921 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3921 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3925;
@@ -16930,17 +16930,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3930 = _3074;
                 *(_3929 as *mut uint32_t) = _3930;
                 _3931 = _3074;
-                *(&mut *((*(_3929 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3929 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3931;
                 _3932 = _3074;
-                *(&mut *((*(_3929 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3929 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3932;
                 _3933 = _3074;
-                *(&mut *((*(_3929 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3929 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3933;
@@ -16956,37 +16956,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     _3935;
                 _3936 = *(&mut _3069 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _3937 = *(&mut _3070 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _3938 = *(&mut *((*(&mut _3069 as *mut l_struct_struct_OC_vint4
+                _3938 = *(&raw mut *((*(&mut _3069 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3939 = *(&mut *((*(&mut _3070 as *mut l_struct_struct_OC_vint4
+                _3939 = *(&raw mut *((*(&mut _3070 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3940 = *(&mut *((*(&mut _3069 as *mut l_struct_struct_OC_vint4
+                _3940 = *(&raw mut *((*(&mut _3069 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3941 = *(&mut *((*(&mut _3070 as *mut l_struct_struct_OC_vint4
+                _3941 = *(&raw mut *((*(&mut _3070 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3942 = *(&mut *((*(&mut _3069 as *mut l_struct_struct_OC_vint4
+                _3942 = *(&raw mut *((*(&mut _3069 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3943 = *(&mut *((*(&mut _3070 as *mut l_struct_struct_OC_vint4
+                _3943 = *(&raw mut *((*(&mut _3070 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -17015,7 +17015,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3944 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3944 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17030,7 +17030,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3944 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3944 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17045,7 +17045,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3944 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3944 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17070,17 +17070,17 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 _3956 = _3072;
                 *(_3955 as *mut uint32_t) = _3956;
                 _3957 = _3072;
-                *(&mut *((*(_3955 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3955 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3957;
                 _3958 = _3072;
-                *(&mut *((*(_3955 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3955 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3958;
                 _3959 = _3072;
-                *(&mut *((*(_3955 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3955 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = _3959;
@@ -17096,37 +17096,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     _3961;
                 _3962 = *(&mut _3093 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
                 _3963 = *(&mut _3094 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-                _3964 = *(&mut *((*(&mut _3093 as *mut l_struct_struct_OC_vint4
+                _3964 = *(&raw mut *((*(&mut _3093 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3965 = *(&mut *((*(&mut _3094 as *mut l_struct_struct_OC_vint4
+                _3965 = *(&raw mut *((*(&mut _3094 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3966 = *(&mut *((*(&mut _3093 as *mut l_struct_struct_OC_vint4
+                _3966 = *(&raw mut *((*(&mut _3093 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3967 = *(&mut *((*(&mut _3094 as *mut l_struct_struct_OC_vint4
+                _3967 = *(&raw mut *((*(&mut _3094 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3968 = *(&mut *((*(&mut _3093 as *mut l_struct_struct_OC_vint4
+                _3968 = *(&raw mut *((*(&mut _3093 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3969 = *(&mut *((*(&mut _3094 as *mut l_struct_struct_OC_vint4
+                _3969 = *(&raw mut *((*(&mut _3094 as *mut l_struct_struct_OC_vint4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -17155,7 +17155,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3970 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3970 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17170,7 +17170,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3970 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3970 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17185,7 +17185,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3970 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3970 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17211,37 +17211,37 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     _3981;
                 _3982 = *(&mut _3171 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
                 _3983 = *(&mut _3172 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-                _3984 = *(&mut *((*(&mut _3171 as *mut l_struct_struct_OC_vmask4
+                _3984 = *(&raw mut *((*(&mut _3171 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3985 = *(&mut *((*(&mut _3172 as *mut l_struct_struct_OC_vmask4
+                _3985 = *(&raw mut *((*(&mut _3172 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3986 = *(&mut *((*(&mut _3171 as *mut l_struct_struct_OC_vmask4
+                _3986 = *(&raw mut *((*(&mut _3171 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3987 = *(&mut *((*(&mut _3172 as *mut l_struct_struct_OC_vmask4
+                _3987 = *(&raw mut *((*(&mut _3172 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3988 = *(&mut *((*(&mut _3171 as *mut l_struct_struct_OC_vmask4
+                _3988 = *(&raw mut *((*(&mut _3171 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _3989 = *(&mut *((*(&mut _3172 as *mut l_struct_struct_OC_vmask4
+                _3989 = *(&raw mut *((*(&mut _3172 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -17270,7 +17270,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3990 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3990 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17285,7 +17285,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3990 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3990 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17300,7 +17300,7 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                     as uint32_t
                     == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0
                     as uint64_t;
-                *(&mut *((*(_3990 as *mut crate::l_array_4_uint32_t)).array)
+                *(&raw mut *((*(_3990 as *mut crate::l_array_4_uint32_t)).array)
                     .as_mut_ptr()
                     .offset(3 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t) = llvm_select_u32(
@@ -17329,19 +17329,19 @@ unsafe extern "C" fn _ZL22try_quantize_rgb_delta7vfloat4S_R5vint4S1_12quant_meth
                 *(&mut _2923 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) =
                     _4002;
                 _4003 = *(&mut _2923 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-                _4004 = *(&mut *((*(&mut _2923 as *mut l_struct_struct_OC_vmask4
+                _4004 = *(&raw mut *((*(&mut _2923 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(1 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _4005 = *(&mut *((*(&mut _2923 as *mut l_struct_struct_OC_vmask4
+                _4005 = *(&raw mut *((*(&mut _2923 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(2 as core::ffi::c_int as int64_t as isize)
                     as *mut uint32_t);
-                _4006 = *(&mut *((*(&mut _2923 as *mut l_struct_struct_OC_vmask4
+                _4006 = *(&raw mut *((*(&mut _2923 as *mut l_struct_struct_OC_vmask4
                     as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
@@ -18204,25 +18204,25 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4257 = _4175;
     _4089 = _4257;
     _4258 = _4089;
-    _4259 = *(&mut *((*(_4258 as *mut crate::l_array_4_float)).array)
+    _4259 = *(&raw mut *((*(_4258 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _4090 = _4257;
     _4260 = _4090;
-    _4261 = *(&mut *((*(_4260 as *mut crate::l_array_4_float)).array)
+    _4261 = *(&raw mut *((*(_4260 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _4091 = _4257;
     _4262 = _4091;
-    _4263 = *(&mut *((*(_4262 as *mut crate::l_array_4_float)).array)
+    _4263 = *(&raw mut *((*(_4262 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _4085 = _4257;
     _4264 = _4085;
-    _4265 = *(&mut *((*(_4264 as *mut crate::l_array_4_float)).array)
+    _4265 = *(&raw mut *((*(_4264 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -18235,15 +18235,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4267 = _4170;
     *(_4266 as *mut core::ffi::c_float) = _4267;
     _4268 = _4171;
-    *(&mut *((*(_4266 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4266 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4268;
     _4269 = _4172;
-    *(&mut *((*(_4266 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4266 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4269;
     _4270 = _4173;
-    *(&mut *((*(_4266 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4266 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4270;
     _4271 = _4174;
@@ -18254,37 +18254,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4190 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4273;
     _4274 = *(&mut _4189 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4275 = *(&mut _4190 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4276 = *(&mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4
+    _4276 = *(&raw mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4277 = *(&mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4
+    _4277 = *(&raw mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4278 = *(&mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4
+    _4278 = *(&raw mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4279 = *(&mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4
+    _4279 = *(&raw mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4280 = *(&mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4
+    _4280 = *(&raw mut *((*(&mut _4189 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4281 = *(&mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4
+    _4281 = *(&raw mut *((*(&mut _4190 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -18299,15 +18299,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4283 = _4184;
     *(_4282 as *mut core::ffi::c_float) = _4283;
     _4284 = _4185;
-    *(&mut *((*(_4282 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4282 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4284;
     _4285 = _4186;
-    *(&mut *((*(_4282 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4282 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4285;
     _4286 = _4187;
-    *(&mut *((*(_4282 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4282 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4286;
     _4287 = _4188;
@@ -18332,37 +18332,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4107 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4293;
     _4294 = *(&mut _4106 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4295 = *(&mut _4107 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4296 = *(&mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4
+    _4296 = *(&raw mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4297 = *(&mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4
+    _4297 = *(&raw mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4298 = *(&mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4
+    _4298 = *(&raw mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4299 = *(&mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4
+    _4299 = *(&raw mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4300 = *(&mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4
+    _4300 = *(&raw mut *((*(&mut _4106 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4301 = *(&mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4
+    _4301 = *(&raw mut *((*(&mut _4107 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -18377,15 +18377,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4303 = _4101;
     *(_4302 as *mut core::ffi::c_float) = _4303;
     _4304 = _4102;
-    *(&mut *((*(_4302 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4302 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4304;
     _4305 = _4103;
-    *(&mut *((*(_4302 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4302 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4305;
     _4306 = _4104;
-    *(&mut *((*(_4302 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4302 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4306;
     _4307 = _4105;
@@ -18406,25 +18406,25 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4312 = _4182;
     _4086 = _4312;
     _4313 = _4086;
-    _4314 = *(&mut *((*(_4313 as *mut crate::l_array_4_float)).array)
+    _4314 = *(&raw mut *((*(_4313 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _4087 = _4312;
     _4315 = _4087;
-    _4316 = *(&mut *((*(_4315 as *mut crate::l_array_4_float)).array)
+    _4316 = *(&raw mut *((*(_4315 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _4088 = _4312;
     _4317 = _4088;
-    _4318 = *(&mut *((*(_4317 as *mut crate::l_array_4_float)).array)
+    _4318 = *(&raw mut *((*(_4317 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _4084 = _4312;
     _4319 = _4084;
-    _4320 = *(&mut *((*(_4319 as *mut crate::l_array_4_float)).array)
+    _4320 = *(&raw mut *((*(_4319 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -18437,15 +18437,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4322 = _4177;
     *(_4321 as *mut core::ffi::c_float) = _4322;
     _4323 = _4178;
-    *(&mut *((*(_4321 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4321 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4323;
     _4324 = _4179;
-    *(&mut *((*(_4321 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4321 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4324;
     _4325 = _4180;
-    *(&mut *((*(_4321 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4321 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4325;
     _4326 = _4181;
@@ -18456,37 +18456,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4198 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4328;
     _4329 = *(&mut _4197 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4330 = *(&mut _4198 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4331 = *(&mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4
+    _4331 = *(&raw mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4332 = *(&mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4
+    _4332 = *(&raw mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4333 = *(&mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4
+    _4333 = *(&raw mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4334 = *(&mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4
+    _4334 = *(&raw mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4335 = *(&mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4
+    _4335 = *(&raw mut *((*(&mut _4197 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4336 = *(&mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4
+    _4336 = *(&raw mut *((*(&mut _4198 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -18501,15 +18501,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4338 = _4192;
     *(_4337 as *mut core::ffi::c_float) = _4338;
     _4339 = _4193;
-    *(&mut *((*(_4337 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4337 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4339;
     _4340 = _4194;
-    *(&mut *((*(_4337 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4337 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4340;
     _4341 = _4195;
-    *(&mut *((*(_4337 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4337 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4341;
     _4342 = _4196;
@@ -18534,37 +18534,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4099 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4348;
     _4349 = *(&mut _4098 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4350 = *(&mut _4099 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4351 = *(&mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4
+    _4351 = *(&raw mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4352 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
+    _4352 = *(&raw mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4353 = *(&mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4
+    _4353 = *(&raw mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4354 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
+    _4354 = *(&raw mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4355 = *(&mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4
+    _4355 = *(&raw mut *((*(&mut _4098 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4356 = *(&mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
+    _4356 = *(&raw mut *((*(&mut _4099 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -18579,15 +18579,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4358 = _4093;
     *(_4357 as *mut core::ffi::c_float) = _4358;
     _4359 = _4094;
-    *(&mut *((*(_4357 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4357 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4359;
     _4360 = _4095;
-    *(&mut *((*(_4357 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4357 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4360;
     _4361 = _4096;
-    *(&mut *((*(_4357 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4357 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4361;
     _4362 = _4097;
@@ -18610,15 +18610,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4368 = _4216;
     *(_4367 as *mut core::ffi::c_float) = _4368;
     _4369 = _4216;
-    *(&mut *((*(_4367 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4367 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4369;
     _4370 = _4216;
-    *(&mut *((*(_4367 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4367 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4370;
     _4371 = _4216;
-    *(&mut *((*(_4367 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4367 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4371;
     _4372 = *(&mut _4231.field0 as *mut crate::l_array_4_float);
@@ -18627,37 +18627,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4156 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4373;
     _4374 = *(&mut _4155 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4375 = *(&mut _4156 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4376 = *(&mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4
+    _4376 = *(&raw mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4377 = *(&mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4
+    _4377 = *(&raw mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4378 = *(&mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4
+    _4378 = *(&raw mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4379 = *(&mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4
+    _4379 = *(&raw mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4380 = *(&mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4
+    _4380 = *(&raw mut *((*(&mut _4155 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4381 = *(&mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4
+    _4381 = *(&raw mut *((*(&mut _4156 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -18681,7 +18681,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4385 = _4071;
     _4386 = ((_4385 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4382 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4382 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4385 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18692,7 +18692,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4387 = _4072;
     _4388 = ((_4387 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4382 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4382 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4387 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18703,7 +18703,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4389 = _4073;
     _4390 = ((_4389 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4382 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4382 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4389 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18724,15 +18724,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4394 = _4214;
     *(_4393 as *mut core::ffi::c_float) = _4394;
     _4395 = _4214;
-    *(&mut *((*(_4393 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4393 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4395;
     _4396 = _4214;
-    *(&mut *((*(_4393 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4393 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4396;
     _4397 = _4214;
-    *(&mut *((*(_4393 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4393 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4397;
     _4398 = *(&mut _4234.field0 as *mut crate::l_array_4_float);
@@ -18741,37 +18741,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4150 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4399;
     _4400 = *(&mut _4149 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4401 = *(&mut _4150 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4402 = *(&mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4
+    _4402 = *(&raw mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4403 = *(&mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4
+    _4403 = *(&raw mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4404 = *(&mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4
+    _4404 = *(&raw mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4405 = *(&mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4
+    _4405 = *(&raw mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4406 = *(&mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4
+    _4406 = *(&raw mut *((*(&mut _4149 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4407 = *(&mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4
+    _4407 = *(&raw mut *((*(&mut _4150 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -18795,7 +18795,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4411 = _4081;
     _4412 = ((_4411 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4408 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4408 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4411 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18806,7 +18806,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4413 = _4082;
     _4414 = ((_4413 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4408 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4408 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4413 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18817,7 +18817,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4415 = _4083;
     _4416 = ((_4415 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4408 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4408 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4415 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18833,32 +18833,32 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4162 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _4419;
     _4420 = *(&mut _4161 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
     _4421 = *(&mut _4162 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _4422 = *(&mut *((*(&mut _4161 as *mut l_struct_struct_OC_vmask4
+    _4422 = *(&raw mut *((*(&mut _4161 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4423 = *(&mut *((*(&mut _4162 as *mut l_struct_struct_OC_vmask4
+    _4423 = *(&raw mut *((*(&mut _4162 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4424 = *(&mut *((*(&mut _4161 as *mut l_struct_struct_OC_vmask4
+    _4424 = *(&raw mut *((*(&mut _4161 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4425 = *(&mut *((*(&mut _4162 as *mut l_struct_struct_OC_vmask4
+    _4425 = *(&raw mut *((*(&mut _4162 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4426 = *(&mut *((*(&mut _4161 as *mut l_struct_struct_OC_vmask4
+    _4426 = *(&raw mut *((*(&mut _4161 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4427 = *(&mut *((*(&mut _4162 as *mut l_struct_struct_OC_vmask4
+    _4427 = *(&raw mut *((*(&mut _4162 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -18881,7 +18881,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4431 = _4061;
     _4432 = ((_4431 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4428 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4428 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4431 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18892,7 +18892,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4433 = _4062;
     _4434 = ((_4433 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4428 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4428 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4433 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18903,7 +18903,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4435 = _4063;
     _4436 = ((_4435 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4428 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4428 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4435 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -18924,15 +18924,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4440 = _4212;
     *(_4439 as *mut core::ffi::c_float) = _4440;
     _4441 = _4212;
-    *(&mut *((*(_4439 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4439 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4441;
     _4442 = _4212;
-    *(&mut *((*(_4439 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4439 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4442;
     _4443 = _4212;
-    *(&mut *((*(_4439 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4439 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4443;
     _4444 = *(&mut _4238.field0 as *mut crate::l_array_4_float);
@@ -18941,37 +18941,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4159 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4445;
     _4446 = *(&mut _4158 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4447 = *(&mut _4159 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4448 = *(&mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4
+    _4448 = *(&raw mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4449 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
+    _4449 = *(&raw mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4450 = *(&mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4
+    _4450 = *(&raw mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4451 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
+    _4451 = *(&raw mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4452 = *(&mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4
+    _4452 = *(&raw mut *((*(&mut _4158 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4453 = *(&mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
+    _4453 = *(&raw mut *((*(&mut _4159 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -18995,7 +18995,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4457 = _4066;
     _4458 = ((_4457 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4454 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4454 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4457 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19006,7 +19006,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4459 = _4067;
     _4460 = ((_4459 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4454 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4454 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4459 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19017,7 +19017,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4461 = _4068;
     _4462 = ((_4461 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4454 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4454 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4461 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19038,15 +19038,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4466 = _4210;
     *(_4465 as *mut core::ffi::c_float) = _4466;
     _4467 = _4210;
-    *(&mut *((*(_4465 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4465 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4467;
     _4468 = _4210;
-    *(&mut *((*(_4465 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4465 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4468;
     _4469 = _4210;
-    *(&mut *((*(_4465 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4465 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4469;
     _4470 = *(&mut _4241.field0 as *mut crate::l_array_4_float);
@@ -19055,37 +19055,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4153 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4471;
     _4472 = *(&mut _4152 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _4473 = *(&mut _4153 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _4474 = *(&mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4
+    _4474 = *(&raw mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4475 = *(&mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4
+    _4475 = *(&raw mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4476 = *(&mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4
+    _4476 = *(&raw mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4477 = *(&mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4
+    _4477 = *(&raw mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4478 = *(&mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4
+    _4478 = *(&raw mut *((*(&mut _4152 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _4479 = *(&mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4
+    _4479 = *(&raw mut *((*(&mut _4153 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -19109,7 +19109,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4483 = _4076;
     _4484 = ((_4483 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4480 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4480 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4483 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19120,7 +19120,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4485 = _4077;
     _4486 = ((_4485 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4480 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4480 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4485 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19131,7 +19131,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4487 = _4078;
     _4488 = ((_4487 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4480 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4480 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4487 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19147,32 +19147,32 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4165 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _4491;
     _4492 = *(&mut _4164 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
     _4493 = *(&mut _4165 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _4494 = *(&mut *((*(&mut _4164 as *mut l_struct_struct_OC_vmask4
+    _4494 = *(&raw mut *((*(&mut _4164 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4495 = *(&mut *((*(&mut _4165 as *mut l_struct_struct_OC_vmask4
+    _4495 = *(&raw mut *((*(&mut _4165 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4496 = *(&mut *((*(&mut _4164 as *mut l_struct_struct_OC_vmask4
+    _4496 = *(&raw mut *((*(&mut _4164 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4497 = *(&mut *((*(&mut _4165 as *mut l_struct_struct_OC_vmask4
+    _4497 = *(&raw mut *((*(&mut _4165 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4498 = *(&mut *((*(&mut _4164 as *mut l_struct_struct_OC_vmask4
+    _4498 = *(&raw mut *((*(&mut _4164 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4499 = *(&mut *((*(&mut _4165 as *mut l_struct_struct_OC_vmask4
+    _4499 = *(&raw mut *((*(&mut _4165 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -19195,7 +19195,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4503 = _4056;
     _4504 = ((_4503 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4500 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4500 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4503 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19206,7 +19206,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4505 = _4057;
     _4506 = ((_4505 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4500 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4500 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4505 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19217,7 +19217,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4507 = _4058;
     _4508 = ((_4507 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4500 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4500 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4507 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19243,32 +19243,32 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     *(&mut _4168 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _4513;
     _4514 = *(&mut _4167 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
     _4515 = *(&mut _4168 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _4516 = *(&mut *((*(&mut _4167 as *mut l_struct_struct_OC_vmask4
+    _4516 = *(&raw mut *((*(&mut _4167 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4517 = *(&mut *((*(&mut _4168 as *mut l_struct_struct_OC_vmask4
+    _4517 = *(&raw mut *((*(&mut _4168 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4518 = *(&mut *((*(&mut _4167 as *mut l_struct_struct_OC_vmask4
+    _4518 = *(&raw mut *((*(&mut _4167 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4519 = *(&mut *((*(&mut _4168 as *mut l_struct_struct_OC_vmask4
+    _4519 = *(&raw mut *((*(&mut _4168 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4520 = *(&mut *((*(&mut _4167 as *mut l_struct_struct_OC_vmask4
+    _4520 = *(&raw mut *((*(&mut _4167 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4521 = *(&mut *((*(&mut _4168 as *mut l_struct_struct_OC_vmask4
+    _4521 = *(&raw mut *((*(&mut _4168 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -19291,7 +19291,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4525 = _4051;
     _4526 = ((_4525 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4522 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4522 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4525 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19302,7 +19302,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4527 = _4052;
     _4528 = ((_4527 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4522 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4522 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4527 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19313,7 +19313,7 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4529 = _4053;
     _4530 = ((_4529 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_4522 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_4522 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_4529 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -19333,17 +19333,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
     _4534 = *(&mut _4147 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t);
     *(&mut _4048 as *mut l_struct_struct_OC_vmask4 as *mut crate::l_array_2_uint64_t) = _4534;
     _4535 = *(&mut _4048 as *mut l_struct_struct_OC_vmask4 as *mut uint32_t);
-    _4536 = *(&mut *((*(&mut _4048 as *mut l_struct_struct_OC_vmask4
+    _4536 = *(&raw mut *((*(&mut _4048 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4537 = *(&mut *((*(&mut _4048 as *mut l_struct_struct_OC_vmask4
+    _4537 = *(&raw mut *((*(&mut _4048 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _4538 = *(&mut *((*(&mut _4048 as *mut l_struct_struct_OC_vmask4
+    _4538 = *(&raw mut *((*(&mut _4048 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -19370,17 +19370,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4544 = _4133;
         *(_4543 as *mut core::ffi::c_float) = _4544;
         _4545 = _4133;
-        *(&mut *((*(_4543 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4543 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4545;
         _4546 = _4133;
-        *(&mut *((*(_4543 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4543 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4546;
         _4547 = _4133;
-        *(&mut *((*(_4543 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4543 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4547;
@@ -19390,37 +19390,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         *(&mut _4123 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4549;
         _4550 = *(&mut _4122 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _4551 = *(&mut _4123 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4552 = *(&mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4
+        _4552 = *(&raw mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4553 = *(&mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4
+        _4553 = *(&raw mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4554 = *(&mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4
+        _4554 = *(&raw mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4555 = *(&mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4
+        _4555 = *(&raw mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4556 = *(&mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4
+        _4556 = *(&raw mut *((*(&mut _4122 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4557 = *(&mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4
+        _4557 = *(&raw mut *((*(&mut _4123 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -19435,17 +19435,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4559 = _4117;
         *(_4558 as *mut core::ffi::c_float) = _4559;
         _4560 = _4118;
-        *(&mut *((*(_4558 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4558 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4560;
         _4561 = _4119;
-        *(&mut *((*(_4558 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4558 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4561;
         _4562 = _4120;
-        *(&mut *((*(_4558 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4558 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4562;
@@ -19458,19 +19458,19 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
             16,
         );
         _4565 = *(&mut _4135 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4566 = *(&mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4
+        _4566 = *(&raw mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4567 = *(&mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4
+        _4567 = *(&raw mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4568 = *(&mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4
+        _4568 = *(&raw mut *((*(&mut _4135 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -19485,15 +19485,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4570 = _4044;
         *(_4569 as *mut uint32_t) = _4570;
         _4571 = _4045;
-        *(&mut *((*(_4569 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4569 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4571;
         _4572 = _4046;
-        *(&mut *((*(_4569 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4569 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4572;
         _4573 = _4047;
-        *(&mut *((*(_4569 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4569 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4573;
         _4574 = *(&mut _4134 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -19529,17 +19529,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4584 = _4140;
         *(_4583 as *mut core::ffi::c_float) = _4584;
         _4585 = _4140;
-        *(&mut *((*(_4583 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4583 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4585;
         _4586 = _4140;
-        *(&mut *((*(_4583 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4583 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4586;
         _4587 = _4140;
-        *(&mut *((*(_4583 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4583 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4587;
@@ -19549,37 +19549,37 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         *(&mut _4115 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4589;
         _4590 = *(&mut _4114 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _4591 = *(&mut _4115 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4592 = *(&mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4
+        _4592 = *(&raw mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4593 = *(&mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4
+        _4593 = *(&raw mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4594 = *(&mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4
+        _4594 = *(&raw mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4595 = *(&mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4
+        _4595 = *(&raw mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4596 = *(&mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4
+        _4596 = *(&raw mut *((*(&mut _4114 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4597 = *(&mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4
+        _4597 = *(&raw mut *((*(&mut _4115 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -19594,17 +19594,17 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4599 = _4109;
         *(_4598 as *mut core::ffi::c_float) = _4599;
         _4600 = _4110;
-        *(&mut *((*(_4598 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4598 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4600;
         _4601 = _4111;
-        *(&mut *((*(_4598 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4598 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4601;
         _4602 = _4112;
-        *(&mut *((*(_4598 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4598 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4602;
@@ -19617,19 +19617,19 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
             16,
         );
         _4605 = *(&mut _4142 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4606 = *(&mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4
+        _4606 = *(&raw mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4607 = *(&mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4
+        _4607 = *(&raw mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4608 = *(&mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4
+        _4608 = *(&raw mut *((*(&mut _4142 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -19644,15 +19644,15 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4610 = _4039;
         *(_4609 as *mut uint32_t) = _4610;
         _4611 = _4040;
-        *(&mut *((*(_4609 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4609 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4611;
         _4612 = _4041;
-        *(&mut *((*(_4609 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4609 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4612;
         _4613 = _4042;
-        *(&mut *((*(_4609 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4609 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4613;
         _4614 = *(&mut _4141 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -19682,12 +19682,12 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4622 = *(_4621 as *mut uint32_t);
         _4125 = &mut _4127 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4623 = _4125;
-        _4624 = *(&mut *((*(_4623 as *mut crate::l_array_4_uint32_t)).array)
+        _4624 = *(&raw mut *((*(_4623 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _4124 = &mut _4127 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4625 = _4124;
-        _4626 = *(&mut *((*(_4625 as *mut crate::l_array_4_uint32_t)).array)
+        _4626 = *(&raw mut *((*(_4625 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _4627 = memcpy(
@@ -19703,12 +19703,12 @@ unsafe extern "C" fn _ZL30try_quantize_rgb_blue_contract7vfloat4S_R5vint4S1_12qu
         _4630 = *(_4629 as *mut uint32_t);
         _4129 = &mut _4131 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4631 = _4129;
-        _4632 = *(&mut *((*(_4631 as *mut crate::l_array_4_uint32_t)).array)
+        _4632 = *(&raw mut *((*(_4631 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _4128 = &mut _4131 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4633 = _4128;
-        _4634 = *(&mut *((*(_4633 as *mut crate::l_array_4_uint32_t)).array)
+        _4634 = *(&raw mut *((*(_4633 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if llvm_add_u32(llvm_add_u32(_4622, _4624), _4626) as int32_t
@@ -20212,15 +20212,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
     _4767 = _4735;
     *(_4766 as *mut core::ffi::c_float) = _4767;
     _4768 = _4735;
-    *(&mut *((*(_4766 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4766 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4768;
     _4769 = _4735;
-    *(&mut *((*(_4766 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4766 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4769;
     _4770 = _4735;
-    *(&mut *((*(_4766 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_4766 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _4770;
     loop {
@@ -20242,17 +20242,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4775 = _4713;
         *(_4774 as *mut core::ffi::c_float) = _4775;
         _4776 = _4713;
-        *(&mut *((*(_4774 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4774 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4776;
         _4777 = _4713;
-        *(&mut *((*(_4774 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4774 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4777;
         _4778 = _4713;
-        *(&mut *((*(_4774 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4774 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4778;
@@ -20262,37 +20262,37 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         *(&mut _4699 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4780;
         _4781 = *(&mut _4698 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _4782 = *(&mut _4699 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4783 = *(&mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4
+        _4783 = *(&raw mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4784 = *(&mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4
+        _4784 = *(&raw mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4785 = *(&mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4
+        _4785 = *(&raw mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4786 = *(&mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4
+        _4786 = *(&raw mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4787 = *(&mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4
+        _4787 = *(&raw mut *((*(&mut _4698 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4788 = *(&mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4
+        _4788 = *(&raw mut *((*(&mut _4699 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -20307,17 +20307,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4790 = _4693;
         *(_4789 as *mut core::ffi::c_float) = _4790;
         _4791 = _4694;
-        *(&mut *((*(_4789 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4789 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4791;
         _4792 = _4695;
-        *(&mut *((*(_4789 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4789 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4792;
         _4793 = _4696;
-        *(&mut *((*(_4789 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4789 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4793;
@@ -20330,19 +20330,19 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             16,
         );
         _4796 = *(&mut _4715 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4797 = *(&mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4
+        _4797 = *(&raw mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4798 = *(&mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4
+        _4798 = *(&raw mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4799 = *(&mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4
+        _4799 = *(&raw mut *((*(&mut _4715 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -20357,15 +20357,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4801 = _4672;
         *(_4800 as *mut uint32_t) = _4801;
         _4802 = _4673;
-        *(&mut *((*(_4800 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4800 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4802;
         _4803 = _4674;
-        *(&mut *((*(_4800 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4800 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4803;
         _4804 = _4675;
-        *(&mut *((*(_4800 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4800 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4804;
         _4805 = *(&mut _4714 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -20377,15 +20377,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4807 = _4711;
         *(_4806 as *mut uint32_t) = _4807;
         _4808 = _4711;
-        *(&mut *((*(_4806 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4806 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4808;
         _4809 = _4711;
-        *(&mut *((*(_4806 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4806 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4809;
         _4810 = _4711;
-        *(&mut *((*(_4806 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4806 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4810;
         _4811 =
@@ -20404,18 +20404,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             _4817__PHI_TEMPORARY = _4816;
         }
         _4817 = _4817__PHI_TEMPORARY;
-        _4818 = *(&mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
+        _4818 = *(&raw mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _4819 = *(&mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
+        _4819 = *(&raw mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if _4818 as int32_t > _4819 as int32_t {
-            _4820 = *(&mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
+            _4820 = *(&raw mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20423,7 +20423,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
                 as *mut uint32_t);
             _4822__PHI_TEMPORARY = _4820;
         } else {
-            _4821 = *(&mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
+            _4821 = *(&raw mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20432,18 +20432,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             _4822__PHI_TEMPORARY = _4821;
         }
         _4822 = _4822__PHI_TEMPORARY;
-        _4823 = *(&mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
+        _4823 = *(&raw mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _4824 = *(&mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
+        _4824 = *(&raw mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if _4823 as int32_t > _4824 as int32_t {
-            _4825 = *(&mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
+            _4825 = *(&raw mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20451,7 +20451,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
                 as *mut uint32_t);
             _4827__PHI_TEMPORARY = _4825;
         } else {
-            _4826 = *(&mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
+            _4826 = *(&raw mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20460,18 +20460,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             _4827__PHI_TEMPORARY = _4826;
         }
         _4827 = _4827__PHI_TEMPORARY;
-        _4828 = *(&mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
+        _4828 = *(&raw mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _4829 = *(&mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
+        _4829 = *(&raw mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if _4828 as int32_t > _4829 as int32_t {
-            _4830 = *(&mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
+            _4830 = *(&raw mut *((*(&mut _4664 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20479,7 +20479,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
                 as *mut uint32_t);
             _4832__PHI_TEMPORARY = _4830;
         } else {
-            _4831 = *(&mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
+            _4831 = *(&raw mut *((*(&mut _4665 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20497,15 +20497,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4834 = _4659;
         *(_4833 as *mut uint32_t) = _4834;
         _4835 = _4660;
-        *(&mut *((*(_4833 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4833 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4835;
         _4836 = _4661;
-        *(&mut *((*(_4833 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4833 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4836;
         _4837 = _4662;
-        *(&mut *((*(_4833 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4833 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4837;
         _4838 = *(&mut _4663 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -20549,37 +20549,37 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         *(&mut _4733 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4849;
         _4850 = *(&mut _4732 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _4851 = *(&mut _4733 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4852 = *(&mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4
+        _4852 = *(&raw mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4853 = *(&mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4
+        _4853 = *(&raw mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4854 = *(&mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4
+        _4854 = *(&raw mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4855 = *(&mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4
+        _4855 = *(&raw mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4856 = *(&mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4
+        _4856 = *(&raw mut *((*(&mut _4732 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4857 = *(&mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4
+        _4857 = *(&raw mut *((*(&mut _4733 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -20594,17 +20594,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4859 = _4727;
         *(_4858 as *mut core::ffi::c_float) = _4859;
         _4860 = _4728;
-        *(&mut *((*(_4858 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4858 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4860;
         _4861 = _4729;
-        *(&mut *((*(_4858 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4858 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4861;
         _4862 = _4730;
-        *(&mut *((*(_4858 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4858 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4862;
@@ -20633,17 +20633,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4869 = _4720;
         *(_4868 as *mut core::ffi::c_float) = _4869;
         _4870 = _4720;
-        *(&mut *((*(_4868 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4868 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4870;
         _4871 = _4720;
-        *(&mut *((*(_4868 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4868 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4871;
         _4872 = _4720;
-        *(&mut *((*(_4868 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4868 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4872;
@@ -20653,37 +20653,37 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         *(&mut _4691 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4874;
         _4875 = *(&mut _4690 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _4876 = *(&mut _4691 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4877 = *(&mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4
+        _4877 = *(&raw mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4878 = *(&mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4
+        _4878 = *(&raw mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4879 = *(&mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4
+        _4879 = *(&raw mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4880 = *(&mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4
+        _4880 = *(&raw mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4881 = *(&mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4
+        _4881 = *(&raw mut *((*(&mut _4690 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4882 = *(&mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4
+        _4882 = *(&raw mut *((*(&mut _4691 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -20698,17 +20698,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4884 = _4685;
         *(_4883 as *mut core::ffi::c_float) = _4884;
         _4885 = _4686;
-        *(&mut *((*(_4883 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4883 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4885;
         _4886 = _4687;
-        *(&mut *((*(_4883 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4883 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4886;
         _4887 = _4688;
-        *(&mut *((*(_4883 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4883 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4887;
@@ -20721,19 +20721,19 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             16,
         );
         _4890 = *(&mut _4722 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4891 = *(&mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4
+        _4891 = *(&raw mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4892 = *(&mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4
+        _4892 = *(&raw mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4893 = *(&mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4
+        _4893 = *(&raw mut *((*(&mut _4722 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -20748,15 +20748,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4895 = _4667;
         *(_4894 as *mut uint32_t) = _4895;
         _4896 = _4668;
-        *(&mut *((*(_4894 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4894 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4896;
         _4897 = _4669;
-        *(&mut *((*(_4894 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4894 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4897;
         _4898 = _4670;
-        *(&mut *((*(_4894 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4894 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4898;
         _4899 = *(&mut _4721 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -20768,15 +20768,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4901 = _4709;
         *(_4900 as *mut uint32_t) = _4901;
         _4902 = _4709;
-        *(&mut *((*(_4900 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4900 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4902;
         _4903 = _4709;
-        *(&mut *((*(_4900 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4900 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4903;
         _4904 = _4709;
-        *(&mut *((*(_4900 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4900 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4904;
         _4905 =
@@ -20795,18 +20795,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             _4911__PHI_TEMPORARY = _4910;
         }
         _4911 = _4911__PHI_TEMPORARY;
-        _4912 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
+        _4912 = *(&raw mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _4913 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
+        _4913 = *(&raw mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if (_4912 as int32_t) < _4913 as int32_t {
-            _4914 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
+            _4914 = *(&raw mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20814,7 +20814,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
                 as *mut uint32_t);
             _4916__PHI_TEMPORARY = _4914;
         } else {
-            _4915 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
+            _4915 = *(&raw mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20823,18 +20823,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             _4916__PHI_TEMPORARY = _4915;
         }
         _4916 = _4916__PHI_TEMPORARY;
-        _4917 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
+        _4917 = *(&raw mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _4918 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
+        _4918 = *(&raw mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if (_4917 as int32_t) < _4918 as int32_t {
-            _4919 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
+            _4919 = *(&raw mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20842,7 +20842,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
                 as *mut uint32_t);
             _4921__PHI_TEMPORARY = _4919;
         } else {
-            _4920 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
+            _4920 = *(&raw mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20851,18 +20851,18 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
             _4921__PHI_TEMPORARY = _4920;
         }
         _4921 = _4921__PHI_TEMPORARY;
-        _4922 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
+        _4922 = *(&raw mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-        _4923 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
+        _4923 = *(&raw mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if (_4922 as int32_t) < _4923 as int32_t {
-            _4924 = *(&mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
+            _4924 = *(&raw mut *((*(&mut _4656 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20870,7 +20870,7 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
                 as *mut uint32_t);
             _4926__PHI_TEMPORARY = _4924;
         } else {
-            _4925 = *(&mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
+            _4925 = *(&raw mut *((*(&mut _4657 as *mut l_struct_struct_OC_vint4
                 as *mut crate::l_array_4_uint32_t))
                 .array)
                 .as_mut_ptr()
@@ -20888,15 +20888,15 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4928 = _4651;
         *(_4927 as *mut uint32_t) = _4928;
         _4929 = _4652;
-        *(&mut *((*(_4927 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4927 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4929;
         _4930 = _4653;
-        *(&mut *((*(_4927 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4927 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4930;
         _4931 = _4654;
-        *(&mut *((*(_4927 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_4927 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _4931;
         _4932 = *(&mut _4655 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -20940,37 +20940,37 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         *(&mut _4683 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _4943;
         _4944 = *(&mut _4682 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
         _4945 = *(&mut _4683 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-        _4946 = *(&mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4
+        _4946 = *(&raw mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4947 = *(&mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4
+        _4947 = *(&raw mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4948 = *(&mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4
+        _4948 = *(&raw mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4949 = *(&mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4
+        _4949 = *(&raw mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4950 = *(&mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4
+        _4950 = *(&raw mut *((*(&mut _4682 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
-        _4951 = *(&mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4
+        _4951 = *(&raw mut *((*(&mut _4683 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -20985,17 +20985,17 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4953 = _4677;
         *(_4952 as *mut core::ffi::c_float) = _4953;
         _4954 = _4678;
-        *(&mut *((*(_4952 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4952 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4954;
         _4955 = _4679;
-        *(&mut *((*(_4952 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4952 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4955;
         _4956 = _4680;
-        *(&mut *((*(_4952 as *mut crate::l_array_4_float)).array)
+        *(&raw mut *((*(_4952 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4956;
@@ -21019,12 +21019,12 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4962 = *(_4961 as *mut uint32_t);
         _4701 = &mut _4703 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4963 = _4701;
-        _4964 = *(&mut *((*(_4963 as *mut crate::l_array_4_uint32_t)).array)
+        _4964 = *(&raw mut *((*(_4963 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _4700 = &mut _4703 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4965 = _4700;
-        _4966 = *(&mut *((*(_4965 as *mut crate::l_array_4_uint32_t)).array)
+        _4966 = *(&raw mut *((*(_4965 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _4967 = memcpy(
@@ -21040,12 +21040,12 @@ unsafe extern "C" fn _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(
         _4970 = *(_4969 as *mut uint32_t);
         _4705 = &mut _4707 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4971 = _4705;
-        _4972 = *(&mut *((*(_4971 as *mut crate::l_array_4_uint32_t)).array)
+        _4972 = *(&raw mut *((*(_4971 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _4704 = &mut _4707 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
         _4973 = _4704;
-        _4974 = *(&mut *((*(_4973 as *mut crate::l_array_4_uint32_t)).array)
+        _4974 = *(&raw mut *((*(_4973 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if !(llvm_add_u32(llvm_add_u32(_4962, _4964), _4966) as int32_t
@@ -21346,14 +21346,14 @@ unsafe extern "C" fn _ZL31try_quantize_rgba_blue_contract7vfloat4S_R5vint4S1_12q
     if _5100 != 0 {
         _5077 = &mut _5084 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5101 = _5077;
-        _5102 = *(&mut *((*(_5101 as *mut crate::l_array_4_float)).array)
+        _5102 = *(&raw mut *((*(_5101 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         _5091 = _5102;
         _5078 = &mut _5085 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5103 = _5078;
-        _5104 = *(&mut *((*(_5103 as *mut crate::l_array_4_float)).array)
+        _5104 = *(&raw mut *((*(_5103 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
@@ -21368,7 +21368,7 @@ unsafe extern "C" fn _ZL31try_quantize_rgba_blue_contract7vfloat4S_R5vint4S1_12q
         _5080 = _5110 as uint32_t;
         _5111 = _5079;
         _5112 = _5080;
-        *(&mut *((*(_5111 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_5111 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _5112;
         _5113 = _5087;
@@ -21381,7 +21381,7 @@ unsafe extern "C" fn _ZL31try_quantize_rgba_blue_contract7vfloat4S_R5vint4S1_12q
         _5082 = _5118 as uint32_t;
         _5119 = _5081;
         _5120 = _5082;
-        *(&mut *((*(_5119 as *mut crate::l_array_4_uint32_t)).array)
+        *(&raw mut *((*(_5119 as *mut crate::l_array_4_uint32_t)).array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _5120;
         _5083 = 1 as core::ffi::c_int as bool_0;
@@ -21472,14 +21472,14 @@ unsafe extern "C" fn _ZL13quantize_rgba7vfloat4S_R5vint4S1_12quant_method(
     _ZL12quantize_rgb7vfloat4S_R5vint4S1_12quant_method(_5150, _5151, _5147, _5148, _5149);
     _5130 = &mut _5136 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5152 = _5130;
-    _5153 = *(&mut *((*(_5152 as *mut crate::l_array_4_float)).array)
+    _5153 = *(&raw mut *((*(_5152 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _5143 = _5153;
     _5131 = &mut _5137 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5154 = _5131;
-    _5155 = *(&mut *((*(_5154 as *mut crate::l_array_4_float)).array)
+    _5155 = *(&raw mut *((*(_5154 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -21494,7 +21494,7 @@ unsafe extern "C" fn _ZL13quantize_rgba7vfloat4S_R5vint4S1_12quant_method(
     _5133 = _5161 as uint32_t;
     _5162 = _5132;
     _5163 = _5133;
-    *(&mut *((*(_5162 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_5162 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _5163;
     _5164 = _5139;
@@ -21507,7 +21507,7 @@ unsafe extern "C" fn _ZL13quantize_rgba7vfloat4S_R5vint4S1_12quant_method(
     _5135 = _5169 as uint32_t;
     _5170 = _5134;
     _5171 = _5135;
-    *(&mut *((*(_5170 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_5170 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _5171;
 }
@@ -21616,7 +21616,7 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5187 = _5201;
     _5179 = &mut _5183 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5202 = _5179;
-    _5203 = *(&mut *((*(_5202 as *mut crate::l_array_4_float)).array)
+    _5203 = *(&raw mut *((*(_5202 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -21625,7 +21625,7 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5188 = _5205;
     _5182 = &mut _5183 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5206 = _5182;
-    _5207 = *(&mut *((*(_5206 as *mut crate::l_array_4_float)).array)
+    _5207 = *(&raw mut *((*(_5206 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -21662,13 +21662,13 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5228 = *(_5227 as *mut core::ffi::c_float);
     _5175 = &mut _5178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5229 = _5175;
-    _5230 = *(&mut *((*(_5229 as *mut crate::l_array_4_float)).array)
+    _5230 = *(&raw mut *((*(_5229 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _5177 = &mut _5178 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5231 = _5177;
-    _5232 = *(&mut *((*(_5231 as *mut crate::l_array_4_float)).array)
+    _5232 = *(&raw mut *((*(_5231 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -21680,7 +21680,7 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     _5195 = llvm_add_u32(llvm_add_u32(_5234, _5235), _5236) as int32_t as core::ffi::c_float;
     _5181 = &mut _5183 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5237 = _5181;
-    _5238 = *(&mut *((*(_5237 as *mut crate::l_array_4_float)).array)
+    _5238 = *(&raw mut *((*(_5237 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -21708,17 +21708,17 @@ unsafe extern "C" fn _ZL13quantize_rgbs7vfloat4Ph12quant_method(
     *(_5247 as *mut uint8_t) = _5246 as uint8_t;
     _5248 = _5191;
     _5249 = _5184;
-    *(&mut *(_5249 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_5249 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _5248 as uint8_t;
     _5250 = _5192;
     _5251 = _5184;
-    *(&mut *(_5251 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_5251 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _5250 as uint8_t;
     _5252 = _5185;
     _5253 = _5197;
     _5254 = _ZL11quant_color12quant_methodi(_5252, _5253);
     _5255 = _5184;
-    *(&mut *(_5255 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_5255 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _5254;
 }
 #[inline(never)]
@@ -22302,7 +22302,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5401 = *(_5400 as *mut core::ffi::c_float);
     _5302 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5402 = _5302;
-    _5403 = *(&mut *((*(_5402 as *mut crate::l_array_4_float)).array)
+    _5403 = *(&raw mut *((*(_5402 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -22313,13 +22313,13 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     *(_5404 as *mut core::ffi::c_float) = _5405;
     _5287 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5406 = _5287;
-    _5407 = *(&mut *((*(_5406 as *mut crate::l_array_4_float)).array)
+    _5407 = *(&raw mut *((*(_5406 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _5303 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5408 = _5303;
-    _5409 = *(&mut *((*(_5408 as *mut crate::l_array_4_float)).array)
+    _5409 = *(&raw mut *((*(_5408 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -22327,18 +22327,18 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5284 = llvm_fadd_f32(_5407, _5409);
     _5410 = _5283;
     _5411 = _5284;
-    *(&mut *((*(_5410 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5410 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5411;
     _5307 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5412 = _5307;
-    _5413 = *(&mut *((*(_5412 as *mut crate::l_array_4_float)).array)
+    _5413 = *(&raw mut *((*(_5412 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _5304 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5414 = _5304;
-    _5415 = *(&mut *((*(_5414 as *mut crate::l_array_4_float)).array)
+    _5415 = *(&raw mut *((*(_5414 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -22346,7 +22346,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5282 = llvm_fadd_f32(_5413, _5415);
     _5416 = _5281;
     _5417 = _5282;
-    *(&mut *((*(_5416 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5416 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5417;
     _5418 = memcpy(
@@ -22379,15 +22379,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5426 = _5330;
     *(_5425 as *mut core::ffi::c_float) = _5426;
     _5427 = _5330;
-    *(&mut *((*(_5425 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5425 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5427;
     _5428 = _5330;
-    *(&mut *((*(_5425 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5425 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5428;
     _5429 = _5330;
-    *(&mut *((*(_5425 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5425 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5429;
     _5430 = *(&mut _5337 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -22404,20 +22404,20 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5436__PHI_TEMPORARY = _5435;
     }
     _5436 = _5436__PHI_TEMPORARY;
-    _5437 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
+    _5437 = *(&raw mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _5438 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
+    _5438 = *(&raw mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_5437 as core::ffi::c_double, _5438 as core::ffi::c_double) != 0 {
-        _5439 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
+        _5439 = *(&raw mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22425,7 +22425,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             as *mut core::ffi::c_float);
         _5441__PHI_TEMPORARY = _5439;
     } else {
-        _5440 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
+        _5440 = *(&raw mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22434,20 +22434,20 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5441__PHI_TEMPORARY = _5440;
     }
     _5441 = _5441__PHI_TEMPORARY;
-    _5442 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
+    _5442 = *(&raw mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _5443 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
+    _5443 = *(&raw mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_5442 as core::ffi::c_double, _5443 as core::ffi::c_double) != 0 {
-        _5444 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
+        _5444 = *(&raw mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22455,7 +22455,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             as *mut core::ffi::c_float);
         _5446__PHI_TEMPORARY = _5444;
     } else {
-        _5445 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
+        _5445 = *(&raw mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22464,20 +22464,20 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5446__PHI_TEMPORARY = _5445;
     }
     _5446 = _5446__PHI_TEMPORARY;
-    _5447 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
+    _5447 = *(&raw mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _5448 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
+    _5448 = *(&raw mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_5447 as core::ffi::c_double, _5448 as core::ffi::c_double) != 0 {
-        _5449 = *(&mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
+        _5449 = *(&raw mut *((*(&mut _5320 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22485,7 +22485,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             as *mut core::ffi::c_float);
         _5451__PHI_TEMPORARY = _5449;
     } else {
-        _5450 = *(&mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
+        _5450 = *(&raw mut *((*(&mut _5321 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22503,15 +22503,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5453 = _5315;
     *(_5452 as *mut core::ffi::c_float) = _5453;
     _5454 = _5316;
-    *(&mut *((*(_5452 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5452 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5454;
     _5455 = _5317;
-    *(&mut *((*(_5452 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5452 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5455;
     _5456 = _5318;
-    *(&mut *((*(_5452 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5452 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5456;
     _5457 = _5319;
@@ -22534,15 +22534,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5464 = _5328;
     *(_5463 as *mut core::ffi::c_float) = _5464;
     _5465 = _5328;
-    *(&mut *((*(_5463 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5463 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5465;
     _5466 = _5328;
-    *(&mut *((*(_5463 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5463 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5466;
     _5467 = _5328;
-    *(&mut *((*(_5463 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5463 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5467;
     _5468 = *(&mut _5342 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -22559,20 +22559,20 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5474__PHI_TEMPORARY = _5473;
     }
     _5474 = _5474__PHI_TEMPORARY;
-    _5475 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
+    _5475 = *(&raw mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _5476 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
+    _5476 = *(&raw mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_5475 as core::ffi::c_double, _5476 as core::ffi::c_double) != 0 {
-        _5477 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
+        _5477 = *(&raw mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22580,7 +22580,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             as *mut core::ffi::c_float);
         _5479__PHI_TEMPORARY = _5477;
     } else {
-        _5478 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
+        _5478 = *(&raw mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22589,20 +22589,20 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5479__PHI_TEMPORARY = _5478;
     }
     _5479 = _5479__PHI_TEMPORARY;
-    _5480 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
+    _5480 = *(&raw mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _5481 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
+    _5481 = *(&raw mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_5480 as core::ffi::c_double, _5481 as core::ffi::c_double) != 0 {
-        _5482 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
+        _5482 = *(&raw mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22610,7 +22610,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             as *mut core::ffi::c_float);
         _5484__PHI_TEMPORARY = _5482;
     } else {
-        _5483 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
+        _5483 = *(&raw mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22619,20 +22619,20 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5484__PHI_TEMPORARY = _5483;
     }
     _5484 = _5484__PHI_TEMPORARY;
-    _5485 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
+    _5485 = *(&raw mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _5486 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
+    _5486 = *(&raw mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_5485 as core::ffi::c_double, _5486 as core::ffi::c_double) != 0 {
-        _5487 = *(&mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
+        _5487 = *(&raw mut *((*(&mut _5332 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22640,7 +22640,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             as *mut core::ffi::c_float);
         _5489__PHI_TEMPORARY = _5487;
     } else {
-        _5488 = *(&mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
+        _5488 = *(&raw mut *((*(&mut _5333 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -22658,15 +22658,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5491 = _5323;
     *(_5490 as *mut core::ffi::c_float) = _5491;
     _5492 = _5324;
-    *(&mut *((*(_5490 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5490 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5492;
     _5493 = _5325;
-    *(&mut *((*(_5490 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5490 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5493;
     _5494 = _5326;
-    *(&mut *((*(_5490 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_5490 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _5494;
     _5495 = _5331;
@@ -22690,7 +22690,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5501 = *(_5500 as *mut core::ffi::c_float);
     _5288 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5502 = _5288;
-    _5503 = *(&mut *((*(_5502 as *mut crate::l_array_4_float)).array)
+    _5503 = *(&raw mut *((*(_5502 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -22700,7 +22700,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         _5505 = *(_5504 as *mut core::ffi::c_float);
         _5308 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5506 = _5308;
-        _5507 = *(&mut *((*(_5506 as *mut crate::l_array_4_float)).array)
+        _5507 = *(&raw mut *((*(_5506 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
@@ -22717,13 +22717,13 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         15805987831613874143 => {
             _5289 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5508 = _5289;
-            _5509 = *(&mut *((*(_5508 as *mut crate::l_array_4_float)).array)
+            _5509 = *(&raw mut *((*(_5508 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5309 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5510 = _5309;
-            _5511 = *(&mut *((*(_5510 as *mut crate::l_array_4_float)).array)
+            _5511 = *(&raw mut *((*(_5510 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -22742,7 +22742,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5513 = _5280;
             _5270 = _5513;
             _5514 = _5270;
-            _5515 = *(&mut *((*(_5514 as *mut crate::l_array_4_float)).array)
+            _5515 = *(&raw mut *((*(_5514 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -22751,13 +22751,13 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5517 = *(_5516 as *mut core::ffi::c_float);
             _5273 = _5513;
             _5518 = _5273;
-            _5519 = *(&mut *((*(_5518 as *mut crate::l_array_4_float)).array)
+            _5519 = *(&raw mut *((*(_5518 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5272 = _5513;
             _5520 = _5272;
-            _5521 = *(&mut *((*(_5520 as *mut crate::l_array_4_float)).array)
+            _5521 = *(&raw mut *((*(_5520 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -22770,17 +22770,17 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5523 = _5275;
             *(_5522 as *mut core::ffi::c_float) = _5523;
             _5524 = _5276;
-            *(&mut *((*(_5522 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_5522 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5524;
             _5525 = _5277;
-            *(&mut *((*(_5522 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_5522 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5525;
             _5526 = _5278;
-            *(&mut *((*(_5522 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_5522 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5526;
@@ -22797,13 +22797,13 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5529 = _5269;
             _5262 = _5529;
             _5530 = _5262;
-            _5531 = *(&mut *((*(_5530 as *mut crate::l_array_4_float)).array)
+            _5531 = *(&raw mut *((*(_5530 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5259 = _5529;
             _5532 = _5259;
-            _5533 = *(&mut *((*(_5532 as *mut crate::l_array_4_float)).array)
+            _5533 = *(&raw mut *((*(_5532 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -22812,7 +22812,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5535 = *(_5534 as *mut core::ffi::c_float);
             _5261 = _5529;
             _5536 = _5261;
-            _5537 = *(&mut *((*(_5536 as *mut crate::l_array_4_float)).array)
+            _5537 = *(&raw mut *((*(_5536 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -22825,17 +22825,17 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5539 = _5264;
             *(_5538 as *mut core::ffi::c_float) = _5539;
             _5540 = _5265;
-            *(&mut *((*(_5538 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_5538 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5540;
             _5541 = _5266;
-            *(&mut *((*(_5538 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_5538 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5541;
             _5542 = _5267;
-            *(&mut *((*(_5538 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_5538 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5542;
@@ -22858,7 +22858,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5548 = *(_5547 as *mut core::ffi::c_float);
     _5290 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5549 = _5290;
-    _5550 = *(&mut *((*(_5549 as *mut crate::l_array_4_float)).array)
+    _5550 = *(&raw mut *((*(_5549 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -22868,14 +22868,14 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
     _5552 = *(_5551 as *mut core::ffi::c_float);
     _5310 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5553 = _5310;
-    _5554 = *(&mut *((*(_5553 as *mut crate::l_array_4_float)).array)
+    _5554 = *(&raw mut *((*(_5553 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _5361 = llvm_fsub_f32(_5552, _5554);
     _5305 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _5555 = _5305;
-    _5556 = *(&mut *((*(_5555 as *mut crate::l_array_4_float)).array)
+    _5556 = *(&raw mut *((*(_5555 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -22889,43 +22889,36 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
         }
         _5558 = _5360;
         _5559 = _5363;
-        _5560 =
-            *(&mut *((*(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs.array)
-                .as_ptr()
-                .offset(_5559 as int32_t as int64_t as isize)
-                as *const crate::l_array_2_float
-                as *mut crate::l_array_2_float))
-                .array)
-                .as_mut_ptr()
-                .offset(0 as core::ffi::c_int as int64_t as isize)
-                as *mut core::ffi::c_float);
+        _5560 = *(&raw mut *((*(&raw const *(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs
+            .array)
+            .as_ptr()
+            .offset(_5559 as int32_t as int64_t as isize) as *const crate::l_array_2_float
+            as *mut crate::l_array_2_float))
+            .array)
+            .as_mut_ptr()
+            .offset(0 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
         if !(llvm_fcmp_ogt(_5558 as core::ffi::c_double, _5560 as core::ffi::c_double) != 0) {
             _5561 = _5361;
             _5562 = _5363;
-            _5563 = *(&mut *((*(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs
+            _5563 = *(&raw mut *((*(&raw const *(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs
                 .array)
                 .as_ptr()
-                .offset(_5562 as int32_t as int64_t as isize)
-                as *const crate::l_array_2_float
+                .offset(_5562 as int32_t as int64_t as isize) as *const crate::l_array_2_float
                 as *mut crate::l_array_2_float))
                 .array)
                 .as_mut_ptr()
-                .offset(0 as core::ffi::c_int as int64_t as isize)
-                as *mut core::ffi::c_float);
+                .offset(0 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
             if !(llvm_fcmp_ogt(_5561 as core::ffi::c_double, _5563 as core::ffi::c_double) != 0) {
                 _5564 = _5362;
                 _5565 = _5363;
-                _5566 =
-                    *(&mut *((*(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs
-                        .array)
-                        .as_ptr()
-                        .offset(_5565 as int32_t as int64_t as isize)
-                        as *const crate::l_array_2_float
-                        as *mut crate::l_array_2_float))
-                        .array)
-                        .as_mut_ptr()
-                        .offset(1 as core::ffi::c_int as int64_t as isize)
-                        as *mut core::ffi::c_float);
+                _5566 = *(&raw mut *((*(&raw const *(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_cutoffs
+                    .array)
+                    .as_ptr()
+                    .offset(_5565 as int32_t as int64_t as isize)
+                    as *const crate::l_array_2_float as *mut crate::l_array_2_float))
+                    .array)
+                    .as_mut_ptr()
+                    .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
                 if !(llvm_fcmp_ogt(_5564 as core::ffi::c_double, _5566 as core::ffi::c_double) != 0)
                 {
                     _5567 = _5363;
@@ -22942,46 +22935,38 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     _5573 = _5573__PHI_TEMPORARY;
                     _5364 = _5573;
                     _5574 = _5363;
-                    _5575 = *(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE11mode_scales
+                    _5575 = *(&raw const *(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE11mode_scales
                         .array)
                         .as_ptr()
                         .offset(_5574 as int32_t as int64_t as isize)
-                        as *const core::ffi::c_float
-                        as *mut core::ffi::c_float);
+                        as *const core::ffi::c_float as *mut core::ffi::c_float);
                     _5365 = _5575;
                     _5576 = _5363;
-                    _5577 = *(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_rscales
+                    _5577 = *(&raw const *(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE12mode_rscales
                         .array)
                         .as_ptr()
                         .offset(_5576 as int32_t as int64_t as isize)
-                        as *const core::ffi::c_float
-                        as *mut core::ffi::c_float);
+                        as *const core::ffi::c_float as *mut core::ffi::c_float);
                     _5366 = _5577;
                     _5578 = _5363;
-                    _5579 =
-                        *(&mut *((*(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE9mode_bits
-                            .array)
-                            .as_ptr()
-                            .offset(_5578 as int32_t as int64_t as isize)
-                            as *const crate::l_array_3_uint32_t
-                            as *mut crate::l_array_3_uint32_t))
-                            .array)
-                            .as_mut_ptr()
-                            .offset(1 as core::ffi::c_int as int64_t as isize)
-                            as *mut uint32_t);
+                    _5579 = *(&raw mut *((*(&raw const *(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE9mode_bits
+                        .array)
+                        .as_ptr()
+                        .offset(_5578 as int32_t as int64_t as isize)
+                        as *const crate::l_array_3_uint32_t as *mut crate::l_array_3_uint32_t))
+                        .array)
+                        .as_mut_ptr()
+                        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
                     _5367 = ((1 as core::ffi::c_int) << _5579) as uint32_t;
                     _5580 = _5363;
-                    _5581 =
-                        *(&mut *((*(&*(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE9mode_bits
-                            .array)
-                            .as_ptr()
-                            .offset(_5580 as int32_t as int64_t as isize)
-                            as *const crate::l_array_3_uint32_t
-                            as *mut crate::l_array_3_uint32_t))
-                            .array)
-                            .as_mut_ptr()
-                            .offset(2 as core::ffi::c_int as int64_t as isize)
-                            as *mut uint32_t);
+                    _5581 = *(&raw mut *((*(&raw const *(_ZZL17quantize_hdr_rgbo7vfloat4Ph12quant_methodE9mode_bits
+                        .array)
+                        .as_ptr()
+                        .offset(_5580 as int32_t as int64_t as isize)
+                        as *const crate::l_array_3_uint32_t as *mut crate::l_array_3_uint32_t))
+                        .array)
+                        .as_mut_ptr()
+                        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
                     _5368 = ((1 as core::ffi::c_int) << _5581) as uint32_t;
                     _5582 = _5359;
                     _5583 = _5365;
@@ -23008,7 +22993,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     _5594 = _5372;
                     _5291 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                     _5595 = _5291;
-                    _5596 = *(&mut *((*(_5595 as *mut crate::l_array_4_float)).array)
+                    _5596 = *(&raw mut *((*(_5595 as *mut crate::l_array_4_float)).array)
                         .as_mut_ptr()
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float);
@@ -23016,7 +23001,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     _5597 = _5372;
                     _5311 = &mut _5350 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
                     _5598 = _5311;
-                    _5599 = *(&mut *((*(_5598 as *mut crate::l_array_4_float)).array)
+                    _5599 = *(&raw mut *((*(_5598 as *mut crate::l_array_4_float)).array)
                         .as_mut_ptr()
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut core::ffi::c_float);
@@ -23179,7 +23164,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                             _5292 = &mut _5350 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void;
                             _5659 = _5292;
-                            _5660 = *(&mut *((*(_5659 as *mut crate::l_array_4_float)).array)
+                            _5660 = *(&raw mut *((*(_5659 as *mut crate::l_array_4_float)).array)
                                 .as_mut_ptr()
                                 .offset(1 as core::ffi::c_int as int64_t as isize)
                                 as *mut core::ffi::c_float);
@@ -23188,7 +23173,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                             _5312 = &mut _5350 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void;
                             _5663 = _5312;
-                            _5664 = *(&mut *((*(_5663 as *mut crate::l_array_4_float)).array)
+                            _5664 = *(&raw mut *((*(_5663 as *mut crate::l_array_4_float)).array)
                                 .as_mut_ptr()
                                 .offset(2 as core::ffi::c_int as int64_t as isize)
                                 as *mut core::ffi::c_float);
@@ -23237,37 +23222,37 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             _5301 = &mut _5355 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5703 = _5301;
             _5704 = *(_5703 as *mut core::ffi::c_float);
-            *(&mut *(_5393.array)
+            *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5704;
             _5293 = &mut _5355 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5705 = _5293;
-            _5706 = *(&mut *((*(_5705 as *mut crate::l_array_4_float)).array)
+            _5706 = *(&raw mut *((*(_5705 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            *(&mut *(_5393.array)
+            *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5706;
             _5313 = &mut _5355 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5707 = _5313;
-            _5708 = *(&mut *((*(_5707 as *mut crate::l_array_4_float)).array)
+            _5708 = *(&raw mut *((*(_5707 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            *(&mut *(_5393.array)
+            *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5708;
             _5306 = &mut _5355 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _5709 = _5306;
-            _5710 = *(&mut *((*(_5709 as *mut crate::l_array_4_float)).array)
+            _5710 = *(&raw mut *((*(_5709 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            *(&mut *(_5393.array)
+            *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5710;
@@ -23278,7 +23263,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     break;
                 }
                 _5712 = _5396;
-                _5713 = *(&mut *(_5393.array)
+                _5713 = *(&raw mut *(_5393.array)
                     .as_mut_ptr()
                     .offset(_5712 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float);
@@ -23288,12 +23273,12 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     65020 as core::ffi::c_int as core::ffi::c_float,
                 );
                 _5715 = _5396;
-                *(&mut *(_5393.array)
+                *(&raw mut *(_5393.array)
                     .as_mut_ptr()
                     .offset(_5715 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float) = _5714;
                 _5716 = _5396;
-                _5717 = *(&mut *(_5393.array)
+                _5717 = *(&raw mut *(_5393.array)
                     .as_mut_ptr()
                     .offset(_5716 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float);
@@ -23302,17 +23287,17 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                     0.001953125f64 as core::ffi::c_float,
                 ));
                 _5719 = _5396;
-                *(&mut *(_5394.array)
+                *(&raw mut *(_5394.array)
                     .as_mut_ptr()
                     .offset(_5719 as int32_t as int64_t as isize)
                     as *mut uint32_t) = _5718;
                 _5720 = _5396;
-                _5721 = *(&mut *(_5394.array)
+                _5721 = *(&raw mut *(_5394.array)
                     .as_mut_ptr()
                     .offset(_5720 as int32_t as int64_t as isize)
                     as *mut uint32_t);
                 _5722 = _5396;
-                *(&mut *(_5395.array)
+                *(&raw mut *(_5395.array)
                     .as_mut_ptr()
                     .offset(_5722 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float) = llvm_fmul_f32(
@@ -23322,27 +23307,27 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 _5723 = _5396;
                 _5396 = llvm_add_u32(_5723, 1);
             }
-            _5724 = *(&mut *(_5395.array)
+            _5724 = *(&raw mut *(_5395.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            _5725 = *(&mut *(_5393.array)
+            _5725 = *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            _5726 = *(&mut *(_5395.array)
+            _5726 = *(&raw mut *(_5395.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            _5727 = *(&mut *(_5393.array)
+            _5727 = *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            _5728 = *(&mut *(_5395.array)
+            _5728 = *(&raw mut *(_5395.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            _5729 = *(&mut *(_5393.array)
+            _5729 = *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -23351,14 +23336,14 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 llvm_fsub_f32(_5728, _5729),
             );
             _5730 = _5397;
-            _5731 = &mut *(_5393.array)
+            _5731 = &raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float as *mut core::ffi::c_void;
             _5732 = *(_5731 as *mut core::ffi::c_float);
             _5733 = llvm_OC_fmuladd_OC_f32(_5730, 0.333333343f64 as core::ffi::c_float, _5732);
             *(_5731 as *mut core::ffi::c_float) = _5733;
-            _5734 = *(&mut *(_5393.array)
+            _5734 = *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -23367,11 +23352,11 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 0 as core::ffi::c_int as core::ffi::c_float,
                 65020 as core::ffi::c_int as core::ffi::c_float,
             );
-            *(&mut *(_5393.array)
+            *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _5735;
-            _5736 = *(&mut *(_5393.array)
+            _5736 = *(&raw mut *(_5393.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -23379,43 +23364,43 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 _5736,
                 0.001953125f64 as core::ffi::c_float,
             ));
-            *(&mut *(_5394.array)
+            *(&raw mut *(_5394.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _5737;
-            _5738 = *(&mut *(_5394.array)
+            _5738 = *(&raw mut *(_5394.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            *(&mut *(_5398.array)
+            *(&raw mut *(_5398.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _5738 & 63 | 192;
-            _5739 = *(&mut *(_5394.array)
+            _5739 = *(&raw mut *(_5394.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            *(&mut *(_5398.array)
+            *(&raw mut *(_5398.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _5739 & 127 | 128;
-            _5740 = *(&mut *(_5394.array)
+            _5740 = *(&raw mut *(_5394.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            *(&mut *(_5398.array)
+            *(&raw mut *(_5398.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _5740 & 127 | 128;
-            _5741 = *(&mut *(_5394.array)
+            _5741 = *(&raw mut *(_5394.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            _5742 = *(&mut *(_5394.array)
+            _5742 = *(&raw mut *(_5394.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t);
-            *(&mut *(_5398.array)
+            *(&raw mut *(_5398.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint32_t) = _5741 & 127 | (_5742 & 64) << 1 as core::ffi::c_int;
@@ -23427,7 +23412,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 }
                 _5744 = _5352;
                 _5745 = _5399;
-                _5746 = *(&mut *(_5398.array)
+                _5746 = *(&raw mut *(_5398.array)
                     .as_mut_ptr()
                     .offset(_5745 as uint64_t as int64_t as isize)
                     as *mut uint32_t);
@@ -23436,7 +23421,7 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
                 _ZL44quantize_and_unquantize_retain_top_four_bits12quant_methodhRh(
                     _5744,
                     _5746 as uint8_t,
-                    &mut *(_5747 as *mut uint8_t).offset(_5748 as uint64_t as int64_t as isize)
+                    &raw mut *(_5747 as *mut uint8_t).offset(_5748 as uint64_t as int64_t as isize)
                         as *mut uint8_t as *mut core::ffi::c_void,
                 );
                 _5749 = _5399;
@@ -23504,15 +23489,15 @@ unsafe extern "C" fn _ZL17quantize_hdr_rgbo7vfloat4Ph12quant_method(
             *(_5695 as *mut uint8_t) = _5694;
             _5696 = _5383;
             _5697 = _5351;
-            *(&mut *(_5697 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_5697 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _5696;
             _5698 = _5384;
             _5699 = _5351;
-            *(&mut *(_5699 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_5699 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _5698;
             _5700 = _5392;
             _5701 = _5351;
-            *(&mut *(_5701 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_5701 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _5700;
         }
     };
@@ -24397,15 +24382,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6052 = _5936;
     *(_6051 as *mut core::ffi::c_float) = _6052;
     _6053 = _5936;
-    *(&mut *((*(_6051 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6051 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6053;
     _6054 = _5936;
-    *(&mut *((*(_6051 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6051 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6054;
     _6055 = _5936;
-    *(&mut *((*(_6051 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6051 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6055;
     _6056 = *(&mut _5953 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -24422,20 +24407,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6062__PHI_TEMPORARY = _6061;
     }
     _6062 = _6062__PHI_TEMPORARY;
-    _6063 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
+    _6063 = *(&raw mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6064 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
+    _6064 = *(&raw mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_6063 as core::ffi::c_double, _6064 as core::ffi::c_double) != 0 {
-        _6065 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
+        _6065 = *(&raw mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24443,7 +24428,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6067__PHI_TEMPORARY = _6065;
     } else {
-        _6066 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
+        _6066 = *(&raw mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24452,20 +24437,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6067__PHI_TEMPORARY = _6066;
     }
     _6067 = _6067__PHI_TEMPORARY;
-    _6068 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
+    _6068 = *(&raw mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6069 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
+    _6069 = *(&raw mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_6068 as core::ffi::c_double, _6069 as core::ffi::c_double) != 0 {
-        _6070 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
+        _6070 = *(&raw mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24473,7 +24458,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6072__PHI_TEMPORARY = _6070;
     } else {
-        _6071 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
+        _6071 = *(&raw mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24482,20 +24467,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6072__PHI_TEMPORARY = _6071;
     }
     _6072 = _6072__PHI_TEMPORARY;
-    _6073 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
+    _6073 = *(&raw mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6074 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
+    _6074 = *(&raw mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_6073 as core::ffi::c_double, _6074 as core::ffi::c_double) != 0 {
-        _6075 = *(&mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
+        _6075 = *(&raw mut *((*(&mut _5911 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24503,7 +24488,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6077__PHI_TEMPORARY = _6075;
     } else {
-        _6076 = *(&mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
+        _6076 = *(&raw mut *((*(&mut _5912 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24521,15 +24506,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6079 = _5906;
     *(_6078 as *mut core::ffi::c_float) = _6079;
     _6080 = _5907;
-    *(&mut *((*(_6078 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6078 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6080;
     _6081 = _5908;
-    *(&mut *((*(_6078 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6078 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6081;
     _6082 = _5909;
-    *(&mut *((*(_6078 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6078 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6082;
     _6083 = _5910;
@@ -24552,15 +24537,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6090 = _5932;
     *(_6089 as *mut core::ffi::c_float) = _6090;
     _6091 = _5932;
-    *(&mut *((*(_6089 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6089 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6091;
     _6092 = _5932;
-    *(&mut *((*(_6089 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6089 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6092;
     _6093 = _5932;
-    *(&mut *((*(_6089 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6089 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6093;
     _6094 = *(&mut _5963 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -24577,20 +24562,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6100__PHI_TEMPORARY = _6099;
     }
     _6100 = _6100__PHI_TEMPORARY;
-    _6101 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
+    _6101 = *(&raw mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6102 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
+    _6102 = *(&raw mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_6101 as core::ffi::c_double, _6102 as core::ffi::c_double) != 0 {
-        _6103 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
+        _6103 = *(&raw mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24598,7 +24583,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6105__PHI_TEMPORARY = _6103;
     } else {
-        _6104 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
+        _6104 = *(&raw mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24607,20 +24592,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6105__PHI_TEMPORARY = _6104;
     }
     _6105 = _6105__PHI_TEMPORARY;
-    _6106 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
+    _6106 = *(&raw mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6107 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
+    _6107 = *(&raw mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_6106 as core::ffi::c_double, _6107 as core::ffi::c_double) != 0 {
-        _6108 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
+        _6108 = *(&raw mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24628,7 +24613,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6110__PHI_TEMPORARY = _6108;
     } else {
-        _6109 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
+        _6109 = *(&raw mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24637,20 +24622,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6110__PHI_TEMPORARY = _6109;
     }
     _6110 = _6110__PHI_TEMPORARY;
-    _6111 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
+    _6111 = *(&raw mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6112 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
+    _6112 = *(&raw mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_6111 as core::ffi::c_double, _6112 as core::ffi::c_double) != 0 {
-        _6113 = *(&mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
+        _6113 = *(&raw mut *((*(&mut _5940 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24658,7 +24643,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6115__PHI_TEMPORARY = _6113;
     } else {
-        _6114 = *(&mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
+        _6114 = *(&raw mut *((*(&mut _5941 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24676,15 +24661,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6117 = _5927;
     *(_6116 as *mut core::ffi::c_float) = _6117;
     _6118 = _5928;
-    *(&mut *((*(_6116 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6116 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6118;
     _6119 = _5929;
-    *(&mut *((*(_6116 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6116 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6119;
     _6120 = _5930;
-    *(&mut *((*(_6116 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6116 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6120;
     _6121 = _5939;
@@ -24728,15 +24713,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6133 = _5938;
     *(_6132 as *mut core::ffi::c_float) = _6133;
     _6134 = _5938;
-    *(&mut *((*(_6132 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6132 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6134;
     _6135 = _5938;
-    *(&mut *((*(_6132 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6132 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6135;
     _6136 = _5938;
-    *(&mut *((*(_6132 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6132 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6136;
     _6137 = *(&mut _5948 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -24753,20 +24738,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6143__PHI_TEMPORARY = _6142;
     }
     _6143 = _6143__PHI_TEMPORARY;
-    _6144 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
+    _6144 = *(&raw mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6145 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
+    _6145 = *(&raw mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_6144 as core::ffi::c_double, _6145 as core::ffi::c_double) != 0 {
-        _6146 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
+        _6146 = *(&raw mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24774,7 +24759,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6148__PHI_TEMPORARY = _6146;
     } else {
-        _6147 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
+        _6147 = *(&raw mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24783,20 +24768,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6148__PHI_TEMPORARY = _6147;
     }
     _6148 = _6148__PHI_TEMPORARY;
-    _6149 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
+    _6149 = *(&raw mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6150 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
+    _6150 = *(&raw mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_6149 as core::ffi::c_double, _6150 as core::ffi::c_double) != 0 {
-        _6151 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
+        _6151 = *(&raw mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24804,7 +24789,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6153__PHI_TEMPORARY = _6151;
     } else {
-        _6152 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
+        _6152 = *(&raw mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24813,20 +24798,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6153__PHI_TEMPORARY = _6152;
     }
     _6153 = _6153__PHI_TEMPORARY;
-    _6154 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
+    _6154 = *(&raw mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6155 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
+    _6155 = *(&raw mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_ogt(_6154 as core::ffi::c_double, _6155 as core::ffi::c_double) != 0 {
-        _6156 = *(&mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
+        _6156 = *(&raw mut *((*(&mut _5919 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24834,7 +24819,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6158__PHI_TEMPORARY = _6156;
     } else {
-        _6157 = *(&mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
+        _6157 = *(&raw mut *((*(&mut _5920 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24852,15 +24837,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6160 = _5914;
     *(_6159 as *mut core::ffi::c_float) = _6160;
     _6161 = _5915;
-    *(&mut *((*(_6159 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6159 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6161;
     _6162 = _5916;
-    *(&mut *((*(_6159 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6159 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6162;
     _6163 = _5917;
-    *(&mut *((*(_6159 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6159 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6163;
     _6164 = _5918;
@@ -24883,15 +24868,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6171 = _5934;
     *(_6170 as *mut core::ffi::c_float) = _6171;
     _6172 = _5934;
-    *(&mut *((*(_6170 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6170 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6172;
     _6173 = _5934;
-    *(&mut *((*(_6170 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6170 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6173;
     _6174 = _5934;
-    *(&mut *((*(_6170 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6170 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6174;
     _6175 = *(&mut _5958 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float);
@@ -24908,20 +24893,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6181__PHI_TEMPORARY = _6180;
     }
     _6181 = _6181__PHI_TEMPORARY;
-    _6182 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
+    _6182 = *(&raw mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6183 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
+    _6183 = *(&raw mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_6182 as core::ffi::c_double, _6183 as core::ffi::c_double) != 0 {
-        _6184 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
+        _6184 = *(&raw mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24929,7 +24914,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6186__PHI_TEMPORARY = _6184;
     } else {
-        _6185 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
+        _6185 = *(&raw mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24938,20 +24923,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6186__PHI_TEMPORARY = _6185;
     }
     _6186 = _6186__PHI_TEMPORARY;
-    _6187 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
+    _6187 = *(&raw mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6188 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
+    _6188 = *(&raw mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_6187 as core::ffi::c_double, _6188 as core::ffi::c_double) != 0 {
-        _6189 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
+        _6189 = *(&raw mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24959,7 +24944,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6191__PHI_TEMPORARY = _6189;
     } else {
-        _6190 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
+        _6190 = *(&raw mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24968,20 +24953,20 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6191__PHI_TEMPORARY = _6190;
     }
     _6191 = _6191__PHI_TEMPORARY;
-    _6192 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
+    _6192 = *(&raw mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _6193 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
+    _6193 = *(&raw mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     if llvm_fcmp_olt(_6192 as core::ffi::c_double, _6193 as core::ffi::c_double) != 0 {
-        _6194 = *(&mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
+        _6194 = *(&raw mut *((*(&mut _5943 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -24989,7 +24974,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             as *mut core::ffi::c_float);
         _6196__PHI_TEMPORARY = _6194;
     } else {
-        _6195 = *(&mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
+        _6195 = *(&raw mut *((*(&mut _5944 as *mut l_struct_struct_OC_vfloat4
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
@@ -25007,15 +24992,15 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6198 = _5922;
     *(_6197 as *mut core::ffi::c_float) = _6198;
     _6199 = _5923;
-    *(&mut *((*(_6197 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6197 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6199;
     _6200 = _5924;
-    *(&mut *((*(_6197 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6197 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6200;
     _6201 = _5925;
-    *(&mut *((*(_6197 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_6197 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _6201;
     _6202 = _5942;
@@ -25044,7 +25029,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6209 = *(_6208 as *mut core::ffi::c_float);
     _5882 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6210 = _5882;
-    _6211 = *(&mut *((*(_6210 as *mut crate::l_array_4_float)).array)
+    _6211 = *(&raw mut *((*(_6210 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -25054,7 +25039,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         _6213 = *(_6212 as *mut core::ffi::c_float);
         _5897 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _6214 = _5897;
-        _6215 = *(&mut *((*(_6214 as *mut crate::l_array_4_float)).array)
+        _6215 = *(&raw mut *((*(_6214 as *mut crate::l_array_4_float)).array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
@@ -25071,13 +25056,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
         18419650866751587828 => {
             _5883 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6216 = _5883;
-            _6217 = *(&mut *((*(_6216 as *mut crate::l_array_4_float)).array)
+            _6217 = *(&raw mut *((*(_6216 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5898 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6218 = _5898;
-            _6219 = *(&mut *((*(_6218 as *mut crate::l_array_4_float)).array)
+            _6219 = *(&raw mut *((*(_6218 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25096,7 +25081,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6221 = _5870;
             _5860 = _6221;
             _6222 = _5860;
-            _6223 = *(&mut *((*(_6222 as *mut crate::l_array_4_float)).array)
+            _6223 = *(&raw mut *((*(_6222 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25105,13 +25090,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6225 = *(_6224 as *mut core::ffi::c_float);
             _5863 = _6221;
             _6226 = _5863;
-            _6227 = *(&mut *((*(_6226 as *mut crate::l_array_4_float)).array)
+            _6227 = *(&raw mut *((*(_6226 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5862 = _6221;
             _6228 = _5862;
-            _6229 = *(&mut *((*(_6228 as *mut crate::l_array_4_float)).array)
+            _6229 = *(&raw mut *((*(_6228 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25124,17 +25109,17 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6231 = _5865;
             *(_6230 as *mut core::ffi::c_float) = _6231;
             _6232 = _5866;
-            *(&mut *((*(_6230 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6230 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6232;
             _6233 = _5867;
-            *(&mut *((*(_6230 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6230 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6233;
             _6234 = _5868;
-            *(&mut *((*(_6230 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6230 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6234;
@@ -25149,7 +25134,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6237 = _5881;
             _5871 = _6237;
             _6238 = _5871;
-            _6239 = *(&mut *((*(_6238 as *mut crate::l_array_4_float)).array)
+            _6239 = *(&raw mut *((*(_6238 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25158,13 +25143,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6241 = *(_6240 as *mut core::ffi::c_float);
             _5874 = _6237;
             _6242 = _5874;
-            _6243 = *(&mut *((*(_6242 as *mut crate::l_array_4_float)).array)
+            _6243 = *(&raw mut *((*(_6242 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5873 = _6237;
             _6244 = _5873;
-            _6245 = *(&mut *((*(_6244 as *mut crate::l_array_4_float)).array)
+            _6245 = *(&raw mut *((*(_6244 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25177,17 +25162,17 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6247 = _5876;
             *(_6246 as *mut core::ffi::c_float) = _6247;
             _6248 = _5877;
-            *(&mut *((*(_6246 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6246 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6248;
             _6249 = _5878;
-            *(&mut *((*(_6246 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6246 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6249;
             _6250 = _5879;
-            *(&mut *((*(_6246 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6246 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6250;
@@ -25204,13 +25189,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6253 = _5848;
             _5841 = _6253;
             _6254 = _5841;
-            _6255 = *(&mut *((*(_6254 as *mut crate::l_array_4_float)).array)
+            _6255 = *(&raw mut *((*(_6254 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5838 = _6253;
             _6256 = _5838;
-            _6257 = *(&mut *((*(_6256 as *mut crate::l_array_4_float)).array)
+            _6257 = *(&raw mut *((*(_6256 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25219,7 +25204,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6259 = *(_6258 as *mut core::ffi::c_float);
             _5840 = _6253;
             _6260 = _5840;
-            _6261 = *(&mut *((*(_6260 as *mut crate::l_array_4_float)).array)
+            _6261 = *(&raw mut *((*(_6260 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25232,17 +25217,17 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6263 = _5843;
             *(_6262 as *mut core::ffi::c_float) = _6263;
             _6264 = _5844;
-            *(&mut *((*(_6262 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6262 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6264;
             _6265 = _5845;
-            *(&mut *((*(_6262 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6262 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6265;
             _6266 = _5846;
-            *(&mut *((*(_6262 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6262 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6266;
@@ -25257,13 +25242,13 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6269 = _5859;
             _5852 = _6269;
             _6270 = _5852;
-            _6271 = *(&mut *((*(_6270 as *mut crate::l_array_4_float)).array)
+            _6271 = *(&raw mut *((*(_6270 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
             _5849 = _6269;
             _6272 = _5849;
-            _6273 = *(&mut *((*(_6272 as *mut crate::l_array_4_float)).array)
+            _6273 = *(&raw mut *((*(_6272 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25272,7 +25257,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6275 = *(_6274 as *mut core::ffi::c_float);
             _5851 = _6269;
             _6276 = _5851;
-            _6277 = *(&mut *((*(_6276 as *mut crate::l_array_4_float)).array)
+            _6277 = *(&raw mut *((*(_6276 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
@@ -25285,17 +25270,17 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _6279 = _5854;
             *(_6278 as *mut core::ffi::c_float) = _6279;
             _6280 = _5855;
-            *(&mut *((*(_6278 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6278 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6280;
             _6281 = _5856;
-            *(&mut *((*(_6278 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6278 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6281;
             _6282 = _5857;
-            *(&mut *((*(_6278 as *mut crate::l_array_4_float)).array)
+            *(&raw mut *((*(_6278 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6282;
@@ -25323,7 +25308,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6289 = _5992;
     _5884 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6290 = _5884;
-    _6291 = *(&mut *((*(_6290 as *mut crate::l_array_4_float)).array)
+    _6291 = *(&raw mut *((*(_6290 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -25331,7 +25316,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6292 = _5992;
     _5899 = &mut _5978 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6293 = _5899;
-    _6294 = *(&mut *((*(_6293 as *mut crate::l_array_4_float)).array)
+    _6294 = *(&raw mut *((*(_6293 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -25346,7 +25331,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6300 = _5995;
     _5885 = &mut _5977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6301 = _5885;
-    _6302 = *(&mut *((*(_6301 as *mut crate::l_array_4_float)).array)
+    _6302 = *(&raw mut *((*(_6301 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -25356,7 +25341,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
     _6305 = _5995;
     _5900 = &mut _5977 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6306 = _5900;
-    _6307 = *(&mut *((*(_6306 as *mut crate::l_array_4_float)).array)
+    _6307 = *(&raw mut *((*(_6306 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -25369,40 +25354,34 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             break;
         }
         _6309 = _5998;
-        _6310 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
+        _6310 = *(&raw mut *((*(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
             .array)
             .as_ptr()
-            .offset(_6309 as int32_t as int64_t as isize)
-            as *const crate::l_array_4_float
+            .offset(_6309 as int32_t as int64_t as isize) as *const crate::l_array_4_float
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
-            .offset(0 as core::ffi::c_int as int64_t as isize)
-            as *mut core::ffi::c_float);
+            .offset(0 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
         _5999 = _6310;
         _6311 = _5998;
-        _6312 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
+        _6312 = *(&raw mut *((*(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
             .array)
             .as_ptr()
-            .offset(_6311 as int32_t as int64_t as isize)
-            as *const crate::l_array_4_float
+            .offset(_6311 as int32_t as int64_t as isize) as *const crate::l_array_4_float
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
-            .offset(1 as core::ffi::c_int as int64_t as isize)
-            as *mut core::ffi::c_float);
+            .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
         _6000 = _6312;
         _6313 = _5998;
-        _6314 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
+        _6314 = *(&raw mut *((*(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_cutoffs
             .array)
             .as_ptr()
-            .offset(_6313 as int32_t as int64_t as isize)
-            as *const crate::l_array_4_float
+            .offset(_6313 as int32_t as int64_t as isize) as *const crate::l_array_4_float
             as *mut crate::l_array_4_float))
             .array)
             .as_mut_ptr()
-            .offset(2 as core::ffi::c_int as int64_t as isize)
-            as *mut core::ffi::c_float);
+            .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
         _6001 = _6314;
         _6315 = _5993;
         _6316 = _5999;
@@ -25429,23 +25408,21 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                         ) != 0)
                         {
                             _6327 = _5998;
-                            _6328 =
-                                *(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE11mode_scales
-                                    .array)
-                                    .as_ptr()
-                                    .offset(_6327 as int32_t as int64_t as isize)
-                                    as *const core::ffi::c_float
-                                    as *mut core::ffi::c_float);
+                            _6328 = *(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE11mode_scales
+                                .array)
+                                .as_ptr()
+                                .offset(_6327 as int32_t as int64_t as isize)
+                                as *const core::ffi::c_float as *mut core::ffi::c_float);
                             _6002 = _6328;
                             _6329 = _5998;
-                            _6330 = *(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_rscales
+                            _6330 = *(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE12mode_rscales
                                 .array)
                                 .as_ptr()
                                 .offset(_6329 as int32_t as int64_t as isize)
                                 as *const core::ffi::c_float as *mut core::ffi::c_float);
                             _6003 = _6330;
                             _6331 = _5998;
-                            _6332 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits
+                            _6332 = *(&raw mut *((*(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits
                                 .array)
                                 .as_ptr()
                                 .offset(_6331 as int32_t as int64_t as isize)
@@ -25456,7 +25433,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                 as *mut uint32_t);
                             _6004 = ((1 as core::ffi::c_int) << _6332) as uint32_t;
                             _6333 = _5998;
-                            _6334 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits
+                            _6334 = *(&raw mut *((*(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits
                                 .array)
                                 .as_ptr()
                                 .offset(_6333 as int32_t as int64_t as isize)
@@ -25467,7 +25444,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                 as *mut uint32_t);
                             _6005 = ((1 as core::ffi::c_int) << _6334) as uint32_t;
                             _6335 = _5998;
-                            _6336 = *(&mut *((*(&*(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits
+                            _6336 = *(&raw mut *((*(&raw const *(_ZZL16quantize_hdr_rgb7vfloat4S_Ph12quant_methodE9mode_bits
                                 .array)
                                 .as_ptr()
                                 .offset(_6335 as int32_t as int64_t as isize)
@@ -25546,7 +25523,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                 _5886 = &mut _5978 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void;
                                 _6371 = _5886;
-                                _6372 = *(&mut *((*(_6371 as *mut crate::l_array_4_float)).array)
+                                _6372 = *(&raw mut *((*(_6371 as *mut crate::l_array_4_float))
+                                    .array)
                                     .as_mut_ptr()
                                     .offset(1 as core::ffi::c_int as int64_t as isize)
                                     as *mut core::ffi::c_float);
@@ -25555,7 +25533,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                 _5901 = &mut _5978 as *mut l_struct_struct_OC_vfloat4
                                     as *mut core::ffi::c_void;
                                 _6374 = _5901;
-                                _6375 = *(&mut *((*(_6374 as *mut crate::l_array_4_float)).array)
+                                _6375 = *(&raw mut *((*(_6374 as *mut crate::l_array_4_float))
+                                    .array)
                                     .as_mut_ptr()
                                     .offset(2 as core::ffi::c_int as int64_t as isize)
                                     as *mut core::ffi::c_float);
@@ -25699,7 +25678,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                         _5887 = &mut _5977 as *mut l_struct_struct_OC_vfloat4
                                             as *mut core::ffi::c_void;
                                         _6422 = _5887;
-                                        _6423 = *(&mut *((*(_6422 as *mut crate::l_array_4_float))
+                                        _6423 = *(&raw mut *((*(_6422
+                                            as *mut crate::l_array_4_float))
                                             .array)
                                             .as_mut_ptr()
                                             .offset(1 as core::ffi::c_int as int64_t as isize)
@@ -25714,7 +25694,8 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                                         _5902 = &mut _5977 as *mut l_struct_struct_OC_vfloat4
                                             as *mut core::ffi::c_void;
                                         _6427 = _5902;
-                                        _6428 = *(&mut *((*(_6427 as *mut crate::l_array_4_float))
+                                        _6428 = *(&raw mut *((*(_6427
+                                            as *mut crate::l_array_4_float))
                                             .array)
                                             .as_mut_ptr()
                                             .offset(2 as core::ffi::c_int as int64_t as isize)
@@ -25775,54 +25756,54 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             _5895 = &mut _5985 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6491 = _5895;
             _6492 = *(_6491 as *mut core::ffi::c_float);
-            *(&mut *(_6038.array)
+            *(&raw mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6492;
             _5896 = &mut _5986 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6493 = _5896;
             _6494 = *(_6493 as *mut core::ffi::c_float);
-            *(&mut *(_6038.array)
+            *(&raw mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6494;
             _5888 = &mut _5985 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6495 = _5888;
-            _6496 = *(&mut *((*(_6495 as *mut crate::l_array_4_float)).array)
+            _6496 = *(&raw mut *((*(_6495 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            *(&mut *(_6038.array)
+            *(&raw mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6496;
             _5889 = &mut _5986 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6497 = _5889;
-            _6498 = *(&mut *((*(_6497 as *mut crate::l_array_4_float)).array)
+            _6498 = *(&raw mut *((*(_6497 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            *(&mut *(_6038.array)
+            *(&raw mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6498;
             _5903 = &mut _5985 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6499 = _5903;
-            _6500 = *(&mut *((*(_6499 as *mut crate::l_array_4_float)).array)
+            _6500 = *(&raw mut *((*(_6499 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            *(&mut *(_6038.array)
+            *(&raw mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(4 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6500;
             _5904 = &mut _5986 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _6501 = _5904;
-            _6502 = *(&mut *((*(_6501 as *mut crate::l_array_4_float)).array)
+            _6502 = *(&raw mut *((*(_6501 as *mut crate::l_array_4_float)).array)
                 .as_mut_ptr()
                 .offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float);
-            *(&mut *(_6038.array)
+            *(&raw mut *(_6038.array)
                 .as_mut_ptr()
                 .offset(5 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _6502;
@@ -25833,7 +25814,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                     break;
                 }
                 _6504 = _6039;
-                _6505 = *(&mut *(_6038.array)
+                _6505 = *(&raw mut *(_6038.array)
                     .as_mut_ptr()
                     .offset(_6504 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float);
@@ -25843,7 +25824,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                     65020 as core::ffi::c_int as core::ffi::c_float,
                 );
                 _6507 = _6039;
-                *(&mut *(_6038.array)
+                *(&raw mut *(_6038.array)
                     .as_mut_ptr()
                     .offset(_6507 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float) = _6506;
@@ -25857,7 +25838,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                     break;
                 }
                 _6510 = _6040;
-                _6511 = *(&mut *(_6038.array)
+                _6511 = *(&raw mut *(_6038.array)
                     .as_mut_ptr()
                     .offset(_6510 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float);
@@ -25871,7 +25852,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                 _6515 = _ZL11quant_color12quant_methodi(_6513, _6514);
                 _6516 = _5979;
                 _6517 = _6040;
-                *(&mut *(_6516 as *mut uint8_t).offset(_6517 as int32_t as int64_t as isize)
+                *(&raw mut *(_6516 as *mut uint8_t).offset(_6517 as int32_t as int64_t as isize)
                     as *mut uint8_t) = _6515;
                 _6518 = _6040;
                 _6040 = llvm_add_u32(_6518, 1);
@@ -25883,7 +25864,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                     break;
                 }
                 _6520 = _6042;
-                _6521 = *(&mut *(_6038.array)
+                _6521 = *(&raw mut *(_6038.array)
                     .as_mut_ptr()
                     .offset(_6520 as int32_t as int64_t as isize)
                     as *mut core::ffi::c_float);
@@ -25899,7 +25880,7 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
                 _ZL43quantize_and_unquantize_retain_top_two_bits12quant_methodhRh(
                     _6523,
                     _6524 as uint8_t,
-                    &mut *(_6525 as *mut uint8_t).offset(_6526 as int32_t as int64_t as isize)
+                    &raw mut *(_6525 as *mut uint8_t).offset(_6526 as int32_t as int64_t as isize)
                         as *mut uint8_t as *mut core::ffi::c_void,
                 );
                 _6527 = _6042;
@@ -26007,23 +25988,23 @@ unsafe extern "C" fn _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(
             *(_6479 as *mut uint8_t) = _6478 as uint8_t;
             _6480 = _6015;
             _6481 = _5979;
-            *(&mut *(_6481 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_6481 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _6480;
             _6482 = _6024;
             _6483 = _5979;
-            *(&mut *(_6483 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_6483 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _6482;
             _6484 = _6025;
             _6485 = _5979;
-            *(&mut *(_6485 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_6485 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _6484;
             _6486 = _6036;
             _6487 = _5979;
-            *(&mut *(_6487 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_6487 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _6486;
             _6488 = _6037;
             _6489 = _5979;
-            *(&mut *(_6489 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_6489 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _6488;
         }
     };
@@ -26081,14 +26062,14 @@ unsafe extern "C" fn _ZL19quantize_rgbs_alpha7vfloat4S_S_Ph12quant_method(
     _6649 = _6642;
     _6643 = &mut _6645 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6653 = _6643;
-    _6654 = *(&mut *((*(_6653 as *mut crate::l_array_4_float)).array)
+    _6654 = *(&raw mut *((*(_6653 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6650 = _6654;
     _6644 = &mut _6646 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6655 = _6644;
-    _6656 = *(&mut *((*(_6655 as *mut crate::l_array_4_float)).array)
+    _6656 = *(&raw mut *((*(_6655 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -26099,7 +26080,7 @@ unsafe extern "C" fn _ZL19quantize_rgbs_alpha7vfloat4S_S_Ph12quant_method(
     _6660 = _6650;
     _6661 = _ZL11quant_color12quant_methodif(_6657, _6659, _6660);
     _6662 = _6648;
-    *(&mut *(_6662 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_6662 as *mut uint8_t).offset(4 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _6661;
     _6663 = _6649;
     _6664 = _6651;
@@ -26107,7 +26088,7 @@ unsafe extern "C" fn _ZL19quantize_rgbs_alpha7vfloat4S_S_Ph12quant_method(
     _6666 = _6651;
     _6667 = _ZL11quant_color12quant_methodif(_6663, _6665, _6666);
     _6668 = _6648;
-    *(&mut *(_6668 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_6668 as *mut uint8_t).offset(5 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _6667;
     _6669 = memcpy(
         &mut _6652 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -26273,13 +26254,13 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     _6709 = *(_6708 as *mut core::ffi::c_float);
     _6677 = &mut _6680 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6710 = _6677;
-    _6711 = *(&mut *((*(_6710 as *mut crate::l_array_4_float)).array)
+    _6711 = *(&raw mut *((*(_6710 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6679 = &mut _6680 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6712 = _6679;
-    _6713 = *(&mut *((*(_6712 as *mut crate::l_array_4_float)).array)
+    _6713 = *(&raw mut *((*(_6712 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -26299,13 +26280,13 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
     _6717 = *(_6716 as *mut core::ffi::c_float);
     _6681 = &mut _6684 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6718 = _6681;
-    _6719 = *(&mut *((*(_6718 as *mut crate::l_array_4_float)).array)
+    _6719 = *(&raw mut *((*(_6718 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6683 = &mut _6684 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6720 = _6683;
-    _6721 = *(&mut *((*(_6720 as *mut crate::l_array_4_float)).array)
+    _6721 = *(&raw mut *((*(_6720 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -26382,7 +26363,7 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
                         *(_6761 as *mut uint8_t) = _6760 as uint8_t;
                         _6762 = _6703;
                         _6763 = _6688;
-                        *(&mut *(_6763 as *mut uint8_t)
+                        *(&raw mut *(_6763 as *mut uint8_t)
                             .offset(1 as core::ffi::c_int as int64_t as isize)
                             as *mut uint8_t) = _6762 as uint8_t;
                         _6685 = 1 as core::ffi::c_int as bool_0;
@@ -26458,7 +26439,7 @@ unsafe extern "C" fn _ZL38try_quantize_hdr_luminance_small_range7vfloat4S_Ph12qu
                                 *(_6791 as *mut uint8_t) = _6790 as uint8_t;
                                 _6792 = _6703;
                                 _6793 = _6688;
-                                *(&mut *(_6793 as *mut uint8_t)
+                                *(&raw mut *(_6793 as *mut uint8_t)
                                     .offset(1 as core::ffi::c_int as int64_t as isize)
                                     as *mut uint8_t) = _6792 as uint8_t;
                                 _6685 = 1 as core::ffi::c_int as bool_0;
@@ -26621,13 +26602,13 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     _6856 = *(_6855 as *mut core::ffi::c_float);
     _6818 = &mut _6821 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6857 = _6818;
-    _6858 = *(&mut *((*(_6857 as *mut crate::l_array_4_float)).array)
+    _6858 = *(&raw mut *((*(_6857 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6820 = &mut _6821 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6859 = _6820;
-    _6860 = *(&mut *((*(_6859 as *mut crate::l_array_4_float)).array)
+    _6860 = *(&raw mut *((*(_6859 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -26647,13 +26628,13 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     _6864 = *(_6863 as *mut core::ffi::c_float);
     _6822 = &mut _6825 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6865 = _6822;
-    _6866 = *(&mut *((*(_6865 as *mut crate::l_array_4_float)).array)
+    _6866 = *(&raw mut *((*(_6865 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6824 = &mut _6825 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6867 = _6824;
-    _6868 = *(&mut *((*(_6867 as *mut crate::l_array_4_float)).array)
+    _6868 = *(&raw mut *((*(_6867 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -26750,7 +26731,7 @@ unsafe extern "C" fn _ZL34quantize_hdr_luminance_large_range7vfloat4S_Ph12quant_
     _6922 = _6852;
     _6923 = _ZL11quant_color12quant_methodi(_6921, _6922);
     _6924 = _6828;
-    *(&mut *(_6924 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_6924 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _6923;
 }
 #[inline(never)]
@@ -26839,13 +26820,13 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     _6954 = *(_6953 as *mut core::ffi::c_float);
     _6934 = &mut _6937 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6955 = _6934;
-    _6956 = *(&mut *((*(_6955 as *mut crate::l_array_4_float)).array)
+    _6956 = *(&raw mut *((*(_6955 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6936 = &mut _6937 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6957 = _6936;
-    _6958 = *(&mut *((*(_6957 as *mut crate::l_array_4_float)).array)
+    _6958 = *(&raw mut *((*(_6957 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -26865,13 +26846,13 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     _6962 = *(_6961 as *mut core::ffi::c_float);
     _6938 = &mut _6941 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6963 = _6938;
-    _6964 = *(&mut *((*(_6963 as *mut crate::l_array_4_float)).array)
+    _6964 = *(&raw mut *((*(_6963 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6940 = &mut _6941 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _6965 = _6940;
-    _6966 = *(&mut *((*(_6965 as *mut crate::l_array_4_float)).array)
+    _6966 = *(&raw mut *((*(_6965 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -26903,7 +26884,7 @@ unsafe extern "C" fn _ZL18quantize_luminance7vfloat4S_Ph12quant_method(
     _6982 = _6948;
     _6983 = _ZL11quant_color12quant_methodif(_6979, _6981, _6982);
     _6984 = _6944;
-    *(&mut *(_6984 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_6984 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _6983;
 }
 #[inline(never)]
@@ -27070,13 +27051,13 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     _7027 = *(_7026 as *mut core::ffi::c_float);
     _6991 = &mut _6994 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7028 = _6991;
-    _7029 = *(&mut *((*(_7028 as *mut crate::l_array_4_float)).array)
+    _7029 = *(&raw mut *((*(_7028 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6993 = &mut _6994 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7030 = _6993;
-    _7031 = *(&mut *((*(_7030 as *mut crate::l_array_4_float)).array)
+    _7031 = *(&raw mut *((*(_7030 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27096,13 +27077,13 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     _7035 = *(_7034 as *mut core::ffi::c_float);
     _6995 = &mut _6998 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7036 = _6995;
-    _7037 = *(&mut *((*(_7036 as *mut crate::l_array_4_float)).array)
+    _7037 = *(&raw mut *((*(_7036 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _6997 = &mut _6998 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7038 = _6997;
-    _7039 = *(&mut *((*(_7038 as *mut crate::l_array_4_float)).array)
+    _7039 = *(&raw mut *((*(_7038 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27112,14 +27093,14 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
     );
     _6999 = &mut _7002 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7040 = _6999;
-    _7041 = *(&mut *((*(_7040 as *mut crate::l_array_4_float)).array)
+    _7041 = *(&raw mut *((*(_7040 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _7010 = _7041;
     _7000 = &mut _7003 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7042 = _7000;
-    _7043 = *(&mut *((*(_7042 as *mut crate::l_array_4_float)).array)
+    _7043 = *(&raw mut *((*(_7042 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27261,17 +27242,17 @@ unsafe extern "C" fn _ZL34try_quantize_luminance_alpha_delta7vfloat4S_Ph12quant_
                                             *(_7111 as *mut uint8_t) = _7110 as uint8_t;
                                             _7112 = _7020;
                                             _7113 = _7004;
-                                            *(&mut *(_7113 as *mut uint8_t)
+                                            *(&raw mut *(_7113 as *mut uint8_t)
                                                 .offset(1 as core::ffi::c_int as int64_t as isize)
                                                 as *mut uint8_t) = _7112 as uint8_t;
                                             _7114 = _7017;
                                             _7115 = _7004;
-                                            *(&mut *(_7115 as *mut uint8_t)
+                                            *(&raw mut *(_7115 as *mut uint8_t)
                                                 .offset(2 as core::ffi::c_int as int64_t as isize)
                                                 as *mut uint8_t) = _7114 as uint8_t;
                                             _7116 = _7021;
                                             _7117 = _7004;
-                                            *(&mut *(_7117 as *mut uint8_t)
+                                            *(&raw mut *(_7117 as *mut uint8_t)
                                                 .offset(3 as core::ffi::c_int as int64_t as isize)
                                                 as *mut uint8_t) = _7116 as uint8_t;
                                             _7001 = 1 as core::ffi::c_int as bool_0;
@@ -27415,13 +27396,13 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7167 = *(_7166 as *mut core::ffi::c_float);
     _7144 = &mut _7147 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7168 = _7144;
-    _7169 = *(&mut *((*(_7168 as *mut crate::l_array_4_float)).array)
+    _7169 = *(&raw mut *((*(_7168 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _7146 = &mut _7147 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7170 = _7146;
-    _7171 = *(&mut *((*(_7170 as *mut crate::l_array_4_float)).array)
+    _7171 = *(&raw mut *((*(_7170 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27441,13 +27422,13 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7175 = *(_7174 as *mut core::ffi::c_float);
     _7148 = &mut _7151 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7176 = _7148;
-    _7177 = *(&mut *((*(_7176 as *mut crate::l_array_4_float)).array)
+    _7177 = *(&raw mut *((*(_7176 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _7150 = &mut _7151 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7178 = _7150;
-    _7179 = *(&mut *((*(_7178 as *mut crate::l_array_4_float)).array)
+    _7179 = *(&raw mut *((*(_7178 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27457,14 +27438,14 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     );
     _7152 = &mut _7154 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7180 = _7152;
-    _7181 = *(&mut *((*(_7180 as *mut crate::l_array_4_float)).array)
+    _7181 = *(&raw mut *((*(_7180 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _7162 = _7181;
     _7153 = &mut _7155 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7182 = _7153;
-    _7183 = *(&mut *((*(_7182 as *mut crate::l_array_4_float)).array)
+    _7183 = *(&raw mut *((*(_7182 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27482,7 +27463,7 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7193 = _7160;
     _7194 = _ZL11quant_color12quant_methodif(_7190, _7192, _7193);
     _7195 = _7156;
-    *(&mut *(_7195 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_7195 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _7194;
     _7196 = _7157;
     _7197 = _7162;
@@ -27490,7 +27471,7 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7199 = _7162;
     _7200 = _ZL11quant_color12quant_methodif(_7196, _7198, _7199);
     _7201 = _7156;
-    *(&mut *(_7201 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_7201 as *mut uint8_t).offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _7200;
     _7202 = _7157;
     _7203 = _7163;
@@ -27498,7 +27479,7 @@ unsafe extern "C" fn _ZL24quantize_luminance_alpha7vfloat4S_Ph12quant_method(
     _7205 = _7163;
     _7206 = _ZL11quant_color12quant_methodif(_7202, _7204, _7205);
     _7207 = _7156;
-    *(&mut *(_7207 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_7207 as *mut uint8_t).offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _7206;
 }
 #[inline(never)]
@@ -27560,7 +27541,7 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     _7218 = 0.00389105058f64 as core::ffi::c_float;
     _7212 = &mut _7214 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7223 = _7212;
-    _7224 = *(&mut *((*(_7223 as *mut crate::l_array_4_float)).array)
+    _7224 = *(&raw mut *((*(_7223 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27569,7 +27550,7 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     _7219 = _7226;
     _7213 = &mut _7215 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7227 = _7213;
-    _7228 = *(&mut *((*(_7227 as *mut crate::l_array_4_float)).array)
+    _7228 = *(&raw mut *((*(_7227 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27582,7 +27563,7 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     _7234 = _7219;
     _7235 = _ZL11quant_color12quant_methodif(_7231, _7233, _7234);
     _7236 = _7216;
-    *(&mut *(_7236 as *mut uint8_t).offset(6 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_7236 as *mut uint8_t).offset(6 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _7235;
     _7237 = _7217;
     _7238 = _7220;
@@ -27590,7 +27571,7 @@ unsafe extern "C" fn _ZL26quantize_hdr_rgb_ldr_alpha7vfloat4S_Ph12quant_method(
     _7240 = _7220;
     _7241 = _ZL11quant_color12quant_methodif(_7237, _7239, _7240);
     _7242 = _7216;
-    *(&mut *(_7242 as *mut uint8_t).offset(7 as core::ffi::c_int as int64_t as isize)
+    *(&raw mut *(_7242 as *mut uint8_t).offset(7 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t) = _7241;
     _7243 = memcpy(
         &mut _7221 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
@@ -27664,13 +27645,13 @@ unsafe extern "C" fn _ZL22quantize_hdr_rgb_alpha7vfloat4S_Ph12quant_method(
     _ZL16quantize_hdr_rgb7vfloat4S_Ph12quant_method(_7265, _7266, _7263, _7264);
     _7253 = &mut _7255 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7267 = _7253;
-    _7268 = *(&mut *((*(_7267 as *mut crate::l_array_4_float)).array)
+    _7268 = *(&raw mut *((*(_7267 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _7254 = &mut _7256 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7269 = _7254;
-    _7270 = *(&mut *((*(_7269 as *mut crate::l_array_4_float)).array)
+    _7270 = *(&raw mut *((*(_7269 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -27679,7 +27660,7 @@ unsafe extern "C" fn _ZL22quantize_hdr_rgb_alpha7vfloat4S_Ph12quant_method(
     _ZL18quantize_hdr_alphaffPh12quant_method(
         _7268,
         _7270,
-        &mut *(_7271 as *mut uint8_t).offset(6 as core::ffi::c_int as int64_t as isize)
+        &raw mut *(_7271 as *mut uint8_t).offset(6 as core::ffi::c_int as int64_t as isize)
             as *mut uint8_t as *mut core::ffi::c_void,
         _7272,
     );
@@ -27902,15 +27883,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7339 = _7299;
     *(_7338 as *mut uint32_t) = _7339;
     _7340 = _7299;
-    *(&mut *((*(_7338 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7338 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7340;
     _7341 = _7299;
-    *(&mut *((*(_7338 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7338 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7341;
     _7342 = _7299;
-    *(&mut *((*(_7338 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7338 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7342;
     _7343 = *(&mut _7303 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -27919,32 +27900,32 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     *(&mut _7297 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _7344;
     _7345 = *(&mut _7296 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _7346 = *(&mut _7297 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _7347 = *(&mut *((*(&mut _7296 as *mut l_struct_struct_OC_vint4
+    _7347 = *(&raw mut *((*(&mut _7296 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7348 = *(&mut *((*(&mut _7297 as *mut l_struct_struct_OC_vint4
+    _7348 = *(&raw mut *((*(&mut _7297 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7349 = *(&mut *((*(&mut _7296 as *mut l_struct_struct_OC_vint4
+    _7349 = *(&raw mut *((*(&mut _7296 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7350 = *(&mut *((*(&mut _7297 as *mut l_struct_struct_OC_vint4
+    _7350 = *(&raw mut *((*(&mut _7297 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7351 = *(&mut *((*(&mut _7296 as *mut l_struct_struct_OC_vint4
+    _7351 = *(&raw mut *((*(&mut _7296 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7352 = *(&mut *((*(&mut _7297 as *mut l_struct_struct_OC_vint4
+    _7352 = *(&raw mut *((*(&mut _7297 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -27958,15 +27939,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7354 = _7291;
     *(_7353 as *mut uint32_t) = _7354;
     _7355 = _7292;
-    *(&mut *((*(_7353 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7353 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7355;
     _7356 = _7293;
-    *(&mut *((*(_7353 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7353 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7356;
     _7357 = _7294;
-    *(&mut *((*(_7353 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7353 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7357;
     _7358 = *(&mut _7295 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -27988,15 +27969,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7364 = _7314;
     *(_7363 as *mut uint32_t) = _7364;
     _7365 = _7314;
-    *(&mut *((*(_7363 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7363 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7365;
     _7366 = _7314;
-    *(&mut *((*(_7363 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7363 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7366;
     _7367 = _7314;
-    *(&mut *((*(_7363 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7363 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7367;
     _7368 = *(&mut _7318 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -28005,32 +27986,32 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     *(&mut _7312 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _7369;
     _7370 = *(&mut _7311 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _7371 = *(&mut _7312 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _7372 = *(&mut *((*(&mut _7311 as *mut l_struct_struct_OC_vint4
+    _7372 = *(&raw mut *((*(&mut _7311 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7373 = *(&mut *((*(&mut _7312 as *mut l_struct_struct_OC_vint4
+    _7373 = *(&raw mut *((*(&mut _7312 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7374 = *(&mut *((*(&mut _7311 as *mut l_struct_struct_OC_vint4
+    _7374 = *(&raw mut *((*(&mut _7311 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7375 = *(&mut *((*(&mut _7312 as *mut l_struct_struct_OC_vint4
+    _7375 = *(&raw mut *((*(&mut _7312 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7376 = *(&mut *((*(&mut _7311 as *mut l_struct_struct_OC_vint4
+    _7376 = *(&raw mut *((*(&mut _7311 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7377 = *(&mut *((*(&mut _7312 as *mut l_struct_struct_OC_vint4
+    _7377 = *(&raw mut *((*(&mut _7312 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -28044,15 +28025,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7379 = _7306;
     *(_7378 as *mut uint32_t) = _7379;
     _7380 = _7307;
-    *(&mut *((*(_7378 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7378 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7380;
     _7381 = _7308;
-    *(&mut *((*(_7378 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7378 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7381;
     _7382 = _7309;
-    *(&mut *((*(_7378 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7378 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7382;
     _7383 = *(&mut _7310 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -28063,12 +28044,10 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7327 = &mut _7331 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _7386 = _7327;
     _7387 = *(_7386 as *mut uint32_t);
-    _7388 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7385, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7388 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7385, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -28076,15 +28055,13 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7389 = _7330;
     _7326 = &mut _7331 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _7390 = _7326;
-    _7391 = *(&mut *((*(_7390 as *mut crate::l_array_4_uint32_t)).array)
+    _7391 = *(&raw mut *((*(_7390 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7392 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7389, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7392 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7389, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -28092,15 +28069,13 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7393 = _7330;
     _7325 = &mut _7331 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _7394 = _7325;
-    _7395 = *(&mut *((*(_7394 as *mut crate::l_array_4_uint32_t)).array)
+    _7395 = *(&raw mut *((*(_7394 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7396 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7393, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7396 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7393, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -28114,15 +28089,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint4(
     _7398 = _7321;
     *(_7397 as *mut uint32_t) = _7398;
     _7399 = _7322;
-    *(&mut *((*(_7397 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7397 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7399;
     _7400 = _7323;
-    *(&mut *((*(_7397 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7397 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7400;
     _7401 = _7324;
-    *(&mut *((*(_7397 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7397 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7401;
     _7402 = (*(&mut _7328.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed_88)).data;
@@ -28505,15 +28480,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7504 = _7442;
     *(_7503 as *mut uint32_t) = _7504;
     _7505 = _7442;
-    *(&mut *((*(_7503 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7503 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7505;
     _7506 = _7442;
-    *(&mut *((*(_7503 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7503 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7506;
     _7507 = _7442;
-    *(&mut *((*(_7503 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7503 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7507;
     _7508 = *(&mut _7446 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -28522,32 +28497,32 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     *(&mut _7440 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _7509;
     _7510 = *(&mut _7439 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _7511 = *(&mut _7440 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _7512 = *(&mut *((*(&mut _7439 as *mut l_struct_struct_OC_vint4
+    _7512 = *(&raw mut *((*(&mut _7439 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7513 = *(&mut *((*(&mut _7440 as *mut l_struct_struct_OC_vint4
+    _7513 = *(&raw mut *((*(&mut _7440 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7514 = *(&mut *((*(&mut _7439 as *mut l_struct_struct_OC_vint4
+    _7514 = *(&raw mut *((*(&mut _7439 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7515 = *(&mut *((*(&mut _7440 as *mut l_struct_struct_OC_vint4
+    _7515 = *(&raw mut *((*(&mut _7440 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7516 = *(&mut *((*(&mut _7439 as *mut l_struct_struct_OC_vint4
+    _7516 = *(&raw mut *((*(&mut _7439 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7517 = *(&mut *((*(&mut _7440 as *mut l_struct_struct_OC_vint4
+    _7517 = *(&raw mut *((*(&mut _7440 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -28561,15 +28536,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7519 = _7434;
     *(_7518 as *mut uint32_t) = _7519;
     _7520 = _7435;
-    *(&mut *((*(_7518 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7518 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7520;
     _7521 = _7436;
-    *(&mut *((*(_7518 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7518 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7521;
     _7522 = _7437;
-    *(&mut *((*(_7518 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7518 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7522;
     _7523 = *(&mut _7438 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -28589,17 +28564,17 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7527 = (*(&mut _7490.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed_18)).data;
     *(&mut _7423 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _7527;
     _7528 = *(&mut _7423 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _7529 = *(&mut *((*(&mut _7423 as *mut l_struct_struct_OC_vint4
+    _7529 = *(&raw mut *((*(&mut _7423 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7530 = *(&mut *((*(&mut _7423 as *mut l_struct_struct_OC_vint4
+    _7530 = *(&raw mut *((*(&mut _7423 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7531 = *(&mut *((*(&mut _7423 as *mut l_struct_struct_OC_vint4
+    _7531 = *(&raw mut *((*(&mut _7423 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -28613,15 +28588,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7533 = _7418;
     *(_7532 as *mut core::ffi::c_float) = _7533;
     _7534 = _7419;
-    *(&mut *((*(_7532 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7532 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7534;
     _7535 = _7420;
-    *(&mut *((*(_7532 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7532 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7535;
     _7536 = _7421;
-    *(&mut *((*(_7532 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7532 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7536;
     _7537 = _7422;
@@ -28632,37 +28607,37 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     *(&mut _7475 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _7539;
     _7540 = *(&mut _7474 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _7541 = *(&mut _7475 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _7542 = *(&mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4
+    _7542 = *(&raw mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7543 = *(&mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4
+    _7543 = *(&raw mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7544 = *(&mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4
+    _7544 = *(&raw mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7545 = *(&mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4
+    _7545 = *(&raw mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7546 = *(&mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4
+    _7546 = *(&raw mut *((*(&mut _7474 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7547 = *(&mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4
+    _7547 = *(&raw mut *((*(&mut _7475 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -28677,15 +28652,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7549 = _7469;
     *(_7548 as *mut core::ffi::c_float) = _7549;
     _7550 = _7470;
-    *(&mut *((*(_7548 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7548 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7550;
     _7551 = _7471;
-    *(&mut *((*(_7548 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7548 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7551;
     _7552 = _7472;
-    *(&mut *((*(_7548 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7548 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7552;
     _7553 = _7473;
@@ -28701,15 +28676,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7556 = _7477;
     *(_7555 as *mut core::ffi::c_float) = _7556;
     _7557 = _7477;
-    *(&mut *((*(_7555 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7555 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7557;
     _7558 = _7477;
-    *(&mut *((*(_7555 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7555 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7558;
     _7559 = _7477;
-    *(&mut *((*(_7555 as *mut crate::l_array_4_float)).array)
+    *(&raw mut *((*(_7555 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float) = _7559;
     _7560 = *(&mut _7492.field0 as *mut crate::l_array_4_float);
@@ -28718,37 +28693,37 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     *(&mut _7416 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) = _7561;
     _7562 = *(&mut _7415 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
     _7563 = *(&mut _7416 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_float);
-    _7564 = *(&mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4
+    _7564 = *(&raw mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7565 = *(&mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4
+    _7565 = *(&raw mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7566 = *(&mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4
+    _7566 = *(&raw mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7567 = *(&mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4
+    _7567 = *(&raw mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7568 = *(&mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4
+    _7568 = *(&raw mut *((*(&mut _7415 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
-    _7569 = *(&mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4
+    _7569 = *(&raw mut *((*(&mut _7416 as *mut l_struct_struct_OC_vfloat4
         as *mut crate::l_array_4_float))
         .array)
         .as_mut_ptr()
@@ -28772,7 +28747,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7573 = _7411;
     _7574 = ((_7573 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_7570 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7570 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_7573 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -28783,7 +28758,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7575 = _7412;
     _7576 = ((_7575 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_7570 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7570 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_7575 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -28794,7 +28769,7 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7577 = _7413;
     _7578 = ((_7577 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
         == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0 as uint64_t;
-    *(&mut *((*(_7570 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7570 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = llvm_select_u32(
         ((_7577 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0 as uint32_t
@@ -28829,15 +28804,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7586 = _7457;
     *(_7585 as *mut uint32_t) = _7586;
     _7587 = _7457;
-    *(&mut *((*(_7585 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7585 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7587;
     _7588 = _7457;
-    *(&mut *((*(_7585 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7585 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7588;
     _7589 = _7457;
-    *(&mut *((*(_7585 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7585 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7589;
     _7590 = *(&mut _7461 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -28846,32 +28821,32 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     *(&mut _7455 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t) = _7591;
     _7592 = *(&mut _7454 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
     _7593 = *(&mut _7455 as *mut l_struct_struct_OC_vint4 as *mut uint32_t);
-    _7594 = *(&mut *((*(&mut _7454 as *mut l_struct_struct_OC_vint4
+    _7594 = *(&raw mut *((*(&mut _7454 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7595 = *(&mut *((*(&mut _7455 as *mut l_struct_struct_OC_vint4
+    _7595 = *(&raw mut *((*(&mut _7455 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7596 = *(&mut *((*(&mut _7454 as *mut l_struct_struct_OC_vint4
+    _7596 = *(&raw mut *((*(&mut _7454 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7597 = *(&mut *((*(&mut _7455 as *mut l_struct_struct_OC_vint4
+    _7597 = *(&raw mut *((*(&mut _7455 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7598 = *(&mut *((*(&mut _7454 as *mut l_struct_struct_OC_vint4
+    _7598 = *(&raw mut *((*(&mut _7454 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7599 = *(&mut *((*(&mut _7455 as *mut l_struct_struct_OC_vint4
+    _7599 = *(&raw mut *((*(&mut _7455 as *mut l_struct_struct_OC_vint4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -28885,15 +28860,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7601 = _7449;
     *(_7600 as *mut uint32_t) = _7601;
     _7602 = _7450;
-    *(&mut *((*(_7600 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7600 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7602;
     _7603 = _7451;
-    *(&mut *((*(_7600 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7600 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7603;
     _7604 = _7452;
-    *(&mut *((*(_7600 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7600 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7604;
     _7605 = *(&mut _7453 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -28920,20 +28895,20 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         _7614__PHI_TEMPORARY = _7613;
     }
     _7614 = _7614__PHI_TEMPORARY;
-    _7615 = *(&mut *((*(&mut _7432 as *mut l_struct_struct_OC_vmask4
+    _7615 = *(&raw mut *((*(&mut _7432 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     if _7615 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-        _7616 = *(&mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
+        _7616 = *(&raw mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _7618__PHI_TEMPORARY = _7616;
     } else {
-        _7617 = *(&mut *((*(&mut _7430 as *mut l_struct_struct_OC_vint4
+        _7617 = *(&raw mut *((*(&mut _7430 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -28941,20 +28916,20 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         _7618__PHI_TEMPORARY = _7617;
     }
     _7618 = _7618__PHI_TEMPORARY;
-    _7619 = *(&mut *((*(&mut _7432 as *mut l_struct_struct_OC_vmask4
+    _7619 = *(&raw mut *((*(&mut _7432 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     if _7619 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-        _7620 = *(&mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
+        _7620 = *(&raw mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _7622__PHI_TEMPORARY = _7620;
     } else {
-        _7621 = *(&mut *((*(&mut _7430 as *mut l_struct_struct_OC_vint4
+        _7621 = *(&raw mut *((*(&mut _7430 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -28962,20 +28937,20 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
         _7622__PHI_TEMPORARY = _7621;
     }
     _7622 = _7622__PHI_TEMPORARY;
-    _7623 = *(&mut *((*(&mut _7432 as *mut l_struct_struct_OC_vmask4
+    _7623 = *(&raw mut *((*(&mut _7432 as *mut l_struct_struct_OC_vmask4
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     if _7623 & 2147483648 as core::ffi::c_uint != 0 as core::ffi::c_uint {
-        _7624 = *(&mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
+        _7624 = *(&raw mut *((*(&mut _7431 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
             .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         _7626__PHI_TEMPORARY = _7624;
     } else {
-        _7625 = *(&mut *((*(&mut _7430 as *mut l_struct_struct_OC_vint4
+        _7625 = *(&raw mut *((*(&mut _7430 as *mut l_struct_struct_OC_vint4
             as *mut crate::l_array_4_uint32_t))
             .array)
             .as_mut_ptr()
@@ -28992,15 +28967,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7628 = _7425;
     *(_7627 as *mut uint32_t) = _7628;
     _7629 = _7426;
-    *(&mut *((*(_7627 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7627 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7629;
     _7630 = _7427;
-    *(&mut *((*(_7627 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7627 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7630;
     _7631 = _7428;
-    *(&mut *((*(_7627 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7627 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7631;
     _7632 = *(&mut _7429 as *mut l_struct_struct_OC_vint4 as *mut crate::l_array_2_uint64_t);
@@ -29014,12 +28989,10 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7480 = &mut _7485 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _7635 = _7480;
     _7636 = *(_7635 as *mut uint32_t);
-    _7637 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7634, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7637 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7634, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -29027,15 +29000,13 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7638 = _7484;
     _7479 = &mut _7485 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _7639 = _7479;
-    _7640 = *(&mut *((*(_7639 as *mut crate::l_array_4_uint32_t)).array)
+    _7640 = *(&raw mut *((*(_7639 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7641 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7638, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7641 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7638, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -29043,15 +29014,13 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7642 = _7484;
     _7478 = &mut _7485 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
     _7643 = _7478;
-    _7644 = *(&mut *((*(_7643 as *mut crate::l_array_4_uint32_t)).array)
+    _7644 = *(&raw mut *((*(_7643 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
-    _7645 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7642, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7645 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7642, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -29065,15 +29034,15 @@ unsafe extern "C" fn _ZL12quant_color312quant_method5vint47vfloat4(
     _7647 = _7464;
     *(_7646 as *mut uint32_t) = _7647;
     _7648 = _7465;
-    *(&mut *((*(_7646 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7646 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7648;
     _7649 = _7466;
-    *(&mut *((*(_7646 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7646 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7649;
     _7650 = _7467;
-    *(&mut *((*(_7646 as *mut crate::l_array_4_uint32_t)).array)
+    *(&raw mut *((*(_7646 as *mut crate::l_array_4_uint32_t)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _7650;
     _7651 = (*(&mut _7481.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed_10)).data;
@@ -29165,14 +29134,14 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
     _7680 = _7668;
     _7669 = &mut _7676 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7689 = _7669;
-    _7690 = *(&mut *((*(_7689 as *mut crate::l_array_4_float)).array)
+    _7690 = *(&raw mut *((*(_7689 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
     _7681 = _7690;
     _7670 = &mut _7677 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7691 = _7670;
-    _7692 = *(&mut *((*(_7691 as *mut crate::l_array_4_float)).array)
+    _7692 = *(&raw mut *((*(_7691 as *mut crate::l_array_4_float)).array)
         .as_mut_ptr()
         .offset(3 as core::ffi::c_int as int64_t as isize)
         as *mut core::ffi::c_float);
@@ -29249,7 +29218,7 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
                         _7672 = _7727;
                         _7728 = _7671;
                         _7729 = _7672;
-                        *(&mut *((*(_7728 as *mut crate::l_array_4_uint32_t)).array)
+                        *(&raw mut *((*(_7728 as *mut crate::l_array_4_uint32_t)).array)
                             .as_mut_ptr()
                             .offset(3 as core::ffi::c_int as int64_t as isize)
                             as *mut uint32_t) = _7729;
@@ -29259,7 +29228,7 @@ unsafe extern "C" fn _ZL24try_quantize_alpha_delta7vfloat4S_R5vint4S1_12quant_me
                         _7674 = _7731;
                         _7732 = _7673;
                         _7733 = _7674;
-                        *(&mut *((*(_7732 as *mut crate::l_array_4_uint32_t)).array)
+                        *(&raw mut *((*(_7732 as *mut crate::l_array_4_uint32_t)).array)
                             .as_mut_ptr()
                             .offset(3 as core::ffi::c_int as int64_t as isize)
                             as *mut uint32_t) = _7733;
@@ -29312,12 +29281,10 @@ unsafe extern "C" fn _ZL11quant_color12quant_methodi(
     _7753 = llvm_add_u32(llvm_mul_u32(_7754, 2), 1);
     _7755 = _7751;
     _7756 = _7753;
-    _7757 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7755, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7757 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7755, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -29358,12 +29325,10 @@ unsafe extern "C" fn _ZL11quant_color12quant_methodif(
     }
     _7771 = _7761;
     _7772 = _7764;
-    _7773 = *(&mut *((*(&*(color_unquant_to_uquant_tables.array)
-        .as_ptr()
-        .offset(
-            (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7771, 4)
-                as int32_t as int64_t as isize,
-        ) as *const crate::l_array_512_uint8_t
+    _7773 = *(&raw mut *((*(&raw const *(color_unquant_to_uquant_tables.array).as_ptr().offset(
+        (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_7771, 4) as int32_t
+            as int64_t as isize,
+    ) as *const crate::l_array_512_uint8_t
         as *mut crate::l_array_512_uint8_t))
         .array)
         .as_mut_ptr()
@@ -29783,7 +29748,8 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
                     _7948 = _7898;
                     _7949 = _7902;
                     _7950 = _7903;
-                    _7951 = *(&*(_ZZL18quantize_hdr_alphaffPh12quant_methodE8testbits.array)
+                    _7951 = *(&raw const *(_ZZL18quantize_hdr_alphaffPh12quant_methodE8testbits
+                        .array)
                         .as_ptr()
                         .offset(_7950 as int32_t as int64_t as isize)
                         as *const uint32_t as *mut uint32_t);
@@ -29816,7 +29782,7 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
             _7966 = _7898;
             _7967 = _ZL11quant_color12quant_methodi(_7965, _7966);
             _7968 = _7890;
-            *(&mut *(_7968 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_7968 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _7967;
         }
         _ => {
@@ -29825,7 +29791,7 @@ unsafe extern "C" fn _ZL18quantize_hdr_alphaffPh12quant_method(
             *(_7953 as *mut uint8_t) = _7952 as uint8_t;
             _7954 = _7900;
             _7955 = _7890;
-            *(&mut *(_7955 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+            *(&raw mut *(_7955 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
                 as *mut uint8_t) = _7954 as uint8_t;
         }
     };

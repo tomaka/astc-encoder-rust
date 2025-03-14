@@ -7382,7 +7382,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         }
         _22 = _5;
         _23 = _7;
-        *(&mut *(_22 as *mut core::ffi::c_float).offset(_23 as uint64_t as int64_t as isize)
+        *(&raw mut *(_22 as *mut core::ffi::c_float).offset(_23 as uint64_t as int64_t as isize)
             as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
         _24 = _7;
         _7 = llvm_add_u32(_24, 1);
@@ -7395,32 +7395,32 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         }
         _26 = _6;
         _27 = _8;
-        _28 = *(&mut *((*(&mut (*(_26 as *mut l_struct_struct_OC_packed_percentile_table)).field2
-            as *mut crate::l_array_2_uint16_t))
+        _28 = *(&raw mut *((*(&mut (*(_26 as *mut l_struct_struct_OC_packed_percentile_table))
+            .field2 as *mut crate::l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_27 as int32_t as int64_t as isize) as *mut uint16_t);
         _9 = _28 as uint32_t;
         _29 = _6;
         _30 = _8;
-        _31 = *(&mut *((*(&mut (*(_29 as *mut l_struct_struct_OC_packed_percentile_table)).field3
-            as *mut crate::l_array_2_uint16_t))
+        _31 = *(&raw mut *((*(&mut (*(_29 as *mut l_struct_struct_OC_packed_percentile_table))
+            .field3 as *mut crate::l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_30 as int32_t as int64_t as isize) as *mut uint16_t);
         _10 = _31 as uint32_t;
         _32 = _6;
         _33 = _8;
-        _34 = *(&mut *((*(&mut (*(_32 as *mut l_struct_struct_OC_packed_percentile_table)).field4
-            as *mut crate::l_array_2_uint16_t))
+        _34 = *(&raw mut *((*(&mut (*(_32 as *mut l_struct_struct_OC_packed_percentile_table))
+            .field4 as *mut crate::l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_33 as int32_t as int64_t as isize) as *mut uint16_t);
         _11 = _34 as uint32_t;
         _35 = _6;
         _36 = _8;
-        _37 = *(&mut *((*(&mut (*(_35 as *mut l_struct_struct_OC_packed_percentile_table)).field5
-            as *mut crate::l_array_2_void_KC_))
+        _37 = *(&raw mut *((*(&mut (*(_35 as *mut l_struct_struct_OC_packed_percentile_table))
+            .field5 as *mut crate::l_array_2_void_KC_))
             .array)
             .as_mut_ptr()
             .offset(_36 as int32_t as int64_t as isize)
@@ -7435,7 +7435,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             }
             _40 = _12;
             _41 = _13;
-            _42 = *(&mut *(_40 as *mut uint16_t).offset(_41 as uint64_t as int64_t as isize)
+            _42 = *(&raw mut *(_40 as *mut uint16_t).offset(_41 as uint64_t as int64_t as isize)
                 as *mut uint16_t);
             _14 = _42;
             _43 = _14;
@@ -7449,7 +7449,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             _48 = _10;
             _49 = _5;
             _50 = _15;
-            *(&mut *(_49 as *mut core::ffi::c_float).offset(_50 as uint64_t as int64_t as isize)
+            *(&raw mut *(_49 as *mut core::ffi::c_float).offset(_50 as uint64_t as int64_t as isize)
                 as *mut core::ffi::c_float) =
                 llvm_fdiv_f32(_47 as core::ffi::c_float, _48 as core::ffi::c_float);
             _51 = _13;

@@ -98,10 +98,13 @@ RUN cd src && for f in *.rs; do sed -i 's/pub struct l_array_\([_a-zA-Z0-9]*\) {
 RUN cd src && for f in *.rs; do sed -i 's/ \(l_array_[_a-zA-Z0-9]*\)/ crate::\1/g' $f; done
 RUN cd src && for f in *.rs; do sed -i 's/pub struct __tmp_rename_array_\([_a-zA-Z0-9]*\) {/pub struct l_array_\1 {/g' $f; done
 
-# In addition to this, many pieces of code do `&mut foo as *mut some_type as *mut other_type`.
-# This crates issues again due to multiple structs of the same name being defined.
-# We replace ` as *mut some_type` with ` as *mut _`.
-RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/ as \*\(const|mut\) [_a-zA-Z0-9]*[[:space:]]*as \*/ as *\1 _ as /g' $f; done
+# In practice, the Rust code only ever works through raw pointers
+# We replace `&mut *some_val` with `&raw mut *some_val` (and same with `const`).
+# This has the effect of removing compilation errors due to `as *mut other_type` converting from
+# a reference of identically-named but different `other_type`.
+# It also solves some unaligned pointer grabbing errors.
+RUN cd src && for f in *.rs; do sed -i 's/&\*/\&raw const \*/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/&mut \*/\&raw mut \*/g' $f; done
 
 # Add some substitutes to C/C++ functions in `lib.rs`
 RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs

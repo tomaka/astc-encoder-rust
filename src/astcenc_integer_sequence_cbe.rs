@@ -4968,7 +4968,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
     _27 = _25;
     _28 = _26;
     _29 = _27;
-    return &mut *((*(&mut (*(_28 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
+    return &raw mut *((*(&mut (*(_28 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
         as *mut crate::l_array_21_struct_AC_l_struct_struct_OC_ise_size))
         .array)
         .as_mut_ptr()
@@ -5349,25 +5349,27 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 }
                 _92 = _37;
                 _93 = _44;
-                _94 = *(&mut *(_92 as *mut uint8_t).offset((llvm_add_u32
+                _94 = *(&raw mut *(_92 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _93, 4
-                ) as uint64_t as int64_t
+                ) as uint64_t
+                    as int64_t
                     as isize) as *mut uint8_t);
                 _95 = _40;
                 _47 = llvm_ashr_u32(_94 as uint32_t as int32_t, _95 as int32_t);
                 _96 = _37;
                 _97 = _44;
-                _98 = *(&mut *(_96 as *mut uint8_t).offset((llvm_add_u32
+                _98 = *(&raw mut *(_96 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _97, 3
-                ) as uint64_t as int64_t
+                ) as uint64_t
+                    as int64_t
                     as isize) as *mut uint8_t);
                 _99 = _40;
                 _48 = llvm_ashr_u32(_98 as uint32_t as int32_t, _99 as int32_t);
                 _100 = _37;
                 _101 = _44;
-                _102 = *(&mut *(_100 as *mut uint8_t).offset((llvm_add_u32
+                _102 = *(&raw mut *(_100 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _101, 2
                 ) as uint64_t
@@ -5377,7 +5379,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _49 = llvm_ashr_u32(_102 as uint32_t as int32_t, _103 as int32_t);
                 _104 = _37;
                 _105 = _44;
-                _106 = *(&mut *(_104 as *mut uint8_t).offset((llvm_add_u32
+                _106 = *(&raw mut *(_104 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _105, 1
                 ) as uint64_t
@@ -5387,7 +5389,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _50 = llvm_ashr_u32(_106 as uint32_t as int32_t, _107 as int32_t);
                 _108 = _37;
                 _109 = _44;
-                _110 = *(&mut *(_108 as *mut uint8_t).offset((llvm_add_u32
+                _110 = *(&raw mut *(_108 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _109, 0
                 ) as uint64_t
@@ -5400,7 +5402,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _114 = _49;
                 _115 = _50;
                 _116 = _51;
-                _117 = *(&mut *((*(&mut *((*(&mut *((*(&mut *((*(&*(_ZL16integer_of_trits
+                _117 = *(&raw mut *((*(&raw mut *((*(&raw mut *((*(&raw mut *((*(&raw const *(_ZL16integer_of_trits
                     .array)
                     .as_ptr()
                     .offset(_112 as uint64_t as int64_t as isize)
@@ -5425,7 +5427,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _118 = _37;
                 _119 = _44;
                 _44 = llvm_add_u32(_119, 1);
-                _120 = *(&mut *(_118 as *mut uint8_t).offset(_119 as uint64_t as int64_t as isize)
+                _120 = *(&raw mut *(_118 as *mut uint8_t)
+                    .offset(_119 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _121 = _43;
                 _122 = _52;
@@ -5444,7 +5447,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _130 = _37;
                 _131 = _44;
                 _44 = llvm_add_u32(_131, 1);
-                _132 = *(&mut *(_130 as *mut uint8_t).offset(_131 as uint64_t as int64_t as isize)
+                _132 = *(&raw mut *(_130 as *mut uint8_t)
+                    .offset(_131 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _133 = _43;
                 _134 = _52;
@@ -5463,7 +5467,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _142 = _37;
                 _143 = _44;
                 _44 = llvm_add_u32(_143, 1);
-                _144 = *(&mut *(_142 as *mut uint8_t).offset(_143 as uint64_t as int64_t as isize)
+                _144 = *(&raw mut *(_142 as *mut uint8_t)
+                    .offset(_143 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _145 = _43;
                 _146 = _52;
@@ -5482,7 +5487,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _154 = _37;
                 _155 = _44;
                 _44 = llvm_add_u32(_155, 1);
-                _156 = *(&mut *(_154 as *mut uint8_t).offset(_155 as uint64_t as int64_t as isize)
+                _156 = *(&raw mut *(_154 as *mut uint8_t)
+                    .offset(_155 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _157 = _43;
                 _158 = _52;
@@ -5501,7 +5507,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _166 = _37;
                 _167 = _44;
                 _44 = llvm_add_u32(_167, 1);
-                _168 = *(&mut *(_166 as *mut uint8_t).offset(_167 as uint64_t as int64_t as isize)
+                _168 = *(&raw mut *(_166 as *mut uint8_t)
+                    .offset(_167 as uint64_t as int64_t as isize)
                     as *mut uint8_t);
                 _169 = _43;
                 _170 = _52;
@@ -5531,10 +5538,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 } else {
                     _183 = _37;
                     _184 = _44;
-                    _185 = *(&mut *(_183 as *mut uint8_t).offset((llvm_add_u32
+                    _185 = *(&raw mut *(_183 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _184, 3
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _186 = _40;
@@ -5550,10 +5558,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 } else {
                     _191 = _37;
                     _192 = _44;
-                    _193 = *(&mut *(_191 as *mut uint8_t).offset((llvm_add_u32
+                    _193 = *(&raw mut *(_191 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _192, 2
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _194 = _40;
@@ -5569,10 +5578,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 } else {
                     _199 = _37;
                     _200 = _44;
-                    _201 = *(&mut *(_199 as *mut uint8_t).offset((llvm_add_u32
+                    _201 = *(&raw mut *(_199 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _200, 1
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _202 = _40;
@@ -5583,7 +5593,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _57 = _204;
                 _205 = _37;
                 _206 = _44;
-                _207 = *(&mut *(_205 as *mut uint8_t).offset((llvm_add_u32
+                _207 = *(&raw mut *(_205 as *mut uint8_t).offset((llvm_add_u32
                     as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                     _206, 0
                 ) as uint64_t
@@ -5596,7 +5606,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _211 = _56;
                 _212 = _57;
                 _213 = _58;
-                _214 = *(&mut *((*(&mut *((*(&mut *((*(&mut *((*(&*(_ZL16integer_of_trits
+                _214 = *(&raw mut *((*(&raw mut *((*(&raw mut *((*(&raw mut *((*(&raw const *(_ZL16integer_of_trits
                     .array)
                     .as_ptr()
                     .offset(_209 as uint64_t as int64_t as isize)
@@ -5627,18 +5637,18 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     }
                     _217 = _37;
                     _218 = _44;
-                    _219 = *(&mut *(_217 as *mut uint8_t)
+                    _219 = *(&raw mut *(_217 as *mut uint8_t)
                         .offset(_218 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _220 = _43;
                     _221 = _59;
                     _222 = _60;
-                    _223 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE6tshift.array)
+                    _223 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE6tshift.array)
                         .as_ptr()
                         .offset(_222 as uint64_t as int64_t as isize)
                         as *const uint8_t as *mut uint8_t);
                     _224 = _60;
-                    _225 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
+                    _225 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
                         .as_ptr()
                         .offset(_224 as uint64_t as int64_t as isize)
                         as *const uint8_t as *mut uint8_t);
@@ -5653,7 +5663,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _227 = _61;
                     _228 = _40;
                     _229 = _60;
-                    _230 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
+                    _230 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
                         .as_ptr()
                         .offset(_229 as uint64_t as int64_t as isize)
                         as *const uint8_t as *mut uint8_t);
@@ -5667,7 +5677,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     );
                     _233 = _40;
                     _234 = _60;
-                    _235 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
+                    _235 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
                         .as_ptr()
                         .offset(_234 as uint64_t as int64_t as isize)
                         as *const uint8_t as *mut uint8_t);
@@ -5694,30 +5704,33 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     }
                     _243 = _37;
                     _244 = _62;
-                    _245 = *(&mut *(_243 as *mut uint8_t).offset((llvm_add_u32
+                    _245 = *(&raw mut *(_243 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _244, 2
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _246 = _40;
                     _65 = llvm_ashr_u32(_245 as uint32_t as int32_t, _246 as int32_t);
                     _247 = _37;
                     _248 = _62;
-                    _249 = *(&mut *(_247 as *mut uint8_t).offset((llvm_add_u32
+                    _249 = *(&raw mut *(_247 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _248, 1
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _250 = _40;
                     _66 = llvm_ashr_u32(_249 as uint32_t as int32_t, _250 as int32_t);
                     _251 = _37;
                     _252 = _62;
-                    _253 = *(&mut *(_251 as *mut uint8_t).offset((llvm_add_u32
+                    _253 = *(&raw mut *(_251 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _252, 0
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _254 = _40;
@@ -5725,7 +5738,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _255 = _65;
                     _256 = _66;
                     _257 = _67;
-                    _258 = *(&mut *((*(&mut *((*(&*(_ZL17integer_of_quints.array)
+                    _258 = *(&raw mut *((*(&raw mut *((*(&raw const *(_ZL17integer_of_quints.array)
                         .as_ptr()
                         .offset(_255 as uint64_t as int64_t as isize)
                         as *const crate::l_array_5_struct_AC_l_array_5_uint8_t
@@ -5742,7 +5755,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _259 = _37;
                     _260 = _62;
                     _62 = llvm_add_u32(_260, 1);
-                    _261 = *(&mut *(_259 as *mut uint8_t)
+                    _261 = *(&raw mut *(_259 as *mut uint8_t)
                         .offset(_260 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _262 = _43;
@@ -5762,7 +5775,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _271 = _37;
                     _272 = _62;
                     _62 = llvm_add_u32(_272, 1);
-                    _273 = *(&mut *(_271 as *mut uint8_t)
+                    _273 = *(&raw mut *(_271 as *mut uint8_t)
                         .offset(_272 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _274 = _43;
@@ -5782,7 +5795,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _283 = _37;
                     _284 = _62;
                     _62 = llvm_add_u32(_284, 1);
-                    _285 = *(&mut *(_283 as *mut uint8_t)
+                    _285 = *(&raw mut *(_283 as *mut uint8_t)
                         .offset(_284 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _286 = _43;
@@ -5813,7 +5826,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     } else {
                         _300 = _37;
                         _301 = _62;
-                        _302 = *(&mut *(_300 as *mut uint8_t).offset((llvm_add_u32
+                        _302 = *(&raw mut *(_300 as *mut uint8_t).offset((llvm_add_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _301, 1
                         )
@@ -5828,10 +5841,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _71 = _305;
                     _306 = _37;
                     _307 = _62;
-                    _308 = *(&mut *(_306 as *mut uint8_t).offset((llvm_add_u32
+                    _308 = *(&raw mut *(_306 as *mut uint8_t).offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         _307, 0
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t);
                     _309 = _40;
@@ -5839,7 +5853,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _310 = _70;
                     _311 = _71;
                     _312 = _72;
-                    _313 = *(&mut *((*(&mut *((*(&*(_ZL17integer_of_quints.array)
+                    _313 = *(&raw mut *((*(&raw mut *((*(&raw const *(_ZL17integer_of_quints.array)
                         .as_ptr()
                         .offset(_310 as uint64_t as int64_t as isize)
                         as *const crate::l_array_5_struct_AC_l_array_5_uint8_t
@@ -5862,18 +5876,18 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                         }
                         _316 = _37;
                         _317 = _62;
-                        _318 = *(&mut *(_316 as *mut uint8_t)
+                        _318 = *(&raw mut *(_316 as *mut uint8_t)
                             .offset(_317 as uint64_t as int64_t as isize)
                             as *mut uint8_t);
                         _319 = _43;
                         _320 = _73;
                         _321 = _74;
-                        _322 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE6tshift_0.array)
+                        _322 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE6tshift_0.array)
                             .as_ptr()
                             .offset(_321 as uint64_t as int64_t as isize)
                             as *const uint8_t as *mut uint8_t);
                         _323 = _74;
-                        _324 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0.array)
+                        _324 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0.array)
                             .as_ptr()
                             .offset(_323 as uint64_t as int64_t as isize)
                             as *const uint8_t as *mut uint8_t);
@@ -5889,7 +5903,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                         _326 = _75;
                         _327 = _40;
                         _328 = _74;
-                        _329 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0.array)
+                        _329 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0.array)
                             .as_ptr()
                             .offset(_328 as uint64_t as int64_t as isize)
                             as *const uint8_t as *mut uint8_t);
@@ -5903,7 +5917,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                         );
                         _332 = _40;
                         _333 = _74;
-                        _334 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0.array)
+                        _334 = *(&raw const *(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0.array)
                             .as_ptr()
                             .offset(_333 as uint64_t as int64_t as isize)
                             as *const uint8_t as *mut uint8_t);
@@ -5925,7 +5939,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     }
                     _340 = _37;
                     _341 = _76;
-                    _342 = *(&mut *(_340 as *mut uint8_t)
+                    _342 = *(&raw mut *(_340 as *mut uint8_t)
                         .offset(_341 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
                     _343 = _40;
@@ -5965,7 +5979,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
     _397 = _395;
     _398 = _396;
     _399 = _397;
-    return &mut *((*(&mut (*(_398 as *mut l_struct_struct_OC_std_KD__KD_array_OC_0)).field0
+    return &raw mut *((*(&mut (*(_398 as *mut l_struct_struct_OC_std_KD__KD_array_OC_0)).field0
         as *mut crate::l_array_21_struct_AC_l_struct_struct_OC_btq_count))
         .array)
         .as_mut_ptr()
@@ -6022,7 +6036,7 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     _404 = _411 & _410;
     _412 = _406;
     _413 = _407;
-    _407 = &mut *(_413 as *mut uint8_t).offset((llvm_lshr_u32
+    _407 = &raw mut *(_413 as *mut uint8_t).offset((llvm_lshr_u32
         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
         _412, 3
     ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
@@ -6048,13 +6062,13 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     *(_426 as *mut uint8_t) = (_427 as uint32_t | _424) as uint8_t;
     _428 = _408;
     _429 = _407;
-    _430 = &mut *(_429 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    _430 = &raw mut *(_429 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t as *mut core::ffi::c_void;
     _431 = *(_430 as *mut uint8_t);
     *(_430 as *mut uint8_t) = (_431 as uint32_t & llvm_lshr_u32(_428, 8)) as uint8_t;
     _432 = _404;
     _433 = _407;
-    _434 = &mut *(_433 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    _434 = &raw mut *(_433 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t as *mut core::ffi::c_void;
     _435 = *(_434 as *mut uint8_t);
     *(_434 as *mut uint8_t) = (_435 as uint32_t | llvm_lshr_u32(_432, 8)) as uint8_t;
@@ -6272,7 +6286,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _478 = _443;
             _479 = _ZL9read_bitsjjPKh(_476, _477, _478);
             _480 = _453;
-            *(&mut *(_446.array)
+            *(&raw mut *(_446.array)
                 .as_mut_ptr()
                 .offset(_480 as uint64_t as int64_t as isize) as *mut uint8_t) = _479 as uint8_t;
             _481 = _448;
@@ -6281,7 +6295,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _483 = _449;
             if _483 != 0 as core::ffi::c_uint {
                 _484 = _451;
-                _485 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read.array)
+                _485 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read.array)
                     .as_ptr()
                     .offset(_484 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
@@ -6290,7 +6304,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _488 = _ZL9read_bitsjjPKh(_485 as uint32_t, _486, _487);
                 _454 = _488;
                 _489 = _451;
-                _490 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read.array)
+                _490 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read.array)
                     .as_ptr()
                     .offset(_489 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
@@ -6298,26 +6312,26 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _445 = llvm_add_u32(_491, _490 as uint32_t);
                 _492 = _454;
                 _493 = _451;
-                _494 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE11block_shift.array)
+                _494 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE11block_shift.array)
                     .as_ptr()
                     .offset(_493 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
                 _495 = _452;
-                _496 = &mut *(_447.array)
+                _496 = &raw mut *(_447.array)
                     .as_mut_ptr()
                     .offset(_495 as uint64_t as int64_t as isize)
                     as *mut uint8_t as *mut core::ffi::c_void;
                 _497 = *(_496 as *mut uint8_t);
                 *(_496 as *mut uint8_t) = (_497 as uint32_t | _492 << _494 as uint32_t) as uint8_t;
                 _498 = _451;
-                _499 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr.array)
+                _499 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr.array)
                     .as_ptr()
                     .offset(_498 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
                 _500 = _452;
                 _452 = llvm_add_u32(_500, _499 as uint32_t);
                 _501 = _451;
-                _502 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter.array)
+                _502 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter.array)
                     .as_ptr()
                     .offset(_501 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
@@ -6326,7 +6340,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _503 = _450;
             if _503 != 0 as core::ffi::c_uint {
                 _504 = _451;
-                _505 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0.array)
+                _505 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0.array)
                     .as_ptr()
                     .offset(_504 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
@@ -6335,7 +6349,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _508 = _ZL9read_bitsjjPKh(_505 as uint32_t, _506, _507);
                 _455 = _508;
                 _509 = _451;
-                _510 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0.array)
+                _510 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0.array)
                     .as_ptr()
                     .offset(_509 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
@@ -6343,26 +6357,26 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _445 = llvm_add_u32(_511, _510 as uint32_t);
                 _512 = _455;
                 _513 = _451;
-                _514 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE11block_shift_0.array)
+                _514 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE11block_shift_0.array)
                     .as_ptr()
                     .offset(_513 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
                 _515 = _452;
-                _516 = &mut *(_447.array)
+                _516 = &raw mut *(_447.array)
                     .as_mut_ptr()
                     .offset(_515 as uint64_t as int64_t as isize)
                     as *mut uint8_t as *mut core::ffi::c_void;
                 _517 = *(_516 as *mut uint8_t);
                 *(_516 as *mut uint8_t) = (_517 as uint32_t | _512 << _514 as uint32_t) as uint8_t;
                 _518 = _451;
-                _519 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr_0.array)
+                _519 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr_0.array)
                     .as_ptr()
                     .offset(_518 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
                 _520 = _452;
                 _452 = llvm_add_u32(_520, _519 as uint32_t);
                 _521 = _451;
-                _522 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter_0.array)
+                _522 = *(&raw const *(_ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter_0.array)
                     .as_ptr()
                     .offset(_521 as uint64_t as int64_t as isize)
                     as *const uint8_t as *mut uint8_t);
@@ -6385,11 +6399,11 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                         break;
                     }
                     _529 = _457;
-                    _530 = *(&mut *(_447.array)
+                    _530 = *(&raw mut *(_447.array)
                         .as_mut_ptr()
                         .offset(_529 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
-                    _458 = &mut *((*(&*(_ZL16trits_of_integer.array)
+                    _458 = &raw mut *((*(&raw const *(_ZL16trits_of_integer.array)
                         .as_ptr()
                         .offset(_530 as uint64_t as int64_t as isize)
                         as *const crate::l_array_5_uint8_t
@@ -6402,10 +6416,11 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     _532 = *(_531 as *mut uint8_t);
                     _533 = _448;
                     _534 = _457;
-                    _535 = &mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
+                    _535 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         5, _534
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6413,18 +6428,19 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     *(_535 as *mut uint8_t) =
                         (_536 as uint32_t | (_532 as uint32_t) << _533) as uint8_t;
                     _537 = _458;
-                    _538 = *(&mut *(_537 as *mut uint8_t)
+                    _538 = *(&raw mut *(_537 as *mut uint8_t)
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _539 = _448;
                     _540 = _457;
-                    _541 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                    _541 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             5, _540,
                         ),
                         1,
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6432,18 +6448,19 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     *(_541 as *mut uint8_t) =
                         (_542 as uint32_t | (_538 as uint32_t) << _539) as uint8_t;
                     _543 = _458;
-                    _544 = *(&mut *(_543 as *mut uint8_t)
+                    _544 = *(&raw mut *(_543 as *mut uint8_t)
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _545 = _448;
                     _546 = _457;
-                    _547 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                    _547 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             5, _546,
                         ),
                         2,
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6451,18 +6468,19 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     *(_547 as *mut uint8_t) =
                         (_548 as uint32_t | (_544 as uint32_t) << _545) as uint8_t;
                     _549 = _458;
-                    _550 = *(&mut *(_549 as *mut uint8_t)
+                    _550 = *(&raw mut *(_549 as *mut uint8_t)
                         .offset(3 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _551 = _448;
                     _552 = _457;
-                    _553 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                    _553 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             5, _552,
                         ),
                         3,
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6470,18 +6488,19 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     *(_553 as *mut uint8_t) =
                         (_554 as uint32_t | (_550 as uint32_t) << _551) as uint8_t;
                     _555 = _458;
-                    _556 = *(&mut *(_555 as *mut uint8_t)
+                    _556 = *(&raw mut *(_555 as *mut uint8_t)
                         .offset(4 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _557 = _448;
                     _558 = _457;
-                    _559 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                    _559 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             5, _558,
                         ),
                         4,
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6516,11 +6535,11 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                         break;
                     }
                     _567 = _460;
-                    _568 = *(&mut *(_447.array)
+                    _568 = *(&raw mut *(_447.array)
                         .as_mut_ptr()
                         .offset(_567 as uint64_t as int64_t as isize)
                         as *mut uint8_t);
-                    _461 = &mut *((*(&*(_ZL17quints_of_integer.array)
+                    _461 = &raw mut *((*(&raw const *(_ZL17quints_of_integer.array)
                         .as_ptr()
                         .offset(_568 as uint64_t as int64_t as isize)
                         as *const crate::l_array_3_uint8_t
@@ -6533,10 +6552,11 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     _570 = *(_569 as *mut uint8_t);
                     _571 = _448;
                     _572 = _460;
-                    _573 = &mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
+                    _573 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         3, _572
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6544,18 +6564,19 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     *(_573 as *mut uint8_t) =
                         (_574 as uint32_t | (_570 as uint32_t) << _571) as uint8_t;
                     _575 = _461;
-                    _576 = *(&mut *(_575 as *mut uint8_t)
+                    _576 = *(&raw mut *(_575 as *mut uint8_t)
                         .offset(1 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _577 = _448;
                     _578 = _460;
-                    _579 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                    _579 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             3, _578,
                         ),
                         1,
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6563,18 +6584,19 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     *(_579 as *mut uint8_t) =
                         (_580 as uint32_t | (_576 as uint32_t) << _577) as uint8_t;
                     _581 = _461;
-                    _582 = *(&mut *(_581 as *mut uint8_t)
+                    _582 = *(&raw mut *(_581 as *mut uint8_t)
                         .offset(2 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t);
                     _583 = _448;
                     _584 = _460;
-                    _585 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                    _585 = &raw mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
                         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                         (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             3, _584,
                         ),
                         2,
-                    ) as uint64_t
+                    )
+                        as uint64_t
                         as int64_t
                         as isize) as *mut uint8_t
                         as *mut core::ffi::c_void;
@@ -6603,12 +6625,12 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 break;
             }
             _590 = _462;
-            _591 = *(&mut *(_446.array)
+            _591 = *(&raw mut *(_446.array)
                 .as_mut_ptr()
                 .offset(_590 as uint64_t as int64_t as isize) as *mut uint8_t);
             _592 = _444;
             _593 = _462;
-            *(&mut *(_592 as *mut uint8_t).offset(_593 as uint64_t as int64_t as isize)
+            *(&raw mut *(_592 as *mut uint8_t).offset(_593 as uint64_t as int64_t as isize)
                 as *mut uint8_t) = _591;
             _594 = _462;
             _462 = llvm_add_u32(_594, 1);
@@ -6655,7 +6677,7 @@ unsafe extern "C" fn _ZL9read_bitsjjPKh(
     _634 = llvm_sub_u32(((1 as core::ffi::c_int) << _636) as uint32_t, 1);
     _637 = _632;
     _638 = _633;
-    _633 = &mut *(_638 as *mut uint8_t).offset((llvm_lshr_u32
+    _633 = &raw mut *(_638 as *mut uint8_t).offset((llvm_lshr_u32
         as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
         _637, 3
     ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
@@ -6664,7 +6686,7 @@ unsafe extern "C" fn _ZL9read_bitsjjPKh(
     _640 = _633;
     _641 = *(_640 as *mut uint8_t);
     _642 = _633;
-    _643 = *(&mut *(_642 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
+    _643 = *(&raw mut *(_642 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t);
     _635 = _641 as uint32_t | (_643 as uint32_t) << 8 as core::ffi::c_int;
     _644 = _632;

@@ -299,7 +299,7 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _15 = _9;
     _10 = _15 as uint32_t;
     _16 = _10;
-    _17 = *(&*(_ZZL12sf16_to_sf32tE3tbl.array)
+    _17 = *(&raw const *(_ZZL12sf16_to_sf32tE3tbl.array)
         .as_ptr()
         .offset(
             (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_16, 10)
@@ -421,7 +421,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
     _53 = _50;
     _57 = _53;
     _58 = _52;
-    _59 = *(&*(_ZZL12sf32_to_sf16j9roundmodeE3tab.array)
+    _59 = *(&raw const *(_ZZL12sf32_to_sf16j9roundmodeE3tab.array)
         .as_ptr()
         .offset(
             (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_58, 23)
@@ -429,7 +429,7 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
         ) as *const uint8_t as *mut uint8_t);
     _55 = llvm_add_u32(_57, _59 as uint32_t);
     _60 = _55;
-    _61 = *(&*(_ZZL12sf32_to_sf16j9roundmodeE4tabx.array)
+    _61 = *(&raw const *(_ZZL12sf32_to_sf16j9roundmodeE4tabx.array)
         .as_ptr()
         .offset(_60 as uint64_t as int64_t as isize) as *const uint32_t
         as *mut uint32_t);
@@ -546,7 +546,8 @@ unsafe extern "C" fn _ZL5clz32j(mut _110: uint32_t) -> uint32_t {
     }
     _119 = _112;
     _120 = _111;
-    _121 = *(&mut *((*(&_ZL9clz_table as *const l_unnamed_1 as *mut crate::l_array_256_uint8_t))
+    _121 = *(&raw mut *((*(&_ZL9clz_table as *const l_unnamed_1
+        as *mut crate::l_array_256_uint8_t))
         .array)
         .as_mut_ptr()
         .offset(_120 as uint64_t as int64_t as isize) as *mut uint8_t);
