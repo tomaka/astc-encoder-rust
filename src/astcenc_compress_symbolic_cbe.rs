@@ -2537,12 +2537,12 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
     _178 = _3;
     _179 = _4;
     _236 = _176;
-    _237 = *(&mut (*(&mut (*(_236 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _237 = *(&raw mut (*(&raw mut (*(_236 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field0 as *mut uint32_t);
     _180 = _237;
     _238 = _176;
-    _239 = *(&mut (*(_238 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+    _239 = *(&raw mut (*(_238 as *mut l_struct_struct_OC_astcenc_contexti)).field2
         as *mut *mut core::ffi::c_void);
     _182 = _239;
     _240 = _177;
@@ -2569,40 +2569,40 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
     );
     _188 = 0;
     _250 = _176;
-    _251 = *(&mut (*(&mut (*(_250 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _251 = *(&raw mut (*(&raw mut (*(_250 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field11 as *mut uint32_t);
     _189 = _251;
     _252 = _176;
-    _253 = *(&mut (*(&mut (*(_252 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _253 = *(&raw mut (*(&raw mut (*(_252 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field12 as *mut uint32_t);
     *(&mut _190 as *mut crate::l_array_3_uint32_t as *mut uint32_t) = _253;
     _254 = _176;
-    _255 = *(&mut (*(&mut (*(_254 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _255 = *(&raw mut (*(&raw mut (*(_254 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field13 as *mut uint32_t);
     *(&raw mut *(&mut _190 as *mut crate::l_array_3_uint32_t as *mut uint32_t)
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _255;
     _256 = _176;
-    _257 = *(&mut (*(&mut (*(_256 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _257 = *(&raw mut (*(&raw mut (*(_256 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field14 as *mut uint32_t);
     *(&raw mut *(&mut _190 as *mut crate::l_array_3_uint32_t as *mut uint32_t)
         .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _257;
     _258 = _176;
-    _259 = *(&mut (*(&mut (*(_258 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _259 = *(&raw mut (*(&raw mut (*(_258 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field18 as *mut uint32_t);
     *(&mut _191 as *mut crate::l_array_3_uint32_t as *mut uint32_t) = _259;
     _260 = _176;
-    _261 = *(&mut (*(&mut (*(_260 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _261 = *(&raw mut (*(&raw mut (*(_260 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field19 as *mut uint32_t);
     *(&raw mut *(&mut _191 as *mut crate::l_array_3_uint32_t as *mut uint32_t)
         .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = _261;
     _262 = _176;
-    _263 = *(&mut (*(&mut (*(_262 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _263 = *(&raw mut (*(&raw mut (*(_262 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field20 as *mut uint32_t);
     *(&raw mut *(&mut _191 as *mut crate::l_array_3_uint32_t as *mut uint32_t)
@@ -2610,14 +2610,14 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
     _264 = _177;
     _265 = memcpy(
         &mut _193 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        &mut (*(_264 as *mut l_struct_struct_OC_image_block)).field6
+        &raw mut (*(_264 as *mut l_struct_struct_OC_image_block)).field6
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         16,
     );
     _266 = _177;
     _267 = memcpy(
         &mut _194 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        &mut (*(_266 as *mut l_struct_struct_OC_image_block)).field8
+        &raw mut (*(_266 as *mut l_struct_struct_OC_image_block)).field8
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         16,
     );
@@ -2746,7 +2746,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
                 _328 = _177;
                 _329 = memcpy(
                     &mut _200 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &mut (*(_328 as *mut l_struct_struct_OC_image_block)).field5
+                    &raw mut (*(_328 as *mut l_struct_struct_OC_image_block)).field5
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     16,
@@ -3423,7 +3423,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
                 _297 = _177;
                 _298 = memcpy(
                     &mut _196 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &mut (*(_297 as *mut l_struct_struct_OC_image_block)).field5
+                    &raw mut (*(_297 as *mut l_struct_struct_OC_image_block)).field5
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     16,
@@ -3547,7 +3547,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
         _481 = _177;
         _482 = memcpy(
             &mut _205 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            &mut (*(_481 as *mut l_struct_struct_OC_image_block)).field9
+            &raw mut (*(_481 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
             16,
         );
@@ -3573,14 +3573,14 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float);
         _488 = _182;
-        _489 = *(&mut (*(_488 as *mut l_struct_struct_OC_block_size_descriptor)).field3
+        _489 = *(&raw mut (*(_488 as *mut l_struct_struct_OC_block_size_descriptor)).field3
             as *mut uint8_t);
         _204 = llvm_fmul_f32(
             llvm_fadd_f32(llvm_fadd_f32(_484, _485), llvm_fadd_f32(_486, _487)),
             _489 as uint32_t as int32_t as core::ffi::c_float,
         );
         _490 = _176;
-        _491 = *(&mut (*(&mut (*(_490 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+        _491 = *(&raw mut (*(&raw mut (*(_490 as *mut l_struct_struct_OC_astcenc_contexti)).field0
             as *mut l_struct_struct_OC_astcenc_config))
             .field21 as *mut core::ffi::c_float);
         _492 = _204;
@@ -3598,14 +3598,14 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
         *(&mut _208 as *mut crate::l_array_4_float as *mut core::ffi::c_float) =
             0 as core::ffi::c_int as core::ffi::c_float;
         _496 = _176;
-        _497 = *(&mut (*(&mut (*(_496 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+        _497 = *(&raw mut (*(&raw mut (*(_496 as *mut l_struct_struct_OC_astcenc_contexti)).field0
             as *mut l_struct_struct_OC_astcenc_config))
             .field23 as *mut core::ffi::c_float);
         *(&raw mut *(&mut _208 as *mut crate::l_array_4_float as *mut core::ffi::c_float)
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _497;
         _498 = _176;
-        _499 = *(&mut (*(&mut (*(_498 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+        _499 = *(&raw mut (*(&raw mut (*(_498 as *mut l_struct_struct_OC_astcenc_contexti)).field0
             as *mut l_struct_struct_OC_astcenc_config))
             .field24 as *mut core::ffi::c_float);
         *(&raw mut *(&mut _208 as *mut crate::l_array_4_float as *mut core::ffi::c_float)
@@ -3615,7 +3615,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = 0 as core::ffi::c_int as core::ffi::c_float;
         _500 = _176;
-        _501 = *(&mut (*(&mut (*(_500 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+        _501 = *(&raw mut (*(&raw mut (*(_500 as *mut l_struct_struct_OC_astcenc_contexti)).field0
             as *mut l_struct_struct_OC_astcenc_config))
             .field22 as *mut core::ffi::c_float);
         *(&mut _209 as *mut crate::l_array_2_float as *mut core::ffi::c_float) =
@@ -3624,18 +3624,18 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
             .offset(1 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
         _502 = _176;
-        _503 = *(&mut (*(&mut (*(_502 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+        _503 = *(&raw mut (*(&raw mut (*(_502 as *mut l_struct_struct_OC_astcenc_contexti)).field0
             as *mut l_struct_struct_OC_astcenc_config))
             .field22 as *mut core::ffi::c_float);
         _210 = llvm_fdiv_f32(1 as core::ffi::c_int as core::ffi::c_float, _503);
         _211 = 1;
         _504 = _176;
-        _505 = *(&mut (*(&mut (*(_504 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+        _505 = *(&raw mut (*(&raw mut (*(_504 as *mut l_struct_struct_OC_astcenc_contexti)).field0
             as *mut l_struct_struct_OC_astcenc_config))
             .field26 as *mut core::ffi::c_float);
         if llvm_fcmp_oge(_505 as core::ffi::c_double, 0.850000023f64) != 0 {
             _506 = _182;
-            _507 = *(&mut (*(_506 as *mut l_struct_struct_OC_block_size_descriptor)).field2
+            _507 = *(&raw mut (*(_506 as *mut l_struct_struct_OC_block_size_descriptor)).field2
                 as *mut uint8_t);
             if _507 as uint32_t == 1 as core::ffi::c_uint {
                 _211 = 0;
@@ -3663,7 +3663,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
             _517 = _210;
             _518 = _179;
             _519 = _ZL44compress_symbolic_block_for_partition_1planeRK14astcenc_configRK21block_size_descriptorRK11image_blockbfjjR25symbolic_compressed_blockR27compression_working_buffersi(
-                &mut (*(_510 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                &raw mut (*(_510 as *mut l_struct_struct_OC_astcenc_contexti)).field0
                     as *mut l_struct_struct_OC_astcenc_config as *mut core::ffi::c_void,
                 _511,
                 _512,
@@ -3715,14 +3715,15 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
         match current_block {
             10166931616476798075 => {
                 _533 = _182;
-                _534 = *(&mut (*(_533 as *mut l_struct_struct_OC_block_size_descriptor)).field3
+                _534 = *(&raw mut (*(_533 as *mut l_struct_struct_OC_block_size_descriptor)).field3
                     as *mut uint8_t);
                 _535 = _177;
                 _536 = _ZL24prepare_block_statisticsiRK11image_block(_534 as uint32_t, _535);
                 _183 = _536;
                 _537 = _183;
                 _538 = _176;
-                _539 = *(&mut (*(&mut (*(_538 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                _539 = *(&raw mut (*(&raw mut (*(_538 as *mut l_struct_struct_OC_astcenc_contexti))
+                    .field0
                     as *mut l_struct_struct_OC_astcenc_config))
                     .field25 as *mut core::ffi::c_float);
                 _188 = llvm_fcmp_ogt(_537 as core::ffi::c_double, _539 as core::ffi::c_double)
@@ -3737,7 +3738,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
                     _541 = _188;
                     if !(_541 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0) {
                         _542 = _177;
-                        _543 = *(&mut (*(_542 as *mut l_struct_struct_OC_image_block)).field10
+                        _543 = *(&raw mut (*(_542 as *mut l_struct_struct_OC_image_block)).field10
                             as *mut uint8_t);
                         if _543 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                             _544 = _216;
@@ -3765,7 +3766,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
                                     _554 = _179;
                                     _555 = _212;
                                     _556 = _ZL45compress_symbolic_block_for_partition_2planesRK14astcenc_configRK21block_size_descriptorRK11image_blockfjR25symbolic_compressed_blockR27compression_working_buffersi(
-                                        &mut (*(_548 as *mut l_struct_struct_OC_astcenc_contexti))
+                                        &raw mut (*(_548 as *mut l_struct_struct_OC_astcenc_contexti))
                                             .field0 as *mut l_struct_struct_OC_astcenc_config
                                             as *mut core::ffi::c_void,
                                         _549,
@@ -3890,7 +3891,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
                                 _589 = _179;
                                 _590 = _212;
                                 _591 = _ZL44compress_symbolic_block_for_partition_1planeRK14astcenc_configRK21block_size_descriptorRK11image_blockbfjjR25symbolic_compressed_blockR27compression_working_buffersi(
-                                    &mut (*(_581 as *mut l_struct_struct_OC_astcenc_contexti))
+                                    &raw mut (*(_581 as *mut l_struct_struct_OC_astcenc_contexti))
                                         .field0 as *mut l_struct_struct_OC_astcenc_config
                                         as *mut core::ffi::c_void,
                                     _582,
@@ -4012,7 +4013,7 @@ pub unsafe extern "C" fn _Z14compress_blockRK16astcenc_contextiRK11image_blockPh
             _616 = _177;
             _617 = memcpy(
                 &mut _232 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_616 as *mut l_struct_struct_OC_image_block)).field5
+                &raw mut (*(_616 as *mut l_struct_struct_OC_image_block)).field5
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
@@ -4686,7 +4687,7 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
     _871 = _868;
     _872 = _ZNK11image_block17get_default_alphaEv(_871);
     _869 = _872;
-    _866 = &mut (*(_871 as *mut l_struct_struct_OC_image_block)).field6
+    _866 = &raw mut (*(_871 as *mut l_struct_struct_OC_image_block)).field6
         as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _873 = _866;
     _874 = *(&raw mut *((*(_873 as *mut crate::l_array_4_float)).array)
@@ -4694,7 +4695,7 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
     _875 = _869;
     if llvm_fcmp_oeq(_874 as core::ffi::c_double, _875 as core::ffi::c_double) != 0 {
-        _867 = &mut (*(_871 as *mut l_struct_struct_OC_image_block)).field8
+        _867 = &raw mut (*(_871 as *mut l_struct_struct_OC_image_block)).field8
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _876 = _867;
         _877 = *(&raw mut *((*(_876 as *mut crate::l_array_4_float)).array)
@@ -4709,7 +4710,7 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
     }
     _879 = _879__PHI_TEMPORARY;
     _870 = _879;
-    _880 = *(&mut (*(_871 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
+    _880 = *(&raw mut (*(_871 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
     if _880 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _881 = _870;
         _882 = (_881 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
@@ -4749,7 +4750,7 @@ pub unsafe extern "C" fn _ZNK11image_block17is_luminancealphaEv(
     _894 = _891;
     _895 = _ZNK11image_block17get_default_alphaEv(_894);
     _892 = _895;
-    _889 = &mut (*(_894 as *mut l_struct_struct_OC_image_block)).field6
+    _889 = &raw mut (*(_894 as *mut l_struct_struct_OC_image_block)).field6
         as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _896 = _889;
     _897 = *(&raw mut *((*(_896 as *mut crate::l_array_4_float)).array)
@@ -4757,7 +4758,7 @@ pub unsafe extern "C" fn _ZNK11image_block17is_luminancealphaEv(
         .offset(3 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float);
     _898 = _892;
     if llvm_fcmp_oeq(_897 as core::ffi::c_double, _898 as core::ffi::c_double) != 0 {
-        _890 = &mut (*(_894 as *mut l_struct_struct_OC_image_block)).field8
+        _890 = &raw mut (*(_894 as *mut l_struct_struct_OC_image_block)).field8
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _899 = _890;
         _900 = *(&raw mut *((*(_899 as *mut crate::l_array_4_float)).array)
@@ -4772,7 +4773,7 @@ pub unsafe extern "C" fn _ZNK11image_block17is_luminancealphaEv(
     }
     _902 = _902__PHI_TEMPORARY;
     _893 = _902;
-    _903 = *(&mut (*(_894 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
+    _903 = *(&raw mut (*(_894 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
     if _903 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _904 = _893;
         _905 = (_904 as core::ffi::c_uint & 1 as core::ffi::c_uint
@@ -5652,11 +5653,11 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
     _1089 = _999;
     if _1089 > 0 as core::ffi::c_uint {
         _1090 = _994;
-        _1091 =
-            *(&mut (*(_1090 as *mut l_struct_struct_OC_astcenc_config)).field17 as *mut uint32_t);
+        _1091 = *(&raw mut (*(_1090 as *mut l_struct_struct_OC_astcenc_config)).field17
+            as *mut uint32_t);
         if _1091 > 0 as core::ffi::c_uint {
             _1092 = _994;
-            _1093 = *(&mut (*(_1092 as *mut l_struct_struct_OC_astcenc_config)).field16
+            _1093 = *(&raw mut (*(_1092 as *mut l_struct_struct_OC_astcenc_config)).field16
                 as *mut uint32_t);
             if _1093 > 0 as core::ffi::c_uint {
                 _1094 = _1003;
@@ -5686,7 +5687,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                 _1096 = _999;
                 if _1096 == 1 as core::ffi::c_uint {
                     _1097 = _994;
-                    _1098 = *(&mut (*(_1097 as *mut l_struct_struct_OC_astcenc_config)).field1
+                    _1098 = *(&raw mut (*(_1097 as *mut l_struct_struct_OC_astcenc_config)).field1
                         as *mut uint32_t);
                     if !(_1098 & 64 != 0 as core::ffi::c_uint) {
                         _1005 = ::core::mem::transmute::<
@@ -5718,7 +5719,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                 _1102 = _ZNK21block_size_descriptor18get_partition_infoEjj(_1099, _1100, _1101);
                 _1006 = _1102;
                 _1103 = _1002;
-                _1007 = &mut (*(_1103 as *mut l_struct_struct_OC_compression_working_buffers))
+                _1007 = &raw mut (*(_1103 as *mut l_struct_struct_OC_compression_working_buffers))
                     .field0 as *mut l_struct_struct_OC_endpoints_and_weights
                     as *mut core::ffi::c_void;
                 _1104 = _996;
@@ -5730,7 +5731,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                     _1106,
                 );
                 _1107 = _1002;
-                _1008 = &raw mut *((*(&mut (*(_1107
+                _1008 = &raw mut *((*(&raw mut (*(_1107
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field2
                     as *mut crate::l_array_5568_float))
@@ -5739,7 +5740,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float as *mut core::ffi::c_void;
                 _1108 = _1002;
-                _1009 = &raw mut *((*(&mut (*(_1108
+                _1009 = &raw mut *((*(&raw mut (*(_1108
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field3
                     as *mut crate::l_array_131072_uint8_t))
@@ -5750,12 +5751,12 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                 _1109 = _997;
                 if _1109 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                     _1110 = _995;
-                    _1111 = *(&mut (*(_1110 as *mut l_struct_struct_OC_block_size_descriptor))
+                    _1111 = *(&raw mut (*(_1110 as *mut l_struct_struct_OC_block_size_descriptor))
                         .field4 as *mut uint32_t);
                     _1114__PHI_TEMPORARY = _1111;
                 } else {
                     _1112 = _995;
-                    _1113 = *(&mut (*(_1112 as *mut l_struct_struct_OC_block_size_descriptor))
+                    _1113 = *(&raw mut (*(_1112 as *mut l_struct_struct_OC_block_size_descriptor))
                         .field5 as *mut uint32_t);
                     _1114__PHI_TEMPORARY = _1113;
                 }
@@ -5856,7 +5857,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                         _1145 = _1015;
                         _1146 = memcpy(
                             &mut _1019 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            &raw mut *((*(&mut (*(&mut (*(_1144
+                            &raw mut *((*(&raw mut (*(&raw mut (*(_1144
                                 as *mut l_struct_struct_OC_endpoints_and_weights))
                                 .field1
                                 as *mut l_struct_struct_OC_endpoints))
@@ -5945,7 +5946,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                         _1164 = _1015;
                         _1165 = memcpy(
                             &mut _1021 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            &raw mut *((*(&mut (*(&mut (*(_1163
+                            &raw mut *((*(&raw mut (*(&raw mut (*(_1163
                                 as *mut l_struct_struct_OC_endpoints_and_weights))
                                 .field1
                                 as *mut l_struct_struct_OC_endpoints))
@@ -5962,7 +5963,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                         _1167 = _1015;
                         _1168 = memcpy(
                             &mut _1022 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            &raw mut *((*(&mut (*(&mut (*(_1166
+                            &raw mut *((*(&raw mut (*(&raw mut (*(_1166
                                 as *mut l_struct_struct_OC_endpoints_and_weights))
                                 .field1
                                 as *mut l_struct_struct_OC_endpoints))
@@ -6789,7 +6790,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                         _1321,
                     );
                     _1322 = _1002;
-                    _1036 = &raw mut *((*(&mut (*(_1322
+                    _1036 = &raw mut *((*(&raw mut (*(_1322
                         as *mut l_struct_struct_OC_compression_working_buffers))
                         .field10
                         as *mut crate::l_array_2048_float))
@@ -6799,7 +6800,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                         as *mut core::ffi::c_float
                         as *mut core::ffi::c_void;
                     _1323 = _1002;
-                    _1037 = &raw mut *((*(&mut (*(_1323
+                    _1037 = &raw mut *((*(&raw mut (*(_1323
                         as *mut l_struct_struct_OC_compression_working_buffers))
                         .field11
                         as *mut crate::l_array_2048_float))
@@ -6809,7 +6810,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                         as *mut core::ffi::c_float
                         as *mut core::ffi::c_void;
                     _1324 = _1002;
-                    _1038 = &raw mut *((*(&mut (*(_1324
+                    _1038 = &raw mut *((*(&raw mut (*(_1324
                         as *mut l_struct_struct_OC_compression_working_buffers))
                         .field8
                         as *mut crate::l_array_2048_uint8_t))
@@ -6818,7 +6819,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                         .offset(0 as core::ffi::c_int as int64_t as isize)
                         as *mut uint8_t as *mut core::ffi::c_void;
                     _1325 = _1002;
-                    _1039 = &raw mut *((*(&mut (*(_1325
+                    _1039 = &raw mut *((*(&raw mut (*(_1325
                         as *mut l_struct_struct_OC_compression_working_buffers))
                         .field9
                         as *mut crate::l_array_2048_float))
@@ -6830,12 +6831,14 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                     _1326 = _997;
                     if _1326 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                         _1327 = _995;
-                        _1328 = *(&mut (*(_1327 as *mut l_struct_struct_OC_block_size_descriptor))
+                        _1328 = *(&raw mut (*(_1327
+                            as *mut l_struct_struct_OC_block_size_descriptor))
                             .field7 as *mut uint32_t);
                         _1331__PHI_TEMPORARY = _1328;
                     } else {
                         _1329 = _995;
-                        _1330 = *(&mut (*(_1329 as *mut l_struct_struct_OC_block_size_descriptor))
+                        _1330 = *(&raw mut (*(_1329
+                            as *mut l_struct_struct_OC_block_size_descriptor))
                             .field8 as *mut uint32_t);
                         _1331__PHI_TEMPORARY = _1330;
                     }
@@ -6853,7 +6856,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                             }
                             _1335 = _995;
                             _1336 = _1041;
-                            _1042 = &raw mut *((*(&mut (*(_1335
+                            _1042 = &raw mut *((*(&raw mut (*(_1335
                                 as *mut l_struct_struct_OC_block_size_descriptor))
                                 .field16
                                 as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
@@ -6862,8 +6865,8 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                 .offset(_1336 as uint64_t as int64_t as isize)
                                 as *mut l_struct_struct_OC_block_mode as *mut core::ffi::c_void;
                             _1337 = _1042;
-                            _1338 = *(&mut (*(_1337 as *mut l_struct_struct_OC_block_mode)).field2
-                                as *mut uint8_t);
+                            _1338 = *(&raw mut (*(_1337 as *mut l_struct_struct_OC_block_mode))
+                                .field2 as *mut uint8_t);
                             _1339 = _1004;
                             if _1338 as uint32_t as int32_t > _1339 as int32_t {
                                 _1340 = _1039;
@@ -6874,7 +6877,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     9.99999968E+37f64 as core::ffi::c_float;
                             } else {
                                 _1342 = _1042;
-                                _1343 = *(&mut (*(_1342 as *mut l_struct_struct_OC_block_mode))
+                                _1343 = *(&raw mut (*(_1342 as *mut l_struct_struct_OC_block_mode))
                                     .field4
                                     as *mut uint8_t);
                                 if !((llvm_and_u8(_1343, 1) as core::ffi::c_int
@@ -6899,7 +6902,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                             as uint64_t as int64_t as isize,
                                     ) as *const uint8_t as *mut uint8_t);
                                 _1346 = _1042;
-                                _1347 = *(&mut (*(_1346 as *mut l_struct_struct_OC_block_mode))
+                                _1347 = *(&raw mut (*(_1346 as *mut l_struct_struct_OC_block_mode))
                                     .field3
                                     as *mut uint8_t);
                                 _1043 = llvm_sub_u32(
@@ -6935,7 +6938,8 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                             1 as core::ffi::c_int as core::ffi::c_float;
                                     }
                                     _1357 = _1042;
-                                    _1358 = *(&mut (*(_1357 as *mut l_struct_struct_OC_block_mode))
+                                    _1358 = *(&raw mut (*(_1357
+                                        as *mut l_struct_struct_OC_block_mode))
                                         .field1
                                         as *mut uint8_t);
                                     _1044 = _1358 as uint32_t;
@@ -7035,7 +7039,8 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                 _1387 = _1038;
                                 _1388 = _1039;
                                 _1389 = _994;
-                                _1390 = *(&mut (*(_1389 as *mut l_struct_struct_OC_astcenc_config))
+                                _1390 = *(&raw mut (*(_1389
+                                    as *mut l_struct_struct_OC_astcenc_config))
                                     .field17
                                     as *mut uint32_t);
                                 _1391 = _1040;
@@ -7043,7 +7048,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                 _1393 = _Z30compute_ideal_endpoint_formatsRK14partition_infoRK11image_blockRK9endpointsPKaPKfjjjPA4_hPiP12quant_methodSG_R27compression_working_buffers(
                                     _1384,
                                     _1385,
-                                    &mut (*(_1386
+                                    &raw mut (*(_1386
                                         as *mut l_struct_struct_OC_endpoints_and_weights))
                                         .field1 as *mut l_struct_struct_OC_endpoints
                                         as *mut core::ffi::c_void,
@@ -7073,7 +7078,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                 _1051 = _1393;
                                 _1052 = 1.00000002E+30f64 as core::ffi::c_float;
                                 _1394 = _1001;
-                                _1395 = *(&mut (*(_1394
+                                _1395 = *(&raw mut (*(_1394
                                     as *mut l_struct_struct_OC_symbolic_compressed_block))
                                     .field8
                                     as *mut core::ffi::c_float);
@@ -7096,7 +7101,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     if _1400 as int32_t >= 0 as core::ffi::c_uint as int32_t {
                                         _1401 = _1055;
                                         _1402 = _995;
-                                        _1403 = *(&mut (*(_1402
+                                        _1403 = *(&raw mut (*(_1402
                                             as *mut l_struct_struct_OC_block_size_descriptor))
                                             .field8
                                             as *mut uint32_t);
@@ -7114,7 +7119,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     }
                                     _1405 = _995;
                                     _1406 = _1055;
-                                    _1056 = &raw mut *((*(&mut (*(_1405
+                                    _1056 = &raw mut *((*(&raw mut (*(_1405
                                         as *mut l_struct_struct_OC_block_size_descriptor))
                                         .field16
                                         as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
@@ -7123,7 +7128,8 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                         .offset(_1406 as int32_t as int64_t as isize)
                                         as *mut l_struct_struct_OC_block_mode as *mut core::ffi::c_void;
                                     _1407 = _1056;
-                                    _1408 = *(&mut (*(_1407 as *mut l_struct_struct_OC_block_mode))
+                                    _1408 = *(&raw mut (*(_1407
+                                        as *mut l_struct_struct_OC_block_mode))
                                         .field1
                                         as *mut uint8_t);
                                     _1057 = _1408 as uint32_t;
@@ -7134,7 +7140,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     );
                                     _1058 = _1411;
                                     _1412 = _1058;
-                                    _1413 = *(&mut (*(_1412
+                                    _1413 = *(&raw mut (*(_1412
                                         as *mut l_struct_struct_OC_decimation_info))
                                         .field2
                                         as *mut uint8_t);
@@ -7148,7 +7154,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     _1415 = memcpy(
                                         &mut _1062 as *mut l_struct_struct_OC_endpoints
                                             as *mut core::ffi::c_void,
-                                        &mut (*(_1414
+                                        &raw mut (*(_1414
                                             as *mut l_struct_struct_OC_endpoints_and_weights))
                                             .field1
                                             as *mut l_struct_struct_OC_endpoints
@@ -7170,7 +7176,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     loop {
                                         _1418 = _1064;
                                         _1419 = _1058;
-                                        _1420 = *(&mut (*(_1419
+                                        _1420 = *(&raw mut (*(_1419
                                             as *mut l_struct_struct_OC_decimation_info))
                                             .field2
                                             as *mut uint8_t);
@@ -7196,7 +7202,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                     loop {
                                         _1426 = _1065;
                                         _1427 = _994;
-                                        _1428 = *(&mut (*(_1427
+                                        _1428 = *(&raw mut (*(_1427
                                             as *mut l_struct_struct_OC_astcenc_config))
                                             .field16
                                             as *mut uint32_t);
@@ -7614,7 +7620,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                         _1513 = _1513__PHI_TEMPORARY;
                                         *(&mut _1061.field7 as *mut uint32_t) = _1513;
                                         _1514 = _1056;
-                                        _1515 = *(&mut (*(_1514
+                                        _1515 = *(&raw mut (*(_1514
                                             as *mut l_struct_struct_OC_block_mode))
                                             .field0
                                             as *mut uint16_t);
@@ -7656,7 +7662,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                             _1526 = _ZN4astcL3minIfEET_S1_S1_(_1524, _1525);
                                             _1052 = _1526;
                                             _1527 = _994;
-                                            _1528 = *(&mut (*(_1527
+                                            _1528 = *(&raw mut (*(_1527
                                                 as *mut l_struct_struct_OC_astcenc_config))
                                                 .field16
                                                 as *mut uint32_t);
@@ -7713,18 +7719,18 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                             }
                                         }
                                         _1544 = _1058;
-                                        _1545 = *(&mut (*(_1544
+                                        _1545 = *(&raw mut (*(_1544
                                             as *mut l_struct_struct_OC_decimation_info))
                                             .field2
                                             as *mut uint8_t);
                                         _1546 = _995;
-                                        _1547 = *(&mut (*(_1546
+                                        _1547 = *(&raw mut (*(_1546
                                             as *mut l_struct_struct_OC_block_size_descriptor))
                                             .field3
                                             as *mut uint8_t);
                                         if _1545 as uint32_t != _1547 as uint32_t {
                                             _1548 = _994;
-                                            _1549 = *(&mut (*(_1548
+                                            _1549 = *(&raw mut (*(_1548
                                                 as *mut l_struct_struct_OC_astcenc_config))
                                                 .field0
                                                 as *mut uint32_t);
@@ -7741,7 +7747,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                             _1085 = _1552;
                                         } else {
                                             _1553 = _994;
-                                            _1554 = *(&mut (*(_1553
+                                            _1554 = *(&raw mut (*(_1553
                                                 as *mut l_struct_struct_OC_astcenc_config))
                                                 .field0
                                                 as *mut uint32_t);
@@ -7789,7 +7795,7 @@ unsafe extern "C" fn _ZL44compress_symbolic_block_for_partition_1planeRK14astcen
                                         _1567 = _ZN4astcL3minIfEET_S1_S1_(_1565, _1566);
                                         _1052 = _1567;
                                         _1568 = _994;
-                                        _1569 = *(&mut (*(_1568
+                                        _1569 = *(&raw mut (*(_1568
                                             as *mut l_struct_struct_OC_astcenc_config))
                                             .field16
                                             as *mut uint32_t);
@@ -7967,17 +7973,16 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     _1722 = _1720;
     _1724 = _1721;
     _1725 = _1722;
-    _1726 =
-        *(&raw mut *((*(&mut (*(_1724 as *mut l_struct_struct_OC_block_size_descriptor)).field15
-            as *mut crate::l_array_2048_uint16_t))
-            .array)
-            .as_mut_ptr()
-            .offset(_1725 as uint64_t as int64_t as isize) as *mut uint16_t);
+    _1726 = *(&raw mut *((*(&raw mut (*(_1724 as *mut l_struct_struct_OC_block_size_descriptor))
+        .field15 as *mut crate::l_array_2048_uint16_t))
+        .array)
+        .as_mut_ptr()
+        .offset(_1725 as uint64_t as int64_t as isize) as *mut uint16_t);
     _1723 = _1726 as uint32_t;
     _1727 = _1723;
     if _1727 != 65535 as core::ffi::c_uint {
         _1728 = _1723;
-        _1729 = *(&mut (*(_1724 as *mut l_struct_struct_OC_block_size_descriptor)).field10
+        _1729 = *(&raw mut (*(_1724 as *mut l_struct_struct_OC_block_size_descriptor)).field10
             as *mut uint32_t);
         _1730__PHI_TEMPORARY = (_1728 < _1729) as core::ffi::c_int as bool_0;
     } else {
@@ -7986,7 +7991,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     _1730 = _1730__PHI_TEMPORARY;
     if _1730 != 0 {
         _1731 = _1723;
-        return &raw mut *((*(&mut (*(_1724 as *mut l_struct_struct_OC_block_size_descriptor))
+        return &raw mut *((*(&raw mut (*(_1724 as *mut l_struct_struct_OC_block_size_descriptor))
             .field16
             as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
             .array)
@@ -8013,7 +8018,7 @@ pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
     let mut _1740: uint8_t = 0;
     _1738 = _1737;
     _1739 = _1738;
-    _1740 = *(&mut (*(_1739 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
+    _1740 = *(&raw mut (*(_1739 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
     return _1740 as uint32_t;
 }
 #[inline(never)]
@@ -8306,7 +8311,7 @@ unsafe extern "C" fn _ZL24prepare_block_statisticsiRK11image_block(
             _1789 = _1757;
             _1790 = memcpy(
                 &mut _1775 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_1789 as *mut l_struct_struct_OC_image_block)).field9
+                &raw mut (*(_1789 as *mut l_struct_struct_OC_image_block)).field9
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
@@ -8349,8 +8354,8 @@ unsafe extern "C" fn _ZL24prepare_block_statisticsiRK11image_block(
             _1772 = llvm_fadd_f32(_1798, _1797);
             _1799 = _1757;
             _1800 = _1773;
-            _1801 = *(&raw mut *((*(&mut (*(_1799 as *mut l_struct_struct_OC_image_block)).field0
-                as *mut crate::l_array_219_float))
+            _1801 = *(&raw mut *((*(&raw mut (*(_1799 as *mut l_struct_struct_OC_image_block))
+                .field0 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
                 .offset(_1800 as int32_t as int64_t as isize)
@@ -8358,8 +8363,8 @@ unsafe extern "C" fn _ZL24prepare_block_statisticsiRK11image_block(
             _1776 = _1801;
             _1802 = _1757;
             _1803 = _1773;
-            _1804 = *(&raw mut *((*(&mut (*(_1802 as *mut l_struct_struct_OC_image_block)).field1
-                as *mut crate::l_array_219_float))
+            _1804 = *(&raw mut *((*(&raw mut (*(_1802 as *mut l_struct_struct_OC_image_block))
+                .field1 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
                 .offset(_1803 as int32_t as int64_t as isize)
@@ -8367,8 +8372,8 @@ unsafe extern "C" fn _ZL24prepare_block_statisticsiRK11image_block(
             _1777 = _1804;
             _1805 = _1757;
             _1806 = _1773;
-            _1807 = *(&raw mut *((*(&mut (*(_1805 as *mut l_struct_struct_OC_image_block)).field2
-                as *mut crate::l_array_219_float))
+            _1807 = *(&raw mut *((*(&raw mut (*(_1805 as *mut l_struct_struct_OC_image_block))
+                .field2 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
                 .offset(_1806 as int32_t as int64_t as isize)
@@ -8376,8 +8381,8 @@ unsafe extern "C" fn _ZL24prepare_block_statisticsiRK11image_block(
             _1778 = _1807;
             _1808 = _1757;
             _1809 = _1773;
-            _1810 = *(&raw mut *((*(&mut (*(_1808 as *mut l_struct_struct_OC_image_block)).field3
-                as *mut crate::l_array_219_float))
+            _1810 = *(&raw mut *((*(&raw mut (*(_1808 as *mut l_struct_struct_OC_image_block))
+                .field3 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
                 .offset(_1809 as int32_t as int64_t as isize)
@@ -8956,13 +8961,13 @@ pub unsafe extern "C" fn _ZNK11image_block19is_constant_channelEi(
     (*(&mut _2039.field0 as *mut crate::l_array_4_uint32_t as *mut C2RustUnnamed_69)).data = _2080;
     _2081 = memcpy(
         &mut _2043 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        &mut (*(_2048 as *mut l_struct_struct_OC_image_block)).field6
+        &raw mut (*(_2048 as *mut l_struct_struct_OC_image_block)).field6
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         16,
     );
     _2082 = memcpy(
         &mut _2044 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        &mut (*(_2048 as *mut l_struct_struct_OC_image_block)).field8
+        &raw mut (*(_2048 as *mut l_struct_struct_OC_image_block)).field8
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         16,
     );
@@ -10551,25 +10556,26 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
     _2328 = _2138;
     _2329 = _2139;
     _2437 = _2322;
-    _2438 = *(&mut (*(_2437 as *mut l_struct_struct_OC_astcenc_config)).field17 as *mut uint32_t);
+    _2438 =
+        *(&raw mut (*(_2437 as *mut l_struct_struct_OC_astcenc_config)).field17 as *mut uint32_t);
     if _2438 > 0 as core::ffi::c_uint {
         _2439 = _2322;
-        _2440 =
-            *(&mut (*(_2439 as *mut l_struct_struct_OC_astcenc_config)).field16 as *mut uint32_t);
+        _2440 = *(&raw mut (*(_2439 as *mut l_struct_struct_OC_astcenc_config)).field16
+            as *mut uint32_t);
         if _2440 > 0 as core::ffi::c_uint {
             _2441 = _2323;
-            _2442 = *(&mut (*(_2441 as *mut l_struct_struct_OC_block_size_descriptor)).field5
+            _2442 = *(&raw mut (*(_2441 as *mut l_struct_struct_OC_block_size_descriptor)).field5
                 as *mut uint32_t);
             if _2442 > 0 as core::ffi::c_uint {
                 _2443 = _2329;
                 _2444 = _ZN4astcL3minIiEET_S1_S1_(11, _2443);
                 _2330 = _2444;
                 _2445 = _2328;
-                _2331 = &mut (*(_2445 as *mut l_struct_struct_OC_compression_working_buffers))
+                _2331 = &raw mut (*(_2445 as *mut l_struct_struct_OC_compression_working_buffers))
                     .field0 as *mut l_struct_struct_OC_endpoints_and_weights
                     as *mut core::ffi::c_void;
                 _2446 = _2328;
-                _2332 = &mut (*(_2446 as *mut l_struct_struct_OC_compression_working_buffers))
+                _2332 = &raw mut (*(_2446 as *mut l_struct_struct_OC_compression_working_buffers))
                     .field1 as *mut l_struct_struct_OC_endpoints_and_weights
                     as *mut core::ffi::c_void;
                 _2447 = _2323;
@@ -10585,7 +10591,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     _2451,
                 );
                 _2452 = _2328;
-                _2333 = &raw mut *((*(&mut (*(_2452
+                _2333 = &raw mut *((*(&raw mut (*(_2452
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field2
                     as *mut crate::l_array_5568_float))
@@ -10594,7 +10600,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float as *mut core::ffi::c_void;
                 _2453 = _2328;
-                _2334 = &raw mut *((*(&mut (*(_2453
+                _2334 = &raw mut *((*(&raw mut (*(_2453
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field3
                     as *mut crate::l_array_131072_uint8_t))
@@ -10606,7 +10612,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                 loop {
                     _2454 = _2335;
                     _2455 = _2323;
-                    _2456 = *(&mut (*(_2455 as *mut l_struct_struct_OC_block_size_descriptor))
+                    _2456 = *(&raw mut (*(_2455 as *mut l_struct_struct_OC_block_size_descriptor))
                         .field5 as *mut uint32_t);
                     if !(_2454 < _2456) {
                         break;
@@ -10726,7 +10732,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                 _2490 = _2331;
                 _2491 = memcpy(
                     &mut _2343 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &raw mut *((*(&mut (*(&mut (*(_2490
+                    &raw mut *((*(&raw mut (*(&raw mut (*(_2490
                         as *mut l_struct_struct_OC_endpoints_and_weights))
                         .field1
                         as *mut l_struct_struct_OC_endpoints))
@@ -10811,7 +10817,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                 _2508 = _2331;
                 _2509 = memcpy(
                     &mut _2345 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &raw mut *((*(&mut (*(&mut (*(_2508
+                    &raw mut *((*(&raw mut (*(&raw mut (*(_2508
                         as *mut l_struct_struct_OC_endpoints_and_weights))
                         .field1
                         as *mut l_struct_struct_OC_endpoints))
@@ -10827,7 +10833,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                 _2510 = _2331;
                 _2511 = memcpy(
                     &mut _2346 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &raw mut *((*(&mut (*(&mut (*(_2510
+                    &raw mut *((*(&raw mut (*(&raw mut (*(_2510
                         as *mut l_struct_struct_OC_endpoints_and_weights))
                         .field1
                         as *mut l_struct_struct_OC_endpoints))
@@ -11520,7 +11526,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                 _2646 = _2332;
                 _2647 = memcpy(
                     &mut _2361 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &raw mut *((*(&mut (*(&mut (*(_2646
+                    &raw mut *((*(&raw mut (*(&raw mut (*(_2646
                         as *mut l_struct_struct_OC_endpoints_and_weights))
                         .field1
                         as *mut l_struct_struct_OC_endpoints))
@@ -11605,7 +11611,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                 _2664 = _2332;
                 _2665 = memcpy(
                     &mut _2363 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &raw mut *((*(&mut (*(&mut (*(_2664
+                    &raw mut *((*(&raw mut (*(&raw mut (*(_2664
                         as *mut l_struct_struct_OC_endpoints_and_weights))
                         .field1
                         as *mut l_struct_struct_OC_endpoints))
@@ -11621,7 +11627,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                 _2666 = _2332;
                 _2667 = memcpy(
                     &mut _2364 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &raw mut *((*(&mut (*(&mut (*(_2666
+                    &raw mut *((*(&raw mut (*(&raw mut (*(_2666
                         as *mut l_struct_struct_OC_endpoints_and_weights))
                         .field1
                         as *mut l_struct_struct_OC_endpoints))
@@ -12905,7 +12911,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     _2929,
                 );
                 _2930 = _2328;
-                _2391 = &raw mut *((*(&mut (*(_2930
+                _2391 = &raw mut *((*(&raw mut (*(_2930
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field10
                     as *mut crate::l_array_2048_float))
@@ -12914,7 +12920,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float as *mut core::ffi::c_void;
                 _2931 = _2328;
-                _2392 = &raw mut *((*(&mut (*(_2931
+                _2392 = &raw mut *((*(&raw mut (*(_2931
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field11
                     as *mut crate::l_array_2048_float))
@@ -12923,7 +12929,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float as *mut core::ffi::c_void;
                 _2932 = _2328;
-                _2393 = &raw mut *((*(&mut (*(_2932
+                _2393 = &raw mut *((*(&raw mut (*(_2932
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field14
                     as *mut crate::l_array_2048_float))
@@ -12932,7 +12938,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float as *mut core::ffi::c_void;
                 _2933 = _2328;
-                _2394 = &raw mut *((*(&mut (*(_2933
+                _2394 = &raw mut *((*(&raw mut (*(_2933
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field15
                     as *mut crate::l_array_2048_float))
@@ -12941,7 +12947,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float as *mut core::ffi::c_void;
                 _2934 = _2328;
-                _2395 = &raw mut *((*(&mut (*(_2934
+                _2395 = &raw mut *((*(&raw mut (*(_2934
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field8
                     as *mut crate::l_array_2048_uint8_t))
@@ -12950,7 +12956,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut uint8_t as *mut core::ffi::c_void;
                 _2935 = _2328;
-                _2396 = &raw mut *((*(&mut (*(_2935
+                _2396 = &raw mut *((*(&raw mut (*(_2935
                     as *mut l_struct_struct_OC_compression_working_buffers))
                     .field9
                     as *mut crate::l_array_2048_float))
@@ -12959,12 +12965,12 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     .offset(0 as core::ffi::c_int as int64_t as isize)
                     as *mut core::ffi::c_float as *mut core::ffi::c_void;
                 _2936 = _2323;
-                _2937 = *(&mut (*(_2936 as *mut l_struct_struct_OC_block_size_descriptor)).field8
-                    as *mut uint32_t);
+                _2937 = *(&raw mut (*(_2936 as *mut l_struct_struct_OC_block_size_descriptor))
+                    .field8 as *mut uint32_t);
                 _2397 = _2937;
                 _2938 = _2323;
-                _2939 = *(&mut (*(_2938 as *mut l_struct_struct_OC_block_size_descriptor)).field9
-                    as *mut uint32_t);
+                _2939 = *(&raw mut (*(_2938 as *mut l_struct_struct_OC_block_size_descriptor))
+                    .field9 as *mut uint32_t);
                 _2398 = _2939;
                 _2940 = _2397;
                 _2399 = _2940;
@@ -12977,7 +12983,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                     }
                     _2943 = _2323;
                     _2944 = _2399;
-                    _2400 = &raw mut *((*(&mut (*(_2943
+                    _2400 = &raw mut *((*(&raw mut (*(_2943
                         as *mut l_struct_struct_OC_block_size_descriptor))
                         .field16
                         as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
@@ -12987,14 +12993,14 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                         as *mut l_struct_struct_OC_block_mode
                         as *mut core::ffi::c_void;
                     _2945 = _2400;
-                    _2946 = *(&mut (*(_2945 as *mut l_struct_struct_OC_block_mode)).field4
+                    _2946 = *(&raw mut (*(_2945 as *mut l_struct_struct_OC_block_mode)).field4
                         as *mut uint8_t);
                     if !(llvm_and_u8(_2946, 1) as core::ffi::c_int != 0 as core::ffi::c_int) {
                         current_block = 12263674800570458436;
                         break;
                     }
                     _2947 = _2400;
-                    _2948 = *(&mut (*(_2947 as *mut l_struct_struct_OC_block_mode)).field2
+                    _2948 = *(&raw mut (*(_2947 as *mut l_struct_struct_OC_block_mode)).field2
                         as *mut uint8_t);
                     _2949 = _2330;
                     if _2948 as uint32_t as int32_t > _2949 as int32_t {
@@ -13005,7 +13011,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                             as *mut core::ffi::c_float) = 9.99999968E+37f64 as core::ffi::c_float;
                     } else {
                         _2952 = _2400;
-                        _2953 = *(&mut (*(_2952 as *mut l_struct_struct_OC_block_mode)).field3
+                        _2953 = *(&raw mut (*(_2952 as *mut l_struct_struct_OC_block_mode)).field3
                             as *mut uint8_t);
                         _2954 = _2395;
                         _2955 = _2399;
@@ -13051,7 +13057,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                 1 as core::ffi::c_int as core::ffi::c_float;
                         }
                         _2968 = _2400;
-                        _2969 = *(&mut (*(_2968 as *mut l_struct_struct_OC_block_mode)).field1
+                        _2969 = *(&raw mut (*(_2968 as *mut l_struct_struct_OC_block_mode)).field1
                             as *mut uint8_t);
                         _2401 = _2969 as uint32_t;
                         _2970 = _2323;
@@ -13198,10 +13204,12 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                         _3007 = _2332;
                         _3008 = _2326;
                         _ZL15merge_endpointsRK9endpointsS1_jRS_(
-                            &mut (*(_3006 as *mut l_struct_struct_OC_endpoints_and_weights)).field1
+                            &raw mut (*(_3006 as *mut l_struct_struct_OC_endpoints_and_weights))
+                                .field1
                                 as *mut l_struct_struct_OC_endpoints
                                 as *mut core::ffi::c_void,
-                            &mut (*(_3007 as *mut l_struct_struct_OC_endpoints_and_weights)).field1
+                            &raw mut (*(_3007 as *mut l_struct_struct_OC_endpoints_and_weights))
+                                .field1
                                 as *mut l_struct_struct_OC_endpoints
                                 as *mut core::ffi::c_void,
                             _3008,
@@ -13216,13 +13224,15 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                         _3013 = _2395;
                         _3014 = _2396;
                         _3015 = _2322;
-                        _3016 = *(&mut (*(_3015 as *mut l_struct_struct_OC_astcenc_config)).field17
-                            as *mut uint32_t);
+                        _3016 = *(&raw mut (*(_3015 as *mut l_struct_struct_OC_astcenc_config))
+                            .field17 as *mut uint32_t);
                         _3017 = _2323;
-                        _3018 = *(&mut (*(_3017 as *mut l_struct_struct_OC_block_size_descriptor))
+                        _3018 = *(&raw mut (*(_3017
+                            as *mut l_struct_struct_OC_block_size_descriptor))
                             .field8 as *mut uint32_t);
                         _3019 = _2323;
-                        _3020 = *(&mut (*(_3019 as *mut l_struct_struct_OC_block_size_descriptor))
+                        _3020 = *(&raw mut (*(_3019
+                            as *mut l_struct_struct_OC_block_size_descriptor))
                             .field9 as *mut uint32_t);
                         _3021 = _2328;
                         _3022 = _Z30compute_ideal_endpoint_formatsRK14partition_infoRK11image_blockRK9endpointsPKaPKfjjjPA4_hPiP12quant_methodSG_R27compression_working_buffers(
@@ -13256,7 +13266,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                         _2410 = _3022;
                         _2411 = 1.00000002E+30f64 as core::ffi::c_float;
                         _3023 = _2327;
-                        _3024 = *(&mut (*(_3023
+                        _3024 = *(&raw mut (*(_3023
                             as *mut l_struct_struct_OC_symbolic_compressed_block))
                             .field8 as *mut core::ffi::c_float);
                         _2412 = _3024;
@@ -13276,13 +13286,13 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                             _2414 = _3028;
                             _3029 = _2414;
                             _3030 = _2323;
-                            _3031 = *(&mut (*(_3030
+                            _3031 = *(&raw mut (*(_3030
                                 as *mut l_struct_struct_OC_block_size_descriptor))
                                 .field8 as *mut uint32_t);
                             if _3029 as int32_t >= _3031 as int32_t {
                                 _3032 = _2414;
                                 _3033 = _2323;
-                                _3034 = *(&mut (*(_3033
+                                _3034 = *(&raw mut (*(_3033
                                     as *mut l_struct_struct_OC_block_size_descriptor))
                                     .field9
                                     as *mut uint32_t);
@@ -13299,7 +13309,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                             }
                             _3036 = _2323;
                             _3037 = _2414;
-                            _2415 = &raw mut *((*(&mut (*(_3036
+                            _2415 = &raw mut *((*(&raw mut (*(_3036
                                 as *mut l_struct_struct_OC_block_size_descriptor))
                                 .field16
                                 as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
@@ -13308,8 +13318,8 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                 .offset(_3037 as int32_t as int64_t as isize)
                                 as *mut l_struct_struct_OC_block_mode as *mut core::ffi::c_void;
                             _3038 = _2415;
-                            _3039 = *(&mut (*(_3038 as *mut l_struct_struct_OC_block_mode)).field1
-                                as *mut uint8_t);
+                            _3039 = *(&raw mut (*(_3038 as *mut l_struct_struct_OC_block_mode))
+                                .field1 as *mut uint8_t);
                             _2416 = _3039 as uint32_t;
                             _3040 = _2323;
                             _3041 = _2416;
@@ -13317,7 +13327,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                 _ZNK21block_size_descriptor19get_decimation_infoEj(_3040, _3041);
                             _2417 = _3042;
                             _3043 = _2417;
-                            _3044 = *(&mut (*(_3043 as *mut l_struct_struct_OC_decimation_info))
+                            _3044 = *(&raw mut (*(_3043 as *mut l_struct_struct_OC_decimation_info))
                                 .field2 as *mut uint8_t);
                             if !(_3044 as uint32_t as int32_t > 0 as core::ffi::c_uint as int32_t) {
                                 current_block = 853264583407583079;
@@ -13358,7 +13368,8 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                             loop {
                                 _3050 = _2424;
                                 _3051 = _2417;
-                                _3052 = *(&mut (*(_3051 as *mut l_struct_struct_OC_decimation_info))
+                                _3052 = *(&raw mut (*(_3051
+                                    as *mut l_struct_struct_OC_decimation_info))
                                     .field2
                                     as *mut uint8_t);
                                 if !((_3050 as int32_t) < _3052 as uint32_t as int32_t) {
@@ -13400,7 +13411,8 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                             loop {
                                 _3062 = _2425;
                                 _3063 = _2322;
-                                _3064 = *(&mut (*(_3063 as *mut l_struct_struct_OC_astcenc_config))
+                                _3064 = *(&raw mut (*(_3063
+                                    as *mut l_struct_struct_OC_astcenc_config))
                                     .field16
                                     as *mut uint32_t);
                                 if !(_3062 < _3064) {
@@ -13526,7 +13538,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                 *(&mut _2420.field7 as *mut uint32_t) = _3083;
                                 *(&mut _2420.field2 as *mut uint8_t) = 0;
                                 _3084 = _2415;
-                                _3085 = *(&mut (*(_3084 as *mut l_struct_struct_OC_block_mode))
+                                _3085 = *(&raw mut (*(_3084 as *mut l_struct_struct_OC_block_mode))
                                     .field0
                                     as *mut uint16_t);
                                 *(&mut _2420.field4 as *mut uint16_t) = _3085;
@@ -13562,7 +13574,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                     _3096 = _ZN4astcL3minIfEET_S1_S1_(_3094, _3095);
                                     _2411 = _3096;
                                     _3097 = _2322;
-                                    _3098 = *(&mut (*(_3097
+                                    _3098 = *(&raw mut (*(_3097
                                         as *mut l_struct_struct_OC_astcenc_config))
                                         .field16
                                         as *mut uint32_t);
@@ -13618,17 +13630,18 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                     }
                                 }
                                 _3114 = _2417;
-                                _3115 = *(&mut (*(_3114 as *mut l_struct_struct_OC_decimation_info))
+                                _3115 = *(&raw mut (*(_3114
+                                    as *mut l_struct_struct_OC_decimation_info))
                                     .field2
                                     as *mut uint8_t);
                                 _3116 = _2323;
-                                _3117 = *(&mut (*(_3116
+                                _3117 = *(&raw mut (*(_3116
                                     as *mut l_struct_struct_OC_block_size_descriptor))
                                     .field3
                                     as *mut uint8_t);
                                 if _3115 as uint32_t != _3117 as uint32_t {
                                     _3118 = _2322;
-                                    _3119 = *(&mut (*(_3118
+                                    _3119 = *(&raw mut (*(_3118
                                         as *mut l_struct_struct_OC_astcenc_config))
                                         .field0
                                         as *mut uint32_t);
@@ -13645,7 +13658,7 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                     _2433 = _3122;
                                 } else {
                                     _3123 = _2322;
-                                    _3124 = *(&mut (*(_3123
+                                    _3124 = *(&raw mut (*(_3123
                                         as *mut l_struct_struct_OC_astcenc_config))
                                         .field0
                                         as *mut uint32_t);
@@ -13686,7 +13699,8 @@ unsafe extern "C" fn _ZL45compress_symbolic_block_for_partition_2planesRK14astce
                                 _3136 = _ZN4astcL3minIfEET_S1_S1_(_3134, _3135);
                                 _2411 = _3136;
                                 _3137 = _2322;
-                                _3138 = *(&mut (*(_3137 as *mut l_struct_struct_OC_astcenc_config))
+                                _3138 = *(&raw mut (*(_3137
+                                    as *mut l_struct_struct_OC_astcenc_config))
                                     .field16
                                     as *mut uint32_t);
                                 _3139 = _2425;
@@ -13857,7 +13871,7 @@ pub unsafe extern "C" fn _ZNK11image_block17get_default_alphaEv(
     let mut _3293: uint64_t = 0;
     _3290 = _3289;
     _3291 = _3290;
-    _3292 = *(&raw mut *((*(&mut (*(_3291 as *mut l_struct_struct_OC_image_block)).field13
+    _3292 = *(&raw mut *((*(&raw mut (*(_3291 as *mut l_struct_struct_OC_image_block)).field13
         as *mut crate::l_array_216_uint8_t))
         .array)
         .as_mut_ptr()
@@ -13936,7 +13950,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     if _3315 >= 2 as core::ffi::c_uint {
         _3316 = _3310;
         _3317 = _3311;
-        _3318 = *(&raw mut *((*(&raw mut *((*(&mut (*(_3314
+        _3318 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_3314
             as *mut l_struct_struct_OC_block_size_descriptor))
             .field18
             as *mut crate::l_array_3_struct_AC_l_array_1024_uint16_t))
@@ -13955,14 +13969,15 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     if _3319 != 65535 as core::ffi::c_uint {
         _3320 = _3312;
         _3321 = _3310;
-        _3322 = *(&raw mut *((*(&mut (*(_3314 as *mut l_struct_struct_OC_block_size_descriptor))
-            .field12 as *mut crate::l_array_4_uint32_t))
-            .array)
-            .as_mut_ptr()
-            .offset(
-                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_3321, 1)
-                    as uint64_t as int64_t as isize,
-            ) as *mut uint32_t);
+        _3322 =
+            *(&raw mut *((*(&raw mut (*(_3314 as *mut l_struct_struct_OC_block_size_descriptor))
+                .field12 as *mut crate::l_array_4_uint32_t))
+                .array)
+                .as_mut_ptr()
+                .offset(
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_3321, 1)
+                        as uint64_t as int64_t as isize,
+                ) as *mut uint32_t);
         _3323__PHI_TEMPORARY = (_3320 < _3322) as core::ffi::c_int as bool_0;
     } else {
         _3323__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
@@ -13977,8 +13992,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             as *mut l_struct_struct_OC_partition_info as *mut core::ffi::c_void;
         _3327 = _3311;
         _3328 = _3313;
-        _3329 =
-            *(&mut (*(_3328 as *mut l_struct_struct_OC_partition_info)).field1 as *mut uint16_t);
+        _3329 = *(&raw mut (*(_3328 as *mut l_struct_struct_OC_partition_info)).field1
+            as *mut uint16_t);
         if _3327 == _3329 as uint32_t {
             _3330 = _3313;
             return _3330;
@@ -14015,7 +14030,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_modeEj(
     _3344 = _3342;
     _3345 = _3343;
     _3346 = _3344;
-    return &raw mut *((*(&mut (*(_3345 as *mut l_struct_struct_OC_block_size_descriptor)).field13
+    return &raw mut *((*(&raw mut (*(_3345 as *mut l_struct_struct_OC_block_size_descriptor))
+        .field13
         as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
         .array)
         .as_mut_ptr()
@@ -14043,7 +14059,8 @@ pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_1planeE12quant_method(
         ((1 as core::ffi::c_int) << llvm_add_u32(_3353, 1)) as uint32_t,
         1,
     ) as uint16_t;
-    _3354 = *(&mut (*(_3352 as *mut l_struct_struct_OC_decimation_mode)).field2 as *mut uint16_t);
+    _3354 =
+        *(&raw mut (*(_3352 as *mut l_struct_struct_OC_decimation_mode)).field2 as *mut uint16_t);
     _3355 = _3351;
     return (_3354 as uint32_t & _3355 as uint32_t != 0 as core::ffi::c_uint) as core::ffi::c_int
         as bool_0;
@@ -14062,7 +14079,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     _3359 = _3357;
     _3360 = _3358;
     _3361 = _3359;
-    return &raw mut *((*(&mut (*(_3360 as *mut l_struct_struct_OC_block_size_descriptor)).field14
+    return &raw mut *((*(&raw mut (*(_3360 as *mut l_struct_struct_OC_block_size_descriptor))
+        .field14
         as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
         .array)
         .as_mut_ptr()
@@ -15560,24 +15578,24 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
     _3627 = _3364;
     _3628 = _3365;
     _3731 = _3628;
-    _3732 = *(&mut (*(_3731 as *mut l_struct_struct_OC_symbolic_compressed_block)).field1
+    _3732 = *(&raw mut (*(_3731 as *mut l_struct_struct_OC_symbolic_compressed_block)).field1
         as *mut uint8_t);
     _3629 = _3732 as uint32_t;
     _3733 = _3626;
     _3734 = _3629;
     _3735 = _3628;
-    _3736 = *(&mut (*(_3735 as *mut l_struct_struct_OC_symbolic_compressed_block)).field5
+    _3736 = *(&raw mut (*(_3735 as *mut l_struct_struct_OC_symbolic_compressed_block)).field5
         as *mut uint16_t);
     _3737 = _ZNK21block_size_descriptor18get_partition_infoEjj(_3733, _3734, _3736 as uint32_t);
     _3630 = _3737;
     _3738 = _3626;
     _3739 = _3628;
-    _3740 = *(&mut (*(_3739 as *mut l_struct_struct_OC_symbolic_compressed_block)).field4
+    _3740 = *(&raw mut (*(_3739 as *mut l_struct_struct_OC_symbolic_compressed_block)).field4
         as *mut uint16_t);
     _3741 = _ZNK21block_size_descriptor14get_block_modeEj(_3738, _3740 as uint32_t);
     _3631 = _3741;
     _3742 = _3631;
-    _3743 = *(&mut (*(_3742 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
+    _3743 = *(&raw mut (*(_3742 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
     _3632 = _3743 as uint32_t;
     _3744 = _3632;
     _3633 = &raw mut *(quant_and_xfer_tables.array)
@@ -15586,22 +15604,23 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
         as *mut l_struct_struct_OC_quant_and_transfer_table as *mut core::ffi::c_void;
     _3745 = _3626;
     _3746 = _3631;
-    _3747 = *(&mut (*(_3746 as *mut l_struct_struct_OC_block_mode)).field1 as *mut uint8_t);
+    _3747 = *(&raw mut (*(_3746 as *mut l_struct_struct_OC_block_mode)).field1 as *mut uint8_t);
     _3748 = _ZNK21block_size_descriptor19get_decimation_infoEj(_3745, _3747 as uint32_t);
     _3634 = _3748;
     _3749 = _3634;
-    _3750 = *(&mut (*(_3749 as *mut l_struct_struct_OC_decimation_info)).field2 as *mut uint8_t);
+    _3750 =
+        *(&raw mut (*(_3749 as *mut l_struct_struct_OC_decimation_info)).field2 as *mut uint8_t);
     _3635 = _3750 as uint32_t;
     _3751 = _3635;
     _3752 = _3626;
-    _3753 =
-        *(&mut (*(_3752 as *mut l_struct_struct_OC_block_size_descriptor)).field3 as *mut uint8_t);
+    _3753 = *(&raw mut (*(_3752 as *mut l_struct_struct_OC_block_size_descriptor)).field3
+        as *mut uint8_t);
     if _3751 != _3753 as uint32_t {
         _3754 = _3631;
-        _3755 = *(&mut (*(_3754 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
+        _3755 = *(&raw mut (*(_3754 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
         _3636 = llvm_and_u8(_3755, 1) as uint32_t;
         _3756 = _3628;
-        _3757 = *(&mut (*(_3756 as *mut l_struct_struct_OC_symbolic_compressed_block)).field3
+        _3757 = *(&raw mut (*(_3756 as *mut l_struct_struct_OC_symbolic_compressed_block)).field3
             as *mut uint8_t);
         _3637 = _3757 as int8_t as int32_t as uint32_t;
         _3468 = &mut _3473 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -15748,7 +15767,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                     _3794 = _3625;
                     _3795 = _3628;
                     _3796 = _3647;
-                    _3797 = *(&raw mut *((*(&mut (*(_3795
+                    _3797 = *(&raw mut *((*(&raw mut (*(_3795
                         as *mut l_struct_struct_OC_symbolic_compressed_block))
                         .field6
                         as *mut crate::l_array_4_uint8_t))
@@ -15763,7 +15782,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                     _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5vint4S4_(
                         _3794,
                         _3797 as uint32_t,
-                        &raw mut *((*(&raw mut *((*(&mut (*(_3798
+                        &raw mut *((*(&raw mut *((*(&raw mut (*(_3798
                             as *mut l_struct_struct_OC_symbolic_compressed_block))
                             .field9
                             as *mut l_struct_union_OC_anon
@@ -15793,7 +15812,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                     _3647 = llvm_add_u32(_3802, 1);
                 }
                 _3803 = _3628;
-                _3648 = &raw mut *((*(&mut (*(_3803
+                _3648 = &raw mut *((*(&raw mut (*(_3803
                     as *mut l_struct_struct_OC_symbolic_compressed_block))
                     .field10
                     as *mut crate::l_array_64_uint8_t))
@@ -16492,7 +16511,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                         _3671 = _3958 as uint32_t;
                         _3959 = _3633;
                         _3960 = _3671;
-                        _3961 = *(&raw mut *((*(&mut (*(_3959
+                        _3961 = *(&raw mut *((*(&raw mut (*(_3959
                             as *mut l_struct_struct_OC_quant_and_transfer_table))
                             .field3
                             as *mut crate::l_array_65_uint16_t))
@@ -16588,7 +16607,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                         *(&mut _3680.field0 as *mut crate::l_array_4_float) = _3987.field0;
                         _3988 = _3634;
                         _3989 = _3670;
-                        _3990 = *(&raw mut *((*(&mut (*(_3988
+                        _3990 = *(&raw mut *((*(&raw mut (*(_3988
                             as *mut l_struct_struct_OC_decimation_info))
                             .field10
                             as *mut crate::l_array_64_uint8_t))
@@ -16612,7 +16631,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                             _3994 = _3634;
                             _3995 = _3682;
                             _3996 = _3670;
-                            _3997 = *(&raw mut *((*(&raw mut *((*(&mut (*(_3994
+                            _3997 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_3994
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field11
                                 as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
@@ -16628,7 +16647,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                             _3998 = _3634;
                             _3999 = _3682;
                             _4000 = _3670;
-                            _4001 = *(&raw mut *((*(&raw mut *((*(&mut (*(_3998
+                            _4001 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_3998
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field13
                                 as *mut crate::l_array_216_struct_AC_l_array_64_float))
@@ -16643,7 +16662,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                             _3684 = _4001;
                             _4002 = _3634;
                             _4003 = _3683;
-                            _4004 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4002
+                            _4004 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4002
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field7
                                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -16661,7 +16680,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                                 as *mut core::ffi::c_float);
                             _4006 = _3634;
                             _4007 = _3683;
-                            _4008 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4006
+                            _4008 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4006
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
                                 as *mut crate::l_array_4_struct_AC_l_array_216_float))
@@ -16675,7 +16694,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                                 as *mut core::ffi::c_float);
                             _4009 = _3634;
                             _4010 = _3683;
-                            _4011 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4009
+                            _4011 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4009
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field7
                                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -16693,7 +16712,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                                 as *mut core::ffi::c_float);
                             _4013 = _3634;
                             _4014 = _3683;
-                            _4015 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4013
+                            _4015 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4013
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
                                 as *mut crate::l_array_4_struct_AC_l_array_216_float))
@@ -16709,7 +16728,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                                 llvm_OC_fmuladd_OC_f32(_4005, _4008, llvm_fmul_f32(_4012, _4015));
                             _4017 = _3634;
                             _4018 = _3683;
-                            _4019 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4017
+                            _4019 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4017
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field7
                                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -16727,7 +16746,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                                 as *mut core::ffi::c_float);
                             _4021 = _3634;
                             _4022 = _3683;
-                            _4023 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4021
+                            _4023 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4021
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
                                 as *mut crate::l_array_4_struct_AC_l_array_216_float))
@@ -16741,7 +16760,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                                 as *mut core::ffi::c_float);
                             _4024 = _3634;
                             _4025 = _3683;
-                            _4026 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4024
+                            _4026 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4024
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field7
                                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -16759,7 +16778,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                                 as *mut core::ffi::c_float);
                             _4028 = _3634;
                             _4029 = _3683;
-                            _4030 = *(&raw mut *((*(&raw mut *((*(&mut (*(_4028
+                            _4030 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_4028
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
                                 as *mut crate::l_array_4_struct_AC_l_array_216_float))
@@ -16788,7 +16807,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                             _3687 = llvm_fsub_f32(_4040, _4041);
                             _4042 = _3630;
                             _4043 = _3683;
-                            _4044 = *(&raw mut *((*(&mut (*(_4042
+                            _4044 = *(&raw mut *((*(&raw mut (*(_4042
                                 as *mut l_struct_struct_OC_partition_info))
                                 .field3
                                 as *mut crate::l_array_216_uint8_t))
@@ -18067,7 +18086,7 @@ unsafe extern "C" fn _ZL25realign_weights_decimated15astcenc_profileRK21block_si
                         _4326 = _3627;
                         _4327 = memcpy(
                             &mut _3716 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                            &mut (*(_4326 as *mut l_struct_struct_OC_image_block)).field9
+                            &raw mut (*(_4326 as *mut l_struct_struct_OC_image_block)).field9
                                 as *mut l_struct_struct_OC_vfloat4
                                 as *mut core::ffi::c_void,
                             16,
@@ -19819,24 +19838,24 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
     _4716 = _4494;
     _4717 = _4495;
     _4796 = _4717;
-    _4797 = *(&mut (*(_4796 as *mut l_struct_struct_OC_symbolic_compressed_block)).field1
+    _4797 = *(&raw mut (*(_4796 as *mut l_struct_struct_OC_symbolic_compressed_block)).field1
         as *mut uint8_t);
     _4718 = _4797 as uint32_t;
     _4798 = _4715;
     _4799 = _4718;
     _4800 = _4717;
-    _4801 = *(&mut (*(_4800 as *mut l_struct_struct_OC_symbolic_compressed_block)).field5
+    _4801 = *(&raw mut (*(_4800 as *mut l_struct_struct_OC_symbolic_compressed_block)).field5
         as *mut uint16_t);
     _4802 = _ZNK21block_size_descriptor18get_partition_infoEjj(_4798, _4799, _4801 as uint32_t);
     _4719 = _4802;
     _4803 = _4715;
     _4804 = _4717;
-    _4805 = *(&mut (*(_4804 as *mut l_struct_struct_OC_symbolic_compressed_block)).field4
+    _4805 = *(&raw mut (*(_4804 as *mut l_struct_struct_OC_symbolic_compressed_block)).field4
         as *mut uint16_t);
     _4806 = _ZNK21block_size_descriptor14get_block_modeEj(_4803, _4805 as uint32_t);
     _4720 = _4806;
     _4807 = _4720;
-    _4808 = *(&mut (*(_4807 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
+    _4808 = *(&raw mut (*(_4807 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
     _4721 = _4808 as uint32_t;
     _4809 = _4721;
     _4722 = &raw mut *(quant_and_xfer_tables.array)
@@ -19844,10 +19863,10 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
         .offset(_4809 as uint64_t as int64_t as isize)
         as *mut l_struct_struct_OC_quant_and_transfer_table as *mut core::ffi::c_void;
     _4810 = _4720;
-    _4811 = *(&mut (*(_4810 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
+    _4811 = *(&raw mut (*(_4810 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
     _4723 = llvm_and_u8(_4811, 1) as uint32_t;
     _4812 = _4717;
-    _4813 = *(&mut (*(_4812 as *mut l_struct_struct_OC_symbolic_compressed_block)).field3
+    _4813 = *(&raw mut (*(_4812 as *mut l_struct_struct_OC_symbolic_compressed_block)).field3
         as *mut uint8_t);
     _4724 = _4813 as int8_t as int32_t as uint32_t;
     _4584 = &mut _4589 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
@@ -19988,7 +20007,7 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
             _4849 = _4714;
             _4850 = _4717;
             _4851 = _4734;
-            _4852 = *(&raw mut *((*(&mut (*(_4850
+            _4852 = *(&raw mut *((*(&raw mut (*(_4850
                 as *mut l_struct_struct_OC_symbolic_compressed_block))
                 .field6 as *mut crate::l_array_4_uint8_t))
                 .array)
@@ -20002,7 +20021,7 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
             _Z22unpack_color_endpoints15astcenc_profileiPKhRbS2_R5vint4S4_(
                 _4849,
                 _4852 as uint32_t,
-                &raw mut *((*(&raw mut *((*(&mut (*(_4853
+                &raw mut *((*(&raw mut *((*(&raw mut (*(_4853
                     as *mut l_struct_struct_OC_symbolic_compressed_block))
                     .field9
                     as *mut l_struct_union_OC_anon
@@ -20030,7 +20049,8 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
             _4734 = llvm_add_u32(_4857, 1);
         }
         _4858 = _4717;
-        _4735 = &raw mut *((*(&mut (*(_4858 as *mut l_struct_struct_OC_symbolic_compressed_block))
+        _4735 = &raw mut *((*(&raw mut (*(_4858
+            as *mut l_struct_struct_OC_symbolic_compressed_block))
             .field10 as *mut crate::l_array_64_uint8_t))
             .array)
             .as_mut_ptr()
@@ -20550,7 +20570,7 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
                 _4738 = llvm_add_u32(_4971, 1);
             }
             _4972 = _4715;
-            _4973 = *(&mut (*(_4972 as *mut l_struct_struct_OC_block_size_descriptor)).field3
+            _4973 = *(&raw mut (*(_4972 as *mut l_struct_struct_OC_block_size_descriptor)).field3
                 as *mut uint8_t);
             if !(_4973 as uint32_t as int32_t > 0 as core::ffi::c_uint as int32_t) {
                 current_block = 4594574464102247932;
@@ -20560,8 +20580,8 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
             loop {
                 _4974 = _4751;
                 _4975 = _4715;
-                _4976 = *(&mut (*(_4975 as *mut l_struct_struct_OC_block_size_descriptor)).field3
-                    as *mut uint8_t);
+                _4976 = *(&raw mut (*(_4975 as *mut l_struct_struct_OC_block_size_descriptor))
+                    .field3 as *mut uint8_t);
                 if !(_4974 < _4976 as uint32_t) {
                     break;
                 }
@@ -20573,7 +20593,7 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
                 _4752 = _4979 as uint32_t;
                 _4980 = _4722;
                 _4981 = _4752;
-                _4982 = *(&raw mut *((*(&mut (*(_4980
+                _4982 = *(&raw mut *((*(&raw mut (*(_4980
                     as *mut l_struct_struct_OC_quant_and_transfer_table))
                     .field3
                     as *mut crate::l_array_65_uint16_t))
@@ -20596,7 +20616,8 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
                 _4758 = llvm_sub_u32(_4988, _4989) as int32_t as core::ffi::c_float;
                 _4990 = _4719;
                 _4991 = _4751;
-                _4992 = *(&raw mut *((*(&mut (*(_4990 as *mut l_struct_struct_OC_partition_info))
+                _4992 = *(&raw mut *((*(&raw mut (*(_4990
+                    as *mut l_struct_struct_OC_partition_info))
                     .field3
                     as *mut crate::l_array_216_uint8_t))
                     .array)
@@ -20815,7 +20836,7 @@ unsafe extern "C" fn _ZL27realign_weights_undecimated15astcenc_profileRK21block_
                 _5044 = _4716;
                 _5045 = memcpy(
                     &mut _4767 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &mut (*(_5044 as *mut l_struct_struct_OC_image_block)).field9
+                    &raw mut (*(_5044 as *mut l_struct_struct_OC_image_block)).field9
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     16,
@@ -22073,9 +22094,10 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     _5371 = _5367;
     _5368 = llvm_mul_u32(llvm_sub_u32(_5371, 2), 1024);
     _5372 = _5368;
-    return &raw mut *(&raw mut *((*(&mut (*(_5369
+    return &raw mut *(&raw mut *((*(&raw mut (*(_5369
         as *mut l_struct_struct_OC_block_size_descriptor))
-        .field17 as *mut crate::l_array_3073_struct_AC_l_struct_struct_OC_partition_info))
+        .field17
+        as *mut crate::l_array_3073_struct_AC_l_struct_struct_OC_partition_info))
         .array)
         .as_mut_ptr()
         .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -22152,25 +22174,25 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     _5399 = _5391;
     _5400 = _5398;
     _5401 = _5399;
-    _5402 = *(&raw mut *((*(&mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field0
+    _5402 = *(&raw mut *((*(&raw mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field0
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_5401 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _5403 = _5399;
-    _5404 = *(&raw mut *((*(&mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field1
+    _5404 = *(&raw mut *((*(&raw mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field1
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_5403 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _5405 = _5399;
-    _5406 = *(&raw mut *((*(&mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field2
+    _5406 = *(&raw mut *((*(&raw mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field2
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_5405 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _5407 = _5399;
-    _5408 = *(&raw mut *((*(&mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field3
+    _5408 = *(&raw mut *((*(&raw mut (*(_5400 as *mut l_struct_struct_OC_image_block)).field3
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
@@ -22277,7 +22299,8 @@ pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_2planeE12quant_method(
         ((1 as core::ffi::c_int) << llvm_add_u32(_5445, 1)) as uint32_t,
         1,
     ) as uint16_t;
-    _5446 = *(&mut (*(_5444 as *mut l_struct_struct_OC_decimation_mode)).field3 as *mut uint16_t);
+    _5446 =
+        *(&raw mut (*(_5444 as *mut l_struct_struct_OC_decimation_mode)).field3 as *mut uint16_t);
     _5447 = _5443;
     return (_5446 as uint32_t & _5447 as uint32_t != 0 as core::ffi::c_uint) as core::ffi::c_int
         as bool_0;
@@ -22503,7 +22526,7 @@ unsafe extern "C" fn _ZL15merge_endpointsRK9endpointsS1_jRS_(
     _5488 = _5450;
     _5489 = _5451;
     _5502 = _5486;
-    _5503 = *(&mut (*(_5502 as *mut l_struct_struct_OC_endpoints)).field0 as *mut uint32_t);
+    _5503 = *(&raw mut (*(_5502 as *mut l_struct_struct_OC_endpoints)).field0 as *mut uint32_t);
     _5490 = _5503;
     _5504 = _5490;
     if _5504 == 1 as core::ffi::c_uint {
@@ -22639,11 +22662,11 @@ unsafe extern "C" fn _ZL15merge_endpointsRK9endpointsS1_jRS_(
             _5536;
         _5537 = _5490;
         _5538 = _5489;
-        *(&mut (*(_5538 as *mut l_struct_struct_OC_endpoints)).field0 as *mut uint32_t) = _5537;
+        *(&raw mut (*(_5538 as *mut l_struct_struct_OC_endpoints)).field0 as *mut uint32_t) = _5537;
         _5539 = _5486;
         _5540 = memcpy(
             &mut _5495 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            &raw mut *((*(&mut (*(_5539 as *mut l_struct_struct_OC_endpoints)).field1
+            &raw mut *((*(&raw mut (*(_5539 as *mut l_struct_struct_OC_endpoints)).field1
                 as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                 .array)
                 .as_mut_ptr()
@@ -22654,7 +22677,7 @@ unsafe extern "C" fn _ZL15merge_endpointsRK9endpointsS1_jRS_(
         _5541 = _5487;
         _5542 = memcpy(
             &mut _5496 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            &raw mut *((*(&mut (*(_5541 as *mut l_struct_struct_OC_endpoints)).field1
+            &raw mut *((*(&raw mut (*(_5541 as *mut l_struct_struct_OC_endpoints)).field1
                 as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                 .array)
                 .as_mut_ptr()
@@ -22779,7 +22802,7 @@ unsafe extern "C" fn _ZL15merge_endpointsRK9endpointsS1_jRS_(
         *(&mut _5494.field0 as *mut crate::l_array_4_float) = _5568.field0;
         _5569 = _5489;
         _5570 = memcpy(
-            &raw mut *((*(&mut (*(_5569 as *mut l_struct_struct_OC_endpoints)).field1
+            &raw mut *((*(&raw mut (*(_5569 as *mut l_struct_struct_OC_endpoints)).field1
                 as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                 .array)
                 .as_mut_ptr()
@@ -22791,7 +22814,7 @@ unsafe extern "C" fn _ZL15merge_endpointsRK9endpointsS1_jRS_(
         _5571 = _5486;
         _5572 = memcpy(
             &mut _5499 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            &raw mut *((*(&mut (*(_5571 as *mut l_struct_struct_OC_endpoints)).field2
+            &raw mut *((*(&raw mut (*(_5571 as *mut l_struct_struct_OC_endpoints)).field2
                 as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                 .array)
                 .as_mut_ptr()
@@ -22802,7 +22825,7 @@ unsafe extern "C" fn _ZL15merge_endpointsRK9endpointsS1_jRS_(
         _5573 = _5487;
         _5574 = memcpy(
             &mut _5500 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-            &raw mut *((*(&mut (*(_5573 as *mut l_struct_struct_OC_endpoints)).field2
+            &raw mut *((*(&raw mut (*(_5573 as *mut l_struct_struct_OC_endpoints)).field2
                 as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                 .array)
                 .as_mut_ptr()
@@ -22927,7 +22950,7 @@ unsafe extern "C" fn _ZL15merge_endpointsRK9endpointsS1_jRS_(
         *(&mut _5498.field0 as *mut crate::l_array_4_float) = _5600.field0;
         _5601 = _5489;
         _5602 = memcpy(
-            &raw mut *((*(&mut (*(_5601 as *mut l_struct_struct_OC_endpoints)).field2
+            &raw mut *((*(&raw mut (*(_5601 as *mut l_struct_struct_OC_endpoints)).field2
                 as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                 .array)
                 .as_mut_ptr()

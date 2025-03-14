@@ -1809,19 +1809,19 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
     _143 = _12;
     _144 = _13;
     _220 = _132;
-    _221 = *(&mut (*(_220 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _221 = *(&raw mut (*(_220 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _145 = _221 as uint32_t;
     _222 = _145;
     if _222 as int32_t > 0 as core::ffi::c_uint as int32_t {
         _223 = _133;
-        _224 = *(&raw mut *((*(&mut (*(_223 as *mut l_struct_struct_OC_image_block)).field12
+        _224 = *(&raw mut *((*(&raw mut (*(_223 as *mut l_struct_struct_OC_image_block)).field12
             as *mut crate::l_array_216_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint8_t);
         _146 = (_224 as core::ffi::c_int != 0 as core::ffi::c_int) as core::ffi::c_int as bool_0;
         _225 = _133;
-        _226 = *(&raw mut *((*(&mut (*(_225 as *mut l_struct_struct_OC_image_block)).field13
+        _226 = *(&raw mut *((*(&raw mut (*(_225 as *mut l_struct_struct_OC_image_block)).field13
             as *mut crate::l_array_216_uint8_t))
             .array)
             .as_mut_ptr()
@@ -1853,7 +1853,7 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _238 = _133;
             _239 = memcpy(
                 &mut _152 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_238 as *mut l_struct_struct_OC_image_block)).field9
+                &raw mut (*(_238 as *mut l_struct_struct_OC_image_block)).field9
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
@@ -1893,28 +1893,31 @@ pub unsafe extern "C" fn _Z30compute_ideal_endpoint_formatsRK14partition_infoRK1
             _151 = llvm_add_u32(_243, 1);
         }
         _244 = _144;
-        _153 = &raw mut *((*(&mut (*(_244 as *mut l_struct_struct_OC_compression_working_buffers))
+        _153 = &raw mut *((*(&raw mut (*(_244
+            as *mut l_struct_struct_OC_compression_working_buffers))
             .field4 as *mut crate::l_array_2048_float))
             .array)
             .as_mut_ptr()
             .offset(0 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float as *mut core::ffi::c_void;
         _245 = _144;
-        _154 = &raw mut *((*(&mut (*(_245 as *mut l_struct_struct_OC_compression_working_buffers))
+        _154 = &raw mut *((*(&raw mut (*(_245
+            as *mut l_struct_struct_OC_compression_working_buffers))
             .field5 as *mut crate::l_array_2048_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint8_t
             as *mut core::ffi::c_void;
         _246 = _144;
-        _155 = &raw mut *((*(&mut (*(_246 as *mut l_struct_struct_OC_compression_working_buffers))
+        _155 = &raw mut *((*(&raw mut (*(_246
+            as *mut l_struct_struct_OC_compression_working_buffers))
             .field6 as *mut crate::l_array_2048_uint8_t))
             .array)
             .as_mut_ptr()
             .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint8_t
             as *mut core::ffi::c_void;
         _247 = _144;
-        _156 = &mut (*(_247 as *mut l_struct_struct_OC_compression_working_buffers)).field7
+        _156 = &raw mut (*(_247 as *mut l_struct_struct_OC_compression_working_buffers)).field7
             as *mut crate::l_array_2048_struct_AC_l_array_4_uint8_t
             as *mut core::ffi::c_void;
         _129 = &mut _157 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -5091,7 +5094,8 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
     _1114 = _879;
     _1115 = _880;
     _1168 = _1113;
-    _1169 = *(&mut (*(_1168 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _1169 =
+        *(&raw mut (*(_1168 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _1116 = _1169 as uint32_t;
     _1170 = _1116;
     if _1170 as int32_t > 0 as core::ffi::c_uint as int32_t {
@@ -5121,14 +5125,14 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1176 = _1119;
             _1177 = memcpy(
                 &mut _1120.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_1176 as *mut l_struct_struct_OC_partition_metrics)).field0
+                &raw mut (*(_1176 as *mut l_struct_struct_OC_partition_metrics)).field0
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
             _1178 = _1119;
             _1179 = memcpy(
                 &mut _1133 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_1178 as *mut l_struct_struct_OC_partition_metrics)).field1
+                &raw mut (*(_1178 as *mut l_struct_struct_OC_partition_metrics)).field1
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
@@ -5493,7 +5497,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1270 = _1119;
             _1271 = memcpy(
                 &mut _1137 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_1270 as *mut l_struct_struct_OC_partition_metrics)).field0
+                &raw mut (*(_1270 as *mut l_struct_struct_OC_partition_metrics)).field0
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
@@ -5831,7 +5835,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1355 = _1119;
             _1356 = memcpy(
                 &mut _1122.field0 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_1355 as *mut l_struct_struct_OC_partition_metrics)).field0
+                &raw mut (*(_1355 as *mut l_struct_struct_OC_partition_metrics)).field0
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
@@ -6581,7 +6585,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1546 = _1118;
             _1547 = memcpy(
                 &mut _1157 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &raw mut *((*(&mut (*(_1545 as *mut l_struct_struct_OC_endpoints)).field1
+                &raw mut *((*(&raw mut (*(_1545 as *mut l_struct_struct_OC_endpoints)).field1
                     as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                     .array)
                     .as_mut_ptr()
@@ -6593,7 +6597,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1549 = _1118;
             _1550 = memcpy(
                 &mut _1158 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &raw mut *((*(&mut (*(_1548 as *mut l_struct_struct_OC_endpoints)).field2
+                &raw mut *((*(&raw mut (*(_1548 as *mut l_struct_struct_OC_endpoints)).field2
                     as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
                     .array)
                     .as_mut_ptr()
@@ -6893,7 +6897,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1617 = _1127;
             _1618 = _1115;
             _1619 = _1118;
-            *(&mut (*(&raw mut *(_1618 as *mut l_struct_struct_OC_encoding_choice_errors)
+            *(&raw mut (*(&raw mut *(_1618 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1619 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
                 .field0 as *mut core::ffi::c_float) = llvm_fmul_f32(
@@ -6904,7 +6908,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1621 = _1127;
             _1622 = _1115;
             _1623 = _1118;
-            *(&mut (*(&raw mut *(_1622 as *mut l_struct_struct_OC_encoding_choice_errors)
+            *(&raw mut (*(&raw mut *(_1622 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1623 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
                 .field1 as *mut core::ffi::c_float) =
@@ -6913,7 +6917,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1625 = _1127;
             _1626 = _1115;
             _1627 = _1118;
-            *(&mut (*(&raw mut *(_1626 as *mut l_struct_struct_OC_encoding_choice_errors)
+            *(&raw mut (*(&raw mut *(_1626 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1627 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
                 .field2 as *mut core::ffi::c_float) = llvm_fmul_f32(
@@ -6923,7 +6927,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1628 = _1131;
             _1629 = _1115;
             _1630 = _1118;
-            *(&mut (*(&raw mut *(_1629 as *mut l_struct_struct_OC_encoding_choice_errors)
+            *(&raw mut (*(&raw mut *(_1629 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1630 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
                 .field3 as *mut core::ffi::c_float) =
@@ -6931,7 +6935,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1631 = _1166;
             _1632 = _1115;
             _1633 = _1118;
-            *(&mut (*(&raw mut *(_1632 as *mut l_struct_struct_OC_encoding_choice_errors)
+            *(&raw mut (*(&raw mut *(_1632 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1633 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
                 .field4 as *mut uint8_t) =
@@ -6940,7 +6944,7 @@ unsafe extern "C" fn _ZL30compute_encoding_choice_errorsRK11image_blockRK14parti
             _1635 = _ZNK11image_block12is_luminanceEv(_1634);
             _1636 = _1115;
             _1637 = _1118;
-            *(&mut (*(&raw mut *(_1636 as *mut l_struct_struct_OC_encoding_choice_errors)
+            *(&raw mut (*(&raw mut *(_1636 as *mut l_struct_struct_OC_encoding_choice_errors)
                 .offset(_1637 as int32_t as int64_t as isize)
                 as *mut l_struct_struct_OC_encoding_choice_errors))
                 .field5 as *mut uint8_t) =
@@ -8479,7 +8483,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     _1925 = _1660;
     _2021 = _1921;
     _2022 = _1920;
-    _2023 = *(&raw mut *((*(&mut (*(_2021 as *mut l_struct_struct_OC_partition_info)).field2
+    _2023 = *(&raw mut *((*(&raw mut (*(_2021 as *mut l_struct_struct_OC_partition_info)).field2
         as *mut crate::l_array_4_uint8_t))
         .array)
         .as_mut_ptr()
@@ -8489,7 +8493,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     _2025 = _1920;
     _2026 = memcpy(
         &mut _1927 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        &raw mut *((*(&mut (*(_2024 as *mut l_struct_struct_OC_endpoints)).field1
+        &raw mut *((*(&raw mut (*(_2024 as *mut l_struct_struct_OC_endpoints)).field1
             as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
             .array)
             .as_mut_ptr()
@@ -8501,7 +8505,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
     _2028 = _1920;
     _2029 = memcpy(
         &mut _1928 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        &raw mut *((*(&mut (*(_2027 as *mut l_struct_struct_OC_endpoints)).field2
+        &raw mut *((*(&raw mut (*(_2027 as *mut l_struct_struct_OC_endpoints)).field2
             as *mut crate::l_array_4_struct_AC_l_struct_struct_OC_vfloat4))
             .array)
             .as_mut_ptr()
@@ -10904,7 +10908,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2663 = _1963;
             _2664 = llvm_OC_fmuladd_OC_f32(_2661, _2662, _2663);
             _2665 = _1922;
-            _2666 = *(&mut (*(_2665 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+            _2666 = *(&raw mut (*(_2665 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
                 as *mut core::ffi::c_float);
             _2000 = llvm_fadd_f32(_2664, _2666);
             _2667 = _2000;
@@ -10930,10 +10934,10 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2674 = _1963;
             _2675 = llvm_OC_fmuladd_OC_f32(_2672, _2673, _2674);
             _2676 = _1922;
-            _2677 = *(&mut (*(_2676 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+            _2677 = *(&raw mut (*(_2676 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
                 as *mut core::ffi::c_float);
             _2678 = _1922;
-            _2679 = *(&mut (*(_2678 as *mut l_struct_struct_OC_encoding_choice_errors)).field1
+            _2679 = *(&raw mut (*(_2678 as *mut l_struct_struct_OC_encoding_choice_errors)).field1
                 as *mut core::ffi::c_float);
             _2001 = llvm_fadd_f32(llvm_fadd_f32(_2675, _2677), _2679);
             _2680 = _2001;
@@ -10959,10 +10963,10 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2687 = _1963;
             _2688 = llvm_OC_fmuladd_OC_f32(_2685, _2686, _2687);
             _2689 = _1922;
-            _2690 = *(&mut (*(_2689 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+            _2690 = *(&raw mut (*(_2689 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
                 as *mut core::ffi::c_float);
             _2691 = _1922;
-            _2692 = *(&mut (*(_2691 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
+            _2692 = *(&raw mut (*(_2691 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
                 as *mut core::ffi::c_float);
             _2002 = llvm_fadd_f32(llvm_fadd_f32(_2688, _2690), _2692);
             _2693 = _2002;
@@ -11079,7 +11083,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
         _2723 = _2005;
         _2006 = llvm_fadd_f32(_2722, _2723);
         _2724 = _1922;
-        _2725 = *(&mut (*(_2724 as *mut l_struct_struct_OC_encoding_choice_errors)).field5
+        _2725 = *(&raw mut (*(_2724 as *mut l_struct_struct_OC_encoding_choice_errors)).field5
             as *mut uint8_t);
         _2726 = (_2725 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
         _2727 = _2726 as uint64_t;
@@ -11089,7 +11093,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             1 as core::ffi::c_int as core::ffi::c_float,
         );
         _2728 = _1922;
-        _2729 = *(&mut (*(_2728 as *mut l_struct_struct_OC_encoding_choice_errors)).field4
+        _2729 = *(&raw mut (*(_2728 as *mut l_struct_struct_OC_encoding_choice_errors)).field4
             as *mut uint8_t);
         _2730 = (_2729 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
         _2731 = _2730 as uint64_t;
@@ -11099,7 +11103,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             1 as core::ffi::c_int as core::ffi::c_float,
         );
         _2732 = _1922;
-        _2733 = *(&mut (*(_2732 as *mut l_struct_struct_OC_encoding_choice_errors)).field5
+        _2733 = *(&raw mut (*(_2732 as *mut l_struct_struct_OC_encoding_choice_errors)).field5
             as *mut uint8_t);
         _2734 = (_2733 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
         _2735 = _2734 as uint64_t;
@@ -11109,7 +11113,7 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             1 as core::ffi::c_int as core::ffi::c_float,
         );
         _2736 = _1922;
-        _2737 = *(&mut (*(_2736 as *mut l_struct_struct_OC_encoding_choice_errors)).field4
+        _2737 = *(&raw mut (*(_2736 as *mut l_struct_struct_OC_encoding_choice_errors)).field4
             as *mut uint8_t);
         _2738 = (_2737 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
         _2739 = _2738 as uint64_t;
@@ -11179,12 +11183,12 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2762 = _1963;
             _2763 = llvm_OC_fmuladd_OC_f32(llvm_fmul_f32(_2759, _2760), _2761, _2762);
             _2764 = _1922;
-            _2765 = *(&mut (*(_2764 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+            _2765 = *(&raw mut (*(_2764 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
                 as *mut core::ffi::c_float);
             _2016 = llvm_fadd_f32(_2763, _2765);
             _2766 = _2014;
             _2767 = _1922;
-            _2768 = *(&mut (*(_2767 as *mut l_struct_struct_OC_encoding_choice_errors)).field0
+            _2768 = *(&raw mut (*(_2767 as *mut l_struct_struct_OC_encoding_choice_errors)).field0
                 as *mut core::ffi::c_float);
             _2769 = _1963;
             _2770 = _1966;
@@ -11235,17 +11239,17 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2783 = _2013;
             _2784 = _1963;
             _2785 = _1922;
-            _2786 = *(&mut (*(_2785 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+            _2786 = *(&raw mut (*(_2785 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
                 as *mut core::ffi::c_float);
             _2787 = _1922;
-            _2788 = *(&mut (*(_2787 as *mut l_struct_struct_OC_encoding_choice_errors)).field0
+            _2788 = *(&raw mut (*(_2787 as *mut l_struct_struct_OC_encoding_choice_errors)).field0
                 as *mut core::ffi::c_float);
             _2018 = llvm_fadd_f32(llvm_fadd_f32(llvm_fadd_f32(_2783, _2784), _2786), _2788);
             _2789 = _2014;
             _2790 = _1963;
             _2791 = _1966;
             _2792 = _1922;
-            _2793 = *(&mut (*(_2792 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
+            _2793 = *(&raw mut (*(_2792 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
                 as *mut core::ffi::c_float);
             _2019 = llvm_fadd_f32(llvm_fadd_f32(llvm_fadd_f32(_2789, _2790), _2791), _2793);
             _2794 = _2018;
@@ -11294,10 +11298,10 @@ unsafe extern "C" fn _ZL59compute_color_error_for_every_integer_count_and_quant_
             _2806 = _2013;
             _2807 = _1963;
             _2808 = _1922;
-            _2809 = *(&mut (*(_2808 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
+            _2809 = *(&raw mut (*(_2808 as *mut l_struct_struct_OC_encoding_choice_errors)).field3
                 as *mut core::ffi::c_float);
             _2810 = _1922;
-            _2811 = *(&mut (*(_2810 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
+            _2811 = *(&raw mut (*(_2810 as *mut l_struct_struct_OC_encoding_choice_errors)).field2
                 as *mut core::ffi::c_float);
             _2020 = llvm_fadd_f32(llvm_fadd_f32(llvm_fadd_f32(_2806, _2807), _2809), _2811);
             _2812 = _2020;
@@ -18327,13 +18331,13 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     _4949 = _4708;
     _4950 = memcpy(
         &mut _4718 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-        &mut (*(_4949 as *mut l_struct_struct_OC_image_block)).field9
+        &raw mut (*(_4949 as *mut l_struct_struct_OC_image_block)).field9
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
         16,
     );
     _4951 = _4706;
     _4952 = _4707;
-    _4953 = *(&raw mut *((*(&mut (*(_4951 as *mut l_struct_struct_OC_partition_info)).field2
+    _4953 = *(&raw mut *((*(&raw mut (*(_4951 as *mut l_struct_struct_OC_partition_info)).field2
         as *mut crate::l_array_4_uint8_t))
         .array)
         .as_mut_ptr()
@@ -18341,7 +18345,8 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
     _4719 = _4953 as uint32_t;
     _4954 = _4706;
     _4955 = _4707;
-    _4720 = &raw mut *((*(&raw mut *((*(&mut (*(_4954 as *mut l_struct_struct_OC_partition_info))
+    _4720 = &raw mut *((*(&raw mut *((*(&raw mut (*(_4954
+        as *mut l_struct_struct_OC_partition_info))
         .field4
         as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
         .array)
@@ -18421,7 +18426,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _4975 = _4645;
         *(&mut _4723.field0 as *mut crate::l_array_4_float) = _4975.field0;
         _4976 = _4709;
-        _4480 = &mut (*(_4976 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4480 = &raw mut (*(_4976 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4977 = _4480;
         _4978 = *(_4977 as *mut core::ffi::c_float);
@@ -18446,7 +18451,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4983;
         _4984 = _4709;
-        _4215 = &mut (*(_4984 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4215 = &raw mut (*(_4984 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4985 = _4215;
         _4986 = *(&raw mut *((*(_4985 as *mut crate::l_array_4_float)).array)
@@ -18474,7 +18479,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4991;
         _4992 = _4709;
-        _4205 = &mut (*(_4992 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4205 = &raw mut (*(_4992 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _4993 = _4205;
         _4994 = *(&raw mut *((*(_4993 as *mut crate::l_array_4_float)).array)
@@ -18502,7 +18507,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _4999;
         _5000 = _4709;
-        _4481 = &mut (*(_5000 as *mut l_struct_struct_OC_processed_line3)).field0
+        _4481 = &raw mut (*(_5000 as *mut l_struct_struct_OC_processed_line3)).field0
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5001 = _4481;
         _5002 = *(_5001 as *mut core::ffi::c_float);
@@ -18527,7 +18532,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5007;
         _5008 = _4709;
-        _4216 = &mut (*(_5008 as *mut l_struct_struct_OC_processed_line3)).field0
+        _4216 = &raw mut (*(_5008 as *mut l_struct_struct_OC_processed_line3)).field0
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5009 = _4216;
         _5010 = *(&raw mut *((*(_5009 as *mut crate::l_array_4_float)).array)
@@ -18555,7 +18560,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5015;
         _5016 = _4709;
-        _4206 = &mut (*(_5016 as *mut l_struct_struct_OC_processed_line3)).field0
+        _4206 = &raw mut (*(_5016 as *mut l_struct_struct_OC_processed_line3)).field0
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5017 = _4206;
         _5018 = *(&raw mut *((*(_5017 as *mut crate::l_array_4_float)).array)
@@ -18605,7 +18610,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _5029 = _4648;
         *(&mut _4730.field0 as *mut crate::l_array_4_float) = _5029.field0;
         _5030 = _4711;
-        _4482 = &mut (*(_5030 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4482 = &raw mut (*(_5030 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5031 = _4482;
         _5032 = *(_5031 as *mut core::ffi::c_float);
@@ -18630,7 +18635,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5037;
         _5038 = _4711;
-        _4217 = &mut (*(_5038 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4217 = &raw mut (*(_5038 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5039 = _4217;
         _5040 = *(&raw mut *((*(_5039 as *mut crate::l_array_4_float)).array)
@@ -18658,7 +18663,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5045;
         _5046 = _4711;
-        _4207 = &mut (*(_5046 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4207 = &raw mut (*(_5046 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5047 = _4207;
         _5048 = *(&raw mut *((*(_5047 as *mut crate::l_array_4_float)).array)
@@ -18708,7 +18713,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _5059 = _4651;
         *(&mut _4734.field0 as *mut crate::l_array_4_float) = _5059.field0;
         _5060 = _4713;
-        _4483 = &mut (*(_5060 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4483 = &raw mut (*(_5060 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5061 = _4483;
         _5062 = *(_5061 as *mut core::ffi::c_float);
@@ -18733,7 +18738,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5067;
         _5068 = _4713;
-        _4218 = &mut (*(_5068 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4218 = &raw mut (*(_5068 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5069 = _4218;
         _5070 = *(&raw mut *((*(_5069 as *mut crate::l_array_4_float)).array)
@@ -18761,7 +18766,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5075;
         _5076 = _4713;
-        _4208 = &mut (*(_5076 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4208 = &raw mut (*(_5076 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5077 = _4208;
         _5078 = *(&raw mut *((*(_5077 as *mut crate::l_array_4_float)).array)
@@ -18789,7 +18794,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5083;
         _5084 = _4713;
-        _4484 = &mut (*(_5084 as *mut l_struct_struct_OC_processed_line3)).field0
+        _4484 = &raw mut (*(_5084 as *mut l_struct_struct_OC_processed_line3)).field0
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5085 = _4484;
         _5086 = *(_5085 as *mut core::ffi::c_float);
@@ -18814,7 +18819,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5091;
         _5092 = _4713;
-        _4219 = &mut (*(_5092 as *mut l_struct_struct_OC_processed_line3)).field0
+        _4219 = &raw mut (*(_5092 as *mut l_struct_struct_OC_processed_line3)).field0
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5093 = _4219;
         _5094 = *(&raw mut *((*(_5093 as *mut crate::l_array_4_float)).array)
@@ -18842,7 +18847,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5099;
         _5100 = _4713;
-        _4209 = &mut (*(_5100 as *mut l_struct_struct_OC_processed_line3)).field0
+        _4209 = &raw mut (*(_5100 as *mut l_struct_struct_OC_processed_line3)).field0
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5101 = _4209;
         _5102 = *(&raw mut *((*(_5101 as *mut crate::l_array_4_float)).array)
@@ -18892,7 +18897,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
         _5113 = _4654;
         *(&mut _4741.field0 as *mut crate::l_array_4_float) = _5113.field0;
         _5114 = _4715;
-        _4485 = &mut (*(_5114 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4485 = &raw mut (*(_5114 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5115 = _4485;
         _5116 = *(_5115 as *mut core::ffi::c_float);
@@ -18917,7 +18922,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5121;
         _5122 = _4715;
-        _4220 = &mut (*(_5122 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4220 = &raw mut (*(_5122 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5123 = _4220;
         _5124 = *(&raw mut *((*(_5123 as *mut crate::l_array_4_float)).array)
@@ -18945,7 +18950,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             .offset(3 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float) = _5129;
         _5130 = _4715;
-        _4210 = &mut (*(_5130 as *mut l_struct_struct_OC_processed_line3)).field1
+        _4210 = &raw mut (*(_5130 as *mut l_struct_struct_OC_processed_line3)).field1
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _5131 = _4210;
         _5132 = *(&raw mut *((*(_5131 as *mut crate::l_array_4_float)).array)
@@ -19255,7 +19260,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             _5202 = _4658;
             _5203 = _4708;
             _5204 = _4747;
-            _4176 = &raw mut *((*(&mut (*(_5203 as *mut l_struct_struct_OC_image_block)).field3
+            _4176 = &raw mut *((*(&raw mut (*(_5203 as *mut l_struct_struct_OC_image_block)).field3
                 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
@@ -19743,7 +19748,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             );
             _5326 = _4708;
             _5327 = _4747;
-            _4184 = &raw mut *((*(&mut (*(_5326 as *mut l_struct_struct_OC_image_block)).field0
+            _4184 = &raw mut *((*(&raw mut (*(_5326 as *mut l_struct_struct_OC_image_block)).field0
                 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
@@ -19807,7 +19812,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4761.field0 as *mut crate::l_array_4_float) = _5349.field0;
             _5350 = _4708;
             _5351 = _4747;
-            _4192 = &raw mut *((*(&mut (*(_5350 as *mut l_struct_struct_OC_image_block)).field1
+            _4192 = &raw mut *((*(&raw mut (*(_5350 as *mut l_struct_struct_OC_image_block)).field1
                 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
@@ -19871,7 +19876,7 @@ unsafe extern "C" fn _ZL42compute_error_squared_rgb_single_partitionRK14partitio
             *(&mut _4762.field0 as *mut crate::l_array_4_float) = _5373.field0;
             _5374 = _4708;
             _5375 = _4747;
-            _4200 = &raw mut *((*(&mut (*(_5374 as *mut l_struct_struct_OC_image_block)).field2
+            _4200 = &raw mut *((*(&raw mut (*(_5374 as *mut l_struct_struct_OC_image_block)).field2
                 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
@@ -27652,7 +27657,7 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
     _7306 = _7303;
     _7307 = _ZNK11image_block17get_default_alphaEv(_7306);
     _7304 = _7307;
-    _7301 = &mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field6
+    _7301 = &raw mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field6
         as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
     _7308 = _7301;
     _7309 = *(&raw mut *((*(_7308 as *mut crate::l_array_4_float)).array)
@@ -27661,7 +27666,7 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
         as *mut core::ffi::c_float);
     _7310 = _7304;
     if llvm_fcmp_oeq(_7309 as core::ffi::c_double, _7310 as core::ffi::c_double) != 0 {
-        _7302 = &mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field8
+        _7302 = &raw mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field8
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
         _7311 = _7302;
         _7312 = *(&raw mut *((*(_7311 as *mut crate::l_array_4_float)).array)
@@ -27676,7 +27681,7 @@ pub unsafe extern "C" fn _ZNK11image_block12is_luminanceEv(
     }
     _7314 = _7314__PHI_TEMPORARY;
     _7305 = _7314;
-    _7315 = *(&mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
+    _7315 = *(&raw mut (*(_7306 as *mut l_struct_struct_OC_image_block)).field10 as *mut uint8_t);
     if _7315 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _7316 = _7305;
         _7317 = (_7316 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
@@ -27709,7 +27714,7 @@ pub unsafe extern "C" fn _ZNK11image_block17get_default_alphaEv(
     let mut _7331: uint64_t = 0;
     _7328 = _7327;
     _7329 = _7328;
-    _7330 = *(&raw mut *((*(&mut (*(_7329 as *mut l_struct_struct_OC_image_block)).field13
+    _7330 = *(&raw mut *((*(&raw mut (*(_7329 as *mut l_struct_struct_OC_image_block)).field13
         as *mut crate::l_array_216_uint8_t))
         .array)
         .as_mut_ptr()

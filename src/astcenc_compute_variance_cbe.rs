@@ -1240,46 +1240,54 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _68 = _1;
     _69 = _2;
     _186 = _69;
-    _187 = *(&mut (*(_186 as *mut l_struct_struct_OC_pixel_region_args)).field0
+    _187 = *(&raw mut (*(_186 as *mut l_struct_struct_OC_pixel_region_args)).field0
         as *mut *mut core::ffi::c_void);
     _70 = _187;
     _188 = _69;
     _189 = memcpy(
         &mut _71 as *mut l_struct_struct_OC_astcenc_swizzle as *mut core::ffi::c_void,
-        &mut (*(_188 as *mut l_struct_struct_OC_pixel_region_args)).field1
+        &raw mut (*(_188 as *mut l_struct_struct_OC_pixel_region_args)).field1
             as *mut l_struct_struct_OC_astcenc_swizzle as *mut core::ffi::c_void,
         16,
     );
     _190 = _69;
-    _191 = *(&mut (*(_190 as *mut l_struct_struct_OC_pixel_region_args)).field2 as *mut uint8_t);
+    _191 =
+        *(&raw mut (*(_190 as *mut l_struct_struct_OC_pixel_region_args)).field2 as *mut uint8_t);
     _72 = (_191 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
     _192 = _69;
-    _193 = *(&mut (*(_192 as *mut l_struct_struct_OC_pixel_region_args)).field4 as *mut uint32_t);
+    _193 =
+        *(&raw mut (*(_192 as *mut l_struct_struct_OC_pixel_region_args)).field4 as *mut uint32_t);
     _73 = _193;
     _194 = _69;
-    _195 = *(&mut (*(_194 as *mut l_struct_struct_OC_pixel_region_args)).field5 as *mut uint32_t);
+    _195 =
+        *(&raw mut (*(_194 as *mut l_struct_struct_OC_pixel_region_args)).field5 as *mut uint32_t);
     _74 = _195;
     _196 = _69;
-    _197 = *(&mut (*(_196 as *mut l_struct_struct_OC_pixel_region_args)).field6 as *mut uint32_t);
+    _197 =
+        *(&raw mut (*(_196 as *mut l_struct_struct_OC_pixel_region_args)).field6 as *mut uint32_t);
     _75 = _197;
     _198 = _69;
-    _199 = *(&mut (*(_198 as *mut l_struct_struct_OC_pixel_region_args)).field7 as *mut uint32_t);
+    _199 =
+        *(&raw mut (*(_198 as *mut l_struct_struct_OC_pixel_region_args)).field7 as *mut uint32_t);
     _76 = _199;
     _200 = _69;
-    _201 = *(&mut (*(_200 as *mut l_struct_struct_OC_pixel_region_args)).field8 as *mut uint32_t);
+    _201 =
+        *(&raw mut (*(_200 as *mut l_struct_struct_OC_pixel_region_args)).field8 as *mut uint32_t);
     _77 = _201;
     _202 = _69;
-    _203 = *(&mut (*(_202 as *mut l_struct_struct_OC_pixel_region_args)).field9 as *mut uint32_t);
+    _203 =
+        *(&raw mut (*(_202 as *mut l_struct_struct_OC_pixel_region_args)).field9 as *mut uint32_t);
     _78 = _203;
     _204 = _69;
-    _205 = *(&mut (*(_204 as *mut l_struct_struct_OC_pixel_region_args)).field3 as *mut uint32_t);
+    _205 =
+        *(&raw mut (*(_204 as *mut l_struct_struct_OC_pixel_region_args)).field3 as *mut uint32_t);
     _79 = _205;
     _206 = _68;
-    _207 = *(&mut (*(_206 as *mut l_struct_struct_OC_astcenc_contexti)).field3
+    _207 = *(&raw mut (*(_206 as *mut l_struct_struct_OC_astcenc_contexti)).field3
         as *mut *mut core::ffi::c_void);
     _80 = _207;
     _208 = _69;
-    _209 = *(&mut (*(_208 as *mut l_struct_struct_OC_pixel_region_args)).field10
+    _209 = *(&raw mut (*(_208 as *mut l_struct_struct_OC_pixel_region_args)).field10
         as *mut *mut core::ffi::c_void);
     _81 = _209;
     _210 = _79;
@@ -1334,15 +1342,15 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
     _235 = _87;
     _94 = llvm_mul_u32(_234, _235);
     _236 = _70;
-    _237 = *(&mut (*(_236 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
+    _237 = *(&raw mut (*(_236 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
     _95 = _237;
     _238 = _70;
-    _239 = *(&mut (*(_238 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
+    _239 = *(&raw mut (*(_238 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
     _240 = _70;
-    _241 = *(&mut (*(_240 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
+    _241 = *(&raw mut (*(_240 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
     _96 = llvm_mul_u32(_239, _241);
     _242 = _70;
-    _243 = *(&mut (*(_242 as *mut l_struct_struct_OC_astcenc_image)).field3 as *mut uint32_t);
+    _243 = *(&raw mut (*(_242 as *mut l_struct_struct_OC_astcenc_image)).field3 as *mut uint32_t);
     if _243 == 0 as core::ffi::c_uint {
         *(&raw mut *(_97.array)
             .as_mut_ptr()
@@ -1366,12 +1374,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             _99 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_247, _248), _249), _250);
             _251 = _99;
             _252 = _70;
-            _253 =
-                *(&mut (*(_252 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
+            _253 = *(&raw mut (*(_252 as *mut l_struct_struct_OC_astcenc_image)).field2
+                as *mut uint32_t);
             _254 = _ZN4astc5clampIiEET_S1_S1_S1_(_251, 0, llvm_sub_u32(_253, 1));
             _99 = _254;
             _255 = _70;
-            _256 = *(&mut (*(_255 as *mut l_struct_struct_OC_astcenc_image)).field4
+            _256 = *(&raw mut (*(_255 as *mut l_struct_struct_OC_astcenc_image)).field4
                 as *mut *mut core::ffi::c_void);
             _257 = _99;
             _258 = *(&raw mut *(_256 as *mut *mut core::ffi::c_void)
@@ -1391,7 +1399,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _102 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_261, 1), _262), _263);
                 _264 = _102;
                 _265 = _70;
-                _266 = *(&mut (*(_265 as *mut l_struct_struct_OC_astcenc_image)).field1
+                _266 = *(&raw mut (*(_265 as *mut l_struct_struct_OC_astcenc_image)).field1
                     as *mut uint32_t);
                 _267 = _ZN4astc5clampIiEET_S1_S1_S1_(_264, 0, llvm_sub_u32(_266, 1));
                 _102 = _267;
@@ -1408,13 +1416,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _104 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_270, 1), _271), _272);
                     _273 = _104;
                     _274 = _70;
-                    _275 = *(&mut (*(_274 as *mut l_struct_struct_OC_astcenc_image)).field0
+                    _275 = *(&raw mut (*(_274 as *mut l_struct_struct_OC_astcenc_image)).field0
                         as *mut uint32_t);
                     _276 = _ZN4astc5clampIiEET_S1_S1_S1_(_273, 0, llvm_sub_u32(_275, 1));
                     _104 = _276;
                     _277 = _100;
                     _278 = _70;
-                    _279 = *(&mut (*(_278 as *mut l_struct_struct_OC_astcenc_image)).field0
+                    _279 = *(&raw mut (*(_278 as *mut l_struct_struct_OC_astcenc_image)).field0
                         as *mut uint32_t);
                     _280 = _102;
                     _281 = _104;
@@ -1439,7 +1447,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint8_t) = _282;
                     _283 = _100;
                     _284 = _70;
-                    _285 = *(&mut (*(_284 as *mut l_struct_struct_OC_astcenc_image)).field0
+                    _285 = *(&raw mut (*(_284 as *mut l_struct_struct_OC_astcenc_image)).field0
                         as *mut uint32_t);
                     _286 = _102;
                     _287 = _104;
@@ -1467,7 +1475,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint8_t) = _288;
                     _289 = _100;
                     _290 = _70;
-                    _291 = *(&mut (*(_290 as *mut l_struct_struct_OC_astcenc_image)).field0
+                    _291 = *(&raw mut (*(_290 as *mut l_struct_struct_OC_astcenc_image)).field0
                         as *mut uint32_t);
                     _292 = _102;
                     _293 = _104;
@@ -1495,7 +1503,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         as *mut uint8_t) = _294;
                     _295 = _100;
                     _296 = _70;
-                    _297 = *(&mut (*(_296 as *mut l_struct_struct_OC_astcenc_image)).field0
+                    _297 = *(&raw mut (*(_296 as *mut l_struct_struct_OC_astcenc_image)).field0
                         as *mut uint32_t);
                     _298 = _102;
                     _299 = _104;
@@ -1732,7 +1740,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
         }
     } else {
         _353 = _70;
-        _354 = *(&mut (*(_353 as *mut l_struct_struct_OC_astcenc_image)).field3 as *mut uint32_t);
+        _354 =
+            *(&raw mut (*(_353 as *mut l_struct_struct_OC_astcenc_image)).field3 as *mut uint32_t);
         if _354 == 1 as core::ffi::c_uint {
             *(&raw mut *(_113.array)
                 .as_mut_ptr()
@@ -1757,12 +1766,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                 _115 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_358, _359), _360), _361);
                 _362 = _115;
                 _363 = _70;
-                _364 = *(&mut (*(_363 as *mut l_struct_struct_OC_astcenc_image)).field2
+                _364 = *(&raw mut (*(_363 as *mut l_struct_struct_OC_astcenc_image)).field2
                     as *mut uint32_t);
                 _365 = _ZN4astc5clampIiEET_S1_S1_S1_(_362, 0, llvm_sub_u32(_364, 1));
                 _115 = _365;
                 _366 = _70;
-                _367 = *(&mut (*(_366 as *mut l_struct_struct_OC_astcenc_image)).field4
+                _367 = *(&raw mut (*(_366 as *mut l_struct_struct_OC_astcenc_image)).field4
                     as *mut *mut core::ffi::c_void);
                 _368 = _115;
                 _369 = *(&raw mut *(_367 as *mut *mut core::ffi::c_void)
@@ -1782,7 +1791,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _118 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_372, 1), _373), _374);
                     _375 = _118;
                     _376 = _70;
-                    _377 = *(&mut (*(_376 as *mut l_struct_struct_OC_astcenc_image)).field1
+                    _377 = *(&raw mut (*(_376 as *mut l_struct_struct_OC_astcenc_image)).field1
                         as *mut uint32_t);
                     _378 = _ZN4astc5clampIiEET_S1_S1_S1_(_375, 0, llvm_sub_u32(_377, 1));
                     _118 = _378;
@@ -1799,13 +1808,13 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         _120 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_381, 1), _382), _383);
                         _384 = _120;
                         _385 = _70;
-                        _386 = *(&mut (*(_385 as *mut l_struct_struct_OC_astcenc_image)).field0
+                        _386 = *(&raw mut (*(_385 as *mut l_struct_struct_OC_astcenc_image)).field0
                             as *mut uint32_t);
                         _387 = _ZN4astc5clampIiEET_S1_S1_S1_(_384, 0, llvm_sub_u32(_386, 1));
                         _120 = _387;
                         _388 = _116;
                         _389 = _70;
-                        _390 = *(&mut (*(_389 as *mut l_struct_struct_OC_astcenc_image)).field0
+                        _390 = *(&raw mut (*(_389 as *mut l_struct_struct_OC_astcenc_image)).field0
                             as *mut uint32_t);
                         _391 = _118;
                         _392 = _120;
@@ -1831,7 +1840,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as *mut uint16_t) = _393;
                         _394 = _116;
                         _395 = _70;
-                        _396 = *(&mut (*(_395 as *mut l_struct_struct_OC_astcenc_image)).field0
+                        _396 = *(&raw mut (*(_395 as *mut l_struct_struct_OC_astcenc_image)).field0
                             as *mut uint32_t);
                         _397 = _118;
                         _398 = _120;
@@ -1861,7 +1870,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as *mut uint16_t) = _399;
                         _400 = _116;
                         _401 = _70;
-                        _402 = *(&mut (*(_401 as *mut l_struct_struct_OC_astcenc_image)).field0
+                        _402 = *(&raw mut (*(_401 as *mut l_struct_struct_OC_astcenc_image)).field0
                             as *mut uint32_t);
                         _403 = _118;
                         _404 = _120;
@@ -1891,7 +1900,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             as *mut uint16_t) = _405;
                         _406 = _116;
                         _407 = _70;
-                        _408 = *(&mut (*(_407 as *mut l_struct_struct_OC_astcenc_image)).field0
+                        _408 = *(&raw mut (*(_407 as *mut l_struct_struct_OC_astcenc_image)).field0
                             as *mut uint32_t);
                         _409 = _118;
                         _410 = _120;
@@ -2186,8 +2195,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
             }
         } else {
             _480 = _70;
-            _481 =
-                *(&mut (*(_480 as *mut l_struct_struct_OC_astcenc_image)).field3 as *mut uint32_t);
+            _481 = *(&raw mut (*(_480 as *mut l_struct_struct_OC_astcenc_image)).field3
+                as *mut uint32_t);
             if _481 == 2 as core::ffi::c_uint {
                 *(&raw mut *(_127.array)
                     .as_mut_ptr()
@@ -2212,12 +2221,12 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                     _129 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_485, _486), _487), _488);
                     _489 = _129;
                     _490 = _70;
-                    _491 = *(&mut (*(_490 as *mut l_struct_struct_OC_astcenc_image)).field2
+                    _491 = *(&raw mut (*(_490 as *mut l_struct_struct_OC_astcenc_image)).field2
                         as *mut uint32_t);
                     _492 = _ZN4astc5clampIiEET_S1_S1_S1_(_489, 0, llvm_sub_u32(_491, 1));
                     _129 = _492;
                     _493 = _70;
-                    _494 = *(&mut (*(_493 as *mut l_struct_struct_OC_astcenc_image)).field4
+                    _494 = *(&raw mut (*(_493 as *mut l_struct_struct_OC_astcenc_image)).field4
                         as *mut *mut core::ffi::c_void);
                     _495 = _129;
                     _496 = *(&raw mut *(_494 as *mut *mut core::ffi::c_void)
@@ -2237,7 +2246,7 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                         _132 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_499, 1), _500), _501);
                         _502 = _132;
                         _503 = _70;
-                        _504 = *(&mut (*(_503 as *mut l_struct_struct_OC_astcenc_image)).field1
+                        _504 = *(&raw mut (*(_503 as *mut l_struct_struct_OC_astcenc_image)).field1
                             as *mut uint32_t);
                         _505 = _ZN4astc5clampIiEET_S1_S1_S1_(_502, 0, llvm_sub_u32(_504, 1));
                         _132 = _505;
@@ -2254,14 +2263,14 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                             _134 = llvm_sub_u32(llvm_add_u32(llvm_sub_u32(_508, 1), _509), _510);
                             _511 = _134;
                             _512 = _70;
-                            _513 = *(&mut (*(_512 as *mut l_struct_struct_OC_astcenc_image)).field0
-                                as *mut uint32_t);
+                            _513 = *(&raw mut (*(_512 as *mut l_struct_struct_OC_astcenc_image))
+                                .field0 as *mut uint32_t);
                             _514 = _ZN4astc5clampIiEET_S1_S1_S1_(_511, 0, llvm_sub_u32(_513, 1));
                             _134 = _514;
                             _515 = _130;
                             _516 = _70;
-                            _517 = *(&mut (*(_516 as *mut l_struct_struct_OC_astcenc_image)).field0
-                                as *mut uint32_t);
+                            _517 = *(&raw mut (*(_516 as *mut l_struct_struct_OC_astcenc_image))
+                                .field0 as *mut uint32_t);
                             _518 = _132;
                             _519 = _134;
                             _520 =
@@ -2294,8 +2303,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                 as *mut core::ffi::c_float) = _520;
                             _521 = _130;
                             _522 = _70;
-                            _523 = *(&mut (*(_522 as *mut l_struct_struct_OC_astcenc_image)).field0
-                                as *mut uint32_t);
+                            _523 = *(&raw mut (*(_522 as *mut l_struct_struct_OC_astcenc_image))
+                                .field0 as *mut uint32_t);
                             _524 = _132;
                             _525 = _134;
                             _526 =
@@ -2336,8 +2345,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                 as *mut core::ffi::c_float) = _526;
                             _527 = _130;
                             _528 = _70;
-                            _529 = *(&mut (*(_528 as *mut l_struct_struct_OC_astcenc_image)).field0
-                                as *mut uint32_t);
+                            _529 = *(&raw mut (*(_528 as *mut l_struct_struct_OC_astcenc_image))
+                                .field0 as *mut uint32_t);
                             _530 = _132;
                             _531 = _134;
                             _532 =
@@ -2378,8 +2387,8 @@ pub unsafe extern "C" fn _Z29compute_pixel_region_varianceR16astcenc_contextiRK1
                                 as *mut core::ffi::c_float) = _532;
                             _533 = _130;
                             _534 = _70;
-                            _535 = *(&mut (*(_534 as *mut l_struct_struct_OC_astcenc_image)).field0
-                                as *mut uint32_t);
+                            _535 = *(&raw mut (*(_534 as *mut l_struct_struct_OC_astcenc_image))
+                                .field0 as *mut uint32_t);
                             _536 = _132;
                             _537 = _134;
                             _538 =
@@ -4178,13 +4187,13 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     _1174 = _1170;
     _1175 = _1171;
     _1188 = _1172;
-    _1189 = *(&mut (*(_1188 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
+    _1189 = *(&raw mut (*(_1188 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
     _1176 = _1189;
     _1190 = _1172;
-    _1191 = *(&mut (*(_1190 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
+    _1191 = *(&raw mut (*(_1190 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
     _1177 = _1191;
     _1192 = _1172;
-    _1193 = *(&mut (*(_1192 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
+    _1193 = *(&raw mut (*(_1192 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
     _1178 = _1193;
     _1194 = _1173;
     _1179 = _1194;
@@ -4216,44 +4225,46 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     _1210 = _1210__PHI_TEMPORARY;
     _1185 = llvm_add_u32(_1207, _1210);
     _1211 = _1175;
-    *(&mut (*(&mut (*(_1211 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1211 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field4 as *mut uint32_t) = 0;
     _1212 = _1175;
-    *(&mut (*(&mut (*(_1212 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1212 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field5 as *mut uint32_t) = 0;
     _1213 = _1175;
-    *(&mut (*(&mut (*(_1213 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1213 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field6 as *mut uint32_t) = 0;
     _1214 = _1175;
-    *(&mut (*(&mut (*(_1214 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1214 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field7 as *mut uint32_t) = 0;
     _1215 = _1175;
-    *(&mut (*(&mut (*(_1215 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1215 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field8 as *mut uint32_t) = 0;
     _1216 = _1175;
-    *(&mut (*(&mut (*(_1216 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1216 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field9 as *mut uint32_t) = 0;
     _1217 = _1175;
-    let ref mut fresh0 = *(&mut (*(&mut (*(_1217 as *mut l_struct_struct_OC_avg_args)).field0
+    let ref mut fresh0 = *(&raw mut (*(&raw mut (*(_1217 as *mut l_struct_struct_OC_avg_args))
+        .field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field10 as *mut *mut core::ffi::c_void);
     *fresh0 = 0 as *mut core::ffi::c_void;
     _1218 = _1172;
     _1219 = _1175;
-    let ref mut fresh1 = *(&mut (*(&mut (*(_1219 as *mut l_struct_struct_OC_avg_args)).field0
+    let ref mut fresh1 = *(&raw mut (*(&raw mut (*(_1219 as *mut l_struct_struct_OC_avg_args))
+        .field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field0 as *mut *mut core::ffi::c_void);
     *fresh1 = _1218;
     _1220 = _1174;
     _1221 = _1175;
     _1222 = memcpy(
-        &mut (*(&mut (*(_1221 as *mut l_struct_struct_OC_avg_args)).field0
+        &raw mut (*(&raw mut (*(_1221 as *mut l_struct_struct_OC_avg_args)).field0
             as *mut l_struct_struct_OC_pixel_region_args))
             .field1 as *mut l_struct_struct_OC_astcenc_swizzle as *mut core::ffi::c_void,
         _1220,
@@ -4261,34 +4272,34 @@ pub unsafe extern "C" fn _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_
     );
     _1223 = _1181;
     _1224 = _1175;
-    *(&mut (*(&mut (*(_1224 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1224 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field2 as *mut uint8_t) = (_1223 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0;
     _1225 = _1173;
     _1226 = _1175;
-    *(&mut (*(&mut (*(_1226 as *mut l_struct_struct_OC_avg_args)).field0
+    *(&raw mut (*(&raw mut (*(_1226 as *mut l_struct_struct_OC_avg_args)).field0
         as *mut l_struct_struct_OC_pixel_region_args))
         .field3 as *mut uint32_t) = _1225;
     _1227 = _1176;
     _1228 = _1175;
-    *(&mut (*(_1228 as *mut l_struct_struct_OC_avg_args)).field1 as *mut uint32_t) = _1227;
+    *(&raw mut (*(_1228 as *mut l_struct_struct_OC_avg_args)).field1 as *mut uint32_t) = _1227;
     _1229 = _1177;
     _1230 = _1175;
-    *(&mut (*(_1230 as *mut l_struct_struct_OC_avg_args)).field2 as *mut uint32_t) = _1229;
+    *(&raw mut (*(_1230 as *mut l_struct_struct_OC_avg_args)).field2 as *mut uint32_t) = _1229;
     _1231 = _1178;
     _1232 = _1175;
-    *(&mut (*(_1232 as *mut l_struct_struct_OC_avg_args)).field3 as *mut uint32_t) = _1231;
+    *(&raw mut (*(_1232 as *mut l_struct_struct_OC_avg_args)).field3 as *mut uint32_t) = _1231;
     _1233 = _1182;
     _1234 = _1175;
-    *(&mut (*(_1234 as *mut l_struct_struct_OC_avg_args)).field4 as *mut uint32_t) = _1233;
+    *(&raw mut (*(_1234 as *mut l_struct_struct_OC_avg_args)).field4 as *mut uint32_t) = _1233;
     _1235 = _1183;
     _1236 = _1175;
-    *(&mut (*(_1236 as *mut l_struct_struct_OC_avg_args)).field5 as *mut uint32_t) = _1235;
+    *(&raw mut (*(_1236 as *mut l_struct_struct_OC_avg_args)).field5 as *mut uint32_t) = _1235;
     _1237 = _1184;
     _1238 = _1184;
     _1239 = _1185;
     _1240 = _1175;
-    *(&mut (*(_1240 as *mut l_struct_struct_OC_avg_args)).field6 as *mut uint32_t) =
+    *(&raw mut (*(_1240 as *mut l_struct_struct_OC_avg_args)).field6 as *mut uint32_t) =
         llvm_mul_u32(llvm_mul_u32(llvm_mul_u32(2, _1237), _1238), _1239);
     _1241 = _1178;
     _1242 = _1183;

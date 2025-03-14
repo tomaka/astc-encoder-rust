@@ -1795,7 +1795,7 @@ unsafe extern "C" fn llvm_OC_umul_OC_with_OC_overflow_OC_i64(
         field1: 0,
     };
     r.field1 = LLVMMul_uov(
-        (8).wrapping_mul(::core::mem::size_of::<uint64_t>() as core::ffi::c_ulong),
+        (8u64).wrapping_mul(::core::mem::size_of::<uint64_t>() as core::ffi::c_ulong),
         &mut a,
         &mut b,
         &mut r.field0,
@@ -2220,16 +2220,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
         } else {
             _43 = _11;
             _44 = _18;
-            *(&mut (*(_44 as *mut l_struct_struct_OC_astcenc_config)).field2 as *mut uint32_t) =
-                _43;
+            *(&raw mut (*(_44 as *mut l_struct_struct_OC_astcenc_config)).field2
+                as *mut uint32_t) = _43;
             _45 = _12;
             _46 = _18;
-            *(&mut (*(_46 as *mut l_struct_struct_OC_astcenc_config)).field3 as *mut uint32_t) =
-                _45;
+            *(&raw mut (*(_46 as *mut l_struct_struct_OC_astcenc_config)).field3
+                as *mut uint32_t) = _45;
             _47 = _13;
             _48 = _18;
-            *(&mut (*(_48 as *mut l_struct_struct_OC_astcenc_config)).field4 as *mut uint32_t) =
-                _47;
+            *(&raw mut (*(_48 as *mut l_struct_struct_OC_astcenc_config)).field4
+                as *mut uint32_t) = _47;
             _49 = _11;
             _50 = _12;
             _51 = _13;
@@ -2287,7 +2287,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         _65 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _66 = _23;
                         _67 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_65, _66);
-                        _68 = *(&mut (*(_67 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _68 = *(&raw mut (*(_67 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field0 as *mut core::ffi::c_float);
                         _69 = _14;
                         if llvm_fcmp_oge(_68 as core::ffi::c_double, _69 as core::ffi::c_double)
@@ -2314,87 +2314,87 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         _77 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _78 = _22;
                         _79 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_77, _78);
-                        _80 = *(&mut (*(_79 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _80 = *(&raw mut (*(_79 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field1 as *mut uint32_t);
                         _81 = _18;
-                        *(&mut (*(_81 as *mut l_struct_struct_OC_astcenc_config)).field11
+                        *(&raw mut (*(_81 as *mut l_struct_struct_OC_astcenc_config)).field11
                             as *mut uint32_t) = _80;
                         _82 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _83 = _22;
                         _84 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_82, _83);
-                        _85 = *(&mut (*(_84 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _85 = *(&raw mut (*(_84 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field2 as *mut uint32_t);
                         _86 = _18;
-                        *(&mut (*(_86 as *mut l_struct_struct_OC_astcenc_config)).field12
+                        *(&raw mut (*(_86 as *mut l_struct_struct_OC_astcenc_config)).field12
                             as *mut uint32_t) = _85;
                         _87 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _88 = _22;
                         _89 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_87, _88);
-                        _90 = *(&mut (*(_89 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _90 = *(&raw mut (*(_89 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field3 as *mut uint32_t);
                         _91 = _18;
-                        *(&mut (*(_91 as *mut l_struct_struct_OC_astcenc_config)).field13
+                        *(&raw mut (*(_91 as *mut l_struct_struct_OC_astcenc_config)).field13
                             as *mut uint32_t) = _90;
                         _92 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _93 = _22;
                         _94 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_92, _93);
-                        _95 = *(&mut (*(_94 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _95 = *(&raw mut (*(_94 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field4 as *mut uint32_t);
                         _96 = _18;
-                        *(&mut (*(_96 as *mut l_struct_struct_OC_astcenc_config)).field14
+                        *(&raw mut (*(_96 as *mut l_struct_struct_OC_astcenc_config)).field14
                             as *mut uint32_t) = _95;
                         _97 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _98 = _22;
                         _99 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_97, _98);
-                        _100 = *(&mut (*(_99 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _100 = *(&raw mut (*(_99 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field5 as *mut uint32_t);
                         _101 = _18;
-                        *(&mut (*(_101 as *mut l_struct_struct_OC_astcenc_config)).field15
+                        *(&raw mut (*(_101 as *mut l_struct_struct_OC_astcenc_config)).field15
                             as *mut uint32_t) = _100;
                         _102 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _103 = _22;
                         _104 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_102, _103);
-                        _105 = *(&mut (*(_104 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _105 = *(&raw mut (*(_104 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field6 as *mut uint32_t);
                         _106 = _18;
-                        *(&mut (*(_106 as *mut l_struct_struct_OC_astcenc_config)).field16
+                        *(&raw mut (*(_106 as *mut l_struct_struct_OC_astcenc_config)).field16
                             as *mut uint32_t) = _105;
                         _107 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _108 = _22;
                         _109 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_107, _108);
-                        _110 = *(&mut (*(_109 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _110 = *(&raw mut (*(_109 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field7 as *mut uint32_t);
                         _111 = _18;
-                        *(&mut (*(_111 as *mut l_struct_struct_OC_astcenc_config)).field17
+                        *(&raw mut (*(_111 as *mut l_struct_struct_OC_astcenc_config)).field17
                             as *mut uint32_t) = _110;
                         _112 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _113 = _22;
                         _114 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_112, _113);
-                        _115 = *(&mut (*(_114 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _115 = *(&raw mut (*(_114 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field8 as *mut uint32_t);
                         _116 = _18;
-                        *(&mut (*(_116 as *mut l_struct_struct_OC_astcenc_config)).field18
+                        *(&raw mut (*(_116 as *mut l_struct_struct_OC_astcenc_config)).field18
                             as *mut uint32_t) = _115;
                         _117 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _118 = _22;
                         _119 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_117, _118);
-                        _120 = *(&mut (*(_119 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _120 = *(&raw mut (*(_119 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field9 as *mut uint32_t);
                         _121 = _18;
-                        *(&mut (*(_121 as *mut l_struct_struct_OC_astcenc_config)).field19
+                        *(&raw mut (*(_121 as *mut l_struct_struct_OC_astcenc_config)).field19
                             as *mut uint32_t) = _120;
                         _122 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _123 = _22;
                         _124 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_122, _123);
-                        _125 = *(&mut (*(_124 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _125 = *(&raw mut (*(_124 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field10 as *mut uint32_t);
                         _126 = _18;
-                        *(&mut (*(_126 as *mut l_struct_struct_OC_astcenc_config)).field20
+                        *(&raw mut (*(_126 as *mut l_struct_struct_OC_astcenc_config)).field20
                             as *mut uint32_t) = _125;
                         _127 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _128 = _22;
                         _129 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_127, _128);
-                        _130 = *(&mut (*(_129 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _130 = *(&raw mut (*(_129 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field11 as *mut core::ffi::c_float);
                         _131 = _20;
                         _132 = llvm_OC_fmuladd_OC_f32(
@@ -2405,7 +2405,7 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         _133 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _134 = _22;
                         _135 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_133, _134);
-                        _136 = *(&mut (*(_135 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _136 = *(&raw mut (*(_135 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field12 as *mut core::ffi::c_float);
                         _137 = _20;
                         _138 = llvm_OC_fmuladd_OC_f32(
@@ -2415,47 +2415,47 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         );
                         _139 = _ZN4astcL3maxIfEET_S1_S1_(_132, _138);
                         _140 = _18;
-                        *(&mut (*(_140 as *mut l_struct_struct_OC_astcenc_config)).field21
+                        *(&raw mut (*(_140 as *mut l_struct_struct_OC_astcenc_config)).field21
                             as *mut core::ffi::c_float) = _139;
                         _141 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _142 = _22;
                         _143 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_141, _142);
-                        _144 = *(&mut (*(_143 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _144 = *(&raw mut (*(_143 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field13 as *mut core::ffi::c_float);
                         _145 = _18;
-                        *(&mut (*(_145 as *mut l_struct_struct_OC_astcenc_config)).field22
+                        *(&raw mut (*(_145 as *mut l_struct_struct_OC_astcenc_config)).field22
                             as *mut core::ffi::c_float) = _144;
                         _146 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _147 = _22;
                         _148 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_146, _147);
-                        _149 = *(&mut (*(_148 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _149 = *(&raw mut (*(_148 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field14 as *mut core::ffi::c_float);
                         _150 = _18;
-                        *(&mut (*(_150 as *mut l_struct_struct_OC_astcenc_config)).field23
+                        *(&raw mut (*(_150 as *mut l_struct_struct_OC_astcenc_config)).field23
                             as *mut core::ffi::c_float) = _149;
                         _151 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _152 = _22;
                         _153 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_151, _152);
-                        _154 = *(&mut (*(_153 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _154 = *(&raw mut (*(_153 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field15 as *mut core::ffi::c_float);
                         _155 = _18;
-                        *(&mut (*(_155 as *mut l_struct_struct_OC_astcenc_config)).field24
+                        *(&raw mut (*(_155 as *mut l_struct_struct_OC_astcenc_config)).field24
                             as *mut core::ffi::c_float) = _154;
                         _156 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _157 = _22;
                         _158 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_156, _157);
-                        _159 = *(&mut (*(_158 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _159 = *(&raw mut (*(_158 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field16 as *mut core::ffi::c_float);
                         _160 = _18;
-                        *(&mut (*(_160 as *mut l_struct_struct_OC_astcenc_config)).field25
+                        *(&raw mut (*(_160 as *mut l_struct_struct_OC_astcenc_config)).field25
                             as *mut core::ffi::c_float) = _159;
                         _161 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
                         _162 = _22;
                         _163 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_161, _162);
-                        _164 = *(&mut (*(_163 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _164 = *(&raw mut (*(_163 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field17 as *mut core::ffi::c_float);
                         _165 = _18;
-                        *(&mut (*(_165 as *mut l_struct_struct_OC_astcenc_config)).field26
+                        *(&raw mut (*(_165 as *mut l_struct_struct_OC_astcenc_config)).field26
                             as *mut core::ffi::c_float) = _164;
                     } else {
                         _166 = _ZZ19astcenc_config_init15astcenc_profilejjjfjP14astcenc_configE14preset_configs;
@@ -2467,10 +2467,10 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         _171 = _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(_169, _170);
                         _25 = _171;
                         _172 = _25;
-                        _173 = *(&mut (*(_172 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _173 = *(&raw mut (*(_172 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field0 as *mut core::ffi::c_float);
                         _174 = _24;
-                        _175 = *(&mut (*(_174 as *mut l_struct_struct_OC_astcenc_preset_config))
+                        _175 = *(&raw mut (*(_174 as *mut l_struct_struct_OC_astcenc_preset_config))
                             .field0 as *mut core::ffi::c_float);
                         _26 = llvm_fsub_f32(_173, _175);
                         _176 = _26;
@@ -2480,7 +2480,8 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         ) != 0
                         {
                             _177 = _25;
-                            _178 = *(&mut (*(_177 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _178 = *(&raw mut (*(_177
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field0
                                 as *mut core::ffi::c_float);
                             _179 = _14;
@@ -2488,17 +2489,20 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             _27 = llvm_fdiv_f32(llvm_fsub_f32(_178, _179), _180);
                             _181 = _14;
                             _182 = _24;
-                            _183 = *(&mut (*(_182 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _183 = *(&raw mut (*(_182
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field0
                                 as *mut core::ffi::c_float);
                             _184 = _26;
                             _28 = llvm_fdiv_f32(llvm_fsub_f32(_181, _183), _184);
                             _185 = _24;
-                            _186 = *(&mut (*(_185 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _186 = *(&raw mut (*(_185
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field1 as *mut uint32_t);
                             _187 = _27;
                             _188 = _25;
-                            _189 = *(&mut (*(_188 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _189 = *(&raw mut (*(_188
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field1 as *mut uint32_t);
                             _190 = _28;
                             _191 = llvm_OC_fmuladd_OC_f32(
@@ -2508,14 +2512,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _192 = _ZN4astcL11flt2int_rtnEf(_191);
                             _193 = _18;
-                            *(&mut (*(_193 as *mut l_struct_struct_OC_astcenc_config)).field11
+                            *(&raw mut (*(_193 as *mut l_struct_struct_OC_astcenc_config)).field11
                                 as *mut uint32_t) = _192;
                             _194 = _24;
-                            _195 = *(&mut (*(_194 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _195 = *(&raw mut (*(_194
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field2 as *mut uint32_t);
                             _196 = _27;
                             _197 = _25;
-                            _198 = *(&mut (*(_197 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _198 = *(&raw mut (*(_197
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field2 as *mut uint32_t);
                             _199 = _28;
                             _200 = llvm_OC_fmuladd_OC_f32(
@@ -2525,14 +2531,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _201 = _ZN4astcL11flt2int_rtnEf(_200);
                             _202 = _18;
-                            *(&mut (*(_202 as *mut l_struct_struct_OC_astcenc_config)).field12
+                            *(&raw mut (*(_202 as *mut l_struct_struct_OC_astcenc_config)).field12
                                 as *mut uint32_t) = _201;
                             _203 = _24;
-                            _204 = *(&mut (*(_203 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _204 = *(&raw mut (*(_203
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field3 as *mut uint32_t);
                             _205 = _27;
                             _206 = _25;
-                            _207 = *(&mut (*(_206 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _207 = *(&raw mut (*(_206
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field3 as *mut uint32_t);
                             _208 = _28;
                             _209 = llvm_OC_fmuladd_OC_f32(
@@ -2542,14 +2550,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _210 = _ZN4astcL11flt2int_rtnEf(_209);
                             _211 = _18;
-                            *(&mut (*(_211 as *mut l_struct_struct_OC_astcenc_config)).field13
+                            *(&raw mut (*(_211 as *mut l_struct_struct_OC_astcenc_config)).field13
                                 as *mut uint32_t) = _210;
                             _212 = _24;
-                            _213 = *(&mut (*(_212 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _213 = *(&raw mut (*(_212
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field4 as *mut uint32_t);
                             _214 = _27;
                             _215 = _25;
-                            _216 = *(&mut (*(_215 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _216 = *(&raw mut (*(_215
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field4 as *mut uint32_t);
                             _217 = _28;
                             _218 = llvm_OC_fmuladd_OC_f32(
@@ -2559,14 +2569,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _219 = _ZN4astcL11flt2int_rtnEf(_218);
                             _220 = _18;
-                            *(&mut (*(_220 as *mut l_struct_struct_OC_astcenc_config)).field14
+                            *(&raw mut (*(_220 as *mut l_struct_struct_OC_astcenc_config)).field14
                                 as *mut uint32_t) = _219;
                             _221 = _24;
-                            _222 = *(&mut (*(_221 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _222 = *(&raw mut (*(_221
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field5 as *mut uint32_t);
                             _223 = _27;
                             _224 = _25;
-                            _225 = *(&mut (*(_224 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _225 = *(&raw mut (*(_224
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field5 as *mut uint32_t);
                             _226 = _28;
                             _227 = llvm_OC_fmuladd_OC_f32(
@@ -2576,14 +2588,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _228 = _ZN4astcL11flt2int_rtnEf(_227);
                             _229 = _18;
-                            *(&mut (*(_229 as *mut l_struct_struct_OC_astcenc_config)).field15
+                            *(&raw mut (*(_229 as *mut l_struct_struct_OC_astcenc_config)).field15
                                 as *mut uint32_t) = _228;
                             _230 = _24;
-                            _231 = *(&mut (*(_230 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _231 = *(&raw mut (*(_230
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field6 as *mut uint32_t);
                             _232 = _27;
                             _233 = _25;
-                            _234 = *(&mut (*(_233 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _234 = *(&raw mut (*(_233
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field6 as *mut uint32_t);
                             _235 = _28;
                             _236 = llvm_OC_fmuladd_OC_f32(
@@ -2593,14 +2607,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _237 = _ZN4astcL11flt2int_rtnEf(_236);
                             _238 = _18;
-                            *(&mut (*(_238 as *mut l_struct_struct_OC_astcenc_config)).field16
+                            *(&raw mut (*(_238 as *mut l_struct_struct_OC_astcenc_config)).field16
                                 as *mut uint32_t) = _237;
                             _239 = _24;
-                            _240 = *(&mut (*(_239 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _240 = *(&raw mut (*(_239
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field7 as *mut uint32_t);
                             _241 = _27;
                             _242 = _25;
-                            _243 = *(&mut (*(_242 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _243 = *(&raw mut (*(_242
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field7 as *mut uint32_t);
                             _244 = _28;
                             _245 = llvm_OC_fmuladd_OC_f32(
@@ -2610,14 +2626,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _246 = _ZN4astcL11flt2int_rtnEf(_245);
                             _247 = _18;
-                            *(&mut (*(_247 as *mut l_struct_struct_OC_astcenc_config)).field17
+                            *(&raw mut (*(_247 as *mut l_struct_struct_OC_astcenc_config)).field17
                                 as *mut uint32_t) = _246;
                             _248 = _24;
-                            _249 = *(&mut (*(_248 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _249 = *(&raw mut (*(_248
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field8 as *mut uint32_t);
                             _250 = _27;
                             _251 = _25;
-                            _252 = *(&mut (*(_251 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _252 = *(&raw mut (*(_251
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field8 as *mut uint32_t);
                             _253 = _28;
                             _254 = llvm_OC_fmuladd_OC_f32(
@@ -2627,14 +2645,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _255 = _ZN4astcL11flt2int_rtnEf(_254);
                             _256 = _18;
-                            *(&mut (*(_256 as *mut l_struct_struct_OC_astcenc_config)).field18
+                            *(&raw mut (*(_256 as *mut l_struct_struct_OC_astcenc_config)).field18
                                 as *mut uint32_t) = _255;
                             _257 = _24;
-                            _258 = *(&mut (*(_257 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _258 = *(&raw mut (*(_257
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field9 as *mut uint32_t);
                             _259 = _27;
                             _260 = _25;
-                            _261 = *(&mut (*(_260 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _261 = *(&raw mut (*(_260
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field9 as *mut uint32_t);
                             _262 = _28;
                             _263 = llvm_OC_fmuladd_OC_f32(
@@ -2644,14 +2664,16 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _264 = _ZN4astcL11flt2int_rtnEf(_263);
                             _265 = _18;
-                            *(&mut (*(_265 as *mut l_struct_struct_OC_astcenc_config)).field19
+                            *(&raw mut (*(_265 as *mut l_struct_struct_OC_astcenc_config)).field19
                                 as *mut uint32_t) = _264;
                             _266 = _24;
-                            _267 = *(&mut (*(_266 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _267 = *(&raw mut (*(_266
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field10 as *mut uint32_t);
                             _268 = _27;
                             _269 = _25;
-                            _270 = *(&mut (*(_269 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _270 = *(&raw mut (*(_269
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field10 as *mut uint32_t);
                             _271 = _28;
                             _272 = llvm_OC_fmuladd_OC_f32(
@@ -2661,15 +2683,17 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _273 = _ZN4astcL11flt2int_rtnEf(_272);
                             _274 = _18;
-                            *(&mut (*(_274 as *mut l_struct_struct_OC_astcenc_config)).field20
+                            *(&raw mut (*(_274 as *mut l_struct_struct_OC_astcenc_config)).field20
                                 as *mut uint32_t) = _273;
                             _275 = _24;
-                            _276 = *(&mut (*(_275 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _276 = *(&raw mut (*(_275
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field11
                                 as *mut core::ffi::c_float);
                             _277 = _27;
                             _278 = _25;
-                            _279 = *(&mut (*(_278 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _279 = *(&raw mut (*(_278
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field11
                                 as *mut core::ffi::c_float);
                             _280 = _28;
@@ -2681,12 +2705,14 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                 _281,
                             );
                             _284 = _24;
-                            _285 = *(&mut (*(_284 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _285 = *(&raw mut (*(_284
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field12
                                 as *mut core::ffi::c_float);
                             _286 = _27;
                             _287 = _25;
-                            _288 = *(&mut (*(_287 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _288 = *(&raw mut (*(_287
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field12
                                 as *mut core::ffi::c_float);
                             _289 = _28;
@@ -2699,77 +2725,87 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                             );
                             _293 = _ZN4astcL3maxIfEET_S1_S1_(_283, _292);
                             _294 = _18;
-                            *(&mut (*(_294 as *mut l_struct_struct_OC_astcenc_config)).field21
+                            *(&raw mut (*(_294 as *mut l_struct_struct_OC_astcenc_config)).field21
                                 as *mut core::ffi::c_float) = _293;
                             _295 = _24;
-                            _296 = *(&mut (*(_295 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _296 = *(&raw mut (*(_295
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field13
                                 as *mut core::ffi::c_float);
                             _297 = _27;
                             _298 = _25;
-                            _299 = *(&mut (*(_298 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _299 = *(&raw mut (*(_298
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field13
                                 as *mut core::ffi::c_float);
                             _300 = _28;
                             _301 = llvm_OC_fmuladd_OC_f32(_296, _297, llvm_fmul_f32(_299, _300));
                             _302 = _18;
-                            *(&mut (*(_302 as *mut l_struct_struct_OC_astcenc_config)).field22
+                            *(&raw mut (*(_302 as *mut l_struct_struct_OC_astcenc_config)).field22
                                 as *mut core::ffi::c_float) = _301;
                             _303 = _24;
-                            _304 = *(&mut (*(_303 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _304 = *(&raw mut (*(_303
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field14
                                 as *mut core::ffi::c_float);
                             _305 = _27;
                             _306 = _25;
-                            _307 = *(&mut (*(_306 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _307 = *(&raw mut (*(_306
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field14
                                 as *mut core::ffi::c_float);
                             _308 = _28;
                             _309 = llvm_OC_fmuladd_OC_f32(_304, _305, llvm_fmul_f32(_307, _308));
                             _310 = _18;
-                            *(&mut (*(_310 as *mut l_struct_struct_OC_astcenc_config)).field23
+                            *(&raw mut (*(_310 as *mut l_struct_struct_OC_astcenc_config)).field23
                                 as *mut core::ffi::c_float) = _309;
                             _311 = _24;
-                            _312 = *(&mut (*(_311 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _312 = *(&raw mut (*(_311
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field15
                                 as *mut core::ffi::c_float);
                             _313 = _27;
                             _314 = _25;
-                            _315 = *(&mut (*(_314 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _315 = *(&raw mut (*(_314
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field15
                                 as *mut core::ffi::c_float);
                             _316 = _28;
                             _317 = llvm_OC_fmuladd_OC_f32(_312, _313, llvm_fmul_f32(_315, _316));
                             _318 = _18;
-                            *(&mut (*(_318 as *mut l_struct_struct_OC_astcenc_config)).field24
+                            *(&raw mut (*(_318 as *mut l_struct_struct_OC_astcenc_config)).field24
                                 as *mut core::ffi::c_float) = _317;
                             _319 = _24;
-                            _320 = *(&mut (*(_319 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _320 = *(&raw mut (*(_319
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field16
                                 as *mut core::ffi::c_float);
                             _321 = _27;
                             _322 = _25;
-                            _323 = *(&mut (*(_322 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _323 = *(&raw mut (*(_322
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field16
                                 as *mut core::ffi::c_float);
                             _324 = _28;
                             _325 = llvm_OC_fmuladd_OC_f32(_320, _321, llvm_fmul_f32(_323, _324));
                             _326 = _18;
-                            *(&mut (*(_326 as *mut l_struct_struct_OC_astcenc_config)).field25
+                            *(&raw mut (*(_326 as *mut l_struct_struct_OC_astcenc_config)).field25
                                 as *mut core::ffi::c_float) = _325;
                             _327 = _24;
-                            _328 = *(&mut (*(_327 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _328 = *(&raw mut (*(_327
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field17
                                 as *mut core::ffi::c_float);
                             _329 = _27;
                             _330 = _25;
-                            _331 = *(&mut (*(_330 as *mut l_struct_struct_OC_astcenc_preset_config))
+                            _331 = *(&raw mut (*(_330
+                                as *mut l_struct_struct_OC_astcenc_preset_config))
                                 .field17
                                 as *mut core::ffi::c_float);
                             _332 = _28;
                             _333 = llvm_OC_fmuladd_OC_f32(_328, _329, llvm_fmul_f32(_331, _332));
                             _334 = _18;
-                            *(&mut (*(_334 as *mut l_struct_struct_OC_astcenc_config)).field26
+                            *(&raw mut (*(_334 as *mut l_struct_struct_OC_astcenc_config)).field26
                                 as *mut core::ffi::c_float) = _333;
                         } else {
                             __assert_fail(
@@ -2783,26 +2819,26 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         }
                     }
                     _335 = _18;
-                    *(&mut (*(_335 as *mut l_struct_struct_OC_astcenc_config)).field5
+                    *(&raw mut (*(_335 as *mut l_struct_struct_OC_astcenc_config)).field5
                         as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
                     _336 = _18;
-                    *(&mut (*(_336 as *mut l_struct_struct_OC_astcenc_config)).field6
+                    *(&raw mut (*(_336 as *mut l_struct_struct_OC_astcenc_config)).field6
                         as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
                     _337 = _18;
-                    *(&mut (*(_337 as *mut l_struct_struct_OC_astcenc_config)).field7
+                    *(&raw mut (*(_337 as *mut l_struct_struct_OC_astcenc_config)).field7
                         as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
                     _338 = _18;
-                    *(&mut (*(_338 as *mut l_struct_struct_OC_astcenc_config)).field8
+                    *(&raw mut (*(_338 as *mut l_struct_struct_OC_astcenc_config)).field8
                         as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
                     _339 = _18;
-                    *(&mut (*(_339 as *mut l_struct_struct_OC_astcenc_config)).field9
+                    *(&raw mut (*(_339 as *mut l_struct_struct_OC_astcenc_config)).field9
                         as *mut uint32_t) = 0;
                     _340 = _18;
-                    *(&mut (*(_340 as *mut l_struct_struct_OC_astcenc_config)).field10
+                    *(&raw mut (*(_340 as *mut l_struct_struct_OC_astcenc_config)).field10
                         as *mut core::ffi::c_float) = 0 as core::ffi::c_int as core::ffi::c_float;
                     _341 = _10;
                     _342 = _18;
-                    *(&mut (*(_342 as *mut l_struct_struct_OC_astcenc_config)).field0
+                    *(&raw mut (*(_342 as *mut l_struct_struct_OC_astcenc_config)).field0
                         as *mut uint32_t) = _341;
                     _343 = _10;
                     match _343 {
@@ -2811,11 +2847,11 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                         }
                         2 | 3 => {
                             _344 = _18;
-                            *(&mut (*(_344 as *mut l_struct_struct_OC_astcenc_config)).field21
+                            *(&raw mut (*(_344 as *mut l_struct_struct_OC_astcenc_config)).field21
                                 as *mut core::ffi::c_float) =
                                 999 as core::ffi::c_int as core::ffi::c_float;
                             _345 = _18;
-                            *(&mut (*(_345 as *mut l_struct_struct_OC_astcenc_config)).field26
+                            *(&raw mut (*(_345 as *mut l_struct_struct_OC_astcenc_config)).field26
                                 as *mut core::ffi::c_float) =
                                 0 as core::ffi::c_int as core::ffi::c_float;
                             current_block = 15231701066840170158;
@@ -2840,27 +2876,28 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                 _351 = _15;
                                 if _351 & 1 != 0 as core::ffi::c_uint {
                                     _352 = _18;
-                                    _353 = *(&mut (*(_352
+                                    _353 = *(&raw mut (*(_352
                                         as *mut l_struct_struct_OC_astcenc_config))
                                         .field11
                                         as *mut uint32_t);
                                     _354 = _ZN4astcL3minIjEET_S1_S1_(llvm_add_u32(_353, 1), 4);
                                     _355 = _18;
-                                    *(&mut (*(_355 as *mut l_struct_struct_OC_astcenc_config))
+                                    *(&raw mut (*(_355 as *mut l_struct_struct_OC_astcenc_config))
                                         .field11
                                         as *mut uint32_t) = _354;
                                     _356 = _18;
-                                    *(&mut (*(_356 as *mut l_struct_struct_OC_astcenc_config))
+                                    *(&raw mut (*(_356 as *mut l_struct_struct_OC_astcenc_config))
                                         .field6
                                         as *mut core::ffi::c_float) =
                                         0 as core::ffi::c_int as core::ffi::c_float;
                                     _357 = _18;
-                                    *(&mut (*(_357 as *mut l_struct_struct_OC_astcenc_config))
+                                    *(&raw mut (*(_357 as *mut l_struct_struct_OC_astcenc_config))
                                         .field7
                                         as *mut core::ffi::c_float) =
                                         0 as core::ffi::c_int as core::ffi::c_float;
                                     _358 = _18;
-                                    _359 = &mut (*(_358 as *mut l_struct_struct_OC_astcenc_config))
+                                    _359 = &raw mut (*(_358
+                                        as *mut l_struct_struct_OC_astcenc_config))
                                         .field23
                                         as *mut core::ffi::c_float
                                         as *mut core::ffi::c_void;
@@ -2868,7 +2905,8 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                     *(_359 as *mut core::ffi::c_float) =
                                         llvm_fmul_f32(_360, 1.5f64 as core::ffi::c_float);
                                     _361 = _18;
-                                    _362 = &mut (*(_361 as *mut l_struct_struct_OC_astcenc_config))
+                                    _362 = &raw mut (*(_361
+                                        as *mut l_struct_struct_OC_astcenc_config))
                                         .field24
                                         as *mut core::ffi::c_float
                                         as *mut core::ffi::c_void;
@@ -2876,12 +2914,13 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                     *(_362 as *mut core::ffi::c_float) =
                                         llvm_fmul_f32(_363, 1.5f64 as core::ffi::c_float);
                                     _364 = _18;
-                                    *(&mut (*(_364 as *mut l_struct_struct_OC_astcenc_config))
+                                    *(&raw mut (*(_364 as *mut l_struct_struct_OC_astcenc_config))
                                         .field25
                                         as *mut core::ffi::c_float) =
                                         0.990000009f64 as core::ffi::c_float;
                                     _365 = _18;
-                                    _366 = &mut (*(_365 as *mut l_struct_struct_OC_astcenc_config))
+                                    _366 = &raw mut (*(_365
+                                        as *mut l_struct_struct_OC_astcenc_config))
                                         .field21
                                         as *mut core::ffi::c_float
                                         as *mut core::ffi::c_void;
@@ -2892,17 +2931,19 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                     _368 = _15;
                                     if _368 & 64 != 0 as core::ffi::c_uint {
                                         _369 = _18;
-                                        *(&mut (*(_369 as *mut l_struct_struct_OC_astcenc_config))
+                                        *(&raw mut (*(_369
+                                            as *mut l_struct_struct_OC_astcenc_config))
                                             .field10
                                             as *mut core::ffi::c_float) =
                                             5 as core::ffi::c_int as core::ffi::c_float;
                                         _370 = _18;
-                                        _371 = *(&mut (*(_370
+                                        _371 = *(&raw mut (*(_370
                                             as *mut l_struct_struct_OC_astcenc_config))
                                             .field10
                                             as *mut core::ffi::c_float);
                                         _372 = _18;
-                                        *(&mut (*(_372 as *mut l_struct_struct_OC_astcenc_config))
+                                        *(&raw mut (*(_372
+                                            as *mut l_struct_struct_OC_astcenc_config))
                                             .field8
                                             as *mut core::ffi::c_float) = llvm_fmul_f32(
                                             2 as core::ffi::c_int as core::ffi::c_float,
@@ -2912,19 +2953,19 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                         _373 = _15;
                                         if _373 & 8 != 0 as core::ffi::c_uint {
                                             _374 = _18;
-                                            *(&mut (*(_374
+                                            *(&raw mut (*(_374
                                                 as *mut l_struct_struct_OC_astcenc_config))
                                                 .field5
                                                 as *mut core::ffi::c_float) =
                                                 0.675000011f64 as core::ffi::c_float;
                                             _375 = _18;
-                                            *(&mut (*(_375
+                                            *(&raw mut (*(_375
                                                 as *mut l_struct_struct_OC_astcenc_config))
                                                 .field6
                                                 as *mut core::ffi::c_float) =
                                                 1.32749999f64 as core::ffi::c_float;
                                             _376 = _18;
-                                            *(&mut (*(_376
+                                            *(&raw mut (*(_376
                                                 as *mut l_struct_struct_OC_astcenc_config))
                                                 .field7
                                                 as *mut core::ffi::c_float) =
@@ -2934,8 +2975,8 @@ pub unsafe extern "C" fn _Z19astcenc_config_init15astcenc_profilejjjfjP14astcenc
                                 }
                                 _377 = _15;
                                 _378 = _18;
-                                *(&mut (*(_378 as *mut l_struct_struct_OC_astcenc_config)).field1
-                                    as *mut uint32_t) = _377;
+                                *(&raw mut (*(_378 as *mut l_struct_struct_OC_astcenc_config))
+                                    .field1 as *mut uint32_t) = _377;
                                 _9 = 0;
                             }
                             current_block = 15292210871018111271;
@@ -3111,7 +3152,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI21astcenc_preset_configLm6EEixEm(
     _485 = _483;
     _486 = _484;
     _487 = _485;
-    return &raw mut *((*(&mut (*(_486 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
+    return &raw mut *((*(&raw mut (*(_486 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
         as *mut crate::l_array_6_struct_AC_l_struct_struct_OC_astcenc_preset_config))
         .array)
         .as_mut_ptr()
@@ -5464,33 +5505,33 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
             _ZN15astcenc_contextC2Ev(_1116);
             _1105 = _1116;
             _1117 = _1105;
-            _1108 = &mut (*(_1117 as *mut l_struct_struct_OC_astcenc_context)).field0
+            _1108 = &raw mut (*(_1117 as *mut l_struct_struct_OC_astcenc_context)).field0
                 as *mut l_struct_struct_OC_astcenc_contexti
                 as *mut core::ffi::c_void;
             _1118 = _1101;
             _1119 = _1108;
-            *(&mut (*(_1119 as *mut l_struct_struct_OC_astcenc_contexti)).field1
+            *(&raw mut (*(_1119 as *mut l_struct_struct_OC_astcenc_contexti)).field1
                 as *mut uint32_t) = _1118;
             _1120 = _1104;
             _1121 = _1108;
             _1122 = memcpy(
-                &mut (*(_1121 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                &raw mut (*(_1121 as *mut l_struct_struct_OC_astcenc_contexti)).field0
                     as *mut l_struct_struct_OC_astcenc_config
                     as *mut core::ffi::c_void,
                 _1120,
                 120,
             );
             _1123 = _1108;
-            let ref mut fresh0 = *(&mut (*(_1123 as *mut l_struct_struct_OC_astcenc_contexti))
+            let ref mut fresh0 = *(&raw mut (*(_1123 as *mut l_struct_struct_OC_astcenc_contexti))
                 .field4 as *mut *mut core::ffi::c_void);
             *fresh0 = 0 as *mut core::ffi::c_void;
             _1124 = _1108;
-            let ref mut fresh1 = *(&mut (*(_1124 as *mut l_struct_struct_OC_astcenc_contexti))
+            let ref mut fresh1 = *(&raw mut (*(_1124 as *mut l_struct_struct_OC_astcenc_contexti))
                 .field3 as *mut *mut core::ffi::c_void);
             *fresh1 = 0 as *mut core::ffi::c_void;
             _1125 = _1108;
             _1126 = _ZL15validate_configR14astcenc_config(
-                &mut (*(_1125 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                &raw mut (*(_1125 as *mut l_struct_struct_OC_astcenc_contexti)).field0
                     as *mut l_struct_struct_OC_astcenc_config
                     as *mut core::ffi::c_void,
             );
@@ -5507,35 +5548,36 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
             } else {
                 _1130 = _Z14aligned_mallocI21block_size_descriptorEPT_mm(14740592, 0);
                 _1131 = _1108;
-                let ref mut fresh2 = *(&mut (*(_1131 as *mut l_struct_struct_OC_astcenc_contexti))
+                let ref mut fresh2 = *(&raw mut (*(_1131
+                    as *mut l_struct_struct_OC_astcenc_contexti))
                     .field2 as *mut *mut core::ffi::c_void);
                 *fresh2 = _1130;
                 _1132 = _1108;
-                _1133 = *(&mut (*(_1132 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+                _1133 = *(&raw mut (*(_1132 as *mut l_struct_struct_OC_astcenc_contexti)).field2
                     as *mut *mut core::ffi::c_void);
                 if !_1133.is_null() {
                     _1135 = _1104;
-                    _1136 = *(&mut (*(_1135 as *mut l_struct_struct_OC_astcenc_config)).field1
+                    _1136 = *(&raw mut (*(_1135 as *mut l_struct_struct_OC_astcenc_config)).field1
                         as *mut uint32_t);
                     _1109 = (_1136 & 32 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
                     _1137 = _1104;
-                    _1138 = *(&mut (*(_1137 as *mut l_struct_struct_OC_astcenc_config)).field2
+                    _1138 = *(&raw mut (*(_1137 as *mut l_struct_struct_OC_astcenc_config)).field2
                         as *mut uint32_t);
                     _1139 = _1104;
-                    _1140 = *(&mut (*(_1139 as *mut l_struct_struct_OC_astcenc_config)).field3
+                    _1140 = *(&raw mut (*(_1139 as *mut l_struct_struct_OC_astcenc_config)).field3
                         as *mut uint32_t);
                     _1141 = _1104;
-                    _1142 = *(&mut (*(_1141 as *mut l_struct_struct_OC_astcenc_config)).field4
+                    _1142 = *(&raw mut (*(_1141 as *mut l_struct_struct_OC_astcenc_config)).field4
                         as *mut uint32_t);
                     _1143 = _1109;
                     _1144 = _1104;
-                    _1145 = *(&mut (*(_1144 as *mut l_struct_struct_OC_astcenc_config)).field11
+                    _1145 = *(&raw mut (*(_1144 as *mut l_struct_struct_OC_astcenc_config)).field11
                         as *mut uint32_t);
                     _1146 = _1104;
-                    _1147 = *(&mut (*(_1146 as *mut l_struct_struct_OC_astcenc_config)).field15
+                    _1147 = *(&raw mut (*(_1146 as *mut l_struct_struct_OC_astcenc_config)).field15
                         as *mut uint32_t);
                     _1148 = _1108;
-                    _1149 = *(&mut (*(_1148 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+                    _1149 = *(&raw mut (*(_1148 as *mut l_struct_struct_OC_astcenc_contexti)).field2
                         as *mut *mut core::ffi::c_void);
                     _Z26init_block_size_descriptorjjjbjfR21block_size_descriptor(
                         _1138,
@@ -5550,7 +5592,8 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                         _1149,
                     );
                     _1150 = _1108;
-                    _1151 = *(&mut (*(&mut (*(_1150 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _1151 = *(&raw mut (*(&raw mut (*(_1150
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field1 as *mut uint32_t);
@@ -5558,7 +5601,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                         current_block = 17381674388336565657;
                     } else {
                         _1152 = _1108;
-                        _1153 = *(&mut (*(&mut (*(_1152
+                        _1153 = *(&raw mut (*(&raw mut (*(_1152
                             as *mut l_struct_struct_OC_astcenc_contexti))
                             .field0
                             as *mut l_struct_struct_OC_astcenc_config))
@@ -5567,7 +5610,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                             current_block = 10447427311197255374;
                         } else {
                             _1154 = _1108;
-                            _1155 = *(&mut (*(&mut (*(_1154
+                            _1155 = *(&raw mut (*(&raw mut (*(_1154
                                 as *mut l_struct_struct_OC_astcenc_contexti))
                                 .field0
                                 as *mut l_struct_struct_OC_astcenc_config))
@@ -5576,7 +5619,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                 current_block = 10447427311197255374;
                             } else {
                                 _2049 = _1108;
-                                *(&mut (*(&mut (*(_2049
+                                *(&raw mut (*(&raw mut (*(_2049
                                     as *mut l_struct_struct_OC_astcenc_contexti))
                                     .field0
                                     as *mut l_struct_struct_OC_astcenc_config))
@@ -5589,7 +5632,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                         match current_block {
                             10447427311197255374 => {
                                 _1156 = _1108;
-                                _1157 = *(&mut (*(&mut (*(_1156
+                                _1157 = *(&raw mut (*(&raw mut (*(_1156
                                     as *mut l_struct_struct_OC_astcenc_contexti))
                                     .field0
                                     as *mut l_struct_struct_OC_astcenc_config))
@@ -9994,7 +10037,7 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                                 _2046 = _1071;
                                 _2047 = *(_2046 as *mut core::ffi::c_float);
                                 _2048 = _1108;
-                                *(&mut (*(&mut (*(_2048
+                                *(&raw mut (*(&raw mut (*(_2048
                                     as *mut l_struct_struct_OC_astcenc_contexti))
                                     .field0
                                     as *mut l_struct_struct_OC_astcenc_config))
@@ -10014,18 +10057,21 @@ pub unsafe extern "C" fn _Z21astcenc_context_allocPK14astcenc_configjPP15astcenc
                         _2051 = _1110;
                         _2052 = _Z14aligned_mallocI27compression_working_buffersEPT_mm(_2051, 0);
                         _2053 = _1108;
-                        let ref mut fresh3 =
-                            *(&mut (*(_2053 as *mut l_struct_struct_OC_astcenc_contexti)).field4
-                                as *mut *mut core::ffi::c_void);
+                        let ref mut fresh3 = *(&raw mut (*(_2053
+                            as *mut l_struct_struct_OC_astcenc_contexti))
+                            .field4
+                            as *mut *mut core::ffi::c_void);
                         *fresh3 = _2052;
                         _2054 = _1108;
-                        _2055 = *(&mut (*(_2054 as *mut l_struct_struct_OC_astcenc_contexti)).field4
+                        _2055 = *(&raw mut (*(_2054 as *mut l_struct_struct_OC_astcenc_contexti))
+                            .field4
                             as *mut *mut core::ffi::c_void);
                         if !_2055.is_null() {
                             current_block = 17381674388336565657;
                         } else {
                             _2056 = _1108;
-                            _2057 = *(&mut (*(_2056 as *mut l_struct_struct_OC_astcenc_contexti))
+                            _2057 = *(&raw mut (*(_2056
+                                as *mut l_struct_struct_OC_astcenc_contexti))
                                 .field2
                                 as *mut *mut core::ffi::c_void);
                             _Z12aligned_freeI21block_size_descriptorEvPT_(_2057);
@@ -10076,18 +10122,18 @@ pub unsafe extern "C" fn _ZN15astcenc_contextC2Ev(mut _2123: *mut core::ffi::c_v
     let mut _2128: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _2124 = _2123;
     _2127 = _2124;
-    _2128 = &mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field0
+    _2128 = &raw mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field0
         as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
     _ZN15ParallelManagerC2Ev(
-        &mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field1
+        &raw mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field1
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
     _ZN15ParallelManagerC2Ev(
-        &mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field2
+        &raw mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field2
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
     _ZN15ParallelManagerC2Ev(
-        &mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field3
+        &raw mut (*(_2127 as *mut l_struct_struct_OC_astcenc_context)).field3
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
 }
@@ -10220,7 +10266,8 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
     let mut _2254: uint32_t = 0;
     _2133 = _2131;
     _2136 = _2133;
-    _2137 = *(&mut (*(_2136 as *mut l_struct_struct_OC_astcenc_config)).field0 as *mut uint32_t);
+    _2137 =
+        *(&raw mut (*(_2136 as *mut l_struct_struct_OC_astcenc_config)).field0 as *mut uint32_t);
     _2138 = _ZL16validate_profile15astcenc_profile(_2137);
     _2134 = _2138;
     _2139 = _2134;
@@ -10229,11 +10276,11 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
         _2132 = _2140;
     } else {
         _2141 = _2133;
-        _2142 =
-            *(&mut (*(_2141 as *mut l_struct_struct_OC_astcenc_config)).field0 as *mut uint32_t);
+        _2142 = *(&raw mut (*(_2141 as *mut l_struct_struct_OC_astcenc_config)).field0
+            as *mut uint32_t);
         _2143 = _2133;
-        _2144 =
-            *(&mut (*(_2143 as *mut l_struct_struct_OC_astcenc_config)).field1 as *mut uint32_t);
+        _2144 = *(&raw mut (*(_2143 as *mut l_struct_struct_OC_astcenc_config)).field1
+            as *mut uint32_t);
         _2145 = _ZL14validate_flags15astcenc_profilej(_2142, _2144);
         _2134 = _2145;
         _2146 = _2134;
@@ -10242,13 +10289,13 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
             _2132 = _2147;
         } else {
             _2148 = _2133;
-            _2149 = *(&mut (*(_2148 as *mut l_struct_struct_OC_astcenc_config)).field2
+            _2149 = *(&raw mut (*(_2148 as *mut l_struct_struct_OC_astcenc_config)).field2
                 as *mut uint32_t);
             _2150 = _2133;
-            _2151 = *(&mut (*(_2150 as *mut l_struct_struct_OC_astcenc_config)).field3
+            _2151 = *(&raw mut (*(_2150 as *mut l_struct_struct_OC_astcenc_config)).field3
                 as *mut uint32_t);
             _2152 = _2133;
-            _2153 = *(&mut (*(_2152 as *mut l_struct_struct_OC_astcenc_config)).field4
+            _2153 = *(&raw mut (*(_2152 as *mut l_struct_struct_OC_astcenc_config)).field4
                 as *mut uint32_t);
             _2154 = _ZL19validate_block_sizejjj(_2149, _2151, _2153);
             _2134 = _2154;
@@ -10258,135 +10305,135 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
                 _2132 = _2156;
             } else {
                 _2157 = _2133;
-                _2158 = *(&mut (*(_2157 as *mut l_struct_struct_OC_astcenc_config)).field10
+                _2158 = *(&raw mut (*(_2157 as *mut l_struct_struct_OC_astcenc_config)).field10
                     as *mut core::ffi::c_float);
                 _2159 =
                     _ZN4astcL3maxIfEET_S1_S1_(_2158, 1 as core::ffi::c_int as core::ffi::c_float);
                 _2160 = _2133;
-                *(&mut (*(_2160 as *mut l_struct_struct_OC_astcenc_config)).field10
+                *(&raw mut (*(_2160 as *mut l_struct_struct_OC_astcenc_config)).field10
                     as *mut core::ffi::c_float) = _2159;
                 _2161 = _2133;
-                _2162 = *(&mut (*(_2161 as *mut l_struct_struct_OC_astcenc_config)).field11
+                _2162 = *(&raw mut (*(_2161 as *mut l_struct_struct_OC_astcenc_config)).field11
                     as *mut uint32_t);
                 _2163 = _ZN4astc5clampIjEET_S1_S1_S1_(_2162, 1, 4);
                 _2164 = _2133;
-                *(&mut (*(_2164 as *mut l_struct_struct_OC_astcenc_config)).field11
+                *(&raw mut (*(_2164 as *mut l_struct_struct_OC_astcenc_config)).field11
                     as *mut uint32_t) = _2163;
                 _2165 = _2133;
-                _2166 = *(&mut (*(_2165 as *mut l_struct_struct_OC_astcenc_config)).field12
+                _2166 = *(&raw mut (*(_2165 as *mut l_struct_struct_OC_astcenc_config)).field12
                     as *mut uint32_t);
                 _2167 = _ZN4astc5clampIjEET_S1_S1_S1_(_2166, 1, 1024);
                 _2168 = _2133;
-                *(&mut (*(_2168 as *mut l_struct_struct_OC_astcenc_config)).field12
+                *(&raw mut (*(_2168 as *mut l_struct_struct_OC_astcenc_config)).field12
                     as *mut uint32_t) = _2167;
                 _2169 = _2133;
-                _2170 = *(&mut (*(_2169 as *mut l_struct_struct_OC_astcenc_config)).field13
+                _2170 = *(&raw mut (*(_2169 as *mut l_struct_struct_OC_astcenc_config)).field13
                     as *mut uint32_t);
                 _2171 = _ZN4astc5clampIjEET_S1_S1_S1_(_2170, 1, 1024);
                 _2172 = _2133;
-                *(&mut (*(_2172 as *mut l_struct_struct_OC_astcenc_config)).field13
+                *(&raw mut (*(_2172 as *mut l_struct_struct_OC_astcenc_config)).field13
                     as *mut uint32_t) = _2171;
                 _2173 = _2133;
-                _2174 = *(&mut (*(_2173 as *mut l_struct_struct_OC_astcenc_config)).field14
+                _2174 = *(&raw mut (*(_2173 as *mut l_struct_struct_OC_astcenc_config)).field14
                     as *mut uint32_t);
                 _2175 = _ZN4astc5clampIjEET_S1_S1_S1_(_2174, 1, 1024);
                 _2176 = _2133;
-                *(&mut (*(_2176 as *mut l_struct_struct_OC_astcenc_config)).field14
+                *(&raw mut (*(_2176 as *mut l_struct_struct_OC_astcenc_config)).field14
                     as *mut uint32_t) = _2175;
                 _2177 = _2133;
-                _2178 = *(&mut (*(_2177 as *mut l_struct_struct_OC_astcenc_config)).field15
+                _2178 = *(&raw mut (*(_2177 as *mut l_struct_struct_OC_astcenc_config)).field15
                     as *mut uint32_t);
                 _2179 = _ZN4astc5clampIjEET_S1_S1_S1_(_2178, 1, 100);
                 _2180 = _2133;
-                *(&mut (*(_2180 as *mut l_struct_struct_OC_astcenc_config)).field15
+                *(&raw mut (*(_2180 as *mut l_struct_struct_OC_astcenc_config)).field15
                     as *mut uint32_t) = _2179;
                 _2181 = _2133;
-                _2182 = *(&mut (*(_2181 as *mut l_struct_struct_OC_astcenc_config)).field16
+                _2182 = *(&raw mut (*(_2181 as *mut l_struct_struct_OC_astcenc_config)).field16
                     as *mut uint32_t);
                 _2183 = _ZN4astcL3maxIjEET_S1_S1_(_2182, 1);
                 _2184 = _2133;
-                *(&mut (*(_2184 as *mut l_struct_struct_OC_astcenc_config)).field16
+                *(&raw mut (*(_2184 as *mut l_struct_struct_OC_astcenc_config)).field16
                     as *mut uint32_t) = _2183;
                 _2185 = _2133;
-                _2186 = *(&mut (*(_2185 as *mut l_struct_struct_OC_astcenc_config)).field17
+                _2186 = *(&raw mut (*(_2185 as *mut l_struct_struct_OC_astcenc_config)).field17
                     as *mut uint32_t);
                 _2187 = _ZN4astc5clampIjEET_S1_S1_S1_(_2186, 1, 8);
                 _2188 = _2133;
-                *(&mut (*(_2188 as *mut l_struct_struct_OC_astcenc_config)).field17
+                *(&raw mut (*(_2188 as *mut l_struct_struct_OC_astcenc_config)).field17
                     as *mut uint32_t) = _2187;
                 _2189 = _2133;
-                _2190 = *(&mut (*(_2189 as *mut l_struct_struct_OC_astcenc_config)).field18
+                _2190 = *(&raw mut (*(_2189 as *mut l_struct_struct_OC_astcenc_config)).field18
                     as *mut uint32_t);
                 _2191 = _ZN4astc5clampIjEET_S1_S1_S1_(_2190, 1, 8);
                 _2192 = _2133;
-                *(&mut (*(_2192 as *mut l_struct_struct_OC_astcenc_config)).field18
+                *(&raw mut (*(_2192 as *mut l_struct_struct_OC_astcenc_config)).field18
                     as *mut uint32_t) = _2191;
                 _2193 = _2133;
-                _2194 = *(&mut (*(_2193 as *mut l_struct_struct_OC_astcenc_config)).field19
+                _2194 = *(&raw mut (*(_2193 as *mut l_struct_struct_OC_astcenc_config)).field19
                     as *mut uint32_t);
                 _2195 = _ZN4astc5clampIjEET_S1_S1_S1_(_2194, 1, 8);
                 _2196 = _2133;
-                *(&mut (*(_2196 as *mut l_struct_struct_OC_astcenc_config)).field19
+                *(&raw mut (*(_2196 as *mut l_struct_struct_OC_astcenc_config)).field19
                     as *mut uint32_t) = _2195;
                 _2197 = _2133;
-                _2198 = *(&mut (*(_2197 as *mut l_struct_struct_OC_astcenc_config)).field20
+                _2198 = *(&raw mut (*(_2197 as *mut l_struct_struct_OC_astcenc_config)).field20
                     as *mut uint32_t);
                 _2199 = _ZN4astc5clampIjEET_S1_S1_S1_(_2198, 1, 8);
                 _2200 = _2133;
-                *(&mut (*(_2200 as *mut l_struct_struct_OC_astcenc_config)).field20
+                *(&raw mut (*(_2200 as *mut l_struct_struct_OC_astcenc_config)).field20
                     as *mut uint32_t) = _2199;
                 _2201 = _2133;
-                _2202 = *(&mut (*(_2201 as *mut l_struct_struct_OC_astcenc_config)).field21
+                _2202 = *(&raw mut (*(_2201 as *mut l_struct_struct_OC_astcenc_config)).field21
                     as *mut core::ffi::c_float);
                 _2203 =
                     _ZN4astcL3maxIfEET_S1_S1_(_2202, 0 as core::ffi::c_int as core::ffi::c_float);
                 _2204 = _2133;
-                *(&mut (*(_2204 as *mut l_struct_struct_OC_astcenc_config)).field21
+                *(&raw mut (*(_2204 as *mut l_struct_struct_OC_astcenc_config)).field21
                     as *mut core::ffi::c_float) = _2203;
                 _2205 = _2133;
-                _2206 = *(&mut (*(_2205 as *mut l_struct_struct_OC_astcenc_config)).field22
+                _2206 = *(&raw mut (*(_2205 as *mut l_struct_struct_OC_astcenc_config)).field22
                     as *mut core::ffi::c_float);
                 _2207 =
                     _ZN4astcL3maxIfEET_S1_S1_(_2206, 1 as core::ffi::c_int as core::ffi::c_float);
                 _2208 = _2133;
-                *(&mut (*(_2208 as *mut l_struct_struct_OC_astcenc_config)).field22
+                *(&raw mut (*(_2208 as *mut l_struct_struct_OC_astcenc_config)).field22
                     as *mut core::ffi::c_float) = _2207;
                 _2209 = _2133;
-                _2210 = *(&mut (*(_2209 as *mut l_struct_struct_OC_astcenc_config)).field23
+                _2210 = *(&raw mut (*(_2209 as *mut l_struct_struct_OC_astcenc_config)).field23
                     as *mut core::ffi::c_float);
                 _2211 =
                     _ZN4astcL3maxIfEET_S1_S1_(_2210, 0 as core::ffi::c_int as core::ffi::c_float);
                 _2212 = _2133;
-                *(&mut (*(_2212 as *mut l_struct_struct_OC_astcenc_config)).field23
+                *(&raw mut (*(_2212 as *mut l_struct_struct_OC_astcenc_config)).field23
                     as *mut core::ffi::c_float) = _2211;
                 _2213 = _2133;
-                _2214 = *(&mut (*(_2213 as *mut l_struct_struct_OC_astcenc_config)).field24
+                _2214 = *(&raw mut (*(_2213 as *mut l_struct_struct_OC_astcenc_config)).field24
                     as *mut core::ffi::c_float);
                 _2215 =
                     _ZN4astcL3maxIfEET_S1_S1_(_2214, 0 as core::ffi::c_int as core::ffi::c_float);
                 _2216 = _2133;
-                *(&mut (*(_2216 as *mut l_struct_struct_OC_astcenc_config)).field24
+                *(&raw mut (*(_2216 as *mut l_struct_struct_OC_astcenc_config)).field24
                     as *mut core::ffi::c_float) = _2215;
                 _2217 = _2133;
-                _2218 = *(&mut (*(_2217 as *mut l_struct_struct_OC_astcenc_config)).field25
+                _2218 = *(&raw mut (*(_2217 as *mut l_struct_struct_OC_astcenc_config)).field25
                     as *mut core::ffi::c_float);
                 _2219 =
                     _ZN4astcL3maxIfEET_S1_S1_(_2218, 0 as core::ffi::c_int as core::ffi::c_float);
                 _2220 = _2133;
-                *(&mut (*(_2220 as *mut l_struct_struct_OC_astcenc_config)).field25
+                *(&raw mut (*(_2220 as *mut l_struct_struct_OC_astcenc_config)).field25
                     as *mut core::ffi::c_float) = _2219;
                 _2221 = _2133;
-                _2222 = *(&mut (*(_2221 as *mut l_struct_struct_OC_astcenc_config)).field5
+                _2222 = *(&raw mut (*(_2221 as *mut l_struct_struct_OC_astcenc_config)).field5
                     as *mut core::ffi::c_float);
                 _2223 = _2133;
-                _2224 = *(&mut (*(_2223 as *mut l_struct_struct_OC_astcenc_config)).field6
+                _2224 = *(&raw mut (*(_2223 as *mut l_struct_struct_OC_astcenc_config)).field6
                     as *mut core::ffi::c_float);
                 _2225 = _ZN4astcL3maxIfEET_S1_S1_(_2222, _2224);
                 _2226 = _2133;
-                _2227 = *(&mut (*(_2226 as *mut l_struct_struct_OC_astcenc_config)).field7
+                _2227 = *(&raw mut (*(_2226 as *mut l_struct_struct_OC_astcenc_config)).field7
                     as *mut core::ffi::c_float);
                 _2228 = _2133;
-                _2229 = *(&mut (*(_2228 as *mut l_struct_struct_OC_astcenc_config)).field8
+                _2229 = *(&raw mut (*(_2228 as *mut l_struct_struct_OC_astcenc_config)).field8
                     as *mut core::ffi::c_float);
                 _2230 = _ZN4astcL3maxIfEET_S1_S1_(_2227, _2229);
                 _2231 = _ZN4astcL3maxIfEET_S1_S1_(_2225, _2230);
@@ -10400,36 +10447,36 @@ unsafe extern "C" fn _ZL15validate_configR14astcenc_config(
                     _2233 = _2135;
                     _2135 = llvm_fdiv_f32(_2233, 1000 as core::ffi::c_int as core::ffi::c_float);
                     _2234 = _2133;
-                    _2235 = *(&mut (*(_2234 as *mut l_struct_struct_OC_astcenc_config)).field5
+                    _2235 = *(&raw mut (*(_2234 as *mut l_struct_struct_OC_astcenc_config)).field5
                         as *mut core::ffi::c_float);
                     _2236 = _2135;
                     _2237 = _ZN4astcL3maxIfEET_S1_S1_(_2235, _2236);
                     _2238 = _2133;
-                    *(&mut (*(_2238 as *mut l_struct_struct_OC_astcenc_config)).field5
+                    *(&raw mut (*(_2238 as *mut l_struct_struct_OC_astcenc_config)).field5
                         as *mut core::ffi::c_float) = _2237;
                     _2239 = _2133;
-                    _2240 = *(&mut (*(_2239 as *mut l_struct_struct_OC_astcenc_config)).field6
+                    _2240 = *(&raw mut (*(_2239 as *mut l_struct_struct_OC_astcenc_config)).field6
                         as *mut core::ffi::c_float);
                     _2241 = _2135;
                     _2242 = _ZN4astcL3maxIfEET_S1_S1_(_2240, _2241);
                     _2243 = _2133;
-                    *(&mut (*(_2243 as *mut l_struct_struct_OC_astcenc_config)).field6
+                    *(&raw mut (*(_2243 as *mut l_struct_struct_OC_astcenc_config)).field6
                         as *mut core::ffi::c_float) = _2242;
                     _2244 = _2133;
-                    _2245 = *(&mut (*(_2244 as *mut l_struct_struct_OC_astcenc_config)).field7
+                    _2245 = *(&raw mut (*(_2244 as *mut l_struct_struct_OC_astcenc_config)).field7
                         as *mut core::ffi::c_float);
                     _2246 = _2135;
                     _2247 = _ZN4astcL3maxIfEET_S1_S1_(_2245, _2246);
                     _2248 = _2133;
-                    *(&mut (*(_2248 as *mut l_struct_struct_OC_astcenc_config)).field7
+                    *(&raw mut (*(_2248 as *mut l_struct_struct_OC_astcenc_config)).field7
                         as *mut core::ffi::c_float) = _2247;
                     _2249 = _2133;
-                    _2250 = *(&mut (*(_2249 as *mut l_struct_struct_OC_astcenc_config)).field8
+                    _2250 = *(&raw mut (*(_2249 as *mut l_struct_struct_OC_astcenc_config)).field8
                         as *mut core::ffi::c_float);
                     _2251 = _2135;
                     _2252 = _ZN4astcL3maxIfEET_S1_S1_(_2250, _2251);
                     _2253 = _2133;
-                    *(&mut (*(_2253 as *mut l_struct_struct_OC_astcenc_config)).field8
+                    *(&raw mut (*(_2253 as *mut l_struct_struct_OC_astcenc_config)).field8
                         as *mut core::ffi::c_float) = _2252;
                     _2132 = 0;
                 } else {
@@ -10449,15 +10496,15 @@ pub unsafe extern "C" fn _ZN15astcenc_contextD2Ev(mut _2265: *mut core::ffi::c_v
     _2266 = _2265;
     _2267 = _2266;
     _ZN15ParallelManagerD2Ev(
-        &mut (*(_2267 as *mut l_struct_struct_OC_astcenc_context)).field3
+        &raw mut (*(_2267 as *mut l_struct_struct_OC_astcenc_context)).field3
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
     _ZN15ParallelManagerD2Ev(
-        &mut (*(_2267 as *mut l_struct_struct_OC_astcenc_context)).field2
+        &raw mut (*(_2267 as *mut l_struct_struct_OC_astcenc_context)).field2
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
     _ZN15ParallelManagerD2Ev(
-        &mut (*(_2267 as *mut l_struct_struct_OC_astcenc_context)).field1
+        &raw mut (*(_2267 as *mut l_struct_struct_OC_astcenc_context)).field1
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
 }
@@ -10618,14 +10665,14 @@ pub unsafe extern "C" fn _Z20astcenc_context_freeP15astcenc_context(
     _2322 = _2320;
     if !_2322.is_null() {
         _2323 = _2320;
-        _2321 = &mut (*(_2323 as *mut l_struct_struct_OC_astcenc_context)).field0
+        _2321 = &raw mut (*(_2323 as *mut l_struct_struct_OC_astcenc_context)).field0
             as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
         _2324 = _2321;
-        _2325 = *(&mut (*(_2324 as *mut l_struct_struct_OC_astcenc_contexti)).field4
+        _2325 = *(&raw mut (*(_2324 as *mut l_struct_struct_OC_astcenc_contexti)).field4
             as *mut *mut core::ffi::c_void);
         _Z12aligned_freeI27compression_working_buffersEvPT_(_2325);
         _2326 = _2321;
-        _2327 = *(&mut (*(_2326 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+        _2327 = *(&raw mut (*(_2326 as *mut l_struct_struct_OC_astcenc_contexti)).field2
             as *mut *mut core::ffi::c_void);
         _Z12aligned_freeI21block_size_descriptorEvPT_(_2327);
         _2328 = _2320;
@@ -10775,12 +10822,12 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
     _2347 = _2340;
     _2348 = _2341;
     _2365 = _2343;
-    _2349 = &mut (*(_2365 as *mut l_struct_struct_OC_astcenc_context)).field0
+    _2349 = &raw mut (*(_2365 as *mut l_struct_struct_OC_astcenc_context)).field0
         as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
     _2366 = _2344;
     _2351 = _2366;
     _2367 = _2349;
-    _2368 = *(&mut (*(&mut (*(_2367 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2368 = *(&raw mut (*(&raw mut (*(_2367 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
     if _2368 & 16 != 0 as core::ffi::c_uint {
@@ -10796,40 +10843,46 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
         } else {
             _2373 = _2348;
             _2374 = _2349;
-            _2375 = *(&mut (*(_2374 as *mut l_struct_struct_OC_astcenc_contexti)).field1
+            _2375 = *(&raw mut (*(_2374 as *mut l_struct_struct_OC_astcenc_contexti)).field1
                 as *mut uint32_t);
             if _2373 >= _2375 {
                 _2342 = 3;
             } else {
                 _2376 = _2349;
-                _2377 = *(&mut (*(&mut (*(_2376 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                _2377 = *(&raw mut (*(&raw mut (*(_2376
+                    as *mut l_struct_struct_OC_astcenc_contexti))
+                    .field0
                     as *mut l_struct_struct_OC_astcenc_config))
                     .field2 as *mut uint32_t);
                 _2352 = _2377;
                 _2378 = _2349;
-                _2379 = *(&mut (*(&mut (*(_2378 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                _2379 = *(&raw mut (*(&raw mut (*(_2378
+                    as *mut l_struct_struct_OC_astcenc_contexti))
+                    .field0
                     as *mut l_struct_struct_OC_astcenc_config))
                     .field3 as *mut uint32_t);
                 _2353 = _2379;
                 _2380 = _2349;
-                _2381 = *(&mut (*(&mut (*(_2380 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                _2381 = *(&raw mut (*(&raw mut (*(_2380
+                    as *mut l_struct_struct_OC_astcenc_contexti))
+                    .field0
                     as *mut l_struct_struct_OC_astcenc_config))
                     .field4 as *mut uint32_t);
                 _2354 = _2381;
                 _2382 = _2351;
-                _2383 = *(&mut (*(_2382 as *mut l_struct_struct_OC_astcenc_image)).field0
+                _2383 = *(&raw mut (*(_2382 as *mut l_struct_struct_OC_astcenc_image)).field0
                     as *mut uint32_t);
                 _2384 = _2352;
                 _2385 = _2352;
                 _2355 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_2383, _2384), 1), _2385);
                 _2386 = _2351;
-                _2387 = *(&mut (*(_2386 as *mut l_struct_struct_OC_astcenc_image)).field1
+                _2387 = *(&raw mut (*(_2386 as *mut l_struct_struct_OC_astcenc_image)).field1
                     as *mut uint32_t);
                 _2388 = _2353;
                 _2389 = _2353;
                 _2356 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_2387, _2388), 1), _2389);
                 _2390 = _2351;
-                _2391 = *(&mut (*(_2390 as *mut l_struct_struct_OC_astcenc_image)).field2
+                _2391 = *(&raw mut (*(_2390 as *mut l_struct_struct_OC_astcenc_image)).field2
                     as *mut uint32_t);
                 _2392 = _2354;
                 _2393 = _2354;
@@ -10845,14 +10898,15 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
                     _2342 = 1;
                 } else {
                     _2399 = _2349;
-                    _2400 = *(&mut (*(_2399 as *mut l_struct_struct_OC_astcenc_contexti)).field1
+                    _2400 = *(&raw mut (*(_2399 as *mut l_struct_struct_OC_astcenc_contexti)).field1
                         as *mut uint32_t);
                     if _2400 == 1 as core::ffi::c_uint {
                         _2401 = _2343;
                         _2402 = _Z22astcenc_compress_resetP15astcenc_context(_2401);
                     }
                     _2403 = _2349;
-                    _2404 = *(&mut (*(&mut (*(_2403 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _2404 = *(&raw mut (*(&raw mut (*(_2403
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field9 as *mut uint32_t);
@@ -10874,7 +10928,7 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
                                 as *mut core::ffi::c_void,
                         );
                         _ZN15ParallelManager4initESt8functionIFjvEE(
-                            &mut (*(_2408 as *mut l_struct_struct_OC_astcenc_context)).field1
+                            &raw mut (*(_2408 as *mut l_struct_struct_OC_astcenc_context)).field1
                                 as *mut l_struct_class_OC_ParallelManager
                                 as *mut core::ffi::c_void,
                             &mut _2360 as *mut l_struct_class_OC_std_KD__KD_function
@@ -10888,14 +10942,14 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
                         _2410 = _2349;
                         _ZL16compute_averagesR15astcenc_contextRK8avg_args(
                             _2409,
-                            &mut (*(_2410 as *mut l_struct_struct_OC_astcenc_contexti)).field5
+                            &raw mut (*(_2410 as *mut l_struct_struct_OC_astcenc_contexti)).field5
                                 as *mut l_struct_struct_OC_avg_args
                                 as *mut core::ffi::c_void,
                         );
                     }
                     _2411 = _2343;
                     _ZN15ParallelManager4waitEv(
-                        &mut (*(_2411 as *mut l_struct_struct_OC_astcenc_context)).field1
+                        &raw mut (*(_2411 as *mut l_struct_struct_OC_astcenc_context)).field1
                             as *mut l_struct_class_OC_ParallelManager
                             as *mut core::ffi::c_void,
                     );
@@ -10909,7 +10963,7 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
                     );
                     _2417 = _2343;
                     _ZN15ParallelManager4waitEv(
-                        &mut (*(_2417 as *mut l_struct_struct_OC_astcenc_context)).field2
+                        &raw mut (*(_2417 as *mut l_struct_struct_OC_astcenc_context)).field2
                             as *mut l_struct_class_OC_ParallelManager
                             as *mut core::ffi::c_void,
                     );
@@ -10924,7 +10978,7 @@ pub unsafe extern "C" fn _Z22astcenc_compress_imageP15astcenc_contextP13astcenc_
                             as *mut core::ffi::c_void,
                     );
                     _ZN15ParallelManager4termESt8functionIFvvEE(
-                        &mut (*(_2419 as *mut l_struct_struct_OC_astcenc_context)).field2
+                        &raw mut (*(_2419 as *mut l_struct_struct_OC_astcenc_context)).field2
                             as *mut l_struct_class_OC_ParallelManager
                             as *mut core::ffi::c_void,
                         &mut _2364 as *mut l_struct_class_OC_std_KD__KD_function_OC_3
@@ -10964,27 +11018,28 @@ unsafe extern "C" fn _ZL28validate_compression_swizzleRK15astcenc_swizzle(
     let mut _2451: uint32_t = 0;
     _2438 = _2436;
     _2439 = _2438;
-    _2440 = *(&mut (*(_2439 as *mut l_struct_struct_OC_astcenc_swizzle)).field0 as *mut uint32_t);
+    _2440 =
+        *(&raw mut (*(_2439 as *mut l_struct_struct_OC_astcenc_swizzle)).field0 as *mut uint32_t);
     _2441 = _ZL24validate_compression_swz11astcenc_swz(_2440);
     if _2441 != 0 as core::ffi::c_uint {
         current_block = 15876810190971417653;
     } else {
         _2442 = _2438;
-        _2443 =
-            *(&mut (*(_2442 as *mut l_struct_struct_OC_astcenc_swizzle)).field1 as *mut uint32_t);
+        _2443 = *(&raw mut (*(_2442 as *mut l_struct_struct_OC_astcenc_swizzle)).field1
+            as *mut uint32_t);
         _2444 = _ZL24validate_compression_swz11astcenc_swz(_2443);
         if _2444 != 0 as core::ffi::c_uint {
             current_block = 15876810190971417653;
         } else {
             _2445 = _2438;
-            _2446 = *(&mut (*(_2445 as *mut l_struct_struct_OC_astcenc_swizzle)).field2
+            _2446 = *(&raw mut (*(_2445 as *mut l_struct_struct_OC_astcenc_swizzle)).field2
                 as *mut uint32_t);
             _2447 = _ZL24validate_compression_swz11astcenc_swz(_2446);
             if _2447 != 0 as core::ffi::c_uint {
                 current_block = 15876810190971417653;
             } else {
                 _2448 = _2438;
-                _2449 = *(&mut (*(_2448 as *mut l_struct_struct_OC_astcenc_swizzle)).field3
+                _2449 = *(&raw mut (*(_2448 as *mut l_struct_struct_OC_astcenc_swizzle)).field3
                     as *mut uint32_t);
                 _2450 = _ZL24validate_compression_swz11astcenc_swz(_2449);
                 if _2450 != 0 as core::ffi::c_uint {
@@ -11021,10 +11076,10 @@ pub unsafe extern "C" fn _Z22astcenc_compress_resetP15astcenc_context(
     let mut _2467: uint32_t = 0;
     _2460 = _2458;
     _2462 = _2460;
-    _2461 = &mut (*(_2462 as *mut l_struct_struct_OC_astcenc_context)).field0
+    _2461 = &raw mut (*(_2462 as *mut l_struct_struct_OC_astcenc_context)).field0
         as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
     _2463 = _2461;
-    _2464 = *(&mut (*(&mut (*(_2463 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2464 = *(&raw mut (*(&raw mut (*(_2463 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
     if _2464 & 16 != 0 as core::ffi::c_uint {
@@ -11032,12 +11087,12 @@ pub unsafe extern "C" fn _Z22astcenc_compress_resetP15astcenc_context(
     } else {
         _2465 = _2460;
         _ZN15ParallelManager5resetEv(
-            &mut (*(_2465 as *mut l_struct_struct_OC_astcenc_context)).field1
+            &raw mut (*(_2465 as *mut l_struct_struct_OC_astcenc_context)).field1
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
         );
         _2466 = _2460;
         _ZN15ParallelManager5resetEv(
-            &mut (*(_2466 as *mut l_struct_struct_OC_astcenc_context)).field2
+            &raw mut (*(_2466 as *mut l_struct_struct_OC_astcenc_context)).field2
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
         );
         _2459 = 0;
@@ -11067,15 +11122,15 @@ pub unsafe extern "C" fn _ZN15ParallelManager4initESt8functionIFjvEE(
     _2478 = _2473;
     _ZNSt10lock_guardISt5mutexEC2ERS0_(
         &mut _2475 as *mut l_struct_class_OC_std_KD__KD_lock_guard as *mut core::ffi::c_void,
-        &mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field0
+        &raw mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field0
             as *mut l_struct_class_OC_std_KD__KD_mutex as *mut core::ffi::c_void,
     );
-    _2479 = *(&mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t);
+    _2479 = *(&raw mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t);
     if !(_2479 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0) {
         _2480 = _ZNKSt8functionIFjvEEclEv(_2472);
-        *(&mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) =
+        *(&raw mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) =
             _2480;
-        *(&mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t) = 1;
+        *(&raw mut (*(_2478 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t) = 1;
     }
     _ZNSt10lock_guardISt5mutexED2Ev(
         &mut _2475 as *mut l_struct_class_OC_std_KD__KD_lock_guard as *mut core::ffi::c_void,
@@ -11101,7 +11156,7 @@ unsafe extern "C" fn _ZNSt8functionIFjvEEC2IRZ22astcenc_compress_imageP15astcenc
     _2490 = _2486;
     _2491 = memset(_2490 as *mut uint8_t as *mut core::ffi::c_void, 0, 24);
     _ZNSt14_Function_baseC2Ev(_2490);
-    let ref mut fresh10 = *(&mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD_function)).field1
+    let ref mut fresh10 = *(&raw mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD_function)).field1
         as *mut *mut core::ffi::c_void);
     *fresh10 = 0 as *mut core::ffi::c_void;
     _2492 = _2487;
@@ -11114,12 +11169,12 @@ unsafe extern "C" fn _ZNSt8functionIFjvEEC2IRZ22astcenc_compress_imageP15astcenc
             _2494,
         );
         _ZNSt14_Function_base13_Base_managerIZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__0E15_M_init_functorIRS9_EEvRSt9_Any_dataOT_(
-            &mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
+            &raw mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
                 as *mut l_struct_union_OC_std_KD__KD__Any_data as *mut core::ffi::c_void,
             _2495,
         );
-        let ref mut fresh11 = *(&mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD_function)).field1
-            as *mut *mut core::ffi::c_void);
+        let ref mut fresh11 = *(&raw mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD_function))
+            .field1 as *mut *mut core::ffi::c_void);
         *fresh11 = ::core::mem::transmute::<
             Option::<unsafe extern "C" fn(*mut core::ffi::c_void) -> uint32_t>,
             *mut core::ffi::c_void,
@@ -11129,7 +11184,8 @@ unsafe extern "C" fn _ZNSt8functionIFjvEEC2IRZ22astcenc_compress_imageP15astcenc
                     as unsafe extern "C" fn(*mut core::ffi::c_void) -> uint32_t,
             ),
         );
-        let ref mut fresh12 = *(&mut (*(_2490 as *mut l_struct_class_OC_std_KD__KD__Function_base))
+        let ref mut fresh12 = *(&raw mut (*(_2490
+            as *mut l_struct_class_OC_std_KD__KD__Function_base))
             .field1 as *mut *mut core::ffi::c_void);
         *fresh12 = ::core::mem::transmute::<
             Option::<
@@ -11263,12 +11319,12 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
     _2519 = _2505;
     _2520 = memcpy(
         &mut _2506 as *mut l_struct_struct_OC_pixel_region_args as *mut core::ffi::c_void,
-        &mut (*(_2519 as *mut l_struct_struct_OC_avg_args)).field0
+        &raw mut (*(_2519 as *mut l_struct_struct_OC_avg_args)).field0
             as *mut l_struct_struct_OC_pixel_region_args as *mut core::ffi::c_void,
         64,
     );
     _2521 = _2505;
-    _2522 = *(&mut (*(_2521 as *mut l_struct_struct_OC_avg_args)).field6 as *mut uint32_t);
+    _2522 = *(&raw mut (*(_2521 as *mut l_struct_struct_OC_avg_args)).field6 as *mut uint32_t);
     _2523 = llvm_OC_umul_OC_with_OC_overflow_OC_i64(_2522 as uint64_t, 16);
     _2524 = _Znam(llvm_select_u64(
         _2523.field1,
@@ -11278,19 +11334,19 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
     let ref mut fresh13 = *(&mut _2506.field10 as *mut *mut core::ffi::c_void);
     *fresh13 = _2524;
     _2525 = _2505;
-    _2526 = *(&mut (*(_2525 as *mut l_struct_struct_OC_avg_args)).field1 as *mut uint32_t);
+    _2526 = *(&raw mut (*(_2525 as *mut l_struct_struct_OC_avg_args)).field1 as *mut uint32_t);
     _2507 = _2526;
     _2527 = _2505;
-    _2528 = *(&mut (*(_2527 as *mut l_struct_struct_OC_avg_args)).field2 as *mut uint32_t);
+    _2528 = *(&raw mut (*(_2527 as *mut l_struct_struct_OC_avg_args)).field2 as *mut uint32_t);
     _2508 = _2528;
     _2529 = _2505;
-    _2530 = *(&mut (*(_2529 as *mut l_struct_struct_OC_avg_args)).field3 as *mut uint32_t);
+    _2530 = *(&raw mut (*(_2529 as *mut l_struct_struct_OC_avg_args)).field3 as *mut uint32_t);
     _2509 = _2530;
     _2531 = _2505;
-    _2532 = *(&mut (*(_2531 as *mut l_struct_struct_OC_avg_args)).field4 as *mut uint32_t);
+    _2532 = *(&raw mut (*(_2531 as *mut l_struct_struct_OC_avg_args)).field4 as *mut uint32_t);
     _2510 = _2532;
     _2533 = _2505;
-    _2534 = *(&mut (*(_2533 as *mut l_struct_struct_OC_avg_args)).field5 as *mut uint32_t);
+    _2534 = *(&raw mut (*(_2533 as *mut l_struct_struct_OC_avg_args)).field5 as *mut uint32_t);
     _2511 = _2534;
     _2535 = _2508;
     _2536 = _2510;
@@ -11302,7 +11358,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
     loop {
         _2538 = _2504;
         _2539 = _ZN15ParallelManager19get_task_assignmentEjRj(
-            &mut (*(_2538 as *mut l_struct_struct_OC_astcenc_context)).field1
+            &raw mut (*(_2538 as *mut l_struct_struct_OC_astcenc_context)).field1
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
             16,
             &mut _2513 as *mut uint32_t as *mut core::ffi::c_void,
@@ -11360,7 +11416,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
                 *(&mut _2506.field7 as *mut uint32_t) = _2568;
                 _2569 = _2504;
                 _Z29compute_pixel_region_varianceR16astcenc_contextiRK17pixel_region_args(
-                    &mut (*(_2569 as *mut l_struct_struct_OC_astcenc_context)).field0
+                    &raw mut (*(_2569 as *mut l_struct_struct_OC_astcenc_context)).field0
                         as *mut l_struct_struct_OC_astcenc_contexti
                         as *mut core::ffi::c_void,
                     &mut _2506 as *mut l_struct_struct_OC_pixel_region_args
@@ -11376,7 +11432,7 @@ unsafe extern "C" fn _ZL16compute_averagesR15astcenc_contextRK8avg_args(
         _2573 = _2504;
         _2574 = _2513;
         _ZN15ParallelManager24complete_task_assignmentEj(
-            &mut (*(_2573 as *mut l_struct_struct_OC_astcenc_context)).field1
+            &raw mut (*(_2573 as *mut l_struct_struct_OC_astcenc_context)).field1
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
             _2574,
         );
@@ -11407,14 +11463,14 @@ pub unsafe extern "C" fn _ZN15ParallelManager4waitEv(mut _2590: *mut core::ffi::
     _2596 = _2591;
     _ZNSt11unique_lockISt5mutexEC2ERS0_(
         &mut _2592 as *mut l_struct_class_OC_std_KD__KD_unique_lock as *mut core::ffi::c_void,
-        &mut (*(_2596 as *mut l_struct_class_OC_ParallelManager)).field0
+        &raw mut (*(_2596 as *mut l_struct_class_OC_ParallelManager)).field0
             as *mut l_struct_class_OC_std_KD__KD_mutex as *mut core::ffi::c_void,
     );
     let ref mut fresh14 = *(&mut _2593.field0 as *mut *mut core::ffi::c_void);
     *fresh14 = _2596;
     _2597 = *(&mut _2593.field0 as *mut *mut core::ffi::c_void);
     _ZNSt18condition_variable4waitIZN15ParallelManager4waitEvEUlvE_EEvRSt11unique_lockISt5mutexET_(
-        &mut (*(_2596 as *mut l_struct_class_OC_ParallelManager)).field4
+        &raw mut (*(_2596 as *mut l_struct_class_OC_ParallelManager)).field4
             as *mut l_struct_class_OC_std_KD__KD_condition_variable
             as *mut core::ffi::c_void,
         &mut _2592 as *mut l_struct_class_OC_std_KD__KD_unique_lock as *mut core::ffi::c_void,
@@ -11784,28 +11840,28 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
     _2630 = _2602;
     _2631 = _2603;
     _2681 = _2627;
-    _2632 = &mut (*(_2681 as *mut l_struct_struct_OC_astcenc_context)).field0
+    _2632 = &raw mut (*(_2681 as *mut l_struct_struct_OC_astcenc_context)).field0
         as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
     _2682 = _2632;
-    _2683 = *(&mut (*(_2682 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+    _2683 = *(&raw mut (*(_2682 as *mut l_struct_struct_OC_astcenc_contexti)).field2
         as *mut *mut core::ffi::c_void);
     _2633 = _2683;
     _2684 = _2632;
-    _2685 = *(&mut (*(&mut (*(_2684 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2685 = *(&raw mut (*(&raw mut (*(_2684 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field0 as *mut uint32_t);
     _2634 = _2685;
     _2686 = _2633;
-    _2687 =
-        *(&mut (*(_2686 as *mut l_struct_struct_OC_block_size_descriptor)).field0 as *mut uint8_t);
+    _2687 = *(&raw mut (*(_2686 as *mut l_struct_struct_OC_block_size_descriptor)).field0
+        as *mut uint8_t);
     _2636 = _2687 as uint32_t;
     _2688 = _2633;
-    _2689 =
-        *(&mut (*(_2688 as *mut l_struct_struct_OC_block_size_descriptor)).field1 as *mut uint8_t);
+    _2689 = *(&raw mut (*(_2688 as *mut l_struct_struct_OC_block_size_descriptor)).field1
+        as *mut uint8_t);
     _2637 = _2689 as uint32_t;
     _2690 = _2633;
-    _2691 =
-        *(&mut (*(_2690 as *mut l_struct_struct_OC_block_size_descriptor)).field2 as *mut uint8_t);
+    _2691 = *(&raw mut (*(_2690 as *mut l_struct_struct_OC_block_size_descriptor)).field2
+        as *mut uint8_t);
     _2638 = _2691 as uint32_t;
     _2692 = _2636;
     _2693 = _2637;
@@ -11813,13 +11869,13 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
     *(&mut _2635.field4 as *mut uint8_t) =
         llvm_mul_u32(llvm_mul_u32(_2692, _2693), _2694) as uint8_t;
     _2695 = _2629;
-    _2696 = *(&mut (*(_2695 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
+    _2696 = *(&raw mut (*(_2695 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
     _2639 = _2696;
     _2697 = _2629;
-    _2698 = *(&mut (*(_2697 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
+    _2698 = *(&raw mut (*(_2697 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
     _2640 = _2698;
     _2699 = _2629;
-    _2700 = *(&mut (*(_2699 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
+    _2700 = *(&raw mut (*(_2699 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
     _2641 = _2700;
     _2701 = _2639;
     _2702 = _2636;
@@ -11852,26 +11908,26 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
     _2715 = _2643;
     _2647 = llvm_mul_u32(_2714, _2715);
     _2716 = _2627;
-    _2717 = *(&mut (*(&mut (*(&mut (*(_2716 as *mut l_struct_struct_OC_astcenc_context)).field0
-        as *mut l_struct_struct_OC_astcenc_contexti))
+    _2717 = *(&raw mut (*(&raw mut (*(&raw mut (*(_2716 as *mut l_struct_struct_OC_astcenc_context))
+        .field0 as *mut l_struct_struct_OC_astcenc_contexti))
         .field0 as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
     *(&mut _2635.field11 as *mut uint8_t) =
         (_2717 & 2 != 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _2718 = _2632;
-    _2719 = *(&mut (*(&mut (*(_2718 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2719 = *(&raw mut (*(&raw mut (*(_2718 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field5 as *mut core::ffi::c_float);
     _2720 = _2632;
-    _2721 = *(&mut (*(&mut (*(_2720 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2721 = *(&raw mut (*(&raw mut (*(_2720 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field6 as *mut core::ffi::c_float);
     _2722 = _2632;
-    _2723 = *(&mut (*(&mut (*(_2722 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2723 = *(&raw mut (*(&raw mut (*(_2722 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field7 as *mut core::ffi::c_float);
     _2724 = _2632;
-    _2725 = *(&mut (*(&mut (*(_2724 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2725 = *(&raw mut (*(&raw mut (*(_2724 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field8 as *mut core::ffi::c_float);
     _2622 = &mut _2648 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
@@ -11900,7 +11956,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
         16,
     );
     _2732 = _2632;
-    _2733 = *(&mut (*(_2732 as *mut l_struct_struct_OC_astcenc_contexti)).field4
+    _2733 = *(&raw mut (*(_2732 as *mut l_struct_struct_OC_astcenc_contexti)).field4
         as *mut *mut core::ffi::c_void);
     _2734 = _2628;
     _2649 = &raw mut *(_2733 as *mut l_struct_struct_OC_compression_working_buffers)
@@ -11910,34 +11966,35 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
     _2735 = _2627;
     _2736 = _2645;
     _2737 = _2632;
-    _2738 = *(&mut (*(&mut (*(_2737 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2738 = *(&raw mut (*(&raw mut (*(_2737 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field27 as *mut *mut core::ffi::c_void);
     _ZN15ParallelManager4initEjPFvfE(
-        &mut (*(_2735 as *mut l_struct_struct_OC_astcenc_context)).field2
+        &raw mut (*(_2735 as *mut l_struct_struct_OC_astcenc_context)).field2
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
         _2736,
         _2738,
     );
     _2739 = _2630;
-    _2740 = *(&mut (*(_2739 as *mut l_struct_struct_OC_astcenc_swizzle)).field0 as *mut uint32_t);
+    _2740 =
+        *(&raw mut (*(_2739 as *mut l_struct_struct_OC_astcenc_swizzle)).field0 as *mut uint32_t);
     if _2740 != 0 as core::ffi::c_uint {
         _2747__PHI_TEMPORARY = 1 as core::ffi::c_int as bool_0;
     } else {
         _2741 = _2630;
-        _2742 =
-            *(&mut (*(_2741 as *mut l_struct_struct_OC_astcenc_swizzle)).field1 as *mut uint32_t);
+        _2742 = *(&raw mut (*(_2741 as *mut l_struct_struct_OC_astcenc_swizzle)).field1
+            as *mut uint32_t);
         if _2742 != 1 as core::ffi::c_uint {
             _2747__PHI_TEMPORARY = 1 as core::ffi::c_int as bool_0;
         } else {
             _2743 = _2630;
-            _2744 = *(&mut (*(_2743 as *mut l_struct_struct_OC_astcenc_swizzle)).field2
+            _2744 = *(&raw mut (*(_2743 as *mut l_struct_struct_OC_astcenc_swizzle)).field2
                 as *mut uint32_t);
             if _2744 != 2 as core::ffi::c_uint {
                 _2747__PHI_TEMPORARY = 1 as core::ffi::c_int as bool_0;
             } else {
                 _2745 = _2630;
-                _2746 = *(&mut (*(_2745 as *mut l_struct_struct_OC_astcenc_swizzle)).field3
+                _2746 = *(&raw mut (*(_2745 as *mut l_struct_struct_OC_astcenc_swizzle)).field3
                     as *mut uint32_t);
                 _2747__PHI_TEMPORARY =
                     (_2746 != 3 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
@@ -11966,7 +12023,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
             _2753 = _2638;
             if _2753 == 1 as core::ffi::c_uint {
                 _2754 = _2629;
-                _2755 = *(&mut (*(_2754 as *mut l_struct_struct_OC_astcenc_image)).field3
+                _2755 = *(&raw mut (*(_2754 as *mut l_struct_struct_OC_astcenc_image)).field3
                     as *mut uint32_t);
                 _2756__PHI_TEMPORARY =
                     (_2755 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
@@ -12041,7 +12098,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
     loop {
         _2758 = _2627;
         _2759 = _ZN15ParallelManager19get_task_assignmentEjRj(
-            &mut (*(_2758 as *mut l_struct_struct_OC_astcenc_context)).field2
+            &raw mut (*(_2758 as *mut l_struct_struct_OC_astcenc_context)).field2
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
             16,
             &mut _2654 as *mut uint32_t as *mut core::ffi::c_void,
@@ -12076,7 +12133,8 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
             _2660 = llvm_sub_u32(_2772, llvm_mul_u32(_2773, _2774));
             _2661 = 1;
             _2775 = _2632;
-            _2776 = *(&mut (*(&mut (*(_2775 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+            _2776 = *(&raw mut (*(&raw mut (*(_2775 as *mut l_struct_struct_OC_astcenc_contexti))
+                .field0
                 as *mut l_struct_struct_OC_astcenc_config))
                 .field9 as *mut uint32_t);
             if _2776 != 0 as core::ffi::c_uint {
@@ -12100,14 +12158,16 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                     _2665 = _2789;
                     _2790 = _2636;
                     _2791 = _2632;
-                    _2792 = *(&mut (*(&mut (*(_2791 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _2792 = *(&raw mut (*(&raw mut (*(_2791
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field9 as *mut uint32_t);
                     _2666 = llvm_add_u32(_2790, llvm_mul_u32(2, llvm_sub_u32(_2792, 1)));
                     _2793 = _2637;
                     _2794 = _2632;
-                    _2795 = *(&mut (*(&mut (*(_2794 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _2795 = *(&raw mut (*(&raw mut (*(_2794
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field9 as *mut uint32_t);
@@ -12138,7 +12198,8 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                                 break;
                             }
                             _2805 = _2632;
-                            _2806 = *(&mut (*(_2805 as *mut l_struct_struct_OC_astcenc_contexti))
+                            _2806 = *(&raw mut (*(_2805
+                                as *mut l_struct_struct_OC_astcenc_contexti))
                                 .field3
                                 as *mut *mut core::ffi::c_void);
                             _2807 = _2670;
@@ -12204,7 +12265,9 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                     _2828,
                 );
                 _2829 = _2632;
-                _2830 = *(&mut (*(&mut (*(_2829 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                _2830 = *(&raw mut (*(&raw mut (*(_2829
+                    as *mut l_struct_struct_OC_astcenc_contexti))
+                    .field0
                     as *mut l_struct_struct_OC_astcenc_config))
                     .field1 as *mut uint32_t);
                 if _2830 & 4 != 0 as core::ffi::c_uint {
@@ -12217,25 +12280,29 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
                         as *mut core::ffi::c_float);
                     _2673 = llvm_fmul_f32(_2832, 1.52590219E-5f64 as core::ffi::c_float);
                     _2833 = _2632;
-                    _2834 = *(&mut (*(&mut (*(_2833 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _2834 = *(&raw mut (*(&raw mut (*(_2833
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field5 as *mut core::ffi::c_float);
                     _2835 = _2673;
                     _2836 = _2632;
-                    _2837 = *(&mut (*(&mut (*(_2836 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _2837 = *(&raw mut (*(&raw mut (*(_2836
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field6 as *mut core::ffi::c_float);
                     _2838 = _2673;
                     _2839 = _2632;
-                    _2840 = *(&mut (*(&mut (*(_2839 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _2840 = *(&raw mut (*(&raw mut (*(_2839
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field7 as *mut core::ffi::c_float);
                     _2841 = _2673;
                     _2842 = _2632;
-                    _2843 = *(&mut (*(&mut (*(_2842 as *mut l_struct_struct_OC_astcenc_contexti))
+                    _2843 = *(&raw mut (*(&raw mut (*(_2842
+                        as *mut l_struct_struct_OC_astcenc_contexti))
                         .field0
                         as *mut l_struct_struct_OC_astcenc_config))
                         .field8 as *mut core::ffi::c_float);
@@ -12411,7 +12478,7 @@ unsafe extern "C" fn _ZL14compress_imageR15astcenc_contextjRK13astcenc_imageRK15
         _2889 = _2627;
         _2890 = _2654;
         _ZN15ParallelManager24complete_task_assignmentEj(
-            &mut (*(_2889 as *mut l_struct_struct_OC_astcenc_context)).field2
+            &raw mut (*(_2889 as *mut l_struct_struct_OC_astcenc_context)).field2
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
             _2890,
         );
@@ -12438,13 +12505,13 @@ pub unsafe extern "C" fn _ZN15ParallelManager4termESt8functionIFvvEE(
     _2936 = _2931;
     _ZNSt10lock_guardISt5mutexEC2ERS0_(
         &mut _2933 as *mut l_struct_class_OC_std_KD__KD_lock_guard as *mut core::ffi::c_void,
-        &mut (*(_2936 as *mut l_struct_class_OC_ParallelManager)).field0
+        &raw mut (*(_2936 as *mut l_struct_class_OC_ParallelManager)).field0
             as *mut l_struct_class_OC_std_KD__KD_mutex as *mut core::ffi::c_void,
     );
-    _2937 = *(&mut (*(_2936 as *mut l_struct_class_OC_ParallelManager)).field3 as *mut uint8_t);
+    _2937 = *(&raw mut (*(_2936 as *mut l_struct_class_OC_ParallelManager)).field3 as *mut uint8_t);
     if !(_2937 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0) {
         _ZNKSt8functionIFvvEEclEv(_2930);
-        *(&mut (*(_2936 as *mut l_struct_class_OC_ParallelManager)).field3 as *mut uint8_t) = 1;
+        *(&raw mut (*(_2936 as *mut l_struct_class_OC_ParallelManager)).field3 as *mut uint8_t) = 1;
     }
     _ZNSt10lock_guardISt5mutexED2Ev(
         &mut _2933 as *mut l_struct_class_OC_std_KD__KD_lock_guard as *mut core::ffi::c_void,
@@ -12468,7 +12535,7 @@ unsafe extern "C" fn _ZNSt8functionIFvvEEC2IRZ22astcenc_compress_imageP15astcenc
     _2945 = _2943;
     _2946 = memset(_2945 as *mut uint8_t as *mut core::ffi::c_void, 0, 24);
     _ZNSt14_Function_baseC2Ev(_2945);
-    let ref mut fresh15 = *(&mut (*(_2945 as *mut l_struct_class_OC_std_KD__KD_function_OC_3))
+    let ref mut fresh15 = *(&raw mut (*(_2945 as *mut l_struct_class_OC_std_KD__KD_function_OC_3))
         .field1 as *mut *mut core::ffi::c_void);
     *fresh15 = 0 as *mut core::ffi::c_void;
     _2947 = _2944;
@@ -12481,11 +12548,12 @@ unsafe extern "C" fn _ZNSt8functionIFvvEEC2IRZ22astcenc_compress_imageP15astcenc
             _2949,
         );
         _ZNSt14_Function_base13_Base_managerIZ22astcenc_compress_imageP15astcenc_contextP13astcenc_imagePK15astcenc_swizzlePhmjE3_EC__1E15_M_init_functorIRS9_EEvRSt9_Any_dataOT_(
-            &mut (*(_2945 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
+            &raw mut (*(_2945 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
                 as *mut l_struct_union_OC_std_KD__KD__Any_data as *mut core::ffi::c_void,
             _2950,
         );
-        let ref mut fresh16 = *(&mut (*(_2945 as *mut l_struct_class_OC_std_KD__KD_function_OC_3))
+        let ref mut fresh16 = *(&raw mut (*(_2945
+            as *mut l_struct_class_OC_std_KD__KD_function_OC_3))
             .field1 as *mut *mut core::ffi::c_void);
         *fresh16 = ::core::mem::transmute::<
             Option::<unsafe extern "C" fn(*mut core::ffi::c_void) -> ()>,
@@ -12496,7 +12564,8 @@ unsafe extern "C" fn _ZNSt8functionIFvvEEC2IRZ22astcenc_compress_imageP15astcenc
                     as unsafe extern "C" fn(*mut core::ffi::c_void) -> (),
             ),
         );
-        let ref mut fresh17 = *(&mut (*(_2945 as *mut l_struct_class_OC_std_KD__KD__Function_base))
+        let ref mut fresh17 = *(&raw mut (*(_2945
+            as *mut l_struct_class_OC_std_KD__KD__Function_base))
             .field1 as *mut *mut core::ffi::c_void);
         *fresh17 = ::core::mem::transmute::<
             Option::<
@@ -12537,26 +12606,26 @@ pub unsafe extern "C" fn _ZN15ParallelManager5resetEv(mut _2956: *mut core::ffi:
     let mut _2960: uint32_t = 0;
     _2957 = _2956;
     _2958 = _2957;
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t) = 0;
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field3 as *mut uint8_t) = 0;
+    *(&raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t) = 0;
+    *(&raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field3 as *mut uint8_t) = 0;
     _2959 = _ZNSt6atomicIbEaSEb(
-        &mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field1
+        &raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field1
             as *mut l_struct_struct_OC_std_KD__KD_atomic as *mut core::ffi::c_void,
         0 as core::ffi::c_int as bool_0,
     );
     _2960 = _ZNSt13__atomic_baseIjEaSEj(
-        &mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field5
+        &raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field5
             as *mut l_struct_struct_OC_std_KD__KD_atomic_OC_0 as *mut core::ffi::c_void,
         0,
     );
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t) = 0;
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) = 0;
-    let ref mut fresh18 = *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field8
+    *(&raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t) = 0;
+    *(&raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) = 0;
+    let ref mut fresh18 = *(&raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field8
         as *mut *mut core::ffi::c_void);
     *fresh18 = 0 as *mut core::ffi::c_void;
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field11
+    *(&raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field11
         as *mut core::ffi::c_float) = 0 as core::ffi::c_int as core::ffi::c_float;
-    *(&mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field10
+    *(&raw mut (*(_2958 as *mut l_struct_class_OC_ParallelManager)).field10
         as *mut core::ffi::c_float) = 1 as core::ffi::c_int as core::ffi::c_float;
 }
 #[no_mangle]
@@ -12575,10 +12644,10 @@ pub unsafe extern "C" fn _Z23astcenc_compress_cancelP15astcenc_context(
     let mut _2970: uint32_t = 0;
     _2963 = _2961;
     _2965 = _2963;
-    _2964 = &mut (*(_2965 as *mut l_struct_struct_OC_astcenc_context)).field0
+    _2964 = &raw mut (*(_2965 as *mut l_struct_struct_OC_astcenc_context)).field0
         as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
     _2966 = _2964;
-    _2967 = *(&mut (*(&mut (*(_2966 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _2967 = *(&raw mut (*(&raw mut (*(_2966 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field1 as *mut uint32_t);
     if _2967 & 16 != 0 as core::ffi::c_uint {
@@ -12586,12 +12655,12 @@ pub unsafe extern "C" fn _Z23astcenc_compress_cancelP15astcenc_context(
     } else {
         _2968 = _2963;
         _ZN15ParallelManager6cancelEv(
-            &mut (*(_2968 as *mut l_struct_struct_OC_astcenc_context)).field2
+            &raw mut (*(_2968 as *mut l_struct_struct_OC_astcenc_context)).field2
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
         );
         _2969 = _2963;
         _ZN15ParallelManager6cancelEv(
-            &mut (*(_2969 as *mut l_struct_struct_OC_astcenc_context)).field1
+            &raw mut (*(_2969 as *mut l_struct_struct_OC_astcenc_context)).field1
                 as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
         );
         _2962 = 0;
@@ -12608,7 +12677,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager6cancelEv(mut _2974: *mut core::ffi
     _2975 = _2974;
     _2976 = _2975;
     _2977 = _ZNSt6atomicIbEaSEb(
-        &mut (*(_2976 as *mut l_struct_class_OC_ParallelManager)).field1
+        &raw mut (*(_2976 as *mut l_struct_class_OC_ParallelManager)).field1
             as *mut l_struct_struct_OC_std_KD__KD_atomic as *mut core::ffi::c_void,
         1 as core::ffi::c_int as bool_0,
     );
@@ -12808,11 +12877,12 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
     _3015 = _2988;
     _2992 = _3015;
     _3016 = _2985;
-    _2993 = &mut (*(_3016 as *mut l_struct_struct_OC_astcenc_context)).field0
+    _2993 = &raw mut (*(_3016 as *mut l_struct_struct_OC_astcenc_context)).field0
         as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
     _3017 = _2990;
     _3018 = _2993;
-    _3019 = *(&mut (*(_3018 as *mut l_struct_struct_OC_astcenc_contexti)).field1 as *mut uint32_t);
+    _3019 =
+        *(&raw mut (*(_3018 as *mut l_struct_struct_OC_astcenc_contexti)).field1 as *mut uint32_t);
     if _3017 >= _3019 {
         _2984 = 3;
     } else {
@@ -12825,35 +12895,38 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
             _2984 = _3023;
         } else {
             _3024 = _2993;
-            _3025 = *(&mut (*(&mut (*(_3024 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+            _3025 = *(&raw mut (*(&raw mut (*(_3024 as *mut l_struct_struct_OC_astcenc_contexti))
+                .field0
                 as *mut l_struct_struct_OC_astcenc_config))
                 .field2 as *mut uint32_t);
             _2994 = _3025;
             _3026 = _2993;
-            _3027 = *(&mut (*(&mut (*(_3026 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+            _3027 = *(&raw mut (*(&raw mut (*(_3026 as *mut l_struct_struct_OC_astcenc_contexti))
+                .field0
                 as *mut l_struct_struct_OC_astcenc_config))
                 .field3 as *mut uint32_t);
             _2995 = _3027;
             _3028 = _2993;
-            _3029 = *(&mut (*(&mut (*(_3028 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+            _3029 = *(&raw mut (*(&raw mut (*(_3028 as *mut l_struct_struct_OC_astcenc_contexti))
+                .field0
                 as *mut l_struct_struct_OC_astcenc_config))
                 .field4 as *mut uint32_t);
             _2996 = _3029;
             _3030 = _2992;
-            _3031 =
-                *(&mut (*(_3030 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
+            _3031 = *(&raw mut (*(_3030 as *mut l_struct_struct_OC_astcenc_image)).field0
+                as *mut uint32_t);
             _3032 = _2994;
             _3033 = _2994;
             _2997 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_3031, _3032), 1), _3033);
             _3034 = _2992;
-            _3035 =
-                *(&mut (*(_3034 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
+            _3035 = *(&raw mut (*(_3034 as *mut l_struct_struct_OC_astcenc_image)).field1
+                as *mut uint32_t);
             _3036 = _2995;
             _3037 = _2995;
             _2998 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_3035, _3036), 1), _3037);
             _3038 = _2992;
-            _3039 =
-                *(&mut (*(_3038 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
+            _3039 = *(&raw mut (*(_3038 as *mut l_struct_struct_OC_astcenc_image)).field2
+                as *mut uint32_t);
             _3040 = _2996;
             _3041 = _2996;
             _2999 = llvm_udiv_u32(llvm_sub_u32(llvm_add_u32(_3039, _3040), 1), _3041);
@@ -12886,12 +12959,12 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                 *(&mut _3004.field4 as *mut uint8_t) =
                     llvm_mul_u32(llvm_mul_u32(_3054, _3055), _3056) as uint8_t;
                 _3057 = _2992;
-                _3058 = *(&mut (*(_3057 as *mut l_struct_struct_OC_astcenc_image)).field3
+                _3058 = *(&raw mut (*(_3057 as *mut l_struct_struct_OC_astcenc_image)).field3
                     as *mut uint32_t);
                 *(&mut _3004.field11 as *mut uint8_t) =
                     (_3058 == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
                 _3059 = _2993;
-                _3060 = *(&mut (*(_3059 as *mut l_struct_struct_OC_astcenc_contexti)).field1
+                _3060 = *(&raw mut (*(_3059 as *mut l_struct_struct_OC_astcenc_contexti)).field1
                     as *mut uint32_t);
                 if _3060 == 1 as core::ffi::c_uint {
                     _3061 = _2985;
@@ -12900,7 +12973,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                 _3063 = _2985;
                 _3064 = _3000;
                 _ZN15ParallelManager4initEjPFvfE(
-                    &mut (*(_3063 as *mut l_struct_struct_OC_astcenc_context)).field3
+                    &raw mut (*(_3063 as *mut l_struct_struct_OC_astcenc_context)).field3
                         as *mut l_struct_class_OC_ParallelManager
                         as *mut core::ffi::c_void,
                     _3064,
@@ -12909,7 +12982,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                 loop {
                     _3065 = _2985;
                     _3066 = _ZN15ParallelManager19get_task_assignmentEjRj(
-                        &mut (*(_3065 as *mut l_struct_struct_OC_astcenc_context)).field3
+                        &raw mut (*(_3065 as *mut l_struct_struct_OC_astcenc_context)).field3
                             as *mut l_struct_class_OC_ParallelManager
                             as *mut core::ffi::c_void,
                         128,
@@ -12965,7 +13038,8 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                             as *mut uint8_t
                             as *mut core::ffi::c_void;
                         _3089 = _2993;
-                        _3090 = *(&mut (*(_3089 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+                        _3090 = *(&raw mut (*(_3089 as *mut l_struct_struct_OC_astcenc_contexti))
+                            .field2
                             as *mut *mut core::ffi::c_void);
                         _3091 = _3013;
                         _Z20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_block(
@@ -12976,13 +13050,14 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                                 as *mut core::ffi::c_void,
                         );
                         _3092 = _2993;
-                        _3093 = *(&mut (*(&mut (*(_3092
+                        _3093 = *(&raw mut (*(&raw mut (*(_3092
                             as *mut l_struct_struct_OC_astcenc_contexti))
                             .field0
                             as *mut l_struct_struct_OC_astcenc_config))
                             .field0 as *mut uint32_t);
                         _3094 = _2993;
-                        _3095 = *(&mut (*(_3094 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+                        _3095 = *(&raw mut (*(_3094 as *mut l_struct_struct_OC_astcenc_contexti))
+                            .field2
                             as *mut *mut core::ffi::c_void);
                         _3096 = _3011;
                         _3097 = _2994;
@@ -13004,7 +13079,8 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                         );
                         _3102 = _2992;
                         _3103 = _2993;
-                        _3104 = *(&mut (*(_3103 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+                        _3104 = *(&raw mut (*(_3103 as *mut l_struct_struct_OC_astcenc_contexti))
+                            .field2
                             as *mut *mut core::ffi::c_void);
                         _3105 = _3011;
                         _3106 = _2994;
@@ -13029,7 +13105,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_imageP15astcenc_contextPKhmP13as
                     _3113 = _2985;
                     _3114 = _3005;
                     _ZN15ParallelManager24complete_task_assignmentEj(
-                        &mut (*(_3113 as *mut l_struct_struct_OC_astcenc_context)).field3
+                        &raw mut (*(_3113 as *mut l_struct_struct_OC_astcenc_context)).field3
                             as *mut l_struct_class_OC_ParallelManager
                             as *mut core::ffi::c_void,
                         _3114,
@@ -13064,27 +13140,28 @@ unsafe extern "C" fn _ZL30validate_decompression_swizzleRK15astcenc_swizzle(
     let mut _3148: uint32_t = 0;
     _3135 = _3133;
     _3136 = _3135;
-    _3137 = *(&mut (*(_3136 as *mut l_struct_struct_OC_astcenc_swizzle)).field0 as *mut uint32_t);
+    _3137 =
+        *(&raw mut (*(_3136 as *mut l_struct_struct_OC_astcenc_swizzle)).field0 as *mut uint32_t);
     _3138 = _ZL26validate_decompression_swz11astcenc_swz(_3137);
     if _3138 != 0 as core::ffi::c_uint {
         current_block = 2576984672301191410;
     } else {
         _3139 = _3135;
-        _3140 =
-            *(&mut (*(_3139 as *mut l_struct_struct_OC_astcenc_swizzle)).field1 as *mut uint32_t);
+        _3140 = *(&raw mut (*(_3139 as *mut l_struct_struct_OC_astcenc_swizzle)).field1
+            as *mut uint32_t);
         _3141 = _ZL26validate_decompression_swz11astcenc_swz(_3140);
         if _3141 != 0 as core::ffi::c_uint {
             current_block = 2576984672301191410;
         } else {
             _3142 = _3135;
-            _3143 = *(&mut (*(_3142 as *mut l_struct_struct_OC_astcenc_swizzle)).field2
+            _3143 = *(&raw mut (*(_3142 as *mut l_struct_struct_OC_astcenc_swizzle)).field2
                 as *mut uint32_t);
             _3144 = _ZL26validate_decompression_swz11astcenc_swz(_3143);
             if _3144 != 0 as core::ffi::c_uint {
                 current_block = 2576984672301191410;
             } else {
                 _3145 = _3135;
-                _3146 = *(&mut (*(_3145 as *mut l_struct_struct_OC_astcenc_swizzle)).field3
+                _3146 = *(&raw mut (*(_3145 as *mut l_struct_struct_OC_astcenc_swizzle)).field3
                     as *mut uint32_t);
                 _3147 = _ZL26validate_decompression_swz11astcenc_swz(_3146);
                 if _3147 != 0 as core::ffi::c_uint {
@@ -13115,7 +13192,7 @@ pub unsafe extern "C" fn _Z24astcenc_decompress_resetP15astcenc_context(
     _3156 = _3155;
     _3157 = _3156;
     _ZN15ParallelManager5resetEv(
-        &mut (*(_3157 as *mut l_struct_struct_OC_astcenc_context)).field3
+        &raw mut (*(_3157 as *mut l_struct_struct_OC_astcenc_context)).field3
             as *mut l_struct_class_OC_ParallelManager as *mut core::ffi::c_void,
     );
     return 0;
@@ -13150,19 +13227,19 @@ pub unsafe extern "C" fn _ZN15ParallelManager4initEjPFvfE(
     _3168 = _3161;
     _ZNSt10lock_guardISt5mutexEC2ERS0_(
         &mut _3164 as *mut l_struct_class_OC_std_KD__KD_lock_guard as *mut core::ffi::c_void,
-        &mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field0
+        &raw mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field0
             as *mut l_struct_class_OC_std_KD__KD_mutex as *mut core::ffi::c_void,
     );
-    _3169 = *(&mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t);
+    _3169 = *(&raw mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t);
     if !(_3169 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0) {
         _3170 = _3163;
-        let ref mut fresh19 = *(&mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field8
+        let ref mut fresh19 = *(&raw mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field8
             as *mut *mut core::ffi::c_void);
         *fresh19 = _3170;
         _3171 = _3162;
-        *(&mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) =
+        *(&raw mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t) =
             _3171;
-        *(&mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t) = 1;
+        *(&raw mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field2 as *mut uint8_t) = 1;
         _3172 = _3162;
         _3165 = llvm_fmul_f32(
             llvm_fdiv_f32(
@@ -13173,7 +13250,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager4initEjPFvfE(
         );
         _3173 = _3165;
         _3174 = _ZN4astcL3maxIfEET_S1_S1_(_3173, 1 as core::ffi::c_int as core::ffi::c_float);
-        *(&mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field10
+        *(&raw mut (*(_3168 as *mut l_struct_class_OC_ParallelManager)).field10
             as *mut core::ffi::c_float) = _3174;
     }
     _ZNSt10lock_guardISt5mutexED2Ev(
@@ -13230,7 +13307,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager19get_task_assignmentEjRj(
     _3189 = _3180;
     _3191 = _3187;
     _3192 = _3188;
-    _3181 = &mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field5
+    _3181 = &raw mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field5
         as *mut l_struct_struct_OC_std_KD__KD_atomic_OC_0 as *mut core::ffi::c_void;
     _3182 = _3192;
     _3183 = 0;
@@ -13268,19 +13345,19 @@ pub unsafe extern "C" fn _ZN15ParallelManager19get_task_assignmentEjRj(
     _3206 = _3185;
     _3190 = _3206;
     _3207 = _ZNKSt6atomicIbEcvbEv(
-        &mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field1
+        &raw mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field1
             as *mut l_struct_struct_OC_std_KD__KD_atomic as *mut core::ffi::c_void,
     );
     if _3207 != 0 {
         current_block = 13622707591226943365;
     } else {
         _3208 = _3190;
-        _3209 =
-            *(&mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t);
+        _3209 = *(&raw mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field7
+            as *mut uint32_t);
         if _3208 >= _3209 {
             current_block = 13622707591226943365;
         } else {
-            _3211 = *(&mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field7
+            _3211 = *(&raw mut (*(_3191 as *mut l_struct_class_OC_ParallelManager)).field7
                 as *mut uint32_t);
             _3212 = _3190;
             _3213 = _3188;
@@ -13373,41 +13450,42 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
     _3244 = _3230;
     _ZNSt11unique_lockISt5mutexEC2ERS0_(
         &mut _3234 as *mut l_struct_class_OC_std_KD__KD_unique_lock as *mut core::ffi::c_void,
-        &mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field0
+        &raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field0
             as *mut l_struct_class_OC_std_KD__KD_mutex as *mut core::ffi::c_void,
     );
     _3245 = _3231;
-    _3246 = &mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t
+    _3246 = &raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t
         as *mut core::ffi::c_void;
     _3247 = *(_3246 as *mut uint32_t);
     *(_3246 as *mut uint32_t) = llvm_add_u32(_3247, _3245);
-    _3248 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t);
+    _3248 =
+        *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t);
     _3232 = _3248;
-    _3249 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
+    _3249 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
         as *mut core::ffi::c_float);
     _3233 = _3249;
-    _3250 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
+    _3250 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
         as *mut *mut core::ffi::c_void);
     if !_3250.is_null() {
-        _3251 =
-            *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t);
-        _3252 =
-            *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t);
+        _3251 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6
+            as *mut uint32_t);
+        _3252 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field7
+            as *mut uint32_t);
         if _3251 == _3252 {
             _ZNSt11unique_lockISt5mutexEC2ERS0_(
                 &mut _3235 as *mut l_struct_class_OC_std_KD__KD_unique_lock
                     as *mut core::ffi::c_void,
-                &mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field9
+                &raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field9
                     as *mut l_struct_class_OC_std_KD__KD_mutex
                     as *mut core::ffi::c_void,
             );
-            _3253 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
+            _3253 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
                 as *mut *mut core::ffi::c_void);
             (::core::mem::transmute::<*mut core::ffi::c_void, Option<l_fptr_2>>(_3253))
                 .expect("non-null function pointer")(
                 100 as core::ffi::c_int as core::ffi::c_float
             );
-            *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
+            *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
                 as *mut core::ffi::c_float) = 100 as core::ffi::c_int as core::ffi::c_float;
             _ZNSt11unique_lockISt5mutexED2Ev(
                 &mut _3235 as *mut l_struct_class_OC_std_KD__KD_unique_lock
@@ -13416,16 +13494,16 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
         }
     }
     _3254 = _ZNKSt6atomicIbEcvbEv(
-        &mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field1
+        &raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field1
             as *mut l_struct_struct_OC_std_KD__KD_atomic as *mut core::ffi::c_void,
     );
     if _3254 != 0 {
         current_block = 5333244001803635861;
     } else {
-        _3255 =
-            *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t);
-        _3256 =
-            *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t);
+        _3255 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field6
+            as *mut uint32_t);
+        _3256 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field7
+            as *mut uint32_t);
         if _3255 == _3256 {
             current_block = 5333244001803635861;
         } else {
@@ -13439,7 +13517,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
                     as *mut core::ffi::c_void,
             );
             _ZNSt18condition_variable10notify_allEv(
-                &mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field4
+                &raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field4
                     as *mut l_struct_class_OC_std_KD__KD_condition_variable
                     as *mut core::ffi::c_void,
             );
@@ -13449,13 +13527,13 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
     _ZNSt11unique_lockISt5mutexED2Ev(
         &mut _3234 as *mut l_struct_class_OC_std_KD__KD_unique_lock as *mut core::ffi::c_void,
     );
-    _3257 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
+    _3257 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
         as *mut *mut core::ffi::c_void);
     if !_3257.is_null() {
         _3258 = _3232;
         _3238 = _3258 as core::ffi::c_float;
-        _3259 =
-            *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t);
+        _3259 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field7
+            as *mut uint32_t);
         _3239 = _3259 as core::ffi::c_float;
         _3260 = _3238;
         _3261 = _3239;
@@ -13465,7 +13543,7 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
         );
         _3262 = _3240;
         _3263 = _3233;
-        _3264 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field10
+        _3264 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field10
             as *mut core::ffi::c_float);
         _3241 = llvm_fcmp_ogt(
             llvm_fsub_f32(_3262, _3263) as core::ffi::c_double,
@@ -13476,14 +13554,14 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
             _ZNSt11unique_lockISt5mutexEC2ERS0_(
                 &mut _3242 as *mut l_struct_class_OC_std_KD__KD_unique_lock
                     as *mut core::ffi::c_void,
-                &mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field9
+                &raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field9
                     as *mut l_struct_class_OC_std_KD__KD_mutex
                     as *mut core::ffi::c_void,
             );
             _3266 = _3240;
-            _3267 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
+            _3267 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
                 as *mut core::ffi::c_float);
-            _3268 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field10
+            _3268 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field10
                 as *mut core::ffi::c_float);
             _3243 = llvm_fcmp_ogt(
                 llvm_fsub_f32(_3266, _3267) as core::ffi::c_double,
@@ -13491,13 +13569,13 @@ pub unsafe extern "C" fn _ZN15ParallelManager24complete_task_assignmentEj(
             ) as bool_0;
             _3269 = _3243;
             if _3269 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-                _3270 = *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
+                _3270 = *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field8
                     as *mut *mut core::ffi::c_void);
                 _3271 = _3240;
                 (::core::mem::transmute::<*mut core::ffi::c_void, Option<l_fptr_3>>(_3270))
                     .expect("non-null function pointer")(_3271);
                 _3272 = _3240;
-                *(&mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
+                *(&raw mut (*(_3244 as *mut l_struct_class_OC_ParallelManager)).field11
                     as *mut core::ffi::c_float) = _3272;
             }
             _ZNSt11unique_lockISt5mutexED2Ev(
@@ -15871,10 +15949,10 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
     _3871 = _3290;
     _3872 = _3291;
     _3900 = _3870;
-    _3873 = &mut (*(_3900 as *mut l_struct_struct_OC_astcenc_context)).field0
+    _3873 = &raw mut (*(_3900 as *mut l_struct_struct_OC_astcenc_context)).field0
         as *mut l_struct_struct_OC_astcenc_contexti as *mut core::ffi::c_void;
     _3901 = _3873;
-    _3902 = *(&mut (*(_3901 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+    _3902 = *(&raw mut (*(_3901 as *mut l_struct_struct_OC_astcenc_contexti)).field2
         as *mut *mut core::ffi::c_void);
     _3903 = _3871;
     _Z20physical_to_symbolicRK21block_size_descriptorPKhR25symbolic_compressed_block(
@@ -15883,51 +15961,52 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
         &mut _3874 as *mut l_struct_struct_OC_symbolic_compressed_block as *mut core::ffi::c_void,
     );
     _3904 = _3873;
-    _3905 = *(&mut (*(_3904 as *mut l_struct_struct_OC_astcenc_contexti)).field2
+    _3905 = *(&raw mut (*(_3904 as *mut l_struct_struct_OC_astcenc_contexti)).field2
         as *mut *mut core::ffi::c_void);
     _3875 = _3905;
     _3906 = _3872;
     _3907 = memset(_3906, 0, 2144);
     _3908 = _3873;
-    _3909 = *(&mut (*(&mut (*(_3908 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _3909 = *(&raw mut (*(&raw mut (*(_3908 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field0 as *mut uint32_t);
     _3910 = _3872;
-    *(&mut (*(_3910 as *mut l_struct_struct_OC_astcenc_block_info)).field0 as *mut uint32_t) =
+    *(&raw mut (*(_3910 as *mut l_struct_struct_OC_astcenc_block_info)).field0 as *mut uint32_t) =
         _3909;
     _3911 = _3873;
-    _3912 = *(&mut (*(&mut (*(_3911 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _3912 = *(&raw mut (*(&raw mut (*(_3911 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field2 as *mut uint32_t);
     _3913 = _3872;
-    *(&mut (*(_3913 as *mut l_struct_struct_OC_astcenc_block_info)).field1 as *mut uint32_t) =
+    *(&raw mut (*(_3913 as *mut l_struct_struct_OC_astcenc_block_info)).field1 as *mut uint32_t) =
         _3912;
     _3914 = _3873;
-    _3915 = *(&mut (*(&mut (*(_3914 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _3915 = *(&raw mut (*(&raw mut (*(_3914 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field3 as *mut uint32_t);
     _3916 = _3872;
-    *(&mut (*(_3916 as *mut l_struct_struct_OC_astcenc_block_info)).field2 as *mut uint32_t) =
+    *(&raw mut (*(_3916 as *mut l_struct_struct_OC_astcenc_block_info)).field2 as *mut uint32_t) =
         _3915;
     _3917 = _3873;
-    _3918 = *(&mut (*(&mut (*(_3917 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _3918 = *(&raw mut (*(&raw mut (*(_3917 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field4 as *mut uint32_t);
     _3919 = _3872;
-    *(&mut (*(_3919 as *mut l_struct_struct_OC_astcenc_block_info)).field3 as *mut uint32_t) =
+    *(&raw mut (*(_3919 as *mut l_struct_struct_OC_astcenc_block_info)).field3 as *mut uint32_t) =
         _3918;
     _3920 = _3875;
-    _3921 =
-        *(&mut (*(_3920 as *mut l_struct_struct_OC_block_size_descriptor)).field3 as *mut uint8_t);
+    _3921 = *(&raw mut (*(_3920 as *mut l_struct_struct_OC_block_size_descriptor)).field3
+        as *mut uint8_t);
     _3922 = _3872;
-    *(&mut (*(_3922 as *mut l_struct_struct_OC_astcenc_block_info)).field4 as *mut uint32_t) =
+    *(&raw mut (*(_3922 as *mut l_struct_struct_OC_astcenc_block_info)).field4 as *mut uint32_t) =
         _3921 as uint32_t;
     _3923 = *(&mut _3874.field0 as *mut uint8_t);
     _3924 = _3872;
-    *(&mut (*(_3924 as *mut l_struct_struct_OC_astcenc_block_info)).field5 as *mut uint8_t) =
+    *(&raw mut (*(_3924 as *mut l_struct_struct_OC_astcenc_block_info)).field5 as *mut uint8_t) =
         (_3923 as uint32_t == 0 as core::ffi::c_uint) as core::ffi::c_int as bool_0;
     _3925 = _3872;
-    _3926 = *(&mut (*(_3925 as *mut l_struct_struct_OC_astcenc_block_info)).field5 as *mut uint8_t);
+    _3926 =
+        *(&raw mut (*(_3925 as *mut l_struct_struct_OC_astcenc_block_info)).field5 as *mut uint8_t);
     if _3926 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _3869 = 0;
     } else {
@@ -15941,11 +16020,11 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
         }
         _3929 = _3929__PHI_TEMPORARY;
         _3930 = _3872;
-        *(&mut (*(_3930 as *mut l_struct_struct_OC_astcenc_block_info)).field6 as *mut uint8_t) =
-            _3929;
+        *(&raw mut (*(_3930 as *mut l_struct_struct_OC_astcenc_block_info)).field6
+            as *mut uint8_t) = _3929;
         _3931 = _3872;
-        _3932 =
-            *(&mut (*(_3931 as *mut l_struct_struct_OC_astcenc_block_info)).field6 as *mut uint8_t);
+        _3932 = *(&raw mut (*(_3931 as *mut l_struct_struct_OC_astcenc_block_info)).field6
+            as *mut uint8_t);
         if _3932 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
             _3869 = 0;
         } else {
@@ -15963,44 +16042,46 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
             _3878 = _3940;
             _3941 = _3875;
             _3942 = _3878;
-            _3943 = *(&mut (*(_3942 as *mut l_struct_struct_OC_block_mode)).field1 as *mut uint8_t);
+            _3943 =
+                *(&raw mut (*(_3942 as *mut l_struct_struct_OC_block_mode)).field1 as *mut uint8_t);
             _3944 = _ZNK21block_size_descriptor19get_decimation_infoEj(_3941, _3943 as uint32_t);
             _3879 = _3944;
             _3945 = _3879;
-            _3946 = *(&mut (*(_3945 as *mut l_struct_struct_OC_decimation_info)).field3
+            _3946 = *(&raw mut (*(_3945 as *mut l_struct_struct_OC_decimation_info)).field3
                 as *mut uint8_t);
             _3947 = _3872;
-            *(&mut (*(_3947 as *mut l_struct_struct_OC_astcenc_block_info)).field15
+            *(&raw mut (*(_3947 as *mut l_struct_struct_OC_astcenc_block_info)).field15
                 as *mut uint32_t) = _3946 as uint32_t;
             _3948 = _3879;
-            _3949 = *(&mut (*(_3948 as *mut l_struct_struct_OC_decimation_info)).field4
+            _3949 = *(&raw mut (*(_3948 as *mut l_struct_struct_OC_decimation_info)).field4
                 as *mut uint8_t);
             _3950 = _3872;
-            *(&mut (*(_3950 as *mut l_struct_struct_OC_astcenc_block_info)).field16
+            *(&raw mut (*(_3950 as *mut l_struct_struct_OC_astcenc_block_info)).field16
                 as *mut uint32_t) = _3949 as uint32_t;
             _3951 = _3879;
-            _3952 = *(&mut (*(_3951 as *mut l_struct_struct_OC_decimation_info)).field5
+            _3952 = *(&raw mut (*(_3951 as *mut l_struct_struct_OC_decimation_info)).field5
                 as *mut uint8_t);
             _3953 = _3872;
-            *(&mut (*(_3953 as *mut l_struct_struct_OC_astcenc_block_info)).field17
+            *(&raw mut (*(_3953 as *mut l_struct_struct_OC_astcenc_block_info)).field17
                 as *mut uint32_t) = _3952 as uint32_t;
             _3954 = _3878;
-            _3955 = *(&mut (*(_3954 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
+            _3955 =
+                *(&raw mut (*(_3954 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
             _3956 = _3872;
-            *(&mut (*(_3956 as *mut l_struct_struct_OC_astcenc_block_info)).field8
+            *(&raw mut (*(_3956 as *mut l_struct_struct_OC_astcenc_block_info)).field8
                 as *mut uint8_t) = (llvm_and_u8(_3955, 1) as uint32_t != 0 as core::ffi::c_uint)
                 as core::ffi::c_int as bool_0;
             _3957 = *(&mut _3874.field1 as *mut uint8_t);
             _3958 = _3872;
-            *(&mut (*(_3958 as *mut l_struct_struct_OC_astcenc_block_info)).field9
+            *(&raw mut (*(_3958 as *mut l_struct_struct_OC_astcenc_block_info)).field9
                 as *mut uint32_t) = _3957 as uint32_t;
             _3959 = *(&mut _3874.field5 as *mut uint16_t);
             _3960 = _3872;
-            *(&mut (*(_3960 as *mut l_struct_struct_OC_astcenc_block_info)).field10
+            *(&raw mut (*(_3960 as *mut l_struct_struct_OC_astcenc_block_info)).field10
                 as *mut uint32_t) = _3959 as uint32_t;
             _3961 = *(&mut _3874.field3 as *mut uint8_t);
             _3962 = _3872;
-            *(&mut (*(_3962 as *mut l_struct_struct_OC_astcenc_block_info)).field11
+            *(&raw mut (*(_3962 as *mut l_struct_struct_OC_astcenc_block_info)).field11
                 as *mut uint32_t) = _3961 as int8_t as int32_t as uint32_t;
             _3963 = _ZNK25symbolic_compressed_block20get_color_quant_modeEv(
                 &mut _3874 as *mut l_struct_struct_OC_symbolic_compressed_block
@@ -16008,13 +16089,13 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
             );
             _3964 = _ZL15get_quant_level12quant_method(_3963);
             _3965 = _3872;
-            *(&mut (*(_3965 as *mut l_struct_struct_OC_astcenc_block_info)).field13
+            *(&raw mut (*(_3965 as *mut l_struct_struct_OC_astcenc_block_info)).field13
                 as *mut uint32_t) = _3964;
             _3966 = _3878;
             _3967 = _ZNK10block_mode21get_weight_quant_modeEv(_3966);
             _3968 = _ZL15get_quant_level12quant_method(_3967);
             _3969 = _3872;
-            *(&mut (*(_3969 as *mut l_struct_struct_OC_astcenc_block_info)).field14
+            *(&raw mut (*(_3969 as *mut l_struct_struct_OC_astcenc_block_info)).field14
                 as *mut uint32_t) = _3968;
             _3880 = 0;
             '__5032: loop {
@@ -16025,7 +16106,9 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     break;
                 }
                 _3972 = _3873;
-                _3973 = *(&mut (*(&mut (*(_3972 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+                _3973 = *(&raw mut (*(&raw mut (*(_3972
+                    as *mut l_struct_struct_OC_astcenc_contexti))
+                    .field0
                     as *mut l_struct_struct_OC_astcenc_config))
                     .field0 as *mut uint32_t);
                 _3974 = _3880;
@@ -16067,14 +16150,14 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     as *mut uint8_t);
                 _3979 = _3872;
                 _3980 = _3880;
-                *(&raw mut *((*(&mut (*(_3979 as *mut l_struct_struct_OC_astcenc_block_info))
+                *(&raw mut *((*(&raw mut (*(_3979 as *mut l_struct_struct_OC_astcenc_block_info))
                     .field12 as *mut crate::l_array_4_uint32_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_3980 as uint64_t as int64_t as isize)
                     as *mut uint32_t) = _3978 as uint32_t;
                 _3981 = _3872;
-                _3982 = *(&mut (*(_3981 as *mut l_struct_struct_OC_astcenc_block_info)).field7
+                _3982 = *(&raw mut (*(_3981 as *mut l_struct_struct_OC_astcenc_block_info)).field7
                     as *mut uint8_t);
                 if _3982 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                     _3986__PHI_TEMPORARY = 1 as core::ffi::c_int as bool_0;
@@ -16090,7 +16173,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                 }
                 _3986 = _3986__PHI_TEMPORARY;
                 _3987 = _3872;
-                *(&mut (*(_3987 as *mut l_struct_struct_OC_astcenc_block_info)).field7
+                *(&raw mut (*(_3987 as *mut l_struct_struct_OC_astcenc_block_info)).field7
                     as *mut uint8_t) = _3986;
                 _3988 = _3881;
                 _3989 = _3881;
@@ -20639,7 +20722,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4986 = *(&mut _3894.field0 as *mut crate::l_array_4_float);
                     *(&mut _3769 as *mut l_struct_struct_OC_vfloat4
                         as *mut crate::l_array_4_float) = _4986;
-                    _3770 = &raw mut *((*(&raw mut *((*(&raw mut *((*(&mut (*(_4983
+                    _3770 = &raw mut *((*(&raw mut *((*(&raw mut *((*(&raw mut (*(_4983
                         as *mut l_struct_struct_OC_astcenc_block_info))
                         .field18
                         as *mut crate::l_array_4_struct_AC_l_array_2_struct_AC_l_array_4_float))
@@ -20713,7 +20796,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     _4997 = _3875;
                     _4998 = _3879;
                     _4999 = _3878;
-                    _5000 = *(&mut (*(_4999 as *mut l_struct_struct_OC_block_mode)).field4
+                    _5000 = *(&raw mut (*(_4999 as *mut l_struct_struct_OC_block_mode)).field4
                         as *mut uint8_t);
                     _Z14unpack_weightsRK21block_size_descriptorRK25symbolic_compressed_blockRK15decimation_infobPiS8_(
                         _4997,
@@ -20736,7 +20819,8 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     loop {
                         _5001 = _3898;
                         _5002 = _3875;
-                        _5003 = *(&mut (*(_5002 as *mut l_struct_struct_OC_block_size_descriptor))
+                        _5003 = *(&raw mut (*(_5002
+                            as *mut l_struct_struct_OC_block_size_descriptor))
                             .field3 as *mut uint8_t);
                         if !(_5001 < _5003 as uint32_t) {
                             break;
@@ -20748,7 +20832,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as *mut uint32_t);
                         _5006 = _3872;
                         _5007 = _3898;
-                        *(&raw mut *((*(&mut (*(_5006
+                        *(&raw mut *((*(&raw mut (*(_5006
                             as *mut l_struct_struct_OC_astcenc_block_info))
                             .field19
                             as *mut crate::l_array_216_float))
@@ -20760,7 +20844,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             0.0625f64 as core::ffi::c_float,
                         );
                         _5008 = _3872;
-                        _5009 = *(&mut (*(_5008 as *mut l_struct_struct_OC_astcenc_block_info))
+                        _5009 = *(&raw mut (*(_5008 as *mut l_struct_struct_OC_astcenc_block_info))
                             .field8 as *mut uint8_t);
                         if _5009 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
                             _5010 = _3898;
@@ -20770,7 +20854,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                                 as *mut uint32_t);
                             _5012 = _3872;
                             _5013 = _3898;
-                            *(&raw mut *((*(&mut (*(_5012
+                            *(&raw mut *((*(&raw mut (*(_5012
                                 as *mut l_struct_struct_OC_astcenc_block_info))
                                 .field20
                                 as *mut crate::l_array_216_float))
@@ -20789,14 +20873,15 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                     loop {
                         _5015 = _3899;
                         _5016 = _3875;
-                        _5017 = *(&mut (*(_5016 as *mut l_struct_struct_OC_block_size_descriptor))
+                        _5017 = *(&raw mut (*(_5016
+                            as *mut l_struct_struct_OC_block_size_descriptor))
                             .field3 as *mut uint8_t);
                         if !(_5015 < _5017 as uint32_t) {
                             break;
                         }
                         _5018 = _3877;
                         _5019 = _3899;
-                        _5020 = *(&raw mut *((*(&mut (*(_5018
+                        _5020 = *(&raw mut *((*(&raw mut (*(_5018
                             as *mut l_struct_struct_OC_partition_info))
                             .field3
                             as *mut crate::l_array_216_uint8_t))
@@ -20806,7 +20891,7 @@ pub unsafe extern "C" fn _Z22astcenc_get_block_infoP15astcenc_contextPKhP18astce
                             as *mut uint8_t);
                         _5021 = _3872;
                         _5022 = _3899;
-                        *(&raw mut *((*(&mut (*(_5021
+                        *(&raw mut *((*(&raw mut (*(_5021
                             as *mut l_struct_struct_OC_astcenc_block_info))
                             .field21
                             as *mut crate::l_array_216_uint8_t))
@@ -20864,7 +20949,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     if _5160 >= 2 as core::ffi::c_uint {
         _5161 = _5155;
         _5162 = _5156;
-        _5163 = *(&raw mut *((*(&raw mut *((*(&mut (*(_5159
+        _5163 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_5159
             as *mut l_struct_struct_OC_block_size_descriptor))
             .field18
             as *mut crate::l_array_3_struct_AC_l_array_1024_uint16_t))
@@ -20883,14 +20968,15 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
     if _5164 != 65535 as core::ffi::c_uint {
         _5165 = _5157;
         _5166 = _5155;
-        _5167 = *(&raw mut *((*(&mut (*(_5159 as *mut l_struct_struct_OC_block_size_descriptor))
-            .field12 as *mut crate::l_array_4_uint32_t))
-            .array)
-            .as_mut_ptr()
-            .offset(
-                (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_5166, 1)
-                    as uint64_t as int64_t as isize,
-            ) as *mut uint32_t);
+        _5167 =
+            *(&raw mut *((*(&raw mut (*(_5159 as *mut l_struct_struct_OC_block_size_descriptor))
+                .field12 as *mut crate::l_array_4_uint32_t))
+                .array)
+                .as_mut_ptr()
+                .offset(
+                    (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_5166, 1)
+                        as uint64_t as int64_t as isize,
+                ) as *mut uint32_t);
         _5168__PHI_TEMPORARY = (_5165 < _5167) as core::ffi::c_int as bool_0;
     } else {
         _5168__PHI_TEMPORARY = 0 as core::ffi::c_int as bool_0;
@@ -20905,8 +20991,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor18get_partition_infoEjj(
             as *mut l_struct_struct_OC_partition_info as *mut core::ffi::c_void;
         _5172 = _5156;
         _5173 = _5158;
-        _5174 =
-            *(&mut (*(_5173 as *mut l_struct_struct_OC_partition_info)).field1 as *mut uint16_t);
+        _5174 = *(&raw mut (*(_5173 as *mut l_struct_struct_OC_partition_info)).field1
+            as *mut uint16_t);
         if _5172 == _5174 as uint32_t {
             _5175 = _5158;
             return _5175;
@@ -20951,17 +21037,16 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     _5189 = _5187;
     _5191 = _5188;
     _5192 = _5189;
-    _5193 =
-        *(&raw mut *((*(&mut (*(_5191 as *mut l_struct_struct_OC_block_size_descriptor)).field15
-            as *mut crate::l_array_2048_uint16_t))
-            .array)
-            .as_mut_ptr()
-            .offset(_5192 as uint64_t as int64_t as isize) as *mut uint16_t);
+    _5193 = *(&raw mut *((*(&raw mut (*(_5191 as *mut l_struct_struct_OC_block_size_descriptor))
+        .field15 as *mut crate::l_array_2048_uint16_t))
+        .array)
+        .as_mut_ptr()
+        .offset(_5192 as uint64_t as int64_t as isize) as *mut uint16_t);
     _5190 = _5193 as uint32_t;
     _5194 = _5190;
     if _5194 != 65535 as core::ffi::c_uint {
         _5195 = _5190;
-        _5196 = *(&mut (*(_5191 as *mut l_struct_struct_OC_block_size_descriptor)).field10
+        _5196 = *(&raw mut (*(_5191 as *mut l_struct_struct_OC_block_size_descriptor)).field10
             as *mut uint32_t);
         _5197__PHI_TEMPORARY = (_5195 < _5196) as core::ffi::c_int as bool_0;
     } else {
@@ -20970,7 +21055,7 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor14get_block_modeEj(
     _5197 = _5197__PHI_TEMPORARY;
     if _5197 != 0 {
         _5198 = _5190;
-        return &raw mut *((*(&mut (*(_5191 as *mut l_struct_struct_OC_block_size_descriptor))
+        return &raw mut *((*(&raw mut (*(_5191 as *mut l_struct_struct_OC_block_size_descriptor))
             .field16
             as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
             .array)
@@ -21001,7 +21086,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     _5207 = _5205;
     _5208 = _5206;
     _5209 = _5207;
-    return &raw mut *((*(&mut (*(_5208 as *mut l_struct_struct_OC_block_size_descriptor)).field14
+    return &raw mut *((*(&raw mut (*(_5208 as *mut l_struct_struct_OC_block_size_descriptor))
+        .field14
         as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
         .array)
         .as_mut_ptr()
@@ -21097,7 +21183,7 @@ pub unsafe extern "C" fn _ZNK25symbolic_compressed_block20get_color_quant_modeEv
     let mut _5241: uint32_t = 0;
     _5239 = _5238;
     _5240 = _5239;
-    _5241 = *(&mut (*(_5240 as *mut l_struct_struct_OC_symbolic_compressed_block)).field7
+    _5241 = *(&raw mut (*(_5240 as *mut l_struct_struct_OC_symbolic_compressed_block)).field7
         as *mut uint32_t);
     return _5241;
 }
@@ -21111,7 +21197,7 @@ pub unsafe extern "C" fn _ZNK10block_mode21get_weight_quant_modeEv(
     let mut _5245: uint8_t = 0;
     _5243 = _5242;
     _5244 = _5243;
-    _5245 = *(&mut (*(_5244 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
+    _5245 = *(&raw mut (*(_5244 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
     return _5245 as uint32_t;
 }
 #[no_mangle]
@@ -21227,20 +21313,20 @@ pub unsafe extern "C" fn _ZN15ParallelManagerC2Ev(mut _5284: *mut core::ffi::c_v
     _5285 = _5284;
     _5288 = _5285;
     _ZNSt5mutexC2Ev(
-        &mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field0
+        &raw mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field0
             as *mut l_struct_class_OC_std_KD__KD_mutex as *mut core::ffi::c_void,
     );
-    _5289 = &mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field1
+    _5289 = &raw mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field1
         as *mut l_struct_struct_OC_std_KD__KD_atomic as *mut core::ffi::c_void;
     _ZNSt18condition_variableC1Ev(
-        &mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field4
+        &raw mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field4
             as *mut l_struct_class_OC_std_KD__KD_condition_variable
             as *mut core::ffi::c_void,
     );
-    _5290 = &mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field5
+    _5290 = &raw mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field5
         as *mut l_struct_struct_OC_std_KD__KD_atomic_OC_0 as *mut core::ffi::c_void;
     _ZNSt5mutexC2Ev(
-        &mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field9
+        &raw mut (*(_5288 as *mut l_struct_class_OC_ParallelManager)).field9
             as *mut l_struct_class_OC_std_KD__KD_mutex as *mut core::ffi::c_void,
     );
     _ZN15ParallelManager5resetEv(_5288);
@@ -21253,7 +21339,7 @@ pub unsafe extern "C" fn _ZN15ParallelManagerD2Ev(mut _5292: *mut core::ffi::c_v
     _5293 = _5292;
     _5294 = _5293;
     _ZNSt18condition_variableD1Ev(
-        &mut (*(_5294 as *mut l_struct_class_OC_ParallelManager)).field4
+        &raw mut (*(_5294 as *mut l_struct_class_OC_ParallelManager)).field4
             as *mut l_struct_class_OC_std_KD__KD_condition_variable
             as *mut core::ffi::c_void,
     );
@@ -21284,25 +21370,25 @@ pub unsafe extern "C" fn _ZNSt12__mutex_baseC2Ev(mut _5298: *mut core::ffi::c_vo
     let mut _5310: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _5299 = _5298;
     _5300 = _5299;
-    _5301 = &mut (*(_5300 as *mut l_struct_class_OC_std_KD__KD___mutex_base)).field0
+    _5301 = &raw mut (*(_5300 as *mut l_struct_class_OC_std_KD__KD___mutex_base)).field0
         as *mut l_struct_union_OC_pthread_mutex_t as *mut core::ffi::c_void;
     _5302 = memset(_5301, 0, 40);
-    _5303 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field0 as *mut uint32_t
+    _5303 = &raw mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field0 as *mut uint32_t
         as *mut core::ffi::c_void;
-    _5304 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field1 as *mut uint32_t
+    _5304 = &raw mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field1 as *mut uint32_t
         as *mut core::ffi::c_void;
-    _5305 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field2 as *mut uint32_t
+    _5305 = &raw mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field2 as *mut uint32_t
         as *mut core::ffi::c_void;
-    _5306 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field3 as *mut uint32_t
+    _5306 = &raw mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field3 as *mut uint32_t
         as *mut core::ffi::c_void;
-    *(&mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field4 as *mut uint32_t) = 0;
-    _5307 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field5 as *mut uint32_t
+    *(&raw mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field4 as *mut uint32_t) = 0;
+    _5307 = &raw mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field5 as *mut uint32_t
         as *mut core::ffi::c_void;
-    _5308 = &mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field6
+    _5308 = &raw mut (*(_5301 as *mut l_struct_struct_OC___pthread_mutex_s)).field6
         as *mut l_struct_struct_OC___pthread_internal_list as *mut core::ffi::c_void;
-    _5309 = &mut (*(_5308 as *mut l_struct_struct_OC___pthread_internal_list)).field0
+    _5309 = &raw mut (*(_5308 as *mut l_struct_struct_OC___pthread_internal_list)).field0
         as *mut *mut core::ffi::c_void as *mut core::ffi::c_void;
-    _5310 = &mut (*(_5308 as *mut l_struct_struct_OC___pthread_internal_list)).field1
+    _5310 = &raw mut (*(_5308 as *mut l_struct_struct_OC___pthread_internal_list)).field1
         as *mut *mut core::ffi::c_void as *mut core::ffi::c_void;
 }
 #[inline(never)]
@@ -21399,10 +21485,10 @@ pub unsafe extern "C" fn _ZNSt10lock_guardISt5mutexEC2ERS0_(
     _5350 = _5348;
     _5351 = _5349;
     _5352 = _5350;
-    let ref mut fresh20 = *(&mut (*(_5351 as *mut l_struct_class_OC_std_KD__KD_lock_guard)).field0
-        as *mut *mut core::ffi::c_void);
+    let ref mut fresh20 = *(&raw mut (*(_5351 as *mut l_struct_class_OC_std_KD__KD_lock_guard))
+        .field0 as *mut *mut core::ffi::c_void);
     *fresh20 = _5352;
-    _5353 = *(&mut (*(_5351 as *mut l_struct_class_OC_std_KD__KD_lock_guard)).field0
+    _5353 = *(&raw mut (*(_5351 as *mut l_struct_class_OC_std_KD__KD_lock_guard)).field0
         as *mut *mut core::ffi::c_void);
     _ZNSt5mutex4lockEv(_5353);
 }
@@ -21420,11 +21506,11 @@ pub unsafe extern "C" fn _ZNKSt8functionIFjvEEclEv(mut _5354: *mut core::ffi::c_
     if _5357 != 0 {
         _ZSt25__throw_bad_function_callv();
     } else {
-        _5358 = *(&mut (*(_5356 as *mut l_struct_class_OC_std_KD__KD_function)).field1
+        _5358 = *(&raw mut (*(_5356 as *mut l_struct_class_OC_std_KD__KD_function)).field1
             as *mut *mut core::ffi::c_void);
         _5359 = (::core::mem::transmute::<*mut core::ffi::c_void, Option<l_fptr_4>>(_5358))
             .expect("non-null function pointer")(
-            &mut (*(_5356 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
+            &raw mut (*(_5356 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
                 as *mut l_struct_union_OC_std_KD__KD__Any_data
                 as *mut core::ffi::c_void,
         );
@@ -21439,7 +21525,7 @@ pub unsafe extern "C" fn _ZNSt10lock_guardISt5mutexED2Ev(mut _5362: *mut core::f
     let mut _5365: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _5363 = _5362;
     _5364 = _5363;
-    _5365 = *(&mut (*(_5364 as *mut l_struct_class_OC_std_KD__KD_lock_guard)).field0
+    _5365 = *(&raw mut (*(_5364 as *mut l_struct_class_OC_std_KD__KD_lock_guard)).field0
         as *mut *mut core::ffi::c_void);
     _ZNSt5mutex6unlockEv(_5365);
 }
@@ -21455,7 +21541,7 @@ pub unsafe extern "C" fn _ZNSt5mutex4lockEv(mut _5367: *mut core::ffi::c_void) {
     _5368 = _5367;
     _5370 = _5368;
     _5371 = _ZL20__gthread_mutex_lockP15pthread_mutex_t(
-        &mut (*(_5370 as *mut l_struct_class_OC_std_KD__KD___mutex_base)).field0
+        &raw mut (*(_5370 as *mut l_struct_class_OC_std_KD__KD___mutex_base)).field0
             as *mut l_struct_union_OC_pthread_mutex_t as *mut core::ffi::c_void,
     );
     _5369 = _5371;
@@ -21503,7 +21589,7 @@ pub unsafe extern "C" fn _ZNKSt14_Function_base8_M_emptyEv(
     let mut _5389: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _5387 = _5386;
     _5388 = _5387;
-    _5389 = *(&mut (*(_5388 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field1
+    _5389 = *(&raw mut (*(_5388 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field1
         as *mut *mut core::ffi::c_void);
     return ((_5389 != 0 as *mut core::ffi::c_void) as core::ffi::c_int ^ 1 as core::ffi::c_int)
         as bool_0;
@@ -21517,7 +21603,7 @@ pub unsafe extern "C" fn _ZNSt5mutex6unlockEv(mut _5390: *mut core::ffi::c_void)
     _5391 = _5390;
     _5392 = _5391;
     _5393 = _ZL22__gthread_mutex_unlockP15pthread_mutex_t(
-        &mut (*(_5392 as *mut l_struct_class_OC_std_KD__KD___mutex_base)).field0
+        &raw mut (*(_5392 as *mut l_struct_class_OC_std_KD__KD___mutex_base)).field0
             as *mut l_struct_union_OC_pthread_mutex_t as *mut core::ffi::c_void,
     );
 }
@@ -21561,17 +21647,17 @@ pub unsafe extern "C" fn _ZNSt14_Function_baseD2Ev(mut _5406: *mut core::ffi::c_
     let mut _5411: bool_0 = 0;
     _5407 = _5406;
     _5408 = _5407;
-    _5409 = *(&mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field1
+    _5409 = *(&raw mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field1
         as *mut *mut core::ffi::c_void);
     if !_5409.is_null() {
-        _5410 = *(&mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field1
+        _5410 = *(&raw mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field1
             as *mut *mut core::ffi::c_void);
         _5411 = (::core::mem::transmute::<*mut core::ffi::c_void, Option<l_fptr_5>>(_5410))
             .expect("non-null function pointer")(
-            &mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
+            &raw mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
                 as *mut l_struct_union_OC_std_KD__KD__Any_data
                 as *mut core::ffi::c_void,
-            &mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
+            &raw mut (*(_5408 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
                 as *mut l_struct_union_OC_std_KD__KD__Any_data
                 as *mut core::ffi::c_void,
             3,
@@ -21621,12 +21707,14 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexEC2ERS0_(
     _5431 = _5429;
     _5432 = _5430;
     _5433 = _ZSt11__addressofISt5mutexEPT_RS1_(_5432);
-    let ref mut fresh21 = *(&mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
-        as *mut *mut core::ffi::c_void);
+    let ref mut fresh21 = *(&raw mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock))
+        .field0 as *mut *mut core::ffi::c_void);
     *fresh21 = _5433;
-    *(&mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t) = 0;
+    *(&raw mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
+        as *mut uint8_t) = 0;
     _ZNSt11unique_lockISt5mutexE4lockEv(_5431);
-    *(&mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t) = 1;
+    *(&raw mut (*(_5431 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
+        as *mut uint8_t) = 1;
 }
 #[no_mangle]
 #[inline(never)]
@@ -21667,8 +21755,8 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexED2Ev(mut _5446: *mut core::
     let mut _5449: uint8_t = 0;
     _5447 = _5446;
     _5448 = _5447;
-    _5449 =
-        *(&mut (*(_5448 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t);
+    _5449 = *(&raw mut (*(_5448 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
+        as *mut uint8_t);
     if _5449 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _ZNSt11unique_lockISt5mutexE6unlockEv(_5448);
     }
@@ -21694,18 +21782,18 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE4lockEv(mut _5456: *mut cor
     let mut _5461: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _5457 = _5456;
     _5458 = _5457;
-    _5459 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+    _5459 = *(&raw mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
         as *mut *mut core::ffi::c_void);
     if !_5459.is_null() {
-        _5460 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
+        _5460 = *(&raw mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
             as *mut uint8_t);
         if _5460 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
             _ZSt20__throw_system_errori(35);
         } else {
-            _5461 = *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+            _5461 = *(&raw mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
                 as *mut *mut core::ffi::c_void);
             _ZNSt5mutex4lockEv(_5461);
-            *(&mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
+            *(&raw mut (*(_5458 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
                 as *mut uint8_t) = 1;
             return;
         }
@@ -21728,19 +21816,19 @@ pub unsafe extern "C" fn _ZZN15ParallelManager4waitEvENKUlvE_clEv(
     let mut _5475__PHI_TEMPORARY: bool_0 = 0;
     _5469 = _5468;
     _5470 = _5469;
-    _5471 = *(&mut (*(_5470 as *mut l_struct_class_OC_anon_OC_5)).field0
+    _5471 = *(&raw mut (*(_5470 as *mut l_struct_class_OC_anon_OC_5)).field0
         as *mut *mut core::ffi::c_void);
     _5472 = _ZNKSt6atomicIbEcvbEv(
-        &mut (*(_5471 as *mut l_struct_class_OC_ParallelManager)).field1
+        &raw mut (*(_5471 as *mut l_struct_class_OC_ParallelManager)).field1
             as *mut l_struct_struct_OC_std_KD__KD_atomic as *mut core::ffi::c_void,
     );
     if _5472 != 0 {
         _5475__PHI_TEMPORARY = 1 as core::ffi::c_int as bool_0;
     } else {
-        _5473 =
-            *(&mut (*(_5471 as *mut l_struct_class_OC_ParallelManager)).field6 as *mut uint32_t);
-        _5474 =
-            *(&mut (*(_5471 as *mut l_struct_class_OC_ParallelManager)).field7 as *mut uint32_t);
+        _5473 = *(&raw mut (*(_5471 as *mut l_struct_class_OC_ParallelManager)).field6
+            as *mut uint32_t);
+        _5474 = *(&raw mut (*(_5471 as *mut l_struct_class_OC_ParallelManager)).field7
+            as *mut uint32_t);
         _5475__PHI_TEMPORARY = (_5473 == _5474) as core::ffi::c_int as bool_0;
     }
     _5475 = _5475__PHI_TEMPORARY;
@@ -21765,7 +21853,7 @@ pub unsafe extern "C" fn _ZNKSt6atomicIbEcvbEv(mut _5478: *mut core::ffi::c_void
     let mut _5492: uint8_t = 0;
     _5483 = _5478;
     _5484 = _5483;
-    _5479 = &mut (*(_5484 as *mut l_struct_struct_OC_std_KD__KD_atomic)).field0
+    _5479 = &raw mut (*(_5484 as *mut l_struct_struct_OC_std_KD__KD_atomic)).field0
         as *mut l_struct_struct_OC_std_KD__KD___atomic_base as *mut core::ffi::c_void;
     _5480 = 5;
     _5485 = _5479;
@@ -21816,16 +21904,16 @@ pub unsafe extern "C" fn _ZNSt11unique_lockISt5mutexE6unlockEv(mut _5503: *mut c
     let mut _5508: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _5504 = _5503;
     _5505 = _5504;
-    _5506 =
-        *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1 as *mut uint8_t);
+    _5506 = *(&raw mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
+        as *mut uint8_t);
     if _5506 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
-        _5507 = *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+        _5507 = *(&raw mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
             as *mut *mut core::ffi::c_void);
         if !_5507.is_null() {
-            _5508 = *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
+            _5508 = *(&raw mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field0
                 as *mut *mut core::ffi::c_void);
             _ZNSt5mutex6unlockEv(_5508);
-            *(&mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
+            *(&raw mut (*(_5505 as *mut l_struct_class_OC_std_KD__KD_unique_lock)).field1
                 as *mut uint8_t) = 0;
         }
         return;
@@ -21846,11 +21934,11 @@ pub unsafe extern "C" fn _ZNKSt8functionIFvvEEclEv(mut _5514: *mut core::ffi::c_
     if _5517 != 0 {
         _ZSt25__throw_bad_function_callv();
     } else {
-        _5518 = *(&mut (*(_5516 as *mut l_struct_class_OC_std_KD__KD_function_OC_3)).field1
+        _5518 = *(&raw mut (*(_5516 as *mut l_struct_class_OC_std_KD__KD_function_OC_3)).field1
             as *mut *mut core::ffi::c_void);
         (::core::mem::transmute::<*mut core::ffi::c_void, Option<l_fptr_6>>(_5518))
             .expect("non-null function pointer")(
-            &mut (*(_5516 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
+            &raw mut (*(_5516 as *mut l_struct_class_OC_std_KD__KD__Function_base)).field0
                 as *mut l_struct_union_OC_std_KD__KD__Any_data
                 as *mut core::ffi::c_void,
         );
@@ -21873,7 +21961,7 @@ pub unsafe extern "C" fn _ZNSt6atomicIbEaSEb(
     _5525 = _5523;
     _5526 = _5524;
     _5527 = _ZNSt13__atomic_baseIbEaSEb(
-        &mut (*(_5525 as *mut l_struct_struct_OC_std_KD__KD_atomic)).field0
+        &raw mut (*(_5525 as *mut l_struct_struct_OC_std_KD__KD_atomic)).field0
             as *mut l_struct_struct_OC_std_KD__KD___atomic_base as *mut core::ffi::c_void,
         (_5526 as core::ffi::c_uint & 1 as core::ffi::c_uint) as bool_0,
     );
@@ -22031,9 +22119,10 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_partition_tableEj(
     _5591 = _5587;
     _5588 = llvm_mul_u32(llvm_sub_u32(_5591, 2), 1024);
     _5592 = _5588;
-    return &raw mut *(&raw mut *((*(&mut (*(_5589
+    return &raw mut *(&raw mut *((*(&raw mut (*(_5589
         as *mut l_struct_struct_OC_block_size_descriptor))
-        .field17 as *mut crate::l_array_3073_struct_AC_l_struct_struct_OC_partition_info))
+        .field17
+        as *mut crate::l_array_3073_struct_AC_l_struct_struct_OC_partition_info))
         .array)
         .as_mut_ptr()
         .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -22075,11 +22164,11 @@ pub unsafe extern "C" fn _ZNSt14_Function_baseC2Ev(mut _5607: *mut core::ffi::c_
     let mut _5609: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _5608 = _5607;
     _5609 = _5608;
-    let ref mut fresh23 = *(&mut (*(_5609 as *mut l_struct_class_OC_std_KD__KD__Function_base))
+    let ref mut fresh23 = *(&raw mut (*(_5609 as *mut l_struct_class_OC_std_KD__KD__Function_base))
         .field0 as *mut l_struct_union_OC_std_KD__KD__Any_data
         as *mut *mut core::ffi::c_void);
     *fresh23 = 0 as *mut core::ffi::c_void;
-    let ref mut fresh24 = *(&mut (*(_5609 as *mut l_struct_class_OC_std_KD__KD__Function_base))
+    let ref mut fresh24 = *(&raw mut (*(_5609 as *mut l_struct_class_OC_std_KD__KD__Function_base))
         .field1 as *mut *mut core::ffi::c_void);
     *fresh24 = 0 as *mut core::ffi::c_void;
 }
@@ -22350,12 +22439,15 @@ unsafe extern "C" fn _ZZ22astcenc_compress_imageP15astcenc_contextP13astcenc_ima
     let mut _5707: uint32_t = 0;
     _5689 = _5688;
     _5691 = _5689;
-    _5692 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
-    _5693 = *(&mut (*(_5692 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
-    _5694 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
-    _5695 = *(&mut (*(_5694 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
-    _5696 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
-    _5697 = *(&mut (*(_5696 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
+    _5692 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
+    _5693 = *(&raw mut (*(_5692 as *mut l_struct_struct_OC_astcenc_image)).field0 as *mut uint32_t);
+    _5694 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
+    _5695 = *(&raw mut (*(_5694 as *mut l_struct_struct_OC_astcenc_image)).field1 as *mut uint32_t);
+    _5696 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
+    _5697 = *(&raw mut (*(_5696 as *mut l_struct_struct_OC_astcenc_image)).field2 as *mut uint32_t);
     _5690 = llvm_mul_u32(llvm_mul_u32(_5693, _5695), _5697) as uint64_t;
     _5698 = _5690;
     _5699 = llvm_OC_umul_OC_with_OC_overflow_OC_i64(_5698, 4);
@@ -22364,22 +22456,27 @@ unsafe extern "C" fn _ZZ22astcenc_compress_imageP15astcenc_contextP13astcenc_ima
         -(1 as core::ffi::c_int) as uint64_t,
         _5699.field0,
     ));
-    _5701 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field0 as *mut *mut core::ffi::c_void);
-    let ref mut fresh28 = *(&mut (*(_5701 as *mut l_struct_struct_OC_astcenc_contexti)).field3
+    _5701 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field0 as *mut *mut core::ffi::c_void);
+    let ref mut fresh28 = *(&raw mut (*(_5701 as *mut l_struct_struct_OC_astcenc_contexti)).field3
         as *mut *mut core::ffi::c_void);
     *fresh28 = _5700;
-    _5702 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
-    _5703 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field0 as *mut *mut core::ffi::c_void);
-    _5704 = *(&mut (*(&mut (*(_5703 as *mut l_struct_struct_OC_astcenc_contexti)).field0
+    _5702 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field1 as *mut *mut core::ffi::c_void);
+    _5703 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field0 as *mut *mut core::ffi::c_void);
+    _5704 = *(&raw mut (*(&raw mut (*(_5703 as *mut l_struct_struct_OC_astcenc_contexti)).field0
         as *mut l_struct_struct_OC_astcenc_config))
         .field9 as *mut uint32_t);
-    _5705 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field2 as *mut *mut core::ffi::c_void);
-    _5706 = *(&mut (*(_5691 as *mut l_struct_class_OC_anon)).field0 as *mut *mut core::ffi::c_void);
+    _5705 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field2 as *mut *mut core::ffi::c_void);
+    _5706 =
+        *(&raw mut (*(_5691 as *mut l_struct_class_OC_anon)).field0 as *mut *mut core::ffi::c_void);
     _5707 = _Z21init_compute_averagesRK13astcenc_imagejRK15astcenc_swizzleR8avg_args(
         _5702,
         _5704,
         _5705,
-        &mut (*(_5706 as *mut l_struct_struct_OC_astcenc_contexti)).field5
+        &raw mut (*(_5706 as *mut l_struct_struct_OC_astcenc_contexti)).field5
             as *mut l_struct_struct_OC_avg_args as *mut core::ffi::c_void,
     );
     return _5707;
@@ -22802,16 +22899,16 @@ unsafe extern "C" fn _ZZ22astcenc_compress_imageP15astcenc_contextP13astcenc_ima
     let mut _5851: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     _5847 = _5846;
     _5848 = _5847;
-    _5849 = *(&mut (*(_5848 as *mut l_struct_class_OC_anon_OC_2)).field0
+    _5849 = *(&raw mut (*(_5848 as *mut l_struct_class_OC_anon_OC_2)).field0
         as *mut *mut core::ffi::c_void);
-    _5850 = *(&mut (*(_5849 as *mut l_struct_struct_OC_astcenc_contexti)).field3
+    _5850 = *(&raw mut (*(_5849 as *mut l_struct_struct_OC_astcenc_contexti)).field3
         as *mut *mut core::ffi::c_void);
     if !_5850.is_null() {
         _ZdaPv(_5850);
     }
-    _5851 = *(&mut (*(_5848 as *mut l_struct_class_OC_anon_OC_2)).field0
+    _5851 = *(&raw mut (*(_5848 as *mut l_struct_class_OC_anon_OC_2)).field0
         as *mut *mut core::ffi::c_void);
-    let ref mut fresh34 = *(&mut (*(_5851 as *mut l_struct_struct_OC_astcenc_contexti)).field3
+    let ref mut fresh34 = *(&raw mut (*(_5851 as *mut l_struct_struct_OC_astcenc_contexti)).field3
         as *mut *mut core::ffi::c_void);
     *fresh34 = 0 as *mut core::ffi::c_void;
 }

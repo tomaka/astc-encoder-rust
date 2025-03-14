@@ -108,6 +108,8 @@ RUN cd src && for f in *.rs; do sed -i 's/pub struct __tmp_rename_array_\([_a-zA
 # It also solves some unaligned pointer grabbing errors.
 RUN cd src && for f in *.rs; do sed -i 's/&\*/\&raw const \*/g' $f; done
 RUN cd src && for f in *.rs; do sed -i 's/&mut \*/\&raw mut \*/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/&(\*/\&raw const (\*/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/&mut (\*/\&raw mut (\*/g' $f; done
 
 # Add some substitutes to C/C++ functions in `lib.rs`
 RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs
@@ -131,8 +133,8 @@ RUN echo "unsafe fn _ZdlPvm(ptr: *mut core::ffi::c_void, _: u64) { libc::free(pt
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt9terminatev() -> ! { panic!() }" >> lib.rs
-RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int { libc::pthread_mutex_lock(mutex as *mut _) }" >> lib.rs
-RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int { libc::pthread_mutex_unlock(mutex as *mut _) }" >> lib.rs
+RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_lock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs
+RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_unlock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs
 
 # Rustfmt
 RUN cargo fmt

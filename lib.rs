@@ -141,9 +141,9 @@ unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! {
 unsafe fn _ZSt9terminatev() -> ! {
     panic!()
 }
-unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int {
-    libc::pthread_mutex_lock(mutex as *mut _)
+unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint {
+    libc::pthread_mutex_lock(mutex as *mut _) as core::ffi::c_uint
 }
-unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int {
-    libc::pthread_mutex_unlock(mutex as *mut _)
+unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint {
+    libc::pthread_mutex_unlock(mutex as *mut _) as core::ffi::c_uint
 }

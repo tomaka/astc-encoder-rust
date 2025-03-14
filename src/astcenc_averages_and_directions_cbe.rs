@@ -3176,7 +3176,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
     _333 = _2;
     _334 = _3;
     _423 = _332;
-    _424 = *(&mut (*(_423 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _424 = *(&raw mut (*(_423 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _335 = _424 as uint32_t;
     _425 = _335;
     if _425 as int32_t > 0 as core::ffi::c_uint as int32_t {
@@ -3200,7 +3200,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             }
             _430 = _332;
             _431 = _337;
-            _338 = &raw mut *((*(&raw mut *((*(&mut (*(_430
+            _338 = &raw mut *((*(&raw mut *((*(&raw mut (*(_430
                 as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -3214,8 +3214,8 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
                 as *mut uint8_t as *mut core::ffi::c_void;
             _432 = _332;
             _433 = _337;
-            _434 = *(&raw mut *((*(&mut (*(_432 as *mut l_struct_struct_OC_partition_info)).field2
-                as *mut crate::l_array_4_uint8_t))
+            _434 = *(&raw mut *((*(&raw mut (*(_432 as *mut l_struct_struct_OC_partition_info))
+                .field2 as *mut crate::l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
                 .offset(_433 as int32_t as int64_t as isize) as *mut uint8_t);
@@ -3237,7 +3237,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _438 = _334;
             _439 = _337;
             _440 = memcpy(
-                &mut (*(&raw mut *(_438 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_438 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_439 as int32_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field0 as *mut l_struct_struct_OC_vfloat4
@@ -6617,7 +6617,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_4_compRK14partition_infoRK11i
             _1198 = _334;
             _1199 = _337;
             _1200 = memcpy(
-                &mut (*(&raw mut *(_1198 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_1198 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_1199 as int32_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field1 as *mut l_struct_struct_OC_vfloat4
@@ -12995,10 +12995,11 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
     _2657 = _1325;
     _2658 = _1326;
     _2844 = _2656;
-    _2845 = *(&mut (*(_2844 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _2845 =
+        *(&raw mut (*(_2844 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _2659 = _2845 as uint32_t;
     _2846 = _2657;
-    _2847 = *(&mut (*(_2846 as *mut l_struct_struct_OC_image_block)).field4 as *mut uint8_t);
+    _2847 = *(&raw mut (*(_2846 as *mut l_struct_struct_OC_image_block)).field4 as *mut uint8_t);
     _2660 = _2847 as uint32_t;
     _2848 = _2660;
     if _2848 > 0 as core::ffi::c_uint {
@@ -13008,7 +13009,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
             _2851 = _2658;
             _2852 = memcpy(
                 _2851 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                &mut (*(_2850 as *mut l_struct_struct_OC_image_block)).field7
+                &raw mut (*(_2850 as *mut l_struct_struct_OC_image_block)).field7
                     as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
                 16,
             );
@@ -13058,7 +13059,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _2863 = _2656;
                     _2864 = _2663;
                     _2138 = &mut _2664 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _2139 = &raw mut *(&raw mut *((*(&mut (*(_2863
+                    _2139 = &raw mut *(&raw mut *((*(&raw mut (*(_2863
                         as *mut l_struct_struct_OC_partition_info))
                         .field3
                         as *mut crate::l_array_216_uint8_t))
@@ -13628,7 +13629,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         .data = _2975;
                     _2976 = _2657;
                     _2977 = _2663;
-                    _2075 = &raw mut *(&raw mut *((*(&mut (*(_2976
+                    _2075 = &raw mut *(&raw mut *((*(&raw mut (*(_2976
                         as *mut l_struct_struct_OC_image_block))
                         .field0
                         as *mut crate::l_array_219_float))
@@ -13958,7 +13959,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     );
                     _3051 = _2657;
                     _3052 = _2663;
-                    _2077 = &raw mut *(&raw mut *((*(&mut (*(_3051
+                    _2077 = &raw mut *(&raw mut *((*(&raw mut (*(_3051
                         as *mut l_struct_struct_OC_image_block))
                         .field1
                         as *mut crate::l_array_219_float))
@@ -14288,7 +14289,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     );
                     _3126 = _2657;
                     _3127 = _2663;
-                    _2079 = &raw mut *(&raw mut *((*(&mut (*(_3126
+                    _2079 = &raw mut *(&raw mut *((*(&raw mut (*(_3126
                         as *mut l_struct_struct_OC_image_block))
                         .field2
                         as *mut crate::l_array_219_float))
@@ -14618,7 +14619,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     );
                     _3201 = _2657;
                     _3202 = _2663;
-                    _2081 = &raw mut *(&raw mut *((*(&mut (*(_3201
+                    _2081 = &raw mut *(&raw mut *((*(&raw mut (*(_3201
                         as *mut l_struct_struct_OC_image_block))
                         .field3
                         as *mut crate::l_array_219_float))
@@ -14952,13 +14953,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                 _3277 = _2657;
                 _3278 = memcpy(
                     &mut _2687 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                    &mut (*(_3277 as *mut l_struct_struct_OC_image_block)).field7
+                    &raw mut (*(_3277 as *mut l_struct_struct_OC_image_block)).field7
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void,
                     16,
                 );
                 _3279 = _2657;
-                _3280 = *(&mut (*(_3279 as *mut l_struct_struct_OC_image_block)).field4
+                _3280 = *(&raw mut (*(_3279 as *mut l_struct_struct_OC_image_block)).field4
                     as *mut uint8_t);
                 _3281 = *(&mut _2687.field0 as *mut crate::l_array_4_float);
                 *(&mut _2050 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) =
@@ -15296,7 +15297,8 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     16,
                 );
                 _3354 = _2656;
-                _3355 = *(&raw mut *((*(&mut (*(_3354 as *mut l_struct_struct_OC_partition_info))
+                _3355 = *(&raw mut *((*(&raw mut (*(_3354
+                    as *mut l_struct_struct_OC_partition_info))
                     .field2
                     as *mut crate::l_array_4_uint8_t))
                     .array)
@@ -15419,7 +15421,8 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     16,
                 );
                 _3384 = _2656;
-                _3385 = *(&raw mut *((*(&mut (*(_3384 as *mut l_struct_struct_OC_partition_info))
+                _3385 = *(&raw mut *((*(&raw mut (*(_3384
+                    as *mut l_struct_struct_OC_partition_info))
                     .field2
                     as *mut crate::l_array_4_uint8_t))
                     .array)
@@ -15588,7 +15591,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _3424 = _2702;
                         _2136 =
                             &mut _2703 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2137 = &raw mut *(&raw mut *((*(&mut (*(_3423
+                        _2137 = &raw mut *(&raw mut *((*(&raw mut (*(_3423
                             as *mut l_struct_struct_OC_partition_info))
                             .field3
                             as *mut crate::l_array_216_uint8_t))
@@ -16473,7 +16476,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .data = _3582;
                         _3583 = _2657;
                         _3584 = _2702;
-                        _2083 = &raw mut *(&raw mut *((*(&mut (*(_3583
+                        _2083 = &raw mut *(&raw mut *((*(&raw mut (*(_3583
                             as *mut l_struct_struct_OC_image_block))
                             .field0
                             as *mut crate::l_array_219_float))
@@ -17102,7 +17105,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         );
                         _3720 = _2657;
                         _3721 = _2702;
-                        _2085 = &raw mut *(&raw mut *((*(&mut (*(_3720
+                        _2085 = &raw mut *(&raw mut *((*(&raw mut (*(_3720
                             as *mut l_struct_struct_OC_image_block))
                             .field1
                             as *mut crate::l_array_219_float))
@@ -17731,7 +17734,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         );
                         _3857 = _2657;
                         _3858 = _2702;
-                        _2087 = &raw mut *(&raw mut *((*(&mut (*(_3857
+                        _2087 = &raw mut *(&raw mut *((*(&raw mut (*(_3857
                             as *mut l_struct_struct_OC_image_block))
                             .field2
                             as *mut crate::l_array_219_float))
@@ -18360,7 +18363,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         );
                         _3994 = _2657;
                         _3995 = _2702;
-                        _2089 = &raw mut *(&raw mut *((*(&mut (*(_3994
+                        _2089 = &raw mut *(&raw mut *((*(&raw mut (*(_3994
                             as *mut l_struct_struct_OC_image_block))
                             .field3
                             as *mut crate::l_array_219_float))
@@ -18993,13 +18996,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _4132 = _2657;
                     _4133 = memcpy(
                         &mut _2739 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        &mut (*(_4132 as *mut l_struct_struct_OC_image_block)).field7
+                        &raw mut (*(_4132 as *mut l_struct_struct_OC_image_block)).field7
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         16,
                     );
                     _4134 = _2657;
-                    _4135 = *(&mut (*(_4134 as *mut l_struct_struct_OC_image_block)).field4
+                    _4135 = *(&raw mut (*(_4134 as *mut l_struct_struct_OC_image_block)).field4
                         as *mut uint8_t);
                     _4136 = *(&mut _2739.field0 as *mut crate::l_array_4_float);
                     *(&mut _2060 as *mut l_struct_struct_OC_vfloat4
@@ -19604,7 +19607,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16,
                     );
                     _4255 = _2656;
-                    _4256 = *(&raw mut *((*(&mut (*(_4255
+                    _4256 = *(&raw mut *((*(&raw mut (*(_4255
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -19730,7 +19733,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16,
                     );
                     _4285 = _2656;
-                    _4286 = *(&raw mut *((*(&mut (*(_4285
+                    _4286 = *(&raw mut *((*(&raw mut (*(_4285
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -19859,7 +19862,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16,
                     );
                     _4315 = _2656;
-                    _4316 = *(&raw mut *((*(&mut (*(_4315
+                    _4316 = *(&raw mut *((*(&raw mut (*(_4315
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -20029,7 +20032,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         _4354 = _2763;
                         _2134 =
                             &mut _2764 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _2135 = &raw mut *(&raw mut *((*(&mut (*(_4353
+                        _2135 = &raw mut *(&raw mut *((*(&raw mut (*(_4353
                             as *mut l_struct_struct_OC_partition_info))
                             .field3
                             as *mut crate::l_array_216_uint8_t))
@@ -21199,7 +21202,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                             .data = _4559;
                         _4560 = _2657;
                         _4561 = _2763;
-                        _2091 = &raw mut *(&raw mut *((*(&mut (*(_4560
+                        _2091 = &raw mut *(&raw mut *((*(&raw mut (*(_4560
                             as *mut l_struct_struct_OC_image_block))
                             .field0
                             as *mut crate::l_array_219_float))
@@ -22119,7 +22122,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         );
                         _4759 = _2657;
                         _4760 = _2763;
-                        _2093 = &raw mut *(&raw mut *((*(&mut (*(_4759
+                        _2093 = &raw mut *(&raw mut *((*(&raw mut (*(_4759
                             as *mut l_struct_struct_OC_image_block))
                             .field1
                             as *mut crate::l_array_219_float))
@@ -23039,7 +23042,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         );
                         _4958 = _2657;
                         _4959 = _2763;
-                        _2095 = &raw mut *(&raw mut *((*(&mut (*(_4958
+                        _2095 = &raw mut *(&raw mut *((*(&raw mut (*(_4958
                             as *mut l_struct_struct_OC_image_block))
                             .field2
                             as *mut crate::l_array_219_float))
@@ -23959,7 +23962,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         );
                         _5157 = _2657;
                         _5158 = _2763;
-                        _2097 = &raw mut *(&raw mut *((*(&mut (*(_5157
+                        _2097 = &raw mut *(&raw mut *((*(&raw mut (*(_5157
                             as *mut l_struct_struct_OC_image_block))
                             .field3
                             as *mut crate::l_array_219_float))
@@ -24883,13 +24886,13 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                     _5357 = _2657;
                     _5358 = memcpy(
                         &mut _2813 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
-                        &mut (*(_5357 as *mut l_struct_struct_OC_image_block)).field7
+                        &raw mut (*(_5357 as *mut l_struct_struct_OC_image_block)).field7
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void,
                         16,
                     );
                     _5359 = _2657;
-                    _5360 = *(&mut (*(_5359 as *mut l_struct_struct_OC_image_block)).field4
+                    _5360 = *(&raw mut (*(_5359 as *mut l_struct_struct_OC_image_block)).field4
                         as *mut uint8_t);
                     _5361 = *(&mut _2813.field0 as *mut crate::l_array_4_float);
                     *(&mut _2070 as *mut l_struct_struct_OC_vfloat4
@@ -25737,7 +25740,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16,
                     );
                     _5526 = _2656;
-                    _5527 = *(&raw mut *((*(&mut (*(_5526
+                    _5527 = *(&raw mut *((*(&raw mut (*(_5526
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -25863,7 +25866,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16,
                     );
                     _5556 = _2656;
-                    _5557 = *(&raw mut *((*(&mut (*(_5556
+                    _5557 = *(&raw mut *((*(&raw mut (*(_5556
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -25992,7 +25995,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16,
                     );
                     _5586 = _2656;
-                    _5587 = *(&raw mut *((*(&mut (*(_5586
+                    _5587 = *(&raw mut *((*(&raw mut (*(_5586
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -26121,7 +26124,7 @@ unsafe extern "C" fn _ZL31compute_partition_averages_rgbaRK14partition_infoRK11i
                         16,
                     );
                     _5616 = _2656;
-                    _5617 = *(&raw mut *((*(&mut (*(_5616
+                    _5617 = *(&raw mut *((*(&raw mut (*(_5616
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -26295,25 +26298,25 @@ pub unsafe extern "C" fn _ZNK11image_block5texelEj(
     _5966 = _5958;
     _5967 = _5965;
     _5968 = _5966;
-    _5969 = *(&raw mut *((*(&mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field0
+    _5969 = *(&raw mut *((*(&raw mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field0
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_5968 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _5970 = _5966;
-    _5971 = *(&raw mut *((*(&mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field1
+    _5971 = *(&raw mut *((*(&raw mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field1
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_5970 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _5972 = _5966;
-    _5973 = *(&raw mut *((*(&mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field2
+    _5973 = *(&raw mut *((*(&raw mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field2
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_5972 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _5974 = _5966;
-    _5975 = *(&raw mut *((*(&mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field3
+    _5975 = *(&raw mut *((*(&raw mut (*(_5967 as *mut l_struct_struct_OC_image_block)).field3
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
@@ -28178,21 +28181,21 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void,
     );
     _6486 = _6396;
-    _6400 = &raw mut *((*(&mut (*(_6486 as *mut l_struct_struct_OC_image_block)).field0
+    _6400 = &raw mut *((*(&raw mut (*(_6486 as *mut l_struct_struct_OC_image_block)).field0
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(0 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float
         as *mut core::ffi::c_void;
     _6487 = _6396;
-    _6401 = &raw mut *((*(&mut (*(_6487 as *mut l_struct_struct_OC_image_block)).field1
+    _6401 = &raw mut *((*(&raw mut (*(_6487 as *mut l_struct_struct_OC_image_block)).field1
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(0 as core::ffi::c_int as int64_t as isize) as *mut core::ffi::c_float
         as *mut core::ffi::c_void;
     _6488 = _6396;
-    _6402 = &raw mut *((*(&mut (*(_6488 as *mut l_struct_struct_OC_image_block)).field2
+    _6402 = &raw mut *((*(&raw mut (*(_6488 as *mut l_struct_struct_OC_image_block)).field2
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
@@ -28425,21 +28428,21 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             16,
         );
         _6546 = _6396;
-        _6400 = &raw mut *((*(&mut (*(_6546 as *mut l_struct_struct_OC_image_block)).field1
+        _6400 = &raw mut *((*(&raw mut (*(_6546 as *mut l_struct_struct_OC_image_block)).field1
             as *mut crate::l_array_219_float))
             .array)
             .as_mut_ptr()
             .offset(0 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float as *mut core::ffi::c_void;
         _6547 = _6396;
-        _6401 = &raw mut *((*(&mut (*(_6547 as *mut l_struct_struct_OC_image_block)).field2
+        _6401 = &raw mut *((*(&raw mut (*(_6547 as *mut l_struct_struct_OC_image_block)).field2
             as *mut crate::l_array_219_float))
             .array)
             .as_mut_ptr()
             .offset(0 as core::ffi::c_int as int64_t as isize)
             as *mut core::ffi::c_float as *mut core::ffi::c_void;
         _6548 = _6396;
-        _6402 = &raw mut *((*(&mut (*(_6548 as *mut l_struct_struct_OC_image_block)).field3
+        _6402 = &raw mut *((*(&raw mut (*(_6548 as *mut l_struct_struct_OC_image_block)).field3
             as *mut crate::l_array_219_float))
             .array)
             .as_mut_ptr()
@@ -28661,14 +28664,14 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 16,
             );
             _6606 = _6396;
-            _6401 = &raw mut *((*(&mut (*(_6606 as *mut l_struct_struct_OC_image_block)).field2
+            _6401 = &raw mut *((*(&raw mut (*(_6606 as *mut l_struct_struct_OC_image_block)).field2
                 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float as *mut core::ffi::c_void;
             _6607 = _6396;
-            _6402 = &raw mut *((*(&mut (*(_6607 as *mut l_struct_struct_OC_image_block)).field3
+            _6402 = &raw mut *((*(&raw mut (*(_6607 as *mut l_struct_struct_OC_image_block)).field3
                 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
@@ -28898,7 +28901,8 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                     16,
                 );
                 _6665 = _6396;
-                _6402 = &raw mut *((*(&mut (*(_6665 as *mut l_struct_struct_OC_image_block)).field3
+                _6402 = &raw mut *((*(&raw mut (*(_6665 as *mut l_struct_struct_OC_image_block))
+                    .field3
                     as *mut crate::l_array_219_float))
                     .array)
                     .as_mut_ptr()
@@ -29129,7 +29133,8 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
         }
     }
     _6722 = _6395;
-    _6723 = *(&mut (*(_6722 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _6723 =
+        *(&raw mut (*(_6722 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _6419 = _6723 as uint32_t;
     _6724 = _6419;
     if _6724 > 0 as core::ffi::c_uint {
@@ -29143,7 +29148,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             }
             _6727 = _6395;
             _6728 = _6420;
-            _6421 = &raw mut *((*(&raw mut *((*(&mut (*(_6727
+            _6421 = &raw mut *((*(&raw mut *((*(&raw mut (*(_6727
                 as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -29157,13 +29162,12 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
                 as *mut uint8_t as *mut core::ffi::c_void;
             _6729 = _6395;
             _6730 = _6420;
-            _6731 =
-                *(&raw mut *((*(&mut (*(_6729 as *mut l_struct_struct_OC_partition_info)).field2
-                    as *mut crate::l_array_4_uint8_t))
-                    .array)
-                    .as_mut_ptr()
-                    .offset(_6730 as uint64_t as int64_t as isize)
-                    as *mut uint8_t);
+            _6731 = *(&raw mut *((*(&raw mut (*(_6729 as *mut l_struct_struct_OC_partition_info))
+                .field2 as *mut crate::l_array_4_uint8_t))
+                .array)
+                .as_mut_ptr()
+                .offset(_6730 as uint64_t as int64_t as isize)
+                as *mut uint8_t);
             _6422 = _6731 as uint32_t;
             _6732 = _6422;
             if !(_6732 > 0 as core::ffi::c_uint) {
@@ -29182,7 +29186,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _6735 = _6398;
             _6736 = _6420;
             _6737 = memcpy(
-                &mut (*(&raw mut *(_6735 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_6735 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_6736 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field0 as *mut l_struct_struct_OC_vfloat4
@@ -31679,7 +31683,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_3_compRK14partition_infoRK11i
             _7302 = _6398;
             _7303 = _6420;
             _7304 = memcpy(
-                &mut (*(&raw mut *(_7302 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_7302 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_7303 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field1 as *mut l_struct_struct_OC_vfloat4
@@ -32999,7 +33003,8 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
     _7645 = _7402;
     _7646 = _7403;
     _7713 = _7644;
-    _7714 = *(&mut (*(_7713 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _7714 =
+        *(&raw mut (*(_7713 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _7647 = _7714 as uint32_t;
     _7715 = _7647;
     if _7715 > 0 as core::ffi::c_uint {
@@ -33023,7 +33028,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             }
             _7720 = _7644;
             _7721 = _7649;
-            _7650 = &raw mut *((*(&raw mut *((*(&mut (*(_7720
+            _7650 = &raw mut *((*(&raw mut *((*(&raw mut (*(_7720
                 as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -33037,13 +33042,12 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
                 as *mut uint8_t as *mut core::ffi::c_void;
             _7722 = _7644;
             _7723 = _7649;
-            _7724 =
-                *(&raw mut *((*(&mut (*(_7722 as *mut l_struct_struct_OC_partition_info)).field2
-                    as *mut crate::l_array_4_uint8_t))
-                    .array)
-                    .as_mut_ptr()
-                    .offset(_7723 as uint64_t as int64_t as isize)
-                    as *mut uint8_t);
+            _7724 = *(&raw mut *((*(&raw mut (*(_7722 as *mut l_struct_struct_OC_partition_info))
+                .field2 as *mut crate::l_array_4_uint8_t))
+                .array)
+                .as_mut_ptr()
+                .offset(_7723 as uint64_t as int64_t as isize)
+                as *mut uint8_t);
             _7651 = _7724 as uint32_t;
             _7725 = _7651;
             if !(_7725 > 0 as core::ffi::c_uint) {
@@ -33062,7 +33066,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _7728 = _7646;
             _7729 = _7649;
             _7730 = memcpy(
-                &mut (*(&raw mut *(_7728 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_7728 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_7729 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field0 as *mut l_struct_struct_OC_vfloat4
@@ -35520,7 +35524,7 @@ pub unsafe extern "C" fn _Z32compute_avgs_and_dirs_3_comp_rgbRK14partition_infoR
             _8280 = _7646;
             _8281 = _7649;
             _8282 = memcpy(
-                &mut (*(&raw mut *(_8280 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_8280 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_8281 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field1 as *mut l_struct_struct_OC_vfloat4
@@ -41040,17 +41044,18 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
     _9551 = _8371;
     _9552 = _8372;
     _9718 = _9550;
-    _9719 = *(&mut (*(_9718 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _9719 =
+        *(&raw mut (*(_9718 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _9553 = _9719 as uint32_t;
     _9720 = _9551;
-    _9721 = *(&mut (*(_9720 as *mut l_struct_struct_OC_image_block)).field4 as *mut uint8_t);
+    _9721 = *(&raw mut (*(_9720 as *mut l_struct_struct_OC_image_block)).field4 as *mut uint8_t);
     _9554 = _9721 as uint32_t;
     _9722 = _9554;
     if _9722 > 0 as core::ffi::c_uint {
         _9723 = _9553;
         if _9723 == 1 as core::ffi::c_uint {
             _9724 = _9551;
-            _9525 = &mut (*(_9724 as *mut l_struct_struct_OC_image_block)).field7
+            _9525 = &raw mut (*(_9724 as *mut l_struct_struct_OC_image_block)).field7
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _9725 = _9525;
             _9454 = _9725;
@@ -41146,7 +41151,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9750 = _9550;
                     _9751 = _9558;
                     _9084 = &mut _9559 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                    _9085 = &raw mut *(&raw mut *((*(&mut (*(_9750
+                    _9085 = &raw mut *(&raw mut *((*(&raw mut (*(_9750
                         as *mut l_struct_struct_OC_partition_info))
                         .field3
                         as *mut crate::l_array_216_uint8_t))
@@ -41716,7 +41721,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         .data = _9862;
                     _9863 = _9551;
                     _9864 = _9558;
-                    _9027 = &raw mut *(&raw mut *((*(&mut (*(_9863
+                    _9027 = &raw mut *(&raw mut *((*(&raw mut (*(_9863
                         as *mut l_struct_struct_OC_image_block))
                         .field0
                         as *mut crate::l_array_219_float))
@@ -42046,7 +42051,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     );
                     _9938 = _9551;
                     _9939 = _9558;
-                    _9029 = &raw mut *(&raw mut *((*(&mut (*(_9938
+                    _9029 = &raw mut *(&raw mut *((*(&raw mut (*(_9938
                         as *mut l_struct_struct_OC_image_block))
                         .field1
                         as *mut crate::l_array_219_float))
@@ -42376,7 +42381,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     );
                     _10013 = _9551;
                     _10014 = _9558;
-                    _9031 = &raw mut *(&raw mut *((*(&mut (*(_10013
+                    _9031 = &raw mut *(&raw mut *((*(&raw mut (*(_10013
                         as *mut l_struct_struct_OC_image_block))
                         .field2
                         as *mut crate::l_array_219_float))
@@ -42708,7 +42713,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _9558 = llvm_add_u32(_10088, 4);
                 }
                 _10089 = _9551;
-                _9527 = &mut (*(_10089 as *mut l_struct_struct_OC_image_block)).field7
+                _9527 = &raw mut (*(_10089 as *mut l_struct_struct_OC_image_block)).field7
                     as *mut l_struct_struct_OC_vfloat4
                     as *mut core::ffi::c_void;
                 _10090 = _9527;
@@ -42753,7 +42758,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                 _10102 = _9526;
                 *(&mut _9579.field0 as *mut crate::l_array_4_float) = _10102.field0;
                 _10103 = _9551;
-                _10104 = *(&mut (*(_10103 as *mut l_struct_struct_OC_image_block)).field4
+                _10104 = *(&raw mut (*(_10103 as *mut l_struct_struct_OC_image_block)).field4
                     as *mut uint8_t);
                 _10105 = *(&mut _9579.field0 as *mut crate::l_array_4_float);
                 *(&mut _9002 as *mut l_struct_struct_OC_vfloat4 as *mut crate::l_array_4_float) =
@@ -43075,7 +43080,8 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     16,
                 );
                 _10176 = _9550;
-                _10177 = *(&raw mut *((*(&mut (*(_10176 as *mut l_struct_struct_OC_partition_info))
+                _10177 = *(&raw mut *((*(&raw mut (*(_10176
+                    as *mut l_struct_struct_OC_partition_info))
                     .field2
                     as *mut crate::l_array_4_uint8_t))
                     .array)
@@ -43200,7 +43206,8 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     16,
                 );
                 _10206 = _9550;
-                _10207 = *(&raw mut *((*(&mut (*(_10206 as *mut l_struct_struct_OC_partition_info))
+                _10207 = *(&raw mut *((*(&raw mut (*(_10206
+                    as *mut l_struct_struct_OC_partition_info))
                     .field2
                     as *mut crate::l_array_4_uint8_t))
                     .array)
@@ -43371,7 +43378,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _10246 = _9593;
                         _9082 =
                             &mut _9594 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9083 = &raw mut *(&raw mut *((*(&mut (*(_10245
+                        _9083 = &raw mut *(&raw mut *((*(&raw mut (*(_10245
                             as *mut l_struct_struct_OC_partition_info))
                             .field3
                             as *mut crate::l_array_216_uint8_t))
@@ -44256,7 +44263,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .data = _10404;
                         _10405 = _9551;
                         _10406 = _9593;
-                        _9033 = &raw mut *(&raw mut *((*(&mut (*(_10405
+                        _9033 = &raw mut *(&raw mut *((*(&raw mut (*(_10405
                             as *mut l_struct_struct_OC_image_block))
                             .field0
                             as *mut crate::l_array_219_float))
@@ -44885,7 +44892,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         );
                         _10542 = _9551;
                         _10543 = _9593;
-                        _9035 = &raw mut *(&raw mut *((*(&mut (*(_10542
+                        _9035 = &raw mut *(&raw mut *((*(&raw mut (*(_10542
                             as *mut l_struct_struct_OC_image_block))
                             .field1
                             as *mut crate::l_array_219_float))
@@ -45514,7 +45521,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         );
                         _10679 = _9551;
                         _10680 = _9593;
-                        _9037 = &raw mut *(&raw mut *((*(&mut (*(_10679
+                        _9037 = &raw mut *(&raw mut *((*(&raw mut (*(_10679
                             as *mut l_struct_struct_OC_image_block))
                             .field2
                             as *mut crate::l_array_219_float))
@@ -46145,7 +46152,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _9593 = llvm_add_u32(_10816, 4);
                     }
                     _10817 = _9551;
-                    _9529 = &mut (*(_10817 as *mut l_struct_struct_OC_image_block)).field7
+                    _9529 = &raw mut (*(_10817 as *mut l_struct_struct_OC_image_block)).field7
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void;
                     _10818 = _9529;
@@ -46190,7 +46197,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _10830 = _9528;
                     *(&mut _9625.field0 as *mut crate::l_array_4_float) = _10830.field0;
                     _10831 = _9551;
-                    _10832 = *(&mut (*(_10831 as *mut l_struct_struct_OC_image_block)).field4
+                    _10832 = *(&raw mut (*(_10831 as *mut l_struct_struct_OC_image_block)).field4
                         as *mut uint8_t);
                     _10833 = *(&mut _9625.field0 as *mut crate::l_array_4_float);
                     *(&mut _9012 as *mut l_struct_struct_OC_vfloat4
@@ -46745,7 +46752,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16,
                     );
                     _10948 = _9550;
-                    _10949 = *(&raw mut *((*(&mut (*(_10948
+                    _10949 = *(&raw mut *((*(&raw mut (*(_10948
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -46871,7 +46878,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16,
                     );
                     _10978 = _9550;
-                    _10979 = *(&raw mut *((*(&mut (*(_10978
+                    _10979 = *(&raw mut *((*(&raw mut (*(_10978
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -47000,7 +47007,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16,
                     );
                     _11008 = _9550;
-                    _11009 = *(&raw mut *((*(&mut (*(_11008
+                    _11009 = *(&raw mut *((*(&raw mut (*(_11008
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -47170,7 +47177,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _11047 = _9647;
                         _9080 =
                             &mut _9648 as *mut l_struct_struct_OC_vint4 as *mut core::ffi::c_void;
-                        _9081 = &raw mut *(&raw mut *((*(&mut (*(_11046
+                        _9081 = &raw mut *(&raw mut *((*(&raw mut (*(_11046
                             as *mut l_struct_struct_OC_partition_info))
                             .field3
                             as *mut crate::l_array_216_uint8_t))
@@ -48340,7 +48347,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                             .data = _11252;
                         _11253 = _9551;
                         _11254 = _9647;
-                        _9039 = &raw mut *(&raw mut *((*(&mut (*(_11253
+                        _9039 = &raw mut *(&raw mut *((*(&raw mut (*(_11253
                             as *mut l_struct_struct_OC_image_block))
                             .field0
                             as *mut crate::l_array_219_float))
@@ -49260,7 +49267,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         );
                         _11452 = _9551;
                         _11453 = _9647;
-                        _9041 = &raw mut *(&raw mut *((*(&mut (*(_11452
+                        _9041 = &raw mut *(&raw mut *((*(&raw mut (*(_11452
                             as *mut l_struct_struct_OC_image_block))
                             .field1
                             as *mut crate::l_array_219_float))
@@ -50180,7 +50187,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         );
                         _11651 = _9551;
                         _11652 = _9647;
-                        _9043 = &raw mut *(&raw mut *((*(&mut (*(_11651
+                        _9043 = &raw mut *(&raw mut *((*(&raw mut (*(_11651
                             as *mut l_struct_struct_OC_image_block))
                             .field2
                             as *mut crate::l_array_219_float))
@@ -51102,7 +51109,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         _9647 = llvm_add_u32(_11850, 4);
                     }
                     _11851 = _9551;
-                    _9531 = &mut (*(_11851 as *mut l_struct_struct_OC_image_block)).field7
+                    _9531 = &raw mut (*(_11851 as *mut l_struct_struct_OC_image_block)).field7
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void;
                     _11852 = _9531;
@@ -51147,7 +51154,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                     _11864 = _9530;
                     *(&mut _9690.field0 as *mut crate::l_array_4_float) = _11864.field0;
                     _11865 = _9551;
-                    _11866 = *(&mut (*(_11865 as *mut l_struct_struct_OC_image_block)).field4
+                    _11866 = *(&raw mut (*(_11865 as *mut l_struct_struct_OC_image_block)).field4
                         as *mut uint8_t);
                     _11867 = *(&mut _9690.field0 as *mut crate::l_array_4_float);
                     *(&mut _9022 as *mut l_struct_struct_OC_vfloat4
@@ -51920,7 +51927,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16,
                     );
                     _12026 = _9550;
-                    _12027 = *(&raw mut *((*(&mut (*(_12026
+                    _12027 = *(&raw mut *((*(&raw mut (*(_12026
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -52046,7 +52053,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16,
                     );
                     _12056 = _9550;
-                    _12057 = *(&raw mut *((*(&mut (*(_12056
+                    _12057 = *(&raw mut *((*(&raw mut (*(_12056
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -52175,7 +52182,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16,
                     );
                     _12086 = _9550;
-                    _12087 = *(&raw mut *((*(&mut (*(_12086
+                    _12087 = *(&raw mut *((*(&raw mut (*(_12086
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -52304,7 +52311,7 @@ unsafe extern "C" fn _ZL30compute_partition_averages_rgbRK14partition_infoRK11im
                         16,
                     );
                     _12116 = _9550;
-                    _12117 = *(&raw mut *((*(&mut (*(_12116
+                    _12117 = *(&raw mut *((*(&raw mut (*(_12116
                         as *mut l_struct_struct_OC_partition_info))
                         .field2
                         as *mut crate::l_array_4_uint8_t))
@@ -52488,19 +52495,19 @@ pub unsafe extern "C" fn _ZNK11image_block6texel3Ej(
     _12398 = _12386;
     _12399 = _12397;
     _12400 = _12398;
-    _12401 = *(&raw mut *((*(&mut (*(_12399 as *mut l_struct_struct_OC_image_block)).field0
+    _12401 = *(&raw mut *((*(&raw mut (*(_12399 as *mut l_struct_struct_OC_image_block)).field0
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_12400 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _12402 = _12398;
-    _12403 = *(&raw mut *((*(&mut (*(_12399 as *mut l_struct_struct_OC_image_block)).field1
+    _12403 = *(&raw mut *((*(&raw mut (*(_12399 as *mut l_struct_struct_OC_image_block)).field1
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
         .offset(_12402 as uint64_t as int64_t as isize) as *mut core::ffi::c_float);
     _12404 = _12398;
-    _12405 = *(&raw mut *((*(&mut (*(_12399 as *mut l_struct_struct_OC_image_block)).field2
+    _12405 = *(&raw mut *((*(&raw mut (*(_12399 as *mut l_struct_struct_OC_image_block)).field2
         as *mut crate::l_array_219_float))
         .array)
         .as_mut_ptr()
@@ -53657,7 +53664,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
         _12707 = _12650;
         if _12707 == 1 as core::ffi::c_uint {
             _12708 = _12648;
-            _12585 = &mut (*(_12708 as *mut l_struct_struct_OC_image_block)).field7
+            _12585 = &raw mut (*(_12708 as *mut l_struct_struct_OC_image_block)).field7
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _12709 = _12585;
             _12567 = _12709;
@@ -53700,15 +53707,15 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 16,
             );
             _12721 = _12648;
-            _12653 = &raw mut *((*(&mut (*(_12721 as *mut l_struct_struct_OC_image_block)).field0
-                as *mut crate::l_array_219_float))
+            _12653 = &raw mut *((*(&raw mut (*(_12721 as *mut l_struct_struct_OC_image_block))
+                .field0 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float as *mut core::ffi::c_void;
             _12722 = _12648;
-            _12654 = &raw mut *((*(&mut (*(_12722 as *mut l_struct_struct_OC_image_block)).field1
-                as *mut crate::l_array_219_float))
+            _12654 = &raw mut *((*(&raw mut (*(_12722 as *mut l_struct_struct_OC_image_block))
+                .field1 as *mut crate::l_array_219_float))
                 .array)
                 .as_mut_ptr()
                 .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -53727,7 +53734,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 _12724 = _12650;
                 if _12724 == 2 as core::ffi::c_uint {
                     _12725 = _12648;
-                    _12583 = &mut (*(_12725 as *mut l_struct_struct_OC_image_block)).field7
+                    _12583 = &raw mut (*(_12725 as *mut l_struct_struct_OC_image_block)).field7
                         as *mut l_struct_struct_OC_vfloat4
                         as *mut core::ffi::c_void;
                     _12726 = _12583;
@@ -53772,7 +53779,8 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                         16,
                     );
                     _12738 = _12648;
-                    _12653 = &raw mut *((*(&mut (*(_12738 as *mut l_struct_struct_OC_image_block))
+                    _12653 = &raw mut *((*(&raw mut (*(_12738
+                        as *mut l_struct_struct_OC_image_block))
                         .field0
                         as *mut crate::l_array_219_float))
                         .array)
@@ -53781,7 +53789,8 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                         as *mut core::ffi::c_float
                         as *mut core::ffi::c_void;
                     _12739 = _12648;
-                    _12654 = &raw mut *((*(&mut (*(_12739 as *mut l_struct_struct_OC_image_block))
+                    _12654 = &raw mut *((*(&raw mut (*(_12739
+                        as *mut l_struct_struct_OC_image_block))
                         .field2
                         as *mut crate::l_array_219_float))
                         .array)
@@ -53810,7 +53819,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                     _12742 = _12742__PHI_TEMPORARY;
                     if _12742 != 0 {
                         _12743 = _12648;
-                        _12581 = &mut (*(_12743 as *mut l_struct_struct_OC_image_block)).field7
+                        _12581 = &raw mut (*(_12743 as *mut l_struct_struct_OC_image_block)).field7
                             as *mut l_struct_struct_OC_vfloat4
                             as *mut core::ffi::c_void;
                         _12744 = _12581;
@@ -53860,7 +53869,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                             16,
                         );
                         _12756 = _12648;
-                        _12653 = &raw mut *((*(&mut (*(_12756
+                        _12653 = &raw mut *((*(&raw mut (*(_12756
                             as *mut l_struct_struct_OC_image_block))
                             .field1
                             as *mut crate::l_array_219_float))
@@ -53870,7 +53879,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                             as *mut core::ffi::c_float
                             as *mut core::ffi::c_void;
                         _12757 = _12648;
-                        _12654 = &raw mut *((*(&mut (*(_12757
+                        _12654 = &raw mut *((*(&raw mut (*(_12757
                             as *mut l_struct_struct_OC_image_block))
                             .field2
                             as *mut crate::l_array_219_float))
@@ -53896,7 +53905,8 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
         _ => {}
     }
     _12758 = _12647;
-    _12759 = *(&mut (*(_12758 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _12759 =
+        *(&raw mut (*(_12758 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _12658 = _12759 as uint32_t;
     _12760 = _12658;
     if _12760 > 0 as core::ffi::c_uint {
@@ -53910,7 +53920,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             }
             _12763 = _12647;
             _12764 = _12659;
-            _12660 = &raw mut *((*(&raw mut *((*(&mut (*(_12763
+            _12660 = &raw mut *((*(&raw mut *((*(&raw mut (*(_12763
                 as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -53924,7 +53934,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
                 as *mut uint8_t as *mut core::ffi::c_void;
             _12765 = _12647;
             _12766 = _12659;
-            _12767 = *(&raw mut *((*(&mut (*(_12765 as *mut l_struct_struct_OC_partition_info))
+            _12767 = *(&raw mut *((*(&raw mut (*(_12765 as *mut l_struct_struct_OC_partition_info))
                 .field2 as *mut crate::l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
@@ -54240,7 +54250,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _12848 = _12651;
             _12849 = _12659;
             _12850 = memcpy(
-                &mut (*(&raw mut *(_12848 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_12848 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_12849 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field0 as *mut l_struct_struct_OC_vfloat4
@@ -55814,7 +55824,7 @@ pub unsafe extern "C" fn _Z28compute_avgs_and_dirs_2_compRK14partition_infoRK11i
             _13203 = _12651;
             _13204 = _12659;
             _13205 = memcpy(
-                &mut (*(&raw mut *(_13203 as *mut l_struct_struct_OC_partition_metrics)
+                &raw mut (*(&raw mut *(_13203 as *mut l_struct_struct_OC_partition_metrics)
                     .offset(_13204 as uint64_t as int64_t as isize)
                     as *mut l_struct_struct_OC_partition_metrics))
                     .field1 as *mut l_struct_struct_OC_vfloat4
@@ -59300,7 +59310,8 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
     _13974 = _13281;
     _13975 = _13282;
     _14155 = _13969;
-    _14156 = *(&mut (*(_14155 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _14156 =
+        *(&raw mut (*(_14155 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _13976 = _14156 as uint32_t;
     _14157 = _13976;
     if _14157 > 0 as core::ffi::c_uint {
@@ -59358,7 +59369,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             }
             _14172 = _13969;
             _14173 = _13979;
-            _13980 = &raw mut *((*(&raw mut *((*(&mut (*(_14172
+            _13980 = &raw mut *((*(&raw mut *((*(&raw mut (*(_14172
                 as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -59392,7 +59403,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
             );
             _14180 = _13969;
             _14181 = _13979;
-            _14182 = *(&raw mut *((*(&mut (*(_14180 as *mut l_struct_struct_OC_partition_info))
+            _14182 = *(&raw mut *((*(&raw mut (*(_14180 as *mut l_struct_struct_OC_partition_info))
                 .field2 as *mut crate::l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
@@ -59929,7 +59940,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _14310;
             _14311 = _13970;
-            _13942 = &mut (*(_14311 as *mut l_struct_struct_OC_image_block)).field9
+            _13942 = &raw mut (*(_14311 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _14312 = _13942;
             _14313 = *(_14312 as *mut core::ffi::c_float);
@@ -59954,7 +59965,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _14318;
             _14319 = _13970;
-            _13896 = &mut (*(_14319 as *mut l_struct_struct_OC_image_block)).field9
+            _13896 = &raw mut (*(_14319 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _14320 = _13896;
             _14321 = *(&raw mut *((*(_14320 as *mut crate::l_array_4_float)).array)
@@ -59982,7 +59993,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _14326;
             _14327 = _13970;
-            _13892 = &mut (*(_14327 as *mut l_struct_struct_OC_image_block)).field9
+            _13892 = &raw mut (*(_14327 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _14328 = _13892;
             _14329 = *(&raw mut *((*(_14328 as *mut crate::l_array_4_float)).array)
@@ -60010,7 +60021,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _14334;
             _14335 = _13970;
-            _13888 = &mut (*(_14335 as *mut l_struct_struct_OC_image_block)).field9
+            _13888 = &raw mut (*(_14335 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _14336 = _13888;
             _14337 = *(&raw mut *((*(_14336 as *mut crate::l_array_4_float)).array)
@@ -60220,7 +60231,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                     as *mut uint8_t as *mut core::ffi::c_void;
                 _14380 = _13970;
                 _14381 = _14010;
-                _13861 = &raw mut *((*(&mut (*(_14380 as *mut l_struct_struct_OC_image_block))
+                _13861 = &raw mut *((*(&raw mut (*(_14380 as *mut l_struct_struct_OC_image_block))
                     .field0
                     as *mut crate::l_array_219_float))
                     .array)
@@ -60285,7 +60296,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 *(&mut _14011.field0 as *mut crate::l_array_4_float) = _14403.field0;
                 _14404 = _13970;
                 _14405 = _14010;
-                _13864 = &raw mut *((*(&mut (*(_14404 as *mut l_struct_struct_OC_image_block))
+                _13864 = &raw mut *((*(&raw mut (*(_14404 as *mut l_struct_struct_OC_image_block))
                     .field1
                     as *mut crate::l_array_219_float))
                     .array)
@@ -60350,7 +60361,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 *(&mut _14012.field0 as *mut crate::l_array_4_float) = _14427.field0;
                 _14428 = _13970;
                 _14429 = _14010;
-                _13867 = &raw mut *((*(&mut (*(_14428 as *mut l_struct_struct_OC_image_block))
+                _13867 = &raw mut *((*(&raw mut (*(_14428 as *mut l_struct_struct_OC_image_block))
                     .field2
                     as *mut crate::l_array_219_float))
                     .array)
@@ -60415,7 +60426,7 @@ pub unsafe extern "C" fn _Z26compute_error_squared_rgbaRK14partition_infoRK11ima
                 *(&mut _14013.field0 as *mut crate::l_array_4_float) = _14451.field0;
                 _14452 = _13970;
                 _14453 = _14010;
-                _13870 = &raw mut *((*(&mut (*(_14452 as *mut l_struct_struct_OC_image_block))
+                _13870 = &raw mut *((*(&raw mut (*(_14452 as *mut l_struct_struct_OC_image_block))
                     .field3
                     as *mut crate::l_array_219_float))
                     .array)
@@ -68824,7 +68835,8 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
     _16341 = _15790;
     _16342 = _15791;
     _16486 = _16338;
-    _16487 = *(&mut (*(_16486 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _16487 =
+        *(&raw mut (*(_16486 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _16343 = _16487 as uint32_t;
     _16488 = _16343;
     if _16488 > 0 as core::ffi::c_uint {
@@ -68888,7 +68900,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 as *mut core::ffi::c_void;
             _16505 = _16338;
             _16506 = _16346;
-            _16348 = &raw mut *((*(&raw mut *((*(&mut (*(_16505
+            _16348 = &raw mut *((*(&raw mut *((*(&raw mut (*(_16505
                 as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -68902,7 +68914,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 as *mut uint8_t as *mut core::ffi::c_void;
             _16507 = _16338;
             _16508 = _16346;
-            _16509 = *(&raw mut *((*(&mut (*(_16507 as *mut l_struct_struct_OC_partition_info))
+            _16509 = *(&raw mut *((*(&raw mut (*(_16507 as *mut l_struct_struct_OC_partition_info))
                 .field2 as *mut crate::l_array_4_uint8_t))
                 .array)
                 .as_mut_ptr()
@@ -68917,7 +68929,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _16511 = _16347;
             _16512 = memcpy(
                 &mut _16350 as *mut l_struct_struct_OC_processed_line3 as *mut core::ffi::c_void,
-                &mut (*(_16511 as *mut l_struct_struct_OC_partition_lines3)).field2
+                &raw mut (*(_16511 as *mut l_struct_struct_OC_partition_lines3)).field2
                     as *mut l_struct_struct_OC_processed_line3
                     as *mut core::ffi::c_void,
                 32,
@@ -68925,7 +68937,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _16513 = _16347;
             _16514 = memcpy(
                 &mut _16351 as *mut l_struct_struct_OC_processed_line3 as *mut core::ffi::c_void,
-                &mut (*(_16513 as *mut l_struct_struct_OC_partition_lines3)).field3
+                &raw mut (*(_16513 as *mut l_struct_struct_OC_partition_lines3)).field3
                     as *mut l_struct_struct_OC_processed_line3
                     as *mut core::ffi::c_void,
                 32,
@@ -69374,7 +69386,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _16620;
             _16621 = _16339;
-            _16317 = &mut (*(_16621 as *mut l_struct_struct_OC_image_block)).field9
+            _16317 = &raw mut (*(_16621 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _16622 = _16317;
             _16623 = *(_16622 as *mut core::ffi::c_float);
@@ -69399,7 +69411,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _16628;
             _16629 = _16339;
-            _16279 = &mut (*(_16629 as *mut l_struct_struct_OC_image_block)).field9
+            _16279 = &raw mut (*(_16629 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _16630 = _16279;
             _16631 = *(&raw mut *((*(_16630 as *mut crate::l_array_4_float)).array)
@@ -69427,7 +69439,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 .offset(3 as core::ffi::c_int as int64_t as isize)
                 as *mut core::ffi::c_float) = _16636;
             _16637 = _16339;
-            _16275 = &mut (*(_16637 as *mut l_struct_struct_OC_image_block)).field9
+            _16275 = &raw mut (*(_16637 as *mut l_struct_struct_OC_image_block)).field9
                 as *mut l_struct_struct_OC_vfloat4 as *mut core::ffi::c_void;
             _16638 = _16275;
             _16639 = *(&raw mut *((*(_16638 as *mut crate::l_array_4_float)).array)
@@ -69637,7 +69649,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                     as *mut uint8_t as *mut core::ffi::c_void;
                 _16682 = _16339;
                 _16683 = _16374;
-                _16251 = &raw mut *((*(&mut (*(_16682 as *mut l_struct_struct_OC_image_block))
+                _16251 = &raw mut *((*(&raw mut (*(_16682 as *mut l_struct_struct_OC_image_block))
                     .field0
                     as *mut crate::l_array_219_float))
                     .array)
@@ -69702,7 +69714,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 *(&mut _16375.field0 as *mut crate::l_array_4_float) = _16705.field0;
                 _16706 = _16339;
                 _16707 = _16374;
-                _16254 = &raw mut *((*(&mut (*(_16706 as *mut l_struct_struct_OC_image_block))
+                _16254 = &raw mut *((*(&raw mut (*(_16706 as *mut l_struct_struct_OC_image_block))
                     .field1
                     as *mut crate::l_array_219_float))
                     .array)
@@ -69767,7 +69779,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
                 *(&mut _16376.field0 as *mut crate::l_array_4_float) = _16729.field0;
                 _16730 = _16339;
                 _16731 = _16374;
-                _16257 = &raw mut *((*(&mut (*(_16730 as *mut l_struct_struct_OC_image_block))
+                _16257 = &raw mut *((*(&raw mut (*(_16730 as *mut l_struct_struct_OC_image_block))
                     .field2
                     as *mut crate::l_array_219_float))
                     .array)
@@ -74135,7 +74147,7 @@ pub unsafe extern "C" fn _Z25compute_error_squared_rgbRK14partition_infoRK11imag
             _17712 = _16481;
             _17713 = _ZN4astcL3maxIfEET_S1_S1_(_17712, 1.00000001E-7f64 as core::ffi::c_float);
             _17714 = _16347;
-            *(&mut (*(_17714 as *mut l_struct_struct_OC_partition_lines3)).field4
+            *(&raw mut (*(_17714 as *mut l_struct_struct_OC_partition_lines3)).field4
                 as *mut core::ffi::c_float) = _17713;
             _17715 = _16346;
             _16346 = llvm_add_u32(_17715, 1);

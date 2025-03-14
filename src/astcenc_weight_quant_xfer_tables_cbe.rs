@@ -1774,7 +1774,7 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                                 &[u8; 32],
                                 &mut [uint8_t; 32],
                             >(
-                                b"\0\x02\x04\x06\x08\n\x0C\x0E\x10\x12\x14\x16\x18\x1A\x1C\x1E\"$&(*,.02468:<>@",
+                                b"\0\x02\x04\x06\x08\n\x0C\x0E\x10\x12\x14\x16\x18\x1A\x1C\x1E\"$&raw const (*,.02468:<>@",
                             ),
                         };
                         init
@@ -1796,7 +1796,7 @@ pub static mut quant_and_xfer_tables: l_unnamed_1 = unsafe {
                                 &[u8; 32],
                                 &mut [uint8_t; 32],
                             >(
-                                b"\0\x02\x04\x06\x08\n\x0C\x0E\x10\x12\x14\x16\x18\x1A\x1C\x1E\"$&(*,.02468:<>@",
+                                b"\0\x02\x04\x06\x08\n\x0C\x0E\x10\x12\x14\x16\x18\x1A\x1C\x1E\"$&raw const (*,.02468:<>@",
                             ),
                         };
                         init

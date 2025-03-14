@@ -1020,26 +1020,26 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
     _35 = _30;
     _36 = _31;
     _51 = _36;
-    _37 = &mut (*(_51 as *mut l_struct_struct_OC_compression_working_buffers)).field10
+    _37 = &raw mut (*(_51 as *mut l_struct_struct_OC_compression_working_buffers)).field10
         as *mut crate::l_array_2048_float as *mut core::ffi::c_void;
     _52 = _36;
-    _38 = &mut (*(_52 as *mut l_struct_struct_OC_compression_working_buffers)).field11
+    _38 = &raw mut (*(_52 as *mut l_struct_struct_OC_compression_working_buffers)).field11
         as *mut crate::l_array_2048_float as *mut core::ffi::c_void;
     _53 = _36;
-    _39 = &mut (*(_53 as *mut l_struct_struct_OC_compression_working_buffers)).field12
+    _39 = &raw mut (*(_53 as *mut l_struct_struct_OC_compression_working_buffers)).field12
         as *mut crate::l_array_87_struct_AC_l_array_8_float as *mut core::ffi::c_void;
     _54 = _36;
-    _40 = &mut (*(_54 as *mut l_struct_struct_OC_compression_working_buffers)).field13
+    _40 = &raw mut (*(_54 as *mut l_struct_struct_OC_compression_working_buffers)).field13
         as *mut crate::l_array_87_struct_AC_l_array_8_float as *mut core::ffi::c_void;
     _55 = _32;
     if _55 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
         _56 = _33;
-        _57 = *(&mut (*(_56 as *mut l_struct_struct_OC_block_size_descriptor)).field4
+        _57 = *(&raw mut (*(_56 as *mut l_struct_struct_OC_block_size_descriptor)).field4
             as *mut uint32_t);
         _60__PHI_TEMPORARY = _57;
     } else {
         _58 = _33;
-        _59 = *(&mut (*(_58 as *mut l_struct_struct_OC_block_size_descriptor)).field5
+        _59 = *(&raw mut (*(_58 as *mut l_struct_struct_OC_block_size_descriptor)).field5
             as *mut uint32_t);
         _60__PHI_TEMPORARY = _59;
     }
@@ -1056,7 +1056,7 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
             }
             _64 = _33;
             _65 = _42;
-            _43 = &raw mut *((*(&mut (*(_64 as *mut l_struct_struct_OC_block_size_descriptor))
+            _43 = &raw mut *((*(&raw mut (*(_64 as *mut l_struct_struct_OC_block_size_descriptor))
                 .field13
                 as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                 .array)
@@ -1071,11 +1071,11 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
                 _69 = _33;
                 _70 = _42;
                 _71 = _ZNK21block_size_descriptor19get_decimation_infoEj(_69, _70);
-                _72 = *(&mut (*(_71 as *mut l_struct_struct_OC_decimation_info)).field2
+                _72 = *(&raw mut (*(_71 as *mut l_struct_struct_OC_decimation_info)).field2
                     as *mut uint8_t);
                 _44 = _72 as uint32_t;
                 _73 = _43;
-                _74 = *(&mut (*(_73 as *mut l_struct_struct_OC_decimation_mode)).field0
+                _74 = *(&raw mut (*(_73 as *mut l_struct_struct_OC_decimation_mode)).field0
                     as *mut uint8_t);
                 _45 = _74 as int8_t as int32_t as uint32_t;
                 _75 = _45;
@@ -1135,12 +1135,12 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
         _88 = _32;
         if _88 as core::ffi::c_uint & 1 as core::ffi::c_uint != 0 {
             _89 = _33;
-            _90 = *(&mut (*(_89 as *mut l_struct_struct_OC_block_size_descriptor)).field7
+            _90 = *(&raw mut (*(_89 as *mut l_struct_struct_OC_block_size_descriptor)).field7
                 as *mut uint32_t);
             _93__PHI_TEMPORARY = _90;
         } else {
             _91 = _33;
-            _92 = *(&mut (*(_91 as *mut l_struct_struct_OC_block_size_descriptor)).field8
+            _92 = *(&raw mut (*(_91 as *mut l_struct_struct_OC_block_size_descriptor)).field8
                 as *mut uint32_t);
             _93__PHI_TEMPORARY = _92;
         }
@@ -1158,7 +1158,8 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
                 }
                 _97 = _33;
                 _98 = _47;
-                _48 = &raw mut *((*(&mut (*(_97 as *mut l_struct_struct_OC_block_size_descriptor))
+                _48 = &raw mut *((*(&raw mut (*(_97
+                    as *mut l_struct_struct_OC_block_size_descriptor))
                     .field16
                     as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
                     .array)
@@ -1167,8 +1168,8 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
                     as *mut l_struct_struct_OC_block_mode
                     as *mut core::ffi::c_void;
                 _99 = _48;
-                _100 =
-                    *(&mut (*(_99 as *mut l_struct_struct_OC_block_mode)).field4 as *mut uint8_t);
+                _100 = *(&raw mut (*(_99 as *mut l_struct_struct_OC_block_mode)).field4
+                    as *mut uint8_t);
                 if !((llvm_and_u8(_100, 1) as core::ffi::c_int != 0 as core::ffi::c_int)
                     as core::ffi::c_int
                     ^ 1 as core::ffi::c_int
@@ -1178,12 +1179,12 @@ pub unsafe extern "C" fn _Z32compute_angular_endpoints_1planebRK21block_size_des
                     break;
                 }
                 _101 = _48;
-                _102 =
-                    *(&mut (*(_101 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
+                _102 = *(&raw mut (*(_101 as *mut l_struct_struct_OC_block_mode)).field2
+                    as *mut uint8_t);
                 _49 = _102 as uint32_t;
                 _103 = _48;
-                _104 =
-                    *(&mut (*(_103 as *mut l_struct_struct_OC_block_mode)).field1 as *mut uint8_t);
+                _104 = *(&raw mut (*(_103 as *mut l_struct_struct_OC_block_mode)).field1
+                    as *mut uint8_t);
                 _50 = _104 as uint32_t;
                 _105 = _49;
                 if _105 <= 7 as core::ffi::c_uint {
@@ -1294,7 +1295,7 @@ pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_1planeE12quant_method(
         ((1 as core::ffi::c_int) << llvm_add_u32(_161, 1)) as uint32_t,
         1,
     ) as uint16_t;
-    _162 = *(&mut (*(_160 as *mut l_struct_struct_OC_decimation_mode)).field2 as *mut uint16_t);
+    _162 = *(&raw mut (*(_160 as *mut l_struct_struct_OC_decimation_mode)).field2 as *mut uint16_t);
     _163 = _159;
     return (_162 as uint32_t & _163 as uint32_t != 0 as core::ffi::c_uint) as core::ffi::c_int
         as bool_0;
@@ -1313,8 +1314,8 @@ pub unsafe extern "C" fn _ZNK21block_size_descriptor19get_decimation_infoEj(
     _167 = _165;
     _168 = _166;
     _169 = _167;
-    return &raw mut *((*(&mut (*(_168 as *mut l_struct_struct_OC_block_size_descriptor)).field14
-        as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
+    return &raw mut *((*(&raw mut (*(_168 as *mut l_struct_struct_OC_block_size_descriptor))
+        .field14 as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
         .array)
         .as_mut_ptr()
         .offset(_169 as uint64_t as int64_t as isize)
@@ -3788,52 +3789,53 @@ pub unsafe extern "C" fn _Z33compute_angular_endpoints_2planesRK21block_size_des
     _789 = _785;
     _790 = _786;
     _809 = _790;
-    _791 = &mut (*(_809 as *mut l_struct_struct_OC_compression_working_buffers)).field10
+    _791 = &raw mut (*(_809 as *mut l_struct_struct_OC_compression_working_buffers)).field10
         as *mut crate::l_array_2048_float as *mut core::ffi::c_void;
     _810 = _790;
-    _792 = &mut (*(_810 as *mut l_struct_struct_OC_compression_working_buffers)).field11
+    _792 = &raw mut (*(_810 as *mut l_struct_struct_OC_compression_working_buffers)).field11
         as *mut crate::l_array_2048_float as *mut core::ffi::c_void;
     _811 = _790;
-    _793 = &mut (*(_811 as *mut l_struct_struct_OC_compression_working_buffers)).field14
+    _793 = &raw mut (*(_811 as *mut l_struct_struct_OC_compression_working_buffers)).field14
         as *mut crate::l_array_2048_float as *mut core::ffi::c_void;
     _812 = _790;
-    _794 = &mut (*(_812 as *mut l_struct_struct_OC_compression_working_buffers)).field15
+    _794 = &raw mut (*(_812 as *mut l_struct_struct_OC_compression_working_buffers)).field15
         as *mut crate::l_array_2048_float as *mut core::ffi::c_void;
     _813 = _790;
-    _795 = &mut (*(_813 as *mut l_struct_struct_OC_compression_working_buffers)).field12
+    _795 = &raw mut (*(_813 as *mut l_struct_struct_OC_compression_working_buffers)).field12
         as *mut crate::l_array_87_struct_AC_l_array_8_float as *mut core::ffi::c_void;
     _814 = _790;
-    _796 = &mut (*(_814 as *mut l_struct_struct_OC_compression_working_buffers)).field13
+    _796 = &raw mut (*(_814 as *mut l_struct_struct_OC_compression_working_buffers)).field13
         as *mut crate::l_array_87_struct_AC_l_array_8_float as *mut core::ffi::c_void;
     _815 = _790;
-    _797 = &mut (*(_815 as *mut l_struct_struct_OC_compression_working_buffers)).field16
+    _797 = &raw mut (*(_815 as *mut l_struct_struct_OC_compression_working_buffers)).field16
         as *mut crate::l_array_87_struct_AC_l_array_8_float as *mut core::ffi::c_void;
     _816 = _790;
-    _798 = &mut (*(_816 as *mut l_struct_struct_OC_compression_working_buffers)).field17
+    _798 = &raw mut (*(_816 as *mut l_struct_struct_OC_compression_working_buffers)).field17
         as *mut crate::l_array_87_struct_AC_l_array_8_float as *mut core::ffi::c_void;
     _817 = _787;
-    _818 =
-        *(&mut (*(_817 as *mut l_struct_struct_OC_block_size_descriptor)).field5 as *mut uint32_t);
+    _818 = *(&raw mut (*(_817 as *mut l_struct_struct_OC_block_size_descriptor)).field5
+        as *mut uint32_t);
     if _818 > 0 as core::ffi::c_uint {
         _799 = 0;
         loop {
             _819 = _799;
             _820 = _787;
-            _821 = *(&mut (*(_820 as *mut l_struct_struct_OC_block_size_descriptor)).field5
+            _821 = *(&raw mut (*(_820 as *mut l_struct_struct_OC_block_size_descriptor)).field5
                 as *mut uint32_t);
             if !(_819 < _821) {
                 break;
             }
             _822 = _787;
             _823 = _799;
-            _800 = &raw mut *((*(&mut (*(_822 as *mut l_struct_struct_OC_block_size_descriptor))
-                .field13
-                as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
-                .array)
-                .as_mut_ptr()
-                .offset(_823 as uint64_t as int64_t as isize)
-                as *mut l_struct_struct_OC_decimation_mode
-                as *mut core::ffi::c_void;
+            _800 =
+                &raw mut *((*(&raw mut (*(_822 as *mut l_struct_struct_OC_block_size_descriptor))
+                    .field13
+                    as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                    .array)
+                    .as_mut_ptr()
+                    .offset(_823 as uint64_t as int64_t as isize)
+                    as *mut l_struct_struct_OC_decimation_mode
+                    as *mut core::ffi::c_void;
             _824 = _800;
             _825 = _789;
             _826 = _ZNK15decimation_mode13is_ref_2planeE12quant_method(_824, _825);
@@ -3841,11 +3843,11 @@ pub unsafe extern "C" fn _Z33compute_angular_endpoints_2planesRK21block_size_des
                 _827 = _787;
                 _828 = _799;
                 _829 = _ZNK21block_size_descriptor19get_decimation_infoEj(_827, _828);
-                _830 = *(&mut (*(_829 as *mut l_struct_struct_OC_decimation_info)).field2
+                _830 = *(&raw mut (*(_829 as *mut l_struct_struct_OC_decimation_info)).field2
                     as *mut uint8_t);
                 _801 = _830 as uint32_t;
                 _831 = _800;
-                _832 = *(&mut (*(_831 as *mut l_struct_struct_OC_decimation_mode)).field1
+                _832 = *(&raw mut (*(_831 as *mut l_struct_struct_OC_decimation_mode)).field1
                     as *mut uint8_t);
                 _802 = _832 as int8_t as int32_t as uint32_t;
                 _833 = _802;
@@ -3944,11 +3946,11 @@ pub unsafe extern "C" fn _Z33compute_angular_endpoints_2planesRK21block_size_des
             _799 = llvm_add_u32(_853, 1);
         }
         _854 = _787;
-        _855 = *(&mut (*(_854 as *mut l_struct_struct_OC_block_size_descriptor)).field8
+        _855 = *(&raw mut (*(_854 as *mut l_struct_struct_OC_block_size_descriptor)).field8
             as *mut uint32_t);
         _803 = _855;
         _856 = _787;
-        _857 = *(&mut (*(_856 as *mut l_struct_struct_OC_block_size_descriptor)).field9
+        _857 = *(&raw mut (*(_856 as *mut l_struct_struct_OC_block_size_descriptor)).field9
             as *mut uint32_t);
         _804 = _857;
         _858 = _803;
@@ -3961,18 +3963,21 @@ pub unsafe extern "C" fn _Z33compute_angular_endpoints_2planesRK21block_size_des
             }
             _861 = _787;
             _862 = _805;
-            _806 = &raw mut *((*(&mut (*(_861 as *mut l_struct_struct_OC_block_size_descriptor))
-                .field16
-                as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
-                .array)
-                .as_mut_ptr()
-                .offset(_862 as uint64_t as int64_t as isize)
-                as *mut l_struct_struct_OC_block_mode as *mut core::ffi::c_void;
+            _806 =
+                &raw mut *((*(&raw mut (*(_861 as *mut l_struct_struct_OC_block_size_descriptor))
+                    .field16
+                    as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+                    .array)
+                    .as_mut_ptr()
+                    .offset(_862 as uint64_t as int64_t as isize)
+                    as *mut l_struct_struct_OC_block_mode as *mut core::ffi::c_void;
             _863 = _806;
-            _864 = *(&mut (*(_863 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
+            _864 =
+                *(&raw mut (*(_863 as *mut l_struct_struct_OC_block_mode)).field2 as *mut uint8_t);
             _807 = _864 as uint32_t;
             _865 = _806;
-            _866 = *(&mut (*(_865 as *mut l_struct_struct_OC_block_mode)).field1 as *mut uint8_t);
+            _866 =
+                *(&raw mut (*(_865 as *mut l_struct_struct_OC_block_mode)).field1 as *mut uint8_t);
             _808 = _866 as uint32_t;
             _867 = _807;
             if _867 <= 7 as core::ffi::c_uint {
@@ -4113,7 +4118,7 @@ pub unsafe extern "C" fn _ZNK15decimation_mode13is_ref_2planeE12quant_method(
         ((1 as core::ffi::c_int) << llvm_add_u32(_927, 1)) as uint32_t,
         1,
     ) as uint16_t;
-    _928 = *(&mut (*(_926 as *mut l_struct_struct_OC_decimation_mode)).field3 as *mut uint16_t);
+    _928 = *(&raw mut (*(_926 as *mut l_struct_struct_OC_decimation_mode)).field3 as *mut uint16_t);
     _929 = _925;
     return (_928 as uint32_t & _929 as uint32_t != 0 as core::ffi::c_uint) as core::ffi::c_int
         as bool_0;

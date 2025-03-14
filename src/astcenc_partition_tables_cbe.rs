@@ -293,7 +293,7 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
     _5 = _2;
     _6 = _3;
     _12 = _4;
-    _7 = &raw mut *((*(&mut (*(_12 as *mut l_struct_struct_OC_block_size_descriptor)).field17
+    _7 = &raw mut *((*(&raw mut (*(_12 as *mut l_struct_struct_OC_block_size_descriptor)).field17
         as *mut crate::l_array_3073_struct_AC_l_struct_struct_OC_partition_info))
         .array)
         .as_mut_ptr()
@@ -317,13 +317,13 @@ pub unsafe extern "C" fn _Z21init_partition_tablesR21block_size_descriptorbj(
         _16, 1, 0, 0, _17,
     );
     _19 = _4;
-    *(&raw mut *((*(&mut (*(_19 as *mut l_struct_struct_OC_block_size_descriptor)).field11
+    *(&raw mut *((*(&raw mut (*(_19 as *mut l_struct_struct_OC_block_size_descriptor)).field11
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
         .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint32_t) = 1;
     _20 = _4;
-    *(&raw mut *((*(&mut (*(_20 as *mut l_struct_struct_OC_block_size_descriptor)).field12
+    *(&raw mut *((*(&raw mut (*(_20 as *mut l_struct_struct_OC_block_size_descriptor)).field12
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -518,12 +518,13 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     _50 = _43;
     _51 = _44;
     _72 = _47;
-    _73 = *(&mut (*(_72 as *mut l_struct_struct_OC_block_size_descriptor)).field3 as *mut uint8_t);
+    _73 = *(&raw mut (*(_72 as *mut l_struct_struct_OC_block_size_descriptor)).field3
+        as *mut uint8_t);
     _52 = _73 as uint32_t;
     _74 = _52;
     _53 = ((_74 as int32_t) < 32 as core::ffi::c_uint as int32_t) as core::ffi::c_int as bool_0;
     _75 = _51;
-    _54 = &raw mut *((*(&mut (*(_75 as *mut l_struct_struct_OC_partition_info)).field3
+    _54 = &raw mut *((*(&raw mut (*(_75 as *mut l_struct_struct_OC_partition_info)).field3
         as *mut crate::l_array_216_uint8_t))
         .array)
         .as_mut_ptr()
@@ -539,7 +540,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     loop {
         _77 = _57;
         _78 = _47;
-        _79 = *(&mut (*(_78 as *mut l_struct_struct_OC_block_size_descriptor)).field2
+        _79 = *(&raw mut (*(_78 as *mut l_struct_struct_OC_block_size_descriptor)).field2
             as *mut uint8_t);
         if !(_77 < _79 as uint32_t) {
             break;
@@ -548,7 +549,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         loop {
             _80 = _58;
             _81 = _47;
-            _82 = *(&mut (*(_81 as *mut l_struct_struct_OC_block_size_descriptor)).field1
+            _82 = *(&raw mut (*(_81 as *mut l_struct_struct_OC_block_size_descriptor)).field1
                 as *mut uint8_t);
             if !(_80 < _82 as uint32_t) {
                 break;
@@ -557,7 +558,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             loop {
                 _83 = _59;
                 _84 = _47;
-                _85 = *(&mut (*(_84 as *mut l_struct_struct_OC_block_size_descriptor)).field0
+                _85 = *(&raw mut (*(_84 as *mut l_struct_struct_OC_block_size_descriptor)).field0
                     as *mut uint8_t);
                 if !(_83 < _85 as uint32_t) {
                     break;
@@ -588,7 +589,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                     as *mut uint32_t as *mut core::ffi::c_void;
                 _98 = *(_97 as *mut uint32_t);
                 *(_97 as *mut uint32_t) = llvm_add_u32(_98, 1);
-                *(&raw mut *((*(&raw mut *((*(&mut (*(_94
+                *(&raw mut *((*(&raw mut *((*(&raw mut (*(_94
                     as *mut l_struct_struct_OC_partition_info))
                     .field4
                     as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -643,7 +644,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             _114 = _51;
             _115 = _61;
             _116 = _62;
-            _117 = *(&raw mut *((*(&raw mut *((*(&mut (*(_114
+            _117 = *(&raw mut *((*(&raw mut *((*(&raw mut (*(_114
                 as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
@@ -660,7 +661,8 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             _118 = _51;
             _119 = _61;
             _120 = _64;
-            *(&raw mut *((*(&raw mut *((*(&mut (*(_118 as *mut l_struct_struct_OC_partition_info))
+            *(&raw mut *((*(&raw mut *((*(&raw mut (*(_118
+                as *mut l_struct_struct_OC_partition_info))
                 .field4
                 as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                 .array)
@@ -681,14 +683,15 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
     if _123 == 0 as core::ffi::c_uint {
         _124 = _51;
-        *(&mut (*(_124 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t) = 0;
+        *(&raw mut (*(_124 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t) = 0;
     } else {
         _125 = *(&raw mut *(_56.array)
             .as_mut_ptr()
             .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint32_t);
         if _125 == 0 as core::ffi::c_uint {
             _126 = _51;
-            *(&mut (*(_126 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t) = 1;
+            *(&raw mut (*(_126 as *mut l_struct_struct_OC_partition_info)).field0
+                as *mut uint16_t) = 1;
         } else {
             _127 = *(&raw mut *(_56.array)
                 .as_mut_ptr()
@@ -696,7 +699,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                 as *mut uint32_t);
             if _127 == 0 as core::ffi::c_uint {
                 _128 = _51;
-                *(&mut (*(_128 as *mut l_struct_struct_OC_partition_info)).field0
+                *(&raw mut (*(_128 as *mut l_struct_struct_OC_partition_info)).field0
                     as *mut uint16_t) = 2;
             } else {
                 _129 = *(&raw mut *(_56.array)
@@ -705,11 +708,11 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
                     as *mut uint32_t);
                 if _129 == 0 as core::ffi::c_uint {
                     _130 = _51;
-                    *(&mut (*(_130 as *mut l_struct_struct_OC_partition_info)).field0
+                    *(&raw mut (*(_130 as *mut l_struct_struct_OC_partition_info)).field0
                         as *mut uint16_t) = 3;
                 } else {
                     _131 = _51;
-                    *(&mut (*(_131 as *mut l_struct_struct_OC_partition_info)).field0
+                    *(&raw mut (*(_131 as *mut l_struct_struct_OC_partition_info)).field0
                         as *mut uint16_t) = 4;
                 }
             }
@@ -717,14 +720,14 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
     }
     _132 = _49;
     _133 = _51;
-    *(&mut (*(_133 as *mut l_struct_struct_OC_partition_info)).field1 as *mut uint16_t) =
+    *(&raw mut (*(_133 as *mut l_struct_struct_OC_partition_info)).field1 as *mut uint16_t) =
         _132 as uint16_t;
     _65 = 0 as *mut core::ffi::c_void;
     _134 = _48;
     if _134 == 2 as core::ffi::c_uint {
         _135 = _47;
         _136 = _50;
-        _65 = &raw mut *((*(&raw mut *((*(&mut (*(_135
+        _65 = &raw mut *((*(&raw mut *((*(&raw mut (*(_135
             as *mut l_struct_struct_OC_block_size_descriptor))
             .field20
             as *mut crate::l_array_1024_struct_AC_l_array_2_uint64_t))
@@ -741,7 +744,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         if _137 == 3 as core::ffi::c_uint {
             _138 = _47;
             _139 = _50;
-            _65 = &raw mut *((*(&raw mut *((*(&mut (*(_138
+            _65 = &raw mut *((*(&raw mut *((*(&raw mut (*(_138
                 as *mut l_struct_struct_OC_block_size_descriptor))
                 .field21
                 as *mut crate::l_array_1024_struct_AC_l_array_3_uint64_t))
@@ -758,7 +761,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             if _140 == 4 as core::ffi::c_uint {
                 _141 = _47;
                 _142 = _50;
-                _65 = &raw mut *((*(&raw mut *((*(&mut (*(_141
+                _65 = &raw mut *((*(&raw mut *((*(&raw mut (*(_141
                     as *mut l_struct_struct_OC_block_size_descriptor))
                     .field22
                     as *mut crate::l_array_1024_struct_AC_l_array_4_uint64_t))
@@ -785,7 +788,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             .offset(_144 as uint64_t as int64_t as isize) as *mut uint32_t);
         _146 = _51;
         _147 = _66;
-        *(&raw mut *((*(&mut (*(_146 as *mut l_struct_struct_OC_partition_info)).field2
+        *(&raw mut *((*(&raw mut (*(_146 as *mut l_struct_struct_OC_partition_info)).field2
             as *mut crate::l_array_4_uint8_t))
             .array)
             .as_mut_ptr()
@@ -794,7 +797,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
         _66 = llvm_add_u32(_148, 1);
     }
     _149 = _51;
-    _150 = *(&mut (*(_149 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
+    _150 = *(&raw mut (*(_149 as *mut l_struct_struct_OC_partition_info)).field0 as *mut uint16_t);
     _151 = _48;
     _67 = (_150 as uint32_t == _151) as core::ffi::c_int as bool_0;
     _152 = _65;
@@ -814,7 +817,7 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             _68 = llvm_add_u32(_157, 1);
         }
         _158 = _47;
-        _159 = *(&mut (*(_158 as *mut l_struct_struct_OC_block_size_descriptor)).field3
+        _159 = *(&raw mut (*(_158 as *mut l_struct_struct_OC_block_size_descriptor)).field3
             as *mut uint8_t);
         _160 = _ZN4astcL3minIhEET_S1_S1_(_159, 64 as core::ffi::c_uint as uint8_t);
         _69 = _160 as uint32_t;
@@ -827,7 +830,8 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             }
             _163 = _47;
             _164 = _70;
-            _165 = *(&raw mut *((*(&mut (*(_163 as *mut l_struct_struct_OC_block_size_descriptor))
+            _165 = *(&raw mut *((*(&raw mut (*(_163
+                as *mut l_struct_struct_OC_block_size_descriptor))
                 .field19 as *mut crate::l_array_64_uint8_t))
                 .array)
                 .as_mut_ptr()
@@ -837,8 +841,8 @@ unsafe extern "C" fn _ZL33generate_one_partition_info_entryR21block_size_descrip
             _167 = _65;
             _168 = _51;
             _169 = _71;
-            _170 = *(&raw mut *((*(&mut (*(_168 as *mut l_struct_struct_OC_partition_info)).field3
-                as *mut crate::l_array_216_uint8_t))
+            _170 = *(&raw mut *((*(&raw mut (*(_168 as *mut l_struct_struct_OC_partition_info))
+                .field3 as *mut crate::l_array_216_uint8_t))
                 .array)
                 .as_mut_ptr()
                 .offset(_169 as uint64_t as int64_t as isize) as *mut uint8_t);
@@ -958,7 +962,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
     _241 = 0;
     _250 = _235;
     _251 = _238;
-    *(&raw mut *((*(&mut (*(_250 as *mut l_struct_struct_OC_block_size_descriptor)).field11
+    *(&raw mut *((*(&raw mut (*(_250 as *mut l_struct_struct_OC_block_size_descriptor)).field11
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -968,7 +972,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
         ) as *mut uint32_t) = 0;
     _252 = _235;
     _253 = _238;
-    *(&raw mut *((*(&mut (*(_252 as *mut l_struct_struct_OC_block_size_descriptor)).field12
+    *(&raw mut *((*(&raw mut (*(_252 as *mut l_struct_struct_OC_block_size_descriptor)).field12
         as *mut crate::l_array_4_uint32_t))
         .array)
         .as_mut_ptr()
@@ -1061,7 +1065,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                 16432741364899003899 => {}
                                 _ => {
                                     _276 = _235;
-                                    _277 = *(&mut (*(_276
+                                    _277 = *(&raw mut (*(_276
                                         as *mut l_struct_struct_OC_block_size_descriptor))
                                         .field3
                                         as *mut uint8_t);
@@ -1071,7 +1075,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                     _281 = _241;
                                     _ZL31generate_canonical_partitioningjPKhPm(
                                         _277 as uint32_t,
-                                        &raw mut *((*(&mut (*(&raw mut *(_278
+                                        &raw mut *((*(&raw mut (*(&raw mut *(_278
                                             as *mut l_struct_struct_OC_partition_info)
                                             .offset(_279 as uint64_t as int64_t as isize)
                                             as *mut l_struct_struct_OC_partition_info))
@@ -1156,7 +1160,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                 _295 = _235;
                                                 _296 = _238;
                                                 _297 = _245;
-                                                *(&raw mut *((*(&raw mut *((*(&mut (*(_295
+                                                *(&raw mut *((*(&raw mut *((*(&raw mut (*(_295
                                                     as *mut l_struct_struct_OC_block_size_descriptor))
                                                     .field18 as *mut crate::l_array_3_struct_AC_l_array_1024_uint16_t))
                                                     .array)
@@ -1175,7 +1179,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                     as *mut uint16_t) = _294 as uint16_t;
                                                 _298 = _235;
                                                 _299 = _238;
-                                                _300 = &raw mut *((*(&mut (*(_298
+                                                _300 = &raw mut *((*(&raw mut (*(_298
                                                     as *mut l_struct_struct_OC_block_size_descriptor))
                                                     .field11 as *mut crate::l_array_4_uint32_t))
                                                     .array)
@@ -1192,7 +1196,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                 *(_300 as *mut uint32_t) = llvm_add_u32(_301, 1);
                                                 _302 = _235;
                                                 _303 = _238;
-                                                _304 = &raw mut *((*(&mut (*(_302
+                                                _304 = &raw mut *((*(&raw mut (*(_302
                                                     as *mut l_struct_struct_OC_block_size_descriptor))
                                                     .field12 as *mut crate::l_array_4_uint32_t))
                                                     .array)
@@ -1233,7 +1237,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                 _310 = _235;
                                                 _311 = _238;
                                                 _312 = _245;
-                                                *(&raw mut *((*(&raw mut *((*(&mut (*(_310
+                                                *(&raw mut *((*(&raw mut *((*(&raw mut (*(_310
                                                     as *mut l_struct_struct_OC_block_size_descriptor))
                                                     .field18 as *mut crate::l_array_3_struct_AC_l_array_1024_uint16_t))
                                                     .array)
@@ -1252,7 +1256,7 @@ unsafe extern "C" fn _ZL45build_partition_table_for_one_partition_countR21block_
                                                     as *mut uint16_t) = _309 as uint16_t;
                                                 _313 = _235;
                                                 _314 = _238;
-                                                _315 = &raw mut *((*(&mut (*(_313
+                                                _315 = &raw mut *((*(&raw mut (*(_313
                                                     as *mut l_struct_struct_OC_block_size_descriptor))
                                                     .field12 as *mut crate::l_array_4_uint32_t))
                                                     .array)

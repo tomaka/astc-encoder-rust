@@ -4968,7 +4968,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
     _27 = _25;
     _28 = _26;
     _29 = _27;
-    return &raw mut *((*(&mut (*(_28 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
+    return &raw mut *((*(&raw mut (*(_28 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
         as *mut crate::l_array_21_struct_AC_l_struct_struct_OC_ise_size))
         .array)
         .as_mut_ptr()
@@ -5979,7 +5979,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
     _397 = _395;
     _398 = _396;
     _399 = _397;
-    return &raw mut *((*(&mut (*(_398 as *mut l_struct_struct_OC_std_KD__KD_array_OC_0)).field0
+    return &raw mut *((*(&raw mut (*(_398 as *mut l_struct_struct_OC_std_KD__KD_array_OC_0)).field0
         as *mut crate::l_array_21_struct_AC_l_struct_struct_OC_btq_count))
         .array)
         .as_mut_ptr()

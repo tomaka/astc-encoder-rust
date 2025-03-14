@@ -7395,7 +7395,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         }
         _26 = _6;
         _27 = _8;
-        _28 = *(&raw mut *((*(&mut (*(_26 as *mut l_struct_struct_OC_packed_percentile_table))
+        _28 = *(&raw mut *((*(&raw mut (*(_26 as *mut l_struct_struct_OC_packed_percentile_table))
             .field2 as *mut crate::l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
@@ -7403,7 +7403,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         _9 = _28 as uint32_t;
         _29 = _6;
         _30 = _8;
-        _31 = *(&raw mut *((*(&mut (*(_29 as *mut l_struct_struct_OC_packed_percentile_table))
+        _31 = *(&raw mut *((*(&raw mut (*(_29 as *mut l_struct_struct_OC_packed_percentile_table))
             .field3 as *mut crate::l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
@@ -7411,7 +7411,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         _10 = _31 as uint32_t;
         _32 = _6;
         _33 = _8;
-        _34 = *(&raw mut *((*(&mut (*(_32 as *mut l_struct_struct_OC_packed_percentile_table))
+        _34 = *(&raw mut *((*(&raw mut (*(_32 as *mut l_struct_struct_OC_packed_percentile_table))
             .field4 as *mut crate::l_array_2_uint16_t))
             .array)
             .as_mut_ptr()
@@ -7419,7 +7419,7 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         _11 = _34 as uint32_t;
         _35 = _6;
         _36 = _8;
-        _37 = *(&raw mut *((*(&mut (*(_35 as *mut l_struct_struct_OC_packed_percentile_table))
+        _37 = *(&raw mut *((*(&raw mut (*(_35 as *mut l_struct_struct_OC_packed_percentile_table))
             .field5 as *mut crate::l_array_2_void_KC_))
             .array)
             .as_mut_ptr()
