@@ -80,14 +80,14 @@ pub struct l_struct_struct_OC_decimation_info {
     pub field3: uint8_t,
     pub field4: uint8_t,
     pub field5: uint8_t,
-    pub field6: l_array_216_uint8_t,
-    pub field7: l_array_4_struct_AC_l_array_216_uint8_t,
-    pub field8: l_array_4_struct_AC_l_array_216_uint8_t,
-    pub field9: l_array_4_struct_AC_l_array_216_float,
-    pub field10: l_array_64_uint8_t,
-    pub field11: l_array_216_struct_AC_l_array_64_uint8_t,
-    pub field12: l_array_216_struct_AC_l_array_64_float,
-    pub field13: l_array_216_struct_AC_l_array_64_float,
+    pub field6: crate::l_array_216_uint8_t,
+    pub field7: crate::l_array_4_struct_AC_l_array_216_uint8_t,
+    pub field8: crate::l_array_4_struct_AC_l_array_216_uint8_t,
+    pub field9: crate::l_array_4_struct_AC_l_array_216_float,
+    pub field10: crate::l_array_64_uint8_t,
+    pub field11: crate::l_array_216_struct_AC_l_array_64_uint8_t,
+    pub field12: crate::l_array_216_struct_AC_l_array_64_float,
+    pub field13: crate::l_array_216_struct_AC_l_array_64_float,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -123,9 +123,9 @@ pub struct l_array_4_uint8_t {
 pub struct l_struct_struct_OC_partition_info {
     pub field0: uint16_t,
     pub field1: uint16_t,
-    pub field2: l_array_4_uint8_t,
-    pub field3: l_array_216_uint8_t,
-    pub field4: l_array_4_struct_AC_l_array_216_uint8_t,
+    pub field2: crate::l_array_4_uint8_t,
+    pub field3: crate::l_array_216_uint8_t,
+    pub field4: crate::l_array_4_struct_AC_l_array_216_uint8_t,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -186,18 +186,18 @@ pub struct l_struct_struct_OC_block_size_descriptor {
     pub field8: uint32_t,
     pub field9: uint32_t,
     pub field10: uint32_t,
-    pub field11: l_array_4_uint32_t,
-    pub field12: l_array_4_uint32_t,
-    pub field13: l_array_87_struct_AC_l_struct_struct_OC_decimation_mode,
-    pub field14: l_array_87_struct_AC_l_struct_struct_OC_decimation_info,
-    pub field15: l_array_2048_uint16_t,
-    pub field16: l_array_2048_struct_AC_l_struct_struct_OC_block_mode,
-    pub field17: l_array_3073_struct_AC_l_struct_struct_OC_partition_info,
-    pub field18: l_array_3_struct_AC_l_array_1024_uint16_t,
-    pub field19: l_array_64_uint8_t,
-    pub field20: l_array_1024_struct_AC_l_array_2_uint64_t,
-    pub field21: l_array_1024_struct_AC_l_array_3_uint64_t,
-    pub field22: l_array_1024_struct_AC_l_array_4_uint64_t,
+    pub field11: crate::l_array_4_uint32_t,
+    pub field12: crate::l_array_4_uint32_t,
+    pub field13: crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode,
+    pub field14: crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info,
+    pub field15: crate::l_array_2048_uint16_t,
+    pub field16: crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode,
+    pub field17: crate::l_array_3073_struct_AC_l_struct_struct_OC_partition_info,
+    pub field18: crate::l_array_3_struct_AC_l_array_1024_uint16_t,
+    pub field19: crate::l_array_64_uint8_t,
+    pub field20: crate::l_array_1024_struct_AC_l_array_2_uint64_t,
+    pub field21: crate::l_array_1024_struct_AC_l_array_3_uint64_t,
+    pub field22: crate::l_array_1024_struct_AC_l_array_4_uint64_t,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -212,12 +212,12 @@ pub struct l_array_64_struct_AC_l_array_216_uint8_t {
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct l_struct_struct_OC_dt_init_working_buffers {
-    pub field0: l_array_216_uint8_t,
-    pub field1: l_array_216_struct_AC_l_array_4_uint8_t,
-    pub field2: l_array_216_struct_AC_l_array_4_uint8_t,
-    pub field3: l_array_64_uint8_t,
-    pub field4: l_array_64_struct_AC_l_array_216_uint8_t,
-    pub field5: l_array_64_struct_AC_l_array_216_uint8_t,
+    pub field0: crate::l_array_216_uint8_t,
+    pub field1: crate::l_array_216_struct_AC_l_array_4_uint8_t,
+    pub field2: crate::l_array_216_struct_AC_l_array_4_uint8_t,
+    pub field3: crate::l_array_64_uint8_t,
+    pub field4: crate::l_array_64_struct_AC_l_array_216_uint8_t,
+    pub field5: crate::l_array_64_struct_AC_l_array_216_uint8_t,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -308,9 +308,9 @@ unsafe extern "C" fn llvm_fcmp_une(
 ) -> core::ffi::c_int {
     return (X != Y) as core::ffi::c_int;
 }
-static mut _OC_str: l_array_22_uint8_t = unsafe {
+static mut _OC_str: crate::l_array_22_uint8_t = unsafe {
     {
-        let mut init = l_array_22_uint8_t {
+        let mut init = crate::l_array_22_uint8_t {
             array: *::core::mem::transmute::<&[u8; 22], &mut [uint8_t; 22]>(
                 b"weights_per_block > 0\0",
             ),
@@ -318,9 +318,9 @@ static mut _OC_str: l_array_22_uint8_t = unsafe {
         init
     }
 };
-static mut _OC_str_OC_1: l_array_50_uint8_t = unsafe {
+static mut _OC_str_OC_1: crate::l_array_50_uint8_t = unsafe {
     {
-        let mut init = l_array_50_uint8_t {
+        let mut init = crate::l_array_50_uint8_t {
             array: *::core::mem::transmute::<&[u8; 50], &mut [uint8_t; 50]>(
                 b"/root/astc-encoder/Source/astcenc_block_sizes.cpp\0",
             ),
@@ -328,9 +328,9 @@ static mut _OC_str_OC_1: l_array_50_uint8_t = unsafe {
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_init_working_buffers: l_array_159_uint8_t = unsafe {
+static mut __PRETTY_FUNCTION___OC__ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_init_working_buffers: crate::l_array_159_uint8_t = unsafe {
     {
-        let mut init = l_array_159_uint8_t {
+        let mut init = crate::l_array_159_uint8_t {
             array: *::core::mem::transmute::<
                 &[u8; 159],
                 &mut [uint8_t; 159],
@@ -341,9 +341,9 @@ static mut __PRETTY_FUNCTION___OC__ZL23init_decimation_info_3djjjjjjR15decimatio
         init
     }
 };
-static mut _OC_str_OC_2: l_array_21_uint8_t = unsafe {
+static mut _OC_str_OC_2: crate::l_array_21_uint8_t = unsafe {
     {
-        let mut init = l_array_21_uint8_t {
+        let mut init = crate::l_array_21_uint8_t {
             array: *::core::mem::transmute::<&[u8; 21], &mut [uint8_t; 21]>(
                 b"texels_per_block > 0\0",
             ),
@@ -351,9 +351,9 @@ static mut _OC_str_OC_2: l_array_21_uint8_t = unsafe {
         init
     }
 };
-static mut _OC_str_OC_3: l_array_39_uint8_t = unsafe {
+static mut _OC_str_OC_3: crate::l_array_39_uint8_t = unsafe {
     {
-        let mut init = l_array_39_uint8_t {
+        let mut init = crate::l_array_39_uint8_t {
             array: *::core::mem::transmute::<&[u8; 39], &mut [uint8_t; 39]>(
                 b"bsd.block_mode_count_1plane_always > 0\0",
             ),
@@ -361,9 +361,9 @@ static mut _OC_str_OC_3: l_array_39_uint8_t = unsafe {
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__ZL34construct_block_size_descriptor_2djjbfR21block_size_descriptor: l_array_106_uint8_t = unsafe {
+static mut __PRETTY_FUNCTION___OC__ZL34construct_block_size_descriptor_2djjbfR21block_size_descriptor: crate::l_array_106_uint8_t = unsafe {
     {
-        let mut init = l_array_106_uint8_t {
+        let mut init = crate::l_array_106_uint8_t {
             array: *::core::mem::transmute::<
                 &[u8; 106],
                 &mut [uint8_t; 106],
@@ -374,9 +374,9 @@ static mut __PRETTY_FUNCTION___OC__ZL34construct_block_size_descriptor_2djjbfR21
         init
     }
 };
-static mut _OC_str_OC_4: l_array_37_uint8_t = unsafe {
+static mut _OC_str_OC_4: crate::l_array_37_uint8_t = unsafe {
     {
-        let mut init = l_array_37_uint8_t {
+        let mut init = crate::l_array_37_uint8_t {
             array: *::core::mem::transmute::<&[u8; 37], &mut [uint8_t; 37]>(
                 b"bsd.decimation_mode_count_always > 0\0",
             ),
@@ -384,9 +384,9 @@ static mut _OC_str_OC_4: l_array_37_uint8_t = unsafe {
         init
     }
 };
-static mut _OC_str_OC_5: l_array_34_uint8_t = unsafe {
+static mut _OC_str_OC_5: crate::l_array_34_uint8_t = unsafe {
     {
-        let mut init = l_array_34_uint8_t {
+        let mut init = crate::l_array_34_uint8_t {
             array: *::core::mem::transmute::<&[u8; 34], &mut [uint8_t; 34]>(
                 b"weight_count <= BLOCK_MAX_WEIGHTS\0",
             ),
@@ -394,9 +394,9 @@ static mut _OC_str_OC_5: l_array_34_uint8_t = unsafe {
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt_init_working_buffersj: l_array_149_uint8_t = unsafe {
+static mut __PRETTY_FUNCTION___OC__ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt_init_working_buffersj: crate::l_array_149_uint8_t = unsafe {
     {
-        let mut init = l_array_149_uint8_t {
+        let mut init = crate::l_array_149_uint8_t {
             array: *::core::mem::transmute::<
                 &[u8; 149],
                 &mut [uint8_t; 149],
@@ -407,9 +407,9 @@ static mut __PRETTY_FUNCTION___OC__ZL21construct_dt_entry_2djjjjR21block_size_de
         init
     }
 };
-static mut _OC_str_OC_6: l_array_44_uint8_t = unsafe {
+static mut _OC_str_OC_6: crate::l_array_44_uint8_t = unsafe {
     {
-        let mut init = l_array_44_uint8_t {
+        let mut init = crate::l_array_44_uint8_t {
             array: *::core::mem::transmute::<&[u8; 44], &mut [uint8_t; 44]>(
                 b"maxprec_1plane >= 0 || maxprec_2planes >= 0\0",
             ),
@@ -417,9 +417,9 @@ static mut _OC_str_OC_6: l_array_44_uint8_t = unsafe {
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_init_working_buffers: l_array_131_uint8_t = unsafe {
+static mut __PRETTY_FUNCTION___OC__ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_init_working_buffers: crate::l_array_131_uint8_t = unsafe {
     {
-        let mut init = l_array_131_uint8_t {
+        let mut init = crate::l_array_131_uint8_t {
             array: *::core::mem::transmute::<
                 &[u8; 131],
                 &mut [uint8_t; 131],
@@ -430,17 +430,17 @@ static mut __PRETTY_FUNCTION___OC__ZL23init_decimation_info_2djjjjR15decimation_
         init
     }
 };
-static mut _OC_str_OC_7: l_array_13_uint8_t = unsafe {
+static mut _OC_str_OC_7: crate::l_array_13_uint8_t = unsafe {
     {
-        let mut init = l_array_13_uint8_t {
+        let mut init = crate::l_array_13_uint8_t {
             array: *::core::mem::transmute::<&[u8; 13], &mut [uint8_t; 13]>(b"x_texels > 0\0"),
         };
         init
     }
 };
-static mut _OC_str_OC_8: l_array_13_uint8_t = unsafe {
+static mut _OC_str_OC_8: crate::l_array_13_uint8_t = unsafe {
     {
-        let mut init = l_array_13_uint8_t {
+        let mut init = crate::l_array_13_uint8_t {
             array: *::core::mem::transmute::<&[u8; 13], &mut [uint8_t; 13]>(b"y_texels > 0\0"),
         };
         init
@@ -598,7 +598,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
     let mut _36: uint32_t = 0;
     let mut _37: uint32_t = 0;
     let mut _38: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _39: l_array_438_uint32_t = l_array_438_uint32_t { array: [0; 438] };
+    let mut _39: crate::l_array_438_uint32_t = crate::l_array_438_uint32_t { array: [0; 438] };
     let mut _40: uint32_t = 0;
     let mut _41: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _42: uint32_t = 0;
@@ -615,7 +615,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
     let mut _53: uint32_t = 0;
     let mut _54: uint32_t = 0;
     let mut _55: uint32_t = 0;
-    let mut _56: l_array_2_uint32_t = l_array_2_uint32_t { array: [0; 2] };
+    let mut _56: crate::l_array_2_uint32_t = crate::l_array_2_uint32_t { array: [0; 2] };
     let mut _57: uint32_t = 0;
     let mut _58: uint32_t = 0;
     let mut _59: uint32_t = 0;
@@ -850,7 +850,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                     _92 = _40;
                     _47 = &mut *((*(&mut (*(_91 as *mut l_struct_struct_OC_block_size_descriptor))
                         .field14
-                        as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
+                        as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
                         .array)
                         .as_mut_ptr()
                         .offset(_92 as uint64_t as int64_t as isize)
@@ -933,7 +933,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                     *(&mut (*(&mut *((*(&mut (*(_121
                         as *mut l_struct_struct_OC_block_size_descriptor))
                         .field13
-                        as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                        as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                         .array)
                         .as_mut_ptr()
                         .offset(_122 as uint64_t as int64_t as isize)
@@ -945,7 +945,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                     *(&mut (*(&mut *((*(&mut (*(_124
                         as *mut l_struct_struct_OC_block_size_descriptor))
                         .field13
-                        as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                        as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                         .array)
                         .as_mut_ptr()
                         .offset(_125 as uint64_t as int64_t as isize)
@@ -959,7 +959,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                     *(&mut (*(&mut *((*(&mut (*(_128
                         as *mut l_struct_struct_OC_block_size_descriptor))
                         .field13
-                        as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                        as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                         .array)
                         .as_mut_ptr()
                         .offset(_129 as uint64_t as int64_t as isize)
@@ -977,7 +977,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                     *(&mut (*(&mut *((*(&mut (*(_132
                         as *mut l_struct_struct_OC_block_size_descriptor))
                         .field13
-                        as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                        as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                         .array)
                         .as_mut_ptr()
                         .offset(_133 as uint64_t as int64_t as isize)
@@ -1009,7 +1009,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _140 = _38;
         _141 = _53;
         *(&mut (*(&mut *((*(&mut (*(_140 as *mut l_struct_struct_OC_block_size_descriptor)).field13
-            as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+            as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
             .array)
             .as_mut_ptr()
             .offset(_141 as uint64_t as int64_t as isize)
@@ -1018,7 +1018,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _142 = _38;
         _143 = _53;
         *(&mut (*(&mut *((*(&mut (*(_142 as *mut l_struct_struct_OC_block_size_descriptor)).field13
-            as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+            as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
             .array)
             .as_mut_ptr()
             .offset(_143 as uint64_t as int64_t as isize)
@@ -1027,7 +1027,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _144 = _38;
         _145 = _53;
         *(&mut (*(&mut *((*(&mut (*(_144 as *mut l_struct_struct_OC_block_size_descriptor)).field13
-            as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+            as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
             .array)
             .as_mut_ptr()
             .offset(_145 as uint64_t as int64_t as isize)
@@ -1036,7 +1036,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _146 = _38;
         _147 = _53;
         *(&mut (*(&mut *((*(&mut (*(_146 as *mut l_struct_struct_OC_block_size_descriptor)).field13
-            as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+            as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
             .array)
             .as_mut_ptr()
             .offset(_147 as uint64_t as int64_t as isize)
@@ -1064,7 +1064,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
         _155 = _38;
         _156 = _54;
         *(&mut *((*(&mut (*(_155 as *mut l_struct_struct_OC_block_size_descriptor)).field15
-            as *mut l_array_2048_uint16_t))
+            as *mut crate::l_array_2048_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_156 as uint64_t as int64_t as isize) as *mut uint16_t) =
@@ -1074,7 +1074,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
     }
     _55 = 0;
     _158 = memset(
-        &mut _56 as *mut l_array_2_uint32_t as *mut core::ffi::c_void,
+        &mut _56 as *mut crate::l_array_2_uint32_t as *mut core::ffi::c_void,
         0,
         8,
     );
@@ -1093,7 +1093,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
             _161 = _38;
             _162 = _58;
             _163 = *(&mut *((*(&mut (*(_161 as *mut l_struct_struct_OC_block_size_descriptor))
-                .field15 as *mut l_array_2048_uint16_t))
+                .field15 as *mut crate::l_array_2048_uint16_t))
                 .array)
                 .as_mut_ptr()
                 .offset(_162 as uint64_t as int64_t as isize)
@@ -1214,7 +1214,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                                                         *(&mut (*(&mut *((*(&mut (*(_185
                                                             as *mut l_struct_struct_OC_block_size_descriptor))
                                                             .field16
-                                                            as *mut l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+                                                            as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
                                                             .array)
                                                             .as_mut_ptr()
                                                             .offset(_186 as uint64_t as int64_t as isize)
@@ -1226,7 +1226,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                                                         *(&mut (*(&mut *((*(&mut (*(_188
                                                             as *mut l_struct_struct_OC_block_size_descriptor))
                                                             .field16
-                                                            as *mut l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+                                                            as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
                                                             .array)
                                                             .as_mut_ptr()
                                                             .offset(_189 as uint64_t as int64_t as isize)
@@ -1238,7 +1238,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                                                         *(&mut (*(&mut *((*(&mut (*(_191
                                                             as *mut l_struct_struct_OC_block_size_descriptor))
                                                             .field16
-                                                            as *mut l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+                                                            as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
                                                             .array)
                                                             .as_mut_ptr()
                                                             .offset(_192 as uint64_t as int64_t as isize)
@@ -1250,7 +1250,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                                                         _196 = &mut (*(&mut *((*(&mut (*(_194
                                                             as *mut l_struct_struct_OC_block_size_descriptor))
                                                             .field16
-                                                            as *mut l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+                                                            as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
                                                             .array)
                                                             .as_mut_ptr()
                                                             .offset(_195 as uint64_t as int64_t as isize)
@@ -1275,7 +1275,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                                                         *(&mut (*(&mut *((*(&mut (*(_199
                                                             as *mut l_struct_struct_OC_block_size_descriptor))
                                                             .field16
-                                                            as *mut l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+                                                            as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
                                                             .array)
                                                             .as_mut_ptr()
                                                             .offset(_200 as uint64_t as int64_t as isize)
@@ -1286,7 +1286,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_3djjjR21block_size_des
                                                         _203 = _58;
                                                         *(&mut *((*(&mut (*(_202
                                                             as *mut l_struct_struct_OC_block_size_descriptor))
-                                                            .field15 as *mut l_array_2048_uint16_t))
+                                                            .field15 as *mut crate::l_array_2048_uint16_t))
                                                             .array)
                                                             .as_mut_ptr()
                                                             .offset(_203 as uint64_t as int64_t as isize)
@@ -1368,15 +1368,15 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
     let mut _295: uint8_t = 0;
     let mut _296: core::ffi::c_float = 0.;
     let mut _297: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
-    let mut _298: l_array_204_uint32_t = l_array_204_uint32_t { array: [0; 204] };
+    let mut _298: crate::l_array_204_uint32_t = crate::l_array_204_uint32_t { array: [0; 204] };
     let mut _299: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _300: uint32_t = 0;
     let mut _301: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _302: core::ffi::c_float = 0.;
     let mut _303: uint32_t = 0;
     let mut _304: uint32_t = 0;
-    let mut _305: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
-    let mut _306: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
+    let mut _305: crate::l_array_4_uint32_t = crate::l_array_4_uint32_t { array: [0; 4] };
+    let mut _306: crate::l_array_4_uint32_t = crate::l_array_4_uint32_t { array: [0; 4] };
     let mut _307: uint32_t = 0;
     let mut _308: uint32_t = 0;
     let mut _309: uint32_t = 0;
@@ -1586,12 +1586,12 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
     _303 = 0;
     _304 = 0;
     _337 = memset(
-        &mut _305 as *mut l_array_4_uint32_t as *mut core::ffi::c_void,
+        &mut _305 as *mut crate::l_array_4_uint32_t as *mut core::ffi::c_void,
         0,
         16,
     );
     _338 = memset(
-        &mut _306 as *mut l_array_4_uint32_t as *mut core::ffi::c_void,
+        &mut _306 as *mut crate::l_array_4_uint32_t as *mut core::ffi::c_void,
         0,
         16,
     );
@@ -1604,7 +1604,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
         _340 = _297;
         _341 = _307;
         *(&mut *((*(&mut (*(_340 as *mut l_struct_struct_OC_block_size_descriptor)).field15
-            as *mut l_array_2048_uint16_t))
+            as *mut crate::l_array_2048_uint16_t))
             .array)
             .as_mut_ptr()
             .offset(_341 as uint64_t as int64_t as isize) as *mut uint16_t) =
@@ -1632,7 +1632,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
             _349 = _297;
             _350 = _310;
             _351 = *(&mut *((*(&mut (*(_349 as *mut l_struct_struct_OC_block_size_descriptor))
-                .field15 as *mut l_array_2048_uint16_t))
+                .field15 as *mut crate::l_array_2048_uint16_t))
                 .array)
                 .as_mut_ptr()
                 .offset(_350 as uint64_t as int64_t as isize)
@@ -1839,7 +1839,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                                                             _319 = &mut *((*(&mut (*(_396
                                                                 as *mut l_struct_struct_OC_block_size_descriptor))
                                                                 .field16
-                                                                as *mut l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
+                                                                as *mut crate::l_array_2048_struct_AC_l_struct_struct_OC_block_mode))
                                                                 .array)
                                                                 .as_mut_ptr()
                                                                 .offset(_397 as uint64_t as int64_t as isize)
@@ -1883,7 +1883,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                                                             _320 = &mut *((*(&mut (*(_410
                                                                 as *mut l_struct_struct_OC_block_size_descriptor))
                                                                 .field13
-                                                                as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                                                                as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                                                                 .array)
                                                                 .as_mut_ptr()
                                                                 .offset(_411 as int32_t as int64_t as isize)
@@ -1915,7 +1915,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                                                             _421 = _310;
                                                             *(&mut *((*(&mut (*(_420
                                                                 as *mut l_struct_struct_OC_block_size_descriptor))
-                                                                .field15 as *mut l_array_2048_uint16_t))
+                                                                .field15 as *mut crate::l_array_2048_uint16_t))
                                                                 .array)
                                                                 .as_mut_ptr()
                                                                 .offset(_421 as uint64_t as int64_t as isize)
@@ -2052,7 +2052,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                 _462 = _321;
                 *(&mut (*(&mut *((*(&mut (*(_461 as *mut l_struct_struct_OC_block_size_descriptor))
                     .field13
-                    as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                    as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                     .array)
                     .as_mut_ptr()
                     .offset(_462 as uint64_t as int64_t as isize)
@@ -2062,7 +2062,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                 _464 = _321;
                 *(&mut (*(&mut *((*(&mut (*(_463 as *mut l_struct_struct_OC_block_size_descriptor))
                     .field13
-                    as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                    as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                     .array)
                     .as_mut_ptr()
                     .offset(_464 as uint64_t as int64_t as isize)
@@ -2072,7 +2072,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                 _466 = _321;
                 *(&mut (*(&mut *((*(&mut (*(_465 as *mut l_struct_struct_OC_block_size_descriptor))
                     .field13
-                    as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                    as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                     .array)
                     .as_mut_ptr()
                     .offset(_466 as uint64_t as int64_t as isize)
@@ -2082,7 +2082,7 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
                 _468 = _321;
                 *(&mut (*(&mut *((*(&mut (*(_467 as *mut l_struct_struct_OC_block_size_descriptor))
                     .field13
-                    as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                    as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                     .array)
                     .as_mut_ptr()
                     .offset(_468 as uint64_t as int64_t as isize)
@@ -2100,20 +2100,20 @@ unsafe extern "C" fn _ZL34construct_block_size_descriptor_2djjbfR21block_size_de
             return;
         } else {
             __assert_fail(
-                &_OC_str_OC_4 as *const l_array_37_uint8_t as *mut core::ffi::c_void,
-                &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_4 as *const crate::l_array_37_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
                 962,
                 &__PRETTY_FUNCTION___OC__ZL34construct_block_size_descriptor_2djjbfR21block_size_descriptor
-                    as *const l_array_106_uint8_t as *mut core::ffi::c_void,
+                    as *const crate::l_array_106_uint8_t as *mut core::ffi::c_void,
             );
         }
     } else {
         __assert_fail(
-            &_OC_str_OC_3 as *const l_array_39_uint8_t as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_3 as *const crate::l_array_39_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
             961,
             &__PRETTY_FUNCTION___OC__ZL34construct_block_size_descriptor_2djjbfR21block_size_descriptor
-                as *const l_array_106_uint8_t as *mut core::ffi::c_void,
+                as *const crate::l_array_106_uint8_t as *mut core::ffi::c_void,
         );
     };
 }
@@ -2159,8 +2159,8 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
     let mut _566: uint32_t = 0;
     let mut _567: uint32_t = 0;
     let mut _568: uint32_t = 0;
-    let mut _569: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
-    let mut _570: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
+    let mut _569: crate::l_array_4_uint32_t = crate::l_array_4_uint32_t { array: [0; 4] };
+    let mut _570: crate::l_array_4_uint32_t = crate::l_array_4_uint32_t { array: [0; 4] };
     let mut _571: uint32_t = 0;
     let mut _572: uint32_t = 0;
     let mut _573: uint32_t = 0;
@@ -2583,7 +2583,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _616 = _554;
                 *(&mut *((*(&mut (*(_615
                     as *mut l_struct_struct_OC_dt_init_working_buffers))
-                    .field3 as *mut l_array_64_uint8_t))
+                    .field3 as *mut crate::l_array_64_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_616 as uint64_t as int64_t as isize)
@@ -2602,7 +2602,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _621 = _555;
                 *(&mut *((*(&mut (*(_620
                     as *mut l_struct_struct_OC_dt_init_working_buffers))
-                    .field0 as *mut l_array_216_uint8_t))
+                    .field0 as *mut crate::l_array_216_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_621 as uint64_t as int64_t as isize)
@@ -2944,7 +2944,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 _744 = *(&mut *((*(&mut (*(_742
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field0
-                                    as *mut l_array_216_uint8_t))
+                                    as *mut crate::l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_743 as int32_t as int64_t as isize)
@@ -2952,11 +2952,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 *(&mut *((*(&mut *((*(&mut (*(_740
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field1
-                                    as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                                    as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_741 as int32_t as int64_t as isize)
-                                    as *mut l_array_4_uint8_t))
+                                    as *mut crate::l_array_4_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_744 as uint64_t as int64_t as isize)
@@ -2973,7 +2973,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 _751 = *(&mut *((*(&mut (*(_749
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field0
-                                    as *mut l_array_216_uint8_t))
+                                    as *mut crate::l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_750 as int32_t as int64_t as isize)
@@ -2981,11 +2981,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 *(&mut *((*(&mut *((*(&mut (*(_747
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field2
-                                    as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                                    as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_748 as int32_t as int64_t as isize)
-                                    as *mut l_array_4_uint8_t))
+                                    as *mut crate::l_array_4_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_751 as uint64_t as int64_t as isize)
@@ -2995,7 +2995,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 _754 = &mut *((*(&mut (*(_752
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field0
-                                    as *mut l_array_216_uint8_t))
+                                    as *mut crate::l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_753 as int32_t as int64_t as isize)
@@ -3019,7 +3019,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 _763 = *(&mut *((*(&mut (*(_760
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field3
-                                    as *mut l_array_64_uint8_t))
+                                    as *mut crate::l_array_64_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_762 as int32_t as int64_t as isize)
@@ -3027,11 +3027,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 *(&mut *((*(&mut *((*(&mut (*(_757
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field4
-                                    as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                                    as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_759 as int32_t as int64_t as isize)
-                                    as *mut l_array_216_uint8_t))
+                                    as *mut crate::l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_763 as uint64_t as int64_t as isize)
@@ -3056,7 +3056,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 _772 = *(&mut *((*(&mut (*(_769
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field3
-                                    as *mut l_array_64_uint8_t))
+                                    as *mut crate::l_array_64_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_771 as int32_t as int64_t as isize)
@@ -3064,11 +3064,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 *(&mut *((*(&mut *((*(&mut (*(_766
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field5
-                                    as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                                    as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_768 as int32_t as int64_t as isize)
-                                    as *mut l_array_216_uint8_t))
+                                    as *mut crate::l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_772 as uint64_t as int64_t as isize)
@@ -3082,7 +3082,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 _776 = &mut *((*(&mut (*(_773
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field3
-                                    as *mut l_array_64_uint8_t))
+                                    as *mut crate::l_array_64_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_775 as int32_t as int64_t as isize)
@@ -3100,7 +3100,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                                 _782 = *(&mut *((*(&mut (*(_779
                                     as *mut l_struct_struct_OC_dt_init_working_buffers))
                                     .field3
-                                    as *mut l_array_64_uint8_t))
+                                    as *mut crate::l_array_64_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_781 as int32_t as int64_t as isize)
@@ -3132,7 +3132,8 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _791 = _585;
                 _792 =
                     *(&mut *((*(&mut (*(_790 as *mut l_struct_struct_OC_dt_init_working_buffers))
-                        .field0 as *mut l_array_216_uint8_t))
+                        .field0
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_791 as uint64_t as int64_t as isize)
@@ -3140,7 +3141,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _793 = _549;
                 _794 = _585;
                 *(&mut *((*(&mut (*(_793 as *mut l_struct_struct_OC_decimation_info)).field6
-                    as *mut l_array_216_uint8_t))
+                    as *mut crate::l_array_216_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_794 as uint64_t as int64_t as isize)
@@ -3149,7 +3150,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _796 = _549;
                 _797 = _585;
                 _798 = *(&mut *((*(&mut (*(_796 as *mut l_struct_struct_OC_decimation_info)).field6
-                    as *mut l_array_216_uint8_t))
+                    as *mut crate::l_array_216_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_797 as uint64_t as int64_t as isize)
@@ -3167,11 +3168,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _803 = _585;
                     *(&mut *((*(&mut *((*(&mut (*(_801 as *mut l_struct_struct_OC_decimation_info))
                         .field8
-                        as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_802 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_803 as uint64_t as int64_t as isize)
@@ -3181,11 +3182,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _806 = _585;
                     *(&mut *((*(&mut *((*(&mut (*(_804 as *mut l_struct_struct_OC_decimation_info))
                         .field9
-                        as *mut l_array_4_struct_AC_l_array_216_float))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_805 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_float))
+                        as *mut crate::l_array_216_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_806 as uint64_t as int64_t as isize)
@@ -3195,11 +3196,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _809 = _585;
                     *(&mut *((*(&mut *((*(&mut (*(_807 as *mut l_struct_struct_OC_decimation_info))
                         .field7
-                        as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_808 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_809 as uint64_t as int64_t as isize)
@@ -3215,7 +3216,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _814 = *(&mut *((*(&mut (*(_812
                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                         .field0
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_813 as uint64_t as int64_t as isize)
@@ -3229,11 +3230,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _818 = *(&mut *((*(&mut *((*(&mut (*(_815
                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                         .field2
-                        as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                        as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_816 as uint64_t as int64_t as isize)
-                        as *mut l_array_4_uint8_t))
+                        as *mut crate::l_array_4_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_817 as uint64_t as int64_t as isize)
@@ -3243,11 +3244,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _821 = _585;
                     *(&mut *((*(&mut *((*(&mut (*(_819 as *mut l_struct_struct_OC_decimation_info))
                         .field8
-                        as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_820 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_821 as uint64_t as int64_t as isize)
@@ -3258,11 +3259,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _825 = *(&mut *((*(&mut *((*(&mut (*(_822
                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                         .field2
-                        as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                        as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_823 as uint64_t as int64_t as isize)
-                        as *mut l_array_4_uint8_t))
+                        as *mut crate::l_array_4_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_824 as uint64_t as int64_t as isize)
@@ -3272,11 +3273,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _828 = _585;
                     *(&mut *((*(&mut *((*(&mut (*(_826 as *mut l_struct_struct_OC_decimation_info))
                         .field9
-                        as *mut l_array_4_struct_AC_l_array_216_float))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_827 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_float))
+                        as *mut crate::l_array_216_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_828 as uint64_t as int64_t as isize)
@@ -3288,11 +3289,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _832 = *(&mut *((*(&mut *((*(&mut (*(_829
                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                         .field1
-                        as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                        as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_830 as uint64_t as int64_t as isize)
-                        as *mut l_array_4_uint8_t))
+                        as *mut crate::l_array_4_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_831 as uint64_t as int64_t as isize)
@@ -3302,11 +3303,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _835 = _585;
                     *(&mut *((*(&mut *((*(&mut (*(_833 as *mut l_struct_struct_OC_decimation_info))
                         .field7
-                        as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_834 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_835 as uint64_t as int64_t as isize)
@@ -3332,7 +3333,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _843 = _588;
                 _844 =
                     *(&mut *((*(&mut (*(_842 as *mut l_struct_struct_OC_dt_init_working_buffers))
-                        .field3 as *mut l_array_64_uint8_t))
+                        .field3 as *mut crate::l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_843 as uint64_t as int64_t as isize)
@@ -3342,7 +3343,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _846 = _549;
                 _847 = _588;
                 *(&mut *((*(&mut (*(_846 as *mut l_struct_struct_OC_decimation_info)).field10
-                    as *mut l_array_64_uint8_t))
+                    as *mut crate::l_array_64_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_847 as uint64_t as int64_t as isize)
@@ -3360,11 +3361,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _853 = *(&mut *((*(&mut *((*(&mut (*(_850
                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                         .field4
-                        as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_851 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_852 as uint64_t as int64_t as isize)
@@ -3376,11 +3377,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _857 = _588;
                     *(&mut *((*(&mut *((*(&mut (*(_855 as *mut l_struct_struct_OC_decimation_info))
                         .field11
-                        as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_856 as uint64_t as int64_t as isize)
-                        as *mut l_array_64_uint8_t))
+                        as *mut crate::l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_857 as uint64_t as int64_t as isize)
@@ -3391,11 +3392,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _861 = *(&mut *((*(&mut *((*(&mut (*(_858
                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                         .field5
-                        as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_859 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_860 as uint64_t as int64_t as isize)
@@ -3405,11 +3406,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _864 = _588;
                     *(&mut *((*(&mut *((*(&mut (*(_862 as *mut l_struct_struct_OC_decimation_info))
                         .field12
-                        as *mut l_array_216_struct_AC_l_array_64_float))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_863 as uint64_t as int64_t as isize)
-                        as *mut l_array_64_float))
+                        as *mut crate::l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_864 as uint64_t as int64_t as isize)
@@ -3419,11 +3420,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _867 = _588;
                     *(&mut *((*(&mut *((*(&mut (*(_865 as *mut l_struct_struct_OC_decimation_info))
                         .field13
-                        as *mut l_array_216_struct_AC_l_array_64_float))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_866 as uint64_t as int64_t as isize)
-                        as *mut l_array_64_float))
+                        as *mut crate::l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_867 as uint64_t as int64_t as isize)
@@ -3441,11 +3442,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                         _872 = *(&mut *((*(&mut *((*(&mut (*(_869
                             as *mut l_struct_struct_OC_decimation_info))
                             .field7
-                            as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                            as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_870 as uint64_t as int64_t as isize)
-                            as *mut l_array_216_uint8_t))
+                            as *mut crate::l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_871 as uint64_t as int64_t as isize)
@@ -3457,11 +3458,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                         _876 = *(&mut *((*(&mut *((*(&mut (*(_873
                             as *mut l_struct_struct_OC_decimation_info))
                             .field9
-                            as *mut l_array_4_struct_AC_l_array_216_float))
+                            as *mut crate::l_array_4_struct_AC_l_array_216_float))
                             .array)
                             .as_mut_ptr()
                             .offset(_874 as uint64_t as int64_t as isize)
-                            as *mut l_array_216_float))
+                            as *mut crate::l_array_216_float))
                             .array)
                             .as_mut_ptr()
                             .offset(_875 as uint64_t as int64_t as isize)
@@ -3491,11 +3492,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                             _883 = *(&mut *((*(&mut *((*(&mut (*(_880
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
-                                as *mut l_array_4_struct_AC_l_array_216_float))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_881 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_float))
+                                as *mut crate::l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_882 as uint64_t as int64_t as isize)
@@ -3506,11 +3507,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                             *(&mut *((*(&mut *((*(&mut (*(_884
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field13
-                                as *mut l_array_216_struct_AC_l_array_64_float))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_885 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_float))
+                                as *mut crate::l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_886 as uint64_t as int64_t as isize)
@@ -3527,14 +3528,14 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _892 = *(&mut *((*(&mut *((*(&mut (*(_889
                     as *mut l_struct_struct_OC_decimation_info))
                     .field11
-                    as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                    as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(
                         (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _890, 1,
                         ) as uint64_t as int64_t as isize,
-                    ) as *mut l_array_64_uint8_t))
+                    ) as *mut crate::l_array_64_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_891 as uint64_t as int64_t as isize)
@@ -3554,11 +3555,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _899 = _588;
                     *(&mut *((*(&mut *((*(&mut (*(_897 as *mut l_struct_struct_OC_decimation_info))
                         .field11
-                        as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_898 as uint64_t as int64_t as isize)
-                        as *mut l_array_64_uint8_t))
+                        as *mut crate::l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_899 as uint64_t as int64_t as isize)
@@ -3568,11 +3569,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _902 = _588;
                     *(&mut *((*(&mut *((*(&mut (*(_900 as *mut l_struct_struct_OC_decimation_info))
                         .field12
-                        as *mut l_array_216_struct_AC_l_array_64_float))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_901 as uint64_t as int64_t as isize)
-                        as *mut l_array_64_float))
+                        as *mut crate::l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_902 as uint64_t as int64_t as isize)
@@ -3600,7 +3601,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _911 = _549;
                 _912 = _598;
                 *(&mut *((*(&mut (*(_911 as *mut l_struct_struct_OC_decimation_info)).field6
-                    as *mut l_array_216_uint8_t))
+                    as *mut crate::l_array_216_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_912 as uint64_t as int64_t as isize)
@@ -3616,11 +3617,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _916 = _598;
                     *(&mut *((*(&mut *((*(&mut (*(_914 as *mut l_struct_struct_OC_decimation_info))
                         .field9
-                        as *mut l_array_4_struct_AC_l_array_216_float))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_915 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_float))
+                        as *mut crate::l_array_216_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_916 as uint64_t as int64_t as isize)
@@ -3630,11 +3631,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _919 = _598;
                     *(&mut *((*(&mut *((*(&mut (*(_917 as *mut l_struct_struct_OC_decimation_info))
                         .field7
-                        as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_918 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_919 as uint64_t as int64_t as isize)
@@ -3644,11 +3645,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _922 = _598;
                     *(&mut *((*(&mut *((*(&mut (*(_920 as *mut l_struct_struct_OC_decimation_info))
                         .field8
-                        as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                        as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_921 as uint64_t as int64_t as isize)
-                        as *mut l_array_216_uint8_t))
+                        as *mut crate::l_array_216_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_922 as uint64_t as int64_t as isize)
@@ -3662,7 +3663,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
             _925 = _550;
             _926 = _552;
             _927 = *(&mut *((*(&mut (*(_925 as *mut l_struct_struct_OC_dt_init_working_buffers))
-                .field3 as *mut l_array_64_uint8_t))
+                .field3 as *mut crate::l_array_64_uint8_t))
                 .array)
                 .as_mut_ptr()
                 .offset(
@@ -3675,13 +3676,13 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
             _930 = _552;
             _931 = *(&mut *((*(&mut *((*(&mut (*(_928 as *mut l_struct_struct_OC_decimation_info))
                 .field11
-                as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                 .array)
                 .as_mut_ptr()
                 .offset(
                     (llvm_sub_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_929, 1)
                         as int32_t as int64_t as isize,
-                ) as *mut l_array_64_uint8_t))
+                ) as *mut crate::l_array_64_uint8_t))
                 .array)
                 .as_mut_ptr()
                 .offset(
@@ -3706,7 +3707,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                 _938 = _549;
                 _939 = _603;
                 *(&mut *((*(&mut (*(_938 as *mut l_struct_struct_OC_decimation_info)).field10
-                    as *mut l_array_64_uint8_t))
+                    as *mut crate::l_array_64_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_939 as uint64_t as int64_t as isize)
@@ -3724,11 +3725,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _945 = _603;
                     *(&mut *((*(&mut *((*(&mut (*(_943 as *mut l_struct_struct_OC_decimation_info))
                         .field11
-                        as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_944 as int32_t as int64_t as isize)
-                        as *mut l_array_64_uint8_t))
+                        as *mut crate::l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_945 as uint64_t as int64_t as isize)
@@ -3738,11 +3739,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
                     _948 = _603;
                     *(&mut *((*(&mut *((*(&mut (*(_946 as *mut l_struct_struct_OC_decimation_info))
                         .field12
-                        as *mut l_array_216_struct_AC_l_array_64_float))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_947 as int32_t as int64_t as isize)
-                        as *mut l_array_64_float))
+                        as *mut crate::l_array_64_float))
                         .array)
                         .as_mut_ptr()
                         .offset(_948 as uint64_t as int64_t as isize)
@@ -3776,20 +3777,20 @@ unsafe extern "C" fn _ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_i
             return;
         } else {
             __assert_fail(
-                &_OC_str_OC_2 as *const l_array_21_uint8_t as *mut core::ffi::c_void,
-                &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_2 as *const crate::l_array_21_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
                 452,
                 &__PRETTY_FUNCTION___OC__ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_init_working_buffers
-                    as *const l_array_159_uint8_t as *mut core::ffi::c_void,
+                    as *const crate::l_array_159_uint8_t as *mut core::ffi::c_void,
             );
         }
     } else {
         __assert_fail(
-            &_OC_str as *const l_array_22_uint8_t as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+            &_OC_str as *const crate::l_array_22_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
             451,
             &__PRETTY_FUNCTION___OC__ZL23init_decimation_info_3djjjjjjR15decimation_infoR23dt_init_working_buffers
-                as *const l_array_159_uint8_t as *mut core::ffi::c_void,
+                as *const crate::l_array_159_uint8_t as *mut core::ffi::c_void,
         );
     };
 }
@@ -4604,8 +4605,8 @@ unsafe extern "C" fn _ZL20assign_kmeans_texelsR21block_size_descriptor(
 ) {
     let mut _1163: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _1164: uint8_t = 0;
-    let mut _1165: l_array_2_uint64_t = l_array_2_uint64_t { array: [0; 2] };
-    let mut _1166: l_array_216_uint8_t = l_array_216_uint8_t { array: [0; 216] };
+    let mut _1165: crate::l_array_2_uint64_t = crate::l_array_2_uint64_t { array: [0; 2] };
+    let mut _1166: crate::l_array_216_uint8_t = crate::l_array_216_uint8_t { array: [0; 216] };
     let mut _1167: uint8_t = 0;
     let mut _1168: uint32_t = 0;
     let mut _1169: uint8_t = 0;
@@ -4652,7 +4653,7 @@ unsafe extern "C" fn _ZL20assign_kmeans_texelsR21block_size_descriptor(
             _1176 = _1163;
             _1177 = _1164;
             *(&mut *((*(&mut (*(_1176 as *mut l_struct_struct_OC_block_size_descriptor)).field19
-                as *mut l_array_64_uint8_t))
+                as *mut crate::l_array_64_uint8_t))
                 .array)
                 .as_mut_ptr()
                 .offset(_1177 as uint64_t as int64_t as isize) as *mut uint8_t) = _1175;
@@ -4714,7 +4715,7 @@ unsafe extern "C" fn _ZL20assign_kmeans_texelsR21block_size_descriptor(
             _1193 = _1168;
             _1168 = llvm_add_u32(_1193, 1);
             *(&mut *((*(&mut (*(_1192 as *mut l_struct_struct_OC_block_size_descriptor)).field19
-                as *mut l_array_64_uint8_t))
+                as *mut crate::l_array_64_uint8_t))
                 .array)
                 .as_mut_ptr()
                 .offset(_1193 as uint64_t as int64_t as isize) as *mut uint8_t) = _1191;
@@ -5664,7 +5665,7 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
         _1369 = _1354;
         _1370 = _1356;
         _1359 = &mut *((*(&mut (*(_1369 as *mut l_struct_struct_OC_block_size_descriptor)).field14
-            as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
+            as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_info))
             .array)
             .as_mut_ptr()
             .offset(_1370 as uint64_t as int64_t as isize)
@@ -5731,7 +5732,7 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
             _1397 = _1356;
             *(&mut (*(&mut *((*(&mut (*(_1396 as *mut l_struct_struct_OC_block_size_descriptor))
                 .field13
-                as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                 .array)
                 .as_mut_ptr()
                 .offset(_1397 as uint64_t as int64_t as isize)
@@ -5742,7 +5743,7 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
             _1400 = _1356;
             *(&mut (*(&mut *((*(&mut (*(_1399 as *mut l_struct_struct_OC_block_size_descriptor))
                 .field13
-                as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                 .array)
                 .as_mut_ptr()
                 .offset(_1400 as uint64_t as int64_t as isize)
@@ -5752,7 +5753,7 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
             _1402 = _1356;
             *(&mut (*(&mut *((*(&mut (*(_1401 as *mut l_struct_struct_OC_block_size_descriptor))
                 .field13
-                as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                 .array)
                 .as_mut_ptr()
                 .offset(_1402 as uint64_t as int64_t as isize)
@@ -5762,7 +5763,7 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
             _1404 = _1356;
             *(&mut (*(&mut *((*(&mut (*(_1403 as *mut l_struct_struct_OC_block_size_descriptor))
                 .field13
-                as *mut l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
+                as *mut crate::l_array_87_struct_AC_l_struct_struct_OC_decimation_mode))
                 .array)
                 .as_mut_ptr()
                 .offset(_1404 as uint64_t as int64_t as isize)
@@ -5771,20 +5772,20 @@ unsafe extern "C" fn _ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt
             return;
         } else {
             __assert_fail(
-                &_OC_str_OC_6 as *const l_array_44_uint8_t as *mut core::ffi::c_void,
-                &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_6 as *const crate::l_array_44_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
                 776,
                 &__PRETTY_FUNCTION___OC__ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt_init_working_buffersj
-                    as *const l_array_149_uint8_t as *mut core::ffi::c_void,
+                    as *const crate::l_array_149_uint8_t as *mut core::ffi::c_void,
             );
         }
     } else {
         __assert_fail(
-            &_OC_str_OC_5 as *const l_array_34_uint8_t as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_5 as *const crate::l_array_34_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
             748,
             &__PRETTY_FUNCTION___OC__ZL21construct_dt_entry_2djjjjR21block_size_descriptorR23dt_init_working_buffersj
-                as *const l_array_149_uint8_t as *mut core::ffi::c_void,
+                as *const crate::l_array_149_uint8_t as *mut core::ffi::c_void,
         );
     };
 }
@@ -5880,9 +5881,9 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
     let mut _1472: uint32_t = 0;
     let mut _1473: uint32_t = 0;
     let mut _1474: uint32_t = 0;
-    let mut _1475: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
+    let mut _1475: crate::l_array_4_uint32_t = crate::l_array_4_uint32_t { array: [0; 4] };
     let mut _1476: uint32_t = 0;
-    let mut _1477: l_array_4_uint32_t = l_array_4_uint32_t { array: [0; 4] };
+    let mut _1477: crate::l_array_4_uint32_t = crate::l_array_4_uint32_t { array: [0; 4] };
     let mut _1478: uint32_t = 0;
     let mut _1479: uint8_t = 0;
     let mut _1480: uint32_t = 0;
@@ -6219,7 +6220,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         *(&mut *((*(&mut (*(_1510
                             as *mut l_struct_struct_OC_dt_init_working_buffers))
                             .field3
-                            as *mut l_array_64_uint8_t))
+                            as *mut crate::l_array_64_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1511 as uint64_t as int64_t as isize)
@@ -6239,7 +6240,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         *(&mut *((*(&mut (*(_1515
                             as *mut l_struct_struct_OC_dt_init_working_buffers))
                             .field0
-                            as *mut l_array_216_uint8_t))
+                            as *mut crate::l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1516 as uint64_t as int64_t as isize)
@@ -6406,7 +6407,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1563 = *(&mut *((*(&mut (*(_1561
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field0
-                                        as *mut l_array_216_uint8_t))
+                                        as *mut crate::l_array_216_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1562 as uint64_t as int64_t as isize)
@@ -6414,11 +6415,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     *(&mut *((*(&mut *((*(&mut (*(_1559
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field1
-                                        as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                                        as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1560 as uint64_t as int64_t as isize)
-                                        as *mut l_array_4_uint8_t))
+                                        as *mut crate::l_array_4_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1563 as uint64_t as int64_t as isize)
@@ -6435,7 +6436,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1570 = *(&mut *((*(&mut (*(_1568
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field0
-                                        as *mut l_array_216_uint8_t))
+                                        as *mut crate::l_array_216_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1569 as uint64_t as int64_t as isize)
@@ -6443,11 +6444,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     *(&mut *((*(&mut *((*(&mut (*(_1566
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field2
-                                        as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                                        as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1567 as uint64_t as int64_t as isize)
-                                        as *mut l_array_4_uint8_t))
+                                        as *mut crate::l_array_4_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1570 as uint64_t as int64_t as isize)
@@ -6457,7 +6458,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1573 = &mut *((*(&mut (*(_1571
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field0
-                                        as *mut l_array_216_uint8_t))
+                                        as *mut crate::l_array_216_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1572 as uint64_t as int64_t as isize)
@@ -6481,7 +6482,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1582 = *(&mut *((*(&mut (*(_1579
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field3
-                                        as *mut l_array_64_uint8_t))
+                                        as *mut crate::l_array_64_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1581 as uint64_t as int64_t as isize)
@@ -6489,11 +6490,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     *(&mut *((*(&mut *((*(&mut (*(_1576
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field4
-                                        as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                                        as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1578 as uint64_t as int64_t as isize)
-                                        as *mut l_array_216_uint8_t))
+                                        as *mut crate::l_array_216_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1582 as uint64_t as int64_t as isize)
@@ -6518,7 +6519,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1591 = *(&mut *((*(&mut (*(_1588
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field3
-                                        as *mut l_array_64_uint8_t))
+                                        as *mut crate::l_array_64_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1590 as uint64_t as int64_t as isize)
@@ -6526,11 +6527,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     *(&mut *((*(&mut *((*(&mut (*(_1585
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field5
-                                        as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                                        as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1587 as uint64_t as int64_t as isize)
-                                        as *mut l_array_216_uint8_t))
+                                        as *mut crate::l_array_216_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1591 as uint64_t as int64_t as isize)
@@ -6544,7 +6545,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1595 = &mut *((*(&mut (*(_1592
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field3
-                                        as *mut l_array_64_uint8_t))
+                                        as *mut crate::l_array_64_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1594 as uint64_t as int64_t as isize)
@@ -6562,7 +6563,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1601 = *(&mut *((*(&mut (*(_1598
                                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                                         .field3
-                                        as *mut l_array_64_uint8_t))
+                                        as *mut crate::l_array_64_uint8_t))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1600 as uint64_t as int64_t as isize)
@@ -6592,7 +6593,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1610 = *(&mut *((*(&mut (*(_1608
                             as *mut l_struct_struct_OC_dt_init_working_buffers))
                             .field0
-                            as *mut l_array_216_uint8_t))
+                            as *mut crate::l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1609 as uint64_t as int64_t as isize)
@@ -6601,7 +6602,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1612 = _1480;
                         *(&mut *((*(&mut (*(_1611 as *mut l_struct_struct_OC_decimation_info))
                             .field6
-                            as *mut l_array_216_uint8_t))
+                            as *mut crate::l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1612 as uint64_t as int64_t as isize)
@@ -6612,7 +6613,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1616 = *(&mut *((*(&mut (*(_1614
                             as *mut l_struct_struct_OC_decimation_info))
                             .field6
-                            as *mut l_array_216_uint8_t))
+                            as *mut crate::l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1615 as uint64_t as int64_t as isize)
@@ -6627,7 +6628,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             _1621 = *(&mut *((*(&mut (*(_1619
                                 as *mut l_struct_struct_OC_dt_init_working_buffers))
                                 .field0
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1620 as uint64_t as int64_t as isize)
@@ -6641,11 +6642,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             _1625 = *(&mut *((*(&mut *((*(&mut (*(_1622
                                 as *mut l_struct_struct_OC_dt_init_working_buffers))
                                 .field2
-                                as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                                as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1623 as uint64_t as int64_t as isize)
-                                as *mut l_array_4_uint8_t))
+                                as *mut crate::l_array_4_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1624 as uint64_t as int64_t as isize)
@@ -6656,11 +6657,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1626
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field8
-                                as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1627 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1628 as uint64_t as int64_t as isize)
@@ -6671,11 +6672,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             _1632 = *(&mut *((*(&mut *((*(&mut (*(_1629
                                 as *mut l_struct_struct_OC_dt_init_working_buffers))
                                 .field2
-                                as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                                as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1630 as uint64_t as int64_t as isize)
-                                as *mut l_array_4_uint8_t))
+                                as *mut crate::l_array_4_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1631 as uint64_t as int64_t as isize)
@@ -6686,11 +6687,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1633
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
-                                as *mut l_array_4_struct_AC_l_array_216_float))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1634 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_float))
+                                as *mut crate::l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1635 as uint64_t as int64_t as isize)
@@ -6704,11 +6705,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             _1639 = *(&mut *((*(&mut *((*(&mut (*(_1636
                                 as *mut l_struct_struct_OC_dt_init_working_buffers))
                                 .field1
-                                as *mut l_array_216_struct_AC_l_array_4_uint8_t))
+                                as *mut crate::l_array_216_struct_AC_l_array_4_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1637 as uint64_t as int64_t as isize)
-                                as *mut l_array_4_uint8_t))
+                                as *mut crate::l_array_4_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1638 as uint64_t as int64_t as isize)
@@ -6719,11 +6720,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1640
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field7
-                                as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1641 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1642 as uint64_t as int64_t as isize)
@@ -6736,7 +6737,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1646 = *(&mut *((*(&mut (*(_1644
                             as *mut l_struct_struct_OC_dt_init_working_buffers))
                             .field0
-                            as *mut l_array_216_uint8_t))
+                            as *mut crate::l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1645 as uint64_t as int64_t as isize)
@@ -6753,11 +6754,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1648
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field8
-                                as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1649 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1650 as uint64_t as int64_t as isize)
@@ -6768,11 +6769,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1651
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
-                                as *mut l_array_4_struct_AC_l_array_216_float))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1652 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_float))
+                                as *mut crate::l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1653 as uint64_t as int64_t as isize)
@@ -6784,11 +6785,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1654
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field7
-                                as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1655 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1656 as uint64_t as int64_t as isize)
@@ -6815,7 +6816,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1665 = *(&mut *((*(&mut (*(_1663
                             as *mut l_struct_struct_OC_dt_init_working_buffers))
                             .field3
-                            as *mut l_array_64_uint8_t))
+                            as *mut crate::l_array_64_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1664 as uint64_t as int64_t as isize)
@@ -6826,7 +6827,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1668 = _1483;
                         *(&mut *((*(&mut (*(_1667 as *mut l_struct_struct_OC_decimation_info))
                             .field10
-                            as *mut l_array_64_uint8_t))
+                            as *mut crate::l_array_64_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1668 as uint64_t as int64_t as isize)
@@ -6844,11 +6845,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             _1674 = *(&mut *((*(&mut *((*(&mut (*(_1671
                                 as *mut l_struct_struct_OC_dt_init_working_buffers))
                                 .field4
-                                as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1672 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1673 as uint64_t as int64_t as isize)
@@ -6861,11 +6862,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1676
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field11
-                                as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1677 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_uint8_t))
+                                as *mut crate::l_array_64_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1678 as uint64_t as int64_t as isize)
@@ -6876,11 +6877,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             _1682 = *(&mut *((*(&mut *((*(&mut (*(_1679
                                 as *mut l_struct_struct_OC_dt_init_working_buffers))
                                 .field5
-                                as *mut l_array_64_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_64_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1680 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1681 as uint64_t as int64_t as isize)
@@ -6891,11 +6892,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1683
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field12
-                                as *mut l_array_216_struct_AC_l_array_64_float))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1684 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_float))
+                                as *mut crate::l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1685 as uint64_t as int64_t as isize)
@@ -6906,11 +6907,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1686
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field13
-                                as *mut l_array_216_struct_AC_l_array_64_float))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1687 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_float))
+                                as *mut crate::l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1688 as uint64_t as int64_t as isize)
@@ -6929,11 +6930,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                 _1693 = *(&mut *((*(&mut *((*(&mut (*(_1690
                                     as *mut l_struct_struct_OC_decimation_info))
                                     .field7
-                                    as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                                    as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_1691 as uint64_t as int64_t as isize)
-                                    as *mut l_array_216_uint8_t))
+                                    as *mut crate::l_array_216_uint8_t))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_1692 as uint64_t as int64_t as isize)
@@ -6945,11 +6946,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                 _1697 = *(&mut *((*(&mut *((*(&mut (*(_1694
                                     as *mut l_struct_struct_OC_decimation_info))
                                     .field9
-                                    as *mut l_array_4_struct_AC_l_array_216_float))
+                                    as *mut crate::l_array_4_struct_AC_l_array_216_float))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_1695 as uint64_t as int64_t as isize)
-                                    as *mut l_array_216_float))
+                                    as *mut crate::l_array_216_float))
                                     .array)
                                     .as_mut_ptr()
                                     .offset(_1696 as uint64_t as int64_t as isize)
@@ -6979,11 +6980,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     _1704 = *(&mut *((*(&mut *((*(&mut (*(_1701
                                         as *mut l_struct_struct_OC_decimation_info))
                                         .field9
-                                        as *mut l_array_4_struct_AC_l_array_216_float))
+                                        as *mut crate::l_array_4_struct_AC_l_array_216_float))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1702 as uint64_t as int64_t as isize)
-                                        as *mut l_array_216_float))
+                                        as *mut crate::l_array_216_float))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1703 as uint64_t as int64_t as isize)
@@ -6994,11 +6995,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                     *(&mut *((*(&mut *((*(&mut (*(_1705
                                         as *mut l_struct_struct_OC_decimation_info))
                                         .field13
-                                        as *mut l_array_216_struct_AC_l_array_64_float))
+                                        as *mut crate::l_array_216_struct_AC_l_array_64_float))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1706 as uint64_t as int64_t as isize)
-                                        as *mut l_array_64_float))
+                                        as *mut crate::l_array_64_float))
                                         .array)
                                         .as_mut_ptr()
                                         .offset(_1707 as uint64_t as int64_t as isize)
@@ -7015,7 +7016,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1713 = *(&mut *((*(&mut *((*(&mut (*(_1710
                             as *mut l_struct_struct_OC_decimation_info))
                             .field11
-                            as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                            as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset((llvm_sub_u32
@@ -7023,7 +7024,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                                 _1711, 1
                             ) as uint64_t as int64_t
                                 as isize)
-                            as *mut l_array_64_uint8_t))
+                            as *mut crate::l_array_64_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1712 as uint64_t as int64_t as isize)
@@ -7044,11 +7045,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1718
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field11
-                                as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1719 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_uint8_t))
+                                as *mut crate::l_array_64_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1720 as uint64_t as int64_t as isize)
@@ -7059,11 +7060,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1721
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field12
-                                as *mut l_array_216_struct_AC_l_array_64_float))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1722 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_float))
+                                as *mut crate::l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1723 as uint64_t as int64_t as isize)
@@ -7093,7 +7094,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1733 = _1493;
                         *(&mut *((*(&mut (*(_1732 as *mut l_struct_struct_OC_decimation_info))
                             .field6
-                            as *mut l_array_216_uint8_t))
+                            as *mut crate::l_array_216_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1733 as uint64_t as int64_t as isize)
@@ -7110,11 +7111,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1735
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field9
-                                as *mut l_array_4_struct_AC_l_array_216_float))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1736 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_float))
+                                as *mut crate::l_array_216_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1737 as uint64_t as int64_t as isize)
@@ -7126,11 +7127,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1738
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field7
-                                as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1739 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1740 as uint64_t as int64_t as isize)
@@ -7141,11 +7142,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1741
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field8
-                                as *mut l_array_4_struct_AC_l_array_216_uint8_t))
+                                as *mut crate::l_array_4_struct_AC_l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1742 as uint64_t as int64_t as isize)
-                                as *mut l_array_216_uint8_t))
+                                as *mut crate::l_array_216_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1743 as uint64_t as int64_t as isize)
@@ -7161,7 +7162,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                     _1748 = *(&mut *((*(&mut (*(_1746
                         as *mut l_struct_struct_OC_dt_init_working_buffers))
                         .field3
-                        as *mut l_array_64_uint8_t))
+                        as *mut crate::l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset((llvm_sub_u32
@@ -7176,14 +7177,14 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                     _1752 = *(&mut *((*(&mut *((*(&mut (*(_1749
                         as *mut l_struct_struct_OC_decimation_info))
                         .field11
-                        as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                        as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset((llvm_sub_u32
                             as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
                             _1750, 1
                         ) as uint64_t as int64_t as isize)
-                        as *mut l_array_64_uint8_t))
+                        as *mut crate::l_array_64_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset((llvm_sub_u32
@@ -7210,7 +7211,7 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                         _1760 = _1498;
                         *(&mut *((*(&mut (*(_1759 as *mut l_struct_struct_OC_decimation_info))
                             .field10
-                            as *mut l_array_64_uint8_t))
+                            as *mut crate::l_array_64_uint8_t))
                             .array)
                             .as_mut_ptr()
                             .offset(_1760 as uint64_t as int64_t as isize)
@@ -7229,11 +7230,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1764
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field11
-                                as *mut l_array_216_struct_AC_l_array_64_uint8_t))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1765 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_uint8_t))
+                                as *mut crate::l_array_64_uint8_t))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1766 as uint64_t as int64_t as isize)
@@ -7244,11 +7245,11 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                             *(&mut *((*(&mut *((*(&mut (*(_1767
                                 as *mut l_struct_struct_OC_decimation_info))
                                 .field12
-                                as *mut l_array_216_struct_AC_l_array_64_float))
+                                as *mut crate::l_array_216_struct_AC_l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1768 as uint64_t as int64_t as isize)
-                                as *mut l_array_64_float))
+                                as *mut crate::l_array_64_float))
                                 .array)
                                 .as_mut_ptr()
                                 .offset(_1769 as uint64_t as int64_t as isize)
@@ -7282,38 +7283,38 @@ unsafe extern "C" fn _ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_ini
                     return;
                 } else {
                     __assert_fail(
-                        &_OC_str_OC_8 as *const l_array_13_uint8_t as *mut core::ffi::c_void,
-                        &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+                        &_OC_str_OC_8 as *const crate::l_array_13_uint8_t as *mut core::ffi::c_void,
+                        &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
                         268,
                         &__PRETTY_FUNCTION___OC__ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_init_working_buffers
-                            as *const l_array_131_uint8_t as *mut core::ffi::c_void,
+                            as *const crate::l_array_131_uint8_t as *mut core::ffi::c_void,
                     );
                 }
             } else {
                 __assert_fail(
-                    &_OC_str_OC_7 as *const l_array_13_uint8_t as *mut core::ffi::c_void,
-                    &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_7 as *const crate::l_array_13_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
                     267,
                     &__PRETTY_FUNCTION___OC__ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_init_working_buffers
-                        as *const l_array_131_uint8_t as *mut core::ffi::c_void,
+                        as *const crate::l_array_131_uint8_t as *mut core::ffi::c_void,
                 );
             }
         } else {
             __assert_fail(
-                &_OC_str_OC_2 as *const l_array_21_uint8_t as *mut core::ffi::c_void,
-                &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_2 as *const crate::l_array_21_uint8_t as *mut core::ffi::c_void,
+                &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
                 266,
                 &__PRETTY_FUNCTION___OC__ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_init_working_buffers
-                    as *const l_array_131_uint8_t as *mut core::ffi::c_void,
+                    as *const crate::l_array_131_uint8_t as *mut core::ffi::c_void,
             );
         }
     } else {
         __assert_fail(
-            &_OC_str as *const l_array_22_uint8_t as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const l_array_50_uint8_t as *mut core::ffi::c_void,
+            &_OC_str as *const crate::l_array_22_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const crate::l_array_50_uint8_t as *mut core::ffi::c_void,
             265,
             &__PRETTY_FUNCTION___OC__ZL23init_decimation_info_2djjjjR15decimation_infoR23dt_init_working_buffers
-                as *const l_array_131_uint8_t as *mut core::ffi::c_void,
+                as *const crate::l_array_131_uint8_t as *mut core::ffi::c_void,
         );
     };
 }

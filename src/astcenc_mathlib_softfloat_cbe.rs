@@ -30,8 +30,8 @@ pub struct l_array_128_uint8_t {
 #[derive(Copy, Clone)]
 #[repr(C, packed)]
 pub struct l_unnamed_1 {
-    pub field0: l_array_128_uint8_t,
-    pub field1: l_array_128_uint8_t,
+    pub field0: crate::l_array_128_uint8_t,
+    pub field1: crate::l_array_128_uint8_t,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -48,8 +48,8 @@ pub struct l_array_60_uint32_t {
 pub struct l_array_256_uint8_t {
     pub array: [uint8_t; 256],
 }
-static mut _ZZL12sf16_to_sf32tE3tbl: l_array_64_uint32_t = {
-    let mut init = l_array_64_uint32_t {
+static mut _ZZL12sf16_to_sf32tE3tbl: crate::l_array_64_uint32_t = {
+    let mut init = crate::l_array_64_uint32_t {
         array: [
             2147483648 as core::ffi::c_uint,
             114688,
@@ -123,7 +123,7 @@ static mut _ZL9clz_table: l_unnamed_1 = unsafe {
     {
         let mut init = l_unnamed_1 {
             field0: {
-                let mut init = l_array_128_uint8_t {
+                let mut init = crate::l_array_128_uint8_t {
                     array: *::core::mem::transmute::<
                         &[u8; 128],
                         &mut [uint8_t; 128],
@@ -134,7 +134,7 @@ static mut _ZL9clz_table: l_unnamed_1 = unsafe {
                 init
             },
             field1: {
-                let mut init = l_array_128_uint8_t {
+                let mut init = crate::l_array_128_uint8_t {
                     array: [
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -150,9 +150,9 @@ static mut _ZL9clz_table: l_unnamed_1 = unsafe {
         init
     }
 };
-static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: l_array_512_uint8_t = unsafe {
+static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: crate::l_array_512_uint8_t = unsafe {
     {
-        let mut init = l_array_512_uint8_t {
+        let mut init = crate::l_array_512_uint8_t {
             array: *::core::mem::transmute::<
                 &[u8; 512],
                 &mut [uint8_t; 512],
@@ -163,8 +163,8 @@ static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: l_array_512_uint8_t = unsafe {
         init
     }
 };
-static mut _ZZL12sf32_to_sf16j9roundmodeE4tabx: l_array_60_uint32_t = {
-    let mut init = l_array_60_uint32_t {
+static mut _ZZL12sf32_to_sf16j9roundmodeE4tabx: crate::l_array_60_uint32_t = {
+    let mut init = crate::l_array_60_uint32_t {
         array: [
             0,
             0,
@@ -546,7 +546,8 @@ unsafe extern "C" fn _ZL5clz32j(mut _110: uint32_t) -> uint32_t {
     }
     _119 = _112;
     _120 = _111;
-    _121 = *(&mut *((*(&_ZL9clz_table as *const l_unnamed_1 as *mut l_array_256_uint8_t)).array)
+    _121 = *(&mut *((*(&_ZL9clz_table as *const l_unnamed_1 as *mut crate::l_array_256_uint8_t))
+        .array)
         .as_mut_ptr()
         .offset(_120 as uint64_t as int64_t as isize) as *mut uint8_t);
     return llvm_add_u32(_119, _121 as uint32_t);

@@ -1,3 +1,5 @@
+#![allow(ambiguous_glob_imports)]
+#![allow(ambiguous_glob_reexports)]
 #![allow(dead_code)]
 #![allow(mutable_transmutes)]
 #![allow(non_camel_case_types)]

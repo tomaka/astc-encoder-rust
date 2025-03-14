@@ -23,7 +23,7 @@ pub struct l_array_21_struct_AC_l_struct_struct_OC_ise_size {
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct l_struct_struct_OC_std_KD__KD_array {
-    pub field0: l_array_21_struct_AC_l_struct_struct_OC_ise_size,
+    pub field0: crate::l_array_21_struct_AC_l_struct_struct_OC_ise_size,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -38,7 +38,7 @@ pub struct l_array_21_struct_AC_l_struct_struct_OC_btq_count {
 #[derive(Copy, Clone)]
 #[repr(C)]
 pub struct l_struct_struct_OC_std_KD__KD_array_OC_0 {
-    pub field0: l_array_21_struct_AC_l_struct_struct_OC_btq_count,
+    pub field0: crate::l_array_21_struct_AC_l_struct_struct_OC_btq_count,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -139,7 +139,7 @@ pub struct l_array_22_uint8_t {
 static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
     let mut init = l_struct_struct_OC_std_KD__KD_array {
         field0: {
-            let mut init = l_array_21_struct_AC_l_struct_struct_OC_ise_size {
+            let mut init = crate::l_array_21_struct_AC_l_struct_struct_OC_ise_size {
                 array: [
                     {
                         let mut init = l_struct_struct_OC_ise_size { field0: 1 };
@@ -258,9 +258,9 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
     };
     init
 };
-static mut _OC_str: l_array_20_uint8_t = unsafe {
+static mut _OC_str: crate::l_array_20_uint8_t = unsafe {
     {
-        let mut init = l_array_20_uint8_t {
+        let mut init = crate::l_array_20_uint8_t {
             array: *::core::mem::transmute::<&[u8; 20], &mut [uint8_t; 20]>(
                 b"character_count > 0\0",
             ),
@@ -268,9 +268,9 @@ static mut _OC_str: l_array_20_uint8_t = unsafe {
         init
     }
 };
-static mut _OC_str_OC_1: l_array_55_uint8_t = unsafe {
+static mut _OC_str_OC_1: crate::l_array_55_uint8_t = unsafe {
     {
-        let mut init = l_array_55_uint8_t {
+        let mut init = crate::l_array_55_uint8_t {
             array: *::core::mem::transmute::<&[u8; 55], &mut [uint8_t; 55]>(
                 b"/root/astc-encoder/Source/astcenc_integer_sequence.cpp\0",
             ),
@@ -278,9 +278,9 @@ static mut _OC_str_OC_1: l_array_55_uint8_t = unsafe {
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj: l_array_86_uint8_t = unsafe {
+static mut __PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj: crate::l_array_86_uint8_t = unsafe {
     {
-        let mut init = l_array_86_uint8_t {
+        let mut init = crate::l_array_86_uint8_t {
             array: *::core::mem::transmute::<
                 &[u8; 86],
                 &mut [uint8_t; 86],
@@ -294,7 +294,7 @@ static mut __PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj: l_array_8
 static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
     let mut init = l_struct_struct_OC_std_KD__KD_array_OC_0 {
         field0: {
-            let mut init = l_array_21_struct_AC_l_struct_struct_OC_btq_count {
+            let mut init = crate::l_array_21_struct_AC_l_struct_struct_OC_btq_count {
                 array: [
                     {
                         let mut init = l_struct_struct_OC_btq_count { field0: 1 };
@@ -413,21 +413,21 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
     };
     init
 };
-static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t = unsafe {
+static mut _ZL16integer_of_trits: crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t = unsafe {
     {
-        let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+        let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
             array: [
                 {
-                    let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -436,7 +436,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -445,7 +445,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -458,10 +458,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -470,7 +470,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -479,7 +479,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -492,10 +492,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -504,7 +504,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -513,7 +513,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -530,13 +530,13 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                 init
                             },
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -545,7 +545,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -554,7 +554,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -567,10 +567,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -579,7 +579,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -588,7 +588,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -601,10 +601,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -613,7 +613,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -622,7 +622,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -639,13 +639,13 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                 init
                             },
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -654,7 +654,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -663,7 +663,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -676,10 +676,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -688,7 +688,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -697,7 +697,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -710,10 +710,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -722,7 +722,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -731,7 +731,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -752,16 +752,16 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                     init
                 },
                 {
-                    let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -770,7 +770,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -779,7 +779,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -792,10 +792,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -804,7 +804,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -813,7 +813,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -826,10 +826,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -838,7 +838,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -847,7 +847,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -864,13 +864,13 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                 init
                             },
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -879,7 +879,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -888,7 +888,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -901,10 +901,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -913,7 +913,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -922,7 +922,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -935,10 +935,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -947,7 +947,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -956,7 +956,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -973,13 +973,13 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                 init
                             },
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -988,7 +988,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -997,7 +997,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1010,10 +1010,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1022,7 +1022,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1031,7 +1031,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1044,10 +1044,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1056,7 +1056,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1065,7 +1065,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1086,16 +1086,16 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                     init
                 },
                 {
-                    let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1104,7 +1104,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1113,7 +1113,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1126,10 +1126,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1138,7 +1138,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1147,7 +1147,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1160,10 +1160,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1172,7 +1172,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1181,7 +1181,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1198,13 +1198,13 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                 init
                             },
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1213,7 +1213,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1222,7 +1222,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1235,10 +1235,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1247,7 +1247,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1256,7 +1256,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1269,10 +1269,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1281,7 +1281,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1290,7 +1290,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1307,13 +1307,13 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                 init
                             },
                             {
-                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                let mut init = crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
                                     array: [
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1322,7 +1322,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1331,7 +1331,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1344,10 +1344,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1356,7 +1356,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1365,7 +1365,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1378,10 +1378,10 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                             init
                                         },
                                         {
-                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                            let mut init = crate::l_array_3_struct_AC_l_array_3_uint8_t {
                                                 array: [
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1390,7 +1390,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1399,7 +1399,7 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
                                                         init
                                                     },
                                                     {
-                                                        let mut init = l_array_3_uint8_t {
+                                                        let mut init = crate::l_array_3_uint8_t {
                                                             array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
@@ -1424,31 +1424,32 @@ static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_arra
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits: l_array_4_uint8_t = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits: crate::l_array_4_uint8_t = unsafe {
     {
-        let mut init = l_array_4_uint8_t {
+        let mut init = crate::l_array_4_uint8_t {
             array: *::core::mem::transmute::<&[u8; 4], &mut [uint8_t; 4]>(b"\x02\x02\x01\x02"),
         };
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift: l_array_4_uint8_t = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift: crate::l_array_4_uint8_t = unsafe {
     {
-        let mut init = l_array_4_uint8_t {
+        let mut init = crate::l_array_4_uint8_t {
             array: *::core::mem::transmute::<&[u8; 4], &mut [uint8_t; 4]>(b"\0\x02\x04\x05"),
         };
         init
     }
 };
-static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_array_5_uint8_t = unsafe {
+static mut _ZL17integer_of_quints:
+    crate::l_array_5_struct_AC_l_array_5_struct_AC_l_array_5_uint8_t = unsafe {
     {
-        let mut init = l_array_5_struct_AC_l_array_5_struct_AC_l_array_5_uint8_t {
+        let mut init = crate::l_array_5_struct_AC_l_array_5_struct_AC_l_array_5_uint8_t {
             array: [
                 {
-                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_struct_AC_l_array_5_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"\0\x01\x02\x03\x04",
                                     ),
@@ -1456,7 +1457,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"\x08\t\n\x0B\x0C",
                                     ),
@@ -1464,7 +1465,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"\x10\x11\x12\x13\x14",
                                     ),
@@ -1472,7 +1473,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"\x18\x19\x1A\x1B\x1C",
                                     ),
@@ -1480,7 +1481,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"\x05\r\x15\x1D\x06",
                                     ),
@@ -1492,10 +1493,10 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                     init
                 },
                 {
-                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_struct_AC_l_array_5_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b" !\"#$",
                                     ),
@@ -1503,7 +1504,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"()*+,",
                                     ),
@@ -1511,7 +1512,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"01234",
                                     ),
@@ -1519,7 +1520,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"89:;<",
                                     ),
@@ -1527,7 +1528,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"%-5=\x0E",
                                     ),
@@ -1539,10 +1540,10 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                     init
                 },
                 {
-                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_struct_AC_l_array_5_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"@ABCD",
                                     ),
@@ -1550,7 +1551,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"HIJKL",
                                     ),
@@ -1558,7 +1559,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"PQRST",
                                     ),
@@ -1566,7 +1567,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"XYZ[\\",
                                     ),
@@ -1574,7 +1575,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"EMU]\x16",
                                     ),
@@ -1586,10 +1587,10 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                     init
                 },
                 {
-                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_struct_AC_l_array_5_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"`abcd",
                                     ),
@@ -1597,7 +1598,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"hijkl",
                                     ),
@@ -1605,7 +1606,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"pqrst",
                                     ),
@@ -1613,7 +1614,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"xyz{|",
                                     ),
@@ -1621,7 +1622,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"emu}\x1E",
                                     ),
@@ -1633,10 +1634,10 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                     init
                 },
                 {
-                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_struct_AC_l_array_5_uint8_t {
                         array: [
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"fgFG&",
                                     ),
@@ -1644,7 +1645,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"noNO.",
                                     ),
@@ -1652,7 +1653,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"vwVW6",
                                     ),
@@ -1660,7 +1661,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"~\x7F^_>",
                                     ),
@@ -1668,7 +1669,7 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
                                 init
                             },
                             {
-                                let mut init = l_array_5_uint8_t {
+                                let mut init = crate::l_array_5_uint8_t {
                                     array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                                         b"'/7?\x1F",
                                     ),
@@ -1684,25 +1685,25 @@ static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_arr
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0: l_array_2_uint8_t = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0: crate::l_array_2_uint8_t = unsafe {
     {
-        let mut init = l_array_2_uint8_t {
+        let mut init = crate::l_array_2_uint8_t {
             array: *::core::mem::transmute::<&[u8; 2], &mut [uint8_t; 2]>(b"\x03\x02"),
         };
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift_0: l_array_2_uint8_t = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift_0: crate::l_array_2_uint8_t = unsafe {
     {
-        let mut init = l_array_2_uint8_t {
+        let mut init = crate::l_array_2_uint8_t {
             array: *::core::mem::transmute::<&[u8; 2], &mut [uint8_t; 2]>(b"\0\x03"),
         };
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj: l_array_86_uint8_t = unsafe {
+static mut __PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj: crate::l_array_86_uint8_t = unsafe {
     {
-        let mut init = l_array_86_uint8_t {
+        let mut init = crate::l_array_86_uint8_t {
             array: *::core::mem::transmute::<
                 &[u8; 86],
                 &mut [uint8_t; 86],
@@ -1713,90 +1714,90 @@ static mut __PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj: l_array_8
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read: l_array_5_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read: crate::l_array_5_uint8_t = unsafe {
     {
-        let mut init = l_array_5_uint8_t {
+        let mut init = crate::l_array_5_uint8_t {
             array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\x02\x02\x01\x02\x01"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift: l_array_5_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift: crate::l_array_5_uint8_t = unsafe {
     {
-        let mut init = l_array_5_uint8_t {
+        let mut init = crate::l_array_5_uint8_t {
             array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\0\x02\x04\x05\x07"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter: l_array_5_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter: crate::l_array_5_uint8_t = unsafe {
     {
-        let mut init = l_array_5_uint8_t {
+        let mut init = crate::l_array_5_uint8_t {
             array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\x01\x02\x03\x04\0"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr: l_array_5_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr: crate::l_array_5_uint8_t = unsafe {
     {
-        let mut init = l_array_5_uint8_t {
+        let mut init = crate::l_array_5_uint8_t {
             array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\0\0\0\0\x01"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0: l_array_3_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0: crate::l_array_3_uint8_t = unsafe {
     {
-        let mut init = l_array_3_uint8_t {
+        let mut init = crate::l_array_3_uint8_t {
             array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x03\x02\x02"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift_0: l_array_3_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift_0: crate::l_array_3_uint8_t = unsafe {
     {
-        let mut init = l_array_3_uint8_t {
+        let mut init = crate::l_array_3_uint8_t {
             array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x03\x05"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter_0: l_array_3_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter_0: crate::l_array_3_uint8_t = unsafe {
     {
-        let mut init = l_array_3_uint8_t {
+        let mut init = crate::l_array_3_uint8_t {
             array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x01\x02\0"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr_0: l_array_3_uint8_t = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr_0: crate::l_array_3_uint8_t = unsafe {
     {
-        let mut init = l_array_3_uint8_t {
+        let mut init = crate::l_array_3_uint8_t {
             array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x01"),
         };
         init
     }
 };
-static mut _OC_str_OC_2: l_array_16_uint8_t = unsafe {
+static mut _OC_str_OC_2: crate::l_array_16_uint8_t = unsafe {
     {
-        let mut init = l_array_16_uint8_t {
+        let mut init = crate::l_array_16_uint8_t {
             array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(b"trit_blocks > 0\0"),
         };
         init
     }
 };
-static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsafe {
+static mut _ZL16trits_of_integer: crate::l_array_256_struct_AC_l_array_5_uint8_t = unsafe {
     {
-        let mut init = l_array_256_struct_AC_l_array_5_uint8_t {
+        let mut init = crate::l_array_256_struct_AC_l_array_5_uint8_t {
             array: [
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: [0, 0, 0, 0, 0],
                     };
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\0\0",
                         ),
@@ -1804,7 +1805,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\0\0",
                         ),
@@ -1812,7 +1813,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\0\0",
                         ),
@@ -1820,7 +1821,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\0\0",
                         ),
@@ -1828,7 +1829,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\0\0",
                         ),
@@ -1836,7 +1837,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\0\0",
                         ),
@@ -1844,7 +1845,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\0\0",
                         ),
@@ -1852,7 +1853,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\0\0",
                         ),
@@ -1860,7 +1861,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\0\0",
                         ),
@@ -1868,7 +1869,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\0\0",
                         ),
@@ -1876,7 +1877,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\0\0",
                         ),
@@ -1884,7 +1885,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\0\0",
                         ),
@@ -1892,7 +1893,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\0\0",
                         ),
@@ -1900,7 +1901,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\0\0",
                         ),
@@ -1908,7 +1909,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\0\0",
                         ),
@@ -1916,7 +1917,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\0\0",
                         ),
@@ -1924,7 +1925,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\0\0",
                         ),
@@ -1932,7 +1933,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\0\0",
                         ),
@@ -1940,7 +1941,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\0\0",
                         ),
@@ -1948,7 +1949,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\0\0",
                         ),
@@ -1956,7 +1957,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\0\0",
                         ),
@@ -1964,7 +1965,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\0\0",
                         ),
@@ -1972,7 +1973,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\0\0",
                         ),
@@ -1980,7 +1981,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\0\0",
                         ),
@@ -1988,7 +1989,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\0\0",
                         ),
@@ -1996,7 +1997,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\0\0",
                         ),
@@ -2004,7 +2005,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\0\0",
                         ),
@@ -2012,7 +2013,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\x02\x02",
                         ),
@@ -2020,7 +2021,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\x02\x02",
                         ),
@@ -2028,7 +2029,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\x02\x02",
                         ),
@@ -2036,7 +2037,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\x02\x02",
                         ),
@@ -2044,7 +2045,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\x01\0",
                         ),
@@ -2052,7 +2053,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\x01\0",
                         ),
@@ -2060,7 +2061,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\x01\0",
                         ),
@@ -2068,7 +2069,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\x01\0",
                         ),
@@ -2076,7 +2077,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\x01\0",
                         ),
@@ -2084,7 +2085,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\x01\0",
                         ),
@@ -2092,7 +2093,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\x01\0",
                         ),
@@ -2100,7 +2101,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\x01\0",
                         ),
@@ -2108,7 +2109,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\x01\0",
                         ),
@@ -2116,7 +2117,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\x01\0",
                         ),
@@ -2124,7 +2125,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\x01\0",
                         ),
@@ -2132,7 +2133,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x01\0",
                         ),
@@ -2140,7 +2141,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\x01\0",
                         ),
@@ -2148,7 +2149,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\x01\0",
                         ),
@@ -2156,7 +2157,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\x01\0",
                         ),
@@ -2164,7 +2165,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x01\0",
                         ),
@@ -2172,7 +2173,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\x01\0",
                         ),
@@ -2180,7 +2181,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\x01\0",
                         ),
@@ -2188,7 +2189,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\x01\0",
                         ),
@@ -2196,7 +2197,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\x01\0",
                         ),
@@ -2204,7 +2205,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\x01\0",
                         ),
@@ -2212,7 +2213,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\x01\0",
                         ),
@@ -2220,7 +2221,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\x01\0",
                         ),
@@ -2228,7 +2229,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\x01\0",
                         ),
@@ -2236,7 +2237,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\x01\0",
                         ),
@@ -2244,7 +2245,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\x01\0",
                         ),
@@ -2252,7 +2253,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\x01\0",
                         ),
@@ -2260,7 +2261,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\x01\0",
                         ),
@@ -2268,7 +2269,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\x02\x02",
                         ),
@@ -2276,7 +2277,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\x02\x02",
                         ),
@@ -2284,7 +2285,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\x02\x02",
                         ),
@@ -2292,7 +2293,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\x02\x02",
                         ),
@@ -2300,7 +2301,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\x02\0",
                         ),
@@ -2308,7 +2309,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\x02\0",
                         ),
@@ -2316,7 +2317,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\x02\0",
                         ),
@@ -2324,7 +2325,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\x02\0",
                         ),
@@ -2332,7 +2333,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\x02\0",
                         ),
@@ -2340,7 +2341,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\x02\0",
                         ),
@@ -2348,7 +2349,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\x02\0",
                         ),
@@ -2356,7 +2357,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\x02\0",
                         ),
@@ -2364,7 +2365,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\x02\0",
                         ),
@@ -2372,7 +2373,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\x02\0",
                         ),
@@ -2380,7 +2381,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\x02\0",
                         ),
@@ -2388,7 +2389,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x02\0",
                         ),
@@ -2396,7 +2397,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\x02\0",
                         ),
@@ -2404,7 +2405,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\x02\0",
                         ),
@@ -2412,7 +2413,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\x02\0",
                         ),
@@ -2420,7 +2421,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x02\0",
                         ),
@@ -2428,7 +2429,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\x02\0",
                         ),
@@ -2436,7 +2437,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\x02\0",
                         ),
@@ -2444,7 +2445,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\x02\0",
                         ),
@@ -2452,7 +2453,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\x02\0",
                         ),
@@ -2460,7 +2461,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\x02\0",
                         ),
@@ -2468,7 +2469,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\x02\0",
                         ),
@@ -2476,7 +2477,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\x02\0",
                         ),
@@ -2484,7 +2485,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\x02\0",
                         ),
@@ -2492,7 +2493,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\x02\0",
                         ),
@@ -2500,7 +2501,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\x02\0",
                         ),
@@ -2508,7 +2509,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\x02\0",
                         ),
@@ -2516,7 +2517,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\x02\0",
                         ),
@@ -2524,7 +2525,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\x02\x02",
                         ),
@@ -2532,7 +2533,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\x02\x02",
                         ),
@@ -2540,7 +2541,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\x02\x02",
                         ),
@@ -2548,7 +2549,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x02\x02",
                         ),
@@ -2556,7 +2557,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\0\x02",
                         ),
@@ -2564,7 +2565,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\0\x02",
                         ),
@@ -2572,7 +2573,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\0\x02",
                         ),
@@ -2580,7 +2581,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\0\x02",
                         ),
@@ -2588,7 +2589,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\0\x02",
                         ),
@@ -2596,7 +2597,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\0\x02",
                         ),
@@ -2604,7 +2605,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\0\x02",
                         ),
@@ -2612,7 +2613,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\0\x02",
                         ),
@@ -2620,7 +2621,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\0\x02",
                         ),
@@ -2628,7 +2629,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\0\x02",
                         ),
@@ -2636,7 +2637,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\0\x02",
                         ),
@@ -2644,7 +2645,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\0\x02",
                         ),
@@ -2652,7 +2653,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\0\x02",
                         ),
@@ -2660,7 +2661,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\0\x02",
                         ),
@@ -2668,7 +2669,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\0\x02",
                         ),
@@ -2676,7 +2677,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\0\x02",
                         ),
@@ -2684,7 +2685,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\0\x02",
                         ),
@@ -2692,7 +2693,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\0\x02",
                         ),
@@ -2700,7 +2701,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\0\x02",
                         ),
@@ -2708,7 +2709,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\0\x02",
                         ),
@@ -2716,7 +2717,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\0\x02",
                         ),
@@ -2724,7 +2725,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\0\x02",
                         ),
@@ -2732,7 +2733,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\0\x02",
                         ),
@@ -2740,7 +2741,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\0\x02",
                         ),
@@ -2748,7 +2749,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\0\x02",
                         ),
@@ -2756,7 +2757,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\0\x02",
                         ),
@@ -2764,7 +2765,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\0\x02",
                         ),
@@ -2772,7 +2773,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\0\x02",
                         ),
@@ -2780,7 +2781,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\x02\x02",
                         ),
@@ -2788,7 +2789,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\x02\x02",
                         ),
@@ -2796,7 +2797,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\x02\x02",
                         ),
@@ -2804,7 +2805,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x02\x02",
                         ),
@@ -2812,7 +2813,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\0\x01",
                         ),
@@ -2820,7 +2821,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\0\x01",
                         ),
@@ -2828,7 +2829,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\0\x01",
                         ),
@@ -2836,7 +2837,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\0\x01",
                         ),
@@ -2844,7 +2845,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\0\x01",
                         ),
@@ -2852,7 +2853,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\0\x01",
                         ),
@@ -2860,7 +2861,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\0\x01",
                         ),
@@ -2868,7 +2869,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\0\x01",
                         ),
@@ -2876,7 +2877,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\0\x01",
                         ),
@@ -2884,7 +2885,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\0\x01",
                         ),
@@ -2892,7 +2893,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\0\x01",
                         ),
@@ -2900,7 +2901,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\0\x01",
                         ),
@@ -2908,7 +2909,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\0\x01",
                         ),
@@ -2916,7 +2917,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\0\x01",
                         ),
@@ -2924,7 +2925,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\0\x01",
                         ),
@@ -2932,7 +2933,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\0\x01",
                         ),
@@ -2940,7 +2941,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\0\x01",
                         ),
@@ -2948,7 +2949,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\0\x01",
                         ),
@@ -2956,7 +2957,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\0\x01",
                         ),
@@ -2964,7 +2965,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\0\x01",
                         ),
@@ -2972,7 +2973,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\0\x01",
                         ),
@@ -2980,7 +2981,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\0\x01",
                         ),
@@ -2988,7 +2989,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\0\x01",
                         ),
@@ -2996,7 +2997,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\0\x01",
                         ),
@@ -3004,7 +3005,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\0\x01",
                         ),
@@ -3012,7 +3013,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\0\x01",
                         ),
@@ -3020,7 +3021,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\0\x01",
                         ),
@@ -3028,7 +3029,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\0\x01",
                         ),
@@ -3036,7 +3037,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\x02\x02",
                         ),
@@ -3044,7 +3045,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\x02\x02",
                         ),
@@ -3052,7 +3053,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\x02\x02",
                         ),
@@ -3060,7 +3061,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\x02\x02",
                         ),
@@ -3068,7 +3069,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\x01\x01",
                         ),
@@ -3076,7 +3077,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\x01\x01",
                         ),
@@ -3084,7 +3085,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\x01\x01",
                         ),
@@ -3092,7 +3093,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\x01\x01",
                         ),
@@ -3100,7 +3101,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\x01\x01",
                         ),
@@ -3108,7 +3109,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\x01\x01",
                         ),
@@ -3116,7 +3117,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\x01\x01",
                         ),
@@ -3124,7 +3125,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\x01\x01",
                         ),
@@ -3132,7 +3133,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\x01\x01",
                         ),
@@ -3140,7 +3141,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\x01\x01",
                         ),
@@ -3148,7 +3149,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\x01\x01",
                         ),
@@ -3156,7 +3157,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x01\x01",
                         ),
@@ -3164,7 +3165,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\x01\x01",
                         ),
@@ -3172,7 +3173,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\x01\x01",
                         ),
@@ -3180,7 +3181,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\x01\x01",
                         ),
@@ -3188,7 +3189,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x01\x01",
                         ),
@@ -3196,7 +3197,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\x01\x01",
                         ),
@@ -3204,7 +3205,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\x01\x01",
                         ),
@@ -3212,7 +3213,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\x01\x01",
                         ),
@@ -3220,7 +3221,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\x01\x01",
                         ),
@@ -3228,7 +3229,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\x01\x01",
                         ),
@@ -3236,7 +3237,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\x01\x01",
                         ),
@@ -3244,7 +3245,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\x01\x01",
                         ),
@@ -3252,7 +3253,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\x01\x01",
                         ),
@@ -3260,7 +3261,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\x01\x01",
                         ),
@@ -3268,7 +3269,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\x01\x01",
                         ),
@@ -3276,7 +3277,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\x01\x01",
                         ),
@@ -3284,7 +3285,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\x01\x01",
                         ),
@@ -3292,7 +3293,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\x02\x02",
                         ),
@@ -3300,7 +3301,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\x02\x02",
                         ),
@@ -3308,7 +3309,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\x02\x02",
                         ),
@@ -3316,7 +3317,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\x02\x02",
                         ),
@@ -3324,7 +3325,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\x02\x01",
                         ),
@@ -3332,7 +3333,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\x02\x01",
                         ),
@@ -3340,7 +3341,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\x02\x01",
                         ),
@@ -3348,7 +3349,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\x02\x01",
                         ),
@@ -3356,7 +3357,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\x02\x01",
                         ),
@@ -3364,7 +3365,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\x02\x01",
                         ),
@@ -3372,7 +3373,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\x02\x01",
                         ),
@@ -3380,7 +3381,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\x02\x01",
                         ),
@@ -3388,7 +3389,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\x02\x01",
                         ),
@@ -3396,7 +3397,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\x02\x01",
                         ),
@@ -3404,7 +3405,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\x02\x01",
                         ),
@@ -3412,7 +3413,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x02\x01",
                         ),
@@ -3420,7 +3421,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\x02\x01",
                         ),
@@ -3428,7 +3429,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\x02\x01",
                         ),
@@ -3436,7 +3437,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\x02\x01",
                         ),
@@ -3444,7 +3445,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x02\x01",
                         ),
@@ -3452,7 +3453,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\x02\x01",
                         ),
@@ -3460,7 +3461,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\x02\x01",
                         ),
@@ -3468,7 +3469,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\x02\x01",
                         ),
@@ -3476,7 +3477,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\x02\x01",
                         ),
@@ -3484,7 +3485,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\x02\x01",
                         ),
@@ -3492,7 +3493,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\x02\x01",
                         ),
@@ -3500,7 +3501,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\x02\x01",
                         ),
@@ -3508,7 +3509,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\x02\x01",
                         ),
@@ -3516,7 +3517,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\x02\x01",
                         ),
@@ -3524,7 +3525,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\x02\x01",
                         ),
@@ -3532,7 +3533,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\x02\x01",
                         ),
@@ -3540,7 +3541,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\x02\x01",
                         ),
@@ -3548,7 +3549,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\x02\x02",
                         ),
@@ -3556,7 +3557,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\x02\x02",
                         ),
@@ -3564,7 +3565,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\x02\x02",
                         ),
@@ -3572,7 +3573,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\x02\x02",
                         ),
@@ -3580,7 +3581,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\0\x01\x02",
                         ),
@@ -3588,7 +3589,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\0\x01\x02",
                         ),
@@ -3596,7 +3597,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\0\x01\x02",
                         ),
@@ -3604,7 +3605,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x02\x01\x02",
                         ),
@@ -3612,7 +3613,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\0\x01\x02",
                         ),
@@ -3620,7 +3621,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\0\x01\x02",
                         ),
@@ -3628,7 +3629,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\0\x01\x02",
                         ),
@@ -3636,7 +3637,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x02\x01\x02",
                         ),
@@ -3644,7 +3645,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\0\x01\x02",
                         ),
@@ -3652,7 +3653,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\0\x01\x02",
                         ),
@@ -3660,7 +3661,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\0\x01\x02",
                         ),
@@ -3668,7 +3669,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x01\x02",
                         ),
@@ -3676,7 +3677,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\x01\x02",
                         ),
@@ -3684,7 +3685,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\x01\x02",
                         ),
@@ -3692,7 +3693,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\x01\x02",
                         ),
@@ -3700,7 +3701,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x02\x01\x02",
                         ),
@@ -3708,7 +3709,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\0\x01\x01\x02",
                         ),
@@ -3716,7 +3717,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\0\x01\x01\x02",
                         ),
@@ -3724,7 +3725,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\0\x01\x01\x02",
                         ),
@@ -3732,7 +3733,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x02\x01\x02",
                         ),
@@ -3740,7 +3741,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x01\x01\x01\x02",
                         ),
@@ -3748,7 +3749,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x01\x01\x02",
                         ),
@@ -3756,7 +3757,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x01\x01\x02",
                         ),
@@ -3764,7 +3765,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x01\x02\x01\x02",
                         ),
@@ -3772,7 +3773,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x01\x01\x02",
                         ),
@@ -3780,7 +3781,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x01\x01\x02",
                         ),
@@ -3788,7 +3789,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x01\x01\x02",
                         ),
@@ -3796,7 +3797,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\x01\x02",
                         ),
@@ -3804,7 +3805,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\0\x02\x02\x02\x02",
                         ),
@@ -3812,7 +3813,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x01\x02\x02\x02\x02",
                         ),
@@ -3820,7 +3821,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x02\x02\x02\x02",
                         ),
@@ -3828,7 +3829,7 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_5_uint8_t {
+                    let mut init = crate::l_array_5_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
                             b"\x02\x01\x02\x02\x02",
                         ),
@@ -3840,54 +3841,54 @@ static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsa
         init
     }
 };
-static mut _OC_str_OC_3: l_array_17_uint8_t = unsafe {
+static mut _OC_str_OC_3: crate::l_array_17_uint8_t = unsafe {
     {
-        let mut init = l_array_17_uint8_t {
+        let mut init = crate::l_array_17_uint8_t {
             array: *::core::mem::transmute::<&[u8; 17], &mut [uint8_t; 17]>(b"quint_blocks > 0\0"),
         };
         init
     }
 };
-static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = unsafe {
+static mut _ZL17quints_of_integer: crate::l_array_128_struct_AC_l_array_3_uint8_t = unsafe {
     {
-        let mut init = l_array_128_struct_AC_l_array_3_uint8_t {
+        let mut init = crate::l_array_128_struct_AC_l_array_3_uint8_t {
             array: [
                 {
-                    let mut init = l_array_3_uint8_t { array: [0, 0, 0] };
+                    let mut init = crate::l_array_3_uint8_t { array: [0, 0, 0] };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x01\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x02\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x03\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x04\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x04\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\0",
                         ),
@@ -3895,7 +3896,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\x04",
                         ),
@@ -3903,13 +3904,13 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x01\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x01\0",
                         ),
@@ -3917,7 +3918,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x01\0",
                         ),
@@ -3925,7 +3926,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x01\0",
                         ),
@@ -3933,7 +3934,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x01\0",
                         ),
@@ -3941,7 +3942,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x04\0",
                         ),
@@ -3949,7 +3950,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\x01",
                         ),
@@ -3957,7 +3958,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\x04",
                         ),
@@ -3965,13 +3966,13 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x02\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x02\0",
                         ),
@@ -3979,7 +3980,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x02\0",
                         ),
@@ -3987,7 +3988,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x02\0",
                         ),
@@ -3995,7 +3996,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x02\0",
                         ),
@@ -4003,7 +4004,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x04\0",
                         ),
@@ -4011,7 +4012,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\x02",
                         ),
@@ -4019,7 +4020,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\x04",
                         ),
@@ -4027,13 +4028,13 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x03\0"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x03\0",
                         ),
@@ -4041,7 +4042,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x03\0",
                         ),
@@ -4049,7 +4050,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x03\0",
                         ),
@@ -4057,7 +4058,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x03\0",
                         ),
@@ -4065,7 +4066,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x04\0",
                         ),
@@ -4073,7 +4074,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\x03",
                         ),
@@ -4081,7 +4082,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x04\x04",
                         ),
@@ -4089,13 +4090,13 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x01"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\0\x01",
                         ),
@@ -4103,7 +4104,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\0\x01",
                         ),
@@ -4111,7 +4112,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\0\x01",
                         ),
@@ -4119,7 +4120,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\0\x01",
                         ),
@@ -4127,7 +4128,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x04\x01",
                         ),
@@ -4135,7 +4136,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\0\x04",
                         ),
@@ -4143,7 +4144,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x04\x04",
                         ),
@@ -4151,7 +4152,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x01\x01",
                         ),
@@ -4159,7 +4160,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x01\x01",
                         ),
@@ -4167,7 +4168,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x01\x01",
                         ),
@@ -4175,7 +4176,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x01\x01",
                         ),
@@ -4183,7 +4184,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x01\x01",
                         ),
@@ -4191,7 +4192,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x04\x01",
                         ),
@@ -4199,7 +4200,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x01\x04",
                         ),
@@ -4207,7 +4208,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x04\x04",
                         ),
@@ -4215,7 +4216,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x02\x01",
                         ),
@@ -4223,7 +4224,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x02\x01",
                         ),
@@ -4231,7 +4232,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x02\x01",
                         ),
@@ -4239,7 +4240,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x02\x01",
                         ),
@@ -4247,7 +4248,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x02\x01",
                         ),
@@ -4255,7 +4256,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x04\x01",
                         ),
@@ -4263,7 +4264,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x02\x04",
                         ),
@@ -4271,7 +4272,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x04\x04",
                         ),
@@ -4279,7 +4280,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x03\x01",
                         ),
@@ -4287,7 +4288,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x03\x01",
                         ),
@@ -4295,7 +4296,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x03\x01",
                         ),
@@ -4303,7 +4304,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x03\x01",
                         ),
@@ -4311,7 +4312,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x03\x01",
                         ),
@@ -4319,7 +4320,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x04\x01",
                         ),
@@ -4327,7 +4328,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x03\x04",
                         ),
@@ -4335,7 +4336,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x04\x04",
                         ),
@@ -4343,13 +4344,13 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x02"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\0\x02",
                         ),
@@ -4357,7 +4358,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\0\x02",
                         ),
@@ -4365,7 +4366,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\0\x02",
                         ),
@@ -4373,7 +4374,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\0\x02",
                         ),
@@ -4381,7 +4382,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x04\x02",
                         ),
@@ -4389,7 +4390,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\0\x04",
                         ),
@@ -4397,7 +4398,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\0\x04",
                         ),
@@ -4405,7 +4406,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x01\x02",
                         ),
@@ -4413,7 +4414,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x01\x02",
                         ),
@@ -4421,7 +4422,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x01\x02",
                         ),
@@ -4429,7 +4430,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x01\x02",
                         ),
@@ -4437,7 +4438,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x01\x02",
                         ),
@@ -4445,7 +4446,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x04\x02",
                         ),
@@ -4453,7 +4454,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x01\x04",
                         ),
@@ -4461,7 +4462,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x01\x04",
                         ),
@@ -4469,7 +4470,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x02\x02",
                         ),
@@ -4477,7 +4478,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x02\x02",
                         ),
@@ -4485,7 +4486,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x02\x02",
                         ),
@@ -4493,7 +4494,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x02\x02",
                         ),
@@ -4501,7 +4502,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x02\x02",
                         ),
@@ -4509,7 +4510,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x04\x02",
                         ),
@@ -4517,7 +4518,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x02\x04",
                         ),
@@ -4525,7 +4526,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x02\x04",
                         ),
@@ -4533,7 +4534,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x03\x02",
                         ),
@@ -4541,7 +4542,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x03\x02",
                         ),
@@ -4549,7 +4550,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x03\x02",
                         ),
@@ -4557,7 +4558,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x03\x02",
                         ),
@@ -4565,7 +4566,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x03\x02",
                         ),
@@ -4573,7 +4574,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x04\x02",
                         ),
@@ -4581,7 +4582,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x03\x04",
                         ),
@@ -4589,7 +4590,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x03\x04",
                         ),
@@ -4597,13 +4598,13 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x03"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\0\x03",
                         ),
@@ -4611,7 +4612,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\0\x03",
                         ),
@@ -4619,7 +4620,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\0\x03",
                         ),
@@ -4627,7 +4628,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\0\x03",
                         ),
@@ -4635,7 +4636,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x04\x03",
                         ),
@@ -4643,13 +4644,13 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x04"),
                     };
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\0\x04",
                         ),
@@ -4657,7 +4658,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x01\x03",
                         ),
@@ -4665,7 +4666,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x01\x03",
                         ),
@@ -4673,7 +4674,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x01\x03",
                         ),
@@ -4681,7 +4682,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x01\x03",
                         ),
@@ -4689,7 +4690,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x01\x03",
                         ),
@@ -4697,7 +4698,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x04\x03",
                         ),
@@ -4705,7 +4706,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x01\x04",
                         ),
@@ -4713,7 +4714,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x01\x04",
                         ),
@@ -4721,7 +4722,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x02\x03",
                         ),
@@ -4729,7 +4730,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x02\x03",
                         ),
@@ -4737,7 +4738,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x02\x03",
                         ),
@@ -4745,7 +4746,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x02\x03",
                         ),
@@ -4753,7 +4754,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x02\x03",
                         ),
@@ -4761,7 +4762,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x04\x03",
                         ),
@@ -4769,7 +4770,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x02\x04",
                         ),
@@ -4777,7 +4778,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x02\x04",
                         ),
@@ -4785,7 +4786,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x03\x03",
                         ),
@@ -4793,7 +4794,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x03\x03",
                         ),
@@ -4801,7 +4802,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x02\x03\x03",
                         ),
@@ -4809,7 +4810,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x03\x03",
                         ),
@@ -4817,7 +4818,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x04\x03\x03",
                         ),
@@ -4825,7 +4826,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x03\x04\x03",
                         ),
@@ -4833,7 +4834,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\0\x03\x04",
                         ),
@@ -4841,7 +4842,7 @@ static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = uns
                     init
                 },
                 {
-                    let mut init = l_array_3_uint8_t {
+                    let mut init = crate::l_array_3_uint8_t {
                         array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
                             b"\x01\x03\x04",
                         ),
@@ -4968,7 +4969,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
     _28 = _26;
     _29 = _27;
     return &mut *((*(&mut (*(_28 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
-        as *mut l_array_21_struct_AC_l_struct_struct_OC_ise_size))
+        as *mut crate::l_array_21_struct_AC_l_struct_struct_OC_ise_size))
         .array)
         .as_mut_ptr()
         .offset(_29 as int64_t as isize) as *mut l_struct_struct_OC_ise_size
@@ -5403,20 +5404,20 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     .array)
                     .as_ptr()
                     .offset(_112 as uint64_t as int64_t as isize)
-                    as *const l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t
-                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
+                    as *const crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t
+                    as *mut crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_113 as uint64_t as int64_t as isize)
-                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
+                    as *mut crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_114 as uint64_t as int64_t as isize)
-                    as *mut l_array_3_struct_AC_l_array_3_uint8_t))
+                    as *mut crate::l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_115 as uint64_t as int64_t as isize)
-                    as *mut l_array_3_uint8_t))
+                    as *mut crate::l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_116 as uint64_t as int64_t as isize) as *mut uint8_t);
@@ -5599,20 +5600,20 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     .array)
                     .as_ptr()
                     .offset(_209 as uint64_t as int64_t as isize)
-                    as *const l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t
-                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
+                    as *const crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t
+                    as *mut crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_210 as uint64_t as int64_t as isize)
-                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
+                    as *mut crate::l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_211 as uint64_t as int64_t as isize)
-                    as *mut l_array_3_struct_AC_l_array_3_uint8_t))
+                    as *mut crate::l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_212 as uint64_t as int64_t as isize)
-                    as *mut l_array_3_uint8_t))
+                    as *mut crate::l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_213 as uint64_t as int64_t as isize) as *mut uint8_t);
@@ -5727,12 +5728,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _258 = *(&mut *((*(&mut *((*(&*(_ZL17integer_of_quints.array)
                         .as_ptr()
                         .offset(_255 as uint64_t as int64_t as isize)
-                        as *const l_array_5_struct_AC_l_array_5_uint8_t
-                        as *mut l_array_5_struct_AC_l_array_5_uint8_t))
+                        as *const crate::l_array_5_struct_AC_l_array_5_uint8_t
+                        as *mut crate::l_array_5_struct_AC_l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_256 as uint64_t as int64_t as isize)
-                        as *mut l_array_5_uint8_t))
+                        as *mut crate::l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_257 as uint64_t as int64_t as isize)
@@ -5841,12 +5842,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _313 = *(&mut *((*(&mut *((*(&*(_ZL17integer_of_quints.array)
                         .as_ptr()
                         .offset(_310 as uint64_t as int64_t as isize)
-                        as *const l_array_5_struct_AC_l_array_5_uint8_t
-                        as *mut l_array_5_struct_AC_l_array_5_uint8_t))
+                        as *const crate::l_array_5_struct_AC_l_array_5_uint8_t
+                        as *mut crate::l_array_5_struct_AC_l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_311 as uint64_t as int64_t as isize)
-                        as *mut l_array_5_uint8_t))
+                        as *mut crate::l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_312 as uint64_t as int64_t as isize)
@@ -5942,11 +5943,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
         return;
     } else {
         __assert_fail(
-            &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
+            &_OC_str as *const crate::l_array_20_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const crate::l_array_55_uint8_t as *mut core::ffi::c_void,
             500,
-            &__PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj as *const l_array_86_uint8_t
-                as *mut core::ffi::c_void,
+            &__PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj
+                as *const crate::l_array_86_uint8_t as *mut core::ffi::c_void,
         );
     };
 }
@@ -5965,7 +5966,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
     _398 = _396;
     _399 = _397;
     return &mut *((*(&mut (*(_398 as *mut l_struct_struct_OC_std_KD__KD_array_OC_0)).field0
-        as *mut l_array_21_struct_AC_l_struct_struct_OC_btq_count))
+        as *mut crate::l_array_21_struct_AC_l_struct_struct_OC_btq_count))
         .array)
         .as_mut_ptr()
         .offset(_399 as int64_t as isize) as *mut l_struct_struct_OC_btq_count
@@ -6072,8 +6073,8 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _443: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _444: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _445: uint32_t = 0;
-    let mut _446: l_array_68_uint8_t = l_array_68_uint8_t { array: [0; 68] };
-    let mut _447: l_array_22_uint8_t = l_array_22_uint8_t { array: [0; 22] };
+    let mut _446: crate::l_array_68_uint8_t = crate::l_array_68_uint8_t { array: [0; 68] };
+    let mut _447: crate::l_array_22_uint8_t = crate::l_array_22_uint8_t { array: [0; 22] };
     let mut _448: uint32_t = 0;
     let mut _449: uint32_t = 0;
     let mut _450: uint32_t = 0;
@@ -6229,7 +6230,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     _463 = _442;
     if _463 > 0 as core::ffi::c_uint {
         _464 = memset(
-            &mut _447 as *mut l_array_22_uint8_t as *mut core::ffi::c_void,
+            &mut _447 as *mut crate::l_array_22_uint8_t as *mut core::ffi::c_void,
             0,
             22,
         );
@@ -6391,8 +6392,8 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     _458 = &mut *((*(&*(_ZL16trits_of_integer.array)
                         .as_ptr()
                         .offset(_530 as uint64_t as int64_t as isize)
-                        as *const l_array_5_uint8_t
-                        as *mut l_array_5_uint8_t))
+                        as *const crate::l_array_5_uint8_t
+                        as *mut crate::l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -6492,11 +6493,12 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 }
             } else {
                 __assert_fail(
-                    &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
-                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_2 as *const crate::l_array_16_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_1 as *const crate::l_array_55_uint8_t as *mut core::ffi::c_void,
                     710,
                     &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
-                        as *const l_array_86_uint8_t as *mut core::ffi::c_void,
+                        as *const crate::l_array_86_uint8_t
+                        as *mut core::ffi::c_void,
                 );
             }
         }
@@ -6521,8 +6523,8 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     _461 = &mut *((*(&*(_ZL17quints_of_integer.array)
                         .as_ptr()
                         .offset(_568 as uint64_t as int64_t as isize)
-                        as *const l_array_3_uint8_t
-                        as *mut l_array_3_uint8_t))
+                        as *const crate::l_array_3_uint8_t
+                        as *mut crate::l_array_3_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(0 as core::ffi::c_int as int64_t as isize)
@@ -6584,11 +6586,12 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 }
             } else {
                 __assert_fail(
-                    &_OC_str_OC_3 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
-                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_3 as *const crate::l_array_17_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_1 as *const crate::l_array_55_uint8_t as *mut core::ffi::c_void,
                     725,
                     &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
-                        as *const l_array_86_uint8_t as *mut core::ffi::c_void,
+                        as *const crate::l_array_86_uint8_t
+                        as *mut core::ffi::c_void,
                 );
             }
         }
@@ -6613,11 +6616,11 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
         return;
     } else {
         __assert_fail(
-            &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
+            &_OC_str as *const crate::l_array_20_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const crate::l_array_55_uint8_t as *mut core::ffi::c_void,
             658,
-            &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj as *const l_array_86_uint8_t
-                as *mut core::ffi::c_void,
+            &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
+                as *const crate::l_array_86_uint8_t as *mut core::ffi::c_void,
         );
     };
 }

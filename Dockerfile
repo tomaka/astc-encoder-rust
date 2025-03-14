@@ -84,16 +84,24 @@ RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
 # This is done by adding `use crate::*;` at the head of each file, and `use src::foo::*;` in lib.rs for each module
 RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
 RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
+RUN sed -i '1 i\#![allow(ambiguous_glob_reexports)]' lib.rs
+RUN sed -i '1 i\#![allow(ambiguous_glob_imports)]' lib.rs
 
 # There are many structs named `l_array_*_uint*_t` which have a single field with an array.
 # These structs are redefined locally in each module. Unfortunately, when a function that returns
 # a struct like this is called from a different module, the Rust compiler will yield a compilation
 # error due to the returned struct being different from the locally-defined one, even though they
 # are identical.
-# To solve this, we replace all these structs with their array equivalent.
-#RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/#\[derive(Copy, Clone)\]\n#\[repr(C)\]\npub struct l_array_[0-9]*_[_a-zA-Z0-9]* {\n[ ]*pub array: \[[:_a-zA-Z0-9]*; [0-9]*\],\n}\n//g' $f; done
-#RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/l_array_[0-9]*_[_a-zA-Z0-9]*[[:space:]]*{[[:space:]]*array: /{/g' $f; done
-#RUN cd src && for f in *.rs; do sed -i 's/l_array_\([0-9]*\)_\([_a-zA-Z0-9]*\)/[\2; \1]/g' $f; done
+# To solve this, we prefix all references to these structs with `crate::`, which guarantees that
+# they all use the same definition.
+RUN cd src && for f in *.rs; do sed -i 's/pub struct l_array_\([_a-zA-Z0-9]*\) {/pub struct __tmp_rename_array_\1 {/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/ \(l_array_[_a-zA-Z0-9]*\)/ crate::\1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/pub struct __tmp_rename_array_\([_a-zA-Z0-9]*\) {/pub struct l_array_\1 {/g' $f; done
+
+# In addition to this, many pieces of code do `&mut foo as *mut some_type as *mut other_type`.
+# This crates issues again due to multiple structs of the same name being defined.
+# We replace ` as *mut some_type` with ` as *mut _`.
+RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/ as \*\(const|mut\) [_a-zA-Z0-9]*[[:space:]]*as \*/ as *\1 _ as /g' $f; done
 
 # Add some substitutes to C/C++ functions in `lib.rs`
 RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs
