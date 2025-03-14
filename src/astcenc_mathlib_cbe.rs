@@ -100,5 +100,9 @@ unsafe extern "C" fn _ZL4rotlmi(mut _27: uint64_t, mut _28: uint32_t) -> uint64_
     _32 = _30;
     _33 = _29;
     _34 = _30;
-    return _31 << _32 as uint64_t | llvm_lshr_u64(_33, llvm_sub_u32(64, _34) as uint64_t);
+    return _31 << _32 as uint64_t
+        | llvm_lshr_u64(
+            _33,
+            llvm_sub_u32(64, _34) as uint64_t,
+        );
 }

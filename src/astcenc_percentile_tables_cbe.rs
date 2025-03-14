@@ -15,12 +15,7 @@ pub type uint64_t = __uint64_t;
 pub type bool_0 = core::ffi::c_uchar;
 #[derive(Copy, Clone)]
 #[repr(C)]
-pub struct l_array_2_uint16_t {
-    pub array: [uint16_t; 2],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_2_void_KC_ {
+pub struct [void_KC_; 2] {
     pub array: [*mut core::ffi::c_void; 2],
 }
 #[derive(Copy, Clone)]
@@ -28,150 +23,10 @@ pub struct l_array_2_void_KC_ {
 pub struct l_struct_struct_OC_packed_percentile_table {
     pub field0: uint8_t,
     pub field1: uint8_t,
-    pub field2: l_array_2_uint16_t,
-    pub field3: l_array_2_uint16_t,
-    pub field4: l_array_2_uint16_t,
-    pub field5: l_array_2_void_KC_,
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_61_uint16_t {
-    pub array: [uint16_t; 61],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_84_uint16_t {
-    pub array: [uint16_t; 84],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_91_uint16_t {
-    pub array: [uint16_t; 91],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_104_uint16_t {
-    pub array: [uint16_t; 104],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_129_uint16_t {
-    pub array: [uint16_t; 129],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_126_uint16_t {
-    pub array: [uint16_t; 126],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_165_uint16_t {
-    pub array: [uint16_t; 165],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_145_uint16_t {
-    pub array: [uint16_t; 145],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_206_uint16_t {
-    pub array: [uint16_t; 206],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_164_uint16_t {
-    pub array: [uint16_t; 164],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_226_uint16_t {
-    pub array: [uint16_t; 226],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_167_uint16_t {
-    pub array: [uint16_t; 167],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_273_uint16_t {
-    pub array: [uint16_t; 273],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_186_uint16_t {
-    pub array: [uint16_t; 186],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_347_uint16_t {
-    pub array: [uint16_t; 347],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_208_uint16_t {
-    pub array: [uint16_t; 208],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_274_uint16_t {
-    pub array: [uint16_t; 274],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_180_uint16_t {
-    pub array: [uint16_t; 180],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_325_uint16_t {
-    pub array: [uint16_t; 325],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_199_uint16_t {
-    pub array: [uint16_t; 199],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_400_uint16_t {
-    pub array: [uint16_t; 400],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_221_uint16_t {
-    pub array: [uint16_t; 221],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_453_uint16_t {
-    pub array: [uint16_t; 453],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_234_uint16_t {
-    pub array: [uint16_t; 234],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_491_uint16_t {
-    pub array: [uint16_t; 491],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_240_uint16_t {
-    pub array: [uint16_t; 240],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_529_uint16_t {
-    pub array: [uint16_t; 529],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_246_uint16_t {
-    pub array: [uint16_t; 246],
+    pub field2: [uint16_t; 2],
+    pub field3: [uint16_t; 2],
+    pub field4: [uint16_t; 2],
+    pub field5: [void_KC_; 2],
 }
 static mut _ZL13block_pcd_4x4: l_struct_struct_OC_packed_percentile_table = unsafe {
     {
@@ -179,17 +34,12 @@ static mut _ZL13block_pcd_4x4: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 4 as core::ffi::c_int as uint8_t,
             field1: 4 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        61 as core::ffi::c_int as uint16_t,
-                        84 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[61 as core::ffi::c_int as uint16_t, 84 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         184 as core::ffi::c_int as uint16_t,
                         141 as core::ffi::c_int as uint16_t,
                     ],
@@ -197,20 +47,15 @@ static mut _ZL13block_pcd_4x4: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        53 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 53 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_4x4_0 as *const l_array_61_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_4x4_0 as *const [uint16_t; 61]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_4x4_1 as *const l_array_84_uint16_t
+                        &_ZL20percentile_arr_4x4_1 as *const [uint16_t; 84]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -226,8 +71,7 @@ static mut _ZL13block_pcd_5x4: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 5 as core::ffi::c_int as uint8_t,
             field1: 4 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         91 as core::ffi::c_int as uint16_t,
                         104 as core::ffi::c_int as uint16_t,
                     ],
@@ -235,8 +79,7 @@ static mut _ZL13block_pcd_5x4: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         322 as core::ffi::c_int as uint16_t,
                         464 as core::ffi::c_int as uint16_t,
                     ],
@@ -244,20 +87,15 @@ static mut _ZL13block_pcd_5x4: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        202 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 202 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_5x4_0 as *const l_array_91_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_5x4_0 as *const [uint16_t; 91]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_5x4_1 as *const l_array_104_uint16_t
+                        &_ZL20percentile_arr_5x4_1 as *const [uint16_t; 104]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -273,8 +111,7 @@ static mut _ZL13block_pcd_5x5: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 5 as core::ffi::c_int as uint8_t,
             field1: 5 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         129 as core::ffi::c_int as uint16_t,
                         126 as core::ffi::c_int as uint16_t,
                     ],
@@ -282,8 +119,7 @@ static mut _ZL13block_pcd_5x5: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         258 as core::ffi::c_int as uint16_t,
                         291 as core::ffi::c_int as uint16_t,
                     ],
@@ -291,20 +127,15 @@ static mut _ZL13block_pcd_5x5: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        116 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 116 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_5x5_0 as *const l_array_129_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_5x5_0 as *const [uint16_t; 129]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_5x5_1 as *const l_array_126_uint16_t
+                        &_ZL20percentile_arr_5x5_1 as *const [uint16_t; 126]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -320,8 +151,7 @@ static mut _ZL13block_pcd_6x5: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 6 as core::ffi::c_int as uint8_t,
             field1: 5 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         165 as core::ffi::c_int as uint16_t,
                         145 as core::ffi::c_int as uint16_t,
                     ],
@@ -329,8 +159,7 @@ static mut _ZL13block_pcd_6x5: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         388 as core::ffi::c_int as uint16_t,
                         405 as core::ffi::c_int as uint16_t,
                     ],
@@ -338,20 +167,15 @@ static mut _ZL13block_pcd_6x5: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        156 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 156 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_6x5_0 as *const l_array_165_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_6x5_0 as *const [uint16_t; 165]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_6x5_1 as *const l_array_145_uint16_t
+                        &_ZL20percentile_arr_6x5_1 as *const [uint16_t; 145]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -367,8 +191,7 @@ static mut _ZL13block_pcd_6x6: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 6 as core::ffi::c_int as uint8_t,
             field1: 6 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         206 as core::ffi::c_int as uint16_t,
                         164 as core::ffi::c_int as uint16_t,
                     ],
@@ -376,8 +199,7 @@ static mut _ZL13block_pcd_6x6: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         769 as core::ffi::c_int as uint16_t,
                         644 as core::ffi::c_int as uint16_t,
                     ],
@@ -385,20 +207,15 @@ static mut _ZL13block_pcd_6x6: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        256 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 256 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_6x6_0 as *const l_array_206_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_6x6_0 as *const [uint16_t; 206]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_6x6_1 as *const l_array_164_uint16_t
+                        &_ZL20percentile_arr_6x6_1 as *const [uint16_t; 164]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -414,8 +231,7 @@ static mut _ZL13block_pcd_8x5: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 8 as core::ffi::c_int as uint8_t,
             field1: 5 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         226 as core::ffi::c_int as uint16_t,
                         167 as core::ffi::c_int as uint16_t,
                     ],
@@ -423,8 +239,7 @@ static mut _ZL13block_pcd_8x5: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         763 as core::ffi::c_int as uint16_t,
                         517 as core::ffi::c_int as uint16_t,
                     ],
@@ -432,20 +247,15 @@ static mut _ZL13block_pcd_8x5: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        178 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 178 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_8x5_0 as *const l_array_226_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_8x5_0 as *const [uint16_t; 226]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_8x5_1 as *const l_array_167_uint16_t
+                        &_ZL20percentile_arr_8x5_1 as *const [uint16_t; 167]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -461,8 +271,7 @@ static mut _ZL13block_pcd_8x6: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 8 as core::ffi::c_int as uint8_t,
             field1: 6 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         273 as core::ffi::c_int as uint16_t,
                         186 as core::ffi::c_int as uint16_t,
                     ],
@@ -470,8 +279,7 @@ static mut _ZL13block_pcd_8x6: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         880 as core::ffi::c_int as uint16_t,
                         300 as core::ffi::c_int as uint16_t,
                     ],
@@ -479,20 +287,15 @@ static mut _ZL13block_pcd_8x6: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        64 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 64 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_8x6_0 as *const l_array_273_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_8x6_0 as *const [uint16_t; 273]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_8x6_1 as *const l_array_186_uint16_t
+                        &_ZL20percentile_arr_8x6_1 as *const [uint16_t; 186]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -508,8 +311,7 @@ static mut _ZL13block_pcd_8x8: l_struct_struct_OC_packed_percentile_table = unsa
             field0: 8 as core::ffi::c_int as uint8_t,
             field1: 8 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         347 as core::ffi::c_int as uint16_t,
                         208 as core::ffi::c_int as uint16_t,
                     ],
@@ -517,8 +319,7 @@ static mut _ZL13block_pcd_8x8: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         1144 as core::ffi::c_int as uint16_t,
                         267 as core::ffi::c_int as uint16_t,
                     ],
@@ -526,20 +327,15 @@ static mut _ZL13block_pcd_8x8: l_struct_struct_OC_packed_percentile_table = unsa
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        38 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 38 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL20percentile_arr_8x8_0 as *const l_array_347_uint16_t
+                let mut init = {[
+                        &_ZL20percentile_arr_8x8_0 as *const [uint16_t; 347]
                             as *mut core::ffi::c_void,
-                        &_ZL20percentile_arr_8x8_1 as *const l_array_208_uint16_t
+                        &_ZL20percentile_arr_8x8_1 as *const [uint16_t; 208]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -555,8 +351,7 @@ static mut _ZL14block_pcd_10x5: l_struct_struct_OC_packed_percentile_table = uns
             field0: 10 as core::ffi::c_int as uint8_t,
             field1: 5 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         274 as core::ffi::c_int as uint16_t,
                         180 as core::ffi::c_int as uint16_t,
                     ],
@@ -564,8 +359,7 @@ static mut _ZL14block_pcd_10x5: l_struct_struct_OC_packed_percentile_table = uns
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         954 as core::ffi::c_int as uint16_t,
                         324 as core::ffi::c_int as uint16_t,
                     ],
@@ -573,20 +367,15 @@ static mut _ZL14block_pcd_10x5: l_struct_struct_OC_packed_percentile_table = uns
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        79 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 79 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL21percentile_arr_10x5_0 as *const l_array_274_uint16_t
+                let mut init = {[
+                        &_ZL21percentile_arr_10x5_0 as *const [uint16_t; 274]
                             as *mut core::ffi::c_void,
-                        &_ZL21percentile_arr_10x5_1 as *const l_array_180_uint16_t
+                        &_ZL21percentile_arr_10x5_1 as *const [uint16_t; 180]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -602,8 +391,7 @@ static mut _ZL14block_pcd_10x6: l_struct_struct_OC_packed_percentile_table = uns
             field0: 10 as core::ffi::c_int as uint8_t,
             field1: 6 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         325 as core::ffi::c_int as uint16_t,
                         199 as core::ffi::c_int as uint16_t,
                     ],
@@ -611,8 +399,7 @@ static mut _ZL14block_pcd_10x6: l_struct_struct_OC_packed_percentile_table = uns
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         922 as core::ffi::c_int as uint16_t,
                         381 as core::ffi::c_int as uint16_t,
                     ],
@@ -620,20 +407,15 @@ static mut _ZL14block_pcd_10x6: l_struct_struct_OC_packed_percentile_table = uns
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        78 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 78 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL21percentile_arr_10x6_0 as *const l_array_325_uint16_t
+                let mut init = {[
+                        &_ZL21percentile_arr_10x6_0 as *const [uint16_t; 325]
                             as *mut core::ffi::c_void,
-                        &_ZL21percentile_arr_10x6_1 as *const l_array_199_uint16_t
+                        &_ZL21percentile_arr_10x6_1 as *const [uint16_t; 199]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -649,8 +431,7 @@ static mut _ZL14block_pcd_10x8: l_struct_struct_OC_packed_percentile_table = uns
             field0: 10 as core::ffi::c_int as uint8_t,
             field1: 8 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         400 as core::ffi::c_int as uint16_t,
                         221 as core::ffi::c_int as uint16_t,
                     ],
@@ -658,8 +439,7 @@ static mut _ZL14block_pcd_10x8: l_struct_struct_OC_packed_percentile_table = uns
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         1119 as core::ffi::c_int as uint16_t,
                         376 as core::ffi::c_int as uint16_t,
                     ],
@@ -667,20 +447,15 @@ static mut _ZL14block_pcd_10x8: l_struct_struct_OC_packed_percentile_table = uns
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        52 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 52 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL21percentile_arr_10x8_0 as *const l_array_400_uint16_t
+                let mut init = {[
+                        &_ZL21percentile_arr_10x8_0 as *const [uint16_t; 400]
                             as *mut core::ffi::c_void,
-                        &_ZL21percentile_arr_10x8_1 as *const l_array_221_uint16_t
+                        &_ZL21percentile_arr_10x8_1 as *const [uint16_t; 221]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -696,8 +471,7 @@ static mut _ZL15block_pcd_10x10: l_struct_struct_OC_packed_percentile_table = un
             field0: 10 as core::ffi::c_int as uint8_t,
             field1: 10 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         453 as core::ffi::c_int as uint16_t,
                         234 as core::ffi::c_int as uint16_t,
                     ],
@@ -705,8 +479,7 @@ static mut _ZL15block_pcd_10x10: l_struct_struct_OC_packed_percentile_table = un
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         1095 as core::ffi::c_int as uint16_t,
                         472 as core::ffi::c_int as uint16_t,
                     ],
@@ -714,20 +487,15 @@ static mut _ZL15block_pcd_10x10: l_struct_struct_OC_packed_percentile_table = un
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        70 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 70 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL22percentile_arr_10x10_0 as *const l_array_453_uint16_t
+                let mut init = {[
+                        &_ZL22percentile_arr_10x10_0 as *const [uint16_t; 453]
                             as *mut core::ffi::c_void,
-                        &_ZL22percentile_arr_10x10_1 as *const l_array_234_uint16_t
+                        &_ZL22percentile_arr_10x10_1 as *const [uint16_t; 234]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -743,8 +511,7 @@ static mut _ZL15block_pcd_12x10: l_struct_struct_OC_packed_percentile_table = un
             field0: 12 as core::ffi::c_int as uint8_t,
             field1: 10 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         491 as core::ffi::c_int as uint16_t,
                         240 as core::ffi::c_int as uint16_t,
                     ],
@@ -752,8 +519,7 @@ static mut _ZL15block_pcd_12x10: l_struct_struct_OC_packed_percentile_table = un
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         1099 as core::ffi::c_int as uint16_t,
                         341 as core::ffi::c_int as uint16_t,
                     ],
@@ -761,20 +527,15 @@ static mut _ZL15block_pcd_12x10: l_struct_struct_OC_packed_percentile_table = un
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        23 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 23 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL22percentile_arr_12x10_0 as *const l_array_491_uint16_t
+                let mut init = {[
+                        &_ZL22percentile_arr_12x10_0 as *const [uint16_t; 491]
                             as *mut core::ffi::c_void,
-                        &_ZL22percentile_arr_12x10_1 as *const l_array_240_uint16_t
+                        &_ZL22percentile_arr_12x10_1 as *const [uint16_t; 240]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -790,8 +551,7 @@ static mut _ZL15block_pcd_12x12: l_struct_struct_OC_packed_percentile_table = un
             field0: 12 as core::ffi::c_int as uint8_t,
             field1: 12 as core::ffi::c_int as uint8_t,
             field2: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         529 as core::ffi::c_int as uint16_t,
                         246 as core::ffi::c_int as uint16_t,
                     ],
@@ -799,8 +559,7 @@ static mut _ZL15block_pcd_12x12: l_struct_struct_OC_packed_percentile_table = un
                 init
             },
             field3: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
+                let mut init = {[
                         1435 as core::ffi::c_int as uint16_t,
                         335 as core::ffi::c_int as uint16_t,
                     ],
@@ -808,20 +567,15 @@ static mut _ZL15block_pcd_12x12: l_struct_struct_OC_packed_percentile_table = un
                 init
             },
             field4: {
-                let mut init = l_array_2_uint16_t {
-                    array: [
-                        0 as core::ffi::c_int as uint16_t,
-                        22 as core::ffi::c_int as uint16_t,
-                    ],
+                let mut init = {[0 as core::ffi::c_int as uint16_t, 22 as core::ffi::c_int as uint16_t],
                 };
                 init
             },
             field5: {
-                let mut init = l_array_2_void_KC_ {
-                    array: [
-                        &_ZL22percentile_arr_12x12_0 as *const l_array_529_uint16_t
+                let mut init = {[
+                        &_ZL22percentile_arr_12x12_0 as *const [uint16_t; 529]
                             as *mut core::ffi::c_void,
-                        &_ZL22percentile_arr_12x12_1 as *const l_array_246_uint16_t
+                        &_ZL22percentile_arr_12x12_1 as *const [uint16_t; 246]
                             as *mut core::ffi::c_void,
                     ],
                 };
@@ -831,9 +585,8 @@ static mut _ZL15block_pcd_12x12: l_struct_struct_OC_packed_percentile_table = un
         init
     }
 };
-static mut _ZL20percentile_arr_4x4_0: l_array_61_uint16_t = {
-    let mut init = l_array_61_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_4x4_0: [uint16_t; 61] = {
+    let mut init = {[
             578 as core::ffi::c_int as uint16_t,
             29251 as core::ffi::c_uint as uint16_t,
             27217 as core::ffi::c_uint as uint16_t,
@@ -899,9 +652,8 @@ static mut _ZL20percentile_arr_4x4_0: l_array_61_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_4x4_1: l_array_84_uint16_t = {
-    let mut init = l_array_84_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_4x4_1: [uint16_t; 84] = {
+    let mut init = {[
             1106 as core::ffi::c_int as uint16_t,
             -(82 as core::ffi::c_int) as uint16_t,
             9267 as core::ffi::c_int as uint16_t,
@@ -990,9 +742,8 @@ static mut _ZL20percentile_arr_4x4_1: l_array_84_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_5x4_0: l_array_91_uint16_t = {
-    let mut init = l_array_91_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_5x4_0: [uint16_t; 91] = {
+    let mut init = {[
             705 as core::ffi::c_int as uint16_t,
             -(1327 as core::ffi::c_int) as uint16_t,
             -(5933 as core::ffi::c_int) as uint16_t,
@@ -1088,9 +839,8 @@ static mut _ZL20percentile_arr_5x4_0: l_array_91_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_5x4_1: l_array_104_uint16_t = {
-    let mut init = l_array_104_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_5x4_1: [uint16_t; 104] = {
+    let mut init = {[
             1075 as core::ffi::c_int as uint16_t,
             46625 as core::ffi::c_uint as uint16_t,
             21586 as core::ffi::c_uint as uint16_t,
@@ -1199,9 +949,8 @@ static mut _ZL20percentile_arr_5x4_1: l_array_104_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_5x5_0: l_array_129_uint16_t = {
-    let mut init = l_array_129_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_5x5_0: [uint16_t; 129] = {
+    let mut init = {[
             243 as core::ffi::c_int as uint16_t,
             -(1806 as core::ffi::c_int) as uint16_t,
             28899 as core::ffi::c_uint as uint16_t,
@@ -1335,9 +1084,8 @@ static mut _ZL20percentile_arr_5x5_0: l_array_129_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_5x5_1: l_array_126_uint16_t = {
-    let mut init = l_array_126_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_5x5_1: [uint16_t; 126] = {
+    let mut init = {[
             1091 as core::ffi::c_int as uint16_t,
             25682 as core::ffi::c_uint as uint16_t,
             -(479 as core::ffi::c_int) as uint16_t,
@@ -1468,9 +1216,8 @@ static mut _ZL20percentile_arr_5x5_1: l_array_126_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_6x5_0: l_array_165_uint16_t = {
-    let mut init = l_array_165_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_6x5_0: [uint16_t; 165] = {
+    let mut init = {[
             355 as core::ffi::c_int as uint16_t,
             -(1805 as core::ffi::c_int) as uint16_t,
             39266 as core::ffi::c_uint as uint16_t,
@@ -1640,9 +1387,8 @@ static mut _ZL20percentile_arr_6x5_0: l_array_165_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_6x5_1: l_array_145_uint16_t = {
-    let mut init = l_array_145_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_6x5_1: [uint16_t; 145] = {
+    let mut init = {[
             1091 as core::ffi::c_int as uint16_t,
             -(4178 as core::ffi::c_int) as uint16_t,
             11458 as core::ffi::c_int as uint16_t,
@@ -1792,9 +1538,8 @@ static mut _ZL20percentile_arr_6x5_1: l_array_145_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_6x6_0: l_array_206_uint16_t = {
-    let mut init = l_array_206_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_6x6_0: [uint16_t; 206] = {
+    let mut init = {[
             111 as core::ffi::c_int as uint16_t,
             -(1784 as core::ffi::c_int) as uint16_t,
             -(3836 as core::ffi::c_int) as uint16_t,
@@ -2005,9 +1750,8 @@ static mut _ZL20percentile_arr_6x6_0: l_array_206_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_6x6_1: l_array_164_uint16_t = {
-    let mut init = l_array_164_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_6x6_1: [uint16_t; 164] = {
+    let mut init = {[
             1966 as core::ffi::c_int as uint16_t,
             33859 as core::ffi::c_uint as uint16_t,
             32289 as core::ffi::c_uint as uint16_t,
@@ -2176,9 +1920,8 @@ static mut _ZL20percentile_arr_6x6_1: l_array_164_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_8x5_0: l_array_226_uint16_t = {
-    let mut init = l_array_226_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_8x5_0: [uint16_t; 226] = {
+    let mut init = {[
             102 as core::ffi::c_int as uint16_t,
             -(1947 as core::ffi::c_int) as uint16_t,
             -(5789 as core::ffi::c_int) as uint16_t,
@@ -2409,9 +2152,8 @@ static mut _ZL20percentile_arr_8x5_0: l_array_226_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_8x5_1: l_array_167_uint16_t = {
-    let mut init = l_array_167_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_8x5_1: [uint16_t; 167] = {
+    let mut init = {[
             1569 as core::ffi::c_int as uint16_t,
             -(830 as core::ffi::c_int) as uint16_t,
             13379 as core::ffi::c_int as uint16_t,
@@ -2583,9 +2325,8 @@ static mut _ZL20percentile_arr_8x5_1: l_array_167_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_8x6_0: l_array_273_uint16_t = {
-    let mut init = l_array_273_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_8x6_0: [uint16_t; 273] = {
+    let mut init = {[
             340 as core::ffi::c_int as uint16_t,
             -(1724 as core::ffi::c_int) as uint16_t,
             -(8090 as core::ffi::c_int) as uint16_t,
@@ -2863,9 +2604,8 @@ static mut _ZL20percentile_arr_8x6_0: l_array_273_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_8x6_1: l_array_186_uint16_t = {
-    let mut init = l_array_186_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_8x6_1: [uint16_t; 186] = {
+    let mut init = {[
             1569 as core::ffi::c_int as uint16_t,
             -(973 as core::ffi::c_int) as uint16_t,
             14254 as core::ffi::c_int as uint16_t,
@@ -3056,9 +2796,8 @@ static mut _ZL20percentile_arr_8x6_1: l_array_186_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_8x8_0: l_array_347_uint16_t = {
-    let mut init = l_array_347_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_8x8_0: [uint16_t; 347] = {
+    let mut init = {[
             820 as core::ffi::c_int as uint16_t,
             -(700 as core::ffi::c_int) as uint16_t,
             -(8940 as core::ffi::c_int) as uint16_t,
@@ -3410,9 +3149,8 @@ static mut _ZL20percentile_arr_8x8_0: l_array_347_uint16_t = {
     };
     init
 };
-static mut _ZL20percentile_arr_8x8_1: l_array_208_uint16_t = {
-    let mut init = l_array_208_uint16_t {
-        array: [
+static mut _ZL20percentile_arr_8x8_1: [uint16_t; 208] = {
+    let mut init = {[
             1569 as core::ffi::c_int as uint16_t,
             13379 as core::ffi::c_int as uint16_t,
             18381 as core::ffi::c_uint as uint16_t,
@@ -3625,9 +3363,8 @@ static mut _ZL20percentile_arr_8x8_1: l_array_208_uint16_t = {
     };
     init
 };
-static mut _ZL21percentile_arr_10x5_0: l_array_274_uint16_t = {
-    let mut init = l_array_274_uint16_t {
-        array: [
+static mut _ZL21percentile_arr_10x5_0: [uint16_t; 274] = {
+    let mut init = {[
             357 as core::ffi::c_int as uint16_t,
             -(1675 as core::ffi::c_int) as uint16_t,
             -(10138 as core::ffi::c_int) as uint16_t,
@@ -3906,9 +3643,8 @@ static mut _ZL21percentile_arr_10x5_0: l_array_274_uint16_t = {
     };
     init
 };
-static mut _ZL21percentile_arr_10x5_1: l_array_180_uint16_t = {
-    let mut init = l_array_180_uint16_t {
-        array: [
+static mut _ZL21percentile_arr_10x5_1: [uint16_t; 180] = {
+    let mut init = {[
             1330 as core::ffi::c_int as uint16_t,
             -(861 as core::ffi::c_int) as uint16_t,
             13857 as core::ffi::c_int as uint16_t,
@@ -4093,9 +3829,8 @@ static mut _ZL21percentile_arr_10x5_1: l_array_180_uint16_t = {
     };
     init
 };
-static mut _ZL21percentile_arr_10x6_0: l_array_325_uint16_t = {
-    let mut init = l_array_325_uint16_t {
-        array: [
+static mut _ZL21percentile_arr_10x6_0: [uint16_t; 325] = {
+    let mut init = {[
             420 as core::ffi::c_int as uint16_t,
             -(1708 as core::ffi::c_int) as uint16_t,
             41062 as core::ffi::c_uint as uint16_t,
@@ -4425,9 +4160,8 @@ static mut _ZL21percentile_arr_10x6_0: l_array_325_uint16_t = {
     };
     init
 };
-static mut _ZL21percentile_arr_10x6_1: l_array_199_uint16_t = {
-    let mut init = l_array_199_uint16_t {
-        array: [
+static mut _ZL21percentile_arr_10x6_1: [uint16_t; 199] = {
+    let mut init = {[
             1569 as core::ffi::c_int as uint16_t,
             48434 as core::ffi::c_uint as uint16_t,
             23715 as core::ffi::c_uint as uint16_t,
@@ -4631,9 +4365,8 @@ static mut _ZL21percentile_arr_10x6_1: l_array_199_uint16_t = {
     };
     init
 };
-static mut _ZL21percentile_arr_10x8_0: l_array_400_uint16_t = {
-    let mut init = l_array_400_uint16_t {
-        array: [
+static mut _ZL21percentile_arr_10x8_0: [uint16_t; 400] = {
+    let mut init = {[
             340 as core::ffi::c_int as uint16_t,
             43828 as core::ffi::c_uint as uint16_t,
             44356 as core::ffi::c_uint as uint16_t,
@@ -5038,9 +4771,8 @@ static mut _ZL21percentile_arr_10x8_0: l_array_400_uint16_t = {
     };
     init
 };
-static mut _ZL21percentile_arr_10x8_1: l_array_221_uint16_t = {
-    let mut init = l_array_221_uint16_t {
-        array: [
+static mut _ZL21percentile_arr_10x8_1: [uint16_t; 221] = {
+    let mut init = {[
             1569 as core::ffi::c_int as uint16_t,
             -(8274 as core::ffi::c_int) as uint16_t,
             9283 as core::ffi::c_int as uint16_t,
@@ -5266,9 +4998,8 @@ static mut _ZL21percentile_arr_10x8_1: l_array_221_uint16_t = {
     };
     init
 };
-static mut _ZL22percentile_arr_10x10_0: l_array_453_uint16_t = {
-    let mut init = l_array_453_uint16_t {
-        array: [
+static mut _ZL22percentile_arr_10x10_0: [uint16_t; 453] = {
+    let mut init = {[
             820 as core::ffi::c_int as uint16_t,
             38164 as core::ffi::c_uint as uint16_t,
             35156 as core::ffi::c_uint as uint16_t,
@@ -5726,9 +5457,8 @@ static mut _ZL22percentile_arr_10x10_0: l_array_453_uint16_t = {
     };
     init
 };
-static mut _ZL22percentile_arr_10x10_1: l_array_234_uint16_t = {
-    let mut init = l_array_234_uint16_t {
-        array: [
+static mut _ZL22percentile_arr_10x10_1: [uint16_t; 234] = {
+    let mut init = {[
             1997 as core::ffi::c_int as uint16_t,
             28193 as core::ffi::c_uint as uint16_t,
             9457 as core::ffi::c_int as uint16_t,
@@ -5967,9 +5697,8 @@ static mut _ZL22percentile_arr_10x10_1: l_array_234_uint16_t = {
     };
     init
 };
-static mut _ZL22percentile_arr_12x10_0: l_array_491_uint16_t = {
-    let mut init = l_array_491_uint16_t {
-        array: [
+static mut _ZL22percentile_arr_12x10_0: [uint16_t; 491] = {
+    let mut init = {[
             820 as core::ffi::c_int as uint16_t,
             39252 as core::ffi::c_uint as uint16_t,
             34068 as core::ffi::c_uint as uint16_t,
@@ -6465,9 +6194,8 @@ static mut _ZL22percentile_arr_12x10_0: l_array_491_uint16_t = {
     };
     init
 };
-static mut _ZL22percentile_arr_12x10_1: l_array_240_uint16_t = {
-    let mut init = l_array_240_uint16_t {
-        array: [
+static mut _ZL22percentile_arr_12x10_1: [uint16_t; 240] = {
+    let mut init = {[
             1569 as core::ffi::c_int as uint16_t,
             42051 as core::ffi::c_uint as uint16_t,
             -(830 as core::ffi::c_int) as uint16_t,
@@ -6712,9 +6440,8 @@ static mut _ZL22percentile_arr_12x10_1: l_array_240_uint16_t = {
     };
     init
 };
-static mut _ZL22percentile_arr_12x12_0: l_array_529_uint16_t = {
-    let mut init = l_array_529_uint16_t {
-        array: [
+static mut _ZL22percentile_arr_12x12_0: [uint16_t; 529] = {
+    let mut init = {[
             820 as core::ffi::c_int as uint16_t,
             -(2764 as core::ffi::c_int) as uint16_t,
             34068 as core::ffi::c_uint as uint16_t,
@@ -7248,9 +6975,8 @@ static mut _ZL22percentile_arr_12x12_0: l_array_529_uint16_t = {
     };
     init
 };
-static mut _ZL22percentile_arr_12x12_1: l_array_246_uint16_t = {
-    let mut init = l_array_246_uint16_t {
-        array: [
+static mut _ZL22percentile_arr_12x12_1: [uint16_t; 246] = {
+    let mut init = {[
             1091 as core::ffi::c_int as uint16_t,
             -(51 as core::ffi::c_int) as uint16_t,
             11362 as core::ffi::c_int as uint16_t,
@@ -7605,36 +7331,39 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
         }
         _26 = _6;
         _27 = _8;
-        _28 = *(&mut *((*(&mut (*(_26 as *mut l_struct_struct_OC_packed_percentile_table)).field2
-            as *mut l_array_2_uint16_t))
+        _28 = *(&mut *((*(&mut (*(_26
+            as *mut l_struct_struct_OC_packed_percentile_table))
+            .field2 as *mut [uint16_t; 2]))
             .array)
             .as_mut_ptr()
             .offset(_27 as int32_t as int64_t as isize) as *mut uint16_t);
         _9 = _28 as uint32_t;
         _29 = _6;
         _30 = _8;
-        _31 = *(&mut *((*(&mut (*(_29 as *mut l_struct_struct_OC_packed_percentile_table)).field3
-            as *mut l_array_2_uint16_t))
+        _31 = *(&mut *((*(&mut (*(_29
+            as *mut l_struct_struct_OC_packed_percentile_table))
+            .field3 as *mut [uint16_t; 2]))
             .array)
             .as_mut_ptr()
             .offset(_30 as int32_t as int64_t as isize) as *mut uint16_t);
         _10 = _31 as uint32_t;
         _32 = _6;
         _33 = _8;
-        _34 = *(&mut *((*(&mut (*(_32 as *mut l_struct_struct_OC_packed_percentile_table)).field4
-            as *mut l_array_2_uint16_t))
+        _34 = *(&mut *((*(&mut (*(_32
+            as *mut l_struct_struct_OC_packed_percentile_table))
+            .field4 as *mut [uint16_t; 2]))
             .array)
             .as_mut_ptr()
             .offset(_33 as int32_t as int64_t as isize) as *mut uint16_t);
         _11 = _34 as uint32_t;
         _35 = _6;
         _36 = _8;
-        _37 = *(&mut *((*(&mut (*(_35 as *mut l_struct_struct_OC_packed_percentile_table)).field5
-            as *mut l_array_2_void_KC_))
+        _37 = *(&mut *((*(&mut (*(_35
+            as *mut l_struct_struct_OC_packed_percentile_table))
+            .field5 as *mut [void_KC_; 2]))
             .array)
             .as_mut_ptr()
-            .offset(_36 as int32_t as int64_t as isize)
-            as *mut *mut core::ffi::c_void);
+            .offset(_36 as int32_t as int64_t as isize) as *mut *mut core::ffi::c_void);
         _12 = _37;
         _13 = 0;
         loop {
@@ -7645,13 +7374,14 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             }
             _40 = _12;
             _41 = _13;
-            _42 = *(&mut *(_40 as *mut uint16_t).offset(_41 as uint64_t as int64_t as isize)
-                as *mut uint16_t);
+            _42 = *(&mut *(_40 as *mut uint16_t)
+                .offset(_41 as uint64_t as int64_t as isize) as *mut uint16_t);
             _14 = _42;
             _43 = _14;
             _15 = _43 as uint32_t & 2047;
             _44 = _14;
-            _16 = llvm_ashr_u32(_44 as uint32_t as int32_t, 11 as core::ffi::c_int) & 31;
+            _16 = llvm_ashr_u32(_44 as uint32_t as int32_t, 11 as core::ffi::c_int)
+                & 31;
             _45 = _16;
             _46 = _11;
             _11 = llvm_add_u32(_46, _45);
@@ -7659,9 +7389,12 @@ pub unsafe extern "C" fn _Z23get_2d_percentile_tablejj(
             _48 = _10;
             _49 = _5;
             _50 = _15;
-            *(&mut *(_49 as *mut core::ffi::c_float).offset(_50 as uint64_t as int64_t as isize)
-                as *mut core::ffi::c_float) =
-                llvm_fdiv_f32(_47 as core::ffi::c_float, _48 as core::ffi::c_float);
+            *(&mut *(_49 as *mut core::ffi::c_float)
+                .offset(_50 as uint64_t as int64_t as isize)
+                as *mut core::ffi::c_float) = llvm_fdiv_f32(
+                _47 as core::ffi::c_float,
+                _48 as core::ffi::c_float,
+            );
             _51 = _13;
             _13 = llvm_add_u32(_51, 1);
         }
@@ -7692,59 +7425,73 @@ unsafe extern "C" fn _ZL16get_packed_tableii(
     _74 = _71;
     match _74 {
         1028 => {
-            _68 = &_ZL13block_pcd_4x4 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_4x4
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1029 => {
-            _68 = &_ZL13block_pcd_5x4 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_5x4
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1285 => {
-            _68 = &_ZL13block_pcd_5x5 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_5x5
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1286 => {
-            _68 = &_ZL13block_pcd_6x5 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_6x5
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1542 => {
-            _68 = &_ZL13block_pcd_6x6 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_6x6
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1288 => {
-            _68 = &_ZL13block_pcd_8x5 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_8x5
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1544 => {
-            _68 = &_ZL13block_pcd_8x6 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_8x6
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         2056 => {
-            _68 = &_ZL13block_pcd_8x8 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL13block_pcd_8x8
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1290 => {
-            _68 = &_ZL14block_pcd_10x5 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL14block_pcd_10x5
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         1546 => {
-            _68 = &_ZL14block_pcd_10x6 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL14block_pcd_10x6
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         2058 => {
-            _68 = &_ZL14block_pcd_10x8 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL14block_pcd_10x8
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         2570 => {
-            _68 = &_ZL15block_pcd_10x10 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL15block_pcd_10x10
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         2572 => {
-            _68 = &_ZL15block_pcd_12x10 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL15block_pcd_12x10
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         3084 => {
-            _68 = &_ZL15block_pcd_12x12 as *const l_struct_struct_OC_packed_percentile_table
+            _68 = &_ZL15block_pcd_12x12
+                as *const l_struct_struct_OC_packed_percentile_table
                 as *mut core::ffi::c_void;
         }
         _ => {
@@ -7812,7 +7559,8 @@ pub unsafe extern "C" fn _Z22is_legal_3d_block_sizejjj(
     _112 = _113 << 16 as core::ffi::c_int | _114 << 8 as core::ffi::c_int | _115;
     _116 = _112;
     match _116 {
-        197379 | 262915 | 263171 | 263172 | 328708 | 328964 | 328965 | 394501 | 394757 | 394758 => {
+        197379 | 262915 | 263171 | 263172 | 328708 | 328964 | 328965 | 394501 | 394757
+        | 394758 => {
             _108 = 1 as core::ffi::c_int as bool_0;
         }
         _ => {

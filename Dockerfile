@@ -86,10 +86,15 @@ RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
 RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
 RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
 
-# Replace all structs named `l_array_*_uint*_t` with their array equivalent
-# TODO: line below doesn't work
-#RUN cd src && for f in *.rs; do sed -i '/#[derive(Copy, Clone)]\n#[repr(C)]\npub struct l_array_\([0-9]*\)_uint\([0-9]*\)_t {/,/}/d' $f; done
-#RUN cd src && for f in *.rs; do sed -i 's/l_array_\([0-9]*\)_uint\([0-9]*\)_t/[\2; \1]/g' $f; done
+# There are many structs named `l_array_*_uint*_t` which have a single field with an array.
+# These structs are redefined locally in each module. Unfortunately, when a function that returns
+# a struct like this is called from a different module, the Rust compiler will yield a compilation
+# error due to the returned struct being different from the locally-defined one, even though they
+# are identical.
+# To solve this, we replace all these structs with their array equivalent.
+RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/#\[derive(Copy, Clone)\]\n#\[repr(C)\]\npub struct l_array_[0-9]*_[_a-zA-Z0-9]* {\n[ ]*pub array: \[[:_a-zA-Z0-9]*; [0-9]*\],\n}\n//g' $f; done
+RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/l_array_[0-9]*_[_a-zA-Z0-9]*[[:space:]]*{[[:space:]]*array: /{/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/l_array_\([0-9]*\)_\([_a-zA-Z0-9]*\)/[\2; \1]/g' $f; done
 
 # Add some substitutes to C/C++ functions in `lib.rs`
 RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs

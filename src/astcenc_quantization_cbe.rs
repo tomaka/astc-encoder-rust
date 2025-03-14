@@ -4,122 +4,15 @@ pub type __uint8_t = core::ffi::c_uchar;
 pub type uint8_t = __uint8_t;
 #[derive(Copy, Clone)]
 #[repr(C)]
-pub struct l_array_512_uint8_t {
-    pub array: [uint8_t; 512],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_17_struct_AC_l_array_512_uint8_t {
-    pub array: [l_array_512_uint8_t; 17],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_256_uint8_t {
-    pub array: [uint8_t; 256],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_17_struct_AC_l_array_256_uint8_t {
-    pub array: [l_array_256_uint8_t; 17],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_6_uint8_t {
-    pub array: [uint8_t; 6],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_8_uint8_t {
-    pub array: [uint8_t; 8],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_10_uint8_t {
-    pub array: [uint8_t; 10],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_12_uint8_t {
-    pub array: [uint8_t; 12],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_16_uint8_t {
-    pub array: [uint8_t; 16],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_20_uint8_t {
-    pub array: [uint8_t; 20],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_24_uint8_t {
-    pub array: [uint8_t; 24],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_32_uint8_t {
-    pub array: [uint8_t; 32],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_40_uint8_t {
-    pub array: [uint8_t; 40],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_48_uint8_t {
-    pub array: [uint8_t; 48],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_64_uint8_t {
-    pub array: [uint8_t; 64],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_80_uint8_t {
-    pub array: [uint8_t; 80],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_96_uint8_t {
-    pub array: [uint8_t; 96],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_128_uint8_t {
-    pub array: [uint8_t; 128],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_160_uint8_t {
-    pub array: [uint8_t; 160],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_192_uint8_t {
-    pub array: [uint8_t; 192],
-}
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_17_void_KC_ {
+pub struct [void_KC_; 17] {
     pub array: [*mut core::ffi::c_void; 17],
 }
-#[derive(Copy, Clone)]
-#[repr(C)]
-pub struct l_array_10_struct_AC_l_array_128_uint8_t {
-    pub array: [l_array_128_uint8_t; 10],
-}
 #[no_mangle]
-pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_uint8_t = unsafe {
+pub static mut color_unquant_to_uquant_tables: [struct_AC_l_array_512_uint8_t; 17] = unsafe {
     {
-        let mut init = l_array_17_struct_AC_l_array_512_uint8_t {
-            array: [
+        let mut init = {[
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -129,8 +22,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -140,8 +32,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -151,8 +42,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -162,8 +52,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -173,8 +62,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -184,8 +72,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -195,8 +82,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -206,8 +92,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -217,8 +102,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -228,8 +112,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -239,8 +122,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -250,8 +132,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -261,8 +142,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -272,8 +152,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -283,8 +162,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -294,8 +172,7 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
                     init
                 },
                 {
-                    let mut init = l_array_512_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 512],
                             &mut [uint8_t; 512],
                         >(
@@ -310,13 +187,11 @@ pub static mut color_unquant_to_uquant_tables: l_array_17_struct_AC_l_array_512_
     }
 };
 #[no_mangle]
-pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_array_256_uint8_t = unsafe {
+pub static mut color_uquant_to_scrambled_pquant_tables: [struct_AC_l_array_256_uint8_t; 17] = unsafe {
     {
-        let mut init = l_array_17_struct_AC_l_array_256_uint8_t {
-            array: [
+        let mut init = {[
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -326,8 +201,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -337,8 +211,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -348,8 +221,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -359,8 +231,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -370,8 +241,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -381,8 +251,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -392,8 +261,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -403,8 +271,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -414,8 +281,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -425,8 +291,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -436,8 +301,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -447,8 +311,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -458,8 +321,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -469,8 +331,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -480,8 +341,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -491,8 +351,7 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
                     init
                 },
                 {
-                    let mut init = l_array_256_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 256],
                             &mut [uint8_t; 256],
                         >(
@@ -506,76 +365,79 @@ pub static mut color_uquant_to_scrambled_pquant_tables: l_array_17_struct_AC_l_a
         init
     }
 };
-static mut _ZL35color_scrambled_pquant_to_uquant_q6: l_array_6_uint8_t = unsafe {
+static mut _ZL35color_scrambled_pquant_to_uquant_q6: [uint8_t; 6] = unsafe {
     {
-        let mut init = l_array_6_uint8_t {
-            array: *::core::mem::transmute::<&[u8; 6], &mut [uint8_t; 6]>(b"\0\xFF3\xCCf\x99"),
+        let mut init = {*::core::mem::transmute::<
+                &[u8; 6],
+                &mut [uint8_t; 6],
+            >(b"\0\xFF3\xCCf\x99"),
         };
         init
     }
 };
-static mut _ZL35color_scrambled_pquant_to_uquant_q8: l_array_8_uint8_t = unsafe {
+static mut _ZL35color_scrambled_pquant_to_uquant_q8: [uint8_t; 8] = unsafe {
     {
-        let mut init = l_array_8_uint8_t {
-            array: *::core::mem::transmute::<&[u8; 8], &mut [uint8_t; 8]>(b"\0$Im\x92\xB6\xDB\xFF"),
+        let mut init = {*::core::mem::transmute::<
+                &[u8; 8],
+                &mut [uint8_t; 8],
+            >(b"\0$Im\x92\xB6\xDB\xFF"),
         };
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q10: l_array_10_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q10: [uint8_t; 10] = unsafe {
     {
-        let mut init = l_array_10_uint8_t {
-            array: *::core::mem::transmute::<&[u8; 10], &mut [uint8_t; 10]>(
-                b"\0\xFF\x1C\xE38\xC7T\xABq\x8E",
-            ),
+        let mut init = {*::core::mem::transmute::<
+                &[u8; 10],
+                &mut [uint8_t; 10],
+            >(b"\0\xFF\x1C\xE38\xC7T\xABq\x8E"),
         };
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q12: l_array_12_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q12: [uint8_t; 12] = unsafe {
     {
-        let mut init = l_array_12_uint8_t {
-            array: *::core::mem::transmute::<&[u8; 12], &mut [uint8_t; 12]>(
-                b"\0\xFFE\xBA\x17\xE8\\\xA3.\xD1t\x8B",
-            ),
+        let mut init = {*::core::mem::transmute::<
+                &[u8; 12],
+                &mut [uint8_t; 12],
+            >(b"\0\xFFE\xBA\x17\xE8\\\xA3.\xD1t\x8B"),
         };
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q16: l_array_16_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q16: [uint8_t; 16] = unsafe {
     {
-        let mut init = l_array_16_uint8_t {
-            array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(
-                b"\0\x11\"3DUfw\x88\x99\xAA\xBB\xCC\xDD\xEE\xFF",
-            ),
+        let mut init = {*::core::mem::transmute::<
+                &[u8; 16],
+                &mut [uint8_t; 16],
+            >(b"\0\x11\"3DUfw\x88\x99\xAA\xBB\xCC\xDD\xEE\xFF"),
         };
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q20: l_array_20_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q20: [uint8_t; 20] = unsafe {
     {
-        let mut init = l_array_20_uint8_t {
-            array: *::core::mem::transmute::<&[u8; 20], &mut [uint8_t; 20]>(
-                b"\0\xFFC\xBC\r\xF2P\xAF\x1B\xE4^\xA1(\xD7k\x946\xC9y\x86",
-            ),
+        let mut init = {*::core::mem::transmute::<
+                &[u8; 20],
+                &mut [uint8_t; 20],
+            >(b"\0\xFFC\xBC\r\xF2P\xAF\x1B\xE4^\xA1(\xD7k\x946\xC9y\x86"),
         };
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q24: l_array_24_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q24: [uint8_t; 24] = unsafe {
     {
-        let mut init = l_array_24_uint8_t {
-            array: *::core::mem::transmute::<&[u8; 24], &mut [uint8_t; 24]>(
-                b"\0\xFF!\xDEB\xBDc\x9C\x0B\xF4,\xD3M\xB2n\x91\x16\xE97\xC8X\xA7y\x86",
-            ),
+        let mut init = {*::core::mem::transmute::<
+                &[u8; 24],
+                &mut [uint8_t; 24],
+            >(b"\0\xFF!\xDEB\xBDc\x9C\x0B\xF4,\xD3M\xB2n\x91\x16\xE97\xC8X\xA7y\x86"),
         };
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q32: l_array_32_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q32: [uint8_t; 32] = unsafe {
     {
-        let mut init = l_array_32_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 32],
                 &mut [uint8_t; 32],
             >(
@@ -585,10 +447,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q32: l_array_32_uint8_t = unsaf
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q40: l_array_40_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q40: [uint8_t; 40] = unsafe {
     {
-        let mut init = l_array_40_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 40],
                 &mut [uint8_t; 40],
             >(
@@ -598,10 +459,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q40: l_array_40_uint8_t = unsaf
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q48: l_array_48_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q48: [uint8_t; 48] = unsafe {
     {
-        let mut init = l_array_48_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 48],
                 &mut [uint8_t; 48],
             >(
@@ -611,10 +471,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q48: l_array_48_uint8_t = unsaf
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q64: l_array_64_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q64: [uint8_t; 64] = unsafe {
     {
-        let mut init = l_array_64_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 64],
                 &mut [uint8_t; 64],
             >(
@@ -624,10 +483,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q64: l_array_64_uint8_t = unsaf
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q80: l_array_80_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q80: [uint8_t; 80] = unsafe {
     {
-        let mut init = l_array_80_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 80],
                 &mut [uint8_t; 80],
             >(
@@ -637,10 +495,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q80: l_array_80_uint8_t = unsaf
         init
     }
 };
-static mut _ZL36color_scrambled_pquant_to_uquant_q96: l_array_96_uint8_t = unsafe {
+static mut _ZL36color_scrambled_pquant_to_uquant_q96: [uint8_t; 96] = unsafe {
     {
-        let mut init = l_array_96_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 96],
                 &mut [uint8_t; 96],
             >(
@@ -650,10 +507,9 @@ static mut _ZL36color_scrambled_pquant_to_uquant_q96: l_array_96_uint8_t = unsaf
         init
     }
 };
-static mut _ZL37color_scrambled_pquant_to_uquant_q128: l_array_128_uint8_t = unsafe {
+static mut _ZL37color_scrambled_pquant_to_uquant_q128: [uint8_t; 128] = unsafe {
     {
-        let mut init = l_array_128_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 128],
                 &mut [uint8_t; 128],
             >(
@@ -663,10 +519,9 @@ static mut _ZL37color_scrambled_pquant_to_uquant_q128: l_array_128_uint8_t = uns
         init
     }
 };
-static mut _ZL37color_scrambled_pquant_to_uquant_q160: l_array_160_uint8_t = unsafe {
+static mut _ZL37color_scrambled_pquant_to_uquant_q160: [uint8_t; 160] = unsafe {
     {
-        let mut init = l_array_160_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 160],
                 &mut [uint8_t; 160],
             >(
@@ -676,10 +531,9 @@ static mut _ZL37color_scrambled_pquant_to_uquant_q160: l_array_160_uint8_t = uns
         init
     }
 };
-static mut _ZL37color_scrambled_pquant_to_uquant_q192: l_array_192_uint8_t = unsafe {
+static mut _ZL37color_scrambled_pquant_to_uquant_q192: [uint8_t; 192] = unsafe {
     {
-        let mut init = l_array_192_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 192],
                 &mut [uint8_t; 192],
             >(
@@ -689,10 +543,9 @@ static mut _ZL37color_scrambled_pquant_to_uquant_q192: l_array_192_uint8_t = uns
         init
     }
 };
-static mut _ZL37color_scrambled_pquant_to_uquant_q256: l_array_256_uint8_t = unsafe {
+static mut _ZL37color_scrambled_pquant_to_uquant_q256: [uint8_t; 256] = unsafe {
     {
-        let mut init = l_array_256_uint8_t {
-            array: *::core::mem::transmute::<
+        let mut init = {*::core::mem::transmute::<
                 &[u8; 256],
                 &mut [uint8_t; 256],
             >(
@@ -703,43 +556,42 @@ static mut _ZL37color_scrambled_pquant_to_uquant_q256: l_array_256_uint8_t = uns
     }
 };
 #[no_mangle]
-pub static mut color_scrambled_pquant_to_uquant_tables: l_array_17_void_KC_ = unsafe {
+pub static mut color_scrambled_pquant_to_uquant_tables: [void_KC_; 17] = unsafe {
     {
-        let mut init = l_array_17_void_KC_ {
-            array: [
-                &_ZL35color_scrambled_pquant_to_uquant_q6 as *const l_array_6_uint8_t
+        let mut init = {[
+                &_ZL35color_scrambled_pquant_to_uquant_q6 as *const [uint8_t; 6]
                     as *mut core::ffi::c_void,
-                &_ZL35color_scrambled_pquant_to_uquant_q8 as *const l_array_8_uint8_t
+                &_ZL35color_scrambled_pquant_to_uquant_q8 as *const [uint8_t; 8]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q10 as *const l_array_10_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q10 as *const [uint8_t; 10]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q12 as *const l_array_12_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q12 as *const [uint8_t; 12]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q16 as *const l_array_16_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q16 as *const [uint8_t; 16]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q20 as *const l_array_20_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q20 as *const [uint8_t; 20]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q24 as *const l_array_24_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q24 as *const [uint8_t; 24]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q32 as *const l_array_32_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q32 as *const [uint8_t; 32]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q40 as *const l_array_40_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q40 as *const [uint8_t; 40]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q48 as *const l_array_48_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q48 as *const [uint8_t; 48]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q64 as *const l_array_64_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q64 as *const [uint8_t; 64]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q80 as *const l_array_80_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q80 as *const [uint8_t; 80]
                     as *mut core::ffi::c_void,
-                &_ZL36color_scrambled_pquant_to_uquant_q96 as *const l_array_96_uint8_t
+                &_ZL36color_scrambled_pquant_to_uquant_q96 as *const [uint8_t; 96]
                     as *mut core::ffi::c_void,
-                &_ZL37color_scrambled_pquant_to_uquant_q128 as *const l_array_128_uint8_t
+                &_ZL37color_scrambled_pquant_to_uquant_q128 as *const [uint8_t; 128]
                     as *mut core::ffi::c_void,
-                &_ZL37color_scrambled_pquant_to_uquant_q160 as *const l_array_160_uint8_t
+                &_ZL37color_scrambled_pquant_to_uquant_q160 as *const [uint8_t; 160]
                     as *mut core::ffi::c_void,
-                &_ZL37color_scrambled_pquant_to_uquant_q192 as *const l_array_192_uint8_t
+                &_ZL37color_scrambled_pquant_to_uquant_q192 as *const [uint8_t; 192]
                     as *mut core::ffi::c_void,
-                &_ZL37color_scrambled_pquant_to_uquant_q256 as *const l_array_256_uint8_t
+                &_ZL37color_scrambled_pquant_to_uquant_q256 as *const [uint8_t; 256]
                     as *mut core::ffi::c_void,
             ],
         };
@@ -747,13 +599,11 @@ pub static mut color_scrambled_pquant_to_uquant_tables: l_array_17_void_KC_ = un
     }
 };
 #[no_mangle]
-pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsafe {
+pub static mut quant_mode_table: [struct_AC_l_array_128_uint8_t; 10] = unsafe {
     {
-        let mut init = l_array_10_struct_AC_l_array_128_uint8_t {
-            array: [
+        let mut init = {[
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -763,8 +613,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -774,8 +623,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -785,8 +633,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -796,8 +643,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -807,8 +653,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -818,8 +663,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -829,8 +673,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -840,8 +683,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
@@ -851,8 +693,7 @@ pub static mut quant_mode_table: l_array_10_struct_AC_l_array_128_uint8_t = unsa
                     init
                 },
                 {
-                    let mut init = l_array_128_uint8_t {
-                        array: *::core::mem::transmute::<
+                    let mut init = {*::core::mem::transmute::<
                             &[u8; 128],
                             &mut [uint8_t; 128],
                         >(
