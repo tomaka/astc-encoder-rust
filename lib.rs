@@ -1,3 +1,5 @@
+#![allow(unused_imports)]
+#![allow(unused_parens)]
 #![allow(ambiguous_glob_imports)]
 #![allow(ambiguous_glob_reexports)]
 #![allow(dead_code)]
@@ -110,8 +112,14 @@ fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -
     *out = res;
     carry as u8
 }
+unsafe fn posix_memalign(
+    memptr: *mut core::ffi::c_void,
+    align: u64,
+    size: u64,
+) -> core::ffi::c_int {
+    libc::posix_memalign(memptr as *mut _, align as usize, size as usize)
+}
 use libc::free;
-use libc::posix_memalign;
 unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void {
     libc::malloc(size as libc::size_t)
 }
@@ -130,5 +138,9 @@ unsafe fn _ZSt25__throw_bad_function_callv() -> ! {
 unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! {
     panic!()
 }
-use libc::pthread_mutex_lock;
-use libc::pthread_mutex_unlock;
+unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) {
+    libc::pthread_mutex_lock(mutex as *mut _)
+}
+unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) {
+    libc::pthread_mutex_unlock(mutex as *mut _)
+}

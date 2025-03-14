@@ -86,6 +86,9 @@ RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
 RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
 RUN sed -i '1 i\#![allow(ambiguous_glob_reexports)]' lib.rs
 RUN sed -i '1 i\#![allow(ambiguous_glob_imports)]' lib.rs
+# Some warning silencing
+RUN sed -i '1 i\#![allow(unused_parens)]' lib.rs
+RUN sed -i '1 i\#![allow(unused_imports)]' lib.rs
 
 # There are many structs named `l_array_*_uint*_t` which have a single field with an array.
 # These structs are redefined locally in each module. Unfortunately, when a function that returns
@@ -119,7 +122,7 @@ RUN echo "fn logf(v: f32) -> f32 { v.ln() }" >> lib.rs
 RUN echo "fn fegetround() -> core::ffi::c_uint { 0 }" >> lib.rs
 RUN echo "fn __assert_fail(_assertion: *mut core::ffi::c_void, _file: *mut core::ffi::c_void, _line: core::ffi::c_uint, _function: *mut core::ffi::c_void) -> ! { panic!() }" >> lib.rs
 RUN echo "fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -> u8 { let (res, carry) = (*a).overflowing_mul(*b); *out = res; carry as u8 }" >> lib.rs
-RUN echo "use libc::posix_memalign;" >> lib.rs
+RUN echo "unsafe fn posix_memalign(memptr: *mut core::ffi::c_void, align: u64, size: u64) -> core::ffi::c_int { libc::posix_memalign(memptr as *mut _, align as usize, size as usize) }" >> lib.rs
 RUN echo "use libc::free;" >> lib.rs
 RUN echo "unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
 RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
@@ -127,8 +130,8 @@ RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> 
 RUN echo "unsafe fn _ZdlPvm(ptr: *mut core::ffi::c_void, _: u64) { libc::free(ptr) }" >> lib.rs
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
-RUN echo "use libc::pthread_mutex_lock;" >> lib.rs
-RUN echo "use libc::pthread_mutex_unlock;" >> lib.rs
+RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) { libc::pthread_mutex_lock(mutex as *mut _) }" >> lib.rs
+RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) { libc::pthread_mutex_unlock(mutex as *mut _) }" >> lib.rs
 
 # Rustfmt
 RUN cargo fmt
