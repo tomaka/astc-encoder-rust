@@ -136,7 +136,7 @@ RUN echo "unsafe fn _ZdlPvm(ptr: *mut core::ffi::c_void, _: u64) { libc::free(pt
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
 RUN echo "// __cxa_begin_catch is only ever used right before a call to terminate()" >> lib.rs
-RUN echo "unsafe fn __cxa_begin_catch(_: *mut core::ffi::c_void) -> ! { core::ptr::null_mut() }" >> lib.rs
+RUN echo "unsafe fn __cxa_begin_catch(_: *mut core::ffi::c_void) -> *mut core::ffi::c_void { core::ptr::null_mut() }" >> lib.rs
 RUN echo "unsafe fn _ZSt9terminatev() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_lock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs
 RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_unlock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs

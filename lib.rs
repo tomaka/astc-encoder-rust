@@ -139,7 +139,7 @@ unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! {
     panic!()
 }
 // __cxa_begin_catch is only ever used right before a call to terminate()
-unsafe fn __cxa_begin_catch(_: *mut core::ffi::c_void) -> ! {
+unsafe fn __cxa_begin_catch(_: *mut core::ffi::c_void) -> *mut core::ffi::c_void {
     core::ptr::null_mut()
 }
 unsafe fn _ZSt9terminatev() -> ! {
