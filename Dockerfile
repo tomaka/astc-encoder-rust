@@ -130,8 +130,9 @@ RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> 
 RUN echo "unsafe fn _ZdlPvm(ptr: *mut core::ffi::c_void, _: u64) { libc::free(ptr) }" >> lib.rs
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
-RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) { libc::pthread_mutex_lock(mutex as *mut _) }" >> lib.rs
-RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) { libc::pthread_mutex_unlock(mutex as *mut _) }" >> lib.rs
+RUN echo "unsafe fn _ZSt9terminatev() -> ! { panic!() }" >> lib.rs
+RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int { libc::pthread_mutex_lock(mutex as *mut _) }" >> lib.rs
+RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int { libc::pthread_mutex_unlock(mutex as *mut _) }" >> lib.rs
 
 # Rustfmt
 RUN cargo fmt

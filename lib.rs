@@ -138,9 +138,12 @@ unsafe fn _ZSt25__throw_bad_function_callv() -> ! {
 unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! {
     panic!()
 }
-unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) {
+unsafe fn _ZSt9terminatev() -> ! {
+    panic!()
+}
+unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int {
     libc::pthread_mutex_lock(mutex as *mut _)
 }
-unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) {
+unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_int {
     libc::pthread_mutex_unlock(mutex as *mut _)
 }
