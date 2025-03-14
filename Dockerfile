@@ -72,8 +72,7 @@ RUN echo "pub use bindings::*;" >> lib.rs
 # Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
 RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
 # Remove casting of numeric constants which causes signed/unsigned types issues
-RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint32_t/\1/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint64_t/\1/g' $f; done
+RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint[0-9]*_t/\1/g' $f; done
 RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
 # Replace `libc::` with `core::ffi::` and remove `libc` altogether
 RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/g' $f; done
@@ -92,9 +91,9 @@ RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> 
 # error due to the returned struct being different from the locally-defined one, even though they
 # are identical.
 # To solve this, we replace all these structs with their array equivalent.
-RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/#\[derive(Copy, Clone)\]\n#\[repr(C)\]\npub struct l_array_[0-9]*_[_a-zA-Z0-9]* {\n[ ]*pub array: \[[:_a-zA-Z0-9]*; [0-9]*\],\n}\n//g' $f; done
-RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/l_array_[0-9]*_[_a-zA-Z0-9]*[[:space:]]*{[[:space:]]*array: /{/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/l_array_\([0-9]*\)_\([_a-zA-Z0-9]*\)/[\2; \1]/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/#\[derive(Copy, Clone)\]\n#\[repr(C)\]\npub struct l_array_[0-9]*_[_a-zA-Z0-9]* {\n[ ]*pub array: \[[:_a-zA-Z0-9]*; [0-9]*\],\n}\n//g' $f; done
+#RUN cd src && for f in *.rs; do sed -i -e ':a' -e 'N' -e '$!ba' -e 's/l_array_[0-9]*_[_a-zA-Z0-9]*[[:space:]]*{[[:space:]]*array: /{/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/l_array_\([0-9]*\)_\([_a-zA-Z0-9]*\)/[\2; \1]/g' $f; done
 
 # Add some substitutes to C/C++ functions in `lib.rs`
 RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs
@@ -114,6 +113,7 @@ RUN echo "use libc::free;" >> lib.rs
 RUN echo "unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
 RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
 RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> lib.rs
+RUN echo "unsafe fn _ZdlPvm(ptr: *mut core::ffi::c_void, _: u64) { libc::free(ptr) }" >> lib.rs
 RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
 RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
 RUN echo "use libc::pthread_mutex_lock;" >> lib.rs

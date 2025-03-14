@@ -18,13 +18,39 @@ pub struct l_struct_union_OC_if32 {
     pub field0: uint32_t,
 }
 #[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_64_uint32_t {
+    pub array: [uint32_t; 64],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_128_uint8_t {
+    pub array: [uint8_t; 128],
+}
+#[derive(Copy, Clone)]
 #[repr(C, packed)]
 pub struct l_unnamed_1 {
-    pub field0: [uint8_t; 128],
-    pub field1: [uint8_t; 128],
+    pub field0: l_array_128_uint8_t,
+    pub field1: l_array_128_uint8_t,
 }
-static mut _ZZL12sf16_to_sf32tE3tbl: [uint32_t; 64] = {
-    let mut init = {[
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_512_uint8_t {
+    pub array: [uint8_t; 512],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_60_uint32_t {
+    pub array: [uint32_t; 60],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_256_uint8_t {
+    pub array: [uint8_t; 256],
+}
+static mut _ZZL12sf16_to_sf32tE3tbl: l_array_64_uint32_t = {
+    let mut init = l_array_64_uint32_t {
+        array: [
             2147483648 as core::ffi::c_uint,
             114688,
             114688,
@@ -97,7 +123,8 @@ static mut _ZL9clz_table: l_unnamed_1 = unsafe {
     {
         let mut init = l_unnamed_1 {
             field0: {
-                let mut init = {*::core::mem::transmute::<
+                let mut init = l_array_128_uint8_t {
+                    array: *::core::mem::transmute::<
                         &[u8; 128],
                         &mut [uint8_t; 128],
                     >(
@@ -107,135 +134,14 @@ static mut _ZL9clz_table: l_unnamed_1 = unsafe {
                 init
             },
             field1: {
-                let mut init = {[
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
-                        0 as core::ffi::c_int as uint8_t,
+                let mut init = l_array_128_uint8_t {
+                    array: [
+                        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0,
                     ],
                 };
                 init
@@ -244,9 +150,10 @@ static mut _ZL9clz_table: l_unnamed_1 = unsafe {
         init
     }
 };
-static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: [uint8_t; 512] = unsafe {
+static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: l_array_512_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
+        let mut init = l_array_512_uint8_t {
+            array: *::core::mem::transmute::<
                 &[u8; 512],
                 &mut [uint8_t; 512],
             >(
@@ -256,8 +163,9 @@ static mut _ZZL12sf32_to_sf16j9roundmodeE3tab: [uint8_t; 512] = unsafe {
         init
     }
 };
-static mut _ZZL12sf32_to_sf16j9roundmodeE4tabx: [uint32_t; 60] = {
-    let mut init = {[
+static mut _ZZL12sf32_to_sf16j9roundmodeE4tabx: l_array_60_uint32_t = {
+    let mut init = l_array_60_uint32_t {
+        array: [
             0,
             0,
             0,
@@ -346,9 +254,7 @@ unsafe extern "C" fn llvm_neg_u32(mut a: int32_t) -> uint32_t {
 #[inline(never)]
 pub unsafe extern "C" fn _Z13sf16_to_floatt(mut _1: uint16_t) -> core::ffi::c_float {
     let mut _2: uint16_t = 0;
-    let mut _3: l_struct_union_OC_if32 = l_struct_union_OC_if32 {
-        field0: 0,
-    };
+    let mut _3: l_struct_union_OC_if32 = l_struct_union_OC_if32 { field0: 0 };
     let mut _4: uint16_t = 0;
     let mut _5: uint32_t = 0;
     let mut _6: core::ffi::c_float = 0.;
@@ -396,12 +302,8 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
     _17 = *(&*(_ZZL12sf16_to_sf32tE3tbl.array)
         .as_ptr()
         .offset(
-            (llvm_lshr_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_16, 10) as uint64_t as int64_t
-                as isize,
+            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_16, 10)
+                as uint64_t as int64_t as isize,
         ) as *const uint32_t as *mut uint32_t);
     _11 = _17;
     _18 = _10;
@@ -438,8 +340,7 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
                 _8 = llvm_add_u32(
                     llvm_add_u32(
                         llvm_lshr_u32(_32, 8),
-                        llvm_sub_u32(133, _33)
-                            << 23 as core::ffi::c_int,
+                        llvm_sub_u32(133, _33) << 23 as core::ffi::c_int,
                     ),
                     _34,
                 );
@@ -453,9 +354,7 @@ unsafe extern "C" fn _ZL12sf16_to_sf32t(mut _7: uint16_t) -> uint32_t {
 #[inline(never)]
 pub unsafe extern "C" fn _Z13float_to_sf16f(mut _43: core::ffi::c_float) -> uint16_t {
     let mut _44: core::ffi::c_float = 0.;
-    let mut _45: l_struct_union_OC_if32 = l_struct_union_OC_if32 {
-        field0: 0,
-    };
+    let mut _45: l_struct_union_OC_if32 = l_struct_union_OC_if32 { field0: 0 };
     let mut _46: core::ffi::c_float = 0.;
     let mut _47: uint32_t = 0;
     let mut _48: uint16_t = 0;
@@ -525,12 +424,8 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
     _59 = *(&*(_ZZL12sf32_to_sf16j9roundmodeE3tab.array)
         .as_ptr()
         .offset(
-            (llvm_lshr_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_58, 23) as uint64_t as int64_t
-                as isize,
+            (llvm_lshr_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(_58, 23)
+                as uint64_t as int64_t as isize,
         ) as *const uint8_t as *mut uint8_t);
     _55 = llvm_add_u32(_57, _59 as uint32_t);
     _60 = _55;
@@ -543,39 +438,30 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
     match _62 {
         50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 58 | 59 => {
             _63 = _52;
-            _54 = llvm_sub_u32(_63, 1)
-                & 8388608;
+            _54 = llvm_sub_u32(_63, 1) & 8388608;
             _64 = _52;
             _65 = _56;
             _66 = _54;
-            _51 = (llvm_lshr_u32(llvm_add_u32(_64, _65), 13)
-                | llvm_lshr_u32(_66, 14)) as uint16_t;
+            _51 = (llvm_lshr_u32(llvm_add_u32(_64, _65), 13) | llvm_lshr_u32(_66, 14)) as uint16_t;
         }
         0 => {
             _67 = _52;
-            _51 = llvm_lshr_u32(
-                llvm_neg_u32(_67 as int32_t),
-                31,
-            ) as uint16_t;
+            _51 = llvm_lshr_u32(llvm_neg_u32(_67 as int32_t), 31) as uint16_t;
         }
         6 => {
             _68 = _56;
             _69 = _52;
-            _51 = llvm_add_u32(
-                llvm_lshr_u32(llvm_sub_u32(_68, _69), 31),
-                32768,
-            ) as uint16_t;
+            _51 = llvm_add_u32(llvm_lshr_u32(llvm_sub_u32(_68, _69), 31), 32768) as uint16_t;
         }
-        1 | 2 | 3 | 4 | 5 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19
-        | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 => {
+        1 | 2 | 3 | 4 | 5 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 40
+        | 41 | 42 | 43 | 44 | 45 | 46 | 47 | 48 | 49 => {
             _70 = _56;
             _51 = _70 as uint16_t;
         }
         30 | 31 | 32 | 34 | 35 | 36 | 37 | 39 => {
             _71 = _52;
             _72 = _56;
-            _51 = llvm_lshr_u32(llvm_add_u32(_71, _72), 13)
-                as uint16_t;
+            _51 = llvm_lshr_u32(llvm_add_u32(_71, _72), 13) as uint16_t;
         }
         33 | 38 => {
             _73 = _52;
@@ -583,91 +469,47 @@ unsafe extern "C" fn _ZL12sf32_to_sf16j9roundmode(
             _54 = llvm_add_u32(_73, _74);
             _75 = _52;
             _76 = _54;
-            _54 = llvm_add_u32(
-                _76,
-                llvm_lshr_u32(_75, 13)
-                    & 1,
-            );
+            _54 = llvm_add_u32(_76, llvm_lshr_u32(_75, 13) & 1);
             _77 = _54;
             _51 = llvm_lshr_u32(_77, 13) as uint16_t;
         }
         21 | 22 | 25 | 27 => {
             _78 = _52;
-            _54 = llvm_sub_u32(
-                126,
-                llvm_lshr_u32(_78, 23)
-                    & 255,
-            );
+            _54 = llvm_sub_u32(126, llvm_lshr_u32(_78, 23) & 255);
             _79 = _52;
             _80 = _54;
             _81 = _56;
-            _51 = (llvm_lshr_u32(
-                llvm_add_u32(
-                    _79 & 8388607,
-                    8388608,
-                ),
-                _80,
-            ) | _81) as uint16_t;
+            _51 = (llvm_lshr_u32(llvm_add_u32(_79 & 8388607, 8388608), _80) | _81) as uint16_t;
         }
         20 | 26 => {
             _82 = _52;
-            _54 = llvm_sub_u32(
-                126,
-                llvm_lshr_u32(_82, 23)
-                    & 255,
-            );
+            _54 = llvm_sub_u32(126, llvm_lshr_u32(_82, 23) & 255);
             _83 = _52;
             _84 = _54;
-            _85 = _ZL12rtup_shift32jj(
-                llvm_add_u32(
-                    _83 & 8388607,
-                    8388608,
-                ),
-                _84,
-            );
+            _85 = _ZL12rtup_shift32jj(llvm_add_u32(_83 & 8388607, 8388608), _84);
             _86 = _56;
             _51 = (_85 | _86) as uint16_t;
         }
         24 | 29 => {
             _87 = _52;
-            _54 = llvm_sub_u32(
-                126,
-                llvm_lshr_u32(_87, 23)
-                    & 255,
-            );
+            _54 = llvm_sub_u32(126, llvm_lshr_u32(_87, 23) & 255);
             _88 = _52;
             _89 = _54;
-            _90 = _ZL12rtna_shift32jj(
-                llvm_add_u32(
-                    _88 & 8388607,
-                    8388608,
-                ),
-                _89,
-            );
+            _90 = _ZL12rtna_shift32jj(llvm_add_u32(_88 & 8388607, 8388608), _89);
             _91 = _56;
             _51 = (_90 | _91) as uint16_t;
         }
         23 | 28 => {
             _92 = _52;
-            _54 = llvm_sub_u32(
-                126,
-                llvm_lshr_u32(_92, 23)
-                    & 255,
-            );
+            _54 = llvm_sub_u32(126, llvm_lshr_u32(_92, 23) & 255);
             _93 = _52;
             _94 = _54;
-            _95 = _ZL12rtne_shift32jj(
-                llvm_add_u32(
-                    _93 & 8388607,
-                    8388608,
-                ),
-                _94,
-            );
+            _95 = _ZL12rtne_shift32jj(llvm_add_u32(_93 & 8388607, 8388608), _94);
             _96 = _56;
             _51 = (_95 | _96) as uint16_t;
         }
         _ => {
-            _51 = 0 as core::ffi::c_int as uint16_t;
+            _51 = 0;
         }
     }
     _97 = _51;
@@ -704,17 +546,13 @@ unsafe extern "C" fn _ZL5clz32j(mut _110: uint32_t) -> uint32_t {
     }
     _119 = _112;
     _120 = _111;
-    _121 = *(&mut *((*(&_ZL9clz_table as *const l_unnamed_1 as *mut [uint8_t; 256]))
-        .array)
+    _121 = *(&mut *((*(&_ZL9clz_table as *const l_unnamed_1 as *mut l_array_256_uint8_t)).array)
         .as_mut_ptr()
         .offset(_120 as uint64_t as int64_t as isize) as *mut uint8_t);
     return llvm_add_u32(_119, _121 as uint32_t);
 }
 #[inline(never)]
-unsafe extern "C" fn _ZL12rtup_shift32jj(
-    mut _126: uint32_t,
-    mut _127: uint32_t,
-) -> uint32_t {
+unsafe extern "C" fn _ZL12rtup_shift32jj(mut _126: uint32_t, mut _127: uint32_t) -> uint32_t {
     let mut _128: uint32_t = 0;
     let mut _129: uint32_t = 0;
     let mut _130: uint32_t = 0;
@@ -741,10 +579,7 @@ unsafe extern "C" fn _ZL12rtup_shift32jj(
     return _137;
 }
 #[inline(never)]
-unsafe extern "C" fn _ZL12rtna_shift32jj(
-    mut _138: uint32_t,
-    mut _139: uint32_t,
-) -> uint32_t {
+unsafe extern "C" fn _ZL12rtna_shift32jj(mut _138: uint32_t, mut _139: uint32_t) -> uint32_t {
     let mut _140: uint32_t = 0;
     let mut _141: uint32_t = 0;
     let mut _142: uint32_t = 0;
@@ -757,10 +592,7 @@ unsafe extern "C" fn _ZL12rtna_shift32jj(
     _140 = _138;
     _141 = _139;
     _143 = _141;
-    _142 = llvm_lshr_u32(
-        ((1 as core::ffi::c_int) << _143) as uint32_t,
-        1,
-    );
+    _142 = llvm_lshr_u32(((1 as core::ffi::c_int) << _143) as uint32_t, 1);
     _144 = _142;
     _145 = _140;
     _140 = llvm_add_u32(_145, _144);
@@ -771,10 +603,7 @@ unsafe extern "C" fn _ZL12rtna_shift32jj(
     return _148;
 }
 #[inline(never)]
-unsafe extern "C" fn _ZL12rtne_shift32jj(
-    mut _149: uint32_t,
-    mut _150: uint32_t,
-) -> uint32_t {
+unsafe extern "C" fn _ZL12rtne_shift32jj(mut _149: uint32_t, mut _150: uint32_t) -> uint32_t {
     let mut _151: uint32_t = 0;
     let mut _152: uint32_t = 0;
     let mut _153: uint32_t = 0;

@@ -17,8 +17,13 @@ pub struct l_struct_struct_OC_ise_size {
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
+pub struct l_array_21_struct_AC_l_struct_struct_OC_ise_size {
+    pub array: [l_struct_struct_OC_ise_size; 21],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
 pub struct l_struct_struct_OC_std_KD__KD_array {
-    pub field0: [struct_AC_l_struct_struct_OC_ise_size; 21],
+    pub field0: l_array_21_struct_AC_l_struct_struct_OC_ise_size,
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
@@ -27,17 +32,117 @@ pub struct l_struct_struct_OC_btq_count {
 }
 #[derive(Copy, Clone)]
 #[repr(C)]
+pub struct l_array_21_struct_AC_l_struct_struct_OC_btq_count {
+    pub array: [l_struct_struct_OC_btq_count; 21],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
 pub struct l_struct_struct_OC_std_KD__KD_array_OC_0 {
-    pub field0: [struct_AC_l_struct_struct_OC_btq_count; 21],
+    pub field0: l_array_21_struct_AC_l_struct_struct_OC_btq_count,
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_20_uint8_t {
+    pub array: [uint8_t; 20],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_55_uint8_t {
+    pub array: [uint8_t; 55],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_86_uint8_t {
+    pub array: [uint8_t; 86],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_3_uint8_t {
+    pub array: [uint8_t; 3],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_3_struct_AC_l_array_3_uint8_t {
+    pub array: [l_array_3_uint8_t; 3],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+    pub array: [l_array_3_struct_AC_l_array_3_uint8_t; 3],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+    pub array: [l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t
+{
+    pub array: [l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_4_uint8_t {
+    pub array: [uint8_t; 4],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_5_uint8_t {
+    pub array: [uint8_t; 5],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_5_struct_AC_l_array_5_uint8_t {
+    pub array: [l_array_5_uint8_t; 5],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_5_struct_AC_l_array_5_struct_AC_l_array_5_uint8_t {
+    pub array: [l_array_5_struct_AC_l_array_5_uint8_t; 5],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_2_uint8_t {
+    pub array: [uint8_t; 2],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_16_uint8_t {
+    pub array: [uint8_t; 16],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_256_struct_AC_l_array_5_uint8_t {
+    pub array: [l_array_5_uint8_t; 256],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_17_uint8_t {
+    pub array: [uint8_t; 17],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_128_struct_AC_l_array_3_uint8_t {
+    pub array: [l_array_3_uint8_t; 128],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_68_uint8_t {
+    pub array: [uint8_t; 68],
+}
+#[derive(Copy, Clone)]
+#[repr(C)]
+pub struct l_array_22_uint8_t {
+    pub array: [uint8_t; 22],
 }
 static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
     let mut init = l_struct_struct_OC_std_KD__KD_array {
         field0: {
-            let mut init = {[
+            let mut init = l_array_21_struct_AC_l_struct_struct_OC_ise_size {
+                array: [
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 1 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 1 };
                         init
                     },
                     {
@@ -47,9 +152,7 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 2 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 2 };
                         init
                     },
                     {
@@ -65,9 +168,7 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 3 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 3 };
                         init
                     },
                     {
@@ -83,9 +184,7 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 4 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 4 };
                         init
                     },
                     {
@@ -101,9 +200,7 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 5 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 5 };
                         init
                     },
                     {
@@ -119,9 +216,7 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 6 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 6 };
                         init
                     },
                     {
@@ -137,9 +232,7 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 7 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 7 };
                         init
                     },
                     {
@@ -155,9 +248,7 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_ise_size {
-                            field0: 8 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_ise_size { field0: 8 };
                         init
                     },
                 ],
@@ -167,29 +258,30 @@ static mut _ZL9ise_sizes: l_struct_struct_OC_std_KD__KD_array = {
     };
     init
 };
-static mut _OC_str: [uint8_t; 20] = unsafe {
+static mut _OC_str: l_array_20_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 20],
-                &mut [uint8_t; 20],
-            >(b"character_count > 0\0"),
+        let mut init = l_array_20_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 20], &mut [uint8_t; 20]>(
+                b"character_count > 0\0",
+            ),
         };
         init
     }
 };
-static mut _OC_str_OC_1: [uint8_t; 55] = unsafe {
+static mut _OC_str_OC_1: l_array_55_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 55],
-                &mut [uint8_t; 55],
-            >(b"/root/astc-encoder/Source/astcenc_integer_sequence.cpp\0"),
+        let mut init = l_array_55_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 55], &mut [uint8_t; 55]>(
+                b"/root/astc-encoder/Source/astcenc_integer_sequence.cpp\0",
+            ),
         };
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj: [uint8_t; 86] = unsafe {
+static mut __PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj: l_array_86_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
+        let mut init = l_array_86_uint8_t {
+            array: *::core::mem::transmute::<
                 &[u8; 86],
                 &mut [uint8_t; 86],
             >(
@@ -202,11 +294,10 @@ static mut __PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj: [uint8_t;
 static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
     let mut init = l_struct_struct_OC_std_KD__KD_array_OC_0 {
         field0: {
-            let mut init = {[
+            let mut init = l_array_21_struct_AC_l_struct_struct_OC_btq_count {
+                array: [
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 1 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 1 };
                         init
                     },
                     {
@@ -216,9 +307,7 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 2 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 2 };
                         init
                     },
                     {
@@ -234,9 +323,7 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 3 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 3 };
                         init
                     },
                     {
@@ -252,9 +339,7 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 4 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 4 };
                         init
                     },
                     {
@@ -270,9 +355,7 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 5 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 5 };
                         init
                     },
                     {
@@ -288,9 +371,7 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 6 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 6 };
                         init
                     },
                     {
@@ -306,9 +387,7 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 7 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 7 };
                         init
                     },
                     {
@@ -324,9 +403,7 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
                         init
                     },
                     {
-                        let mut init = l_struct_struct_OC_btq_count {
-                            field0: 8 as core::ffi::c_int as uint8_t,
-                        };
+                        let mut init = l_struct_struct_OC_btq_count { field0: 8 };
                         init
                     },
                 ],
@@ -336,17 +413,22 @@ static mut _ZL10btq_counts: l_struct_struct_OC_std_KD__KD_array_OC_0 = {
     };
     init
 };
-static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3] = unsafe {
+static mut _ZL16integer_of_trits: l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t = unsafe {
     {
-        let mut init = {[
+        let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+            array: [
                 {
-                    let mut init = {[
+                    let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                        array: [
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\0\x01\x02"),
@@ -354,7 +436,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x04\x05\x06"),
@@ -362,7 +445,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x08\t\n"),
@@ -374,9 +458,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x10\x11\x12"),
@@ -384,7 +470,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x14\x15\x16"),
@@ -392,7 +479,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x18\x19\x1A"),
@@ -404,9 +492,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x03\x07\x0F"),
@@ -414,7 +504,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x13\x17\x1B"),
@@ -422,7 +513,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x0C\r\x0E"),
@@ -438,11 +530,14 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                 init
                             },
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b" !\""),
@@ -450,7 +545,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"$%&"),
@@ -458,7 +554,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"()*"),
@@ -470,9 +567,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"012"),
@@ -480,7 +579,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"456"),
@@ -488,7 +588,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"89:"),
@@ -500,9 +601,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"#'/"),
@@ -510,7 +613,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"37;"),
@@ -518,7 +622,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b",-."),
@@ -534,11 +639,14 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                 init
                             },
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"@AB"),
@@ -546,7 +654,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"DEF"),
@@ -554,7 +663,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"HIJ"),
@@ -566,9 +676,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"PQR"),
@@ -576,7 +688,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"TUV"),
@@ -584,7 +697,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"XYZ"),
@@ -596,9 +710,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"CGO"),
@@ -606,7 +722,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"SW["),
@@ -614,7 +731,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"LMN"),
@@ -634,13 +752,17 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                     init
                 },
                 {
-                    let mut init = {[
+                    let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                        array: [
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x80\x81\x82"),
@@ -648,7 +770,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x84\x85\x86"),
@@ -656,7 +779,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x88\x89\x8A"),
@@ -668,9 +792,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x90\x91\x92"),
@@ -678,7 +804,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x94\x95\x96"),
@@ -686,7 +813,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x98\x99\x9A"),
@@ -698,9 +826,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x83\x87\x8F"),
@@ -708,7 +838,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x93\x97\x9B"),
@@ -716,7 +847,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x8C\x8D\x8E"),
@@ -732,11 +864,14 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                 init
                             },
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xA0\xA1\xA2"),
@@ -744,7 +879,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xA4\xA5\xA6"),
@@ -752,7 +888,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xA8\xA9\xAA"),
@@ -764,9 +901,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xB0\xB1\xB2"),
@@ -774,7 +913,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xB4\xB5\xB6"),
@@ -782,7 +922,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xB8\xB9\xBA"),
@@ -794,9 +935,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xA3\xA7\xAF"),
@@ -804,7 +947,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xB3\xB7\xBB"),
@@ -812,7 +956,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xAC\xAD\xAE"),
@@ -828,11 +973,14 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                 init
                             },
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xC0\xC1\xC2"),
@@ -840,7 +988,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xC4\xC5\xC6"),
@@ -848,7 +997,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xC8\xC9\xCA"),
@@ -860,9 +1010,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xD0\xD1\xD2"),
@@ -870,7 +1022,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xD4\xD5\xD6"),
@@ -878,7 +1031,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xD8\xD9\xDA"),
@@ -890,9 +1044,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xC3\xC7\xCF"),
@@ -900,7 +1056,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xD3\xD7\xDB"),
@@ -908,7 +1065,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xCC\xCD\xCE"),
@@ -928,13 +1086,17 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                     init
                 },
                 {
-                    let mut init = {[
+                    let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                        array: [
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"`ab"),
@@ -942,7 +1104,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"def"),
@@ -950,7 +1113,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"hij"),
@@ -962,9 +1126,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"pqr"),
@@ -972,7 +1138,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"tuv"),
@@ -980,7 +1147,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"xyz"),
@@ -992,9 +1160,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"cgo"),
@@ -1002,7 +1172,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"sw{"),
@@ -1010,7 +1181,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"lmn"),
@@ -1026,11 +1198,14 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                 init
                             },
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xE0\xE1\xE2"),
@@ -1038,7 +1213,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xE4\xE5\xE6"),
@@ -1046,7 +1222,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xE8\xE9\xEA"),
@@ -1058,9 +1235,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xF0\xF1\xF2"),
@@ -1068,7 +1247,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xF4\xF5\xF6"),
@@ -1076,7 +1256,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xF8\xF9\xFA"),
@@ -1088,9 +1269,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xE3\xE7\xEF"),
@@ -1098,7 +1281,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xF3\xF7\xFB"),
@@ -1106,7 +1290,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xEC\xED\xEE"),
@@ -1122,11 +1307,14 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                 init
                             },
                             {
-                                let mut init = {[
+                                let mut init = l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t {
+                                    array: [
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x1C\x1D\x1E"),
@@ -1134,7 +1322,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"<=>"),
@@ -1142,7 +1331,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\\]^"),
@@ -1154,9 +1344,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x9C\x9D\x9E"),
@@ -1164,7 +1356,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xBC\xBD\xBE"),
@@ -1172,7 +1365,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xDC\xDD\xDE"),
@@ -1184,9 +1378,11 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                             init
                                         },
                                         {
-                                            let mut init = {[
+                                            let mut init = l_array_3_struct_AC_l_array_3_uint8_t {
+                                                array: [
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x1F?\x7F"),
@@ -1194,7 +1390,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\x9F\xBF\xFF"),
@@ -1202,7 +1399,8 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
                                                         init
                                                     },
                                                     {
-                                                        let mut init = {*::core::mem::transmute::<
+                                                        let mut init = l_array_3_uint8_t {
+                                                            array: *::core::mem::transmute::<
                                                                 &[u8; 3],
                                                                 &mut [uint8_t; 3],
                                                             >(b"\xFC\xFD\xFE"),
@@ -1226,68 +1424,66 @@ static mut _ZL16integer_of_trits: [struct_AC_l_array_3_struct_AC_l_array_3_struc
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits: [uint8_t; 4] = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits: l_array_4_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 4],
-                &mut [uint8_t; 4],
-            >(b"\x02\x02\x01\x02"),
+        let mut init = l_array_4_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 4], &mut [uint8_t; 4]>(b"\x02\x02\x01\x02"),
         };
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift: [uint8_t; 4] = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift: l_array_4_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 4],
-                &mut [uint8_t; 4],
-            >(b"\0\x02\x04\x05"),
+        let mut init = l_array_4_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 4], &mut [uint8_t; 4]>(b"\0\x02\x04\x05"),
         };
         init
     }
 };
-static mut _ZL17integer_of_quints: [struct_AC_l_array_5_struct_AC_l_array_5_uint8_t; 5] = unsafe {
+static mut _ZL17integer_of_quints: l_array_5_struct_AC_l_array_5_struct_AC_l_array_5_uint8_t = unsafe {
     {
-        let mut init = {[
+        let mut init = l_array_5_struct_AC_l_array_5_struct_AC_l_array_5_uint8_t {
+            array: [
                 {
-                    let mut init = {[
+                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                        array: [
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"\0\x01\x02\x03\x04"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"\0\x01\x02\x03\x04",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"\x08\t\n\x0B\x0C"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"\x08\t\n\x0B\x0C",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"\x10\x11\x12\x13\x14"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"\x10\x11\x12\x13\x14",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"\x18\x19\x1A\x1B\x1C"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"\x18\x19\x1A\x1B\x1C",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"\x05\r\x15\x1D\x06"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"\x05\r\x15\x1D\x06",
+                                    ),
                                 };
                                 init
                             },
@@ -1296,90 +1492,45 @@ static mut _ZL17integer_of_quints: [struct_AC_l_array_5_struct_AC_l_array_5_uint
                     init
                 },
                 {
-                    let mut init = {[
+                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                        array: [
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b" !\"#$"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b" !\"#$",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"()*+,"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"()*+,",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"01234"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"01234",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"89:;<"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"89:;<",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"%-5=\x0E"),
-                                };
-                                init
-                            },
-                        ],
-                    };
-                    init
-                },
-                {
-                    let mut init = {[
-                            {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"@ABCD"),
-                                };
-                                init
-                            },
-                            {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"HIJKL"),
-                                };
-                                init
-                            },
-                            {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"PQRST"),
-                                };
-                                init
-                            },
-                            {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"XYZ[\\"),
-                                };
-                                init
-                            },
-                            {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"EMU]\x16"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"%-5=\x0E",
+                                    ),
                                 };
                                 init
                             },
@@ -1388,44 +1539,45 @@ static mut _ZL17integer_of_quints: [struct_AC_l_array_5_struct_AC_l_array_5_uint
                     init
                 },
                 {
-                    let mut init = {[
+                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                        array: [
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"`abcd"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"@ABCD",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"hijkl"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"HIJKL",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"pqrst"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"PQRST",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"xyz{|"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"XYZ[\\",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"emu}\x1E"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"EMU]\x16",
+                                    ),
                                 };
                                 init
                             },
@@ -1434,44 +1586,92 @@ static mut _ZL17integer_of_quints: [struct_AC_l_array_5_struct_AC_l_array_5_uint
                     init
                 },
                 {
-                    let mut init = {[
+                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                        array: [
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"fgFG&"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"`abcd",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"noNO."),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"hijkl",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"vwVW6"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"pqrst",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"~\x7F^_>"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"xyz{|",
+                                    ),
                                 };
                                 init
                             },
                             {
-                                let mut init = {*::core::mem::transmute::<
-                                        &[u8; 5],
-                                        &mut [uint8_t; 5],
-                                    >(b"'/7?\x1F"),
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"emu}\x1E",
+                                    ),
+                                };
+                                init
+                            },
+                        ],
+                    };
+                    init
+                },
+                {
+                    let mut init = l_array_5_struct_AC_l_array_5_uint8_t {
+                        array: [
+                            {
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"fgFG&",
+                                    ),
+                                };
+                                init
+                            },
+                            {
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"noNO.",
+                                    ),
+                                };
+                                init
+                            },
+                            {
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"vwVW6",
+                                    ),
+                                };
+                                init
+                            },
+                            {
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"~\x7F^_>",
+                                    ),
+                                };
+                                init
+                            },
+                            {
+                                let mut init = l_array_5_uint8_t {
+                                    array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                                        b"'/7?\x1F",
+                                    ),
                                 };
                                 init
                             },
@@ -1484,23 +1684,26 @@ static mut _ZL17integer_of_quints: [struct_AC_l_array_5_struct_AC_l_array_5_uint
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0: [uint8_t; 2] = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE5tbits_0: l_array_2_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<&[u8; 2], &mut [uint8_t; 2]>(b"\x03\x02"),
+        let mut init = l_array_2_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 2], &mut [uint8_t; 2]>(b"\x03\x02"),
         };
         init
     }
 };
-static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift_0: [uint8_t; 2] = unsafe {
+static mut _ZZ10encode_ise12quant_methodjPKhPhjE6tshift_0: l_array_2_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<&[u8; 2], &mut [uint8_t; 2]>(b"\0\x03"),
+        let mut init = l_array_2_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 2], &mut [uint8_t; 2]>(b"\0\x03"),
         };
         init
     }
 };
-static mut __PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj: [uint8_t; 86] = unsafe {
+static mut __PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj: l_array_86_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
+        let mut init = l_array_86_uint8_t {
+            array: *::core::mem::transmute::<
                 &[u8; 86],
                 &mut [uint8_t; 86],
             >(
@@ -1510,2138 +1713,2125 @@ static mut __PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj: [uint8_t;
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read: [uint8_t; 5] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read: l_array_5_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 5],
-                &mut [uint8_t; 5],
-            >(b"\x02\x02\x01\x02\x01"),
+        let mut init = l_array_5_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\x02\x02\x01\x02\x01"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift: [uint8_t; 5] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift: l_array_5_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 5],
-                &mut [uint8_t; 5],
-            >(b"\0\x02\x04\x05\x07"),
+        let mut init = l_array_5_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\0\x02\x04\x05\x07"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter: [uint8_t; 5] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter: l_array_5_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 5],
-                &mut [uint8_t; 5],
-            >(b"\x01\x02\x03\x04\0"),
+        let mut init = l_array_5_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\x01\x02\x03\x04\0"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr: [uint8_t; 5] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr: l_array_5_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 5],
-                &mut [uint8_t; 5],
-            >(b"\0\0\0\0\x01"),
+        let mut init = l_array_5_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(b"\0\0\0\0\x01"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0: [uint8_t; 3] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0: l_array_3_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 3],
-                &mut [uint8_t; 3],
-            >(b"\x03\x02\x02"),
+        let mut init = l_array_3_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x03\x02\x02"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift_0: [uint8_t; 3] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE11block_shift_0: l_array_3_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x03\x05"),
+        let mut init = l_array_3_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x03\x05"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter_0: [uint8_t; 3] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter_0: l_array_3_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x01\x02\0"),
+        let mut init = l_array_3_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x01\x02\0"),
         };
         init
     }
 };
-static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr_0: [uint8_t; 3] = unsafe {
+static mut _ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr_0: l_array_3_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x01"),
+        let mut init = l_array_3_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x01"),
         };
         init
     }
 };
-static mut _OC_str_OC_2: [uint8_t; 16] = unsafe {
+static mut _OC_str_OC_2: l_array_16_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 16],
-                &mut [uint8_t; 16],
-            >(b"trit_blocks > 0\0"),
+        let mut init = l_array_16_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 16], &mut [uint8_t; 16]>(b"trit_blocks > 0\0"),
         };
         init
     }
 };
-static mut _ZL16trits_of_integer: [struct_AC_l_array_5_uint8_t; 256] = unsafe {
+static mut _ZL16trits_of_integer: l_array_256_struct_AC_l_array_5_uint8_t = unsafe {
     {
-        let mut init = {[
+        let mut init = l_array_256_struct_AC_l_array_5_uint8_t {
+            array: [
                 {
-                    let mut init = {[
-                            0 as core::ffi::c_int as uint8_t,
-                            0 as core::ffi::c_int as uint8_t,
-                            0 as core::ffi::c_int as uint8_t,
-                            0 as core::ffi::c_int as uint8_t,
-                            0 as core::ffi::c_int as uint8_t,
-                        ],
+                    let mut init = l_array_5_uint8_t {
+                        array: [0, 0, 0, 0, 0],
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\0\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\0\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\x01\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\x02\0"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\0\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\0\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\x01\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\x02\x01"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\0\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\0\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\0\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\0\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\0\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\0\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\0\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x01\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x01\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x01\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x01\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x01\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\x01\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\0\x02\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\0\x02\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x01\x02\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x01\x02\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x02\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x02\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 5],
-                            &mut [uint8_t; 5],
-                        >(b"\x02\x01\x02\x02\x02"),
+                    let mut init = l_array_5_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 5], &mut [uint8_t; 5]>(
+                            b"\x02\x01\x02\x02\x02",
+                        ),
                     };
                     init
                 },
@@ -3650,1041 +3840,1011 @@ static mut _ZL16trits_of_integer: [struct_AC_l_array_5_uint8_t; 256] = unsafe {
         init
     }
 };
-static mut _OC_str_OC_3: [uint8_t; 17] = unsafe {
+static mut _OC_str_OC_3: l_array_17_uint8_t = unsafe {
     {
-        let mut init = {*::core::mem::transmute::<
-                &[u8; 17],
-                &mut [uint8_t; 17],
-            >(b"quint_blocks > 0\0"),
+        let mut init = l_array_17_uint8_t {
+            array: *::core::mem::transmute::<&[u8; 17], &mut [uint8_t; 17]>(b"quint_blocks > 0\0"),
         };
         init
     }
 };
-static mut _ZL17quints_of_integer: [struct_AC_l_array_3_uint8_t; 128] = unsafe {
+static mut _ZL17quints_of_integer: l_array_128_struct_AC_l_array_3_uint8_t = unsafe {
     {
-        let mut init = {[
+        let mut init = l_array_128_struct_AC_l_array_3_uint8_t {
+            array: [
                 {
-                    let mut init = {[
-                            0 as core::ffi::c_int as uint8_t,
-                            0 as core::ffi::c_int as uint8_t,
-                            0 as core::ffi::c_int as uint8_t,
-                        ],
-                    };
+                    let mut init = l_array_3_uint8_t { array: [0, 0, 0] };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\0\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x01\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\0\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x02\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\0\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x03\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\0\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\x04\0\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x04\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x04\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x01\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x01\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x01\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x01\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x01\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x01\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x01\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x04\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x04\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x02\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x02\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x02\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x02\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x02\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x02\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x02\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x04\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x04\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x03\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\x03\0"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x03\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x03\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x03\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x03\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x03\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x03\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x03\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x03\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x04\0"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x04\0",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\0\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x01"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\0\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\0\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\0\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\0\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\0\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x04\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x04\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\0\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\0\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x01\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x01\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x01\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x01\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x01\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x01\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x04\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x04\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x01\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x01\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x02\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x02\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x02\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x02\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x02\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x02\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x04\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x04\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x02\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x02\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x03\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x03\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x03\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x03\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x03\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x03\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x03\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x03\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x03\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x03\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x04\x01"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x04\x01",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x03\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x03\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x04\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x04\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\0\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x02"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\0\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\0\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\0\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\0\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\0\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x04\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x04\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\0\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\0\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\0\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\0\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x01\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x01\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x01\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x01\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x01\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x01\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x04\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x04\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x01\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x01\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x01\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x01\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x02\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x02\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x02\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x02\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x02\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x02\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x04\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x04\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x02\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x02\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x02\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x02\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x03\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x03\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x03\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x03\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x03\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x03\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x03\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x03\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x03\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x03\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x04\x02"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x04\x02",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x03\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x03\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x03\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x03\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\0\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x03"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\0\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\0\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\0\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\0\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\0\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\0\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\0\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\0\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x04\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x04\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\0\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(b"\0\0\x04"),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\0\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\0\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x01\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x01\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x01\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x01\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x01\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x01\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x01\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x01\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x01\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x01\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x04\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x04\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x01\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x01\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x01\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x01\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x02\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x02\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x02\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x02\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x02\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x02\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x02\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x02\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x02\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x02\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x04\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x04\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x02\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x02\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x02\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x02\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x03\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x03\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x03\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x03\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x02\x03\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x02\x03\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x03\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x03\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x04\x03\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x04\x03\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x03\x04\x03"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x03\x04\x03",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\0\x03\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\0\x03\x04",
+                        ),
                     };
                     init
                 },
                 {
-                    let mut init = {*::core::mem::transmute::<
-                            &[u8; 3],
-                            &mut [uint8_t; 3],
-                        >(b"\x01\x03\x04"),
+                    let mut init = l_array_3_uint8_t {
+                        array: *::core::mem::transmute::<&[u8; 3], &mut [uint8_t; 3]>(
+                            b"\x01\x03\x04",
+                        ),
                     };
                     init
                 },
@@ -4760,24 +4920,21 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
     _5 = _1;
     _6 = _2;
     _9 = _6;
-    _3 = &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array
-        as *mut core::ffi::c_void;
+    _3 = &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array as *mut core::ffi::c_void;
     _10 = _3;
     if _9 as uint64_t >= 21 as core::ffi::c_ulong {
         _4 = 1024;
     } else {
         _11 = _6;
         _12 = _ZNKSt5arrayI8ise_sizeLm21EEixEm(
-            &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array
-                as *mut core::ffi::c_void,
+            &_ZL9ise_sizes as *const l_struct_struct_OC_std_KD__KD_array as *mut core::ffi::c_void,
             _11 as uint64_t,
         );
         _7 = _12;
         _13 = _7;
         _14 = *(_13 as *mut uint8_t);
         _8 = llvm_add_u32(
-            (llvm_lshr_u8(_14, 6 as core::ffi::c_int as uint8_t) as uint32_t)
-                << 1 as core::ffi::c_int,
+            (llvm_lshr_u8(_14, 6) as uint32_t) << 1 as core::ffi::c_int,
             1,
         );
         _15 = _7;
@@ -4787,13 +4944,7 @@ pub unsafe extern "C" fn _Z25get_ise_sequence_bitcountj12quant_method(
         _19 = _8;
         _4 = llvm_udiv_u32(
             llvm_sub_u32(
-                llvm_add_u32(
-                    llvm_mul_u32(
-                        llvm_and_u8(_16, 63 as core::ffi::c_int as uint8_t) as uint32_t,
-                        _17,
-                    ),
-                    _18,
-                ),
+                llvm_add_u32(llvm_mul_u32(llvm_and_u8(_16, 63) as uint32_t, _17), _18),
                 1,
             ),
             _19,
@@ -4817,7 +4968,7 @@ pub unsafe extern "C" fn _ZNKSt5arrayI8ise_sizeLm21EEixEm(
     _28 = _26;
     _29 = _27;
     return &mut *((*(&mut (*(_28 as *mut l_struct_struct_OC_std_KD__KD_array)).field0
-        as *mut [struct_AC_l_struct_struct_OC_ise_size; 21]))
+        as *mut l_array_21_struct_AC_l_struct_struct_OC_ise_size))
         .array)
         .as_mut_ptr()
         .offset(_29 as int64_t as isize) as *mut l_struct_struct_OC_ise_size
@@ -5164,7 +5315,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
             _78 as uint64_t,
         );
         _80 = *(_79 as *mut uint8_t);
-        _40 = llvm_and_u8(_80, 63 as core::ffi::c_int as uint8_t) as uint32_t;
+        _40 = llvm_and_u8(_80, 63) as uint32_t;
         _81 = _35;
         _82 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
@@ -5172,10 +5323,7 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
             _81 as uint64_t,
         );
         _83 = *(_82 as *mut uint8_t);
-        _41 = llvm_and_u8(
-            llvm_lshr_u8(_83, 6 as core::ffi::c_int as uint8_t),
-            1 as core::ffi::c_int as uint8_t,
-        ) as uint32_t;
+        _41 = llvm_and_u8(llvm_lshr_u8(_83, 6), 1) as uint32_t;
         _84 = _35;
         _85 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
@@ -5183,12 +5331,9 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
             _84 as uint64_t,
         );
         _86 = *(_85 as *mut uint8_t);
-        _42 = llvm_lshr_u8(_86, 7 as core::ffi::c_int as uint8_t) as uint32_t;
+        _42 = llvm_lshr_u8(_86, 7) as uint32_t;
         _87 = _40;
-        _43 = llvm_sub_u32(
-            ((1 as core::ffi::c_int) << _87) as uint32_t,
-            1,
-        );
+        _43 = llvm_sub_u32(((1 as core::ffi::c_int) << _87) as uint32_t, 1);
         _88 = _41;
         if _88 != 0 as core::ffi::c_uint {
             _44 = 0;
@@ -5203,67 +5348,50 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 }
                 _92 = _37;
                 _93 = _44;
-                _94 = *(&mut *(_92 as *mut uint8_t)
-                    .offset(
-                        (llvm_add_u32
-                            as unsafe extern "C" fn(
-                                uint32_t,
-                                uint32_t,
-                            ) -> uint32_t)(_93, 4) as uint64_t
-                            as int64_t as isize,
-                    ) as *mut uint8_t);
+                _94 = *(&mut *(_92 as *mut uint8_t).offset((llvm_add_u32
+                    as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _93, 4
+                ) as uint64_t as int64_t
+                    as isize) as *mut uint8_t);
                 _95 = _40;
                 _47 = llvm_ashr_u32(_94 as uint32_t as int32_t, _95 as int32_t);
                 _96 = _37;
                 _97 = _44;
-                _98 = *(&mut *(_96 as *mut uint8_t)
-                    .offset(
-                        (llvm_add_u32
-                            as unsafe extern "C" fn(
-                                uint32_t,
-                                uint32_t,
-                            ) -> uint32_t)(_97, 3) as uint64_t
-                            as int64_t as isize,
-                    ) as *mut uint8_t);
+                _98 = *(&mut *(_96 as *mut uint8_t).offset((llvm_add_u32
+                    as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _97, 3
+                ) as uint64_t as int64_t
+                    as isize) as *mut uint8_t);
                 _99 = _40;
                 _48 = llvm_ashr_u32(_98 as uint32_t as int32_t, _99 as int32_t);
                 _100 = _37;
                 _101 = _44;
-                _102 = *(&mut *(_100 as *mut uint8_t)
-                    .offset(
-                        (llvm_add_u32
-                            as unsafe extern "C" fn(
-                                uint32_t,
-                                uint32_t,
-                            ) -> uint32_t)(_101, 2)
-                            as uint64_t as int64_t as isize,
-                    ) as *mut uint8_t);
+                _102 = *(&mut *(_100 as *mut uint8_t).offset((llvm_add_u32
+                    as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _101, 2
+                ) as uint64_t
+                    as int64_t
+                    as isize) as *mut uint8_t);
                 _103 = _40;
                 _49 = llvm_ashr_u32(_102 as uint32_t as int32_t, _103 as int32_t);
                 _104 = _37;
                 _105 = _44;
-                _106 = *(&mut *(_104 as *mut uint8_t)
-                    .offset(
-                        (llvm_add_u32
-                            as unsafe extern "C" fn(
-                                uint32_t,
-                                uint32_t,
-                            ) -> uint32_t)(_105, 1)
-                            as uint64_t as int64_t as isize,
-                    ) as *mut uint8_t);
+                _106 = *(&mut *(_104 as *mut uint8_t).offset((llvm_add_u32
+                    as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _105, 1
+                ) as uint64_t
+                    as int64_t
+                    as isize) as *mut uint8_t);
                 _107 = _40;
                 _50 = llvm_ashr_u32(_106 as uint32_t as int32_t, _107 as int32_t);
                 _108 = _37;
                 _109 = _44;
-                _110 = *(&mut *(_108 as *mut uint8_t)
-                    .offset(
-                        (llvm_add_u32
-                            as unsafe extern "C" fn(
-                                uint32_t,
-                                uint32_t,
-                            ) -> uint32_t)(_109, 0)
-                            as uint64_t as int64_t as isize,
-                    ) as *mut uint8_t);
+                _110 = *(&mut *(_108 as *mut uint8_t).offset((llvm_add_u32
+                    as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _109, 0
+                ) as uint64_t
+                    as int64_t
+                    as isize) as *mut uint8_t);
                 _111 = _40;
                 _51 = llvm_ashr_u32(_110 as uint32_t as int32_t, _111 as int32_t);
                 _112 = _47;
@@ -5275,20 +5403,20 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     .array)
                     .as_ptr()
                     .offset(_112 as uint64_t as int64_t as isize)
-                    as *const [struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3]
-                    as *mut [struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3]))
+                    as *const l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t
+                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_113 as uint64_t as int64_t as isize)
-                    as *mut [struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3]))
+                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_114 as uint64_t as int64_t as isize)
-                    as *mut [struct_AC_l_array_3_uint8_t; 3]))
+                    as *mut l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_115 as uint64_t as int64_t as isize)
-                    as *mut [uint8_t; 3]))
+                    as *mut l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_116 as uint64_t as int64_t as isize) as *mut uint8_t);
@@ -5296,138 +5424,98 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _118 = _37;
                 _119 = _44;
                 _44 = llvm_add_u32(_119, 1);
-                _120 = *(&mut *(_118 as *mut uint8_t)
-                    .offset(_119 as uint64_t as int64_t as isize) as *mut uint8_t);
+                _120 = *(&mut *(_118 as *mut uint8_t).offset(_119 as uint64_t as int64_t as isize)
+                    as *mut uint8_t);
                 _121 = _43;
                 _122 = _52;
                 _123 = _40;
                 _53 = (_120 as uint32_t & _121
-                    | (llvm_ashr_u32(_122 as uint32_t as int32_t, 0 as core::ffi::c_int)
-                        & 3) << _123) as uint8_t;
+                    | (llvm_ashr_u32(_122 as uint32_t as int32_t, 0 as core::ffi::c_int) & 3)
+                        << _123) as uint8_t;
                 _124 = _53;
                 _125 = _40;
                 _126 = _39;
                 _127 = _38;
-                _ZL10write_bitsjjjPh(
-                    _124 as uint32_t,
-                    llvm_add_u32(_125, 2),
-                    _126,
-                    _127,
-                );
+                _ZL10write_bitsjjjPh(_124 as uint32_t, llvm_add_u32(_125, 2), _126, _127);
                 _128 = _40;
                 _129 = _39;
-                _39 = llvm_add_u32(
-                    _129,
-                    llvm_add_u32(_128, 2),
-                );
+                _39 = llvm_add_u32(_129, llvm_add_u32(_128, 2));
                 _130 = _37;
                 _131 = _44;
                 _44 = llvm_add_u32(_131, 1);
-                _132 = *(&mut *(_130 as *mut uint8_t)
-                    .offset(_131 as uint64_t as int64_t as isize) as *mut uint8_t);
+                _132 = *(&mut *(_130 as *mut uint8_t).offset(_131 as uint64_t as int64_t as isize)
+                    as *mut uint8_t);
                 _133 = _43;
                 _134 = _52;
                 _135 = _40;
                 _53 = (_132 as uint32_t & _133
-                    | (llvm_ashr_u32(_134 as uint32_t as int32_t, 2 as core::ffi::c_int)
-                        & 3) << _135) as uint8_t;
+                    | (llvm_ashr_u32(_134 as uint32_t as int32_t, 2 as core::ffi::c_int) & 3)
+                        << _135) as uint8_t;
                 _136 = _53;
                 _137 = _40;
                 _138 = _39;
                 _139 = _38;
-                _ZL10write_bitsjjjPh(
-                    _136 as uint32_t,
-                    llvm_add_u32(_137, 2),
-                    _138,
-                    _139,
-                );
+                _ZL10write_bitsjjjPh(_136 as uint32_t, llvm_add_u32(_137, 2), _138, _139);
                 _140 = _40;
                 _141 = _39;
-                _39 = llvm_add_u32(
-                    _141,
-                    llvm_add_u32(_140, 2),
-                );
+                _39 = llvm_add_u32(_141, llvm_add_u32(_140, 2));
                 _142 = _37;
                 _143 = _44;
                 _44 = llvm_add_u32(_143, 1);
-                _144 = *(&mut *(_142 as *mut uint8_t)
-                    .offset(_143 as uint64_t as int64_t as isize) as *mut uint8_t);
+                _144 = *(&mut *(_142 as *mut uint8_t).offset(_143 as uint64_t as int64_t as isize)
+                    as *mut uint8_t);
                 _145 = _43;
                 _146 = _52;
                 _147 = _40;
                 _53 = (_144 as uint32_t & _145
-                    | (llvm_ashr_u32(_146 as uint32_t as int32_t, 4 as core::ffi::c_int)
-                        & 1) << _147) as uint8_t;
+                    | (llvm_ashr_u32(_146 as uint32_t as int32_t, 4 as core::ffi::c_int) & 1)
+                        << _147) as uint8_t;
                 _148 = _53;
                 _149 = _40;
                 _150 = _39;
                 _151 = _38;
-                _ZL10write_bitsjjjPh(
-                    _148 as uint32_t,
-                    llvm_add_u32(_149, 1),
-                    _150,
-                    _151,
-                );
+                _ZL10write_bitsjjjPh(_148 as uint32_t, llvm_add_u32(_149, 1), _150, _151);
                 _152 = _40;
                 _153 = _39;
-                _39 = llvm_add_u32(
-                    _153,
-                    llvm_add_u32(_152, 1),
-                );
+                _39 = llvm_add_u32(_153, llvm_add_u32(_152, 1));
                 _154 = _37;
                 _155 = _44;
                 _44 = llvm_add_u32(_155, 1);
-                _156 = *(&mut *(_154 as *mut uint8_t)
-                    .offset(_155 as uint64_t as int64_t as isize) as *mut uint8_t);
+                _156 = *(&mut *(_154 as *mut uint8_t).offset(_155 as uint64_t as int64_t as isize)
+                    as *mut uint8_t);
                 _157 = _43;
                 _158 = _52;
                 _159 = _40;
                 _53 = (_156 as uint32_t & _157
-                    | (llvm_ashr_u32(_158 as uint32_t as int32_t, 5 as core::ffi::c_int)
-                        & 3) << _159) as uint8_t;
+                    | (llvm_ashr_u32(_158 as uint32_t as int32_t, 5 as core::ffi::c_int) & 3)
+                        << _159) as uint8_t;
                 _160 = _53;
                 _161 = _40;
                 _162 = _39;
                 _163 = _38;
-                _ZL10write_bitsjjjPh(
-                    _160 as uint32_t,
-                    llvm_add_u32(_161, 2),
-                    _162,
-                    _163,
-                );
+                _ZL10write_bitsjjjPh(_160 as uint32_t, llvm_add_u32(_161, 2), _162, _163);
                 _164 = _40;
                 _165 = _39;
-                _39 = llvm_add_u32(
-                    _165,
-                    llvm_add_u32(_164, 2),
-                );
+                _39 = llvm_add_u32(_165, llvm_add_u32(_164, 2));
                 _166 = _37;
                 _167 = _44;
                 _44 = llvm_add_u32(_167, 1);
-                _168 = *(&mut *(_166 as *mut uint8_t)
-                    .offset(_167 as uint64_t as int64_t as isize) as *mut uint8_t);
+                _168 = *(&mut *(_166 as *mut uint8_t).offset(_167 as uint64_t as int64_t as isize)
+                    as *mut uint8_t);
                 _169 = _43;
                 _170 = _52;
                 _171 = _40;
                 _53 = (_168 as uint32_t & _169
-                    | (llvm_ashr_u32(_170 as uint32_t as int32_t, 7 as core::ffi::c_int)
-                        & 1) << _171) as uint8_t;
+                    | (llvm_ashr_u32(_170 as uint32_t as int32_t, 7 as core::ffi::c_int) & 1)
+                        << _171) as uint8_t;
                 _172 = _53;
                 _173 = _40;
                 _174 = _39;
                 _175 = _38;
-                _ZL10write_bitsjjjPh(
-                    _172 as uint32_t,
-                    llvm_add_u32(_173, 1),
-                    _174,
-                    _175,
-                );
+                _ZL10write_bitsjjjPh(_172 as uint32_t, llvm_add_u32(_173, 1), _174, _175);
                 _176 = _40;
                 _177 = _39;
-                _39 = llvm_add_u32(
-                    _177,
-                    llvm_add_u32(_176, 1),
-                );
+                _39 = llvm_add_u32(_177, llvm_add_u32(_176, 1));
                 _178 = _46;
                 _46 = llvm_add_u32(_178, 1);
             }
@@ -5442,15 +5530,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 } else {
                     _183 = _37;
                     _184 = _44;
-                    _185 = *(&mut *(_183 as *mut uint8_t)
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(_184, 3)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t);
+                    _185 = *(&mut *(_183 as *mut uint8_t).offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _184, 3
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t);
                     _186 = _40;
                     _187 = llvm_ashr_u32(_185 as uint32_t as int32_t, _186 as int32_t);
                     _188__PHI_TEMPORARY = _187;
@@ -5464,15 +5549,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 } else {
                     _191 = _37;
                     _192 = _44;
-                    _193 = *(&mut *(_191 as *mut uint8_t)
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(_192, 2)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t);
+                    _193 = *(&mut *(_191 as *mut uint8_t).offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _192, 2
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t);
                     _194 = _40;
                     _195 = llvm_ashr_u32(_193 as uint32_t as int32_t, _194 as int32_t);
                     _196__PHI_TEMPORARY = _195;
@@ -5486,15 +5568,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 } else {
                     _199 = _37;
                     _200 = _44;
-                    _201 = *(&mut *(_199 as *mut uint8_t)
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(_200, 1)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t);
+                    _201 = *(&mut *(_199 as *mut uint8_t).offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _200, 1
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t);
                     _202 = _40;
                     _203 = llvm_ashr_u32(_201 as uint32_t as int32_t, _202 as int32_t);
                     _204__PHI_TEMPORARY = _203;
@@ -5503,15 +5582,12 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                 _57 = _204;
                 _205 = _37;
                 _206 = _44;
-                _207 = *(&mut *(_205 as *mut uint8_t)
-                    .offset(
-                        (llvm_add_u32
-                            as unsafe extern "C" fn(
-                                uint32_t,
-                                uint32_t,
-                            ) -> uint32_t)(_206, 0)
-                            as uint64_t as int64_t as isize,
-                    ) as *mut uint8_t);
+                _207 = *(&mut *(_205 as *mut uint8_t).offset((llvm_add_u32
+                    as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                    _206, 0
+                ) as uint64_t
+                    as int64_t
+                    as isize) as *mut uint8_t);
                 _208 = _40;
                 _58 = llvm_ashr_u32(_207 as uint32_t as int32_t, _208 as int32_t);
                 _209 = _54;
@@ -5523,20 +5599,20 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     .array)
                     .as_ptr()
                     .offset(_209 as uint64_t as int64_t as isize)
-                    as *const [struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3]
-                    as *mut [struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3]))
+                    as *const l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t
+                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_210 as uint64_t as int64_t as isize)
-                    as *mut [struct_AC_l_array_3_struct_AC_l_array_3_uint8_t; 3]))
+                    as *mut l_array_3_struct_AC_l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_211 as uint64_t as int64_t as isize)
-                    as *mut [struct_AC_l_array_3_uint8_t; 3]))
+                    as *mut l_array_3_struct_AC_l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_212 as uint64_t as int64_t as isize)
-                    as *mut [uint8_t; 3]))
+                    as *mut l_array_3_uint8_t))
                     .array)
                     .as_mut_ptr()
                     .offset(_213 as uint64_t as int64_t as isize) as *mut uint8_t);
@@ -5551,36 +5627,35 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _217 = _37;
                     _218 = _44;
                     _219 = *(&mut *(_217 as *mut uint8_t)
-                        .offset(_218 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_218 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _220 = _43;
                     _221 = _59;
                     _222 = _60;
                     _223 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE6tshift.array)
                         .as_ptr()
-                        .offset(_222 as uint64_t as int64_t as isize) as *const uint8_t
-                        as *mut uint8_t);
+                        .offset(_222 as uint64_t as int64_t as isize)
+                        as *const uint8_t as *mut uint8_t);
                     _224 = _60;
                     _225 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
                         .as_ptr()
-                        .offset(_224 as uint64_t as int64_t as isize) as *const uint8_t
-                        as *mut uint8_t);
+                        .offset(_224 as uint64_t as int64_t as isize)
+                        as *const uint8_t as *mut uint8_t);
                     _226 = _40;
                     _61 = (_219 as uint32_t & _220
-                        | (llvm_ashr_u32(
-                            _221 as uint32_t as int32_t,
-                            _223 as uint32_t as int32_t,
-                        )
+                        | (llvm_ashr_u32(_221 as uint32_t as int32_t, _223 as uint32_t as int32_t)
                             & llvm_sub_u32(
                                 ((1 as core::ffi::c_int) << _225 as uint32_t) as uint32_t,
                                 1,
-                            )) << _226) as uint8_t;
+                            ))
+                            << _226) as uint8_t;
                     _227 = _61;
                     _228 = _40;
                     _229 = _60;
                     _230 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
                         .as_ptr()
-                        .offset(_229 as uint64_t as int64_t as isize) as *const uint8_t
-                        as *mut uint8_t);
+                        .offset(_229 as uint64_t as int64_t as isize)
+                        as *const uint8_t as *mut uint8_t);
                     _231 = _39;
                     _232 = _38;
                     _ZL10write_bitsjjjPh(
@@ -5593,8 +5668,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _234 = _60;
                     _235 = *(&*(_ZZ10encode_ise12quant_methodjPKhPhjE5tbits.array)
                         .as_ptr()
-                        .offset(_234 as uint64_t as int64_t as isize) as *const uint8_t
-                        as *mut uint8_t);
+                        .offset(_234 as uint64_t as int64_t as isize)
+                        as *const uint8_t as *mut uint8_t);
                     _236 = _39;
                     _39 = llvm_add_u32(_236, llvm_add_u32(_233, _235 as uint32_t));
                     _237 = _44;
@@ -5618,41 +5693,32 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     }
                     _243 = _37;
                     _244 = _62;
-                    _245 = *(&mut *(_243 as *mut uint8_t)
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(_244, 2)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t);
+                    _245 = *(&mut *(_243 as *mut uint8_t).offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _244, 2
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t);
                     _246 = _40;
                     _65 = llvm_ashr_u32(_245 as uint32_t as int32_t, _246 as int32_t);
                     _247 = _37;
                     _248 = _62;
-                    _249 = *(&mut *(_247 as *mut uint8_t)
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(_248, 1)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t);
+                    _249 = *(&mut *(_247 as *mut uint8_t).offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _248, 1
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t);
                     _250 = _40;
                     _66 = llvm_ashr_u32(_249 as uint32_t as int32_t, _250 as int32_t);
                     _251 = _37;
                     _252 = _62;
-                    _253 = *(&mut *(_251 as *mut uint8_t)
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(_252, 0)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t);
+                    _253 = *(&mut *(_251 as *mut uint8_t).offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _252, 0
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t);
                     _254 = _40;
                     _67 = llvm_ashr_u32(_253 as uint32_t as int32_t, _254 as int32_t);
                     _255 = _65;
@@ -5661,97 +5727,77 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _258 = *(&mut *((*(&mut *((*(&*(_ZL17integer_of_quints.array)
                         .as_ptr()
                         .offset(_255 as uint64_t as int64_t as isize)
-                        as *const [struct_AC_l_array_5_uint8_t; 5]
-                        as *mut [struct_AC_l_array_5_uint8_t; 5]))
+                        as *const l_array_5_struct_AC_l_array_5_uint8_t
+                        as *mut l_array_5_struct_AC_l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_256 as uint64_t as int64_t as isize)
-                        as *mut [uint8_t; 5]))
+                        as *mut l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(_257 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_257 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _68 = _258;
                     _259 = _37;
                     _260 = _62;
                     _62 = llvm_add_u32(_260, 1);
                     _261 = *(&mut *(_259 as *mut uint8_t)
-                        .offset(_260 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_260 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _262 = _43;
                     _263 = _68;
                     _264 = _40;
                     _69 = (_261 as uint32_t & _262
-                        | (llvm_ashr_u32(_263 as uint32_t as int32_t, 0 as core::ffi::c_int)
-                            & 7) << _264) as uint8_t;
+                        | (llvm_ashr_u32(_263 as uint32_t as int32_t, 0 as core::ffi::c_int) & 7)
+                            << _264) as uint8_t;
                     _265 = _69;
                     _266 = _40;
                     _267 = _39;
                     _268 = _38;
-                    _ZL10write_bitsjjjPh(
-                        _265 as uint32_t,
-                        llvm_add_u32(_266, 3),
-                        _267,
-                        _268,
-                    );
+                    _ZL10write_bitsjjjPh(_265 as uint32_t, llvm_add_u32(_266, 3), _267, _268);
                     _269 = _40;
                     _270 = _39;
-                    _39 = llvm_add_u32(
-                        _270,
-                        llvm_add_u32(_269, 3),
-                    );
+                    _39 = llvm_add_u32(_270, llvm_add_u32(_269, 3));
                     _271 = _37;
                     _272 = _62;
                     _62 = llvm_add_u32(_272, 1);
                     _273 = *(&mut *(_271 as *mut uint8_t)
-                        .offset(_272 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_272 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _274 = _43;
                     _275 = _68;
                     _276 = _40;
                     _69 = (_273 as uint32_t & _274
-                        | (llvm_ashr_u32(_275 as uint32_t as int32_t, 3 as core::ffi::c_int)
-                            & 3) << _276) as uint8_t;
+                        | (llvm_ashr_u32(_275 as uint32_t as int32_t, 3 as core::ffi::c_int) & 3)
+                            << _276) as uint8_t;
                     _277 = _69;
                     _278 = _40;
                     _279 = _39;
                     _280 = _38;
-                    _ZL10write_bitsjjjPh(
-                        _277 as uint32_t,
-                        llvm_add_u32(_278, 2),
-                        _279,
-                        _280,
-                    );
+                    _ZL10write_bitsjjjPh(_277 as uint32_t, llvm_add_u32(_278, 2), _279, _280);
                     _281 = _40;
                     _282 = _39;
-                    _39 = llvm_add_u32(
-                        _282,
-                        llvm_add_u32(_281, 2),
-                    );
+                    _39 = llvm_add_u32(_282, llvm_add_u32(_281, 2));
                     _283 = _37;
                     _284 = _62;
                     _62 = llvm_add_u32(_284, 1);
                     _285 = *(&mut *(_283 as *mut uint8_t)
-                        .offset(_284 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_284 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _286 = _43;
                     _287 = _68;
                     _288 = _40;
                     _69 = (_285 as uint32_t & _286
-                        | (llvm_ashr_u32(_287 as uint32_t as int32_t, 5 as core::ffi::c_int)
-                            & 3) << _288) as uint8_t;
+                        | (llvm_ashr_u32(_287 as uint32_t as int32_t, 5 as core::ffi::c_int) & 3)
+                            << _288) as uint8_t;
                     _289 = _69;
                     _290 = _40;
                     _291 = _39;
                     _292 = _38;
-                    _ZL10write_bitsjjjPh(
-                        _289 as uint32_t,
-                        llvm_add_u32(_290, 2),
-                        _291,
-                        _292,
-                    );
+                    _ZL10write_bitsjjjPh(_289 as uint32_t, llvm_add_u32(_290, 2), _291, _292);
                     _293 = _40;
                     _294 = _39;
-                    _39 = llvm_add_u32(
-                        _294,
-                        llvm_add_u32(_293, 2),
-                    );
+                    _39 = llvm_add_u32(_294, llvm_add_u32(_293, 2));
                     _295 = _64;
                     _64 = llvm_add_u32(_295, 1);
                 }
@@ -5766,35 +5812,27 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     } else {
                         _300 = _37;
                         _301 = _62;
-                        _302 = *(&mut *(_300 as *mut uint8_t)
-                            .offset(
-                                (llvm_add_u32
-                                    as unsafe extern "C" fn(
-                                        uint32_t,
-                                        uint32_t,
-                                    ) -> uint32_t)(_301, 1)
-                                    as uint64_t as int64_t as isize,
-                            ) as *mut uint8_t);
+                        _302 = *(&mut *(_300 as *mut uint8_t).offset((llvm_add_u32
+                            as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                            _301, 1
+                        )
+                            as uint64_t
+                            as int64_t
+                            as isize) as *mut uint8_t);
                         _303 = _40;
-                        _304 = llvm_ashr_u32(
-                            _302 as uint32_t as int32_t,
-                            _303 as int32_t,
-                        );
+                        _304 = llvm_ashr_u32(_302 as uint32_t as int32_t, _303 as int32_t);
                         _305__PHI_TEMPORARY = _304;
                     }
                     _305 = _305__PHI_TEMPORARY;
                     _71 = _305;
                     _306 = _37;
                     _307 = _62;
-                    _308 = *(&mut *(_306 as *mut uint8_t)
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(_307, 0)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t);
+                    _308 = *(&mut *(_306 as *mut uint8_t).offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        _307, 0
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t);
                     _309 = _40;
                     _72 = llvm_ashr_u32(_308 as uint32_t as int32_t, _309 as int32_t);
                     _310 = _70;
@@ -5803,15 +5841,16 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _313 = *(&mut *((*(&mut *((*(&*(_ZL17integer_of_quints.array)
                         .as_ptr()
                         .offset(_310 as uint64_t as int64_t as isize)
-                        as *const [struct_AC_l_array_5_uint8_t; 5]
-                        as *mut [struct_AC_l_array_5_uint8_t; 5]))
+                        as *const l_array_5_struct_AC_l_array_5_uint8_t
+                        as *mut l_array_5_struct_AC_l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
                         .offset(_311 as uint64_t as int64_t as isize)
-                        as *mut [uint8_t; 5]))
+                        as *mut l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(_312 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_312 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _73 = _313;
                     _74 = 0;
                     loop {
@@ -5842,11 +5881,10 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                             | (llvm_ashr_u32(
                                 _320 as uint32_t as int32_t,
                                 _322 as uint32_t as int32_t,
-                            )
-                                & llvm_sub_u32(
-                                    ((1 as core::ffi::c_int) << _324 as uint32_t) as uint32_t,
-                                    1,
-                                )) << _325) as uint8_t;
+                            ) & llvm_sub_u32(
+                                ((1 as core::ffi::c_int) << _324 as uint32_t) as uint32_t,
+                                1,
+                            )) << _325) as uint8_t;
                         _326 = _75;
                         _327 = _40;
                         _328 = _74;
@@ -5887,7 +5925,8 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
                     _340 = _37;
                     _341 = _76;
                     _342 = *(&mut *(_340 as *mut uint8_t)
-                        .offset(_341 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_341 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _343 = _40;
                     _344 = _39;
                     _345 = _38;
@@ -5903,11 +5942,11 @@ pub unsafe extern "C" fn _Z10encode_ise12quant_methodjPKhPhj(
         return;
     } else {
         __assert_fail(
-            &_OC_str as *const [uint8_t; 20] as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const [uint8_t; 55] as *mut core::ffi::c_void,
+            &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
             500,
-            &__PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj
-                as *const [uint8_t; 86] as *mut core::ffi::c_void,
+            &__PRETTY_FUNCTION___OC__Z10encode_ise12quant_methodjPKhPhj as *const l_array_86_uint8_t
+                as *mut core::ffi::c_void,
         );
     };
 }
@@ -5925,8 +5964,8 @@ pub unsafe extern "C" fn _ZNKSt5arrayI9btq_countLm21EEixEm(
     _397 = _395;
     _398 = _396;
     _399 = _397;
-    return &mut *((*(&mut (*(_398 as *mut l_struct_struct_OC_std_KD__KD_array_OC_0))
-        .field0 as *mut [struct_AC_l_struct_struct_OC_btq_count; 21]))
+    return &mut *((*(&mut (*(_398 as *mut l_struct_struct_OC_std_KD__KD_array_OC_0)).field0
+        as *mut l_array_21_struct_AC_l_struct_struct_OC_btq_count))
         .array)
         .as_mut_ptr()
         .offset(_399 as int64_t as isize) as *mut l_struct_struct_OC_btq_count
@@ -5976,24 +6015,16 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     _406 = _402;
     _407 = _403;
     _409 = _405;
-    _408 = llvm_sub_u32(
-        ((1 as core::ffi::c_int) << _409) as uint32_t,
-        1,
-    );
+    _408 = llvm_sub_u32(((1 as core::ffi::c_int) << _409) as uint32_t, 1);
     _410 = _408;
     _411 = _404;
     _404 = _411 & _410;
     _412 = _406;
     _413 = _407;
-    _407 = &mut *(_413 as *mut uint8_t)
-        .offset(
-            (llvm_lshr_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_412, 3) as uint64_t as int64_t
-                as isize,
-        ) as *mut uint8_t as *mut core::ffi::c_void;
+    _407 = &mut *(_413 as *mut uint8_t).offset((llvm_lshr_u32
+        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+        _412, 3
+    ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
     _414 = _406;
     _406 = _414 & 7;
     _415 = _406;
@@ -6019,17 +6050,13 @@ unsafe extern "C" fn _ZL10write_bitsjjjPh(
     _430 = &mut *(_429 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t as *mut core::ffi::c_void;
     _431 = *(_430 as *mut uint8_t);
-    *(_430
-        as *mut uint8_t) = (_431 as uint32_t
-        & llvm_lshr_u32(_428, 8)) as uint8_t;
+    *(_430 as *mut uint8_t) = (_431 as uint32_t & llvm_lshr_u32(_428, 8)) as uint8_t;
     _432 = _404;
     _433 = _407;
     _434 = &mut *(_433 as *mut uint8_t).offset(1 as core::ffi::c_int as int64_t as isize)
         as *mut uint8_t as *mut core::ffi::c_void;
     _435 = *(_434 as *mut uint8_t);
-    *(_434
-        as *mut uint8_t) = (_435 as uint32_t
-        | llvm_lshr_u32(_432, 8)) as uint8_t;
+    *(_434 as *mut uint8_t) = (_435 as uint32_t | llvm_lshr_u32(_432, 8)) as uint8_t;
 }
 #[no_mangle]
 #[inline(never)]
@@ -6045,10 +6072,8 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     let mut _443: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _444: *mut core::ffi::c_void = 0 as *mut core::ffi::c_void;
     let mut _445: uint32_t = 0;
-    let mut _446: [uint8_t; 68] = {[0; 68],
-    };
-    let mut _447: [uint8_t; 22] = {[0; 22],
-    };
+    let mut _446: l_array_68_uint8_t = l_array_68_uint8_t { array: [0; 68] };
+    let mut _447: l_array_22_uint8_t = l_array_22_uint8_t { array: [0; 22] };
     let mut _448: uint32_t = 0;
     let mut _449: uint32_t = 0;
     let mut _450: uint32_t = 0;
@@ -6204,7 +6229,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
     _463 = _442;
     if _463 > 0 as core::ffi::c_uint {
         _464 = memset(
-            &mut _447 as *mut [uint8_t; 22] as *mut core::ffi::c_void,
+            &mut _447 as *mut l_array_22_uint8_t as *mut core::ffi::c_void,
             0,
             22,
         );
@@ -6215,7 +6240,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _465 as uint64_t,
         );
         _467 = *(_466 as *mut uint8_t);
-        _448 = llvm_and_u8(_467, 63 as core::ffi::c_int as uint8_t) as uint32_t;
+        _448 = llvm_and_u8(_467, 63) as uint32_t;
         _468 = _441;
         _469 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
@@ -6223,10 +6248,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _468 as uint64_t,
         );
         _470 = *(_469 as *mut uint8_t);
-        _449 = llvm_and_u8(
-            llvm_lshr_u8(_470, 6 as core::ffi::c_int as uint8_t),
-            1 as core::ffi::c_int as uint8_t,
-        ) as uint32_t;
+        _449 = llvm_and_u8(llvm_lshr_u8(_470, 6), 1) as uint32_t;
         _471 = _441;
         _472 = _ZNKSt5arrayI9btq_countLm21EEixEm(
             &_ZL10btq_counts as *const l_struct_struct_OC_std_KD__KD_array_OC_0
@@ -6234,7 +6256,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _471 as uint64_t,
         );
         _473 = *(_472 as *mut uint8_t);
-        _450 = llvm_lshr_u8(_473, 7 as core::ffi::c_int as uint8_t) as uint32_t;
+        _450 = llvm_lshr_u8(_473, 7) as uint32_t;
         _451 = 0;
         _452 = 0;
         _453 = 0;
@@ -6251,8 +6273,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
             _480 = _453;
             *(&mut *(_446.array)
                 .as_mut_ptr()
-                .offset(_480 as uint64_t as int64_t as isize)
-                as *mut uint8_t) = _479 as uint8_t;
+                .offset(_480 as uint64_t as int64_t as isize) as *mut uint8_t) = _479 as uint8_t;
             _481 = _448;
             _482 = _445;
             _445 = llvm_add_u32(_482, _481);
@@ -6261,8 +6282,8 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _484 = _451;
                 _485 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read.array)
                     .as_ptr()
-                    .offset(_484 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_484 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _486 = _445;
                 _487 = _443;
                 _488 = _ZL9read_bitsjjPKh(_485 as uint32_t, _486, _487);
@@ -6270,37 +6291,35 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _489 = _451;
                 _490 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read.array)
                     .as_ptr()
-                    .offset(_489 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_489 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _491 = _445;
                 _445 = llvm_add_u32(_491, _490 as uint32_t);
                 _492 = _454;
                 _493 = _451;
                 _494 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE11block_shift.array)
                     .as_ptr()
-                    .offset(_493 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_493 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _495 = _452;
                 _496 = &mut *(_447.array)
                     .as_mut_ptr()
-                    .offset(_495 as uint64_t as int64_t as isize) as *mut uint8_t
-                    as *mut core::ffi::c_void;
+                    .offset(_495 as uint64_t as int64_t as isize)
+                    as *mut uint8_t as *mut core::ffi::c_void;
                 _497 = *(_496 as *mut uint8_t);
-                *(_496
-                    as *mut uint8_t) = (_497 as uint32_t | _492 << _494 as uint32_t)
-                    as uint8_t;
+                *(_496 as *mut uint8_t) = (_497 as uint32_t | _492 << _494 as uint32_t) as uint8_t;
                 _498 = _451;
                 _499 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr.array)
                     .as_ptr()
-                    .offset(_498 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_498 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _500 = _452;
                 _452 = llvm_add_u32(_500, _499 as uint32_t);
                 _501 = _451;
                 _502 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter.array)
                     .as_ptr()
-                    .offset(_501 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_501 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _451 = _502 as uint32_t;
             }
             _503 = _450;
@@ -6308,8 +6327,8 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _504 = _451;
                 _505 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0.array)
                     .as_ptr()
-                    .offset(_504 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_504 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _506 = _445;
                 _507 = _443;
                 _508 = _ZL9read_bitsjjPKh(_505 as uint32_t, _506, _507);
@@ -6317,37 +6336,35 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                 _509 = _451;
                 _510 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE12bits_to_read_0.array)
                     .as_ptr()
-                    .offset(_509 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_509 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _511 = _445;
                 _445 = llvm_add_u32(_511, _510 as uint32_t);
                 _512 = _455;
                 _513 = _451;
                 _514 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE11block_shift_0.array)
                     .as_ptr()
-                    .offset(_513 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_513 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _515 = _452;
                 _516 = &mut *(_447.array)
                     .as_mut_ptr()
-                    .offset(_515 as uint64_t as int64_t as isize) as *mut uint8_t
-                    as *mut core::ffi::c_void;
+                    .offset(_515 as uint64_t as int64_t as isize)
+                    as *mut uint8_t as *mut core::ffi::c_void;
                 _517 = *(_516 as *mut uint8_t);
-                *(_516
-                    as *mut uint8_t) = (_517 as uint32_t | _512 << _514 as uint32_t)
-                    as uint8_t;
+                *(_516 as *mut uint8_t) = (_517 as uint32_t | _512 << _514 as uint32_t) as uint8_t;
                 _518 = _451;
                 _519 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13hcounter_incr_0.array)
                     .as_ptr()
-                    .offset(_518 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_518 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _520 = _452;
                 _452 = llvm_add_u32(_520, _519 as uint32_t);
                 _521 = _451;
                 _522 = *(&*(_ZZ10decode_ise12quant_methodjPKhPhjE13next_lcounter_0.array)
                     .as_ptr()
-                    .offset(_521 as uint64_t as int64_t as isize) as *const uint8_t
-                    as *mut uint8_t);
+                    .offset(_521 as uint64_t as int64_t as isize)
+                    as *const uint8_t as *mut uint8_t);
                 _451 = _522 as uint32_t;
             }
             _523 = _453;
@@ -6356,10 +6373,7 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
         _524 = _449;
         if _524 != 0 as core::ffi::c_uint {
             _525 = _442;
-            _456 = llvm_udiv_u32(
-                llvm_add_u32(_525, 4),
-                5,
-            );
+            _456 = llvm_udiv_u32(llvm_add_u32(_525, 4), 5);
             _526 = _456;
             if _526 > 0 as core::ffi::c_uint {
                 _457 = 0;
@@ -6372,153 +6386,124 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     _529 = _457;
                     _530 = *(&mut *(_447.array)
                         .as_mut_ptr()
-                        .offset(_529 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_529 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _458 = &mut *((*(&*(_ZL16trits_of_integer.array)
                         .as_ptr()
                         .offset(_530 as uint64_t as int64_t as isize)
-                        as *const [uint8_t; 5] as *mut [uint8_t; 5]))
+                        as *const l_array_5_uint8_t
+                        as *mut l_array_5_uint8_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint8_t
-                        as *mut core::ffi::c_void;
+                        .offset(0 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t as *mut core::ffi::c_void;
                     _531 = _458;
                     _532 = *(_531 as *mut uint8_t);
                     _533 = _448;
                     _534 = _457;
-                    _535 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_mul_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(5, _534)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _535 = &mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        5, _534
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _536 = *(_535 as *mut uint8_t);
-                    *(_535
-                        as *mut uint8_t) = (_536 as uint32_t
-                        | (_532 as uint32_t) << _533) as uint8_t;
+                    *(_535 as *mut uint8_t) =
+                        (_536 as uint32_t | (_532 as uint32_t) << _533) as uint8_t;
                     _537 = _458;
                     _538 = *(&mut *(_537 as *mut uint8_t)
-                        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint8_t);
+                        .offset(1 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t);
                     _539 = _448;
                     _540 = _457;
-                    _541 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(
-                                (llvm_mul_u32
-                                    as unsafe extern "C" fn(
-                                        uint32_t,
-                                        uint32_t,
-                                    ) -> uint32_t)(5, _540),
-                                1,
-                            ) as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _541 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                            5, _540,
+                        ),
+                        1,
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _542 = *(_541 as *mut uint8_t);
-                    *(_541
-                        as *mut uint8_t) = (_542 as uint32_t
-                        | (_538 as uint32_t) << _539) as uint8_t;
+                    *(_541 as *mut uint8_t) =
+                        (_542 as uint32_t | (_538 as uint32_t) << _539) as uint8_t;
                     _543 = _458;
                     _544 = *(&mut *(_543 as *mut uint8_t)
-                        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint8_t);
+                        .offset(2 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t);
                     _545 = _448;
                     _546 = _457;
-                    _547 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(
-                                (llvm_mul_u32
-                                    as unsafe extern "C" fn(
-                                        uint32_t,
-                                        uint32_t,
-                                    ) -> uint32_t)(5, _546),
-                                2,
-                            ) as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _547 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                            5, _546,
+                        ),
+                        2,
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _548 = *(_547 as *mut uint8_t);
-                    *(_547
-                        as *mut uint8_t) = (_548 as uint32_t
-                        | (_544 as uint32_t) << _545) as uint8_t;
+                    *(_547 as *mut uint8_t) =
+                        (_548 as uint32_t | (_544 as uint32_t) << _545) as uint8_t;
                     _549 = _458;
                     _550 = *(&mut *(_549 as *mut uint8_t)
-                        .offset(3 as core::ffi::c_int as int64_t as isize) as *mut uint8_t);
+                        .offset(3 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t);
                     _551 = _448;
                     _552 = _457;
-                    _553 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(
-                                (llvm_mul_u32
-                                    as unsafe extern "C" fn(
-                                        uint32_t,
-                                        uint32_t,
-                                    ) -> uint32_t)(5, _552),
-                                3,
-                            ) as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _553 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                            5, _552,
+                        ),
+                        3,
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _554 = *(_553 as *mut uint8_t);
-                    *(_553
-                        as *mut uint8_t) = (_554 as uint32_t
-                        | (_550 as uint32_t) << _551) as uint8_t;
+                    *(_553 as *mut uint8_t) =
+                        (_554 as uint32_t | (_550 as uint32_t) << _551) as uint8_t;
                     _555 = _458;
                     _556 = *(&mut *(_555 as *mut uint8_t)
-                        .offset(4 as core::ffi::c_int as int64_t as isize) as *mut uint8_t);
+                        .offset(4 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t);
                     _557 = _448;
                     _558 = _457;
-                    _559 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(
-                                (llvm_mul_u32
-                                    as unsafe extern "C" fn(
-                                        uint32_t,
-                                        uint32_t,
-                                    ) -> uint32_t)(5, _558),
-                                4,
-                            ) as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _559 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                            5, _558,
+                        ),
+                        4,
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _560 = *(_559 as *mut uint8_t);
-                    *(_559
-                        as *mut uint8_t) = (_560 as uint32_t
-                        | (_556 as uint32_t) << _557) as uint8_t;
+                    *(_559 as *mut uint8_t) =
+                        (_560 as uint32_t | (_556 as uint32_t) << _557) as uint8_t;
                     _561 = _457;
                     _457 = llvm_add_u32(_561, 1);
                 }
             } else {
                 __assert_fail(
-                    &_OC_str_OC_2 as *const [uint8_t; 16] as *mut core::ffi::c_void,
-                    &_OC_str_OC_1 as *const [uint8_t; 55] as *mut core::ffi::c_void,
+                    &_OC_str_OC_2 as *const l_array_16_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
                     710,
                     &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
-                        as *const [uint8_t; 86] as *mut core::ffi::c_void,
+                        as *const l_array_86_uint8_t as *mut core::ffi::c_void,
                 );
             }
         }
         _562 = _450;
         if _562 != 0 as core::ffi::c_uint {
             _563 = _442;
-            _459 = llvm_udiv_u32(
-                llvm_add_u32(_563, 2),
-                3,
-            );
+            _459 = llvm_udiv_u32(llvm_add_u32(_563, 2), 3);
             _564 = _459;
             if _564 > 0 as core::ffi::c_uint {
                 _460 = 0;
@@ -6531,93 +6516,79 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
                     _567 = _460;
                     _568 = *(&mut *(_447.array)
                         .as_mut_ptr()
-                        .offset(_567 as uint64_t as int64_t as isize) as *mut uint8_t);
+                        .offset(_567 as uint64_t as int64_t as isize)
+                        as *mut uint8_t);
                     _461 = &mut *((*(&*(_ZL17quints_of_integer.array)
                         .as_ptr()
                         .offset(_568 as uint64_t as int64_t as isize)
-                        as *const [uint8_t; 3] as *mut [uint8_t; 3]))
+                        as *const l_array_3_uint8_t
+                        as *mut l_array_3_uint8_t))
                         .array)
                         .as_mut_ptr()
-                        .offset(0 as core::ffi::c_int as int64_t as isize) as *mut uint8_t
-                        as *mut core::ffi::c_void;
+                        .offset(0 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t as *mut core::ffi::c_void;
                     _569 = _461;
                     _570 = *(_569 as *mut uint8_t);
                     _571 = _448;
                     _572 = _460;
-                    _573 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_mul_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(3, _572)
-                                as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _573 = &mut *(_446.array).as_mut_ptr().offset((llvm_mul_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        3, _572
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _574 = *(_573 as *mut uint8_t);
-                    *(_573
-                        as *mut uint8_t) = (_574 as uint32_t
-                        | (_570 as uint32_t) << _571) as uint8_t;
+                    *(_573 as *mut uint8_t) =
+                        (_574 as uint32_t | (_570 as uint32_t) << _571) as uint8_t;
                     _575 = _461;
                     _576 = *(&mut *(_575 as *mut uint8_t)
-                        .offset(1 as core::ffi::c_int as int64_t as isize) as *mut uint8_t);
+                        .offset(1 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t);
                     _577 = _448;
                     _578 = _460;
-                    _579 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(
-                                (llvm_mul_u32
-                                    as unsafe extern "C" fn(
-                                        uint32_t,
-                                        uint32_t,
-                                    ) -> uint32_t)(3, _578),
-                                1,
-                            ) as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _579 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                            3, _578,
+                        ),
+                        1,
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _580 = *(_579 as *mut uint8_t);
-                    *(_579
-                        as *mut uint8_t) = (_580 as uint32_t
-                        | (_576 as uint32_t) << _577) as uint8_t;
+                    *(_579 as *mut uint8_t) =
+                        (_580 as uint32_t | (_576 as uint32_t) << _577) as uint8_t;
                     _581 = _461;
                     _582 = *(&mut *(_581 as *mut uint8_t)
-                        .offset(2 as core::ffi::c_int as int64_t as isize) as *mut uint8_t);
+                        .offset(2 as core::ffi::c_int as int64_t as isize)
+                        as *mut uint8_t);
                     _583 = _448;
                     _584 = _460;
-                    _585 = &mut *(_446.array)
-                        .as_mut_ptr()
-                        .offset(
-                            (llvm_add_u32
-                                as unsafe extern "C" fn(
-                                    uint32_t,
-                                    uint32_t,
-                                ) -> uint32_t)(
-                                (llvm_mul_u32
-                                    as unsafe extern "C" fn(
-                                        uint32_t,
-                                        uint32_t,
-                                    ) -> uint32_t)(3, _584),
-                                2,
-                            ) as uint64_t as int64_t as isize,
-                        ) as *mut uint8_t as *mut core::ffi::c_void;
+                    _585 = &mut *(_446.array).as_mut_ptr().offset((llvm_add_u32
+                        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                        (llvm_mul_u32 as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+                            3, _584,
+                        ),
+                        2,
+                    ) as uint64_t
+                        as int64_t
+                        as isize) as *mut uint8_t
+                        as *mut core::ffi::c_void;
                     _586 = *(_585 as *mut uint8_t);
-                    *(_585
-                        as *mut uint8_t) = (_586 as uint32_t
-                        | (_582 as uint32_t) << _583) as uint8_t;
+                    *(_585 as *mut uint8_t) =
+                        (_586 as uint32_t | (_582 as uint32_t) << _583) as uint8_t;
                     _587 = _460;
                     _460 = llvm_add_u32(_587, 1);
                 }
             } else {
                 __assert_fail(
-                    &_OC_str_OC_3 as *const [uint8_t; 17] as *mut core::ffi::c_void,
-                    &_OC_str_OC_1 as *const [uint8_t; 55] as *mut core::ffi::c_void,
+                    &_OC_str_OC_3 as *const l_array_17_uint8_t as *mut core::ffi::c_void,
+                    &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
                     725,
                     &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
-                        as *const [uint8_t; 86] as *mut core::ffi::c_void,
+                        as *const l_array_86_uint8_t as *mut core::ffi::c_void,
                 );
             }
         }
@@ -6642,11 +6613,11 @@ pub unsafe extern "C" fn _Z10decode_ise12quant_methodjPKhPhj(
         return;
     } else {
         __assert_fail(
-            &_OC_str as *const [uint8_t; 20] as *mut core::ffi::c_void,
-            &_OC_str_OC_1 as *const [uint8_t; 55] as *mut core::ffi::c_void,
+            &_OC_str as *const l_array_20_uint8_t as *mut core::ffi::c_void,
+            &_OC_str_OC_1 as *const l_array_55_uint8_t as *mut core::ffi::c_void,
             658,
-            &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj
-                as *const [uint8_t; 86] as *mut core::ffi::c_void,
+            &__PRETTY_FUNCTION___OC__Z10decode_ise12quant_methodjPKhPhj as *const l_array_86_uint8_t
+                as *mut core::ffi::c_void,
         );
     };
 }
@@ -6678,21 +6649,13 @@ unsafe extern "C" fn _ZL9read_bitsjjPKh(
     _632 = _629;
     _633 = _630;
     _636 = _631;
-    _634 = llvm_sub_u32(
-        ((1 as core::ffi::c_int) << _636) as uint32_t,
-        1,
-    );
+    _634 = llvm_sub_u32(((1 as core::ffi::c_int) << _636) as uint32_t, 1);
     _637 = _632;
     _638 = _633;
-    _633 = &mut *(_638 as *mut uint8_t)
-        .offset(
-            (llvm_lshr_u32
-                as unsafe extern "C" fn(
-                    uint32_t,
-                    uint32_t,
-                ) -> uint32_t)(_637, 3) as uint64_t as int64_t
-                as isize,
-        ) as *mut uint8_t as *mut core::ffi::c_void;
+    _633 = &mut *(_638 as *mut uint8_t).offset((llvm_lshr_u32
+        as unsafe extern "C" fn(uint32_t, uint32_t) -> uint32_t)(
+        _637, 3
+    ) as uint64_t as int64_t as isize) as *mut uint8_t as *mut core::ffi::c_void;
     _639 = _632;
     _632 = _639 & 7;
     _640 = _633;
