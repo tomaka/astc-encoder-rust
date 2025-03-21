@@ -12,9 +12,21 @@ fn main() {
         .unwrap()
         .map(|r| r.unwrap())
         .map(|source_file| {
-            let s = String::from_utf8(fs::read(source_file.path()).unwrap()).unwrap();
-            (source_file.path().to_owned(), syn::parse_file(&s).unwrap())
+            let content = String::from_utf8(fs::read(source_file.path()).unwrap()).unwrap();
+            (source_file.path().to_owned(), content)
         })
+        .collect::<HashMap<PathBuf, String>>();
+
+    // Replace `libc::` with `core::ffi::` and remove `libc` altogether.
+    for (_, source_text) in &mut source_files {
+        *source_text = source_text.replace("libc::", "core::ffi::");
+        *source_text = source_text.replace("use ::libc", "");
+    }
+
+    // Now parse all the source files.
+    let mut source_files = source_files
+        .into_iter()
+        .map(|(path, content)| (path, syn::parse_file(&content).unwrap()))
         .collect::<HashMap<PathBuf, syn::File>>();
 
     // Each Rust file starts with an `extern "C" {}` block containing some definitions.

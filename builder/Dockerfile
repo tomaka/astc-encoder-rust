@@ -85,9 +85,6 @@ RUN cargo run --release -- /root/output/final_output
 # Remove casting of numeric constants which causes signed/unsigned types issues
 #RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint[0-9]*_t/\1/g' $f; done
 #RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
-# Replace `libc::` with `core::ffi::` and remove `libc` altogether
-#RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/g' $f; done
-#RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done
 #RUN sed -i 's/extern crate libc;//' lib.rs
 # Remove all `#[no_mangle]` attributes
 #RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
