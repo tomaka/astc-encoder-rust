@@ -1,8 +1,34 @@
-use std::{fs, path::Path};
+use std::{
+    collections::HashMap,
+    fs,
+    path::{Path, PathBuf},
+};
 
 fn main() {
-    let target_rust_dir = std::env::args().nth(1).unwrap();
-    let target_rust_dir = Path::new(&target_rust_dir);
+    let target_rust_dir = Path::new(&std::env::args().nth(1).unwrap()).to_owned();
+
+    // Content of all the source files.
+    let mut source_files = fs::read_dir(target_rust_dir.join("src"))
+        .unwrap()
+        .map(|r| r.unwrap())
+        .map(|source_file| {
+            let s = String::from_utf8(fs::read(source_file.path()).unwrap()).unwrap();
+            (source_file.path().to_owned(), syn::parse_file(&s).unwrap())
+        })
+        .collect::<HashMap<PathBuf, syn::File>>();
+
+    // Each Rust file starts with an `extern "C" {}` block containing some definitions.
+    // We remove all of them.
+    for src in source_files.values_mut() {
+        src.items
+            .retain(|item| !matches!(item, syn::Item::ForeignMod(_)));
+    }
+
+    // Write the modifications.
+    for (target_path, target_content) in source_files {
+        let content = quote::ToTokens::into_token_stream(target_content).to_string();
+        fs::write(target_path, &content).unwrap();
+    }
 
     std::io::Write::write_all(
         &mut fs::File::options().append(true).open(target_rust_dir.join("lib.rs")).unwrap(),

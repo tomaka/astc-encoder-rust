@@ -75,15 +75,13 @@ WORKDIR /root
 RUN mkdir builder
 WORKDIR builder
 COPY . .
-RUN cargo build
+RUN cargo build --release
 
 # Do the tweaks
-RUN cargo run -- /root/output/final_output
+RUN cargo run --release -- /root/output/final_output
 
 # Do some more tweaks to the Rust code
 # TODO: move all these tweaks to the builder
-# Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
-#RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
 # Remove casting of numeric constants which causes signed/unsigned types issues
 #RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint[0-9]*_t/\1/g' $f; done
 #RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
