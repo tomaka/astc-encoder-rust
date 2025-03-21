@@ -68,30 +68,43 @@ RUN bindgen /root/astc-encoder/Source/astcenc.h -o bindings.rs --use-core --with
 RUN echo "pub mod bindings;" >> lib.rs
 RUN echo "pub use bindings::*;" >> lib.rs
 
+# Now add and compile a (pre-existing) Rust program that will do some twaeak to the generated Rust code
+# Note that this should in theory be done earlier in the Dockerfile, but putting it later means
+# that tweaks to this builder will not invalidate the Dockerfile layers cache
+WORKDIR /root
+RUN mkdir builder
+WORKDIR builder
+COPY . .
+RUN cargo build
+
+# Do the tweaks
+RUN cargo run -- /root/output/final_output
+
 # Do some more tweaks to the Rust code
+# TODO: move all these tweaks to the builder
 # Each Rust file starts with an `extern "C" {}` block containing some definitions. We remove all of them.
-RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
+#RUN cd src && for f in *.rs; do sed -i '/extern \"C\" {/,/}/d' $f; done
 # Remove casting of numeric constants which causes signed/unsigned types issues
-RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint[0-9]*_t/\1/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint[0-9]*_t/\1/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
 # Replace `libc::` with `core::ffi::` and remove `libc` altogether
-RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done
-RUN sed -i 's/extern crate libc;//' lib.rs
+#RUN cd src && for f in *.rs; do sed -i 's/libc::/core::ffi::/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/use ::libc;//' $f; done
+#RUN sed -i 's/extern crate libc;//' lib.rs
 # Remove all `#[no_mangle]` attributes
-RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/#[no_mangle]//' $f; done
 # Each Rust module imports every other public symbol of every other module
 # This is done by adding `use crate::*;` at the head of each file, and `use src::foo::*;` in lib.rs for each module
-RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
-RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
-RUN sed -i '1 i\#![allow(ambiguous_glob_reexports)]' lib.rs
-RUN sed -i '1 i\#![allow(ambiguous_glob_imports)]' lib.rs
+#RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
+#RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
+#RUN sed -i '1 i\#![allow(ambiguous_glob_reexports)]' lib.rs
+#RUN sed -i '1 i\#![allow(ambiguous_glob_imports)]' lib.rs
 # Some warning silencing
-RUN sed -i '1 i\#![allow(unused_parens)]' lib.rs
-RUN sed -i '1 i\#![allow(unused_imports)]' lib.rs
+#RUN sed -i '1 i\#![allow(unused_parens)]' lib.rs
+#RUN sed -i '1 i\#![allow(unused_imports)]' lib.rs
 
 # Very specific fix
-RUN sed -i 's/(8)\.wrapping_mul/(8u64)\.wrapping_mul/g' src/astcenc_entry_cbe.rs
+#RUN sed -i 's/(8)\.wrapping_mul/(8u64)\.wrapping_mul/g' src/astcenc_entry_cbe.rs
 
 # There are many structs named `l_array_*_uint*_t` which have a single field with an array.
 # These structs are redefined locally in each module. Unfortunately, when a function that returns
@@ -100,46 +113,20 @@ RUN sed -i 's/(8)\.wrapping_mul/(8u64)\.wrapping_mul/g' src/astcenc_entry_cbe.rs
 # are identical.
 # To solve this, we prefix all references to these structs with `crate::`, which guarantees that
 # they all use the same definition.
-RUN cd src && for f in *.rs; do sed -i 's/pub struct l_array_\([_a-zA-Z0-9]*\) {/pub struct __tmp_rename_array_\1 {/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/ \(l_array_[_a-zA-Z0-9]*\)/ crate::\1/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/pub struct __tmp_rename_array_\([_a-zA-Z0-9]*\) {/pub struct l_array_\1 {/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/pub struct l_array_\([_a-zA-Z0-9]*\) {/pub struct __tmp_rename_array_\1 {/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/ \(l_array_[_a-zA-Z0-9]*\)/ crate::\1/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/pub struct __tmp_rename_array_\([_a-zA-Z0-9]*\) {/pub struct l_array_\1 {/g' $f; done
 
 # In practice, the Rust code only ever works through raw pointers
 # We replace `&mut *some_val` with `&raw mut *some_val` (and same with `const`).
 # This has the effect of removing compilation errors due to `as *mut other_type` converting from
 # a reference of identically-named but different `other_type`.
 # It also solves some unaligned pointer grabbing errors.
-RUN cd src && for f in *.rs; do sed -i 's/&\*/\&raw const \*/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/&mut \*/\&raw mut \*/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/&(\*/\&raw const (\*/g' $f; done
-RUN cd src && for f in *.rs; do sed -i 's/&mut (\*/\&raw mut (\*/g' $f; done
-
-# Add some substitutes to C/C++ functions in `lib.rs`
-RUN echo "unsafe fn memcpy(d: *mut core::ffi::c_void, s: *mut core::ffi::c_void, c: u64) -> *mut core::ffi::c_void { core::ptr::copy_nonoverlapping::<u8>(s.cast_const().cast(), d.cast(), c as usize); d }" >> lib.rs
-RUN echo "unsafe fn memset(d: *mut core::ffi::c_void, ch: core::ffi::c_int, c: u64) -> *mut core::ffi::c_void { assert!(ch <= 255); core::ptr::write_bytes::<u8>(d.cast(), ch as u8, c as usize); d }" >> lib.rs
-RUN echo "fn abs(v: u32) -> u32 { v }" >> lib.rs
-RUN echo "fn cosf(v: f32) -> f32 { v.cos() }" >> lib.rs
-RUN echo "fn sinf(v: f32) -> f32 { v.sin() }" >> lib.rs
-RUN echo "fn fabsf(v: f32) -> f32 { v.abs() }" >> lib.rs
-RUN echo "fn roundf(v: f32) -> f32 { v.round() }" >> lib.rs
-RUN echo "fn sqrtf(v: f32) -> f32 { v.sqrt() }" >> lib.rs
-RUN echo "fn logf(v: f32) -> f32 { v.ln() }" >> lib.rs
-RUN echo "fn fegetround() -> core::ffi::c_uint { 0 }" >> lib.rs
-RUN echo "fn __assert_fail(_assertion: *mut core::ffi::c_void, _file: *mut core::ffi::c_void, _line: core::ffi::c_uint, _function: *mut core::ffi::c_void) -> ! { panic!() }" >> lib.rs
-RUN echo "fn LLVMMul_uov(_: core::ffi::c_ulong, a: &mut u64, b: &mut u64, out: &mut u64) -> u8 { let (res, carry) = (*a).overflowing_mul(*b); *out = res; carry as u8 }" >> lib.rs
-RUN echo "unsafe fn posix_memalign(memptr: *mut core::ffi::c_void, align: u64, size: u64) -> core::ffi::c_int { libc::posix_memalign(memptr as *mut _, align as usize, size as usize) }" >> lib.rs
-RUN echo "use libc::free;" >> lib.rs
-RUN echo "unsafe fn _Znwm(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
-RUN echo "unsafe fn _Znam(size: u64) -> *mut core::ffi::c_void { libc::malloc(size as libc::size_t) }" >> lib.rs
-RUN echo "unsafe fn _ZdaPv(ptr: *mut core::ffi::c_void) { libc::free(ptr) }" >> lib.rs
-RUN echo "unsafe fn _ZdlPvm(ptr: *mut core::ffi::c_void, _: u64) { libc::free(ptr) }" >> lib.rs
-RUN echo "unsafe fn _ZSt25__throw_bad_function_callv() -> ! { panic!() }" >> lib.rs
-RUN echo "unsafe fn _ZSt20__throw_system_errori<T>(_: T) -> ! { panic!() }" >> lib.rs
-RUN echo "// __cxa_begin_catch is only ever used right before a call to terminate()" >> lib.rs
-RUN echo "unsafe fn __cxa_begin_catch(_: *mut core::ffi::c_void) -> *mut core::ffi::c_void { core::ptr::null_mut() }" >> lib.rs
-RUN echo "unsafe fn _ZSt9terminatev() -> ! { panic!() }" >> lib.rs
-RUN echo "unsafe fn pthread_mutex_lock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_lock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs
-RUN echo "unsafe fn pthread_mutex_unlock(mutex: *mut core::ffi::c_void) -> core::ffi::c_uint { libc::pthread_mutex_unlock(mutex as *mut _) as core::ffi::c_uint }" >> lib.rs
+#RUN cd src && for f in *.rs; do sed -i 's/&\*/\&raw const \*/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/&mut \*/\&raw mut \*/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/&(\*/\&raw const (\*/g' $f; done
+#RUN cd src && for f in *.rs; do sed -i 's/&mut (\*/\&raw mut (\*/g' $f; done
 
 # Rustfmt
+WORKDIR /root/output/final_output
 RUN cargo fmt

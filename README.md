@@ -21,7 +21,7 @@ debug = 0
 In order to re-generate this code, do the following:
 
 ```
-docker build -t test .
+docker build -t test builder
 docker create --name dummy test
 docker cp dummy:/root/output/final_output .
 docker rm dummy
