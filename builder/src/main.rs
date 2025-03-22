@@ -102,6 +102,7 @@ fn main() {
                 syn::Item::Fn(f) => Some(f),
                 _ => None,
             })
+            .filter(|f| matches!(f.vis, syn::Visibility::Public(_)))
         {
             // Remove `extern "C"`.
             item_fn.sig.abi = None;
