@@ -7,4 +7,5 @@ edition = "2024"
 
 [dependencies]
 quote = "1.0"
+regex = "1.0"
 syn = { version = "2.0.100", features = ["full", "parsing", "printing"] }

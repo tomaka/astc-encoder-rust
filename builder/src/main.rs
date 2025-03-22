@@ -24,9 +24,16 @@ fn main() {
     }
 
     // Remove casting of numeric constants which causes signed/unsigned types issues
-    // TODO: restore
-    //#RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint[0-9]*_t/\1/g' $f; done
-    //#RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
+    for (_, source_text) in &mut source_files {
+        *source_text = regex::Regex::new(r#"([0-9]+) as libc::c_int as uint[0-9]+_t"#)
+            .unwrap()
+            .replace_all(source_text, "$1")
+            .to_string();
+        *source_text = regex::Regex::new(r#"([0-9]+) as libc::c_int as libc::c_ulong"#)
+            .unwrap()
+            .replace_all(source_text, "$1")
+            .to_string();
+    }
 
     // Remove all `#[no_mangle]` attributes
     for (_, source_text) in &mut source_files {
