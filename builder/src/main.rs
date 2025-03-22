@@ -148,10 +148,13 @@ fn main() {
                 syn::Item::Fn(f) => Some(f),
                 _ => None,
             })
-            .filter(|f| matches!(f.vis, syn::Visibility::Public(_)))
         {
             // Remove `extern "C"`.
             item_fn.sig.abi = None;
+
+            if !matches!(f.vis, syn::Visibility::Public(_)) {
+                continue;
+            }
 
             if symbol_definitions.contains_key(&item_fn.sig.ident) {
                 duplicate_fns.push(item_fn.sig.ident.clone());
