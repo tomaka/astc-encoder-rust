@@ -93,6 +93,7 @@ fn main() {
 
     // The Rust files contain a lot of function definitions that are normally exported
     // in the original source code. We remove the `extern "C"` and keep track of them.
+    // TODO: consider removing the duplicates?
     let mut function_definitions = Vec::new();
     for (source_file_path, source_content) in source_files.iter_mut() {
         for item_fn in source_content
