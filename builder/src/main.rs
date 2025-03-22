@@ -98,7 +98,7 @@ fn main() {
 
     // The Rust files contain a lot of function definitions that are normally exported
     // in the original source code. We remove the `extern "C"` and keep track of them.
-    let mut function_definitions = HashMap::new();
+    let mut function_definitions = Vec::new();
     for (source_file_path, source_content) in source_files.iter_mut() {
         for item_fn in source_content
             .items
@@ -111,8 +111,10 @@ fn main() {
             // Remove `extern "C"`.
             item_fn.sig.abi = None;
 
-            // TODO: don't insert path but module name
-            function_definitions.insert(source_file_path, item_fn.sig.ident.clone());
+            function_definitions.push((
+                source_file_path.file_stem().unwrap(),
+                item_fn.sig.ident.clone(),
+            ));
         }
     }
 
