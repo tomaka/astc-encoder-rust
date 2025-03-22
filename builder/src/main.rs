@@ -1,6 +1,6 @@
 use std::{
     collections::HashMap,
-    fs,
+    fs, iter,
     path::{Path, PathBuf},
 };
 
@@ -115,6 +115,175 @@ fn main() {
                 source_file_path.file_stem().unwrap(),
                 item_fn.sig.ident.clone(),
             ));
+        }
+    }
+
+    // Now find all expressions in the source code and perform tweaks.
+    for (source_file_path, source_content) in source_files.iter_mut() {
+        let mut exprs = Vec::<&mut syn::Expr>::new();
+        let mut stmts = Vec::<&mut syn::Stmt>::new();
+        let mut items = Vec::<&mut syn::Item>::new();
+
+        items.extend(source_content.items.iter_mut());
+
+        loop {
+            if let Some(stmt) = stmts.pop() {
+                match stmt {
+                    syn::Stmt::Local(syn::Local {
+                        init: Some(init), ..
+                    }) => exprs.push(&mut *init.expr),
+                    syn::Stmt::Local(syn::Local { init: None, .. }) => {}
+                    syn::Stmt::Item(item) => items.push(item),
+                    syn::Stmt::Expr(expr, _) => exprs.push(expr),
+                    syn::Stmt::Macro(m) => {
+                        if !m.mac.tokens.is_empty() {
+                            unimplemented!()
+                        }
+                    }
+                }
+                continue;
+            }
+
+            if let Some(item) = items.pop() {
+                match item {
+                    syn::Item::Const(c) => exprs.push(&mut *c.expr),
+                    syn::Item::Enum(_) => {}
+                    syn::Item::ExternCrate(_) => {}
+                    syn::Item::Fn(f) => stmts.extend(f.block.stmts.iter_mut()),
+                    syn::Item::ForeignMod(_) => {}
+                    syn::Item::Impl(_) => todo!(),
+                    syn::Item::Macro(_) => unimplemented!(),
+                    syn::Item::Mod(m) => {
+                        items.extend(m.content.as_mut().into_iter().flat_map(|c| c.1.iter_mut()))
+                    }
+                    syn::Item::Static(s) => exprs.push(&mut s.expr),
+                    syn::Item::Struct(_) => {}
+                    syn::Item::Trait(t) => {
+                        for i in t.items.iter_mut() {
+                            match i {
+                                syn::TraitItem::Fn(f) => stmts.extend(
+                                    f.default
+                                        .as_mut()
+                                        .into_iter()
+                                        .flat_map(|b| b.stmts.iter_mut()),
+                                ),
+                                syn::TraitItem::Const(c) => {
+                                    exprs.extend(c.default.as_mut().into_iter().map(|v| &mut v.1))
+                                }
+                                _ => {}
+                            }
+                        }
+                    }
+                    syn::Item::TraitAlias(_) => {}
+                    syn::Item::Type(_) => {}
+                    syn::Item::Union(_) => {}
+                    syn::Item::Use(_) => {}
+                    syn::Item::Verbatim(_) => unimplemented!(),
+                    _ => unimplemented!(),
+                }
+                continue;
+            }
+
+            if let Some(expr) = exprs.pop() {
+                match expr {
+                    syn::Expr::Array(e) => exprs.extend(e.elems.iter_mut()),
+                    syn::Expr::Assign(e) => {
+                        exprs.push(&mut *e.left);
+                        exprs.push(&mut *e.right);
+                    }
+                    syn::Expr::Async(e) => stmts.extend(e.block.stmts.iter_mut()),
+                    syn::Expr::Await(e) => exprs.push(&mut *e.base),
+                    syn::Expr::Binary(e) => {
+                        exprs.push(&mut *e.left);
+                        exprs.push(&mut *e.right);
+                    }
+                    syn::Expr::Block(e) => stmts.extend(e.block.stmts.iter_mut()),
+                    syn::Expr::Break(e) => exprs.extend(e.expr.as_mut().map(|e| &mut **e)),
+                    syn::Expr::Call(e) => {
+                        exprs.push(&mut *e.func);
+                        exprs.extend(e.args.iter_mut())
+                    }
+                    syn::Expr::Cast(e) => {
+                        exprs.push(&mut *e.expr);
+                    }
+                    syn::Expr::Closure(e) => {
+                        exprs.push(&mut *e.body);
+                    }
+                    syn::Expr::Const(e) => stmts.extend(e.block.stmts.iter_mut()),
+                    syn::Expr::Continue(_) => {}
+                    syn::Expr::Field(e) => exprs.push(&mut *e.base),
+                    syn::Expr::ForLoop(e) => {
+                        exprs.push(&mut *e.expr);
+                        stmts.extend(e.body.stmts.iter_mut())
+                    }
+                    syn::Expr::Group(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::If(e) => {
+                        exprs.push(&mut *e.cond);
+                        stmts.extend(e.then_branch.stmts.iter_mut());
+                        exprs.extend(e.else_branch.as_mut().map(|(_, e)| &mut **e).into_iter());
+                    }
+                    syn::Expr::Index(e) => {
+                        exprs.push(&mut *e.expr);
+                        exprs.push(&mut *e.index);
+                    }
+                    syn::Expr::Infer(_) => {}
+                    syn::Expr::Let(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::Lit(_) => {}
+                    syn::Expr::Loop(e) => stmts.extend(e.body.stmts.iter_mut()),
+                    syn::Expr::Macro(m) => {
+                        if !m.mac.tokens.is_empty() {
+                            unimplemented!()
+                        }
+                    }
+                    syn::Expr::Match(e) => {
+                        exprs.push(&mut *e.expr);
+                        exprs.extend(e.arms.iter_mut().flat_map(|arm| {
+                            iter::once(&mut *arm.body)
+                                .chain(arm.guard.as_mut().map(|(_, e)| &mut **e).into_iter())
+                        }));
+                    }
+                    syn::Expr::MethodCall(e) => {
+                        exprs.push(&mut *e.receiver);
+                        exprs.extend(e.args.iter_mut())
+                    }
+                    syn::Expr::Paren(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::Path(_) => {}
+                    syn::Expr::Range(e) => {
+                        exprs.extend(e.start.as_mut().map(|e| &mut **e).into_iter());
+                        exprs.extend(e.end.as_mut().map(|e| &mut **e).into_iter());
+                    }
+                    syn::Expr::RawAddr(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::Reference(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::Repeat(e) => {
+                        exprs.push(&mut *e.expr);
+                        exprs.push(&mut *e.len);
+                    }
+                    syn::Expr::Return(e) => {
+                        exprs.extend(e.expr.as_mut().map(|e| &mut **e).into_iter())
+                    }
+                    syn::Expr::Struct(e) => {
+                        exprs.extend(e.fields.iter_mut().map(|f| &mut f.expr));
+                        exprs.extend(e.rest.as_mut().map(|e| &mut **e).into_iter());
+                    }
+                    syn::Expr::Try(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::TryBlock(e) => stmts.extend(e.block.stmts.iter_mut()),
+                    syn::Expr::Tuple(e) => exprs.extend(e.elems.iter_mut()),
+                    syn::Expr::Unary(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::Unsafe(e) => stmts.extend(e.block.stmts.iter_mut()),
+                    syn::Expr::Verbatim(_) => unimplemented!(),
+                    syn::Expr::While(e) => {
+                        exprs.push(&mut *e.cond);
+                        stmts.extend(e.body.stmts.iter_mut());
+                    }
+                    syn::Expr::Yield(e) => {
+                        exprs.extend(e.expr.as_mut().map(|e| &mut **e).into_iter())
+                    }
+                    _ => unimplemented!(),
+                }
+                continue;
+            }
+
+            break;
         }
     }
 
