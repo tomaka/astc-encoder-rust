@@ -152,7 +152,7 @@ fn main() {
             // Remove `extern "C"`.
             item_fn.sig.abi = None;
 
-            if !matches!(f.vis, syn::Visibility::Public(_)) {
+            if !matches!(item_fn.vis, syn::Visibility::Public(_)) {
                 continue;
             }
 
@@ -249,10 +249,12 @@ fn main() {
 
             if let Some(stmt) = stmts.pop() {
                 match stmt {
-                    syn::Stmt::Local(syn::Local {
-                        init: Some(init), ..
-                    }) => exprs.push(&mut *init.expr),
-                    syn::Stmt::Local(syn::Local { init: None, .. }) => {}
+                    syn::Stmt::Local(s) => {
+                        pats.push(&mut s.pat);
+                        exprs.extend(s.init.as_mut().into_iter().flat_map(|l| {
+                            iter::once(&mut *l.expr).chain(l.diverge.as_mut().map(|d| &mut *d.1))
+                        }));
+                    }
                     syn::Stmt::Item(item) => items.push(item),
                     syn::Stmt::Expr(expr, _) => exprs.push(expr),
                     syn::Stmt::Macro(m) => {
@@ -424,9 +426,14 @@ fn main() {
                     }
                     syn::Expr::Cast(e) => {
                         exprs.push(&mut *e.expr);
+                        types.push(&mut *e.ty);
                     }
                     syn::Expr::Closure(e) => {
                         exprs.push(&mut *e.body);
+                        pats.extend(e.inputs.iter_mut());
+                        if let syn::ReturnType::Type(_, ty) = &mut e.output {
+                            types.push(&mut **ty);
+                        }
                     }
                     syn::Expr::Const(e) => stmts.extend(e.block.stmts.iter_mut()),
                     syn::Expr::Continue(_) => {}
@@ -446,7 +453,10 @@ fn main() {
                         exprs.push(&mut *e.index);
                     }
                     syn::Expr::Infer(_) => {}
-                    syn::Expr::Let(e) => exprs.push(&mut *e.expr),
+                    syn::Expr::Let(e) => {
+                        exprs.push(&mut *e.expr);
+                        pats.push(&mut e.pat);
+                    }
                     syn::Expr::Lit(_) => {}
                     syn::Expr::Loop(e) => stmts.extend(e.body.stmts.iter_mut()),
                     syn::Expr::Macro(m) => {
@@ -456,10 +466,13 @@ fn main() {
                     }
                     syn::Expr::Match(e) => {
                         exprs.push(&mut *e.expr);
-                        exprs.extend(e.arms.iter_mut().flat_map(|arm| {
-                            iter::once(&mut *arm.body)
-                                .chain(arm.guard.as_mut().map(|(_, e)| &mut **e).into_iter())
-                        }));
+                        for arm in e.arms.iter_mut() {
+                            exprs.extend(
+                                iter::once(&mut *arm.body)
+                                    .chain(arm.guard.as_mut().map(|(_, e)| &mut **e).into_iter()),
+                            );
+                            pats.push(&mut arm.pat);
+                        }
                     }
                     syn::Expr::MethodCall(e) => {
                         exprs.push(&mut *e.receiver);
