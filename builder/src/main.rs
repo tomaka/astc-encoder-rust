@@ -40,11 +40,6 @@ fn main() {
         *source_text = source_text.replace("#[no_mangle]", "");
     }
 
-    // Each Rust module imports every other public symbol of every other module
-    // This is done by adding `use crate::*;` at the head of each file, and `use src::foo::*;` in lib.rs for each module
-    //#RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
-    //#RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
-
     // Add some lines at the head of lib.rs.
     //#RUN sed -i '1 i\#![allow(ambiguous_glob_reexports)]' lib.rs
     //#RUN sed -i '1 i\#![allow(ambiguous_glob_imports)]' lib.rs
@@ -112,14 +107,14 @@ fn main() {
             item_fn.sig.abi = None;
 
             function_definitions.push((
-                source_file_path.file_stem().unwrap(),
+                source_file_path.file_stem().unwrap().to_owned(),
                 item_fn.sig.ident.clone(),
             ));
         }
     }
 
     // Now find all expressions in the source code and perform tweaks.
-    for (source_file_path, source_content) in source_files.iter_mut() {
+    for (_, source_content) in source_files.iter_mut() {
         let mut exprs = Vec::<&mut syn::Expr>::new();
         let mut stmts = Vec::<&mut syn::Stmt>::new();
         let mut items = Vec::<&mut syn::Item>::new();
@@ -247,7 +242,27 @@ fn main() {
                         exprs.extend(e.args.iter_mut())
                     }
                     syn::Expr::Paren(e) => exprs.push(&mut *e.expr),
-                    syn::Expr::Path(_) => {}
+                    syn::Expr::Path(path) => {
+                        // This is where we actually do some modifications.
+                        // If referring to a function that is defined in a different module,
+                        // we modify the path to point to that function.
+                        if let Some(module) = function_definitions
+                            .iter()
+                            .find(|(_, f)| path.path.segments.iter().next().unwrap().ident == *f)
+                            .map(|(f, _)| f)
+                        {
+                            let mut new_path = syn::punctuated::Punctuated::new();
+                            new_path
+                                .push(syn::PathSegment::from(syn::Ident::from(
+                                    <syn::Token!(crate)>::default(),
+                                )));
+                            new_path.push(syn::PathSegment::from(
+                                syn::parse_str::<syn::Ident>(module.to_str().unwrap()).unwrap(),
+                            ));
+                            new_path.push(path.path.segments.iter().next().unwrap().clone());
+                            path.path.segments = new_path;
+                        }
+                    }
                     syn::Expr::Range(e) => {
                         exprs.extend(e.start.as_mut().map(|e| &mut **e).into_iter());
                         exprs.extend(e.end.as_mut().map(|e| &mut **e).into_iter());
