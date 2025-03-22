@@ -17,12 +17,6 @@ fn main() {
         })
         .collect::<HashMap<PathBuf, String>>();
 
-    // Replace `libc::` with `core::ffi::` and remove `libc` altogether.
-    for (_, source_text) in &mut source_files {
-        *source_text = source_text.replace("libc::", "core::ffi::");
-        *source_text = source_text.replace("use ::libc;", "");
-    }
-
     // Remove casting of numeric constants which causes signed/unsigned types issues
     for (_, source_text) in &mut source_files {
         *source_text = regex::Regex::new(r#"([0-9]+) as libc::c_int as uint[0-9]+_t"#)
@@ -33,6 +27,12 @@ fn main() {
             .unwrap()
             .replace_all(source_text, "$1")
             .to_string();
+    }
+
+    // Replace `libc::` with `core::ffi::` and remove `libc` altogether.
+    for (_, source_text) in &mut source_files {
+        *source_text = source_text.replace("libc::", "core::ffi::");
+        *source_text = source_text.replace("use ::libc;", "");
     }
 
     // Remove all `#[no_mangle]` attributes
