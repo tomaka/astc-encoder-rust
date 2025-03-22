@@ -20,7 +20,60 @@ fn main() {
     // Replace `libc::` with `core::ffi::` and remove `libc` altogether.
     for (_, source_text) in &mut source_files {
         *source_text = source_text.replace("libc::", "core::ffi::");
-        *source_text = source_text.replace("use ::libc", "");
+        *source_text = source_text.replace("use ::libc;", "");
+    }
+
+    // Remove casting of numeric constants which causes signed/unsigned types issues
+    // TODO: restore
+    //#RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as uint[0-9]*_t/\1/g' $f; done
+    //#RUN cd src && for f in *.rs; do sed -i 's/\([0-9]*\) as libc::c_int as libc::c_ulong/\1/g' $f; done
+
+    // Remove all `#[no_mangle]` attributes
+    for (_, source_text) in &mut source_files {
+        *source_text = source_text.replace("#[no_mangle]", "");
+    }
+
+    // Each Rust module imports every other public symbol of every other module
+    // This is done by adding `use crate::*;` at the head of each file, and `use src::foo::*;` in lib.rs for each module
+    //#RUN cd src && for f in *.rs; do sed -i '1 i\use crate::*;' $f; done
+    //#RUN cd src && for f in *.rs; do echo "use src::`echo $f | sed s/\.rs//`::*;" >> ../lib.rs; done
+
+    // Add some lines at the head of lib.rs.
+    //#RUN sed -i '1 i\#![allow(ambiguous_glob_reexports)]' lib.rs
+    //#RUN sed -i '1 i\#![allow(ambiguous_glob_imports)]' lib.rs
+    // TODO:
+    //#RUN sed -i '1 i\#![allow(unused_parens)]' lib.rs
+    //#RUN sed -i '1 i\#![allow(unused_imports)]' lib.rs
+
+    // One very specific fix.
+    for (_, source_text) in &mut source_files {
+        *source_text = source_text.replace("(8).wrapping_mul", "(8u64).wrapping_mul");
+    }
+
+    // TODO:
+    /*
+    # There are many structs named `l_array_*_uint*_t` which have a single field with an array.
+    # These structs are redefined locally in each module. Unfortunately, when a function that returns
+    # a struct like this is called from a different module, the Rust compiler will yield a compilation
+    # error due to the returned struct being different from the locally-defined one, even though they
+    # are identical.
+    # To solve this, we prefix all references to these structs with `crate::`, which guarantees that
+    # they all use the same definition.
+    #RUN cd src && for f in *.rs; do sed -i 's/pub struct l_array_\([_a-zA-Z0-9]*\) {/pub struct __tmp_rename_array_\1 {/g' $f; done
+    #RUN cd src && for f in *.rs; do sed -i 's/ \(l_array_[_a-zA-Z0-9]*\)/ crate::\1/g' $f; done
+    #RUN cd src && for f in *.rs; do sed -i 's/pub struct __tmp_rename_array_\([_a-zA-Z0-9]*\) {/pub struct l_array_\1 {/g' $f; done
+    */
+
+    // In practice, the Rust code only ever works through raw pointers
+    // We replace `&mut *some_val` with `&raw mut *some_val` (and same with `const`).
+    // This has the effect of removing compilation errors due to `as *mut other_type` converting from
+    // a reference of identically-named but different `other_type`.
+    // It also solves some unaligned pointer grabbing errors.
+    for (_, source_text) in &mut source_files {
+        *source_text = source_text.replace("&*", "&raw const *");
+        *source_text = source_text.replace("&mut *", "&raw mut *");
+        *source_text = source_text.replace("&(*", "&raw const (*");
+        *source_text = source_text.replace("&mut (*", "&raw mut (*");
     }
 
     // Now parse all the source files.
