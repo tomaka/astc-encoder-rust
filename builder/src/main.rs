@@ -92,10 +92,11 @@ fn main() {
     }
 
     // The Rust files contain a lot of function definitions that are normally exported
-    // in the original source code. We remove the `extern "C"` and keep track of them.
-    // TODO: consider removing the duplicates?
-    let mut function_definitions = Vec::new();
+    // and re-imported in other modules. We remove duplicates and remove the `extern "C"`.
+    // We also keep track of them in order to later fix paths.
+    let mut symbol_definitions = HashMap::new();
     for (source_file_path, source_content) in source_files.iter_mut() {
+        let mut duplicate_fns = Vec::new();
         for item_fn in source_content
             .items
             .iter_mut()
@@ -108,11 +109,21 @@ fn main() {
             // Remove `extern "C"`.
             item_fn.sig.abi = None;
 
-            function_definitions.push((
-                source_file_path.file_stem().unwrap().to_owned(),
+            if symbol_definitions.contains_key(&item_fn.sig.ident) {
+                duplicate_fns.push(item_fn.sig.ident.clone());
+                continue;
+            }
+
+            symbol_definitions.insert(
                 item_fn.sig.ident.clone(),
-            ));
+                source_file_path.file_stem().unwrap().to_owned(),
+            );
         }
+
+        source_content.items.retain(|item| match item {
+            syn::Item::Fn(f) => !duplicate_fns.contains(&f.sig.ident),
+            _ => true,
+        })
     }
 
     // Now find all expressions in the source code and perform tweaks.
@@ -248,10 +259,8 @@ fn main() {
                         // This is where we actually do some modifications.
                         // If referring to a function that is defined in a different module,
                         // we modify the path to point to that function.
-                        if let Some(module) = function_definitions
-                            .iter()
-                            .find(|(_, f)| path.path.segments.iter().next().unwrap().ident == *f)
-                            .map(|(f, _)| f)
+                        if let Some(module) =
+                            symbol_definitions.get(&path.path.segments.iter().next().unwrap().ident)
                         {
                             let mut new_path = syn::punctuated::Punctuated::new();
                             new_path
