@@ -251,7 +251,12 @@ fn main() {
                         exprs.push(&mut ty.len);
                         types.push(&mut *ty.elem);
                     }
-                    syn::Type::BareFn(ty) => todo!(),
+                    syn::Type::BareFn(ty) => {
+                        types.extend(ty.inputs.iter_mut().map(|t| &mut t.ty));
+                        if let syn::ReturnType::Type(_, ty) = &mut ty.output {
+                            types.push(&mut **ty);
+                        }
+                    }
                     syn::Type::Group(ty) => types.push(&mut *ty.elem),
                     syn::Type::ImplTrait(ty) => todo!(),
                     syn::Type::Infer(_) => {}
@@ -302,7 +307,8 @@ fn main() {
                                 syn::Fields::Unnamed(f) => Some(&mut f.unnamed),
                                 syn::Fields::Unit => None,
                             }
-                            .into_iter().flat_map(|p| p.iter_mut())
+                            .into_iter()
+                            .flat_map(|p| p.iter_mut())
                             .map(|f| &mut f.ty),
                         );
                     }
