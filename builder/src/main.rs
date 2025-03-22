@@ -245,6 +245,7 @@ fn main() {
                     new_path.push(path.segments.iter().next().unwrap().clone());
                     path.segments = new_path;
                 }
+                continue;
             }
 
             if let Some(stmt) = stmts.pop() {
@@ -276,6 +277,9 @@ fn main() {
                     syn::Pat::Paren(pat) => pats.push(&mut *pat.pat),
                     syn::Pat::Path(pat) => {
                         paths.push(&mut pat.path);
+                        if let Some(ty) = &mut pat.qself {
+                            types.push(&mut ty.ty);
+                        }
                     }
                     syn::Pat::Range(pat) => exprs.extend(
                         pat.start
@@ -312,6 +316,8 @@ fn main() {
                         types.push(&mut *ty.elem);
                     }
                     syn::Type::BareFn(ty) => {
+                        // We clear the `extern "C"`, as we removed them all.
+                        ty.abi = None;
                         types.extend(ty.inputs.iter_mut().map(|t| &mut t.ty));
                         if let syn::ReturnType::Type(_, ty) = &mut ty.output {
                             types.push(&mut **ty);
@@ -323,7 +329,12 @@ fn main() {
                     syn::Type::Macro(ty) => todo!(),
                     syn::Type::Never(_) => {}
                     syn::Type::Paren(ty) => types.push(&mut *ty.elem),
-                    syn::Type::Path(ty) => paths.push(&mut ty.path),
+                    syn::Type::Path(ty) => {
+                        paths.push(&mut ty.path);
+                        if let Some(ty) = &mut ty.qself {
+                            types.push(&mut ty.ty);
+                        }
+                    }
                     syn::Type::Ptr(ty) => types.push(&mut *ty.elem),
                     syn::Type::Reference(ty) => types.push(&mut *ty.elem),
                     syn::Type::Slice(ty) => types.push(&mut *ty.elem),
@@ -481,6 +492,9 @@ fn main() {
                     syn::Expr::Paren(e) => exprs.push(&mut *e.expr),
                     syn::Expr::Path(e) => {
                         paths.push(&mut e.path);
+                        if let Some(ty) = &mut e.qself {
+                            types.push(&mut ty.ty);
+                        }
                     }
                     syn::Expr::Range(e) => {
                         exprs.extend(e.start.as_mut().map(|e| &mut **e).into_iter());
