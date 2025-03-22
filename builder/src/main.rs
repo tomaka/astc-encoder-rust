@@ -257,6 +257,9 @@ fn main() {
                                     <syn::Token!(crate)>::default(),
                                 )));
                             new_path.push(syn::PathSegment::from(
+                                syn::parse_str::<syn::Ident>("src").unwrap(),
+                            ));
+                            new_path.push(syn::PathSegment::from(
                                 syn::parse_str::<syn::Ident>(module.to_str().unwrap()).unwrap(),
                             ));
                             new_path.push(path.path.segments.iter().next().unwrap().clone());
