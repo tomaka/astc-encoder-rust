@@ -157,13 +157,38 @@ fn main() {
 
     // Now find all expressions in the source code and perform tweaks.
     for (_, source_content) in source_files.iter_mut() {
+        let mut paths = Vec::<&mut syn::Path>::new();
         let mut exprs = Vec::<&mut syn::Expr>::new();
         let mut stmts = Vec::<&mut syn::Stmt>::new();
         let mut items = Vec::<&mut syn::Item>::new();
+        let mut pats = Vec::<&mut syn::Pat>::new();
+        let mut types = Vec::<&mut syn::Type>::new();
 
         items.extend(source_content.items.iter_mut());
 
         loop {
+            if let Some(path) = paths.pop() {
+                // This is where we actually do some modifications.
+                // If referring to a function or struct that is defined in a different module,
+                // we modify the path to point to that function/struct.
+                if let Some(module) =
+                    symbol_definitions.get(&path.segments.iter().next().unwrap().ident)
+                {
+                    let mut new_path = syn::punctuated::Punctuated::new();
+                    new_path.push(syn::PathSegment::from(syn::Ident::from(
+                        <syn::Token!(crate)>::default(),
+                    )));
+                    new_path.push(syn::PathSegment::from(
+                        syn::parse_str::<syn::Ident>("src").unwrap(),
+                    ));
+                    new_path.push(syn::PathSegment::from(
+                        syn::parse_str::<syn::Ident>(module.to_str().unwrap()).unwrap(),
+                    ));
+                    new_path.push(path.segments.iter().next().unwrap().clone());
+                    path.segments = new_path;
+                }
+            }
+
             if let Some(stmt) = stmts.pop() {
                 match stmt {
                     syn::Stmt::Local(syn::Local {
@@ -181,20 +206,106 @@ fn main() {
                 continue;
             }
 
+            if let Some(pat) = pats.pop() {
+                match pat {
+                    syn::Pat::Const(pat) => stmts.extend(pat.block.stmts.iter_mut()),
+                    syn::Pat::Ident(_) => {}
+                    syn::Pat::Lit(_) => {}
+                    syn::Pat::Macro(_) => todo!(),
+                    syn::Pat::Or(pat) => pats.extend(pat.cases.iter_mut()),
+                    syn::Pat::Paren(pat) => pats.push(&mut *pat.pat),
+                    syn::Pat::Path(pat) => {
+                        paths.push(&mut pat.path);
+                    }
+                    syn::Pat::Range(pat) => exprs.extend(
+                        pat.start
+                            .as_mut()
+                            .into_iter()
+                            .chain(pat.end.as_mut())
+                            .map(|e| &mut **e),
+                    ),
+                    syn::Pat::Reference(pat) => pats.push(&mut *pat.pat),
+                    syn::Pat::Rest(_) => {}
+                    syn::Pat::Slice(pat) => pats.extend(pat.elems.iter_mut()),
+                    syn::Pat::Struct(pat) => {
+                        paths.push(&mut pat.path);
+                        // TODO: fields
+                        todo!()
+                    }
+                    syn::Pat::Tuple(pat) => pats.extend(pat.elems.iter_mut()),
+                    syn::Pat::TupleStruct(pat) => todo!(),
+                    syn::Pat::Type(pat) => {
+                        pats.push(&mut *pat.pat);
+                        types.push(&mut *pat.ty);
+                    }
+                    syn::Pat::Verbatim(_) => unimplemented!(),
+                    syn::Pat::Wild(_) => {}
+                    _ => unimplemented!(),
+                }
+                continue;
+            }
+
+            if let Some(ty) = types.pop() {
+                match ty {
+                    syn::Type::Array(ty) => {
+                        exprs.push(&mut ty.len);
+                        types.push(&mut *ty.elem);
+                    }
+                    syn::Type::BareFn(ty) => todo!(),
+                    syn::Type::Group(ty) => types.push(&mut *ty.elem),
+                    syn::Type::ImplTrait(ty) => todo!(),
+                    syn::Type::Infer(_) => {}
+                    syn::Type::Macro(ty) => todo!(),
+                    syn::Type::Never(_) => {}
+                    syn::Type::Paren(ty) => types.push(&mut *ty.elem),
+                    syn::Type::Path(ty) => paths.push(&mut ty.path),
+                    syn::Type::Ptr(ty) => types.push(&mut *ty.elem),
+                    syn::Type::Reference(ty) => types.push(&mut *ty.elem),
+                    syn::Type::Slice(ty) => types.push(&mut *ty.elem),
+                    syn::Type::TraitObject(ty) => todo!(),
+                    syn::Type::Tuple(ty) => types.extend(ty.elems.iter_mut()),
+                    syn::Type::Verbatim(_) => unimplemented!(),
+                    _ => unimplemented!(),
+                }
+                continue;
+            }
+
             if let Some(item) = items.pop() {
                 match item {
-                    syn::Item::Const(c) => exprs.push(&mut *c.expr),
+                    syn::Item::Const(c) => {
+                        exprs.push(&mut *c.expr);
+                        types.push(&mut c.ty);
+                    }
                     syn::Item::Enum(_) => {}
                     syn::Item::ExternCrate(_) => {}
-                    syn::Item::Fn(f) => stmts.extend(f.block.stmts.iter_mut()),
+                    syn::Item::Fn(f) => {
+                        stmts.extend(f.block.stmts.iter_mut());
+                        types.extend(f.sig.inputs.iter_mut().map(|i| match i {
+                            syn::FnArg::Receiver(r) => &mut *r.ty,
+                            syn::FnArg::Typed(t) => &mut *t.ty, // FIXME: also a Pat here
+                        }));
+                    }
                     syn::Item::ForeignMod(_) => {}
                     syn::Item::Impl(_) => todo!(),
                     syn::Item::Macro(_) => unimplemented!(),
                     syn::Item::Mod(m) => {
                         items.extend(m.content.as_mut().into_iter().flat_map(|c| c.1.iter_mut()))
                     }
-                    syn::Item::Static(s) => exprs.push(&mut s.expr),
-                    syn::Item::Struct(_) => {}
+                    syn::Item::Static(s) => {
+                        exprs.push(&mut s.expr);
+                        types.push(&mut s.ty);
+                    }
+                    syn::Item::Struct(s) => {
+                        types.extend(
+                            match &mut s.fields {
+                                syn::Fields::Named(f) => Some(&mut f.named),
+                                syn::Fields::Unnamed(f) => Some(&mut f.unnamed),
+                                syn::Fields::Unit => None,
+                            }
+                            .into_iter().flat_map(|p| p.iter_mut())
+                            .map(|f| &mut f.ty),
+                        );
+                    }
                     syn::Item::Trait(t) => {
                         for i in t.items.iter_mut() {
                             match i {
@@ -210,10 +321,17 @@ fn main() {
                                 _ => {}
                             }
                         }
+                        // TODO: field types
+                        todo!()
                     }
                     syn::Item::TraitAlias(_) => {}
-                    syn::Item::Type(_) => {}
-                    syn::Item::Union(_) => {}
+                    syn::Item::Type(t) => {
+                        types.push(&mut t.ty);
+                    }
+                    syn::Item::Union(_) => {
+                        // TODO: field types
+                        todo!()
+                    }
                     syn::Item::Use(_) => {}
                     syn::Item::Verbatim(_) => unimplemented!(),
                     _ => unimplemented!(),
@@ -284,27 +402,8 @@ fn main() {
                         exprs.extend(e.args.iter_mut())
                     }
                     syn::Expr::Paren(e) => exprs.push(&mut *e.expr),
-                    syn::Expr::Path(path) => {
-                        // This is where we actually do some modifications.
-                        // If referring to a function that is defined in a different module,
-                        // we modify the path to point to that function.
-                        if let Some(module) =
-                            symbol_definitions.get(&path.path.segments.iter().next().unwrap().ident)
-                        {
-                            let mut new_path = syn::punctuated::Punctuated::new();
-                            new_path
-                                .push(syn::PathSegment::from(syn::Ident::from(
-                                    <syn::Token!(crate)>::default(),
-                                )));
-                            new_path.push(syn::PathSegment::from(
-                                syn::parse_str::<syn::Ident>("src").unwrap(),
-                            ));
-                            new_path.push(syn::PathSegment::from(
-                                syn::parse_str::<syn::Ident>(module.to_str().unwrap()).unwrap(),
-                            ));
-                            new_path.push(path.path.segments.iter().next().unwrap().clone());
-                            path.path.segments = new_path;
-                        }
+                    syn::Expr::Path(e) => {
+                        paths.push(&mut e.path);
                     }
                     syn::Expr::Range(e) => {
                         exprs.extend(e.start.as_mut().map(|e| &mut **e).into_iter());
@@ -322,6 +421,7 @@ fn main() {
                     syn::Expr::Struct(e) => {
                         exprs.extend(e.fields.iter_mut().map(|f| &mut f.expr));
                         exprs.extend(e.rest.as_mut().map(|e| &mut **e).into_iter());
+                        paths.push(&mut e.path);
                     }
                     syn::Expr::Try(e) => exprs.push(&mut *e.expr),
                     syn::Expr::TryBlock(e) => stmts.extend(e.block.stmts.iter_mut()),
