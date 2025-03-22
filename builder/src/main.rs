@@ -126,6 +126,35 @@ fn main() {
         })
     }
 
+    // Do the same for struct definitions.
+    for (source_file_path, source_content) in source_files.iter_mut() {
+        let mut duplicate_structs = Vec::new();
+        for item_struct in source_content
+            .items
+            .iter_mut()
+            .filter_map(|item| match item {
+                syn::Item::Struct(s) => Some(s),
+                _ => None,
+            })
+            .filter(|s| matches!(s.vis, syn::Visibility::Public(_)))
+        {
+            if symbol_definitions.contains_key(&item_struct.ident) {
+                duplicate_structs.push(item_struct.ident.clone());
+                continue;
+            }
+
+            symbol_definitions.insert(
+                item_struct.ident.clone(),
+                source_file_path.file_stem().unwrap().to_owned(),
+            );
+        }
+
+        source_content.items.retain(|item| match item {
+            syn::Item::Struct(s) => !duplicate_structs.contains(&s.ident),
+            _ => true,
+        })
+    }
+
     // Now find all expressions in the source code and perform tweaks.
     for (_, source_content) in source_files.iter_mut() {
         let mut exprs = Vec::<&mut syn::Expr>::new();
