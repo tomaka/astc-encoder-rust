@@ -96,6 +96,26 @@ fn main() {
             .retain(|item| !matches!(item, syn::Item::ForeignMod(_)));
     }
 
+    // The Rust files contain a lot of function definitions that are normally exported
+    // in the original source code. We remove the `extern "C"` and keep track of them.
+    let mut function_definitions = HashMap::new();
+    for (source_file_path, source_content) in source_files.iter_mut() {
+        for item_fn in source_content
+            .items
+            .iter_mut()
+            .filter_map(|item| match item {
+                syn::Item::Fn(f) => Some(f),
+                _ => None,
+            })
+        {
+            // Remove `extern "C"`.
+            item_fn.sig.abi = None;
+
+            // TODO: don't insert path but module name
+            function_definitions.insert(source_file_path, item_fn.sig.ident.clone());
+        }
+    }
+
     // Write the modifications.
     for (target_path, target_content) in source_files {
         let content = quote::ToTokens::into_token_stream(target_content).to_string();
